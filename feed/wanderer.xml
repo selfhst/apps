@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wanderer Releases</title>
-  <updated>2024-03-27T06:16:50.955206-04:00</updated>
+  <updated>2024-03-27T08:40:31.129157-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -78,5 +78,26 @@
 &lt;li&gt;added complete API documentation&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Flomp/wanderer/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Flomp/wanderer/releases/tag/v0.2.1</id>
+    <title>New release for Wanderer: v0.2.1</title>
+    <updated>2024-03-27T08:37:30-04:00</updated>
+    <author>
+      <name>Flomp/wanderer</name>
+    </author>
+    <content>&lt;h1&gt;v0.2.1&lt;/h1&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;summit book dates now show in the correct format for the current locale&lt;/li&gt;
+&lt;li&gt;fixed a bug that would overwrite trail names and descriptions when editing a trail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Translations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;adds Dutch translation (thanks to &lt;a href="https://github.com/yves-bonami"&gt;yves-bonami&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;adds Polish translation (thanks to &lt;a href="https://github.com/ludrol"&gt;ludrol&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;adds Portuguese translation (thanks to &lt;a href="https://github.com/poVoq"&gt;poVoq&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/Flomp/wanderer/releases/tag/v0.2.1" rel="alternate"/>
   </entry>
 </feed>
