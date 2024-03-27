@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MeshCentral Releases</title>
-  <updated>2024-03-27T09:24:15.993873-04:00</updated>
+  <updated>2024-03-27T11:22:20.643254-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,7 +126,8 @@
     <author>
       <name>Ylianst/MeshCentral</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;&lt;strong&gt;YOU MUST USE NODE 16 OR ABOVE GOING FORWARD&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;fbae83dd Version 1.1.22&lt;/li&gt;
 &lt;li&gt;8498414a Doc update - Agent Invitation Customization (#5937)&lt;/li&gt;
 &lt;li&gt;d33aa25e Updated Spanish translation.&lt;/li&gt;
