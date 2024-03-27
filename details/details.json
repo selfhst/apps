@@ -14,7 +14,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog,Content Management,Static Site",
         "Alternatives": "Medium",
-        "Feed URL": "https://selfhst.github.io/releases/feed/hugo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/hugo.xml"
     },
     {
         "Project": "Home Assistant",
@@ -31,7 +31,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Internet of Things,Home Automation,Smart Home",
         "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa",
-        "Feed URL": "https://selfhst.github.io/releases/feed/home-assistant.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/home-assistant.xml"
     },
     {
         "Project": "code-server",
@@ -48,7 +48,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/code-server.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/code-server.xml"
     },
     {
         "Project": "Supabase",
@@ -65,7 +65,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Mobile App Development",
         "Alternatives": "Firebase",
-        "Feed URL": "https://selfhst.github.io/releases/feed/supabase.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/supabase.xml"
     },
     {
         "Project": "Ansible",
@@ -82,7 +82,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Process Automation",
         "Alternatives": "IFTTT,Zapier",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ansible.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ansible.xml"
     },
     {
         "Project": "Grafana",
@@ -99,7 +99,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Visualization",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/grafana.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/grafana.xml"
     },
     {
         "Project": "Syncthing",
@@ -116,7 +116,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Transfer and Sync",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/syncthing.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/syncthing.xml"
     },
     {
         "Project": "Gatsby",
@@ -133,7 +133,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog,Content Management,Static Site",
         "Alternatives": "Medium",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gatsby.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gatsby.xml"
     },
     {
         "Project": "Caddy",
@@ -150,7 +150,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Reverse Proxy,Web Server",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/caddy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/caddy.xml"
     },
     {
         "Project": "Prometheus",
@@ -167,7 +167,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring,Database",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/prometheus.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/prometheus.xml"
     },
     {
         "Project": "Jekyll",
@@ -184,7 +184,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog,Content Management,Static Site",
         "Alternatives": "Medium",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jekyll.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jekyll.xml"
     },
     {
         "Project": "Uptime-Kuma",
@@ -201,7 +201,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring,Uptime Monitoring,Docker",
         "Alternatives": "UptimeRobot",
-        "Feed URL": "https://selfhst.github.io/releases/feed/uptime-kuma.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/uptime-kuma.xml"
     },
     {
         "Project": "AppFlowy",
@@ -218,7 +218,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/appflowy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/appflowy.xml"
     },
     {
         "Project": "Traefik",
@@ -235,7 +235,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Reverse Proxy,Web Server",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/traefik.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/traefik.xml"
     },
     {
         "Project": "Pi-hole",
@@ -252,7 +252,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Ad Block",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pi-hole.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pi-hole.xml"
     },
     {
         "Project": "Mastodon",
@@ -269,7 +269,7 @@
         "Latest Commit Color": "Green",
         "Tags": "ActivityPub / Fediverse,Social Media,Social Media - Microblog",
         "Alternatives": "Facebook,X (Twitter)",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mastodon.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mastodon.xml"
     },
     {
         "Project": "Ghost",
@@ -286,7 +286,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog,Content Management,Newsletters",
         "Alternatives": "Medium,Substack",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ghost.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ghost.xml"
     },
     {
         "Project": "Minio",
@@ -303,7 +303,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Object Storage",
         "Alternatives": "Amazon S3 / AWS",
-        "Feed URL": "https://selfhst.github.io/releases/feed/minio.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/minio.xml"
     },
     {
         "Project": "Joplin",
@@ -320,7 +320,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/joplin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/joplin.xml"
     },
     {
         "Project": "NocoDB",
@@ -337,7 +337,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code,Database,Spreadsheet",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nocodb.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nocodb.xml"
     },
     {
         "Project": "Gitea",
@@ -354,7 +354,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Git",
         "Alternatives": "GitHub",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gitea.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gitea.xml"
     },
     {
         "Project": "Huginn",
@@ -371,7 +371,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Process Automation",
         "Alternatives": "IFTTT,Zapier",
-        "Feed URL": "https://selfhst.github.io/releases/feed/huginn.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/huginn.xml"
     },
     {
         "Project": "Appwrite",
@@ -388,7 +388,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Mobile App Development",
         "Alternatives": "Firebase",
-        "Feed URL": "https://selfhst.github.io/releases/feed/appwrite.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/appwrite.xml"
     },
     {
         "Project": "Discourse",
@@ -405,7 +405,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Forums",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/discourse.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/discourse.xml"
     },
     {
         "Project": "n8n",
@@ -422,7 +422,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Process Automation",
         "Alternatives": "IFTTT,Zapier",
-        "Feed URL": "https://selfhst.github.io/releases/feed/n8n.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/n8n.xml"
     },
     {
         "Project": "Rocket.Chat",
@@ -439,7 +439,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Messaging",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/rocket-chat.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/rocket-chat.xml"
     },
     {
         "Project": "Metabase",
@@ -456,7 +456,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Visualization,Statistics",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/metabase.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/metabase.xml"
     },
     {
         "Project": "Vaultwarden",
@@ -473,7 +473,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Password Manager,Authentication,2FA",
         "Alternatives": "LastPass,Authy,Google Authenticator",
-        "Feed URL": "https://selfhst.github.io/releases/feed/vaultwarden.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/vaultwarden.xml"
     },
     {
         "Project": "PhotoPrism",
@@ -490,7 +490,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/photoprism.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/photoprism.xml"
     },
     {
         "Project": "Appsmith",
@@ -507,7 +507,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/appsmith.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/appsmith.xml"
     },
     {
         "Project": "Plex",
@@ -524,7 +524,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/plex.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/plex.xml"
     },
     {
         "Project": "AFFiNE",
@@ -541,7 +541,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/affine.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/affine.xml"
     },
     {
         "Project": "Logseq",
@@ -558,7 +558,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/logseq.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/logseq.xml"
     },
     {
         "Project": "Jellyfin",
@@ -575,7 +575,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jellyfin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jellyfin.xml"
     },
     {
         "Project": "Immich",
@@ -592,7 +592,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/immich.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/immich.xml"
     },
     {
         "Project": "Portainer",
@@ -609,7 +609,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/portainer.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/portainer.xml"
     },
     {
         "Project": "Mattermost",
@@ -626,7 +626,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Messaging",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mattermost.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mattermost.xml"
     },
     {
         "Project": "InfluxDB",
@@ -643,7 +643,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Database",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/influxdb.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/influxdb.xml"
     },
     {
         "Project": "memos",
@@ -660,7 +660,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/memos.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/memos.xml"
     },
     {
         "Project": "ToolJet",
@@ -677,7 +677,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tooljet.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tooljet.xml"
     },
     {
         "Project": "Maybe",
@@ -694,7 +694,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/maybe.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/maybe.xml"
     },
     {
         "Project": "Nextcloud",
@@ -711,7 +711,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management,File Transfer and Sync,Cloud Storage",
         "Alternatives": "Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nextcloud.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nextcloud.xml"
     },
     {
         "Project": "Trilium",
@@ -728,7 +728,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/trilium.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/trilium.xml"
     },
     {
         "Project": "Outline",
@@ -745,7 +745,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/outline.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/outline.xml"
     },
     {
         "Project": "restic",
@@ -762,7 +762,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Backups",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/restic.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/restic.xml"
     },
     {
         "Project": "Wiki.js",
@@ -779,7 +779,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wiki-js.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wiki-js.xml"
     },
     {
         "Project": "FileBrowser",
@@ -796,7 +796,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/filebrowser.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/filebrowser.xml"
     },
     {
         "Project": "AdGuard Home",
@@ -813,7 +813,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Ad Block",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/adguard-home.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/adguard-home.xml"
     },
     {
         "Project": "Medusa",
@@ -830,7 +830,7 @@
         "Latest Commit Color": "Green",
         "Tags": "E-commerce",
         "Alternatives": "Shopify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/medusa.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/medusa.xml"
     },
     {
         "Project": "Loki",
@@ -847,7 +847,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Logs",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/loki.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/loki.xml"
     },
     {
         "Project": "Jitsi Meet",
@@ -864,7 +864,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Video Conferencing",
         "Alternatives": "Zoom",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jitsi-meet.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jitsi-meet.xml"
     },
     {
         "Project": "Monica",
@@ -881,7 +881,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/monica.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/monica.xml"
     },
     {
         "Project": "Budibase",
@@ -898,7 +898,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/budibase.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/budibase.xml"
     },
     {
         "Project": "Emby",
@@ -915,7 +915,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/emby.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/emby.xml"
     },
     {
         "Project": "Stirling PDF",
@@ -932,7 +932,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/stirling-pdf.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/stirling-pdf.xml"
     },
     {
         "Project": "Reactive Resume",
@@ -949,7 +949,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Landing Page",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/reactive-resume.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/reactive-resume.xml"
     },
     {
         "Project": "Keycloak",
@@ -966,7 +966,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Identity Management,Authentication",
         "Alternatives": "Okta",
-        "Feed URL": "https://selfhst.github.io/releases/feed/keycloak.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/keycloak.xml"
     },
     {
         "Project": "Authelia",
@@ -983,7 +983,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Identity Management,Authentication",
         "Alternatives": "Okta",
-        "Feed URL": "https://selfhst.github.io/releases/feed/authelia.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/authelia.xml"
     },
     {
         "Project": "Umami",
@@ -1000,7 +1000,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Analytics",
         "Alternatives": "Google Analytics",
-        "Feed URL": "https://selfhst.github.io/releases/feed/umami.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/umami.xml"
     },
     {
         "Project": "Nginx Proxy Manager",
@@ -1017,7 +1017,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Reverse Proxy,Web Server",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nginx-proxy-manager.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nginx-proxy-manager.xml"
     },
     {
         "Project": "WeKan",
@@ -1034,7 +1034,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wekan.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wekan.xml"
     },
     {
         "Project": "Headscale",
@@ -1051,7 +1051,7 @@
         "Latest Commit Color": "Green",
         "Tags": "VPN,Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/headscale.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/headscale.xml"
     },
     {
         "Project": "Matomo",
@@ -1068,7 +1068,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Analytics",
         "Alternatives": "Google Analytics",
-        "Feed URL": "https://selfhst.github.io/releases/feed/matomo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/matomo.xml"
     },
     {
         "Project": "KeePassXC",
@@ -1085,7 +1085,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Password Manager",
         "Alternatives": "LastPass",
-        "Feed URL": "https://selfhst.github.io/releases/feed/keepassxc.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/keepassxc.xml"
     },
     {
         "Project": "WordPress",
@@ -1102,7 +1102,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog,Content Management",
         "Alternatives": "Medium",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wordpress.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wordpress.xml"
     },
     {
         "Project": "Payload",
@@ -1119,7 +1119,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Content Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/payload.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/payload.xml"
     },
     {
         "Project": "Node-RED",
@@ -1136,7 +1136,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Process Automation",
         "Alternatives": "IFTTT,Zapier",
-        "Feed URL": "https://selfhst.github.io/releases/feed/node-red.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/node-red.xml"
     },
     {
         "Project": "Plausible",
@@ -1153,7 +1153,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Analytics",
         "Alternatives": "Google Analytics",
-        "Feed URL": "https://selfhst.github.io/releases/feed/plausible.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/plausible.xml"
     },
     {
         "Project": "Czkawka",
@@ -1170,7 +1170,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,File Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/czkawka.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/czkawka.xml"
     },
     {
         "Project": "Watchtower",
@@ -1187,7 +1187,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/watchtower.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/watchtower.xml"
     },
     {
         "Project": "Paperless-ngx",
@@ -1204,7 +1204,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/paperless-ngx.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/paperless-ngx.xml"
     },
     {
         "Project": "ntfy",
@@ -1221,7 +1221,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Notifications",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ntfy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ntfy.xml"
     },
     {
         "Project": "Tailscale",
@@ -1238,7 +1238,7 @@
         "Latest Commit Color": "Green",
         "Tags": "VPN,Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tailscale.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tailscale.xml"
     },
     {
         "Project": "Blue Iris",
@@ -1255,7 +1255,7 @@
         "Latest Commit Color": "Red",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/blue-iris.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/blue-iris.xml"
     },
     {
         "Project": "Dashy",
@@ -1272,7 +1272,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dashy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dashy.xml"
     },
     {
         "Project": "Homepage",
@@ -1289,7 +1289,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/homepage.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/homepage.xml"
     },
     {
         "Project": "ChangeDetection",
@@ -1306,7 +1306,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/changedetection.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/changedetection.xml"
     },
     {
         "Project": "Invidious",
@@ -1323,7 +1323,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos,Frontend",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/invidious.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/invidious.xml"
     },
     {
         "Project": "PostgreSQL",
@@ -1340,7 +1340,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Database",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/postgresql.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/postgresql.xml"
     },
     {
         "Project": "Frigate",
@@ -1357,7 +1357,7 @@
         "Latest Commit Color": "Green",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/frigate.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/frigate.xml"
     },
     {
         "Project": "Bitwarden",
@@ -1374,7 +1374,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Password Manager,Authentication,2FA",
         "Alternatives": "LastPass,Authy,Google Authenticator",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bitwarden.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bitwarden.xml"
     },
     {
         "Project": "Postal",
@@ -1391,7 +1391,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/postal.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/postal.xml"
     },
     {
         "Project": "Firefly III",
@@ -1408,7 +1408,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/firefly-iii.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/firefly-iii.xml"
     },
     {
         "Project": "BookStack",
@@ -1425,7 +1425,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bookstack.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bookstack.xml"
     },
     {
         "Project": "Mail-in-a-Box",
@@ -1442,7 +1442,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mail-in-a-box.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mail-in-a-box.xml"
     },
     {
         "Project": "listmonk",
@@ -1459,7 +1459,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Newsletters",
         "Alternatives": "Substack",
-        "Feed URL": "https://selfhst.github.io/releases/feed/listmonk.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/listmonk.xml"
     },
     {
         "Project": "Lemmy",
@@ -1476,7 +1476,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Forums,ActivityPub / Fediverse,Social News",
         "Alternatives": "Reddit",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lemmy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lemmy.xml"
     },
     {
         "Project": "PeerTube",
@@ -1493,7 +1493,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos,ActivityPub / Fediverse",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/peertube.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/peertube.xml"
     },
     {
         "Project": "Seafile",
@@ -1510,7 +1510,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Transfer and Sync,Cloud Storage",
         "Alternatives": "Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega",
-        "Feed URL": "https://selfhst.github.io/releases/feed/seafile.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/seafile.xml"
     },
     {
         "Project": "Calibre-Web",
@@ -1527,7 +1527,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/calibre-web.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/calibre-web.xml"
     },
     {
         "Project": "wg-easy",
@@ -1544,7 +1544,7 @@
         "Latest Commit Color": "Green",
         "Tags": "VPN,Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wg-easy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wg-easy.xml"
     },
     {
         "Project": "Jackett",
@@ -1561,7 +1561,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jackett.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jackett.xml"
     },
     {
         "Project": "Zigbee2MQTT",
@@ -1578,7 +1578,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Internet of Things",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/zigbee2mqtt.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/zigbee2mqtt.xml"
     },
     {
         "Project": "Puter",
@@ -1595,7 +1595,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Web Desktop",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/puter.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/puter.xml"
     },
     {
         "Project": "Apprise",
@@ -1612,7 +1612,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Notifications",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/apprise.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/apprise.xml"
     },
     {
         "Project": "Fail2Ban",
@@ -1629,7 +1629,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Security,Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/fail2ban.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/fail2ban.xml"
     },
     {
         "Project": "MySQL",
@@ -1646,7 +1646,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Database",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mysql.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mysql.xml"
     },
     {
         "Project": "YOURLS",
@@ -1663,7 +1663,7 @@
         "Latest Commit Color": "Green",
         "Tags": "URL Shortener",
         "Alternatives": "Bitly",
-        "Feed URL": "https://selfhst.github.io/releases/feed/yourls.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/yourls.xml"
     },
     {
         "Project": "Duplicati",
@@ -1680,7 +1680,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Backups",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/duplicati.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/duplicati.xml"
     },
     {
         "Project": "Gotify",
@@ -1697,7 +1697,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Notifications",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gotify.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gotify.xml"
     },
     {
         "Project": "Sonarr",
@@ -1714,7 +1714,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Television,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/sonarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/sonarr.xml"
     },
     {
         "Project": "Navidrome",
@@ -1731,7 +1731,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Music,Music Streaming",
         "Alternatives": "Apple Music,Spotify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/navidrome.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/navidrome.xml"
     },
     {
         "Project": "Wallabag",
@@ -1748,7 +1748,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Read Later",
         "Alternatives": "Pocket",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wallabag.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wallabag.xml"
     },
     {
         "Project": "Snipe-IT",
@@ -1765,7 +1765,7 @@
         "Latest Commit Color": "Green",
         "Tags": "",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/snipe-it.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/snipe-it.xml"
     },
     {
         "Project": "Filestash",
@@ -1782,7 +1782,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/filestash.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/filestash.xml"
     },
     {
         "Project": "IT-Tools",
@@ -1799,7 +1799,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/it-tools.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/it-tools.xml"
     },
     {
         "Project": "WooCommerce",
@@ -1816,7 +1816,7 @@
         "Latest Commit Color": "Green",
         "Tags": "E-commerce",
         "Alternatives": "Shopify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/woocommerce.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/woocommerce.xml"
     },
     {
         "Project": "Radarr",
@@ -1833,7 +1833,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Movies,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/radarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/radarr.xml"
     },
     {
         "Project": "Owncast",
@@ -1850,7 +1850,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Live Streaming",
         "Alternatives": "Twitch",
-        "Feed URL": "https://selfhst.github.io/releases/feed/owncast.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/owncast.xml"
     },
     {
         "Project": "Whoogle",
@@ -1867,7 +1867,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Search Engines",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/whoogle.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/whoogle.xml"
     },
     {
         "Project": "Shiori",
@@ -1884,7 +1884,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shiori.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shiori.xml"
     },
     {
         "Project": "Omnivore",
@@ -1901,7 +1901,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Read Later",
         "Alternatives": "Pocket",
-        "Feed URL": "https://selfhst.github.io/releases/feed/omnivore.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/omnivore.xml"
     },
     {
         "Project": "NetBird",
@@ -1918,7 +1918,7 @@
         "Latest Commit Color": "Green",
         "Tags": "VPN,Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/netbird.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/netbird.xml"
     },
     {
         "Project": "Homer",
@@ -1935,7 +1935,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/homer.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/homer.xml"
     },
     {
         "Project": "Dockge",
@@ -1952,7 +1952,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dockge.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dockge.xml"
     },
     {
         "Project": "ownCloud",
@@ -1969,7 +1969,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management,File Transfer and Sync,Cloud Storage",
         "Alternatives": "Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega",
-        "Feed URL": "https://selfhst.github.io/releases/feed/owncloud.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/owncloud.xml"
     },
     {
         "Project": "FreshRSS",
@@ -1986,7 +1986,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/freshrss.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/freshrss.xml"
     },
     {
         "Project": "Kanboard",
@@ -2003,7 +2003,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kanboard.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kanboard.xml"
     },
     {
         "Project": "SFTPGo",
@@ -2020,7 +2020,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Transfer and Sync",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/sftpgo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/sftpgo.xml"
     },
     {
         "Project": "Mailcow",
@@ -2037,7 +2037,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mailcow.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mailcow.xml"
     },
     {
         "Project": "Aegis",
@@ -2054,7 +2054,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Android,2FA",
         "Alternatives": "Authy,Google Authenticator",
-        "Feed URL": "https://selfhst.github.io/releases/feed/aegis.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/aegis.xml"
     },
     {
         "Project": "Cloudflared",
@@ -2071,7 +2071,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Reverse Proxy",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/cloudflared.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/cloudflared.xml"
     },
     {
         "Project": "TiddlyWiki",
@@ -2088,7 +2088,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tiddlywiki.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tiddlywiki.xml"
     },
     {
         "Project": "Invoice Ninja",
@@ -2105,7 +2105,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Accounting",
         "Alternatives": "Quickbooks,Xero",
-        "Feed URL": "https://selfhst.github.io/releases/feed/invoice-ninja.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/invoice-ninja.xml"
     },
     {
         "Project": "CrowdSec",
@@ -2122,7 +2122,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Security,Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/crowdsec.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/crowdsec.xml"
     },
     {
         "Project": "ESPHome",
@@ -2139,7 +2139,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Internet of Things,Home Automation,Smart Home",
         "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa",
-        "Feed URL": "https://selfhst.github.io/releases/feed/esphome.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/esphome.xml"
     },
     {
         "Project": "Heimdall",
@@ -2156,7 +2156,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/heimdall.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/heimdall.xml"
     },
     {
         "Project": "Tiny Tiny RSS",
@@ -2173,7 +2173,7 @@
         "Latest Commit Color": "Red",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tiny-tiny-rss.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tiny-tiny-rss.xml"
     },
     {
         "Project": "GitLab",
@@ -2190,7 +2190,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Git",
         "Alternatives": "GitHub",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gitlab.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gitlab.xml"
     },
     {
         "Project": "RSS Bridge",
@@ -2207,7 +2207,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/rss-bridge.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/rss-bridge.xml"
     },
     {
         "Project": "Newsblur",
@@ -2224,7 +2224,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/newsblur.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/newsblur.xml"
     },
     {
         "Project": "Mautic",
@@ -2241,7 +2241,7 @@
         "Latest Commit Color": "Green",
         "Tags": "",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mautic.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mautic.xml"
     },
     {
         "Project": "LibrePhotos",
@@ -2258,7 +2258,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/librephotos.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/librephotos.xml"
     },
     {
         "Project": "Tipi",
@@ -2275,7 +2275,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tipi.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tipi.xml"
     },
     {
         "Project": "Authentik",
@@ -2292,7 +2292,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Identity Management,Authentication",
         "Alternatives": "Okta",
-        "Feed URL": "https://selfhst.github.io/releases/feed/authentik.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/authentik.xml"
     },
     {
         "Project": "HumHub",
@@ -2309,7 +2309,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki,Social Media",
         "Alternatives": "Notion,Facebook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/humhub.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/humhub.xml"
     },
     {
         "Project": "Grocy",
@@ -2326,7 +2326,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Grocery Lists,Inventory Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/grocy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/grocy.xml"
     },
     {
         "Project": "Miniflux",
@@ -2343,7 +2343,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/miniflux.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/miniflux.xml"
     },
     {
         "Project": "Grist",
@@ -2360,7 +2360,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code,Database,Spreadsheet",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/grist.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/grist.xml"
     },
     {
         "Project": "step-ca",
@@ -2377,7 +2377,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Reverse Proxy",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/step-ca.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/step-ca.xml"
     },
     {
         "Project": "Mumble",
@@ -2394,7 +2394,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Video Conferencing,Messaging",
         "Alternatives": "Zoom",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mumble.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mumble.xml"
     },
     {
         "Project": "umbrelOS",
@@ -2411,7 +2411,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/umbrel-os.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/umbrel-os.xml"
     },
     {
         "Project": "PrivateBin",
@@ -2428,7 +2428,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Pastebin",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/privatebin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/privatebin.xml"
     },
     {
         "Project": "Linkwarden",
@@ -2445,7 +2445,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linkwarden.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linkwarden.xml"
     },
     {
         "Project": "Roundcube",
@@ -2462,7 +2462,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/roundcube.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/roundcube.xml"
     },
     {
         "Project": "FlareSolverr",
@@ -2479,7 +2479,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Networking,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/flaresolverr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/flaresolverr.xml"
     },
     {
         "Project": "Pixelfed",
@@ -2496,7 +2496,7 @@
         "Latest Commit Color": "Green",
         "Tags": "ActivityPub / Fediverse,Photos,Social Media - Photos",
         "Alternatives": "Google Photos,iCloud,Instagram",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pixelfed.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pixelfed.xml"
     },
     {
         "Project": "Mailu",
@@ -2513,7 +2513,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/maliu.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/maliu.xml"
     },
     {
         "Project": "Tautulli",
@@ -2530,7 +2530,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Statistics",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tautulli.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tautulli.xml"
     },
     {
         "Project": "Gatus",
@@ -2547,7 +2547,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring,Uptime Monitoring",
         "Alternatives": "UptimeRobot",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gatus.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gatus.xml"
     },
     {
         "Project": "SimpleX Chat",
@@ -2564,7 +2564,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Messaging",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/simplex-chat.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/simplex-chat.xml"
     },
     {
         "Project": "Mealie",
@@ -2581,7 +2581,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Recipes",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mealie.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mealie.xml"
     },
     {
         "Project": "AudioBookshelf",
@@ -2598,7 +2598,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Audiobook,Podcasts",
         "Alternatives": "Audible",
-        "Feed URL": "https://selfhst.github.io/releases/feed/audiobookshelf.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/audiobookshelf.xml"
     },
     {
         "Project": "FileRun",
@@ -2615,7 +2615,7 @@
         "Latest Commit Color": "Red",
         "Tags": "File Management,File Transfer and Sync,Cloud Storage",
         "Alternatives": "Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega",
-        "Feed URL": "https://selfhst.github.io/releases/feed/filerun.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/filerun.xml"
     },
     {
         "Project": "DocuSeal",
@@ -2632,7 +2632,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Electronic Signature",
         "Alternatives": "DocuSign",
-        "Feed URL": "https://selfhst.github.io/releases/feed/docuseal.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/docuseal.xml"
     },
     {
         "Project": "Libreddit",
@@ -2649,7 +2649,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Privacy,Social News,Frontend",
         "Alternatives": "Reddit",
-        "Feed URL": "https://selfhst.github.io/releases/feed/libreddit.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/libreddit.xml"
     },
     {
         "Project": "Kavita",
@@ -2666,7 +2666,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kavita.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kavita.xml"
     },
     {
         "Project": "Homarr",
@@ -2683,7 +2683,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/homarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/homarr.xml"
     },
     {
         "Project": "Tandoor Recipes",
@@ -2700,7 +2700,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Grocery Lists,Recipes",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tandoor-recipes.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tandoor-recipes.xml"
     },
     {
         "Project": "linkding",
@@ -2717,7 +2717,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linkding.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linkding.xml"
     },
     {
         "Project": "Standard Notes",
@@ -2734,7 +2734,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/standard-notes.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/standard-notes.xml"
     },
     {
         "Project": "Flame",
@@ -2751,7 +2751,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/flame.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/flame.xml"
     },
     {
         "Project": "Traccar",
@@ -2768,7 +2768,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/traccar.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/traccar.xml"
     },
     {
         "Project": "Obtainium",
@@ -2785,7 +2785,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Android",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/obtainium.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/obtainium.xml"
     },
     {
         "Project": "ZoneMinder",
@@ -2802,7 +2802,7 @@
         "Latest Commit Color": "Green",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/zoneminder.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/zoneminder.xml"
     },
     {
         "Project": "HedgeDoc",
@@ -2819,7 +2819,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/hedgedoc.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/hedgedoc.xml"
     },
     {
         "Project": "Photoview",
@@ -2836,7 +2836,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/photoview.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/photoview.xml"
     },
     {
         "Project": "Dozzle",
@@ -2853,7 +2853,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Logs,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dozzle.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dozzle.xml"
     },
     {
         "Project": "WriteFreely",
@@ -2870,7 +2870,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Blog",
         "Alternatives": "Medium",
-        "Feed URL": "https://selfhst.github.io/releases/feed/writefreely.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/writefreely.xml"
     },
     {
         "Project": "DokuWiki",
@@ -2887,7 +2887,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dokuwiki.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dokuwiki.xml"
     },
     {
         "Project": "Leantime",
@@ -2904,7 +2904,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/leantime.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/leantime.xml"
     },
     {
         "Project": "Tube Archivist",
@@ -2921,7 +2921,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tube-archivist.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tube-archivist.xml"
     },
     {
         "Project": "Automatisch",
@@ -2938,7 +2938,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Process Automation",
         "Alternatives": "IFTTT,Zapier",
-        "Feed URL": "https://selfhst.github.io/releases/feed/automatisch.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/automatisch.xml"
     },
     {
         "Project": "Dim",
@@ -2955,7 +2955,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dim.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dim.xml"
     },
     {
         "Project": "Scrypted",
@@ -2972,7 +2972,7 @@
         "Latest Commit Color": "Green",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/scrypted.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/scrypted.xml"
     },
     {
         "Project": "Ombi",
@@ -2989,7 +2989,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Requests",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ombi.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ombi.xml"
     },
     {
         "Project": "Restreamer",
@@ -3006,7 +3006,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Live Streaming",
         "Alternatives": "Twitch",
-        "Feed URL": "https://selfhst.github.io/releases/feed/restreamer.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/restreamer.xml"
     },
     {
         "Project": "GoToSocial",
@@ -3023,7 +3023,7 @@
         "Latest Commit Color": "Green",
         "Tags": "ActivityPub / Fediverse,Social Media - Microblog",
         "Alternatives": "X (Twitter)",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gotosocial.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gotosocial.xml"
     },
     {
         "Project": "Prowlarr",
@@ -3040,7 +3040,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/prowlarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/prowlarr.xml"
     },
     {
         "Project": "lldap",
@@ -3057,7 +3057,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Identity Management",
         "Alternatives": "Okta",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lldap.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lldap.xml"
     },
     {
         "Project": "Librum",
@@ -3074,7 +3074,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking,Books",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/librum.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/librum.xml"
     },
     {
         "Project": "Overseerr",
@@ -3091,7 +3091,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Requests",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/overseerr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/overseerr.xml"
     },
     {
         "Project": "Komga",
@@ -3108,7 +3108,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/komga.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/komga.xml"
     },
     {
         "Project": "Lidarr",
@@ -3125,7 +3125,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Music,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lidarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lidarr.xml"
     },
     {
         "Project": "Shaarli",
@@ -3142,7 +3142,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shaarli.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shaarli.xml"
     },
     {
         "Project": "MeshCentral",
@@ -3159,7 +3159,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/meshcentral.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/meshcentral.xml"
     },
     {
         "Project": "pyLoad",
@@ -3176,7 +3176,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pyload.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pyload.xml"
     },
     {
         "Project": "EverShop",
@@ -3193,7 +3193,7 @@
         "Latest Commit Color": "Green",
         "Tags": "E-commerce",
         "Alternatives": "Shopify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/evershop.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/evershop.xml"
     },
     {
         "Project": "Yacht",
@@ -3210,7 +3210,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/yacht.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/yacht.xml"
     },
     {
         "Project": "Lychee",
@@ -3227,7 +3227,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lychee.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lychee.xml"
     },
     {
         "Project": "Radicale",
@@ -3244,7 +3244,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Calendar,Contacts",
         "Alternatives": "Google Calendar,Google Contacts",
-        "Feed URL": "https://selfhst.github.io/releases/feed/radicale.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/radicale.xml"
     },
     {
         "Project": "Piwigo",
@@ -3261,7 +3261,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/piwigo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/piwigo.xml"
     },
     {
         "Project": "Pinry",
@@ -3278,7 +3278,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pinry.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pinry.xml"
     },
     {
         "Project": "Rallly",
@@ -3295,7 +3295,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Events,Event Polls",
         "Alternatives": "Doodle",
-        "Feed URL": "https://selfhst.github.io/releases/feed/rallly.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/rallly.xml"
     },
     {
         "Project": "AnonAddy",
@@ -3312,7 +3312,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email,Privacy",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/anonaddy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/anonaddy.xml"
     },
     {
         "Project": "OPNsense",
@@ -3329,7 +3329,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/opnsense.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/opnsense.xml"
     },
     {
         "Project": "Guacamole",
@@ -3346,7 +3346,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/guacamole.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/guacamole.xml"
     },
     {
         "Project": "Unbound",
@@ -3363,7 +3363,7 @@
         "Latest Commit Color": "Green",
         "Tags": "DNS,Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/unbound.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/unbound.xml"
     },
     {
         "Project": "wger",
@@ -3380,7 +3380,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness,Health and Wellness,Tracking",
         "Alternatives": "Strava,MyFitnessPal",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wger.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wger.xml"
     },
     {
         "Project": "Jellyseerr",
@@ -3397,7 +3397,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Requests",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jellyseerr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jellyseerr.xml"
     },
     {
         "Project": "Tvheadend",
@@ -3414,7 +3414,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Television,Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tvheadend.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tvheadend.xml"
     },
     {
         "Project": "Shlink",
@@ -3431,7 +3431,7 @@
         "Latest Commit Color": "Green",
         "Tags": "URL Shortener",
         "Alternatives": "Bitly",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shlink.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shlink.xml"
     },
     {
         "Project": "OhMyForm",
@@ -3448,7 +3448,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Surveys and Forms",
         "Alternatives": "Google Forms,Typeform,SurveyMonkey",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ohmyform.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ohmyform.xml"
     },
     {
         "Project": "Memories",
@@ -3465,7 +3465,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/memories.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/memories.xml"
     },
     {
         "Project": "Tdarr",
@@ -3482,7 +3482,7 @@
         "Latest Commit Color": "Green",
         "Tags": "*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tdarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tdarr.xml"
     },
     {
         "Project": "LimeSurvey",
@@ -3499,7 +3499,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Surveys and Forms",
         "Alternatives": "Google Forms,Typeform,SurveyMonkey",
-        "Feed URL": "https://selfhst.github.io/releases/feed/limesurvey.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/limesurvey.xml"
     },
     {
         "Project": "yarr",
@@ -3516,7 +3516,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/yarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/yarr.xml"
     },
     {
         "Project": "Actual Budget",
@@ -3533,7 +3533,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/actual-budget.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/actual-budget.xml"
     },
     {
         "Project": "Bazarr",
@@ -3550,7 +3550,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Subtitles,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bazarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bazarr.xml"
     },
     {
         "Project": "Readarr",
@@ -3567,7 +3567,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Books,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/readarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/readarr.xml"
     },
     {
         "Project": "MiroTalk",
@@ -3584,7 +3584,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Video Conferencing",
         "Alternatives": "Zoom",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mirotalk.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mirotalk.xml"
     },
     {
         "Project": "Stalwart Mail Server",
@@ -3601,7 +3601,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/stalwart-mail-server.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/stalwart-mail-server.xml"
     },
     {
         "Project": "Your Spotify",
@@ -3618,7 +3618,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking,Statistics,Year in Review",
         "Alternatives": "Spotify Wrapped",
-        "Feed URL": "https://selfhst.github.io/releases/feed/your-spotify.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/your-spotify.xml"
     },
     {
         "Project": "Cosmos",
@@ -3635,7 +3635,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/cosmos.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/cosmos.xml"
     },
     {
         "Project": "LinkAce",
@@ -3652,7 +3652,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linkace.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linkace.xml"
     },
     {
         "Project": "YoutubeDL-Material",
@@ -3669,7 +3669,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos,Downloads",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/youtubedl-material.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/youtubedl-material.xml"
     },
     {
         "Project": "Willow",
@@ -3686,7 +3686,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Smart Home,Voice Assistant",
         "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa,Google Assistant,Siri",
-        "Feed URL": "https://selfhst.github.io/releases/feed/willow.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/willow.xml"
     },
     {
         "Project": "Baikal",
@@ -3703,7 +3703,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Calendar,Contacts",
         "Alternatives": "Google Calendar,Google Contacts",
-        "Feed URL": "https://selfhst.github.io/releases/feed/baikal.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/baikal.xml"
     },
     {
         "Project": "Papermerge",
@@ -3720,7 +3720,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/papermerge.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/papermerge.xml"
     },
     {
         "Project": "MediaCMS",
@@ -3737,7 +3737,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mediacms.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mediacms.xml"
     },
     {
         "Project": "Rhasspy",
@@ -3754,7 +3754,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Smart Home,Voice Assistant",
         "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa,Google Assistant,Siri",
-        "Feed URL": "https://selfhst.github.io/releases/feed/rhasspy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/rhasspy.xml"
     },
     {
         "Project": "Homebox",
@@ -3771,7 +3771,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Inventory Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/homebox.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/homebox.xml"
     },
     {
         "Project": "Kill-the-Newsletter",
@@ -3788,7 +3788,7 @@
         "Latest Commit Color": "Red",
         "Tags": "RSS,Newsletters",
         "Alternatives": "Substack",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kill-the-newsletter.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kill-the-newsletter.xml"
     },
     {
         "Project": "Plex Meta Manager",
@@ -3805,7 +3805,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/plex-meta-manager.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/plex-meta-manager.xml"
     },
     {
         "Project": "MicroBin",
@@ -3822,7 +3822,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Pastebin,File Transfer and Sync",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/microbin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/microbin.xml"
     },
     {
         "Project": "Sshwifty",
@@ -3839,7 +3839,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/sshwifty.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/sshwifty.xml"
     },
     {
         "Project": "Papermark",
@@ -3856,7 +3856,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Sharing",
         "Alternatives": "DocSend",
-        "Feed URL": "https://selfhst.github.io/releases/feed/papermark.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/papermark.xml"
     },
     {
         "Project": "ddclient",
@@ -3873,7 +3873,7 @@
         "Latest Commit Color": "Green",
         "Tags": "DNS",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ddclient.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ddclient.xml"
     },
     {
         "Project": "Bigcapital",
@@ -3890,7 +3890,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Accounting",
         "Alternatives": "Quickbooks,Xero",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bigcapital.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bigcapital.xml"
     },
     {
         "Project": "Channels DVR",
@@ -3907,7 +3907,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Television,Media Streaming",
         "Alternatives": "Netflix,Disney+,Amazon Prime Video",
-        "Feed URL": "https://selfhst.github.io/releases/feed/channels-dvr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/channels-dvr.xml"
     },
     {
         "Project": "Baserow",
@@ -3924,7 +3924,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code,Database,Spreadsheet",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/baserow.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/baserow.xml"
     },
     {
         "Project": "Bitmagnet",
@@ -3941,7 +3941,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bitmagnet.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bitmagnet.xml"
     },
     {
         "Project": "SilverBullet",
@@ -3958,7 +3958,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/silverbullet.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/silverbullet.xml"
     },
     {
         "Project": "LinkStack",
@@ -3975,7 +3975,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Landing Page",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linkstack.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linkstack.xml"
     },
     {
         "Project": "Medusa",
@@ -3992,7 +3992,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Television",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pymedusa.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pymedusa.xml"
     },
     {
         "Project": "PiGallery2",
@@ -4009,7 +4009,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pigallery2.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pigallery2.xml"
     },
     {
         "Project": "undb",
@@ -4026,7 +4026,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code,Database,Spreadsheet",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/undb.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/undb.xml"
     },
     {
         "Project": "OliveTin",
@@ -4043,7 +4043,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Remote Access",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/olivetin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/olivetin.xml"
     },
     {
         "Project": "2FAuth",
@@ -4060,7 +4060,7 @@
         "Latest Commit Color": "Green",
         "Tags": "2FA",
         "Alternatives": "Authy,Google Authenticator",
-        "Feed URL": "https://selfhst.github.io/releases/feed/2fauth.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/2fauth.xml"
     },
     {
         "Project": "Podgrab",
@@ -4077,7 +4077,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Podcasts,Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/podgrab.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/podgrab.xml"
     },
     {
         "Project": "Grimoire",
@@ -4094,7 +4094,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/grimoire.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/grimoire.xml"
     },
     {
         "Project": "Saltcorn",
@@ -4111,7 +4111,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/saltcorn.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/saltcorn.xml"
     },
     {
         "Project": "sabre/dav",
@@ -4128,7 +4128,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Calendar,Contacts",
         "Alternatives": "Google Calendar,Google Contacts",
-        "Feed URL": "https://selfhst.github.io/releases/feed/sabre-dav.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/sabre-dav.xml"
     },
     {
         "Project": "EteSync",
@@ -4145,7 +4145,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists,Calendar,Contacts",
         "Alternatives": "Google Calendar,Google Contacts",
-        "Feed URL": "https://selfhst.github.io/releases/feed/etesync.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/etesync.xml"
     },
     {
         "Project": "Wallos",
@@ -4162,7 +4162,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wallos.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wallos.xml"
     },
     {
         "Project": "Peppermint",
@@ -4179,7 +4179,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Help Desk / Ticketing",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/peppermint.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/peppermint.xml"
     },
     {
         "Project": "Docspell",
@@ -4196,7 +4196,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/docspell.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/docspell.xml"
     },
     {
         "Project": "PiAlert",
@@ -4213,7 +4213,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pialert.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pialert.xml"
     },
     {
         "Project": "SecureAI Tools",
@@ -4230,7 +4230,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Artificial Intelligence",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/secureai-tools.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/secureai-tools.xml"
     },
     {
         "Project": "Viseron",
@@ -4247,7 +4247,7 @@
         "Latest Commit Color": "Green",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/viseron.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/viseron.xml"
     },
     {
         "Project": "LinuxServer.io Webtop",
@@ -4264,7 +4264,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Web Desktop",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linuxserver-webtop.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linuxserver-webtop.xml"
     },
     {
         "Project": "Damselfly",
@@ -4281,7 +4281,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/damselfly.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/damselfly.xml"
     },
     {
         "Project": "Fasten Health",
@@ -4298,7 +4298,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Medical",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/fasten-health.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/fasten-health.xml"
     },
     {
         "Project": "ProjectSend",
@@ -4315,7 +4315,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Sharing",
         "Alternatives": "DocSend",
-        "Feed URL": "https://selfhst.github.io/releases/feed/projectsend.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/projectsend.xml"
     },
     {
         "Project": "DDNS Updater",
@@ -4332,7 +4332,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Automation,DNS,Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ddns-updater.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ddns-updater.xml"
     },
     {
         "Project": "SmokePing",
@@ -4349,7 +4349,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/smokeping.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/smokeping.xml"
     },
     {
         "Project": "Ryot",
@@ -4366,7 +4366,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ryot.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ryot.xml"
     },
     {
         "Project": "Docker Socket Proxy",
@@ -4383,7 +4383,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Reverse Proxy,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/docker-socket-proxy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/docker-socket-proxy.xml"
     },
     {
         "Project": "Keila",
@@ -4400,7 +4400,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Newsletters",
         "Alternatives": "Substack",
-        "Feed URL": "https://selfhst.github.io/releases/feed/keila.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/keila.xml"
     },
     {
         "Project": "Forgejo",
@@ -4417,7 +4417,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Git",
         "Alternatives": "GitHub",
-        "Feed URL": "https://selfhst.github.io/releases/feed/forgejo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/forgejo.xml"
     },
     {
         "Project": "LunaSea",
@@ -4434,7 +4434,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Android,iOS",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lunasea.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lunasea.xml"
     },
     {
         "Project": "Slash",
@@ -4451,7 +4451,7 @@
         "Latest Commit Color": "Green",
         "Tags": "URL Shortener",
         "Alternatives": "Bitly",
-        "Feed URL": "https://selfhst.github.io/releases/feed/slash.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/slash.xml"
     },
     {
         "Project": "RomM",
@@ -4468,7 +4468,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Gaming",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/romm.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/romm.xml"
     },
     {
         "Project": "Reiverr",
@@ -4485,7 +4485,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Requests",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/reiverr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/reiverr.xml"
     },
     {
         "Project": "Traggo",
@@ -4502,7 +4502,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/traggo.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/traggo.xml"
     },
     {
         "Project": "Beatbump",
@@ -4519,7 +4519,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Music,Frontend",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/beatbump.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/beatbump.xml"
     },
     {
         "Project": "Wizarr",
@@ -4536,7 +4536,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wizarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wizarr.xml"
     },
     {
         "Project": "KitchenOwl",
@@ -4553,7 +4553,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Grocery Lists,Recipes",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kitchenowl.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kitchenowl.xml"
     },
     {
         "Project": "WatchYourLAN",
@@ -4570,7 +4570,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Monitoring",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/watchyourlan.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/watchyourlan.xml"
     },
     {
         "Project": "Lightweight Music Server",
@@ -4587,7 +4587,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Music,Music Streaming",
         "Alternatives": "Apple Music,Spotify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lightweight-music-server.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lightweight-music-server.xml"
     },
     {
         "Project": "xBackBone",
@@ -4604,7 +4604,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/xbackbone.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/xbackbone.xml"
     },
     {
         "Project": "Gokapi",
@@ -4621,7 +4621,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Sharing",
         "Alternatives": "DocSend",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gokapi.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gokapi.xml"
     },
     {
         "Project": "Mylar3",
@@ -4638,7 +4638,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mylar3.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mylar3.xml"
     },
     {
         "Project": "Dovecot",
@@ -4655,7 +4655,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Email",
         "Alternatives": "Gmail,Microsoft Outlook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dovecot.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dovecot.xml"
     },
     {
         "Project": "zwave-js-ui",
@@ -4672,7 +4672,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Internet of Things",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/zwave-js-ui.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/zwave-js-ui.xml"
     },
     {
         "Project": "AdGuardian-Term",
@@ -4689,7 +4689,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Ad Block",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/adguardian-term.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/adguardian-term.xml"
     },
     {
         "Project": "Nextcloud News",
@@ -4706,7 +4706,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nextcloud-news.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nextcloud-news.xml"
     },
     {
         "Project": "Commento",
@@ -4723,7 +4723,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Comments",
         "Alternatives": "Disqus",
-        "Feed URL": "https://selfhst.github.io/releases/feed/commento.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/commento.xml"
     },
     {
         "Project": "Workout Tracker",
@@ -4740,7 +4740,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness,Tracking",
         "Alternatives": "Strava",
-        "Feed URL": "https://selfhst.github.io/releases/feed/workout-tracker.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/workout-tracker.xml"
     },
     {
         "Project": "What's Up Docker?",
@@ -4757,7 +4757,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/whats-up-docker.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/whats-up-docker.xml"
     },
     {
         "Project": "kbin",
@@ -4774,7 +4774,7 @@
         "Latest Commit Color": "Green",
         "Tags": "ActivityPub / Fediverse,Social Media - Microblog",
         "Alternatives": "X (Twitter)",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kbin.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kbin.xml"
     },
     {
         "Project": "Docassemble",
@@ -4791,7 +4791,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Surveys and Forms",
         "Alternatives": "Google Forms,Typeform,SurveyMonkey",
-        "Feed URL": "https://selfhst.github.io/releases/feed/docassemble.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/docassemble.xml"
     },
     {
         "Project": "LubeLogger",
@@ -4808,7 +4808,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lubelogger.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lubelogger.xml"
     },
     {
         "Project": "OpenBudgeteer",
@@ -4825,7 +4825,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/openbudgeteer.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/openbudgeteer.xml"
     },
     {
         "Project": "Dockcheck",
@@ -4842,7 +4842,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Automation,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dockcheck.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dockcheck.xml"
     },
     {
         "Project": "Subvert",
@@ -4859,7 +4859,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Automation,Subtitles",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/subvert.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/subvert.xml"
     },
     {
         "Project": "Openreads",
@@ -4876,7 +4876,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books,Android,iOS",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/openreads.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/openreads.xml"
     },
     {
         "Project": "Lodestone",
@@ -4893,7 +4893,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Gaming",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lodestone.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lodestone.xml"
     },
     {
         "Project": "Picsur",
@@ -4910,7 +4910,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos,Image Sharing",
         "Alternatives": "Google Photos,iCloud,Imgur",
-        "Feed URL": "https://selfhst.github.io/releases/feed/picsur.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/picsur.xml"
     },
     {
         "Project": "Synapse",
@@ -4927,7 +4927,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Messaging",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/synapse.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/synapse.xml"
     },
     {
         "Project": "Shinobi",
@@ -4944,7 +4944,7 @@
         "Latest Commit Color": "Green",
         "Tags": "NVR,Video Surveillance",
         "Alternatives": "Ring,Google Nest",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shinobi.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shinobi.xml"
     },
     {
         "Project": "Fireshare",
@@ -4961,7 +4961,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Videos,Gaming",
         "Alternatives": "YouTube",
-        "Feed URL": "https://selfhst.github.io/releases/feed/fireshare.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/fireshare.xml"
     },
     {
         "Project": "Automad",
@@ -4978,7 +4978,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Content Management",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/automad.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/automad.xml"
     },
     {
         "Project": "Castopod",
@@ -4995,7 +4995,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Podcasts",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/castopod.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/castopod.xml"
     },
     {
         "Project": "Dokemon",
@@ -5012,7 +5012,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dokemon.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dokemon.xml"
     },
     {
         "Project": "FitTrackee",
@@ -5029,7 +5029,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness,Tracking",
         "Alternatives": "Strava",
-        "Feed URL": "https://selfhst.github.io/releases/feed/fittrackee.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/fittrackee.xml"
     },
     {
         "Project": "LinguaCafe",
@@ -5046,7 +5046,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/linguacafe.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/linguacafe.xml"
     },
     {
         "Project": "Supersonic",
@@ -5063,7 +5063,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Music,Music Streaming",
         "Alternatives": "Apple Music,Spotify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/supersonic.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/supersonic.xml"
     },
     {
         "Project": "Chirpy",
@@ -5080,7 +5080,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Comments",
         "Alternatives": "Disqus",
-        "Feed URL": "https://selfhst.github.io/releases/feed/chirpy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/chirpy.xml"
     },
     {
         "Project": "RSS",
@@ -5097,7 +5097,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/rss-danbrown.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/rss-danbrown.xml"
     },
     {
         "Project": "Open Streaming Platform",
@@ -5114,7 +5114,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Live Streaming",
         "Alternatives": "Twitch",
-        "Feed URL": "https://selfhst.github.io/releases/feed/open-streaming-platform.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/open-streaming-platform.xml"
     },
     {
         "Project": "UltimateHomeServer",
@@ -5131,7 +5131,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Platform",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ultimate-home-server.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ultimate-home-server.xml"
     },
     {
         "Project": "Docker Registry Browser",
@@ -5148,7 +5148,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/docker-registry-browser.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/docker-registry-browser.xml"
     },
     {
         "Project": "Gravity",
@@ -5165,7 +5165,7 @@
         "Latest Commit Color": "Green",
         "Tags": "DNS,Ad Block",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gravity.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gravity.xml"
     },
     {
         "Project": "Photofield",
@@ -5182,7 +5182,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/photofield.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/photofield.xml"
     },
     {
         "Project": "Tasks.md",
@@ -5199,7 +5199,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tasks-md.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tasks-md.xml"
     },
     {
         "Project": "Bar Assistant",
@@ -5216,7 +5216,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Recipes",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/bar-assistant.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/bar-assistant.xml"
     },
     {
         "Project": "Ktistec",
@@ -5233,7 +5233,7 @@
         "Latest Commit Color": "Green",
         "Tags": "ActivityPub / Fediverse,Social Media,Social Media - Microblog",
         "Alternatives": "Facebook,X (Twitter)",
-        "Feed URL": "https://selfhst.github.io/releases/feed/ktistec.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/ktistec.xml"
     },
     {
         "Project": "Forte",
@@ -5250,7 +5250,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Music,Music Streaming",
         "Alternatives": "Apple Music,Spotify",
-        "Feed URL": "https://selfhst.github.io/releases/feed/forte.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/forte.xml"
     },
     {
         "Project": "Feedbase",
@@ -5267,7 +5267,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Development,Feedback",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/feedbase.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/feedbase.xml"
     },
     {
         "Project": "Chevereto",
@@ -5284,7 +5284,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/chevereto.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/chevereto.xml"
     },
     {
         "Project": "Wanderer",
@@ -5301,7 +5301,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/wanderer.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/wanderer.xml"
     },
     {
         "Project": "Endurain",
@@ -5318,7 +5318,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness,Tracking",
         "Alternatives": "Strava",
-        "Feed URL": "https://selfhst.github.io/releases/feed/endurain.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/endurain.xml"
     },
     {
         "Project": "HortusFox",
@@ -5335,7 +5335,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Inventory Management,Tracking,Gardening",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/hortusfox.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/hortusfox.xml"
     },
     {
         "Project": "LazyLibrarian",
@@ -5352,7 +5352,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lazylibrarian.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lazylibrarian.xml"
     },
     {
         "Project": "Kapowarr",
@@ -5369,7 +5369,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Books,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/kapowarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/kapowarr.xml"
     },
     {
         "Project": "SheetAble",
@@ -5386,7 +5386,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Document Management,Music",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/sheetable.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/sheetable.xml"
     },
     {
         "Project": "PodFetch",
@@ -5403,7 +5403,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Podcasts,Downloads",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/podfetch.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/podfetch.xml"
     },
     {
         "Project": "Exercise Diary",
@@ -5420,7 +5420,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness,Tracking",
         "Alternatives": "Strava",
-        "Feed URL": "https://selfhst.github.io/releases/feed/exercise-diary.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/exercise-diary.xml"
     },
     {
         "Project": "Plant-It",
@@ -5437,7 +5437,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking,Gardening",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/plant-it.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/plant-it.xml"
     },
     {
         "Project": "DweebUI",
@@ -5454,7 +5454,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/dweebui.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/dweebui.xml"
     },
     {
         "Project": "Snikket",
@@ -5471,7 +5471,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Messaging",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/snikket.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/snikket.xml"
     },
     {
         "Project": "BudgetBee",
@@ -5488,7 +5488,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/budgetbee.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/budgetbee.xml"
     },
     {
         "Project": "Petio",
@@ -5505,7 +5505,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Requests",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/petio.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/petio.xml"
     },
     {
         "Project": "Note Mark",
@@ -5522,7 +5522,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
         "Alternatives": "Evernote,Microsoft OneNote,Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/note-mark.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/note-mark.xml"
     },
     {
         "Project": "Specifically Clementines",
@@ -5539,7 +5539,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Grocery Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/specifically-clementines.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/specifically-clementines.xml"
     },
     {
         "Project": "GameVault",
@@ -5556,7 +5556,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Gaming",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gamevault.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gamevault.xml"
     },
     {
         "Project": "Fitbit Fetch Data",
@@ -5573,7 +5573,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Fitness",
         "Alternatives": "Strava",
-        "Feed URL": "https://selfhst.github.io/releases/feed/fitbit-fetch-data.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/fitbit-fetch-data.xml"
     },
     {
         "Project": "Silicon Notes",
@@ -5590,7 +5590,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki,Note-Taking",
         "Alternatives": "Notion,Evernote,Microsoft OneNote",
-        "Feed URL": "https://selfhst.github.io/releases/feed/silicon-notes.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/silicon-notes.xml"
     },
     {
         "Project": "Hoarder",
@@ -5607,7 +5607,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Artificial Intelligence,Bookmarks",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/hoarder.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/hoarder.xml"
     },
     {
         "Project": "PeaNUT",
@@ -5624,7 +5624,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/peanut.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/peanut.xml"
     },
     {
         "Project": "Teemii",
@@ -5641,7 +5641,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/teemii.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/teemii.xml"
     },
     {
         "Project": "Pepperminty Wiki",
@@ -5658,7 +5658,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Wiki",
         "Alternatives": "Notion",
-        "Feed URL": "https://selfhst.github.io/releases/feed/pepperminty-wiki.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/pepperminty-wiki.xml"
     },
     {
         "Project": "Watcharr",
@@ -5675,7 +5675,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/watcharr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/watcharr.xml"
     },
     {
         "Project": "miniboard",
@@ -5692,7 +5692,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/miniboard.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/miniboard.xml"
     },
     {
         "Project": "Lego CertHub",
@@ -5709,7 +5709,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Reverse Proxy",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lego-certhub.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lego-certhub.xml"
     },
     {
         "Project": "Gaseous",
@@ -5726,7 +5726,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Gaming",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/gaseous.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/gaseous.xml"
     },
     {
         "Project": "Lynx",
@@ -5743,7 +5743,7 @@
         "Latest Commit Color": "Green",
         "Tags": "URL Shortener",
         "Alternatives": "Bitly",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lynx.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lynx.xml"
     },
     {
         "Project": "Honey",
@@ -5760,7 +5760,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/honey.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/honey.xml"
     },
     {
         "Project": "Nextcloud Tables",
@@ -5777,7 +5777,7 @@
         "Latest Commit Color": "Green",
         "Tags": "No-Code / Low-Code",
         "Alternatives": "AirTable",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nextcloud-tables.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nextcloud-tables.xml"
     },
     {
         "Project": "Manage My Damn Life",
@@ -5794,7 +5794,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists,Calendar",
         "Alternatives": "Google Calendar",
-        "Feed URL": "https://selfhst.github.io/releases/feed/manage-my-damn-life.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/manage-my-damn-life.xml"
     },
     {
         "Project": "nforwardauth",
@@ -5811,7 +5811,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Authentication",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/nforwardauth.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/nforwardauth.xml"
     },
     {
         "Project": "DAViCal",
@@ -5828,7 +5828,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Calendar",
         "Alternatives": "Google Calendar",
-        "Feed URL": "https://selfhst.github.io/releases/feed/davical.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/davical.xml"
     },
     {
         "Project": "Profilarr",
@@ -5845,7 +5845,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Automation,Movies,Television,*arr",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/profilarr.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/profilarr.xml"
     },
     {
         "Project": "Endless",
@@ -5862,7 +5862,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Social Media",
         "Alternatives": "Facebook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/endless.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/endless.xml"
     },
     {
         "Project": "Meetable",
@@ -5879,7 +5879,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Events",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/meetable.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/meetable.xml"
     },
     {
         "Project": "Voltaserve",
@@ -5896,7 +5896,7 @@
         "Latest Commit Color": "Green",
         "Tags": "File Management,File Transfer and Sync,File Sharing",
         "Alternatives": "DocSend",
-        "Feed URL": "https://selfhst.github.io/releases/feed/voltaserver.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/voltaserver.xml"
     },
     {
         "Project": "ShotShare",
@@ -5913,7 +5913,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos,Image Sharing",
         "Alternatives": "Google Photos,iCloud,Imgur",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shotshare.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shotshare.xml"
     },
     {
         "Project": "FeedCord",
@@ -5930,7 +5930,7 @@
         "Latest Commit Color": "Green",
         "Tags": "RSS,Feed Reader",
         "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/releases/feed/feedcord.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/feedcord.xml"
     },
     {
         "Project": "Piglet",
@@ -5947,7 +5947,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Alternatives": "Mint,YNAB",
-        "Feed URL": "https://selfhst.github.io/releases/feed/piglet.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/piglet.xml"
     },
     {
         "Project": "Jellyfin Rewind",
@@ -5964,7 +5964,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Year in Review",
         "Alternatives": "Spotify Wrapped",
-        "Feed URL": "https://selfhst.github.io/releases/feed/jellyfin-rewind.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/jellyfin-rewind.xml"
     },
     {
         "Project": "Voilib",
@@ -5981,7 +5981,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Podcasts",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/voilib.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/voilib.xml"
     },
     {
         "Project": "go-proxy",
@@ -5998,7 +5998,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Reverse Proxy",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/go-proxy.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/go-proxy.xml"
     },
     {
         "Project": "Medialytics",
@@ -6015,7 +6015,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Statistics",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/medialytics.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/medialytics.xml"
     },
     {
         "Project": "Lidify",
@@ -6032,7 +6032,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Music",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/lidify.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/lidify.xml"
     },
     {
         "Project": "Scenery",
@@ -6049,7 +6049,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Alternatives": "Google Photos,iCloud",
-        "Feed URL": "https://selfhst.github.io/releases/feed/scenery.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/scenery.xml"
     },
     {
         "Project": "Mixpost",
@@ -6066,7 +6066,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Social Media",
         "Alternatives": "Facebook",
-        "Feed URL": "https://selfhst.github.io/releases/feed/mixpost.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/mixpost.xml"
     },
     {
         "Project": "Tamari",
@@ -6083,7 +6083,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Recipes",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/tamari.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/tamari.xml"
     },
     {
         "Project": "Plex Rewind",
@@ -6100,7 +6100,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Year in Review",
         "Alternatives": "Spotify Wrapped",
-        "Feed URL": "https://selfhst.github.io/releases/feed/plex-rewind.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/plex-rewind.xml"
     },
     {
         "Project": "Readeck",
@@ -6117,7 +6117,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks,Read Later",
         "Alternatives": "Pocket",
-        "Feed URL": "https://selfhst.github.io/releases/feed/readeck.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/readeck.xml"
     },
     {
         "Project": "Vikunja",
@@ -6134,7 +6134,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tasks and To-Do Lists",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/vikunja.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/vikunja.xml"
     },
     {
         "Project": "Yamtrack",
@@ -6151,7 +6151,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tracking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/yamtrack.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/yamtrack.xml"
     },
     {
         "Project": "MagicPack",
@@ -6168,7 +6168,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Networking",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/magicpack.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/magicpack.xml"
     },
     {
         "Project": "Shared Moments",
@@ -6185,7 +6185,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Photos,Social Media - Photos",
         "Alternatives": "Google Photos,iCloud,Instagram",
-        "Feed URL": "https://selfhst.github.io/releases/feed/shared-moments.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/shared-moments.xml"
     },
     {
         "Project": "Calorific",
@@ -6202,7 +6202,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Health and Wellness,Tracking",
         "Alternatives": "MyFitnessPal",
-        "Feed URL": "https://selfhst.github.io/releases/feed/calorific.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/calorific.xml"
     },
     {
         "Project": "managebot",
@@ -6219,6 +6219,6 @@
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
         "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/releases/feed/managebot.xml"
+        "Feed URL": "https://selfhst.github.io/apps/releases/managebot.xml"
     }
 ]
