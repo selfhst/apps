@@ -734,7 +734,7 @@
         "Project": "Outline",
         "Website": "https://www.getoutline.com/?ref=selfh.st",
         "Repository Link": "https://github.com/outline/outline?ref=selfh.st",
-        "Description": "Fast, collaborative, knowledge base for your team",
+        "Description": "Modern team knowledge base for your internal documentation, product specs, support answers, meeting notes, onboarding, and more",
         "Icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/outline.png",
         "Source": "GitHub",
         "Repository": "outline/outline",
@@ -2157,23 +2157,6 @@
         "Tags": "Dashboard",
         "Alternatives": "",
         "Feed URL": "https://selfhst.github.io/apps/releases/heimdall.xml"
-    },
-    {
-        "Project": "Tiny Tiny RSS",
-        "Website": "https://tt-rss.org/?ref=selfh.st",
-        "Repository Link": "https://git.tt-rss.org/fox/tt-rss.git?ref=selfh.st",
-        "Description": "Free and open-source, web-based news feed reader and aggregator",
-        "Icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tinytinyrss.png",
-        "Source": "Source",
-        "Repository": "fox/tt-rss",
-        "Stars": 7000.0,
-        "Stars (Display)": "7k",
-        "Latest Version": "N/A",
-        "Latest Commit": "1990-01-01",
-        "Latest Commit Color": "Red",
-        "Tags": "RSS,Feed Reader",
-        "Alternatives": "Feedly,Inoreader",
-        "Feed URL": "https://selfhst.github.io/apps/releases/tiny-tiny-rss.xml"
     },
     {
         "Project": "GitLab",
@@ -3774,23 +3757,6 @@
         "Feed URL": "https://selfhst.github.io/apps/releases/papermerge.xml"
     },
     {
-        "Project": "Rhasspy",
-        "Website": "https://community.rhasspy.org/?ref=selfh.st",
-        "Repository Link": "https://github.com/rhasspy/rhasspy?ref=selfh.st",
-        "Description": "Offline private voice assistant for many human languages",
-        "Icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/rhasspy-light.png",
-        "Source": "GitHub",
-        "Repository": "rhasspy/rhasspy",
-        "Stars": 2244.0,
-        "Stars (Display)": "2k",
-        "Latest Version": "2.5.11",
-        "Latest Commit": "2023-05-27",
-        "Latest Commit Color": "Yellow",
-        "Tags": "Smart Home,Voice Assistant",
-        "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa,Google Assistant,Siri",
-        "Feed URL": "https://selfhst.github.io/apps/releases/rhasspy.xml"
-    },
-    {
         "Project": "MediaCMS",
         "Website": "https://mediacms.io/?ref=selfh.st",
         "Repository Link": "https://github.com/mediacms-io/mediacms?ref=selfh.st",
@@ -3806,6 +3772,23 @@
         "Tags": "Videos",
         "Alternatives": "YouTube",
         "Feed URL": "https://selfhst.github.io/apps/releases/mediacms.xml"
+    },
+    {
+        "Project": "Rhasspy",
+        "Website": "https://community.rhasspy.org/?ref=selfh.st",
+        "Repository Link": "https://github.com/rhasspy/rhasspy?ref=selfh.st",
+        "Description": "Offline private voice assistant for many human languages",
+        "Icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/rhasspy-light.png",
+        "Source": "GitHub",
+        "Repository": "rhasspy/rhasspy",
+        "Stars": 2244.0,
+        "Stars (Display)": "2k",
+        "Latest Version": "2.5.11",
+        "Latest Commit": "2023-05-27",
+        "Latest Commit Color": "Yellow",
+        "Tags": "Smart Home,Voice Assistant",
+        "Alternatives": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa,Google Assistant,Siri",
+        "Feed URL": "https://selfhst.github.io/apps/releases/rhasspy.xml"
     },
     {
         "Project": "Homebox",
@@ -5814,23 +5797,6 @@
         "Feed URL": "https://selfhst.github.io/apps/releases/miniboard.xml"
     },
     {
-        "Project": "Gaseous",
-        "Website": "https://github.com/gaseous-project/gaseous-server?ref=selfh.st",
-        "Repository Link": "https://github.com/gaseous-project/gaseous-server?ref=selfh.st",
-        "Description": "ROM file and metadata manager with a web-based emulator",
-        "Icon": null,
-        "Source": "GitHub",
-        "Repository": "gaseous-project/gaseous-server",
-        "Stars": 149.0,
-        "Stars (Display)": "149",
-        "Latest Version": "1.7.2",
-        "Latest Commit": "2024-02-10",
-        "Latest Commit Color": "Green",
-        "Tags": "Gaming",
-        "Alternatives": "",
-        "Feed URL": "https://selfhst.github.io/apps/releases/gaseous.xml"
-    },
-    {
         "Project": "Lego CertHub",
         "Website": "https://www.legocerthub.com/?ref=selfh.st",
         "Repository Link": "https://github.com/gregtwallace/legocerthub?ref=selfh.st",
@@ -5846,6 +5812,23 @@
         "Tags": "Server Management,Reverse Proxy",
         "Alternatives": "",
         "Feed URL": "https://selfhst.github.io/apps/releases/lego-certhub.xml"
+    },
+    {
+        "Project": "Gaseous",
+        "Website": "https://github.com/gaseous-project/gaseous-server?ref=selfh.st",
+        "Repository Link": "https://github.com/gaseous-project/gaseous-server?ref=selfh.st",
+        "Description": "ROM file and metadata manager with a web-based emulator",
+        "Icon": null,
+        "Source": "GitHub",
+        "Repository": "gaseous-project/gaseous-server",
+        "Stars": 149.0,
+        "Stars (Display)": "149",
+        "Latest Version": "1.7.2",
+        "Latest Commit": "2024-02-10",
+        "Latest Commit Color": "Green",
+        "Tags": "Gaming",
+        "Alternatives": "",
+        "Feed URL": "https://selfhst.github.io/apps/releases/gaseous.xml"
     },
     {
         "Project": "Lynx",
@@ -6339,6 +6322,23 @@
         "Tags": "Server Management,Docker",
         "Alternatives": "",
         "Feed URL": "https://selfhst.github.io/apps/releases/managebot.xml"
+    },
+    {
+        "Project": "Tiny Tiny RSS",
+        "Website": "https://tt-rss.org/?ref=selfh.st",
+        "Repository Link": "https://git.tt-rss.org/fox/tt-rss.git?ref=selfh.st",
+        "Description": "Free and open-source, web-based news feed reader and aggregator",
+        "Icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tinytinyrss.png",
+        "Source": "Git",
+        "Repository": "fox/tt-rss",
+        "Stars": 0.0,
+        "Stars (Display)": "0",
+        "Latest Version": "N/A",
+        "Latest Commit": "1900-01-01",
+        "Latest Commit Color": "Red",
+        "Tags": "RSS,Feed Reader",
+        "Alternatives": "Feedly,Inoreader",
+        "Feed URL": "https://selfhst.github.io/apps/releases/tiny-tiny-rss.xml"
     },
     {
         "Project": "nzb360",
