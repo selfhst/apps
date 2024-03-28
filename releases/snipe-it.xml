@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-03-28T12:32:01.085418-04:00</updated>
+  <updated>2024-03-28T13:31:49.923198-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -332,7 +332,10 @@
     <author>
       <name>snipe/snipe-it</name>
     </author>
-    <content>&lt;h2&gt;⚠️ IMPORTANT: Future versions of Snipe-IT will require PHP 8.1 or greater&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;br /&gt;
+&lt;strong&gt;Future versions of Snipe-IT will require PHP 8.1 or greater&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;This is a small patch release that fixes a few regressions introduced in the last released related to labels. It also includes some minor security patches, and introduces a new script to &lt;a href="https://snipe-it.readme.io/docs/convert-unencrypted-custom-fields"&gt;convert a previously unencrypted custom field to be an encrypted custom field&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;v7 is still well on its way. We hit a small snag with Laravel's switch from Swiftmailer to Symfony for mail sending, but we're back on track now.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
