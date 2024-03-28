@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nextcloud Releases</title>
-  <updated>2024-03-28T10:30:03.055541-04:00</updated>
+  <updated>2024-03-28T11:30:03.205682-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -182,7 +182,33 @@
     <author>
       <name>nextcloud/server</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;🪦 26 is now EOL&lt;/h2&gt;
+&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/circles/pull/1524"&gt;Circles' activity (circles#1524)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44035"&gt;Cleanup versions entities in versions:clean command (server#44035)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43902"&gt;Collaboration, MailPlugin: Protect access to a potentially missing array component by ??. (server#43902)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44166"&gt;Docs(config.sample.php): Warn that &lt;code&gt;updatedirectory&lt;/code&gt; will break updates if set to a value within the installation folder (server#44166)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43831"&gt;Feat(share): save date and time for expiration (server#43831)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44078"&gt;Fix: Avoid clear cache with prefix (server#44078)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44283"&gt;Fix: ensure nested mount points are handled in the correct order (server#44283)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43829"&gt;Fix: Throw instead of yielding nothing when listing local directories (server#43829)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1861"&gt;Fix(api): Ignore "parsed" link and icon urls when deleting (notifications#1861)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44384"&gt;Fix(caldav): add EXDATE and EXRULE to confidential object (server#44384)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44338"&gt;Fix(config): Make sure user keys are strings (server#44338)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1841"&gt;Fix(mail): Use parsed action label in email notification (notifications#1841)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44180"&gt;Fix(settings): &lt;code&gt;posix_getpwuid&lt;/code&gt; can return &lt;code&gt;false&lt;/code&gt; which should not be accessed like an array (server#44180)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44348"&gt;Fix(share): use share owner to get ownership (server#44348)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5468"&gt;Fix(Tables): require at least one cell in the header (text#5468)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44100"&gt;Fix(UpdateNotifications): Handle numeric user ids (server#44100)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44054"&gt;Fix(user_ldap): Early failure for empty password login attempt (server#44054)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44387"&gt;Fix(workflowengine): Use correct event names to make search for groups work again (server#44387)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44199"&gt;Fixes for getting the filename in the FileInfo class (server#44199)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44308"&gt;Forbid tagging readonly files (server#44308)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44006"&gt;Improve files version listing (server#44006)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43836"&gt;Only cleanup orphaned shared daily (server#43836)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44156"&gt;Tests(dav): Add unit test for no calendars/subscription limit (server#44156)&lt;/a&gt;🪦&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/nextcloud/server/releases/tag/v26.0.13" rel="alternate"/>
   </entry>
   <entry>
@@ -192,7 +218,65 @@
     <author>
       <name>nextcloud/server</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43789"&gt;Add "-i" to sendmail's pipe (server#43789)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5534"&gt;Add pick plain text files string to be translated (text#5534)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44321"&gt;Add some recrusive detection/prevention (server#44321)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/circles/pull/1523"&gt;Circles' activity (circles#1523)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44036"&gt;Cleanup versions entities in versions:clean command (server#44036)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43901"&gt;Collaboration, MailPlugin: Protect access to a potentially missing array component by ??. (server#43901)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43931"&gt;Do not create a new version for empty files (server#43931)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44167"&gt;Docs(config.sample.php): Warn that &lt;code&gt;updatedirectory&lt;/code&gt; will break updates if set to a value within the installation folder (server#44167)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43832"&gt;Feat(share): save date and time for expiration (server#43832)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43815"&gt;Fix: Allow to disable multipart copy on external s3 storage (server#43815)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44079"&gt;Fix: Avoid clear cache with prefix (server#44079)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5479"&gt;Fix: Avoid race condition that may initialize a document twice on the clients (text#5479)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44206"&gt;Fix: avoid scanning a non existing directory (server#44206)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/viewer/pull/2221"&gt;Fix: cypress (viewer#2221)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44415"&gt;Fix: don't return null for SharedStorage::getWrapperStorage with share recursion (server#44415)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44284"&gt;Fix: ensure nested mount points are handled in the correct order (server#44284)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44247"&gt;Fix: fallback from guessing the owner from path in versioning (server#44247)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43986"&gt;Fix: Fetch custom app store url without internet connection (server#43986)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/viewer/pull/2250"&gt;Fix: filerobot-image-editor (viewer#2250)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44193"&gt;Fix: No password set for new mail shares (server#44193)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43799"&gt;Fix: select the correct table based on CALENDAR_TYPE_CALENDAR (server#43799)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43830"&gt;Fix: Throw instead of yielding nothing when listing local directories (server#43830)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5426"&gt;Fix(ActionInsertLink): Sync NcActionInput value property (text#5426)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1860"&gt;Fix(api): Ignore "parsed" link and icon urls when deleting (notifications#1860)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5485"&gt;Fix(attachments): Don't use currentSession for fetching attachments (text#5485)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5472"&gt;Fix(backend): Accept pushs with only step1 messages by read-only clients (text#5472)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44385"&gt;Fix(caldav): add EXDATE and EXRULE to confidential object (server#44385)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44171"&gt;Fix(comments): move new comment instructions placeholder to description (server#44171)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44337"&gt;Fix(config): Make sure user keys are strings (server#44337)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43863"&gt;Fix(core): Convert text to path in f-droid banner SVG (server#43863)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/viewer/pull/2220"&gt;Fix(cypress): introduce cypress-split (viewer#2220)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/viewer/pull/2224"&gt;Fix(cypress): sharing download test (viewer#2224)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44378"&gt;Fix(dav): ACLs for shared addressbooks (server#44378)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43798"&gt;Fix(dav): fallback realm for HTTP authentication (server#43798)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44312"&gt;Fix(federatedfilesharing): Use correct language file to render notifi… (server#44312)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44229"&gt;Fix(files_sharing): ShareesAPI - Return empty response when user is not allowed to share (server#44229)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43977"&gt;Fix(IUrlGenerator): Add &lt;code&gt;throws&lt;/code&gt; documentation for &lt;code&gt;imagePath&lt;/code&gt; function (server#43977)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5493"&gt;Fix(LinkPicker): Don't open link picker inside code blocks (text#5493)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1842"&gt;Fix(mail): Use parsed action label in email notification (notifications#1842)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5525"&gt;Fix(MarkdownContentEditor): Respect &lt;code&gt;onLoaded&lt;/code&gt; callback passed via API (text#5525)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5474"&gt;Fix(session): Fix setting a guest name (text#5474)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44181"&gt;Fix(settings): &lt;code&gt;posix_getpwuid&lt;/code&gt; can return &lt;code&gt;false&lt;/code&gt; which should not be accessed like an array (server#44181)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44349"&gt;Fix(share): use share owner to get ownership (server#44349)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5467"&gt;Fix(Tables): require at least one cell in the header (text#5467)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44101"&gt;Fix(UpdateNotifications): Handle numeric user ids (server#44101)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44055"&gt;Fix(user_ldap): Early failure for empty password login attempt (server#44055)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44383"&gt;Fix(workflowengine): Use correct event names to make search for groups work again (server#44383)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44200"&gt;Fixes for getting the filename in the FileInfo class (server#44200)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44299"&gt;Forbid tagging readonly files (server#44299)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43980"&gt;Improve files version listing (server#43980)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44419"&gt;Log error when default getWrapperStorage would return null (server#44419)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/activity/pull/1604"&gt;MailQueueHandler: Don't flood logs with useless messages (activity#1604)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43837"&gt;Only cleanup orphaned shared daily (server#43837)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44155"&gt;Tests(dav): Add unit test for no calendars/subscription limit (server#44155)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43971"&gt;Use table prefix in metadata migration (server#43971)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44084"&gt;Use the proper path to check if a file needs to be copied/moved to the actual target storage (server#44084)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/nextcloud/server/releases/tag/v27.1.8" rel="alternate"/>
   </entry>
   <entry>
@@ -202,7 +286,92 @@
     <author>
       <name>nextcloud/server</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43788"&gt;Add "-i" to sendmail's pipe (server#43788)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44320"&gt;Add some recrusive detection/prevention (server#44320)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5494"&gt;Bring back test failing due to server issue (text#5494)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43800"&gt;Bug fix: Select the correct table based on CALENDAR_TYPE_CALENDAR (server#43800)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/related_resources/pull/323"&gt;Chore(CI): Adjust testing matrix for Nextcloud 28 on stable28 (related_resources#323)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5428"&gt;Chore(ci): Update workflows from main branch (text#5428)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44037"&gt;Cleanup versions entities in versions:clean command (server#44037)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43900"&gt;Collaboration, MailPlugin: Protect access to a potentially missing array component by ??. (server#43900)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44124"&gt;Deprecated sysconfig 'enable_file_metadata' (server#44124)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44053"&gt;Disable the internal s3sdk multi part copy logic (server#44053)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43929"&gt;Do not create a new version for empty files (server#43929)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44168"&gt;Docs(config.sample.php): Warn that &lt;code&gt;updatedirectory&lt;/code&gt; will break updates if set to a value within the installation folder (server#44168)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44024"&gt;Feat: Restore unified search filtering in files view (server#44024)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43833"&gt;Feat(share): save date and time for expiration (server#43833)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44088"&gt;Fix CSP for script-src with nonce on edge (server#44088)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43801"&gt;Fix data type in FilesMetadata::setIntList() (server#43801)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44265"&gt;Fix xml ocs response for serializable objects (server#44265)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43816"&gt;Fix: Allow to disable multipart copy on external s3 storage (server#43816)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44080"&gt;Fix: Avoid clear cache with prefix (server#44080)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5478"&gt;Fix: Avoid race condition that may initialize a document twice on the clients (text#5478)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44208"&gt;Fix: avoid scanning a non existing directory (server#44208)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/logreader/pull/1197"&gt;Fix: Catch exception from LogIteratorFactory, throw a clean error when log_type is not file (logreader#1197)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44111"&gt;Fix: changed login-page to reflect correct LDAP settings (server#44111)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43916"&gt;Fix: changed text alignment and icon logic (server#43916)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43858"&gt;Fix: Display "+New" while files page loads instead of "+Add". (server#43858)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44212"&gt;Fix: Ensure correct stacking context for right click menu (server#44212)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44285"&gt;Fix: ensure nested mount points are handled in the correct order (server#44285)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44248"&gt;Fix: fallback from guessing the owner from path in versioning (server#44248)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43985"&gt;Fix: Fetch custom app store url without internet connection (server#43985)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/viewer/pull/2249"&gt;Fix: filerobot-image-editor (viewer#2249)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44251"&gt;Fix: List specific share permissions as subline (server#44251)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43811"&gt;Fix: merge conflict dialog added when overwriting files on move-file action (server#43811)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44194"&gt;Fix: No password set for new mail shares (server#44194)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/recommendations/pull/709"&gt;Fix: support 28 Files (recommendations#709)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43828"&gt;Fix: Throw instead of yielding nothing when listing local directories (server#43828)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5425"&gt;Fix(ActionInsertLink): Sync NcActionInput value property (text#5425)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43817"&gt;Fix(admin role): fix old and wrong way to determine whether user is admin (server#43817)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1859"&gt;Fix(api): Ignore "parsed" link and icon urls when deleting (notifications#1859)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5486"&gt;Fix(attachments): Don't use currentSession for fetching attachments (text#5486)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5471"&gt;Fix(backend): Accept pushs with only step1 messages by read-only clients (text#5471)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44386"&gt;Fix(caldav): add EXDATE and EXRULE to confidential object (server#44386)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/activity/pull/1565"&gt;Fix(CI): Correctly test against stable28 again (activity#1565)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44336"&gt;Fix(config): Make sure user keys are strings (server#44336)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43864"&gt;Fix(core): Convert text to path in f-droid banner SVG (server#43864)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44377"&gt;Fix(dav): ACLs for shared addressbooks (server#44377)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43796"&gt;Fix(dav): fallback realm for HTTP authentication (server#43796)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44065"&gt;Fix(db): db-convert supports disabled apps but not removed ones (server#44065)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44313"&gt;Fix(federatedfilesharing): Use correct language file to render notifi… (server#44313)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44228"&gt;Fix(files_sharing): ShareesAPI - Return empty response when user is not allowed to share (server#44228)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44273"&gt;Fix(files): Adjust dropservice to work with Blink engine (server#44273)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43994"&gt;Fix(files): Adjust sidebar - remove deprecated function calls and add aria label for favorite icon (server#43994)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43909"&gt;Fix(files): fix html structure on the profile page (server#43909)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44019"&gt;Fix(files): Open new file when created from template (server#44019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43795"&gt;Fix(files): page h1 heading (server#43795)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44174"&gt;Fix(files): Right click menu offset and list scrolled glitch (server#44174)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43978"&gt;Fix(IUrlGenerator): Add &lt;code&gt;throws&lt;/code&gt; documentation for &lt;code&gt;imagePath&lt;/code&gt; function (server#43978)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44050"&gt;Fix(JSResourceLocator): Consider configured app roots for files (server#44050)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5492"&gt;Fix(LinkPicker): Don't open link picker inside code blocks (text#5492)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/notifications/pull/1843"&gt;Fix(mail): Use parsed action label in email notification (notifications#1843)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5526"&gt;Fix(MarkdownContentEditor): Respect &lt;code&gt;onLoaded&lt;/code&gt; callback passed via API (text#5526)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44192"&gt;Fix(provisioning_api): Fix AppInfo schema for OpenAPI (server#44192)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5475"&gt;Fix(session): Fix setting a guest name (text#5475)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44182"&gt;Fix(settings): &lt;code&gt;posix_getpwuid&lt;/code&gt; can return &lt;code&gt;false&lt;/code&gt; which should not be accessed like an array (server#44182)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44021"&gt;Fix(settings): Disable app again if it breaks the files app (server#44021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44150"&gt;Fix(settings): Fix always empty disabled users list for subadmins (server#44150)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44047"&gt;Fix(settings): Split group lists (server#44047)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44347"&gt;Fix(share): use share owner to get ownership (server#44347)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5465"&gt;Fix(Tables): require at least one cell in the header (text#5465)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43785"&gt;Fix(updatenotification): a11y of channel menu and new icons (server#43785)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44095"&gt;Fix(UpdateNotifications): Handle numeric user ids (server#44095)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44056"&gt;Fix(user_ldap): Early failure for empty password login attempt (server#44056)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44030"&gt;Fix(user_ldap): Ignore unserialize error in group membership migration (server#44030)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43813"&gt;Fix(user_status): Fix status update request not being sent (server#43813)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44382"&gt;Fix(workflowengine): Use correct event names to make search for groups work again (server#44382)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44201"&gt;Fixes for getting the filename in the FileInfo class (server#44201)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44298"&gt;Forbid tagging readonly files (server#44298)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43981"&gt;Improve files version listing (server#43981)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44420"&gt;Log error when default getWrapperStorage would return null (server#44420)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/activity/pull/1605"&gt;MailQueueHandler: Log errors (activity#1605)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43835"&gt;Only cleanup orphaned shared daily (server#43835)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44118"&gt;Tests(dav): Add unit test for no calendars/subscription limit (server#44118)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5416"&gt;Update home button selector in file picker breadcrumbs (text#5416)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44085"&gt;Use the proper path to check if a file needs to be copied/moved to the actual target storage (server#44085)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/nextcloud/server/releases/tag/v28.0.4" rel="alternate"/>
   </entry>
 </feed>
