@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nextcloud Releases</title>
-  <updated>2024-03-29T03:30:03.222411-04:00</updated>
+  <updated>2024-03-29T04:30:02.915736-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -289,7 +289,7 @@
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43788"&gt;Add "-i" to sendmail's pipe (server#43788)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44320"&gt;Add some recrusive detection/prevention (server#44320)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/44320"&gt;Add some recursive detection/prevention (server#44320)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/nextcloud/text/pull/5494"&gt;Bring back test failing due to server issue (text#5494)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/nextcloud/server/pull/43800"&gt;Bug fix: Select the correct table based on CALENDAR_TYPE_CALENDAR (server#43800)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/nextcloud/related_resources/pull/323"&gt;Chore(CI): Adjust testing matrix for Nextcloud 28 on stable28 (related_resources#323)&lt;/a&gt;&lt;/li&gt;
