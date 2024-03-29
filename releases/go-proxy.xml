@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-03-29T18:30:28.901372-04:00</updated>
+  <updated>2024-03-29T19:30:28.366921-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,11 +112,17 @@
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.4.4</id>
     <title>New release for go-proxy: 0.4.4</title>
-    <updated>2024-03-29T18:08:44-04:00</updated>
+    <updated>2024-03-29T18:54:45-04:00</updated>
     <author>
       <name>yusing/go-proxy</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changes in v0.4.4&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(New)&lt;/strong&gt; setup script for binary and docker&lt;/li&gt;
+&lt;li&gt;GitHub CI for binary build and docker image build&lt;/li&gt;
+&lt;li&gt;Docs update&lt;/li&gt;
+&lt;li&gt;Docker image available: &lt;code&gt;ghcr.io/yusing/go-proxy&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.4.4" rel="alternate"/>
   </entry>
 </feed>
