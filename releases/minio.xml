@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2024-03-30T22:31:40.475057-04:00</updated>
+  <updated>2024-03-30T23:31:40.409592-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,7 +134,7 @@
     <content>&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Support for SSE-C encrypted objects with site and bucket replication. &lt;/li&gt;
-&lt;li&gt;Major CPU issue addressed when you have 1000's of folder prefixes at bucket root.&lt;/li&gt;
+&lt;li&gt;CPU issue addressed when you have 1000's of folder prefixes at bucket root.&lt;/li&gt;
 &lt;li&gt;LDAP support normalization of DN names for consistent behavior.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
