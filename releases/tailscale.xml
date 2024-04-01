@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tailscale Releases</title>
-  <updated>2024-04-01T16:31:29.282781-04:00</updated>
+  <updated>2024-04-01T17:31:29.566949-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,11 +179,11 @@
 &lt;h3&gt;Windows&lt;/h3&gt;
 &lt;p&gt;Fixed: Do not allow msiexec to reboot the operating system&lt;/p&gt;
 &lt;h3&gt;macOS&lt;/h3&gt;
-&lt;p&gt;Issue that could cause the Tailscale system extension to not be installed upon app launch, when deploying Tailscale using MDM and using a configuration profile to pre-approve the VPN tunnel (applies to &lt;a href="https://tailscale-www-2113cfcf.fly.dev/kb/1065/macos-variants"&gt;standalone&lt;/a&gt; variant only)&lt;/p&gt;
+&lt;p&gt;Issue that could cause the Tailscale system extension to not be installed upon app launch, when deploying Tailscale using MDM and using a configuration profile to pre-approve the VPN tunnel (applies to &lt;a href="https://tailscale.com/kb/1065/macos-variants"&gt;standalone&lt;/a&gt; variant only)&lt;/p&gt;
 &lt;h3&gt;Synology&lt;/h3&gt;
 &lt;p&gt;Fixed: IPv6 routing&lt;/p&gt;
 &lt;h3&gt;Kubernetes operator&lt;/h3&gt;
-&lt;p&gt;Fixed: &lt;a href="https://tailscale-www-2113cfcf.fly.dev/kb/1236/kubernetes-operator/"&gt;Kubernetes operator&lt;/a&gt; proxies should not accept subnet routes&lt;/p&gt;</content>
+&lt;p&gt;Fixed: &lt;a href="https://tailscale.com/kb/1236/kubernetes-operator/"&gt;Kubernetes operator&lt;/a&gt; proxies should not accept subnet routes&lt;/p&gt;</content>
     <link href="https://github.com/tailscale/tailscale/releases/tag/v1.62.1" rel="alternate"/>
   </entry>
 </feed>
