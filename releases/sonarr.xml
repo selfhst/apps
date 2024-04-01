@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2024-04-01T00:31:27.299864-04:00</updated>
+  <updated>2024-04-01T01:31:26.165004-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,23 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.1.1168...v4.0.2.1183&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.2.1183" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.3.1413</id>
+    <title>New release for Sonarr: 4.0.3.1413</title>
+    <updated>2024-04-01T01:15:58-04:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 4e83820511b35f67478d6084fef15d547d793035 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6668&lt;/li&gt;
+&lt;li&gt;Bump version to 4.0.3 by @markus101 in https://github.com/Sonarr/Sonarr/pull/6672&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.2.1408...v4.0.3.1413&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.3.1413" rel="alternate"/>
   </entry>
 </feed>
