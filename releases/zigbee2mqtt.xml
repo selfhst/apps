@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zigbee2MQTT Releases</title>
-  <updated>2024-04-02T13:31:44.599373-04:00</updated>
+  <updated>2024-04-02T14:31:43.511594-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -532,15 +532,6 @@
     </author>
     <content>&lt;h1&gt;Improvements&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21459"&gt;#21459&lt;/a&gt; Add experimental Ember adapter  (@Nerivec https://github.com/Koenkk/zigbee-herdsman/pull/918)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18741"&gt;#18741&lt;/a&gt; Add Home Assistant origin to discovery (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19838"&gt;#19838&lt;/a&gt; Add Home Assistant scene discovery (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21372"&gt;#21372&lt;/a&gt; Add support for button entity in Home Assistant (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20358"&gt;#20358&lt;/a&gt; Support automatically generating device definitions (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19994"&gt;#19994&lt;/a&gt; Support bridge discovery for Home Assistant (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18599"&gt;#18599&lt;/a&gt; Support coordinator check (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18667"&gt;#18667&lt;/a&gt; Support scene renaming (@vanviegen)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18678"&gt;#18678&lt;/a&gt; Use labels in Home Assistant entity naming (@Drafteed)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman-converters/issues/7201"&gt;#7201&lt;/a&gt; Improve Aqara DJT12LM support (@mrskycriper)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman-converters/issues/7286"&gt;#7286&lt;/a&gt; Improve support for Bosch 8750001213 Twinguard (@burmistrzak)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21960"&gt;#21960&lt;/a&gt; Support &lt;code&gt;emergency_heating&lt;/code&gt; mode for Zen-01-W (@Koenkk)&lt;/li&gt;
@@ -564,71 +555,9 @@
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/966"&gt;#966&lt;/a&gt; Add more attributes for manuSpecificLumi (@deiger)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/963"&gt;#963&lt;/a&gt; Update manufaturer codes (@Koenkk)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/950"&gt;#950&lt;/a&gt; EZSP: Network restore from backup (@kirovilya)&lt;/li&gt;
-&lt;li&gt;Support Node 21 and drop 16 (@Koenkk)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Fixes&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21492"&gt;#21492&lt;/a&gt; &lt;code&gt;trigger_count&lt;/code&gt; &amp;amp; &lt;code&gt;power_outage_count&lt;/code&gt; adjustments in HA (@Drafteed)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19486"&gt;#19486&lt;/a&gt; Add device class for soil_moisture sensor in HA (@dext0r)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20393"&gt;#20393&lt;/a&gt; Add Home Assistant &lt;code&gt;entity_category&lt;/code&gt; for various Ubisys D1 entities (@guydriesen)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19207"&gt;#19207&lt;/a&gt; Add in_progress attribute for Home Assistant update sensor (@Laxilef)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21652"&gt;#21652&lt;/a&gt; Add more Home Assistant entity icons (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21610"&gt;#21610&lt;/a&gt; Add noise and noise_detected to HA lookup (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20746"&gt;#20746&lt;/a&gt; Added icon and device_class for some Aqara device entities (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19435"&gt;#19435&lt;/a&gt; Adjust default entity category of updates in Home Assistant (@frenck)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20151"&gt;#20151&lt;/a&gt; Allow &lt;code&gt;null&lt;/code&gt; for &lt;code&gt;zigbee_ota_override_index_location&lt;/code&gt; option (@adeepn)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19179"&gt;#19179&lt;/a&gt; Bump semver version (@dupondje)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21494"&gt;#21494&lt;/a&gt; Check if Zigbee2MQTT is running in &lt;code&gt;update.sh&lt;/code&gt; (@Toniob)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20313"&gt;#20313&lt;/a&gt; Clear old Home Assistant discovery topics when exposes are changed (@slugzero)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19143"&gt;#19143&lt;/a&gt; Correct typos (@Rotzbua)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20010"&gt;#20010&lt;/a&gt; Don't crash on startup when external converters fails to load (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19212"&gt;#19212&lt;/a&gt; Enable Home Assistant force entity by default (@kds69)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19293"&gt;#19293&lt;/a&gt; Enable incremental TSC builds (@FabianMangold)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18836"&gt;#18836&lt;/a&gt; Fix &lt;code&gt;configuration.example.yaml&lt;/code&gt; missing from container (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19542"&gt;#19542&lt;/a&gt; Fix &lt;code&gt;in_progress&lt;/code&gt; attribute for Home Assistant update sensor (@Laxilef)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21653"&gt;#21653&lt;/a&gt; Fix &lt;code&gt;set&lt;/code&gt; endpoint name conversion (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20093"&gt;#20093&lt;/a&gt; Fix availability checks not stopped on extension stop (@protyposis)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19983"&gt;#19983&lt;/a&gt; Fix build on Node 20+ (@jirutka)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20526"&gt;#20526&lt;/a&gt; Fix configure on startup crashing coordinator (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21680"&gt;#21680&lt;/a&gt; Fix crash due to race condition during interview (@srett)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20473"&gt;#20473&lt;/a&gt; Fix crash due to unhandled Promise exception (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19129"&gt;#19129&lt;/a&gt; Fix device keeps requesting OTA due to incorrect transaction sequence number (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21576"&gt;#21576&lt;/a&gt; Fix endpoint matching for TuYa dummy endpoints (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/pull/19474"&gt;#19474&lt;/a&gt; Fix entity category for Home Assistant &lt;code&gt;binary_sensor&lt;/code&gt; (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19474"&gt;#19474&lt;/a&gt; Fix entity category of Home Assistant exposed enum sensors (@frenck)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19434"&gt;#19434&lt;/a&gt; Fix entity category of Home Assistant exposed sensor entities (@frenck)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20252"&gt;#20252&lt;/a&gt; Fix Home Assistant &lt;code&gt;Entity category&lt;/code&gt;config&lt;code&gt;is invalid for sensors&lt;/code&gt; warning (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19597"&gt;#19597&lt;/a&gt; Fix Home Assistant &lt;code&gt;in_progress&lt;/code&gt; Erroneous JSON error (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19788"&gt;#19788&lt;/a&gt; Fix Home Assistant &lt;code&gt;program&lt;/code&gt; not truncated when too large (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/12794"&gt;#12794&lt;/a&gt; Fix incorrect update state when Z2M is restarted during OTA update (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19659"&gt;#19659&lt;/a&gt; Fix invalid JSON error in Home Assistant update entity (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20289"&gt;#20289&lt;/a&gt; Fix load of empty configuration &lt;code&gt;.yaml&lt;/code&gt; file failing (@rhuss)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21493"&gt;#21493&lt;/a&gt; Fix parsing entity name that contains slash in the name and endpoint specification (@grafalex82)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19908"&gt;#19908&lt;/a&gt; Fix unable to configure again after configure fails (@slugzero)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20903"&gt;#20903&lt;/a&gt; Home Assistant: additional icons for Aqara TRV entities and various others (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21726"&gt;#21726&lt;/a&gt; Home Assistant: remove button name if &lt;code&gt;device_class&lt;/code&gt; is present (@mrskycriper)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21521"&gt;#21521&lt;/a&gt; Improve nested group and device name match (@grafalex82)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19660"&gt;#19660&lt;/a&gt; Make frontend listen on both IPv4 and IPv6 by default (@n-thumann)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19965"&gt;#19965&lt;/a&gt; Make update script work from anywhere (@Impact123)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19545"&gt;#19545&lt;/a&gt; Map climate &lt;code&gt;idle&lt;/code&gt; to &lt;code&gt;idle&lt;/code&gt; instead of &lt;code&gt;off&lt;/code&gt; in Home Assistant (@arnerek)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21214"&gt;#21214&lt;/a&gt; Match endpoint name in the MQTT topic based on endpoints listed in the definition (@grafalex82)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20482"&gt;#20482&lt;/a&gt; Notify systemd for start, stop, watchdog (@chrthi)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21446"&gt;#21446&lt;/a&gt; Only configure routers on startup (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20248"&gt;#20248&lt;/a&gt; Only republish changed scenes to Home Assistant when changed (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20097"&gt;#20097&lt;/a&gt; Prevent duplicate Home Assistant scene entities (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20477"&gt;#20477&lt;/a&gt; Prevent extension errors from crashing Zigbee2MQTT (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20548"&gt;#20548&lt;/a&gt; Prevent warnings for bridge entities with legacy_entity_attributes enabled (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19364"&gt;#19364&lt;/a&gt; Publish zigbee-herdsman/zigbee-herdsman-converters version to &lt;code&gt;bridge/info&lt;/code&gt; (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21264"&gt;#21264&lt;/a&gt; Remove dependency on predefined list of endpoints (&lt;code&gt;parseEntityID()&lt;/code&gt; function) (@grafalex82)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20861"&gt;#20861&lt;/a&gt; Remove deprecated sendWhen (@slugzero)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21325"&gt;#21325&lt;/a&gt; Remove predefined endpoint list, remove limits on device friendly name (@grafalex82)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20952"&gt;#20952&lt;/a&gt; Republish correctly on scene changes to Home Assistant (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/discussions/20805"&gt;#20805&lt;/a&gt; Revert "Enable incremental TSC builds (&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19293"&gt;#19293&lt;/a&gt;)" (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19631"&gt;#19631&lt;/a&gt; Set entity category &lt;code&gt;config&lt;/code&gt; for Home Assistant &lt;code&gt;temperature_display_mode&lt;/code&gt; sensor (@devbis)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20663"&gt;#20663&lt;/a&gt; Set Home Assistant entity categories &lt;code&gt;config&lt;/code&gt; and &lt;code&gt;diagnostic&lt;/code&gt; according to expose categories (@slugzero)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20547"&gt;#20547&lt;/a&gt; Support legacy_availability_payload for Home Assistant connection_state (@mundschenk-at)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/20868"&gt;#20868&lt;/a&gt; Use Alpine 3.18.4 as base (@Koenkk)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/18756"&gt;#18756&lt;/a&gt; Use QOS1 for rarely sent discovery and availability messages (@ruifung)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21652"&gt;#21652&lt;/a&gt; Add more Home Assistant entity icons (@mrskycriper)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21653"&gt;#21653&lt;/a&gt; Fix &lt;code&gt;set&lt;/code&gt; endpoint name conversion (@Koenkk)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/21680"&gt;#21680&lt;/a&gt; Fix crash due to race condition during interview (@srett)&lt;/li&gt;
@@ -699,7 +628,6 @@
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/949"&gt;#949&lt;/a&gt; Cleanup SerialPort async wrappers (@Nerivec)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/951"&gt;#951&lt;/a&gt; Ember: Drastically lower default requests &amp;amp; callbacks processing delay &amp;amp; use existing setting for customization (@Nerivec)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman/issues/945"&gt;#945&lt;/a&gt; Ember: skip port re-init on reset retry (@Nerivec)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee2mqtt/issues/19581"&gt;#19581&lt;/a&gt; Correct misspell (@Rotzbua)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Frontend&lt;/h1&gt;
 &lt;ul&gt;
