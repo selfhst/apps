@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-04-01T17:31:41.835933-04:00</updated>
+  <updated>2024-04-01T20:31:39.168195-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,6 @@ Download the JAR here: https://downloads.metabase.com/enterprise/v1.49.2/metabas
 
 **Enhancements**
 
-- Handle invalid file drop (#40690)
 - Sort official collections first in API endpoints (#40598)
 - Increase rate limit of actions from 1 to 10 per second  (#40527)
 - Order of collection should be the same as the collection sidebar (#39965)
@@ -139,7 +138,6 @@ Download the JAR here: https://downloads.metabase.com/v0.49.2/metabase.jar&lt;/p
 
 **Enhancements**
 
-- Handle invalid file drop (#40690)
 - Sort official collections first in API endpoints (#40598)
 - Increase rate limit of actions from 1 to 10 per second  (#40527)
 - Order of collection should be the same as the collection sidebar (#39965)
