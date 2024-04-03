@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-04-03T01:31:19.521924-04:00</updated>
+  <updated>2024-04-03T02:31:21.070930-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,6 +150,7 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
 &lt;li&gt;You can now search for media groups. Additionally, only relevant groups are shown in the groups tab.&lt;/li&gt;
 &lt;li&gt;People, measurements and workouts can now be imported via generic JSON inputs.&lt;/li&gt;
 &lt;li&gt;Calendar, collections, people, genres and groups can be disabled in the preferences.&lt;/li&gt;
+&lt;li&gt;Monitored media now form a collection.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Install ryot 4.3.0&lt;/h2&gt;
 &lt;h3&gt;Install prebuilt binaries via shell script&lt;/h3&gt;
