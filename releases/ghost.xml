@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-04-03T05:30:25.726072-04:00</updated>
+  <updated>2024-04-03T06:30:26.472247-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,6 +84,7 @@
     <content>&lt;ul&gt;
 &lt;li&gt;🐛 Fixed adding recommendations with long excerpts (#19949) - Sag&lt;/li&gt;
 &lt;li&gt;🐛 Fixed keeping existing attribution in recommendations (#19945) - Sag&lt;/li&gt;
+&lt;li&gt;🐛  Fixed validation for offer percentage amount (#19927) - Princi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;View the changelog for full details: https://github.com/tryghost/ghost/compare/v5.81.0...v5.81.1&lt;/p&gt;</content>
