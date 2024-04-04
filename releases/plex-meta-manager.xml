@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Meta Manager Releases</title>
-  <updated>2024-04-04T00:31:11.970398-04:00</updated>
+  <updated>2024-04-04T01:31:11.718098-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -264,7 +264,7 @@ Added Direct Rating Overlays without having to update the rating in plex
 Added TPDb Rate Limit&lt;/p&gt;
 &lt;h1&gt;Updates&lt;/h1&gt;
 &lt;p&gt;Reworked PMM Default Streaming &lt;a href="https://metamanager.wiki/en/latest/defaults/both/streaming"&gt;Collections&lt;/a&gt; and &lt;a href="https://metamanager.wiki/en/latest/defaults/overlays/streaming"&gt;Overlays&lt;/a&gt; to utilize TMDB Watch Provider data, allowing users to customize regions without relying on mdblist. This data will be more accurate and up-to-date now.
-* As a result of this change, if you are using custom images with this defaults file, you must replace any mention of &amp;lt;&lt;key&gt;&amp;gt; in the filename with &amp;lt;&lt;originals_key&gt;&amp;gt;.
+As a result of this change, if you are using custom images with this defaults file, you must replace any mention of &lt;code&gt;&amp;lt;&amp;lt;key&amp;gt;&amp;gt;&lt;/code&gt; in the filename with &lt;code&gt;&amp;lt;&amp;lt;originals_key&amp;gt;&amp;gt;&lt;/code&gt;.
 Added new &lt;a href="https://metamanager.wiki/en/latest/files/builders/trakt/#trakt-chart"&gt;&lt;code&gt;trakt_chart&lt;/code&gt; attributes&lt;/a&gt; &lt;code&gt;network_ids&lt;/code&gt;, &lt;code&gt;studio_ids&lt;/code&gt;, &lt;code&gt;votes&lt;/code&gt;, &lt;code&gt;tmdb_ratings&lt;/code&gt;, &lt;code&gt;tmdb_votes&lt;/code&gt;, &lt;code&gt;imdb_ratings&lt;/code&gt;, &lt;code&gt;imdb_votes&lt;/code&gt;, &lt;code&gt;rt_meters&lt;/code&gt;, &lt;code&gt;rt_user_meters&lt;/code&gt;, &lt;code&gt;metascores&lt;/code&gt; and removed the deprecated &lt;code&gt;network&lt;/code&gt; attribute
 Trakt Builder &lt;code&gt;trakt_userlist&lt;/code&gt; value &lt;code&gt;recommendations&lt;/code&gt; removed and &lt;code&gt;favorites&lt;/code&gt; added.
 Mass Update operations now can be given a list of sources to fall back on when one fails including a manual source.
@@ -275,7 +275,6 @@ Allows users to use the Admin username when specifying playlist users. Thanks @b
 Allows &lt;code&gt;verify_ssl&lt;/code&gt; to be set specifically for plex. Thanks @FestiveKyle!
 Updated Plex Item Advance Preferences.
 Add new &lt;a href="https://metamanager.wiki/en/latest/files/overlays/#special-text-variables"&gt;Overlay Special Text Options&lt;/a&gt; to directly print ratings to overlays without operations.&lt;/p&gt;
-&lt;h1&gt;Defaults&lt;/h1&gt;
 &lt;h1&gt;Bug Fixes&lt;/h1&gt;
 &lt;p&gt;Fixed the Rate Limit on MDbList calls
 Fixed collection fields being locked during batch edits when they shouldn't be
