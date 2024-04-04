@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Umami Releases</title>
-  <updated>2024-04-04T14:31:39.072467-04:00</updated>
+  <updated>2024-04-04T15:31:41.351640-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,27 +80,27 @@
     <author>
       <name>umami-software/umami</name>
     </author>
-    <content>&lt;h1&gt;Features&lt;/h1&gt;
-&lt;h2&gt;Improved teams collaboration&lt;/h2&gt;
+    <content>&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;Improved teams collaboration&lt;/h3&gt;
 &lt;p&gt;This release we're introducing a new way of working with teams. Now instead of simply sharing websites through a team, all team members can create, edit, view and delete websites in a team.&lt;/p&gt;
 &lt;p&gt;Additionally, teams are now clearly separate from your personal account. You will always be viewing the application in the context of your personal account or your team. That means pages like the Dashboard, Websites, and Reports now only show you the relevant websites.&lt;/p&gt;
 &lt;p&gt;A new dropdown has been added to navigation bar which lets you quickly switch between your teams and personal account:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/umami-software/umami/assets/477975/2ef15212-58f7-4551-be68-a811dea04214" /&gt;&lt;/p&gt;
 &lt;p&gt;See this &lt;a href="https://umami.is/blog/improved-teams-collaboration?ref=github-release"&gt;blog post&lt;/a&gt; for more details about the new teams feature.&lt;/p&gt;
-&lt;h2&gt;Searchable dropdowns&lt;/h2&gt;
+&lt;h3&gt;Searchable dropdowns&lt;/h3&gt;
 &lt;p&gt;A new UI element we've added across the application are searchable dropdowns. You can now search and filter for entries in the dropdown. This is especially useful for users with a lot of websites.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/umami-software/umami/assets/477975/2b8dfc9a-0a8d-4233-8545-0928374d56e8" /&gt;&lt;/p&gt;
-&lt;h2&gt;New Funnel report display&lt;/h2&gt;
+&lt;h3&gt;New Funnel report display&lt;/h3&gt;
 &lt;p&gt;The Funnel report now has a new display component that makes it easier to view your funnel data. Each step is now clearly shown with statistics showing how much of the audience has dropped off at each step.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/umami-software/umami/assets/477975/d5e0307e-3817-4194-82c6-4dfada81e24a" /&gt;&lt;/p&gt;
-&lt;h2&gt;Improved tracker&lt;/h2&gt;
+&lt;h3&gt;Improved tracker&lt;/h3&gt;
 &lt;p&gt;Several important changes were made to the tracker script:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Title, URL, and referrer are now URI encode to support Unicode characters for languages like Chinese.&lt;/li&gt;
 &lt;li&gt;Improved the handling of elements like anchor tags and buttons tags when using custom events.&lt;/li&gt;
 &lt;li&gt;Removed the do-not-track code as the feature was not widely supported.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Fixes&lt;/h1&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed missing edit buttons #2422&lt;/li&gt;
 &lt;li&gt;Fixed issue with view-only role #2445 &lt;/li&gt;
@@ -108,7 +108,7 @@
 &lt;li&gt;Fixed issue with handing Chinese characters #2470 &lt;/li&gt;
 &lt;li&gt;Fixed issue with metrics search #2505 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Updates&lt;/h1&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Added OCI labels for Docker #2512 &lt;/li&gt;
 &lt;li&gt;Updated selection for ES language #2438 &lt;/li&gt;
@@ -127,7 +127,7 @@
       <name>umami-software/umami</name>
     </author>
     <content>&lt;p&gt;This is a hotfix release to fix a few bugs from &lt;code&gt;v2.10.0&lt;/code&gt;.&lt;/p&gt;
-&lt;h1&gt;Fixes&lt;/h1&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Transfer website to teams feature was missing #2543 &lt;/li&gt;
 &lt;li&gt;Date switching not working for Today/Yesterday values #2540 &lt;/li&gt;
@@ -141,12 +141,12 @@
     <author>
       <name>umami-software/umami</name>
     </author>
-    <content>&lt;h1&gt;Fixes&lt;/h1&gt;
+    <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed broken search in MySQL #2557 &lt;/li&gt;
 &lt;li&gt;Fixed &lt;code&gt;COLLECT_API_ENDPOINT&lt;/code&gt; not working in Docker #2562 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Updates&lt;/h1&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Language updates: Japanese, French, Romanian, Arabic&lt;/li&gt;
 &lt;/ul&gt;</content>

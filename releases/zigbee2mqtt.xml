@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zigbee2MQTT Releases</title>
-  <updated>2024-04-04T14:31:48.127641-04:00</updated>
+  <updated>2024-04-04T15:31:49.381690-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -530,7 +530,11 @@
     <author>
       <name>Koenkk/zigbee2mqtt</name>
     </author>
-    <content>&lt;h1&gt;Improvements&lt;/h1&gt;
+    <content>&lt;h1&gt;Notes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Due to some internal changes, some external converters will break. To fix it simply remove &lt;code&gt;const extend = require('zigbee-herdsman-converters/lib/extend');&lt;/code&gt; from the external converter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Improvements&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman-converters/issues/7201"&gt;#7201&lt;/a&gt; Improve Aqara DJT12LM support (@mrskycriper)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Koenkk/zigbee-herdsman-converters/issues/7286"&gt;#7286&lt;/a&gt; Improve support for Bosch 8750001213 Twinguard (@burmistrzak)&lt;/li&gt;
