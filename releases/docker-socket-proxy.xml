@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docker Socket Proxy Releases</title>
-  <updated>2024-04-05T14:30:18.922627-04:00</updated>
+  <updated>2024-04-05T15:30:19.870634-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -32,5 +32,51 @@ Although this is not the beginning of the project, it will be the first tagged v
 &lt;li&gt;Dummy release to trigger correct image tags &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.1.2</id>
+    <title>New release for Docker Socket Proxy: v0.1.2</title>
+    <updated>2024-04-05T15:09:45-04:00</updated>
+    <author>
+      <name>Tecnativa/docker-socket-proxy</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove unused metadata by @yajo in https://github.com/Tecnativa/docker-socket-proxy/pull/42&lt;/li&gt;
+&lt;li&gt;Updates HAProxy to the 2.2-alpine tag by @stumpylog in https://github.com/Tecnativa/docker-socket-proxy/pull/30&lt;/li&gt;
+&lt;li&gt;Fix docs: specify port on DOCKER_HOST variable by @joao-p-marques in https://github.com/Tecnativa/docker-socket-proxy/pull/52&lt;/li&gt;
+&lt;li&gt;Update README info after #40 by @joao-p-marques in https://github.com/Tecnativa/docker-socket-proxy/pull/53&lt;/li&gt;
+&lt;li&gt;Fix typo in link by @kaykayehnn in https://github.com/Tecnativa/docker-socket-proxy/pull/55&lt;/li&gt;
+&lt;li&gt;Add support for /grpc api by @rubengees in https://github.com/Tecnativa/docker-socket-proxy/pull/61&lt;/li&gt;
+&lt;li&gt;Add environment variable to configure Docker socket location in image by @bachya in https://github.com/Tecnativa/docker-socket-proxy/pull/64&lt;/li&gt;
+&lt;li&gt;[UPD] pre-commit by @Tardo in https://github.com/Tecnativa/docker-socket-proxy/pull/72&lt;/li&gt;
+&lt;li&gt;Rebuild container weekly by @RealOrangeOne in https://github.com/Tecnativa/docker-socket-proxy/pull/71&lt;/li&gt;
+&lt;li&gt;Bump py from 1.9.0 to 1.10.0 by @dependabot in https://github.com/Tecnativa/docker-socket-proxy/pull/73&lt;/li&gt;
+&lt;li&gt;flake8 has moved to github by @mikemhenry in https://github.com/Tecnativa/docker-socket-proxy/pull/77&lt;/li&gt;
+&lt;li&gt;[DCK] pre-commit dependences updated by @josep-tecnativa in https://github.com/Tecnativa/docker-socket-proxy/pull/99&lt;/li&gt;
+&lt;li&gt;fix: no timeout for events route by @xstefanox in https://github.com/Tecnativa/docker-socket-proxy/pull/98&lt;/li&gt;
+&lt;li&gt;Fix: minor typo in readme by @sammcj in https://github.com/Tecnativa/docker-socket-proxy/pull/100&lt;/li&gt;
+&lt;li&gt;feat: add options for allowing stop and start by @sammcj in https://github.com/Tecnativa/docker-socket-proxy/pull/106&lt;/li&gt;
+&lt;li&gt;Bind to IPv4 and IPv6 in haproxy by @saltydk in https://github.com/Tecnativa/docker-socket-proxy/pull/108&lt;/li&gt;
+&lt;li&gt;[FIX] Fix CI by running poetry update by @josep-tecnativa in https://github.com/Tecnativa/docker-socket-proxy/pull/116&lt;/li&gt;
+&lt;li&gt;add config templating by @saltydk in https://github.com/Tecnativa/docker-socket-proxy/pull/111&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@stumpylog made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/30&lt;/li&gt;
+&lt;li&gt;@kaykayehnn made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/55&lt;/li&gt;
+&lt;li&gt;@rubengees made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/61&lt;/li&gt;
+&lt;li&gt;@bachya made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/64&lt;/li&gt;
+&lt;li&gt;@Tardo made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/72&lt;/li&gt;
+&lt;li&gt;@RealOrangeOne made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/71&lt;/li&gt;
+&lt;li&gt;@dependabot made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/73&lt;/li&gt;
+&lt;li&gt;@mikemhenry made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/77&lt;/li&gt;
+&lt;li&gt;@josep-tecnativa made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/99&lt;/li&gt;
+&lt;li&gt;@xstefanox made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/98&lt;/li&gt;
+&lt;li&gt;@sammcj made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/100&lt;/li&gt;
+&lt;li&gt;@saltydk made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/108&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Tecnativa/docker-socket-proxy/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
+    <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.1.2" rel="alternate"/>
   </entry>
 </feed>

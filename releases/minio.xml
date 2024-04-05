@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2024-04-05T14:31:45.409932-04:00</updated>
+  <updated>2024-04-05T15:31:49.256017-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -137,6 +137,10 @@
 &lt;li&gt;CPU issue addressed when you have 1000's of folder prefixes at bucket root.&lt;/li&gt;
 &lt;li&gt;LDAP support normalization of DN names for consistent behavior.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Update&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;This release is broken if you use IAM users, as the policy reload function is broken. You are advised
+to wait for the next release. If you plan an upgrade, please stick to RELEASE.2024-03-26T22-10-45Z 
+until we make a new release.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: new staticheck and linter issues reported by @harshavardhana in https://github.com/minio/minio/pull/19340&lt;/li&gt;
