@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-04-05T09:32:56.251680-04:00</updated>
+  <updated>2024-04-05T10:32:45.922682-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -264,7 +264,7 @@ finish before shutting down.&lt;/p&gt;
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://github.com/coder/coder/blob/main/docs/install/releases.md"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
+This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt;. Learn more about our &lt;a href="https://github.com/coder/coder/blob/main/docs/install/releases.md"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
 &lt;ul&gt;
