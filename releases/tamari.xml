@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tamari Releases</title>
-  <updated>2024-04-07T14:31:31.652777-04:00</updated>
+  <updated>2024-04-07T15:31:32.301699-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,15 @@
     </author>
     <content>&lt;p&gt;Changed to an open source font. Integrated new logo. Resigned account page to include a recipe count statistic, app wide accent color preference, and profile picture selection using new custom designed icons. Developed a Meal Planner that allows scheduling of recipes up to 30 days in advance.&lt;/p&gt;</content>
     <link href="https://github.com/alexbates/Tamari/releases/tag/v0.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alexbates/Tamari/releases/tag/v0.5</id>
+    <title>New release for Tamari: Version 0.5</title>
+    <updated>2024-04-07T15:04:18-04:00</updated>
+    <author>
+      <name>alexbates/Tamari</name>
+    </author>
+    <content>&lt;p&gt;Developed a light theme, users can select theme on account page. Added servings and nutritional info to recipes (both optional). Increased max length of recipe instructions. Enabled app to run as standalone web app on iOS. Restructured application using Flask blueprints and moved all user data to app/appdata to make updating easier.&lt;/p&gt;</content>
+    <link href="https://github.com/alexbates/Tamari/releases/tag/v0.5" rel="alternate"/>
   </entry>
 </feed>
