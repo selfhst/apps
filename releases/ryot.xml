@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-04-07T00:31:20.842657-04:00</updated>
+  <updated>2024-04-07T01:31:17.108235-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,6 +146,7 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;You can now keep track of where you watched a media (e.g. Netflix, Hulu etc). All integrations and importers have been updated to set this automatically.&lt;/li&gt;
+&lt;li&gt;You can import your IMDb watchlist.&lt;/li&gt;
 &lt;li&gt;You can now search for people. Additionally, only relevant people are shown in the people tab.&lt;/li&gt;
 &lt;li&gt;You can now search for media groups. Additionally, only relevant groups are shown in the groups tab.&lt;/li&gt;
 &lt;li&gt;People, measurements and workouts can now be imported via generic JSON inputs.&lt;/li&gt;
