@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ToolJet Releases</title>
-  <updated>2024-04-08T07:32:14.844851-04:00</updated>
+  <updated>2024-04-08T08:32:12.632023-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,7 +100,7 @@
 &lt;ul&gt;
 &lt;li&gt;Updated display name for button by @devesh-2002 in &lt;a href="https://github.com/ToolJet/ToolJet/pull/9102"&gt;#9102&lt;/a&gt; (&lt;a href="https://github.com/ToolJet/ToolJet/pull/9090"&gt;#9090&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v2.35.0...v2.35.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v2.34.2...v2.35.0&lt;/p&gt;</content>
     <link href="https://github.com/ToolJet/ToolJet/releases/tag/v2.35.0" rel="alternate"/>
   </entry>
 </feed>
