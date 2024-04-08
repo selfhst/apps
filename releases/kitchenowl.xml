@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>KitchenOwl Releases</title>
-  <updated>2024-04-08T05:30:43.943812-04:00</updated>
+  <updated>2024-04-08T06:30:45.054963-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,6 +111,10 @@
       <name>TomBursch/kitchenowl</name>
     </author>
     <content>&lt;p&gt;This is the first release of the all-in-one container setup. It is backwards compatible, so you won't need to change your existing config. Take a look at the &lt;a href="https://docs.kitchenowl.org/self-hosting/#__tabbed_1_3"&gt;documentation&lt;/a&gt; for more information. &lt;/p&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SSO uses client secret post now #406, if you use Authelia you will have to set &lt;code&gt;token_endpoint_auth_method: client_secret_post&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;✨ Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Turn KitchenOwl into a monorepo by @beatbrot in https://github.com/TomBursch/kitchenowl/pull/356&lt;/li&gt;
