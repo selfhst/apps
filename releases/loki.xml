@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Loki Releases</title>
-  <updated>2024-04-08T15:32:03.198867-04:00</updated>
+  <updated>2024-04-08T16:32:03.041805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,19 +75,50 @@
   </entry>
   <entry>
     <id>https://github.com/grafana/loki/releases/tag/v3.0.0</id>
-    <title>New release for Loki: v3.0.0</title>
+    <title>New release for Loki: Loki 3.0.0</title>
     <updated>2024-04-08T15:19:53-04:00</updated>
     <author>
       <name>grafana/loki</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/grafana/loki/compare/v2.9.6...v3.0.0"&gt;3.0.0&lt;/a&gt; (2024-04-08)&lt;/h2&gt;
-&lt;h3&gt;Features&lt;/h3&gt;
+    <content>&lt;p&gt;Grafana Labs and the Loki team are excited to announce the release of Loki 3.0. Here's a summary of new enhancements and important fixes.&lt;/p&gt;
+&lt;p&gt;For a full list of all changes and fixes, refer to the &lt;a href="https://github.com/grafana/loki/blob/main/CHANGELOG.md"&gt;CHANGELOG&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Features and enhancements&lt;/h2&gt;
+&lt;p&gt;Key features in Loki 3.0.0 include the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;helm:&lt;/strong&gt; configurable API version for PodLog CRD (&lt;a href="https://github.com/grafana/loki/issues/10812"&gt;#10812&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/d1dee9150b0e69941b2bd3ce4b23afead174ea29"&gt;d1dee91&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;lambda/promtail:&lt;/strong&gt; support dropping labels (&lt;a href="https://github.com/grafana/loki/issues/10755"&gt;#10755&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ec54c723ebbeeda88000dde188d539ecfe05dad8"&gt;ec54c72&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;logstash:&lt;/strong&gt; clients logstash output structured metadata support (&lt;a href="https://github.com/grafana/loki/issues/10899"&gt;#10899&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/32f1ec2fda5057732a2b20b98942aafec112c4ba"&gt;32f1ec2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Query acceleration with Bloom filters&lt;/strong&gt; (experimental): This is designed to speed up filter queries, with best results for queries that are looking for a specific text string like an error message or UUID.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Native OTel Support&lt;/strong&gt;: A simplified ingestion pipeline (Loki Exporter no longer needed) and a more intuitive query experience for OTel logs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Helm charts&lt;/strong&gt;: A major upgrade to the Loki helm chart introduces support for &lt;code&gt;Distributed&lt;/code&gt; mode (microservices), includes memcached by default, and includes several updates to configurations to improve Loki operations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lambda/Promtail:&lt;/strong&gt; support dropping labels (&lt;a href="https://github.com/grafana/loki/issues/10755"&gt;#10755&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ec54c723ebbeeda88000dde188d539ecfe05dad8"&gt;ec54c72&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Docs improvements&lt;/strong&gt;: All the Getting Started topics have been revised, including a new &lt;a href="https://grafana.com/docs/loki/latest/get-started/quick-start/"&gt;Quickstart&lt;/a&gt; to help new users get up and running with Loki faster.The Storage, Configuration Reference, and API documentation have been updated to reflect deprecated and removed code, configuration options, and API endpoints.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;h2&gt;Deprecations&lt;/h2&gt;
+&lt;p&gt;One of the focuses of Loki 3.0 was cleaning up unused code and old features that had been previously deprecated but not removed. Loki 3.0 removes a number of previous deprecations and introduces some new deprecations.  Some of the main areas with changes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://grafana.com/docs/loki/latest/storage/"&gt;Deprecated storage options&lt;/a&gt; including the deprecation of the BoltDB store.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://grafana.com/docs/loki/next/configure/"&gt;Deprecated configuration options&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://grafana.com/docs/loki/next/reference/api/#deprecated-endpoints"&gt;API endpoint deprecations&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more about breaking changes in this release, refer to the &lt;a href="https://grafana.com/docs/loki/next/setup/upgrade/"&gt;Upgrade guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Upgrade Considerations&lt;/h2&gt;
+&lt;p&gt;The path from 2.9 to 3.0 includes several breaking changes.  For important upgrade guideance, refer to the &lt;a href="https://grafana.com/docs/loki/latest/setup/upgrade/"&gt;Upgrade Guide&lt;/a&gt; and the separate &lt;a href="https://grafana.com/docs/loki/latest/setup/upgrade/upgrade-to-6x/"&gt;Helm Upgrade Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://github.com/grafana/loki/compare/v2.9.6...v3.0.0"&gt;3.0.0&lt;/a&gt; (2024-05-08)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;All lifecycler cfgs ref a valid IPv6 addr and port combination (&lt;a href="https://github.com/grafana/loki/issues/11121"&gt;#11121&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/6385b195739bd7d4e9706faddd0de663d8e5331a"&gt;6385b19&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update github.com/c2h5oh/datasize digest to 859f65c (main) (&lt;a href="https://github.com/grafana/loki/issues/10820"&gt;#10820&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/c66ffd125cd89f5845a75a1751186fa46d003f70"&gt;c66ffd1&lt;/a&gt;)&lt;/li&gt;
@@ -99,6 +130,7 @@
 &lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update github.com/joncrlsn/dque digest to c2ef48c (main) (&lt;a href="https://github.com/grafana/loki/issues/10947"&gt;#10947&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/1fe48858ae15b33646eedb85b05d6773a8bc5020"&gt;1fe4885&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update module google.golang.org/grpc [security] (main) (&lt;a href="https://github.com/grafana/loki/issues/11031"&gt;#11031&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/0695424f7dd62435df3a9981276b40f3c5ef5641"&gt;0695424&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;helm:&lt;/strong&gt; bump nginx-unprivilege to fix CVE (&lt;a href="https://github.com/grafana/loki/issues/10754"&gt;#10754&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/dbf7dd4bac112a538a59907a8c6092504e7f4a91"&gt;dbf7dd4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parse JSON String arrays properly so string elements can be retrieved&lt;/strong&gt;: &lt;a href="https://github.com/grafana/loki/pull/11921"&gt;PR #11921&lt;/a&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; correctly parse list of drop stage sources from YAML (&lt;a href="https://github.com/grafana/loki/issues/10848"&gt;#10848&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/f51ee849b03c5f6b79f3e93cb7fd7811636bede2"&gt;f51ee84&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; prevent panic due to duplicate metric registration after reloaded (&lt;a href="https://github.com/grafana/loki/issues/10798"&gt;#10798&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/47e2c5884f443667e64764f3fc3948f8f11abbb8"&gt;47e2c58&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;respect query matcher in ingester when getting label values (&lt;a href="https://github.com/grafana/loki/issues/10375"&gt;#10375&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/85e2e52279ecac6dc111d5c113c54d6054d2c922"&gt;85e2e52&lt;/a&gt;)&lt;/li&gt;
