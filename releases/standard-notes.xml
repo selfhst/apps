@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Standard Notes Releases</title>
-  <updated>2024-04-09T11:31:59.154892-04:00</updated>
+  <updated>2024-04-09T12:31:59.659684-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,22 @@
 &lt;li&gt;Fixed issue with system color scheme not being applied correctly on start (https://github.com/standardnotes/app/commit/7967ddead790d89478554cd6a96429fd06958590)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.192.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.192.13</id>
+    <title>New release for Standard Notes: Desktop 3.192.13</title>
+    <updated>2024-04-08T12:35:07-04:00</updated>
+    <author>
+      <name>standardnotes/app</name>
+    </author>
+    <content>&lt;h2&gt;Web Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Version bump only for package @standardnotes/web&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Desktop Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Version bump only for package @standardnotes/desktop&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.192.13" rel="alternate"/>
   </entry>
 </feed>
