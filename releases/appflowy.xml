@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-04-09T02:32:21.780843-04:00</updated>
+  <updated>2024-04-09T03:32:26.212520-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,7 +127,7 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.5.4 - 04/08/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.5.4 - 04/09/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduced support for displaying a synchronization indicator within documents and databases to enhance user awareness of data sync status&lt;/li&gt;
