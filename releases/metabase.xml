@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-04-10T16:31:42.846056-04:00</updated>
+  <updated>2024-04-10T17:31:51.661267-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -206,23 +206,23 @@ Download the JAR here: https://downloads.metabase.com/v0.49.4/metabase.jar&lt;/p
 
 **Enhancements**
 
-- asynchronously load libraries for png and pdf exports (#41036)
+- Asynchronously load libraries for PNG and PDF exports (#41036)
 
 **Bug fixes**
 
-- Fix "instace analytics" typo (#36596)
 - Signed Embedding without Title will remove all the tabs of a dashboard as well (#41195)
 - SQL generated for datetime "is empty" filter on MSSQL is not correct (#41158)
-- Casting integer to Datatime via Table Metadata makes column unusable  (#41122)
-- "No method in multimethod 'coerce-temporal' for dispatch value: [nil java.time.LocalDateTime]" when evaluating null datetimes (#40885)
-- Bigquery: Can't search field values for required partition tables (#40673)
+- Casting integer to datetime via Table Metadata makes column unusable  (#41122)
+- "No method in multi-method 'coerce-temporal' for dispatch value: [nil java.time.LocalDateTime]" when evaluating null datetimes (#40885)
+- BigQuery: Can't search field values for required partition tables (#40673)
 - Iframe embedding overflow widgets issue (#40660)
 - GUI model joining native ones break with column not found error (#40252)
-- Waiting for result tab title contains js code (#40051)
+- Waiting for result tab title contains JS code (#40051)
 - State of the FE gets lost on detail views when there are multiple joins to the same tables (#39477)
 - Manually choosing Axis in chart settings will break subscription (#38839)
 - Embedding height is not dynamic (#37437)
 - View Details: "is connected to:" uses wrong PK for query with join (#34070)
+- Fix "instace analytics" typo (#36596)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.49.4" rel="alternate"/>
