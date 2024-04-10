@@ -8415,5 +8415,43 @@
         "Alternatives": "Okta",
         "Feed URL": "https://selfhst.github.io/apps/releases/fusionauth.xml",
         "CreatedAt": "2024-04-05 08:47:47+00:00"
+    },
+    {
+        "Project": "Requestly",
+        "Website": "https://requestly.com/?ref=selfh.st",
+        "Repository Link": "https://github.com/requestly/requestly?ref=selfh.st",
+        "Description": "Developer tool for frontend developers and QAs to build, test, and debug web apps faster by intercepting and modifying network traffic",
+        "License": "AGPL-3.0",
+        "Icon": null,
+        "Source": "GitHub",
+        "Repository": "requestly/requestly",
+        "Stars": null,
+        "Stars (Display)": "k",
+        "Latest Version": null,
+        "Latest Commit": null,
+        "Latest Commit Color": "Red",
+        "Tags": "Development,Mobile App Development,Front-End",
+        "Alternatives": "Firebase",
+        "Feed URL": "https://selfhst.github.io/apps/releases/requestly.xml",
+        "CreatedAt": "2024-04-10 19:43:28+00:00"
+    },
+    {
+        "Project": "Receipt Wrangler",
+        "Website": "https://github.com/Receipt-Wrangler/receipt-wrangler-api?ref=selfh.st",
+        "Repository Link": "https://github.com/Receipt-Wrangler/receipt-wrangler-api?ref=selfh.st",
+        "Description": "Easy-to-use self-hosted receipt manager",
+        "License": "AGPL-3.0",
+        "Icon": null,
+        "Source": "GitHub",
+        "Repository": "Receipt-Wrangler/receipt-wrangler-api",
+        "Stars": null,
+        "Stars (Display)": "k",
+        "Latest Version": null,
+        "Latest Commit": null,
+        "Latest Commit Color": "Red",
+        "Tags": "Document Management,Receipts",
+        "Alternatives": "",
+        "Feed URL": "https://selfhst.github.io/apps/releases/receipt-wrangler.xml",
+        "CreatedAt": "2024-04-10 19:45:41+00:00"
     }
 ]
