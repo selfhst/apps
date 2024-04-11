@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2024-04-11T00:31:08.040463-04:00</updated>
+  <updated>2024-04-11T01:31:07.335456-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -330,7 +330,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;SECURITY&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Important:&lt;/strong&gt; Prevent XSS injection in embed. Thanks &lt;a href="https://www.linkedin.com/in/ahmed-hasnaoui-790618180"&gt;Syst3m0ver&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Important:&lt;/strong&gt; Prevent XSS injection in embed. Thanks &lt;a href="https://www.linkedin.com/in/ahmed-hasnaoui-790618180"&gt;Syst3m0ver&lt;/a&gt; and &lt;a href="https://aramido.de/sicherheitspruefung/penetrationstest"&gt;aramido GmbH&lt;/a&gt;!&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Chocobozzz/PeerTube/releases/tag/v6.0.4" rel="alternate"/>
   </entry>
