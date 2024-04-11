@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ownCloud Infinite Scale Releases</title>
-  <updated>2024-04-11T04:32:50.948341-04:00</updated>
+  <updated>2024-04-11T05:32:49.832358-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1760,17 +1760,13 @@
     <author>
       <name>owncloud/ocis</name>
     </author>
-    <content>&lt;h1&gt;Table of Contents&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#changelog-for-501-2024-04-10"&gt;Changelog for 5.0.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Changes in 5.0.1&lt;/h1&gt;
+    <content>&lt;h1&gt;Changes in 5.0.1&lt;/h1&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bugfix - Update reva to v2.19.4: &lt;a href="https://github.com/owncloud/ocis/pull/8781"&gt;#8781&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Bugfix - Fix restarting of postprocessing: &lt;a href="https://github.com/owncloud/ocis/pull/8782"&gt;#8782&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Bugfix - Fix the create personal space cache: &lt;a href="https://github.com/owncloud/ocis/pull/8799"&gt;#8799&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Enhancement - Make IDP cookies same site strict: &lt;a href="https://github.com/owncloud/ocis/pull/8716"&gt;#8716&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bugfix - Make IDP cookies same site strict: &lt;a href="https://github.com/owncloud/ocis/pull/8716"&gt;#8716&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Details&lt;/h2&gt;
 &lt;ul&gt;
@@ -1812,6 +1808,7 @@
    threats.&lt;/p&gt;
 &lt;p&gt;This update does not impact the existing functionality of the application but
    provides an additional layer of security where needed.&lt;/p&gt;
+&lt;p&gt;This only affects cookies set by the built-in IDP. Production systems should not be affected.&lt;/p&gt;
 &lt;p&gt;https://github.com/owncloud/ocis/pull/8716&lt;/p&gt;</content>
     <link href="https://github.com/owncloud/ocis/releases/tag/v5.0.1" rel="alternate"/>
   </entry>
