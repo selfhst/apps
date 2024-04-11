@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-04-11T07:30:54.519020-04:00</updated>
+  <updated>2024-04-11T08:30:56.645948-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -344,7 +344,7 @@ The minimum required Ruby version has been bumped to 3.0 in Mastodon v4.1.14.&lt
 - &lt;a href="https://docs.joinmastodon.org/admin/moderation/#blocking-by-e-mail-server"&gt;Blocking disposable/temporary e-mail providers&lt;/a&gt; (such as &lt;code&gt;any.pink&lt;/code&gt; being used in the current wave)
 - &lt;a href="https://docs.joinmastodon.org/admin/optional/captcha/"&gt;Setting up hCaptcha&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Known issues&lt;/h2&gt;
-&lt;p&gt;When setting up a new server, the admin account created by the &lt;code&gt;mastodon:setup&lt;/code&gt; task will not be automatically approved. You will need to approve it from the command-line interface with &lt;code&gt;tootctl modify &amp;lt;username&amp;gt; --approved&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;When setting up a new server, the admin account created by the &lt;code&gt;mastodon:setup&lt;/code&gt; task will not be automatically approved. You will need to approve it from the command-line interface with &lt;code&gt;RAILS_ENV=production bin/tootctl accounts modify &amp;lt;username&amp;gt; --approved&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Upgrade notes&lt;/h2&gt;
 &lt;p&gt;To get the code for v4.2.8, use &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v4.2.8&lt;/code&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
