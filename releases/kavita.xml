@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kavita Releases</title>
-  <updated>2024-04-12T18:30:40.416982-04:00</updated>
+  <updated>2024-04-12T19:30:39.669898-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -299,16 +299,13 @@ New repo here: https://hub.docker.com/r/jvmilazz0/kavita - You just need to swit
 &lt;p&gt;This is a massive update, all progress data will be exported on the first run to config/progress_export.csv. The migrations may take up to 10 minutes to migrate. Do not stop midway, you will break your db and need to restore from a backup. &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Kavita+ users: As mentioned last release, you are expected to stay up to date - 2 releases. Old Kavita+ APIs will be shutdown shortly after v0.8. You can update to v0.7.14 as the minimum.  (Note: v0.7.14 is not available at launch due to CI/CD. Just update to v0.8)&lt;/p&gt;
+&lt;p&gt;Kavita+ users: As mentioned last release, you are expected to stay up to date - 2 releases. Old Kavita+ APIs will be shutdown shortly after v0.8. You can update to v0.7.14 as the minimum.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The default emailer was supposed to be turned off last release. I held it longer to give time. The emailer will be turned off after the v0.8 release.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;This is a MASSIVE update, some data loss can be expected. I spent weeks trying to minimize any data loss and have provided an export. I apologize ahead of time if any occurs. If you are running into issues, do not hesitate to reach out to support on discord. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Unfortunately, during deployment, the CI/CD pipeline had an issue and v0.7.14 is now a pre-v0.8 nightly. We are current investigating a way to restore the old image for prosperity sake. &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Added&lt;/h1&gt;
