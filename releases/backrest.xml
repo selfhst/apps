@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-04-12T13:32:49.257816-04:00</updated>
+  <updated>2024-04-12T14:32:50.835155-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,6 +144,16 @@
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;revert orchestrator changes (&lt;a href="https://github.com/garethgeorge/backrest/commit/07cffcb5d8dc018631fcd0d1f98cc01553a6574e"&gt;07cffcb&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;address minor data race in command output handling and enable --race in coverage (&lt;a href="https://github.com/garethgeorge/backrest/commit/32231385ed20c0dccda12361eaac7cc088ec15a0"&gt;3223138&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;cannot set retention policy buckets to 0 (&lt;a href="https://github.com/garethgeorge/backrest/commit/7e9bf15976006c7f3ff96948d2b2c291737c9e88"&gt;7e9bf15&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;fixing overflow issue (&lt;a href="https://github.com/garethgeorge/backrest/issues/191"&gt;#191&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/1d9e43e49b21adc4ed8ce1ec96199084981d709a"&gt;1d9e43e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;default BACKREST_PORT to 127.0.0.1:9898 (localhost only) when using install.sh (&lt;a href="https://github.com/garethgeorge/backrest/commit/eb07230cc0843643406fa44ca21c3a138baced77"&gt;eb07230&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;handle backpressure correctly in event stream (&lt;a href="https://github.com/garethgeorge/backrest/commit/4e2bf1f76c4d35d61fc48111baaa33b7b7a8c133"&gt;4e2bf1f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;improve tooltips on AddRepoModal (&lt;a href="https://github.com/garethgeorge/backrest/commit/e2be189f9e4bb617a69e4b9c15da3d1920549349"&gt;e2be189&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;limit cmd log length to 32KB per operation (&lt;a href="https://github.com/garethgeorge/backrest/commit/92d52bed8e84d6cd8dd331a1fa52a6e2d30cb7a7"&gt;92d52be&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;misc UI and backend bug fixes (&lt;a href="https://github.com/garethgeorge/backrest/commit/e96f4036df6849650d6e378c9a175fef86b2962b"&gt;e96f403&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;spawn goroutine to update oplog with progress during backup/restore (&lt;a href="https://github.com/garethgeorge/backrest/commit/eab1c1bffe2a1aec6afa9e054278ff98ca3047cf"&gt;eab1c1b&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use C:\Program Files\backrest on both x64 and 32-bit (&lt;a href="https://github.com/garethgeorge/backrest/issues/200"&gt;#200&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/7b0d3aa1be7bc93363b00154d09502b4e4e63ba5"&gt;7b0d3aa&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/garethgeorge/backrest/releases/tag/v0.17.1" rel="alternate"/>
   </entry>
