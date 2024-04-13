@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tailscale Releases</title>
-  <updated>2024-04-13T16:31:29.453886-04:00</updated>
+  <updated>2024-04-13T17:31:29.965171-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,15 +177,14 @@
     </author>
     <content>&lt;h2&gt;All platforms&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;New: &lt;a href="https://tailscale.com/kb/1080/cli/#serve"&gt;&lt;code&gt;tailscale serve&lt;/code&gt;&lt;/a&gt; headers are now &lt;a href="https://datatracker.ietf.org/doc/html/rfc2047"&gt;RFC 2047&lt;/a&gt; Q-encoded&lt;/li&gt;
-&lt;li&gt;Changed: &lt;a href="https://datatracker.ietf.org/doc/html/rfc5389"&gt;STUN protocol&lt;/a&gt; performance is improved&lt;/li&gt;
-&lt;li&gt;Changed: The &lt;a href="https://tailscale.com/kb/1080/cli/#exit-node"&gt;&lt;code&gt;exit-node list&lt;/code&gt;&lt;/a&gt; CLI command sorts lists of exit nodes&lt;/li&gt;
+&lt;li&gt;Changed: &lt;a href="https://tailscale.com/kb/1080/cli/#serve"&gt;&lt;code&gt;tailscale serve&lt;/code&gt;&lt;/a&gt; headers are now &lt;a href="https://datatracker.ietf.org/doc/html/rfc2047"&gt;RFC 2047&lt;/a&gt; Q-encoded&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;macOS&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;New: Access a new &lt;a href="https://www.obdev.at/iap/index.html"&gt;Internet Access Policy&lt;/a&gt; for &lt;a href="https://www.obdev.at/products/littlesnitch/index.html"&gt;Little Snitch&lt;/a&gt; users&lt;/li&gt;
 &lt;li&gt;New: Receive alerts when an error occurs while changing client preferences&lt;/li&gt;
 &lt;li&gt;New: Use Tailscale for macOS as a Tailscale SSH client (Standalone variant only)&lt;/li&gt;
+&lt;li&gt;New: &lt;code&gt;tailscale ssh&lt;/code&gt; and &lt;code&gt;tailscale nc&lt;/code&gt; are now supported in the Standalone variant of the client.&lt;/li&gt;
 &lt;li&gt;Changed: The &lt;code&gt;.pkg&lt;/code&gt; installer no longer requires a system restart after installing the client (Standalone variant only)&lt;/li&gt;
 &lt;li&gt;Fixed: Reduced number of alerts if the network extension terminates unexpectedly&lt;/li&gt;
 &lt;li&gt;Fixed: Unexpected terminations for some macOS 10.15 Catalina users&lt;/li&gt;
@@ -196,7 +195,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;Synology&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;New: Update certificates using the &lt;a href="https://tailscale.com/kb/1080/cli/#cert"&gt;&lt;code&gt;cert&lt;/code&gt;&lt;/a&gt; CLI command&lt;/li&gt;
+&lt;li&gt;New: Update certificates using the &lt;code&gt;configure synology-cert&lt;/code&gt; CLI command&lt;/li&gt;
 &lt;li&gt;Fixed: &lt;a href="https://tailscale.com/kb/1121/ipv6/"&gt;IPv6&lt;/a&gt; addresses are available again&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/tailscale/tailscale/releases/tag/v1.64.0" rel="alternate"/>
