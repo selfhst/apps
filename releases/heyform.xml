@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HeyForm Releases</title>
-  <updated>2024-04-12T23:32:23.682653-04:00</updated>
+  <updated>2024-04-13T00:32:23.541148-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -23,5 +23,27 @@
 &lt;/ul&gt;
 &lt;p&gt;https://github.com/heyform/heyform/compare/v0.0.5...v0.0.6&lt;/p&gt;</content>
     <link href="https://github.com/heyform/heyform/releases/tag/v0.0.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/heyform/heyform/releases/tag/v0.0.7</id>
+    <title>New release for HeyForm: v0.0.7</title>
+    <updated>2024-04-13T00:17:31-04:00</updated>
+    <author>
+      <name>heyform/heyform</name>
+    </author>
+    <content>&lt;h3&gt;New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add environment variables to deailing with SSL email endpoints (port 465) (#40)&lt;/li&gt;
+&lt;li&gt;Add an environment variable to disable new user creation (#35)&lt;/li&gt;
+&lt;li&gt;Add webp and svg to common mime types (#34)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplify apk process in Dockerfile by using &lt;code&gt;--no-cache&lt;/code&gt; option by @PeterDaveHello in https://github.com/heyform/heyform/pull/42&lt;/li&gt;
+&lt;li&gt;Improve Chinese language by @vfasky in https://github.com/heyform/heyform/pull/50&lt;/li&gt;
+&lt;li&gt;Fix date format not defined error https://v2ex.com/t/1028657#r_14545378&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;https://github.com/heyform/heyform/compare/v0.0.6...v0.0.7&lt;/p&gt;</content>
+    <link href="https://github.com/heyform/heyform/releases/tag/v0.0.7" rel="alternate"/>
   </entry>
 </feed>
