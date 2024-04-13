@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2024-04-13T12:31:26.683831-04:00</updated>
+  <updated>2024-04-13T13:31:27.987205-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,5 +67,53 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.2.1408...v4.0.3.1413&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.3.1413" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.4.1491</id>
+    <title>New release for Sonarr: 4.0.4.1491</title>
+    <updated>2024-04-13T13:28:06-04:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 941985f65b0c5c810294a6462028698e4972b170 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed: Cleanse BHD RSS key in log files by @markus101 in https://github.com/Sonarr/Sonarr/pull/6673&lt;/li&gt;
+&lt;li&gt;Fixed: Path parsing incorrectly treating series title as episode number by @markus101 in https://github.com/Sonarr/Sonarr/pull/6682&lt;/li&gt;
+&lt;li&gt;Fixed: Deleted episodes not being unmonitored when series folder has been deleted by @markus101 in https://github.com/Sonarr/Sonarr/pull/6683&lt;/li&gt;
+&lt;li&gt;Fix incorrect subtitle copy regex and extra file script import by @JeWe37 in https://github.com/Sonarr/Sonarr/pull/6640&lt;/li&gt;
+&lt;li&gt;Specify widely supported display mode for PWA by @cuki in https://github.com/Sonarr/Sonarr/pull/6674&lt;/li&gt;
+&lt;li&gt;Add info box to custom formats modal by @stevietv in https://github.com/Sonarr/Sonarr/pull/6675&lt;/li&gt;
+&lt;li&gt;Fix typo by @tillkruss in https://github.com/Sonarr/Sonarr/pull/6670&lt;/li&gt;
+&lt;li&gt;UI change to show a footnote to indicate episode title/series title/release group truncation is supported by @fireph in https://github.com/Sonarr/Sonarr/pull/6647&lt;/li&gt;
+&lt;li&gt;Fixed: Sending ntfy.sh notifications with unicode characters by @markus101 in https://github.com/Sonarr/Sonarr/pull/6684&lt;/li&gt;
+&lt;li&gt;New: Set 'Release Type' during Manual Import by @markus101 in https://github.com/Sonarr/Sonarr/pull/6685&lt;/li&gt;
+&lt;li&gt;Fixed: Skip move when source and destination are the same by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6687&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6676&lt;/li&gt;
+&lt;li&gt;Fixed: Improve AniList testing with Media filters by @markus101 in https://github.com/Sonarr/Sonarr/pull/6690&lt;/li&gt;
+&lt;li&gt;New: Option to prefix app name on Telegram notification titles by @markus101 in https://github.com/Sonarr/Sonarr/pull/6691&lt;/li&gt;
+&lt;li&gt;Add DevContainer and VSCode config by @joshka in https://github.com/Sonarr/Sonarr/pull/6695&lt;/li&gt;
+&lt;li&gt;New: Auto tag series based on tags present/absent on series by @markus101 in https://github.com/Sonarr/Sonarr/pull/6696&lt;/li&gt;
+&lt;li&gt;Fixed: Renaming episodes for a series by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6697&lt;/li&gt;
+&lt;li&gt;New: Detect shfs mounts in disk space by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6700&lt;/li&gt;
+&lt;li&gt;Prevent multiple enumerations in Custom Formats token by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6702&lt;/li&gt;
+&lt;li&gt;Fixed: Changing Release Type in Manage Episodes by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6707&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6698&lt;/li&gt;
+&lt;li&gt;New: Parse absolute episode numbers within square brackets by @markus101 in https://github.com/Sonarr/Sonarr/pull/6708&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6713&lt;/li&gt;
+&lt;li&gt;Improve release notes for main releases by @markus101 in https://github.com/Sonarr/Sonarr/pull/6712&lt;/li&gt;
+&lt;li&gt;Bump version to 4.0.4 by @markus101 in https://github.com/Sonarr/Sonarr/pull/6720&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@cuki made their first contribution in https://github.com/Sonarr/Sonarr/pull/6674&lt;/li&gt;
+&lt;li&gt;@tillkruss made their first contribution in https://github.com/Sonarr/Sonarr/pull/6670&lt;/li&gt;
+&lt;li&gt;@fireph made their first contribution in https://github.com/Sonarr/Sonarr/pull/6647&lt;/li&gt;
+&lt;li&gt;@joshka made their first contribution in https://github.com/Sonarr/Sonarr/pull/6695&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.3.1413...v4.0.4.1491&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.4.1491" rel="alternate"/>
   </entry>
 </feed>
