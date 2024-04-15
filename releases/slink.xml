@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Slink Releases</title>
-  <updated>2024-04-15T11:32:56.620938-04:00</updated>
+  <updated>2024-04-15T12:32:57.056287-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,20 @@ and much more.&lt;/li&gt;
 &lt;p&gt;More features are planned for future releases, so stay tuned!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.0.0-rc.11...v1.0.0&lt;/p&gt;</content>
     <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.0.1</id>
+    <title>New release for Slink: v1.0.1</title>
+    <updated>2024-04-15T12:04:08-04:00</updated>
+    <author>
+      <name>andrii-kryvoviaz/slink</name>
+    </author>
+    <content>&lt;h1&gt;What's New:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve password validation messaging&lt;/li&gt;
+&lt;li&gt;Fix issue with invalid headers, which could be set by a reverse proxy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
+    <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
