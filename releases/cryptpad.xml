@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CryptPad Releases</title>
-  <updated>2024-04-15T01:32:33.602001-04:00</updated>
+  <updated>2024-04-15T02:32:45.777873-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -513,7 +513,7 @@ index cb827b4b0..f2b32e959 100644
 &lt;p&gt;```bash
 git fetch origin --tags
 git checkout 2024.3.0
-npm ci
+npm install
 npm run install:components
 ./install-onlyoffice.sh&lt;/p&gt;
 &lt;h1&gt;press q to close the license screen&lt;/h1&gt;
