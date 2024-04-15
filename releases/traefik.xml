@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-04-15T08:31:57.442885-04:00</updated>
+  <updated>2024-04-15T09:31:56.549465-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,6 +140,9 @@
       <name>traefik/traefik</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Please read the &lt;a href="https://doc.traefik.io/traefik/migration/v2/#v2112"&gt;Migration Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CVE's:&lt;/strong&gt;
+- &lt;a href="https://www.cve.org/CVERecord?id=CVE-2023-45288"&gt;CVE-2023-45288&lt;/a&gt;
+- &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-28869"&gt;CVE-2024-28869&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[server]&lt;/strong&gt; Revert LingeringTimeout and change default value for ReadTimeout (&lt;a href="https://github.com/traefik/traefik/pull/10599"&gt;#10599&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
 - &lt;strong&gt;[server]&lt;/strong&gt; Set default ReadTimeout value to 60s (&lt;a href="https://github.com/traefik/traefik/pull/10602"&gt;#10602&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;</content>
