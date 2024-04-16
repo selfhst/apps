@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-04-15T19:31:41.640910-04:00</updated>
+  <updated>2024-04-15T20:31:42.557207-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,7 +96,7 @@ Download the JAR here: https://downloads.metabase.com/v0.48.11/metabase.jar&lt;/
 **Bug fixes**
 
 - Updated native models may lose their result set metadata (#37009)
-- We're sending twice the necessary number of requests on x-ray first load (#36775)
+- Sending twice the necessary number of requests on x-ray first load (#36775)
 - Serialize result_metadata for any card (#41131)
 
 &lt;/details&gt;</content>
@@ -109,7 +109,8 @@ Download the JAR here: https://downloads.metabase.com/v0.48.11/metabase.jar&lt;/
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://www.metabase.com/releases/metabase-49?utm_source=github&amp;amp;utm_medium=post&amp;amp;utm_campaign=metabase-49"&gt;Metabase 49 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.49.4&lt;/code&gt;&lt;/a&gt;
@@ -150,7 +151,8 @@ Download the JAR here: https://downloads.metabase.com/v0.49.4/metabase.jar&lt;/p
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://www.metabase.com/releases/metabase-49?utm_source=github&amp;amp;utm_medium=post&amp;amp;utm_campaign=metabase-49"&gt;Metabase 49 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.49.5&lt;/code&gt;&lt;/a&gt;
