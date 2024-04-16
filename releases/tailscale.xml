@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tailscale Releases</title>
-  <updated>2024-04-16T16:31:38.924098-04:00</updated>
+  <updated>2024-04-16T17:31:31.652397-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,6 +131,16 @@
 &lt;ul&gt;
 &lt;li&gt;New: Update certificates using the &lt;code&gt;configure synology-cert&lt;/code&gt; CLI command&lt;/li&gt;
 &lt;li&gt;Fixed: &lt;a href="https://tailscale.com/kb/1121/ipv6/"&gt;IPv6&lt;/a&gt; addresses are available again&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kubernetes operator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New: &lt;a href="https://tailscale.com/kb/1080/cli#configure-alpha"&gt;&lt;code&gt;tailscale configure kubeconfig&lt;/code&gt;&lt;/a&gt; now respects &lt;code&gt;KUBECONFIG&lt;/code&gt; environment variable.&lt;/li&gt;
+&lt;li&gt;Fixed: &lt;a href="https://tailscale.com/kb/1080/cli#configure-alpha"&gt;&lt;code&gt;tailscale configure kubeconfig&lt;/code&gt;&lt;/a&gt; now works with partially empty &lt;code&gt;kubeconfig&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Fixed: &lt;a href="https://en.wikipedia.org/wiki/"&gt;MSS&lt;/a&gt; clamping for Kubernetes operator proxies using &lt;a href="https://wiki.nftables.org/wiki-nftables/index.php/What_is_nftables%3F"&gt;nftables&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Containers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed: Containers on hosts with partial support for ip6tables no longer crash.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/tailscale/tailscale/releases/tag/v1.64.0" rel="alternate"/>
   </entry>
