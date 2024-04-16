@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-04-16T08:30:55.255408-04:00</updated>
+  <updated>2024-04-16T09:30:58.314341-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform release 9.7.1 fixed an issue with a noisy log entry for permalink post notifications.&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform release 9.7.1 fixes an issue with a noisy log entry for permalink post notifications.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v9.7.1" rel="alternate"/>
   </entry>
 </feed>
