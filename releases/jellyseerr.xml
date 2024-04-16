@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-04-16T12:31:59.403631-04:00</updated>
+  <updated>2024-04-16T13:31:57.703295-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,7 +169,7 @@ https://github.com/typeorm/typeorm/issues/9860#issuecomment-1473964106&lt;/p&gt;
 typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;Jellyseerr finally has a new makeover!&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Jellyseerr new logo" src="https://private-user-images.githubusercontent.com/98979876/322596150-36555628-dd71-4ec6-abc9-6590687c1f98.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTMyNzgwODMsIm5iZiI6MTcxMzI3Nzc4MywicGF0aCI6Ii85ODk3OTg3Ni8zMjI1OTYxNTAtMzY1NTU2MjgtZGQ3MS00ZWM2LWFiYzktNjU5MDY4N2MxZjk4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDE2VDE0Mjk0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYyZDQyZTY0ZmYyM2E3OTExZDcwMzAxZWZlMjc5YzNkNDk5OWUwODI0OGI5MzY3YmFhZTZjZGJmNDJjOTVkMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qEewcV-LUbSaQu9wbBS5_R9KwhPXyzWL0__xxi68nJI" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Jellyseerr new logo" src="https://raw.githubusercontent.com/Fallenbagel/jellyseerr/develop/public/logo_full.png" /&gt;&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;correct width issue in datepicker of filterSliderOver (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/f564cddff4525ccebffbf304672d49c57aefe635"&gt;f564cdd&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/415"&gt;#415&lt;/a&gt;&lt;/li&gt;
