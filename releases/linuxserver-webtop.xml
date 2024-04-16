@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2024-04-16T06:32:24.776542-04:00</updated>
+  <updated>2024-04-16T07:32:14.607939-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,18 @@
 &lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to eab86b9e&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/eab86b9e-ls155" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/7649b481-ls156</id>
+    <title>New release for Webtop: 7649b481-ls156</title>
+    <updated>2024-04-16T07:16:27-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rebase Fedora to 40.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to 7649b481&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/7649b481-ls156" rel="alternate"/>
   </entry>
 </feed>
