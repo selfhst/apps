@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-04-16T11:30:39.641845-04:00</updated>
+  <updated>2024-04-16T12:30:38.466727-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,14 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Bug fixes&lt;/h2&gt;
+    <content>&lt;p&gt;Some of the notable new features in this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/functions/strings/diff/"&gt;strings.Diff&lt;/a&gt; template func.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/render-hooks/images/#pageinner"&gt;.PageInner&lt;/a&gt; in render hooks to get the inner page when using &lt;code&gt;.RenderShortcode&lt;/code&gt; in a shortcode, typically used to resolve links and page resources relative to an included &lt;code&gt;Page&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Luminance&lt;/code&gt; to &lt;code&gt;$image.Colors&lt;/code&gt;, allowing for sorting by luminance.  e197c7b29 @bep #10450 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This release is built with Go 1.22.2 (#12351) which comes with a fix for security issue CVE-2023-45288. We don't see how that could be exploited in Hugo, but we do appreciate that people want a clean security report.&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix server rebuilds when adding a content file on Linux fa60a2fbc @bep #12362 &lt;/li&gt;
 &lt;li&gt;helpers: Fix TrimShortHTML when used with AsciiDoc content 6049ba99f @jmooring #12369 &lt;/li&gt;
