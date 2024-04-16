@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2024-04-16T13:30:44.744411-04:00</updated>
+  <updated>2024-04-16T14:30:44.679672-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1271,7 +1271,30 @@ future releases. To resolve this run the following SQL command:&lt;/p&gt;
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/index.html#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/26695"&gt;#26695&lt;/a&gt; Keycloak and MSAD: enabling account in MSAD does not propagate to Keycloak &lt;code&gt;ldap&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/24201"&gt;#24201&lt;/a&gt; Cannot disable LDAP-backed user if importEnabled=false &lt;code&gt;ldap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/28100"&gt;#28100&lt;/a&gt; Failed authentication: java.lang.NullPointerException: Cannot invoke "org.keycloak.models.UserModel.getFederationLink()" because "this.delegate" is null &lt;code&gt;identity-brokering&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/28248"&gt;#28248&lt;/a&gt; Update user makes User ID changes when federationLink and LDAP_ID is not set properly &lt;code&gt;admin/api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/28335"&gt;#28335&lt;/a&gt; The false option of the pkceMethod init parameter for the JavaScript adapter is ignored &lt;code&gt;adapter/javascript&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/28638"&gt;#28638&lt;/a&gt; Missing permission to read configmaps in `keycloak-operator-role` &lt;code&gt;operator&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/24.0.3" rel="alternate"/>
   </entry>
 </feed>
