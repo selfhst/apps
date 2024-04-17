@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2024-04-17T13:32:20.723600-04:00</updated>
+  <updated>2024-04-17T14:32:18.307052-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,18 @@
 &lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to 7649b481&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/7649b481-ls156" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/76ec2e5d-ls157</id>
+    <title>New release for Webtop: 76ec2e5d-ls157</title>
+    <updated>2024-04-17T13:35:41-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Add docs on PRoot Apps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to 76ec2e5d&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/76ec2e5d-ls157" rel="alternate"/>
   </entry>
 </feed>
