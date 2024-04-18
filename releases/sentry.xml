@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sentry Releases</title>
-  <updated>2024-04-18T13:32:52.093691-04:00</updated>
+  <updated>2024-04-18T14:32:57.708322-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,7 +165,11 @@
     <author>
       <name>getsentry/sentry</name>
     </author>
-    <content>&lt;h3&gt;Various fixes &amp;amp; improvements&lt;/h3&gt;
+    <content>&lt;h3&gt;Security fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getsentry/sentry/security/advisories/GHSA-6cjm-4pxw-7xp9"&gt;security-fix(CVE-2024-32474): Superuser cleartext password leaked in logs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Various fixes &amp;amp; improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;ref(search): normalize parsed values (#69198) by @JonasBa&lt;/li&gt;
 &lt;li&gt;deps(ui): Upgrade webpack dev server, terser (#69150) by @scttcper&lt;/li&gt;

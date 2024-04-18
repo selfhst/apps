@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uptime-Kuma Releases</title>
-  <updated>2024-04-18T13:31:36.379694-04:00</updated>
+  <updated>2024-04-18T14:31:41.200697-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,16 +175,16 @@ See &lt;a href="https://github.com/louislam/uptime-kuma/security/advisories/GHSA
 &lt;li&gt;
 &lt;h1&gt;4631 Fix: Add missing FK for monitor-tls-info table [1.23.X] (Thanks @chakflying)&lt;/h1&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;4652 fix: Update &lt;code&gt;axios&lt;/code&gt;, &lt;code&gt;@actions/github&lt;/code&gt; and &lt;code&gt;dompurify&lt;/code&gt;  [1.23.X] (Thanks @Saibamen)&lt;/h1&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;4653 fix: Update nodemailer to fix GHSA-9h6g-pr28-7cqp [1.23.X] (Thanks @Saibamen)&lt;/h1&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;⬆️ Security Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;GHSA-23q2-5gf8-gjpp&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;4653 fix: Update nodemailer to fix GHSA-9h6g-pr28-7cqp [1.23.X] (Thanks @Saibamen)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;4652 fix: Update &lt;code&gt;axios&lt;/code&gt;, &lt;code&gt;@actions/github&lt;/code&gt; and &lt;code&gt;dompurify&lt;/code&gt;  [1.23.X] (Thanks @Saibamen)&lt;/h1&gt;
+&lt;/li&gt;
 &lt;li&gt;Update all dependencies&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🦎 Translation Contributions&lt;/h3&gt;
