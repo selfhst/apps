@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-04-19T16:30:29.171569-04:00</updated>
+  <updated>2024-04-19T17:30:29.286120-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -826,7 +826,7 @@
 &gt; 
 &gt; Group comment templates enable you to create saved responses that you can apply in comment boxes around GitLab to speed up your workflow. This new addition to comment templates allows organizations to create and manage templates centrally, so all of their users benefit from the same templates.
 &gt; 
-&gt; To create a comment template, go to any comment box on GitLab and select **Insert comment template &gt; Manage group comment templates**. After you create a comment template, it's available for all group members. Select the **Insert comment template** icon on any text area, and your saved response will be applied.
+&gt; To create a comment template, go to any comment box on GitLab and select **Insert comment template &gt; Manage group comment templates**. After you create a comment template, it's available for all group members. Select the **Insert comment template** icon while making a comment, and your saved response will be applied.
 &gt; 
 &gt; We're really excited about this next iteration of comment templates and will also be adding [project-level comment templates](https://gitlab.com/gitlab-org/gitlab/-/issues/440818) soon too. If you have any feedback, please leave it in [issue 45120](https://gitlab.com/gitlab-org/gitlab/-/issues/451520).
 
