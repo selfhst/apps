@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Slink Releases</title>
-  <updated>2024-04-19T09:37:00.209911-04:00</updated>
+  <updated>2024-04-19T10:33:05.522924-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,21 @@ and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.1.0</id>
+    <title>New release for Slink: v1.1.0</title>
+    <updated>2024-04-19T10:20:24-04:00</updated>
+    <author>
+      <name>andrii-kryvoviaz/slink</name>
+    </author>
+    <content>&lt;h1&gt;Wat's New:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;IMAGE_STRIP_EXIF_METADATA&lt;/code&gt; option to remove EXIF metadata from images. This is useful for privacy reasons.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;USER_ALLOW_UNAUTHENTICATED_ACCESS&lt;/code&gt; option to be able to protect public routes with authentication.&lt;/li&gt;
+&lt;li&gt;Other minor UI improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.0.1...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
