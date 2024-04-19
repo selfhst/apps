@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-04-18T21:30:27.859321-04:00</updated>
+  <updated>2024-04-18T22:30:27.665174-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,6 +164,7 @@
 &lt;li&gt;SECURITY&lt;/li&gt;
 &lt;li&gt;Use go1.21.9 to include Golang security fix&lt;/li&gt;
 &lt;li&gt;Fix possible renderer security problem (#30136) (#30315)&lt;/li&gt;
+&lt;li&gt;Performance optimization for git push and check permissions for push options (#30104) (#30354)&lt;/li&gt;
 &lt;li&gt;BUGFIXES&lt;/li&gt;
 &lt;li&gt;Fix close file in the Upload func (#30262) (#30269)&lt;/li&gt;
 &lt;li&gt;Fix inline math blocks can't be preceeded/followed by alphanumerical characters (#30175) (#30250)&lt;/li&gt;
@@ -173,12 +174,10 @@
 &lt;li&gt;Load attachments for code comments (#30124) (#30126)&lt;/li&gt;
 &lt;li&gt;Fix gitea doctor will remove repo-avatar files when executing command storage-archives (#30094) (#30120)&lt;/li&gt;
 &lt;li&gt;Fix possible data race on tests (#30093) (#30108)&lt;/li&gt;
-&lt;li&gt;Performance optimization for git push (#30104)&lt;/li&gt;
 &lt;li&gt;Fix duplicate migrated milestones (#30102) (#30105)&lt;/li&gt;
 &lt;li&gt;Fix panic for fixBrokenRepoUnits16961 (#30068) (#30100)&lt;/li&gt;
-&lt;li&gt;Fix incorrect SVGs (#30087)&lt;/li&gt;
+&lt;li&gt;Fix incorrect SVGs (#30087) (#30086)&lt;/li&gt;
 &lt;li&gt;Fix create commit status (#30225) (#30340)&lt;/li&gt;
-&lt;li&gt;Performance optimization for git push (#30104) (#30354)&lt;/li&gt;
 &lt;li&gt;Fix misuse of unsupported global variables (#30402)&lt;/li&gt;
 &lt;li&gt;Fix to delete the cookie when AppSubURL is non-empty (#30375) (#30468)&lt;/li&gt;
 &lt;li&gt;Avoid user does not exist error when detecting schedule actions when the commit author is an external user (#30357) (#30408)&lt;/li&gt;
@@ -194,7 +193,7 @@
 &lt;li&gt;Update actions variables documents (#30394) (#30405)&lt;/li&gt;
 &lt;li&gt;MISC&lt;/li&gt;
 &lt;li&gt;Update katex to 0.16.10 (#30089)&lt;/li&gt;
-&lt;li&gt;Upgrade go-sqlite to v1.14.22 (#30467)&lt;/li&gt;
+&lt;li&gt;Upgrade go-sqlite to v1.14.22 (#30462)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.21.11" rel="alternate"/>
