@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-04-18T19:31:17.025723-04:00</updated>
+  <updated>2024-04-18T20:31:18.319942-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,6 +139,7 @@ This is a breaking release. Please consult the &lt;a href="https://ignisda.githu
 &lt;h2&gt;Release Notes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Ryot now supports authentication using OAuth/OIDC! Please follow &lt;a href="https://github.com/IgnisDa/ryot/pull/750#issuecomment-2046204681"&gt;this guide&lt;/a&gt; if you want to port existing users to the new provider.&lt;/li&gt;
+&lt;li&gt;Addressed layout issues on the website for 4k screens.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Install ryot 5.0.0&lt;/h2&gt;
 &lt;h3&gt;Install prebuilt binaries via shell script&lt;/h3&gt;
