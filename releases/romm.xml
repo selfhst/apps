@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2024-04-20T17:31:19.378806-04:00</updated>
+  <updated>2024-04-20T18:31:20.500583-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,7 +134,12 @@ RomM has been organized in &lt;code&gt;github&lt;/code&gt; and &lt;code&gt;docke
     <author>
       <name>zurdi15/romm</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]&lt;br /&gt;
+&lt;em&gt; The volume bound to &lt;code&gt;/romm/logs&lt;/code&gt; &lt;/em&gt;&lt;em&gt;needs to be removed&lt;/em&gt;&lt;em&gt;, as it is no longer used
+* Binding a volume/folder for &lt;code&gt;/romm/config&lt;/code&gt; is &lt;/em&gt;&lt;em&gt;now required&lt;/em&gt;*&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Run the backend under Gunicorn by @psych0d0g in https://github.com/rommapp/romm/pull/756&lt;/li&gt;
 &lt;li&gt;Mobygames API support by @gantoine in https://github.com/rommapp/romm/pull/661&lt;/li&gt;
