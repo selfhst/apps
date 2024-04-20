@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-04-19T21:31:17.707925-04:00</updated>
+  <updated>2024-04-19T22:31:17.706662-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,13 +126,19 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.0.0</id>
-    <title>New release for Ryot: Version 5.0.0 (2024-04-18)</title>
-    <updated>2024-04-17T20:44:36-04:00</updated>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.0.2</id>
+    <title>New release for Ryot: Version 5</title>
+    <updated>2024-04-19T21:54:40-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;blockquote&gt;
+    <content>&lt;!-- DYNAMIC START --&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.0.2&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;eaa0b5739b0d55a309ffac65046f54c69740908d&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;April 20, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;!-- DYNAMIC END --&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;[!CAUTION]
 This is a breaking release. Please consult the &lt;a href="https://ignisda.github.io/ryot/migration.html#from-v4-to-v5"&gt;migration docs&lt;/a&gt; for an upgrade path.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -140,17 +146,7 @@ This is a breaking release. Please consult the &lt;a href="https://ignisda.githu
 &lt;ul&gt;
 &lt;li&gt;Ryot now supports authentication using OAuth/OIDC! Please follow &lt;a href="https://github.com/IgnisDa/ryot/pull/750#issuecomment-2046204681"&gt;this guide&lt;/a&gt; if you want to port existing users to the new provider.&lt;/li&gt;
 &lt;li&gt;Addressed layout issues on the website for 4k screens.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Install ryot 5.0.0&lt;/h2&gt;
-&lt;h3&gt;Install prebuilt binaries via shell script&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sh
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-installer.sh | sh&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;Download ryot 5.0.0&lt;/h2&gt;
-&lt;p&gt;|  File  | Platform | Checksum |
-|--------|----------|----------|
-| &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-aarch64-apple-darwin.tar.xz"&gt;ryot-aarch64-apple-darwin.tar.xz&lt;/a&gt; | macOS Apple Silicon | &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-aarch64-apple-darwin.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
-| &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-x86_64-apple-darwin.tar.xz"&gt;ryot-x86_64-apple-darwin.tar.xz&lt;/a&gt; | macOS Intel | &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-x86_64-apple-darwin.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
-| &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-x86_64-unknown-linux-gnu.tar.xz"&gt;ryot-x86_64-unknown-linux-gnu.tar.xz&lt;/a&gt; | Linux x64 | &lt;a href="https://github.com/IgnisDa/ryot/releases/download/v5.0.0/ryot-x86_64-unknown-linux-gnu.tar.xz.sha256"&gt;checksum&lt;/a&gt; |&lt;/p&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.0.0" rel="alternate"/>
+&lt;/ul&gt;</content>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.0.2" rel="alternate"/>
   </entry>
 </feed>
