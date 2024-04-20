@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-04-20T13:30:36.354977-04:00</updated>
+  <updated>2024-04-20T14:30:35.667824-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -307,7 +307,7 @@ For people always pulling the latest compose file, this is a &lt;em&gt;breaking 
 Disregarding the notes will result in (temporary) data loss!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Background&lt;/h3&gt;
-&lt;p&gt;In the past, we've seen many cases where people accidentally deleted their Postgres data by (unintentionally) deleting the docker volume (e.g., &lt;code&gt;docker compose down -V&lt;/code&gt;).
+&lt;p&gt;In the past, we've seen many cases where people accidentally deleted their Postgres data by (unintentionally) deleting the docker volume (e.g., &lt;code&gt;docker compose down -v&lt;/code&gt;).
 This is unfortunate as there is &lt;em&gt;no&lt;/em&gt; way to recover that data (if you don't have a backup, &lt;strong&gt;MAKE BACKUPS!&lt;/strong&gt;).
 We have been thinking about mounting the Postgres data to a local folder for a while but always hesitated, as this would break existing instances due to people not reading the change logs carefully. &lt;em&gt;However, there have been too many issues, and we ultimately decided to make that change.&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;What do I have to do?&lt;/h3&gt;
