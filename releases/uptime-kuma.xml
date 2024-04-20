@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uptime-Kuma Releases</title>
-  <updated>2024-04-20T08:31:34.058973-04:00</updated>
+  <updated>2024-04-20T09:31:44.008423-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,7 +146,15 @@ See &lt;a href="https://github.com/louislam/uptime-kuma/security/advisories/GHSA
     <author>
       <name>louislam/uptime-kuma</name>
     </author>
-    <content>&lt;h3&gt;💇‍♀️ Improvements&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+The i18n detection mehanism which matches your languages and our languages introduced in #4244 was too basic (depending on your setup you might or might not be affected)
+See #4692 for further details.&lt;/p&gt;
+&lt;p&gt;[!WARNING]
+If you use proxys, please use &lt;code&gt;1.23.11&lt;/code&gt; instead, as the more reliable events from #4630 don't take this part into consideration.
+If you want to prevent such breakages in the future, we would be very happy with increasing the test-coverage in general ^^&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;💇‍♀️ Improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;h1&gt;4477 Improved helptext of how to send mail via the systems mail subsystem (Thanks @apio-sys)&lt;/h1&gt;
