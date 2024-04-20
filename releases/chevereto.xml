@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-04-20T15:30:14.681775-04:00</updated>
+  <updated>2024-04-20T16:30:15.022225-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,9 @@
 &lt;li&gt;🐞 Fixed bug on upload route&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug with password protected albums&lt;/li&gt;
 &lt;li&gt;🐞 Fixed unwanted scroll hide top-bar in Safari&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;LINK: https://releases.chevereto.com/4.X/4.0/4.1.0.html
+BLOG: https://rodolfoberrios.com/2024/04/20/chevereto-4-1/&lt;/p&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.1.0" rel="alternate"/>
   </entry>
 </feed>
