@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenSign Releases</title>
-  <updated>2024-04-21T05:32:20.876964-04:00</updated>
+  <updated>2024-04-21T06:32:22.272138-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,5 +101,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/OpenSignLabs/OpenSign/compare/v1.4.2...v1.5.0&lt;/p&gt;</content>
     <link href="https://github.com/OpenSignLabs/OpenSign/releases/tag/v1.5.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/OpenSignLabs/OpenSign/releases/tag/v1.5.1</id>
+    <title>New release for OpenSign: v1.5.1</title>
+    <updated>2024-04-21T06:31:53-04:00</updated>
+    <author>
+      <name>OpenSignLabs/OpenSign</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: text input validation issue if user did not select any validation by @raktima-opensignlabs in https://github.com/OpenSignLabs/OpenSign/pull/621&lt;/li&gt;
+&lt;li&gt;fix: text input validation issue in template flow by @raktima-opensignlabs in https://github.com/OpenSignLabs/OpenSign/pull/624&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/OpenSignLabs/OpenSign/compare/v1.5.0...v1.5.1&lt;/p&gt;</content>
+    <link href="https://github.com/OpenSignLabs/OpenSign/releases/tag/v1.5.1" rel="alternate"/>
   </entry>
 </feed>
