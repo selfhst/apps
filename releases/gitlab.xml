@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-04-22T11:30:31.056810-04:00</updated>
+  <updated>2024-04-22T12:30:31.093908-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -653,31 +653,11 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="21 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=21&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2160 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2160&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="19 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=19&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2158 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2158&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Sidebar for metadata on the project overview page](https://docs.gitlab.com/ee/user/project/working_with_projects.html): &lt;code&gt;Groups &amp; Projects&lt;/code&gt;&lt;/summary&gt;
 
 &gt; We've redesigned the project overview page. Now you can find all of the project information and links in one sidebar rather than multiple areas.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[GitLab Duo Chat now generally available](https://docs.gitlab.com/ee/user/gitlab_duo_chat.html): &lt;code&gt;Duo Chat&lt;/code&gt;&lt;/summary&gt;
-
-&gt; GitLab Duo Chat is now [generally available](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#generally-available-ga). As part of this release, we are also making these capabilities generally available:
-&gt; 
-&gt; - Code explanation helps developers and less technical users understand unfamiliar code faster
-&gt; - Code refactoring enables developers to simplify and improve existing code
-&gt; - Test generation automates repetitive tasks and helps teams catch bugs sooner
-&gt; 
-&gt; Users can access GitLab Duo Chat in the GitLab UI, in the Web IDE, in VS Code, or in JetBrains IDEs.
-&gt; 
-&gt; Learn more about this release of GitLab Duo Chat from this [blog post](https://about.gitlab.com/blog/2024/04/18/gitlab-duo-chat-now-generally-available/).
-&gt; 
-&gt; Chat is currently freely accessible by all Ultimate and Premium users. Instance administrators, group owners, and project owners can choose to [restrict Duo features from accessing and processing their data](https://docs.gitlab.com/ee/user/ai_features.html#disable-gitlab-duo-features-for-specific-groups-or-projects-or-an-entire-instance).
-&gt; 
-&gt; The GitLab Duo Chat is part of [GitLab Duo Pro](https://about.gitlab.com/gitlab-duo/#pricing). To ease the transition for Chat beta users who have yet to purchase GitLab Duo Pro, Duo Chat will remain available to existing Premium and Ultimate customers (without the add-on) for a short period of time. We will announce when access will be restricted to Duo Pro subscribers at a later date.
-&gt; 
-&gt; Feel free to share your thoughts by clicking the feedback button in the chat or by creating an issue and mentioning GitLab Duo Chat. We’d love to hear from you!
 
 &lt;/details&gt;
 
@@ -810,16 +790,6 @@
 &lt;/details&gt;
 
 &lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/create/"&gt;Create&lt;/a&gt;&lt;/h5&gt;
-&lt;details&gt;&lt;summary&gt;[GitLab Duo Chat available in JetBrains IDEs](https://docs.gitlab.com/ee/editor_extensions/jetbrains_ide/index.html): &lt;code&gt;Editor Extensions&lt;/code&gt;&lt;/summary&gt;
-
-&gt; We are happy to announce the availability of GitLab Duo Chat in JetBrains IDEs. 
-&gt; 
-&gt; As part of GitLab's AI offerings, Duo Chat further streamlines the developer experience by directly bringing an interactive chat window into any supported JetBrains IDE and the ability to explain code, write tests, and refactor existing code. 
-&gt; 
-&gt; For a complete list of capabilities, see our [Duo Chat documentation](https://docs.gitlab.com/ee/user/gitlab_duo_chat.html).
-
-&lt;/details&gt;
-
 &lt;details&gt;&lt;summary&gt;[Group comment templates](https://docs.gitlab.com/ee/user/profile/comment_templates.html): &lt;code&gt;Code Review Workflow&lt;/code&gt;, &lt;code&gt;Team Planning&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Across an organization it can be helpful to have the same templated response in issues, epics, or merge requests. These responses might include standard questions that need to be answered, responses to common problems, or maybe structure for merge request review comments.
