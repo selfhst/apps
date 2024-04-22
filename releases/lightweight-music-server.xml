@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-04-22T03:30:46.761299-04:00</updated>
+  <updated>2024-04-22T04:30:48.423766-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,8 +93,7 @@
 * OpenSubsonic API: 
   * Fixed last track not submitted to ListenBrainz #438 
   * Ignore time parameter for 'now playing' scrobbles #438 
-  * Fixed &lt;code&gt;getAlbumList&lt;/code&gt; with ordering set to &lt;code&gt;alphabeticalByArtist&lt;/code&gt;
-* Fixed last track not sent to ListenBrainz #438 &lt;/p&gt;</content>
+  * Fixed &lt;code&gt;getAlbumList&lt;/code&gt; with ordering set to &lt;code&gt;alphabeticalByArtist&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.52.0" rel="alternate"/>
   </entry>
 </feed>
