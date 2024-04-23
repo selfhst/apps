@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Standard Notes Releases</title>
-  <updated>2024-04-23T02:31:53.860955-04:00</updated>
+  <updated>2024-04-23T03:32:00.407041-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,18 @@
 &lt;li&gt;Added "Upload file" option to the super note Insert menu and block picker menu&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.193.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.193.10</id>
+    <title>New release for Standard Notes: Desktop 3.193.10</title>
+    <updated>2024-04-22T14:11:33-04:00</updated>
+    <author>
+      <name>standardnotes/app</name>
+    </author>
+    <content>&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed some issues when importing notes from Keep and Evernote&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.193.10" rel="alternate"/>
   </entry>
 </feed>
