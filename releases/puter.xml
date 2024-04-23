@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Puter Releases</title>
-  <updated>2024-04-22T21:32:06.762170-04:00</updated>
+  <updated>2024-04-22T22:32:06.128092-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -24,5 +24,20 @@
 &lt;li&gt;test release-please action &lt;a href="https://github.com/HeyPuter/puter/issues/4"&gt;#4&lt;/a&gt; (&lt;a href="https://github.com/HeyPuter/puter/commit/f392de722a5232b622ed91b656a31cdc443c2e84"&gt;f392de7&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/HeyPuter/puter/releases/tag/v2.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/HeyPuter/puter/releases/tag/v2.2.0</id>
+    <title>New release for Puter: v2.2.0</title>
+    <updated>2024-04-22T22:05:49-04:00</updated>
+    <author>
+      <name>HeyPuter/puter</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/HeyPuter/puter/compare/v2.1.1...v2.2.0"&gt;2.2.0&lt;/a&gt; (2024-04-23)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add /healthcheck endpoint (&lt;a href="https://github.com/HeyPuter/puter/commit/c166560ff4ab5a453d3ec4f97326c995deb7f522"&gt;c166560&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;allow apps to add a menubar via puter.js (&lt;a href="https://github.com/HeyPuter/puter/commit/331d9e75428ec7609394f59b1755374c7340f83e"&gt;331d9e7&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/HeyPuter/puter/releases/tag/v2.2.0" rel="alternate"/>
   </entry>
 </feed>
