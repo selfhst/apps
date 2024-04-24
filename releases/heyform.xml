@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HeyForm Releases</title>
-  <updated>2024-04-24T01:32:28.867835-04:00</updated>
+  <updated>2024-04-24T02:32:32.775786-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,25 @@
 &lt;/ul&gt;
 &lt;p&gt;https://github.com/heyform/heyform/compare/v0.0.6...v0.0.7&lt;/p&gt;</content>
     <link href="https://github.com/heyform/heyform/releases/tag/v0.0.7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/heyform/heyform/releases/tag/v0.0.8</id>
+    <title>New release for HeyForm: v0.0.8</title>
+    <updated>2024-04-24T01:42:27-04:00</updated>
+    <author>
+      <name>heyform/heyform</name>
+    </author>
+    <content>&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;Other&lt;/code&gt; option to Multiple choice (#31)&lt;/li&gt;
+&lt;li&gt;Add hidden fields (#32)&lt;/li&gt;
+&lt;li&gt;Add multilingual support (#36)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@yangchuansheng made their first contribution in https://github.com/heyform/heyform/pull/57&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;https://github.com/heyform/heyform/compare/v0.0.7...v0.0.8&lt;/p&gt;</content>
+    <link href="https://github.com/heyform/heyform/releases/tag/v0.0.8" rel="alternate"/>
   </entry>
 </feed>

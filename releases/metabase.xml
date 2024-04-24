@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-04-24T01:31:45.367233-04:00</updated>
+  <updated>2024-04-24T02:31:44.961712-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,7 +164,6 @@ Download the JAR here: https://downloads.metabase.com/v0.49.7/metabase.jar&lt;/p
 
 **Enhancements**
 
-- Fix not sending necessary HTTP headers when downloading results (#41633)
 - Fix invisible user items in search filters (#41604)
 - docs - add redshift to list of dbs that support uploads (#41594)
 - Fix Embedded dashboard parameters parse runtime error (#41545)
@@ -172,6 +171,7 @@ Download the JAR here: https://downloads.metabase.com/v0.49.7/metabase.jar&lt;/p
 
 **Bug fixes**
 
+- Google SSO with Interactive Embedding do not allow you to download CSV (#39848)
 - Date format "January 31, 2018" missing day in csv download (#41639)
 - Default (formatted) CSV Export Returns "Week #" instead of Date (#41492)
 - Leading zero in filter value in embedded dashboard breaks it (#41483)
