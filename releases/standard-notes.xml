@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Standard Notes Releases</title>
-  <updated>2024-04-24T13:32:01.354099-04:00</updated>
+  <updated>2024-04-24T14:32:01.887218-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,18 @@
 &lt;li&gt;Fixed some issues when importing notes from Keep and Evernote&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.193.10" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.194.0</id>
+    <title>New release for Standard Notes: Desktop 3.194.0</title>
+    <updated>2024-04-24T03:35:40-04:00</updated>
+    <author>
+      <name>standardnotes/app</name>
+    </author>
+    <content>&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Switched editor appearance preferences to be local instead of synced (&lt;a href="https://github.com/standardnotes/app/issues/2870"&gt;#2870&lt;/a&gt;) (&lt;a href="https://github.com/standardnotes/app/commit/594a6061b2af619c5f585d6327fd4c3f20dac740"&gt;594a606&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/standardnotes/app/releases/tag/%40standardnotes/desktop%403.194.0" rel="alternate"/>
   </entry>
 </feed>
