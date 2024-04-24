@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-04-23T20:31:20.233186-04:00</updated>
+  <updated>2024-04-23T21:31:18.725913-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,16 +126,16 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.0.7</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.0.8</id>
     <title>New release for Ryot: Version 5</title>
     <updated>2024-04-19T21:54:40-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.0.7&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;ee288d978de47458d8151f83e4039b7420e3050b&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;April 23, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.0.8&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;d39d546e2b1ea13017ed29a9d39748ceab07d7ef&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;April 24, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;blockquote&gt;
@@ -148,6 +148,6 @@ This is a breaking release. Please consult the &lt;a href="https://ignisda.githu
 &lt;li&gt;Ryot now supports authentication using OAuth/OIDC! Please follow &lt;a href="https://github.com/IgnisDa/ryot/pull/750#issuecomment-2046204681"&gt;this guide&lt;/a&gt; if you want to port existing users to the new provider.&lt;/li&gt;
 &lt;li&gt;Addressed layout issues on the website for 4k screens.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.0.7" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.0.8" rel="alternate"/>
   </entry>
 </feed>
