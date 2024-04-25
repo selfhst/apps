@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-04-25T09:32:30.608256-04:00</updated>
+  <updated>2024-04-25T10:32:28.181918-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,10 +116,9 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.5.5 - 04/24/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Revamped Code Block&lt;/li&gt;
-&lt;li&gt;Added support for signing in with Magic Link&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="v0 5 5_codeblocks" src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/1b871976-e297-4bec-84f8-3aee70d37598" /&gt;
+- Revamped Code Block
+- Added magic link authentication&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed the database synchronization indicator issue&lt;/li&gt;
