@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medialytics Releases</title>
-  <updated>2024-04-26T03:30:56.471336-04:00</updated>
+  <updated>2024-04-26T04:30:56.394382-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,5 +101,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drewpeifer/medialytics/compare/v2.1.1...v2.1.2&lt;/p&gt;</content>
     <link href="https://github.com/Drewpeifer/medialytics/releases/tag/v2.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Drewpeifer/medialytics/releases/tag/v2.2</id>
+    <title>New release for Medialytics: v2.2</title>
+    <updated>2024-04-26T04:15:53-04:00</updated>
+    <author>
+      <name>Drewpeifer/medialytics</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Now tracking watched/unwatched status across total library, as well as within genre, studio, country, and decades charts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drewpeifer/medialytics/compare/v2.1.2...v2.2&lt;/p&gt;
+&lt;p&gt;&lt;img width="1215" alt="Screenshot 2024-04-26 at 3 36 25 AM" src="https://github.com/Drewpeifer/medialytics/assets/30933/c0c11eae-9a3e-4ba5-96c9-e00a656d4008"&gt;
+&lt;img width="1646" alt="Screenshot 2024-04-26 at 3 36 45 AM" src="https://github.com/Drewpeifer/medialytics/assets/30933/05dfe2c8-cdaf-45f2-a6b1-03be5d37202e"&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/Drewpeifer/medialytics/releases/tag/v2.2" rel="alternate"/>
   </entry>
 </feed>
