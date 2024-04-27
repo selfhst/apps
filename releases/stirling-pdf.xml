@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-04-27T06:31:31.102173-04:00</updated>
+  <updated>2024-04-27T07:31:27.487697-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,6 +176,7 @@ Language updates&lt;/p&gt;
 &lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Login page now shows correct language&lt;/li&gt;
+&lt;li&gt;Disabling multi tool or pipeline now shows in UI correctly &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
