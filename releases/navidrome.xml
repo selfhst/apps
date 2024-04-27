@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2024-04-27T17:31:02.704187-04:00</updated>
+  <updated>2024-04-27T18:31:02.517680-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -258,7 +258,7 @@ and a few bug fixes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[UI] Handling long playlist comments (&lt;a href="https://github.com/navidrome/navidrome/pull/2973"&gt;#2973&lt;/a&gt;). Thanks @TimHi&lt;/li&gt;
 &lt;li&gt;[UI] Fix a few mistakes in the French translation (&lt;a href="https://github.com/navidrome/navidrome/pull/2872"&gt;#2872&lt;/a&gt;). Thanks @2franix&lt;/li&gt;
-&lt;li&gt;[Server] Block regular users from changing their own playlists ownership&lt;/li&gt;
+&lt;li&gt;[Server] Block regular users from changing their own playlists ownership. Fixes this &lt;a href="https://github.com/navidrome/navidrome/security/advisories/GHSA-4jrx-5w4h-3gpm"&gt;security advisory&lt;/a&gt;. Thanks @viliald&lt;/li&gt;
 &lt;li&gt;[Server] Allow comments in NSP files.&lt;/li&gt;
 &lt;li&gt;[Server] Add &lt;code&gt;AlbumPlayCountMode&lt;/code&gt; config option (&lt;a href="https://github.com/navidrome/navidrome/pull/2803"&gt;#2803&lt;/a&gt;). Thanks @vvdveen&lt;/li&gt;
 &lt;li&gt;[Scanner] Upgrade TagLib to 2.0.1&lt;/li&gt;
@@ -269,7 +269,8 @@ and a few bug fixes.&lt;/p&gt;
 &lt;li&gt;[Subsonic] Make MPV command configurable using the new config option &lt;code&gt;MPVCmdTemplate&lt;/code&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/2948"&gt;#2948&lt;/a&gt;). Thanks @bitte-ein-bit&lt;/li&gt;
 &lt;li&gt;[Build] Add &lt;code&gt;make&lt;/code&gt; target to build docker image&lt;/li&gt;
 &lt;li&gt;[Build] Include MPV in release Docker image (&lt;a href="https://github.com/navidrome/navidrome/pull/2910"&gt;#2910&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Full changelog: https://github.com/navidrome/navidrome/compare/v0.51.1...v0.52.0&lt;/p&gt;</content>
     <link href="https://github.com/navidrome/navidrome/releases/tag/v0.52.0" rel="alternate"/>
   </entry>
 </feed>
