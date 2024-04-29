@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-04-29T13:32:42.207613-04:00</updated>
+  <updated>2024-04-29T14:32:43.351239-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,41 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kahst/BirdNET-Analyzer/commits/v1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.1.0</id>
+    <title>New release for BirdNET-Analyzer: v1.1.0</title>
+    <updated>2024-04-29T14:30:28-04:00</updated>
+    <author>
+      <name>kahst/BirdNET-Analyzer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Labels for custom classifier get saved with utf-8 by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/263&lt;/li&gt;
+&lt;li&gt;Convert file duration to int by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/264&lt;/li&gt;
+&lt;li&gt;Added version check in GUI by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/268&lt;/li&gt;
+&lt;li&gt;limit the number of rows in the GUI to 100 by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/273&lt;/li&gt;
+&lt;li&gt;lower() when checking for non-event classes for binary classfication by @max-mauermann in https://github.com/kahst/BirdNET-Analyzer/pull/289&lt;/li&gt;
+&lt;li&gt;mixup only uses positive samples and does not mixup the same samples multiple times fix by @max-mauermann in https://github.com/kahst/BirdNET-Analyzer/pull/280&lt;/li&gt;
+&lt;li&gt;added batch offset to timestamps and initalise results outside loop by @joshctaylor in https://github.com/kahst/BirdNET-Analyzer/pull/300&lt;/li&gt;
+&lt;li&gt;updated raven selection table columns to be more convinient for Raven users by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/306&lt;/li&gt;
+&lt;li&gt;moved logs to user home dir by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/315&lt;/li&gt;
+&lt;li&gt;add zeros instead of noise to short samples by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/313&lt;/li&gt;
+&lt;li&gt;swedish labels are now capitalized by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/318&lt;/li&gt;
+&lt;li&gt;add an option for not analyzing files that have been analyzed by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/316&lt;/li&gt;
+&lt;li&gt;search for non-event indices now more memory efficient by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/317 (credit @Tindtily)&lt;/li&gt;
+&lt;li&gt;Uninstall icon set to BirdNET icon&lt;/li&gt;
+&lt;li&gt;Option to install globally or to user directory&lt;/li&gt;
+&lt;li&gt;Fixed a bug where segments where incorrectly extracted&lt;/li&gt;
+&lt;li&gt;Added kaleidoscope output to GUI&lt;/li&gt;
+&lt;li&gt;Added a list file for Raven that contains a list of all file paths when using "Combine selection tables" titled &lt;code&gt;&amp;lt;output_file&amp;gt;.list.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;reduced application size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@joshctaylor made their first contribution in https://github.com/kahst/BirdNET-Analyzer/pull/300&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kahst/BirdNET-Analyzer/compare/v1.0.2...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
