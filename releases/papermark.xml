@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Papermark Releases</title>
-  <updated>2024-04-29T09:31:13.842676-04:00</updated>
+  <updated>2024-04-29T10:31:17.085445-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,5 +113,73 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mfts/papermark/compare/v0.10.0...v0.11.0&lt;/p&gt;</content>
     <link href="https://github.com/mfts/papermark/releases/tag/v0.11.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/mfts/papermark/releases/tag/v0.12.0</id>
+    <title>New release for Papermark: v0.12.0</title>
+    <updated>2024-04-29T10:06:58-04:00</updated>
+    <author>
+      <name>mfts/papermark</name>
+    </author>
+    <content>&lt;p&gt;Data rooms, data rooms and data rooms. 👇&lt;/p&gt;
+&lt;h2&gt;Highlights ✨&lt;/h2&gt;
+&lt;h3&gt;Data rooms&lt;/h3&gt;
+&lt;p&gt;With data rooms, Papermark introduces the ability to &lt;strong&gt;share multiple documents with a single link&lt;/strong&gt;. The same analytics you are used from single documents, now as aggregate analytics across all your data room documents. &lt;/p&gt;
+&lt;p&gt;Each data room includes
+- folders and subfolder hierarchy
+- custom branding per data room
+- page-by-page document analytics 
+- visitor invitations by email, audit logs and more&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-04-29 at 16 49 01@2x" src="https://github.com/mfts/papermark/assets/4049052/680ce8bb-ec20-4a15-b471-8fcb808ad024" /&gt;&lt;/p&gt;
+&lt;h3&gt;Folder updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;rename folders&lt;/li&gt;
+&lt;li&gt;delete folders&lt;/li&gt;
+&lt;li&gt;update default sort order to alphabetical&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pagination for visitor data&lt;/h3&gt;
+&lt;p&gt;A considerable decrease in page load times especially for documents with lots of visitors.&lt;/p&gt;
+&lt;h3&gt;Feedback question&lt;/h3&gt;
+&lt;p&gt;You can add a feedback question at the end of a document. Of course you can configure each question by link.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-04-29 at 17 59 53@2x" src="https://github.com/mfts/papermark/assets/4049052/13aa474d-2c44-45c4-819c-78cd2329c4a9" /&gt;&lt;/p&gt;
+&lt;h3&gt;Auto-tagging visitors who downloaded&lt;/h3&gt;
+&lt;p&gt;See who downloaded your document and when.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-04-29 at 17 57 01@2x" src="https://github.com/mfts/papermark/assets/4049052/6e0b2c6e-88b6-4972-859b-c89ff93b6907" /&gt;&lt;/p&gt;
+&lt;h3&gt;Updated default metatag images&lt;/h3&gt;
+&lt;p&gt;The new default metatag image makes use of the og-image generator from Vercel. By default, it will use the document name as the metatag image.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-04-29 at 17 53 51@2x" src="https://github.com/mfts/papermark/assets/4049052/7c290de3-1305-4d22-a891-25c7f8a45abe" /&gt;&lt;/p&gt;
+&lt;h3&gt;Screenshot protection (experimental)&lt;/h3&gt;
+&lt;p&gt;"It's impossible to block screenshots on the web" - every engineer. We know. That's why this feature is experimental. We are working on various screenshot blocking techniques and try to improve this feature.  &lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: memoize some stuff by @mfts in https://github.com/mfts/papermark/pull/354&lt;/li&gt;
+&lt;li&gt;feat: updates for design of marketing pages by @shnai0 in https://github.com/mfts/papermark/pull/357&lt;/li&gt;
+&lt;li&gt;feat: add download icon for downloaded documents by @mfts in https://github.com/mfts/papermark/pull/358&lt;/li&gt;
+&lt;li&gt;feat: datarooms by @mfts in https://github.com/mfts/papermark/pull/364&lt;/li&gt;
+&lt;li&gt;feat: add powered by button by @mfts in https://github.com/mfts/papermark/pull/365&lt;/li&gt;
+&lt;li&gt;feat: add viewer and invite to view by @mfts in https://github.com/mfts/papermark/pull/369&lt;/li&gt;
+&lt;li&gt;feat: add dataroom document notifications by @mfts in https://github.com/mfts/papermark/pull/371&lt;/li&gt;
+&lt;li&gt;feat: rename and default-sort folders  by @mfts in https://github.com/mfts/papermark/pull/372&lt;/li&gt;
+&lt;li&gt;feat: add openstatus widget by @mfts in https://github.com/mfts/papermark/pull/376&lt;/li&gt;
+&lt;li&gt;feat: feedback question by @mfts in https://github.com/mfts/papermark/pull/377&lt;/li&gt;
+&lt;li&gt;feat: add data room marketing page by @shnai0 in https://github.com/mfts/papermark/pull/379&lt;/li&gt;
+&lt;li&gt;feat: delete folder by @mfts in https://github.com/mfts/papermark/pull/382&lt;/li&gt;
+&lt;li&gt;feat: add pagination to visitor data by @mfts in https://github.com/mfts/papermark/pull/383&lt;/li&gt;
+&lt;li&gt;feat: improve dataroom navigation by @mfts in https://github.com/mfts/papermark/pull/385&lt;/li&gt;
+&lt;li&gt;feat: add help articles by @mfts in https://github.com/mfts/papermark/pull/386&lt;/li&gt;
+&lt;li&gt;feat: add terms by @shnai0 in https://github.com/mfts/papermark/pull/388&lt;/li&gt;
+&lt;li&gt;feat: add screen protection by @mfts in https://github.com/mfts/papermark/pull/387 https://github.com/mfts/papermark/pull/390&lt;/li&gt;
+&lt;li&gt;feat: update metadata defaults + og image by @Illyism in https://github.com/mfts/papermark/pull/391&lt;/li&gt;
+&lt;li&gt;fix: fix posthog on custom domains by @mfts in https://github.com/mfts/papermark/pull/374&lt;/li&gt;
+&lt;li&gt;fix: mutate document list when deleting document on detail page by @mfts in https://github.com/mfts/papermark/pull/389&lt;/li&gt;
+&lt;li&gt;chore: update language by @mfts @shnai0 in https://github.com/mfts/papermark/pull/393 https://github.com/mfts/papermark/pull/378&lt;/li&gt;
+&lt;li&gt;chore: update marketing pages by @shnai0 in https://github.com/mfts/papermark/pull/381&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Illyism made their first contribution in https://github.com/mfts/papermark/pull/391&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mfts/papermark/compare/v0.11.0...v0.12.0&lt;/p&gt;</content>
+    <link href="https://github.com/mfts/papermark/releases/tag/v0.12.0" rel="alternate"/>
   </entry>
 </feed>
