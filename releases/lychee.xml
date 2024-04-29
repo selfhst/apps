@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lychee Releases</title>
-  <updated>2024-04-29T05:30:51.111788-04:00</updated>
+  <updated>2024-04-29T06:30:52.372104-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,7 +161,7 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix description empty string creating bug in layout by @ildyria in https://github.com/LycheeOrg/Lychee/pull/2400&lt;/li&gt;
-&lt;li&gt;Add S3 bucket support. by @ildyria in https://github.com/LycheeOrg/Lychee/pull/2379&lt;/li&gt;
+&lt;li&gt;Add S3 bucket support. by @Kovah in https://github.com/LycheeOrg/Lychee/pull/2379&lt;/li&gt;
 &lt;li&gt;Fix teapot not flagging on phpinfo.php by @ildyria in https://github.com/LycheeOrg/Lychee/pull/2411&lt;/li&gt;
 &lt;li&gt;Fix migration order by @ildyria in https://github.com/LycheeOrg/Lychee/pull/2410&lt;/li&gt;
 &lt;li&gt;Add migration on forgotten license CC-BY-SA by @ildyria in https://github.com/LycheeOrg/Lychee/pull/2416&lt;/li&gt;
@@ -172,6 +172,7 @@
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@ThanasisMpalatsoukas made their first contribution in https://github.com/LycheeOrg/Lychee/pull/1880&lt;/li&gt;
+&lt;li&gt;@Kovah made their first contribution in https://github.com/LycheeOrg/Lychee/pull/2379&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/LycheeOrg/Lychee/compare/v5.2.2...v5.3.0&lt;/p&gt;</content>
     <link href="https://github.com/LycheeOrg/Lychee/releases/tag/v5.3.0" rel="alternate"/>
