@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-04-29T03:31:58.714632-04:00</updated>
+  <updated>2024-04-29T04:31:52.377760-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,8 @@ Download the JAR here: https://downloads.metabase.com/v0.49.5/metabase.jar&lt;/p
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://www.metabase.com/releases/metabase-49?utm_source=github&amp;amp;utm_medium=post&amp;amp;utm_campaign=metabase-49"&gt;Metabase 49 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.49.6&lt;/code&gt;&lt;/a&gt;
@@ -151,7 +152,8 @@ Download the JAR here: https://downloads.metabase.com/v0.48.12/metabase.jar&lt;/
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://www.metabase.com/releases/metabase-49?utm_source=github&amp;amp;utm_medium=post&amp;amp;utm_campaign=metabase-49"&gt;Metabase 49 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.49.7&lt;/code&gt;&lt;/a&gt;
@@ -165,14 +167,14 @@ Download the JAR here: https://downloads.metabase.com/v0.49.7/metabase.jar&lt;/p
 **Enhancements**
 
 - Fix invisible user items in search filters (#41604)
-- docs - add redshift to list of dbs that support uploads (#41594)
-- Fix Embedded dashboard parameters parse runtime error (#41545)
-- Links to metabase URLs should open in the same window in link cards (#41508)
+- Add Redshift to list of databases that support uploads to Documentation (#41594)
+- Fix embedded dashboard parameters parse runtime error (#41545)
+- Links to Metabase URLs should open in the same window in link cards (#41508)
 
 **Bug fixes**
 
-- Google SSO with Interactive Embedding do not allow you to download CSV (#39848)
-- Date format "January 31, 2018" missing day in csv download (#41639)
+- Google SSO with Interactive Embedding does not allow you to download CSV (#39848)
+- Date format "January 31, 2018" missing day in CSV download (#41639)
 - Default (formatted) CSV Export Returns "Week #" instead of Date (#41492)
 - Leading zero in filter value in embedded dashboard breaks it (#41483)
 - Archived models continue to be cached (#41318)
