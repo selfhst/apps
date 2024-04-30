@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-04-30T10:31:04.991457-04:00</updated>
+  <updated>2024-04-30T11:30:56.006669-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 9.7.3&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 9.7.3 fixes an issue where creating a Direct Message channel with synthetic users failed.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v9.7.3" rel="alternate"/>
   </entry>
 </feed>
