@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2024-04-29T21:31:06.213771-04:00</updated>
+  <updated>2024-04-29T22:31:06.956212-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -219,7 +219,7 @@
 &lt;li&gt;Improved inline code display in dark mode&lt;/li&gt;
 &lt;li&gt;API: Added &lt;code&gt;statusFilter&lt;/code&gt; parameter to &lt;code&gt;documents.list&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;API: Add &lt;code&gt;role&lt;/code&gt; parameter to &lt;code&gt;users.list&lt;/code&gt; endpoint in https://github.com/outline/outline/pull/6754&lt;/li&gt;
-&lt;li&gt;API: Add &lt;code&gt;updateRole&lt;/code&gt; endpoint in https://github.com/outline/outline/pull/6771&lt;/li&gt;
+&lt;li&gt;API: Add &lt;code&gt;users.updateRole&lt;/code&gt; endpoint in https://github.com/outline/outline/pull/6771&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
