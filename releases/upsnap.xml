@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>UpSnap Releases</title>
-  <updated>2024-04-30T18:32:39.174375-04:00</updated>
+  <updated>2024-04-30T19:32:41.546057-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -182,9 +182,66 @@
       <name>seriousm4x/UpSnap</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a8d08db78fdb57dbb84491e2a274e4f118bb34dc: fix: countdown not reset properly (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;7b4c18ac498c4a916fb01d5324957df134740ead: fix: cronjobs not working correctly #506 (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;ce9e27d70bfe6bcf5e795669db5554309f475b96: fix: possible solution for #506 (@seriousm4x)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Others&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;1a4de72094e3813293fd27a90781a9066ef893d5: update deps (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;5ebdecbe4847d0d5d0bed9062181d0961318a1e4: add 'colorful' theme by @Raulmora22 #540 (@seriousm4x)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Go dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;7310a8953e326b966579b44444789f2dbba01b2e: go-dep: bump github.com/pocketbase/pocketbase in /backend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;4c0d9cd435aeaab22016b68d699259e52244d3cb: go-dep: bump github.com/pocketbase/pocketbase in /backend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;6e2001847ba9312efae461451f653c1bfac75920: go-dep: use go &amp;gt;= 1.22.2 (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;c167cea60044de8edf15c9171948fad9f74f3711: go-dep: use go &amp;gt;= 1.22.2 (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;24b703dffb9d414ad1dd726fdd449bcaefa11cdd: go-dep: bump github.com/pocketbase/pocketbase in /backend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;c0d290d1fdd5359262c866747ba9f55b4a21ed80: go-dep: bump github.com/pocketbase/pocketbase in /backend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;67fdcfae9964bcc15ad7eb001129792b80a9b600: go-dep: bump golang.org/x/sys from 0.18.0 to 0.19.0 in /backend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;7bcd309ea15db96f2cb95be8aae8504ccefec78e: go-dep: use go &amp;gt;= 1.22 (@seriousm4x)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Npm dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;be4c70c1336b2940b51cffb5d31f3d461283de72: npm-dep: bump @eslint/js from 9.0.0 to 9.1.1 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;4c510a5aa88bc8b9198913123eabac814d4ea8e9: npm-dep: bump @sveltejs/kit from 2.5.5 to 2.5.6 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;9e72166e9a6025db821bef3a8259d355dc69bbda: npm-dep: bump @sveltejs/kit from 2.5.6 to 2.5.7 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;a86cb3943561d5ef9d13fbaa9762005458af0838: npm-dep: bump @typescript-eslint/eslint-plugin in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;c78a3f412754bced8942c0387355af56f7c7483c: npm-dep: bump @typescript-eslint/eslint-plugin in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;962ef0c9df8cd18d9ae0aa681b00bd552240246c: npm-dep: bump @typescript-eslint/parser from 7.6.0 to 7.7.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;c12be28937353613592381b3e24ed5b4f8f54565: npm-dep: bump @typescript-eslint/parser from 7.7.0 to 7.7.1 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;26b4a228c80d4725ce4bc9cd9c3305fada6c4d3e: npm-dep: bump daisyui from 4.10.1 to 4.10.2 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;6dd5947216beaa9eb0f49b45035c441ab55aeb45: npm-dep: bump eslint-plugin-svelte from 2.37.0 to 2.38.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;16fb66501b665e2a30ce7261f13568722520c5fa: npm-dep: bump pocketbase from 0.21.1 to 0.21.2 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;cbb94b61df80fb3c55b7a2b6905df2c00bd5efb3: npm-dep: bump prettier-plugin-svelte from 3.2.2 to 3.2.3 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;682523db04333002465300b9d44ea3121863fe23: npm-dep: bump prettier-plugin-tailwindcss in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;c859fce0699fe391de64a38d76779a2b32e79d9b: npm-dep: bump svelte from 4.2.13 to 4.2.14 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;56b5f1980f8c9c1f1d50dc6564233c21b355c891: npm-dep: bump svelte from 4.2.14 to 4.2.15 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;fd60d11d5c23daa73ff4ca1ca787b6e2465d4d08: npm-dep: bump svelte-check from 3.6.9 to 3.7.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;adf5fc218aa0af40a47688caaf6fecfd94b6e204: npm-dep: bump typescript-eslint from 7.6.0 to 7.7.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;bd29e926179ca0d361888e3789b8296ba78114fa: npm-dep: bump typescript-eslint from 7.7.0 to 7.7.1 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;abdf71935ed9c6689dc5570036d54e7ff9f391de: npm-dep: bump vite from 5.2.8 to 5.2.9 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;33724e80fb9333b9d8b9f348eee92111ec689c33: npm-dep: bump vite from 5.2.9 to 5.2.10 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;b3dd9ae5bfa9ffb987bd52b3833af593dfc0546e: npm-dep: update (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;6b0b8fe5f8d0ea1705f97a2a4e4d84c7d336c243: npm-dep: bump @fortawesome/free-solid-svg-icons in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;070a8e91644a89c3ea43f69237421db84107d57d: npm-dep: bump @typescript-eslint/eslint-plugin in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;a30a78b18fc24f1955b133afe33d984e95b9a5ec: npm-dep: bump @typescript-eslint/eslint-plugin in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;65ff22be4fb1749fa4a57ca6dc14bf9fce08139b: npm-dep: bump @typescript-eslint/eslint-plugin in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;42fa838594dfeddaf35904f3538b4bbc5c4b3e28: npm-dep: bump @typescript-eslint/parser from 7.3.1 to 7.4.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;ea9d9606b4a60b92bfa541b58e5b052cad408cdb: npm-dep: bump @typescript-eslint/parser from 7.4.0 to 7.5.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;0aaaf92bd479a132ce2a363eab733fed911680a1: npm-dep: bump @typescript-eslint/parser from 7.5.0 to 7.6.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;911f7fbf6021830705d0fb33300f957e42f9d38d: npm-dep: bump daisyui from 4.8.0 to 4.9.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;b83377e300ce1eae11821f7b34c6831d953796d7: npm-dep: bump daisyui from 4.9.0 to 4.10.1 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;86185fc4c66fd05ffc22d1bf8bc788f9b08f0d79: npm-dep: bump eslint-plugin-svelte from 2.35.1 to 2.36.0 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;dbcbb64614bb4a7d09b766c91d9579a4bd2a69ca: npm-dep: bump svelte from 4.2.12 to 4.2.13 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;9757f836bb5ad505375ab78bef26c0c944c5452b: npm-dep: bump svelte-check from 3.6.8 to 3.6.9 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;b82bc42f31c37b42d0c3d8f579cc9b5cd6be0a15: npm-dep: bump tailwindcss from 3.4.1 to 3.4.3 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;797738745cbe26e4eeef9613591c36ac1fc246b0: npm-dep: bump typescript from 5.4.3 to 5.4.4 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;b2831036314c2ab03fa3726b7d4dea0119128a2b: npm-dep: bump typescript from 5.4.4 to 5.4.5 in /frontend (@dependabot[bot])&lt;/li&gt;
+&lt;li&gt;97e626f44190a29affff522426e24ea1d7007faa: npm-dep: update (@seriousm4x)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/seriousm4x/UpSnap/releases/tag/4.2.9" rel="alternate"/>
   </entry>
