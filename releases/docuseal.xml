@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DocuSeal Releases</title>
-  <updated>2024-05-01T15:30:20.833190-04:00</updated>
+  <updated>2024-05-01T16:30:20.837529-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,7 +64,11 @@
     <author>
       <name>docusealco/docuseal</name>
     </author>
-    <content>&lt;p&gt;🛠 Add flatten pdf form toggle
+    <content>&lt;p&gt;&lt;strong&gt;BREAKING CHANGES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;POST /submissions response &lt;code&gt;values&lt;/code&gt; returns an array[] with the updated format:
+https://www.docuseal.co/docs/api#create-a-submission &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;🛠 Add flatten pdf form toggle
 🛠 Do not allow to skip required field with whitespace
 🐞 Fix attachment PDF link position&lt;/p&gt;</content>
     <link href="https://github.com/docusealco/docuseal/releases/tag/1.5.4" rel="alternate"/>
