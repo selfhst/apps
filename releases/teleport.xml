@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-05-01T09:32:42.450355-04:00</updated>
+  <updated>2024-05-01T10:32:49.953006-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,6 +144,7 @@
 &lt;li&gt;Add the ability to control &lt;code&gt;ssh_config&lt;/code&gt; generation in Machine ID's Identity Outputs. This allows the generation of the &lt;code&gt;ssh_config&lt;/code&gt; to be disabled if unnecessary, improving performance and removing the dependency on the Proxy being online. &lt;a href="https://github.com/gravitational/teleport/pull/40862"&gt;#40862&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Prevented deleting AWS OIDC integration used by External Audit Storage. &lt;a href="https://github.com/gravitational/teleport/pull/40853"&gt;#40853&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Reduced parallelism when polling AWS resources to prevent API throttling when exporting them to Teleport Access Graph. &lt;a href="https://github.com/gravitational/teleport/pull/40812"&gt;#40812&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added hardware key support for agentless connections &lt;a href="https://github.com/gravitational/teleport/pull/40929"&gt;#40929&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;</content>
