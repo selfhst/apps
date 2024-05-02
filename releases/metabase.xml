@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-05-02T05:31:49.802285-04:00</updated>
+  <updated>2024-05-02T06:31:50.334966-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,15 +173,11 @@ Download the JAR here: https://downloads.metabase.com/v0.49.7/metabase.jar&lt;/p
 
 **Bug fixes**
 
-- Google SSO with Interactive Embedding does not allow you to download CSV (#39848)
-- Date format "January 31, 2018" missing day in CSV download (#41639)
-- Default (formatted) CSV Export Returns "Week #" instead of Date (#41492)
 - Leading zero in filter value in embedded dashboard breaks it (#41483)
 - Archived models continue to be cached (#41318)
 - Migration doesn't like rows with null characters (#40835)
 - Primary Key missing filter options (#40665)
 - If a user is a member of multiple groups in the IdP, the user property is comma separated and we default to "all users" (#40517)
-- Date Filtering Bug in v0.49.1 Docker Image with Japanese Locale Settings (#40493)
 - Metabase renders the result but the query does not finish in the DB (#39018)
 - Illegal hex characters in escape (%) pattern - error at index 0 in: R6 (#38966)
 - Cannot connect to new MongoDB source or sync existing databases (#38013)
