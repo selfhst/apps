@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>zwave-js-ui Releases</title>
-  <updated>2024-05-02T08:31:48.141054-04:00</updated>
+  <updated>2024-05-02T09:31:49.319780-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,7 +95,7 @@
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; add offset to smart start hover menu (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/9f72cf3625b2d0078e5d718fc8c9c736a2ca1b1c"&gt;9f72cf3&lt;/a&gt;), closes &lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3688"&gt;#3688&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; cannot scroll down to channel values in controller info panel (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/8d75372440743858db56f59ce382c71e8036ea98"&gt;8d75372&lt;/a&gt;), closes &lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3685"&gt;#3685&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; display missing zwlr keys (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/315ab0ffaa55d937df51639ccdf88532b39c115c"&gt;315ab0f&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; not able to sending actions from advanced dialog (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/367b75f6b96ea7b74208d0b852d6bd722560d99f"&gt;367b75f&lt;/a&gt;), closes &lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3693"&gt;#3693&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; not able to send actions from advanced dialog (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/367b75f6b96ea7b74208d0b852d6bd722560d99f"&gt;367b75f&lt;/a&gt;), closes &lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3693"&gt;#3693&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; only allow healthchecks against controller and hide neighbors (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/0209b55ef3acfaf6b29db4c49c83eda95d2165eb"&gt;0209b55&lt;/a&gt;), closes &lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3681"&gt;#3681&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; only check for missing keys that are valid LR keys (&lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3689"&gt;#3689&lt;/a&gt;) (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/1aaf2997f6aed145cfe753c136a84fe37bcd1363"&gt;1aaf299&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; prevent changing requested security classes when switching protocol (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/e327942edd0ab9234dede2e50bb4ad5458c27cd5"&gt;e327942&lt;/a&gt;)&lt;/li&gt;

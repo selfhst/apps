@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-05-02T08:31:56.805377-04:00</updated>
+  <updated>2024-05-02T09:31:58.534056-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,6 @@
 - &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Toggle support for experimental channel (&lt;a href="https://github.com/traefik/traefik/pull/10435"&gt;#10435&lt;/a&gt; by &lt;a href="https://github.com/SantoDE"&gt;SantoDE&lt;/a&gt;)
 - &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Handle middlewares in filters extension reference (&lt;a href="https://github.com/traefik/traefik/pull/10511"&gt;#10511&lt;/a&gt; by &lt;a href="https://github.com/youkoulayley"&gt;youkoulayley&lt;/a&gt;)
 - &lt;strong&gt;[k8s/ingress,k8s/crd,k8s,k8s/gatewayapi]&lt;/strong&gt; Use runtime.Object in routerTransform (&lt;a href="https://github.com/traefik/traefik/pull/10523"&gt;#10523&lt;/a&gt; by &lt;a href="https://github.com/juliens"&gt;juliens&lt;/a&gt;)
-- &lt;strong&gt;[k8s/crd,k8s]&lt;/strong&gt; Allow to use internal node IPs for NodePort services (&lt;a href="https://github.com/traefik/traefik/pull/10278"&gt;#10278&lt;/a&gt; by &lt;a href="https://github.com/jorisvergeer"&gt;jorisvergeer&lt;/a&gt;)
 - &lt;strong&gt;[logs,performance]&lt;/strong&gt; New logger for the Traefik logs (&lt;a href="https://github.com/traefik/traefik/pull/9515"&gt;#9515&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
 - &lt;strong&gt;[logs,plugins]&lt;/strong&gt; Retry on plugin API calls (&lt;a href="https://github.com/traefik/traefik/pull/9530"&gt;#9530&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
 - &lt;strong&gt;[logs,provider]&lt;/strong&gt; Improve provider logs (&lt;a href="https://github.com/traefik/traefik/pull/9562"&gt;#9562&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
