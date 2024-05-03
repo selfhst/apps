@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2024-05-02T20:30:44.358044-04:00</updated>
+  <updated>2024-05-02T21:30:43.992521-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,7 +149,14 @@
     <author>
       <name>Leantime/leantime</name>
     </author>
-    <content>&lt;h1&gt;Version: 3.1.4%0A%0A&lt;em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/b5ba975164f7b2a7029be879b4b9982ea93b645e"&gt;b5ba975&lt;/a&gt;: version bump%0A&lt;/em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/c3bdd044a7e30b73518e5e6398448f000658698e"&gt;c3bdd04&lt;/a&gt;: [fix] news notification doesn't disappear bug%0A&lt;em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/ef6a6c63bd0c4ea346b0af87af42e12a0bea91b7"&gt;ef6a6c6&lt;/a&gt;: [fix] news notification doesn't disappear bug%0A&lt;/em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/fc6cf2f95077573b2f6a5876c017183db0724497"&gt;fc6cf2f&lt;/a&gt;: [enhancement] Align initial filters to be the current week%0A&lt;em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/ab400978b501e0665ef9154278f1bd5edeead286"&gt;ab40097&lt;/a&gt;: [fix] disabling adding time registrations in previous timezones%0A&lt;/em&gt; &lt;a href="https://github.com/Leantime/leantime/commit/9f9adf0fd0a9d2fec41cc8bd02c4ce1eb62cd273"&gt;9f9adf0&lt;/a&gt;: clean up.%0A* &lt;a href="https://github.com/Leantime/leantime/commit/2e9db313fee6c5380ebe04e34567cc6c97485103"&gt;2e9db31&lt;/a&gt;: [fix] timesheet entries that fall on midnight were not included%0A&lt;/h1&gt;</content>
+    <content>&lt;h2&gt;What has changed&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/Leantime/leantime/commit/c3bdd044a7e30b73518e5e6398448f000658698e"&gt;c3bdd04&lt;/a&gt;: [fix] news notification doesn't disappear bug
+&lt;a href="https://github.com/Leantime/leantime/commit/ef6a6c63bd0c4ea346b0af87af42e12a0bea91b7"&gt;ef6a6c6&lt;/a&gt;: [fix] news notification doesn't disappear bug
+&lt;a href="https://github.com/Leantime/leantime/commit/fc6cf2f95077573b2f6a5876c017183db0724497"&gt;fc6cf2f&lt;/a&gt;: [enhancement] Align initial filters on timesheet list to be the current week
+&lt;a href="https://github.com/Leantime/leantime/commit/ab400978b501e0665ef9154278f1bd5edeead286"&gt;ab40097&lt;/a&gt;: [fix] disabling adding time registrations in previous timezone
+&lt;a href="https://github.com/Leantime/leantime/commit/9f9adf0fd0a9d2fec41cc8bd02c4ce1eb62cd273"&gt;9f9adf0&lt;/a&gt;: clean up.
+&lt;a href="https://github.com/Leantime/leantime/commit/2e9db313fee6c5380ebe04e34567cc6c97485103"&gt;2e9db31&lt;/a&gt;: [fix] timesheet entries that fall on midnight were causing 0 hour overwrites&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Leantime/leantime/compare/v3.1.4...v3.1.4&lt;/p&gt;</content>
     <link href="https://github.com/Leantime/leantime/releases/tag/v3.1.4" rel="alternate"/>
   </entry>
 </feed>
