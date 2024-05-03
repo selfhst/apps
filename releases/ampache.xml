@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2024-05-03T01:32:34.452213-04:00</updated>
+  <updated>2024-05-03T02:32:41.295627-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -500,9 +500,9 @@ af3f9c8a095409b514b39e2b7f254b4c  ./ampache-6.4.0_public.zip
 &lt;h2&gt;Ampache 6.4.0&lt;/h2&gt;
 &lt;p&gt;Work on Ampache7 is ongoing.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a href="https://github.com/ampache/ampache/wiki/ampache7-for-admins"&gt;wiki&lt;/a&gt; for information as some changes will be backported to Ampache6.&lt;/p&gt;
-&lt;p&gt;This update has became quite large and work to make sure this branch stays stable for the long term will continue.&lt;/p&gt;
+&lt;p&gt;This update has become quite large and work to make sure this branch stays stable for the long term will continue.&lt;/p&gt;
 &lt;h4&gt;Check your config file encode_args&lt;/h4&gt;
-&lt;p&gt;First up there is some manual work for you if you've enabled for transcoding.&lt;/p&gt;
+&lt;p&gt;First up there is some manual work for you if you've enabled transcoding.&lt;/p&gt;
 &lt;p&gt;Double check your config and remove the K from &lt;code&gt;%BITRATE%K&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/ampache/ampache/assets/1305249/f51f495b-f7e2-4861-9121-4ea14f0fb5fa" /&gt;&lt;/p&gt;
 &lt;p&gt;Transcoding commands are sent in bytes so adding a K to the command multiplies it by 1000!&lt;/p&gt;
