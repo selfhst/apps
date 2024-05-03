@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-05-03T10:30:32.025322-04:00</updated>
+  <updated>2024-05-03T11:30:32.612151-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -605,7 +605,7 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Expanded checks in merge widget](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html): &lt;code&gt;Code Review Workflow&lt;/code&gt;&lt;/summary&gt;
+&lt;details&gt;&lt;summary&gt;[Expanded checks in merge widget](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html): &lt;code&gt;Code Review Workflow&lt;/code&gt;&lt;/summary&gt;
 
 &gt; The merge widget explains clearly if your merge request is not mergeable, and why. Previously, only one merge blocker was displayed at a time. This increased review cycles and forced you to resolve problems individually, without knowing if more blockers remained.
 &gt; 
