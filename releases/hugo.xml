@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-05-05T13:30:36.121144-04:00</updated>
+  <updated>2024-05-05T14:30:36.441801-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,7 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix one more resource change eviction logic issue bb59a7ed9 @bep #1239 #12456 &lt;/li&gt;
+&lt;li&gt;Fix one more resource change eviction logic issue bb59a7ed9 @bep #12395 #12456 &lt;/li&gt;
 &lt;li&gt;Make the cache eviction logic for stale entities more robust 503d20954 @bep #12458 &lt;/li&gt;
 &lt;li&gt;build(deps): bump github.com/pelletier/go-toml/v2 from 2.2.1 to 2.2.2 68e95327f @dependabot[bot] &lt;/li&gt;
 &lt;li&gt;Run mage generate 9cd7db61d @bep &lt;/li&gt;
