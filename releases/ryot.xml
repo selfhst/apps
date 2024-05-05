@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-05T04:31:20.871173-04:00</updated>
+  <updated>2024-05-05T05:31:20.643821-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,16 +126,16 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.1.2</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.2.0</id>
     <title>New release for Ryot: Version 5</title>
     <updated>2024-04-19T21:54:40-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.1.2&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;94df11739a56c0977acb072f0b9317c6cdd0025f&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 3, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.2.0&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;e4c96324e46f745f7f04cbad3f377440c6f376a0&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 5, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;blockquote&gt;
@@ -150,6 +150,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;You can now edit created exercises.&lt;/li&gt;
 &lt;li&gt;The media list pages now shows if a media has been seen or added to watchlist.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.1.2" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.2.0" rel="alternate"/>
   </entry>
 </feed>
