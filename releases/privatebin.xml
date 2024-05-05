@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PrivateBin Releases</title>
-  <updated>2024-05-05T16:31:17.489316-04:00</updated>
+  <updated>2024-05-05T17:31:15.679286-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,7 @@
   </entry>
   <entry>
     <id>https://github.com/PrivateBin/PrivateBin/releases/tag/1.7.2</id>
-    <title>New release for PrivateBin: 1.7.2</title>
+    <title>New release for PrivateBin: Release v1.7.2 - Adding new template and configuration options</title>
     <updated>2024-05-05T15:12:48-04:00</updated>
     <author>
       <name>PrivateBin/PrivateBin</name>
