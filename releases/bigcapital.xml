@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bigcapital Releases</title>
-  <updated>2024-05-06T17:30:10.426815-04:00</updated>
+  <updated>2024-05-06T18:30:10.957071-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,13 +74,16 @@
       <name>bigcapitalhq/bigcapital</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;improvements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;feat(repo): upgrade to latest lerna v8 and pnpm v9 by @benpsnyder in https://github.com/bigcapitalhq/bigcapital/pull/414&lt;/li&gt;
-&lt;li&gt;docs: add benpsnyder as a contributor for code by @allcontributors in https://github.com/bigcapitalhq/bigcapital/pull/417&lt;/li&gt;
-&lt;li&gt;feat: Update Docker Build-Push Action and Add ARM64 Support by @cloudsbird in https://github.com/bigcapitalhq/bigcapital/pull/412&lt;/li&gt;
-&lt;li&gt;feat: Pushing docker containers by version tag by @cloudsbird in https://github.com/bigcapitalhq/bigcapital/pull/421&lt;/li&gt;
 &lt;li&gt;feat: Export resource data to csv, xlsx by @abouolia in https://github.com/bigcapitalhq/bigcapital/pull/430&lt;/li&gt;
 &lt;li&gt;feat: User email verification after signing-up. by @abouolia in https://github.com/bigcapitalhq/bigcapital/pull/426&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(repo): upgrade to latest lerna v8 and pnpm v9 by @benpsnyder in https://github.com/bigcapitalhq/bigcapital/pull/414&lt;/li&gt;
+&lt;li&gt;feat: Update Docker Build-Push Action and Add ARM64 Support by @cloudsbird in https://github.com/bigcapitalhq/bigcapital/pull/412&lt;/li&gt;
+&lt;li&gt;feat: Pushing docker containers by version tag by @cloudsbird in https://github.com/bigcapitalhq/bigcapital/pull/421&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
