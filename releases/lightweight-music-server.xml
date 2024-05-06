@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-05-06T14:30:50.866524-04:00</updated>
+  <updated>2024-05-06T15:30:51.458936-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,7 +90,8 @@
 * Official docker image: upgraded Taglib to 2.0.1, added support for dsf and aac files #336 #449 
 * Replaced the navigation bars to expose the sort/filter modes by a button with a dropdown menu&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes&lt;/strong&gt;
-* Fixed some bad accesses that made the server abort #450 &lt;/p&gt;</content>
+* Fixed some bad accesses that made the server abort #450 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Migration note&lt;/strong&gt;: you must first upgrade to v3.52.0 and run once, before upgrading to v3.53.0, see #454 &lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.53.0" rel="alternate"/>
   </entry>
 </feed>
