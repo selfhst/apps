@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bigcapital Releases</title>
-  <updated>2024-05-06T15:30:10.746007-04:00</updated>
+  <updated>2024-05-06T16:30:09.859441-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,7 +69,7 @@
   <entry>
     <id>https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.16.11</id>
     <title>New release for Bigcapital: v0.16.11</title>
-    <updated>2024-05-06T15:14:34-04:00</updated>
+    <updated>2024-05-06T16:29:22-04:00</updated>
     <author>
       <name>bigcapitalhq/bigcapital</name>
     </author>
