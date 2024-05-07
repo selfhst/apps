@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-07T09:32:36.282833-04:00</updated>
+  <updated>2024-05-07T10:32:34.783222-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,9 +109,9 @@
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added support for creating multiple workspaces.&lt;/li&gt;
-&lt;li&gt;Included support for inviting members into your workspace.&lt;/li&gt;
+&lt;li&gt;Added support for inviting members into your workspace.&lt;/li&gt;
 &lt;li&gt;Optimized document page style for mobile, enabling changing font size and line height.&lt;/li&gt;
-&lt;li&gt;Implemented support for opening rows as full pages.&lt;/li&gt;
+&lt;li&gt;Added support for opening rows as full pages.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
