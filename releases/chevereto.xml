@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-05-07T18:30:14.557349-04:00</updated>
+  <updated>2024-05-07T19:30:14.396767-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,16 +17,20 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.0.11 (2024-02-21)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.0/4.0.11.html"&gt;Chevereto 4.0.11&lt;/a&gt; (2024-02-21)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;✅ Added one-click upgrade system&lt;/li&gt;
-&lt;li&gt;✅ Added license key configuration&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-11-annoncement.15317/post-75748"&gt;Added one-click upgrade system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-11-annoncement.15317/post-75749"&gt;Added license key configuration&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;✅ Added /dashboard/?license&lt;/li&gt;
 &lt;li&gt;✅ Added /dashboard/?installed&lt;/li&gt;
 &lt;li&gt;✅ Added /dashboard/?upgrade&lt;/li&gt;
 &lt;li&gt;💅 Improved software version at dashboard&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;LINK: https://releases.chevereto.com/4.X/4.0/4.0.11.html&lt;/p&gt;</content>
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-11.15321/"&gt;Chevereto V4.0.11 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-11-annoncement.15317/"&gt;Chevereto V4.0.11 Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.0.11" rel="alternate"/>
   </entry>
   <entry>
@@ -36,11 +40,11 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.0.12 (2024-03-12)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.0/4.0.12.html"&gt;Chevereto 4.0.12&lt;/a&gt; (2024-03-12)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;✅ Added cipher (encryption) to album password&lt;/li&gt;
-&lt;li&gt;✅ Added hidden (click to show) album password&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in &lt;code&gt;entrypoints/index.php&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12-announcement.15338/post-75805"&gt;Added cipher (encryption) to album password&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12-announcement.15338/post-75806"&gt;Added hidden (click to show) album password&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12-announcement.15338/post-75807"&gt;Fixed bug&lt;/a&gt; in &lt;code&gt;entrypoints/index.php&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug in API route&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug in Dashboard route&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug in Settings route&lt;/li&gt;
@@ -48,10 +52,14 @@
 &lt;li&gt;🐞 Fixed bug in G\Handler&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug in &lt;code&gt;app/upgrading.php&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;🐞 Fixed bug in empty search string&lt;/li&gt;
-&lt;li&gt;💅 Improved license key handling (mobile) at Dashboard&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12-announcement.15338/post-75808"&gt;Improved license key handling (mobile) at Dashboard&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🆙 Updated dependencies&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;LINK: https://releases.chevereto.com/4.X/4.0/4.0.12.html&lt;/p&gt;</content>
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12.15339/"&gt;Chevereto V4.0.12 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-0-12-announcement.15338/"&gt;Chevereto V4.0.12 Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.0.12" rel="alternate"/>
   </entry>
   <entry>
@@ -61,39 +69,43 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.1.0 (2024-04-20)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.1/4.1.0.html"&gt;Chevereto 4.1.0&lt;/a&gt; (2024-04-20)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🎥 Added support for video files&lt;/li&gt;
-&lt;li&gt;🎥 Added frame image size for video uploads&lt;/li&gt;
-&lt;li&gt;🎥 Added oEmbed support for video&lt;/li&gt;
-&lt;li&gt;🎥 Added video support for anywhere uploader&lt;/li&gt;
-&lt;li&gt;🎥 Added video support for embed codes&lt;/li&gt;
-&lt;li&gt;🎥 Added Video to Discovery (Explore)&lt;/li&gt;
-&lt;li&gt;✅ Added display_title media property&lt;/li&gt;
-&lt;li&gt;✅ Added enabled file type options for External Storage&lt;/li&gt;
-&lt;li&gt;✅ Improved support for PUP.js for SMF 2.1+&lt;/li&gt;
-&lt;li&gt;✅ Unified embed codes display&lt;/li&gt;
-&lt;li&gt;💅 Added display_title to full screen listing viewer&lt;/li&gt;
-&lt;li&gt;💅 Added edition name at installation details&lt;/li&gt;
-&lt;li&gt;💅 Added one-click theme font configuration&lt;/li&gt;
-&lt;li&gt;💅 Added over effect to display_title on listings&lt;/li&gt;
-&lt;li&gt;💅 Added video duration on listing items&lt;/li&gt;
-&lt;li&gt;💅 Changed "image" references to "file"&lt;/li&gt;
-&lt;li&gt;💅 Changed Trending icon&lt;/li&gt;
-&lt;li&gt;💅 Improved listing icons for like and share&lt;/li&gt;
-&lt;li&gt;💅 Improved password display helper when using Safari&lt;/li&gt;
-&lt;li&gt;💅 Improved uploader size limit display&lt;/li&gt;
-&lt;li&gt;💅 Stop preventing list-item-desc link behavior&lt;/li&gt;
-&lt;li&gt;⏲️ Added button to manually run CRON&lt;/li&gt;
-&lt;li&gt;💬 Added link to Chevereto discord at Dashboard&lt;/li&gt;
-&lt;li&gt;🤚 Added welcome message on new installation&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in homepage delete cover action&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug on upload route&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with password protected albums&lt;/li&gt;
-&lt;li&gt;🐞 Fixed unwanted scroll hide top-bar in Safari&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75850"&gt;Added support for video files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-76012"&gt;Added frame image size for video uploads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75990"&gt;Added oEmbed support for video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75858"&gt;Added video support for anywhere uploader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75992"&gt;Added video support for embed codes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75862"&gt;Added Video to Discovery (Explore)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75956"&gt;Added display_title media property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75976"&gt;Added enabled file type options for External Storage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75857"&gt;Improved support for PUP.js for SMF 2.1+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75993"&gt;Unified embed codes display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75958"&gt;Added display_title to full screen listing viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75965"&gt;Added edition name at installation details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75861"&gt;Added one-click theme font configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75957"&gt;Added over effect to display_title on listings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75914"&gt;Added video duration on listing items&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75969"&gt;Changed "image" references to "file"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75970"&gt;Changed Trending icon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75898"&gt;Improved listing icons for like and share&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75895"&gt;Improved password display helper when using Safari&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75964"&gt;Improved uploader size limit display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75966"&gt;Stop preventing list-item-desc link behavior&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⏲️ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75971"&gt;Added button to manually run CRON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75888"&gt;Added link to Chevereto discord at Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🤚 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75894"&gt;Added welcome message on new installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75891"&gt;Fixed bug in homepage delete cover action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75889"&gt;Fixed bug on upload route&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75917"&gt;Fixed bug with password protected albums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0-announcement.15351/post-75890"&gt;Fixed unwanted scroll hide top-bar in Safari&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;LINK: https://releases.chevereto.com/4.X/4.1/4.1.0.html
-BLOG: https://rodolfoberrios.com/2024/04/20/chevereto-4-1/&lt;/p&gt;</content>
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://rodolfoberrios.com/2024/04/20/chevereto-4-1/"&gt;Chevereto 4.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0.15389/"&gt;Chevereto V4.1.0 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0.15351/"&gt;Chevereto V4.1.0 Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.1.0" rel="alternate"/>
   </entry>
   <entry>
@@ -103,27 +115,31 @@ BLOG: https://rodolfoberrios.com/2024/04/20/chevereto-4-1/&lt;/p&gt;</content>
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.1.1 (2024-04-27)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.1/4.1.1.html"&gt;Chevereto 4.1.1&lt;/a&gt; (2024-04-27)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🎥 Added FFmpeg detection on Dashboard&lt;/li&gt;
-&lt;li&gt;🎥 Added support for MOV files (video/quicktime)&lt;/li&gt;
-&lt;li&gt;🎥 Improved detection of FFmpeg required functions proc_open and proc_close&lt;/li&gt;
-&lt;li&gt;🎥 Improved FFprobe handling when processing video&lt;/li&gt;
-&lt;li&gt;🎥 Improved video display for listing viewer&lt;/li&gt;
-&lt;li&gt;💅 Added display title to listing viewer&lt;/li&gt;
-&lt;li&gt;💅 Fixed files remark on Dashboard&lt;/li&gt;
-&lt;li&gt;💅 Fixed file remarks on Bulk importer stats&lt;/li&gt;
-&lt;li&gt;💅 Improved image viewer &amp;amp; natural zoom&lt;/li&gt;
-&lt;li&gt;💅 Improved menu display for mobile&lt;/li&gt;
-&lt;li&gt;💅 Updated homepage cover image&lt;/li&gt;
-&lt;li&gt;🔑 Improved feedback on license key handling&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with missing scroll behavior&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with not working URL upload&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with video upload not working on iOS&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with file-upload documentation link&lt;/li&gt;
-&lt;li&gt;🇨🇱 Updated Spanish translation&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76077"&gt;Added FFmpeg detection on Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76142"&gt;Added support for MOV files (video/quicktime)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76112"&gt;Improved detection of FFmpeg required functions proc_open and proc_close&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76111"&gt;Improved FFprobe handling when processing video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76109"&gt;Improved video display for listing viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76110"&gt;Added display title to listing viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76074"&gt;Fixed files remark on Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76080"&gt;Fixed file remarks on Bulk importer stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76103"&gt;Improved image viewer &amp;amp; natural zoom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76146"&gt;Improved menu display for mobile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💅 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76078"&gt;Updated homepage cover image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🔑 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76128"&gt;Improved feedback on license key handling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76138"&gt;Fixed bug with missing scroll behavior&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76159"&gt;Fixed bug with not working URL upload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76141"&gt;Fixed bug with video upload not working on iOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76079"&gt;Fixed bug with file-upload documentation link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🇨🇱 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/post-76147"&gt;Updated Spanish translation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;LINK: https://releases.chevereto.com/4.X/4.1/4.1.1.html&lt;/p&gt;</content>
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-0.15389/"&gt;Chevereto V4.1.1 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-1-announcement.15405/"&gt;Chevereto V4.1.1 Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.1.1" rel="alternate"/>
   </entry>
   <entry>
@@ -133,7 +149,7 @@ BLOG: https://rodolfoberrios.com/2024/04/20/chevereto-4-1/&lt;/p&gt;</content>
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.1.2 (2024-05-06)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.1/4.1.2.html"&gt;Chevereto 4.1.2&lt;/a&gt; (2024-05-06)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-2-announcement.15428/post-76193"&gt;Added support for custom FFmpeg and FFprobe binaries&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🎥 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-1-2-announcement.15428/post-76229"&gt;Improved video display on listings and viewer&lt;/a&gt;&lt;/li&gt;
