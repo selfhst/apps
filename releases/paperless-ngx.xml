@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-05-06T20:31:06.643041-04:00</updated>
+  <updated>2024-05-06T21:31:12.161378-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,7 +201,6 @@
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Chore(deps): Bump all allowed backend packages @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6562"&gt;#6562&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Feature: global search, keyboard shortcuts / hotkey support @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6449"&gt;#6449&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Feature: customizable fields display for documents, saved views \&amp;amp; dashboard widgets @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6439"&gt;#6439&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Feature: document history (audit log UI) @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6388"&gt;#6388&lt;/a&gt;)&lt;/li&gt;
@@ -218,11 +217,11 @@
 &lt;li&gt;Fix: dont dismiss active alerts on "dismiss completed" @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6364"&gt;#6364&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: Allow lowercase letters in monetary currency code field @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6359"&gt;#6359&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: Allow negative monetary values with a current code @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6358"&gt;#6358&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: add timezone fallback to install script @Harald-Berghoff (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6336"&gt;#6336&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Maintenance&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Chore(deps): Bump stumpylog/image-cleaner-action from 0.5.0 to 0.6.0 in the actions group @dependabot (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6541"&gt;#6541&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: add timezone fallback to install script @Harald-Berghoff (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/6336"&gt;#6336&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Dependencies&lt;/h3&gt;
 &lt;details&gt;
