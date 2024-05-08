@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PrivateBin Releases</title>
-  <updated>2024-05-08T18:31:17.017406-04:00</updated>
+  <updated>2024-05-08T19:31:14.885335-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,8 @@
     <author>
       <name>PrivateBin/PrivateBin</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Please don't update to this release, it contains a critical bug! See https://github.com/PrivateBin/PrivateBin/issues/1309 for details.&lt;/p&gt;
+    <content>&lt;p&gt;&lt;strong&gt;&lt;em&gt;*Important:&lt;/em&gt;* Please &lt;em&gt;don't&lt;/em&gt; update to this release, it contains a critical bug! See https://github.com/PrivateBin/PrivateBin/issues/1309 for details.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;ADDED: Allow use of &lt;code&gt;shortenviayourls&lt;/code&gt; in query parameters (#1267)&lt;/li&gt;
 &lt;li&gt;ADDED: Input sanitation to some not yet filtered query and server parameters&lt;/li&gt;
