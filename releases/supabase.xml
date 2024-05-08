@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Supabase Releases</title>
-  <updated>2024-05-07T20:32:15.181299-04:00</updated>
+  <updated>2024-05-07T21:32:10.426112-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,62 @@
 &lt;li&gt;Join the &lt;a href="https://twitter.com/thorwebdev/status/1760918914702430665"&gt;#SupaBuilders movement&lt;/a&gt; and never get your project paused again!&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/supabase/supabase/releases/tag/v0.24.02" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/supabase/supabase/releases/tag/v1.24.04</id>
+    <title>New release for Supabase: Developer Updates - April 2024</title>
+    <updated>2024-05-07T20:49:31-04:00</updated>
+    <author>
+      <name>supabase/supabase</name>
+    </author>
+    <content>&lt;p&gt;Here’s everything we shipped during our &lt;a href="https://supabase.link/ga-week-gh"&gt;GA week&lt;/a&gt;:&lt;/p&gt;
+&lt;h2&gt;Day 1 - Supabase is officially launching into General Availability (GA)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Day 1 - Supabase is officially launching into General Availability (GA)" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/day-1-ga-update.png?t=2024-05-07T23%3A53%3A29.231Z" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase has moved to General Availability (GA) with over 1 million databases under management and over 2,500 databases launched daily. We’ve been production ready for years and now we are fully confident that we can help every customer become successful, from weekend projects to enterprise initiatives at organizations like Mozilla, 1Password, and PwC.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/ga-gh"&gt;Full announcement&lt;/a&gt; | &lt;a href="https://supabase.link/ga-yt"&gt;Video announcement&lt;/a&gt; | &lt;a href="https://supabase.link/ga-x-space"&gt;X space&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 2 - Supabase Functions now supports AI models&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Day 2 - Supabase Functions now supports AI models" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/day-2-functions-ai.png?t=2024-05-08T00%3A09%3A34.531Z" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase Functions has added a native API that makes it easy to run AI models within your functions while removing nasty cold starts. You can use the &lt;code&gt;gte-small&lt;/code&gt; embedding model to generate text embeddings or bring your own Ollama server to tap into many more embedding models and Large Language Models (LLMs) like Llama3 and Mistral. Soon we’ll provide hosted Ollama servers so you won’t have to manage them yourselves for a more seamless experience.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/ai-gh"&gt;Blog post&lt;/a&gt; | &lt;a href="https://supabase.link/ai-yt"&gt;Video announcement&lt;/a&gt; | &lt;a href="https://supabase.link/ai-x-space"&gt;X space&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 3 - Supabase Auth now supports Anonymous sign-ins&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Day 3 - Supabase Auth now supports Anonymous sign-ins" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/day-3-auth-anon.png?t=2024-05-08T00%3A21%3A26.274Z" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase Auth heard your requests and went to work building anonymous sign-ins which enable you to create temporary users that have yet to sign up for your application. This lowers the friction for visitors to use your application while making it easy to convert them to permanent users once they’re hooked.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/anon-auth-gh"&gt;Blog post&lt;/a&gt; | &lt;a href="https://supabase.link/anon-auth-yt"&gt;Video announcement&lt;/a&gt; | &lt;a href="https://supabase.link/anon-auth-x-space"&gt;X space&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 4 - Supabase Storage now supports the S3 protocol&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Day 4 - Supabase Storage now supports the S3 protocol" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/day-4-storage-s3.png?t=2024-05-08T00%3A25%3A39.319Z" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase Storage already has standard and resumable uploads and now supports the industry standard S3 protocol enabling multipart upload and compatibility with a myriad of tools such as AWS CLI, Clickhouse, and Airbyte for a wide array of use cases.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/storage-s3-gh"&gt;Blog post&lt;/a&gt; | &lt;a href="https://supabase.link/s3-storage-yt"&gt;Video announcement&lt;/a&gt; | &lt;a href="https://supabase.link/s3-storage-x-space"&gt;X space&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 5 - Supabase Security &amp;amp; Performance Advisor&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Day 5 - Supabase Security &amp;amp; Performance Advisor" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/day-5-sec-perf-advisor.png?t=2024-05-08T00%3A28%3A36.290Z" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase has managed over 1 million databases over the last four years and has seen all manner of use cases with common pitfalls that we’re helping our customers address with our Security, Performance, and Index Advisors. These Advisors will help to surface and fix insecure database configurations and recommend database and query optimizations to keep your database secure and performant for your mission critical workloads.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/sec-perf-advisor-gh"&gt;Blog post&lt;/a&gt; | &lt;a href="https://supabase.link/sec-perf-advisor-yt"&gt;Video announcement&lt;/a&gt; | &lt;a href="https://supabase.link/sec-perf-advisor-x-space"&gt;X space&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;GA Week Hackathon Winners&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="GA Week Hackathon Winners" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/april2024/ga-week-hackathon-winners.png?t=2024-05-08T00%3A31%3A02.054Z" /&gt;&lt;/p&gt;
+&lt;p&gt;We are delighted that so many high quality projects were submitted but in the end there could only be one Best Overall Project. The decision wasn’t easy but the Supabase panel of judges chose &lt;a href="https://supabase.link/hackathon-vdbs"&gt;vdbs&lt;/a&gt; (vision database SQL) for the honorific. Congratulations 👏 to &lt;a href="https://supabase.link/xavimonp"&gt;@xavimonp&lt;/a&gt; who will receive the prize of Apple AirPods.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/ga-hackathon-winners-gh"&gt;Full list of winners&lt;/a&gt; | &lt;a href="https://supabase.link/made-with-supabase"&gt;All the submissions&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;One more thing from GA Week&lt;/h2&gt;
+&lt;p&gt;Just kidding, there’s always more than one. Here’s more awesome things we shipped:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sb-aws-marketplace-gh"&gt;Supabase on the AWS Marketplace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/branching-pub-avail-gh"&gt;Database branching is now Publicly Available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sb-bootstrap-gh"&gt;Supabase Bootstrap: the fastest way to launch a new project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sb-swift-gh"&gt;Supabase Swift officially supported&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sb-oriole-gh"&gt;Oriole, table storage extension for Postgres, joins Supabase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sb-managed-fly-gh"&gt;Fly Postgres, a managed offering from Supabase, is available to everyone for testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/ga-27-meetups-gh"&gt;Supabase GA Week meetups  in 27 cities around the world&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://supabase.link/sf-ga-meetup"&gt;Join our upcoming Meetup in SF at the a16z office with friends from Ollama and Fly.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Community Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing Databases 5 Times in 48 Hours Boosted Our Launch to 35,000 Views [&lt;a href="https://supabase.link/comm-highlight-changing-databases-5-times-in-48-hours-boosted-our-launch-to-35000-views"&gt;Article&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Crazy new Supabase feature: Understand and learn about anonymous users [&lt;a href="https://supabase.link/comm-highlight-crazy-new-sb-feature-anon-users"&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Support unstructured data in Postgres with JSON columns [&lt;a href="https://supabase.link/comm-highlight-pg-unstructured-data-json"&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Build an AI-powered blogging platform (Next.js, Langchain &amp;amp; CopilotKit) [&lt;a href="https://supabase.link/comm-highlight-ai-blogging-platform"&gt;Article&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;How to Secure Your Supabase Database and Storage [&lt;a href="https://supabase.link/comm-highlight-secure-sp-db-storage"&gt;Blog post&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Self-host Protomaps PMTiles on Supabase Storage [&lt;a href="https://supabase.link/comm-highlight-protomaps-pmtiles-storage"&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Supabase Realtime - How to deal with multiplayers in Next.js [&lt;a href="https://supabase.link/comm-highlight-realtime-multiplayer-nextjs"&gt;Blog post&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;The Hard Parts of Building an Application, Made Easy with Supabase [&lt;a href="https://supabase.link/comm-highlight-hard-parts-made-easy-sb"&gt;Article&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/supabase/supabase/releases/tag/v1.24.04" rel="alternate"/>
   </entry>
 </feed>
