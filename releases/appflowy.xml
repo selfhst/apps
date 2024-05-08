@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-08T01:32:18.586796-04:00</updated>
+  <updated>2024-05-08T02:32:21.402530-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,10 +108,10 @@
 &lt;h2&gt;Version 0.5.6 - 05/27/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for creating multiple workspaces.&lt;/li&gt;
-&lt;li&gt;Added support for inviting members into your workspace.&lt;/li&gt;
-&lt;li&gt;Optimized document page style for mobile, enabling changing font size and line height.&lt;/li&gt;
-&lt;li&gt;Added support for opening rows as full pages.&lt;/li&gt;
+&lt;li&gt;Team collaboration is live! Add members to your workspace to edit and collaborate on pages together.&lt;/li&gt;
+&lt;li&gt;Collaborate in real time on the same page with other members. Edits made by others will appear instantly.&lt;/li&gt;
+&lt;li&gt;Customize your entire page on mobile through the Page Style menu with options for layout, font, emoji, and cover image.&lt;/li&gt;
+&lt;li&gt;Open a row record as a full page.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
