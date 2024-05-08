@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2024-05-08T07:30:04.455668-04:00</updated>
+  <updated>2024-05-08T08:30:04.023604-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -370,7 +370,7 @@
     </author>
     <content>&lt;p&gt;👋 Hey Everybody, Hey Everybody! &lt;/p&gt;
 &lt;h1&gt;🚀 Introducing One to One Relation &amp;amp; Revamped Grid View!&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Revamped Grid   One to One Relation - Video Thumbnail" src="https://github.com/nocodb/nocodb/assets/5435402/412d80a7-7fb8-4a6c-a3ce-291c2b98939e" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/0oX4uh2Vf-Y" title="Demo Video"&gt;&lt;img alt="Demo Video" src="https://github.com/nocodb/nocodb/assets/5435402/412d80a7-7fb8-4a6c-a3ce-291c2b98939e" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1️⃣ One To One Relation&lt;/h2&gt;
 &lt;p&gt;Exciting news! We're thrilled to announce the &lt;a href="https://github.com/nocodb/nocodb/issues/491"&gt;most requested feature&lt;/a&gt; from issue list - one-to-one relations within NocoDB. A one-to-one relationship in a database refers to a scenario where each record in one table is associated with exactly one record in another table, and vice versa. One-to-one relationships are often used to break down large tables into smaller, more manageable entities while maintaining data integrity. Common use cases include storing optional or supplementary information that is not frequently accessed, such as additional user details or preferences&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
