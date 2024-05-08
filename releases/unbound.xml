@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Unbound Releases</title>
-  <updated>2024-05-08T04:32:07.160785-04:00</updated>
+  <updated>2024-05-08T05:32:04.285141-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -300,5 +300,222 @@ answers.&lt;/p&gt;
 - Fix unbound-control-setup.cmd to have CA v3 basicConstraints,
   like unbound-control-setup.sh has.&lt;/p&gt;</content>
     <link href="https://github.com/NLnetLabs/unbound/releases/tag/release-1.19.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/NLnetLabs/unbound/releases/tag/release-1.20.0</id>
+    <title>New release for Unbound: Unbound 1.20.0</title>
+    <updated>2024-05-08T05:06:15-04:00</updated>
+    <author>
+      <name>NLnetLabs/unbound</name>
+    </author>
+    <content>&lt;p&gt;Unbound 1.20.0&lt;/p&gt;
+&lt;p&gt;This release has a fix for the DNSBomb issue CVE-2024-33655. This has a
+low severity for Unbound, since it makes Unbound complicit in targeting
+others, but does not affect Unbound so much.&lt;/p&gt;
+&lt;p&gt;To mitigate the issue new configuration options are introduced.
+The options &lt;code&gt;discard-timeout: 1900&lt;/code&gt;, &lt;code&gt;wait-limit: 1000&lt;/code&gt;
+and &lt;code&gt;wait-limit-cookie: 10000&lt;/code&gt; are enabled by default. They limit the
+number of outstanding queries that a querier can have. This limits
+the reply pulse, and make Unbound less favorable for the issue.
+With the config &lt;code&gt;wait-limit-netblock&lt;/code&gt; and &lt;code&gt;wait-limit-cookie-netblock&lt;/code&gt;
+the parameters can be fine tuned for specific destinations.
+More information on the attack and Unbound's mitigations are
+presented further down.&lt;/p&gt;
+&lt;p&gt;Other fixes in this release are that Unbound no longer follows symlinks
+when truncating the pidfile. Unbound also does not chown the pidfile,
+this is for safety reasons. There are also a number of fixes for RPZ, in
+handling CNAMEs. There is a memory leak fix for the edns client subnet
+cache. For DNSSEC validation a case is fixed when the query is of type
+DNAME. The unbound-anchor program is fixed to first write to a temporary
+file, before replacing the original. This handles disk full situations,
+and because of it unbound-anchor needs permission to create that file,
+in the same directory as the original file. There is also a fix for
+IP_DONTFRAG, to disable fragmentation instead of the opposite.&lt;/p&gt;
+&lt;p&gt;The option &lt;code&gt;cache-min-negative-ttl&lt;/code&gt; can be used to set the minimum TTL
+for negative responses in the cache. It complements existing options to
+set the maximum ttl for negative responses and to set the minimum and
+maximum ttl but not specifically for negative responses.&lt;/p&gt;
+&lt;p&gt;The option &lt;code&gt;cachedb-check-when-serve-expired&lt;/code&gt; option makes Unbound use
+cachedb to check for expired responses, when &lt;code&gt;serve-expired&lt;/code&gt; is enabled,
+and cachedb is used. It is enabled by default.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;-q&lt;/code&gt; option for unbound-checkconf can be added to silence it when
+there are no errors.&lt;/p&gt;
+&lt;p&gt;The DNSBomb vulnerability CVE-2024-33655.&lt;/p&gt;
+&lt;p&gt;== Summary
+The DNSBomb attack, via specially timed DNS queries and answers, can
+cause a Denial of Service on resolvers and spoofed targets.&lt;/p&gt;
+&lt;p&gt;Unbound itself is not vulnerable for DoS, rather it can be used to take
+part in a pulsing DoS amplification attack.&lt;/p&gt;
+&lt;p&gt;Unbound 1.20.0 includes fixes so the impact of the DoS from Unbound
+is significantly lower than it used to be and making the attack, and
+Unbound's participation, less tempting for attackers.&lt;/p&gt;
+&lt;p&gt;== Affected products
+Unbound up to and including 1.19.3.&lt;/p&gt;
+&lt;p&gt;== Description
+The DNSBomb attack works by sending low-rate spoofed queries for a
+malicious zone to Unbound. By controlling the delay of the malicious
+authoritative answers, Unbound slowly accumulates pending answers for
+the spoofed addresses. When the authoritative answers become available
+to Unbound at the same time, Unbound starts serving all the accumulated
+queries. This results into large-sized, concentrated response bursts to
+the spoofed addresses.&lt;/p&gt;
+&lt;p&gt;From version 1.20.0 on, Unbound introduces a couple of configuration
+options to help mitigate the impact.
+Their complete description can be found in the included manpages but
+they are also briefly listed here together with their default values for
+convenience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;discard-timeout: 1900
+  After 1900 ms a reply to the client will be dropped.
+  Unbound would still work on the query but refrain from replying in
+  order to not accumulate a huge number of "old" replies.
+  Legitimate clients retry on timeouts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;wait-limit: 1000
+  wait-limit-cookie: 10000
+  Limits the amount of client queries that require recursion
+  (cache-hits are not counted) per IP address. More recursive queries
+  than the allowed limit are dropped. Clients with a valid EDNS Cookie
+  can have a different limit, higher by default.
+  wait-limit: 0 disables all wait limits.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;wait-limit-netblock
+  wait-limit-cookie-netblock
+  These do not have a default value but they can fine grain
+  configuration for specific netblocks. With or without EDNS Cookies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The options above are trying to shrink the DNSBomb window so that the
+impact of the DoS from Unbound is significantly lower than it used to be
+and making the attack, and Unbound's participation, less tempting for
+attackers.&lt;/p&gt;
+&lt;p&gt;== Acknowledgements
+We would like to thank Xiang Li from the Network and Information
+Security Lab of Tsinghua University for discovering and disclosing the
+attack.&lt;/p&gt;
+&lt;p&gt;Features
+- The config for discard-timeout, wait-limit, wait-limit-cookie,
+  wait-limit-netblock and wait-limit-cookie-netblock was added, for
+  the fix to the DNSBomb issue.
+- Merge #1027: Introduce 'cache-min-negative-ttl' option.
+- Merge #1043 from xiaoxiaoafeifei: Add loongarch support; updates
+  config.guess(2024-01-01) and config.sub(2024-01-01), verified
+  with upstream.
+- Implement cachedb-check-when-serve-expired: yes option, default
+  is enabled. When serve expired is enabled with cachedb, it first
+  checks cachedb before serving the expired response.
+- Fix #876: [FR] can unbound-checkconf be silenced when configuration
+  is valid?&lt;/p&gt;
+&lt;p&gt;Bug Fixes
+- Fix for the DNSBomb vulnerability CVE-2024-33655. Thanks to Xiang Li
+  from the Network and Information Security Lab of Tsinghua University
+  for reporting it.
+- Update doc/unbound.doxygen with 'doxygen -u'. Fixes option
+  deprecation warnings and updates with newer defaults.
+- Remove unused portion from iter_dname_ttl unit test.
+- Fix validator classification of qtype DNAME for positive and
+  redirection answers, and fix validator signature routine for dealing
+  with the synthesized CNAME for a DNAME without previously
+  encountering it and also for when the qtype is DNAME.
+- Fix qname minimisation for reply with a DNAME for qtype CNAME that
+  answers it.
+- Fix doc test so it ignores but outputs unsupported doxygen options.
+- Fix #1021 Inconsistent Behavior with Changing rpz-cname-override
+  and doing a unbound-control reload.
+- Merge #1028: Clearer documentation for tcp-idle-timeout and
+  edns-tcp-keepalive-timeout.
+- Fix #1029: rpz trigger clientip and action rpz-passthru not working
+  as expected.
+- Fix rpz that the rpz override is taken in case of clientip triggers.
+  Fix that the clientip passthru action is logged. Fix that the
+  clientip localdata action is logged. Fix rpz override action cname
+  for the clientip trigger.
+- Fix to unify codepath for local alias for rpz cname action override.
+- Fix rpz for cname override action after nsdname and nsip triggers.
+- Fix that addrinfo is not kept around but copied and freed, so that
+  log-destaddr uses a copy of the information, much like NSD does.
+- Merge #1030: Persist the openssl and expat directories for repeated
+  Windows builds.
+- Fix that rpz CNAME content is limited to the max number of cnames.
+- Fix rpz, it follows iterator CNAMEs for nsip and nsdname and sets
+  the reply query_info values, that is better for debug logging.
+- Fix rpz that copies the cname override completely to the temp
+  region, so there are no references to the rpz region.
+- Add rpz unit test for nsip action override.
+- Fix rpz for qtype CNAME after nameserver trigger.
+- Fix rpz so that rpz CNAME can apply after rpz CNAME. And fix that
+  clientip and nsip can give a CNAME.
+- Fix localdata and rpz localdata to match CNAME only if no direct
+  type match is available.
+- Merge #831 from Pierre4012: Improve Windows NSIS installer
+  script (setup.nsi).
+- For #831: Format text, use exclamation icon and explicit label
+  names.
+- Fix name of unit test for subnet cache response.
+- Fix #1032: The size of subnet_msg_cache calculation mistake cause
+  memory usage increased beyond expectations.
+- Fix for #1032, add safeguard to make table space positive.
+- Fix comment in lruhash space function.
+- Fix to add unit test for lruhash space that exercises the routines.
+- Fix that when the server truncates the pidfile, it does not follow
+  symbolic links.
+- Fix that the server does not chown the pidfile.
+- Fix #1034: DoT forward-zone via unbound-control.
+- Fix for crypto related failures to have a better error string.
+- Fix #1035: Potential Bug while parsing port from the "stub-host"
+  string; also affected forward-zones and remote-control host
+  directives.
+- Fix #369: dnstap showing extra responses; for client responses
+  right from the cache when replying with expired data or
+  prefetching.
+- Fix #1040: fix heap-buffer-overflow issue in function cfg_mark_ports
+  of file util/config_file.c.
+- For #1040: adjust error text and disallow negative ports in other
+  parts of cfg_mark_ports.
+- Fix comment syntax for view function views_find_view.
+- Fix #595: unbound-anchor cannot deal with full disk; it will now
+  first write out to a temp file before replacing the original one,
+  like Unbound already does for auto-trust-anchor-file.
+- Fixup compile without cachedb.
+- Add test for cachedb serve expired.
+- Extended test for cachedb serve expired.
+- Fix makefile dependencies for fake_event.c.
+- Fix cachedb for serve-expired with serve-expired-reply-ttl.
+- Fix to not reply serve expired unless enabled for cachedb.
+- Fix cachedb for serve-expired with serve-expired-client-timeout.
+- Fixup unit test for cachedb server expired client timeout with
+  a check if response if from upstream or from cachedb.
+- Fixup cachedb to not refetch when serve-expired-client-timeout is
+  used.
+- Merge #1049 from Petr Menšík: Py_NoSiteFlag is not needed since
+  Python 3.8
+- Fix #1048: Update ax_pkg_swig.m4 and ax_pthread.m4.
+- Fix configure, autoconf for #1048.
+- Add checklock feature verbose_locking to trace locks and unlocks.
+- Fix edns subnet to sort rrset references when storing messages
+  in the cache. This fixes a race condition in the rrset locks.
+- Merge #1053: Remove child delegations from cache when grandchild
+  delegations are returned from parent.
+- Fix ci workflow for macos for moved install locations.
+- Fix configure flto check error, by finding grep for it.
+- Merge #1041: Stub and Forward unshare. This has one structure
+  for them and fixes #1038: fatal error: Could not initialize
+  thread / error: reading root hints.
+- Fix to disable fragmentation on systems with IP_DONTFRAG,
+  with a nonzero value for the socket option argument.
+- Fix doc unit test for out of directory build.
+- Fix cachedb with serve-expired-client-timeout disabled. The edns
+  subnet module deletes global cache and cachedb cache when it
+  stores a result, and serve-expired is enabled, so that the global
+  reply, that is older than the ecs reply, does not return after
+  the ecs reply expires.
+- Add unit tests for cachedb and subnet cache expired data.
+- Man page entry for unbound-checkconf -q.
+- Cleanup unnecessary strdup calls for EDE strings.
+- Fix doxygen comment for errinf_to_str_bogus.&lt;/p&gt;</content>
+    <link href="https://github.com/NLnetLabs/unbound/releases/tag/release-1.20.0" rel="alternate"/>
   </entry>
 </feed>
