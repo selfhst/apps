@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-05-08T12:30:31.099555-04:00</updated>
+  <updated>2024-05-08T13:30:31.692658-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -42,12 +42,6 @@
 &gt; If you're switching from Terraform to OpenTofu, this release of GitLab adds preliminary support for OpenTofu. Because OpenTofu is a fork of Terraform, the MR widget integration, module registry, and GitLab-managed Terraform state work by default. We added support for OpenTofu in the `gitlab-terraform` helper image to simplify the usage of the GitLab IaC offering.
 &gt; 
 &gt; GitLab continues to support Terraform for the MR widget, module registry, and GitLab-managed Terraform state.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Custom time period for access tokens rotation](https://docs.gitlab.com/ee/api/personal_access_tokens.html#rotate-a-personal-access-token): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; You can now optionally input a new parameter, `expires_at`, when rotating an access token. This allows you to create a custom expiry date for the token. Previously, each rotation extended the expiration one week from the previous expiry date. This new option provides flexibility in rotation interval. 
 
 &lt;/details&gt;
 
@@ -223,6 +217,13 @@
 &gt; It also adds an internal comment that mentions the assignees of the issue and creates to-do
 &gt; items for them. This way you can make sure you never miss a follow-up email again.
 
+&lt;/details&gt;
+
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Custom time period for access tokens rotation](https://docs.gitlab.com/ee/api/personal_access_tokens.html#rotate-a-personal-access-token): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; You can now optionally input a new parameter, `expires_at`, when rotating an access token. This allows you to create a custom expiry date for the token. Previously, each rotation extended the expiration one week from the previous expiry date. This new option provides flexibility in rotation interval. 
+
 &lt;/details&gt;</content>
     <link href="https://gitlab.com/gitlab-org/gitlab-foss/-/releases/v16.7.0" rel="alternate"/>
   </entry>
@@ -253,12 +254,6 @@
 &gt; - GitLab Exporter
 &gt; 
 &gt; This means plaintext passwords for Redis no longer need to be stored in `gitlab.rb`.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Enforce 2FA for GitLab administrators](https://docs.gitlab.com/ee/security/two_factor_authentication.html#enforce-2fa-for-administrator-users) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
-
-&gt; You can now enforce whether GitLab administrators are required to use two-factor authentication (2FA) in their self-managed instance. It is good security practice to use 2FA for all accounts, especially for privileged accounts like administrators. If this setting is enforced, and an administrator does not already use 2FA, they must set up 2FA on their next sign-in.
 
 &lt;/details&gt;
 
@@ -301,6 +296,13 @@
 &lt;details&gt;&lt;summary&gt;[Predefined variables for merge request description](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html#predefined-variables-for-merge-request-pipelines): &lt;code&gt;Secrets Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; If you use automation to work with merge requests in CI/CD pipelines, you might have wanted an easier way to fetch a merge request's description without an API call. In GitLab 16.7 we introduced the `CI_MERGE_REQUEST_DESCRIPTION` predefined variable, making the description easily accessible in all jobs. In GitLab 16.8 we tweaked the behavior to truncate `CI_MERGE_REQUEST_DESCRIPTION` at 2700 characters, because very large descriptions can cause runner errors. You can check if the description was truncated with the newly introduced `CI_MERGE_REQUEST_DESCRIPTION_IS_TRUNCATED` predefined variable, which is set to `true` when the description was truncated.
+
+&lt;/details&gt;
+
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Enforce 2FA for GitLab administrators](https://docs.gitlab.com/ee/security/two_factor_authentication.html#enforce-2fa-for-administrator-users) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
+
+&gt; You can now enforce whether GitLab administrators are required to use two-factor authentication (2FA) in their self-managed instance. It is good security practice to use 2FA for all accounts, especially for privileged accounts like administrators. If this setting is enforced, and an administrator does not already use 2FA, they must set up 2FA on their next sign-in.
 
 &lt;/details&gt;</content>
     <link href="https://gitlab.com/gitlab-org/gitlab-foss/-/releases/v16.8.0" rel="alternate"/>
@@ -536,24 +538,6 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Improved error message for authentication rate limit](https://docs.gitlab.com/ee/security/rate_limits.html#failed-authentication-ban-for-git-and-container-registry): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; When authenticating with GitLab, it is possible to hit the authentication attempt rate limit, such as when using a script. Previously, if you hit the authentication rate limit, a `403 Forbidden` message was returned, which did not explain why you are getting this error. We now return a more descriptive error message which tells you that you've hit the authentication rate limit.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Webhooks support mutual TLS](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#configure-webhooks-to-support-mutual-tls) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; You can now configure webhooks to support mutual TLS. This configuration establishes the authenticity of the webhook source and enhances security. You configure the client certificate in PEM format, which is presented to the server during the TLS handshake. You can also protect the certificate with a PEM passphrase.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Sign-in page improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/412845): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; The GitLab sign-in page has been refreshed with improvements that fix spacing issues, broken elements, and alignment. There is also additional support for dark mode, and a button to manage cookie preferences. The combination of these improvements gives a fresh look and improved functionality on the sign-in page.
-
-&lt;/details&gt;
-
 &lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Threaded notifications supported in Google Chat](https://docs.gitlab.com/ee/user/project/integrations/hangouts_chat.html): &lt;code&gt;Integrations&lt;/code&gt;&lt;/summary&gt;
 
@@ -643,6 +627,25 @@
 &gt; 
 &gt; Adding a Service Desk ticket using the API follows the same concept: Create an issue using the [Issues API](https://docs.gitlab.com/ee/api/issues.html#new-issue) and use the `issue_iid` to add a note with the quick action using the [Notes API](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note).
 
+&lt;/details&gt;
+
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Improved error message for authentication rate limit](https://docs.gitlab.com/ee/security/rate_limits.html#failed-authentication-ban-for-git-and-container-registry): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; When authenticating with GitLab, it is possible to hit the authentication attempt rate limit, such as when using a script. Previously, if you hit the authentication rate limit, a `403 Forbidden` message was returned, which did not explain why you are getting this error. We now return a more descriptive error message which tells you that you've hit the authentication rate limit.
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Webhooks support mutual TLS](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#configure-webhooks-to-support-mutual-tls) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; You can now configure webhooks to support mutual TLS. This configuration establishes the authenticity of the webhook source and enhances security. You configure the client certificate in PEM format, which is presented to the server during the TLS handshake. You can also protect the certificate with a PEM passphrase.
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Sign-in page improvements](https://gitlab.com/gitlab-org/gitlab/-/issues/412845): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; The GitLab sign-in page has been refreshed with improvements that fix spacing issues, broken elements, and alignment. There is also additional support for dark mode, and a button to manage cookie preferences. The combination of these improvements gives a fresh look and improved functionality on the sign-in page.
+
 &lt;/details&gt;</content>
     <link href="https://gitlab.com/gitlab-org/gitlab-foss/-/releases/v16.10.0" rel="alternate"/>
   </entry>
@@ -687,37 +690,6 @@
 &gt; This breaking change arrives outside a GitLab major release to accommodate a breaking change upstream. The upgrade is unlikely to break your pipelines. As a temporary workaround, you can also manually configure the `heroku/builder:20` image and [skip the builder sunset errors](https://docs.gitlab.com/ee/topics/autodevops/troubleshooting.html#skipping-errors).
 &gt; 
 &gt; Additionally, we're planning another major upgrade from `heroku/builder:20` to `heroku/builder:22` in GitLab 17.0.
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Users list search and filter improvements](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; The Admin Area users page has been improved.
-&gt; 
-&gt; Previously, tabs horizontally spanned across the top of the users list, making it difficult to navigate to the desired filter.
-&gt; 
-&gt; Now, filters have been combined into the search box, making it much easier to search and filter users.
-&gt; 
-&gt; Thank you [Ivan Shtyrliaiev](https://www.linkedin.com/in/bahek2462774/) for your contribution!
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Renew application secret with API](https://docs.gitlab.com/ee/api/applications.html#renew-an-application-secret) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; You can now use the Applications API to renew application secrets. Previously, you had to use the UI to do this. Now you can use the API to rotate secrets programatically.
-&gt; 
-&gt; Thank you [Phawin](https://gitlab.com/lifez) for your contribution!
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[More username options](https://docs.gitlab.com/ee/user/profile/#change-your-username): &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
-
-&gt; Usernames can only include non-accented letters, digits, underscores (`_`), hyphens (`-`), and periods (`.`).
-&gt; Usernames must not start with a hyphen (`-`), or end in a period (`.`), `.git`, or `.atom`.
-&gt; 
-&gt; Username validation now more accurately states this criteria. This improved validation means that you are clearer on your options when choosing your username.
-&gt; 
-&gt; Thank you [Justin Zeng](https://www.linkedin.com/in/jzeng88/) for your contribution!
 
 &lt;/details&gt;
 
@@ -855,6 +827,38 @@
 &gt; Today, we're excited to announce the release of the redesigned pipeline graph with enhanced aesthetics, grouped jobs visualization, improved mobile expirence and expanded downstream pipeline visibility within your existing view.
 &gt; 
 &gt; We'd greatly appreciate it if you could try it out and share your feedback through this dedicated [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/450676).
+
+&lt;/details&gt;
+
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Users list search and filter improvements](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; The Admin Area users page has been improved.
+&gt; 
+&gt; Previously, tabs horizontally spanned across the top of the users list, making it difficult to navigate to the desired filter.
+&gt; 
+&gt; Now, filters have been combined into the search box, making it much easier to search and filter users.
+&gt; 
+&gt; Thank you [Ivan Shtyrliaiev](https://www.linkedin.com/in/bahek2462774/) for your contribution!
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Renew application secret with API](https://docs.gitlab.com/ee/api/applications.html#renew-an-application-secret) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; You can now use the Applications API to renew application secrets. Previously, you had to use the UI to do this. Now you can use the API to rotate secrets programatically.
+&gt; 
+&gt; Thank you [Phawin](https://gitlab.com/lifez) for your contribution!
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[More username options](https://docs.gitlab.com/ee/user/profile/#change-your-username): &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
+
+&gt; Usernames can only include non-accented letters, digits, underscores (`_`), hyphens (`-`), and periods (`.`).
+&gt; Usernames must not start with a hyphen (`-`), or end in a period (`.`), `.git`, or `.atom`.
+&gt; 
+&gt; Username validation now more accurately states this criteria. This improved validation means that you are clearer on your options when choosing your username.
+&gt; 
+&gt; Thank you [Justin Zeng](https://www.linkedin.com/in/jzeng88/) for your contribution!
 
 &lt;/details&gt;</content>
     <link href="https://gitlab.com/gitlab-org/gitlab-foss/-/releases/v16.11.0" rel="alternate"/>
