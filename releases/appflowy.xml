@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-08T08:32:23.429502-04:00</updated>
+  <updated>2024-05-08T09:32:30.527753-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -107,6 +107,7 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.5.6 - 05/27/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="v0 5 6" src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/b16cd3f7-1dd8-4d37-9b78-31a6a809a9cc" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Team collaboration is live! Add members to your workspace to edit and collaborate on pages together.&lt;/li&gt;
 &lt;li&gt;Collaborate in real time on the same page with other members. Edits made by others will appear instantly.&lt;/li&gt;
@@ -116,10 +117,10 @@
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Resolved issue with setting background color for table blocks.&lt;/li&gt;
-&lt;li&gt;Adjusted toolbar count for various screen sizes.&lt;/li&gt;
-&lt;li&gt;Implemented request for photo permission before uploading images.&lt;/li&gt;
-&lt;li&gt;Exported creation and last modification timestamps for cells to CSV.&lt;/li&gt;
+&lt;li&gt;Resolved issue with setting background color for Table.&lt;/li&gt;
+&lt;li&gt;Adjusted toolbar for various screen sizes.&lt;/li&gt;
+&lt;li&gt;Added request for photo permission before uploading images.&lt;/li&gt;
+&lt;li&gt;Exported creation and last modification timestamps to CSV.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.6" rel="alternate"/>
   </entry>
