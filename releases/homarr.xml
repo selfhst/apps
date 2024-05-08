@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr Releases</title>
-  <updated>2024-05-08T13:30:35.654209-04:00</updated>
+  <updated>2024-05-08T14:30:34.627442-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,7 +163,7 @@ We've been working actively on working torwards version 1.0 which will include m
   <entry>
     <id>https://github.com/ajnart/homarr/releases/tag/v0.15.3</id>
     <title>New release for Homarr: v0.15.3</title>
-    <updated>2024-05-07T14:36:47-04:00</updated>
+    <updated>2024-05-08T13:39:16-04:00</updated>
     <author>
       <name>ajnart/homarr</name>
     </author>
