@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kill-the-Newsletter Releases</title>
-  <updated>2024-05-09T04:30:46.397293-04:00</updated>
+  <updated>2024-05-09T05:30:50.734035-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,15 @@
     </author>
     <content/>
     <link href="https://github.com/leafac/kill-the-newsletter/releases/tag/v2.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/leafac/kill-the-newsletter/releases/tag/v2.0.1</id>
+    <title>New release for Kill-the-Newsletter: v2.0.1</title>
+    <updated>2024-05-09T04:47:42-04:00</updated>
+    <author>
+      <name>leafac/kill-the-newsletter</name>
+    </author>
+    <content/>
+    <link href="https://github.com/leafac/kill-the-newsletter/releases/tag/v2.0.1" rel="alternate"/>
   </entry>
 </feed>

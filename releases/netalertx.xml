@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2024-05-09T04:31:17.702716-04:00</updated>
+  <updated>2024-05-09T05:31:22.665522-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -317,7 +317,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;⚙Settings&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Two new &lt;code&gt;MQTT&lt;/code&gt; settings (&lt;code&gt;MQTT_DEVICE_NAME&lt;/code&gt;, &lt;code&gt;MQTT_DEVICE_ID&lt;/code&gt;, &lt;code&gt;MQTT_PRESENCE_SENSOR_TYPE&lt;/code&gt;) to adjust the messages sent to the broker #572 #639 #664 (🚑, 🆕)&lt;/li&gt;
+&lt;li&gt;Three new &lt;code&gt;MQTT&lt;/code&gt; settings (&lt;code&gt;MQTT_DEVICE_NAME&lt;/code&gt;, &lt;code&gt;MQTT_DEVICE_ID&lt;/code&gt;, &lt;code&gt;MQTT_PRESENCE_SENSOR_TYPE&lt;/code&gt;) to adjust the messages sent to the broker #572 #639 #664 (🚑, 🆕)&lt;/li&gt;
 &lt;li&gt;I moved the &lt;code&gt;SCAN_SUBNETS&lt;/code&gt; settings to the General section as most users will need to edit it and the setting is used across multiple plugins (🚑)&lt;/li&gt;
 &lt;li&gt;A new &lt;code&gt;NEWDEV_LESS_NAME_CLEANUP&lt;/code&gt; setting to leave discovered names more intact by @ulrichwisser 🙏 (🆕)&lt;/li&gt;
 &lt;/ul&gt;
@@ -342,7 +342,8 @@
 &lt;p&gt;|  🆕 - New features | 🚑 - Fixes &amp;amp; Improvements | ⚠ - Possibly breaking changes |   🧪 - Experimental/work in progress |
  |--------------------|------------------------------|--------------------------------|--------------------------------|&lt;/p&gt;
 &lt;h3&gt;Previous releases:&lt;/h3&gt;
-&lt;p&gt;https://github.com/jokob-sk/NetAlertX/releases&lt;/p&gt;</content>
+&lt;p&gt;https://github.com/jokob-sk/NetAlertX/releases&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jokob-sk/NetAlertX/compare/v24.5.9...v24.5.9&lt;/p&gt;</content>
     <link href="https://github.com/jokob-sk/NetAlertX/releases/tag/v24.5.9" rel="alternate"/>
   </entry>
 </feed>
