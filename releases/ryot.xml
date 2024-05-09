@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-08T20:31:25.223300-04:00</updated>
+  <updated>2024-05-08T21:31:29.889432-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,16 +126,16 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.2.5</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.2.6</id>
     <title>New release for Ryot: Version 5</title>
     <updated>2024-04-19T21:54:40-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.2.5&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;762d52fb487a259f8c836936ef91fe241916b5cb&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 8, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.2.6&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;aa3a02407a6805f33eba97723417f282abb36106&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 9, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;blockquote&gt;
@@ -152,6 +152,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Added a default collection "Completed" which collects all media you are done watching.&lt;/li&gt;
 &lt;li&gt;Added a job to clean-up useless data. For example: my database size went from &lt;code&gt;1.2 GB&lt;/code&gt; to &lt;code&gt;166 MB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.2.5" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.2.6" rel="alternate"/>
   </entry>
 </feed>
