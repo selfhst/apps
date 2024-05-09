@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2024-05-09T10:30:30.162804-04:00</updated>
+  <updated>2024-05-09T11:30:22.311270-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,6 +101,13 @@
 &lt;li&gt;Fix filtering combobox localizations by @mircea32000 in https://github.com/evershopcommerce/evershop/pull/475&lt;/li&gt;
 &lt;li&gt;Fix product review issues by @treoden in https://github.com/evershopcommerce/evershop/pull/451&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;p&gt;If you are working on a customization using GraphQL collection filtering, you will have to pass the &lt;code&gt;operation&lt;/code&gt; argument to the query variable. &lt;/p&gt;
+&lt;h3&gt;Before&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;{key: 'type', value: 'select'}&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;After&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;{ key: 'type', operation: 'eq', value: 'select' }&lt;/code&gt;
+The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt;code&gt;eq, neq, gt, gteq, lt, lteq, like, nlike, in, nin&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@fyksen made their first contribution in https://github.com/evershopcommerce/evershop/pull/443&lt;/li&gt;
