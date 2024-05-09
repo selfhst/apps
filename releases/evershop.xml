@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2024-05-09T03:30:23.951588-04:00</updated>
+  <updated>2024-05-09T04:30:24.710901-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -36,5 +36,86 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/1.0.0-rc.9...v1.0.0&lt;/p&gt;</content>
     <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/evershopcommerce/evershop/releases/tag/v1.1.0</id>
+    <title>New release for EverShop: v1.1.0</title>
+    <updated>2024-05-09T03:45:16-04:00</updated>
+    <author>
+      <name>evershopcommerce/evershop</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added norwegian bokmål to translation by @fyksen in https://github.com/evershopcommerce/evershop/pull/443&lt;/li&gt;
+&lt;li&gt;[DOCS] Fix azure_file_storage README.md step 4 by @malixswoop in https://github.com/evershopcommerce/evershop/pull/457&lt;/li&gt;
+&lt;li&gt;Translation: Add Spanish Translation by @emmanuelh-dev in https://github.com/evershopcommerce/evershop/pull/464&lt;/li&gt;
+&lt;li&gt;Translation: Add Brazillian Portuguese Translation by @luizfscorreia in https://github.com/evershopcommerce/evershop/pull/461&lt;/li&gt;
+&lt;li&gt;Add translation support for 'Price' filter item title by @thiagorodriguesdutra in https://github.com/evershopcommerce/evershop/pull/467&lt;/li&gt;
+&lt;li&gt;Create FUNDING.yml by @treoden in https://github.com/evershopcommerce/evershop/pull/477&lt;/li&gt;
+&lt;li&gt;Add Translation RU by @Vovanni in https://github.com/evershopcommerce/evershop/pull/478&lt;/li&gt;
+&lt;li&gt;Adding Resend extension for EverShop by @treoden in https://github.com/evershopcommerce/evershop/pull/480&lt;/li&gt;
+&lt;li&gt;Add Translation FR by @Seb7o in https://github.com/evershopcommerce/evershop/pull/476&lt;/li&gt;
+&lt;li&gt;Move SendGrid API Key to .env by @treoden in https://github.com/evershopcommerce/evershop/pull/487&lt;/li&gt;
+&lt;li&gt;Implement winston logger by @treoden in https://github.com/evershopcommerce/evershop/pull/491&lt;/li&gt;
+&lt;li&gt;Allow deleting shipping zone by @treoden in https://github.com/evershopcommerce/evershop/pull/491&lt;/li&gt;
+&lt;li&gt;Greek Translation pack by @GiorgosIlia in https://github.com/evershopcommerce/evershop/pull/498&lt;/li&gt;
+&lt;li&gt;Improve the collection filtering by @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Adding more font size to admin tailwind config by @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Support price and weight based shipping cost @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Enable webpack source map @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Show error message when adding wrong shipping method @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Block deleting variant group attribute by @treoden in https://github.com/evershopcommerce/evershop/pull/512&lt;/li&gt;
+&lt;li&gt;Add loading button on login forms by @treoden in https://github.com/evershopcommerce/evershop/pull/512&lt;/li&gt;
+&lt;li&gt;Add Create cart API by @treoden in https://github.com/evershopcommerce/evershop/pull/512&lt;/li&gt;
+&lt;li&gt;Add Adding title to catalog search page by @treoden in https://github.com/evershopcommerce/evershop/pull/512&lt;/li&gt;
+&lt;li&gt;Add all variant to same collection automatically by @treoden in https://github.com/evershopcommerce/evershop/pull/516&lt;/li&gt;
+&lt;li&gt;Improve variant selection on product detail page by @treoden in https://github.com/evershopcommerce/evershop/pull/516&lt;/li&gt;
+&lt;li&gt;Add status and type filter to product grid by @treoden in https://github.com/evershopcommerce/evershop/pull/518&lt;/li&gt;
+&lt;li&gt;Add payment status and shipment status filter to order grid by @treoden in https://github.com/evershopcommerce/evershop/pull/518&lt;/li&gt;
+&lt;li&gt;Nepali language added by @uttamraz in https://github.com/evershopcommerce/evershop/pull/520&lt;/li&gt;
+&lt;li&gt;Add status filter to customer grid by @treoden in https://github.com/evershopcommerce/evershop/pull/522&lt;/li&gt;
+&lt;li&gt;Add status and free ship filter to coupon grid by @treoden in https://github.com/evershopcommerce/evershop/pull/522&lt;/li&gt;
+&lt;li&gt;Allow to rename or delete shipping methods #503 by @treoden in https://github.com/evershopcommerce/evershop/pull/522&lt;/li&gt;
+&lt;li&gt;Using placeholder icon when thumbnail is missing by @treoden in https://github.com/evershopcommerce/evershop/pull/523&lt;/li&gt;
+&lt;li&gt;Show message when Stripe API returns error by @treoden in https://github.com/evershopcommerce/evershop/pull/523&lt;/li&gt;
+&lt;li&gt;Display chekout order summary on mobile view by @treoden in https://github.com/evershopcommerce/evershop/pull/523&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix blank page error when completing order by @treoden in https://github.com/evershopcommerce/evershop/pull/524&lt;/li&gt;
+&lt;li&gt;Fix sql query from the subscriber by @treoden in https://github.com/evershopcommerce/evershop/pull/525&lt;/li&gt;
+&lt;li&gt;Fix returning value after delete record by @treoden in https://github.com/evershopcommerce/evershop/pull/525&lt;/li&gt;
+&lt;li&gt;Fix category filters missing operation by @treoden in https://github.com/evershopcommerce/evershop/pull/517&lt;/li&gt;
+&lt;li&gt;Fix displaying product thumbnail when image is missing by @treoden in https://github.com/evershopcommerce/evershop/pull/516&lt;/li&gt;
+&lt;li&gt;Fix can not update variant attribute from admin panel by @treoden in https://github.com/evershopcommerce/evershop/pull/512&lt;/li&gt;
+&lt;li&gt;Fix missing attribute option when creating new variant by @treoden in https://github.com/evershopcommerce/evershop/pull/516&lt;/li&gt;
+&lt;li&gt;Fix variant list showing wrong attributes by @treoden in https://github.com/evershopcommerce/evershop/pull/522&lt;/li&gt;
+&lt;li&gt;Fix logging icon alignment by @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Fix adding new component does not trigger re-build @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Fix too many logger instance issue @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Fix can not update variant options @treoden in https://github.com/evershopcommerce/evershop/pull/510&lt;/li&gt;
+&lt;li&gt;Fix weight unit issue by @treoden in https://github.com/evershopcommerce/evershop/pull/491&lt;/li&gt;
+&lt;li&gt;Fix Shipping setting returns error #479 by @treoden in https://github.com/evershopcommerce/evershop/pull/491&lt;/li&gt;
+&lt;li&gt;Fix #445: Range Slider Invisible by @amal-qb in https://github.com/evershopcommerce/evershop/pull/470&lt;/li&gt;
+&lt;li&gt;Fix #325: Add to cart Popups Closing by @amal-qb in https://github.com/evershopcommerce/evershop/pull/472&lt;/li&gt;
+&lt;li&gt;Fix filtering combobox localizations by @mircea32000 in https://github.com/evershopcommerce/evershop/pull/475&lt;/li&gt;
+&lt;li&gt;Fix product review issues by @treoden in https://github.com/evershopcommerce/evershop/pull/451&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@fyksen made their first contribution in https://github.com/evershopcommerce/evershop/pull/443&lt;/li&gt;
+&lt;li&gt;@malixswoop made their first contribution in https://github.com/evershopcommerce/evershop/pull/457&lt;/li&gt;
+&lt;li&gt;@emmanuelh-dev made their first contribution in https://github.com/evershopcommerce/evershop/pull/464&lt;/li&gt;
+&lt;li&gt;@luizfscorreia made their first contribution in https://github.com/evershopcommerce/evershop/pull/461&lt;/li&gt;
+&lt;li&gt;@thiagorodriguesdutra made their first contribution in https://github.com/evershopcommerce/evershop/pull/467&lt;/li&gt;
+&lt;li&gt;@amal-qb made their first contribution in https://github.com/evershopcommerce/evershop/pull/470&lt;/li&gt;
+&lt;li&gt;@mircea32000 made their first contribution in https://github.com/evershopcommerce/evershop/pull/475&lt;/li&gt;
+&lt;li&gt;@Vovanni made their first contribution in https://github.com/evershopcommerce/evershop/pull/478&lt;/li&gt;
+&lt;li&gt;@Seb7o made their first contribution in https://github.com/evershopcommerce/evershop/pull/476&lt;/li&gt;
+&lt;li&gt;@GiorgosIlia made their first contribution in https://github.com/evershopcommerce/evershop/pull/498&lt;/li&gt;
+&lt;li&gt;@uttamraz made their first contribution in https://github.com/evershopcommerce/evershop/pull/520&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you all for your contributions!&lt;/p&gt;</content>
+    <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
