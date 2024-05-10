@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tailscale Releases</title>
-  <updated>2024-05-09T20:31:28.370762-04:00</updated>
+  <updated>2024-05-09T21:31:28.630945-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,7 +90,58 @@
     <author>
       <name>tailscale/tailscale</name>
     </author>
-    <content>&lt;p&gt;Changelog will be available shortly at https://tailscale.com/changelog&lt;/p&gt;</content>
+    <content>&lt;p&gt;We recommend updating all Tailscale clients to v1.66.0 or later to benefit from additional security improvements.&lt;/p&gt;
+&lt;h3&gt;All platforms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented client-side quarantining for shared-in exit nodes, as a mitigation for a security vulnerability described in &lt;a href="https://tailscale.com/security-bulletins#ts-2024-005"&gt;TS-2024-005&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Linux&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the --stateful-filtering flag for the &lt;a href="https://tailscale.com/kb/1241/tailscale-up"&gt;tailscale up&lt;/a&gt; to enable stateful filtering for &lt;a href="https://tailscale.com/kb/1019/subnets"&gt;subnet routers&lt;/a&gt; and &lt;a href="https://tailscale.com/kb/1103/exit-nodes"&gt;exit nodes&lt;/a&gt;, as a mitigation for a security vulnerability described in &lt;a href="https://tailscale.com/security-bulletins#ts-2024-005"&gt;TS-2024-005&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Note: This change can break existing setups that depend on forwarding connections from external hosts (internet, LAN, Docker containers, etc.) into the tailnet through a Tailscale node. If your setup depends on such forwarding, you can disable stateful filtering with the tailscale up --stateful-filtering=false command.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href="https://tailscale.com/kb/1080/cli#tab-completion"&gt;tab completion&lt;/a&gt; to type the first few letters of a Tailscale CLI command, flag, or arguments, followed by the tab key to complete the item being typed. Set up tab completion by using the &lt;a href="https://tailscale.com/kb/1080/cli#completion"&gt;tailscale completion&lt;/a&gt; command.&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href="https://tailscale.com/kb/1080/cli#exit-node"&gt;tailscale exit-node suggest&lt;/a&gt; command to automatically pick an available exit node that is likely to perform best.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tailscale.com/kb/1214/site-to-site"&gt;Site-to-site networking&lt;/a&gt; now also requires --stateful-filtering=false in addition to --snat-subnet-routes=false on new subnet routers. Existing subnet routers with --snat-subnet-routes=false will default to --stateful-filtering=false.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;macOS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;View a suggested &lt;a href="https://tailscale.com/kb/1103/exit-nodes"&gt;exit node&lt;/a&gt; in the Exit Node picker when available.&lt;/li&gt;
+&lt;li&gt;Generate a macOS Configuration Report .txt file from the Bug Report view to help the Tailscale support team diagnose issues.&lt;/li&gt;
+&lt;li&gt;Improved error detection logic warns the user when a version mismatch is detected between the Tailscale client GUI and the network extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;iOS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;See direct vs. relayed connections in the Ping view.&lt;/li&gt;
+&lt;li&gt;View a suggested &lt;a href="https://tailscale.com/kb/1103/exit-nodes"&gt;exit node&lt;/a&gt; in the Exit Node picker when available.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href="https://tailscale.com/kb/1085/auth-keys"&gt;auth keys&lt;/a&gt; to log in without using the browser.&lt;/li&gt;
+&lt;li&gt;Search &lt;a href="https://tailscale.com/kb/1068/acl-tags"&gt;tagged devices&lt;/a&gt; by tag in the Devices list.&lt;/li&gt;
+&lt;li&gt;Remove accounts in the Fast User Switching view by using a long press, without having to log out.&lt;/li&gt;
+&lt;li&gt;Improved UI experience to log into a custom coordination server like &lt;a href="https://tailscale.com/blog/opensource#the-open-source-coordination-server"&gt;Headscale&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The Fast User Switching view can now be used when Tailscale is disconnected.&lt;/li&gt;
+&lt;li&gt;Improved error detection logic warns the user when a version mismatch is detected between the Tailscale client GUI and the network extension.&lt;/li&gt;
+&lt;li&gt;Reduced app launch time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;tvOS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Manage DNS configuration in the DNS Settings view.&lt;/li&gt;
+&lt;li&gt;Generate a &lt;a href="https://tailscale.com/kb/1227/bug-report"&gt;bug report&lt;/a&gt; identifier by navigating to About Tailscale &amp;gt; Report an issue.&lt;/li&gt;
+&lt;li&gt;Improved error detection logic warns the user when a version mismatch is detected between the Tailscale client GUI and the network extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Android&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We've rebuilt the Android app from the ground up, adopting a similar design that we've previously rolled out on iOS and using the latest Android best practices.&lt;/li&gt;
+&lt;li&gt;Use new status indicators to see at-a-glance insights into node connectivity. Tap on a node to see detailed information.&lt;/li&gt;
+&lt;li&gt;See detailed information about resolvers, domains, and routing configurations in a dedicated DNS Settings view.&lt;/li&gt;
+&lt;li&gt;See the status of &lt;a href="https://tailscale.com/kb/1226/tailnet-lock"&gt;Tailnet lock&lt;/a&gt; and node keys.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href="https://tailscale.com/kb/1225/fast-user-switching"&gt;Fast user switching&lt;/a&gt; to switch between two or more logged-in accounts on the same device, without requiring you to re-authenticate.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href="https://tailscale.com/kb/1085/auth-keys"&gt;auth keys&lt;/a&gt; to log in without using the browser.&lt;/li&gt;
+&lt;li&gt;Manage Android devices in your tailnet using &lt;a href="https://tailscale.com/kb/1384/android-mdm"&gt;Mobile Device Management&lt;/a&gt; (MDM) solutions such as &lt;a href="https://tailscale.com/kb/1386/mdm-google-workspace"&gt;Google Workspace&lt;/a&gt;, &lt;a href="https://tailscale.com/kb/1327/mmdm-microsoft-intune"&gt;Microsoft Intune&lt;/a&gt;, or &lt;a href="https://tailscale.com/kb/1385/tinymdm"&gt;TinyMDM&lt;/a&gt;, among other tools.&lt;/li&gt;
+&lt;li&gt;Accessibility support.&lt;/li&gt;
+&lt;li&gt;Use dark mode as an alternative to light mode.&lt;/li&gt;
+&lt;li&gt;The Quick Settings tile has been temporarily disabled, pending resolution of an issue.&lt;/li&gt;
+&lt;li&gt;More intuitive behavior switching between exit nodes.&lt;/li&gt;
+&lt;li&gt;Resolved an issue with LAN access during exit node use.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/tailscale/tailscale/releases/tag/v1.66.0" rel="alternate"/>
   </entry>
   <entry>
@@ -100,14 +151,15 @@
     <author>
       <name>tailscale/tailscale</name>
     </author>
-    <content>&lt;p&gt;macOS&lt;/p&gt;
+    <content>&lt;p&gt;This release is exclusively for Linux platforms and the &lt;a href="https://tailscale.com/kb/1065/macos-variants"&gt;standalone variant&lt;/a&gt; of the macOS client. It is not available for other platforms.&lt;/p&gt;
+&lt;h3&gt;Linux&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed: Reduced the likelihood of a version mismatch warning when upgrading&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tailscale.com/kb/1080/cli#set"&gt;tailscale set&lt;/a&gt; command flags &lt;code&gt;--netfilter-mode&lt;/code&gt;, &lt;code&gt;--snat-subnet-routes&lt;/code&gt;, and &lt;code&gt;--stateful-filtering&lt;/code&gt; are added.&lt;/li&gt;
+&lt;li&gt;Resolved issues with &lt;a href="https://tailscale.com/kb/1294/firewall-mode"&gt;nftables&lt;/a&gt; rules for stateful filtering, introduced in v1.66.0.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Linux&lt;/p&gt;
+&lt;h3&gt;macOS&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed: Issue with nftables rules for stateful filtering introduced in 1.66.0.&lt;/li&gt;
-&lt;li&gt;New: Added --netfilter-mode, --snat-subnet-routes, and --stateful-filtering flags to the tailscale set command.&lt;/li&gt;
+&lt;li&gt;A version mismatch warning no longer displays when upgrading, if no mismatch is detected.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/tailscale/tailscale/releases/tag/v1.66.1" rel="alternate"/>
   </entry>
