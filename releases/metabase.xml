@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-05-10T04:31:48.180481-04:00</updated>
+  <updated>2024-05-10T05:31:48.002883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -170,7 +170,8 @@ Download the JAR here: https://downloads.metabase.com/v0.49.8/metabase.jar&lt;/p
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://www.metabase.com/releases/metabase-49?utm_source=github&amp;amp;utm_medium=post&amp;amp;utm_campaign=metabase-49"&gt;Metabase 49 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.49.9&lt;/code&gt;&lt;/a&gt;
@@ -184,10 +185,10 @@ Download the JAR here: https://downloads.metabase.com/v0.49.9/metabase.jar&lt;/p
 **Enhancements**
 
 - Adds Key Authentication Option to SSH Tunneling Docs (#42206)
-- Allow drivers to not automatically add a PK column for CSV uploads (#42359)
+- Allow drivers to not automatically add a Primary Key column for CSV uploads (#42359)
 - Upgrade Redshift driver to v26 (#42450)
-- Allow using urls from other columns in link templates (#42438)
-- Misc documentation improvements
+- Allow using URLs from other columns in link templates (#42438)
+- Misc. documentation improvements
 
 **Bug fixes**
 
@@ -197,8 +198,8 @@ Download the JAR here: https://downloads.metabase.com/v0.49.9/metabase.jar&lt;/p
 - Upgrade failing from instance using outdated 3rd party drivers (#42319)
 - Unable to sync dynamic tables in Snowflake (#42312)
 - Azure AD SAML and SLO logout error (#41600)
-- Bigquery unable to sync materialized views (#42008)
-- Unable to filter on IDs identified as primary key in Mongo (#42010, #40770)
+- BigQuery unable to sync materialized views (#42008)
+- Unable to filter on IDs identified as primary key in MongoDB (#42010, #40770)
 - Fix MySQL with multiple most recent revision (#41374)
 
 &lt;/details&gt;</content>
