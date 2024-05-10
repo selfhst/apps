@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-05-10T14:30:48.634374-04:00</updated>
+  <updated>2024-05-10T15:30:48.690129-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,7 +52,7 @@
 * Upgraded bootstrap from 5.1.3 to 5.3.3 #444 
 * OpenSubsonic API:
   * Optimized some queries used by &lt;code&gt;search3&lt;/code&gt;  (used by Symfonium to sync the database)
-  * Now expose real path for each song
+  * Now expose real path for each song #389 
   * Added &lt;code&gt;bitDepth&lt;/code&gt;, &lt;code&gt;samplingRate&lt;/code&gt; and &lt;code&gt;channelCount&lt;/code&gt; in song responses
 * Improved execution traces:
   * Traces can now be opened with https://ui.perfetto.dev/#!/viewer
