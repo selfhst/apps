@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Photos Releases</title>
-  <updated>2024-05-10T03:32:54.693946-04:00</updated>
+  <updated>2024-05-10T04:32:56.842015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,7 +87,7 @@
     <author>
       <name>ente-io/ente</name>
     </author>
-    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+    <content>&lt;h2&gt;Release Notes ✨&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Cast slideshows of albums to any screen&lt;/li&gt;
 &lt;li&gt;Favorite and organize shared photos&lt;/li&gt;
@@ -95,7 +95,7 @@
 &lt;li&gt;Material You components&lt;/li&gt;
 &lt;li&gt;Bug fixes and performance improvements&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Upgrade connectivity_plus pkg by @ua741 in https://github.com/ente-io/ente/pull/1450&lt;/li&gt;
 &lt;li&gt;Use modificationTime as creationTime if it's lower than… by @ua741 in https://github.com/ente-io/ente/pull/1451&lt;/li&gt;
