@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Music Assistant Releases</title>
-  <updated>2024-05-11T13:32:55.566511-04:00</updated>
+  <updated>2024-05-11T14:33:01.081423-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,5 +48,23 @@
 &lt;li&gt;Improve the out of the box experience a bit (@marcelveldt)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.0.2</id>
+    <title>New release for Music Assistant: 2.0.2</title>
+    <updated>2024-05-11T13:48:43-04:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;h2&gt;What’s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;1294 - Fix for the frontend redirecting to settings incorrectly&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;1293 - Fix mass user playlists (and queue items) limited to 50 items (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.0.2" rel="alternate"/>
   </entry>
 </feed>
