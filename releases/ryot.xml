@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-11T11:31:21.600497-04:00</updated>
+  <updated>2024-05-11T12:31:23.111092-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -148,8 +148,8 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Ryot now supports authentication using OAuth/OIDC! Please follow &lt;a href="https://github.com/IgnisDa/ryot/pull/750#issuecomment-2046204681"&gt;this guide&lt;/a&gt; if you want to port existing users to the new provider.&lt;/li&gt;
 &lt;li&gt;Addressed layout issues on the website for 4k screens.&lt;/li&gt;
 &lt;li&gt;You can now edit created exercises.&lt;/li&gt;
-&lt;li&gt;The media list pages now shows if a media has been seen or added to watchlist.&lt;/li&gt;
-&lt;li&gt;Added a default collection "Completed" which collects all media you are done watching.&lt;/li&gt;
+&lt;li&gt;The media list pages now shows if a media has been seen, added to watchlist or owned.&lt;/li&gt;
+&lt;li&gt;Added 3 new default collections: "Completed", "Owned", "Reminders".&lt;/li&gt;
 &lt;li&gt;Added a job to clean-up useless data. For example: my database size went from &lt;code&gt;1.2 GB&lt;/code&gt; to &lt;code&gt;166 MB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.3.0" rel="alternate"/>
