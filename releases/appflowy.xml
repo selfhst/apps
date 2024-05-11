@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-10T23:32:12.798693-04:00</updated>
+  <updated>2024-05-11T00:32:14.425225-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,8 +117,7 @@
 &lt;h2&gt;Version 0.5.7 - 05/10/2024&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Resolved page opening issue on Android.&lt;/li&gt;
-&lt;li&gt;Fixed text input inconsistency on Kanban board cards.&lt;/li&gt;
+&lt;li&gt;Fixed editing Kanban card title in place.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.7" rel="alternate"/>
   </entry>
