@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lidarr Releases</title>
-  <updated>2024-05-13T09:30:49.939264-04:00</updated>
+  <updated>2024-05-13T10:30:49.084612-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -563,5 +563,62 @@ This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-
 
 This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-9ac3-4ec6-9583-209885d5ff34/_release?releaseId=77&amp;_a=release-summary).&lt;/details&gt;</content>
     <link href="https://github.com/Lidarr/Lidarr/releases/tag/v2.2.5.4141" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lidarr/Lidarr/releases/tag/v2.3.3.4204</id>
+    <title>New release for Lidarr: 2.3.3.4204</title>
+    <updated>2024-05-13T10:00:19-04:00</updated>
+    <author>
+      <name>Lidarr/Lidarr</name>
+    </author>
+    <content>&lt;p&gt;&lt;em&gt;To receive further updates for a non-docker installation, please change the branch to &lt;/em&gt;&lt;em&gt;master&lt;/em&gt;&lt;em&gt;. (Settings -&amp;gt; General (Show Advanced Settings) -&amp;gt; Updates -&amp;gt; Branch)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you are using docker you will need to update the container image.  &lt;em&gt;Do not attempt to update Lidarr within an existing docker container.&lt;/em&gt;&lt;/strong&gt; Doing so will prevent audio fingerprinting from working and break your Lidarr installation if you ever delete and re-create the container.&lt;/p&gt;
+&lt;h2&gt;Changes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;febb3ef4858efef549377b2c3f54b3479f88bec8 Bump Npgsql to 7.0.7&lt;/li&gt;
+&lt;li&gt;30d9891bf0ee4dd126cb5a4211cd85c68c9156c0 New: Optionally use Environment Variables for settings in config.xml&lt;/li&gt;
+&lt;li&gt;2621acdae5a5a9f1e32924e444d018388344dfd4 Minor translations to album interactive search&lt;/li&gt;
+&lt;li&gt;18772553f2ba285f8d6c750a086b7261f7880a8a Fallback value for statistics&lt;/li&gt;
+&lt;li&gt;0300bf2dd28b52b40ee404348b0bd3b03730851c Multiple Translations updated by Weblate&lt;/li&gt;
+&lt;li&gt;77861e4303783d7c62d96db55448d26f87d6b901 Refactor PasswordInput to use type password&lt;/li&gt;
+&lt;li&gt;3545a7451e4ba9c8eba4229fedfb24492a01c5af Fixed: Text color for inputs on login page&lt;/li&gt;
+&lt;li&gt;9f8c4530cabc761e84d1c6006bd29d7bb8191b2d New: Dark theme for login screen [ #4798 ]&lt;/li&gt;
+&lt;li&gt;9da690f807b3476b86cb6b3b7a1d11a8fa243104 New: Support stoppedUP and stoppedDL states from qBittorrent [ #4795 ]&lt;/li&gt;
+&lt;li&gt;31f342b8ad370cf7ba4f3a07cf80303d7c441c48 Use number input for seed ratio [ #4802 ]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;&lt;summary&gt;&lt;b&gt;See More&lt;/b&gt;&lt;/summary&gt;
+
+* 596a36d45ff8444fbe9dad0a182c154be5f2ea62 Fixed: Notifications with only On Rename enabled
+* 94bb8a436b88dde3ceef191f7052e7d055d8b47d Fixed: Parsing long downloading/seeding values from Transmission
+* 94d2a20b6a79306fc3075d5dd9ad3c6dee4f39a9 Multiple Translations updated by Weblate
+* a25e5aae1094f5158a8afe0a1a61cdd1ac637ad0 Fixed: Indexer flags for torrent release pushes
+* f4a02ffc838ae9336082c6b65cf2f6ba37e47394 Forward X-Forwarded-Host header
+* 1bdcf910146d2088b1a4f349fff65dd4c80ac587 Bump version to 2.3.3
+* 4d28d3f25a5465c421b1d9161c8841015626001c Fixed: Initialize databases after app folder migrations
+* 9660ec37cd7756b8026a9c4597fc8fffec853a42 Use newer Node.js task for in pipelines
+* 66c7521f4b0baf7a6086246a28c497acd5f25120 Fixed: Limit titles in task name to 10 artists [ #4777 ]
+* 8b57b33c9912537c4606f90756c1e89bcc6f7e9c New: Don't initially select 0 byte files in Interactive Import [ #4776 ]
+* 580e4becbe6cab467960f966a42328929909c25c Fixed: Improve paths longer than 256 on Windows failing to hardlink
+* 5f248aa25ea9acf40685a2f1d621a982bb8bafae New: Remove qBitorrent torrents that reach inactive seeding time
+* a735eccb6503eb540e3797a4c3ddae88554f46c3 Bump version to 2.3.2
+* d11ed42830a8ec2e926b4cd5936ea04a69396cc3 Multiple Translations updated by Weblate
+* b0038dd1437e779ce49481e414251ef31247e6ae Fixed: Retrying download on not suppressed HTTP errors
+* 2e242aeb7baad9b5229c9eaa64eb2cddc6d6930f Database corruption message linking to wiki
+* 416d50531636f23a1243e24b89891d4858b432c7 Bump dotnet to 6.0.29
+* 4816f3525628c977f488a9d5f969be5e353f2350 Bump typescript eslint plugin and parser
+* e42e0a72ebab124b6fab8db2039ae76420d434a4 Add dev container workspace [ #4756 ]
+* db9e62f79d4374755764ca2a248dd8a466f01c76 Convert store selectors to Typescript [ #3937 ]
+* bc69fa48420edf45da27aac2e7ce6d13496098b4 Bump frontend dependencies
+* 86dad72c494ffd82150cea3dd260c3f7aa378cc3 Bump version to 2.3.1
+* 4a8d6c367d979ed3ade634682035e8671ee9b672 Bump skipping spotify tests
+* c1926f8758cdb222fd7861ff591a2943c36e729b Fixed: Skip move when source and destination are the same
+* 7820bcf91f65992cd1e4e1f81c00091d2dbf3cc8 Bump SixLabors.ImageSharp to 3.1.4
+* 431ad0a028720461b351fe46054568b0437d86b1 Automated API Docs update
+* 59cf7a95c38283d68b944397f5ac576780b9d2b4 Fixed: Re-testing edited providers will forcibly test them
+* e17e3633f88b6cf36878f6a8dd9231629adbd8d4 Don't block task queue for queued update task for Rescan Folders [ #4551 ]
+* 46da2b49c6df6a0e78c2570e976db5adefe35e96 Bump version to 2.3.0
+
+This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-9ac3-4ec6-9583-209885d5ff34/_release?releaseId=84&amp;_a=release-summary).&lt;/details&gt;</content>
+    <link href="https://github.com/Lidarr/Lidarr/releases/tag/v2.3.3.4204" rel="alternate"/>
   </entry>
 </feed>
