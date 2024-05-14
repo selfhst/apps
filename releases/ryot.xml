@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-14T11:31:26.534242-04:00</updated>
+  <updated>2024-05-14T12:31:24.061556-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,7 +149,7 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Addressed layout issues on the website for 4k screens.&lt;/li&gt;
 &lt;li&gt;You can now edit created exercises.&lt;/li&gt;
 &lt;li&gt;The media list pages now shows if a media has been seen, added to watchlist or owned.&lt;/li&gt;
-&lt;li&gt;Added 3 new default collections: "Completed", "Owned", "Reminders".&lt;/li&gt;
+&lt;li&gt;Added 3 new default collections: "Completed", "Owned" and "Reminders".&lt;/li&gt;
 &lt;li&gt;Added a job to clean-up useless data. For example: my database size went from &lt;code&gt;1.2 GB&lt;/code&gt; to &lt;code&gt;166 MB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.3.4" rel="alternate"/>
