@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Music Assistant Releases</title>
-  <updated>2024-05-14T18:33:01.184901-04:00</updated>
+  <updated>2024-05-14T19:32:57.375353-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,5 +98,38 @@ Unfortunately this means that our calls to the metadata services are also increa
 This change impacts folks with local files only. If you have badly tagged files or no images stored locally you will see empty artist images and the only way to retrieve those is by opening each artist one by one (I'm shutting down the background scanner to save api calls) OR by just making sure your structrure of music files is in order with correct tags and images. If the info is already there, no calls need to be done to a metadata provider. Its as simple as that.&lt;/p&gt;
 &lt;p&gt;Thanks for the support/understanding! &lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.0.4</id>
+    <title>New release for Music Assistant: 2.0.4</title>
+    <updated>2024-05-14T19:00:38-04:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;h2&gt;What’s Changed (patch release)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;1307 - frontend bugfixes:&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix various issues with listings and sorting&lt;/li&gt;
+&lt;li&gt;Fix some alignment issues on the fullscreen player&lt;/li&gt;
+&lt;li&gt;Fix queue tracks listing&lt;/li&gt;
+&lt;li&gt;Make all item click actions consistent + add play button&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated translations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;1305 - A collection of small bugfixes and tweaks:&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix for browse listings&lt;/li&gt;
+&lt;li&gt;Fix random sort for builtin playlists&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Catch some parse errors on JellyFin&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;1304 - Subsonic: Set Track.disc_number to 0 for now (@khers)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.0.4" rel="alternate"/>
   </entry>
 </feed>
