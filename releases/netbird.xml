@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2024-05-15T03:31:03.782495-04:00</updated>
+  <updated>2024-05-15T04:31:06.107881-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,7 +125,8 @@
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;Fixes an issue with Linux nodes that had to use relay with eBPF for connectivity where reconnections caused the proxy to stop forwarding packets.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Don't cancel proxy context on conn close by @lixmal in https://github.com/netbirdio/netbird/pull/1986&lt;/li&gt;
 &lt;/ul&gt;
