@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-05-14T21:30:37.740195-04:00</updated>
+  <updated>2024-05-14T22:30:37.972364-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -507,16 +507,12 @@ Note: exclusion paths remain unchanged and still support glob syntax.&lt;/p&gt;
 &lt;h3&gt;There is no mobile release for this version&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!Caution] 
-Please update immediately as this bug can put your data at risk if using external libraries.&lt;/p&gt;
+Please update immediately, as this bug can put your data at risk if using external libraries.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Hotfixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed a bug where deleting an external library would delete all local files&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As always, please consider supporting the project.&lt;/p&gt;
-&lt;p&gt;🎉 Cheers! 🎉&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;And as always, bugs are fixed, and many other improvements also come with this release.&lt;/p&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
