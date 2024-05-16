@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-05-16T05:32:02.506411-04:00</updated>
+  <updated>2024-05-16T06:31:48.131022-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,14 +181,14 @@ Download the JAR here: https://downloads.metabase.com/v0.49.11/metabase.jar&lt;/
 
 **Enhancements**
 
-- Make json parsing more efficient on the JSON unfolding feature  (#34798)
+- Make JSON parsing more efficient on the JSON unfolding feature  (#34798)
 
 **Bug fixes**
 
-- After #39120 , Dashboard subscription's Japanese filename of attachment is broken (#41669)
+- Fix dashboard subscription's Japanese file name of attachment (#41669)
 - Fix metadata loading issues after tabs (#42655)
 - Fix migration issues related to a missing encryption key (#42612) (#42611)
-- Realize DB transient rows in after-select hook before calling `driver.u/features` (#42744)
+- Realize database transient rows in after-select hook before calling `driver.u/features` (#42744)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.49.11" rel="alternate"/>
