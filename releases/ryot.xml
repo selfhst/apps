@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-16T03:31:26.964568-04:00</updated>
+  <updated>2024-05-16T04:31:27.465265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,16 +126,16 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.3.4</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.4.0</id>
     <title>New release for Ryot: Version 5</title>
     <updated>2024-04-19T21:54:40-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.3.4&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;b30f912d36e499e5096b01825b2efeb7986dcd0f&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 14, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.4.0&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;f1377cf50f2581349ef07e25dcb6aee1642df5b4&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 16, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;blockquote&gt;
@@ -152,6 +152,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Added 3 new default collections: "Completed", "Owned" and "Reminders".&lt;/li&gt;
 &lt;li&gt;Added a job to clean-up useless data. For example: my database size went from &lt;code&gt;1.2 GB&lt;/code&gt; to &lt;code&gt;166 MB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.3.4" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.4.0" rel="alternate"/>
   </entry>
 </feed>
