@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SFTPGo Releases</title>
-  <updated>2024-05-16T02:31:28.164258-04:00</updated>
+  <updated>2024-05-16T03:31:28.731120-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,8 +115,8 @@ These errors are now filtered and the filesystem path is replaced with the virtu
 &lt;li&gt;Data retention: removed &lt;code&gt;ignore_user_permissions&lt;/code&gt;. This is the default now.&lt;/li&gt;
 &lt;li&gt;RSA certificates/keys less than 2048 bits are no longer accepted.&lt;/li&gt;
 &lt;li&gt;SSH: removed moduli files. Diffie Hellman Group Exchange KEX is now built-in. No external moduli files are required.&lt;/li&gt;
-&lt;li&gt;Environment variables passed to plugin must respect a name convention: if the plugin name is named, for example, &lt;code&gt;sftpgo-plugin-eventsearch&lt;/code&gt; only environment variables starting with &lt;code&gt;SFTPGO_PLUGIN_EVENTSEARCH_&lt;/code&gt; will be made available to the plugin.&lt;/li&gt;
-&lt;li&gt;Removed support for diffie-hellman-group18-sha512 KEX because it is too slow to be useful.&lt;/li&gt;
+&lt;li&gt;Environment variables passed to plugins must respect a name convention: if the plugin name is named, for example, &lt;code&gt;sftpgo-plugin-eventsearch&lt;/code&gt; only environment variables starting with &lt;code&gt;SFTPGO_PLUGIN_EVENTSEARCH_&lt;/code&gt; will be made available to the plugin.&lt;/li&gt;
+&lt;li&gt;Removed support for &lt;code&gt;diffie-hellman-group18-sha512&lt;/code&gt; KEX because our previous implementation was too slow to be useful.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Contributions&lt;/h2&gt;
 &lt;p&gt;We now require to agree to our &lt;a href="https://sftpgo.com/cla.html"&gt;Contributor License Agreement&lt;/a&gt; to accept contributions.
