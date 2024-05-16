@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SFTPGo Releases</title>
-  <updated>2024-05-15T21:31:22.964474-04:00</updated>
+  <updated>2024-05-15T22:31:25.320715-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,7 @@
 &lt;li&gt;Add server side support for Diffie Hellman Group Exchange KEX. We were using an out of tree patch in previous versions.&lt;/li&gt;
 &lt;li&gt;Allow to restrict allowed algorithms for public key authentication.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;My work on golang/x/crypto/ssh is funded by @FiloSottile clients. Thank you!!! &lt;/p&gt;
+&lt;p&gt;My work on golang/x/crypto/ssh is funded by @FiloSottile's clients. Thank you!!! &lt;/p&gt;
 &lt;h2&gt;File transfer errors&lt;/h2&gt;
 &lt;p&gt;Some errors for failed file transfers may reveal more information than necessary such as the actual filesystem path.
 These errors are now filtered and the filesystem path is replaced with the virtual path.&lt;/p&gt;
