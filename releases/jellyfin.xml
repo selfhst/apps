@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2024-05-17T16:30:39.536369-04:00</updated>
+  <updated>2024-05-17T17:30:37.660769-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -903,9 +903,40 @@
     <author>
       <name>jellyfin/jellyfin</name>
     </author>
-    <content>&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still pending while builds complete. This will be replaced with the real release message once those finish.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Do not attempt upgrades until this placeholder text is replaced.&lt;/strong&gt;&lt;/p&gt;</content>
+    <content>&lt;h1&gt;:rocket: Jellyfin Server 10.9.2&lt;/h1&gt;
+&lt;p&gt;We are pleased to announce the latest stable release of Jellyfin, version 10.9.2!&lt;/p&gt;
+&lt;p&gt;This minor release brings several bugfixes to improve your Jellyfin experience.&lt;/p&gt;
+&lt;p&gt;As always, please ensure you stop your Jellyfin server and take a full backup before upgrading!&lt;/p&gt;
+&lt;p&gt;You can find more details about and discuss this release &lt;a href="https://forum.jellyfin.org/t-new-jellyfin-server-web-release-10-9-2"&gt;on our forums&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Changelog (19)&lt;/h2&gt;
+&lt;h3&gt;🔒 Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix FirstTimeSetupPolicy allowing guest access [PR #11651], by @thornbill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🏗️  Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix series status parsing [PR #11648], by @Shadowghost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📈 General Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix season names [PR #11647], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Secure local playlist path handling [PR #11680], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Prevent double iterating over all seasons [PR #11700], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix network binding [PR #11671], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Workaround ffmpeg keyframe seeking for external subtitles [PR #11689], by @gnattu&lt;/li&gt;
+&lt;li&gt;Use MediaType instead of ToString and add text/ as disallowed mimetypes [PR #11699], by @cvium&lt;/li&gt;
+&lt;li&gt;Fix not binding to SQL parameters [PR #11698], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Fix local playlist scanning [PR #11673], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Restore caching for UserManager [PR #11670], by @gnattu&lt;/li&gt;
+&lt;li&gt;Properly dispose dbContext in MigrateUserDb [PR #11677], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Fix quality parameter for vaapi_mjpeg [PR #11675], by @gnattu&lt;/li&gt;
+&lt;li&gt;Always fallback for failed HEAD request [PR #11668], by @gnattu&lt;/li&gt;
+&lt;li&gt;Don't generate TrickPlay images for files that don't exist [PR #11653], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Allow empty user id when getting device list [PR #11633], by @crobibero&lt;/li&gt;
+&lt;li&gt;Fix missing filename for timer [PR #11629], by @gnattu&lt;/li&gt;
+&lt;li&gt;Handle exception for unexpected audio file YEAR tag values [PR #11621], by @nfmccrina&lt;/li&gt;
+&lt;li&gt;Fix network config [PR #11587], by @gnattu&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.9.2" rel="alternate"/>
   </entry>
 </feed>
