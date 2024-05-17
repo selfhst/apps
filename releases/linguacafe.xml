@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinguaCafe Releases</title>
-  <updated>2024-05-17T05:30:52.885301-04:00</updated>
+  <updated>2024-05-17T06:30:49.779358-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,7 @@
     <author>
       <name>simjanos-dev/LinguaCafe</name>
     </author>
-    <content>&lt;h1&gt;There is a problem on windows with the update! Please do not update on windows yet.&lt;/h1&gt;
+    <content>&lt;p&gt;There was in issue with the Windows update process. I updated the readme with an extra step, it should work now. Sadly I have no way of testing it currently, but it worked for an other user.&lt;/p&gt;
 &lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;New features:&lt;/strong&gt;
 - Docker installation and update process has been improved. It does not require git and chmod commands anymore (except once for already existing users).
@@ -105,7 +105,8 @@
 - Polish language had a font type that displayed incorrect letters.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Other changes:&lt;/strong&gt;
 - The import dialog won't close by itself anymore after importing has finished.
-- Laravel now produces more detailed logs, and logs both to the log file and the docker terminal.&lt;/p&gt;
+- Laravel now produces more detailed logs, and logs both to the log file and the docker terminal.
+- Disabled Thai import options temporarily, because they did not work. Will fix and re-enable them in v0.13. Users can still use it by manually importing text.&lt;/p&gt;
 &lt;h2&gt;Thank you for everyone who contributed for the release!&lt;/h2&gt;</content>
     <link href="https://github.com/simjanos-dev/LinguaCafe/releases/tag/v0.12" rel="alternate"/>
   </entry>
