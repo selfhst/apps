@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stump Releases</title>
-  <updated>2024-05-18T12:32:44.068215-04:00</updated>
+  <updated>2024-05-18T13:32:46.585714-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,5 +52,34 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stumpapp/stump/compare/v0.0.1...v0.0.2&lt;/p&gt;</content>
     <link href="https://github.com/stumpapp/stump/releases/tag/v0.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/stumpapp/stump/releases/tag/v0.0.3</id>
+    <title>New release for Stump: v0.0.3</title>
+    <updated>2024-05-18T12:44:01-04:00</updated>
+    <author>
+      <name>stumpapp/stump</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐 Update translations by @aaronleopold in https://github.com/stumpapp/stump/pull/318&lt;/li&gt;
+&lt;li&gt;💚 Fix &lt;code&gt;yarn&lt;/code&gt; timeout issues during install step by @aaronleopold in https://github.com/stumpapp/stump/pull/319&lt;/li&gt;
+&lt;li&gt;:bug: Fix inverted swipe handlers in EPUB reader by @aaronleopold in https://github.com/stumpapp/stump/pull/324&lt;/li&gt;
+&lt;li&gt;:adhesive_bandage: Fix dark styles in light theme by @aaronleopold in https://github.com/stumpapp/stump/pull/326&lt;/li&gt;
+&lt;li&gt;:bug: Fix image reader navigation (tablet) by @aaronleopold in https://github.com/stumpapp/stump/pull/329&lt;/li&gt;
+&lt;li&gt;:bug: Fix cast error for file size calculation by @aaronleopold in https://github.com/stumpapp/stump/pull/330&lt;/li&gt;
+&lt;li&gt;:white_check_mark: Fix stump_config tests by @JMicheli in https://github.com/stumpapp/stump/pull/331&lt;/li&gt;
+&lt;li&gt;🌐 Update translations by @aaronleopold in https://github.com/stumpapp/stump/pull/332&lt;/li&gt;
+&lt;li&gt;:bug: Fix &lt;code&gt;check-for-update&lt;/code&gt; false positive by @aaronleopold in https://github.com/stumpapp/stump/pull/333&lt;/li&gt;
+&lt;li&gt;Fix some series/libraries-related dead links by @PragmaTwice in https://github.com/stumpapp/stump/pull/337&lt;/li&gt;
+&lt;li&gt;Pre-0.0.3 fixes and testing by @aaronleopold in https://github.com/stumpapp/stump/pull/335&lt;/li&gt;
+&lt;li&gt;🔖 Release v0.0.3 by @aaronleopold in https://github.com/stumpapp/stump/pull/338&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@PragmaTwice made their first contribution in https://github.com/stumpapp/stump/pull/337&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stumpapp/stump/compare/v0.0.2...v0.0.3&lt;/p&gt;</content>
+    <link href="https://github.com/stumpapp/stump/releases/tag/v0.0.3" rel="alternate"/>
   </entry>
 </feed>
