@@ -62,6 +62,7 @@
     "Internet of Things",
     "Inventory Management",
     "iOS",
+    "Kanban",
     "Landing Page",
     "Live Streaming",
     "Logs",
@@ -89,6 +90,7 @@
     "Podcasts",
     "Privacy",
     "Process Automation",
+    "Project Management",
     "Read Later",
     "Receipts",
     "Recipes",
@@ -105,8 +107,6 @@
     "Server Management",
     "Smart Home",
     "Social Media",
-    "Social Media - Microblog",
-    "Social Media - Photos",
     "Social News",
     "Spreadsheet",
     "Static Site",
@@ -131,5 +131,6 @@
     "Web Desktop",
     "Web Server",
     "Wiki",
+    "Workspace",
     "Year in Review"
 ]
