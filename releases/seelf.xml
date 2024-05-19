@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>seelf Releases</title>
-  <updated>2024-05-19T15:32:52.054773-04:00</updated>
+  <updated>2024-05-19T16:32:49.126685-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,11 +49,7 @@
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add support for multiple ports (TCP and UDP) closes &lt;a href="https://github.com/YuukanOO/seelf/issues/17"&gt;#17&lt;/a&gt; (&lt;a href="https://github.com/YuukanOO/seelf/commit/0d4f33db629f9294b0f439d58b9d8e97a6a49c81"&gt;0d4f33d&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!IMPORTANT]
-You &lt;strong&gt;MUST&lt;/strong&gt; &lt;a href="https://yuukanoo.github.io/seelf/reference/targets.html#configuration"&gt;reconfigure your target&lt;/a&gt; after upgrading or new deployments will not be reachable. This is due to the change on the default HTTP entrypoint name.&lt;/p&gt;
-&lt;/blockquote&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/YuukanOO/seelf/releases/tag/v2.2.0" rel="alternate"/>
   </entry>
   <entry>
