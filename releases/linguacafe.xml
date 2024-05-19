@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinguaCafe Releases</title>
-  <updated>2024-05-19T16:30:47.360732-04:00</updated>
+  <updated>2024-05-19T17:30:48.616919-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,8 +101,7 @@
     <author>
       <name>simjanos-dev/LinguaCafe</name>
     </author>
-    <content>&lt;h3&gt;The docker image is being built right now. It will take 20~ minutes before you can update. This message will be removed when it is finished.&lt;/h3&gt;
-&lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+    <content>&lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - Disabled touch scrolling while selecting text.
 - Fixed a bug that prevented reading and reviewing in browsers that do not support TTS, like Opera.&lt;/p&gt;
