@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-21T11:32:30.121590-04:00</updated>
+  <updated>2024-05-21T12:32:35.216632-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,6 +115,14 @@
 &lt;li&gt;Added support for selecting Cards in kanban and performing grouped keyboard shortcuts&lt;/li&gt;
 &lt;li&gt;Added support for default system font family&lt;/li&gt;
 &lt;li&gt;Support for scaling the application up/down using a keyboard shortcut (CMD/CTRL + PLUS/MINUS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolved and refined the UI on Mobile&lt;/li&gt;
+&lt;li&gt;Resolved issue with text editing in database&lt;/li&gt;
+&lt;li&gt;Improved appearance of empty text cells in kanban/calendar&lt;/li&gt;
+&lt;li&gt;Resolved an issue where a page's more actions (delete, duplicate) did not work properly&lt;/li&gt;
+&lt;li&gt;Resolved and inconsistency in padding on get started screen on Desktop&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.8" rel="alternate"/>
   </entry>
