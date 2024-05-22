@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-22T17:32:23.864378-04:00</updated>
+  <updated>2024-05-22T18:32:26.717321-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,21 +108,19 @@
 &lt;h2&gt;Version 0.5.8 - 05/20/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Improvement to the Callout block to insert new lines&lt;/li&gt;
-&lt;li&gt;New settings page "Manage data" replaced the "Files" page&lt;/li&gt;
-&lt;li&gt;New settings page "Workspace" replaced the "Appearance" and "Language" pages&lt;/li&gt;
-&lt;li&gt;A custom implementation of a title bar for Windows users&lt;/li&gt;
-&lt;li&gt;Added support for selecting Cards in kanban and performing grouped keyboard shortcuts&lt;/li&gt;
-&lt;li&gt;Added support for default system font family&lt;/li&gt;
-&lt;li&gt;Support for scaling the application up/down using a keyboard shortcut (CMD/CTRL + PLUS/MINUS)&lt;/li&gt;
+&lt;li&gt;Navigate, create, and move Kanban cards with keyboard shortcuts.&lt;/li&gt;
+&lt;li&gt;Scale up/down the application view with Cmd / Ctrl + '+'/'-'.&lt;/li&gt;
+&lt;li&gt;A custom implementation of a title bar for Windows users.&lt;/li&gt;
+&lt;li&gt;Added default system font family.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Resolved and refined the UI on Mobile&lt;/li&gt;
-&lt;li&gt;Resolved issue with text editing in database&lt;/li&gt;
-&lt;li&gt;Improved appearance of empty text cells in kanban/calendar&lt;/li&gt;
-&lt;li&gt;Resolved an issue where a page's more actions (delete, duplicate) did not work properly&lt;/li&gt;
-&lt;li&gt;Resolved and inconsistency in padding on get started screen on Desktop&lt;/li&gt;
+&lt;li&gt;Fixed issue where new lines could not be added in the callout block.&lt;/li&gt;
+&lt;li&gt;More UI polish for mobile.&lt;/li&gt;
+&lt;li&gt;Resolved issue with editing the database title.&lt;/li&gt;
+&lt;li&gt;Improved the display of empty text cells in Kanban and Calendar.&lt;/li&gt;
+&lt;li&gt;Fixed issue where a page's "more actions" (delete, duplicate) did not work properly.&lt;/li&gt;
+&lt;li&gt;Resolved an inconsistency in padding on the Get Started screen on desktop.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.8" rel="alternate"/>
   </entry>
