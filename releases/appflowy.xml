@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-05-23T01:32:20.816671-04:00</updated>
+  <updated>2024-05-23T02:32:28.050124-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed issue where new lines could not be added in the callout block.&lt;/li&gt;
+&lt;li&gt;Fixed issue on mobile where new lines could not be added in the callout block.&lt;/li&gt;
 &lt;li&gt;More UI polish for mobile.&lt;/li&gt;
 &lt;li&gt;Resolved issue with editing the database title.&lt;/li&gt;
 &lt;li&gt;Improved the display of empty text cells in Kanban and Calendar.&lt;/li&gt;
