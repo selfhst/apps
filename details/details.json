@@ -1,6 +1,7 @@
 [
     {
         "Project": "Hugo",
+        "Reference": "hugo",
         "Website": "https://gohugo.io/",
         "Repository Link": "https://github.com/gohugoio/hugo",
         "Description": "Fast and flexible static site generator built with love",
@@ -20,6 +21,7 @@
     },
     {
         "Project": "Home Assistant",
+        "Reference": "home-assistant",
         "Website": "https://www.home-assistant.io/",
         "Repository Link": "https://github.com/home-assistant/core",
         "Description": "Open-source home automation that puts local control and privacy first",
@@ -39,6 +41,7 @@
     },
     {
         "Project": "Supabase",
+        "Reference": "supabase",
         "Website": "https://supabase.com/",
         "Repository Link": "https://github.com/supabase/supabase",
         "Description": "Open-source based platform for backend development solutions",
@@ -58,6 +61,7 @@
     },
     {
         "Project": "code-server",
+        "Reference": "code-server",
         "Website": "https://github.com/coder/code-server",
         "Repository Link": "https://github.com/coder/code-server",
         "Description": "Code on any device with a consistent development environment",
@@ -77,6 +81,7 @@
     },
     {
         "Project": "Ansible",
+        "Reference": "ansible",
         "Website": "https://www.ansible.com/",
         "Repository Link": "https://github.com/ansible/ansible",
         "Description": "Simple but powerful automation for cross-platform computer support",
@@ -96,6 +101,7 @@
     },
     {
         "Project": "Grafana",
+        "Reference": "grafana",
         "Website": "https://grafana.com/",
         "Repository Link": "https://github.com/grafana/grafana",
         "Description": "Observability and data visualization platform for logs, metrics, and traces",
@@ -115,6 +121,7 @@
     },
     {
         "Project": "Syncthing",
+        "Reference": "syncthing",
         "Website": "https://forum.syncthing.net/",
         "Repository Link": "https://github.com/syncthing/syncthing",
         "Description": "Peer-to-peer file synchronization application for local and remote devices",
@@ -134,6 +141,7 @@
     },
     {
         "Project": "Gatsby",
+        "Reference": "gatsby",
         "Website": "https://www.gatsbyjs.com/",
         "Repository Link": "https://github.com/gatsbyjs/gatsby",
         "Description": "Framework for building blazing fast websites and apps",
@@ -153,6 +161,7 @@
     },
     {
         "Project": "Caddy",
+        "Reference": "caddy",
         "Website": "https://caddyserver.com/",
         "Repository Link": "https://github.com/caddyserver/caddy",
         "Description": "Extensible web server written in Go",
@@ -172,6 +181,7 @@
     },
     {
         "Project": "Prometheus",
+        "Reference": "prometheus",
         "Website": "https://prometheus.io/",
         "Repository Link": "https://github.com/prometheus/prometheus",
         "Description": "Monitoring system and time series database",
@@ -191,6 +201,7 @@
     },
     {
         "Project": "Uptime-Kuma",
+        "Reference": "uptime-kuma",
         "Website": "https://uptime.kuma.pet/",
         "Repository Link": "https://github.com/louislam/uptime-kuma",
         "Description": "Easy-to-use self-hosted uptime monitoring tool",
@@ -210,6 +221,7 @@
     },
     {
         "Project": "AppFlowy",
+        "Reference": "appflowy",
         "Website": "https://www.appflowy.io/",
         "Repository Link": "https://github.com/AppFlowy-IO/AppFlowy",
         "Description": "AI-powered secure workspace for wikis and projects",
@@ -229,6 +241,7 @@
     },
     {
         "Project": "Jekyll",
+        "Reference": "jekyll",
         "Website": "https://jekyllrb.com/",
         "Repository Link": "https://github.com/jekyll/jekyll",
         "Description": "Simple, blog-aware static site generator",
@@ -248,6 +261,7 @@
     },
     {
         "Project": "Traefik",
+        "Reference": "traefik",
         "Website": "https://traefik.io/",
         "Repository Link": "https://github.com/traefik/traefik",
         "Description": "Cloud native application proxy",
@@ -267,6 +281,7 @@
     },
     {
         "Project": "Pi-hole",
+        "Reference": "pi-hole",
         "Website": "https://pi-hole.net/",
         "Repository Link": "https://github.com/pi-hole/pi-hole",
         "Description": "Black hole for internet advertisements",
@@ -286,6 +301,7 @@
     },
     {
         "Project": "Mastodon",
+        "Reference": "mastodon",
         "Website": "https://joinmastodon.org/",
         "Repository Link": "https://github.com/mastodon/mastodon",
         "Description": "Social network server where users can follow friends and discover new ones",
@@ -305,6 +321,7 @@
     },
     {
         "Project": "Ghost",
+        "Reference": "ghost",
         "Website": "https://ghost.org/",
         "Repository Link": "https://github.com/TryGhost/Ghost",
         "Description": "Independent technology for modern publishing, memberships, subscriptions and newsletters",
@@ -324,6 +341,7 @@
     },
     {
         "Project": "Minio",
+        "Reference": "minio",
         "Website": "https://min.io/download",
         "Repository Link": "https://github.com/minio/minio",
         "Description": "High performance object storage",
@@ -343,6 +361,7 @@
     },
     {
         "Project": "Gogs",
+        "Reference": "gogs",
         "Website": "https://gogs.io/",
         "Repository Link": "https://github.com/gogs/gogs",
         "Description": "Painless self-hosted git service",
@@ -362,6 +381,7 @@
     },
     {
         "Project": "Rclone",
+        "Reference": "rclone",
         "Website": "https://rclone.org/",
         "Repository Link": "https://github.com/rclone/rclone",
         "Description": "Command-line program for syncing files and directories to and from different cloud storage providers",
@@ -381,6 +401,7 @@
     },
     {
         "Project": "Joplin",
+        "Reference": "joplin",
         "Website": "https://joplinapp.org/",
         "Repository Link": "https://github.com/laurent22/joplin",
         "Description": "Secure note-taking and to-do app with synchronization capabilities",
@@ -400,6 +421,7 @@
     },
     {
         "Project": "NocoDB",
+        "Reference": "nocodb",
         "Website": "https://nocodb.com/",
         "Repository Link": "https://github.com/nocodb/nocodb",
         "Description": "Turn any SQL-based database into a smart spreadsheet",
@@ -419,6 +441,7 @@
     },
     {
         "Project": "Gitea",
+        "Reference": "gitea",
         "Website": "https://about.gitea.com/",
         "Repository Link": "https://github.com/go-gitea/gitea",
         "Description": "All-in-one development service including Git hosting, code review, package registry, and collaboration",
@@ -438,6 +461,7 @@
     },
     {
         "Project": "Huginn",
+        "Reference": "huginn",
         "Website": "https://github.com/huginn/huginn",
         "Repository Link": "https://github.com/huginn/huginn",
         "Description": "System for building agents that perform automated online tasks",
@@ -457,6 +481,7 @@
     },
     {
         "Project": "Appwrite",
+        "Reference": "appwrite",
         "Website": "https://appwrite.io/",
         "Repository Link": "https://github.com/appwrite/appwrite",
         "Description": "Backend platform for developing web, mobile, and Flutter applications",
@@ -476,6 +501,7 @@
     },
     {
         "Project": "n8n",
+        "Reference": "n8n",
         "Website": "https://n8n.io/",
         "Repository Link": "https://github.com/n8n-io/n8n",
         "Description": "Extendable workflow automation tool to easily automate tasks across different services",
@@ -495,6 +521,7 @@
     },
     {
         "Project": "Discourse",
+        "Reference": "discourse",
         "Website": "https://www.discourse.org/",
         "Repository Link": "https://github.com/discourse/discourse",
         "Description": "A platform for community discussion",
@@ -514,6 +541,7 @@
     },
     {
         "Project": "Rocket.Chat",
+        "Reference": "rocket-chat",
         "Website": "https://rocket.chat/",
         "Repository Link": "https://github.com/RocketChat/Rocket.Chat",
         "Description": "Fully customizable communications platform with high standards of data protection",
@@ -533,6 +561,7 @@
     },
     {
         "Project": "Sentry",
+        "Reference": "sentry",
         "Website": "https://sentry.io/",
         "Repository Link": "https://github.com/getsentry/sentry",
         "Description": "Developer-first error tracking and performance monitoring",
@@ -552,6 +581,7 @@
     },
     {
         "Project": "Metabase",
+        "Reference": "metabase",
         "Website": "https://metabase.com/",
         "Repository Link": "https://github.com/metabase/metabase",
         "Description": "Fast analytics with the friendly UX and integrated tooling to let your company explore data on their own",
@@ -571,6 +601,7 @@
     },
     {
         "Project": "ClickHouse",
+        "Reference": "clickhouse",
         "Website": "https://clickhouse.com/",
         "Repository Link": "https://github.com/ClickHouse/ClickHouse",
         "Description": "Column-oriented database management system for generating analytical data reports in real-time",
@@ -590,6 +621,7 @@
     },
     {
         "Project": "AFFiNE",
+        "Reference": "affine",
         "Website": "https://affine.pro/",
         "Repository Link": "https://github.com/toeverything/AFFiNE",
         "Description": "Next-gen knowledge base that brings planning, sorting, and creating all together",
@@ -609,6 +641,7 @@
     },
     {
         "Project": "Vaultwarden",
+        "Reference": "vaultwarden",
         "Website": "https://github.com/dani-garcia/vaultwarden",
         "Repository Link": "https://github.com/dani-garcia/vaultwarden",
         "Description": "Unofficial Bitwarden-compatible server",
@@ -628,6 +661,7 @@
     },
     {
         "Project": "Immich",
+        "Reference": "immich",
         "Website": "https://immich.app/",
         "Repository Link": "https://github.com/immich-app/immich",
         "Description": "High performance self-hosted photo and video management solution",
@@ -647,6 +681,7 @@
     },
     {
         "Project": "PhotoPrism",
+        "Reference": "photoprism",
         "Website": "https://www.photoprism.app/",
         "Repository Link": "https://github.com/photoprism/photoprism",
         "Description": "AI-powered photos app for the decentralized web",
@@ -666,6 +701,7 @@
     },
     {
         "Project": "Appsmith",
+        "Reference": "appsmith",
         "Website": "https://www.appsmith.com/",
         "Repository Link": "https://github.com/appsmithorg/appsmith",
         "Description": "Platform for building admin panels, internal tools, and dashboards",
@@ -685,6 +721,7 @@
     },
     {
         "Project": "Jellyfin",
+        "Reference": "jellyfin",
         "Website": "https://jellyfin.org/",
         "Repository Link": "https://github.com/jellyfin/jellyfin",
         "Description": "Free software media system that puts you in control of managing and streaming your media",
@@ -704,6 +741,7 @@
     },
     {
         "Project": "Logseq",
+        "Reference": "logseq",
         "Website": "https://logseq.com/",
         "Repository Link": "https://github.com/logseq/logseq",
         "Description": "Privacy-first, open-source platform for knowledge management and collaboration",
@@ -723,6 +761,7 @@
     },
     {
         "Project": "RSSHub",
+        "Reference": "rsshub",
         "Website": "https://docs.rsshub.app/",
         "Repository Link": "https://github.com/DIYgod/RSSHub",
         "Description": "Open-source, easy-to-use, and extensible RSS feed generator capable of generating feeds from everything",
@@ -742,6 +781,7 @@
     },
     {
         "Project": "Portainer",
+        "Reference": "portainer",
         "Website": "https://www.portainer.io/",
         "Repository Link": "https://github.com/portainer/portainer",
         "Description": "Lightweight service delivery platform for containerized applications",
@@ -761,6 +801,7 @@
     },
     {
         "Project": "Cal.com",
+        "Reference": "calcom",
         "Website": "https://cal.com/",
         "Repository Link": "https://github.com/calcom/cal.com",
         "Description": "Scheduling infrastructure for absolutely everyone",
@@ -780,6 +821,7 @@
     },
     {
         "Project": "Penpot",
+        "Reference": "penpot",
         "Website": "https://penpot.app/",
         "Repository Link": "https://github.com/penpot/penpot",
         "Description": "Open-source design and prototyping platform",
@@ -799,6 +841,7 @@
     },
     {
         "Project": "Mattermost",
+        "Reference": "mattermost",
         "Website": "https://mattermost.com/",
         "Repository Link": "https://github.com/mattermost/mattermost",
         "Description": "An open source platform for secure collaboration across the entire software development lifecycle",
@@ -818,6 +861,7 @@
     },
     {
         "Project": "InfluxDB",
+        "Reference": "influxdb",
         "Website": "https://influxdata.com/",
         "Repository Link": "https://github.com/influxdata/influxdb",
         "Description": "Scalable datastore for metrics, events, and real-time analytics",
@@ -837,6 +881,7 @@
     },
     {
         "Project": "memos",
+        "Reference": "memos",
         "Website": "https://usememos.com/",
         "Repository Link": "https://github.com/usememos/memos",
         "Description": "An open-source, lightweight note-taking service",
@@ -856,6 +901,7 @@
     },
     {
         "Project": "Stirling PDF",
+        "Reference": "stirling-pdf",
         "Website": "https://github.com/Stirling-Tools/Stirling-PDF",
         "Repository Link": "https://github.com/Stirling-Tools/Stirling-PDF",
         "Description": "Perform various operations on PDF files",
@@ -875,6 +921,7 @@
     },
     {
         "Project": "Maybe",
+        "Reference": "maybe",
         "Website": "https://maybe.co/",
         "Repository Link": "https://github.com/maybe-finance/maybe",
         "Description": "A fully transparent, open-source, community-backed personal finance app",
@@ -894,6 +941,7 @@
     },
     {
         "Project": "ToolJet",
+        "Reference": "tooljet",
         "Website": "https://tooljet.com/",
         "Repository Link": "https://github.com/ToolJet/ToolJet",
         "Description": "Low-code platform for building business applications",
@@ -913,6 +961,7 @@
     },
     {
         "Project": "Nextcloud",
+        "Reference": "nextcloud",
         "Website": "https://nextcloud.com/",
         "Repository Link": "https://github.com/nextcloud/server",
         "Description": "Open-source content collaboration platform",
@@ -932,6 +981,7 @@
     },
     {
         "Project": "Trilium",
+        "Reference": "trilium",
         "Website": "https://github.com/zadam/trilium",
         "Repository Link": "https://github.com/zadam/trilium",
         "Description": "Hierarchical note taking application with focus on building large personal knowledge bases",
@@ -951,6 +1001,7 @@
     },
     {
         "Project": "Outline",
+        "Reference": "outline",
         "Website": "https://www.getoutline.com/",
         "Repository Link": "https://github.com/outline/outline",
         "Description": "Modern team knowledge base for your internal documentation, product specs, support answers, meeting notes, onboarding, and more",
@@ -970,6 +1021,7 @@
     },
     {
         "Project": "Plane",
+        "Reference": "plane",
         "Website": "https://plane.so/",
         "Repository Link": "https://github.com/makeplane/plane",
         "Description": "Open source project management for tracking issues, managing tasks, and  product roadmaps",
@@ -989,6 +1041,7 @@
     },
     {
         "Project": "FileBrowser",
+        "Reference": "filebrowser",
         "Website": "https://filebrowser.org/",
         "Repository Link": "https://github.com/filebrowser/filebrowser",
         "Description": "File managing interface for specified directories",
@@ -1008,6 +1061,7 @@
     },
     {
         "Project": "restic",
+        "Reference": "restic",
         "Website": "https://restic.net/",
         "Repository Link": "https://github.com/restic/restic",
         "Description": "Fast, secure, efficient backup program",
@@ -1027,6 +1081,7 @@
     },
     {
         "Project": "Wiki.js",
+        "Reference": "wiki-js",
         "Website": "https://js.wiki/",
         "Repository Link": "https://github.com/requarks/wiki",
         "Description": "A modern, lightweight and powerful wiki app built on NodeJS",
@@ -1046,6 +1101,7 @@
     },
     {
         "Project": "Medusa",
+        "Reference": "medusa",
         "Website": "https://medusajs.com/",
         "Repository Link": "https://github.com/medusajs/medusa",
         "Description": "A set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications",
@@ -1065,6 +1121,7 @@
     },
     {
         "Project": "AdGuard Home",
+        "Reference": "adguard-home",
         "Website": "https://adguard.com/adguard-home.html",
         "Repository Link": "https://github.com/AdguardTeam/AdGuardHome",
         "Description": "Network-wide ad and tracker blocking DNS server",
@@ -1084,6 +1141,7 @@
     },
     {
         "Project": "Loki",
+        "Reference": "loki",
         "Website": "https://grafana.com/loki",
         "Repository Link": "https://github.com/grafana/loki",
         "Description": "Horizontally-scalable, highly-available, multi-tenant log aggregation system",
@@ -1103,6 +1161,7 @@
     },
     {
         "Project": "Jitsi Meet",
+        "Reference": "jitsi-meet",
         "Website": "https://jitsi.org/meet",
         "Repository Link": "https://github.com/jitsi/jitsi-meet",
         "Description": "Secure, simple, and scalable video conferences as a standalone or web application",
@@ -1122,6 +1181,7 @@
     },
     {
         "Project": "Budibase",
+        "Reference": "budibase",
         "Website": "https://budibase.com/",
         "Repository Link": "https://github.com/Budibase/budibase",
         "Description": "Low-code platform for building business apps and workflows in minutes",
@@ -1141,6 +1201,7 @@
     },
     {
         "Project": "Monica",
+        "Reference": "monica",
         "Website": "https://beta.monicahq.com/",
         "Repository Link": "https://github.com/monicahq/monica",
         "Description": "Open-source personal relationship management system",
@@ -1160,6 +1221,7 @@
     },
     {
         "Project": "Reactive Resume",
+        "Reference": "reactive-resume",
         "Website": "https://rxresu.me/",
         "Repository Link": "https://github.com/AmruthPillai/Reactive-Resume",
         "Description": "Open-source resume builder that simplifies the process of creating, updating, and sharing your resume",
@@ -1179,6 +1241,7 @@
     },
     {
         "Project": "Keycloak",
+        "Reference": "keycloak",
         "Website": "https://www.keycloak.org/",
         "Repository Link": "https://github.com/keycloak/keycloak",
         "Description": "Open-source identity and access management for applications and services",
@@ -1198,6 +1261,7 @@
     },
     {
         "Project": "Nginx Proxy Manager",
+        "Reference": "nginx-proxy-manager",
         "Website": "https://nginxproxymanager.com/",
         "Repository Link": "https://github.com/NginxProxyManager/nginx-proxy-manager",
         "Description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
@@ -1217,6 +1281,7 @@
     },
     {
         "Project": "Payload",
+        "Reference": "payload",
         "Website": "https://payloadcms.com/",
         "Repository Link": "https://github.com/payloadcms/payload",
         "Description": "Headless CMS and application framework",
@@ -1236,6 +1301,7 @@
     },
     {
         "Project": "Headscale",
+        "Reference": "headscale",
         "Website": "https://github.com/juanfont/headscale",
         "Repository Link": "https://github.com/juanfont/headscale",
         "Description": "Open-source implementation of the Tailscale control server",
@@ -1255,6 +1321,7 @@
     },
     {
         "Project": "Umami",
+        "Reference": "umami",
         "Website": "https://umami.is/",
         "Repository Link": "https://github.com/umami-software/umami",
         "Description": "Simple, fast, privacy-focused alternative to Google Analytics",
@@ -1274,6 +1341,7 @@
     },
     {
         "Project": "Authelia",
+        "Reference": "authelia",
         "Website": "https://www.authelia.com/",
         "Repository Link": "https://github.com/authelia/authelia",
         "Description": "Authentication and authorization server providing two-factor authentication and single sign-on via web portal",
@@ -1293,6 +1361,7 @@
     },
     {
         "Project": "KeePassXC",
+        "Reference": "keepassxc",
         "Website": "https://keepassxc.org/",
         "Repository Link": "https://github.com/keepassxreboot/keepassxc",
         "Description": "Modern, secure, and open-source password manager that stores and manages sensitive information",
@@ -1312,6 +1381,7 @@
     },
     {
         "Project": "Web-Check",
+        "Reference": "web-check",
         "Website": "https://web-check.xyz/",
         "Repository Link": "https://github.com/Lissy93/web-check",
         "Description": "Comprehensive, on-demand open source intelligence for any website",
@@ -1331,6 +1401,7 @@
     },
     {
         "Project": "WeKan",
+        "Reference": "wekan",
         "Website": "https://wekan.github.io/",
         "Repository Link": "https://github.com/wekan/wekan",
         "Description": "Open-source, customizable, and privacy-focused kanban",
@@ -1350,6 +1421,7 @@
     },
     {
         "Project": "Matomo",
+        "Reference": "matomo",
         "Website": "https://matomo.org/",
         "Repository Link": "https://github.com/matomo-org/matomo",
         "Description": "A powerful web analytics platform that gives you 100% data ownership",
@@ -1369,6 +1441,7 @@
     },
     {
         "Project": "WordPress",
+        "Reference": "wordpress",
         "Website": "https://wordpress.org/",
         "Repository Link": "https://github.com/WordPress/WordPress",
         "Description": "Web content management system",
@@ -1388,6 +1461,7 @@
     },
     {
         "Project": "Puter",
+        "Reference": "puter",
         "Website": "https://puter.com/",
         "Repository Link": "https://github.com/HeyPuter/puter",
         "Description": "Advanced open-source desktop environment in the browser",
@@ -1407,6 +1481,7 @@
     },
     {
         "Project": "Node-RED",
+        "Reference": "node-red",
         "Website": "http://nodered.org/",
         "Repository Link": "https://github.com/node-red/node-red",
         "Description": "Low-code programming for event-driven applications",
@@ -1426,6 +1501,7 @@
     },
     {
         "Project": "Plausible",
+        "Reference": "plausible",
         "Website": "https://plausible.io/",
         "Repository Link": "https://github.com/plausible/analytics",
         "Description": "Simple, open-source, lightweight, and privacy-friendly web analytics",
@@ -1445,6 +1521,7 @@
     },
     {
         "Project": "Czkawka",
+        "Reference": "czkawka",
         "Website": "https://github.com/qarmin/czkawka",
         "Repository Link": "https://github.com/qarmin/czkawka",
         "Description": "Multi-functional application for finding and removing duplicates, empty folders, and similar files",
@@ -1464,6 +1541,7 @@
     },
     {
         "Project": "PostHog",
+        "Reference": "posthog",
         "Website": "https://posthog.com/",
         "Repository Link": "https://github.com/posthog/posthog",
         "Description": "Open-source product analytics, session recording, feature flagging, and A/B testing",
@@ -1483,6 +1561,7 @@
     },
     {
         "Project": "Paperless-ngx",
+        "Reference": "paperless-ngx",
         "Website": "https://docs.paperless-ngx.com/",
         "Repository Link": "https://github.com/paperless-ngx/paperless-ngx",
         "Description": "Scan, index and archive all your physical documents",
@@ -1502,6 +1581,7 @@
     },
     {
         "Project": "Watchtower",
+        "Reference": "watchtower",
         "Website": "https://containrrr.dev/watchtower/",
         "Repository Link": "https://github.com/containrrr/watchtower",
         "Description": "A process for automating Docker container base image updates",
@@ -1521,6 +1601,7 @@
     },
     {
         "Project": "Tailscale",
+        "Reference": "tailscale",
         "Website": "https://tailscale.com/",
         "Repository Link": "https://github.com/tailscale/tailscale",
         "Description": "Private WireGuard networks made easy",
@@ -1540,6 +1621,7 @@
     },
     {
         "Project": "ntfy",
+        "Reference": "ntfy",
         "Website": "https://ntfy.sh/",
         "Repository Link": "https://github.com/binwiederhier/ntfy",
         "Description": "Simple HTTP-based pub-sub notification service",
@@ -1559,6 +1641,7 @@
     },
     {
         "Project": "Teleport",
+        "Reference": "teleport",
         "Website": "https://goteleport.com/",
         "Repository Link": "https://github.com/gravitational/teleport",
         "Description": "Provides connectivity, authentication, access controls, and audit for infrastructure",
@@ -1578,6 +1661,7 @@
     },
     {
         "Project": "Vector",
+        "Reference": "vector",
         "Website": "https://vector.dev/",
         "Repository Link": "https://github.com/vectordotdev/vector",
         "Description": "High-performance observability data pipeline",
@@ -1597,6 +1681,7 @@
     },
     {
         "Project": "Homepage",
+        "Reference": "homepage",
         "Website": "https://gethomepage.dev/",
         "Repository Link": "https://github.com/gethomepage/homepage",
         "Description": "Customizable homepage with Docker and service API integrations",
@@ -1616,6 +1701,7 @@
     },
     {
         "Project": "IT-Tools",
+        "Reference": "it-tools",
         "Website": "https://it-tools.tech/",
         "Repository Link": "https://github.com/CorentinTh/it-tools",
         "Description": "Collection of handy online tools for developers with great UX",
@@ -1635,6 +1721,7 @@
     },
     {
         "Project": "SiYuan",
+        "Reference": "siyuan",
         "Website": "https://b3log.org/siyuan",
         "Repository Link": "https://github.com/siyuan-note/siyuan",
         "Description": "Privacy-first, self-hosted, fully open-source personal knowledge management software",
@@ -1654,6 +1741,7 @@
     },
     {
         "Project": "Dub",
+        "Reference": "dub",
         "Website": "https://dub.co/",
         "Repository Link": "https://github.com/dubinc/dub",
         "Description": "Open-source link management infrastructure for modern marketing teams",
@@ -1673,6 +1761,7 @@
     },
     {
         "Project": "Eleventy",
+        "Reference": "eleventy",
         "Website": "https://www.11ty.dev/",
         "Repository Link": "https://github.com/11ty/eleventy",
         "Description": "Simple static site generator that transforms a directory of templates into HTML",
@@ -1692,6 +1781,7 @@
     },
     {
         "Project": "Dashy",
+        "Reference": "dashy",
         "Website": "https://dashy.to/",
         "Repository Link": "https://github.com/Lissy93/dashy",
         "Description": "Personal dashboard with status-checking, widgets, themes, icon packs, and a UI editor",
@@ -1711,6 +1801,7 @@
     },
     {
         "Project": "ChangeDetection",
+        "Reference": "changedetection",
         "Website": "https://changedetection.io/",
         "Repository Link": "https://github.com/dgtlmoon/changedetection.io",
         "Description": "Page change monitoring with alerts",
@@ -1730,6 +1821,7 @@
     },
     {
         "Project": "Invidious",
+        "Reference": "invidious",
         "Website": "https://invidious.io/",
         "Repository Link": "https://github.com/iv-org/invidious",
         "Description": "Alternative front-end for YouTube",
@@ -1749,6 +1841,7 @@
     },
     {
         "Project": "Frigate",
+        "Reference": "frigate",
         "Website": "https://frigate.video/",
         "Repository Link": "https://github.com/blakeblackshear/frigate",
         "Description": "NVR with real-time local object detection for IP cameras",
@@ -1768,6 +1861,7 @@
     },
     {
         "Project": "Flarum",
+        "Reference": "flarum",
         "Website": "https://flarum.org/",
         "Repository Link": "https://github.com/flarum/flarum",
         "Description": "Simple forum software for building great communities",
@@ -1787,6 +1881,7 @@
     },
     {
         "Project": "PostgreSQL",
+        "Reference": "postgresql",
         "Website": "https://www.postgresql.org/",
         "Repository Link": "https://github.com/postgres/postgres",
         "Description": "Advanced object-relational database management system that supports an extended subset of the SQL standard",
@@ -1806,6 +1901,7 @@
     },
     {
         "Project": "Bitwarden",
+        "Reference": "bitwarden",
         "Website": "https://bitwarden.com/",
         "Repository Link": "https://github.com/bitwarden/server",
         "Description": "Password and credentials manager with encryption",
@@ -1825,6 +1921,7 @@
     },
     {
         "Project": "Firefly III",
+        "Reference": "firefly-iii",
         "Website": "https://firefly-iii.org/",
         "Repository Link": "https://github.com/firefly-iii/firefly-iii",
         "Description": "Personal finance management and budgeting",
@@ -1844,6 +1941,7 @@
     },
     {
         "Project": "Grav",
+        "Reference": "grav",
         "Website": "https://getgrav.org/",
         "Repository Link": "https://github.com/getgrav/grav",
         "Description": "Grav is a fast, simple, and flexible file-based web-platform",
@@ -1863,6 +1961,7 @@
     },
     {
         "Project": "Postal",
+        "Reference": "postal",
         "Website": "https://postalserver.io/",
         "Repository Link": "https://github.com/postalserver/postal",
         "Description": "A fully featured open source mail delivery platform for incoming and outgoing e-mail",
@@ -1882,6 +1981,7 @@
     },
     {
         "Project": "BookStack",
+        "Reference": "bookstack",
         "Website": "https://www.bookstackapp.com/",
         "Repository Link": "https://github.com/BookStackApp/BookStack",
         "Description": "Platform for organizing and storing information in a book-like structure",
@@ -1901,6 +2001,7 @@
     },
     {
         "Project": "Valkey",
+        "Reference": "valkey",
         "Website": "https://valkey.io/",
         "Repository Link": "https://github.com/valkey-io/valkey",
         "Description": "High-performance data structure server for serving key/value workloads",
@@ -1920,6 +2021,7 @@
     },
     {
         "Project": "listmonk",
+        "Reference": "listmonk",
         "Website": "https://listmonk.app/",
         "Repository Link": "https://github.com/knadh/listmonk",
         "Description": "Standalone, self-hosted, newsletter and mailing list manager",
@@ -1939,6 +2041,7 @@
     },
     {
         "Project": "Mail-in-a-Box",
+        "Reference": "mail-in-a-box",
         "Website": "https://mailinabox.email/",
         "Repository Link": "https://github.com/mail-in-a-box/mailinabox",
         "Description": "Mail-in-a-Box lets you become your own mail service provider in a few easy steps.",
@@ -1958,6 +2061,7 @@
     },
     {
         "Project": "asciinema",
+        "Reference": "asciinema",
         "Website": "https://asciinema.org/",
         "Repository Link": "https://github.com/asciinema/asciinema-server",
         "Description": "Platform for hosting and sharing terminal session recordings",
@@ -1977,6 +2081,7 @@
     },
     {
         "Project": "Lemmy",
+        "Reference": "lemmy",
         "Website": "https://join-lemmy.org/",
         "Repository Link": "https://github.com/LemmyNet/lemmy",
         "Description": "Link aggregator and forum for the Fediverse",
@@ -1996,6 +2101,7 @@
     },
     {
         "Project": "OneDev",
+        "Reference": "onedev",
         "Website": "https://onedev.io/",
         "Repository Link": "https://github.com/theonedev/onedev",
         "Description": "Git server with CI/CD, kanban, and packages",
@@ -2015,6 +2121,7 @@
     },
     {
         "Project": "Zola",
+        "Reference": "zola",
         "Website": "https://www.getzola.org/",
         "Repository Link": "https://github.com/getzola/zola",
         "Description": "Fast static site generator in a single binary with everything built-in",
@@ -2034,6 +2141,7 @@
     },
     {
         "Project": "PeerTube",
+        "Reference": "peertube",
         "Website": "https://joinpeertube.org/",
         "Repository Link": "https://github.com/Chocobozzz/PeerTube",
         "Description": "ActivityPub-federated video streaming platform using P2P directly in your web browser",
@@ -2053,6 +2161,7 @@
     },
     {
         "Project": "wg-easy",
+        "Reference": "wg-easy",
         "Website": "https://github.com/wg-easy/wg-easy",
         "Repository Link": "https://github.com/wg-easy/wg-easy",
         "Description": "The easiest way to run WireGuard VPN with a web-based admin UI",
@@ -2072,6 +2181,7 @@
     },
     {
         "Project": "Calibre-Web",
+        "Reference": "calibre-web",
         "Website": "https://github.com/janeczku/calibre-web",
         "Repository Link": "https://github.com/janeczku/calibre-web",
         "Description": "Web application for browsing, reading, and downloads book stored in a Calibre database",
@@ -2091,6 +2201,7 @@
     },
     {
         "Project": "Seafile",
+        "Reference": "seafile",
         "Website": "http://seafile.com/",
         "Repository Link": "https://github.com/haiwen/seafile",
         "Description": "High performance file syncing and sharing",
@@ -2110,6 +2221,7 @@
     },
     {
         "Project": "Apache Answer",
+        "Reference": "apache-answer",
         "Website": "https://answer.apache.org/",
         "Repository Link": "https://github.com/apache/incubator-answer",
         "Description": "Q&A platform for teams and communities",
@@ -2129,6 +2241,7 @@
     },
     {
         "Project": "Jackett",
+        "Reference": "jackett",
         "Website": "https://github.com/Jackett/Jackett",
         "Repository Link": "https://github.com/Jackett/Jackett",
         "Description": "API support for torrent trackers",
@@ -2148,6 +2261,7 @@
     },
     {
         "Project": "Zigbee2MQTT",
+        "Reference": "zigbee2mqtt",
         "Website": "https://www.zigbee2mqtt.io/",
         "Repository Link": "https://github.com/Koenkk/zigbee2mqtt",
         "Description": "Zigbee to MQTT bridge for getting rid of proprietary Zigbee bridges",
@@ -2167,6 +2281,7 @@
     },
     {
         "Project": "VictoriaMetrics",
+        "Reference": "victoriametrics",
         "Website": "https://victoriametrics.com/",
         "Repository Link": "https://github.com/victoriametrics/victoriametrics",
         "Description": "Fast, cost-effective monitoring solution and time series database",
@@ -2186,6 +2301,7 @@
     },
     {
         "Project": "Fail2Ban",
+        "Reference": "fail2ban",
         "Website": "http://www.fail2ban.org/",
         "Repository Link": "https://github.com/fail2ban/fail2ban",
         "Description": "Daemon to ban hosts that cause multiple authentication errors",
@@ -2205,6 +2321,7 @@
     },
     {
         "Project": "Apprise",
+        "Reference": "apprise",
         "Website": "https://github.com/caronc/apprise",
         "Repository Link": "https://github.com/caronc/apprise",
         "Description": "Push notifications that work with just about every platform",
@@ -2224,6 +2341,7 @@
     },
     {
         "Project": "Borg",
+        "Reference": "borg",
         "Website": "https://www.borgbackup.org/",
         "Repository Link": "https://github.com/borgbackup/borg",
         "Description": "Deduplicating archiver with compression and encryption",
@@ -2243,6 +2361,7 @@
     },
     {
         "Project": "MySQL",
+        "Reference": "mysql",
         "Website": "http://www.mysql.com/",
         "Repository Link": "https://github.com/mysql/mysql-server",
         "Description": "The world's most popular open-source database",
@@ -2262,6 +2381,7 @@
     },
     {
         "Project": "Duplicati",
+        "Reference": "duplicati",
         "Website": "https://duplicati.com",
         "Repository Link": "https://github.com/duplicati/duplicati",
         "Description": "Store securely encrypted backups in the cloud",
@@ -2281,6 +2401,7 @@
     },
     {
         "Project": "YOURLS",
+        "Reference": "yourls",
         "Website": "https://yourls.org/",
         "Repository Link": "https://github.com/YOURLS/YOURLS",
         "Description": "Your Own URL Shortener",
@@ -2300,6 +2421,7 @@
     },
     {
         "Project": "Navidrome",
+        "Reference": "navidrome",
         "Website": "https://www.navidrome.org/",
         "Repository Link": "https://github.com/navidrome/navidrome",
         "Description": "Modern music server and streamer with Subsonic and Airsonic compatibility",
@@ -2319,6 +2441,7 @@
     },
     {
         "Project": "Gotify",
+        "Reference": "gotify",
         "Website": "https://gotify.net/",
         "Repository Link": "https://github.com/gotify/server",
         "Description": "Simple server for sending and receiving messages in real-time via WebSocket",
@@ -2338,6 +2461,7 @@
     },
     {
         "Project": "Sonarr",
+        "Reference": "sonarr",
         "Website": "https://sonarr.tv/",
         "Repository Link": "https://github.com/Sonarr/Sonarr",
         "Description": "Smart PVR for newsgroup and bittorrent users",
@@ -2357,6 +2481,7 @@
     },
     {
         "Project": "Snipe-IT",
+        "Reference": "snipe-it",
         "Website": "https://snipeitapp.com/",
         "Repository Link": "https://github.com/snipe/snipe-it",
         "Description": "Asset management for IT operations",
@@ -2376,6 +2501,7 @@
     },
     {
         "Project": "Wallabag",
+        "Reference": "wallabag",
         "Website": "https://wallabag.org/",
         "Repository Link": "https://github.com/wallabag/wallabag",
         "Description": "Save web pages for later reading",
@@ -2395,6 +2521,7 @@
     },
     {
         "Project": "Dockge",
+        "Reference": "dockge",
         "Website": "https://dockge.kuma.pet/",
         "Repository Link": "https://github.com/louislam/dockge",
         "Description": "Easy-to-use docker compose stack manager",
@@ -2414,6 +2541,7 @@
     },
     {
         "Project": "Filestash",
+        "Reference": "filestash",
         "Website": "https://www.filestash.app/",
         "Repository Link": "https://github.com/mickael-kerjean/filestash",
         "Description": "Modern web client and file manager with support for a number of storage backends",
@@ -2433,6 +2561,7 @@
     },
     {
         "Project": "Misskey",
+        "Reference": "misskey",
         "Website": "https://misskey-hub.net/",
         "Repository Link": "https://github.com/misskey-dev/misskey",
         "Description": "Misskey is an open-source, federated social media platform that's free forever",
@@ -2452,6 +2581,7 @@
     },
     {
         "Project": "NetBird",
+        "Reference": "netbird",
         "Website": "https://netbird.io/",
         "Repository Link": "https://github.com/netbirdio/netbird",
         "Description": "Combines a configuration-free peer-to-peer private network and a centralized access control system into a single platform",
@@ -2471,6 +2601,7 @@
     },
     {
         "Project": "Radarr",
+        "Reference": "radarr",
         "Website": "https://radarr.video/",
         "Repository Link": "https://github.com/Radarr/Radarr",
         "Description": "Movie organizer/manager for UseNet and torrent users",
@@ -2490,6 +2621,7 @@
     },
     {
         "Project": "Omnivore",
+        "Reference": "omnivore",
         "Website": "https://omnivore.app/",
         "Repository Link": "https://github.com/omnivore-app/omnivore",
         "Description": "Complete, open-source read-it-later solution for people who like reading",
@@ -2509,6 +2641,7 @@
     },
     {
         "Project": "WooCommerce",
+        "Reference": "woocommerce",
         "Website": "https://woo.com/",
         "Repository Link": "https://github.com/woocommerce/woocommerce",
         "Description": "Customizable, open-source ecommerce platform built on WordPress",
@@ -2528,6 +2661,7 @@
     },
     {
         "Project": "Owncast",
+        "Reference": "owncast",
         "Website": "https://owncast.online/",
         "Repository Link": "https://github.com/owncast/owncast",
         "Description": "Take control over your content and stream it yourself",
@@ -2547,6 +2681,7 @@
     },
     {
         "Project": "Whoogle",
+        "Reference": "whoogle",
         "Website": "https://pypi.org/project/whoogle-search/",
         "Repository Link": "https://github.com/benbusby/whoogle-search",
         "Description": "Self-hosted, ad-free, privacy-respecting metasearch engine",
@@ -2566,6 +2701,7 @@
     },
     {
         "Project": "Shiori",
+        "Reference": "shiori",
         "Website": "https://github.com/go-shiori/shiori",
         "Repository Link": "https://github.com/go-shiori/shiori",
         "Description": "Simple bookmark manager",
@@ -2585,6 +2721,7 @@
     },
     {
         "Project": "Casdoor",
+        "Reference": "casdoor",
         "Website": "https://casdoor.org/",
         "Repository Link": "https://github.com/casdoor/casdoor",
         "Description": "Open-source, UI-first identity access management",
@@ -2604,6 +2741,7 @@
     },
     {
         "Project": "Homer",
+        "Reference": "homer",
         "Website": "https://homer-demo.netlify.app/",
         "Repository Link": "https://github.com/bastienwirtz/homer",
         "Description": "Simple static homepage for server applications",
@@ -2623,6 +2761,7 @@
     },
     {
         "Project": "SonarQube",
+        "Reference": "sonarqube",
         "Website": "http://www.sonarqube.org/",
         "Repository Link": "https://github.com/SonarSource/sonarqube",
         "Description": "Code quality and security solution with deep integration for enterprise environments",
@@ -2642,6 +2781,7 @@
     },
     {
         "Project": "FreshRSS",
+        "Reference": "freshrss",
         "Website": "https://freshrss.org/",
         "Repository Link": "https://github.com/FreshRSS/FreshRSS",
         "Description": "Lightweight RSS feed aggregator",
@@ -2661,6 +2801,7 @@
     },
     {
         "Project": "Mosquitto",
+        "Reference": "mosquitto",
         "Website": "https://mosquitto.org/",
         "Repository Link": "https://github.com/eclipse/mosquitto",
         "Description": "Open-source implementation of the MQTT protocol",
@@ -2680,6 +2821,7 @@
     },
     {
         "Project": "BigBlueButton",
+        "Reference": "bigbluebutton",
         "Website": "https://bigbluebutton.org/",
         "Repository Link": "https://github.com/bigbluebutton/bigbluebutton",
         "Description": "Complete open-source web conferencing system",
@@ -2699,6 +2841,7 @@
     },
     {
         "Project": "SFTPGo",
+        "Reference": "sftpgo",
         "Website": "https://sftpgo.com/",
         "Repository Link": "https://github.com/drakkan/sftpgo",
         "Description": "Fully featured and highly configurable SFTP server",
@@ -2718,6 +2861,7 @@
     },
     {
         "Project": "ownCloud",
+        "Reference": "owncloud",
         "Website": "https://owncloud.com/",
         "Repository Link": "https://github.com/owncloud/core",
         "Description": "Free and open-source software project for content collaboration and sharing and syncing of files",
@@ -2737,6 +2881,7 @@
     },
     {
         "Project": "Kanboard",
+        "Reference": "kanboard",
         "Website": "https://kanboard.org/",
         "Repository Link": "https://github.com/kanboard/kanboard",
         "Description": "Kanban project management software",
@@ -2756,6 +2901,7 @@
     },
     {
         "Project": "Aegis",
+        "Reference": "aegis",
         "Website": "https://getaegis.app/",
         "Repository Link": "https://github.com/beemdevelopment/Aegis",
         "Description": "An open-source Android app for managing two-step authentication codes",
@@ -2775,6 +2921,7 @@
     },
     {
         "Project": "Cloudflared",
+        "Reference": "cloudflared",
         "Website": "https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide",
         "Repository Link": "https://github.com/cloudflare/cloudflared",
         "Description": "Tunneling daemon for proxying traffic from the Cloudflare network",
@@ -2794,6 +2941,7 @@
     },
     {
         "Project": "OctoPrint",
+        "Reference": "octoprint",
         "Website": "https://octoprint.org/",
         "Repository Link": "https://github.com/OctoPrint/OctoPrint",
         "Description": "Snappy web interface for your 3D printer",
@@ -2813,6 +2961,7 @@
     },
     {
         "Project": "Mailcow",
+        "Reference": "mailcow",
         "Website": "https://mailcow.email/",
         "Repository Link": "https://github.com/mailcow/mailcow-dockerized",
         "Description": "The mailserver suite with the 'moo'",
@@ -2832,6 +2981,7 @@
     },
     {
         "Project": "CrowdSec",
+        "Reference": "crowdsec",
         "Website": "https://crowdsec.net/",
         "Repository Link": "https://github.com/crowdsecurity/crowdsec",
         "Description": "Open-source and participative security solution offering crowd-sourced protection against malicious IPs",
@@ -2851,6 +3001,7 @@
     },
     {
         "Project": "ESPHome",
+        "Reference": "esphome",
         "Website": "https://github.com/esphome/esphome",
         "Repository Link": "https://github.com/esphome/esphome",
         "Description": "System to control your ESP8266/ESP32 with simple yet powerful configuration files",
@@ -2870,6 +3021,7 @@
     },
     {
         "Project": "Invoice Ninja",
+        "Reference": "invoice-ninja",
         "Website": "https://invoiceninja.com/",
         "Repository Link": "https://github.com/invoiceninja/invoiceninja",
         "Description": "Simple invoicing, multiple payment options, expense and vendor management, and more!",
@@ -2889,6 +3041,7 @@
     },
     {
         "Project": "Ente Photos",
+        "Reference": "ente-photos",
         "Website": "https://ente.io/",
         "Repository Link": "https://github.com/ente-io/ente",
         "Description": "Fully open-source, end-to-end encrypted alternative to Google Photos and Apple Photos",
@@ -2908,6 +3061,7 @@
     },
     {
         "Project": "TiddlyWiki",
+        "Reference": "tiddlywiki",
         "Website": "https://tiddlywiki.com/",
         "Repository Link": "https://github.com/Jermolene/TiddlyWiki5",
         "Description": "Self-contained JavaScript wiki for the browser",
@@ -2927,6 +3081,7 @@
     },
     {
         "Project": "Heimdall",
+        "Reference": "heimdall",
         "Website": "https://heimdall.site/",
         "Repository Link": "https://github.com/linuxserver/Heimdall",
         "Description": "Dashboard for web applications and links",
@@ -2946,6 +3101,7 @@
     },
     {
         "Project": "Zitadel",
+        "Reference": "zitadel",
         "Website": "https://zitadel.com/",
         "Repository Link": "https://github.com/zitadel/zitadel",
         "Description": "Identity infrastructure simplified",
@@ -2965,6 +3121,7 @@
     },
     {
         "Project": "Authentik",
+        "Reference": "authentik",
         "Website": "https://goauthentik.io/",
         "Repository Link": "https://github.com/goauthentik/authentik",
         "Description": "Open-source identity provider with support for various protocols",
@@ -2984,6 +3141,7 @@
     },
     {
         "Project": "Coder",
+        "Reference": "coder",
         "Website": "https://coder.com/",
         "Repository Link": "https://github.com/coder/coder",
         "Description": "Provision remote development environments via Terraform",
@@ -3003,6 +3161,7 @@
     },
     {
         "Project": "Tipi",
+        "Reference": "tipi",
         "Website": "https://www.runtipi.io/",
         "Repository Link": "https://github.com/runtipi/runtipi",
         "Description": "Homeserver with a simple setup and one-click installs for your favorite self-hosted apps",
@@ -3022,6 +3181,7 @@
     },
     {
         "Project": "RSS Bridge",
+        "Reference": "rss-bridge",
         "Website": "https://rss-bridge.org/bridge01/",
         "Repository Link": "https://github.com/RSS-Bridge/rss-bridge",
         "Description": "RSS feeds for websites missing them",
@@ -3041,6 +3201,7 @@
     },
     {
         "Project": "GitLab",
+        "Reference": "gitlab",
         "Website": "https://gitlab.com/",
         "Repository Link": "https://gitlab.com/gitlab-org/gitlab-foss",
         "Description": "Open-source end-to-end software development platform with version control, issue tracking, code review, and more",
@@ -3060,6 +3221,7 @@
     },
     {
         "Project": "Newsblur",
+        "Reference": "newsblur",
         "Website": "http://www.newsblur.com/",
         "Repository Link": "https://github.com/samuelclay/NewsBlur",
         "Description": "Personal news reader that brings people together to talk about the world",
@@ -3079,6 +3241,7 @@
     },
     {
         "Project": "Mautic",
+        "Reference": "mautic",
         "Website": "https://www.mautic.org/",
         "Repository Link": "https://github.com/mautic/mautic",
         "Description": "Open-source marketing automation software",
@@ -3098,6 +3261,7 @@
     },
     {
         "Project": "umbrelOS",
+        "Reference": "umbrel-os",
         "Website": "https://umbrel.com/",
         "Repository Link": "https://github.com/getumbrel/umbrel",
         "Description": "Beautiful home server OS for self-hosting with an app store",
@@ -3117,6 +3281,7 @@
     },
     {
         "Project": "LibrePhotos",
+        "Reference": "librephotos",
         "Website": "https://github.com/LibrePhotos/librephotos",
         "Repository Link": "https://github.com/LibrePhotos/librephotos",
         "Description": "Self-hosted open-source photo management service",
@@ -3136,6 +3301,7 @@
     },
     {
         "Project": "Grist",
+        "Reference": "grist",
         "Website": "https://www.getgrist.com/",
         "Repository Link": "https://github.com/gristlabs/grist-core",
         "Description": "Modern relational spreadsheets",
@@ -3155,6 +3321,7 @@
     },
     {
         "Project": "Grocy",
+        "Reference": "grocy",
         "Website": "https://grocy.info/",
         "Repository Link": "https://github.com/grocy/grocy",
         "Description": "Web-based groceries and household management solution for the home",
@@ -3174,6 +3341,7 @@
     },
     {
         "Project": "Miniflux",
+        "Reference": "miniflux",
         "Website": "https://miniflux.app/",
         "Repository Link": "https://github.com/miniflux/v2",
         "Description": "Minimalist and opinionated feed reader",
@@ -3193,6 +3361,7 @@
     },
     {
         "Project": "Quickwit",
+        "Reference": "quickwit",
         "Website": "https://quickwit.io/",
         "Repository Link": "https://github.com/quickwit-oss/quickwit",
         "Description": "Cloud-native search engine for observability",
@@ -3212,6 +3381,7 @@
     },
     {
         "Project": "HumHub",
+        "Reference": "humhub",
         "Website": "https://www.humhub.com/",
         "Repository Link": "https://github.com/humhub/humhub",
         "Description": "Open-source enterprise social network, knowledge database, intranet, and communication platform",
@@ -3231,6 +3401,7 @@
     },
     {
         "Project": "step-ca",
+        "Reference": "step-ca",
         "Website": "https://smallstep.com/certificates",
         "Repository Link": "https://github.com/smallstep/certificates",
         "Description": "Online certificate authority for secure, automated certificate management",
@@ -3250,6 +3421,7 @@
     },
     {
         "Project": "Linkwarden",
+        "Reference": "linkwarden",
         "Website": "https://linkwarden.app/",
         "Repository Link": "https://github.com/linkwarden/linkwarden",
         "Description": "Self-hosted collaborative bookmark manager for collecting, organizing, and preserving webpages and articles",
@@ -3269,6 +3441,7 @@
     },
     {
         "Project": "Pterodactyl",
+        "Reference": "pterodactyl",
         "Website": "https://pterodactyl.io/",
         "Repository Link": "https://github.com/pterodactyl/panel",
         "Description": "Open-source game server management panel",
@@ -3288,6 +3461,7 @@
     },
     {
         "Project": "Mumble",
+        "Reference": "mumble",
         "Website": "https://www.mumble.info/",
         "Repository Link": "https://github.com/mumble-voip/mumble",
         "Description": "Open-source, low-latency, high quality voice chat software",
@@ -3307,6 +3481,7 @@
     },
     {
         "Project": "PrivateBin",
+        "Reference": "privatebin",
         "Website": "https://privatebin.info/",
         "Repository Link": "https://github.com/PrivateBin/PrivateBin",
         "Description": "Minimalist, open-source online pastebin where the server has zero knowledge of pasted data",
@@ -3326,6 +3501,7 @@
     },
     {
         "Project": "FlareSolverr",
+        "Reference": "flaresolverr",
         "Website": "https://github.com/FlareSolverr/FlareSolverr",
         "Repository Link": "https://github.com/FlareSolverr/FlareSolverr",
         "Description": "Proxy server to bypass Cloudflare protection",
@@ -3345,6 +3521,7 @@
     },
     {
         "Project": "HeyForm",
+        "Reference": "heyform",
         "Website": "https://heyform.net/",
         "Repository Link": "https://github.com/heyform/heyform",
         "Description": "Open-source form builder that allows anyone to create engaging conversational forms for surveys, questionnaires, quizzes, and polls",
@@ -3364,6 +3541,7 @@
     },
     {
         "Project": "Neko",
+        "Reference": "neko",
         "Website": "https://neko.m1k1o.net/",
         "Repository Link": "https://github.com/m1k1o/neko",
         "Description": "Self-hosted virtual browser",
@@ -3383,6 +3561,7 @@
     },
     {
         "Project": "Roundcube",
+        "Reference": "roundcube",
         "Website": "https://roundcube.net/",
         "Repository Link": "https://github.com/roundcube/roundcubemail",
         "Description": "Browser-based multilingual IMAP client with an application-like user interface",
@@ -3402,6 +3581,7 @@
     },
     {
         "Project": "Gatus",
+        "Reference": "gatus",
         "Website": "https://gatus.io/",
         "Repository Link": "https://github.com/TwiN/gatus",
         "Description": "Automated developer-oriented status page",
@@ -3421,6 +3601,7 @@
     },
     {
         "Project": "Mailu",
+        "Reference": "maliu",
         "Website": "https://mailu.io/",
         "Repository Link": "https://github.com/Mailu/Mailu",
         "Description": "A simple yet full-featured mail server as a set of Docker images.",
@@ -3440,6 +3621,7 @@
     },
     {
         "Project": "AudioBookshelf",
+        "Reference": "audiobookshelf",
         "Website": "https://audiobookshelf.org/",
         "Repository Link": "https://github.com/advplyr/audiobookshelf",
         "Description": "Audiobook and podcast server",
@@ -3459,6 +3641,7 @@
     },
     {
         "Project": "Pixelfed",
+        "Reference": "pixelfed",
         "Website": "https://pixelfed.org/",
         "Repository Link": "https://github.com/pixelfed/pixelfed",
         "Description": "Free and ethical photo sharing platform, powered by ActivityPub federation",
@@ -3478,6 +3661,7 @@
     },
     {
         "Project": "Mealie",
+        "Reference": "mealie",
         "Website": "https://docs.mealie.io/",
         "Repository Link": "https://github.com/mealie-recipes/mealie",
         "Description": "A self hosted recipe manager and meal planner",
@@ -3497,6 +3681,7 @@
     },
     {
         "Project": "Tautulli",
+        "Reference": "tautulli",
         "Website": "https://tautulli.com/",
         "Repository Link": "https://github.com/Tautulli/Tautulli",
         "Description": "Monitoring and tracking tool for Plex Media Server",
@@ -3516,6 +3701,7 @@
     },
     {
         "Project": "Obtainium",
+        "Reference": "obtainium",
         "Website": "https://github.com/ImranR98/Obtainium",
         "Repository Link": "https://github.com/ImranR98/Obtainium",
         "Description": "Install and update apps directly from their release pages and receive notifications when updates are available",
@@ -3535,6 +3721,7 @@
     },
     {
         "Project": "SimpleX Chat",
+        "Reference": "simplex-chat",
         "Website": "https://simplex.chat/",
         "Repository Link": "https://github.com/simplex-chat/simplex-chat",
         "Description": "The first messaging network operating without user identifiers of any kind",
@@ -3554,6 +3741,7 @@
     },
     {
         "Project": "Rundeck",
+        "Reference": "rundeck",
         "Website": "http://rundeck.org/",
         "Repository Link": "https://github.com/rundeck/rundeck",
         "Description": "Open-source automation service with a web console, command line tools, and web API",
@@ -3573,6 +3761,7 @@
     },
     {
         "Project": "DocuSeal",
+        "Reference": "docuseal",
         "Website": "https://www.docuseal.co/",
         "Repository Link": "https://github.com/docusealco/docuseal",
         "Description": "Create, fill, and sign digital documents",
@@ -3592,6 +3781,7 @@
     },
     {
         "Project": "Kavita",
+        "Reference": "kavita",
         "Website": "http://www.kavitareader.com/",
         "Repository Link": "https://github.com/Kareadita/Kavita",
         "Description": "Fast and feature-rich cross-platform reading server",
@@ -3611,6 +3801,7 @@
     },
     {
         "Project": "CryptPad",
+        "Reference": "cryptpad",
         "Website": "https://cryptpad.org/",
         "Repository Link": "https://github.com/cryptpad/cryptpad",
         "Description": "End-to-end encrypted and open-source collaboration suite",
@@ -3630,6 +3821,7 @@
     },
     {
         "Project": "Homarr",
+        "Reference": "homarr",
         "Website": "https://homarr.dev/",
         "Repository Link": "https://github.com/ajnart/homarr",
         "Description": "Customizable home page with integration support for Docker containers",
@@ -3649,6 +3841,7 @@
     },
     {
         "Project": "linkding",
+        "Reference": "linkding",
         "Website": "https://github.com/sissbruecker/linkding",
         "Repository Link": "https://github.com/sissbruecker/linkding",
         "Description": "Self-hosted bookmark manager designed to be minimal, fast, and easy to set up",
@@ -3668,6 +3861,7 @@
     },
     {
         "Project": "Tandoor Recipes",
+        "Reference": "tandoor-recipes",
         "Website": "https://github.com/TandoorRecipes/recipes",
         "Repository Link": "https://github.com/TandoorRecipes/recipes",
         "Description": "Application for managing recipes, planning meals, building shopping lists and much much more",
@@ -3687,6 +3881,7 @@
     },
     {
         "Project": "Duplicacy",
+        "Reference": "duplicacy",
         "Website": "https://duplicacy.com/",
         "Repository Link": "https://github.com/gilbertchen/duplicacy",
         "Description": "New generation cross-platform cloud backup tool based on lock-free deduplication",
@@ -3706,6 +3901,7 @@
     },
     {
         "Project": "Standard Notes",
+        "Reference": "standard-notes",
         "Website": "https://standardnotes.com",
         "Repository Link": "https://github.com/standardnotes/app",
         "Description": "End-to-end encrypted note-taking app for digitalists and professionals",
@@ -3725,6 +3921,7 @@
     },
     {
         "Project": "Traccar",
+        "Reference": "traccar",
         "Website": "https://www.traccar.org/",
         "Repository Link": "https://github.com/traccar/traccar",
         "Description": "Open-source GPS tracking system",
@@ -3744,6 +3941,7 @@
     },
     {
         "Project": "Flame",
+        "Reference": "flame",
         "Website": "https://github.com/pawelmalak/flame",
         "Repository Link": "https://github.com/pawelmalak/flame",
         "Description": "Self-hosted start page for servers with support for applications and bookmarks",
@@ -3763,6 +3961,7 @@
     },
     {
         "Project": "ZoneMinder",
+        "Reference": "zoneminder",
         "Website": "http://www.zoneminder.com/",
         "Repository Link": "https://github.com/ZoneMinder/zoneminder",
         "Description": "Free, open-source closed-circuit television software application",
@@ -3782,6 +3981,7 @@
     },
     {
         "Project": "HedgeDoc",
+        "Reference": "hedgedoc",
         "Website": "https://hedgedoc.org/",
         "Repository Link": "https://github.com/hedgedoc/hedgedoc",
         "Description": "Real-time and collaborative Markdown notes",
@@ -3801,6 +4001,7 @@
     },
     {
         "Project": "Photoview",
+        "Reference": "photoview",
         "Website": "https://photoview.github.io/",
         "Repository Link": "https://github.com/photoview/photoview",
         "Description": "Photo gallery for self-hosted personal servers",
@@ -3820,6 +4021,7 @@
     },
     {
         "Project": "HAProxy",
+        "Reference": "haproxy",
         "Website": "https://www.haproxy.org/",
         "Repository Link": "https://github.com/haproxy/haproxy/",
         "Description": "Fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications",
@@ -3839,6 +4041,7 @@
     },
     {
         "Project": "Dozzle",
+        "Reference": "dozzle",
         "Website": "https://dozzle.dev/",
         "Repository Link": "https://github.com/amir20/dozzle",
         "Description": "Real-time log viewer for Docker containers",
@@ -3858,6 +4061,7 @@
     },
     {
         "Project": "Passbolt",
+        "Reference": "passbolt",
         "Website": "https://passbolt.com/",
         "Repository Link": "https://github.com/passbolt/passbolt_api",
         "Description": "Open-source password manager for teams",
@@ -3877,6 +4081,7 @@
     },
     {
         "Project": "OneUptime",
+        "Reference": "oneuptime",
         "Website": "https://oneuptime.com/",
         "Repository Link": "https://github.com/oneuptime/oneuptime",
         "Description": "Complete open-source observability platform",
@@ -3896,6 +4101,7 @@
     },
     {
         "Project": "Blocky",
+        "Reference": "blocky",
         "Website": "https://0xerr0r.github.io/blocky/",
         "Repository Link": "https://github.com/0xERR0R/blocky",
         "Description": "DNS proxy and ad-blocker for local networks",
@@ -3915,6 +4121,7 @@
     },
     {
         "Project": "Zammad",
+        "Reference": "zammad",
         "Website": "https://zammad.org/",
         "Repository Link": "https://github.com/zammad/zammad",
         "Description": "Web-based open-source helpdesk/customer support system",
@@ -3934,6 +4141,7 @@
     },
     {
         "Project": "WriteFreely",
+        "Reference": "writefreely",
         "Website": "https://writefreely.org/",
         "Repository Link": "https://github.com/writefreely/writefreely",
         "Description": "Clean, Markdown-based publishing platform made for writers",
@@ -3953,6 +4161,7 @@
     },
     {
         "Project": "Tube Archivist",
+        "Reference": "tube-archivist",
         "Website": "https://www.tubearchivist.com/",
         "Repository Link": "https://github.com/tubearchivist/tubearchivist",
         "Description": "Self-hosted YouTube media server",
@@ -3972,6 +4181,7 @@
     },
     {
         "Project": "WeTTY",
+        "Reference": "wetty",
         "Website": "https://butlerx.github.io/wetty",
         "Repository Link": "https://github.com/butlerx/wetty",
         "Description": "Terminal access in browser over HTTP/HTTPS",
@@ -3991,6 +4201,7 @@
     },
     {
         "Project": "Leantime",
+        "Reference": "leantime",
         "Website": "https://leantime.io/",
         "Repository Link": "https://github.com/Leantime/leantime",
         "Description": "Goals-focused project management system for non-project managers",
@@ -4010,6 +4221,7 @@
     },
     {
         "Project": "Automatisch",
+        "Reference": "automatisch",
         "Website": "https://automatisch.io/",
         "Repository Link": "https://github.com/automatisch/automatisch",
         "Description": "Automation tool for business processes and workflows",
@@ -4029,6 +4241,7 @@
     },
     {
         "Project": "DokuWiki",
+        "Reference": "dokuwiki",
         "Website": "http://www.dokuwiki.org/",
         "Repository Link": "https://github.com/dokuwiki/dokuwiki",
         "Description": "Open-source wiki engine",
@@ -4048,6 +4261,7 @@
     },
     {
         "Project": "Zabbix",
+        "Reference": "zabbix",
         "Website": "https://www.zabbix.com/",
         "Repository Link": "https://github.com/zabbix/zabbix",
         "Description": "Real-time monitoring of IT components and services including networks, servers, VMs, applications, and the cloud",
@@ -4067,6 +4281,7 @@
     },
     {
         "Project": "GLPI",
+        "Reference": "glpi",
         "Website": "https://glpi-project.org/",
         "Repository Link": "https://github.com/glpi-project/glpi",
         "Description": "Asset and IT management software package, data center management, service desk, license tracking, and software auditing",
@@ -4086,6 +4301,7 @@
     },
     {
         "Project": "Scrypted",
+        "Reference": "scrypted",
         "Website": "https://scrypted.app/",
         "Repository Link": "https://github.com/koush/scrypted",
         "Description": "Home video integration and automation platform",
@@ -4105,6 +4321,7 @@
     },
     {
         "Project": "Dim",
+        "Reference": "dim",
         "Website": "https://github.com/Dusk-Labs/dim",
         "Repository Link": "https://github.com/Dusk-Labs/dim",
         "Description": "Media manager and organizer with a minimal setup",
@@ -4124,6 +4341,7 @@
     },
     {
         "Project": "MeTube",
+        "Reference": "metube",
         "Website": "https://github.com/alexta69/metube",
         "Repository Link": "https://github.com/alexta69/metube",
         "Description": "Web UI for YouTube-DL",
@@ -4143,6 +4361,7 @@
     },
     {
         "Project": "EverShop",
+        "Reference": "evershop",
         "Website": "https://evershop.io/",
         "Repository Link": "https://github.com/evershopcommerce/evershop",
         "Description": "Modular and fully customizable e-commerce platform",
@@ -4162,6 +4381,7 @@
     },
     {
         "Project": "Obsidian LiveSync",
+        "Reference": "obsidian-livesync",
         "Website": "https://github.com/vrtmrz/obsidian-livesync",
         "Repository Link": "https://github.com/vrtmrz/obsidian-livesync",
         "Description": "Community-implemented sync plugin for Obsidian",
@@ -4181,6 +4401,7 @@
     },
     {
         "Project": "Ombi",
+        "Reference": "ombi",
         "Website": "http://ombi.io/",
         "Repository Link": "https://github.com/Ombi-app/Ombi",
         "Description": "Friendly media request tool with media server sync support",
@@ -4200,6 +4421,7 @@
     },
     {
         "Project": "lldap",
+        "Reference": "lldap",
         "Website": "https://github.com/lldap/lldap",
         "Repository Link": "https://github.com/lldap/lldap",
         "Description": "Lightweight LDAP implementation",
@@ -4219,6 +4441,7 @@
     },
     {
         "Project": "Restreamer",
+        "Reference": "restreamer",
         "Website": "https://github.com/datarhei/restreamer",
         "Repository Link": "https://github.com/datarhei/restreamer",
         "Description": "Complete streaming server solution for self-hosting with a visually appearing interface and no ongoing license costs",
@@ -4238,6 +4461,7 @@
     },
     {
         "Project": "Prowlarr",
+        "Reference": "prowlarr",
         "Website": "https://github.com/prowlarr/prowlarr",
         "Repository Link": "https://github.com/prowlarr/prowlarr",
         "Description": "Indexer manager/proxy with integration with the various *arr apps",
@@ -4257,6 +4481,7 @@
     },
     {
         "Project": "Librum",
+        "Reference": "librum",
         "Website": "https://librumreader.com/",
         "Repository Link": "https://github.com/Librum-Reader/Librum",
         "Description": "Application designed to make reading enjoyable and straightforward for everyone",
@@ -4276,6 +4501,7 @@
     },
     {
         "Project": "BunkerWeb",
+        "Reference": "bunkerweb",
         "Website": "https://www.bunkerweb.io/",
         "Repository Link": "https://github.com/bunkerity/bunkerweb",
         "Description": "Next-generation and open-source web application firewall",
@@ -4295,6 +4521,7 @@
     },
     {
         "Project": "GoToSocial",
+        "Reference": "gotosocial",
         "Website": "https://docs.gotosocial.org/",
         "Repository Link": "https://github.com/superseriousbusiness/gotosocial",
         "Description": "Fast, fun, small ActivityPub server",
@@ -4314,6 +4541,7 @@
     },
     {
         "Project": "Komga",
+        "Reference": "komga",
         "Website": "https://komga.org/",
         "Repository Link": "https://github.com/gotson/komga",
         "Description": "Media server for comics, manga, magazines, and books with API and OPDS support",
@@ -4333,6 +4561,7 @@
     },
     {
         "Project": "MeshCentral",
+        "Reference": "meshcentral",
         "Website": "https://meshcentral.com/",
         "Repository Link": "https://github.com/Ylianst/MeshCentral",
         "Description": "A complete web-based remote monitoring and management web site",
@@ -4352,6 +4581,7 @@
     },
     {
         "Project": "Ampache",
+        "Reference": "ampache",
         "Website": "http://ampache.org/",
         "Repository Link": "https://github.com/ampache/ampache",
         "Description": "Web-based audio and video streaming application and file manager",
@@ -4371,6 +4601,7 @@
     },
     {
         "Project": "Overseerr",
+        "Reference": "overseerr",
         "Website": "https://overseerr.dev/",
         "Repository Link": "https://github.com/sct/overseerr",
         "Description": "Request management and media discovery tool for the Plex ecosystem",
@@ -4390,6 +4621,7 @@
     },
     {
         "Project": "Lidarr",
+        "Reference": "lidarr",
         "Website": "http://lidarr.audio/",
         "Repository Link": "https://github.com/Lidarr/Lidarr",
         "Description": "Music collection and download manager",
@@ -4409,6 +4641,7 @@
     },
     {
         "Project": "PairDrop",
+        "Reference": "pairdrop",
         "Website": "https://pairdrop.net/",
         "Repository Link": "https://github.com/schlagmichdoch/pairdrop",
         "Description": "Local file sharing in your browser inspired by Apple's AirDrop",
@@ -4428,6 +4661,7 @@
     },
     {
         "Project": "Shaarli",
+        "Reference": "shaarli",
         "Website": "https://shaarli.readthedocs.io/",
         "Repository Link": "https://github.com/shaarli/Shaarli",
         "Description": "Personal, minimalist, super-fast, database free, bookmarking service",
@@ -4447,6 +4681,7 @@
     },
     {
         "Project": "Stalwart Mail Server",
+        "Reference": "stalwart-mail-server",
         "Website": "https://stalw.art/",
         "Repository Link": "https://github.com/stalwartlabs/mail-server",
         "Description": "Secure and modern all-in-one mail server",
@@ -4466,6 +4701,7 @@
     },
     {
         "Project": "pyLoad",
+        "Reference": "pyload",
         "Website": "https://pyload.net/",
         "Repository Link": "https://github.com/pyload/pyload",
         "Description": "Free and open-source download manager",
@@ -4485,6 +4721,7 @@
     },
     {
         "Project": "Yacht",
+        "Reference": "yacht",
         "Website": "https://yacht.sh/",
         "Repository Link": "https://github.com/SelfhostedPro/Yacht",
         "Description": "Web interface for managing docker containers with an emphasis on templating to provide 1-click deployments",
@@ -4504,6 +4741,7 @@
     },
     {
         "Project": "Radicale",
+        "Reference": "radicale",
         "Website": "https://radicale.org/",
         "Repository Link": "https://github.com/Kozea/Radicale",
         "Description": "Simple CalDAV and CardDAV server",
@@ -4523,6 +4761,7 @@
     },
     {
         "Project": "Lychee",
+        "Reference": "lychee",
         "Website": "https://lycheeorg.github.io/",
         "Repository Link": "https://github.com/LycheeOrg/Lychee",
         "Description": "Easy-to-use photo management system for managing and sharing photos",
@@ -4542,6 +4781,7 @@
     },
     {
         "Project": "Rallly",
+        "Reference": "rallly",
         "Website": "https://rallly.co/",
         "Repository Link": "https://github.com/lukevella/rallly",
         "Description": "Event polls for scheduling and organizing events",
@@ -4561,6 +4801,7 @@
     },
     {
         "Project": "Piwigo",
+        "Reference": "piwigo",
         "Website": "https://piwigo.org/",
         "Repository Link": "https://github.com/Piwigo/Piwigo",
         "Description": "Full-featured open source photo gallery application for the web",
@@ -4580,6 +4821,7 @@
     },
     {
         "Project": "AnonAddy",
+        "Reference": "anonaddy",
         "Website": "https://addy.io/",
         "Repository Link": "https://github.com/anonaddy/anonaddy",
         "Description": "Anonymous e-mail forwarding",
@@ -4599,6 +4841,7 @@
     },
     {
         "Project": "OPNsense",
+        "Reference": "opnsense",
         "Website": "https://opnsense.org/",
         "Repository Link": "https://github.com/opnsense/core",
         "Description": "Open-source, FreeBSD-based firewall and routing software",
@@ -4618,6 +4861,7 @@
     },
     {
         "Project": "Pinry",
+        "Reference": "pinry",
         "Website": "https://docs.getpinry.com/",
         "Repository Link": "https://github.com/pinry/pinry",
         "Description": "Tiling image board system for people who want to save, tag, and share images, videos, and webpages",
@@ -4637,6 +4881,7 @@
     },
     {
         "Project": "Jellyseerr",
+        "Reference": "jellyseerr",
         "Website": "https://github.com/Fallenbagel/jellyseerr",
         "Repository Link": "https://github.com/Fallenbagel/jellyseerr",
         "Description": "Fork of Overseerr with support for Jellyfin",
@@ -4656,6 +4901,7 @@
     },
     {
         "Project": "Guacamole",
+        "Reference": "guacamole",
         "Website": "https://guacamole.apache.org/",
         "Repository Link": "https://github.com/apache/guacamole-server",
         "Description": "Clientless remote desktop gateway",
@@ -4675,6 +4921,7 @@
     },
     {
         "Project": "Shlink",
+        "Reference": "shlink",
         "Website": "https://shlink.io/",
         "Repository Link": "https://github.com/shlinkio/shlink",
         "Description": "The definitive self-hosted URL shortener",
@@ -4694,6 +4941,7 @@
     },
     {
         "Project": "wger",
+        "Reference": "wger",
         "Website": "https://wger.de/",
         "Repository Link": "https://github.com/wger-project/wger",
         "Description": "Fitness, workout, nutrition, and weight tracker",
@@ -4713,6 +4961,7 @@
     },
     {
         "Project": "Unbound",
+        "Reference": "unbound",
         "Website": "https://nlnetlabs.nl/unbound",
         "Repository Link": "https://github.com/NLnetLabs/unbound",
         "Description": "Validating, recursive, and caching DNS resolver",
@@ -4732,6 +4981,7 @@
     },
     {
         "Project": "Memories",
+        "Reference": "memories",
         "Website": "https://memories.gallery/",
         "Repository Link": "https://github.com/pulsejet/memories",
         "Description": "Fast, modern, and advanced photo management Nextcloud app",
@@ -4751,6 +5001,7 @@
     },
     {
         "Project": "Cosmos",
+        "Reference": "cosmos",
         "Website": "https://cosmos-cloud.io/",
         "Repository Link": "https://github.com/azukaar/cosmos-Server",
         "Description": "Home server application gateway and manager",
@@ -4770,6 +5021,7 @@
     },
     {
         "Project": "Tvheadend",
+        "Reference": "tvheadend",
         "Website": "https://tvheadend.org/",
         "Repository Link": "https://github.com/tvheadend/tvheadend",
         "Description": "TV streaming server and digital video recorder",
@@ -4789,6 +5041,7 @@
     },
     {
         "Project": "OhMyForm",
+        "Reference": "ohmyform",
         "Website": "https://ohmyform.com/",
         "Repository Link": "https://github.com/ohmyform/ohmyform",
         "Description": "Free, open-source forms survey",
@@ -4808,6 +5061,7 @@
     },
     {
         "Project": "yarr",
+        "Reference": "yarr",
         "Website": "https://github.com/nkanaev/yarr",
         "Repository Link": "https://github.com/nkanaev/yarr",
         "Description": "Web-based feed aggregator",
@@ -4827,6 +5081,7 @@
     },
     {
         "Project": "Tdarr",
+        "Reference": "tdarr",
         "Website": "https://github.com/HaveAGitGat/Tdarr",
         "Repository Link": "https://github.com/HaveAGitGat/Tdarr",
         "Description": "Distributed transcode automation",
@@ -4846,6 +5101,7 @@
     },
     {
         "Project": "Diun",
+        "Reference": "diun",
         "Website": "https://crazymax.dev/diun/",
         "Repository Link": "https://github.com/crazy-max/diun",
         "Description": "Receive notifications when an image is updated on a Docker registry",
@@ -4865,6 +5121,7 @@
     },
     {
         "Project": "Actual Budget",
+        "Reference": "actual-budget",
         "Website": "https://actualbudget.org/",
         "Repository Link": "https://github.com/actualbudget/actual-server",
         "Description": "A super fast privacy-focused app for managing your finances",
@@ -4884,6 +5141,7 @@
     },
     {
         "Project": "LimeSurvey",
+        "Reference": "limesurvey",
         "Website": "https://www.limesurvey.org/",
         "Repository Link": "https://github.com/LimeSurvey/LimeSurvey",
         "Description": "Open-source survey software with advanced features",
@@ -4903,6 +5161,7 @@
     },
     {
         "Project": "Bazarr",
+        "Reference": "bazarr",
         "Website": "https://www.bazarr.media/",
         "Repository Link": "https://github.com/morpheus65535/bazarr",
         "Description": "Subtitle manager and downloader with *arr integration",
@@ -4922,6 +5181,7 @@
     },
     {
         "Project": "MiroTalk",
+        "Reference": "mirotalk",
         "Website": "https://p2p.mirotalk.com/",
         "Repository Link": "https://github.com/miroslavpejic85/mirotalk",
         "Description": "Simple, secure, and fast real-time video conferences",
@@ -4941,6 +5201,7 @@
     },
     {
         "Project": "OpenSign",
+        "Reference": "opensign",
         "Website": "https://www.opensignlabs.com/",
         "Repository Link": "https://github.com/OpenSignLabs/OpenSign",
         "Description": "The open-source document e-signing solution",
@@ -4960,6 +5221,7 @@
     },
     {
         "Project": "Readarr",
+        "Reference": "readarr",
         "Website": "http://readarr.com/",
         "Repository Link": "https://github.com/Readarr/Readarr",
         "Description": "Book manager and automation tool",
@@ -4979,6 +5241,7 @@
     },
     {
         "Project": "Your Spotify",
+        "Reference": "your-spotify",
         "Website": "https://github.com/Yooooomi/your_spotify",
         "Repository Link": "https://github.com/Yooooomi/your_spotify",
         "Description": "Self-hosted Spotify tracking dashboard",
@@ -4998,6 +5261,7 @@
     },
     {
         "Project": "Homebox",
+        "Reference": "homebox",
         "Website": "https://hay-kot.github.io/homebox/",
         "Repository Link": "https://github.com/hay-kot/homebox",
         "Description": "Inventory and organization system built for home users",
@@ -5017,6 +5281,7 @@
     },
     {
         "Project": "LinkAce",
+        "Reference": "linkace",
         "Website": "https://www.linkace.org/",
         "Repository Link": "https://github.com/Kovah/LinkAce",
         "Description": "Self-hosted archive for collecting links to your favorite websites and pages",
@@ -5036,6 +5301,7 @@
     },
     {
         "Project": "YoutubeDL-Material",
+        "Reference": "youtubedl-material",
         "Website": "https://github.com/Tzahi12345/YoutubeDL-Material",
         "Repository Link": "https://github.com/Tzahi12345/YoutubeDL-Material",
         "Description": "Self-hosted YouTube downloader built on Material Design",
@@ -5055,6 +5321,7 @@
     },
     {
         "Project": "Willow",
+        "Reference": "willow",
         "Website": "https://heywillow.io/",
         "Repository Link": "https://github.com/toverainc/willow",
         "Description": "Open-source, local, and self-hosted voice assistant alternative",
@@ -5074,6 +5341,7 @@
     },
     {
         "Project": "MediaCMS",
+        "Reference": "mediacms",
         "Website": "https://mediacms.io/",
         "Repository Link": "https://github.com/mediacms-io/mediacms",
         "Description": "A modern, fully featured open source video and media CMS",
@@ -5093,6 +5361,7 @@
     },
     {
         "Project": "Baikal",
+        "Reference": "baikal",
         "Website": "https://sabre.io/baikal/",
         "Repository Link": "https://github.com/sabre-io/Baikal",
         "Description": "Calendar and contacts server",
@@ -5112,6 +5381,7 @@
     },
     {
         "Project": "Papermerge",
+        "Reference": "papermerge",
         "Website": "https://papermerge.com/",
         "Repository Link": "https://github.com/ciur/papermerge",
         "Description": "Open-source document management system for digital archives and scanned documents",
@@ -5131,6 +5401,7 @@
     },
     {
         "Project": "Kometa",
+        "Reference": "kometa",
         "Website": "https://kometa.wiki/en/latest/",
         "Repository Link": "https://github.com/Kometa-Team/Kometa",
         "Description": "Python script to update metadata information for items in Plex as well as automatically build collections and playlists",
@@ -5150,6 +5421,7 @@
     },
     {
         "Project": "Rhasspy",
+        "Reference": "rhasspy",
         "Website": "https://community.rhasspy.org/",
         "Repository Link": "https://github.com/rhasspy/rhasspy",
         "Description": "Offline private voice assistant for many human languages",
@@ -5169,6 +5441,7 @@
     },
     {
         "Project": "Papermark",
+        "Reference": "papermark",
         "Website": "https://papermark.io/",
         "Repository Link": "https://github.com/mfts/papermark",
         "Description": "Open-source document sharing with built-in analytics and custom domains",
@@ -5188,6 +5461,7 @@
     },
     {
         "Project": "Kanidm",
+        "Reference": "kanidm",
         "Website": "https://kanidm.com/",
         "Repository Link": "https://github.com/kanidm/kanidm",
         "Description": "Modern and simple identity management platform",
@@ -5207,6 +5481,7 @@
     },
     {
         "Project": "Kill-the-Newsletter",
+        "Reference": "kill-the-newsletter",
         "Website": "https://kill-the-newsletter.com/",
         "Repository Link": "https://github.com/leafac/kill-the-newsletter",
         "Description": "Convert email newsletters into Atom feeds",
@@ -5226,6 +5501,7 @@
     },
     {
         "Project": "MicroBin",
+        "Reference": "microbin",
         "Website": "https://microbin.eu/",
         "Repository Link": "https://github.com/szabodanika/microbin",
         "Description": "A secure, configurable file-sharing and URL shortening web app",
@@ -5245,6 +5521,7 @@
     },
     {
         "Project": "Bigcapital",
+        "Reference": "bigcapital",
         "Website": "https://bigcapital.ly/",
         "Repository Link": "https://github.com/bigcapitalhq/bigcapital",
         "Description": "Financial accounting with intelligent reporting",
@@ -5264,6 +5541,7 @@
     },
     {
         "Project": "Pingvin Share",
+        "Reference": "pingvin-share",
         "Website": "https://github.com/stonith404/pingvin-share",
         "Repository Link": "https://github.com/stonith404/pingvin-share",
         "Description": "File sharing platform combining lightness and beauty",
@@ -5283,6 +5561,7 @@
     },
     {
         "Project": "Sshwifty",
+        "Reference": "sshwifty",
         "Website": "https://github.com/nirui/sshwifty",
         "Repository Link": "https://github.com/nirui/sshwifty",
         "Description": "Web SSH & Telnet client",
@@ -5302,6 +5581,7 @@
     },
     {
         "Project": "ddclient",
+        "Reference": "ddclient",
         "Website": "https://ddclient.net/",
         "Repository Link": "https://github.com/ddclient/ddclient",
         "Description": "Update dynamic DNS entries for accounts on a wide range of dynamic DNS services",
@@ -5321,6 +5601,7 @@
     },
     {
         "Project": "LinkStack",
+        "Reference": "linkstack",
         "Website": "https://linkstack.org/",
         "Repository Link": "https://github.com/LinkStackOrg/LinkStack",
         "Description": "The ultimate solution for creating a personalized and professional profile page and link aggregator",
@@ -5340,6 +5621,7 @@
     },
     {
         "Project": "Bitmagnet",
+        "Reference": "bitmagnet",
         "Website": "https://bitmagnet.io/",
         "Repository Link": "https://github.com/bitmagnet-io/bitmagnet",
         "Description": "BitTorrent indexer, DHT crawler, and torrent search engine",
@@ -5359,6 +5641,7 @@
     },
     {
         "Project": "SilverBullet",
+        "Reference": "silverbullet",
         "Website": "https://silverbullet.md/",
         "Repository Link": "https://github.com/silverbulletmd/silverbullet",
         "Description": "Note-taking application optimized for people with a hacker mindset",
@@ -5378,6 +5661,7 @@
     },
     {
         "Project": "Baserow",
+        "Reference": "baserow",
         "Website": "https://baserow.io/",
         "Repository Link": "https://gitlab.com/baserow/baserow",
         "Description": "Open platform for creating scalable databases and applications without coding",
@@ -5397,6 +5681,7 @@
     },
     {
         "Project": "Requestly",
+        "Reference": "requestly",
         "Website": "https://requestly.com/",
         "Repository Link": "https://github.com/requestly/requestly",
         "Description": "Developer tool for frontend developers and QAs to build, test, and debug web apps faster by intercepting and modifying network traffic",
@@ -5416,6 +5701,7 @@
     },
     {
         "Project": "KrakenD",
+        "Reference": "krakend-ce",
         "Website": "https://www.krakend.io/",
         "Repository Link": "https://github.com/krakend/krakend-ce",
         "Description": "Extensible, high performance API gateway for adopting microservices and secure communications",
@@ -5435,6 +5721,7 @@
     },
     {
         "Project": "Wallos",
+        "Reference": "wallos",
         "Website": "https://github.com/ellite/Wallos",
         "Repository Link": "https://github.com/ellite/Wallos",
         "Description": "Open-source personal subscription tracker",
@@ -5454,6 +5741,7 @@
     },
     {
         "Project": "NetAlertX",
+        "Reference": "netalertx",
         "Website": "https://github.com/jokob-sk/NetAlertX",
         "Repository Link": "https://github.com/jokob-sk/NetAlertX",
         "Description": "Scans for devices connected to your network and alerts you if new and unknown devices are found",
@@ -5473,6 +5761,7 @@
     },
     {
         "Project": "UpSnap",
+        "Reference": "upsnap",
         "Website": "https://github.com/seriousm4x/UpSnap",
         "Repository Link": "https://github.com/seriousm4x/UpSnap",
         "Description": "Simple Wake-on-LAN application",
@@ -5492,6 +5781,7 @@
     },
     {
         "Project": "Parseable",
+        "Reference": "parseable",
         "Website": "https://parseable.com/",
         "Repository Link": "https://github.com/parseablehq/parseable",
         "Description": "Log analytics system for high throughput log ingestion",
@@ -5511,6 +5801,7 @@
     },
     {
         "Project": "Medusa",
+        "Reference": "pymedusa",
         "Website": "https://pymedusa.com/",
         "Repository Link": "https://github.com/pymedusa/Medusa",
         "Description": "Automatic video library manager for TV shows",
@@ -5530,6 +5821,7 @@
     },
     {
         "Project": "Password Pusher",
+        "Reference": "password-pusher",
         "Website": "https://pwpush.com/",
         "Repository Link": "https://github.com/pglombardo/PasswordPusher",
         "Description": "Application for securely communicating passwords over the web",
@@ -5549,6 +5841,7 @@
     },
     {
         "Project": "OliveTin",
+        "Reference": "olivetin",
         "Website": "https://olivetin.app/",
         "Repository Link": "https://github.com/OliveTin/OliveTin",
         "Description": "Safe and simple access to pre-defined shell commands from a web interface",
@@ -5568,6 +5861,7 @@
     },
     {
         "Project": "Zoraxy",
+        "Reference": "zoraxy",
         "Website": "https://zoraxy.arozos.com/",
         "Repository Link": "https://github.com/tobychui/zoraxy",
         "Description": "General purpose reverse proxy and forwarding tool for networking noobs",
@@ -5587,6 +5881,7 @@
     },
     {
         "Project": "2FAuth",
+        "Reference": "2fauth",
         "Website": "https://docs.2fauth.app/",
         "Repository Link": "https://github.com/Bubka/2FAuth",
         "Description": "Two-factor authentication account management and security code generator",
@@ -5606,6 +5901,7 @@
     },
     {
         "Project": "PiGallery2",
+        "Reference": "pigallery2",
         "Website": "http://bpatrik.github.io/pigallery2/",
         "Repository Link": "https://github.com/bpatrik/pigallery2",
         "Description": "A fast directory-first photo gallery website, with rich UI, optimized for running on low resource servers",
@@ -5625,6 +5921,7 @@
     },
     {
         "Project": "Grimoire",
+        "Reference": "grimoire",
         "Website": "https://grimoire.pro/",
         "Repository Link": "https://github.com/goniszewski/grimoire",
         "Description": "Bookmark manager for wizards",
@@ -5644,6 +5941,7 @@
     },
     {
         "Project": "Peppermint",
+        "Reference": "peppermint",
         "Website": "https://peppermint.sh/",
         "Repository Link": "https://github.com/Peppermint-Lab/peppermint",
         "Description": "Open-source ticket management and help desk solution",
@@ -5663,6 +5961,7 @@
     },
     {
         "Project": "Undb",
+        "Reference": "undb",
         "Website": "https://www.undb.xyz/",
         "Repository Link": "https://github.com/undb-xyz/undb",
         "Description": "Private first, unified, self-hosted no code database",
@@ -5682,6 +5981,7 @@
     },
     {
         "Project": "Ryot",
+        "Reference": "ryot",
         "Website": "https://ryot.fly.dev/",
         "Repository Link": "https://github.com/IgnisDa/ryot",
         "Description": "A self-hosted platform for tracking various facets of your life",
@@ -5701,6 +6001,7 @@
     },
     {
         "Project": "Docker Volume Backup",
+        "Reference": "docker-volume-backup",
         "Website": "https://offen.github.io/docker-volume-backup/",
         "Repository Link": "https://github.com/offen/docker-volume-backup",
         "Description": "Backup Docker volumes locally or to a number of compatible storage protocols",
@@ -5720,6 +6021,7 @@
     },
     {
         "Project": "Podgrab",
+        "Reference": "podgrab",
         "Website": "https://github.com/akhilrex/podgrab",
         "Repository Link": "https://github.com/akhilrex/podgrab",
         "Description": "Self-hosted podcast manager/downloader/archiver tool to download podcast episodes with an integrated player",
@@ -5739,6 +6041,7 @@
     },
     {
         "Project": "Saltcorn",
+        "Reference": "saltcorn",
         "Website": "https://saltcorn.com/",
         "Repository Link": "https://github.com/saltcorn/saltcorn",
         "Description": "Extensible open-source no-code database application builder",
@@ -5758,6 +6061,7 @@
     },
     {
         "Project": "Webtop",
+        "Reference": "linuxserver-webtop",
         "Website": "https://docs.linuxserver.io/images/docker-webtop/",
         "Repository Link": "https://github.com/linuxserver/docker-webtop",
         "Description": "Linux containers containing full desktop environments in officially supported flavors accessible via any modern web browser",
@@ -5777,6 +6081,7 @@
     },
     {
         "Project": "Docspell",
+        "Reference": "docspell",
         "Website": "https://docspell.org/",
         "Repository Link": "https://github.com/eikek/docspell",
         "Description": "Organize documents sourced from scanners, e-mail, and other sources",
@@ -5796,6 +6101,7 @@
     },
     {
         "Project": "sabre/dav",
+        "Reference": "sabre-dav",
         "Website": "http://sabre.io/",
         "Repository Link": "https://github.com/sabre-io/dav",
         "Description": "CalDAV, CardDAV, and WebDAV framework",
@@ -5815,6 +6121,7 @@
     },
     {
         "Project": "EteSync",
+        "Reference": "etesync",
         "Website": "https://www.etesync.com/",
         "Repository Link": "https://github.com/etesync/server",
         "Description": "Secure syncing for contacts, calendars, tasks, and notes",
@@ -5834,6 +6141,7 @@
     },
     {
         "Project": "Viseron",
+        "Reference": "viseron",
         "Website": "https://github.com/roflcoopter/viseron",
         "Repository Link": "https://github.com/roflcoopter/viseron",
         "Description": "Self-hosted, local only NVR and AI computer vision software",
@@ -5853,6 +6161,7 @@
     },
     {
         "Project": "SecureAI Tools",
+        "Reference": "secureai-tools",
         "Website": "https://github.com/SecureAI-Tools/SecureAI-Tools",
         "Repository Link": "https://github.com/SecureAI-Tools/SecureAI-Tools",
         "Description": "Private and secure AI tools for everyone's productivity",
@@ -5872,6 +6181,7 @@
     },
     {
         "Project": "Podsync",
+        "Reference": "podsync",
         "Website": "https://github.com/mxpv/podsync",
         "Repository Link": "https://github.com/mxpv/podsync",
         "Description": "Turn Youtube and Vimeo channels, users, and playlists into podcast feeds",
@@ -5891,6 +6201,7 @@
     },
     {
         "Project": "Fasten Health",
+        "Reference": "fasten-health",
         "Website": "https://github.com/fastenhealth/fasten-onprem",
         "Repository Link": "https://github.com/fastenhealth/fasten-onprem",
         "Description": "Open-source personal medical record aggregator with provider integration",
@@ -5910,6 +6221,7 @@
     },
     {
         "Project": "DDNS Updater",
+        "Reference": "ddns-updater",
         "Website": "https://github.com/qdm12/ddns-updater",
         "Repository Link": "https://github.com/qdm12/ddns-updater",
         "Description": "Periodic DNS record updates across a number of DNS providers",
@@ -5929,6 +6241,7 @@
     },
     {
         "Project": "RomM",
+        "Reference": "romm",
         "Website": "https://romm.website/",
         "Repository Link": "https://github.com/rommapp/romm",
         "Description": "Beautiful, powerful, self-hosted ROM manager",
@@ -5948,6 +6261,7 @@
     },
     {
         "Project": "Damselfly",
+        "Reference": "damselfly",
         "Website": "https://github.com/webreaper/damselfly",
         "Repository Link": "https://github.com/webreaper/damselfly",
         "Description": "Server-based photograph management app",
@@ -5967,6 +6281,7 @@
     },
     {
         "Project": "Forgejo",
+        "Reference": "forgejo",
         "Website": "https://forgejo.org/",
         "Repository Link": "https://codeberg.org/forgejo/forgejo",
         "Description": "Lightweight software forge",
@@ -5986,6 +6301,7 @@
     },
     {
         "Project": "ProjectSend",
+        "Reference": "projectsend",
         "Website": "https://www.projectsend.org/",
         "Repository Link": "https://github.com/projectsend/projectsend",
         "Description": "Free, open-source software that lets you share files with your clients, focused on ease of use and privacy",
@@ -6005,6 +6321,7 @@
     },
     {
         "Project": "Statping-ng",
+        "Reference": "statping-ng",
         "Website": "https://statping-ng.github.io/",
         "Repository Link": "https://github.com/statping-ng/statping-ng",
         "Description": "Easy-to-use status page for websites and applications",
@@ -6024,6 +6341,7 @@
     },
     {
         "Project": "Slash",
+        "Reference": "slash",
         "Website": "https://github.com/yourselfhosted/slash",
         "Repository Link": "https://github.com/yourselfhosted/slash",
         "Description": "Open-source, self-hosted links shortener and sharing platform",
@@ -6043,6 +6361,7 @@
     },
     {
         "Project": "ShellHub",
+        "Reference": "shellhub",
         "Website": "https://shellhub.io/",
         "Repository Link": "https://github.com/shellhub-io/shellhub",
         "Description": "Centralized SSH gateway that allows users to remotely access and manage their services from anywhere",
@@ -6062,6 +6381,7 @@
     },
     {
         "Project": "SerpBear",
+        "Reference": "serpbear",
         "Website": "https://docs.serpbear.com/",
         "Repository Link": "https://github.com/towfiqi/serpbear",
         "Description": "Open-source search engine position tracking and keyword research app",
@@ -6081,6 +6401,7 @@
     },
     {
         "Project": "SmokePing",
+        "Reference": "smokeping",
         "Website": "http://www.smokeping.org/",
         "Repository Link": "https://github.com/oetiker/SmokePing",
         "Description": "Latency logging, graphing, and alerts",
@@ -6100,6 +6421,7 @@
     },
     {
         "Project": "Hoarder",
+        "Reference": "hoarder",
         "Website": "https://hoarder.app/",
         "Repository Link": "https://github.com/MohamedBassem/hoarder-app",
         "Description": "Self-hosted bookmark-everything app with a touch of AI for data hoarders",
@@ -6119,6 +6441,7 @@
     },
     {
         "Project": "Docker Socket Proxy",
+        "Reference": "docker-socket-proxy",
         "Website": "https://github.com/Tecnativa/docker-socket-proxy",
         "Repository Link": "https://github.com/Tecnativa/docker-socket-proxy",
         "Description": "Docker socket proxy for restricting requests to the Docker API",
@@ -6138,6 +6461,7 @@
     },
     {
         "Project": "ownCloud Infinite Scale",
+        "Reference": "owncloud-infinite-scale",
         "Website": "https://owncloud.com/infinite-scale-4-0",
         "Repository Link": "https://github.com/owncloud/ocis",
         "Description": "Enterprise file sync and share data platform ",
@@ -6157,6 +6481,7 @@
     },
     {
         "Project": "Keila",
+        "Reference": "keila",
         "Website": "https://keila.io/",
         "Repository Link": "https://github.com/pentacent/keila",
         "Description": "Open-source newsletter tool",
@@ -6176,6 +6501,7 @@
     },
     {
         "Project": "Kyoo",
+        "Reference": "kyoo",
         "Website": "https://kyoo.zoriya.dev/",
         "Repository Link": "https://github.com/zoriya/kyoo",
         "Description": "Portable and vast media library solution",
@@ -6195,6 +6521,7 @@
     },
     {
         "Project": "Reiverr",
+        "Reference": "reiverr",
         "Website": "https://github.com/aleksilassila/reiverr",
         "Repository Link": "https://github.com/aleksilassila/reiverr",
         "Description": "Clean, combined interface for Jellyfin, TMDB, Radarr, and Sonarr",
@@ -6214,6 +6541,7 @@
     },
     {
         "Project": "Self-Hosted Gateway",
+        "Reference": "self-hosted-gateway",
         "Website": "https://fractalnetworks.co/",
         "Repository Link": "https://github.com/fractalnetworksco/selfhosted-gateway",
         "Description": "Self-hosted Docker native tunneling to localhost",
@@ -6233,6 +6561,7 @@
     },
     {
         "Project": "WatchYourLAN",
+        "Reference": "watchyourlan",
         "Website": "https://github.com/aceberg/WatchYourLAN",
         "Repository Link": "https://github.com/aceberg/WatchYourLAN",
         "Description": "Lightweight network IP scanner with web GUI",
@@ -6252,6 +6581,7 @@
     },
     {
         "Project": "Wizarr",
+        "Reference": "wizarr",
         "Website": "https://github.com/wizarrrr/wizarr",
         "Repository Link": "https://github.com/wizarrrr/wizarr",
         "Description": "User invitation management system for Jellyfin, Plex, and Emby",
@@ -6271,6 +6601,7 @@
     },
     {
         "Project": "Dittofeed",
+        "Reference": "dittofeed",
         "Website": "https://dittofeed.com/",
         "Repository Link": "https://github.com/dittofeed/dittofeed",
         "Description": "Omni-channel customer engagement platform for messaging users across multiple channels",
@@ -6290,6 +6621,7 @@
     },
     {
         "Project": "KitchenOwl",
+        "Reference": "kitchenowl",
         "Website": "https://kitchenowl.org/",
         "Repository Link": "https://github.com/TomBursch/kitchenowl",
         "Description": "Self-hosted grocery list and recipe manager",
@@ -6309,6 +6641,7 @@
     },
     {
         "Project": "Traggo",
+        "Reference": "traggo",
         "Website": "https://traggo.net/",
         "Repository Link": "https://github.com/traggo/server",
         "Description": "Self-hosted, tag-based time tracking",
@@ -6328,6 +6661,7 @@
     },
     {
         "Project": "Gokapi",
+        "Reference": "gokapi",
         "Website": "https://github.com/Forceu/Gokapi",
         "Repository Link": "https://github.com/Forceu/Gokapi",
         "Description": "Lightweight server for sharing files that expire after a configured amount of downloads or days",
@@ -6347,6 +6681,7 @@
     },
     {
         "Project": "Beatbump",
+        "Reference": "beatbump",
         "Website": "https://beatbump.io/",
         "Repository Link": "https://github.com/snuffyDev/Beatbump",
         "Description": "Privacy-respecting alternative frontend for YouTube Music",
@@ -6366,6 +6701,7 @@
     },
     {
         "Project": "Lightweight Music Server",
+        "Reference": "lightweight-music-server",
         "Website": "https://github.com/epoupon/lms",
         "Repository Link": "https://github.com/epoupon/lms",
         "Description": "Music streaming software with a web interface",
@@ -6385,6 +6721,7 @@
     },
     {
         "Project": "Mylar3",
+        "Reference": "mylar3",
         "Website": "https://mylarcomics.com/",
         "Repository Link": "https://github.com/mylar3/mylar3",
         "Description": "Automated comic book downloader program",
@@ -6404,6 +6741,7 @@
     },
     {
         "Project": "xBackBone",
+        "Reference": "xbackbone",
         "Website": "https://xbackbone.app/",
         "Repository Link": "https://github.com/SergiX44/XBackBone",
         "Description": "Lightweight file manager with full ShareX support",
@@ -6423,6 +6761,7 @@
     },
     {
         "Project": "Dovecot",
+        "Reference": "dovecot",
         "Website": "http://www.dovecot.org/",
         "Repository Link": "https://github.com/dovecot/core",
         "Description": "Secure IMAP mail server",
@@ -6442,6 +6781,7 @@
     },
     {
         "Project": "zwave-js-ui",
+        "Reference": "zwave-js-ui",
         "Website": "https://zwave-js.github.io/zwave-js-ui",
         "Repository Link": "https://github.com/zwave-js/zwave-js-ui",
         "Description": "Full featured Z-Wave control panel UI and MQTT gateway",
@@ -6461,6 +6801,7 @@
     },
     {
         "Project": "AdGuardian-Term",
+        "Reference": "adguardian-term",
         "Website": "https://adguardian.as93.net/",
         "Repository Link": "https://github.com/Lissy93/AdGuardian-Term",
         "Description": "Terminal-based, real-time traffic monitoring and statistics for your AdGuard Home instance",
@@ -6480,6 +6821,7 @@
     },
     {
         "Project": "Workout Tracker",
+        "Reference": "workout-tracker",
         "Website": "https://github.com/jovandeginste/workout-tracker",
         "Repository Link": "https://github.com/jovandeginste/workout-tracker",
         "Description": "Workout tracking web application for personal use, geared towards running and other GPX-based activities",
@@ -6499,6 +6841,7 @@
     },
     {
         "Project": "What's Up Docker?",
+        "Reference": "whats-up-docker",
         "Website": "https://fmartinou.github.io/whats-up-docker",
         "Repository Link": "https://github.com/fmartinou/whats-up-docker",
         "Description": "Notifications for Docker image updates",
@@ -6518,6 +6861,7 @@
     },
     {
         "Project": "Synapse",
+        "Reference": "synapse",
         "Website": "https://element-hq.github.io/synapse",
         "Repository Link": "https://github.com/element-hq/synapse",
         "Description": "Open-source Matrix homeserver written and maintained by the Matrix.org Foundation",
@@ -6537,6 +6881,7 @@
     },
     {
         "Project": "Jellystat",
+        "Reference": "jellystat",
         "Website": "https://github.com/CyferShepard/Jellystat",
         "Repository Link": "https://github.com/CyferShepard/Jellystat",
         "Description": "Free and open-source statistics app for Jellyfin",
@@ -6556,6 +6901,7 @@
     },
     {
         "Project": "Nextcloud News",
+        "Reference": "nextcloud-news",
         "Website": "https://apps.nextcloud.com/apps/news",
         "Repository Link": "https://github.com/nextcloud/news",
         "Description": "RSS/Atom feed reader",
@@ -6575,6 +6921,7 @@
     },
     {
         "Project": "LubeLogger",
+        "Reference": "lubelogger",
         "Website": "https://lubelogger.com/",
         "Repository Link": "https://github.com/hargata/lubelog",
         "Description": "Web-based vehicle maintenance and fuel mileage tracker",
@@ -6594,6 +6941,7 @@
     },
     {
         "Project": "Stump",
+        "Reference": "stump",
         "Website": "https://stumpapp.dev/",
         "Repository Link": "https://github.com/stumpapp/stump",
         "Description": "Free and open-source comics, manga, and digital book server with OPDS support",
@@ -6613,6 +6961,7 @@
     },
     {
         "Project": "Commento",
+        "Reference": "commento",
         "Website": "https://commento.io/",
         "Repository Link": "https://gitlab.com/commento/commento",
         "Description": "Fast, privacy-focused commenting platform",
@@ -6632,6 +6981,7 @@
     },
     {
         "Project": "Openreads",
+        "Reference": "openreads",
         "Website": "https://github.com/mateusz-bak/openreads",
         "Repository Link": "https://github.com/mateusz-bak/openreads",
         "Description": "Privacy-oriented and cross-platform book tracking app",
@@ -6651,6 +7001,7 @@
     },
     {
         "Project": "kbin",
+        "Reference": "kbin",
         "Website": "https://kbin.pub/",
         "Repository Link": "https://github.com/ernestwisniewski/kbin",
         "Description": "A reddit-like content aggregator and microblogging platform for the Fediverse",
@@ -6670,6 +7021,7 @@
     },
     {
         "Project": "LinguaCafe",
+        "Reference": "linguacafe",
         "Website": "https://simjanos-dev.github.io/LinguaCafeHome/",
         "Repository Link": "https://github.com/simjanos-dev/LinguaCafe",
         "Description": "Self-hosted software that helps language learners acquire vocabulary through reading",
@@ -6689,6 +7041,7 @@
     },
     {
         "Project": "Docassemble",
+        "Reference": "docassemble",
         "Website": "https://docassemble.org/",
         "Repository Link": "https://github.com/jhpyle/docassemble",
         "Description": "System for guided interviews and document assembly",
@@ -6708,6 +7061,7 @@
     },
     {
         "Project": "Dockcheck",
+        "Reference": "dockcheck",
         "Website": "https://github.com/mag37/dockcheck",
         "Repository Link": "https://github.com/mag37/dockcheck",
         "Description": "CLI tool to automate Docker image updates",
@@ -6727,6 +7081,7 @@
     },
     {
         "Project": "Subvert",
+        "Reference": "subvert",
         "Website": "https://subvert.dev/",
         "Repository Link": "https://github.com/aschmelyun/subvert",
         "Description": "Generate subtitles, summaries, and chapters from videos in seconds",
@@ -6746,6 +7101,7 @@
     },
     {
         "Project": "OpenBudgeteer",
+        "Reference": "openbudgeteer",
         "Website": "https://theaxelander.github.io/",
         "Repository Link": "https://github.com/TheAxelander/OpenBudgeteer",
         "Description": "Budgeting app based on the bucket budgeting principle",
@@ -6765,6 +7121,7 @@
     },
     {
         "Project": "BirdNET-Analyzer",
+        "Reference": "birdnet-analyzer",
         "Website": "https://github.com/kahst/BirdNET-Analyzer",
         "Repository Link": "https://github.com/kahst/BirdNET-Analyzer",
         "Description": "BirdNET analyzer for scientific audio data processing",
@@ -6784,6 +7141,7 @@
     },
     {
         "Project": "Wanderer",
+        "Reference": "wanderer",
         "Website": "https://github.com/Flomp/wanderer",
         "Repository Link": "https://github.com/Flomp/wanderer",
         "Description": "Self-hosted trail database",
@@ -6803,6 +7161,7 @@
     },
     {
         "Project": "Picsur",
+        "Reference": "picsur",
         "Website": "https://picsur.org/",
         "Repository Link": "https://github.com/CaramelFur/Picsur",
         "Description": "Easy-to-use, self-hostable image sharing service with built in converting",
@@ -6822,6 +7181,7 @@
     },
     {
         "Project": "Logdy",
+        "Reference": "logdy",
         "Website": "https://logdy.dev/",
         "Repository Link": "https://github.com/logdyhq/logdy-core",
         "Description": "Web-based real-time log viewer",
@@ -6841,6 +7201,7 @@
     },
     {
         "Project": "Worklenz",
+        "Reference": "worklenz",
         "Website": "https://worklenz.com/",
         "Repository Link": "https://github.com/Worklenz/worklenz",
         "Description": "Open-source project management tool for efficient teams",
@@ -6860,6 +7221,7 @@
     },
     {
         "Project": "Lodestone",
+        "Reference": "lodestone",
         "Website": "https://www.lodestone.cc/",
         "Repository Link": "https://github.com/Lodestone-Team/lodestone",
         "Description": "Open-source hosting tool for Minecraft and other multiplayer games",
@@ -6879,6 +7241,7 @@
     },
     {
         "Project": "Redlib",
+        "Reference": "redlib",
         "Website": "https://github.com/redlib-org/redlib",
         "Repository Link": "https://github.com/redlib-org/redlib",
         "Description": "Private frontend for Reddit",
@@ -6898,6 +7261,7 @@
     },
     {
         "Project": "Fireshare",
+        "Reference": "fireshare",
         "Website": "https://github.com/ShaneIsrael/fireshare",
         "Repository Link": "https://github.com/ShaneIsrael/fireshare",
         "Description": "Share your game clips, videos, or other media via unique links",
@@ -6917,6 +7281,7 @@
     },
     {
         "Project": "Backrest",
+        "Reference": "backrest",
         "Website": "https://github.com/garethgeorge/backrest/",
         "Repository Link": "https://github.com/garethgeorge/backrest/",
         "Description": "Web UI and orchestrator for restic backup",
@@ -6936,6 +7301,7 @@
     },
     {
         "Project": "FitTrackee",
+        "Reference": "fittrackee",
         "Website": "https://samr1.github.io/FitTrackee",
         "Repository Link": "https://github.com/SamR1/FitTrackee",
         "Description": "Self-hosted outdoor activity tracker",
@@ -6955,6 +7321,7 @@
     },
     {
         "Project": "Automad",
+        "Reference": "automad",
         "Website": "https://automad.org/",
         "Repository Link": "https://github.com/marcantondahmen/automad",
         "Description": "Flat-file content management system and template engine",
@@ -6974,6 +7341,7 @@
     },
     {
         "Project": "Shinobi",
+        "Reference": "shinobi",
         "Website": "http://shinobi.video/",
         "Repository Link": "https://gitlab.com/Shinobi-Systems/Shinobi",
         "Description": "The next generation in open-source video management software",
@@ -6993,6 +7361,7 @@
     },
     {
         "Project": "Castopod",
+        "Reference": "castopod",
         "Website": "https://castopod.org/",
         "Repository Link": "https://github.com/ad-aures/castopod",
         "Description": "Open-source hosting platform for podcasters who want to engage and interact with their audience",
@@ -7012,6 +7381,7 @@
     },
     {
         "Project": "Dokemon",
+        "Reference": "dokemon",
         "Website": "https://dokemon.dev/",
         "Repository Link": "https://github.com/productiveops/dokemon",
         "Description": "Web interface for managing Docker containers",
@@ -7031,6 +7401,7 @@
     },
     {
         "Project": "Maintainerr",
+        "Reference": "maintainerr",
         "Website": "https://maintainerr.info/",
         "Repository Link": "https://github.com/jorenn92/Maintainerr",
         "Description": "Monitor and remove unwatched Plex media",
@@ -7050,6 +7421,7 @@
     },
     {
         "Project": "RecipeSage",
+        "Reference": "recipesage",
         "Website": "https://recipesage.com/",
         "Repository Link": "https://github.com/julianpoy/RecipeSage",
         "Description": "Collaborative recipe keeper, meal planner, and shopping list organizer",
@@ -7069,6 +7441,7 @@
     },
     {
         "Project": "Chirpy",
+        "Reference": "chirpy",
         "Website": "https://chirpy.dev/",
         "Repository Link": "https://github.com/devrsi0n/chirpy",
         "Description": "Privacy-friendly and customizable commenting system",
@@ -7088,6 +7461,7 @@
     },
     {
         "Project": "Manyfold",
+        "Reference": "manyfold",
         "Website": "https://manyfold.app/",
         "Repository Link": "https://github.com/manyfold3d/manyfold",
         "Description": "Self-hosted digital asset manager for 3D print files",
@@ -7107,6 +7481,7 @@
     },
     {
         "Project": "RSS",
+        "Reference": "rss-danbrown",
         "Website": "https://github.com/ssddanbrown/rss",
         "Repository Link": "https://github.com/ssddanbrown/rss",
         "Description": "Simple Twitter-feed-style RSS aggregator",
@@ -7126,6 +7501,7 @@
     },
     {
         "Project": "sup3rS3cretMes5age",
+        "Reference": "sup3rS3cretMes5age",
         "Website": "https://github.com/algolia/sup3rS3cretMes5age",
         "Repository Link": "https://github.com/algolia/sup3rS3cretMes5age",
         "Description": "Simple, secure self-destructing message service",
@@ -7145,6 +7521,7 @@
     },
     {
         "Project": "UltimateHomeServer",
+        "Reference": "ultimate-home-server",
         "Website": "https://ultimatehomeserver.com/",
         "Repository Link": "https://github.com/TechSquidTV/UltimateHomeServer",
         "Description": "Deploy the ultimate home server stack with K3s and Helm",
@@ -7164,6 +7541,7 @@
     },
     {
         "Project": "Open Streaming Platform",
+        "Reference": "open-streaming-platform",
         "Website": "https://openstreamingplatform.com/",
         "Repository Link": "https://gitlab.com/osp-group/flask-nginx-rtmp-manager",
         "Description": "Self-hosted video streaming and recording server",
@@ -7183,6 +7561,7 @@
     },
     {
         "Project": "Fenrus",
+        "Reference": "fenrus",
         "Website": "https://github.com/revenz/fenrus",
         "Repository Link": "https://github.com/revenz/fenrus",
         "Description": "Personal home page for quick access to personal apps and sites",
@@ -7202,6 +7581,7 @@
     },
     {
         "Project": "FTPGrab",
+        "Reference": "ftpgrab",
         "Website": "https://crazymax.dev/ftpgrab/",
         "Repository Link": "https://github.com/crazy-max/ftpgrab",
         "Description": "Easily grab files periodically from a remote FTP or SFTP server",
@@ -7221,6 +7601,7 @@
     },
     {
         "Project": "Atheos",
+        "Reference": "atheos",
         "Website": "https://www.atheos.io/",
         "Repository Link": "https://github.com/Atheos/Atheos",
         "Description": "A self-hosted browser-based cloud IDE forked from Codiad",
@@ -7240,6 +7621,7 @@
     },
     {
         "Project": "Oxker",
+        "Reference": "oxker",
         "Website": "https://github.com/mrjackwills/oxker",
         "Repository Link": "https://github.com/mrjackwills/oxker",
         "Description": "A simple interface for managing and controlling Docker containers from the terminal",
@@ -7259,6 +7641,7 @@
     },
     {
         "Project": "Gravity",
+        "Reference": "gravity",
         "Website": "https://gravity.beryju.io/",
         "Repository Link": "https://github.com/BeryJu/gravity",
         "Description": "Fully-replicated DNS and DHCP server with ad-blocking powered by etcd",
@@ -7278,6 +7661,7 @@
     },
     {
         "Project": "Docker Registry Browser",
+        "Reference": "docker-registry-browser",
         "Website": "https://github.com/klausmeyer/docker-registry-browser",
         "Repository Link": "https://github.com/klausmeyer/docker-registry-browser",
         "Description": "Web interface for the Docker Registry HTTP API",
@@ -7297,6 +7681,7 @@
     },
     {
         "Project": "HortusFox",
+        "Reference": "hortusfox",
         "Website": "https://hortusfox.github.io/",
         "Repository Link": "https://github.com/danielbrendel/hortusfox-web",
         "Description": "Collaborative plant management system",
@@ -7316,6 +7701,7 @@
     },
     {
         "Project": "Feedbase",
+        "Reference": "feedbase",
         "Website": "https://feedbase.app/",
         "Repository Link": "https://github.com/chroxify/feedbase",
         "Description": "Open-source solution for collecting feedback and communicating updates",
@@ -7335,6 +7721,7 @@
     },
     {
         "Project": "Tasks.md",
+        "Reference": "tasks-md",
         "Website": "https://github.com/BaldissaraMatheus/Tasks.md",
         "Repository Link": "https://github.com/BaldissaraMatheus/Tasks.md",
         "Description": "Self-hosted, Markdown file based task management board",
@@ -7354,6 +7741,7 @@
     },
     {
         "Project": "Bar Assistant",
+        "Reference": "bar-assistant",
         "Website": "https://barassistant.app/",
         "Repository Link": "https://github.com/karlomikus/bar-assistant",
         "Description": "All-in-one solution for managing your home bar",
@@ -7373,6 +7761,7 @@
     },
     {
         "Project": "webtrees",
+        "Reference": "webtrees",
         "Website": "https://webtrees.net/",
         "Repository Link": "https://github.com/fisharebest/webtrees",
         "Description": "Online collaborative genealogy application",
@@ -7392,6 +7781,7 @@
     },
     {
         "Project": "Photofield",
+        "Reference": "photofield",
         "Website": "https://github.com/SmilyOrg/photofield",
         "Repository Link": "https://github.com/SmilyOrg/photofield",
         "Description": "Experimental fast photo viewer",
@@ -7411,6 +7801,7 @@
     },
     {
         "Project": "Chevereto",
+        "Reference": "chevereto",
         "Website": "https://chevereto.com/",
         "Repository Link": "https://github.com/chevereto/chevereto",
         "Description": "Image hosting and sharing software",
@@ -7430,6 +7821,7 @@
     },
     {
         "Project": "Garage",
+        "Reference": "garage",
         "Website": "https://garagehq.deuxfleurs.fr/",
         "Repository Link": "https://github.com/deuxfleurs-org/garage",
         "Description": "S3-compatible object store for self-hosted geo-distributed deployments",
@@ -7449,6 +7841,7 @@
     },
     {
         "Project": "Double Take",
+        "Reference": "double-take",
         "Website": "https://github.com/skrashevich/double-take",
         "Repository Link": "https://github.com/skrashevich/double-take",
         "Description": "Unified UI and API for processing and training images for facial recognition",
@@ -7468,6 +7861,7 @@
     },
     {
         "Project": "Plant-It",
+        "Reference": "plant-it",
         "Website": "https://plant-it.org/",
         "Repository Link": "https://github.com/MDeLuise/plant-it",
         "Description": "Self-hosted, open-source gardening companion app",
@@ -7487,6 +7881,7 @@
     },
     {
         "Project": "Pinchflat",
+        "Reference": "pinchflat",
         "Website": "https://github.com/kieraneglin/pinchflat",
         "Repository Link": "https://github.com/kieraneglin/pinchflat",
         "Description": "YouTube media downloads and management",
@@ -7506,6 +7901,7 @@
     },
     {
         "Project": "Ktistec",
+        "Reference": "ktistec",
         "Website": "https://github.com/toddsundsted/ktistec",
         "Repository Link": "https://github.com/toddsundsted/ktistec",
         "Description": "Single-user ActivityPub server",
@@ -7525,6 +7921,7 @@
     },
     {
         "Project": "Forte",
+        "Reference": "forte",
         "Website": "https://forte.buzl.uk/",
         "Repository Link": "https://github.com/kaangiray26/forte",
         "Description": "Self-hosted music streaming platform",
@@ -7544,6 +7941,7 @@
     },
     {
         "Project": "Kapowarr",
+        "Reference": "kapowarr",
         "Website": "https://casvt.github.io/Kapowarr/",
         "Repository Link": "https://github.com/Casvt/Kapowarr",
         "Description": "Software for building and managing comic book libraries",
@@ -7563,6 +7961,7 @@
     },
     {
         "Project": "Endurain",
+        "Reference": "endurain",
         "Website": "https://github.com/joaovitoriasilva/endurain",
         "Repository Link": "https://github.com/joaovitoriasilva/endurain",
         "Description": "Fitness tracking service",
@@ -7582,6 +7981,7 @@
     },
     {
         "Project": "LazyLibrarian",
+        "Reference": "lazylibrarian",
         "Website": "https://lazylibrarian.gitlab.io/",
         "Repository Link": "https://gitlab.com/LazyLibrarian/LazyLibrarian",
         "Description": "Application for following authors and grabbing metadata for electronic libraries",
@@ -7601,6 +8001,7 @@
     },
     {
         "Project": "PodFetch",
+        "Reference": "podfetch",
         "Website": "https://samtv12345.github.io/PodFetch",
         "Repository Link": "https://github.com/SamTV12345/PodFetch",
         "Description": "Sleek and efficient podcast downloader",
@@ -7620,6 +8021,7 @@
     },
     {
         "Project": "SheetAble",
+        "Reference": "sheetable",
         "Website": "https://sheetable.net/",
         "Repository Link": "https://github.com/SheetAble/SheetAble",
         "Description": "Self-hosted music sheet organizing software",
@@ -7639,6 +8041,7 @@
     },
     {
         "Project": "Watcharr",
+        "Reference": "watcharr",
         "Website": "https://watcharr.app/",
         "Repository Link": "https://github.com/sbondCo/Watcharr",
         "Description": "Self-hostable watch list for media content",
@@ -7658,6 +8061,7 @@
     },
     {
         "Project": "Exercise Diary",
+        "Reference": "exercise-diary",
         "Website": "https://github.com/aceberg/ExerciseDiary",
         "Repository Link": "https://github.com/aceberg/ExerciseDiary",
         "Description": "Workout diary with GitHub-style yearly visualization",
@@ -7677,6 +8081,7 @@
     },
     {
         "Project": "RSS Translator",
+        "Reference": "rss-translator",
         "Website": "https://rsstranslator.com/",
         "Repository Link": "https://github.com/rss-translator/RSS-Translator",
         "Description": "Open-source RSS translation tool for subscribing to translated RSS feeds",
@@ -7696,6 +8101,7 @@
     },
     {
         "Project": "Redict",
+        "Reference": "redict",
         "Website": "https://redict.io/",
         "Repository Link": "https://codeberg.org/redict/redict",
         "Description": "Distributed key/value store and independent fork of Redis",
@@ -7715,6 +8121,7 @@
     },
     {
         "Project": "DweebUI",
+        "Reference": "dweebui",
         "Website": "https://www.dweebui.com/",
         "Repository Link": "https://github.com/lllllllillllllillll/DweebUI",
         "Description": "Management interface for Docker containers",
@@ -7734,6 +8141,7 @@
     },
     {
         "Project": "Note Mark",
+        "Reference": "note-mark",
         "Website": "https://notemark.docs.enchantedcode.co.uk/",
         "Repository Link": "https://github.com/enchant97/note-mark",
         "Description": "Lightning fast and minimal web-based Markdown notes app",
@@ -7753,6 +8161,7 @@
     },
     {
         "Project": "BudgetBee",
+        "Reference": "budgetbee",
         "Website": "https://budgetbee.github.io/budgetbee/",
         "Repository Link": "https://github.com/budgetbee/budgetbee",
         "Description": "Personal finance management system",
@@ -7772,6 +8181,7 @@
     },
     {
         "Project": "Panora",
+        "Reference": "panora",
         "Website": "https://panora.dev/",
         "Repository Link": "https://github.com/panoratech/panora",
         "Description": "API endpoints for a catalogue of integrations for SaaS software",
@@ -7791,6 +8201,7 @@
     },
     {
         "Project": "Snikket",
+        "Reference": "snikket",
         "Website": "https://snikket.org/service/",
         "Repository Link": "https://github.com/snikket-im/snikket-server",
         "Description": "Open-source self-hosted personal messaging service",
@@ -7810,6 +8221,7 @@
     },
     {
         "Project": "Petio",
+        "Reference": "petio",
         "Website": "https://petio.tv/",
         "Repository Link": "https://github.com/petio-team/petio",
         "Description": "Request, review, and discover companion app for Plex",
@@ -7829,6 +8241,7 @@
     },
     {
         "Project": "GameVault",
+        "Reference": "gamevault",
         "Website": "https://gamevau.lt/",
         "Repository Link": "https://github.com/Phalcode/gamevault-app",
         "Description": "Self-hosted gaming platform",
@@ -7848,6 +8261,7 @@
     },
     {
         "Project": "Teemii",
+        "Reference": "teemii",
         "Website": "https://www.teemii.io/",
         "Repository Link": "https://github.com/dokkaner/teemii",
         "Description": "Self-hosted manga reader and manager with extensible agent-based metadata retrieval",
@@ -7867,6 +8281,7 @@
     },
     {
         "Project": "Music Assistant",
+        "Reference": "music-assistant",
         "Website": "https://music-assistant.io/",
         "Repository Link": "https://github.com/music-assistant/server",
         "Description": "Media library manager connecting streaming services to a wide range of connected speakers",
@@ -7886,6 +8301,7 @@
     },
     {
         "Project": "PeaNUT",
+        "Reference": "peanut",
         "Website": "https://github.com/Brandawg93/PeaNUT",
         "Repository Link": "https://github.com/Brandawg93/PeaNUT",
         "Description": "Tiny dashboard for network UPS tools",
@@ -7905,6 +8321,7 @@
     },
     {
         "Project": "Specifically Clementines",
+        "Reference": "specifically-clementines",
         "Website": "https://github.com/davideshay/groceries",
         "Repository Link": "https://github.com/davideshay/groceries",
         "Description": "Open-source, self-hosted grocery list",
@@ -7924,6 +8341,7 @@
     },
     {
         "Project": "Leed",
+        "Reference": "leed",
         "Website": "https://github.com/LeedRSS/Leed",
         "Repository Link": "https://github.com/LeedRSS/Leed",
         "Description": "Free and minimal RSS aggregator",
@@ -7943,6 +8361,7 @@
     },
     {
         "Project": "Fitbit Health Dashboard",
+        "Reference": "fitbit-health-dashboard",
         "Website": "https://github.com/arpanghosh8453/public-fitbit-projects",
         "Repository Link": "https://github.com/arpanghosh8453/public-fitbit-projects",
         "Description": "Script for FitBit data retrieval, storage, and visualization",
@@ -7962,6 +8381,7 @@
     },
     {
         "Project": "Gaseous",
+        "Reference": "gaseous",
         "Website": "https://github.com/gaseous-project/gaseous-server",
         "Repository Link": "https://github.com/gaseous-project/gaseous-server",
         "Description": "ROM file and metadata manager with a web-based emulator",
@@ -7981,6 +8401,7 @@
     },
     {
         "Project": "miniboard",
+        "Reference": "miniboard",
         "Website": "https://github.com/aceberg/miniboard",
         "Repository Link": "https://github.com/aceberg/miniboard",
         "Description": "Lightweight dashboard with tabs, uptime monitoring, and notifications",
@@ -8000,6 +8421,7 @@
     },
     {
         "Project": "Silicon Notes",
+        "Reference": "silicon-notes",
         "Website": "https://github.com/cu/silicon",
         "Repository Link": "https://github.com/cu/silicon",
         "Description": "Web-based personal knowledge base with few frills",
@@ -8019,6 +8441,7 @@
     },
     {
         "Project": "Slink",
+        "Reference": "slink",
         "Website": "https://github.com/andrii-kryvoviaz/slink",
         "Repository Link": "https://github.com/andrii-kryvoviaz/slink",
         "Description": "Self-hosted image sharing platform",
@@ -8038,6 +8461,7 @@
     },
     {
         "Project": "Pepperminty Wiki",
+        "Reference": "pepperminty-wiki",
         "Website": "https://peppermint.mooncarrot.space/",
         "Repository Link": "https://github.com/sbrl/Pepperminty-Wiki",
         "Description": "Complete wiki engine contained in a single file",
@@ -8057,6 +8481,7 @@
     },
     {
         "Project": "Lego CertHub",
+        "Reference": "lego-certhub",
         "Website": "https://www.legocerthub.com/",
         "Repository Link": "https://github.com/gregtwallace/legocerthub",
         "Description": "Centralized certificate management for secure infrastructure",
@@ -8076,6 +8501,7 @@
     },
     {
         "Project": "Lynx",
+        "Reference": "lynx",
         "Website": "https://getlynx.dev/",
         "Repository Link": "https://github.com/Lynx-Shortener/Lynx",
         "Description": "A full stack application for shortening URLs",
@@ -8095,6 +8521,7 @@
     },
     {
         "Project": "Manage My Damn Life",
+        "Reference": "manage-my-damn-life",
         "Website": "https://github.com/intri-in/manage-my-damn-life-nextjs",
         "Repository Link": "https://github.com/intri-in/manage-my-damn-life-nextjs",
         "Description": "A self-hosted frontend for managing your CalDAV tasks and calendars",
@@ -8114,6 +8541,7 @@
     },
     {
         "Project": "circled.me",
+        "Reference": "circled-me",
         "Website": "https://circled.me/",
         "Repository Link": "https://github.com/circled-me/server",
         "Description": "Photo, chat, and sharing community server",
@@ -8133,6 +8561,7 @@
     },
     {
         "Project": "Honey",
+        "Reference": "honey",
         "Website": "https://honeyy.vercel.app/",
         "Repository Link": "https://github.com/dani3l0/honey",
         "Description": "A nice and sweet place for your self-hosted services",
@@ -8152,6 +8581,7 @@
     },
     {
         "Project": "Nextcloud Tables",
+        "Reference": "nextcloud-tables",
         "Website": "https://apps.nextcloud.com/apps/tables",
         "Repository Link": "https://github.com/nextcloud/tables",
         "Description": "Create your own tables and columns from scratch or pre-defined templates",
@@ -8171,6 +8601,7 @@
     },
     {
         "Project": "Profilarr",
+        "Reference": "profilarr",
         "Website": "https://github.com/santiagosayshey/Profilarr",
         "Repository Link": "https://github.com/santiagosayshey/Profilarr",
         "Description": "Import, export, and sync profiles and custom formats via Radarr and Sonarr API",
@@ -8190,6 +8621,7 @@
     },
     {
         "Project": "seelf",
+        "Reference": "seelf",
         "Website": "https://yuukanoo.github.io/seelf/",
         "Repository Link": "https://github.com/YuukanOO/seelf",
         "Description": "Lightweight self-hosted deployment platform written in Go",
@@ -8209,6 +8641,7 @@
     },
     {
         "Project": "FeedCord",
+        "Reference": "feedcord",
         "Website": "https://github.com/Qolors/FeedCord",
         "Repository Link": "https://github.com/Qolors/FeedCord",
         "Description": "RSS reader with Discord integration",
@@ -8228,6 +8661,7 @@
     },
     {
         "Project": "URL-to-PNG",
+        "Reference": "url-to-png",
         "Website": "https://github.com/jasonraimondi/url-to-png",
         "Repository Link": "https://github.com/jasonraimondi/url-to-png",
         "Description": "URL to PNG utility featuring parallel rendering using Playwright for screenshots and with storage caching via Local, S3, or CouchDB",
@@ -8247,6 +8681,7 @@
     },
     {
         "Project": "nforwardauth",
+        "Reference": "nforwardauth",
         "Website": "https://github.com/NOSDuco/nforwardauth",
         "Repository Link": "https://github.com/NOSDuco/nforwardauth",
         "Description": "Simple and minimalist forward auth service intended for use with reverse proxies",
@@ -8266,6 +8701,7 @@
     },
     {
         "Project": "Pleroma",
+        "Reference": "pleroma",
         "Website": "https://pleroma.social/",
         "Repository Link": "https://git.pleroma.social/pleroma/pleroma",
         "Description": "Microblogging server that can federate with other servers that support ActivityPub",
@@ -8285,6 +8721,7 @@
     },
     {
         "Project": "DAViCal",
+        "Reference": "davical",
         "Website": "https://www.davical.org/",
         "Repository Link": "https://gitlab.com/davical-project/davical",
         "Description": "Calendar storage and sharing",
@@ -8304,6 +8741,7 @@
     },
     {
         "Project": "Voltaserve",
+        "Reference": "voltaserver",
         "Website": "https://voltaserve.com/",
         "Repository Link": "https://github.com/kouprlabs/voltaserve",
         "Description": "Upload files, search and preview documents, create groups and organizations, assign permissions and collaborate in real-time",
@@ -8323,6 +8761,7 @@
     },
     {
         "Project": "ShotShare",
+        "Reference": "shotshare",
         "Website": "https://demo.shotshare.dev/",
         "Repository Link": "https://github.com/mdshack/shotshare",
         "Description": "Open-source image sharing application",
@@ -8342,6 +8781,7 @@
     },
     {
         "Project": "Endless",
+        "Reference": "endless",
         "Website": "https://kaangiray26.github.io/endless/",
         "Repository Link": "https://github.com/kaangiray26/endless",
         "Description": "Social media curator",
@@ -8361,6 +8801,7 @@
     },
     {
         "Project": "Meetable",
+        "Reference": "meetable",
         "Website": "https://meetable.org/",
         "Repository Link": "https://github.com/aaronpk/Meetable",
         "Description": "Minimal events aggregator website",
@@ -8380,6 +8821,7 @@
     },
     {
         "Project": "go-proxy",
+        "Reference": "go-proxy",
         "Website": "https://github.com/yusing/go-proxy",
         "Repository Link": "https://github.com/yusing/go-proxy",
         "Description": "Automatic Docker reverse proxy",
@@ -8399,6 +8841,7 @@
     },
     {
         "Project": "Jellyfin Rewind",
+        "Reference": "jellyfin-rewind",
         "Website": "https://jellyfin-rewind.chaphasilor.xyz/",
         "Repository Link": "https://github.com/Chaphasilor/jellyfin-rewind",
         "Description": "A year-in-review app for Jellyfin music listeners",
@@ -8418,6 +8861,7 @@
     },
     {
         "Project": "Piglet",
+        "Reference": "piglet",
         "Website": "https://github.com/k3nd0x/piglet",
         "Repository Link": "https://github.com/k3nd0x/piglet",
         "Description": "Simple web app for managing household budgets",
@@ -8437,6 +8881,7 @@
     },
     {
         "Project": "Yamtrack",
+        "Reference": "yamtrack",
         "Website": "https://github.com/FuzzyGrim/Yamtrack",
         "Repository Link": "https://github.com/FuzzyGrim/Yamtrack",
         "Description": "Self-hosted media tracker",
@@ -8456,6 +8901,7 @@
     },
     {
         "Project": "Lidify",
+        "Reference": "lidify",
         "Website": "https://github.com/TheWicklowWolf/Lidify",
         "Repository Link": "https://github.com/TheWicklowWolf/Lidify",
         "Description": "Web interface for finding similar artists based on Lidarr metadata",
@@ -8475,6 +8921,7 @@
     },
     {
         "Project": "Mixpost",
+        "Reference": "mixpost",
         "Website": "https://mixpost.app/",
         "Repository Link": "https://github.com/inovector/MixpostApp",
         "Description": "Easily create, schedule, publish, and manage social media content in one place",
@@ -8494,6 +8941,7 @@
     },
     {
         "Project": "Readeck",
+        "Reference": "readeck",
         "Website": "https://readeck.org/",
         "Repository Link": "https://codeberg.org/readeck/readeck",
         "Description": "Simple web application that lets you save the precious readable content of web pages you like and want to keep forever",
@@ -8513,6 +8961,7 @@
     },
     {
         "Project": "Medialytics",
+        "Reference": "medialytics",
         "Website": "https://github.com/Drewpeifer/medialytics",
         "Repository Link": "https://github.com/Drewpeifer/medialytics",
         "Description": "A basic, free tool that shows information about Plex content",
@@ -8532,6 +8981,7 @@
     },
     {
         "Project": "Voilib",
+        "Reference": "voilib",
         "Website": "https://voilib.com/",
         "Repository Link": "https://github.com/unmonoqueteclea/voilib",
         "Description": "Podcast search engine",
@@ -8551,6 +9001,7 @@
     },
     {
         "Project": "Plex Rewind",
+        "Reference": "plex-rewind",
         "Website": "https://github.com/RaunoT/plex-rewind",
         "Repository Link": "https://github.com/RaunoT/plex-rewind",
         "Description": "Present Plex user statistics and habits in a beautiful and organized manner",
@@ -8570,6 +9021,7 @@
     },
     {
         "Project": "Tamari",
+        "Reference": "tamari",
         "Website": "https://github.com/alexbates/Tamari",
         "Repository Link": "https://github.com/alexbates/Tamari",
         "Description": "Fully-featured recipe manager web application",
@@ -8589,6 +9041,7 @@
     },
     {
         "Project": "Scenery",
+        "Reference": "scenery",
         "Website": "https://scenery.cx/",
         "Repository Link": "https://github.com/qwertyforce/scenery",
         "Description": "Photo gallery with extended search capabilities",
@@ -8608,6 +9061,7 @@
     },
     {
         "Project": "Vikunja",
+        "Reference": "vikunja",
         "Website": "https://vikunja.io/",
         "Repository Link": "https://kolaente.dev/vikunja/vikunja",
         "Description": "The open-source, self-hostable to-do app",
@@ -8627,6 +9081,7 @@
     },
     {
         "Project": "PwGen",
+        "Reference": "pwgen",
         "Website": "https://github.com/jocxfin/pwgen",
         "Repository Link": "https://github.com/jocxfin/pwgen",
         "Description": "Secure password generator with customizable options",
@@ -8646,6 +9101,7 @@
     },
     {
         "Project": "MagicPack",
+        "Reference": "magicpack",
         "Website": "https://github.com/alex-swki/magicpack",
         "Repository Link": "https://github.com/alex-swki/magicpack",
         "Description": "Web-based Wake-On-LAN tool for teams or companies",
@@ -8665,6 +9121,7 @@
     },
     {
         "Project": "ZipCaptions",
+        "Reference": "zip-captions",
         "Website": "https://github.com/jptrsn/zip-captions",
         "Repository Link": "https://github.com/jptrsn/zip-captions",
         "Description": "Generate text from a given audio source using only your browser",
@@ -8684,6 +9141,7 @@
     },
     {
         "Project": "PlexGifMaker",
+        "Reference": "plexgifmaker",
         "Website": "https://github.com/TechBuckler/PlexGifMaker",
         "Repository Link": "https://github.com/TechBuckler/PlexGifMaker",
         "Description": "Generate GIFs using a Plex library and subtitles",
@@ -8703,6 +9161,7 @@
     },
     {
         "Project": "Roundup",
+        "Reference": "roundup",
         "Website": "https://www.roundup-tracker.org/",
         "Repository Link": "https://github.com/roundup-tracker/roundup",
         "Description": "Issue-tracking tool for bugs, help desks, agile development, customer issues, and more",
@@ -8722,6 +9181,7 @@
     },
     {
         "Project": "Shared Moments",
+        "Reference": "shared-moments",
         "Website": "https://github.com/tech-kev/SharedMoments",
         "Repository Link": "https://github.com/tech-kev/SharedMoments",
         "Description": "A website designed for couples to capture and preserve their special moments",
@@ -8741,6 +9201,7 @@
     },
     {
         "Project": "Calorific",
+        "Reference": "calorific",
         "Website": "https://github.com/xdpirate/calorific",
         "Repository Link": "https://github.com/xdpirate/calorific",
         "Description": "Simple self-hosted calorie tracking",
@@ -8760,6 +9221,7 @@
     },
     {
         "Project": "Receipt Wrangler",
+        "Reference": "receipt-wrangler",
         "Website": "https://github.com/Receipt-Wrangler/receipt-wrangler-api",
         "Repository Link": "https://github.com/Receipt-Wrangler/receipt-wrangler-api",
         "Description": "Easy-to-use self-hosted receipt manager",
@@ -8779,6 +9241,7 @@
     },
     {
         "Project": "Counter",
+        "Reference": "counter-web-analytics",
         "Website": "https://counter.dev/",
         "Repository Link": "https://github.com/ihucos/counter.dev-selfhost",
         "Description": "Web analytics made simple and privacy-friendly",
@@ -8798,6 +9261,7 @@
     },
     {
         "Project": "managebot",
+        "Reference": "managebot",
         "Website": "https://github.com/xdFNLeaks/managebot",
         "Repository Link": "https://github.com/xdFNLeaks/managebot",
         "Description": "View and manage Docker containers from Discord",
@@ -8817,6 +9281,7 @@
     },
     {
         "Project": "Flox",
+        "Reference": "flox",
         "Website": "https://flox-demo.pyxl.dev/",
         "Repository Link": "https://github.com/Simounet/flox",
         "Description": "Self-hosted movie, series, and anime watch list",
@@ -8836,6 +9301,7 @@
     },
     {
         "Project": "OpenTalk",
+        "Reference": "opentalk",
         "Website": "https://opentalk.eu/",
         "Repository Link": "https://gitlab.opencode.de/opentalk/ot-setup",
         "Description": "Secure video conferencing solution designed with productivity, digital sovereignty, and privacy in mind",
@@ -8855,6 +9321,7 @@
     },
     {
         "Project": "HiveDAV",
+        "Reference": "hivedav",
         "Website": "https://hivedav.p0c.ch/",
         "Repository Link": "https://code.in0rdr.ch/hivedav/",
         "Description": "Curlable free/busy scheduler with CalDAV integration",
@@ -8874,6 +9341,7 @@
     },
     {
         "Project": "MyHeats",
+        "Reference": "myheats",
         "Website": "https://myheats.p0c.ch/",
         "Repository Link": "https://code.in0rdr.ch/myheats/",
         "Description": "Live-leaderboard with simple and elegant scoring",
@@ -8893,6 +9361,7 @@
     },
     {
         "Project": "Tiny Tiny RSS",
+        "Reference": "tiny-tiny-rss",
         "Website": "https://tt-rss.org/",
         "Repository Link": "https://git.tt-rss.org/fox/tt-rss.git",
         "Description": "Free and open-source, web-based news feed reader and aggregator",
@@ -8912,6 +9381,7 @@
     },
     {
         "Project": "Channels DVR",
+        "Reference": "channels-dvr",
         "Website": "https://getchannels.com/dvr-server/",
         "Repository Link": "https://getchannels.com/dvr-server/",
         "Description": "Flexible, standalone media server that lets you watch TV your way",
@@ -8931,6 +9401,7 @@
     },
     {
         "Project": "FusionAuth",
+        "Reference": "fusionauth",
         "Website": "https://fusionauth.io/download",
         "Repository Link": "https://fusionauth.io/download",
         "Description": "Customer authentication and authorization platform for making developers' lives awesome",
@@ -8950,6 +9421,7 @@
     },
     {
         "Project": "FileFlows",
+        "Reference": "fileflows",
         "Website": "https://fileflows.com/",
         "Repository Link": "https://github.com/revenz/fileflows",
         "Description": "File processing application for executing actions against a file in a tree flow structure",
@@ -8969,6 +9441,7 @@
     },
     {
         "Project": "Plex",
+        "Reference": "plex",
         "Website": "https://www.plex.tv/",
         "Repository Link": "https://www.plex.tv/",
         "Description": "Media streaming server for movies, televisions shows, and music",
@@ -8988,6 +9461,7 @@
     },
     {
         "Project": "FileRun",
+        "Reference": "filerun",
         "Website": "https://filerun.com/",
         "Repository Link": "https://filerun.com/",
         "Description": "Access your files anywhere through self-hosted secure cloud storage",
@@ -9007,6 +9481,7 @@
     },
     {
         "Project": "Blue Iris",
+        "Reference": "blue-iris",
         "Website": "https://blueirissoftware.com/",
         "Repository Link": "https://blueirissoftware.com/",
         "Description": "Video security and webcam software",
@@ -9026,6 +9501,7 @@
     },
     {
         "Project": "CTFreak",
+        "Reference": "ctfreak",
         "Website": "https://ctfreak.com/",
         "Repository Link": "https://ctfreak.com/",
         "Description": "Centralized task management, scheduling, and notifications",
@@ -9045,6 +9521,7 @@
     },
     {
         "Project": "Emby",
+        "Reference": "emby",
         "Website": "https://emby.media/",
         "Repository Link": "https://emby.media/",
         "Description": "Media server designed to organize, play, and stream audio and video to a variety of devices",
@@ -9064,6 +9541,7 @@
     },
     {
         "Project": "ZTNET",
+        "Reference": "ztnet",
         "Website": "https://ztnet.network/",
         "Repository Link": "https://github.com/sinamics/ztnet",
         "Description": "Self-hosted ZeroTier network controller",
