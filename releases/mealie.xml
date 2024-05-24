@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mealie Releases</title>
-  <updated>2024-05-23T07:30:59.253801-04:00</updated>
+  <updated>2024-05-24T06:30:57.954291-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -253,7 +253,7 @@
       <name>mealie-recipes/mealie</name>
     </author>
     <content>&lt;h2&gt;Highlights&lt;/h2&gt;
-&lt;p&gt;You can now use OpenAI to parse recipe ingredients! Details on &lt;a href="https://github.com/mealie-recipes/mealie/pull/3587"&gt;the PR&lt;/a&gt; and in the docs. It looks more reliable than the existing methods, but it will come at a small cost for your OpenAI API key.&lt;/p&gt;
+&lt;p&gt;You can now use OpenAI to parse recipe ingredients! Details on &lt;a href="https://github.com/mealie-recipes/mealie/pull/3581"&gt;the PR&lt;/a&gt; and in the docs. It looks more reliable than the existing methods, but it will come at a small cost for your OpenAI API key.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: Default To Fractions When Unit Is Empty by @michael-genson in https://github.com/mealie-recipes/mealie/pull/3587&lt;/li&gt;

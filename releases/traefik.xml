@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-05-23T07:31:58.682218-04:00</updated>
+  <updated>2024-05-24T06:31:57.078246-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -282,7 +282,7 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;CVE's:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24788"&gt;CVE-2024-24788&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-f7cq-5v43-8pwp"&gt;GHSA-f7cq-5v43-8pwp&lt;/a&gt;  (Related to &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24788"&gt;CVE-2024-24788&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[k8s/ingress]&lt;/strong&gt; Fix rule syntax version for all internal routers (&lt;a href="https://github.com/traefik/traefik/pull/10689"&gt;#10689&lt;/a&gt; by &lt;a href="https://github.com/HalloTschuess"&gt;HalloTschuess&lt;/a&gt;)
