@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-05-26T11:31:19.175015-04:00</updated>
+  <updated>2024-05-26T12:31:21.049579-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,15 +126,15 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/IgnisDa/ryot/releases/d
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v4.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.4.5</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v5.4.6</id>
     <title>New release for Ryot: Version 5</title>
     <updated>2024-05-26T10:03:06-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.4.5&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;0d8009580aea659bdb106b8fa8c2391b8bfa1c8a&lt;/code&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v5.4.6&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;cb578f30600bfc5bcc6ccb29e399605c93a1bd4f&lt;/code&gt;
 &lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;May 26, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
@@ -152,6 +152,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Added 3 new default collections: "Completed", "Owned" and "Reminders".&lt;/li&gt;
 &lt;li&gt;Added a job to clean-up useless data. For example: my database size went from &lt;code&gt;1.2 GB&lt;/code&gt; to &lt;code&gt;166 MB&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.4.5" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.4.6" rel="alternate"/>
   </entry>
 </feed>
