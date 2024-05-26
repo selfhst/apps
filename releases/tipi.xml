@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tipi Releases</title>
-  <updated>2024-05-26T13:32:09.225216-04:00</updated>
+  <updated>2024-05-26T14:32:13.025968-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,7 +120,23 @@
     <author>
       <name>runtipi/runtipi</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;v3.3.2&lt;/strong&gt;&lt;/p&gt;</content>
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- Fix regex in the install script to support distributions having &lt;code&gt;/etc/upstream-release&lt;/code&gt; as a directory. @hex-developer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;
+- Copy &lt;code&gt;tabler.min.js&lt;/code&gt; at build time to the &lt;code&gt;public&lt;/code&gt; folder to avoid relying on a CDN at runtime
+- Update traefik to v3.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technical&lt;/strong&gt;
+- Cleanup unused files and dependencies
+- Bump dependencies&lt;/p&gt;
+&lt;h2&gt;How to update&lt;/h2&gt;
+&lt;p&gt;From the root folder of your Tipi install&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./runtipi-cli update v3.3.2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also set an &lt;a href="https://runtipi.io/docs/guides/auto-update-with-cron"&gt;auto update cron&lt;/a&gt; for future updates&lt;/p&gt;
+&lt;p&gt;If you are coming from version 2 or lower please follow the &lt;a href="https://runtipi.io/docs/reference/breaking-updates#update-from-2xx-to-300"&gt;migration guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please report any issue encountered so we can fix it as soon as possible.&lt;/p&gt;</content>
     <link href="https://github.com/runtipi/runtipi/releases/tag/v3.3.2" rel="alternate"/>
   </entry>
 </feed>
