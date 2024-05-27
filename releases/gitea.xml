@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-05-27T04:30:28.789604-04:00</updated>
+  <updated>2024-05-27T05:30:28.432798-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,11 +181,12 @@
     <author>
       <name>go-gitea/gitea</name>
     </author>
-    <content>&lt;p&gt;This release stands as a monumental milestone in our development journey with a record-breaking incorporation of &lt;a href="https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.22.0+is%3Amerged"&gt;1528&lt;/a&gt; pull requests. It marks the most extensive update in Gitea's history, showcasing a plethora of new features and infrastructure improvements.&lt;/p&gt;
+    <content>&lt;p&gt;This release stands as a monumental milestone in our development journey with a record-breaking incorporation of &lt;a href="https://github.com/go-gitea/gitea/pulls?q=is%3Apr+milestone%3A1.22.0+is%3Amerged"&gt;1481&lt;/a&gt; pull requests. It marks the most extensive update in Gitea's history, showcasing a plethora of new features and infrastructure improvements.&lt;/p&gt;
 &lt;p&gt;Noteworthy advancements in this release include the introduction of &lt;code&gt;HTMX&lt;/code&gt; and &lt;code&gt;Tailwind&lt;/code&gt;, signaling a strategic shift as we gradually phase out &lt;code&gt;jquery&lt;/code&gt; and &lt;code&gt;Fomantic UI&lt;/code&gt;. These changes reflect our commitment to embracing modern technologies and enhancing the user experience.&lt;/p&gt;
 &lt;p&gt;Key highlights of this release encompass significant changes categorized under &lt;code&gt;BREAKING&lt;/code&gt;, &lt;code&gt;FEATURES&lt;/code&gt;, &lt;code&gt;ENHANCEMENTS&lt;/code&gt;, and &lt;code&gt;PERFORMANCE&lt;/code&gt;, each contributing to a more robust and efficient Gitea platform.&lt;/p&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;
+&lt;h2&gt;BREAKING&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;BREAKING&lt;/li&gt;
 &lt;li&gt;Improve reverse proxy documents and clarify the AppURL guessing behavior (#31003) (#31020)&lt;/li&gt;
 &lt;li&gt;Remember log in for a month by default (#30150)&lt;/li&gt;
 &lt;li&gt;Breaking summary for template refactoring (#29395)&lt;ul&gt;
@@ -203,7 +204,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Require MySQL 8.0, PostgreSQL 12, MSSQL 2012 (#27337)&lt;/li&gt;
-&lt;li&gt;FEATURES&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;FEATURES&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Allow everyone to read or write a wiki by a repo unit setting (#30495)&lt;/li&gt;
 &lt;li&gt;Use raw Wiki links for non-renderable Wiki files (#30273)&lt;/li&gt;
 &lt;li&gt;Render embedded code preview by permalink in markdown (#30234) (#30249)&lt;/li&gt;
@@ -232,7 +235,9 @@
 &lt;li&gt;Add support for forking single branch (#25821)&lt;/li&gt;
 &lt;li&gt;Add support for sha256 repositories (#23894)&lt;/li&gt;
 &lt;li&gt;Add admin API route for managing user's badges (#23106)&lt;/li&gt;
-&lt;li&gt;ENHANCEMENTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ENHANCEMENTS&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Make gitea webhooks openproject compatible (#28435) (#31081)&lt;/li&gt;
 &lt;li&gt;Support using label names when changing issue labels (#30943) (#30958)&lt;/li&gt;
 &lt;li&gt;Fix various problems around project board view (#30696) (#30902)&lt;/li&gt;
@@ -335,7 +340,9 @@
 &lt;li&gt;Don't show the new pull request button when the page is not compare pull (#26431)&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;Hide/Show all checks&lt;/code&gt; button to commit status check (#26284)&lt;/li&gt;
 &lt;li&gt;Improvements of releases list and tags list (#25859)&lt;/li&gt;
-&lt;li&gt;PERFORMANCE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;PERFORMANCE&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Fix package list performance (#30520) (#30616)&lt;/li&gt;
 &lt;li&gt;Add commit status summary table to reduce query from commit status table (#30223)&lt;/li&gt;
 &lt;li&gt;Refactor markup/csv: don't read all to memory (#29760)&lt;/li&gt;
