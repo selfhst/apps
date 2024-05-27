@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2024-05-27T10:32:10.312965-04:00</updated>
+  <updated>2024-05-27T11:32:06.559248-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,7 +118,8 @@
 &lt;li&gt;Updated Go version to 1.22&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Upgrading&lt;/h3&gt;
-&lt;p&gt;If you are running a version &amp;lt;1.8.0, please see the 1.8.0 changelog for upgrading and breaking changes&lt;/p&gt;</content>
+&lt;p&gt;If you are running a version &amp;lt;1.8.0, please see the 1.8.0 changelog for upgrading and breaking changes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.8.1...v1.8.2&lt;/p&gt;</content>
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.8.2" rel="alternate"/>
   </entry>
 </feed>
