@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-05-27T14:30:30.035830-04:00</updated>
+  <updated>2024-05-27T15:30:27.933597-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,6 +185,10 @@
 &lt;p&gt;Noteworthy advancements in this release include the introduction of &lt;code&gt;HTMX&lt;/code&gt; and &lt;code&gt;Tailwind&lt;/code&gt;, signaling a strategic shift as we gradually phase out &lt;code&gt;jquery&lt;/code&gt; and &lt;code&gt;Fomantic UI&lt;/code&gt;. These changes reflect our commitment to embracing modern technologies and enhancing the user experience.&lt;/p&gt;
 &lt;p&gt;Key highlights of this release encompass significant changes categorized under &lt;code&gt;BREAKING&lt;/code&gt;, &lt;code&gt;FEATURES&lt;/code&gt;, &lt;code&gt;ENHANCEMENTS&lt;/code&gt;, and &lt;code&gt;PERFORMANCE&lt;/code&gt;, each contributing to a more robust and efficient Gitea platform.&lt;/p&gt;
 &lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;
+&lt;h2&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Gitea 1.22.0 fails to start when cache ADAPTER=memcache ("Init failed: cache: unknown adapter 'memcache'(forgot to import?)"), it has been fixed in 1.22-nightly.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;BREAKING&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve reverse proxy documents and clarify the AppURL guessing behavior (#31003) (#31020)&lt;/li&gt;
