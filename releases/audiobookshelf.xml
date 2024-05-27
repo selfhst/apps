@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AudioBookshelf Releases</title>
-  <updated>2024-05-27T17:30:06.893127-04:00</updated>
+  <updated>2024-05-27T18:30:06.804292-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -242,6 +242,8 @@
 &lt;li&gt;Inconsistent progress bars shown on series &amp;amp; collapsed series #2921 by @mikiher in #2954&lt;/li&gt;
 &lt;li&gt;Incorrect order of author names on book cards #2859&lt;/li&gt;
 &lt;li&gt;Multi select inputs allow inserting items consisting of only whitespace&lt;/li&gt;
+&lt;li&gt;Collapse series and filter by "No series" shows no results #2976&lt;/li&gt;
+&lt;li&gt;Podcast episode downloader downloading duplicate epsiodes if enclosure url changed #2986&lt;/li&gt;
 &lt;li&gt;UI/UX: Chapter editor time input skipped when tabbing #2685 by @nichwall in #3009&lt;/li&gt;
 &lt;li&gt;UI/UX: Ebook only book card more menu jumping to the top of the screen on hover #2980&lt;/li&gt;
 &lt;li&gt;UI/UX: Author image not updating on author page when changed until page refresh #2934&lt;/li&gt;
@@ -254,8 +256,6 @@
 &lt;li&gt;Matching providers have a 30s timeout #3000&lt;/li&gt;
 &lt;li&gt;Podcast library setting for iTunes search region now supports all regions by @v3DJG6GL #2877&lt;/li&gt;
 &lt;li&gt;Improve performance on library stats page by updating author queries by @CoffeeKnyte in #2896&lt;/li&gt;
-&lt;li&gt;Collapse series and filter by "No series" shows no results #2976&lt;/li&gt;
-&lt;li&gt;Podcast episode downloader downloading duplicate epsiodes if enclosure url changed #2986&lt;/li&gt;
 &lt;li&gt;Environment variable supported to enable CORS (ALLOW_CORS=1)&lt;/li&gt;
 &lt;li&gt;API endpoint added to get listening sessions for a specific item by @rasmuslos in #2920&lt;/li&gt;
 &lt;li&gt;UI/UX: Ereader devices table shows "Accessible by" column #2990 #2991 by @nichwall in #3010&lt;/li&gt;
