@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr iFrames Releases</title>
-  <updated>2024-05-27T12:33:03.052499-04:00</updated>
+  <updated>2024-05-27T13:33:06.550650-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -56,5 +56,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/homarr-iframes/compare/v0.1.6...v0.1.7&lt;/p&gt;</content>
     <link href="https://github.com/diogovalentte/homarr-iframes/releases/tag/v0.1.7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/diogovalentte/homarr-iframes/releases/tag/v0.1.9</id>
+    <title>New release for Homarr iFrames: v0.1.9 - Overseerr iframe added</title>
+    <updated>2024-05-27T12:41:28-04:00</updated>
+    <author>
+      <name>diogovalentte/homarr-iframes</name>
+    </author>
+    <content>&lt;h1&gt;Added&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sct/overseerr"&gt;Overseerr&lt;/a&gt; iFrame to show a list of media requests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/diogovalentte/homarr-iframes/assets/49578155/7f374beb-e392-4ee9-94fc-4d1556f65e7c" /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/homarr-iframes/compare/v0.1.8...v0.1.9&lt;/p&gt;</content>
+    <link href="https://github.com/diogovalentte/homarr-iframes/releases/tag/v0.1.9" rel="alternate"/>
   </entry>
 </feed>
