@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2024-05-27T23:31:42.687283-04:00</updated>
+  <updated>2024-05-28T00:31:44.919092-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,8 +185,8 @@
     <content>&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Major optimization in handling hung network disconnects, and related tests and hardening added #19719, #19605, #19741 &lt;/li&gt;
-&lt;li&gt;Fix a medium CVE for information disclosure during GETs with pre-condition headers such as If-modified-since, if-unmodified-since
-  #19810 &lt;/li&gt;
+&lt;li&gt;Fix a &lt;a href="https://github.com/minio/minio/security/advisories/GHSA-95fr-cm4m-q5p9"&gt;medium CVE&lt;/a&gt; for information disclosure 
+  during GETs with conditional headers such as If-modified-since, if-unmodified-since #19810 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
