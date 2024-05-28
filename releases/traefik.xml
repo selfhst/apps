@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-05-28T08:31:57.516748-04:00</updated>
+  <updated>2024-05-28T09:32:56.114434-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -259,7 +259,7 @@
       <name>traefik/traefik</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;CVE's:&lt;/strong&gt;
-- &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24788"&gt;CVE-2024-24788&lt;/a&gt;&lt;/p&gt;
+- &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-f7cq-5v43-8pwp"&gt;GHSA-f7cq-5v43-8pwp&lt;/a&gt;  (Related to &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24788"&gt;CVE-2024-24788&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[server]&lt;/strong&gt; Remove deadlines for non-TLS connections (&lt;a href="https://github.com/traefik/traefik/pull/10615"&gt;#10615&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
 - &lt;strong&gt;[webui]&lt;/strong&gt; Display of Content Security Policy values getting out of screen (&lt;a href="https://github.com/traefik/traefik/pull/10710"&gt;#10710&lt;/a&gt; by &lt;a href="https://github.com/brandonfl"&gt;brandonfl&lt;/a&gt;)
