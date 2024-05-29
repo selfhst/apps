@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2024-05-29T08:32:14.610774-04:00</updated>
+  <updated>2024-05-29T09:32:15.970902-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,9 +122,10 @@
 &lt;h3&gt;Upgrading&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You might need to change permissions on the docker volumes, if you want the content to be readable by the host user. (Only applicable if you were running 1.8.3 before)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Important&lt;/strong&gt;: If you have used the old Keycloak example for configuration, please make sure that it is configure properly, as with the old example unauthorised access might have been possible! &lt;a href="https://gokapi.readthedocs.io/en/stable/examples.html#addding-a-scope-for-exposing-groups-optional"&gt;Documentation: Creating scopes for groups&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you are running a version &amp;lt;1.8.0, please see the 1.8.0 changelog for upgrading and breaking changes&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.8.2...v1.8.3&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.8.3...v1.8.4&lt;/p&gt;</content>
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.8.4" rel="alternate"/>
   </entry>
 </feed>
