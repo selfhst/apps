@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-05-29T10:30:32.204295-04:00</updated>
+  <updated>2024-05-29T11:30:31.384378-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -816,7 +816,7 @@
 
 &lt;details&gt;&lt;summary&gt;[Standardized CI/CD Catalog component publishing process](https://docs.gitlab.com/ee/ci/components/#publish-a-new-release): &lt;code&gt;Pipeline Composition&lt;/code&gt;&lt;/summary&gt;
 
-&gt; We have been hard at work on CI/CD components, including making the process of releasing components to the CI/CD Catalog a consistent experience. As part of that work, we've made releasing versions from a CI/CD job with the [`release` keyword](https://docs.gitlab.com/ee/ci/yaml/index.html#release) and the `release-cli` image the only method. All improvements to the release process will apply to this method only. To avoid breaking changes introduced by this restriction, make sure you always use the latest version of the image (`release-cli:latest`) or at least a version greater than `v0.16`. The [**Releases** option in the UI](https://docs.gitlab.com/ee/user/project/releases/#create-a-release-in-the-releases-page) is now disabled for CI/CD component projects.
+&gt; We have been hard at work on CI/CD components, including making the process of releasing components to the CI/CD Catalog a consistent experience. As part of that work, we've made releasing versions from a CI/CD job with the [`release` keyword](https://docs.gitlab.com/ee/ci/yaml/index.html#release) and the `release-cli` image the only method. All improvements to the release process will apply to this method only. To avoid breaking changes introduced by this restriction, make sure you always use the latest version of the image (`release-cli:latest`) or at least a version greater than `v0.17`. The [**Releases** option in the UI](https://docs.gitlab.com/ee/user/project/releases/#create-a-release-in-the-releases-page) is now disabled for CI/CD component projects.
 
 &lt;/details&gt;
 
