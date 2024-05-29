@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinguaCafe Releases</title>
-  <updated>2024-05-29T15:30:50.391550-04:00</updated>
+  <updated>2024-05-29T16:30:49.081731-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,6 +101,7 @@
       <name>simjanos-dev/LinguaCafe</name>
     </author>
     <content>&lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This update is not necessary for existing users. If you already started using linguacafe after April 25 and never changed your selected language from Spanish, you can fix this bug by selecting an other language, then selecting Spanish again. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - Fixed unusable Spanish goals after creating the first user.&lt;/p&gt;
 &lt;h2&gt;Thank you for everyone who contributed for the release!&lt;/h2&gt;</content>
