@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Caddy Releases</title>
-  <updated>2024-05-29T17:30:13.915425-04:00</updated>
+  <updated>2024-05-29T18:30:12.972875-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -391,7 +391,7 @@
     - See notes in #6229 for some examples and further explanations.
 - Removed support for &lt;a href="https://github.com/caddy-dns/lego-deprecated"&gt;the &lt;code&gt;lego_deprecated&lt;/code&gt; DNS provider module&lt;/a&gt;. It has been deprecated for 4 years. Use &lt;a href="https://github.com/caddy-dns"&gt;&lt;code&gt;caddy-dns&lt;/code&gt; modules&lt;/a&gt; instead; there are over 50 to choose from already. They are more flexible, compile much leaner, and are easier to implement and support. If yours is not supported it can be easily implemented. &lt;a href="https://caddyserver.com/sponsor"&gt;Sponsors at or above the Business tier&lt;/a&gt; can request to have their provider implemented for free.
 - On-demand TLS: The &lt;code&gt;ask&lt;/code&gt; option in the JSON has been deprecated in favor of a permission module (Caddyfile unchanged) (#6055), and Caddyfile support for &lt;code&gt;permission&lt;/code&gt; modules is added (6a02999)
-- Admin API: &lt;code&gt;Etag&lt;/code&gt; (used for concurrency control) is now a header, not a trailer. This is less efficient, but virtually no clients properly implement trailer support.
+- Admin API: &lt;code&gt;Etag&lt;/code&gt; (used for concurrency control) is now a header, not a trailer. This is less efficient, but still virtually no clients properly implement trailer support.
 - For consistency, the &lt;code&gt;basicauth&lt;/code&gt; Caddyfile directive has been renamed to &lt;code&gt;basic_auth&lt;/code&gt; (#6092), and &lt;code&gt;skip_log&lt;/code&gt; has been renamed to &lt;code&gt;log_skip&lt;/code&gt;. The old names will continue to work for now, with a deprecation warning in the logs. (#6066).
 - The &lt;code&gt;basic_auth&lt;/code&gt; handler no longer supports &lt;code&gt;scrypt&lt;/code&gt; (deprecated for nearly two years) (#6091)
 - The &lt;code&gt;forwarded&lt;/code&gt; option has been deprecated for a long time and has now been removed from the &lt;code&gt;remote_ip&lt;/code&gt; matcher. Use the &lt;code&gt;client_ip&lt;/code&gt; matcher instead. (#6085)
