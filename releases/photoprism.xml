@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2024-05-29T01:31:11.998155-04:00</updated>
+  <updated>2024-05-29T02:31:14.503362-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -107,7 +107,7 @@
 &lt;h5&gt;Manage Apps and Devices&lt;/h5&gt;
 &lt;p&gt;&lt;img alt="apps-and-devices" src="https://github.com/photoprism/photoprism/assets/301686/16553de6-17d5-4d87-941f-e767dbed73bb" /&gt;&lt;/p&gt;
 &lt;h4&gt;Installation Packages&lt;/h4&gt;
-&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to provide support for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
+&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to &lt;a href="https://www.photoprism.app/kb/getting-support"&gt;provide support&lt;/a&gt; for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://dl.photoprism.app/pkg/linux/README.html"&gt;Learn more ›&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/photoprism/photoprism/releases/tag/240420-ef5f14bc4" rel="alternate"/>
   </entry>
@@ -146,7 +146,7 @@
 &lt;p&gt;The &lt;a href="https://docs.photoprism.app/user-guide/settings/advanced/"&gt;&lt;strong&gt;Advanced Settings&lt;/strong&gt;&lt;/a&gt; tab has been restructured and a Backup section has been added, so that you can enable and disable database and YAML file backups from the user interface (additional controls are planned for a future release):&lt;/p&gt;
 &lt;p&gt;&lt;img alt="advanced-settings" src="https://github.com/photoprism/photoprism/assets/301686/81fdd212-f2c3-4be6-b29c-07e29d84e438" /&gt;&lt;/p&gt;
 &lt;h4&gt;Installation Packages&lt;/h4&gt;
-&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to provide support for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
+&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to &lt;a href="https://www.photoprism.app/kb/getting-support"&gt;provide support&lt;/a&gt; for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://dl.photoprism.app/pkg/linux/README.html"&gt;Learn more ›&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/photoprism/photoprism/releases/tag/240523-923ee0cf7" rel="alternate"/>
   </entry>
@@ -171,7 +171,7 @@
 &lt;li&gt;Translations: &lt;a href="https://docs.photoprism.app/developer-guide/translations-weblate/"&gt;Updated French and German&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Installation Packages&lt;/h4&gt;
-&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to provide support for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
+&lt;p&gt;The packages attached to this release are intended for experienced users and maintainers of third-party integrations only, as they &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#configuration"&gt;require manual configuration&lt;/a&gt; and &lt;a href="https://dl.photoprism.app/pkg/linux/README.html#dependencies"&gt;do not include tested system dependencies&lt;/a&gt;. Since we are unable to &lt;a href="https://www.photoprism.app/kb/getting-support"&gt;provide support&lt;/a&gt; for custom installations, we recommend &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;using one of our Docker images&lt;/a&gt; to run PhotoPrism on a private server or NAS device.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://dl.photoprism.app/pkg/linux/README.html"&gt;Learn more ›&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/photoprism/photoprism/releases/tag/240528-977d6c0de" rel="alternate"/>
   </entry>
