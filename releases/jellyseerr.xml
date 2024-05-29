@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-05-29T12:31:59.754574-04:00</updated>
+  <updated>2024-05-29T13:31:58.124327-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,6 +179,12 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
       <name>Fallenbagel/jellyseerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/fallenbagel/jellyseerr/compare/v1.8.1...v1.9.0"&gt;1.9.0&lt;/a&gt; (2024-05-29)&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]  &lt;/p&gt;
+&lt;h3&gt;Warning (For windows users)&lt;/h3&gt;
+&lt;p&gt;Before you &lt;code&gt;yarn build&lt;/code&gt; please downgrade your typeorm version by&lt;code&gt;yarn add typeorm@0.3.11&lt;/code&gt;
+typeorm/typeorm#9860 (comment)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;api:&lt;/strong&gt; save user email on the first try (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/760"&gt;#760&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/0bbcfdc4f9ff9735f45232a2412ac8444f525de9"&gt;0bbcfdc&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/227"&gt;#227&lt;/a&gt; &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/748"&gt;#748&lt;/a&gt;&lt;/li&gt;
