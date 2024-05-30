@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-05-30T01:30:28.417510-04:00</updated>
+  <updated>2024-05-30T02:30:29.091101-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -188,6 +188,7 @@
 &lt;h2&gt;Known Issues&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Gitea 1.22.0 fails to start when cache ADAPTER=memcache ("Init failed: cache: unknown adapter 'memcache'(forgot to import?)"), it has been fixed in 1.22-nightly.&lt;/li&gt;
+&lt;li&gt;When visiting some repositories, a 500 error occurs (admin could see error &lt;code&gt;FindRecentlyPushedNewBranches&lt;/code&gt;), it has been fixed in 1.22-nightly.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;BREAKING&lt;/h2&gt;
 &lt;ul&gt;
