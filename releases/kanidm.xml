@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanidm Releases</title>
-  <updated>2024-05-29T20:33:01.174009-04:00</updated>
+  <updated>2024-05-29T21:33:00.477429-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,5 +69,17 @@ as this may have important effects on your distribution or upgrades in future.&l
 &lt;p&gt;This patch release resolves the loading of these groups and contains an automated fix that triggers all dynamic groups to re-evaluate their members at start up to automatically fix any missing memberships. &lt;/p&gt;
 &lt;p&gt;We would like to thank @rungmc for their assistance to isolate and resolve this issue.&lt;/p&gt;</content>
     <link href="https://github.com/kanidm/kanidm/releases/tag/v1.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kanidm/kanidm/releases/tag/v1.2.2</id>
+    <title>New release for Kanidm: v1.2.2</title>
+    <updated>2024-05-29T21:11:36-04:00</updated>
+    <author>
+      <name>kanidm/kanidm</name>
+    </author>
+    <content>&lt;h2&gt;2024-05-30 - Kanidm 1.2.2&lt;/h2&gt;
+&lt;p&gt;In 1.2.0 a bug was discovered which prevented the commandline tools from removing session tokens after a logout. This did not affect the logout process, it only prevented removal of the now revoked token. &lt;/p&gt;
+&lt;p&gt;This update corrects the behaviour, improves output if a corrupted token is detected, and allows local token removal even if the token itself is invalid.&lt;/p&gt;</content>
+    <link href="https://github.com/kanidm/kanidm/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>
