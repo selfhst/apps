@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-05-30T11:30:59.285031-04:00</updated>
+  <updated>2024-05-30T12:30:56.839679-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -290,6 +290,8 @@ As always, &lt;strong&gt;make sure you have backups of the database before perfo
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 As always, &lt;strong&gt;make sure you have backups of the database before performing any upgrades&lt;/strong&gt;. If you are using docker-compose, this is how a backup command might look: &lt;code&gt;docker exec mastodon_db_1 pg_dump -Fc -U postgres postgres &amp;gt; name_of_the_backup.dump&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[!IMPORTANT]
+Mastodon is now performing stricter checks to prevent client IP address spoofing. This means that if one of your reverse proxy is not on Mastodon's local network, you will need to set &lt;code&gt;TRUSTED_PROXY_IP&lt;/code&gt; accordingly, listing the IP address of every trusted reverse-proxy.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Dependencies&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -370,6 +372,8 @@ The minimum required Ruby version has been bumped to 3.0 in Mastodon v4.1.14.&lt
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 As always, &lt;strong&gt;make sure you have backups of the database before performing any upgrades&lt;/strong&gt;. If you are using docker-compose, this is how a backup command might look: &lt;code&gt;docker exec mastodon_db_1 pg_dump -Fc -U postgres postgres &amp;gt; name_of_the_backup.dump&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[!IMPORTANT]
+Mastodon is now performing stricter checks to prevent client IP address spoofing. This means that if one of your reverse proxy is not on Mastodon's local network, you will need to set &lt;code&gt;TRUSTED_PROXY_IP&lt;/code&gt; accordingly, listing the IP address of every trusted reverse-proxy.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Dependencies&lt;/h3&gt;
 &lt;p&gt;With the exception of Ruby's recommended version, external dependencies have not changed since v4.2.0, the compatible Ruby, PostgreSQL, Node, Elasticsearch and Redis versions are the same, that is:&lt;/p&gt;
