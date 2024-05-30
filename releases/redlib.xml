@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Redlib Releases</title>
-  <updated>2024-05-29T19:32:33.593210-04:00</updated>
+  <updated>2024-05-29T20:32:35.495411-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,5 +111,16 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/redlib-org/redlib/compare/v0.31.2...v0.33.1&lt;/p&gt;</content>
     <link href="https://github.com/redlib-org/redlib/releases/tag/v0.33.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/redlib-org/redlib/releases/tag/v0.33.2</id>
+    <title>New release for Redlib: v0.33.2</title>
+    <updated>2024-05-29T20:11:14-04:00</updated>
+    <author>
+      <name>redlib-org/redlib</name>
+    </author>
+    <content>&lt;p&gt;Fix #116&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/redlib-org/redlib/compare/v0.33.1...v0.33.2&lt;/p&gt;</content>
+    <link href="https://github.com/redlib-org/redlib/releases/tag/v0.33.2" rel="alternate"/>
   </entry>
 </feed>
