@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Worklenz Releases</title>
-  <updated>2024-05-31T06:33:04.206772-04:00</updated>
+  <updated>2024-05-31T07:33:00.197569-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,5 +30,27 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Worklenz/worklenz/commits/v1.0.0&lt;/p&gt;</content>
     <link href="https://github.com/Worklenz/worklenz/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Worklenz/worklenz/releases/tag/v1.0.1</id>
+    <title>New release for Worklenz: v1.0.1</title>
+    <updated>2024-05-31T06:36:37-04:00</updated>
+    <author>
+      <name>Worklenz/worklenz</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create docker-compose.yml by @Mrs-Feathers in https://github.com/Worklenz/worklenz/pull/10&lt;/li&gt;
+&lt;li&gt;Update README.md by @MalakaSandakal in https://github.com/Worklenz/worklenz/pull/15&lt;/li&gt;
+&lt;li&gt;Fix docker-compose by @gdevenyi in https://github.com/Worklenz/worklenz/pull/20&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Mrs-Feathers made their first contribution in https://github.com/Worklenz/worklenz/pull/10&lt;/li&gt;
+&lt;li&gt;@MalakaSandakal made their first contribution in https://github.com/Worklenz/worklenz/pull/15&lt;/li&gt;
+&lt;li&gt;@gdevenyi made their first contribution in https://github.com/Worklenz/worklenz/pull/20&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Worklenz/worklenz/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
+    <link href="https://github.com/Worklenz/worklenz/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
