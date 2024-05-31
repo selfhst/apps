@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2024-05-31T12:31:19.970087-04:00</updated>
+  <updated>2024-05-31T13:31:22.029573-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,7 +125,7 @@ RomM has been organized in &lt;code&gt;github&lt;/code&gt; and &lt;code&gt;docke
   <entry>
     <id>https://github.com/rommapp/romm/releases/tag/3.2.0</id>
     <title>New release for RomM: v3.2.0</title>
-    <updated>2024-05-31T11:13:09-04:00</updated>
+    <updated>2024-05-31T12:37:28-04:00</updated>
     <author>
       <name>zurdi15/romm</name>
     </author>
