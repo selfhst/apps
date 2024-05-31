@@ -2693,7 +2693,7 @@
         "Latest Version": "1.24.0",
         "Latest Commit": "2024-05-30",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-22 22:40:26+00:00"
     },
@@ -3206,7 +3206,7 @@
         "Latest Version": "2.1.3",
         "Latest Commit": "2024-05-30",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-23 08:38:30+00:00"
     },
@@ -5049,8 +5049,8 @@
         "Latest Version": "4.4.0",
         "Latest Commit": "2024-05-26",
         "Latest Commit Color": "Green",
-        "Tags": "RSS",
-        "Alternatives": "",
+        "Tags": "Feed Reader,RSS",
+        "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-05-27 13:11:34+00:00"
     },
     {
@@ -6645,7 +6645,7 @@
         "Latest Version": "24.0.0",
         "Latest Commit": "2024-05-31",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-26 12:29:43+00:00"
     },
@@ -7196,7 +7196,7 @@
         "Latest Version": "1.5.0",
         "Latest Commit": "2024-04-09",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-22 22:49:29+00:00"
     },
@@ -8032,7 +8032,7 @@
         "Latest Version": "1.14.0",
         "Latest Commit": "2024-02-01",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-04-03 20:27:41+00:00"
     },
@@ -8336,7 +8336,7 @@
         "Latest Version": "2.1.0",
         "Latest Commit": "2024-04-25",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-22 22:40:05+00:00"
     },
@@ -9058,7 +9058,7 @@
         "Latest Version": "N/A",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "RSS,Feed Reader",
+        "Tags": "Feed Reader,RSS",
         "Alternatives": "Feedly,Inoreader",
         "CreatedAt": "2024-03-25 20:07:00+00:00"
     },
