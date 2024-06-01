@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinguaCafe Releases</title>
-  <updated>2024-06-01T13:30:47.373724-04:00</updated>
+  <updated>2024-06-01T14:30:47.432900-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,8 +72,8 @@
     <author>
       <name>simjanos-dev/LinguaCafe</name>
     </author>
-    <content>&lt;p&gt;The docker image is buing built right now, you cannot update until it is finished. I will remove this message when it's done.&lt;/p&gt;
-&lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+    <content>&lt;p&gt;Please backup LinguaCafe before updating, otherwise you can lose your data if anything goes wrong. You can read more about backups in the &lt;a href="https://github.com/simjanos-dev/LinguaCafe/wiki/2.-Setup#backup"&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This issue only affects servers that have a user other than the admin who manages the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - Fixed a serious security issue.&lt;/p&gt;
 &lt;h2&gt;Thank you for everyone who contributed for the release!&lt;/h2&gt;</content>
