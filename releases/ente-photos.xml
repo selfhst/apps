@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Photos Releases</title>
-  <updated>2024-06-02T14:32:49.970117-04:00</updated>
+  <updated>2024-06-02T15:32:46.549242-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,10 +138,64 @@
     <author>
       <name>ente-io/ente</name>
     </author>
-    <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Performance improvements and bug fixes&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;Bug fixes &amp;amp; performance improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[mob][photos] Fix issues with face thumbnail by @ashilkn in https://github.com/ente-io/ente/pull/1523&lt;/li&gt;
+&lt;li&gt;[mob][photos] Generate face crops faster by @ashilkn in https://github.com/ente-io/ente/pull/1542&lt;/li&gt;
+&lt;li&gt;[mob][photos] Remove unnecessary optional parameter by @ashilkn in https://github.com/ente-io/ente/pull/1543&lt;/li&gt;
+&lt;li&gt;[FEAT] Resumable Multipart Upload by @prateekmedia in https://github.com/ente-io/ente/pull/1406&lt;/li&gt;
+&lt;li&gt;[mob] Keep fetching embeddings till no embedding is returned by @ua741 in https://github.com/ente-io/ente/pull/1709&lt;/li&gt;
+&lt;li&gt;Revert "Move padding within to increase tap-able area" by @vishnukvmd in https://github.com/ente-io/ente/pull/1712&lt;/li&gt;
+&lt;li&gt;[mob][photos] Bump up to v0.8.95 by @ashilkn in https://github.com/ente-io/ente/pull/1722&lt;/li&gt;
+&lt;li&gt;[mob] Minor fixes by @ua741 in https://github.com/ente-io/ente/pull/1724&lt;/li&gt;
+&lt;li&gt;Fix failing workflow for photos internal release  by @ashilkn in https://github.com/ente-io/ente/pull/1723&lt;/li&gt;
+&lt;li&gt;[mob] Show progress for downloading of clip models by @ua741 in https://github.com/ente-io/ente/pull/1738&lt;/li&gt;
+&lt;li&gt;Mobile faces v0 by @laurenspriem in https://github.com/ente-io/ente/pull/1776&lt;/li&gt;
+&lt;li&gt;[mob] Fix bug during logout by @ua741 in https://github.com/ente-io/ente/pull/1800&lt;/li&gt;
+&lt;li&gt;Mobile face by @laurenspriem in https://github.com/ente-io/ente/pull/1799&lt;/li&gt;
+&lt;li&gt;Ml fixes by @laurenspriem in https://github.com/ente-io/ente/pull/1812&lt;/li&gt;
+&lt;li&gt;[mob][photos] Small fix in index scheduling by @laurenspriem in https://github.com/ente-io/ente/pull/1813&lt;/li&gt;
+&lt;li&gt;[mob][photos] Bump by @laurenspriem in https://github.com/ente-io/ente/pull/1814&lt;/li&gt;
+&lt;li&gt;Face flag by @laurenspriem in https://github.com/ente-io/ente/pull/1818&lt;/li&gt;
+&lt;li&gt;[mob][photos] Bump by @laurenspriem in https://github.com/ente-io/ente/pull/1819&lt;/li&gt;
+&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/1788&lt;/li&gt;
+&lt;li&gt;Upgrade to flutter 3.22.0 by @ashilkn in https://github.com/ente-io/ente/pull/1804&lt;/li&gt;
+&lt;li&gt;Face fix by @laurenspriem in https://github.com/ente-io/ente/pull/1823&lt;/li&gt;
+&lt;li&gt;[mob][photos] Use flutter 3.22 for internal build by @laurenspriem in https://github.com/ente-io/ente/pull/1824&lt;/li&gt;
+&lt;li&gt;Dart UI isolate fix by @laurenspriem in https://github.com/ente-io/ente/pull/1828&lt;/li&gt;
+&lt;li&gt;Dart UI isolate fix by @laurenspriem in https://github.com/ente-io/ente/pull/1829&lt;/li&gt;
+&lt;li&gt;[mob][photos] Fix infinite loading on searching by @ashilkn in https://github.com/ente-io/ente/pull/1830&lt;/li&gt;
+&lt;li&gt;Face small improvements by @laurenspriem in https://github.com/ente-io/ente/pull/1839&lt;/li&gt;
+&lt;li&gt;Face wake by @laurenspriem in https://github.com/ente-io/ente/pull/1843&lt;/li&gt;
+&lt;li&gt;[mob] Use custom assetPickerTextDelegate to use en as default by @ua741 in https://github.com/ente-io/ente/pull/1844&lt;/li&gt;
+&lt;li&gt;[mob] Increase limit to 50 for adding asset from device by @ua741 in https://github.com/ente-io/ente/pull/1873&lt;/li&gt;
+&lt;li&gt;[mob][photos] Trigger send logs if app is stuck in spalsh screen for &amp;gt;= 15 seconds by @ashilkn in https://github.com/ente-io/ente/pull/1796&lt;/li&gt;
+&lt;li&gt;Face by @laurenspriem in https://github.com/ente-io/ente/pull/1885&lt;/li&gt;
+&lt;li&gt;Wrap add person name banner inside safeArea by @ua741 in https://github.com/ente-io/ente/pull/1887&lt;/li&gt;
+&lt;li&gt;[mob][photos] Fetch remote feedback before clustering by @laurenspriem in https://github.com/ente-io/ente/pull/1888&lt;/li&gt;
+&lt;li&gt;[mob][photos] Bump by @laurenspriem in https://github.com/ente-io/ente/pull/1889&lt;/li&gt;
+&lt;li&gt;[mob][photos] Migrate files db to sqlite async by @ashilkn in https://github.com/ente-io/ente/pull/1802&lt;/li&gt;
+&lt;li&gt;[mob] Minor fixes in face by @ua741 in https://github.com/ente-io/ente/pull/1900&lt;/li&gt;
+&lt;li&gt;Revert "Upgrade to flutter 3.22.0 (#1804)" by @ashilkn in https://github.com/ente-io/ente/pull/1901&lt;/li&gt;
+&lt;li&gt;[mob] Lint fix by @ua741 in https://github.com/ente-io/ente/pull/1902&lt;/li&gt;
+&lt;li&gt;[mob] Use same flutter version in all workflows by @ua741 in https://github.com/ente-io/ente/pull/1903&lt;/li&gt;
+&lt;li&gt;Tiny face by @laurenspriem in https://github.com/ente-io/ente/pull/1906&lt;/li&gt;
+&lt;li&gt;Breakup cluster by @laurenspriem in https://github.com/ente-io/ente/pull/1917&lt;/li&gt;
+&lt;li&gt;[mob] Hide faceItemWidget from fileInfo if faceIndexing is disabled by @ua741 in https://github.com/ente-io/ente/pull/1918&lt;/li&gt;
+&lt;li&gt;[mob] Remove dead code by @ua741 in https://github.com/ente-io/ente/pull/1919&lt;/li&gt;
+&lt;li&gt;Last fixes by @laurenspriem in https://github.com/ente-io/ente/pull/1920&lt;/li&gt;
+&lt;li&gt;[mob][photos] Upgrade to flutter 3.22.0 by @ashilkn in https://github.com/ente-io/ente/pull/1933&lt;/li&gt;
+&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/1938&lt;/li&gt;
+&lt;li&gt;Final beta face by @laurenspriem in https://github.com/ente-io/ente/pull/1944&lt;/li&gt;
+&lt;li&gt;[mob] Gracefully handle the case when app is stuck due to secureStore exception by @ua741 in https://github.com/ente-io/ente/pull/1916&lt;/li&gt;
+&lt;li&gt;Update mobile-release.yml by @ua741 in https://github.com/ente-io/ente/pull/1955&lt;/li&gt;
+&lt;li&gt;[photos] bump version 0.8.128+648 by @ua741 in https://github.com/ente-io/ente/pull/1956&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/photos-v0.8.94...photos-v0.8.128&lt;/p&gt;</content>
     <link href="https://github.com/ente-io/ente/releases/tag/photos-v0.8.128" rel="alternate"/>
   </entry>
 </feed>
