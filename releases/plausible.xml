@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plausible Releases</title>
-  <updated>2024-06-02T08:31:11.736178-04:00</updated>
+  <updated>2024-06-02T09:31:15.236749-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -394,7 +394,7 @@ $ docker compose up -d&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Upgrading to v2.1.0&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!IMPORTANT]
-This guide assumes you are using &lt;a href="https://github.com/plausible/analytics/discussions/3132"&gt;v2.0.0&lt;/a&gt;&lt;/p&gt;
+This guide assumes you are using &lt;a href="https://github.com/plausible/analytics/discussions/3132"&gt;v2.0.0&lt;/a&gt; and have already run the data migration.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4&gt;Update config&lt;/h4&gt;
 &lt;p&gt;Add a secret key for the new required &lt;code&gt;TOTP_VAULT_KEY&lt;/code&gt; environment variable&lt;/p&gt;
@@ -430,7 +430,7 @@ $ docker compose rm plausible plausible_events_db
 $ docker compose up -d&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This will boot up the new version of the app.&lt;/p&gt;
 &lt;h3&gt;New SMTP client&lt;/h3&gt;
-&lt;p&gt;If you were having problems with email delivery in &lt;a href="https://github.com/plausible/analytics/discussions/3817"&gt;v2.1.0-rc.0,&lt;/a&gt; you can switch to the new SMTP client by setting &lt;code&gt;MAILER_ADAPTER&lt;/code&gt; to &lt;code&gt;Bamboo.Mua&lt;/code&gt;. All the &lt;code&gt;SMTP_*&lt;/code&gt; environment variables can stay the same.&lt;/p&gt;
+&lt;p&gt;If you were having problems with email delivery in the previous versions you can try switching to the new SMTP client by setting &lt;code&gt;MAILER_ADAPTER&lt;/code&gt; to &lt;code&gt;Bamboo.Mua&lt;/code&gt;. All the &lt;code&gt;SMTP_*&lt;/code&gt; environment variables can stay the same.&lt;/p&gt;
 &lt;p&gt;&lt;sub&gt;&lt;kbd&gt;plausible-conf.env&lt;/kbd&gt;&lt;/sub&gt;
 &lt;code&gt;diff
   BASE_URL=https://plausible.example.com
