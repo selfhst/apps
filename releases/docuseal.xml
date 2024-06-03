@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DocuSeal Releases</title>
-  <updated>2024-06-03T05:30:21.587145-04:00</updated>
+  <updated>2024-06-03T06:30:20.899696-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,7 +61,7 @@
   <entry>
     <id>https://github.com/docusealco/docuseal/releases/tag/1.5.9</id>
     <title>New release for DocuSeal: 1.5.9</title>
-    <updated>2024-06-03T05:07:02-04:00</updated>
+    <updated>2024-06-03T05:33:49-04:00</updated>
     <author>
       <name>docusealco/docuseal</name>
     </author>
