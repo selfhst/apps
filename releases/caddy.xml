@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Caddy Releases</title>
-  <updated>2024-06-04T10:30:13.928210-04:00</updated>
+  <updated>2024-06-04T11:30:13.211786-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,7 +68,7 @@
 - ZeroSSL (#6229) (this is &lt;em&gt;one&lt;/em&gt; overall change, but requires some explanation):
     - Up to now, Caddy used both Let's Encrypt and ZeroSSL by default to get certificates without any configuration. In 2.8, this is changing slightly. Due to upcoming changes to ZeroSSL accounting policies, ZeroSSL now requires your email address to be able to access their free ACME endpoint.
     - As such, Caddy will only implicitly add the ZeroSSL issuer to your config if you provide an email address in your Caddyfile using the &lt;a href="https://caddyserver.com/docs/caddyfile/options#email"&gt;&lt;code&gt;email&lt;/code&gt; global option&lt;/a&gt;. (We have already recommended this for years.) If you already do this, you don't have to make any changes and you'll still get Let's Encrypt and ZeroSSL automatically as defaults.
-    - If you use JSON to configure certificate automation policies, you will need to ensure you use the &lt;a href="https://caddyserver.com/docs/json/apps/tls/automation/policies/issuers/acme/#email"&gt;&lt;code&gt;acme&lt;/code&gt; issuer with your &lt;code&gt;email&lt;/code&gt; filled out&lt;/a&gt;, and the &lt;a href="https://caddyserver.com/docs/json/apps/tls/automation/policies/issuers/acme/#ca"&gt;&lt;code&gt;ca&lt;/code&gt; field&lt;/a&gt; set to &lt;a href="https://zerossl.com/documentation/acme/"&gt;ZeroSSL's ACME server URL&lt;/a&gt;.
+    - If you use JSON to configure certificate automation policies, you will need to ensure you use the &lt;a href="https://caddyserver.com/docs/json/apps/tls/automation/policies/issuers/acme/#email"&gt;&lt;code&gt;acme&lt;/code&gt; issuer with your &lt;code&gt;email&lt;/code&gt; filled out&lt;/a&gt;, and the &lt;a href="https://caddyserver.com/docs/json/apps/tls/automation/policies/issuers/acme/#ca"&gt;&lt;code&gt;ca&lt;/code&gt; field&lt;/a&gt; set to &lt;a href="https://zerossl.com/documentation/acme/"&gt;ZeroSSL's ACME server URL&lt;/a&gt;. If you want redundancy with Let's Encrypt, be sure to specify another &lt;code&gt;acme&lt;/code&gt; issuer as well (defaults OK, but we recommend setting an email there too).
     - The &lt;a href="https://caddyserver.com/docs/modules/tls.issuance.zerossl"&gt;&lt;code&gt;zerossl&lt;/code&gt; issuer&lt;/a&gt; module is no longer ACME-capable and is now exclusively for the &lt;a href="https://zerossl.com/developer/"&gt;ZeroSSL API&lt;/a&gt;. An API key from your ZeroSSL account is required. (The &lt;a href="https://zerossl.com/features/acme/"&gt;ZeroSSL ACME server&lt;/a&gt; can still be used with the &lt;a href="https://caddyserver.com/docs/modules/tls.issuance.acme"&gt;&lt;code&gt;acme&lt;/code&gt; module&lt;/a&gt; pointed to ZeroSSL's ACME server. You can provide your account email and/or EAB as well.) &lt;strong&gt;If you were using the ZeroSSL issuer with an API key, it will now start using ZeroSSL's API,&lt;/strong&gt; which was probably the expected behavior anyways. The API has several advantages over the ACME endpoint, but may require payment:
         - Faster response times
         - IP certificates
