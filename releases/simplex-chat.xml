@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2024-06-04T17:31:28.262519-04:00</updated>
+  <updated>2024-06-04T18:31:24.919491-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,7 @@ SHA2-512(simplex.apk)= d38075b73602f1c3566e932318e6814d0772b6749aecabee37bdc3db4
 - some groups permissions can now be granted to admins only.
 - improved message and file delivery with reduced battery usage.
 - Persian interface language - Android and desktop apps.&lt;/p&gt;
-&lt;p&gt;Read more on June 4: https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html&lt;/p&gt;
+&lt;p&gt;Read more: https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html&lt;/p&gt;
 &lt;p&gt;Commits:
 - langs: change 1-2 days to several days on fdroid (#4170)
 - core: save app themes as map with any text key (#4159)
