@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-06-04T02:32:23.940222-04:00</updated>
+  <updated>2024-06-04T03:32:25.312171-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,5 +101,132 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.14.5...v0.14.6&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.14.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.14.9</id>
+    <title>New release for AFFiNE: 0.14.9</title>
+    <updated>2024-06-04T03:05:18-04:00</updated>
+    <author>
+      <name>toeverything/AFFiNE</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: add retry support for copilot by @darkskygit in https://github.com/toeverything/AFFiNE/pull/6947&lt;/li&gt;
+&lt;li&gt;fix: migrate typo by @darkskygit in https://github.com/toeverything/AFFiNE/pull/6948&lt;/li&gt;
+&lt;li&gt;perf(electron): add index for updates by @pengx17 in https://github.com/toeverything/AFFiNE/pull/6951&lt;/li&gt;
+&lt;li&gt;refactor(electron): use sqlite to store server clock &amp;amp; sync meta by @pengx17 in https://github.com/toeverything/AFFiNE/pull/6957&lt;/li&gt;
+&lt;li&gt;fix(component): avoid close button of the notification being invisible in dark mode and bright bg by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/6946&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/6955&lt;/li&gt;
+&lt;li&gt;chore: bump up oxlint version to v0.3.5 by @renovate in https://github.com/toeverything/AFFiNE/pull/6908&lt;/li&gt;
+&lt;li&gt;chore: bump up sinon version to v18 by @renovate in https://github.com/toeverything/AFFiNE/pull/6950&lt;/li&gt;
+&lt;li&gt;fix(core): adjust ai onboarding trigger logic, launch by auth status by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/6941&lt;/li&gt;
+&lt;li&gt;fix(core): local onboarding should dismiss after clicking learn more by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/6942&lt;/li&gt;
+&lt;li&gt;feat(server): use native tokenizer impl by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/6960&lt;/li&gt;
+&lt;li&gt;refactor(core): replace the loading state written in useState with useDebouncedValue by @JimmFly in https://github.com/toeverything/AFFiNE/pull/6925&lt;/li&gt;
+&lt;li&gt;chore: simplify renovate config and upgrade msw by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/6961&lt;/li&gt;
+&lt;li&gt;chore: Lock file maintenance by @renovate in https://github.com/toeverything/AFFiNE/pull/6647&lt;/li&gt;
+&lt;li&gt;chore: use workspace dependencies by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/6964&lt;/li&gt;
+&lt;li&gt;chore: bump up @sentry/react version to v8 by @renovate in https://github.com/toeverything/AFFiNE/pull/6919&lt;/li&gt;
+&lt;li&gt;feat: add upscaler &amp;amp; bg remover by @darkskygit in https://github.com/toeverything/AFFiNE/pull/6967&lt;/li&gt;
+&lt;li&gt;chore: bump up @sentry/integrations version to v7.114.0 by @renovate in https://github.com/toeverything/AFFiNE/pull/6963&lt;/li&gt;
+&lt;li&gt;feat(core): add private anchor link for sharing by @JimmFly in https://github.com/toeverything/AFFiNE/pull/6966&lt;/li&gt;
+&lt;li&gt;fix(electron): remove all migration code in electron by @pengx17 in https://github.com/toeverything/AFFiNE/pull/6969&lt;/li&gt;
+&lt;li&gt;feat(core): bump blocksuite by @Flrande in https://github.com/toeverything/AFFiNE/pull/6965&lt;/li&gt;
+&lt;li&gt;fix: download selfhost fonts script by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/6970&lt;/li&gt;
+&lt;li&gt;chore: bump up blocksuite-canary to v0.15.0-canary-202405161332-f0fb4ad by @renovate in https://github.com/toeverything/AFFiNE/pull/6932&lt;/li&gt;
+&lt;li&gt;docs: update README.md by @eltociear in https://github.com/toeverything/AFFiNE/pull/6855&lt;/li&gt;
+&lt;li&gt;fix(component): ui storybook's doc page can not scroll by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/6909&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @regischen in https://github.com/toeverything/AFFiNE/pull/6975&lt;/li&gt;
+&lt;li&gt;chore: bump up @blocksuite/icons version to v2.1.51 by @renovate in https://github.com/toeverything/AFFiNE/pull/6973&lt;/li&gt;
+&lt;li&gt;feat: add lora support by @darkskygit in https://github.com/toeverything/AFFiNE/pull/6977&lt;/li&gt;
+&lt;li&gt;ci: setup version before build graphql Docker image by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/6992&lt;/li&gt;
+&lt;li&gt;feat: revoke token after sensitive operations by @darkskygit in https://github.com/toeverything/AFFiNE/pull/6993&lt;/li&gt;
+&lt;li&gt;fix(core): fix active view with mouse by @EYHN in https://github.com/toeverything/AFFiNE/pull/6994&lt;/li&gt;
+&lt;li&gt;fix(core): cant leave workspace by @EYHN in https://github.com/toeverything/AFFiNE/pull/6999&lt;/li&gt;
+&lt;li&gt;chore: bump up fake-indexeddb version to v6 by @renovate in https://github.com/toeverything/AFFiNE/pull/6998&lt;/li&gt;
+&lt;li&gt;chore(electron): temporary remove @sentry/electron due to version mismatch by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/7001&lt;/li&gt;
+&lt;li&gt;chore: Lock file maintenance by @renovate in https://github.com/toeverything/AFFiNE/pull/6987&lt;/li&gt;
+&lt;li&gt;fix(electron): incorrect db rows docId when doing trim by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7008&lt;/li&gt;
+&lt;li&gt;fix(web): add Promise.withResolvers polyfill by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/7003&lt;/li&gt;
+&lt;li&gt;chore(server): cleanup expired sessions by @forehalo in https://github.com/toeverything/AFFiNE/pull/7018&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/6968&lt;/li&gt;
+&lt;li&gt;refactor(core): replace history to ViewService.history by @JimmFly in https://github.com/toeverything/AFFiNE/pull/6972&lt;/li&gt;
+&lt;li&gt;chore: bump up @nx/vite version to v19.0.5 by @renovate in https://github.com/toeverything/AFFiNE/pull/7020&lt;/li&gt;
+&lt;li&gt;refactor(electron): always save one update to electron by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7009&lt;/li&gt;
+&lt;li&gt;feat(core): bump blocksuite by @Flrande in https://github.com/toeverything/AFFiNE/pull/7019&lt;/li&gt;
+&lt;li&gt;feat(core): update blocksuite feature flag by @zzj3720 in https://github.com/toeverything/AFFiNE/pull/7025&lt;/li&gt;
+&lt;li&gt;feat(core): bump blocksuite to 0.15.0-canary-202405220826-46746e0 by @Flrande in https://github.com/toeverything/AFFiNE/pull/7026&lt;/li&gt;
+&lt;li&gt;fix(core): right sidebar's content is not centered when clientBorder enabled by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7034&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7036&lt;/li&gt;
+&lt;li&gt;chore: bump up blocksuite-canary to v0.15.0-canary-202405221444-2192806 by @renovate in https://github.com/toeverything/AFFiNE/pull/7028&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7037&lt;/li&gt;
+&lt;li&gt;fix: combine message correctly by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7038&lt;/li&gt;
+&lt;li&gt;fix: use flexible year number in mail template by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7033&lt;/li&gt;
+&lt;li&gt;feat: adapt new fal response by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7042&lt;/li&gt;
+&lt;li&gt;feat: update i2i model by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7041&lt;/li&gt;
+&lt;li&gt;feat(server): add OIDC for AFFiNE by @IamTaoChen in https://github.com/toeverything/AFFiNE/pull/6991&lt;/li&gt;
+&lt;li&gt;fix: export then add test case by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7024&lt;/li&gt;
+&lt;li&gt;chore: bump up blocksuite-canary to v0.15.0-canary-202405231409-6934e1f by @renovate in https://github.com/toeverything/AFFiNE/pull/7047&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7043&lt;/li&gt;
+&lt;li&gt;feat: history cleanup by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7007&lt;/li&gt;
+&lt;li&gt;feat: add customer event by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7029&lt;/li&gt;
+&lt;li&gt;feat(core): bump blocksuite by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7055&lt;/li&gt;
+&lt;li&gt;feat: support more ai image actions by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7027&lt;/li&gt;
+&lt;li&gt;feat: provide notification to bs by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7002&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7050&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @EYHN in https://github.com/toeverything/AFFiNE/pull/7075&lt;/li&gt;
+&lt;li&gt;build: enable new decorator for swc by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7070&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7059&lt;/li&gt;
+&lt;li&gt;fix: reset doc mode correctly by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7071&lt;/li&gt;
+&lt;li&gt;fix(core): unable to create blank lines correctly by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7032&lt;/li&gt;
+&lt;li&gt;fix(core): unexpected re-render in edgeless by @EYHN in https://github.com/toeverything/AFFiNE/pull/7077&lt;/li&gt;
+&lt;li&gt;fix(core): fix ui flashing by @EYHN in https://github.com/toeverything/AFFiNE/pull/7056&lt;/li&gt;
+&lt;li&gt;fix: helm config typo by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7078&lt;/li&gt;
+&lt;li&gt;fix(core): clear input value after selecting a tag in page info by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7076&lt;/li&gt;
+&lt;li&gt;fix: choose provider correctly by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7081&lt;/li&gt;
+&lt;li&gt;feat(server): add administrator feature by @forehalo in https://github.com/toeverything/AFFiNE/pull/6995&lt;/li&gt;
+&lt;li&gt;fix(server): update mind map prompt by @doouding in https://github.com/toeverything/AFFiNE/pull/7079&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7084&lt;/li&gt;
+&lt;li&gt;chore: bump up blocksuite-canary to v0.15.0-canary-202405271425-84b069d by @renovate in https://github.com/toeverything/AFFiNE/pull/7053&lt;/li&gt;
+&lt;li&gt;feat(core): expose toggle ai onboarding apis by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7039&lt;/li&gt;
+&lt;li&gt;chore: Lock file maintenance by @renovate in https://github.com/toeverything/AFFiNE/pull/7074&lt;/li&gt;
+&lt;li&gt;fix: add DEPLOYMENT_TYPE env to migration job by @Brooooooklyn in https://github.com/toeverything/AFFiNE/pull/7089&lt;/li&gt;
+&lt;li&gt;chore: bump up @blocksuite/icons version to v2.1.52 by @renovate in https://github.com/toeverything/AFFiNE/pull/7046&lt;/li&gt;
+&lt;li&gt;feat(core): cmd+f search in doc function by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7040&lt;/li&gt;
+&lt;li&gt;refactor: find in page by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7086&lt;/li&gt;
+&lt;li&gt;chore: adjust find in page modal style by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7087&lt;/li&gt;
+&lt;li&gt;feat(server): runtime setting support by @forehalo in https://github.com/toeverything/AFFiNE/pull/5602&lt;/li&gt;
+&lt;li&gt;chore: update prompts by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7091&lt;/li&gt;
+&lt;li&gt;fix(server): OIDC bug by @IamTaoChen in https://github.com/toeverything/AFFiNE/pull/7061&lt;/li&gt;
+&lt;li&gt;fix: missing quota resolver by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7094&lt;/li&gt;
+&lt;li&gt;feat(server): add copilot prompts management api by @forehalo in https://github.com/toeverything/AFFiNE/pull/7082&lt;/li&gt;
+&lt;li&gt;chore: update cleanup history gql by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7103&lt;/li&gt;
+&lt;li&gt;feat(server): add users management api by @forehalo in https://github.com/toeverything/AFFiNE/pull/7092&lt;/li&gt;
+&lt;li&gt;fix(server): deal with nested optional modules by @forehalo in https://github.com/toeverything/AFFiNE/pull/7101&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7107&lt;/li&gt;
+&lt;li&gt;fix(server): runtime config overrides won't affect static startup by @forehalo in https://github.com/toeverything/AFFiNE/pull/7110&lt;/li&gt;
+&lt;li&gt;fix: patch service syntax by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7080&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7113&lt;/li&gt;
+&lt;li&gt;feat: add chat onboarding entry by @regischen in https://github.com/toeverything/AFFiNE/pull/7109&lt;/li&gt;
+&lt;li&gt;feat(core): add admin panel page by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7115&lt;/li&gt;
+&lt;li&gt;chore: update prompt by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7117&lt;/li&gt;
+&lt;li&gt;fix(core): listFloatingToolbar does not appear as expected by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7124&lt;/li&gt;
+&lt;li&gt;feat: center peek view by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7073&lt;/li&gt;
+&lt;li&gt;feat: e2e tests for peek view by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7112&lt;/li&gt;
+&lt;li&gt;feat(core): adjust admin panel style by @forehalo in https://github.com/toeverything/AFFiNE/pull/7116&lt;/li&gt;
+&lt;li&gt;feat: add feature flag for peek view by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7122&lt;/li&gt;
+&lt;li&gt;fix(component): banner should not affect the editor layout by @fundon in https://github.com/toeverything/AFFiNE/pull/7128&lt;/li&gt;
+&lt;li&gt;chore(core): password input should be focused by @fundon in https://github.com/toeverything/AFFiNE/pull/7125&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @regischen in https://github.com/toeverything/AFFiNE/pull/7120&lt;/li&gt;
+&lt;li&gt;chore(server): register user management resolver by @forehalo in https://github.com/toeverything/AFFiNE/pull/7118&lt;/li&gt;
+&lt;li&gt;fix(core): unexpected autofill style in dark mode by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7130&lt;/li&gt;
+&lt;li&gt;fix(core): block sharing link cannot be created when selecting inline by @JimmFly in https://github.com/toeverything/AFFiNE/pull/7090&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@IamTaoChen made their first contribution in https://github.com/toeverything/AFFiNE/pull/6991&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.14.6...v0.14.9&lt;/p&gt;</content>
+    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.14.9" rel="alternate"/>
   </entry>
 </feed>
