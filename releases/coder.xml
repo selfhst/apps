@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-06-05T07:32:45.945207-04:00</updated>
+  <updated>2024-06-05T08:32:53.312709-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -297,6 +297,9 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
 &lt;h2&gt;Networking Performance Improvements&lt;/h2&gt;
 &lt;p&gt;Since version 2.9.0, we've made several improvements to our networking layer, culminating in remarkable performance gains in 2.12.0. You’ll immediately notice faster file transfers to and from your Coder Workspaces, more stable connections with less initial stutter, and a smoother experience when testing resource-heavy applications. &lt;/p&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+The v2.12.0 CLI is &lt;strong&gt;not&lt;/strong&gt; backward compatible with previous versions of Coder Server.
+The recommended workflow is to upgrade the server &lt;em&gt;before&lt;/em&gt; upgrading the CLI. &lt;/p&gt;
 &lt;p&gt;Read more about this on our blog: &lt;a href="https://coder.com/blog/delivering-5x-faster-throughput-in-coder-2-12-0"&gt;How We Improved Performance of Userspace TCP Stack in Go by 5x&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
