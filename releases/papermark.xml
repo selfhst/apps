@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Papermark Releases</title>
-  <updated>2024-06-06T05:31:09.589423-04:00</updated>
+  <updated>2024-06-06T06:31:12.046450-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,5 +181,70 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mfts/papermark/compare/v0.11.0...v0.12.0&lt;/p&gt;</content>
     <link href="https://github.com/mfts/papermark/releases/tag/v0.12.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/mfts/papermark/releases/tag/v0.13.0</id>
+    <title>New release for Papermark: v0.13.0</title>
+    <updated>2024-06-06T05:42:47-04:00</updated>
+    <author>
+      <name>mfts/papermark</name>
+    </author>
+    <content>&lt;p&gt;New file types, data room updates, and privacy improvements. 👇&lt;/p&gt;
+&lt;h2&gt;Highlights ✨&lt;/h2&gt;
+&lt;h3&gt;Support for sheet-based files (Excel, CSV, ODS, Google Sheets)&lt;/h3&gt;
+&lt;p&gt;A track record should not be a PDF. A business plan should be in rows and columns. That's why we are excited to introduce support for sheet-based file types like Excel, CSV, ODS and Google Sheets. &lt;/p&gt;
+&lt;p&gt;Excel sheets provide a different perspective. Today, sheets and presentations can live side-by-side in your data room to tell your business' full story.&lt;/p&gt;
+&lt;p&gt;We support multi-sheet workbooks and provide engagement analytics per sheet.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-06-05 at 17 54 25@2x" src="https://github.com/mfts/papermark/assets/4049052/ad97884c-db85-4868-98af-1138debc9e5e" /&gt;&lt;/p&gt;
+&lt;h3&gt;Vertical scroll for documents&lt;/h3&gt;
+&lt;p&gt;Uploading a file auto-detects the documents natural orientation and adjusts the document viewer for vertical scroll / skip (new) or horizontal skip. For existing documents, you can choose the orientation if our processor got it wrong or you prefer one mode over the other. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-06-06 at 11 26 58" src="https://github.com/mfts/papermark/assets/4049052/4d7d3a37-a301-4fa8-b707-ce82447569ec" /&gt;&lt;/p&gt;
+&lt;h3&gt;New onboarding flow&lt;/h3&gt;
+&lt;p&gt;The new user onboarding adds options to set up a data room directly.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-06-06 at 11 20 47@2x" src="https://github.com/mfts/papermark/assets/4049052/459f2910-ff87-4874-a609-cce39566d365" /&gt;&lt;/p&gt;
+&lt;h3&gt;Decouple folder tree navigation&lt;/h3&gt;
+&lt;p&gt;Improved navigation for folders and files inside dashboard, data room setup and data room viewer.&lt;/p&gt;
+&lt;h3&gt;Security quality-of-life updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;encrypt/decrypt link password for editing an existing link password (previously it was hashed)&lt;/li&gt;
+&lt;li&gt;remove email verification token from url parameters &lt;/li&gt;
+&lt;li&gt;document visit notifications to team members with &lt;code&gt;MANAGER&lt;/code&gt; role  &lt;/li&gt;
+&lt;li&gt;inviting dataroom visitors by email, generates a new link &lt;/li&gt;
+&lt;li&gt;case-insensitive validation for inviting team members by email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: add support for new file types: .xls, .xlsx, .ods, .csv by @mfts in https://github.com/mfts/papermark/pull/443&lt;/li&gt;
+&lt;li&gt;feat: add sheet image by @mfts in https://github.com/mfts/papermark/pull/445&lt;/li&gt;
+&lt;li&gt;feat: add support for multiple sheets in excel files by @mfts in https://github.com/mfts/papermark/pull/448&lt;/li&gt;
+&lt;li&gt;feat: refactor password show decrypted password for link by @varunguleriaCodes in https://github.com/mfts/papermark/pull/397&lt;/li&gt;
+&lt;li&gt;feat: update onboarding flow for datarooms by @mfts in https://github.com/mfts/papermark/pull/401&lt;/li&gt;
+&lt;li&gt;feat: simplify view links by @mfts in https://github.com/mfts/papermark/pull/403&lt;/li&gt;
+&lt;li&gt;feat: allow deleting documents by any team member by @mfts in https://github.com/mfts/papermark/pull/406&lt;/li&gt;
+&lt;li&gt;feat: notion track visibility when changing windows by @mfts in https://github.com/mfts/papermark/pull/407&lt;/li&gt;
+&lt;li&gt;feat: check team limits by @mfts in https://github.com/mfts/papermark/pull/408&lt;/li&gt;
+&lt;li&gt;fix: don't block the document uploader in dataroom by @mfts in https://github.com/mfts/papermark/pull/411&lt;/li&gt;
+&lt;li&gt;feat: improve email verification procedure and resetting the token after each visit by @mfts in https://github.com/mfts/papermark/pull/414&lt;/li&gt;
+&lt;li&gt;feat(dataroom-users): create a new link for each invited group to datarooms by @mfts in https://github.com/mfts/papermark/pull/415&lt;/li&gt;
+&lt;li&gt;fix: email validation case insensitive by @mfts in https://github.com/mfts/papermark/pull/422&lt;/li&gt;
+&lt;li&gt;chore: updates for landing page by @shnai0 in https://github.com/mfts/papermark/pull/427 https://github.com/mfts/papermark/pull/428&lt;/li&gt;
+&lt;li&gt;feat(content): updates to blog and help sections by @shnai0 in https://github.com/mfts/papermark/pull/434 https://github.com/mfts/papermark/pull/435 https://github.com/mfts/papermark/pull/436&lt;/li&gt;
+&lt;li&gt;feat: add vertical scroll for document view by @mfts in https://github.com/mfts/papermark/pull/429&lt;/li&gt;
+&lt;li&gt;feat: enable vertical mode for all by @mfts in https://github.com/mfts/papermark/pull/430&lt;/li&gt;
+&lt;li&gt;feat: send notifications to all users by @mfts in https://github.com/mfts/papermark/pull/431&lt;/li&gt;
+&lt;li&gt;feat: add change team member role by @mfts in https://github.com/mfts/papermark/pull/432&lt;/li&gt;
+&lt;li&gt;feat: updated folder tree view by @mfts in https://github.com/mfts/papermark/pull/438&lt;/li&gt;
+&lt;li&gt;feat: dataroom settings changes by @mfts in https://github.com/mfts/papermark/pull/439&lt;/li&gt;
+&lt;li&gt;fix: correctly display metatags by @mfts in https://github.com/mfts/papermark/pull/441&lt;/li&gt;
+&lt;li&gt;feat: add waituntil for simple notifications by @mfts in https://github.com/mfts/papermark/pull/442&lt;/li&gt;
+&lt;li&gt;feat: update document notification subject line by @mfts in https://github.com/mfts/papermark/pull/444&lt;/li&gt;
+&lt;li&gt;feat(dataroom): order documents in tree and view alphabetically by @mfts in https://github.com/mfts/papermark/pull/447&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@varunguleriaCodes made their first contribution in https://github.com/mfts/papermark/pull/397&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mfts/papermark/compare/v0.12.0...v0.13.0&lt;/p&gt;</content>
+    <link href="https://github.com/mfts/papermark/releases/tag/v0.13.0" rel="alternate"/>
   </entry>
 </feed>
