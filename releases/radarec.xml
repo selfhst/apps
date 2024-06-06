@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RadaRec Releases</title>
-  <updated>2024-06-06T09:33:09.251489-04:00</updated>
+  <updated>2024-06-06T11:33:15.570798-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,15 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/TheWicklowWolf/RadaRec/compare/v0.02...v0.03&lt;/p&gt;</content>
     <link href="https://github.com/TheWicklowWolf/RadaRec/releases/tag/v0.03" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheWicklowWolf/RadaRec/releases/tag/v0.04</id>
+    <title>New release for RadaRec: v0.04</title>
+    <updated>2024-06-06T09:54:03-04:00</updated>
+    <author>
+      <name>TheWicklowWolf/RadaRec</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/TheWicklowWolf/RadaRec/compare/v0.03...v0.04&lt;/p&gt;</content>
+    <link href="https://github.com/TheWicklowWolf/RadaRec/releases/tag/v0.04" rel="alternate"/>
   </entry>
 </feed>
