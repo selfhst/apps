@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-06-06T17:31:33.741225-04:00</updated>
+  <updated>2024-06-06T18:31:31.069991-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,6 +149,7 @@ Reversion of Merge files fix to avoid file selection issues in other prompts&lt;
 &lt;li&gt;disabled settings.yml updating while we resolve it resetting configs....&lt;/li&gt;
 &lt;li&gt;custom path like /pdf now works correctly for admin page&lt;/li&gt;
 &lt;li&gt;customHTML error resolved&lt;/li&gt;
+&lt;li&gt;markdown to pdf fix&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
