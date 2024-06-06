@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-06T01:32:20.898809-04:00</updated>
+  <updated>2024-06-06T02:32:23.779318-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,13 +111,13 @@
 &lt;h2&gt;Version 0.5.9 - 06/06/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Video embedding on Document page.&lt;/li&gt;
-&lt;li&gt;Redesigned sidebar for Desktop and Mobile.&lt;/li&gt;
-&lt;li&gt;Hotkey (Cmd/Ctrl + 0) added to reset app scale.&lt;/li&gt;
+&lt;li&gt;Revamped the sidebar for both Desktop and Mobile.&lt;/li&gt;
+&lt;li&gt;Added support for embedding videos in documents.&lt;/li&gt;
+&lt;li&gt;Introduced a hotkey (Cmd/Ctrl + 0) to reset the app scale.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed inability to delete content in board header.&lt;/li&gt;
+&lt;li&gt;Fixed the issue preventing the use of Backspace to delete words in Kanban boards.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.9" rel="alternate"/>
   </entry>
