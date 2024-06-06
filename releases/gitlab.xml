@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-06-06T04:30:29.953740-04:00</updated>
+  <updated>2024-06-06T05:30:29.908866-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -676,10 +676,10 @@
 &lt;details&gt;&lt;summary&gt;[Two database mode is available in Beta](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html#migrate-existing-installations-using-a-script) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Cell&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Currently, most self-managed customers only utilize a single database.
-&gt; In order to ensure that the setup between GitLab.com and self-managed is the same, we ask self-managed customers to migrate and run decomposed by default.
+&gt; In order to ensure that the setup between GitLab.com and self-managed is the same, we ask self-managed customers to migrate and run two databases by default.
 &gt; In 16.0, two database connections became the default for self-managed installations.
-&gt; In 17.0, we will end support for single database connections on self-managed, but we will continue supporting single databases with two connections until 19.0. In 17.0, we [release two database mode as a limited Beta](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html), with the goal to make running decomposed generally available by 19.0.
-&gt; Migration remains optional in 17.0, but needs to be performed before upgrading to 19.0.
+&gt; In 17.0, we [release two database mode as a limited Beta](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html), with the goal to make running decomposed generally available by 19.0.
+&gt; Migration to two databases remains optional in 17.0, but needs to be performed before upgrading to 19.0.
 &gt; 
 &gt; The migration requires downtime.
 &gt; Self-managed customers can use a [tool](https://gitlab.com/gitlab-org/gitlab/-/issues/368729) that executes this migration with some downtime.
