@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr iFrames Releases</title>
-  <updated>2024-06-07T10:33:21.209256-04:00</updated>
+  <updated>2024-06-07T11:33:18.487874-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,7 @@
   <entry>
     <id>https://github.com/diogovalentte/homarr-iframes/releases/tag/v0.1.14</id>
     <title>New release for Homarr iFrames: v0.1.14 - Media releases iframe added</title>
-    <updated>2024-06-06T19:33:56-04:00</updated>
+    <updated>2024-06-07T11:19:40-04:00</updated>
     <author>
       <name>diogovalentte/homarr-iframes</name>
     </author>
@@ -83,7 +83,7 @@
 &lt;ul&gt;
 &lt;li&gt;Media releases iframe to show media from &lt;a href="https://github.com/Sonarr/Sonarr"&gt;Sonarr&lt;/a&gt; and &lt;a href="https://github.com/Radarr/Radarr"&gt;Radarr&lt;/a&gt; that releases today.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="image" src="https://github.com/diogovalentte/homarr-iframes/assets/49578155/633846d1-3717-4d52-92f4-b9e805696c9c" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/diogovalentte/homarr-iframes/assets/49578155/17665aaf-5eb5-44df-a0db-9b99a5fe77fb" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/homarr-iframes/compare/v0.1.13...v0.1.14&lt;/p&gt;</content>
     <link href="https://github.com/diogovalentte/homarr-iframes/releases/tag/v0.1.14" rel="alternate"/>
   </entry>
