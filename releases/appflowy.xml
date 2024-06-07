@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-07T04:32:26.924923-04:00</updated>
+  <updated>2024-06-07T05:32:32.054928-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,10 +110,12 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.5.9 - 06/06/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/1f52df02-a4ad-4ce0-a1d2-ab8a41f6d871" width="600"  /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Revamped the sidebar for both Desktop and Mobile.&lt;/li&gt;
 &lt;li&gt;Added support for embedding videos in documents.&lt;/li&gt;
 &lt;li&gt;Introduced a hotkey (Cmd/Ctrl + 0) to reset the app scale.&lt;/li&gt;
+&lt;li&gt;Supported searching the workspace by page title.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
