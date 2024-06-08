@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Parseable Releases</title>
-  <updated>2024-06-08T12:32:36.305307-04:00</updated>
+  <updated>2024-06-08T13:32:38.184237-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,7 +125,7 @@
   <entry>
     <id>https://github.com/parseablehq/parseable/releases/tag/v1.2.0</id>
     <title>New release for Parseable: Feature release v1.2.0</title>
-    <updated>2024-06-08T12:16:54-04:00</updated>
+    <updated>2024-06-08T12:40:34-04:00</updated>
     <author>
       <name>parseablehq/parseable</name>
     </author>
@@ -148,6 +148,7 @@
 &lt;li&gt;fix for daily stats for querier by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/811&lt;/li&gt;
 &lt;li&gt;prepare for release 1.2.0 by @nitisht in https://github.com/parseablehq/parseable/pull/812&lt;/li&gt;
 &lt;li&gt;Include oss in release artefact name by @nitisht in https://github.com/parseablehq/parseable/pull/813&lt;/li&gt;
+&lt;li&gt;fix the gh actions release flow by @nitisht in https://github.com/parseablehq/parseable/pull/815&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/parseablehq/parseable/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/parseablehq/parseable/releases/tag/v1.2.0" rel="alternate"/>
