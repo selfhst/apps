@@ -1,111 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="512"
-   height="512"
-   viewBox="0 0 512 512"
-   version="1.1"
-   id="svg5"
-   inkscape:export-filename="icon-with-background.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="icon.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"
-     showgrid="false"
-     inkscape:zoom="0.96200818"
-     inkscape:cx="190.22707"
-     inkscape:cy="359.14455"
-     inkscape:window-width="2540"
-     inkscape:window-height="1351"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid171"
-       originx="0"
-       originy="0"
-       spacingy="1"
-       spacingx="1"
-       units="px"
-       visible="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="icon_gradient">
-      <stop
-         style="stop-color:#5a00a8;stop-opacity:1;"
-         offset="0"
-         id="stop8756" />
-      <stop
-         style="stop-color:#9c1ef5;stop-opacity:1;"
-         offset="1"
-         id="stop8758" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#icon_gradient"
-       id="radialGradient8762"
-       cx="282.19751"
-       cy="264.0994"
-       fx="282.19751"
-       fy="264.0994"
-       r="246.7025"
-       gradientTransform="matrix(0.69199065,0,0,0.68259761,60.721914,75.726371)"
-       gradientUnits="userSpaceOnUse"
-       spreadMethod="pad" />
-  </defs>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2"
-     style="display:inline">
-    <rect
-       style="fill:#171c3a00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
-       id="rect1202"
-       width="512"
-       height="512"
-       x="-5.0000006e-07"
-       y="5e-07"
-       inkscape:label="background" />
-    <rect
-       style="display:none;fill:none;stroke:#ffffff;stroke-width:1.871;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       id="rect225"
-       width="382.129"
-       height="382.129"
-       x="64.935478"
-       y="64.935501"
-       inkscape:label="icon zone" />
-  </g>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline">
-    <path
-       style="fill:#4400aa;fill-opacity:0;stroke:url(#radialGradient8762);stroke-width:44.1447;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="M 409.41605,255.99999 102.58395,102.58253 V 409.41746 L 408.89726,256.37612"
-       id="path1085"
-       sodipodi:nodetypes="cccc" />
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg5" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:export-filename="icon-with-background.png" sodipodi:docname="icon.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 350 349"
+	 style="enable-background:new 0 0 350 349;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill:#4400AA;fill-opacity:0;stroke:url(#path1085_00000088096902115564951540000017383438396644421526_);stroke-width:44.1447;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<sodipodi:namedview  bordercolor="#000000" borderopacity="0.25" id="namedview7" inkscape:current-layer="layer1" inkscape:cx="190.22707" inkscape:cy="359.14455" inkscape:deskcolor="#d1d1d1" inkscape:document-units="px" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1351" inkscape:window-maximized="0" inkscape:window-width="2540" inkscape:window-x="26" inkscape:window-y="23" inkscape:zoom="0.96200818" pagecolor="#ffffff" showgrid="false" showguides="true">
+	<inkscape:grid  id="grid171" originx="0" originy="0" spacingx="1" spacingy="1" type="xygrid" units="px" visible="false">
+		</inkscape:grid>
+</sodipodi:namedview>
+<g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	
+		<radialGradient id="path1085_00000168108600908505698180000008578564117177649069_" cx="514.1072" cy="38.3079" r="246.7025" gradientTransform="matrix(0.692 0 0 -0.6826 -180.7574 202.1489)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#5A00A8"/>
+		<stop  offset="1" style="stop-color:#9C1EF5"/>
+	</radialGradient>
+	
+		<path id="path1085" sodipodi:nodetypes="cccc" style="fill:#4400AA;fill-opacity:0;stroke:url(#path1085_00000168108600908505698180000008578564117177649069_);stroke-width:44.1447;stroke-linecap:round;stroke-linejoin:round;" d="
+		M328.4,176L21.6,22.6v306.8l306.3-153"/>
+</g>
 </svg>
