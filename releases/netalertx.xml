@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2024-06-09T04:31:15.219974-04:00</updated>
+  <updated>2024-06-09T05:31:12.333282-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -297,7 +297,7 @@
 &lt;p&gt;This month's Net&lt;strong&gt;Alert&lt;/strong&gt;X release includes three big new features: &lt;strong&gt;In-app user notifications,&lt;/strong&gt; &lt;strong&gt;Plugin unloading&lt;/strong&gt; with the &lt;code&gt;LOADED_PLUGINS&lt;/code&gt; setting (making the app much faster), and a new &lt;strong&gt;Sync Hub&lt;/strong&gt; (🧪) plugin. This will enable you to synchronize data from otherwise unscannable LANs/VLANs into one Net&lt;strong&gt;Alert&lt;/strong&gt;X instance. Read the &lt;a href="https://github.com/jokob-sk/NetAlertX/tree/main/front/plugins/sync#readme"&gt;guide here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Also, you can now get Reconnected devices notifications 📶 of devices that trigger down alerts. &lt;/p&gt;
 &lt;p&gt;Thank you to everyone in the community helping with this release, especially @vladaurosh  🙏 who helped me keep the docker image small even with the need for some of the cryptography libraries for the new functionality. &lt;/p&gt;
-&lt;p&gt;I also scored the &lt;a href="@NetAlertX"&gt;@NetAlertX&lt;/a&gt; Twitter handle, let's see if I'll use it 😅&lt;/p&gt;
+&lt;p&gt;I also scored the &lt;a href="https://x.com/@NetAlertX"&gt;@NetAlertX&lt;/a&gt; Twitter handle, let's see if I'll use it 😅&lt;/p&gt;
 &lt;h2&gt;🔔 Get notified what's new&lt;/h2&gt;
 &lt;p&gt;Get notified about a new release, what new functionality you can use, and about breaking changes. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="follow_star" src="https://github.com/jokob-sk/NetAlertX/raw/main/docs/img/Follow_Releases_and_Star.gif" /&gt;&lt;/p&gt;
