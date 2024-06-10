@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SonaShow Releases</title>
-  <updated>2024-06-10T09:33:11.957343-04:00</updated>
+  <updated>2024-06-10T10:33:17.618387-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,15 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/TheWicklowWolf/SonaShow/compare/v0.03...v0.04&lt;/p&gt;</content>
     <link href="https://github.com/TheWicklowWolf/SonaShow/releases/tag/v0.04" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TheWicklowWolf/SonaShow/releases/tag/v0.05</id>
+    <title>New release for SonaShow: v0.05</title>
+    <updated>2024-06-10T10:31:15-04:00</updated>
+    <author>
+      <name>TheWicklowWolf/SonaShow</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/TheWicklowWolf/SonaShow/compare/v0.04...v0.05&lt;/p&gt;</content>
+    <link href="https://github.com/TheWicklowWolf/SonaShow/releases/tag/v0.05" rel="alternate"/>
   </entry>
 </feed>
