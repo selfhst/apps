@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-06-10T08:30:50.464008-04:00</updated>
+  <updated>2024-06-10T09:30:49.515635-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,7 @@
 * Polish localization #458 
 * For developpers: &lt;code&gt;.clang-format&lt;/code&gt; file + validator on PR #470 
 * Specify multiple delimiters in the UI #473 
-* Reconstruct the artist display name using comma when custm delimiters are used #445 &lt;/p&gt;
+* Reconstruct the artist display name using comma when custom delimiters are used #445 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes&lt;/strong&gt;
 * Fixed compilation on arch #457
 * Fixed crash on scan #459 
