@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-06-10T04:31:00.763972-04:00</updated>
+  <updated>2024-06-10T06:31:01.073916-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -894,7 +894,16 @@ const plugins = [
     <author>
       <name>medusajs/medusa</name>
     </author>
-    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+    <content>&lt;!-- 
+![image](https://github.com/medusajs/medusa/assets/59018053/2b6f0b3e-e255-415e-98b8-bf1eabc7d443)
+
+# Version 1.20.6
+
+This version resolves a few issues with our admin plugin to ensure a fully functioning development server.
+
+CMS_BREAK --&gt;
+
+&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;h3&gt;Resolves several issues in &lt;code&gt;@medusajs/admin&lt;/code&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add default value for &lt;code&gt;host&lt;/code&gt; option in &lt;code&gt;@medusjs/admin&lt;/code&gt;. &lt;/li&gt;
