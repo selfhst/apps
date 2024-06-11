@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-06-11T17:32:56.643990-04:00</updated>
+  <updated>2024-06-11T18:32:48.906158-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -278,6 +278,7 @@ spec:
 &lt;/ul&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
 &lt;p&gt;Download the current release of Teleport plugins from the links below.
 * Slack (&lt;a href="https://get.gravitational.com/teleport-access-slack-v15.4.2-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)
 * Mattermost (&lt;a href="https://get.gravitational.com/teleport-access-mattermost-v15.4.2-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-06-11T17:33:00.767605-04:00</updated>
+  <updated>2024-06-11T18:32:52.972804-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,8 +157,8 @@ The recommended workflow is to upgrade the server &lt;em&gt;before&lt;/em&gt; up
 &lt;li&gt;Describe AWS hard NAT (#13205, 1832a755e) (@spikecurtis)&lt;/li&gt;
 &lt;li&gt;Bump k8s install version (#13302, 92c5dfa26) (@coadler)&lt;/li&gt;
 &lt;li&gt;Describe workspace tags (#13352, 98fa823c7) (@mtojek)&lt;/li&gt;
-&lt;li&gt;docs(admin/external-auth.md): add JFrog Artifactory guide (#13166, 7c3ec5199) (@matifali)&lt;/li&gt;
-&lt;li&gt;docs(ides): document connection via JetBrains Fleet (#13179, 679099373) (@matifali)&lt;/li&gt;
+&lt;li&gt;Add JFrog Artifactory guide to docs (#13166, 7c3ec5199) (@matifali)&lt;/li&gt;
+&lt;li&gt;Documented connection via JetBrains Fleet (#13179, 679099373) (@matifali)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Code refactoring&lt;/h3&gt;
 &lt;ul&gt;
@@ -226,15 +226,15 @@ The recommended workflow is to upgrade the server &lt;em&gt;before&lt;/em&gt; up
 &lt;li&gt;Documentation: Update k8s mainline version (#13346, a40e954af) (@coadler)&lt;/li&gt;
 &lt;li&gt;Documentation: Update github app permission to read org members (#13362, 47f8f5d96) (@matifali)&lt;/li&gt;
 &lt;li&gt;Documentation: Add recommendations for dependency management (#13400, 7cc96f5d4) (@johnstcn)&lt;/li&gt;
-&lt;li&gt;chore(dogfood): bump module versions to latest (#13246, 7358c1b1a) (@matifali)&lt;/li&gt;
-&lt;li&gt;chore(README): add hiring link (#13345, ed6ee9aaa) (@ammario)&lt;/li&gt;
-&lt;li&gt;chore(scripts): fix stable release promote script (#13204, f66d0445d) (@mafredri)&lt;/li&gt;
-&lt;li&gt;chore(scripts): remove &lt;code&gt;gh_auth&lt;/code&gt; from &lt;code&gt;release.sh&lt;/code&gt; (#13347, fa9edc1f4) (@coadler)&lt;/li&gt;
-&lt;li&gt;chore(scripts): handle renamed cherry-pick commits in release script (#13395, 374f0a0fd) (@mafredri)&lt;/li&gt;
-&lt;li&gt;chore(scripts): push version bump pr branch in release script (#13397, 9ae825eba) (@mafredri)&lt;/li&gt;
-&lt;li&gt;chore(scripts): add custom gh auth to release script (#13396, 5fb231774) (@mafredri)&lt;/li&gt;
-&lt;li&gt;chore(scripts): add safety check for difference between dry run release notes (#13398, 9eb797eb5) (@mafredri)&lt;/li&gt;
-&lt;li&gt;chore(scripts): fix expression interpreted as exit code on some Bash versions (#13417, 4758952eb) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Internal: bump module versions to latest (#13246, 7358c1b1a) (@matifali)&lt;/li&gt;
+&lt;li&gt;README: add hiring link (#13345, ed6ee9aaa) (@ammario)&lt;/li&gt;
+&lt;li&gt;Scripts: fix stable release promote script (#13204, f66d0445d) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Scripts: remove &lt;code&gt;gh_auth&lt;/code&gt; from &lt;code&gt;release.sh&lt;/code&gt; (#13347, fa9edc1f4) (@coadler)&lt;/li&gt;
+&lt;li&gt;Scripts: handle renamed cherry-pick commits in release script (#13395, 374f0a0fd) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Scripts: push version bump pr branch in release script (#13397, 9ae825eba) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Scripts: add custom gh auth to release script (#13396, 5fb231774) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Scripts: add safety check for difference between dry run release notes (#13398, 9eb797eb5) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Scripts: fix expression interpreted as exit code on some Bash versions (#13417, 4758952eb) (@mafredri)&lt;/li&gt;
 &lt;li&gt;Dashboard: Fix portforward issue with vite (#13262, 8412450ae) (@BrunoQuaresma)&lt;/li&gt;
 &lt;li&gt;Fix unbound variable in tag_version.sh (#13428, ba0bf43de) (@mafredri)&lt;/li&gt;
 &lt;/ul&gt;
