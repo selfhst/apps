@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-06-11T11:30:42.364069-04:00</updated>
+  <updated>2024-06-11T12:30:41.479460-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -386,7 +386,12 @@ Please update immediately, as this bug can put your data at risk if using extern
 &lt;h3&gt;1. Underlying API changes&lt;/h3&gt;
 &lt;p&gt;Please ensure &lt;strong&gt;your mobile app and server are on the same version&lt;/strong&gt;. Otherwise, you won't be able to access the app.&lt;/p&gt;
 &lt;p&gt;We advise you to wait for the mobile app to be reviewed and released from the app stores before updating your instance to avoid disrupting your users.&lt;/p&gt;
-&lt;h3&gt;2. Removal of the &lt;code&gt;immich-microservices&lt;/code&gt; container&lt;/h3&gt;
+&lt;h3&gt;2. Environment variables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SERVER_PORT&lt;/code&gt;, &lt;code&gt;MICROSERVICES_PORT&lt;/code&gt;, and &lt;code&gt;MACHINE_LEARNING_PORT&lt;/code&gt; were renamed to &lt;code&gt;IMMICH_PORT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HOST&lt;/code&gt; and &lt;code&gt;MACHINE_LEARNING_HOST&lt;/code&gt; were renamed to &lt;code&gt;IMMICH_HOST&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. Removal of the &lt;code&gt;immich-microservices&lt;/code&gt; container&lt;/h3&gt;
 &lt;p&gt;The microservices container/process can now be deployed within the immich-server container itself and is done so by default.&lt;/p&gt;
 &lt;p&gt;Please refer to our &lt;a href="https://immich.app/docs/administration/jobs-workers"&gt;documentation&lt;/a&gt; for a detailed explanation of this change and a way to keep microservices as a separate container.&lt;/p&gt;
 &lt;p&gt;Please edit your &lt;code&gt;docker-compose.yml&lt;/code&gt; file with the following changes. If you use hardware acceleration previously in &lt;code&gt;immich-microservices&lt;/code&gt;, you can move the &lt;code&gt;extends&lt;/code&gt; block's content to the &lt;code&gt;immich-server&lt;/code&gt; service to keep the same functionality.&lt;/p&gt;
