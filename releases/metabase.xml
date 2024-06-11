@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-06-11T09:31:56.918666-04:00</updated>
+  <updated>2024-06-11T10:31:59.123806-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -335,18 +335,6 @@ Download the JAR here: https://downloads.metabase.com/v0.50.0/metabase.jar&lt;/p
     - Models and caching (#43681)
     - Caching updates (#42857)
     - Automatically merge the doc PR (#43746)
-
-- **Remove Trash collection from 50 release**
-    - Remove Trash from release v50 (#43159)
-    - Make Trash Usable (#42339)
-    - Questions within an archived collection shouldn't appear in the Archive list (#4013)
-    - Allow deleting archived collections (#2783)
-    - Make it clear that an archived collection is archived when navigating to its direct URL (#29229)
-    - Archiving and unarchiving a collection leaves dashboards in the collection empty (#38646)
-    - Make the delete button appear as default on the archive (#33180)
-    - Unarchive question/dashboard/etc in one click from the "We're a little lost..." page (#10987)
-    - Add filtering options to Archive page (#21341)
-    - Add timestamp to archive items (#9555)
 
 - **Embedding SDK**
     - Follow up work on SDK changelog automation (#43583)

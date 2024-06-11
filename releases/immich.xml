@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-06-11T09:30:41.518114-04:00</updated>
+  <updated>2024-06-11T10:30:41.219757-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -511,7 +511,7 @@ services:
 &lt;p&gt;The Duplicates page is under a new Utilities section in the sidebar. Stay tuned for other features that will go into this section!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/immich-app/immich/assets/27055614/cab465b0-5edc-490e-8a4f-c254172f6acd" /&gt;&lt;/p&gt;
 &lt;h3&gt;End-to-end hardware-accelerated transcoding&lt;/h3&gt;
-&lt;p&gt;Until now, hardware acceleration for most backends only applied to encoding, decoding, and tone-mapping were still done on the CPU. There's now an opt-in hardware decoding toggle that allows you to accelerate the full transcoding process for NVENC, QSV, and RKMPP. Some testing showed a 10x speed improvement compared to accelerated encoding alone (results are subject to your hardware and the video itself, of course).&lt;/p&gt;
+&lt;p&gt;Until now, hardware acceleration for most backends only applied to encoding; decoding and tone-mapping were still done on the CPU. There's now an opt-in hardware decoding toggle that allows you to accelerate the full transcoding process for NVENC, QSV, and RKMPP. Some testing showed a 10x speed improvement compared to accelerated encoding alone (results are subject to your hardware and the video itself, of course).&lt;/p&gt;
 &lt;p&gt;&lt;img alt="hwdecodingchart" src="https://github.com/immich-app/immich/assets/27055614/f27b503d-0e93-4cfa-8958-6bcc28ccbd37" /&gt;&lt;/p&gt;
 &lt;p&gt;Keep in mind that hardware and video compatibility becomes more relevant with this setting, which is why it's currently opt-in.&lt;/p&gt;
 &lt;p&gt;Special thanks to Jellyfin's @nyanmisaka for their helpful tips and suggestions for this feature!&lt;/p&gt;
