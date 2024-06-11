@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-06-11T05:31:58.310216-04:00</updated>
+  <updated>2024-06-11T06:31:58.783669-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -246,7 +246,11 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;&lt;strong&gt;CVE:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-7jmw-8259-q9jx"&gt;GHSA-7jmw-8259-q9jx&lt;/a&gt;  (Related to &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24790"&gt;CVE-2024-24790&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[acme]&lt;/strong&gt; Update go-acme/lego to v4.17.3 (&lt;a href="https://github.com/traefik/traefik/pull/10768"&gt;#10768&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
 - &lt;strong&gt;[acme]&lt;/strong&gt; Fix .com and .org domain examples  (&lt;a href="https://github.com/traefik/traefik/pull/10635"&gt;#10635&lt;/a&gt; by &lt;a href="https://github.com/rptaylor"&gt;rptaylor&lt;/a&gt;)
@@ -262,7 +266,11 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;&lt;strong&gt;CVE:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-7jmw-8259-q9jx"&gt;GHSA-7jmw-8259-q9jx&lt;/a&gt;  (Related to &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-24790"&gt;CVE-2024-24790&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[logs]&lt;/strong&gt; Bump OTel dependencies (&lt;a href="https://github.com/traefik/traefik/pull/10763"&gt;#10763&lt;/a&gt; by &lt;a href="https://github.com/DrFaust92"&gt;DrFaust92&lt;/a&gt;)
 - &lt;strong&gt;[logs]&lt;/strong&gt; Append to log file if it exists (&lt;a href="https://github.com/traefik/traefik/pull/10756"&gt;#10756&lt;/a&gt; by &lt;a href="https://github.com/lbenguigui"&gt;lbenguigui&lt;/a&gt;)
 - &lt;strong&gt;[metrics]&lt;/strong&gt; Fix service name label_replace in Grafana (&lt;a href="https://github.com/traefik/traefik/pull/10758"&gt;#10758&lt;/a&gt; by &lt;a href="https://github.com/xdavidwu"&gt;xdavidwu&lt;/a&gt;)
