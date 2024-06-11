@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-06-11T07:30:39.441615-04:00</updated>
+  <updated>2024-06-11T08:30:41.498196-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -379,7 +379,7 @@ Please update immediately, as this bug can put your data at risk if using extern
       <name>immich-app/immich</name>
     </author>
     <content>&lt;h1&gt;v1.106.1&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Note: We skip &lt;code&gt;v1.160.0&lt;/code&gt; and push straight to &lt;code&gt;v1.160.1&lt;/code&gt; since we discovered and fixed some more bugs while waiting for the &lt;code&gt;v1.160.0&lt;/code&gt; mobile releases to be approved for synchronized publishing across all platforms&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: We skip &lt;code&gt;v1.106.0&lt;/code&gt; and push straight to &lt;code&gt;v1.106.1&lt;/code&gt; since we discovered and fixed some more bugs while waiting for the &lt;code&gt;v1.106.0&lt;/code&gt; mobile releases to be approved for synchronized publishing across all platforms&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;BREAKING CHANGES&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]&lt;/p&gt;
