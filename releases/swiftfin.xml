@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swiftfin Releases</title>
-  <updated>2024-06-12T13:33:30.407988-04:00</updated>
+  <updated>2024-06-12T14:33:32.018887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -240,7 +240,7 @@
       <name>jellyfin/Swiftfin</name>
     </author>
     <content>&lt;p&gt;Thank you for using Swiftfin!&lt;/p&gt;
-&lt;p&gt;This update brings a lot of changes that the amount of PRs don't entirely reflect. The app has practically been entirely refactored over the last few years to for SwiftUI practices and improve foundations for new features. Systems are being implemented to increase the amount of updates to TestFlight and the App Store in the future so that we don't go through another update-drought again.&lt;/p&gt;
+&lt;p&gt;This update brings a lot of changes that the amount of PRs don't entirely reflect. The app has practically been entirely refactored over the last few years to for better SwiftUI practices and improve foundations for new features. Systems are being implemented to increase the amount of updates to TestFlight and the App Store in the future so that we don't go through another update-drought again.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 The tag is 1.1.1 because the existing 1.1 tag is from an earlier potential release that did not happen. Instead of deleting and moving tags, just admitting incorrect tags is encouraged. This won't happen again in the future.&lt;/p&gt;
