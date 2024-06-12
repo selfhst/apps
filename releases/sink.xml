@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sink Releases</title>
-  <updated>2024-06-12T08:33:14.835858-04:00</updated>
+  <updated>2024-06-12T09:33:27.171822-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -51,5 +51,24 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ccbikai/Sink/compare/v0.1.0...v0.1.1&lt;/p&gt;</content>
     <link href="https://github.com/ccbikai/Sink/releases/tag/v0.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ccbikai/Sink/releases/tag/v0.1.2</id>
+    <title>New release for Sink: v0.1.2</title>
+    <updated>2024-06-12T08:38:25-04:00</updated>
+    <author>
+      <name>ccbikai/Sink</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: the links data loading on the mobile page did not trigger by @QuentinHsu in https://github.com/ccbikai/Sink/pull/13&lt;/li&gt;
+&lt;li&gt;docs: Add simple API documentation by @tomcollis in https://github.com/ccbikai/Sink/pull/17&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@tomcollis made their first contribution in https://github.com/ccbikai/Sink/pull/17&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ccbikai/Sink/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
+    <link href="https://github.com/ccbikai/Sink/releases/tag/v0.1.2" rel="alternate"/>
   </entry>
 </feed>
