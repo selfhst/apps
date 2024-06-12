@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>nzb360 Releases</title>
-  <updated>2024-06-12T03:33:27.149603-04:00</updated>
+  <updated>2024-06-12T04:33:32.043019-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,7 +91,7 @@
     <content>&lt;h3&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: Allow custom labels for profiles&lt;/li&gt;
-&lt;li&gt;feat: Allow counting clicks with Nextcloud Bookmarks&lt;/li&gt;
+&lt;li&gt;feat: Allow counting clicks with Nextcloud Bookmarks (this requires the new &lt;code&gt;history&lt;/code&gt; permission for the whole extension. The permission is not used for anything else.)&lt;/li&gt;
 &lt;li&gt;feat: Add some UI interventions asking for donations&lt;/li&gt;
 &lt;li&gt;feat: Opt-in automated error reporting using Sentry&lt;/li&gt;
 &lt;/ul&gt;
