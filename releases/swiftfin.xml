@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swiftfin Releases</title>
-  <updated>2024-06-12T00:33:21.704706-04:00</updated>
+  <updated>2024-06-12T01:33:20.154437-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -231,5 +231,81 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jellyfin/Swiftfin/compare/v71...v74&lt;/p&gt;</content>
     <link href="https://github.com/jellyfin/Swiftfin/releases/tag/v74" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jellyfin/Swiftfin/releases/tag/1.1.1</id>
+    <title>New release for Swiftfin: 1.1</title>
+    <updated>2024-06-12T00:59:05-04:00</updated>
+    <author>
+      <name>jellyfin/Swiftfin</name>
+    </author>
+    <content>&lt;p&gt;Thank you for using Swiftfin!&lt;/p&gt;
+&lt;p&gt;This update brings a lot of changes that the amount of PRs don't entirely reflect. The app has practically been entirely refactored over the last few years to for SwiftUI practices and improve foundations for new features. Systems are being implemented to increase the amount of updates to TestFlight and the App Store in the future so that we don't go through another update-drought again.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+The tag is 1.1.1 because the existing 1.1 tag is from an earlier potential release that did not happen. Instead of deleting and moving tags, just admitting incorrect tags is encouraged. This won't happen again in the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/swiftfin/id1604098728"&gt;
+  &lt;img height=75 alt="Download on the Apple App Store" src="./Resources/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"/&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;!-- Release notes generated using configuration in .github/release.yml at v1.1 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;New Features 🎉&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New Year, New Video Player + Other Goodies by @LePips in https://github.com/jellyfin/Swiftfin/pull/593&lt;/li&gt;
+&lt;li&gt;Cleanup and &lt;code&gt;ItemView.AboutView&lt;/code&gt; Cards by @LePips in https://github.com/jellyfin/Swiftfin/pull/788&lt;/li&gt;
+&lt;li&gt;Filter Toggles [iOS] [iPadOS] by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/847&lt;/li&gt;
+&lt;li&gt;Shuffle play by @william1509 in https://github.com/jellyfin/Swiftfin/pull/816&lt;/li&gt;
+&lt;li&gt;Handle app phases (auto pause/play on enter background/active phase) by @sy6sy2 in https://github.com/jellyfin/Swiftfin/pull/831&lt;/li&gt;
+&lt;li&gt;Prioritize backdrop image for cinematic background by @brendanperry in https://github.com/jellyfin/Swiftfin/pull/893&lt;/li&gt;
+&lt;li&gt;Remove iOS &lt;code&gt;PosterButtonType&lt;/code&gt; + cleanup by @LePips in https://github.com/jellyfin/Swiftfin/pull/883&lt;/li&gt;
+&lt;li&gt;update LatestInLibraryView to use getLatestMedia by @elliots in https://github.com/jellyfin/Swiftfin/pull/895&lt;/li&gt;
+&lt;li&gt;Revamp Device Profile Builder by @holow29 in https://github.com/jellyfin/Swiftfin/pull/519&lt;/li&gt;
+&lt;li&gt;Refactor &lt;code&gt;PosterButton&lt;/code&gt; and libraries, good &lt;code&gt;UICollectionView&lt;/code&gt;s, proper orientation handling, and more by @LePips in https://github.com/jellyfin/Swiftfin/pull/905&lt;/li&gt;
+&lt;li&gt;Basic SVG Support by @LePips in https://github.com/jellyfin/Swiftfin/pull/1010&lt;/li&gt;
+&lt;li&gt;iOS - User Sign In Unmask Password by @LePips in https://github.com/jellyfin/Swiftfin/pull/1011&lt;/li&gt;
+&lt;li&gt;Clean Up Item Scroll Views by @LePips in https://github.com/jellyfin/Swiftfin/pull/1015&lt;/li&gt;
+&lt;li&gt;Fixing Live TV since the refactor by @jhays in https://github.com/jellyfin/Swiftfin/pull/806&lt;/li&gt;
+&lt;li&gt;Live TV Updates by @LePips in https://github.com/jellyfin/Swiftfin/pull/1022&lt;/li&gt;
+&lt;li&gt;Use http by default on ConnectToServerView by @alasclar in https://github.com/jellyfin/Swiftfin/pull/971&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes 🛠&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Minor Fix for Search View and Poster Button Text by @tstraus13 in https://github.com/jellyfin/Swiftfin/pull/964&lt;/li&gt;
+&lt;li&gt;Fix Full URL Path by @LePips in https://github.com/jellyfin/Swiftfin/pull/990&lt;/li&gt;
+&lt;li&gt;Fix Current Key Commands by @LePips in https://github.com/jellyfin/Swiftfin/pull/991&lt;/li&gt;
+&lt;li&gt;Fix iOS Chapter Overlay by @LePips in https://github.com/jellyfin/Swiftfin/pull/992&lt;/li&gt;
+&lt;li&gt;Fix LiveTV Navigation, fix Media Views, remove CollectionView from iOS by @LePips in https://github.com/jellyfin/Swiftfin/pull/995&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;MediaView&lt;/code&gt; Items by @LePips in https://github.com/jellyfin/Swiftfin/pull/1023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@sul4bh made their first contribution in https://github.com/jellyfin/Swiftfin/pull/623&lt;/li&gt;
+&lt;li&gt;@kcramer made their first contribution in https://github.com/jellyfin/Swiftfin/pull/630&lt;/li&gt;
+&lt;li&gt;@holow29 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/760&lt;/li&gt;
+&lt;li&gt;@wendyliga made their first contribution in https://github.com/jellyfin/Swiftfin/pull/786&lt;/li&gt;
+&lt;li&gt;@SwiftCoderJoe made their first contribution in https://github.com/jellyfin/Swiftfin/pull/794&lt;/li&gt;
+&lt;li&gt;@sy6sy2 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/832&lt;/li&gt;
+&lt;li&gt;@charlie-ac made their first contribution in https://github.com/jellyfin/Swiftfin/pull/848&lt;/li&gt;
+&lt;li&gt;@JPKribs made their first contribution in https://github.com/jellyfin/Swiftfin/pull/847&lt;/li&gt;
+&lt;li&gt;@william1509 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/816&lt;/li&gt;
+&lt;li&gt;@chickdan made their first contribution in https://github.com/jellyfin/Swiftfin/pull/875&lt;/li&gt;
+&lt;li&gt;@ericswpark made their first contribution in https://github.com/jellyfin/Swiftfin/pull/881&lt;/li&gt;
+&lt;li&gt;@brendanperry made their first contribution in https://github.com/jellyfin/Swiftfin/pull/893&lt;/li&gt;
+&lt;li&gt;@elliots made their first contribution in https://github.com/jellyfin/Swiftfin/pull/895&lt;/li&gt;
+&lt;li&gt;@nokeeo made their first contribution in https://github.com/jellyfin/Swiftfin/pull/947&lt;/li&gt;
+&lt;li&gt;@tstraus13 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/964&lt;/li&gt;
+&lt;li&gt;@isgallagher made their first contribution in https://github.com/jellyfin/Swiftfin/pull/985&lt;/li&gt;
+&lt;li&gt;@alasclar made their first contribution in https://github.com/jellyfin/Swiftfin/pull/971&lt;/li&gt;
+&lt;li&gt;@ClarkeCDC made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1018&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;@ryanh2o3 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1044&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jellyfin/Swiftfin/compare/v76...v1.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/jellyfin/Swiftfin/releases/tag/1.1.1" rel="alternate"/>
   </entry>
 </feed>
