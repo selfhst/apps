@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swiftfin Releases</title>
-  <updated>2024-06-12T14:33:32.018887-04:00</updated>
+  <updated>2024-06-12T16:33:19.878273-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -299,11 +299,7 @@ The tag is 1.1.1 because the existing 1.1 tag is from an earlier potential relea
 &lt;li&gt;@isgallagher made their first contribution in https://github.com/jellyfin/Swiftfin/pull/985&lt;/li&gt;
 &lt;li&gt;@alasclar made their first contribution in https://github.com/jellyfin/Swiftfin/pull/971&lt;/li&gt;
 &lt;li&gt;@ClarkeCDC made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1018&lt;/li&gt;
-&lt;li&gt;
-&lt;ul&gt;
 &lt;li&gt;@ryanh2o3 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1044&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jellyfin/Swiftfin/compare/v76...v1.1.1&lt;/p&gt;</content>
     <link href="https://github.com/jellyfin/Swiftfin/releases/tag/1.1.1" rel="alternate"/>
