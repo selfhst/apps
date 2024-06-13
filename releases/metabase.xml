@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-06-13T10:31:56.467031-04:00</updated>
+  <updated>2024-06-13T11:31:51.199102-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -516,9 +516,6 @@ Download the JAR here: https://downloads.metabase.com/v0.50.1/metabase.jar&lt;/p
       <name>metabase/metabase</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you're using Clickhouse as a data warehouse, hold off on upgrading for now. The Clickhouse driver for Metabase 50 isn't quite ready yet, but we wanted to release 50 now so that others can upgrade in the meantime.&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.50.2&lt;/code&gt;&lt;/a&gt;
