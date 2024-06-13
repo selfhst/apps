@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CTFreak Releases</title>
-  <updated>2024-06-13T18:33:08.576781-04:00</updated>
+  <updated>2024-06-13T19:32:59.502527-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,14 +123,14 @@ This change impacts folks with local files only. If you have badly tagged files 
     <link href="https://github.com/music-assistant/server/releases/tag/2.0.4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/music-assistant/server/releases/tag/2.0.5</id>
-    <title>New release for Music Assistant: 2.0.5</title>
-    <updated>2024-06-13T18:32:05-04:00</updated>
+    <id>https://github.com/music-assistant/server/releases/tag/2.0.6</id>
+    <title>New release for Music Assistant: 2.0.6</title>
+    <updated>2024-06-13T18:37:26-04:00</updated>
     <author>
       <name>music-assistant/server</name>
     </author>
     <content>&lt;p&gt;Bugfixes, stability improvements and small tweaks.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.0.4...2.0.5&lt;/p&gt;</content>
-    <link href="https://github.com/music-assistant/server/releases/tag/2.0.5" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.0.4...2.0.6&lt;/p&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.0.6" rel="alternate"/>
   </entry>
 </feed>
