@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-06-13T12:31:23.873123-04:00</updated>
+  <updated>2024-06-13T13:31:31.109789-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,24 +121,25 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.5.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.0.1</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.1.0</id>
     <title>New release for Ryot: Version 6</title>
     <updated>2024-06-13T02:12:34-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.0.1&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;8497b8ff548e84180e352ce4046aa130a5ae9c7b&lt;/code&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.1.0&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;87c5d6d4511e69cad8c250f21a7562801dfbd705&lt;/code&gt;
 &lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;June 13, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;h2&gt;Release Notes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Idle CPU usage should drop to 0% (&lt;a href="https://github.com/IgnisDa/ryot/issues/440#issuecomment-2147046304"&gt;more information&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Jellyfin importer is now completely functioning. &lt;/li&gt;
 &lt;li&gt;Primary keys are now nano-ids, which removes the possibility of enumeration attacks.&lt;/li&gt;
 &lt;li&gt;Integration URLs are now much shorter.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.0.1" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.1.0" rel="alternate"/>
   </entry>
 </feed>
