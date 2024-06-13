@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Frigate-Notify Releases</title>
-  <updated>2024-06-13T13:33:41.094937-04:00</updated>
+  <updated>2024-06-13T14:33:29.769412-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -26,7 +26,6 @@
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;4d2a863 Merge pull request #38 from 0x2142/fix-zone-issue&lt;/li&gt;
 &lt;li&gt;d0afb81 Adding event ID to more logs&lt;/li&gt;
 &lt;li&gt;027bd36 Bump app version&lt;/li&gt;
 &lt;li&gt;3e1917e Add ability to provide custom time format&lt;/li&gt;
@@ -55,14 +54,10 @@
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;baec837 Merge pull request #47 from 0x2142/add-label-filtering&lt;/li&gt;
-&lt;li&gt;37bfa65 Merge pull request #46 from 0x2142/config-mqtt-topic&lt;/li&gt;
 &lt;li&gt;f35ecca Update changelog&lt;/li&gt;
 &lt;li&gt;665a919 Add notification filter based on event labels (#40)&lt;/li&gt;
 &lt;li&gt;f7b0c1a Allow changing default MQTT topic prefix via config (#41)&lt;/li&gt;
-&lt;li&gt;cf9b8d4 Merge pull request #42 from 0x2142/update-docs&lt;/li&gt;
 &lt;li&gt;63673e6 Minor docs updates&lt;/li&gt;
-&lt;li&gt;86fa87e Merge pull request #39 from 0x2142/dependabot/go_modules/golang.org/x/net-0.23.0&lt;/li&gt;
 &lt;li&gt;d7056af Bump golang.org/x/net from 0.22.0 to 0.23.0&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/0x2142/frigate-notify/releases/tag/v0.2.7" rel="alternate"/>
@@ -89,10 +84,6 @@
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;2487e7e Merge pull request #60 from 0x2142/minor-fixes&lt;/li&gt;
-&lt;li&gt;fc982dc Merge pull request #59 from 0x2142/notif-templates&lt;/li&gt;
-&lt;li&gt;681b3c5 Merge pull request #58 from 0x2142/add-frigate-auth-headers&lt;/li&gt;
-&lt;li&gt;58b44e7 Merge pull request #57 from 0x2142/add-nfty-support&lt;/li&gt;
 &lt;li&gt;a20f3cd Remove temporary doc warning&lt;/li&gt;
 &lt;li&gt;291f238 bump app ver for release&lt;/li&gt;
 &lt;li&gt;456d0f0 Remove markdown dependency&lt;/li&gt;
@@ -110,9 +101,7 @@
 &lt;li&gt;95eb8c5 Update docs to show Nfty support&lt;/li&gt;
 &lt;li&gt;5b52d45 Add ability to send additional headers to Frigate&lt;/li&gt;
 &lt;li&gt;e9c547b Initial support for nfty&lt;/li&gt;
-&lt;li&gt;b4162fc Merge pull request #50 from freefd/main&lt;/li&gt;
 &lt;li&gt;87de24b Minor docs updates - Thanks @freefd!! 🎉&lt;/li&gt;
-&lt;li&gt;609a626 Merge pull request #48 from 0x2142/update-example-config&lt;/li&gt;
 &lt;li&gt;863df4a Add label config to sample config in docs&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/0x2142/frigate-notify/releases/tag/v0.2.8" rel="alternate"/>
@@ -139,14 +128,8 @@
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;7a56fca Merge pull request #74 from 0x2142/fix-startup-check-bug&lt;/li&gt;
 &lt;li&gt;3cff9ee Update config.go&lt;/li&gt;
-&lt;li&gt;e40b3ff Merge pull request #73 from 0x2142/misc-fixes&lt;/li&gt;
-&lt;li&gt;5f07da1 Merge pull request #69 from 0x2142/add-webhook-notification&lt;/li&gt;
-&lt;li&gt;35f7826 Merge pull request #68 from 0x2142/custom-notif-templates&lt;/li&gt;
-&lt;li&gt;59a3831 Merge pull request #67 from 0x2142/logging-updates&lt;/li&gt;
 &lt;li&gt;ce9aabd Update docs links&lt;/li&gt;
-&lt;li&gt;599b9ad Merge pull request #72 from 0x2142/Remove-docs-auto-deploy&lt;/li&gt;
 &lt;li&gt;e994b22 Delete .github/workflows/publish-docs.yml&lt;/li&gt;
 &lt;li&gt;9cc6bc6 Update changelog &amp;amp;&amp;amp; bump app version&lt;/li&gt;
 &lt;li&gt;85329cd Add retry for startup check &amp;amp; config options to modify default settings&lt;/li&gt;
@@ -183,22 +166,13 @@
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;d363ece Merge pull request #93 from 0x2142/dev&lt;/li&gt;
-&lt;li&gt;33c14d7 Merge pull request #92 from 0x2142/release-3.1&lt;/li&gt;
 &lt;li&gt;964530a update docs &amp;amp; version for v0.3.1 release&lt;/li&gt;
-&lt;li&gt;80db08d Merge pull request #91 from 0x2142/main&lt;/li&gt;
 &lt;li&gt;66f7388 fix workflow&lt;/li&gt;
-&lt;li&gt;8e269fc Merge pull request #90 from 0x2142/main&lt;/li&gt;
-&lt;li&gt;f650525 Merge pull request #89 from 0x2142/enable-dev-branch&lt;/li&gt;
 &lt;li&gt;39882ba enable dev branch builds&lt;/li&gt;
-&lt;li&gt;03eaf97 Merge pull request #83 from 0x2142/misc-fixes&lt;/li&gt;
 &lt;li&gt;5840813 Enable dev branch builds&lt;/li&gt;
-&lt;li&gt;1d346da Add support for disabling color on console logs&lt;/li&gt;
 &lt;li&gt;9a94425 Logging enhancements&lt;/li&gt;
 &lt;li&gt;9bc91a9 Reduce alerts from unnecessary events&lt;/li&gt;
-&lt;li&gt;73cd8e0 Merge pull request #86 from 0x2142/issue-template-typo&lt;/li&gt;
 &lt;li&gt;8395098 Update bug_report.md&lt;/li&gt;
-&lt;li&gt;c10ef95 Merge pull request #85 from 0x2142/issue-templates&lt;/li&gt;
 &lt;li&gt;0cf1548 Update issue templates&lt;/li&gt;
 &lt;li&gt;a064ee7 Fix camera links for Frigate 0.14.0+&lt;/li&gt;
 &lt;li&gt;894a4c1 Move snapshot message to template &amp;amp; more ntfy fixes&lt;/li&gt;
@@ -207,11 +181,8 @@
 &lt;li&gt;d210c56 Add headers to ntfy for auth (#82)&lt;/li&gt;
 &lt;li&gt;8e9b5fb Add option to drop events without a snapshot&lt;/li&gt;
 &lt;li&gt;e77b09e Fix nfty action button not using public_url (#79)&lt;/li&gt;
-&lt;li&gt;f16d11d Merge pull request #78 from 0x2142/fix-readme-links&lt;/li&gt;
 &lt;li&gt;29c9498 fix readme links&lt;/li&gt;
-&lt;li&gt;26ac6b4 Merge pull request #76 from 0x2142/adjust-config-docs&lt;/li&gt;
 &lt;li&gt;21b0cf4 adjust config docs&lt;/li&gt;
-&lt;li&gt;39873fe Merge pull request #75 from 0x2142/fix-changelog-date&lt;/li&gt;
 &lt;li&gt;6de9f82 Update changelog.md&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/0x2142/frigate-notify/releases/tag/v0.3.1" rel="alternate"/>
