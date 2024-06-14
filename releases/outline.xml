@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2024-06-14T09:31:09.116584-04:00</updated>
+  <updated>2024-06-14T10:31:11.315213-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,7 +163,11 @@
     <author>
       <name>outline/outline</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;br /&gt;
+This release regressed support for ARM processors due to an AWS SDK upgrade, a patch release is being developed to address this. Avoid upgrading if running on the ARM architecture until &lt;code&gt;v0.77.1&lt;/code&gt; is released.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;This release changes how documents are rendered, allowing the introduction of new editor functionality and attributes. Highlighted for this release are some big improvements to tables:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/outline/outline/assets/380914/6109e4a5-fc5a-4a25-ae33-eebbe9adc0db" /&gt;&lt;/p&gt;
 &lt;ul&gt;
