@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2024-06-14T03:33:05.394129-04:00</updated>
+  <updated>2024-06-14T05:33:16.556789-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,11 +60,11 @@
   <entry>
     <id>https://github.com/zitadel/zitadel/releases/tag/v2.53.6</id>
     <title>New release for Zitadel: v2.53.6</title>
-    <updated>2024-06-13T08:52:01-04:00</updated>
+    <updated>2024-06-14T04:34:50-04:00</updated>
     <author>
       <name>zitadel/zitadel</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.53.5...v2.53.6"&gt;2.53.6&lt;/a&gt; (2024-06-13)&lt;/h2&gt;
+    <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.53.5...v2.53.6"&gt;2.53.6&lt;/a&gt; (2024-06-14)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;login:&lt;/strong&gt; ldap login page js file not found (&lt;a href="https://github.com/zitadel/zitadel/issues/8101"&gt;#8101&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/363379a476200325ef7ecd0c6f2feeb310d2bf44"&gt;363379a&lt;/a&gt;)&lt;/li&gt;
@@ -82,11 +82,11 @@
   <entry>
     <id>https://github.com/zitadel/zitadel/releases/tag/v2.54.3</id>
     <title>New release for Zitadel: v2.54.3</title>
-    <updated>2024-06-13T08:44:25-04:00</updated>
+    <updated>2024-06-14T04:37:54-04:00</updated>
     <author>
       <name>zitadel/zitadel</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.54.2...v2.54.3"&gt;2.54.3&lt;/a&gt; (2024-06-13)&lt;/h2&gt;
+    <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.54.2...v2.54.3"&gt;2.54.3&lt;/a&gt; (2024-06-14)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;login:&lt;/strong&gt; ldap login page js file not found (&lt;a href="https://github.com/zitadel/zitadel/issues/8101"&gt;#8101&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/2450736a348cfebe9a69bd596f0979505b6f478f"&gt;2450736&lt;/a&gt;)&lt;/li&gt;
