@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-06-14T10:30:58.053647-04:00</updated>
+  <updated>2024-06-14T11:30:56.735539-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 9.9.0&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 9.9.0 includes various new improvements and bug fixes, including new client-side performance metrics.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v9.9.0" rel="alternate"/>
   </entry>
 </feed>
