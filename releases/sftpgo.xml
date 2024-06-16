@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SFTPGo Releases</title>
-  <updated>2024-06-16T06:31:24.899754-04:00</updated>
+  <updated>2024-06-16T07:31:24.170023-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,6 +119,7 @@ These errors are now filtered and the filesystem path is replaced with the virtu
 &lt;li&gt;Removed support for &lt;code&gt;diffie-hellman-group18-sha512&lt;/code&gt; KEX because our previous implementation was too slow to be useful.&lt;/li&gt;
 &lt;li&gt;Virtual folders returned along with users by external authentication hooks/plugins must exist.&lt;/li&gt;
 &lt;li&gt;EventManager: in previous releases we tried to automatically detect whether &lt;code&gt;{{ObjectData}}&lt;/code&gt; should be a JSON object or a JSON escaped string. This proved problematic and error prone, you now need to explicitly use &lt;code&gt;{{ObjectDataString}}&lt;/code&gt; if you need a JSON escaped string.&lt;/li&gt;
+&lt;li&gt;Web UIs branding: logo is now also used on the login page as the image is much smaller than in v2.5.x. A separate login image is no longer supported.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Contributions&lt;/h2&gt;
 &lt;p&gt;We now require to agree to our &lt;a href="https://sftpgo.com/cla.html"&gt;Contributor License Agreement&lt;/a&gt; to accept contributions.
