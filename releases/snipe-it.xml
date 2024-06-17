@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-06-17T11:31:55.796061-04:00</updated>
+  <updated>2024-06-17T12:31:51.395097-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -188,6 +188,7 @@
 &lt;strong&gt;Snipe-IT now requires PHP 8.1 or greater&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Quick fix release for a backup notification issue, and also cleaned up some really small layout glitches. &lt;/p&gt;
+&lt;p&gt;If you happen to be running Snipe-IT over a reverse-proxy and when you upgrade, your CSS does not load, try setting &lt;code&gt;APP_FORCE_TLS=true&lt;/code&gt; in your &lt;code&gt;.env&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed small footer issues by @snipe in https://github.com/snipe/snipe-it/pull/14876&lt;/li&gt;
