@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-06-17T12:31:51.395097-04:00</updated>
+  <updated>2024-06-17T13:31:52.426894-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,6 +82,7 @@
 &lt;strong&gt;Snipe-IT now requires PHP 8.1 or greater&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;It's here it's here! The long-awaited v7 is out. While this is largely a framework-level upgrade, you should see some performance improvements and bug fixes throughout. We've also added the ability to determine where you get redirected after a checkout and checkin for assets, and we'll be adding more of that functionality in the future. &lt;/p&gt;
+&lt;p&gt;If you happen to be running Snipe-IT over a reverse-proxy and when you upgrade, your CSS does not load, try setting &lt;code&gt;APP_FORCE_TLS=true&lt;/code&gt; in your &lt;code&gt;.env&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Updated Node version, and various packages to more recent by @uberbrady in https://github.com/snipe/snipe-it/pull/12956&lt;/li&gt;
@@ -173,7 +174,8 @@
 &lt;strong&gt;Snipe-IT now requires PHP 8.1 or greater&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;There's always one, isn't there :)&lt;/p&gt;
-&lt;p&gt;This fixes a framework compatibility issue we missed that no longer uses the static &lt;code&gt;Request::has()&lt;/code&gt; facade, and adds some tests to make sure we don't miss that in the future.&lt;/p&gt;</content>
+&lt;p&gt;This fixes a framework compatibility issue we missed that no longer uses the static &lt;code&gt;Request::has()&lt;/code&gt; facade, and adds some tests to make sure we don't miss that in the future.&lt;/p&gt;
+&lt;p&gt;If you happen to be running Snipe-IT over a reverse-proxy and when you upgrade, your CSS does not load, try setting &lt;code&gt;APP_FORCE_TLS=true&lt;/code&gt; in your &lt;code&gt;.env&lt;/code&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/snipe/snipe-it/releases/tag/v7.0.1" rel="alternate"/>
   </entry>
   <entry>
