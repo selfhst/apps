@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WooCommerce Releases</title>
-  <updated>2024-06-18T10:31:48.697504-04:00</updated>
+  <updated>2024-06-18T11:31:47.449114-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,7 +53,7 @@
   <entry>
     <id>https://github.com/woocommerce/woocommerce/releases/tag/9.0.0</id>
     <title>New release for WooCommerce: 9.0.0</title>
-    <updated>2024-06-18T09:31:18-04:00</updated>
+    <updated>2024-06-18T11:12:48-04:00</updated>
     <author>
       <name>woocommerce/woocommerce</name>
     </author>
