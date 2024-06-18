@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2024-06-18T06:31:11.600508-04:00</updated>
+  <updated>2024-06-18T07:31:11.314874-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -182,7 +182,7 @@ This release regressed support for ARM processors due to an AWS SDK dependency u
     </author>
     <content>&lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Restores ability to use IAM roles for S3 storage integration (Regressed with SDK upgrade in 0.77.0)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restores ability to use IAM roles for S3 storage integration&lt;/strong&gt; (Regressed with SDK upgrade in 0.77.0)&lt;/li&gt;
 &lt;li&gt;Fixed table attributes in template lost on application&lt;/li&gt;
 &lt;li&gt;Fixed PDF's and images now correctly return &lt;code&gt;inline&lt;/code&gt; content disposition on shared docs using local storage strategy&lt;/li&gt;
 &lt;li&gt;Fixed vertical alignment of document contents&lt;/li&gt;
