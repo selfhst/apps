@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2024-06-19T11:31:12.072847-04:00</updated>
+  <updated>2024-06-19T12:31:04.527833-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,41 +103,85 @@
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;p&gt;This release brings support to new and exiting features like DNS routes, enhancements that simplify site-2-site configurations, bug fixes and a deprecation notice.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are deprecating FileStore engine support and users should update their backup scripts as this new version will automatically migrate the data to the new SQLite engine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;New features&lt;/h4&gt;
+&lt;h5&gt;DNS routes&lt;/h5&gt;
+&lt;p&gt;This new functionality enables NetBird users to configure routes using domain names instead of IP ranges. This enhancement is particularly beneficial for routing traffic to load balancers, managed databases, and maintaining security for restricted sites behind CDNs with ease and precision.&lt;/p&gt;
+&lt;p&gt;&lt;img width="400" alt="image" src="https://github.com/netbirdio/netbird/assets/7747744/003b67a0-3901-4b08-a67d-98260a0cf0c5"&gt;&lt;/p&gt;
+&lt;p&gt;Learn more at &lt;a href="https://docs.netbird.io/how-to/routing-traffic-to-private-networks#dns-routes"&gt;DNS routes&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Process posture check&lt;/h5&gt;
+&lt;p&gt;Process posture check is a new feature that allows users to define a set of processes that must be running on a device before connecting to the network. This feature is useful when you want to control access based on the processes running on a device. For example, you can disable a connection to a routing peer when a specific process is not running.&lt;/p&gt;
+&lt;p&gt;&lt;img width="400" alt="image" src="https://github.com/netbirdio/netbird/assets/7747744/23949f38-6afd-4072-a053-52e7b1da0b2b"&gt;&lt;/p&gt;
+&lt;p&gt;Learn more at &lt;a href="https://docs.netbird.io/how-to/manage-posture-checks#process-check"&gt;Process check&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Initial support of FreeBSD&lt;/h5&gt;
+&lt;p&gt;We are happy to present an experimental support release for the FreeBSD operating system. This feature, made possible by a valuable community contribution from member @skillcoder, aims to introduce early functionality for FreeBSD. Please note that this version is still in its initial stages and may contain bugs or incomplete elements.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Official builded binaries are coming in the next releases.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Enhancements:&lt;/h4&gt;
+&lt;h5&gt;Network monitor is enable by default for new Windows and macOS clients&lt;/h5&gt;
+&lt;p&gt;The network monitor watches for changes on the peers' network interfaces and restarts the connection when necessary. This is useful when roaming between networks where your default gateway changes frequently.  Existing Windows, macOS and Linux users can enable this feature by adding the &lt;code&gt;-N&lt;/code&gt; flag to the &lt;code&gt;netbird up&lt;/code&gt; command:
+&lt;code&gt;shell
+netbird down
+netbird up -N&lt;/code&gt;&lt;/p&gt;
+&lt;h5&gt;Use 0.0.0.0/0 as source for network routes firewall rules&lt;/h5&gt;
+&lt;p&gt;Previously routing peers would add the NetBird address as source in the network routes firewall rules, making site-2-site configurations more complex since administrators would need to add new firewall rules to connect their internal networks via a pair of routing peers. With this enhancement, the routing peers will use 0.0.0.0/0 as source in the network routes firewall rules, simplifying the configuration process by leaving only internal routers to be configured.&lt;/p&gt;
+&lt;h5&gt;Add GUI client configuration options&lt;/h5&gt;
+&lt;p&gt;We have added new configuration options to the client UI to allow users to configure the client without the need to edit the configuration file or CLI commands. This enhancement is particularly useful for users who prefer to use the client UI to configure the client.&lt;/p&gt;
+&lt;p&gt;Systray:
+&lt;img width="400" alt="Screenshot 2024-06-19 at 17 29 53" src="https://github.com/netbirdio/netbird/assets/7747744/fb1346bb-abd1-44bc-b3af-ad869c8083f3"&gt;
+Advanced settings window:
+&lt;img width="400" alt="image" src="https://github.com/netbirdio/netbird/assets/7747744/3eedcc16-507c-4129-b43f-2fb4b9937f26"&gt;&lt;/p&gt;
+&lt;h4&gt;Deprecations:&lt;/h4&gt;
+&lt;h5&gt;FileStore engine support removed&lt;/h5&gt;
+&lt;p&gt;The FileStore engine support has been deprecated in this release. When upgrading to 0.28.0, the service will automatically migrate the data to the new SQLite engine.
+Users that backup the store.json file directly should update their scripts to use the new SQLite store file &lt;code&gt;store.db&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you prefer to evaluate performance prior upgrading to 0.28.0, please review the manual migrations steps from the &lt;a href="https://docs.netbird.io/selfhosted/sqlite-store"&gt;Management SQLite store&lt;/a&gt; page.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Add FindExistingPostureCheck by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2075&lt;/li&gt;
-&lt;li&gt;Fix PKCE auth html by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2079&lt;/li&gt;
-&lt;li&gt;Improve login performance by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2061&lt;/li&gt;
-&lt;li&gt;Fill the UI version info in system meta on Android by @pappz in https://github.com/netbirdio/netbird/pull/2077&lt;/li&gt;
-&lt;li&gt;Prevent using expired ctx when sending metrics by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2088&lt;/li&gt;
-&lt;li&gt;Ignore candidates whose IP falls into a routed network by @lixmal in https://github.com/netbirdio/netbird/pull/2084&lt;/li&gt;
-&lt;li&gt;Add missing &lt;code&gt;openid&lt;/code&gt; scope when requesting JWT token in Zitadel by @glaeqen in https://github.com/netbirdio/netbird/pull/2089&lt;/li&gt;
-&lt;li&gt;Remove unused variables from peer conn by @pappz in https://github.com/netbirdio/netbird/pull/2074&lt;/li&gt;
-&lt;li&gt;Respect env for debug and routes sub commands by @lixmal in https://github.com/netbirdio/netbird/pull/2026&lt;/li&gt;
-&lt;li&gt;Do not use SO_MARK in case of netstack mode. by @pappz in https://github.com/netbirdio/netbird/pull/2104&lt;/li&gt;
-&lt;li&gt;Use forked go-netroute by @lixmal in https://github.com/netbirdio/netbird/pull/2115&lt;/li&gt;
-&lt;li&gt;Add basic signal metrics by @lixmal in https://github.com/netbirdio/netbird/pull/2107&lt;/li&gt;
-&lt;li&gt;Optimize JWT Group Sync by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2108&lt;/li&gt;
-&lt;li&gt;Prevent building test code for client by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2125&lt;/li&gt;
-&lt;li&gt;Deprecate FileStore engine support by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2119&lt;/li&gt;
-&lt;li&gt;Release 0.28.0 by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2092&lt;/li&gt;
-&lt;li&gt;Fix checkFileAndProcess function on FreeBSD by @pappz in https://github.com/netbirdio/netbird/pull/2128&lt;/li&gt;
-&lt;li&gt;Enable network monitoring for Windows and macOS clients by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2126&lt;/li&gt;
-&lt;li&gt;Add freebsd test workflow by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2127&lt;/li&gt;
-&lt;li&gt;fix network monitor ref check by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2133&lt;/li&gt;
-&lt;li&gt;Allow candidates on local routes if more specific than vpn routes by @lixmal in https://github.com/netbirdio/netbird/pull/2097&lt;/li&gt;
-&lt;li&gt;Trim new line char from Android version by @pappz in https://github.com/netbirdio/netbird/pull/2147&lt;/li&gt;
-&lt;li&gt;Fix capacity of slice by @pappz in https://github.com/netbirdio/netbird/pull/2148&lt;/li&gt;
-&lt;li&gt;Fix store migration on empty string by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2149&lt;/li&gt;
-&lt;li&gt;Use any as source for the firewall for routed networks by @lixmal in https://github.com/netbirdio/netbird/pull/2134&lt;/li&gt;
-&lt;li&gt;Update configuration options for client UI by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2139&lt;/li&gt;
-&lt;li&gt;Process routes before peers by @lixmal in https://github.com/netbirdio/netbird/pull/2105&lt;/li&gt;
-&lt;li&gt;Remove whitespace at the end of a line by @Yxnt in https://github.com/netbirdio/netbird/pull/2152&lt;/li&gt;
+&lt;li&gt;Add FindExistingPostureCheck (#2075)&lt;/li&gt;
+&lt;li&gt;Fix PKCE auth html (#2079)&lt;/li&gt;
+&lt;li&gt;Improve login performance (#2061)&lt;/li&gt;
+&lt;li&gt;Fill the UI version info in system meta on Android (#2077)&lt;/li&gt;
+&lt;li&gt;Prevent using expired ctx when sending metrics (#2088)&lt;/li&gt;
+&lt;li&gt;Ignore candidates whose IP falls into a routed network (#2084)&lt;/li&gt;
+&lt;li&gt;Add missing &lt;code&gt;openid&lt;/code&gt; scope when requesting JWT token in Zitadel (#2089)&lt;/li&gt;
+&lt;li&gt;Remove unused variables from peer conn (#2074)&lt;/li&gt;
+&lt;li&gt;Respect env for debug and routes sub commands (#2026)&lt;/li&gt;
+&lt;li&gt;Do not use SO_MARK in case of netstack mode. (#2104)&lt;/li&gt;
+&lt;li&gt;Use forked go-netroute (#2115)&lt;/li&gt;
+&lt;li&gt;Add basic signal metrics (#2107)&lt;/li&gt;
+&lt;li&gt;Optimize JWT Group Sync (#2108)&lt;/li&gt;
+&lt;li&gt;Prevent building test code for client (#2125)&lt;/li&gt;
+&lt;li&gt;Deprecate FileStore engine support (#2119)&lt;/li&gt;
+&lt;li&gt;compile client under freebsd (#1620)&lt;/li&gt;
+&lt;li&gt;Add DNS routes (#1943)&lt;/li&gt;
+&lt;li&gt;Add process posture check (#1693)&lt;/li&gt;
+&lt;li&gt;Fix checkFileAndProcess function on FreeBSD (#2128)&lt;/li&gt;
+&lt;li&gt;Enable network monitoring for Windows and macOS clients (#2126)&lt;/li&gt;
+&lt;li&gt;Add freebsd test workflow (#2127)&lt;/li&gt;
+&lt;li&gt;fix network monitor ref check (#2133)&lt;/li&gt;
+&lt;li&gt;Allow candidates on local routes if more specific than vpn routes (#2097)&lt;/li&gt;
+&lt;li&gt;Trim new line char from Android version (#2147)&lt;/li&gt;
+&lt;li&gt;Fix capacity of slice (#2148)&lt;/li&gt;
+&lt;li&gt;Fix store migration on empty string (#2149)&lt;/li&gt;
+&lt;li&gt;Use any as source for the firewall for routed networks (#2134)&lt;/li&gt;
+&lt;li&gt;Update configuration options for client UI (#2139)&lt;/li&gt;
+&lt;li&gt;Process routes before peers (#2105)&lt;/li&gt;
+&lt;li&gt;Remove whitespace at the end of a line (#2152)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;h4&gt;Big thanks to our community contributors&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;@glaeqen made their first contribution in https://github.com/netbirdio/netbird/pull/2089&lt;/li&gt;
-&lt;li&gt;@Yxnt made their first contribution in https://github.com/netbirdio/netbird/pull/2152&lt;/li&gt;
+&lt;li&gt;@glaeqen made their first contribution in (#2089)&lt;/li&gt;
+&lt;li&gt;@Yxnt made their first contribution in (#2152)&lt;/li&gt;
+&lt;li&gt;@Evgenii made their first contribution in (#1620)&lt;/li&gt;
+&lt;li&gt;@juliaroesschen made their first contribution in https://github.com/netbirdio/docs/pull/198&lt;/li&gt;
+&lt;li&gt;@scudelletti made their first contribution in https://github.com/netbirdio/docs/pull/194&lt;/li&gt;
+&lt;li&gt;@vladislav-kuznetsov-newhomesmate made their first contribution in https://github.com/netbirdio/docs/pull/189&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/netbirdio/netbird/compare/v0.27.10...v0.28.0&lt;/p&gt;</content>
     <link href="https://github.com/netbirdio/netbird/releases/tag/v0.28.0" rel="alternate"/>

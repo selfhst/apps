@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-06-19T11:31:59.564957-04:00</updated>
+  <updated>2024-06-19T12:31:47.969334-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,9 +151,7 @@ Download the JAR here: https://downloads.metabase.com/v0.50.6/metabase.jar&lt;/p
 
 **Enhancements**
 
-- Disable SQL analysis by default + turn off all QueryField backfills (#44346)
-- Rework measure search performance events (#44300)
-- Remove FE code that checks `enable-query-caching` (#44250)
+- Disable SQL analysis by default (#44346)
 
 **Bug fixes**
 
@@ -163,6 +161,12 @@ Download the JAR here: https://downloads.metabase.com/v0.50.6/metabase.jar&lt;/p
 - StreamingResponse cannot be cast to class clojure.lang.Associative (#44160)
 - Error while exporting a pivot table without columns in v50.x (#44159)
 - Bar chart per week not showing proper information on Timeline (#23336)
+
+**Under the hood**
+
+- Rework measure search performance events (#44300)
+- Remove frontend code that checks `enable-query-caching` (#44250)
+
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.6" rel="alternate"/>

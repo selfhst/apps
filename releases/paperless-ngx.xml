@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-06-19T11:31:19.711146-04:00</updated>
+  <updated>2024-06-19T12:31:11.092276-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -221,6 +221,8 @@ This is planned to be the last release series to support Gotenberg 7, see &lt;a 
 &lt;p&gt;[!NOTE]&lt;br /&gt;
 This is planned to be the last release series to support Gotenberg 7, see &lt;a href="https://github.com/paperless-ngx/paperless-ngx/discussions/7025"&gt;the discussion&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h4&gt;⚠️ Heads Up!&lt;/h4&gt;
+&lt;p&gt;Paperless-ngx v2.10.x fixes an issue with &lt;code&gt;ui_settings&lt;/code&gt; permissions, which are required for users to use the web frontend.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix: dont require admin perms to view trash on frontend @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7028"&gt;#7028&lt;/a&gt;)&lt;/li&gt;
