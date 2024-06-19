@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-19T08:32:29.129626-04:00</updated>
+  <updated>2024-06-19T09:32:26.512475-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,6 +119,7 @@
 &lt;ul&gt;
 &lt;li&gt;Resolved shortcut conflicts on the board page.&lt;/li&gt;
 &lt;li&gt;Resolved an issue where underscores could cause the editor to freeze.&lt;/li&gt;
+&lt;li&gt;Resolved an issue where toolbar will be blocked by the keyboard on some Android devices.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.0" rel="alternate"/>
   </entry>
