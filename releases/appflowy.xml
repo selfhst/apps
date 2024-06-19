@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-19T09:32:26.512475-04:00</updated>
+  <updated>2024-06-19T10:32:28.325427-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,13 +113,13 @@
 &lt;h2&gt;Version 0.6.0 - 19/06/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Introduced the "Space" feature to help you organize your pages more efficiently.&lt;/li&gt;
+&lt;li&gt;Introduced "Spaces" for organizing pages into multiple sections, either privately or shared with entire teams.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Resolved shortcut conflicts on the board page.&lt;/li&gt;
+&lt;li&gt;Resolved issues with editing Kanban card titles and checklist items.&lt;/li&gt;
 &lt;li&gt;Resolved an issue where underscores could cause the editor to freeze.&lt;/li&gt;
-&lt;li&gt;Resolved an issue where toolbar will be blocked by the keyboard on some Android devices.&lt;/li&gt;
+&lt;li&gt;Resolved an issue where the toolbar could be blocked by the keyboard on some Android devices.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.0" rel="alternate"/>
   </entry>
