@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ownCloud Infinite Scale Releases</title>
-  <updated>2024-06-19T16:32:45.466062-04:00</updated>
+  <updated>2024-06-19T17:32:47.805329-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,11 +181,12 @@
     <author>
       <name>owncloud/ocis</name>
     </author>
-    <content>&lt;h1&gt;Table of Contents&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#changelog-for-600-2024-06-19"&gt;Changelog for 6.0.0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Changes in 6.0.0&lt;/h1&gt;
+    <content>&lt;h1&gt;Changes in 6.0.0&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+This is a &lt;strong&gt;Rolling Release&lt;/strong&gt;
+Please check the &lt;a href="https://owncloud.dev/ocis/release_roadmap/#release-types"&gt;documentation&lt;/a&gt; about the scope of this release.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bugfix - Fix an error when lock/unlock a public shared file: &lt;a href="https://github.com/owncloud/ocis/pull/8472"&gt;#8472&lt;/a&gt;&lt;/li&gt;
