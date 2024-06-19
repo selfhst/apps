@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ChangeDetection Releases</title>
-  <updated>2024-06-19T04:30:13.986519-04:00</updated>
+  <updated>2024-06-19T05:30:15.388652-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,7 +99,7 @@
 &lt;li&gt;Fixing build test - Adding small delay by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2397&lt;/li&gt;
 &lt;li&gt;UI - 'Mark all viewed' button should not show when all viewed by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2399&lt;/li&gt;
 &lt;li&gt;improving unique key fix by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2402&lt;/li&gt;
-&lt;li&gt;2408 user agent headers by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2409&lt;/li&gt;
+&lt;li&gt;user-agent fixes (system wide vs watch) by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2409&lt;/li&gt;
 &lt;li&gt;Setting to hide muted watches in RSS feed by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2411&lt;/li&gt;
 &lt;li&gt;Test python 3.10/3.11/3.12 always by @dgtlmoon in https://github.com/dgtlmoon/changedetection.io/pull/2416&lt;/li&gt;
 &lt;li&gt;Bump dnspython from 2.3.0 to 2.6.1 by @dependabot in https://github.com/dgtlmoon/changedetection.io/pull/2306&lt;/li&gt;
