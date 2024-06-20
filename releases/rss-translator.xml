@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RSS Translator Releases</title>
-  <updated>2024-06-19T23:32:49.174811-04:00</updated>
+  <updated>2024-06-20T00:32:56.464322-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,6 +74,7 @@
 &lt;ul&gt;
 &lt;li&gt;docs: add freetranslator by @versun in https://github.com/rss-translator/RSS-Translator/pull/85&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/rss-translator/RSS-Translator/commit/d025faa0d032587158d6d27e985d447e0ee2a382"&gt;feat: update free translator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rss-translator/RSS-Translator/commit/bff61db431b1801f0c3ae90c36d9533179a825b9"&gt;feat: detect and set source language for translation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rss-translator/RSS-Translator/compare/2024.6.19...2024.6.20&lt;/p&gt;</content>
     <link href="https://github.com/rss-translator/RSS-Translator/releases/tag/2024.6.20" rel="alternate"/>
