@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-20T00:32:22.941917-04:00</updated>
+  <updated>2024-06-20T01:32:23.149925-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,6 +112,7 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.6.0 - 19/06/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/e6f11e05-3ce5-4f97-8383-44c7c60a59fc" width="600"  /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduced "Spaces" for organizing pages into multiple sections, either privately or shared with entire teams.&lt;/li&gt;
 &lt;/ul&gt;
