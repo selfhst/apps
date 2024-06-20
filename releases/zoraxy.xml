@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zoraxy Releases</title>
-  <updated>2024-06-20T02:33:37.357909-04:00</updated>
+  <updated>2024-06-20T03:33:00.350477-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,28 @@ As building for Windows 7 is getting harder and harder with increasing numbers o
 &lt;ul&gt;
 &lt;li&gt;Add Rate Limits Limits to Zoraxy by @Kirari04 #185&lt;/li&gt;
 &lt;li&gt;Add docker containers list to set rule @7brend7&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h3&gt;Important for docker users: You need to map &lt;code&gt;docker.sock&lt;/code&gt; into Zoraxy for easy discovery for your services. The new &lt;code&gt;docker&lt;/code&gt; startup parameter is needed for future improvements. Here is an example for your docker-compose.yml&lt;/h3&gt;
+&lt;p&gt;```yaml&lt;/p&gt;
+&lt;p&gt;services:
+  zoraxy:
+    image: zoraxydocker/zoraxy:latest
+    container_name: zoraxy
+    restart: unless-stopped&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ports:
+  - 80:80
+  - 443:443
+  - 8005:8000/tcp
+
+ volumes:
+   - ./config:/opt/zoraxy/config/
+   - /var/run/docker.sock:/var/run/docker.sock
+
+ environment:
+   noauth: false
+   docker: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;</content>
     <link href="https://github.com/tobychui/zoraxy/releases/tag/3.0.7" rel="alternate"/>
   </entry>
 </feed>
