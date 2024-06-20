@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-06-20T16:32:41.302116-04:00</updated>
+  <updated>2024-06-20T17:32:43.279929-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -222,7 +222,8 @@ guidelines, Teleport 16 will start rejecting connections from clients and agents
 &lt;h4&gt;Removal of Active Directory configuration flow&lt;/h4&gt;
 &lt;p&gt;The Active Directory installation and configuration wizard has been removed. Users who don’t already have Active Directory should leverage Teleport’s local user support, and users with existing Active Directory environments should follow the manual setup guide.&lt;/p&gt;
 &lt;h4&gt;Teleport Assist is removed&lt;/h4&gt;
-&lt;p&gt;All Teleport Assist functionality and OpenAI integration has been removed from Teleport.&lt;/p&gt;
+&lt;p&gt;All Teleport Assist functionality and OpenAI integration has been removed from Teleport. &lt;code&gt;auth_service.assist&lt;/code&gt; and &lt;code&gt;proxy_service.assist&lt;/code&gt;options have been removed from the configuration. Teleport will not start if these options are present.&lt;/p&gt;
+&lt;p&gt;During the migration from v15 to v16, the options mentioned above should be removed from the configuration.&lt;/p&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
 &lt;h2&gt;Plugins&lt;/h2&gt;
