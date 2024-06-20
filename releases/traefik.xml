@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-06-20T09:31:58.222783-04:00</updated>
+  <updated>2024-06-20T10:31:56.055909-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,9 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;CVE:
+- &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-rvj4-q8q5-8grf"&gt;GHSA-rvj4-q8q5-8grf&lt;/a&gt; (Related to &lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2024-35255"&gt;CVE-2024-35255&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[acme]&lt;/strong&gt; Update go-acme/lego to v4.17.4 (&lt;a href="https://github.com/traefik/traefik/pull/10803"&gt;#10803&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
 - Update the supported versions table (&lt;a href="https://github.com/traefik/traefik/pull/10798"&gt;#10798&lt;/a&gt; by &lt;a href="https://github.com/nmengin"&gt;nmengin&lt;/a&gt;)&lt;/p&gt;</content>
@@ -102,7 +104,9 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+    <content>&lt;p&gt;CVE:
+- &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-rvj4-q8q5-8grf"&gt;GHSA-rvj4-q8q5-8grf&lt;/a&gt; (Related to &lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2024-35255"&gt;CVE-2024-35255&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
 - Merge v2.11 into v3.0 (&lt;a href="https://github.com/traefik/traefik/pull/10823"&gt;#10823&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
 - Merge v2.11 into v3.0 (&lt;a href="https://github.com/traefik/traefik/pull/10810"&gt;#10810&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.0.3" rel="alternate"/>
