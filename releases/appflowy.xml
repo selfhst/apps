@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-06-20T21:32:18.190415-04:00</updated>
+  <updated>2024-06-20T22:32:16.759557-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,7 @@
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.5.9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/AppFlowy-IO/AppFlowy/releases/tag/v0.6.1</id>
+    <id>https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.1</id>
     <title>New release for AppFlowy: v0.6.1</title>
     <updated>2024-06-20T09:27:38-04:00</updated>
     <author>
@@ -122,6 +122,6 @@
 &lt;li&gt;Resolved an issue where underscores could cause the editor to freeze.&lt;/li&gt;
 &lt;li&gt;Resolved an issue where the toolbar could be blocked by the keyboard on some Android devices.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/v0.6.1" rel="alternate"/>
+    <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.1" rel="alternate"/>
   </entry>
 </feed>
