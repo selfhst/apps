@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Umami Releases</title>
-  <updated>2024-06-21T01:31:34.517341-04:00</updated>
+  <updated>2024-06-21T02:31:35.548427-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,6 +155,9 @@
 &lt;h3&gt;Updated Metrics Header&lt;/h3&gt;
 &lt;p&gt;We've made a few cosmetic changes to the website header. Now all the change stats are listed as percentages with an arrow to clearly indicate the change direction. You can still hover over the percent value to get the actual change value.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/umami-software/umami/assets/477975/c3673936-abaf-4c2b-8574-56267c4aff5e" /&gt;&lt;/p&gt;
+&lt;h3&gt;Entry/Exit URLs&lt;/h3&gt;
+&lt;p&gt;You can now view which pages a user started and ended their visit on.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/umami-software/umami/assets/477975/0a76c2dd-a3b1-4270-9bab-e256151f4a6f" /&gt;&lt;/p&gt;
 &lt;h3&gt;Hosts Filtering&lt;/h3&gt;
 &lt;p&gt;For users who track stats across multiple domains or subdomains, you can now filter by hostname.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/umami-software/umami/assets/477975/657c71d0-2416-444f-b5fd-3e62ff880afa" width="600" /&gt;&lt;/p&gt;
