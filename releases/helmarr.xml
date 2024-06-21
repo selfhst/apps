@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Helmarr Releases</title>
-  <updated>2024-06-21T15:33:29.844510-04:00</updated>
+  <updated>2024-06-21T16:33:20.441561-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,7 +54,7 @@
     <content>&lt;h2&gt;Features :tada:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Reworked docker build process. Image is now smaller + support for arm/v8. @MnAppsNet @Call-Me-G-Now&lt;/li&gt;
-&lt;li&gt;Added animations + new loading UI. Everything should feel more joyful now 😇 🎊 &lt;/li&gt;
+&lt;li&gt;Added animations + new loading UI. Everything should feel more interactive now 😇 🎊 &lt;/li&gt;
 &lt;li&gt;Added option to show decimal places for all values on the Dashboard @MnAppsNet&lt;/li&gt;
 &lt;li&gt;Added option to exclude Transactions from the Dashboard by selecting excluded Accounts/Tags/Categories.&lt;/li&gt;
 &lt;li&gt;Added option to exclude Accounts with 0 balance from the Dashboard&lt;/li&gt;
