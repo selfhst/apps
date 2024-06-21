@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>play:Sub Releases</title>
-  <updated>2024-06-21T16:33:20.439826-04:00</updated>
+  <updated>2024-06-21T17:33:21.657349-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -63,6 +63,7 @@
 &lt;ul&gt;
 &lt;li&gt;Transactions list page supports setting exclussion filters from URL&lt;/li&gt;
 &lt;li&gt;Added buttons to easily increment/decrement day when creating a transaction&lt;/li&gt;
+&lt;li&gt;Prevent zoom in when double pressing buttons like increment date / increment ammount&lt;/li&gt;
 &lt;li&gt;Assistant improvements: supports values with decimals + can set the &lt;code&gt;transactionType&lt;/code&gt; field from Templates (even with no Accounts set). ex You can create a Template called "salary " for transactions of type income.&lt;/li&gt;
 &lt;li&gt;Updated bootstrap theme&lt;/li&gt;
 &lt;li&gt;Added search functionality for the Templates list page&lt;/li&gt;
