@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-06-23T09:31:22.188081-04:00</updated>
+  <updated>2024-06-23T10:31:24.510023-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,15 +121,15 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.5.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.2.12</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.2.13</id>
     <title>New release for Ryot: Version 6</title>
     <updated>2024-06-19T03:18:24-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.2.12&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;622c397ab0afe21fcd35bee22296af9eed7c9e90&lt;/code&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.2.13&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;72bf3ce1af8cd6dd6693b28437709d0c3b458c25&lt;/code&gt;
 &lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;June 23, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
@@ -140,6 +140,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Primary keys are now nano-ids, which removes the possibility of enumeration attacks.&lt;/li&gt;
 &lt;li&gt;Integration URLs are now much shorter.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.2.12" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.2.13" rel="alternate"/>
   </entry>
 </feed>
