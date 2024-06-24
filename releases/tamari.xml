@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tamari Releases</title>
-  <updated>2024-06-24T13:31:36.222216-04:00</updated>
+  <updated>2024-06-24T14:31:32.008910-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,15 @@
     </author>
     <content>&lt;p&gt;Created an Information modal on Recipe Detail page. Redesigned the Explore page, it now displays pictures when browsing the recipe list. Explore recipe count has increased from 36,000 to 109,000, supported websites has increased from 3 to 50, and categories have increased from 7 to 16. Optional rate limiting has been implemented for use with public Tamari instances.&lt;/p&gt;</content>
     <link href="https://github.com/alexbates/Tamari/releases/tag/v0.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alexbates/Tamari/releases/tag/v0.7</id>
+    <title>New release for Tamari: Version 0.7</title>
+    <updated>2024-06-24T14:04:56-04:00</updated>
+    <author>
+      <name>alexbates/Tamari</name>
+    </author>
+    <content>&lt;p&gt;In My Recipes, added a third display option called 'Details' and added three new 'Sort By' options. Created an Autofill from URL feature on Add Recipe page. Developed client side recipe export (.ZIP download) and import (restore from backup) to give users better control of account data. Increased font size of Recipe Detail page when viewing on smartphone.&lt;/p&gt;</content>
+    <link href="https://github.com/alexbates/Tamari/releases/tag/v0.7" rel="alternate"/>
   </entry>
 </feed>
