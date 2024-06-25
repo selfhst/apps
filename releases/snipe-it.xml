@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-06-25T08:31:55.301264-04:00</updated>
+  <updated>2024-06-25T09:31:54.591264-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,7 @@
 &lt;p&gt;[!CAUTION]&lt;br /&gt;
 &lt;strong&gt;Snipe-IT now requires PHP 8.1.2 or greater&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;This release largely handles some translation issues (especially related to backup notification emails), a few small importer issues related to date importing, and a bunch of additional automated tests. We also added the feature of being able to disallow your users to edit their profiles at all, and fixed an issue around the ability to delete users.&lt;/p&gt;
+&lt;p&gt;This release largely handles some translation issues (especially related to backup notification emails), a few small importer issues related to date importing, and a bunch of additional automated tests. We also added the feature of being able to disallow your users to edit their profiles at all (via &lt;code&gt;Admin &amp;gt; General Settings&lt;/code&gt;), and fixed an issue around the ability to delete users.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed importer audit date validation issue by @snipe in https://github.com/snipe/snipe-it/pull/14908&lt;/li&gt;
