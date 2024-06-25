@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-06-25T07:32:43.964118-04:00</updated>
+  <updated>2024-06-25T08:32:48.139679-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,30 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kahst/BirdNET-Analyzer/compare/v1.0.2...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.2.0</id>
+    <title>New release for BirdNET-Analyzer: v1.2.0</title>
+    <updated>2024-06-25T07:53:15-04:00</updated>
+    <author>
+      <name>kahst/BirdNET-Analyzer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix segments extraction for table type by @wiliamsouza in https://github.com/kahst/BirdNET-Analyzer/pull/335&lt;/li&gt;
+&lt;li&gt;Raven list file now in correct order by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/351&lt;/li&gt;
+&lt;li&gt;Multi-language support in GUI, added Settings tab (see README) by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/336&lt;/li&gt;
+&lt;li&gt;Complete rewrite of audio.splitsignal to avoid multiple noise padded splits at signal end by @MacJudge in https://github.com/kahst/BirdNET-Analyzer/pull/352&lt;/li&gt;
+&lt;li&gt;Added error messages in GUI for invalid class combinations by @max-mauermann in https://github.com/kahst/BirdNET-Analyzer/pull/357&lt;/li&gt;
+&lt;li&gt;Update BirdNET_GLOBAL_6K_V2.4_Labels_pl.txt by @woheller69 in https://github.com/kahst/BirdNET-Analyzer/pull/359&lt;/li&gt;
+&lt;li&gt;added error log to settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@wiliamsouza made their first contribution in https://github.com/kahst/BirdNET-Analyzer/pull/335&lt;/li&gt;
+&lt;li&gt;@MacJudge made their first contribution in https://github.com/kahst/BirdNET-Analyzer/pull/352&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kahst/BirdNET-Analyzer/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
