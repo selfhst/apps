@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-06-25T17:31:57.344337-04:00</updated>
+  <updated>2024-06-25T18:31:50.951708-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,24 +157,14 @@ Download the JAR here: https://downloads.metabase.com/v0.50.7/metabase.jar&lt;/p
 
 **Enhancements**
 
-- docs: add 49.18 to list of releases (#44699)
-- bump echarts to v5.5.1-rc.1 (#44695)
-- Make scores work with zero items and zero max execution count (#44692)
-- Disable Pivot Export Post Processing Step (#44561)
-- Set `useLocalSessionState` and/or `alwaysSendSetIsolation` connection properties for MySQL/MariaDB (#44507)
-- Make the App DB transaction isolation level READ_COMMITTED for MySQL [MEGA PERFORMANCE BOOST] (#44505)
-- perf: disable view log and card used updates during metadata fetches (#44502)
-- Fix the order we attempt to set DW transaction isolation in [PERFORMANCE BOOST] (#44501)
-- Track metabase.nqa module dependencies (#44464)
+
+- Disable "make exports look pivoted" (#44561) _Note: this is a temporary measure. We're planning to revisit this feature in the nearest future._
+- Disable dashboard filters with native models in the UI (#44288, #39932) . _Note: this has always been the behavior of native models, but we're making it clearer in the UI._
+- [Performance improvement] Set `useLocalSessionState` and/or `alwaysSendSetIsolation` connection properties for MySQL/MariaDB (#44507)
+- [Performance improvement] Attempt to set `READ_COMMITTED` DW transaction isolation before `REPEATABLE_READ` (#44501)
 - Add missing question mark in the 'Clear cache' confirmation modal (#44453)
-- User parameter value json fix (#44420)
-- Don't analyse non-SQL cards with Macaw (#44350)
-- [MBQL lib] Put `:fields :all` on joins on deleting last aggregation (#44321)
-- In Admin/Performance/Database caching, 12:00PM cannot be used as a time in the Schedule component (#44257)
-- In Admin/Performance/Database caching, when a minimum query duration is saved for an adaptive policy, the new value does not appear in the form (#44249)
-- Effective location on collection recent items (#43018)
-- disable invalid move targets in the recents tab (needs recents API update: effective_location) (#42980)
 - Add Upload CSVs button for customers with feature flag (#42381)
+- Make popularity scores for "recent items" work with zero items and zero max execution count (#44692)
 
 **Bug fixes**
 
@@ -182,25 +172,36 @@ Download the JAR here: https://downloads.metabase.com/v0.50.7/metabase.jar&lt;/p
 - Missing schema name in data picker (#44460)
 - Migrate down between 50 and 49 fails when you had sandboxing configured on 49 (#44455)
 - Query changes are not accepted by the QB for some table questions if the query wasn't run before that (#44415)
-- Making a model that joins a table 2 times will generate wrong x-rays (#44379)
-- Disable parameter mapping with native models (#44288)
+- Making a model with a filter and aggregation will generate wrong x-rays (#44379)
 - Unable to connect dashboard number filter to number variable of SQL query card (#44266)
+- In Admin/Performance/Database caching, 12:00PM cannot be used as a time in the Schedule component (#44257)
+- In Admin/Performance/Database caching, when a minimum query duration is saved for an adaptive policy, the new value does not appear in the form (#44249)
 - Field values remapping with mixed PK and a FK targeting the same PK is broken in public dashboards (#44231)
 - Restoring a bookmarked entity (dashboard/question/metric) leads to application crash (#44224)
 - SQL "Unknown column" errors on 0.50.0 with breakouts on nested models (#43993)
 - special characters on the data will break subscriptions (#43677)
 - Table loses visualization settings when using a click action (#43294)
 - Choosing the fields to Join On Resets Join Type in the GUI Editor (#42858)
-- Can't reset binning on join columns to "Don't bin" (#42681)
-- MB_JETTY_SKIP_SNI evaluating env variable as string instead of bool, always evaluating to truthy if set (#42435)
+- Can't set binning on join columns to "Don't bin" (#42681)
+- MB_JETTY_SKIP_SNI always evaluates to true if set and false if unset (#42435)
 - Database mapped field in model metadata shows None after mapping/saving (#42355)
-- Filtering on text ids/foreign key not available in question editor (#41824)
+- Cannot filter on text primary/foreign keys in the question editor (#41824)
 - Adding a string to UI question's custom column crashes Metabase (#41381)
 - Result inconsistencies with Preview in GUI editor (#40399)
 - Cannot edit a custom field named like the column it's referencing (#40064)
 - Date and number fields in Models based off a SQL question without variables can still be linked to filters in dashboards, but the filters will not work (#39932)
 - Join condition is not automatically selected (#39448)
 
+**Under the hood**
+
+- bump echarts to v5.5.1-rc.1 (#44695)
+- Make the App DB transaction isolation level READ_COMMITTED for MySQL [MEGA PERFORMANCE BOOST] (#44505)
+- perf: disable view log and card used updates during metadata fetches (#44502)
+- Track metabase.nqa module dependencies (#44464)
+- Fix string parsing error cluttering User Parameter logs (#44420)
+- Don't analyse non-SQL cards with Macaw (#44350)
+- [MBQL lib] Put `:fields :all` on joins on deleting last aggregation (#44321)
+- disable invalid move targets in the recents tab (needs recents API update: effective_location) (#42980)
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.7" rel="alternate"/>
   </entry>
