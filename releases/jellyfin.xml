@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2024-06-24T20:30:38.145131-04:00</updated>
+  <updated>2024-06-24T21:30:38.623718-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,9 +142,38 @@
     <author>
       <name>jellyfin/jellyfin</name>
     </author>
-    <content>&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still pending while builds complete. This will be replaced with the real release message once those finish.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Do not attempt upgrades until this placeholder text is replaced.&lt;/strong&gt;&lt;/p&gt;</content>
+    <content>&lt;h1&gt;:rocket: Jellyfin Server 10.9.7&lt;/h1&gt;
+&lt;p&gt;We are pleased to announce the latest stable release of Jellyfin, version 10.9.7!&lt;/p&gt;
+&lt;p&gt;This minor release brings several bugfixes to improve your Jellyfin experience.&lt;/p&gt;
+&lt;p&gt;As always, please ensure you stop your Jellyfin server and take a full backup before upgrading!&lt;/p&gt;
+&lt;p&gt;You can find more details about and discuss this release &lt;a href="https://forum.jellyfin.org/t-new-jellyfin-server-web-release-10-9-7"&gt;on our forums&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Changelog (23)&lt;/h2&gt;
+&lt;h3&gt;📈 General Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix HDR detection for 4K Blu-Ray BDMVs [PR #12166], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Log album name and id in normalization task [PR #11911], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Try to add extracted lyrics during scanning [PR #12126], by @gnattu&lt;/li&gt;
+&lt;li&gt;Fix season backdrops [PR #12055], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Rewrite PlaylistItemsProvider as ILocalMetadataProvider [PR #12053], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix empty image folder removal for legacy locations [PR #12025], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix season handling [PR #12050], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Only cleanup children on specific exceptions [PR #12134], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Remove incomplete mediatype restriction from playlists [PR #12024], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix MicroDVD being recognized as DVDSUB subtitles [PR #12149], by @nyanmisaka&lt;/li&gt;
+&lt;li&gt;Fix Cleanup Task metadata saving [PR #12123], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix the Australian PG rating [PR #12043], by @oddstr13&lt;/li&gt;
+&lt;li&gt;Map IPv6 mapped IPv4 addresses back to IPv4 before running checks [PR #12094], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Do not override &lt;year&gt; if &lt;releasedate&gt; is set [PR #12120], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Make m2ts extension case-insensitive [PR #12065], by @Rivenlalala&lt;/li&gt;
+&lt;li&gt;Overwrite supported codecs for livetv [PR #12017], by @gnattu&lt;/li&gt;
+&lt;li&gt;Check hearing impared flags with equality instead of contains [PR #12026], by @Bond-009&lt;/li&gt;
+&lt;li&gt;Fix local episode image thumb recognition [PR #12039], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix video embedded image detection [PR #12031], by @nyanmisaka&lt;/li&gt;
+&lt;li&gt;Fix replace all and respect metadata settings [PR #12028], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix Music Brainz release group query [PR #12073], by @Shadowghost&lt;/li&gt;
+&lt;li&gt;Fix mpeg-ts detection [PR #12046], by @gnattu&lt;/li&gt;
+&lt;li&gt;Do not fail user deletion if we have no playlist folder [PR #12037], by @Shadowghost&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.9.7" rel="alternate"/>
   </entry>
 </feed>
