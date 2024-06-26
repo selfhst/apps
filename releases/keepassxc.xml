@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>KeePassXC Releases</title>
-  <updated>2024-06-25T20:32:05.584378-04:00</updated>
+  <updated>2024-06-25T21:31:59.889345-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -186,7 +186,10 @@
     <author>
       <name>keepassxreboot/keepassxc</name>
     </author>
-    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;Note: We have received some reports of silent crashing  on Windows 10/11 starting with 2.7.9. This is immediately fixed by reinstalling the &lt;a href="https://aka.ms/vs/17/release/vc_redist.x64.exe"&gt;MSVC Redistributable&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Passkeys: Ability to easily remove a passkey from an entry [#10777]&lt;/li&gt;
 &lt;li&gt;Snap: Use new desktop portal for native messaging integration [#10906]&lt;/li&gt;
