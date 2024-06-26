@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-06-25T21:31:19.556081-04:00</updated>
+  <updated>2024-06-25T22:31:19.245073-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,14 +123,14 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
   <entry>
     <id>https://github.com/IgnisDa/ryot/releases/tag/v6.3.1</id>
     <title>New release for Ryot: Version 6</title>
-    <updated>2024-06-19T03:18:24-04:00</updated>
+    <updated>2024-06-25T22:25:02-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
 &lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.3.1&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;b65f2bb9a41c30f6ed1fffdd10b98100b02059b3&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;June 25, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;98adc7ce43d53d0bc4a86acf5b2e328e13d8a0ab&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;June 26, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;h2&gt;Release Notes&lt;/h2&gt;
