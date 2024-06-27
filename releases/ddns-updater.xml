@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DDNS Updater Releases</title>
-  <updated>2024-06-27T08:08:26.026397-04:00</updated>
+  <updated>2024-06-27T09:30:29.736265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -508,7 +508,8 @@
     <author>
       <name>qdm12/ddns-updater</name>
     </author>
-    <content>&lt;p&gt;ℹ️  This is a bugfix release built with fixes only on top of the v2.6.0 program&lt;/p&gt;
+    <content>&lt;p&gt;⚠️ You might want to use &lt;a href="https://github.com/qdm12/ddns-updater/releases/tag/v2.7.0"&gt;release &lt;strong&gt;v2.7.0&lt;/strong&gt;&lt;/a&gt; which is below (due to the last commit time being before)&lt;/p&gt;
+&lt;p&gt;ℹ️  This is a bugfix release built with fixes only on top of the v2.6.0 program&lt;/p&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;custom&lt;/code&gt;: url building fixed ⚠️&lt;/li&gt;

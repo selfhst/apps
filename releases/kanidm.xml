@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanidm Releases</title>
-  <updated>2024-06-26T07:33:03.859432-04:00</updated>
+  <updated>2024-06-27T09:43:11.666109-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -28,7 +28,7 @@ as this may have important effects on your distribution or upgrades in future.&l
 &lt;ul&gt;
 &lt;li&gt;On upgrade all OAuth2 sessions and user sessions will be reset due to changes in cryptographic key handling. This does not affect api tokens.&lt;/li&gt;
 &lt;li&gt;There is a maximum limit of 48 interactive sessions for persons where older sessions are automatically removed.&lt;/li&gt;
-&lt;li&gt;In 1.3.0 new constraints will be introduced that limit the gid/uid number ranges for posix accounts. See our &lt;a href="https://kanidm.github.io/kanidm/stable/server_update.html"&gt;updating documentation&lt;/a&gt; which describes steps to detect non-conforming accounts. &lt;/li&gt;
+&lt;li&gt;In 1.3.0 new constraints will be introduced that limit the gid/uid number ranges for posix accounts. See our &lt;a href="https://kanidm.github.io/kanidm/stable/server_updates.html"&gt;updating documentation&lt;/a&gt; which describes steps to detect non-conforming accounts. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;1.2.0 Release Highlights&lt;/h3&gt;
 &lt;ul&gt;

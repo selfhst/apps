@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mailcow Releases</title>
-  <updated>2024-06-27T06:26:47.062097-04:00</updated>
+  <updated>2024-06-27T09:33:58.231242-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,7 +160,6 @@
 &lt;li&gt;Translations update from Weblate by @milkmaker in https://github.com/mailcow/mailcow-dockerized/pull/5912&lt;/li&gt;
 &lt;li&gt;[Postfix] Upgrade to Deb12 + PF to 3.7.10 &amp;amp; Drop TLS 1.0/1.1 per default by @DerLinkman in https://github.com/mailcow/mailcow-dockerized/pull/5635&lt;/li&gt;
 &lt;li&gt;dovecot: add Flatcurve FTS Engine as EXPERIMENTAL by @DerLinkman in https://github.com/mailcow/mailcow-dockerized/pull/5920&lt;/li&gt;
-&lt;li&gt;2024-06 by @DerLinkman in https://github.com/mailcow/mailcow-dockerized/pull/5922&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
