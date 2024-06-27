@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-06-27T14:32:02.049292-04:00</updated>
+  <updated>2024-06-27T15:30:30.319528-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -978,7 +978,7 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Pages support for mutual TLS in GitLab API calls](https://docs.gitlab.com/ee/administration/pages/#support-mutual-tls-when-calling-the-gitlab-api): &lt;code&gt;Pages&lt;/code&gt;&lt;/summary&gt;
+&lt;details&gt;&lt;summary&gt;[Pages support for mutual TLS in GitLab API calls](https://docs.gitlab.com/ee/administration/pages/#support-mutual-tls-when-calling-the-gitlab-api) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Pages&lt;/code&gt;&lt;/summary&gt;
 
 &gt; GitLab can be configured to [enforce client authentication with SSL certificates](https://docs.gitlab.com/omnibus/settings/ssl/#enable-2-way-ssl-client-authentication). However, the GitLab Pages service was incompatible with that feature, because it couldn't be configured to use client certificates, and calls to the internal API were rejected.
 &gt; 
