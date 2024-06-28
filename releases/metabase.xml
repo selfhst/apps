@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-06-28T17:31:47.073341-04:00</updated>
+  <updated>2024-06-28T18:31:41.150100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -209,51 +209,71 @@ Download the JAR here: https://downloads.metabase.com/v0.50.8/metabase.jar&lt;/p
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements** 
+### Enhancements
 
+**Performance**
 
 - Address BigQuery OOM errors: Ensure we close the canceled chan in query processor after query (#44860)
+
+**Visualizations**
+- Surface last cached time in the frontend (#44458)
+
+**Dashboards**
+- Bump dashboard description max length limit to 1.5K (#44470)
+
+**Misc**
+
 - Throw an error when `import` into an empty application database (#44840)
 - Make SLO optional and default the SLO behavior to disabled (#44758)
 - Remove description length check from copy question form (#44736)
-- Bump dashboard description max length limit to 1.5K (#44470)
-- Surface last cached time in the frontend (#44458)
 - Exclude native query matches in search scoring when the search should exclude native queries (#43982)
 
+### Bug fixes
 
-**Bug fixes**
+**Performance**
+- For a sandboxed user, thousands of appdb queries are sent during a dashboard read (#44786)
 
-- Page hangs when one of parameters contains `{{x}}` value (#44790)
-- [50.x] For a sandboxed user, thousands of appdb queries are sent during a dashboard read (#44786)
-- Users that upgraded to v50 receive an email with a link that goes to a 404 (#44755)
-- Users created incorrectly from config.yml during an import into an uninitialized instance (#44739)
-- Cannot append CSV with long column name (#44724)
-- Fix appends of CSV files that were previously uploaded with long names (#44914)
-- Visualization error when adding a custom column after another query stage (#44668)
-- Multiple values can be used as a default value for single-value dashboard filters (#44666)
+
+**Query builder**
+
 - Unable to sort by the breakout column (#44653)
+- Filtering on date columns by relative dates returning wrong results (#42291)
+- Question editor does not work if model joins the same table more than once (#33427)
+
+**Visualizations**
+
+- Visualization error when adding a custom column after another query stage (#44668)
 - Can't display line or bar chart for empty result set (#44637)
-- Migration stuck with "Running 8 migrations ..." (#44528)
-- Issue processing negative zero as MongoDB BigDecimal(#44506)
-- Fields are limited to 255 characters even when DB supports infinite text (#43983)
 - Horizontal scroll disappeared on overflowing pivot table (#43215)
 - Invalid API request fired when clicking chart legend item (#43077)
 - Break out popover overflows the screen (#43075)
-- Questions always say "Updated a few seconds ago" (#42778)
-- Oracle timestamps fingerprinting error (No implementation of method: :-&gt;temporal of protocol..) (#42325) 
-- Filtering on date columns by relative dates returning wrong results (#42291)
-- Using Column picker to remove columns on model breaks question with ERROR: column source.name_2 does not exist   Position (#41785)
-- Data picker shows "Saved Questions" on an empty *not yet activated* enterprise instance (#40223)
+- Using Column picker to remove columns on model breaks question with ERROR: column source.name_2 does not exist (#41785)
 - Remove all doesn't work when adding/removing columns (#39912)
 - Refresh button won't work after visualization is changed for users with no self-service access (#37374)
-- Question editor does not work if model joins the same table more than once (#33427)
 - Unbinned geo mapping defaults to Grid instead of Pins (#10734)
+- Questions always say "Updated a few seconds ago" (#42778)
+
+**Dashboards**
+- Page hangs when one of parameters contains `{{x}}` value (#44790)
+- Multiple values can be used as a default value for single-value dashboard filters (#44666)
+
+**Misc**
+
+- Users that upgraded to v50 receive an email with a link that goes to a 404 (#44755)
+- Users created incorrectly from config.yml during an import into an uninitialized instance (#44739)
+- Cannot append CSV with long column name (#44724)
+- Migration stuck with "Running 8 migrations ..." (#44528)
+- Issue processing negative zero as MongoDB BigDecimal(#44506)
+- Fields are limited to 255 characters even when DB supports infinite text (#43983)
+- Oracle timestamps fingerprinting error (No implementation of method: :-&gt;temporal of protocol..) (#42325) 
 
 
-**Bugs already fixed**
+
+### Bugs already fixed
 
 We found that these bugs don't reproduce anymore and were likely fixed by work done in one of the previous releases :tada:.
 
+- Data picker shows "Saved Questions" on an empty *not yet activated* enterprise instance (#40223)
 - Model does not bring the options in filters although the api responds with a 200 and the values (#40193)
 - Cannot change question data source to raw data after selecting saved question (#36669)
 - Visible Columns errors when source query is a table joined on itself (#35290)
@@ -274,7 +294,7 @@ We found that these bugs don't reproduce anymore and were likely fixed by work d
 - API allows `count(field)` which kills the metrics page (#13814)
 - Join UI picks the first schema even if a different one is selected (#11958)
 
-**Under the hood**
+### Under the hood
 
 
 - Consolidate native E2E reproductions for the `release-x.50.x` branch (#44901)
