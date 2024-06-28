@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-06-28T12:31:20.812245-04:00</updated>
+  <updated>2024-06-28T13:31:22.661887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,9 +165,9 @@
     <link href="https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.4</id>
-    <title>New release for Rocket.Chat: 6.8.4</title>
-    <updated>2024-06-28T12:29:52-04:00</updated>
+    <id>https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.3</id>
+    <title>New release for Rocket.Chat: 6.8.3</title>
+    <updated>2024-06-28T12:57:02-04:00</updated>
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
@@ -183,35 +183,46 @@
 &lt;p&gt;Bump @rocket.chat/meteor version.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;Bump @rocket.chat/meteor version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/32684"&gt;#32684&lt;/a&gt; by &lt;a href="https://github.com/dionisio-bot"&gt;@dionisio-bot&lt;/a&gt;) livechat &lt;code&gt;setDepartment&lt;/code&gt; livechat api fixes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing department didn't reflect on the registration form in real time&lt;/li&gt;
+&lt;li&gt;Changing the department mid conversation didn't transfer the chat&lt;/li&gt;
+&lt;li&gt;Depending on the state of the department, it couldn't be set as default&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;details&gt;&lt;summary&gt;Updated dependencies []:&lt;/summary&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;@rocket.chat/core-typings@6.8.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/rest-typings@6.8.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/api-client@0.1.36&lt;/li&gt;
-&lt;li&gt;@rocket.chat/license@0.1.18&lt;/li&gt;
-&lt;li&gt;@rocket.chat/omnichannel-services@0.1.18&lt;/li&gt;
-&lt;li&gt;@rocket.chat/pdf-worker@0.0.42&lt;/li&gt;
-&lt;li&gt;@rocket.chat/presence@0.1.18&lt;/li&gt;
-&lt;li&gt;@rocket.chat/apps@0.0.9&lt;/li&gt;
-&lt;li&gt;@rocket.chat/core-services@0.3.18&lt;/li&gt;
-&lt;li&gt;@rocket.chat/cron@0.0.38&lt;/li&gt;
-&lt;li&gt;@rocket.chat/gazzodown@6.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/model-typings@0.4.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/ui-contexts@6.0.4&lt;/li&gt;
+&lt;li&gt;@rocket.chat/core-typings@6.8.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/rest-typings@6.8.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/api-client@0.1.35&lt;/li&gt;
+&lt;li&gt;@rocket.chat/license@0.1.17&lt;/li&gt;
+&lt;li&gt;@rocket.chat/omnichannel-services@0.1.17&lt;/li&gt;
+&lt;li&gt;@rocket.chat/pdf-worker@0.0.41&lt;/li&gt;
+&lt;li&gt;@rocket.chat/presence@0.1.17&lt;/li&gt;
+&lt;li&gt;@rocket.chat/apps@0.0.8&lt;/li&gt;
+&lt;li&gt;@rocket.chat/core-services@0.3.17&lt;/li&gt;
+&lt;li&gt;@rocket.chat/cron@0.0.37&lt;/li&gt;
+&lt;li&gt;@rocket.chat/gazzodown@6.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/model-typings@0.4.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/ui-contexts@6.0.3&lt;/li&gt;
 &lt;li&gt;@rocket.chat/server-cloud-communication@0.0.2&lt;/li&gt;
-&lt;li&gt;@rocket.chat/fuselage-ui-kit@6.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/models@0.0.42&lt;/li&gt;
+&lt;li&gt;@rocket.chat/fuselage-ui-kit@6.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/models@0.0.41&lt;/li&gt;
 &lt;li&gt;@rocket.chat/ui-theming@0.1.2&lt;/li&gt;
-&lt;li&gt;@rocket.chat/ui-avatar@2.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/ui-client@6.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/ui-video-conf@6.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/web-ui-registration@6.0.4&lt;/li&gt;
-&lt;li&gt;@rocket.chat/instance-status@0.0.42&lt;/li&gt;
+&lt;li&gt;@rocket.chat/ui-avatar@2.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/ui-client@6.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/ui-video-conf@6.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/web-ui-registration@6.0.3&lt;/li&gt;
+&lt;li&gt;@rocket.chat/instance-status@0.0.41&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/details&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.4" rel="alternate"/>
+    <link href="https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.3" rel="alternate"/>
   </entry>
   <entry>
     <id>https://github.com/RocketChat/Rocket.Chat/releases/tag/6.9.3</id>
