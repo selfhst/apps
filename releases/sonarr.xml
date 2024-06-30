@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2024-06-30T18:31:25.923741-04:00</updated>
+  <updated>2024-06-30T19:31:27.699582-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,5 +177,56 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.4.1491...v4.0.5.1710&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.5.1710" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.6.1805</id>
+    <title>New release for Sonarr: 4.0.6.1805</title>
+    <updated>2024-06-30T19:08:41-04:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 55c1ce2e3d30f7d986d3ff3e756b3d0579ab8708 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6846&lt;/li&gt;
+&lt;li&gt;Fix SDR Files Being Parsed As HLG by @yammes08 in https://github.com/Sonarr/Sonarr/pull/6842&lt;/li&gt;
+&lt;li&gt;New: Genres and Images for Webhooks and Notifiarr by @markus101 in https://github.com/Sonarr/Sonarr/pull/6839&lt;/li&gt;
+&lt;li&gt;Fixed: Include full series title in episode search by @markus101 in https://github.com/Sonarr/Sonarr/pull/6844&lt;/li&gt;
+&lt;li&gt;Fixed: Manual Interaction Required with possible null series by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6850&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6853&lt;/li&gt;
+&lt;li&gt;New: Refresh cache for tracked queue on series add by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6849&lt;/li&gt;
+&lt;li&gt;Fixed: Ignore case for name validation in providers by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6857&lt;/li&gt;
+&lt;li&gt;Fixed: Skip invalid series paths during validation by @markus101 in https://github.com/Sonarr/Sonarr/pull/6855&lt;/li&gt;
+&lt;li&gt;Fixed: Improve error messaging if config file isn't formatted correctly by @markus101 in https://github.com/Sonarr/Sonarr/pull/6863&lt;/li&gt;
+&lt;li&gt;Ignore &lt;code&gt;Grabbed&lt;/code&gt; from API docs by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6869&lt;/li&gt;
+&lt;li&gt;New: Add TMDB id support by @sundermann in https://github.com/Sonarr/Sonarr/pull/6867&lt;/li&gt;
+&lt;li&gt;Fixed: Adding series with unknown items in queue by @markus101 in https://github.com/Sonarr/Sonarr/pull/6874&lt;/li&gt;
+&lt;li&gt;Fixed: Importing from IMDb list by @markus101 in https://github.com/Sonarr/Sonarr/pull/6877&lt;/li&gt;
+&lt;li&gt;New: Ignore inaccessible folders with getting folders by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6879&lt;/li&gt;
+&lt;li&gt;New: Display stats for delete multiple series modal by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6880&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6891&lt;/li&gt;
+&lt;li&gt;New: Parse anime seasons with trailing number in title by @markus101 in https://github.com/Sonarr/Sonarr/pull/6888&lt;/li&gt;
+&lt;li&gt;New: Improve UI status when downloads cannot be imported automatically by @markus101 in https://github.com/Sonarr/Sonarr/pull/6889&lt;/li&gt;
+&lt;li&gt;Fixed: Exclude invalid releases from Newznab and Torznab parsers by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6892&lt;/li&gt;
+&lt;li&gt;New: Ability to select Plex Media Server from plex.tv by @markus101 in https://github.com/Sonarr/Sonarr/pull/6893&lt;/li&gt;
+&lt;li&gt;New: Ignore Deluge torrents without a title by @markus101 in https://github.com/Sonarr/Sonarr/pull/6894&lt;/li&gt;
+&lt;li&gt;Fixed: Prevent errors parsing releases in unexpected formats by @markus101 in https://github.com/Sonarr/Sonarr/pull/6897&lt;/li&gt;
+&lt;li&gt;Fixed: Reprocessing items that were previously blocked during importing by @markus101 in https://github.com/Sonarr/Sonarr/pull/6907&lt;/li&gt;
+&lt;li&gt;Fixed: Limit Queue maximum page size to 200 by @markus101 in https://github.com/Sonarr/Sonarr/pull/6904&lt;/li&gt;
+&lt;li&gt;Fixed: Don't use cleaned up release title for release title by @markus101 in https://github.com/Sonarr/Sonarr/pull/6911&lt;/li&gt;
+&lt;li&gt;Remove seriesTitle from EpisodeResource by @markus101 in https://github.com/Sonarr/Sonarr/pull/6912&lt;/li&gt;
+&lt;li&gt;Fixed: Use only trackable downloads in queue by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6919&lt;/li&gt;
+&lt;li&gt;Disable trim log database housekeeping task by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/6920&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/6916&lt;/li&gt;
+&lt;li&gt;Bump version to 4.0.6 by @markus101 in https://github.com/Sonarr/Sonarr/pull/6921&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@sundermann made their first contribution in https://github.com/Sonarr/Sonarr/pull/6867&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.5.1710...v4.0.6.1805&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.6.1805" rel="alternate"/>
   </entry>
 </feed>
