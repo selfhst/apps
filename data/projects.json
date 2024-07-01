@@ -3787,7 +3787,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:16:32+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4864",
+        "Icon Coordinates": "1216",
         "Software Tags": "Komga,Kavita",
         "Platform": "Android"
     },
@@ -4459,7 +4459,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-25 09:33:58+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9728",
+        "Icon Coordinates": "2432",
         "Software Tags": "Docker",
         "Platform": "Windows,macOS,Linux"
     },
@@ -4795,7 +4795,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 15:55:25+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "128",
+        "Icon Coordinates": "32",
         "Software Tags": "Nextcloud,WebDAV",
         "Platform": "Android,iOS,Browser"
     },
@@ -5179,7 +5179,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:23:44+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5632",
+        "Icon Coordinates": "1408",
         "Software Tags": "RSS",
         "Platform": "Android"
     },
@@ -6931,7 +6931,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:49:29+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6272",
+        "Icon Coordinates": "1568",
         "Software Tags": "Invidious",
         "Platform": "iOS,macOS,tvOS"
     },
@@ -7003,7 +7003,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:28:10+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2560",
+        "Icon Coordinates": "640",
         "Software Tags": "Jellyfin",
         "Platform": "iOS,tvOS"
     },
@@ -7171,7 +7171,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:03:23+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1024",
+        "Icon Coordinates": "256",
         "Software Tags": "Jellyfin",
         "Platform": "Android"
     },
@@ -7291,7 +7291,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:47:51+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3200",
+        "Icon Coordinates": "800",
         "Software Tags": "Jellyfin,Navidrome",
         "Platform": "Windows,macOS,Linux"
     },
@@ -7699,7 +7699,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:45:30+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3072",
+        "Icon Coordinates": "768",
         "Software Tags": "Jellyfin",
         "Platform": "Android,iOS"
     },
@@ -8179,7 +8179,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:17:01+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5248",
+        "Icon Coordinates": "1312",
         "Software Tags": "CalDAV,CardDAV,WebDAV",
         "Platform": "Android"
     },
@@ -8395,7 +8395,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 15:58:52+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "384",
+        "Icon Coordinates": "96",
         "Software Tags": "Tautulli,*arr",
         "Platform": "Android,iOS,Linux,Windows,macOS,Browser"
     },
@@ -8659,7 +8659,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:11:48+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7808",
+        "Icon Coordinates": "1952",
         "Software Tags": "Jellyfin,Plex,Emby",
         "Platform": "Docker,Windows,macOS,Linux"
     },
@@ -8923,7 +8923,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:43:47+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2944",
+        "Icon Coordinates": "736",
         "Software Tags": "Subsonic,Navidrome",
         "Platform": "Android"
     },
@@ -9283,7 +9283,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:20:01+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5376",
+        "Icon Coordinates": "1344",
         "Software Tags": "Invidious",
         "Platform": "Android"
     },
@@ -9403,7 +9403,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-29 08:46:26+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8448",
+        "Icon Coordinates": "2112",
         "Software Tags": "Jellyfin",
         "Platform": "Android,iOS"
     },
@@ -9427,7 +9427,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:34:52+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2688",
+        "Icon Coordinates": "672",
         "Software Tags": "Jellyfin,Subsonic,Navidrome",
         "Platform": "Windows,macOS,Linux"
     },
@@ -9595,7 +9595,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 17:10:03+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "768",
+        "Icon Coordinates": "192",
         "Software Tags": "Paperless-ngx",
         "Platform": "Android"
     },
@@ -9763,7 +9763,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:50:00+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3328",
+        "Icon Coordinates": "832",
         "Software Tags": "Jellyfin",
         "Platform": "Android"
     },
@@ -9787,7 +9787,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:02:56+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7296",
+        "Icon Coordinates": "1824",
         "Software Tags": "Komga,Kavita",
         "Platform": "Windows,Linux,macOS"
     },
@@ -9811,7 +9811,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:03:56+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4096",
+        "Icon Coordinates": "1024",
         "Software Tags": "Portainer,Docker",
         "Platform": "iOS"
     },
@@ -9835,7 +9835,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:15:31+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7936",
+        "Icon Coordinates": "1984",
         "Software Tags": "Memos",
         "Platform": "Android,iOS"
     },
@@ -9883,7 +9883,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:23:53+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5120",
+        "Icon Coordinates": "1280",
         "Software Tags": "qBittorrent",
         "Platform": "iOS"
     },
@@ -9979,7 +9979,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:13:40+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4736",
+        "Icon Coordinates": "1184",
         "Software Tags": "Firefly III",
         "Platform": "Android,iOS"
     },
@@ -10267,7 +10267,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-05 08:48:43+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9344",
+        "Icon Coordinates": "2336",
         "Software Tags": "Jellyfin",
         "Platform": "Android,iOS"
     },
@@ -10483,7 +10483,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:01:50+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7168",
+        "Icon Coordinates": "1792",
         "Software Tags": "Subsonic,Navidrome",
         "Platform": "iOS"
     },
@@ -10603,7 +10603,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:47:03+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6144",
+        "Icon Coordinates": "1536",
         "Software Tags": "LibrePhotos",
         "Platform": "Android"
     },
@@ -10795,7 +10795,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:00:13+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6912",
+        "Icon Coordinates": "1728",
         "Software Tags": "Firefly III",
         "Platform": "Android"
     },
@@ -10819,7 +10819,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:13:42+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1792",
+        "Icon Coordinates": "448",
         "Software Tags": "qBittorrent",
         "Platform": "Android"
     },
@@ -11011,7 +11011,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-05-05 08:16:11+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8832",
+        "Icon Coordinates": "2208",
         "Software Tags": "Firefly III",
         "Platform": "Linux,Docker"
     },
@@ -11059,7 +11059,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:09:52+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1536",
+        "Icon Coordinates": "384",
         "Software Tags": "AdGuard Home",
         "Platform": "Android"
     },
@@ -11107,7 +11107,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:54:16+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6656",
+        "Icon Coordinates": "1664",
         "Software Tags": "Paperless-ngx",
         "Platform": "iOS"
     },
@@ -11251,7 +11251,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:08:03+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7680",
+        "Icon Coordinates": "1920",
         "Software Tags": "Docker",
         "Platform": "Docker"
     },
@@ -11323,7 +11323,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-05 08:47:35+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9216",
+        "Icon Coordinates": "2304",
         "Software Tags": "Linkding",
         "Platform": "Browser"
     },
@@ -11395,7 +11395,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:03:50+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7424",
+        "Icon Coordinates": "1856",
         "Software Tags": "Jellyfin",
         "Platform": "iOS,macOS,Android"
     },
@@ -11491,7 +11491,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-29 08:50:21+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8576",
+        "Icon Coordinates": "2144",
         "Software Tags": "AudioBookshelf",
         "Platform": "iOS"
     },
@@ -11515,7 +11515,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:15:44+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1920",
+        "Icon Coordinates": "480",
         "Software Tags": "Tautulli",
         "Platform": "Android,iOS"
     },
@@ -11539,7 +11539,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:52:02+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3584",
+        "Icon Coordinates": "896",
         "Software Tags": "Linkding",
         "Platform": "Browser"
     },
@@ -11683,7 +11683,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:06:18+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1280",
+        "Icon Coordinates": "320",
         "Software Tags": "Pi-hole",
         "Platform": "Android"
     },
@@ -11707,7 +11707,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:05:04+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1152",
+        "Icon Coordinates": "288",
         "Software Tags": "Portainer,Docker",
         "Platform": "Android"
     },
@@ -11731,7 +11731,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:00:56+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7040",
+        "Icon Coordinates": "1760",
         "Software Tags": "Mealie",
         "Platform": "Android"
     },
@@ -11827,7 +11827,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-29 08:44:20+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8320",
+        "Icon Coordinates": "2080",
         "Software Tags": "Tautulli",
         "Platform": "Docker"
     },
@@ -12283,7 +12283,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:52:55+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6528",
+        "Icon Coordinates": "1632",
         "Software Tags": "Linkding",
         "Platform": "iOS"
     },
@@ -12307,7 +12307,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-27 18:51:10+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8192",
+        "Icon Coordinates": "2048",
         "Software Tags": "*arr",
         "Platform": "iOS"
     },
@@ -12355,7 +12355,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:22:04+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5504",
+        "Icon Coordinates": "1376",
         "Software Tags": "Linkding",
         "Platform": "Android,Windows,macOS,Linux"
     },
@@ -12427,7 +12427,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:21:29+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2304",
+        "Icon Coordinates": "576",
         "Software Tags": "Grimoire",
         "Platform": "Browser"
     },
@@ -12547,7 +12547,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:20:17+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4992",
+        "Icon Coordinates": "1248",
         "Software Tags": "*arr,Proxmox,Jellyfin",
         "Platform": "iOS"
     },
@@ -12739,7 +12739,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-29 09:23:13+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8704",
+        "Icon Coordinates": "2176",
         "Software Tags": "Linkding",
         "Platform": "Android"
     },
@@ -12859,7 +12859,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:54:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3712",
+        "Icon Coordinates": "928",
         "Software Tags": "Shlink",
         "Platform": "Android"
     },
@@ -12955,7 +12955,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:51:33+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6400",
+        "Icon Coordinates": "1600",
         "Software Tags": "Subsonic,Navidrome",
         "Platform": "Android,iOS"
     },
@@ -12979,7 +12979,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-20 09:08:09+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9600",
+        "Icon Coordinates": "2400",
         "Software Tags": "Plausible Analytics",
         "Platform": "iOS"
     },
@@ -13003,7 +13003,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:56:24+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6784",
+        "Icon Coordinates": "1696",
         "Software Tags": "MQTT",
         "Platform": "iOS,macOS"
     },
@@ -13027,7 +13027,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-26 09:21:24+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8064",
+        "Icon Coordinates": "2016",
         "Software Tags": "Home Assistant",
         "Platform": "Android,iOS"
     },
@@ -13051,7 +13051,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-05 08:44:46+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "8960",
+        "Icon Coordinates": "2240",
         "Software Tags": "Subsonic",
         "Platform": "iOS"
     },
@@ -13099,7 +13099,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-05 08:45:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9088",
+        "Icon Coordinates": "2272",
         "Software Tags": "*arr",
         "Platform": "iOS"
     },
@@ -13123,7 +13123,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-06-07 08:54:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "9472",
+        "Icon Coordinates": "2368",
         "Software Tags": "Plex",
         "Platform": "macOS"
     },
@@ -13147,7 +13147,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 09:05:36+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "7552",
+        "Icon Coordinates": "1888",
         "Software Tags": "Docker,SSH",
         "Platform": "Android"
     },
@@ -13171,7 +13171,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:57:36+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3840",
+        "Icon Coordinates": "960",
         "Software Tags": "RSS",
         "Platform": "Android"
     },
@@ -13195,7 +13195,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-25 08:39:03+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "6016",
+        "Icon Coordinates": "1504",
         "Software Tags": "SSH",
         "Platform": "iOS,macOS"
     },
@@ -13243,7 +13243,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 15:58:50+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "256",
+        "Icon Coordinates": "64",
         "Software Tags": "*arr,qBittorrent",
         "Platform": "Android"
     },
@@ -13267,7 +13267,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 16:52:29+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "512",
+        "Icon Coordinates": "128",
         "Software Tags": "Proxmox",
         "Platform": "iOS"
     },
@@ -13291,7 +13291,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 16:54:15+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "640",
+        "Icon Coordinates": "160",
         "Software Tags": "Uptime Kuma",
         "Platform": "iOS"
     },
@@ -13315,7 +13315,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:01:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "896",
+        "Icon Coordinates": "224",
         "Software Tags": "Paperless-ngx",
         "Platform": "iOS"
     },
@@ -13339,7 +13339,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:08:00+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1408",
+        "Icon Coordinates": "352",
         "Software Tags": "Mealie",
         "Platform": "Android"
     },
@@ -13363,7 +13363,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:17:25+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2048",
+        "Icon Coordinates": "512",
         "Software Tags": "Plex",
         "Platform": "Android,iOS,macOS,Windows,Linux"
     },
@@ -13387,7 +13387,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:18:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2176",
+        "Icon Coordinates": "544",
         "Software Tags": "Plex",
         "Platform": "Android,iOS"
     },
@@ -13411,7 +13411,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:25:09+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2432",
+        "Icon Coordinates": "608",
         "Software Tags": "Jellyfin,Plex,Emby",
         "Platform": "iOS,macOS,tvOS"
     },
@@ -13435,7 +13435,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:37:50+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "2816",
+        "Icon Coordinates": "704",
         "Software Tags": "Plex",
         "Platform": "iOS"
     },
@@ -13459,7 +13459,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:00:57+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3968",
+        "Icon Coordinates": "992",
         "Software Tags": "Jellyfin,Emby,AudioBookshelf",
         "Platform": "iOS"
     },
@@ -13483,7 +13483,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:50:42+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "3456",
+        "Icon Coordinates": "864",
         "Software Tags": "Jellyfin",
         "Platform": "iOS"
     },
@@ -13507,7 +13507,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:05:03+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4224",
+        "Icon Coordinates": "1056",
         "Software Tags": "Plex",
         "Platform": "iOS"
     },
@@ -13531,7 +13531,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:07:49+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4352",
+        "Icon Coordinates": "1088",
         "Software Tags": "Docker,SSH",
         "Platform": "iOS,macOS"
     },
@@ -13555,7 +13555,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:10:05+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4480",
+        "Icon Coordinates": "1120",
         "Software Tags": "Docker",
         "Platform": "iOS"
     },
@@ -13579,7 +13579,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 19:11:35+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "4608",
+        "Icon Coordinates": "1152",
         "Software Tags": "SSH",
         "Platform": "Android,iOS,Windows,macOS,Linux"
     },
@@ -13627,7 +13627,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:26:43+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5760",
+        "Icon Coordinates": "1440",
         "Software Tags": "Pi-hole",
         "Platform": "iOS,macOS,tvOS"
     },
@@ -13651,7 +13651,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-12 17:27:44+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "5888",
+        "Icon Coordinates": "1472",
         "Software Tags": "AdGuard Home",
         "Platform": "iOS,macOS,tvOS"
     },
@@ -13675,7 +13675,7 @@
         "Alternatives": null,
         "CreatedAt": "2024-04-10 18:12:22+00:00",
         "Icon (YesNo)": "Yes",
-        "Icon Coordinates": "1664",
+        "Icon Coordinates": "416",
         "Software Tags": "WebDAV,Jellyfin,Plex,Emby,Subsonic,Navidrome",
         "Platform": "Android"
     },
