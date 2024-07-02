@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-02T12:31:50.450983-04:00</updated>
+  <updated>2024-07-02T13:31:45.746606-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -310,56 +310,65 @@ Download the JAR here: https://downloads.metabase.com/v0.50.9/metabase.jar&lt;/p
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
 
-- Adds a property to a defsetting (#44990)
-- Memoize driver.u/supports? only in prod (#44938)
-- Be explicit about truncating characters versus bytes (#44876)
 - Better display names for CSV upload tables (#44862)
 - Return info about the proper billing status on the license page (#44855)
 
-**Bug fixes**
+### Bug fixes
 
-- Metabase downgrade issue - v0.50.7 to v0.49.x (#44784)
+**Query builder**
+- Filtering by exact date and time works incorrectly if midnight is chosen (#43057)
+
+**Visualizations**
+
 - Improve cartesian chart performance on large datasets (#44778)
 - Break out popover overflows the screen (#43075)
-- one of transactions was removed and that causes problems on downgrade (#44908)
-- Filtering by exact date and time works incorrectly if midnight is chosen (#43057)
-- International characters do not display in Slack alerts (#38753)
 - Unable to configure steps order for funnel bar charts (#37386)
-- Filter values in dropdown are not getting populated in SQL question based dashboard (#35852)
 - Pin Map reads Metric Field value and it hides rows if it's null (#34775)
 
-**Already Fixed**
+**Misc**
+- Metabase downgrade issue - v0.50.7 to v0.49.x (#44784)
+- one of transactions was removed and that causes problems on downgrade (#44908)
+- International characters do not display in Slack alerts (#38753)
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
 
+### Already Fixed
+
+_Issues that we have recently confirmed to have been fixed at some point in the past._
+
+**Query builder**
 - Can't edit joined tables after saving the question (#43531)
 - Hovering over column header in preview errors out (#40412)
 - Accurate Error Messaging for Cross DB Joins in Notebook Editor (#38989)
 - Unable to switch question to query table in another database (#34350)
-- Error displaying reviews model (#32666)
+- Filter values in dropdown are not getting populated in SQL question based dashboard (#35852)
 - Broken navigation in question data source picker (#32225)
-- PNG Download of Map Visualization doesn't include Background Map Image (#30997)
 - Error adding any summary fields to an existing aggregate questions (#29806)
-- Metabase doesn't realize that Redshift aborts a query (#28136)
 - Scrolling up on schema list jumps to the top when creating a new question (#28106)
-- Can't update/change column settings (#27573)
+
+
+**Visualizations**
+
+- PNG Download of Map Visualization doesn't include Background Map Image (#30997)
+- Can't update/change column settings in table view (#27573)
 - Calendar icon in breakout picker is off-position (#27523)
 - GUI time period selector can cause blank screen under some circumstances (#26265)
-- Unnecessary get values call (#26190)
+
+**Misc**
+- Metabase doesn't realize that Redshift aborts a query (#28136)
+- When selecting a filter with an `hour` expression, frontend make a 404 API call. (#26190)
 - `/field/values` endpoint contains `[object Object]` in the URL (#23707)
 - Metabase starts super slow if entropy is exhausted (10+min) (#10175)
 
-**Under the Hood**
+### Under the Hood
 
+- Adds a property to a defsetting (#44990)
+- Memoize driver.u/supports? only in prod (#44938)
+- Be explicit about truncating characters versus bytes (#44876)
 - Combine actions e2e specs (#43846)
 - Repro #27521 - Query fails when selecting two fields from nested query, when fields are identical except for their join-alias (#44909)
 - Consolidate admin E2E reproductions for the release-x.50.x (#44963)
-- docs: add 50.8 (#44925)
-- ClickHouse note (#44929)
-- update API docs (#44935)
-
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.9" rel="alternate"/>
   </entry>
