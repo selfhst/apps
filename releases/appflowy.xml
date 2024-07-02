@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-07-02T08:32:22.253138-04:00</updated>
+  <updated>2024-07-02T09:32:23.580805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,7 +83,7 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.6.1 - 20/06/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.6.1 - 06/20/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;p&gt;&lt;img src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/e6f11e05-3ce5-4f97-8383-44c7c60a59fc" width="600"  /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -105,18 +105,23 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.6.2 - 01/07/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.6.2 - 07/01/2024&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://github.com/AppFlowy-IO/AppFlowy/assets/12026239/10d252b6-dc70-4759-8b5d-eb0a86d46b69" width="600"  /&gt;&lt;/p&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for duplicating spaces.&lt;/li&gt;
-&lt;li&gt;Added support for moving pages across spaces.&lt;/li&gt;
-&lt;li&gt;Undo markdown formatting with &lt;code&gt;Ctrl + Z&lt;/code&gt; or &lt;code&gt;Cmd + Z&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Improved shortcuts settings UI.&lt;/li&gt;
+&lt;li&gt;Duplicate a Space.&lt;/li&gt;
+&lt;li&gt;Move a page from one space to another.&lt;/li&gt;
+&lt;li&gt;Undo markdown formatting with &lt;code&gt;Ctrl&lt;/code&gt; / &lt;code&gt;Cmd&lt;/code&gt; + &lt;code&gt;Z&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Revamped the UI of the Shortcuts tab in Settings.&lt;/li&gt;
+&lt;li&gt;Close AppFlowy on macOS, and the application remains in the Dock bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed unable to zoom in with &lt;code&gt;Ctrl&lt;/code&gt; and &lt;code&gt;+&lt;/code&gt; or &lt;code&gt;Cmd&lt;/code&gt; and &lt;code&gt;+&lt;/code&gt; on some keyboards.&lt;/li&gt;
-&lt;li&gt;Fixed unable to paste nested lists in existing lists.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where it was unable to zoom in with &lt;code&gt;Ctrl&lt;/code&gt; / &lt;code&gt;Cmd&lt;/code&gt; and &lt;code&gt;+&lt;/code&gt; on some keyboards.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where nested lists could not be pasted into existing lists.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where typing inside inline code broke the format.&lt;/li&gt;
+&lt;li&gt;Fixed the position of the maximized app when restarting.&lt;/li&gt;
+&lt;li&gt;Fixed a UI issue that caused the inability to view select/multi-select values on mobile.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.2" rel="alternate"/>
   </entry>

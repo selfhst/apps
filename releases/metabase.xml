@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-02T08:31:46.045240-04:00</updated>
+  <updated>2024-07-02T09:31:49.414819-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -356,6 +356,9 @@ Issues that we have recently confirmed to have been fixed at some point in the p
 - Combine actions e2e specs (#43846)
 - Repro #27521 - Query fails when selecting two fields from nested query, when fields are identical except for their join-alias (#44909)
 - Consolidate admin E2E reproductions for the release-x.50.x (#44963)
+- docs: add 50.8 (#44925)
+- ClickHouse note (#44929)
+- update API docs (#44935)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.9" rel="alternate"/>
