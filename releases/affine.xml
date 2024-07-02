@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-07-01T22:32:20.684206-04:00</updated>
+  <updated>2024-07-01T23:32:14.120983-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -389,5 +389,28 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.14.9...v0.15.0&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.15.2</id>
+    <title>New release for AFFiNE: 0.15.2</title>
+    <updated>2024-07-01T22:42:52-04:00</updated>
+    <author>
+      <name>toeverything/AFFiNE</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: ensure exact tag matching with enter key behavior refinement by @KushalSharmaGit in https://github.com/toeverything/AFFiNE/pull/7387&lt;/li&gt;
+&lt;li&gt;feat(core): adjust orm api by @EYHN in https://github.com/toeverything/AFFiNE/pull/7392&lt;/li&gt;
+&lt;li&gt;feat(core): replace ai template by @EYHN in https://github.com/toeverything/AFFiNE/pull/7396&lt;/li&gt;
+&lt;li&gt;feat: bump blocksuite by @Flrande in https://github.com/toeverything/AFFiNE/pull/7372&lt;/li&gt;
+&lt;li&gt;fix: cmd-k keybinding not show when editor input is active by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7398&lt;/li&gt;
+&lt;li&gt;fix(infra): override saved blocksuite feature flag by @EYHN in https://github.com/toeverything/AFFiNE/pull/7399&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@KushalSharmaGit made their first contribution in https://github.com/toeverything/AFFiNE/pull/7387&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.15.1...v0.15.2&lt;/p&gt;</content>
+    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.2" rel="alternate"/>
   </entry>
 </feed>
