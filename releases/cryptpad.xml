@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CryptPad Releases</title>
-  <updated>2024-07-03T04:32:45.353042-04:00</updated>
+  <updated>2024-07-03T05:32:39.563768-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -461,7 +461,11 @@ npm run install:components
 &lt;ol&gt;
 &lt;li&gt;Restart your server&lt;/li&gt;
 &lt;li&gt;Review your instance's checkup page to ensure that you are passing all tests&lt;/li&gt;
-&lt;/ol&gt;</content>
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]&lt;br /&gt;
+As usual, don't forget to check the changes that might have been made to our web-server / reverse proxy configuration. Especially for the &lt;a href="https://github.com/cryptpad/cryptpad/blob/2024.6.0/docs/example-advanced.nginx.conf"&gt;example-advanced.nginx.conf&lt;/a&gt; file.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
     <link href="https://github.com/cryptpad/cryptpad/releases/tag/2024.6.0" rel="alternate"/>
   </entry>
 </feed>
