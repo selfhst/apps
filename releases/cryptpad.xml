@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CryptPad Releases</title>
-  <updated>2024-07-03T05:32:39.563768-04:00</updated>
+  <updated>2024-07-03T06:32:43.457412-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -406,6 +406,7 @@ npm run install:components
 &lt;h2&gt;Improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve plugins API &lt;a href="https://github.com/cryptpad/cryptpad/pull/1511"&gt;#1511&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nginx modifications made to &lt;code&gt;example-advanced.nginx.conf&lt;/code&gt; &lt;a href="https://github.com/cryptpad/cryptpad/commit/9e5d39a2e21eaa14c49003b31d2a4e7ac4f237de"&gt;9e5d39a&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -413,15 +414,18 @@ npm run install:components
 &lt;li&gt;Kanban accessibility fixes &lt;a href="https://github.com/cryptpad/cryptpad/pull/1488"&gt;#1488&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fix modal focus &lt;a href="https://github.com/cryptpad/cryptpad/pull/1483"&gt;#1483&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fix locked focus on text editors &lt;a href="https://github.com/cryptpad/cryptpad/pull/1473"&gt;#1473&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Frames must have accessible names   &lt;a href="https://github.com/cryptpad/cryptpad/issues/1123"&gt;#1123&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Frames must have accessible names &lt;a href="https://github.com/cryptpad/cryptpad/issues/1123"&gt;#1123&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Focus trapped on notifications menu &lt;a href="https://github.com/cryptpad/cryptpad/issues/1430"&gt;#1430&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add page language   &lt;a href="https://github.com/cryptpad/cryptpad/issues/1125"&gt;#1125&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Can not open folder via "▼" -&amp;gt; "Open".  &lt;a href="https://github.com/cryptpad/cryptpad/issues/1089"&gt;#1089&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add page language &lt;a href="https://github.com/cryptpad/cryptpad/issues/1125"&gt;#1125&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Can not open folder via "▼" -&amp;gt; "Open" &lt;a href="https://github.com/cryptpad/cryptpad/issues/1089"&gt;#1089&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Images must have alternate text &lt;a href="https://github.com/cryptpad/cryptpad/issues/1449"&gt;#1449&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;OnlyOffice&lt;/li&gt;
-&lt;li&gt;Remove x2t from the CryptPad repo   &lt;a href="https://github.com/cryptpad/cryptpad/issues/1454"&gt;#1454&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remove x2t from the CryptPad repo &lt;a href="https://github.com/cryptpad/cryptpad/issues/1454"&gt;#1454&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Other OnlyOffice users are shown as "Guest" &lt;a href="https://github.com/cryptpad/cryptpad/issues/1446"&gt;#1446&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Document PDF exports are empty when remote embedding is disabled    &lt;a href="https://github.com/cryptpad/cryptpad/issues/1472"&gt;#1472&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Document PDF exports are empty when remote embedding is disabled &lt;a href="https://github.com/cryptpad/cryptpad/issues/1472"&gt;#1472&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Nginx modifications made to &lt;code&gt;example-advanced.nginx.conf&lt;/code&gt; &lt;a href="https://github.com/cryptpad/cryptpad/commit/0604b708dc37374414c1b447ceb1d6455260f7a5"&gt;0604b70&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Automatic upgrade of an OnlyOffice document fails sometimes &lt;a href="https://github.com/cryptpad/cryptpad/issues/1534"&gt;#1534&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Import/Export is broken &lt;a href="https://github.com/cryptpad/cryptpad/issues/1532"&gt;#1532&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Print is broken &lt;a href="https://github.com/cryptpad/cryptpad/issues/1533"&gt;#1533&lt;/a&gt;&lt;/li&gt;
