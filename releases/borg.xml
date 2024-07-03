@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Borg Releases</title>
-  <updated>2024-07-03T07:33:03.464133-04:00</updated>
+  <updated>2024-07-03T08:33:05.004974-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,7 +106,8 @@
 &lt;h3&gt;Installation&lt;/h3&gt;
 &lt;p&gt;If you use pip to install this, use: pip install "borgbackup==1.4.0"&lt;/p&gt;
 &lt;p&gt;For other installation methods and more details, please see: https://borgbackup.org/&lt;/p&gt;
-&lt;p&gt;See also the 00_README.txt file in the assets list below for a description of the available "fat binary" downloads.&lt;/p&gt;</content>
+&lt;p&gt;See also the 00_README.txt file in the assets list below for a description of the available "fat binary" downloads.&lt;/p&gt;
+&lt;p&gt;Note: borg-freebsd13 binaries will come soon...&lt;/p&gt;</content>
     <link href="https://github.com/borgbackup/borg/releases/tag/1.4.0" rel="alternate"/>
   </entry>
 </feed>

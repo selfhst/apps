@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docmost Releases</title>
-  <updated>2024-07-03T07:33:11.174174-04:00</updated>
+  <updated>2024-07-03T08:33:12.541744-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,25 @@
 &lt;li&gt;client: fix APP_URL usage by @Philipinho in https://github.com/docmost/docmost/pull/31&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/docmost/docmost/releases/tag/v0.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/docmost/docmost/releases/tag/v0.2.2</id>
+    <title>New release for Docmost: v0.2.2</title>
+    <updated>2024-07-03T08:10:35-04:00</updated>
+    <author>
+      <name>docmost/docmost</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add full page width preference by @Philipinho in https://github.com/docmost/docmost/pull/44&lt;/li&gt;
+&lt;li&gt;added fuzzy matching logic for menu search by @SurajJadhav7 in https://github.com/docmost/docmost/pull/34&lt;/li&gt;
+&lt;li&gt;fix media visibility in Firefox by @Philipinho in https://github.com/docmost/docmost/pull/45&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@SurajJadhav7 made their first contribution in https://github.com/docmost/docmost/pull/34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/docmost/docmost/compare/v0.2.1...v0.2.2&lt;/p&gt;</content>
+    <link href="https://github.com/docmost/docmost/releases/tag/v0.2.2" rel="alternate"/>
   </entry>
 </feed>
