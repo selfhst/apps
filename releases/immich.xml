@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-07-02T23:30:35.913607-04:00</updated>
+  <updated>2024-07-03T00:30:36.517121-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -763,6 +763,7 @@ services:
 &lt;ul&gt;
 &lt;li&gt;Slow loading on the &lt;code&gt;people&lt;/code&gt; page on the web&lt;/li&gt;
 &lt;li&gt;Incorrect translation strings&lt;/li&gt;
+&lt;li&gt;Fixed an issue of able to merge the same person into one&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
