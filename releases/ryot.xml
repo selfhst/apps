@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-07-03T06:31:22.792178-04:00</updated>
+  <updated>2024-07-03T07:31:21.868712-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,16 +121,16 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.5.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.4.6</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.4.7</id>
     <title>New release for Ryot: Version 6</title>
     <updated>2024-07-01T21:34:14-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.4.6&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;46b164cf0704f4f3a367faed7dac9d64291da33b&lt;/code&gt;
-&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;July 2, 2024&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.4.7&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;c1fc326d0f51d05970837ef5d99fae8ce951e395&lt;/code&gt;
+&lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;July 3, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
 &lt;h2&gt;Release Notes&lt;/h2&gt;
@@ -145,6 +145,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Browser does not become unresponsive because of long lists (eg: show seasons, watch history, podcast episodes).&lt;/li&gt;
 &lt;li&gt;Idle CPU usage should drop to 0% (&lt;a href="https://github.com/IgnisDa/ryot/issues/440#issuecomment-2147046304"&gt;more information&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.4.6" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.4.7" rel="alternate"/>
   </entry>
 </feed>
