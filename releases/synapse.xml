@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2024-07-04T10:31:39.023493-04:00</updated>
+  <updated>2024-07-04T11:31:32.020681-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -288,7 +288,10 @@
 &lt;h1&gt;Synapse 1.110.0rc1 (2024-06-26)&lt;/h1&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Add initial implementation of an experimental &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; Sliding Sync &lt;code&gt;/sync&lt;/code&gt; endpoint. (&lt;a href="https://github.com/element-hq/synapse/issues/17187"&gt;#17187&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17301"&gt;#17301&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add initial implementation of an experimental &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; Sliding Sync &lt;code&gt;/sync&lt;/code&gt; endpoint. (&lt;a href="https://github.com/element-hq/synapse/issues/17187"&gt;#17187&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17301"&gt;#17301&lt;/a&gt;)&lt;ul&gt;
+&lt;li&gt;Native sliding sync support is coming, but is not yet ready for usage outside of initial client development and testing. Expect to see much more on this feature in the next few Synapse releases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Add experimental support for &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3823"&gt;MSC3823&lt;/a&gt; - Account suspension. (&lt;a href="https://github.com/element-hq/synapse/issues/17255"&gt;#17255&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Improve ratelimiting in Synapse. (&lt;a href="https://github.com/element-hq/synapse/issues/17256"&gt;#17256&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add support for the unstable &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4151"&gt;MSC4151&lt;/a&gt; report room API. (&lt;a href="https://github.com/element-hq/synapse/issues/17270"&gt;#17270&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17296"&gt;#17296&lt;/a&gt;)&lt;/li&gt;
