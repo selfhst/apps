@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2024-07-04T04:31:32.023527-04:00</updated>
+  <updated>2024-07-04T05:31:32.539327-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -288,7 +288,7 @@
 &lt;h1&gt;Synapse 1.110.0rc1 (2024-06-26)&lt;/h1&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Add initial implementation of an experimental &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; Sliding Sync &lt;code&gt;/sync&lt;/code&gt; endpoint. (&lt;a href="https://github.com/element-hq/synapse/issues/17187"&gt;#17187&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add initial implementation of an experimental &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; Sliding Sync &lt;code&gt;/sync&lt;/code&gt; endpoint. (&lt;a href="https://github.com/element-hq/synapse/issues/17187"&gt;#17187&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17301"&gt;#17301&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add experimental support for &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3823"&gt;MSC3823&lt;/a&gt; - Account suspension. (&lt;a href="https://github.com/element-hq/synapse/issues/17255"&gt;#17255&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Improve ratelimiting in Synapse. (&lt;a href="https://github.com/element-hq/synapse/issues/17256"&gt;#17256&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add support for the unstable &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4151"&gt;MSC4151&lt;/a&gt; report room API. (&lt;a href="https://github.com/element-hq/synapse/issues/17270"&gt;#17270&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17296"&gt;#17296&lt;/a&gt;)&lt;/li&gt;
@@ -313,7 +313,6 @@
 &lt;li&gt;Fix bug where OTKs were not always included in &lt;code&gt;/sync&lt;/code&gt; response when using workers. (&lt;a href="https://github.com/element-hq/synapse/issues/17275"&gt;#17275&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix a long-standing bug where an invalid 'from' parameter to &lt;a href="https://spec.matrix.org/v1.10/client-server-api/#get_matrixclientv3notifications"&gt;&lt;code&gt;/notifications&lt;/code&gt;&lt;/a&gt; would result in an Internal Server Error. (&lt;a href="https://github.com/element-hq/synapse/issues/17283"&gt;#17283&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix edge case in &lt;code&gt;/sync&lt;/code&gt; returning the wrong the state when using sharded event persisters. (&lt;a href="https://github.com/element-hq/synapse/issues/17295"&gt;#17295&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Add initial implementation of an experimental &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; Sliding Sync &lt;code&gt;/sync&lt;/code&gt; endpoint. (&lt;a href="https://github.com/element-hq/synapse/issues/17301"&gt;#17301&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix email notification subject when invited to a space. (&lt;a href="https://github.com/element-hq/synapse/issues/17336"&gt;#17336&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Improved Documentation&lt;/h3&gt;
