@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-07-04T09:31:55.861993-04:00</updated>
+  <updated>2024-07-04T10:32:01.892578-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;CVE: &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-39321"&gt;CVE-2024-39321&lt;/a&gt; (Advisory &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-gxrv-wf35-62w9"&gt;GHSA-gxrv-wf35-62w9&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[ecs]&lt;/strong&gt; Fix ECS config for OIDC + IRSA (&lt;a href="https://github.com/traefik/traefik/pull/10814"&gt;#10814&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
 - &lt;strong&gt;[http3]&lt;/strong&gt; Disable QUIC 0-RTT (&lt;a href="https://github.com/traefik/traefik/pull/10867"&gt;#10867&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
 - &lt;strong&gt;[middleware,server]&lt;/strong&gt; Remove interface names from IPv6 (&lt;a href="https://github.com/traefik/traefik/pull/10813"&gt;#10813&lt;/a&gt; by &lt;a href="https://github.com/JeroenED"&gt;JeroenED&lt;/a&gt;)&lt;/p&gt;
@@ -89,7 +90,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+    <content>&lt;p&gt;CVE: &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-39321"&gt;CVE-2024-39321&lt;/a&gt; (Advisory &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-gxrv-wf35-62w9"&gt;GHSA-gxrv-wf35-62w9&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
 - &lt;strong&gt;[k8s]&lt;/strong&gt; Fix some documentation links (&lt;a href="https://github.com/traefik/traefik/pull/10841"&gt;#10841&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
 - Update maintainers (&lt;a href="https://github.com/traefik/traefik/pull/10827"&gt;#10827&lt;/a&gt; by &lt;a href="https://github.com/emilevauge"&gt;emilevauge&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
