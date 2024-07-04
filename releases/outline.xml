@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2024-07-03T21:31:06.636512-04:00</updated>
+  <updated>2024-07-03T22:31:07.910907-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,7 +105,7 @@
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!WARNING]&lt;br /&gt;
-This release regressed support for ARM processors due to an AWS SDK dependency upgrade, skip straight to v0.77.1 for those on ARM architecture.&lt;/p&gt;
+This release regressed support for ARM processors due to an AWS SDK dependency upgrade, skip straight to v0.77.1 or greater for those on ARM architecture.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;This release changes how documents are rendered, allowing the introduction of new editor functionality and attributes. Highlighted for this release are some big improvements to tables:&lt;/p&gt;
