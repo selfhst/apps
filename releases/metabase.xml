@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-04T11:31:46.384268-04:00</updated>
+  <updated>2024-07-04T12:31:42.830257-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -362,33 +362,44 @@ Download the JAR here: https://downloads.metabase.com/v0.50.10/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
 
-- User Parameter Values Are Unique Per Dashboard (#45064)
-- [perf] Add caching on `dashboard_load_id`; reusable MetadataProviders (#45050)
+**Performance**
+
+- Add caching on `dashboard_load_id`; reusable MetadataProviders (#45050)
+- Support partial permission graph updates (#44795)
+
+**Misc**
 - Support duplicate prefixes in long column names for CSV uploads (#44885)
-- Performance: partial data-permissions graph refactor (#44795)
-- Auto request review workflow (#44332)
 
-**Bug fixes**
 
+### Bug fixes
+
+**Permissions**
 - Upgrading to 50v causes some permission in No self-service (deprecated) to block access to the Browse Data (#45046)
+- Permission error before finishing typing a reference to a question in the native query (#22991)
+
+**Query builder**
+- Invalid join clause does not disappear after changing query source to use a different database (#42385)
 - Specifying a date in a custom expression breaks query (v50 regression) (#44916)
+- SQL-converted question with field filter breaks filtered dashboard if reverted back to its editor version (#35954)
+
+**Dashboards**
 - Updating filter on one dashboard automatically updates filters on other dashboards with cards referencing the same data (#44858)
 - "Duplicate Dashboard" messes up last used filter values - one dashboard overrides another (#43001)
-- Invalid join clause does not disappear after changing query source to use a different database (#42385)
-- incomplete data on png image download (#39546)
-- SQL-converted question with field filter breaks filtered dashboard if reverted back to its editor version (#35954)
-- Permission error before finishing referencing a question in the native query (#22991)
+- Incomplete data in PNG download from embedded dashboards in night theme (#39546)
 
-**Already Fixed**
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
+### Already Fixed
+
+_Issues that we have recently confirmed to have been fixed at some point in the past._
 
 - Questions based on a custom SQL query aren't updated (#43216)
-- we log "WARN middleware.log :: OST /api/dataset 404 116.6 µs (0 DB calls)" on 404 (#36774)
+- "WARN middleware.log :: OST /api/dataset" in logs on 404 - OST instead of POST (#36774)
 - Data model field renaming/remapping gets out of sync (#5558)
 
+### Under the hood
+- Auto request review workflow (#44332)
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.10" rel="alternate"/>
   </entry>
