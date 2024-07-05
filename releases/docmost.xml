@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docmost Releases</title>
-  <updated>2024-07-04T19:33:04.809498-04:00</updated>
+  <updated>2024-07-04T20:33:07.590107-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,5 +53,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/docmost/docmost/compare/v0.2.1...v0.2.2&lt;/p&gt;</content>
     <link href="https://github.com/docmost/docmost/releases/tag/v0.2.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/docmost/docmost/releases/tag/0.2.3</id>
+    <title>New release for Docmost: v0.2.3</title>
+    <updated>2024-07-04T20:03:25-04:00</updated>
+    <author>
+      <name>docmost/docmost</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: missing tree, editor font and responsive recent pages by @Philipinho in https://github.com/docmost/docmost/pull/55&lt;/li&gt;
+&lt;li&gt;make page attachments private by @Philipinho in https://github.com/docmost/docmost/pull/51&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/docmost/docmost/compare/v0.2.2...0.2.3&lt;/p&gt;</content>
+    <link href="https://github.com/docmost/docmost/releases/tag/0.2.3" rel="alternate"/>
   </entry>
 </feed>
