@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2024-07-06T01:33:10.028107-04:00</updated>
+  <updated>2024-07-06T02:33:04.459314-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -230,8 +230,8 @@ Our &lt;a href="https://logto.productlane.com/roadmap"&gt;public roadmap&lt;/a&g
 &lt;p&gt;We are SOC 2 Type I compliant, officially! 🎉 A Type II audit is on the horizon.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="SOC 2 Type I" src="https://github.com/logto-io/logto/assets/14722250/db4a796f-7a85-43f1-bd55-99c84ca5064c" /&gt;&lt;/p&gt;
 &lt;h2&gt;Just-in-Time provisioning for organizations&lt;/h2&gt;
-&lt;p&gt;This feature allows users to automatically join the organization and be assigned roles upon their first sign-in through some authentication methods. You can set requirements to meet for just-in-Time provisioning.&lt;/p&gt;
-&lt;p&gt;To use this feature, head to the organization settings and find the "Just-in-Time provisioning" section. Management APIs are also available to configure this feature via routes under &lt;code&gt;/api/organizations/{id}/jit&lt;/code&gt;. To learn more, see the &lt;a href="https://docs.logto.io/docs/recipes/organizations/just-in-time-provisioning/"&gt;Just-in-Time provisioning&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This feature allows users to automatically join the organization and be assigned roles upon their first sign-in through some authentication methods. You can set requirements to meet for Just-in-Time provisioning.&lt;/p&gt;
+&lt;p&gt;To use this feature, head to the organization settings and find the "Just-in-Time provisioning" section. Management APIs are also available to configure this feature via routes under &lt;code&gt;/api/organizations/{id}/jit&lt;/code&gt;. To learn more, see &lt;a href="https://docs.logto.io/docs/recipes/organizations/just-in-time-provisioning/"&gt;Just-in-Time provisioning&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Organization Just-in-Time provisioning" src="https://github.com/logto-io/logto/assets/14722250/d4c68349-3ef8-4324-b2a1-e5d56822ae17" /&gt;&lt;/p&gt;
 &lt;h3&gt;Email domains&lt;/h3&gt;
 &lt;p&gt;New users will automatically join organizations with Just-in-Time provisioning if they:&lt;/p&gt;
@@ -342,7 +342,7 @@ Shout out to @mostafa for bringing these amazing improvements to Logto!&lt;/p&gt
 &lt;p&gt;When you added Google as a social connector, you can now enable Google One Tap to provide a smoother sign-in experience for your users with Google accounts.&lt;/p&gt;
 &lt;p&gt;Head to the Google connector settings in the Logto Console and switch on the "Google One Tap" option.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Google One Tap settings" src="https://github.com/logto-io/logto/assets/14722250/f43c3edd-bb67-440e-b340-b4f98239cecc" /&gt;&lt;/p&gt;
-&lt;p&gt;To learn more about Google One Tap, see the &lt;a href="https://docs.logto.io/docs/recipes/configure-connectors/social-connector/enable-google-one-tap/"&gt;Enable Google One Tap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To learn more about Google One Tap, see &lt;a href="https://docs.logto.io/docs/recipes/configure-connectors/social-connector/enable-google-one-tap/"&gt;Enable Google One Tap&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Allow skipping manual account linking during sign-in&lt;/h3&gt;
 &lt;p&gt;You can find this configuration in Console -&amp;gt; Sign-in experience -&amp;gt; Sign-up and sign-in -&amp;gt; Social sign-in -&amp;gt; Automatic account linking.&lt;/p&gt;
 &lt;p&gt;When switched on, if a user signs in with a social identity that is new to the system, and there is exactly one existing account with the same identifier (e.g., email), Logto will automatically link the account with the social identity instead of prompting the user for account linking.&lt;/p&gt;
