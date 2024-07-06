@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medama Releases</title>
-  <updated>2024-07-06T13:33:06.068195-04:00</updated>
+  <updated>2024-07-06T14:33:37.644107-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,19 +164,21 @@
     <content>&lt;h1&gt;Features&lt;/h1&gt;
 &lt;h2&gt;Data Grouping&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Referrer Groups&lt;/strong&gt; - Known referrer URLs are now conveniently grouped together for easier identification.
-&lt;img src="https://github.com/medama-io/medama/assets/38220115/03fef752-032f-4a93-a261-6c975e999a50" width="80%"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Selecting a referrer group allows you to expand and view the URLs within that specific group.
-&lt;img src="https://github.com/medama-io/medama/assets/38220115/945ff43f-6869-4894-9734-a60888f8926c" width="80%"&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Language Groups&lt;/strong&gt; - Languages are also now grouped and can be expanded to display specific browser locales.
-&lt;img src="https://github.com/medama-io/medama/assets/38220115/4b0727fc-a8cb-4773-bd33-b0a5f5e72b2f" width="80%" height="70%"&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Referrer Groups&lt;/strong&gt; - Known referrer URLs are now conveniently grouped together for easier identification.&lt;/li&gt;
+&lt;li&gt;Selecting a referrer group allows you to expand and view the URLs within that specific group.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p align="center"&gt;
+  &lt;img src="https://github.com/medama-io/medama/assets/38220115/03fef752-032f-4a93-a261-6c975e999a50" width="48%"&gt;
+  &lt;img src="https://github.com/medama-io/medama/assets/38220115/945ff43f-6869-4894-9734-a60888f8926c" width="48%"&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Language Groups&lt;/strong&gt; - Languages are also now grouped and can be expanded to display specific browser locales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align="center"&gt;
+&lt;img src="https://github.com/medama-io/medama/assets/38220115/4b0727fc-a8cb-4773-bd33-b0a5f5e72b2f" width="80%" height="70%"&gt;
+&lt;/p&gt;
+
 &lt;h2&gt;System Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;New Usage Dashboard&lt;/strong&gt; - Useful for users with remote-hosted VMs, this dashboard gives insights into the application's resource usage. It also includes options to adjust database resource allocation.
