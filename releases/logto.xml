@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2024-07-06T00:33:00.553095-04:00</updated>
+  <updated>2024-07-06T01:33:10.028107-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -369,7 +369,7 @@ Shout out to @mostafa for bringing these amazing improvements to Logto!&lt;/p&gt
 &lt;li&gt;Support per-organization multi-factor authentication requirement:&lt;/li&gt;
 &lt;li&gt;An organization can now require its member to have multi-factor authentication (MFA) configured. If an organization has this requirement and a member does not have MFA configured, the member will not be able to fetch the organization access token.&lt;/li&gt;
 &lt;li&gt;A dev panel is available after you sign in to the live preview.&lt;/li&gt;
-&lt;li&gt;Pagination is now optional for &lt;code&gt;GET /api/organizations/:id/users/:userId/roles&lt;/code&gt;. If you don't provide &lt;code&gt;page&lt;/code&gt; and &lt;code&gt;limit&lt;/code&gt; query parameters, the API will return all roles.&lt;/li&gt;
+&lt;li&gt;Pagination is now optional for &lt;code&gt;GET /api/organizations/{id}/users/{userId}/roles&lt;/code&gt;. If you don't provide &lt;code&gt;page&lt;/code&gt; and &lt;code&gt;limit&lt;/code&gt; query parameters, the API will return all roles.&lt;/li&gt;
 &lt;li&gt;Added user detail data payload to the &lt;code&gt;User.Deleted&lt;/code&gt; webhook event.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.18.0" rel="alternate"/>
