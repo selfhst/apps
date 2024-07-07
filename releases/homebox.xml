@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homebox Releases</title>
-  <updated>2024-07-07T10:30:34.204476-04:00</updated>
+  <updated>2024-07-07T11:30:33.336609-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,5 +70,38 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/sysadminsmedia/homebox/compare/v0.11.0...v0.11.1&lt;/p&gt;</content>
     <link href="https://github.com/sysadminsmedia/homebox/releases/tag/v0.11.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/sysadminsmedia/homebox/releases/tag/v0.12.0</id>
+    <title>New release for Homebox: v0.12.0</title>
+    <updated>2024-07-07T11:06:16-04:00</updated>
+    <author>
+      <name>sysadminsmedia/homebox</name>
+    </author>
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;br /&gt;
+This release did not get a docker image due to a docker build error. the v0.12.1 build however does have a docker container that works.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This release introduces numerous bug fixes and UI improvements, but also introduces new functionality such as total pricing on locations, introduction of more currencies, Docker healthcheck and more. &lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Handle redirect to correct page after login by @harrisony in https://github.com/sysadminsmedia/homebox/pull/76&lt;/li&gt;
+&lt;li&gt;feat(docs): i18n support added to docs by @tankerkiller125 in https://github.com/sysadminsmedia/homebox/pull/69&lt;/li&gt;
+&lt;li&gt;Add total pricing to Homebox locations by @katosdev in https://github.com/sysadminsmedia/homebox/pull/42&lt;/li&gt;
+&lt;li&gt;Move the link tooltip to the top to prevent overflows by @zebrapurring in https://github.com/sysadminsmedia/homebox/pull/77&lt;/li&gt;
+&lt;li&gt;Implement filter option for negated labels by @zebrapurring in https://github.com/sysadminsmedia/homebox/pull/70&lt;/li&gt;
+&lt;li&gt;Update currencies to include more currencies by @katosdev in https://github.com/sysadminsmedia/homebox/pull/81&lt;/li&gt;
+&lt;li&gt;Update README.md by @tankerkiller125 in https://github.com/sysadminsmedia/homebox/pull/83&lt;/li&gt;
+&lt;li&gt;chore(deps): bump github.com/gorilla/schema from 1.2.1 to 1.4.1 in /backend in the go_modules group across 1 directory by @dependabot in https://github.com/sysadminsmedia/homebox/pull/87&lt;/li&gt;
+&lt;li&gt;chore: General cleanup tasks by @tankerkiller125 in https://github.com/sysadminsmedia/homebox/pull/88&lt;/li&gt;
+&lt;li&gt;Add Dockerfile healthcheck by @katosdev in https://github.com/sysadminsmedia/homebox/pull/78&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@harrisony made their first contribution in https://github.com/sysadminsmedia/homebox/pull/76&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/sysadminsmedia/homebox/compare/v0.11.1...v0.12.0&lt;/p&gt;</content>
+    <link href="https://github.com/sysadminsmedia/homebox/releases/tag/v0.12.0" rel="alternate"/>
   </entry>
 </feed>
