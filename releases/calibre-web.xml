@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Calibre-Web Releases</title>
-  <updated>2024-07-07T01:30:12.849711-04:00</updated>
+  <updated>2024-07-07T02:30:12.967316-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -189,7 +189,7 @@ Security fix: SSRF protection no longer can be bypassed to connect to other serv
     <author>
       <name>janeczku/calibre-web</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;!Attention! For this update regex, beach and python-magic has to be installed !Attention!&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;strong&gt;!Attention! For this update regex, bleach and python-magic has to be installed !Attention!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;New features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;lubimyczytac metadata fetches now the right tags section&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CommaFeed Releases</title>
-  <updated>2024-07-07T01:33:01.081213-04:00</updated>
+  <updated>2024-07-07T02:33:03.014629-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,8 +80,7 @@
 &lt;li&gt;fix an issue that could cause the websocket notification to contain the wrong number of unread entries when using mysql/mariadb&lt;/li&gt;
 &lt;li&gt;fix an error when trying to mark all starred entries as read&lt;/li&gt;
 &lt;li&gt;remove the &lt;code&gt;onlyIds&lt;/code&gt; parameter from REST endpoints since retrieving all the entries is now just as fast&lt;/li&gt;
-&lt;li&gt;remove support for microsoft sqlserver because it's not covered with integration tests (please open an issue if you'd
-  like it back)&lt;/li&gt;
+&lt;li&gt;remove support for microsoft sqlserver because it's not covered with integration tests (please open an issue if you'd like it back)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Athou/commafeed/releases/tag/4.5.0" rel="alternate"/>
   </entry>
