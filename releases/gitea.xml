@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-07-06T22:30:28.218083-04:00</updated>
+  <updated>2024-07-06T23:30:28.380106-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -382,7 +382,8 @@
 &lt;li&gt;Improve mobile review ui (#31091) (#31136)&lt;/li&gt;
 &lt;li&gt;Fix DashboardRepoList margin (#31121) (#31128)&lt;/li&gt;
 &lt;li&gt;Update pip related commands for docker (#31106) (#31111)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.22.1" rel="alternate"/>
   </entry>
 </feed>
