@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Calibre-Web Releases</title>
-  <updated>2024-07-07T00:30:13.838246-04:00</updated>
+  <updated>2024-07-07T01:30:12.849711-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,7 +184,7 @@ Security fix: SSRF protection no longer can be bypassed to connect to other serv
   </entry>
   <entry>
     <id>https://github.com/janeczku/calibre-web/releases/tag/0.6.22</id>
-    <title>New release for Calibre-Web: V 0.6.22</title>
+    <title>New release for Calibre-Web: V 0.6.22 - Oxana</title>
     <updated>2024-07-06T08:28:50-04:00</updated>
     <author>
       <name>janeczku/calibre-web</name>
