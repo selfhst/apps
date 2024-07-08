@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CryptPad Releases</title>
-  <updated>2024-07-08T02:32:34.728353-04:00</updated>
+  <updated>2024-07-08T03:32:39.876548-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -426,6 +426,7 @@ npm run install:components
 &lt;li&gt;Nginx modifications made to &lt;code&gt;example-advanced.nginx.conf&lt;/code&gt; &lt;a href="https://github.com/cryptpad/cryptpad/commit/0604b708dc37374414c1b447ceb1d6455260f7a5"&gt;0604b70&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Sometimes images of a presentation are not exported to PDF &lt;a href="https://github.com/cryptpad/cryptpad/issues/1500"&gt;#1500&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Automatic upgrade of an OnlyOffice document fails sometimes &lt;a href="https://github.com/cryptpad/cryptpad/issues/1534"&gt;#1534&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Import/Export is broken &lt;a href="https://github.com/cryptpad/cryptpad/issues/1532"&gt;#1532&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Print is broken &lt;a href="https://github.com/cryptpad/cryptpad/issues/1533"&gt;#1533&lt;/a&gt;&lt;/li&gt;
