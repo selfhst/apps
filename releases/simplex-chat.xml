@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2024-07-09T05:31:29.807920-04:00</updated>
+  <updated>2024-07-09T06:31:32.509556-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -296,9 +296,9 @@ SHA2-512(simplex.apk)= d38075b73602f1c3566e932318e6814d0772b6749aecabee37bdc3db4
 &lt;p&gt;SHA2-512(simplex.apk)= 5a6b36bd90f7cce70b974bfa4dde83635f4d48517c8a5cc4157a8290dc29009975f2ca18a4f9431c8dabadfa8a7cf417593e366914e6c75bff2adfed38909c88&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-armv7a.apk)= 3393018b602c308686a5371e111d640bdeca15db3b3f63ba56aca1fb29a5241c22c0b87d2ca2e8712dcd5fe5023b3c729b05b7d4b5d1b60fc1b6dcb636c07c4a&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Desktop apps&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;SHA2-512(simplex-desktop-ubuntu-22_04-x86_64.deb)= 0a23e7f42574fa2779e2f36507d8b62e6f7adbc261c27bf608c3c21a70ab55c5e93bafed6a921e7f525cbfe72ac1fe3efbe703fef090ee06fcb944643f1d96ab&lt;/p&gt;
-&lt;p&gt;SHA2-512(simplex-desktop-ubuntu-20_04-x86_64.deb)= 37d62fecec091aa9878f4610f51ce7abccfed29efb8b25ee21d96ec352da9f6ea9710660513dc00c3a8573333c6340a8ba5c3406fe4eb154073a17585c91c100&lt;/p&gt;
-&lt;p&gt;SHA2-512(simplex-desktop-x86_64.AppImage)= 62ad49d8698f278216404a33a811568fbfce13ebdbcadbaa539494ec7d0ce71ff5688b4f040353b5430741b1c8d804bd4842658a39244f356a2fff65ac6c9b74&lt;/p&gt;
+&lt;p&gt;SHA2-512(simplex-desktop-ubuntu-22_04-x86_64.deb)= b349eef2638f25c0e799d67d3220f0b275bcad9a8c3f6712c1ed1ec82f4f60169e9d985909e322a723fbb4dfeec6d0625baae1a993246bc2ca6d1c49d7cb59f1&lt;/p&gt;
+&lt;p&gt;SHA2-512(simplex-desktop-ubuntu-20_04-x86_64.deb)= f553ce410ef4a5dc910df8a11afa869bcb7912203cf4655523b1af1cfda8f5ecf15785444f922e8c110fd04b69c32e5c5e6a79737ba7b94a339acfab7cc7191e&lt;/p&gt;
+&lt;p&gt;SHA2-512(simplex-desktop-x86_64.AppImage)= 3c86ee4019215bda7baed8f68ed6154553530467832ec377a08e58cbeb9a2908b71eb161480d010581ae8a4740a00036cdea6ae9a9e078b4abfa70eaa1762d6c&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-macos-aarch64.dmg)= da62980b25a18758ae71ab5cbf33a38dc13ce18e7e1bd8c3fd2b9d6633f4a0a46ffaf99d53c6014dcd672bee9baecb55e060556934685bc74a065255f2559457&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-macos-x86_64.dmg)= c5d2c797a09f58a91795a5a59d07a5c00e0090f9c437c6c65c2484ee40cde829485d46ae45f8f65783d361acfc74daea8ff68e5490106d044702dcdb5770166c&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-windows-x86_64.msi)= 5f5d485a6a4fcc1aadf005dbf47f10487d557aad2d10f1bf4df1bb516a3e894470d30ff275125e8ce341a72195ff1d7011a40b6c9e83daaab26b30edc34d8584&lt;/p&gt;
