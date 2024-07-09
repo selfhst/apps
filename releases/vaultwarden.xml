@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Vaultwarden Releases</title>
-  <updated>2024-07-09T01:31:36.779806-04:00</updated>
+  <updated>2024-07-09T02:31:38.699854-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,6 +133,8 @@
 &lt;li&gt;Removed support for WebSocket traffic on port 3012, as it's been integrated on the main HTTP port for a few releases&lt;/li&gt;
 &lt;li&gt;Updated included web vault to 2024.5.1&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;General mention&lt;/h2&gt;
+&lt;p&gt;Bitwarden has changed the push API endpoints which affects the EU region endpoint users. This also is an issue when using the previous version of Vaultwarden. You have to update &lt;code&gt;push.bitwarden.eu&lt;/code&gt; to &lt;code&gt;api.bitwarden.eu&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;chore: remove repetitive words by @one230six in https://github.com/dani-garcia/vaultwarden/pull/4422&lt;/li&gt;
