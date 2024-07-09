@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Vaultwarden Releases</title>
-  <updated>2024-07-09T03:31:41.860565-04:00</updated>
+  <updated>2024-07-09T04:31:40.033544-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,7 +134,10 @@
 &lt;li&gt;Updated included web vault to 2024.5.1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;General mention&lt;/h2&gt;
-&lt;p&gt;Bitwarden has changed the push API endpoints which affects the EU region endpoint users. This also is an issue when using the previous version of Vaultwarden. You have to update &lt;code&gt;push.bitwarden.eu&lt;/code&gt; to &lt;code&gt;api.bitwarden.eu&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Bitwarden has changed the push API endpoints which affects the EU region endpoint users.
+So if you use the push functionality and use the EU region you need to make some changes.
+You have to update &lt;code&gt;push.bitwarden.eu&lt;/code&gt; to &lt;code&gt;api.bitwarden.eu&lt;/code&gt;.
+This is also an issue with any previous version of Vaultwarden.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;chore: remove repetitive words by @one230six in https://github.com/dani-garcia/vaultwarden/pull/4422&lt;/li&gt;
