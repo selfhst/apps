@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-07-08T22:32:16.424930-04:00</updated>
+  <updated>2024-07-08T23:32:18.395648-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -359,15 +359,5 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.15.1...v0.15.2&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.2" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.15.3</id>
-    <title>New release for AFFiNE: 0.15.3</title>
-    <updated>2024-07-08T22:11:35-04:00</updated>
-    <author>
-      <name>toeverything/AFFiNE</name>
-    </author>
-    <content/>
-    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.3" rel="alternate"/>
   </entry>
 </feed>
