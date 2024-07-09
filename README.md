@@ -10,7 +10,7 @@ This repository serves as a data store for the static files used to populate the
 
 While readers are free to browse and reference the contents of the repository, they are subject to change as the project evolves. Details surrounding periodic updates can be found in the repository's [changelog](https://github.com/selfhst/apps/blob/main/CHANGELOG.md).
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 #### How can I add my project to the directory?
 
