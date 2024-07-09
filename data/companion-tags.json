@@ -1,7 +1,9 @@
 [
     "Ad-Block",
     "Audiobooks",
+    "Backups",
     "Bookmarks",
+    "Books",
     "Budgeting",
     "CalDAV / CarDAV",
     "Comics",
@@ -11,7 +13,7 @@
     "Downloads",
     "Frontend",
     "Manga",
-    "Meals",
+    "Meal Planning",
     "Media",
     "Monitoring",
     "Music",
@@ -26,5 +28,6 @@
     "Statistics",
     "Streaming",
     "URL Shortener",
-    "Videos"
+    "Videos",
+    "Web Analytics"
 ]
