@@ -12,13 +12,13 @@ While readers are free to browse and reference the contents of the repository, t
 
 ### Frequently Asked Questions
 
-#### How can I add my project to either list?
+#### How can I add my project to the directory?
 
 Feel free to [reach out](mailto:hello@selfh.st) and share the details of your project with me.
 
 Note that I will not manually intervene with the order in which a project is displayed. The current sort options (repository stars, last activity, alphabetical, recently added) are objective methods for displaying projects without personal bias.
 
-#### How often are the directories updated?
+#### How often is the directory updated?
 
 A set of custom Python scripts update the application details using the various git APIs and populate the lists with recently added applications every morning.
 
