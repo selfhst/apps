@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-09T15:31:45.747275-04:00</updated>
+  <updated>2024-07-09T16:31:47.285966-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -316,19 +316,6 @@ Download the JAR here: https://downloads.metabase.com/v0.49.20/metabase.jar&lt;/
 - Catch exceptions from driver/database-supports? outside driver code and Memoize driver.u/supports? (#44719) (#44804) (#44851)
 - Memoize driver.u/supports? (#44719)
 
-**Bug fixes**
-
-
-
-**Already Fixed**
-
-Issues that we have recently confirmed to have been fixed at some point in the past.
-
-
-
-**Under the Hood**
-
-
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.49.20" rel="alternate"/>
@@ -351,62 +338,78 @@ Download the JAR here: https://downloads.metabase.com/v0.50.11/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
 
-- fix flaky unit test by removing un-needed waitForElementToBeRemoved (#45291)
-- Technical Debt: Logs page testing depends on hardcoded numbers (#45263)
-- fix: Allow submit buttons to override the variant prop (#45247)
-- Only drop idx_uniq_field_table_id_parent_id_name if it exists (#45246)
-- /api/testing/set-time: ability to set JVM time during development (#45230)
-- docs(sdk): Document how to reload Metabase embedding SDK components (#45194)
-- copy change in csv modal (#45185)
-- refactor: drop unused js file (#45183)
-- Add INFO log for each table before JSON unfolding during field sync (#45162)
-- Skip fingerprinting or scanning field values for fields with base-type=type/Collection (#45160)
-- lint: add stylelint support for emotion components (#45132)
-- ci: pin replayio version (#45122)
+**Permissions**
 - Batch permission updates with many tables (#45110)
+- Require Card read permissions to use reference Card in native query (#45000)
+
+**Performance**
+- Skip fingerprinting or scanning field values for fields with base-type=type/Collection (#45160)
 - Add tables pre-fetching to dashboard load (#45107)
+
+**Misc**
+- Allow submit buttons to override the variant prop (#45247)
+- docs(sdk): Document how to reload Metabase embedding SDK components (#45194)
+- Clarify button in CSV upload modal (#45185)
+- Add INFO log for each table before JSON unfolding during field sync (#45162)
 - Adds plan-alias info to premium-embedding-token and exposes it in troubleshooting (#45051)
-- Require Card ref permissions to use Card reference template tag in native query (#45000)
-- Remove field refs from DatasetEditor (#44999)
-- pass correct redux action name (#44970)
 - Allow defective duplicate fields (#44866)
--  
 
-**Bug fixes**
+### Bug fixes
 
-- `GET /api/activity/most_recently_viewed_dashboard` should not return archived dashboards (#45223)
-- Cannot change the stacking setting on stats (#45182)
-- Upgrade to v50 where Permissions are Mapped to "No self-service (deprecated)" Blocks View Access to Other Data in the Database (#45116)
+**Visualizations**
+- Cannot change the stacking setting on for line charts with two bar series (#45182)
 - Invalid visualization settings crash combined cartesian charts on dashboards (#45114)
-- Hamburger menu is not functional in Admin app on moble (#45042)
-- Dropdown slightly shifts after hover on items (#44869)
+- Visualization doesn't pick up the all fields returned by the query (#35093)
+
+**Permissions**
+- Upgrade to v50 where Permissions are Mapped to "No self-service (deprecated)" Blocks View Access to Other Data in the Database (#45116)
 - Users with "No Query Access" receive Incorrect error when trying to promote Questions to models (#44854)
-- [50.x] N+1 queries while loading dashboard `query_metadata` (#44830)
+
+**UI polish**
+- Hamburger menu is not functional in Admin app on mobile (#45042)
+- Dropdown slightly shifts after hover on items (#44869)
 - "It's okay to play around with saved questions" modal can't be dismissed with keyboard (#44754)
 - Submit button in "Duplicate entity" modal is not styled as primary (#44221)
-- Indexed Entities lack visual context in command palette (#44136)
+- No results and waiting for results overlap (#41464)
+- Indexed records lack visual context in command palette (#44136)
+
+**Misc**
+- `GET /api/activity/most_recently_viewed_dashboard` should not return archived dashboards (#45223)
+- [50.x] N+1 queries while loading dashboard `query_metadata` (#44830)
 - The UI will keep calling /logs after you leave the troubleshooting-&gt;logs page (#43010)
 - Dashboard filter options lookup produces query that references non-existent column when linked question aggregates values (#42829)
-- No results and waiting for results overlap (#41464)
-- Visualization doesn't pick up the all fields returned by the query (#35093)
 - Reverting a question to a revision prior to Metabase upgrade 0.46 does not work (#31901)
 
-**Already Fixed**
+### Already Fixed
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
+_Issues that we have recently confirmed to have been fixed at some point in the past._
 
+**Visualizations**
+- Pivot table disappears when switching to the query builder and back to viz (#39504)
+
+**Dashboards**
+- error result when shared dashboard has boolean type filter (#37125)
+
+**Models**
 - Editing Column description of Model is confusing if it contains aggregations (#39749)
-- Pivot table disappears (#39504)
-- error result when shared dashbord has boolean type filter (#37125)
 - Zooming on object detail from a metadata-edited model column does not work or warn users (#28098)
 - Clicking on "View details" for a table row when editing model metadata throws 404 (#25181)
 
-**Under the Hood**
 
+### Under the Hood
+
+- fix flaky unit test by removing un-needed waitForElementToBeRemoved (#45291)
+- Technical Debt: Logs page testing depends on hardcoded numbers (#45263)
+- Only drop idx_uniq_field_table_id_parent_id_name if it exists (#45246)
+- /api/testing/set-time: ability to set JVM time during development (#45230)
+- refactor: drop unused js file (#45183)
 - Repro #39504: Pivot table disappears (#45143)
-
+- lint: add stylelint support for emotion components (#45132)
+- ci: pin replayio version (#45122)
+- Remove field refs from DatasetEditor (#44999)
+- pass correct redux action name (#44970)
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.11" rel="alternate"/>
   </entry>
