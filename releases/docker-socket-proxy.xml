@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docker Socket Proxy Releases</title>
-  <updated>2024-07-09T04:30:19.357084-04:00</updated>
+  <updated>2024-07-09T05:30:21.256980-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -78,5 +78,23 @@ Although this is not the beginning of the project, it will be the first tagged v
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Tecnativa/docker-socket-proxy/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
     <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.2.0</id>
+    <title>New release for Docker Socket Proxy: v0.2.0</title>
+    <updated>2024-07-09T04:57:02-04:00</updated>
+    <author>
+      <name>Tecnativa/docker-socket-proxy</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: updated to HAproxy 3.0 and forced running as root by @proudier in https://github.com/Tecnativa/docker-socket-proxy/pull/130&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@proudier made their first contribution in https://github.com/Tecnativa/docker-socket-proxy/pull/130&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Tecnativa/docker-socket-proxy/compare/v0.1.2...v0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
