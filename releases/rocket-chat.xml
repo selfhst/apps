@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-07-10T13:31:18.934529-04:00</updated>
+  <updated>2024-07-10T14:31:19.821276-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -247,6 +247,8 @@
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.43.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;What’s New&lt;/h2&gt;
+&lt;p&gt;We've enhanced our security features with end-to-end encryption (E2EE) updates, including async key distribution, and disabled unnecessary menu items for encrypted messages. E2EE is currently in beta, but we’re still busy adding features and making adjustments, so stay tuned! Additionally, our UI got a boost with improved message readability, a new "Pending Users" tab, and better LDAP sync performance.&lt;/p&gt;
 &lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -301,6 +303,8 @@
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/32425"&gt;#32425&lt;/a&gt;) Added the possibility to choose the time unit (days, hours, minutes) to the global retention policy settings&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;p&gt;We resolved several issues to make your experience smoother, such as fixing file upload settings, improving retention policy warnings, and correcting UI permission checks. Also, we addressed problems with encrypted message handling and stream recreation after login, ensuring a seamless and secure user experience.&lt;/p&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -483,7 +487,8 @@
 &lt;/ul&gt;
 &lt;/details&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;For more detailed information, check out &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;our documentation&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/RocketChat/Rocket.Chat/releases/tag/6.10.0" rel="alternate"/>
   </entry>
 </feed>
