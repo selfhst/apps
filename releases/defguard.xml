@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DefGuard Releases</title>
-  <updated>2024-07-10T02:33:08.723320-04:00</updated>
+  <updated>2024-07-10T03:33:06.447825-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,7 +181,7 @@ Also, there is a new look for YubiKey provisioning (in the key management dialog
 &lt;h3&gt;Account disabling/enabling :star:&lt;/h3&gt;
 &lt;p&gt;Now you can disable or enable a user account (by @t-aleksander in https://github.com/DefGuard/defguard/pull/640)&lt;/p&gt;
 &lt;p&gt;&lt;img alt="defguard disable account" src="https://raw.githubusercontent.com/DefGuard/docs/docs/releases/0.11/user-disable.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Important: if you have LDAP sync enabled, disabling a user will remove the account from LDAP (enabling will add it again). This is a &lt;em&gt;workaround&lt;/em&gt; implementation until proper two way synchronization between defguard and LDAP will be implemented. &lt;/p&gt;
+&lt;p&gt;Important: LDAP support for this feature is not implemented yet. See https://github.com/DefGuard/defguard/issues/660 for status.&lt;/p&gt;
 &lt;h3&gt;Core &amp;amp; Proxy DEB &amp;amp; RPM packages&lt;/h3&gt;
 &lt;p&gt;Upon a lot of requests we have added (besides docker/kubernetes) a pure package distribution of core &amp;amp; proxy (gateway already had it done for some time).
 Done by @t-aleksander in https://github.com/DefGuard/defguard/pull/649&lt;/p&gt;
