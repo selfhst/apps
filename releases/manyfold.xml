@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manyfold Releases</title>
-  <updated>2024-07-11T08:32:29.085578-04:00</updated>
+  <updated>2024-07-11T09:32:29.959322-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,10 +103,11 @@
     <author>
       <name>manyfold3d/manyfold</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
-&lt;p&gt;This release focuses on the deployment and sysadmin aspects of running Manyfold. We've added in support for MySQL / MariaDB database servers, as well as the ability to use SQLite's file-based database if you don't want to run a separate database server. &lt;/p&gt;
+    <content>&lt;p&gt;This release focuses on the deployment and sysadmin aspects of running Manyfold. We've added in support for MySQL / MariaDB database servers, as well as the ability to use SQLite's file-based database if you don't want to run a separate database server. &lt;/p&gt;
 &lt;p&gt;And at long last, by using SQLite, we've created a new "solo" image, which by default integrates everything into a single container - no need for a separate database or Redis server at all! Just pull &lt;code&gt;manyfold-solo&lt;/code&gt; instead of &lt;code&gt;manyfold&lt;/code&gt;, mount a persistent volume at &lt;code&gt;/config&lt;/code&gt; for the database, and you're up and running!&lt;/p&gt;
 &lt;p&gt;Bonus feature: we've also cut the size of the docker image down, from 1.5GB to around 250MB, by removing all the build-time stuff that wasn't needed at runtime.&lt;/p&gt;
+&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
+
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;✨ New Features ✨&lt;/h3&gt;
 &lt;ul&gt;
