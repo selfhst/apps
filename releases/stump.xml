@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stump Releases</title>
-  <updated>2024-07-10T21:32:45.282510-04:00</updated>
+  <updated>2024-07-10T22:32:42.222329-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,32 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stumpapp/stump/compare/v0.0.2...v0.0.3&lt;/p&gt;</content>
     <link href="https://github.com/stumpapp/stump/releases/tag/v0.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/stumpapp/stump/releases/tag/v0.0.4</id>
+    <title>New release for Stump: v0.0.4</title>
+    <updated>2024-07-10T21:33:58-04:00</updated>
+    <author>
+      <name>stumpapp/stump</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ Email to device by @aaronleopold in https://github.com/stumpapp/stump/pull/296&lt;/li&gt;
+&lt;li&gt;✨ Support grid and table layouts by @aaronleopold in https://github.com/stumpapp/stump/pull/322&lt;/li&gt;
+&lt;li&gt;Image analysis job by @JMicheli in https://github.com/stumpapp/stump/pull/307&lt;/li&gt;
+&lt;li&gt;Promote experimental changes by @aaronleopold in https://github.com/stumpapp/stump/pull/342&lt;/li&gt;
+&lt;li&gt;🌐 Update translations by @aaronleopold in https://github.com/stumpapp/stump/pull/345&lt;/li&gt;
+&lt;li&gt;:sparkles: Delete job-associated logs and small QOL changes by @aaronleopold in https://github.com/stumpapp/stump/pull/348&lt;/li&gt;
+&lt;li&gt;:bug: Fix OPDS path detection regression by @aaronleopold in https://github.com/stumpapp/stump/pull/350&lt;/li&gt;
+&lt;li&gt;Improve coverage testing and filesystem coverage by @JMicheli in https://github.com/stumpapp/stump/pull/351&lt;/li&gt;
+&lt;li&gt;🌐 Update translations by @aaronleopold in https://github.com/stumpapp/stump/pull/352&lt;/li&gt;
+&lt;li&gt;:bug: Fix nested file structure support for ZIP/RAR format by @aaronleopold in https://github.com/stumpapp/stump/pull/353&lt;/li&gt;
+&lt;li&gt;🐛 Fix DB error during media analysis by @aaronleopold in https://github.com/stumpapp/stump/pull/354&lt;/li&gt;
+&lt;li&gt;:bug: Fix first visit API URL determination by @aaronleopold in https://github.com/stumpapp/stump/pull/358&lt;/li&gt;
+&lt;li&gt;:bug: Focus EPUB.js iframe each location change by @aaronleopold in https://github.com/stumpapp/stump/pull/359&lt;/li&gt;
+&lt;li&gt;🔖 Release v0.0.4 by @aaronleopold in https://github.com/stumpapp/stump/pull/365&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stumpapp/stump/compare/v0.0.3...v0.0.4&lt;/p&gt;</content>
+    <link href="https://github.com/stumpapp/stump/releases/tag/v0.0.4" rel="alternate"/>
   </entry>
 </feed>
