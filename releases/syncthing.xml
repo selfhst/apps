@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing Releases</title>
-  <updated>2024-07-10T20:31:28.495588-04:00</updated>
+  <updated>2024-07-10T21:31:29.719390-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,7 +101,13 @@
     <author>
       <name>syncthing/syncthing</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;build: Update dependencies by @calmh in https://github.com/syncthing/syncthing/pull/9565&lt;/li&gt;
+&lt;li&gt;gui: Use localised time in duration by @rasa in https://github.com/syncthing/syncthing/pull/9552&lt;/li&gt;
+&lt;li&gt;gui: Add Filipino (fil) translation template by @acolomb in https://github.com/syncthing/syncthing/pull/9599&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syncthing/syncthing/compare/v1.27.8...v1.27.9&lt;/p&gt;</content>
     <link href="https://github.com/syncthing/syncthing/releases/tag/v1.27.9" rel="alternate"/>
   </entry>
 </feed>
