@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Puter Releases</title>
-  <updated>2024-07-11T16:32:09.279951-04:00</updated>
+  <updated>2024-07-11T17:32:18.969346-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -247,5 +247,53 @@
 &lt;li&gt;validate size metadata (&lt;a href="https://github.com/HeyPuter/puter/commit/2008db08524259264a0c8186a34fc75d7a133f5f"&gt;2008db0&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/HeyPuter/puter/releases/tag/v2.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/HeyPuter/puter/releases/tag/v2.4.1</id>
+    <title>New release for Puter: v2.4.1</title>
+    <updated>2024-07-11T17:17:44-04:00</updated>
+    <author>
+      <name>HeyPuter/puter</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Translations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update ru.js issue #547 by @julijatol in https://github.com/HeyPuter/puter/pull/561&lt;/li&gt;
+&lt;li&gt;Russian translation fixed by @Speedyjet in https://github.com/HeyPuter/puter/pull/560&lt;/li&gt;
+&lt;li&gt;Russian and ukrainian by @Speedyjet in https://github.com/HeyPuter/puter/pull/564&lt;/li&gt;
+&lt;li&gt;feat: update BR translation by @matheussss1 in https://github.com/HeyPuter/puter/pull/566&lt;/li&gt;
+&lt;li&gt;Completing Italian translation based on English file by @micheledinelli in https://github.com/HeyPuter/puter/pull/570&lt;/li&gt;
+&lt;li&gt;Completing Arabic translation based on English file. by @stronkexe in https://github.com/HeyPuter/puter/pull/567&lt;/li&gt;
+&lt;li&gt;Update Arabic translations in ar.js by @medelm1 in https://github.com/HeyPuter/puter/pull/565&lt;/li&gt;
+&lt;li&gt;Add Japanese translation by @askdkc in https://github.com/HeyPuter/puter/pull/574&lt;/li&gt;
+&lt;li&gt;Add Romanian translations by @xslendix in https://github.com/HeyPuter/puter/pull/575&lt;/li&gt;
+&lt;li&gt;Added missing Romanian translations. by @sbondor in https://github.com/HeyPuter/puter/pull/576&lt;/li&gt;
+&lt;li&gt;Issue#530 - Update bengali translations by @Waheed4719 in https://github.com/HeyPuter/puter/pull/579&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: JSON support for kv driver by @KernelDeimos in https://github.com/HeyPuter/puter/pull/562&lt;/li&gt;
+&lt;li&gt;Add documentation instructions to get started with My Websites by @micheledinelli in https://github.com/HeyPuter/puter/pull/571&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;retry npm 3 times to account for the flakiness of the process by @jelveh in https://github.com/HeyPuter/puter/pull/572&lt;/li&gt;
+&lt;li&gt;Move &lt;code&gt;.commit&lt;/code&gt; to &lt;code&gt;/tools&lt;/code&gt; by @jelveh in https://github.com/HeyPuter/puter/pull/573&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@julijatol made their first contribution in https://github.com/HeyPuter/puter/pull/561&lt;/li&gt;
+&lt;li&gt;@Speedyjet made their first contribution in https://github.com/HeyPuter/puter/pull/560&lt;/li&gt;
+&lt;li&gt;@medelm1 made their first contribution in https://github.com/HeyPuter/puter/pull/565&lt;/li&gt;
+&lt;li&gt;@matheussss1 made their first contribution in https://github.com/HeyPuter/puter/pull/566&lt;/li&gt;
+&lt;li&gt;@micheledinelli made their first contribution in https://github.com/HeyPuter/puter/pull/570&lt;/li&gt;
+&lt;li&gt;@stronkexe made their first contribution in https://github.com/HeyPuter/puter/pull/567&lt;/li&gt;
+&lt;li&gt;@askdkc made their first contribution in https://github.com/HeyPuter/puter/pull/574&lt;/li&gt;
+&lt;li&gt;@xslendix made their first contribution in https://github.com/HeyPuter/puter/pull/575&lt;/li&gt;
+&lt;li&gt;@sbondor made their first contribution in https://github.com/HeyPuter/puter/pull/576&lt;/li&gt;
+&lt;li&gt;@Waheed4719 made their first contribution in https://github.com/HeyPuter/puter/pull/579&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/HeyPuter/puter/compare/v2.4.0...v2.4.1&lt;/p&gt;</content>
+    <link href="https://github.com/HeyPuter/puter/releases/tag/v2.4.1" rel="alternate"/>
   </entry>
 </feed>
