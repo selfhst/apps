@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Abacus Releases</title>
-  <updated>2024-07-12T08:33:14.199384-04:00</updated>
+  <updated>2024-07-12T09:33:15.701249-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,6 +108,7 @@ Android: &lt;a href="https://play.google.com/store/apps/details?id=abacus.firefl
     <content>&lt;p&gt;After successful App Store/Google Play reviews, version &lt;code&gt;0.18.0&lt;/code&gt; will be available here:&lt;/p&gt;
 &lt;p&gt;iOS: &lt;a href="https://apps.apple.com/us/app/1627093491"&gt;apps.apple.com&lt;/a&gt;
 Android: &lt;a href="https://play.google.com/store/apps/details?id=abacus.fireflyiii.android.app"&gt;play.google.com&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;❗️ Sentry apk is for debugging only&lt;/h1&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;translations/italian by @Elmagenta in https://github.com/victorbalssa/abacus/pull/289&lt;/li&gt;
