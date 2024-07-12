@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-12T15:31:42.053194-04:00</updated>
+  <updated>2024-07-12T16:31:41.139846-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -278,37 +278,45 @@ _Issues that we have recently confirmed to have been fixed at some point in the 
     <author>
       <name>metabase/metabase</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Upgrading&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;h2&gt;Upgrading&lt;/h2&gt;
 &lt;p&gt;You can download a .jar of the release, or get the latest on Docker. Make sure to back up your Metabase
 database before you upgrade! Need help? Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase.html"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.50.12&lt;/code&gt;&lt;/a&gt;
 Download the JAR here: https://downloads.metabase.com/v0.50.12/metabase.jar&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;SHA-256 checksum for the v0.50.12 JAR:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;cac47546218d64526660441a81b4e5acf2ec451c47872a53a68eb7eb008a4594&lt;/code&gt;&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+## Enhancements
+
+### Serialization
+
+- [serdes] use spec instead of a pipeline for Card (#45209)
+- [serdes] spec check requires up-to-date db (#45455)
+- Make import work on a fresh install (#45297)
+- Serialize by entity_id (#45224)
+
+### Performance
+
+- perf: pass uuid to BE to enable metadata caching during fetching dashboard (#45210)
+- [perf] Fix remaining thread leak in BigQuery query execution (#45253)
+- Update fast-loops (#45415)
+
+### Misc
 
 - Add bounded transaction queue for SQL Analysis (#45461)
 - refactor: do not spread props to QueryModals (#45459)
-- [serdes] spec check requires up-to-date db (#45455)
-- Update fast-loops (#45415)
 - Fix flaky collections test (#45370)
 - Exclude internal content when populating :has_question_and_dashboard for current user. (#45317)
 - Shutdown releasing migration locks has an error in the log statement (#45298)
-- Make import work on a fresh install (#45297)
 - Repro #45359 - Incorrect font in e2e tests in CI (#45274)
 - Async coll perm graph revision (#45258)
-- [perf] Fix remaining thread leak in BigQuery query execution (#45253)
-- Serialize by entity_id (#45224)
-- perf: pass uuid to BE to enable metadata caching during fetching dashboard (#45210)
-- [serdes] use spec instead of a pipeline for Card (#45209)
 - Soft-delete defective duplicate fields (#45151)
 - basic functionality to connect to a third-party Database (#42)
 
-**Bug fixes**
+## Bug fixes
 
 - Weird (split) Filter modal when joining two tables using their foreign keys (#45300)
 - Funnel column ordering freak out (#45296)
@@ -317,7 +325,6 @@ Download the JAR here: https://downloads.metabase.com/v0.50.12/metabase.jar&lt;/
 - Add explanations for permissions changes (#45073)
 - Dashboard level visualization settings not taken into account on dashboard subscriptions (#45061)
 - Dashboard parameter values doesn't work in the static embed modal preview when the dashboard isn't published (#44962)
-- You cannot do a full serialization export on stats via API (#44747)
 - Regression: y-axis minimum is ignored for stacked histograms (#44672)
 - non-admin unable to find sample db tables in search (#44643)
 - Custom Column Case Expression Doesn't Save (#44584)
@@ -326,17 +333,12 @@ Download the JAR here: https://downloads.metabase.com/v0.50.12/metabase.jar&lt;/
 - Object detail view is not scrollable at narrow screen widths (#41133)
 - Wrong default parameter value passed to the parameter widget (#38083)
 - Editing description for models do not work and markdown support is inconsistent (#34574)
-
-**Already Fixed**
-
-Issues that we have recently confirmed to have been fixed at some point in the past.
-
 - Filter modal UI breaks when there are many tables in a question (#40622)
 - Editing model metadata disables table data sorting (#31608)
 - Error Applying All-Time Filter to a question (#29301)
 - In a dashboard, Dropdown list doesn't work through application sharing (#28301)
 
-**Under the Hood**
+## Under the Hood
 
 - Repro #45036 and #44910: Multiple popovers can be opened simultaneously (#45369)
 - Repro #40622: Filter modal UI breaks when there are many tables in a question (#45352)
