@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DaRemote Releases</title>
-  <updated>2024-07-12T12:33:18.307598-04:00</updated>
+  <updated>2024-07-12T13:33:17.765024-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,5 +44,25 @@ Added android version&lt;/p&gt;</content>
 &lt;li&gt;Fixed incorrect filters sorting on albums page when switching from artists&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.2</id>
+    <title>New release for JellyBoxPlayer: v1.8.2</title>
+    <updated>2024-07-12T12:47:01-04:00</updated>
+    <author>
+      <name>avdept/JellyBoxPlayer</name>
+    </author>
+    <content>&lt;h2&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Random sorting order&lt;/li&gt;
+&lt;li&gt;Media Hotkeys on macOS platform&lt;/li&gt;
+&lt;li&gt;Auto library saving after its been selected(you need to select library at least once after installing update)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Silent crash due to incorrect data type returned by Jellyfin&lt;/li&gt;
+&lt;li&gt;Missing libraries&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.2" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-07-12T12:31:07.494861-04:00</updated>
+  <updated>2024-07-12T13:31:06.821274-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -222,6 +222,10 @@ This is planned to be the last release series to support Gotenberg 7, see &lt;a 
       <name>paperless-ngx/paperless-ngx</name>
     </author>
     <content>&lt;h2&gt;paperless-ngx 2.11.0&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+This release marks the transition from Gotenberg v7 to v8, which is now required. Changing Gotenberg versions for most users is as simple as updating the docker tag in your compose file (see the example compose files).&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Breaking Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Feature: Upgrade Gotenberg to v8 @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7094"&gt;#7094&lt;/a&gt;)&lt;/li&gt;
