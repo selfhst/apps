@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medialytics Releases</title>
-  <updated>2024-07-12T22:30:53.239905-04:00</updated>
+  <updated>2024-07-12T23:30:54.457473-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,7 @@
     <content>&lt;h1&gt;v2.3.5 - Ratings + Writers&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/25174215-9a69-4c95-827c-f0ed82723559" /&gt;
 &lt;img width="816" alt="image" src="https://github.com/user-attachments/assets/b123fac6-f834-4b7f-9508-ca6e75875c7e"&gt;
-&lt;img width="814" alt="image" src="https://github.com/user-attachments/assets/ed8f1015-7538-43b1-92ce-a8b649f6b151"&gt;&lt;/p&gt;
+&lt;img width="816" alt="image" src="https://github.com/user-attachments/assets/dcce60d3-7330-4744-8d89-d63a3532c2c4"&gt;&lt;/p&gt;
 &lt;p&gt;New Features:
 - Scatter chart of audienceRating (TMDB) VS contentRating including highest rated and lowest rated
     - Built with plotly.js, so there are custom controls (zoom, pan, select) not present for other charts
