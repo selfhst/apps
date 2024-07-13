@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>JellyBoxPlayer Releases</title>
-  <updated>2024-07-13T07:33:16.342144-04:00</updated>
+  <updated>2024-07-13T08:33:21.998034-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,5 +64,19 @@ Added android version&lt;/p&gt;</content>
 &lt;li&gt;Missing libraries&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.3</id>
+    <title>New release for JellyBoxPlayer: v1.8.3</title>
+    <updated>2024-07-13T07:55:46-04:00</updated>
+    <author>
+      <name>avdept/JellyBoxPlayer</name>
+    </author>
+    <content>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow passwordless login - simply keep password field empty if your account does not have password&lt;/li&gt;
+&lt;li&gt;Updated API&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/avdept/JellyBoxPlayer/releases/tag/v1.8.3" rel="alternate"/>
   </entry>
 </feed>
