@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lidarr Releases</title>
-  <updated>2024-07-14T06:30:46.123526-04:00</updated>
+  <updated>2024-07-14T07:30:45.900404-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -522,5 +522,48 @@ This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-
 
 This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-9ac3-4ec6-9583-209885d5ff34/_release?releaseId=84&amp;_a=release-summary).&lt;/details&gt;</content>
     <link href="https://github.com/Lidarr/Lidarr/releases/tag/v2.3.3.4204" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Lidarr/Lidarr/releases/tag/v2.4.3.4248</id>
+    <title>New release for Lidarr: 2.4.3.4248</title>
+    <updated>2024-07-14T07:03:18-04:00</updated>
+    <author>
+      <name>Lidarr/Lidarr</name>
+    </author>
+    <content>&lt;p&gt;&lt;em&gt;To receive further updates for a non-docker installation, please change the branch to &lt;/em&gt;&lt;em&gt;master&lt;/em&gt;&lt;em&gt;. (Settings -&amp;gt; General (Show Advanced Settings) -&amp;gt; Updates -&amp;gt; Branch)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you are using docker you will need to update the container image.  &lt;em&gt;Do not attempt to update Lidarr within an existing docker container.&lt;/em&gt;&lt;/strong&gt; Doing so will prevent audio fingerprinting from working and break your Lidarr installation if you ever delete and re-create the container.&lt;/p&gt;
+&lt;h2&gt;Changes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4d693f78f3be72a87dfb17bab1d5d5e34061ec0c Multiple Translations updated by Weblate&lt;/li&gt;
+&lt;li&gt;2dec783272409799fced8d7c2260e1bb5781ba51 Fixed: Creating root folders without default tags [ #4898 ]&lt;/li&gt;
+&lt;li&gt;9045dea5364ff8a0677adc25e478e908e6b0ee11 Update SonarCloud pipeline versions&lt;/li&gt;
+&lt;li&gt;2ad7396f6db5c2dfcb9e5b584f92650567cabb43 New: Added UI for parsing release names&lt;/li&gt;
+&lt;li&gt;bcfabacbd47f7205ce0d5abfaacefeffacfdfa48 Bump version to 2.4.3&lt;/li&gt;
+&lt;li&gt;bfcbb67054d0664bb334188ed309ef0bdea7984f Fixed: Already imported downloads appearing in Queue briefly [ #4877 ]&lt;/li&gt;
+&lt;li&gt;bc19ead182dc06678ce51152bb64ccf72d8681d8 Bump version to 2.4.2&lt;/li&gt;
+&lt;li&gt;39a5abd5ae867a6c58590ae56bc504b703b4454a Bump skipping spotify tests&lt;/li&gt;
+&lt;li&gt;e31f2ad2536fd0ab868a9a22f3bf0c2c0b8a37f4 Fixed: Validate metadata and quality profiles for root folders&lt;/li&gt;
+&lt;li&gt;838e49ba232e6535cb56acbd4fcff69dd20e1bc6 Bump mac image to 12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;&lt;summary&gt;&lt;b&gt;See More&lt;/b&gt;&lt;/summary&gt;
+
+* 47b5bbc9e1e7867d747b7449ba8f7b6091daaaa4 Fixed: Exclude invalid releases from Newznab and Torznab parsers
+* d602f38b7d1fc7e09f4d74a8fd245928f8e0e811 New: Ignore Deluge torrents without a title
+* e8ab1f842b1168ba7605357a58bfb3fd82e5470f Bump version to 2.4.1
+* 959f6be019c05d65ff272c2c65f854eeef5d4001 Ignore `Grabbed` with STJson [ #4824 ]
+* ceca76d7c078291adbcabe43d48b96f35c227be0 Automated API Docs update
+* 3b0f9500a882f6e1d30b2a36f56e026246cd195a Multiple Translations updated by Weblate
+* 9eda077c03ad7933974811fb573beb420a57a939 Ignore `Grabbed` from API docs [ #4847 ]
+* 4832860cce89cb019fb05d79b6bf2226e97ae8d0 Rename Sonarr to Lidarr
+* 448d29f1352cc5b05df4735cf8c33bbec5d3e1a8 Fixed: Improve error messaging if config file isn't formatted correctly
+* 7d46360c34ab7c9897cacb9cbd23f47ab54f68ef Fixed: Ignore case when resolving indexer by name in release push
+* 4752b54e26978c6eadbd1ea05c950941c8f3c2b9 Fixed: Ignore case for name validation in providers
+* 17bf73d1ef4aa3180ad9fb7e238c3f373b75b8da Multiple Translations updated by Weblate
+* 6ec298ed2a9653863b8cea33e7174d50d37b5fcc Fixed: Trimming slashes from UrlBase when using environment variable
+* 563db9231eb0a8053f8dc890d44a246d48d964d6 Update the wanted section for missing and cutoff unmet
+* d27b062d6acb86832b3f564d838bd2762865aec7 Bump version to 2.4.0
+
+This list of changes was [auto generated](https://dev.azure.com/Lidarr/43582661-9ac3-4ec6-9583-209885d5ff34/_release?releaseId=92&amp;_a=release-summary).&lt;/details&gt;</content>
+    <link href="https://github.com/Lidarr/Lidarr/releases/tag/v2.4.3.4248" rel="alternate"/>
   </entry>
 </feed>
