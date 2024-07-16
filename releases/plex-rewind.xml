@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-07-16T10:31:20.857451-04:00</updated>
+  <updated>2024-07-16T11:31:18.601752-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,14 +74,14 @@
   <entry>
     <id>https://github.com/RaunoT/plex-rewind/releases/tag/v2.0.1</id>
     <title>New release for Plex Rewind: v2.0.1</title>
-    <updated>2024-07-16T08:27:43-04:00</updated>
+    <updated>2024-07-16T10:58:14-04:00</updated>
     <author>
       <name>RaunoT/plex-rewind</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v2.0.0...v2.0.1"&gt;2.0.1&lt;/a&gt; (2024-07-16)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;set output deprecation (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/117"&gt;#117&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/686cecde5b939f7cf4a6ab93e99027327c81ad9f"&gt;686cecd&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;misc. semantic release fixes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v2.0.1" rel="alternate"/>
   </entry>
