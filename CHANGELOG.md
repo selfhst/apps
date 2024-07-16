@@ -1,5 +1,9 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-07-16
+
+* Changed the dark theme directory switch color for improved readability
+
 ### 2024-07-09
 
 * <b>selfh.st/apps</b> and <b>selfh.st/companions</b> have been consolidated onto a single page. Users can easily switch between the two using the Software/Companion switch.
