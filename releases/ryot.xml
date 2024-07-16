@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-07-16T12:31:27.560300-04:00</updated>
+  <updated>2024-07-16T13:31:26.060015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,15 +121,15 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v5.5.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.6.9</id>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v6.6.10</id>
     <title>New release for Ryot: Version 6</title>
     <updated>2024-07-07T13:43:20-04:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;!-- DYNAMIC START --&gt;
-&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.6.9&lt;/code&gt;
-&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;a2b580a61e747db7854025940d06c5b46221bbbd&lt;/code&gt;
+&lt;p&gt;&lt;em&gt;Created from tag&lt;/em&gt;: &lt;code&gt;v6.6.10&lt;/code&gt;
+&lt;em&gt;Created from git revision&lt;/em&gt;: &lt;code&gt;a6e7bfcc0ac7b0ae5a3232c411c41e1868820645&lt;/code&gt;
 &lt;em&gt;Published on&lt;/em&gt;: &lt;code&gt;July 16, 2024&lt;/code&gt;&lt;/p&gt;
 &lt;!-- DYNAMIC END --&gt;
 
@@ -146,6 +146,6 @@ This is a breaking release. Please consult the &lt;a href="https://docs.ryot.io/
 &lt;li&gt;Browser does not become unresponsive because of long lists (eg: show seasons, watch history, podcast episodes).&lt;/li&gt;
 &lt;li&gt;Idle CPU usage should drop to 0% (&lt;a href="https://github.com/IgnisDa/ryot/issues/440#issuecomment-2147046304"&gt;more information&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.6.9" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v6.6.10" rel="alternate"/>
   </entry>
 </feed>
