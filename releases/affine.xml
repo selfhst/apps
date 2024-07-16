@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-07-15T23:32:16.274046-04:00</updated>
+  <updated>2024-07-16T00:32:20.111153-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -409,5 +409,40 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.15.2...v0.15.4&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.15.5</id>
+    <title>New release for AFFiNE: 0.15.5</title>
+    <updated>2024-07-15T23:46:25-04:00</updated>
+    <author>
+      <name>toeverything/AFFiNE</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: adapt workflow for ppt &amp;amp; minimap by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7464&lt;/li&gt;
+&lt;li&gt;chore: clean up runtime flags and envs by @forehalo in https://github.com/toeverything/AFFiNE/pull/7454&lt;/li&gt;
+&lt;li&gt;fix: telemetry property names by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7468&lt;/li&gt;
+&lt;li&gt;refactor(core): optimize abstraction of sidebar doc tree structure by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7455&lt;/li&gt;
+&lt;li&gt;fix(infra): failed to get status when database not ready by @EYHN in https://github.com/toeverything/AFFiNE/pull/7470&lt;/li&gt;
+&lt;li&gt;chore: fix redirect for static files by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7473&lt;/li&gt;
+&lt;li&gt;hotfix: adapt new fal response by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7480&lt;/li&gt;
+&lt;li&gt;refactor(core): workbench by @EYHN in https://github.com/toeverything/AFFiNE/pull/7355&lt;/li&gt;
+&lt;li&gt;feat(infra): improve orm by @forehalo in https://github.com/toeverything/AFFiNE/pull/7475&lt;/li&gt;
+&lt;li&gt;fix: increase image action time out by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7487&lt;/li&gt;
+&lt;li&gt;fix: switch to &lt;code&gt;file-type&lt;/code&gt; v19.1.0 by @lawvs in https://github.com/toeverything/AFFiNE/pull/7459&lt;/li&gt;
+&lt;li&gt;refactor(infra): memento use undefined by @EYHN in https://github.com/toeverything/AFFiNE/pull/7491&lt;/li&gt;
+&lt;li&gt;feat(electron): shared storage by @EYHN in https://github.com/toeverything/AFFiNE/pull/7492&lt;/li&gt;
+&lt;li&gt;feat(component): new dnd api by @EYHN in https://github.com/toeverything/AFFiNE/pull/7467&lt;/li&gt;
+&lt;li&gt;feat: add ping for event source by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7493&lt;/li&gt;
+&lt;li&gt;chore: expose FrameworkEvent by @pengx17 in https://github.com/toeverything/AFFiNE/pull/7500&lt;/li&gt;
+&lt;li&gt;fix(core): share-button's label of shared page should be 'shared' by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7486&lt;/li&gt;
+&lt;li&gt;feat(core): adjust center peek animation by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7393&lt;/li&gt;
+&lt;li&gt;chore: bump blocksuite by @EYHN in https://github.com/toeverything/AFFiNE/pull/7489&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7433&lt;/li&gt;
+&lt;li&gt;fix: handle gql error correctly by @darkskygit in https://github.com/toeverything/AFFiNE/pull/7507&lt;/li&gt;
+&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7506&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.15.4...v0.15.5&lt;/p&gt;</content>
+    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.15.5" rel="alternate"/>
   </entry>
 </feed>
