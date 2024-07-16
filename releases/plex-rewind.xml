@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-07-16T06:31:15.334622-04:00</updated>
+  <updated>2024-07-16T07:31:16.519189-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,18 +70,18 @@
   <entry>
     <id>https://github.com/RaunoT/plex-rewind/releases/tag/v2.0.0</id>
     <title>New release for Plex Rewind: v2.0.0</title>
-    <updated>2024-07-14T08:52:01-04:00</updated>
+    <updated>2024-07-16T07:11:00-04:00</updated>
     <author>
       <name>RaunoT/plex-rewind</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v1.8.7...v2.0.0"&gt;2.0.0&lt;/a&gt; (2024-07-14)&lt;/h2&gt;
+    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v1.8.7...v2.0.0"&gt;2.0.0&lt;/a&gt; (2024-07-16)&lt;/h2&gt;
+&lt;h3&gt;⚠ BREAKING CHANGES&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added configuration screen to replace .env logic (#96)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; publish docker image (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/32"&gt;#32&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/2d8dc96ee3815432fb98c09bd279fe703657009f"&gt;2d8dc96&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; added configuration screen to replace .env logic (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/74"&gt;#74&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/ac26bcf9c8c55409be0f61e8cfebca9a4bc9ea43"&gt;ac26bcf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;#32:&lt;/strong&gt; publish docker image (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/98"&gt;#98&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/2d8dc96ee3815432fb98c09bd279fe703657009f"&gt;2d8dc96&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v2.0.0" rel="alternate"/>
   </entry>
