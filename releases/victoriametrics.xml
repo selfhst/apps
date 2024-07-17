@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-07-17T15:32:50.854343-04:00</updated>
+  <updated>2024-07-17T16:32:53.912596-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,5 +126,78 @@ The v1.97.x line will be supported for at least 12 months since &lt;a href="http
 &lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/MetricsQL.html"&gt;MetricsQL&lt;/a&gt;: properly calculate &lt;a href="https://docs.victoriametrics.com/MetricsQL.html#histogram_quantile"&gt;histogram_quantile&lt;/a&gt; over Prometheus buckets with inconsistent values. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/4580#issuecomment-2186659102"&gt;this comment&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6547"&gt;this pull request&lt;/a&gt;. Updates &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/2819"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.97.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.0</id>
+    <title>New release for VictoriaMetrics: v1.102.0</title>
+    <updated>2024-07-17T16:30:34-04:00</updated>
+    <author>
+      <name>victoriametrics/victoriametrics</name>
+    </author>
+    <content>&lt;p&gt;Released at 2024-07-17&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update note 1: support for snap packages was removed due to lack of interest from community. See this &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6543"&gt;pull request&lt;/a&gt; for details. Please read about supported package types &lt;a href="https://docs.victoriametrics.com/#install"&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update note 2: &lt;a href="https://docs.victoriametrics.com/stream-aggregation/#stream-aggregation-config"&gt;stream aggregation config&lt;/a&gt; now prevents setting multiple identical outputs. For example, &lt;code&gt;outputs: [total, total]&lt;/code&gt; will fail the validation phase. In addition, &lt;code&gt;outputs: ["quantiles(0.5)", "quantiles(0.9)"]&lt;/code&gt; will fail the validation as well - use &lt;code&gt;outputs: ["quantiles(0.5, 0.9)"]&lt;/code&gt; instead.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SECURITY: upgrade Go builder from Go1.22.4 to Go1.22.5. See the list of issues addressed in &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.22.5+label%3ACherryPickApproved"&gt;Go1.22.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SECURITY: upgrade base docker image (Alpine) from 3.20.0 to 3.20.1. See &lt;a href="https://www.alpinelinux.org/posts/Alpine-3.20.1-released.html"&gt;alpine 3.20.1 release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/stream-aggregation/"&gt;streaming aggregation&lt;/a&gt;: expose the following metrics at &lt;code&gt;/metrics&lt;/code&gt; page of &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/"&gt;single-node VictoriaMetrics&lt;/a&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vm_streamaggr_matched_samples_total&lt;/code&gt; - the number of input samples matched by the corresponding aggregation rule&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vm_streamaggr_output_samples_total&lt;/code&gt; - the number of output samples produced by the corresponding aggregation rule&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vm_streamaggr_samples_lag_seconds&lt;/code&gt; - &lt;a href="https://docs.victoriametrics.com/keyconcepts/#histogram"&gt;histogram&lt;/a&gt; with the lag between the current time and the timestamp seen in the aggregated input samples&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/stream-aggregation/"&gt;steaming aggregation&lt;/a&gt;: add new labels to &lt;code&gt;vm_streamaggr_*&lt;/code&gt; metrics:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt; - the name of the streaming aggregation rule, which can be configured via &lt;code&gt;name&lt;/code&gt; option - see &lt;a href="https://docs.victoriametrics.com/stream-aggregation/#stream-aggregation-config"&gt;these docs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt; - &lt;code&gt;-remoteWrite.url&lt;/code&gt; for the corresponding &lt;code&gt;-remoteWrite.streamAggr.config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;path&lt;/code&gt; - path to the corresponding streaming aggregation config file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;position&lt;/code&gt; - the position of the aggregation rule in the corresponding streaming aggregation config file&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/stream-aggregation/"&gt;streaming aggregation&lt;/a&gt;: prevent having duplicated aggregation function as &lt;code&gt;outputs&lt;/code&gt; in one &lt;a href="https://docs.victoriametrics.com/stream-aggregation/#stream-aggregation-config"&gt;aggregation config&lt;/a&gt;. It also prevents using &lt;code&gt;outputs: ["quantiles(0.5)", "quantiles(0.9)"]&lt;/code&gt; instead of  &lt;code&gt;outputs: ["quantiles(0.5, 0.9)"]&lt;/code&gt;, as the former has higher computation cost for producing the same result.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt;: add &lt;code&gt;-graphite.sanitizeMetricName&lt;/code&gt; command-line flag for sanitizing metrics ingested via &lt;a href="https://docs.victoriametrics.com/#how-to-send-data-from-graphite-compatible-agents-such-as-statsd"&gt;Graphite protocol&lt;/a&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6077"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt;: &lt;a href="https://docs.victoriametrics.com/sd_configs/#yandexcloud_sd_configs"&gt;&lt;code&gt;yandexcloud_sd_configs&lt;/code&gt;&lt;/a&gt;: add support for obtaining IAM token in &lt;a href="https://yandex.cloud/en-ru/docs/compute/operations/vm-connect/auth-inside-vm#auth-inside-vm"&gt;GCE format&lt;/a&gt; additionally to the &lt;a href="https://yandex.cloud/en/docs/security/standard/authentication#aws-token"&gt;deprecated Amazon EC2 IMDSv1 format&lt;/a&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/5513"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: make &lt;code&gt;-replay.timeTo&lt;/code&gt; optional in &lt;a href="https://docs.victoriametrics.com/vmalert/#rules-backfilling"&gt;replay mode&lt;/a&gt;. When omitted, the current timestamp will be used. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6492"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmauth/"&gt;vmauth&lt;/a&gt;: reduce CPU usage when proxying data ingestion requests.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmauth/"&gt;vmauth&lt;/a&gt;: allow disabling request body caching with &lt;code&gt;-maxRequestBodySizeToRetry=0&lt;/code&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6445"&gt;this issue&lt;/a&gt;. Thanks to @shichanglin5 for &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6533"&gt;the pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmauth/"&gt;vmauth&lt;/a&gt;: allow overriding &lt;code&gt;Host&lt;/code&gt; header with backend host before sending the request to the configured backend. See &lt;a href="https://docs.victoriametrics.com/vmauth/#modifying-http-headers"&gt;these docs&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6453"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: do not retry RPC calls to vmstorage nodes if &lt;a href="https://docs.victoriametrics.com/#resource-usage-limits"&gt;complexity limits&lt;/a&gt; were exceeded.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmbackup&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/vmrestore/"&gt;vmrestore&lt;/a&gt;: add support for &lt;a href="https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview"&gt;Azure Managed Identity&lt;/a&gt; and default credentials lookup. See &lt;a href="https://docs.victoriametrics.com/vmbackup/#providing-credentials-via-env-variables"&gt;these docs&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/5984"&gt;this issue&lt;/a&gt; for the details. Thanks to @justinrush for the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6518"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmbackup&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmrestore&lt;/a&gt;: allow overriding Azure storage domain when performing backups via &lt;code&gt;AZURE_STORAGE_DOMAIN&lt;/code&gt; environment variable. See &lt;a href="https://docs.victoriametrics.com/vmbackup/#providing-credentials-via-env-variables"&gt;these docs&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/5984"&gt;this issue&lt;/a&gt;. Thanks to @justinrush for the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6518"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: show compacted result in the JSON tab for query results. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6559"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://grafana.com/orgs/victoriametrics"&gt;dashboards&lt;/a&gt;: add &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/dashboards/vmauth.json"&gt;Grafana dashboard&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/alerts-vmauth.yml"&gt;alerting rules&lt;/a&gt; for &lt;a href="https://docs.victoriametrics.com/vmauth/"&gt;vmauth&lt;/a&gt; dashboard. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/4313"&gt;this issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FEATURE: &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/dashboards/vmagent.json"&gt;vmagent dashboard&lt;/a&gt;: &lt;code&gt;stream aggregation&lt;/code&gt; section: add graphs based on newly exposed streaming aggregation metrics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/metricsql/"&gt;MetricsQL&lt;/a&gt;: properly calculate &lt;a href="https://docs.victoriametrics.com/metricsql/#histogram_quantile"&gt;histogram_quantile&lt;/a&gt; over Prometheus buckets with inconsistent values. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/4580#issuecomment-2186659102"&gt;this comment&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6547"&gt;this pull request&lt;/a&gt;. Updates &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/2819"&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt;: fix panic when using multiple topics with the same name when &lt;a href="https://docs.victoriametrics.com/vmagent/#kafka-integration"&gt;ingesting metrics from Kafka&lt;/a&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6636"&gt;this issue&lt;/a&gt; for the details.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix incorrect redirection in WebUI of vmalert. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6603"&gt;this issue&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6620"&gt;this pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmgateway/"&gt;vmgateway&lt;/a&gt;: properly apply read and write based rate limits. See this &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6148"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmbackupmanager/"&gt;vmbackupmanager&lt;/a&gt;: fix &lt;code&gt;vm_backup_last_run_failed&lt;/code&gt; metric not being properly initialized during startup. Previously, it could imply an error even if the backup have been completed successfully. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6550"&gt;this issue&lt;/a&gt; for the details.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: fix input cursor position reset in modal settings. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6530"&gt;this pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/deployment/docker#docker-compose-environment-for-victoriametrics"&gt;docker-compose&lt;/a&gt;: fix incorrect link to vmui from &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/deployment/docker#grafana"&gt;VictoriaMetrics plugin in Grafana&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This release also includes changes from &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.0-rc1"&gt;v1.102.0-rc1&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.0-rc2"&gt;v1.102.0-rc2&lt;/a&gt; releases.&lt;/p&gt;
+&lt;p&gt;See all the changes at the &lt;a href="https://docs.victoriametrics.com/changelog/"&gt;CHANGELOG&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;How to run VictoriaMetrics&lt;/h3&gt;
+&lt;p&gt;Unpack the &lt;code&gt;victoria-metrics-*.tar.gz&lt;/code&gt; archive and read &lt;a href="https://docs.victoriametrics.com/#operation"&gt;these docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;vmutils-*.tag.gz&lt;/code&gt; archive contains the following tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmalert-tool/"&gt;vmalert-tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmauth/"&gt;vmauth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmbackup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmrestore/"&gt;vmrestore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmctl/"&gt;vmctl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;vmutils-*-enterprise.tar.gz&lt;/code&gt; archive contains the following additional &lt;a href="https://victoriametrics.com/enterprise/"&gt;enterprise tools&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmbackupmanager/"&gt;vmbackupmanager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmgateway/"&gt;vmgateway&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The corresponding docker images are available &lt;a href="https://hub.docker.com/r/victoriametrics/"&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.0" rel="alternate"/>
   </entry>
 </feed>

@@ -1,5 +1,7 @@
 # Self-Hosted Application Directory
 
+## About selfh.st/apps
+
 [selfh.st/apps](https://selfh.st/apps) is a directory built for easy browsing and discovery of self-hosted software and related applications. 
 
 This repository serves as a data store for the static files used to populate the directory:
@@ -8,7 +10,7 @@ This repository serves as a data store for the static files used to populate the
 * [/icons](https://github.com/selfhst/apps/tree/main/icons): SVG, PNG, and WEBP icons for projects when available
 * [/releases](https://github.com/selfhst/apps/tree/main/releases): RSS release feeds for each project excluding pre-releases, alphas, betas, and release candidates
 
-While readers are free to browse and reference the contents of the repository, they are subject to change as the project evolves. Details surrounding periodic updates can be found in the repository's [changelog](https://github.com/selfhst/apps/blob/main/CHANGELOG.md).
+While readers are free to browse and reference the contents of the repository, it is subject to change as the project evolves. Details surrounding periodic updates can be found in the repository's [changelog](https://github.com/selfhst/apps/blob/main/CHANGELOG.md).
 
 ## Frequently Asked Questions
 
@@ -21,14 +23,6 @@ Note that I will not manually intervene with the order in which a project is dis
 #### How often is the directory updated?
 
 A set of custom Python scripts update the application details using the various git APIs and populate the lists with recently added applications every morning.
-
-#### But Awesome-Selfhosted and AlternativeTo already exist?
-
-selfh.st/apps should be considered supplemental and not a direct replacement for existing resources. It was created as an alternate view for discovering software using resources I had previously built for my own purposes while also organizing projects in way that feels a bit more intuitive and helpful for others.
-
-#### Why does selfh.st/apps use tags and not categories?
-
-The decision to use tags was intentional given the number of self-hosted projects that serve multiple purposes. It's easy to overlook projects after searching in the wrong category on other lists – tags should decrease the possibility of this happening on selfh.st/apps.
 
 #### What is the criteria for adding a companion app?
 
