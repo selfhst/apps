@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-07-17T16:32:53.912596-04:00</updated>
+  <updated>2024-07-17T17:32:48.389805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -192,7 +192,7 @@ The v1.97.x line will be supported for at least 12 months since &lt;a href="http
 &lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmrestore/"&gt;vmrestore&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmctl/"&gt;vmctl&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;vmutils-*-enterprise.tar.gz&lt;/code&gt; archive contains the following additional &lt;a href="https://victoriametrics.com/enterprise/"&gt;enterprise tools&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;vmutils-*-enterprise.tar.gz&lt;/code&gt; archive contains the following additional &lt;a href="https://docs.victoriametrics.com/enterprise/"&gt;enterprise tools&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmbackupmanager/"&gt;vmbackupmanager&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.victoriametrics.com/vmgateway/"&gt;vmgateway&lt;/a&gt;&lt;/li&gt;
