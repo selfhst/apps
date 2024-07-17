@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-07-17T13:32:49.993338-04:00</updated>
+  <updated>2024-07-17T14:32:52.464637-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,65 @@ The v1.97.x line will be supported for at least 12 months since &lt;a href="http
 &lt;li&gt;BUGFIX: retry files delete attempts on vXFS file system for &lt;code&gt;EEXIST&lt;/code&gt; error type. See the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6396"&gt;related issue&lt;/a&gt;. Thanks to @pludov for the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6398"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.97.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.93.16</id>
+    <title>New release for VictoriaMetrics: v1.93.16</title>
+    <updated>2024-07-17T13:46:35-04:00</updated>
+    <author>
+      <name>victoriametrics/victoriametrics</name>
+    </author>
+    <content>&lt;p&gt;Released at 2024-07-17&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;v1.93.x is a line of &lt;a href="https://docs.victoriametrics.com/lts-releases/"&gt;LTS releases&lt;/a&gt;. It contains important up-to-date bugfixes.
+The v1.93.x line will be supported for at least 12 months since &lt;a href="https://docs.victoriametrics.com/CHANGELOG.html#v1930"&gt;v1.93.0&lt;/a&gt; release&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SECURITY: upgrade Go builder from Go1.22.4 to Go1.22.5. See the list of issues addressed in &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.22.5+label%3ACherryPickApproved"&gt;Go1.22.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SECURITY: upgrade base docker image (Alpine) from 3.20.0 to 3.20.1. See &lt;a href="https://www.alpinelinux.org/posts/Alpine-3.20.1-released.html"&gt;alpine 3.20.1 release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmbackup&lt;/a&gt;: properly configure authentication with S3 when &lt;code&gt;-configFilePath&lt;/code&gt; cmd-line flag is specified.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix path for system links printed on default vmalert's UI page when &lt;code&gt;-http.pathPrefix&lt;/code&gt; is set.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix incorrect redirection in WebUI of vmalert. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6603"&gt;this issue&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6620"&gt;this pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt; enterprise: properly configure authentication with S3 when &lt;code&gt;-s3.configFilePath&lt;/code&gt; cmd-line flag is specified for reading rule configs.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: properly specify oauth2 &lt;code&gt;ClientSecret&lt;/code&gt; when configuring authentication for &lt;code&gt;notifier.url&lt;/code&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6471"&gt;this issue&lt;/a&gt; for details. Thanks to @yincongcyincong for the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6478"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: &lt;strong&gt;copy row&lt;/strong&gt; button in Table view produces unexpected result. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6421"&gt;this issue&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6495"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/MetricsQL.html"&gt;MetricsQL&lt;/a&gt;: properly calculate &lt;a href="https://docs.victoriametrics.com/MetricsQL.html#histogram_quantile"&gt;histogram_quantile&lt;/a&gt; over Prometheus buckets with inconsistent values. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/4580#issuecomment-2186659102"&gt;this comment&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6547"&gt;this pull request&lt;/a&gt;. Updates &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/2819"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.93.16" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.97.6</id>
+    <title>New release for VictoriaMetrics: v1.97.6</title>
+    <updated>2024-07-17T14:26:17-04:00</updated>
+    <author>
+      <name>victoriametrics/victoriametrics</name>
+    </author>
+    <content>&lt;p&gt;Released at 2024-07-17&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;v1.97.x is a line of &lt;a href="https://docs.victoriametrics.com/lts-releases/"&gt;LTS releases&lt;/a&gt;. It contains important up-to-date bugfixes for &lt;a href="https://docs.victoriametrics.com/enterprise.html"&gt;VictoriaMetrics enterprise&lt;/a&gt;.
+All these fixes are also included in &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/latest"&gt;the latest community release&lt;/a&gt;.
+The v1.97.x line will be supported for at least 12 months since &lt;a href="https://docs.victoriametrics.com/CHANGELOG.html#v1970"&gt;v1.97.0&lt;/a&gt; release&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SECURITY: upgrade Go builder from Go1.22.4 to Go1.22.5. See the list of issues addressed in &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.22.5+label%3ACherryPickApproved"&gt;Go1.22.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SECURITY: upgrade base docker image (Alpine) from 3.20.0 to 3.20.1. See &lt;a href="https://www.alpinelinux.org/posts/Alpine-3.20.1-released.html"&gt;alpine 3.20.1 release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt;: fix panic when using multiple topics with the same name when &lt;a href="https://docs.victoriametrics.com/vmagent/#kafka-integration"&gt;ingesting metrics from Kafka&lt;/a&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6636"&gt;this issue&lt;/a&gt; for the details.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;BUGFIX: all VictoriaMetrics components: properly calculate &lt;code&gt;process_resident_memory_bytes&lt;/code&gt; metric for OS with non-default value of memory page size. See this &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6457"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix path for system links printed on default vmalert's UI page when &lt;code&gt;-http.pathPrefix&lt;/code&gt; is set.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmbackup/"&gt;vmbackup&lt;/a&gt;: properly configure authentication with S3 when &lt;code&gt;-configFilePath&lt;/code&gt; cmd-line flag is specified.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt; enterprise: properly configure authentication with S3 when &lt;code&gt;-s3.configFilePath&lt;/code&gt; cmd-line flag is specified for reading rule configs.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: properly specify oauth2 &lt;code&gt;ClientSecret&lt;/code&gt; when configuring authentication for &lt;code&gt;notifier.url&lt;/code&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6471"&gt;this issue&lt;/a&gt; for details. Thanks to @yincongcyincong for the &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6478"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix incorrect redirection in WebUI of vmalert. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6603"&gt;this issue&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6620"&gt;this pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt; and &lt;code&gt;vmstorage&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: add validation for the max value specified for &lt;code&gt;-retentionPeriod&lt;/code&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6330"&gt;this issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: &lt;strong&gt;copy row&lt;/strong&gt; button in Table view produces unexpected result. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6421"&gt;this issue&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6495"&gt;pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert-tool/"&gt;vmalert-tool&lt;/a&gt;: prevent hanging when processing groups without rules. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6500"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: fix input cursor position reset in modal settings. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6530"&gt;this pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/MetricsQL.html"&gt;MetricsQL&lt;/a&gt;: properly calculate &lt;a href="https://docs.victoriametrics.com/MetricsQL.html#histogram_quantile"&gt;histogram_quantile&lt;/a&gt; over Prometheus buckets with inconsistent values. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/4580#issuecomment-2186659102"&gt;this comment&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6547"&gt;this pull request&lt;/a&gt;. Updates &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/2819"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.97.6" rel="alternate"/>
   </entry>
 </feed>
