@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pinchflat Releases</title>
-  <updated>2024-07-18T18:32:54.001270-04:00</updated>
+  <updated>2024-07-18T19:32:53.437233-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,7 +101,10 @@
     <author>
       <name>kieraneglin/pinchflat</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;⚠️ IMPORTANT ⚠️&lt;/p&gt;
+&lt;p&gt;Starting in the next version of Pinchflat, changing the cutoff date of a source will delete media from before that cutoff date.&lt;/p&gt;
+&lt;p&gt;In other words, if you update a source to have a cutoff date of March 1st then all media from BEFORE March 1st will be deleted.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[Enhancement] Added additional output template for playlists used with media center apps by @kieraneglin in https://github.com/kieraneglin/pinchflat/pull/319&lt;/li&gt;
 &lt;li&gt;[Bugfix] Determine NFO season and episode from filepath by @kieraneglin in https://github.com/kieraneglin/pinchflat/pull/320&lt;/li&gt;
