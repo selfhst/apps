@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-07-18T06:30:58.741635-04:00</updated>
+  <updated>2024-07-18T07:30:57.665388-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -484,7 +484,17 @@ CMS_BREAK --&gt;
     <author>
       <name>medusajs/medusa</name>
     </author>
-    <content>&lt;h2&gt;Features&lt;/h2&gt;
+    <content>&lt;!-- 
+![image](https://github.com/user-attachments/assets/1f31ec84-559b-499b-982f-f44fa9a2cd4a)
+
+
+# Version 1.20.8
+
+This version improves Scheduled Jobs and squashes a few minor bugs.
+
+CMS_BREAK --&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: add default remove options for scheduled jobs by @u11d-bartlomiej-galezowski in https://github.com/medusajs/medusa/pull/8156&lt;/li&gt;
 &lt;/ul&gt;
