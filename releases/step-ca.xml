@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>step-ca Releases</title>
-  <updated>2024-07-18T17:32:00.625649-04:00</updated>
+  <updated>2024-07-18T18:31:52.431738-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -383,12 +383,52 @@ And for packaged versions (Docker, k8s, Homebrew), see our &lt;a href="https://s
   </entry>
   <entry>
     <id>https://github.com/smallstep/certificates/releases/tag/v0.27.2</id>
-    <title>New release for step-ca: Release v0.27.2</title>
+    <title>New release for step-ca: Step CA v0.27.2 (24-07-18)</title>
     <updated>2024-07-18T17:28:43-04:00</updated>
     <author>
       <name>smallstep/certificates</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Official Release Artifacts&lt;/h2&gt;
+&lt;h4&gt;Linux&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 &lt;a href="https://dl.smallstep.com/gh-release/certificates/gh-release-header/v0.27.2/step-ca_linux_0.27.2_amd64.tar.gz"&gt;step-ca_linux_0.27.2_amd64.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📦 &lt;a href="https://dl.smallstep.com/gh-release/certificates/gh-release-header/v0.27.2/step-ca_0.27.2_amd64.deb"&gt;step-ca_0.27.2_amd64.deb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;OSX Darwin&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 &lt;a href="https://dl.smallstep.com/gh-release/certificates/gh-release-header/v0.27.2/step-ca_darwin_0.27.2_amd64.tar.gz"&gt;step-ca_darwin_0.27.2_amd64.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📦 &lt;a href="https://dl.smallstep.com/gh-release/certificates/gh-release-header/v0.27.2/step-ca_darwin_0.27.2_arm64.tar.gz"&gt;step-ca_darwin_0.27.2_arm64.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Windows&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 &lt;a href="https://dl.smallstep.com/gh-release/certificates/gh-release-header/v0.27.2/step-ca_windows_0.27.2_amd64.zip"&gt;step-ca_windows_0.27.2_amd64.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more builds across platforms and architectures, see the &lt;code&gt;Assets&lt;/code&gt; section below.
+And for packaged versions (Docker, k8s, Homebrew), see our &lt;a href="https://smallstep.com/docs/step-ca/installation"&gt;installation docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Don't see the artifact you need? Open an issue &lt;a href="https://github.com/smallstep/certificates/issues/new/choose"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Signatures and Checksums&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;step-ca&lt;/code&gt; uses &lt;a href="https://github.com/sigstore/cosign"&gt;sigstore/cosign&lt;/a&gt; for signing and verifying release artifacts.&lt;/p&gt;
+&lt;p&gt;Below is an example using &lt;code&gt;cosign&lt;/code&gt; to verify a release artifact:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cosign verify-blob \
+  --certificate step-ca_darwin_0.27.2_amd64.tar.gz.sig.pem \
+  --signature step-ca_darwin_0.27.2_amd64.tar.gz.sig \
+  --certificate-identity-regexp "https://github\.com/smallstep/workflows/.*" \
+  --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+  step-ca_darwin_0.27.2_amd64.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;checksums.txt&lt;/code&gt; file (in the &lt;code&gt;Assets&lt;/code&gt; section below) contains a checksum for every artifact in the release.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;077f688e2d781fa12fd3d702cfab5b6f989a4391 Add changelog for 0.27.2 &amp;amp; 0.27.1 | update changelog for 0.27.0 (#1934)&lt;/li&gt;
+&lt;li&gt;eb503c7991904298088a8f666336bdf84b1a265b Merge pull request #1931 from smallstep/mariano/console&lt;/li&gt;
+&lt;li&gt;797f577caa718594e8071175ee280b42c4bed98a Merge pull request #1929 from smallstep/dependabot/go_modules/go.step.sm/linkedca-0.22.1&lt;/li&gt;
+&lt;li&gt;61ffb32b091dcb962496da408713122a53d8687c Merge pull request #1928 from smallstep/dependabot/go_modules/cloud.google.com/go/security-1.17.3&lt;/li&gt;
+&lt;li&gt;8b89dd1afaefb9a00349aed39a6e522af3177828 Update step_config.tpl template&lt;/li&gt;
+&lt;li&gt;b67eb9d57e05176763378f58cba1de20560039cf Bump go.step.sm/linkedca from 0.21.1 to 0.22.1&lt;/li&gt;
+&lt;li&gt;53f616d324cc44ad73d1ae194aa0556b3710a7b6 Bump cloud.google.com/go/security from 1.17.0 to 1.17.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Thanks!&lt;/h2&gt;
+&lt;p&gt;Those were the changes on v0.27.2!&lt;/p&gt;
+&lt;p&gt;Come join us on &lt;a href="https://discord.gg/X2RKGwEbV9"&gt;Discord&lt;/a&gt; to ask questions, chat about PKI, or get a sneak peek at the freshest PKI memes.&lt;/p&gt;</content>
     <link href="https://github.com/smallstep/certificates/releases/tag/v0.27.2" rel="alternate"/>
   </entry>
 </feed>
