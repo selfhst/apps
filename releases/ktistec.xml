@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ktistec Releases</title>
-  <updated>2024-07-18T07:32:12.967861-04:00</updated>
+  <updated>2024-07-18T08:32:20.318339-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,15 @@
     </author>
     <content/>
     <link href="https://github.com/toddsundsted/ktistec/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toddsundsted/ktistec/releases/tag/v2.0.0</id>
+    <title>New release for Ktistec: v2.0.0</title>
+    <updated>2024-07-18T08:06:42-04:00</updated>
+    <author>
+      <name>toddsundsted/ktistec</name>
+    </author>
+    <content/>
+    <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.0.0" rel="alternate"/>
   </entry>
 </feed>
