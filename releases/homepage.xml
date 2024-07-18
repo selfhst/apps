@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2024-07-18T01:31:00.559412-04:00</updated>
+  <updated>2024-07-18T02:30:34.652809-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,24 +134,19 @@
     <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/gethomepage/homepage/releases/tag/v0.9.4</id>
-    <title>New release for Homepage: v0.9.4</title>
-    <updated>2024-07-17T16:54:10-04:00</updated>
+    <id>https://github.com/gethomepage/homepage/releases/tag/v0.9.5</id>
+    <title>New release for Homepage: v0.9.5</title>
+    <updated>2024-07-18T02:07:42-04:00</updated>
     <author>
       <name>gethomepage/homepage</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Fix: correct k8s service status check from v0.9.4 by @shamoon in https://github.com/gethomepage/homepage/pull/3753&lt;/li&gt;
 &lt;li&gt;Enhancement: support pfsense v2 api by @shamoon in https://github.com/gethomepage/homepage/pull/3716&lt;/li&gt;
-&lt;li&gt;Fix: don't show "partial" for k8s status if there are completed job pods by @charlesthomas in https://github.com/gethomepage/homepage/pull/3735&lt;/li&gt;
 &lt;li&gt;Feature: Frigate service widget by @j0ton in https://github.com/gethomepage/homepage/pull/3743&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;@charlesthomas made their first contribution in https://github.com/gethomepage/homepage/pull/3735&lt;/li&gt;
-&lt;li&gt;@j0ton made their first contribution in https://github.com/gethomepage/homepage/pull/3743&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.9.3...v0.9.4&lt;/p&gt;</content>
-    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.9.3...v0.9.5&lt;/p&gt;</content>
+    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.5" rel="alternate"/>
   </entry>
 </feed>
