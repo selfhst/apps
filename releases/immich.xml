@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-07-18T12:30:39.890420-04:00</updated>
+  <updated>2024-07-18T13:30:38.741178-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -471,8 +471,6 @@ Read our announcement about supporting Immich by buying a license &lt;a href="ht
 &lt;p&gt;| Unlicensed | Licensed |
 | ----------- | --------- |
 |&lt;img alt="Unlicensed" src="https://github.com/user-attachments/assets/6a1094c1-518b-4369-9889-8dacc88c8297" /&gt; | &lt;img alt="Licensed" src="https://github.com/user-attachments/assets/782959b0-23c2-46f4-8aca-6338081de2e5" /&gt; |&lt;/p&gt;
-&lt;p&gt;Below is a video of the complete process. As seen in the video, we have released &lt;a href="https://buy.immich.app"&gt;https://buy.immich.app&lt;/a&gt;, where you can read about and buy a license.&lt;/p&gt;
-&lt;p&gt;https://github.com/user-attachments/assets/42c82427-e647-4aa5-8802-4d150b6b5610&lt;/p&gt;
 &lt;h3&gt;"My Immich" url forwarder (https://my.immich.app)&lt;/h3&gt;
 &lt;p&gt;To help with future support, we are happy to introduce a "proxy" mechanism to help us navigate you to the exact location on your instance without knowing your instance URL. &lt;/p&gt;
 &lt;p&gt;The website prompts for your instance URL on the first visit and stores it client-side. It automatically redirects on subsequent visits, making it convenient to link to specific pages in self-hosted instances. &lt;/p&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-07-18T12:31:18.810433-04:00</updated>
+  <updated>2024-07-18T13:31:18.322279-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,24 +72,24 @@
   <entry>
     <id>https://github.com/RaunoT/plex-rewind/releases/tag/v2.1.0</id>
     <title>New release for Plex Rewind: v2.1.0</title>
-    <updated>2024-07-18T12:23:37-04:00</updated>
+    <updated>2024-07-18T12:44:24-04:00</updated>
     <author>
       <name>RaunoT/plex-rewind</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v2.0.4...v2.1.0"&gt;2.1.0&lt;/a&gt; (2024-07-18)&lt;/h1&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;add fallback for missing images (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/149"&gt;#149&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/1846e8e6a37870ad0ec1e98bb0e1346abb68f71d"&gt;1846e8e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;rewind:&lt;/strong&gt; totals copy (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/da6cdaea1bd2190c1260df05a27d74dc43a974e8"&gt;da6cdae&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;settings:&lt;/strong&gt; dashboard default period validation (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/e473ff8d2ae4c4ce539b4b255fc2b95b112ca9b8"&gt;e473ff8&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;unique plex oauth login client id (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/147"&gt;#147&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/4fca10ee5caead03b3bdc58aff3445e637323606"&gt;4fca10e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add fallback for missing images (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/bc15bb2f854c8ee7e76e5c57dda268b4bac4ae95"&gt;bc15bb2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rewind:&lt;/strong&gt; totals copy (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/d9a80ff476c0b33c24a356065b5d6c996f6e0a22"&gt;d9a80ff&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;settings:&lt;/strong&gt; dashboard default period validation (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/24d4cb4d6bf70561b75c638b299809b3c6e839fc"&gt;24d4cb4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;unique plex oauth login client id (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/0a7b220c792bf50a4526f06d62c5910879888c18"&gt;0a7b220&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; design refresh (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/9a200584b6a99b293cb0f67224afaebbd9ba3b87"&gt;9a20058&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;new background (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/c4d04696335003a0203b6a26c03853ba616f3cc9"&gt;c4d0469&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;settings:&lt;/strong&gt; dashboard default period edit and restructure into sections (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/148"&gt;#148&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/875a1f1cd797893c5214df609ffa0abbcc9221d8"&gt;875a1f1&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;update settings page design (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/145"&gt;#145&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/2b629ee933a72e57b3ae6797850472bacebcdfe6"&gt;2b629ee&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; design refresh (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/8f51f2c1bce0b6de6557a717037f3fd129f57acd"&gt;8f51f2c&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;new background (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/48b4136ed132e9a3c9e94f48a4b97cbd7de01015"&gt;48b4136&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;settings:&lt;/strong&gt; dashboard default period edit and restructure into sections (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/e868b6adbe594bff206d36534f9da3ea40a7dafc"&gt;e868b6a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;update settings page design (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/550e94a44e5483767f0515caba933dbe9a4fdaba"&gt;550e94a&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v2.1.0" rel="alternate"/>
   </entry>
