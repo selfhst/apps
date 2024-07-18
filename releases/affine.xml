@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-07-17T23:32:20.732258-04:00</updated>
+  <updated>2024-07-18T00:32:20.711537-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -326,21 +326,6 @@
       <name>toeverything/AFFiNE</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;chore(server): add mail metrics by @forehalo in https://github.com/toeverything/AFFiNE/pull/7514&lt;/li&gt;
-&lt;li&gt;feat: add notification when chat panel action success by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7490&lt;/li&gt;
-&lt;li&gt;chore: bump up all non-major dependencies by @renovate in https://github.com/toeverything/AFFiNE/pull/7508&lt;/li&gt;
-&lt;li&gt;chore: bump up glob version to v11 by @renovate in https://github.com/toeverything/AFFiNE/pull/7451&lt;/li&gt;
-&lt;li&gt;chore: bump up oxlint version to v0.6.0 by @renovate in https://github.com/toeverything/AFFiNE/pull/7438&lt;/li&gt;
-&lt;li&gt;fix(core): update pricing pages by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7521&lt;/li&gt;
-&lt;li&gt;fix(server): wrong usage of optl by @forehalo in https://github.com/toeverything/AFFiNE/pull/6714&lt;/li&gt;
-&lt;li&gt;fix(core): resolve unexpected forwardRef warning by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7527&lt;/li&gt;
-&lt;li&gt;fix(core): right-sidebar header radio-group's indicator is missing by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7524&lt;/li&gt;
-&lt;li&gt;fix(core): adjust app-sidebar z-index by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/7523&lt;/li&gt;
-&lt;li&gt;feat: bump blocksuite by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7526&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.15.5...v0.15.6&lt;/p&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;chore(server): add mail metrics by @forehalo in https://github.com/toeverything/AFFiNE/pull/7514&lt;/li&gt;
 &lt;li&gt;feat: add notification when chat panel action success by @donteatfriedrice in https://github.com/toeverything/AFFiNE/pull/7490&lt;/li&gt;
