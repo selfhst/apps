@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2024-07-19T17:31:26.833413-04:00</updated>
+  <updated>2024-07-19T18:31:18.362233-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,6 +176,8 @@ You're also able to make the note "public" (using the little eye icon next to th
 &lt;li&gt;Resources structure migrated from &lt;code&gt;resources/{platform_slug}/{rom_name}&lt;/code&gt; to &lt;code&gt;resources/roms/{platform_id}/{rom_id}&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Disabled zip compression on streaming multi-file download to increase speed by @adamantike in https://github.com/rommapp/romm/pull/983&lt;/li&gt;
 &lt;li&gt;Prevent mass-purging of roms during scan if filesystem is not correctly mounted by @gantoine in https://github.com/rommapp/romm/pull/987&lt;/li&gt;
+&lt;li&gt;Fixed abort scan by @gantoine in https://github.com/rommapp/romm/pull/1004&lt;/li&gt;
+&lt;li&gt;Added support for any kind of image extension on custom covers by @gantoine in https://github.com/rommapp/romm/pull/1002&lt;/li&gt;
 &lt;li&gt;Fixes and improvements everywhere&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
