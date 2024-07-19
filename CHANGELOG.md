@@ -2,7 +2,7 @@
 
 ### 2024-07-19
 
-* New default sort option (<i>Default</i>) to bring sponsors to the top of the directory (all other sort options ignore sponsors)
+* New default sort option (<i>Default</i>) to bring sponsors to the top of the directory (all other sort options deprioritize sponsors)
 * Fixed default sort value not appearing on intiial page load
 
 ### 2024-07-16
