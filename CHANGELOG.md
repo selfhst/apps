@@ -1,5 +1,10 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-07-19
+
+* New default sort option (<i>Default</i>) to bring sponsors to the top of the directory (all other sort options ignore sponsors)
+* Fixed default sort value not appearing on intiial page load
+
 ### 2024-07-16
 
 * Changed the dark theme directory switch color for improved readability

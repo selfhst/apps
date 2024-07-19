@@ -2,7 +2,7 @@
 
 ## About selfh.st/apps
 
-[selfh.st/apps](https://selfh.st/apps) is a directory built for easy browsing and discovery of self-hosted software and related applications. 
+[selfh.st/apps](https://selfh.st/apps) is a directory built for browsing and discovery of self-hosted software and related applications. 
 
 This repository serves as a data store for the static files used to populate the directory:
 
@@ -18,11 +18,15 @@ While readers are free to browse and reference the contents of the repository, i
 
 Feel free to [reach out](mailto:hello@selfh.st) and share the details of your project with me.
 
-Note that I will not manually intervene with the order in which a project is displayed. The current sort options (repository stars, last activity, alphabetical, recently added) are objective methods for displaying projects without personal bias.
+Note that I will not manually intervene with the order in which a project is displayed aside from prioritizing sponsors in the 'Default' sort. The remaining sort options (repository stars, last activity, alphabetical, recently added) are objective methods for displaying projects without personal bias.
 
 #### How often is the directory updated?
 
 A set of custom Python scripts update the application details using the various git APIs and populate the lists with recently added applications every morning.
+
+#### What is the default sort option?
+
+The 'Default' sort option sorts projects by repository stars while brining project sponsors to the top of the page.
 
 #### What is the criteria for adding a companion app?
 
