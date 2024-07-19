@@ -11296,7 +11296,7 @@
         "Repository Link": "https://github.com/lostb1t/replex",
         "Description": "Proxy for transforming the communication between a Plex server and clients",
         "License": "Unlicensed",
-        "Icon": "https://selfhst.github.io/apps/icons/projects/",
+        "Icon": null,
         "Source": "GitHub",
         "Repository": "lostb1t/replex",
         "Stars": 160,
