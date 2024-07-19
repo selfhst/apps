@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2024-07-19T13:31:11.062958-04:00</updated>
+  <updated>2024-07-19T14:31:09.756402-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,7 +147,6 @@ This release regressed support for ARM processors due to an AWS SDK dependency u
 &lt;li&gt;Support for TLDraw viewer links added (#7205)&lt;/li&gt;
 &lt;li&gt;Users will no longer be prompted to install the PWA on publicly shared docs (#7198)&lt;/li&gt;
 &lt;li&gt;Collection icon can now be directly updated in the same manner as collection (#7120)&lt;/li&gt;
-&lt;li&gt;Official docker image now includes a &lt;code&gt;HEALTHCHECK&lt;/code&gt; by default&lt;/li&gt;
 &lt;li&gt;Sharing dialog now has keyboard navigation (#7102)&lt;/li&gt;
 &lt;li&gt;API keys now display when they were last used (#7082)&lt;/li&gt;
 &lt;li&gt;API keys can now have an expiry set (#7064)&lt;/li&gt;
