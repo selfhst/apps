@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Readeck Releases</title>
-  <updated>2024-07-20T02:32:13.481651-04:00</updated>
+  <updated>2024-07-20T03:32:17.080645-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,7 +85,8 @@
     <author>
       <name>readeck/readeck</name>
     </author>
-    <content>&lt;h3&gt;Added&lt;/h3&gt;
+    <content>&lt;p&gt;Announcement: https://readeck.org/en/blog/202405-readeck-14/&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Import from other services&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Text file&lt;/em&gt;. A simple file with one URL per line.&lt;/li&gt;
@@ -130,7 +131,8 @@
     <author>
       <name>readeck/readeck</name>
     </author>
-    <content>&lt;h3&gt;Added&lt;/h3&gt;
+    <content>&lt;p&gt;Announcement: https://readeck.org/en/blog/20240715-readeck-15/&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Bookmark list ordering options&lt;/li&gt;
 &lt;li&gt;Polish translation, by &lt;a href="https://codeberg.org/anarion"&gt;@anarion&lt;/a&gt;&lt;/li&gt;
