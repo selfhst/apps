@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2024-07-22T03:32:51.987353-04:00</updated>
+  <updated>2024-07-22T04:32:48.459900-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -581,23 +581,23 @@ cb9d424e7c6edf0604d52f052c6314cc  ./ampache-6.5.0_all_php8.0.zip
     </author>
     <content>&lt;h1&gt;6.6.0&lt;/h1&gt;
 &lt;p&gt;php8.3
-25bed381dca43d154aa7a9d7b9ac14db  ./ampache-6.6.0_all_php8.3.zip
-b070bf8a4430a1519130e54d3f004bea  ./ampache-6.6.0_all_squashed_php8.3.zip&lt;/p&gt;
+e6b79541274a721d3c8e6e55007203ff  ./ampache-6.6.0_all_php8.3.zip
+ea205d0e47592af5e6b548696e89bba8  ./ampache-6.6.0_all_squashed_php8.3.zip&lt;/p&gt;
 &lt;p&gt;php8.2
-30213c1d99315bea4216cd0f8548b60f  ./ampache-6.6.0_all_php8.2.zip
-2017ae1eb6e95579066599c5550ac74f  ./ampache-6.6.0_all_squashed_php8.2.zip&lt;/p&gt;
+882a767e20bd746de142726881d3f9fd  ./ampache-6.6.0_all_php8.2.zip
+994fb43b381ff615c8918f37a4aa4beb  ./ampache-6.6.0_all_squashed_php8.2.zip&lt;/p&gt;
 &lt;p&gt;php8.1
-9dd9f3429c030b07f52b8e3ec6dcf5fd  ./ampache-6.6.0_all_php8.1.zip
-dff1090a65637b304fb2b7d51c8646e4  ./ampache-6.6.0_all_squashed_php8.1.zip&lt;/p&gt;
+f2ec7da214d185a4a219b4266eb65561  ./ampache-6.6.0_all_php8.1.zip
+62334c1457cd9faa9810c0f7c176172e  ./ampache-6.6.0_all_squashed_php8.1.zip&lt;/p&gt;
 &lt;p&gt;php8.0
-fa3a2e0478f27265b3d9e7ae109f0265  ./ampache-6.6.0_all_php8.0.zip
-316d823c47cb06e531fec5d2e662220a  ./ampache-6.6.0_all_squashed_php8.0.zip&lt;/p&gt;
+46acdfec54074a7146e7acf7dc34fd86  ./ampache-6.6.0_all_php8.0.zip
+43e5d4ea7fcc89d46867da7680b038e9  ./ampache-6.6.0_all_squashed_php8.0.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; php7.4 (&lt;em&gt;will be built until it can't be done any more&lt;/em&gt;)
-99f1d407e27b0d9a0b837c92ecb29eed  ./ampache-6.6.0_all_php7.4.zip
-2193b398882e9d62be7b64b05e7a374b  ./ampache-6.6.0_all_squashed_php7.4.zip&lt;/p&gt;
+c7fcae1b9ef3d2fb49f2fe91677be50f  ./ampache-6.6.0_all_php7.4.zip
+df7eee21475aa78c6c36f5f9b2fd6dee  ./ampache-6.6.0_all_squashed_php7.4.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; Code only release. (Requires composer install)
 2801b336de4c3e0384fa5652f487250b  ./ampache-6.6.0_public.zip
-38ac678f89eab5a8e3176c500444703d  ./ampache-6.6.0_squashed.zip&lt;/p&gt;
+db8fc9b987b55bf9eaf9b0f4fa40d9c6  ./ampache-6.6.0_squashed.zip&lt;/p&gt;
 &lt;h2&gt;Ampache 6.6.0&lt;/h2&gt;
 &lt;p&gt;Another version bump due to additions in API6 related to playlists&lt;/p&gt;
 &lt;p&gt;Users can now share a playlist with specific users and keep the list private from everyone else&lt;/p&gt;
