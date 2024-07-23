@@ -1,5 +1,11 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-07-23
+
+* New sort option for randomly sorting projects
+* Fixed order of alternatives in dropdown to be alphabetical
+
+
 ### 2024-07-19
 
 * New default sort option (<i>Default</i>) to bring sponsors to the top of the directory (all other sort options deprioritize sponsors)
