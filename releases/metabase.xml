@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-24T12:31:49.050937-04:00</updated>
+  <updated>2024-07-24T13:31:49.734654-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -345,7 +345,7 @@ Download the JAR here: https://downloads.metabase.com/v0.50.15/metabase.jar&lt;/
 - Filtering on a custom date time column will add 00:00 to the filter making it unusable (#45052)
 - Generating an x-ray on a line chart on big tables will generate a massive x-ray that will lock up the browser (#43258)
 - Calendar widget jumps when switching months (#39487)
-
+-  Metabase v0.50.1+ doesn't work on Safari 15.2 (#45647)
 
 **Under the Hood**
 
