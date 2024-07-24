@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PdfDing Releases</title>
-  <updated>2024-07-24T01:33:10.645499-04:00</updated>
+  <updated>2024-07-24T02:33:13.236256-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -41,5 +41,19 @@
 &lt;li&gt;Update dependencies&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://codeberg.org/mrmn/PdfDing/releases/tag/0.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/mrmn/PdfDing/releases/tag/0.1.2</id>
+    <title>New release for PdfDing: 0.1.2</title>
+    <updated>2024-07-24T06:30:27+00:00</updated>
+    <author>
+      <name>mrmn/PdfDing</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added theme colors&lt;/li&gt;
+&lt;li&gt;Added view counter for PDFs&lt;/li&gt;
+&lt;li&gt;Changed profile icon&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://codeberg.org/mrmn/PdfDing/releases/tag/0.1.2" rel="alternate"/>
   </entry>
 </feed>
