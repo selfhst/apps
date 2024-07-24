@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-07-24T04:32:26.508269-04:00</updated>
+  <updated>2024-07-24T05:32:23.912665-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -107,8 +107,10 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.6.5 - 24/07/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/8ee81843-9fa3-48c2-a5cc-b1440fa6a2fa" width="600"  /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Publish a Database to the Web&lt;/li&gt;
+&lt;li&gt;Share your database as a web page.&lt;/li&gt;
+&lt;li&gt;Select certain views to be published to protect internal-only columns or views.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.5" rel="alternate"/>
   </entry>
