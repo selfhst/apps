@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BunkerWeb Releases</title>
-  <updated>2024-07-24T09:33:01.203521-04:00</updated>
+  <updated>2024-07-24T10:33:07.182477-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -223,7 +223,7 @@
   <entry>
     <id>https://github.com/bunkerity/bunkerweb/releases/tag/v1.5.9</id>
     <title>New release for BunkerWeb: v1.5.9</title>
-    <updated>2024-07-22T05:01:36-04:00</updated>
+    <updated>2024-07-24T10:06:14-04:00</updated>
     <author>
       <name>bunkerity/bunkerweb</name>
     </author>
@@ -245,7 +245,7 @@
 - [LINUX] Update Linux repository to repo.bunkerweb.io
 - [SECURITY] Update security headers in default pages and error pages for improved security
 - [DEPS] Updated LuaJIT version to v2.1-20240626
-- [DEPS] Updated coreruleset-v4 version to v4.4.0&lt;/p&gt;</content>
+- [DEPS] Updated coreruleset-v4 version to v4.5.0&lt;/p&gt;</content>
     <link href="https://github.com/bunkerity/bunkerweb/releases/tag/v1.5.9" rel="alternate"/>
   </entry>
 </feed>
