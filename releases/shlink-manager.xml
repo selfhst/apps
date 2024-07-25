@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Shlink Manager Releases</title>
-  <updated>2024-07-25T13:33:29.066265-04:00</updated>
+  <updated>2024-07-25T14:33:25.795301-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rainloreley/shlink-manager/compare/v1.1.1...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/rainloreley/shlink-manager/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rainloreley/shlink-manager/releases/tag/v1.3.1</id>
+    <title>New release for Shlink Manager: Shlink Manager v1.3.1</title>
+    <updated>2024-07-25T14:24:13-04:00</updated>
+    <author>
+      <name>rainloreley/shlink-manager</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added support for viewing redirect rules&lt;/li&gt;
+&lt;li&gt;You can now add more than one Shlink instance to the app (click on the server info within the settings view)&lt;/li&gt;
+&lt;li&gt;minor fixes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rainloreley/shlink-manager/compare/v1.2.0...v1.3.1&lt;/p&gt;</content>
+    <link href="https://github.com/rainloreley/shlink-manager/releases/tag/v1.3.1" rel="alternate"/>
   </entry>
 </feed>
