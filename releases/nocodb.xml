@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2024-07-26T10:30:04.205824-04:00</updated>
+  <updated>2024-07-26T11:30:04.582863-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -394,7 +394,6 @@ Still need help? Reach out to us via &lt;a href="https://community.nocodb.com/"&
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Release 0.251.2 by @github-actions in https://github.com/nocodb/nocodb/pull/9049&lt;/li&gt;
 &lt;li&gt;fix: avoid conversion support for literal months by @dstala in https://github.com/nocodb/nocodb/pull/9044&lt;/li&gt;
 &lt;li&gt;Nc fix/3368 links followup by @dstala in https://github.com/nocodb/nocodb/pull/9051&lt;/li&gt;
 &lt;li&gt;fix(nc-gui): view page title udpate issue by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/9056&lt;/li&gt;
@@ -416,7 +415,6 @@ Still need help? Reach out to us via &lt;a href="https://community.nocodb.com/"&
 &lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/9074&lt;/li&gt;
 &lt;li&gt;chore: sync dependencies by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/9075&lt;/li&gt;
 &lt;li&gt;Nc feat/3424 prefill links by @dstala in https://github.com/nocodb/nocodb/pull/9077&lt;/li&gt;
-&lt;li&gt;0.251.3 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/9081&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
