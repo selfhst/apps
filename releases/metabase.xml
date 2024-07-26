@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-26T15:31:45.045909-04:00</updated>
+  <updated>2024-07-26T16:31:44.216919-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -294,42 +294,52 @@ Download the JAR here: https://downloads.metabase.com/v0.50.17/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
+
+**Performance**
 
 - Request-level caching for sandboxes (#46138)
-- Manual backport — Fix document title when opening a multi-series question from dashboard (#46130)
-- "Settings" isn't localized in command palette (#46123)
 - Make the sandbox cleanup logic more robust, and reorganize some perms code for better testing (#46102)
-- Refactor e2e dashboard helpers to TypeScript (#46037)
-- Add Azure managed identity support (#46011)
-- Make drivers build in parallel rather than sequentially (#45897)
-- add skip_graph to coll perm PUT (#45438)
 - [perf] Add a Clojure-side impl for `lib.cache/side-channel-cache` (#45394)
+- Add skip_graph parameter to api/collection/graph PUT endpoint (#45438)
 
-**Bug fixes**
+**Misc**
+- Add Azure managed identity support (#46011)
 
-- Download full results for Bigquery tables is giving duplicated data in file (#45953)
-- In Admin / Performance, in the Schedule policy, if the default time (8am) is used, an incorrect schedule will get saved (#45916)
+### Bug fixes
+
+**Subscriptions**
 - Since Metabase 0.50.13, colors on tables are no longer visible on dashboard subscriptions (#45678)
 - Can't Remove Dashboard Sole Tab Name in Pulse (#45123)
-- When opening a multiseries line chart from dashboard the browser tab name gets the first series name (#42165)
-- CSV download from dashboard is rounding negative floats to 1 decimal place (#41640)
-- Subscription does not reflect conditional formatting (#37491)
-- Field filter linked to Boolean column causes an error when used in Embedding (#27643)
 - Horizontal scroll of tables in email reports should be more discoverable, and apply to the table only (#18789)
+- Subscription does not reflect conditional formatting (#37491)
 
-**Already Fixed**
+**Downloads**
+- Download full results for Bigquery tables is giving duplicated data in file (#45953)
+- CSV download from dashboard is rounding negative floats to 1 decimal place (#41640)
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
+**Misc**
+- "Settings" isn't localized in command palette (#46123)
+- In Admin / Performance, in the Schedule policy, if the default time (8am) is used, an incorrect schedule will get saved (#45916)
+- When opening a multiseries line chart from dashboard the browser tab name gets the first series name (#42165)
+- Field filter linked to Boolean column causes an error when used in Embedding (#27643)
+
+### Already Fixed
+
+_Issues that we have recently confirmed to have been fixed at some point in the past._
 
 - Subscription intermittently fails to deliver (#37459)
 
 **Under the Hood**
 
+_Non-user-facing changes_
+
 - e2e: Fix dashboard card resizing flake (#46158)
 - ci: Fix request timeout in E2E dashboard filters flake (#46091)
 - Enable e2e repro for the issue #38181 (#46082)
 - Add e2e tests for 45831 - instance analytics db appearing in permissions (#46061)
+- Refactor e2e dashboard helpers to TypeScript (#46037)
+- Make drivers build in parallel rather than sequentially (#45897)
 - [E2E] Rewrite and expand repro #27643 (#45887)
 
 &lt;/details&gt;</content>
