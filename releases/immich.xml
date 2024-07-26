@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-07-26T12:30:36.556036-04:00</updated>
+  <updated>2024-07-26T13:30:36.816352-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -355,6 +355,8 @@ If you use CUDA for machine learning, the minimum NVIDIA driver version is now 5
 &lt;h3&gt;TLS client certificate for the mobile app&lt;/h3&gt;
 &lt;p&gt;With @yjiang-c's contribution, you can now add a custom TLS certificate on the mobile app if your networking is configured to accept one. &lt;/p&gt;
 &lt;p&gt;https://github.com/immich-app/immich/assets/66518086/c36d548f-a473-4f0c-93ab-23e51cce6f58&lt;/p&gt;
+&lt;h3&gt;Better OpenVINO support&lt;/h3&gt;
+&lt;p&gt;OpenVINO is now faster and works for a wider range of hardware. Previously, it was common for it to fail for either face detection or smart search depending on hardware.&lt;/p&gt;
 &lt;h2&gt;Support Immich&lt;/h2&gt;
 &lt;p align="center"&gt;
 &lt;img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2eWc5Y2F0ZW56MmR4aWE0dDhzZXlidXRmYWZyajl1bWZidXZpcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/87CKDqErVfMqY/giphy.gif" width="450" title="SUPPORT THE PROJECT!"&gt; 
