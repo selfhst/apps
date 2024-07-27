@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PdfDing Releases</title>
-  <updated>2024-07-27T08:33:13.135480-04:00</updated>
+  <updated>2024-07-27T09:33:08.130087-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -55,5 +55,23 @@
 &lt;li&gt;Changed profile icon&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://codeberg.org/mrmn/PdfDing/releases/tag/0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/mrmn/PdfDing/releases/tag/0.2.0</id>
+    <title>New release for PdfDing: 0.2.0</title>
+    <updated>2024-07-27T13:17:22+00:00</updated>
+    <author>
+      <name>mrmn/PdfDing</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Add new Admin Area - admins can delete users and grant + remove admin rights&lt;/li&gt;
+&lt;li&gt;Remove standard Django Admin Area&lt;/li&gt;
+&lt;li&gt;Add OIDC_ENABLE environment variable for enabling SSO via OIDC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In order to use SSO via OIDC the environment variable OIDC_ENABLE needs to be set to TRUE. For more information refer to the configuration section of the README.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://codeberg.org/mrmn/PdfDing/releases/tag/0.2.0" rel="alternate"/>
   </entry>
 </feed>
