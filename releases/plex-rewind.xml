@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-07-28T08:31:15.005379-04:00</updated>
+  <updated>2024-07-28T09:31:13.966891-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,18 +86,18 @@
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v2.3.1...v2.4.0"&gt;2.4.0&lt;/a&gt; (2024-07-28)&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;NOTE: It is recommended you re-save your feature settings after updating to this release.&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Bug Fixes 🐛&lt;/h3&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;#174:&lt;/strong&gt; enable serving locally hosted images via proxy (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/761a4fec05585c4c9daf07752c88d5f735c46b53"&gt;761a4fe&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;plex logo alignment (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/887c1d45447e945c14625659869ac7906bf13886"&gt;887c1d4&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Features 🎉&lt;/h3&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;#179:&lt;/strong&gt; add dashboard default period selection (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/918b4cdf116bdce82401801ae94d04de7e385542"&gt;918b4cd&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;#187:&lt;/strong&gt; fetch any missing media posters from tmdb (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/ce697aa69272f0cbfdfc6b5dedfaee661d1b5324"&gt;ce697aa&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; allow toggling total stats (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/0ceeacf1efa79cbd635c3ef36aeb78448ba37f50"&gt;0ceeacf&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Documentation 📝&lt;/h3&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added better documentation for getting started on Unraid. Shout out to @nwithan8 for getting Plex Rewind on Unraid Community Apps store.&lt;/li&gt;
 &lt;/ul&gt;</content>
