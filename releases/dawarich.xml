@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2024-07-29T08:33:19.073642-04:00</updated>
+  <updated>2024-07-29T09:33:21.273042-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,7 +108,11 @@
 &lt;li&gt;Call to the background job to calculate visits&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;https://github.com/user-attachments/assets/f5a80c2b-ea39-4956-8fa4-97c359d8ccd6&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Freika/dawarich/compare/0.9.7...0.9.8&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Freika/dawarich/compare/0.9.7...0.9.8&lt;/p&gt;
+&lt;p&gt;💙 &lt;em&gt;This release is supported by&lt;/em&gt; 💙&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;James Manolios&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/Freika/dawarich/releases/tag/0.9.8" rel="alternate"/>
   </entry>
 </feed>
