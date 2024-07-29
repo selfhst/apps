@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2024-07-29T00:33:09.338461-04:00</updated>
+  <updated>2024-07-29T01:32:54.278307-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -107,11 +107,6 @@
 &lt;li&gt;&lt;strong&gt;cmd:&lt;/strong&gt; Added machine ID mode to zitadel start up logs (&lt;a href="https://github.com/zitadel/zitadel/issues/8251"&gt;#8251&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/1e3b350042bd3b728edd9fa1dafa091d5fd3c8c5"&gt;1e3b350&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/7750"&gt;#7750&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;console:&lt;/strong&gt; note about function names must match in action dialog (&lt;a href="https://github.com/zitadel/zitadel/issues/8294"&gt;#8294&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/832a55a78e691117497241370b8645127ed834f9"&gt;832a55a&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/7874"&gt;#7874&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;console:&lt;/strong&gt; replace secret generator dialogs with cards (&lt;a href="https://github.com/zitadel/zitadel/issues/8307"&gt;#8307&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/b3a60863f5d65fa7800ac2eafaf9a5d711580e68"&gt;b3a6086&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;IDP:&lt;/strong&gt; use single callback endpoint (&lt;a href="https://github.com/zitadel/zitadel/issues/8295"&gt;#8295&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/e126ccc9aab49fc37df1215e5b0c1137a6fd5d10"&gt;e126ccc&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/8236"&gt;#8236&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Reverts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;"feat(IDP): use single callback endpoint" (&lt;a href="https://github.com/zitadel/zitadel/commit/8d132474133303dd9b95d8c822c2eba724c24aaf"&gt;8d13247&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/8295"&gt;#8295&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/8295"&gt;#8295&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/zitadel/zitadel/releases/tag/v2.57.0" rel="alternate"/>
   </entry>
