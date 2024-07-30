@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-07-30T09:32:29.080604-04:00</updated>
+  <updated>2024-07-30T10:32:26.316821-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,11 +100,13 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.6.6 - 30/07/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.6.6 - 07/30/2024&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/5c509cf4-8dab-4f20-9655-940bf02348e0" width="600"  /&gt;&lt;/p&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Upgrade your workspace to a premium plan to unlock more features and storage.&lt;/li&gt;
-&lt;li&gt;Image galleries and drag-and-drop image support in documents.&lt;/li&gt;
+&lt;li&gt;Upgrade your workspace to unlock unlimited storage, more members, and unlimited AI responses.&lt;/li&gt;
+&lt;li&gt;Introduce a new block: Image gallery.&lt;/li&gt;
+&lt;li&gt;Support drag and drop images into documents.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
