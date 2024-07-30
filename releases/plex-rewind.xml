@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-07-30T13:31:14.825730-04:00</updated>
+  <updated>2024-07-30T14:31:14.950769-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,7 +101,6 @@
 &lt;li&gt;&lt;strong&gt;#191:&lt;/strong&gt; home admin for servers with 1 user not set as admin (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/36fc043ad510db59830d171b2613706582842890"&gt;36fc043&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;don't allow selecting background (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/547f43993c659f7e612a35ce9d081bf8d1587a31"&gt;547f439&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;settings handling on missing keys (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/75261c4b5d9eb7507df65561c37f1a30f285308e"&gt;75261c4&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;use global tmdb api key, users no longer need to apply their own (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/acece3f6bb9b69831bea97d58cd6a65a96808231"&gt;acece3f&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -110,6 +109,7 @@
 &lt;li&gt;&lt;strong&gt;#193:&lt;/strong&gt; allow using tmdb posters as default for tv/movies (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/7439407557f6248dae112f724d5736d8e90a90b4"&gt;7439407&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;#194:&lt;/strong&gt; add option to toggle rewind libraries size and count card (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/c214bf1814d5cc845e084cab961bd991026f943c"&gt;c214bf1&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;#196:&lt;/strong&gt; improve logging (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/6279c5636e4e8afa7ef9a3d54242d7157fa982d9"&gt;6279c56&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use global tmdb api key, users no longer need to apply their own (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/acece3f6bb9b69831bea97d58cd6a65a96808231"&gt;acece3f&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Performance Improvements&lt;/h3&gt;
 &lt;ul&gt;
