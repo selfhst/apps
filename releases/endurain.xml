@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Endurain Releases</title>
-  <updated>2024-07-30T06:30:22.602363-04:00</updated>
+  <updated>2024-07-30T07:30:23.211993-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,7 +123,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed Frontend&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Password complexity should now allow all characters described here https://owasp.org/www-community/password-special-characters https://github.com/joaovitoriasilva/endurain/issues/19&lt;/li&gt;
+&lt;li&gt;Password complexity should now allow all characters described &lt;a href="https://owasp.org/www-community/password-special-characters"&gt;here&lt;/a&gt; &lt;a href="https://github.com/joaovitoriasilva/endurain/issues/19"&gt;#19&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed Strava linked value not being updated after successful Strava link&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed General&lt;/h2&gt;
