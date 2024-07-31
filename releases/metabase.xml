@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-07-31T10:31:47.195754-04:00</updated>
+  <updated>2024-07-31T11:31:46.768745-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -330,36 +330,44 @@ Download the JAR here: https://downloads.metabase.com/v0.50.18/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
 
-- do not run licenses step only when the value is true (#46272)
-- build: disable licenses generation for e2e tests (#46225)
-- Fix the homepage dashboard being loaded everywhere (#46202)
+**Performance**
+
 - [perf] Better CLJC memoization; bounded strategy, fast versions (#46199)
 - Remove unused dimension options from query_metadata (#46195)
 - Avoid all tables in memory during sync (#46193)
-- [perf] Add a test for the Clojure-side `lib.cache/side-channel-cache` (#46133)
-- Structure e2e API helpers (#46041)
 - [perf] Fix memoization based on `dashboard_load_id` (#45809)
-- Infer id numeric columns as non metrics (#45662)
-- When bookmarks are reordered, the wrong ordering gets recorded (#45635)
 
-**Bug fixes**
+**Misc**
+- Infer id numeric columns as non metrics (#45662)
+
+
+### Bug fixes
 
 - Text Filters turn number like entries into numeric when filtering on static embedding (#46240)
 - Slack subscriptions silently fail when output is too big (#46227)
+- Homepage dashboard being loaded everywhere (#46202)
+- When bookmarks are reordered, the wrong ordering gets recorded (#45635)
 - Recents and Search tabs in move modal do not filter out incorrect options (#45248)
 - [Maps] Cannot display map when loading GeoJSON files from GISCO (#39767)
 
-**Already Fixed**
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
+### Already Fixed
+
+_Issues that we have recently confirmed to have been fixed at some point in the past._
 
 - Dashboard auto resize does not work properly after filtering (#32328)
 
-**Under the Hood**
+### Under the Hood
+
+_Non-user-facing changes_
 
 - ci: Fix E2E flake for the reproduction #21559 (#46269)
+- build: disable licenses generation for e2e tests (#46225)
+- do not run licenses step only when the value is true (#46272)
+- [perf] Add a test for the Clojure-side `lib.cache/side-channel-cache` (#46133)
+- Structure e2e API helpers (#46041)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.18" rel="alternate"/>
