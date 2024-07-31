@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>umbrelOS Releases</title>
-  <updated>2024-07-31T06:31:34.963483-04:00</updated>
+  <updated>2024-07-31T07:31:34.712800-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,6 +83,7 @@
       <name>getumbrel/umbrel</name>
     </author>
     <content>&lt;p&gt;This update brings support for Turkish, Hungarian, and Ukranian languages, along with bug fixes and security improvements.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="umbrelOS-1 2 2" src="https://github.com/user-attachments/assets/25c1c2cd-8e8d-47ee-b224-fdb36a76221f" /&gt;&lt;/p&gt;
 &lt;p&gt;Join the official &lt;a href="https://discord.gg/efNtFzqtdx"&gt;Umbrel Community Discord&lt;/a&gt; to share your feedback and engage with other users.&lt;/p&gt;</content>
     <link href="https://github.com/getumbrel/umbrel/releases/tag/1.2.2" rel="alternate"/>
   </entry>
