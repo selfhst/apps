@@ -1,5 +1,10 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-07-31
+
+* New tile indicator for select applications that can self-hosted by third-party services
+* Include third-party service names in search functionality
+
 ### 2024-07-23
 
 * New sort option for randomly sorting projects
