@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-07-31T08:31:54.159926-04:00</updated>
+  <updated>2024-07-31T09:31:54.886816-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,6 +155,12 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
       <name>Fallenbagel/jellyseerr</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/fallenbagel/jellyseerr/compare/v1.9.1...v1.9.2"&gt;1.9.2&lt;/a&gt; (2024-06-13)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]  &lt;/p&gt;
+&lt;h3&gt;Warning (For windows users)&lt;/h3&gt;
+&lt;p&gt;Before you &lt;code&gt;yarn build&lt;/code&gt; please downgrade your typeorm version by&lt;code&gt;yarn add typeorm@0.3.11&lt;/code&gt;
+typeorm/typeorm#9860 (comment)&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;auth:&lt;/strong&gt; improve login resilience with headerless fallback authentication (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/814"&gt;#814&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/a9741fa36d06710aa00d28db3dd2c29f2b0973d3"&gt;a9741fa&lt;/a&gt;)&lt;/li&gt;
