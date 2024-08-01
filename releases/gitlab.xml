@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-08-01T01:30:29.352907-04:00</updated>
+  <updated>2024-08-01T02:30:28.622094-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -668,8 +668,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="28 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=28&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2212 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2212&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="29 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=29&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2213 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2213&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Omnibus improvements](https://docs.gitlab.com/omnibus/) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Omnibus Package&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Gitlab 17.1 includes packages for supporting [Ubuntu Noble 24.04](https://docs.gitlab.com/ee/administration/package_information/supported_os.html).
@@ -738,6 +738,14 @@
 &gt; Do you need to be notified when a new release is posted? GitLab now provides an RSS feed for releases. You can subscribe to a release feed with the RSS icon on the project release page.
 &gt; 
 &gt; Thanks to [Martin Schurz](https://gitlab.com/schurzi) for the contribution!
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Backups include external merge request diffs stored on disk](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#command-line-interface) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Backup/Restore of GitLab instances&lt;/code&gt;&lt;/summary&gt;
+
+&gt; The `gitlab-backup` tool now supports backing up [external merge request diffs](https://docs.gitlab.com/ee/administration/merge_request_diffs.html) stored on local disk. Note, the `gitlab-backup` tool does not backup files stored on object storage. Therefore, if external merge diffs are stored on object storage they will need to be backed up manually. 
+&gt; 
+&gt; The `backup-utility` for Cloud Native Hybrid environments already supported backing up external merge request diffs and this functionality remains unchanged. 
 
 &lt;/details&gt;
 
@@ -927,7 +935,7 @@
       <name>gitlab-org/gitlab-foss</name>
     </author>
     <content>&lt;p&gt;&lt;img alt="20 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=20&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2232 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2232&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+&lt;img alt="2233 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2233&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Improved sorting and filtering in group overview](https://docs.gitlab.com/ee/user/group/#view-a-group): &lt;code&gt;Groups &amp; Projects&lt;/code&gt;&lt;/summary&gt;
 
 &gt; We have updated the sorting and filtering functionality of the group overview page. The search element now stretches across the whole page, allowing you to see your search strings better. We have standardized the sorting options to `Name`, `Created date`, `Updated date`, and `Stars`.
