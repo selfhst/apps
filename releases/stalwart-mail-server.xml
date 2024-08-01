@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2024-08-01T11:31:29.337965-04:00</updated>
+  <updated>2024-08-01T12:31:28.129358-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,7 +114,7 @@
   <entry>
     <id>https://github.com/stalwartlabs/mail-server/releases/tag/v0.9.0</id>
     <title>New release for Stalwart Mail Server: v0.9.0</title>
-    <updated>2024-08-01T11:12:45-04:00</updated>
+    <updated>2024-08-01T11:45:43-04:00</updated>
     <author>
       <name>stalwartlabs/mail-server</name>
     </author>
