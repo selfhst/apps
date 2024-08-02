@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Oxker Releases</title>
-  <updated>2024-08-02T03:32:20.277121-04:00</updated>
+  <updated>2024-08-02T04:32:21.280703-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,8 +147,8 @@
 &lt;li&gt;left align all text, [e0d421c4918a17c9e0e21fd214edb99d71281c9d]&lt;/li&gt;
 &lt;li&gt;place image name in logs panel title, [12f24357a68abe871f44d871d95b6e2ef062181e]&lt;/li&gt;
 &lt;li&gt;distinguish between unhealthy &amp;amp; healthy running containers, closes #43, [de8768181631c6d961ce0e4dacb50c2ed02abc36]&lt;/li&gt;
-&lt;li&gt;filter containers, use &lt;code&gt;F1&lt;/code&gt; or &lt;code&gt;/&lt;/code&gt; to enter filter mode, closes #37, thanks to &lt;a href="https://github.com/MohammadShabaniSBU"&gt;MohammadShabaniSBU&lt;/a&gt; for the original PR, [d5d8a0dbc5437ff3b17f34b9dbb9589bb56b4a3e], [[7ee1f06f804683e3395953a02138d4e9da115ea9]]&lt;/li&gt;
-&lt;li&gt;place image name in logs panel title, [ef19b9cf89a881d0a7ac818885317ce2bd683dfc]&lt;/li&gt;
+&lt;li&gt;filter containers, use &lt;code&gt;F1&lt;/code&gt; or &lt;code&gt;/&lt;/code&gt; to enter filter mode, closes #37, thanks to &lt;a href="https://github.com/MohammadShabaniSBU"&gt;MohammadShabaniSBU&lt;/a&gt; for the original PR, [d5d8a0dbc5437ff3b17f34b9dbb9589bb56b4a3e], [7ee1f06f804683e3395953a02138d4e9da115ea9]&lt;/li&gt;
+&lt;li&gt;place image name in logs panel title, [12f24357a68abe871f44d871d95b6e2ef062181e]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
