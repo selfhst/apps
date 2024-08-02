@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-08-02T06:30:35.668693-04:00</updated>
+  <updated>2024-08-02T07:30:36.452384-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,7 @@
       <name>gohugoio/hugo</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that if you use Hugo's image processing, your processed images will get new (shorter!) file names when you build your site with this release. We have upgraded a third party hashing library to fix some rare but potential hash collisions, and since this would change some of the image hashes, we thought we might as well do some other related changes: We now use &lt;a href="https://xxhash.com/"&gt;xxHash&lt;/a&gt; to create the image file hashes (very fast!) and we have removed the verbose processing information, making the filenames much shorter.&lt;/p&gt;
-&lt;p&gt;This release is also a full dependency refresh and it comes with one notable and very useful new feature. It is now possible to use &lt;code&gt;permalink&lt;/code&gt; tokens in the front matter &lt;code&gt;url&lt;/code&gt;. See the &lt;a href="https://gohugo.io/content-management/urls/#permalinks-tokens-in-front-matter"&gt;documentation&lt;/a&gt; for more info. Thanks to @n1xx1 for the implementation.&lt;/p&gt;
+&lt;p&gt;This release is also a full dependency refresh and it comes with one notable and very useful new feature. It is now possible to use &lt;code&gt;permalinks&lt;/code&gt; tokens in the front matter &lt;code&gt;url&lt;/code&gt;. See the &lt;a href="https://gohugo.io/content-management/urls/#permalinks-tokens-in-front-matter"&gt;documentation&lt;/a&gt; for more info. Thanks to @n1xx1 for the implementation.&lt;/p&gt;
 &lt;h2&gt;Note&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;identity: Use xxHash in hashstructure (note) 2babd6404 @bep &lt;/li&gt;
