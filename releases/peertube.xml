@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2024-08-02T02:31:08.881041-04:00</updated>
+  <updated>2024-08-02T03:31:07.946925-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -347,7 +347,7 @@
 &lt;li&gt;Fix invalid current password error when updating user password&lt;/li&gt;
 &lt;li&gt;Fix slow hotkeys detection&lt;/li&gt;
 &lt;li&gt;Fix hidden runner jobs tab when remote runner is only enabled for transcription&lt;/li&gt;
-&lt;li&gt;Fix broken HLS P2P by correctly updating HLS infohash on privacy update&lt;/li&gt;
+&lt;li&gt;Fix broken HLS P2P by correctly updating HLS infohash on privacy update. To fix existing broken videos, update the video privacy from &lt;code&gt;Public&lt;/code&gt; to &lt;code&gt;Private&lt;/code&gt; and then &lt;code&gt;Private&lt;/code&gt; to &lt;code&gt;Public&lt;/code&gt; after the PeerTube upgrade&lt;/li&gt;
 &lt;li&gt;Fix videos filters pastille labels for categories and languages&lt;/li&gt;
 &lt;li&gt;Fix broken youtube-dl import for videos with too long chapter titles&lt;/li&gt;
 &lt;li&gt;Display emojis in description preview in video edition form&lt;/li&gt;
