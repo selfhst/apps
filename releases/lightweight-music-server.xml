@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-08-02T08:30:47.067622-04:00</updated>
+  <updated>2024-08-02T09:30:48.218751-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,7 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;
 * Subsonic API: can now browse by directory #474 
-* Display disc subtitles even for single-disc release #492 &lt;/p&gt;
+* Display disc subtitles even for single-disc releases #492 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes&lt;/strong&gt;
 * Fixed crash during scan, due to very long &lt;code&gt;genre&lt;/code&gt; tags #496 
 * Subsonic API:
