@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mergeable Releases</title>
-  <updated>2024-08-02T16:33:08.652582-04:00</updated>
+  <updated>2024-08-02T17:33:05.303571-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,5 +54,25 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pvcnt/mergeable/releases/tag/v0.3.0</id>
+    <title>New release for Mergeable: v0.3.0</title>
+    <updated>2024-08-02T16:55:27-04:00</updated>
+    <author>
+      <name>pvcnt/mergeable</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a new tab on middle mouse click by @Savageman in https://github.com/pvcnt/mergeable/pull/61&lt;/li&gt;
+&lt;li&gt;Pull requests are stored in IndexedDB and refreshed via a SharedWorker by @pvcnt&lt;/li&gt;
+&lt;li&gt;Command bar to quickly navigate to a pull request using the keyboard by @pvcnt &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Savageman made their first contribution in https://github.com/pvcnt/mergeable/pull/61&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
