@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WeKan Releases</title>
-  <updated>2024-08-03T13:32:08.467678-04:00</updated>
+  <updated>2024-08-03T14:32:05.226454-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,8 +134,7 @@
     <author>
       <name>wekan/wekan</name>
     </author>
-    <content>&lt;p&gt;Just a moment, building packages...&lt;/p&gt;
-&lt;p&gt;This release adds the following new features:&lt;/p&gt;
+    <content>&lt;p&gt;This release adds the following new features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/wekan/charts/pull/33"&gt;Helm Chart: Add option to set resource limits for initContainer&lt;/a&gt;.
   Thanks to mreichelt-dicos.&lt;/li&gt;
