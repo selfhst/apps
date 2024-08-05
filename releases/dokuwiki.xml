@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DokuWiki Releases</title>
-  <updated>2024-08-05T01:30:19.779080-04:00</updated>
+  <updated>2024-08-05T02:30:20.048500-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,15 @@
     </author>
     <content>&lt;p&gt;Please see https://www.dokuwiki.org/changes for what's new.&lt;/p&gt;</content>
     <link href="https://github.com/dokuwiki/dokuwiki/releases/tag/release-2024-02-06a" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dokuwiki/dokuwiki/releases/tag/release-2024-02-06b</id>
+    <title>New release for DokuWiki: DokuWiki 2024-02-06b "Kaos" [55.2]</title>
+    <updated>2024-08-05T02:28:09-04:00</updated>
+    <author>
+      <name>dokuwiki/dokuwiki</name>
+    </author>
+    <content/>
+    <link href="https://github.com/dokuwiki/dokuwiki/releases/tag/release-2024-02-06b" rel="alternate"/>
   </entry>
 </feed>
