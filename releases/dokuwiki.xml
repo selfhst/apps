@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DokuWiki Releases</title>
-  <updated>2024-08-05T02:30:20.048500-04:00</updated>
+  <updated>2024-08-05T03:30:20.087071-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>dokuwiki/dokuwiki</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;This release addresses the XSS vulnerability reported in #4305&lt;/p&gt;</content>
     <link href="https://github.com/dokuwiki/dokuwiki/releases/tag/release-2024-02-06b" rel="alternate"/>
   </entry>
 </feed>

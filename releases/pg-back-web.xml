@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PG Back Web Releases</title>
-  <updated>2024-08-05T02:33:11.651960-04:00</updated>
+  <updated>2024-08-05T03:33:16.139197-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -41,5 +41,45 @@
     <content>&lt;p&gt;Start backup asynchronously when running manually&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/eduardolat/pgbackweb/compare/0.1.0...0.1.2&lt;/p&gt;</content>
     <link href="https://github.com/eduardolat/pgbackweb/releases/tag/0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/eduardolat/pgbackweb/releases/tag/0.2.0</id>
+    <title>New release for PG Back Web: v0.2.0</title>
+    <updated>2024-08-05T03:10:10-04:00</updated>
+    <author>
+      <name>eduardolat/pgbackweb</name>
+    </author>
+    <content>&lt;h1&gt;PG Back Web v0.2.0&lt;/h1&gt;
+&lt;h2&gt;What's New&lt;/h2&gt;
+&lt;p&gt;Get ready for an even better experience with PG Back Web! This update comes packed with powerful new features designed to make your backup and restoration processes smoother and more efficient.&lt;/p&gt;
+&lt;h3&gt;Highlights of this Release:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Streamed Backups&lt;/strong&gt;: Enjoy reduced memory usage and enhanced performance with the fully streamed backups from start to finish.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Password Reset Command&lt;/strong&gt;: Easily reset your password with the new command feature (Instructions in the README.md).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local Backup Options&lt;/strong&gt;: No S3? No problem! You can now perform local backups without needing S3 so you can do what you need to do with your data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Restorations&lt;/strong&gt;: Restore your data effortlessly with just a single click from the web interface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Version Alerts&lt;/strong&gt;: Stay up-to-date with alerts for new versions, ensuring you always have the latest features and improvements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discord Server&lt;/strong&gt;: Join the official PG Back Web Discord server to connect with other users, ask questions, and get support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Join the PG Back Web Discord Server&lt;/h3&gt;
+&lt;p&gt;https://discord.gg/BmAwq29UZ8&lt;/p&gt;
+&lt;h3&gt;How to Update&lt;/h3&gt;
+&lt;p&gt;Updating to the latest version of PG Back Web is simple. Just pull the latest Docker image or the specific 0.2.0 version with the following commands:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bash
+docker pull eduardolat/pgbackweb:latest
+docker pull eduardolat/pgbackweb:0.2.0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Or in your &lt;code&gt;compose.yaml&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;```yaml
+services:
+  pgbackweb:
+    image: eduardolat/pgbackweb:0.2.0&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;################################
+## Rest of your configuration ##
+################################
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;Upgrade to PG Back Web v0.2.0 now and experience the ultimate convenience and performance in your backup solutions!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/eduardolat/pgbackweb/compare/0.1.2...0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/eduardolat/pgbackweb/releases/tag/0.2.0" rel="alternate"/>
   </entry>
 </feed>
