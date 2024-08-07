@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-08-07T02:31:55.789273-04:00</updated>
+  <updated>2024-08-07T03:31:51.160870-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,8 +116,8 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[docker]&lt;/strong&gt; Update to github.com/docker/docker v27.1.1 (&lt;a href="https://github.com/traefik/traefik/pull/10955"&gt;#10955&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
-- &lt;strong&gt;[webui]&lt;/strong&gt; Upgrade webui dependencies (&lt;a href="https://github.com/traefik/traefik/pull/10961"&gt;#10961&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
-&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[webui]&lt;/strong&gt; Upgrade webui dependencies (&lt;a href="https://github.com/traefik/traefik/pull/10961"&gt;#10961&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
 - Fix embedded youtube video (&lt;a href="https://github.com/traefik/traefik/pull/10958"&gt;#10958&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
 - Updated index.md to include video (&lt;a href="https://github.com/traefik/traefik/pull/10944"&gt;#10944&lt;/a&gt; by &lt;a href="https://github.com/tomatokoolaid"&gt;tomatokoolaid&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v2.11.8" rel="alternate"/>
