@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-08-07T10:31:48.888696-04:00</updated>
+  <updated>2024-08-07T11:31:50.129345-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -242,57 +242,76 @@ Download the JAR here: https://downloads.metabase.com/v0.50.19/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
-**Enhancements**
+### Enhancements
 
-- re-enable recordings (#46492)
-- N+1 when batched update cards (#46477)
-- [Manual backport 50] expose MB_DB_QUERY_TIMEOUT_MINUTES setting (#44759) (#46476)
-- Perf fix for card metadata in QP (#46443)
+**Performance**
+
+- Remove unnecessary db calls when updating card (#46480)
+- Batch field requests for card metadata in QP (#46443)
 - [xray] separate limits for max cards in section and max total cards (#46436)
 - Revert "Preprocess queries before data perms check" (#46429)
-- fix: In delayed error/loading wrapper, on error, display the error (#46395)
-- [Permissions] Update ordering of create query permissions options (#46391)
-- [serdes] http api: be more picky about files we unpack from an archive (#46362)
-- "Reset all filters" button (#46322)
-- test: reduce flakiness by waiting longer for loader to disappear (#46320)
-- Quick Followup to Pull #45691 (#46286)
-- make search results filterable by concrete ids (#46276)
-- test: do not allow cypress to raise an error on timeline hover (#46230)
-- e2e: Rewrite dashboard card resizing spec (#46212)
-- Update Translations for v50.19 (#46015)
-- "Reset all filters" button (#45984)
-- Update "Clear" and "Reset" buttons (#45983)
-- [Epic] Reset dashboard filters (#45935)
-- fix(webapp/browse): Use user locale if available in Browse models (#45914)
-- "Exit admin" button is sometimes offscreen (#45876)
-- Visual indicator that a download is happening (#44686)
-- Remove global css module that was applying red borders (#40112)
 
-**Bug fixes**
+**Dashboards**
+
+- "Reset all filters" button (#45984)
+- Update "Clear" and "Reset" buttons for dashboard filters(#45983)
+
+**Misc**
+
+- expose MB_DB_QUERY_TIMEOUT_MINUTES setting (#44759) (#46476)
+- Update ordering of create query permissions options (#46391)
+- Be more picky about files we unpack from a serialization archive (#46362)
+- Make search results API filterable by concrete ids (#46276)
+- Update Translations for v50.19 (#46015)
+- fix(webapp/browse): Use user locale if available in Browse models (#45914)
+- Visual indicator that a download is happening (#44686)
+
+### Bug fixes
+
+**Visualizations**
+
+- Visualization settings are not persisted if question is saved when a required filter value is missing (#41276)
+- Pivot Table does not have horizontal scroll bar (#24678)
+
+**Dashboards**
+
+- Sorting after Aggregation breaks Questions used to populate Filter Values (#46369)
+- Dashboard Filters Saving over defaults from last opened version of dashboard (#44438)
+- Metabase field filter casts timestamp column instead of casting queried date (#21133)
+
+**Permissions**
 
 - Advanced view permissions do not save if you also make changes to create query permissions in the same edit (#46450)
 - Permissions modal cannot be dismissed if network request fails (#46380)
-- Sorting after Aggregation breaks Questions used to populate Filter Values (#46369)
+
+**Misc**
+
+- "Exit admin" button is sometimes offscreen (#45876)
+- fix: In delayed error/loading wrapper, on error, display the error (#46395)
 - geojson content type validation missing at least one content type (#46307)
 - [Mongo] Failed to fingerprint table with PK of type "ObjectID" (#46259)
-- Some X-rays can't be saved (single value in a date column) (#46249)
+- X-rays can't be saved if a date column has a single value (#46249)
 - Database Connection form input icons and tooltips are broken (#46088)
 - "Send test email" button missing via Admin Email config page when email related env vars are set (#45445)
-- Dashboard Filters Saving over defaults from last opened version of dashboard (#44438)
 - No visible alert for users when downloads fail (#41532)
-- Visualization settings are not persisted during question edits. (#41276)
-- Pivot Table does not have horizontal scroll bar (#24678)
-- Metabase field filter casts timestamp column instead of casting queried date (#21133)
 
-**Already Fixed**
+### Already Fixed
 
-Issues that we have recently confirmed to have been fixed at some point in the past.
+_Issues that we have recently confirmed to have been fixed at some point in the past._
 
 - Currency can not be undefined when style is "currency" when sending subscriptions (and you don't get the sign on the field) (#43165)
 
-**Under the Hood**
+### Under the Hood
 
+_Non-user-facing changes._
+
+- re-enable recordings (#46492)
 - Serdes tests are broken (#46032)
+- test: reduce flakiness by waiting longer for loader to disappear (#46320)
+- Quick Followup to Pull #45691 (#46286)
+- test: do not allow cypress to raise an error on timeline hover (#46230)
+- e2e: Rewrite dashboard card resizing spec (#46212)
+- Remove global css module that was applying red borders (#40112)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.19" rel="alternate"/>
