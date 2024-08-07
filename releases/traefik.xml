@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-08-07T04:31:54.859192-04:00</updated>
+  <updated>2024-08-07T05:31:57.361428-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,17 +130,18 @@
       <name>traefik/traefik</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
-- &lt;strong&gt;[grpc]&lt;/strong&gt; Bump google.golang.org/grpc to v1.64.1 (&lt;a href="https://github.com/traefik/traefik/pull/10938"&gt;#10938&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
-- &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Do not update route status when nothing changed (&lt;a href="https://github.com/traefik/traefik/pull/10940"&gt;#10940&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
-- &lt;strong&gt;[metrics]&lt;/strong&gt; Fix grafana dashboard to work with scrape interval greater than 15s (&lt;a href="https://github.com/traefik/traefik/pull/10936"&gt;#10936&lt;/a&gt; by &lt;a href="https://github.com/davhdavh"&gt;davhdavh&lt;/a&gt;)
-- &lt;strong&gt;[metrics]&lt;/strong&gt; Update open connections gauge with connections count (&lt;a href="https://github.com/traefik/traefik/pull/10905"&gt;#10905&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
-- &lt;strong&gt;[metrics]&lt;/strong&gt; Use ServiceName in traefik_service_server_up metric (&lt;a href="https://github.com/traefik/traefik/pull/10838"&gt;#10838&lt;/a&gt; by &lt;a href="https://github.com/KrishnaSindhur"&gt;KrishnaSindhur&lt;/a&gt;)&lt;/p&gt;
+- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Include status addresses when comparing Gateway statuses (&lt;a href="https://github.com/traefik/traefik/pull/10972"&gt;#10972&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- &lt;strong&gt;[k8s/ingress,k8s/crd,k8s]&lt;/strong&gt; Allow to disable Kubernetes cluster scope resources discovery (&lt;a href="https://github.com/traefik/traefik/pull/10946"&gt;#10946&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- &lt;strong&gt;[logs]&lt;/strong&gt; Change logs output from stderr to stdout (&lt;a href="https://github.com/traefik/traefik/pull/10973"&gt;#10973&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Fix grafana dashboard to work with scrape interval greater than 15s (&lt;a href="https://github.com/traefik/traefik/pull/10954"&gt;#10954&lt;/a&gt; by &lt;a href="https://github.com/swiffer"&gt;swiffer&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
-- &lt;strong&gt;[accesslogs]&lt;/strong&gt; Add Access logs section to the migration guide (&lt;a href="https://togithub.com/traefik/traefik/pull/10947"&gt;#​10947&lt;/a&gt; by &lt;a href="https://togithub.com/lbenguigui"&gt;lbenguigui&lt;/a&gt;)
-- &lt;strong&gt;[k8s]&lt;/strong&gt; Remove duplicated kubectl apply in Kubernetes Gateway documentation (&lt;a href="https://github.com/traefik/traefik/pull/10931"&gt;#10931&lt;/a&gt; by &lt;a href="https://github.com/battery-staple"&gt;battery-staple&lt;/a&gt;)
-- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Use Standard channel by default with Gateway API (&lt;a href="https://togithub.com/traefik/traefik/pull/10974"&gt;#​10974&lt;/a&gt; by &lt;a href="https://togithub.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)&lt;/p&gt;
+- &lt;strong&gt;[accesslogs]&lt;/strong&gt; Add Access logs section to the migration guide (&lt;a href="https://github.com/traefik/traefik/pull/10947"&gt;#10947&lt;/a&gt; by &lt;a href="https://github.com/lbenguigui"&gt;lbenguigui&lt;/a&gt;)
+- &lt;strong&gt;[http]&lt;/strong&gt; Fix missing codeblock ending in HTTP discover documentation (&lt;a href="https://github.com/traefik/traefik/pull/10967"&gt;#10967&lt;/a&gt; by &lt;a href="https://github.com/djcode"&gt;djcode&lt;/a&gt;)
+- &lt;strong&gt;[http]&lt;/strong&gt; Fix yaml config example for HTTP provider headers (&lt;a href="https://github.com/traefik/traefik/pull/10966"&gt;#10966&lt;/a&gt; by &lt;a href="https://github.com/djcode"&gt;djcode&lt;/a&gt;)
+- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Use Standard channel by default with Gateway API (&lt;a href="https://github.com/traefik/traefik/pull/10974"&gt;#10974&lt;/a&gt; by &lt;a href="https://github.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
-- Merge v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/10925"&gt;#10925&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)&lt;/p&gt;</content>
+- Merge branch v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/10978"&gt;#10978&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Merge v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/10956"&gt;#10956&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.1.2" rel="alternate"/>
   </entry>
 </feed>
