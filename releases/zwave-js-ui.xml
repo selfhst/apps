@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>zwave-js-ui Releases</title>
-  <updated>2024-08-07T09:31:48.571477-04:00</updated>
+  <updated>2024-08-07T10:31:47.713024-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,6 @@
     <content>&lt;h1&gt;&lt;a href="https://github.com/zwave-js/zwave-js-ui/compare/v9.16.4...v9.17.0"&gt;9.17.0&lt;/a&gt; (2024-08-07)&lt;/h1&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;bump zwave-js@13.0.3 (&lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3832"&gt;#3832&lt;/a&gt;) (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/2aa3adc743cccb8b0474e6f64d306183ab379c2d"&gt;2aa3adc&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;bump zwave-js@13.1.0 (&lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3839"&gt;#3839&lt;/a&gt;) (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/e590d88ed996a8d0b8b0d0342edec9c28b29f529"&gt;e590d88&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;use &lt;code&gt;inclusion state changed&lt;/code&gt; event (&lt;a href="https://github.com/zwave-js/zwave-js-ui/issues/3833"&gt;#3833&lt;/a&gt;) (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/a452b024f0f88b1afc523b691924c81e149f62f7"&gt;a452b02&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
