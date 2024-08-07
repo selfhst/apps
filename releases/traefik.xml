@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-08-07T03:31:51.160870-04:00</updated>
+  <updated>2024-08-07T04:31:54.859192-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,7 +136,9 @@
 - &lt;strong&gt;[metrics]&lt;/strong&gt; Update open connections gauge with connections count (&lt;a href="https://github.com/traefik/traefik/pull/10905"&gt;#10905&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
 - &lt;strong&gt;[metrics]&lt;/strong&gt; Use ServiceName in traefik_service_server_up metric (&lt;a href="https://github.com/traefik/traefik/pull/10838"&gt;#10838&lt;/a&gt; by &lt;a href="https://github.com/KrishnaSindhur"&gt;KrishnaSindhur&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
-- &lt;strong&gt;[k8s]&lt;/strong&gt; Remove duplicated kubectl apply in Kubernetes Gateway documentation (&lt;a href="https://github.com/traefik/traefik/pull/10931"&gt;#10931&lt;/a&gt; by &lt;a href="https://github.com/battery-staple"&gt;battery-staple&lt;/a&gt;)&lt;/p&gt;
+- &lt;strong&gt;[accesslogs]&lt;/strong&gt; Add Access logs section to the migration guide (&lt;a href="https://togithub.com/traefik/traefik/pull/10947"&gt;#​10947&lt;/a&gt; by &lt;a href="https://togithub.com/lbenguigui"&gt;lbenguigui&lt;/a&gt;)
+- &lt;strong&gt;[k8s]&lt;/strong&gt; Remove duplicated kubectl apply in Kubernetes Gateway documentation (&lt;a href="https://github.com/traefik/traefik/pull/10931"&gt;#10931&lt;/a&gt; by &lt;a href="https://github.com/battery-staple"&gt;battery-staple&lt;/a&gt;)
+- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Use Standard channel by default with Gateway API (&lt;a href="https://togithub.com/traefik/traefik/pull/10974"&gt;#​10974&lt;/a&gt; by &lt;a href="https://togithub.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
 - Merge v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/10925"&gt;#10925&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.1.2" rel="alternate"/>
