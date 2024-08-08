@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2024-08-08T06:33:20.899624-04:00</updated>
+  <updated>2024-08-08T07:33:18.747551-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -397,6 +397,13 @@
 &lt;p&gt;If you are using the &lt;code&gt;kestra-ee&lt;/code&gt; CLI, note that it has been renamed to &lt;code&gt;kestra&lt;/code&gt;. This change is intended to avoid confusion between the open-source and Enterprise Edition binaries.&lt;/p&gt;
 &lt;h3&gt;The &lt;code&gt;runner&lt;/code&gt; property is deprecated in favor of the &lt;code&gt;taskRunner&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Starting with Kestra 0.18.0, the &lt;code&gt;taskRunner&lt;/code&gt; property has precedence over the &lt;code&gt;runner&lt;/code&gt; property. In Kestra 0.18.0, &lt;a href="https://kestra.io/docs/concepts/task-runners"&gt;task runners&lt;/a&gt; are out of Beta, and &lt;code&gt;runner&lt;/code&gt; is now deprecated. You can still use the deprecated &lt;code&gt;runner&lt;/code&gt; property &lt;strong&gt;when explicitly specified&lt;/strong&gt;, but remember that Docker-type &lt;code&gt;taskRunner&lt;/code&gt; is now the &lt;strong&gt;default&lt;/strong&gt; way of running script tasks in Kestra. We recommend switching any existing &lt;code&gt;pluginDefaults&lt;/code&gt; using &lt;code&gt;runner&lt;/code&gt; to &lt;code&gt;taskRuner&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;In the 3-month Beta period, we gave everyone in the community the opportunity to try all task runner plugins. With the &lt;a href="https://kestra.io/blogs/2024-08-08-taskrunners-ga"&gt;General Availability&lt;/a&gt;, some plugins are exclusively available on the Cloud and Enterprise editions of Kestra. As a result, their plugin paths have changed as follows:
+- &lt;code&gt;io.kestra.plugin.ee.kubernetes.runner.Kubernetes&lt;/code&gt;
+- &lt;code&gt;io.kestra.plugin.ee.azure.runner.Batch&lt;/code&gt;
+- &lt;code&gt;io.kestra.plugin.ee.aws.runner.Batch&lt;/code&gt;
+- &lt;code&gt;io.kestra.plugin.ee.gcp.runner.Batch&lt;/code&gt;
+- &lt;code&gt;io.kestra.plugin.ee.gcp.runner.CloudRun&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you want to try them out, please &lt;a href="https://kestra.io/demo/"&gt;reach out&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Changes in JSON function and filter (non-breaking)&lt;/h2&gt;
 &lt;p&gt;We've made &lt;a href="https://github.com/kestra-io/kestra/issues/3715"&gt;several improvements&lt;/a&gt; to JSON and ION handling. To avoid confusion between the &lt;code&gt;json&lt;/code&gt; filter and &lt;code&gt;json()&lt;/code&gt; function, we've renamed:
 1. the &lt;code&gt;json&lt;/code&gt; filter to &lt;code&gt;toJson&lt;/code&gt; — it converts an object or data structure into a JSON string e.g. &lt;code&gt;{{ [1, 2, 3] | toJson  }}&lt;/code&gt;
