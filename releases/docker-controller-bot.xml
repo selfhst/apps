@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docker Controller Bot Releases</title>
-  <updated>2024-08-08T12:33:46.978175-04:00</updated>
+  <updated>2024-08-08T13:33:44.134403-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,12 +69,13 @@
   <entry>
     <id>https://github.com/dgongut/docker-controller-bot/releases/tag/v3.1.1</id>
     <title>New release for Docker Controller Bot: v3.1.1</title>
-    <updated>2024-08-08T12:33:32-04:00</updated>
+    <updated>2024-08-08T12:59:00-04:00</updated>
     <author>
       <name>dgongut/docker-controller-bot</name>
     </author>
     <content>&lt;p&gt;[FIX] Now when upgrading, it will respect the IP address set in the container.
-[FIX] Now when upgrading, it will respect the runtime set in the container.&lt;/p&gt;
+[FIX] Now when upgrading, it will respect the runtime set in the container.
+[FIX] Small grammatical errors in Spanish&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dgongut/docker-controller-bot/compare/v3.1.0...v3.1.1&lt;/p&gt;</content>
     <link href="https://github.com/dgongut/docker-controller-bot/releases/tag/v3.1.1" rel="alternate"/>
   </entry>
