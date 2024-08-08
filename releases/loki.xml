@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Loki Releases</title>
-  <updated>2024-08-08T11:32:09.188051-04:00</updated>
+  <updated>2024-08-08T12:32:10.518898-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -262,6 +262,10 @@
       <name>grafana/loki</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/grafana/loki/compare/v3.1.0...v3.1.1"&gt;3.1.1&lt;/a&gt; (2024-08-08)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;loki:&lt;/strong&gt; add ability to disable AWS S3 dual stack endpoints usage (&lt;a href="https://github.com/grafana/loki/issues/13795"&gt;#13795&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/464ac736a6fb70b673ee3cec21049b18d353cadb"&gt;464ac73&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; bumped dependencies versions to resolve CVEs (&lt;a href="https://github.com/grafana/loki/issues/13789"&gt;#13789&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/34206cd2d6290566034710ae6c2d08af8804bc91"&gt;34206cd&lt;/a&gt;)&lt;/li&gt;
