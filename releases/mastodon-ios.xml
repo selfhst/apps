@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-08-09T03:33:55.020528-04:00</updated>
+  <updated>2024-08-09T04:34:03.751600-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,7 @@ Thank you so much for supporting us and using Mastodon!&lt;/p&gt;
     <link href="https://github.com/mastodon/mastodon-ios/releases/tag/2024.7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/mastodon/mastodon-ios/releases/tag/2024.8-6769</id>
+    <id>https://github.com/mastodon/mastodon-ios/releases/tag/2024.8</id>
     <title>New release for Mastodon: 2024.8</title>
     <updated>2024-08-08T05:53:09-04:00</updated>
     <author>
@@ -184,6 +184,6 @@ Thank you so much for supporting us and using Mastodon!&lt;/p&gt;
 &lt;li&gt;@nikclayton made their first contribution in https://github.com/mastodon/mastodon-ios/pull/1327&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mastodon/mastodon-ios/compare/2024.7...2024.8-6769&lt;/p&gt;</content>
-    <link href="https://github.com/mastodon/mastodon-ios/releases/tag/2024.8-6769" rel="alternate"/>
+    <link href="https://github.com/mastodon/mastodon-ios/releases/tag/2024.8" rel="alternate"/>
   </entry>
 </feed>
