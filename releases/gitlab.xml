@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-08-09T11:30:30.344717-04:00</updated>
+  <updated>2024-08-09T12:30:33.373673-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -419,7 +419,7 @@
 
 &lt;details&gt;&lt;summary&gt;[Linux package improvements](https://docs.gitlab.com/omnibus/) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Omnibus Package&lt;/code&gt;&lt;/summary&gt;
 
-&gt; CentOS Linux 7 will reach [end of life](https://www.redhat.com/en/topics/linux/centos-linux-eol) on June 30, 2024. This makes GitLab 17.1 the last GitLab version in which we can provide packages for CentOS 7.
+&gt; CentOS Linux 7 will reach [end of life](https://www.redhat.com/en/topics/linux/centos-linux-eol) on June 30, 2024. This makes GitLab 17.6 the last GitLab version in which we can provide packages for CentOS 7.
 
 &lt;/details&gt;
 
