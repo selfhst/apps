@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Notes Releases</title>
-  <updated>2024-08-09T17:33:25.046567-04:00</updated>
+  <updated>2024-08-09T18:33:24.147932-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,36 @@ Some issues with Docker were identified: #296, #302. A new version with those fi
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TriliumNext/Notes/releases/tag/v0.90.4</id>
+    <title>New release for TriliumNext Notes: v0.90.4 release</title>
+    <updated>2024-08-09T18:16:06-04:00</updated>
+    <author>
+      <name>TriliumNext/Notes</name>
+    </author>
+    <content>&lt;p&gt;This release focuses mostly on improving the experience with the Docker containers.&lt;/p&gt;
+&lt;h2&gt;Docker ARM builds&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/302"&gt;ARM builds for Docker were reintroduced&lt;/a&gt; and are available on both &lt;a href="https://hub.docker.com/r/triliumnext/notes"&gt;Docker Hub&lt;/a&gt; and &lt;a href="https://github.com/TriliumNext/Notes/pkgs/container/notes"&gt;GHCR&lt;/a&gt; starting with this release.&lt;ul&gt;
+&lt;li&gt;Note that only &lt;code&gt;ARMv7&lt;/code&gt; and &lt;code&gt;ARM64/v8&lt;/code&gt; architectures are supported for now.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ARMv6&lt;/code&gt; support was dropped due to incompatibility issues with Node 20.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🐞 Bugfixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/296"&gt;Docker container marked as not healthy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/304"&gt;Find/Replace dialog doesn't match theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/311"&gt;Tray icon is missing on windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/308"&gt;Error when Duplicating subtree of note that contains broken internal trilium link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/313"&gt;Update available points to Trilium download instead of TriliumNext&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Additional changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/309"&gt;Update &lt;code&gt;docker-compose.yml&lt;/code&gt;&lt;/a&gt; by slashtechno&lt;/li&gt;
+&lt;li&gt;Updated links throughout the application to point to the rendered &lt;a href="https://triliumnext.github.io/Docs"&gt;TriliumNext Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.4" rel="alternate"/>
   </entry>
 </feed>
