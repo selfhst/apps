@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanidm Releases</title>
-  <updated>2024-08-10T00:32:56.437702-04:00</updated>
+  <updated>2024-08-10T01:32:57.879053-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,6 +147,7 @@ as this may have important effects on your distribution or upgrades in future.&l
     <content>&lt;h2&gt;2024-08-10 - Kanidm 1.3.2 Patch (Security)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Newer versions of Rust/LLVM would optimise-out a call to pam_get_user due to a library using const incorrectly on a pointer. This could result in a username not being set with an invalid fall through condition. In some cases this COULD CAUSE UNAUTHENTICATED system access. &lt;/li&gt;
+&lt;li&gt;Affected versions: 1.3.0 and 1.3.1.&lt;/li&gt;
 &lt;li&gt;Reduce logging of client_requests in INFO for unix resolver.&lt;/li&gt;
 &lt;li&gt;Security key migrations had an incorrect migration warning displayed. &lt;/li&gt;
 &lt;/ul&gt;
