@@ -410,7 +410,7 @@
     {
         "Project": "Mastodon",
         "Reference": "mastodon",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://joinmastodon.org/",
@@ -2714,7 +2714,7 @@
     {
         "Project": "Lemmy",
         "Reference": "lemmy",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://join-lemmy.org/",
@@ -2738,7 +2738,7 @@
     {
         "Project": "PeerTube",
         "Reference": "peertube",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://joinpeertube.org/",
@@ -3338,7 +3338,7 @@
     {
         "Project": "Misskey",
         "Reference": "misskey",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://misskey-hub.net/",
@@ -4855,7 +4855,7 @@
     {
         "Project": "Pixelfed",
         "Reference": "pixelfed",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://pixelfed.org/",
@@ -5987,7 +5987,7 @@
     {
         "Project": "GoToSocial",
         "Reference": "gotosocial",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://docs.gotosocial.org/",
@@ -7511,7 +7511,7 @@
     {
         "Project": "BookWyrm",
         "Reference": "bookwyrm",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "http://joinbookwyrm.com/",
@@ -8402,7 +8402,7 @@
     {
         "Project": "Friendica",
         "Reference": "friendica",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://friendi.ca/",
@@ -9666,7 +9666,7 @@
     {
         "Project": "kbin",
         "Reference": "kbin",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://kbin.pub/",
@@ -10127,7 +10127,7 @@
     {
         "Project": "Castopod",
         "Reference": "castopod",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://castopod.org/",
@@ -11037,7 +11037,7 @@
     {
         "Project": "NeoDB",
         "Reference": "neodb",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://neodb.net/",
@@ -11157,7 +11157,7 @@
     {
         "Project": "Ktistec",
         "Reference": "ktistec",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://github.com/toddsundsted/ktistec",
@@ -11988,7 +11988,7 @@
     {
         "Project": "Mbin",
         "Reference": "mbin",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://joinmbin.org/",
@@ -12948,7 +12948,7 @@
     {
         "Project": "Pleroma",
         "Reference": "pleroma",
-        "Type": "Software",
+        "Type": "Software,ActivityPub",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://pleroma.social/",
