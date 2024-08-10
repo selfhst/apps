@@ -18,7 +18,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:44:12+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Lemmy",
@@ -39,7 +39,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:42:37+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "PeerTube",
@@ -60,7 +60,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:47:56+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Misskey",
@@ -81,7 +81,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-04-03 12:17:57+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Pixelfed",
@@ -102,7 +102,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:48:29+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Elk",
@@ -165,7 +165,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:40:45+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Tusky",
@@ -207,7 +207,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-08-08 20:55:08+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Mastodon (iOS)",
@@ -270,7 +270,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-08-08 21:05:43+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Phanpy",
@@ -333,7 +333,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-22 22:42:09+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Castopod",
@@ -354,7 +354,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-26 09:30:44+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Megalodon",
@@ -459,7 +459,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-08-08 20:55:58+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Ktistec",
@@ -480,7 +480,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-26 09:00:15+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "SubwayTooter",
@@ -543,7 +543,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-08-08 20:58:45+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "Mastify",
@@ -690,7 +690,7 @@
         "Tags": "Platform",
         "CreatedAt": "2024-03-31 11:05:41+00:00",
         "Price": "Free",
-        "Platform": null
+        "Platform": "Platform"
     },
     {
         "Project": "TootRain",
