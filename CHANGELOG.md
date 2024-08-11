@@ -1,5 +1,10 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-08-11
+
+* Added 'Icon Type' to project details to identify square vs native icons
+* Added 'project-icon-square' CSS class to add a border radius to square icons
+
 ### 2024-07-31
 
 * New tile indicator for select applications that can self-hosted by third-party services
