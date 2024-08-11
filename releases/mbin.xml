@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2024-08-11T18:33:21.299838-04:00</updated>
+  <updated>2024-08-11T19:33:20.172149-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -271,7 +271,7 @@ If you are upgrading from one of the release candidates, you just have to follow
 &lt;li&gt;install the php extension &lt;code&gt;bcmath&lt;/code&gt;, be sure the extension is for your installed php version. On debian for php 8.2 it would look like this: &lt;code&gt;apt install php8.2-bcmath&lt;/code&gt;. Check if that was successful by running: &lt;code&gt;php -m | grep bcmath&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Go to your repo &lt;code&gt;cd /var/www/mbin&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.7.0-rc1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.7.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Run the update script: &lt;code&gt;bash bin/post-upgrade.sh&lt;/code&gt;. If you get an error when running the db migrations you maybe have to stop your webserver, so nothing is trying to access the database.&lt;/li&gt;
 &lt;li&gt;Generate VAPID keys to support push notifications (for encryption): &lt;code&gt;php bin/console mbin:push:keys:update&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;exit&lt;/code&gt; so we are back at the root user (or put a sudo infront of &lt;strong&gt;every&lt;/strong&gt; command)&lt;/li&gt;
