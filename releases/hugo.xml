@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-08-12T12:30:37.742711-04:00</updated>
+  <updated>2024-08-12T13:30:38.356602-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,7 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;p&gt;Server-side &lt;a href="https://gohugo.io/functions/transform/tomath/"&gt;math rendering&lt;/a&gt; using KaTeX with render hooks support, blockquote render hooks with &lt;a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts"&gt;GitHub style alerts&lt;/a&gt; syntax support, and more.&lt;/p&gt;
+    <content>&lt;p&gt;Server-side &lt;a href="https://gohugo.io/functions/transform/tomath/"&gt;math rendering&lt;/a&gt; using KaTeX with Markdown render hooks support, &lt;a href="https://gohugo.io/render-hooks/blockquotes/"&gt;blockquote Markdown render hooks&lt;/a&gt; with &lt;a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts"&gt;GitHub style alerts&lt;/a&gt; syntax support, and more.&lt;/p&gt;
 &lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve Katex error handling and fix handling of large expressions e1e1baa1b @bep #12748 &lt;/li&gt;

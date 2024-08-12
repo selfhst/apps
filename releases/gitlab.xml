@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-08-12T12:30:31.117525-04:00</updated>
+  <updated>2024-08-12T13:30:31.513188-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,7 +71,6 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Threaded notifications supported in Google Chat](https://docs.gitlab.com/ee/user/project/integrations/hangouts_chat.html): &lt;code&gt;Integrations&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Previously, notifications sent from GitLab to a space in Google Chat could not be created as replies to specified threads.
@@ -226,7 +225,6 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Custom webhook headers](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#custom-headers): &lt;code&gt;Webhooks&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Previously, GitLab webhooks did not support custom headers. This meant you could not use them with systems that accept authentication tokens from headers with specific names.
@@ -471,12 +469,11 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Import from Bitbucket Cloud by using REST API](https://docs.gitlab.com/ee/api/import.html#import-repository-from-bitbucket-cloud): &lt;code&gt;Importers&lt;/code&gt;&lt;/summary&gt;
 
 &gt; In this milestone, we added the ability to import Bitbucket Cloud projects by using the REST API.
 &gt; 
-&gt; This can be a better solution for importing a lot of projects than importing by using the UI. 
+&gt; This can be a better solution for importing a lot of projects than importing by using the UI.
 
 &lt;/details&gt;
 
@@ -741,15 +738,6 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Backups include external merge request diffs stored on disk](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#command-line-interface) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Backup/Restore of GitLab instances&lt;/code&gt;&lt;/summary&gt;
-
-&gt; The `gitlab-backup` tool now supports backing up [external merge request diffs](https://docs.gitlab.com/ee/administration/merge_request_diffs.html) stored on local disk. Note, the `gitlab-backup` tool does not backup files stored on object storage. Therefore, if external merge diffs are stored on object storage they will need to be backed up manually. 
-&gt; 
-&gt; The `backup-utility` for Cloud Native Hybrid environments already supported backing up external merge request diffs and this functionality remains unchanged. 
-
-&lt;/details&gt;
-
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Use REST API to cancel a running direct transfer migration](https://docs.gitlab.com/ee/api/bulk_imports.html#cancel-a-migration): &lt;code&gt;Importers&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Until now cancelling a running direct transfer migration
@@ -765,7 +753,7 @@
 &gt; 
 &gt; In this release, we've added an API endpoint that re-imports a named relation, skipping items that have already been imported. The API requires both:
 &gt; 
-&gt; - A project export archive. 
+&gt; - A project export archive.
 &gt; - A type. Either issues, merge requests, pipelines, or milestones.
 
 &lt;/details&gt;
@@ -788,6 +776,14 @@
 &gt; With this release, you can now use the GitLab REST API to set custom webhook headers.
 &gt; 
 &gt; Thanks to [Niklas](https://gitlab.com/Taucher2003) for [this community contribution](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/153768)!
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Backups include external merge request diffs stored on disk](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html#command-line-interface) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Backup/Restore of GitLab instances&lt;/code&gt;&lt;/summary&gt;
+
+&gt; The `gitlab-backup` tool now supports backing up [external merge request diffs](https://docs.gitlab.com/ee/administration/merge_request_diffs.html) stored on local disk. Note, the `gitlab-backup` tool does not backup files stored on object storage. Therefore, if external merge diffs are stored on object storage they will need to be backed up manually. 
+&gt; 
+&gt; The `backup-utility` for Cloud Native Hybrid environments already supported backing up external merge request diffs and this functionality remains unchanged. 
 
 &lt;/details&gt;
 
@@ -954,14 +950,6 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Log streaming for Kubernetes pods and containers](https://docs.gitlab.com/ee/ci/environments/kubernetes_dashboard.html): &lt;code&gt;Environment Management&lt;/code&gt;&lt;/summary&gt;
-
-&gt; In GitLab 16.1, we introduced the Kubernetes pod list and detail views. However, you still had to use third-party tools for an in-depth analysis of your workloads.
-&gt; GitLab now ships with a log streaming view for pods and containers, so you can quickly check and troubleshoot issues across your environments without leaving your application delivery tool.
-
-&lt;/details&gt;
-
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/manage/"&gt;Manage&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Resolve to-do items, one discussion at a time](https://docs.gitlab.com/ee/user/todos.html): &lt;code&gt;Notifications&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Discussions on GitLab issues can get busy. GitLab helps you manage these conversations by raising a to-do item for comments that are relevant to you, and automatically resolves the item when you take an action on the issue.
@@ -983,7 +971,7 @@
 &lt;details&gt;&lt;summary&gt;[Deleted branches are removed from Jira development panel](https://docs.gitlab.com/ee/integration/jira/development_panel.html#feature-availability): &lt;code&gt;Integrations&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Previously, when using [GitLab for Jira Cloud app](https://docs.gitlab.com/ee/integration/jira/connect-app.html), if you deleted a branch in GitLab, that branch still
-&gt; appeared in Jira development panel. Selecting that branch caused a `404` error on GitLab. 
+&gt; appeared in Jira development panel. Selecting that branch caused a `404` error on GitLab.
 &gt; 
 &gt; From this release, branches deleted in GitLab are removed from the Jira development panel.
 
@@ -994,6 +982,13 @@
 &gt; GitLab offers many settings across projects, groups, the instance, and for yourself personally. To find the setting you're looking for, you often have to spend time clicking through many different areas of the UI.
 &gt; 
 &gt; With this release, you can now search for project settings from the command palette. Try it out by visiting a project, selecting **Search or go to...**, entering command mode with `&gt;`, and typing the name of a settings section, like **Protected tags**. Select a result to jump right to the setting itself.
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[Log streaming for Kubernetes pods and containers](https://docs.gitlab.com/ee/ci/environments/kubernetes_dashboard.html): &lt;code&gt;Environment Management&lt;/code&gt;&lt;/summary&gt;
+
+&gt; In GitLab 16.1, we introduced the Kubernetes pod list and detail views. However, you still had to use third-party tools for an in-depth analysis of your workloads.
+&gt; GitLab now ships with a log streaming view for pods and containers, so you can quickly check and troubleshoot issues across your environments without leaving your application delivery tool.
 
 &lt;/details&gt;
 
