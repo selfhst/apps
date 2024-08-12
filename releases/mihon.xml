@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mihon Releases</title>
-  <updated>2024-08-12T11:33:48.080017-04:00</updated>
+  <updated>2024-08-12T12:33:48.734908-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -20,10 +20,10 @@
     <content>&lt;p&gt;Check out the &lt;a href="https://github.com/mihonapp/mihon/releases"&gt;past release notes&lt;/a&gt; if you're upgrading from an earlier version.&lt;/p&gt;
 &lt;p&gt;In particular, refer to the &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.16.0"&gt;v0.16.0&lt;/a&gt; release notes if you're updating from an earlier version.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;App Icon not filled&lt;/li&gt;
-&lt;li&gt;MangaUpdates default score being set to -1.0&lt;/li&gt;
+&lt;li&gt;App Icon not filled (@AntsyLich)&lt;/li&gt;
+&lt;li&gt;MangaUpdates default score being set to -1.0 (@AntsyLich)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Checksums&lt;/h3&gt;
@@ -50,18 +50,18 @@
 &lt;ul&gt;
 &lt;li&gt;Scanlator filter is now part of Backup (@jobobby04)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Change&lt;/h2&gt;
+&lt;h2&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Rename crash log filename to &lt;code&gt;mihon_crash_logs.txt&lt;/code&gt; (@MajorTanya)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;"Flash screen on page change" Making the screen goes blank&lt;/li&gt;
-&lt;li&gt;App icon scaling&lt;/li&gt;
-&lt;li&gt;Updating extension not reflecting correctly&lt;/li&gt;
+&lt;li&gt;"Flash screen on page change" Making the screen goes blank (@AntsyLich)&lt;/li&gt;
+&lt;li&gt;App icon scaling (@AntsyLich)&lt;/li&gt;
+&lt;li&gt;Updating extension not reflecting correctly (@AntsyLich)&lt;/li&gt;
 &lt;li&gt;Inconsistent button height with some languages in "Data and storage" (@theolm)&lt;/li&gt;
 &lt;li&gt;Fix chapter not being marked as read in some cases with Enhanced Trackers (@Secozzi)&lt;/li&gt;
-&lt;li&gt;And various tracker related fixes&lt;/li&gt;
+&lt;li&gt;And various tracker related fixes (@AntsyLich, @Secozzi)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Checksums&lt;/h3&gt;
@@ -88,17 +88,17 @@
 &lt;ul&gt;
 &lt;li&gt;Copy extension debug info when clicking logo or name in the extension details screen (@MajorTanya)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Change&lt;/h2&gt;
+&lt;h2&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Rename extension update error file to &lt;code&gt;mihon_update_errors.txt&lt;/code&gt; (@m-jishnu)&lt;/li&gt;
 &lt;li&gt;Hide display cutoff setting in reader settings sheet if fullscreen is off (@Riztard)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix bottom sheet display issues on non-Tablet UI (@theolm)&lt;/li&gt;
 &lt;li&gt;Fix crash when switching screen while a list is scrolling (@theolm)&lt;/li&gt;
 &lt;li&gt;Fix newly installed extensions not being recognized by Mihon (@AwkwardPeak7)&lt;/li&gt;
-&lt;li&gt;Fix error handling for MAL tracking (@AntsyLich)&lt;/li&gt;
+&lt;li&gt;Fix error handling when refreshing MAL OAuth token (@AntsyLich)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Checksums&lt;/h3&gt;
@@ -123,7 +123,7 @@
 &lt;p&gt;In particular, refer to the &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.16.0"&gt;v0.16.0&lt;/a&gt;, &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.16.1"&gt;v0.16.1&lt;/a&gt;, &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.16.2"&gt;v0.16.2&lt;/a&gt; and &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.16.3"&gt;v0.16.3&lt;/a&gt; release notes if you're updating from an earlier version.&lt;/p&gt;
 &lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Circumvent MAL block&lt;/li&gt;
+&lt;li&gt;Circumvent MAL block (@AntsyLich)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Checksums&lt;/h3&gt;
@@ -150,11 +150,11 @@
 &lt;ul&gt;
 &lt;li&gt;Setting to install custom color profiles to get true colors (@wwww-wwww)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Change&lt;/h2&gt;
+&lt;h2&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Permanently enable 32-bit color mode (@wwww-wwww)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix wrong dates in Updates and History tab due to time zone issues (@sirlag)&lt;/li&gt;
 &lt;li&gt;Fix app infinitely retries tracker update instead of failing after 3 tries (@MajorTanya)&lt;/li&gt;
