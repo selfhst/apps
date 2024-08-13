@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Streamyfin Releases</title>
-  <updated>2024-08-13T10:34:05.119813-04:00</updated>
+  <updated>2024-08-13T11:34:09.064353-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,5 +71,29 @@
 &lt;li&gt;fix: added back audio selection (accidentally removed)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/fredrikburmester/streamyfin/releases/tag/v0.3.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fredrikburmester/streamyfin/releases/tag/v0.4.0</id>
+    <title>New release for Streamyfin: v0.4.0</title>
+    <updated>2024-08-13T10:39:58-04:00</updated>
+    <author>
+      <name>fredrikburmester/streamyfin</name>
+    </author>
+    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Native Picture in Picture for iPhone (by clicking on the pip icon - see image below)&lt;/li&gt;
+&lt;li&gt;Background playback with album art&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="IMG_3770" src="https://github.com/user-attachments/assets/915da702-cc1f-48a3-880b-635c755679b4" /&gt;&lt;/p&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed red colors to purple to match the rest of the UI&lt;/li&gt;
+&lt;li&gt;Link to download page when clicking the "downloaded" icon&lt;/li&gt;
+&lt;li&gt;Improved play/pause logic&lt;/li&gt;
+&lt;li&gt;Update download list automatically when when a download is finished &lt;/li&gt;
+&lt;li&gt;Album art for music when closing the app&lt;/li&gt;
+&lt;li&gt;No parsing of the URL on login anymore.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/fredrikburmester/streamyfin/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>
