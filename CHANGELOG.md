@@ -1,5 +1,11 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-08-13
+
+* Added subdirectory for ActivityPub platforms, clients, and tools
+* Fixed project name indentation when no icon is displayed
+* Fixed 'Software' filter not working correctly when switching subdirectories
+
 ### 2024-08-11
 
 * Added 'Icon Type' to project details to identify square vs native icons
