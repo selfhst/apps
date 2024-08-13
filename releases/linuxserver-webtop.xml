@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2024-08-12T13:32:19.787443-04:00</updated>
+  <updated>2024-08-13T05:32:31.614059-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,18 @@
 &lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to 8066094c&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/8066094c-ls173" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/c1365d22-ls174</id>
+    <title>New release for Webtop: c1365d22-ls174</title>
+    <updated>2024-08-13T00:00:00-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rebase Alpine to 3.20, document Nvidia support.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to c1365d22&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/c1365d22-ls174" rel="alternate"/>
   </entry>
 </feed>
