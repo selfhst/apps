@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rodent Releases</title>
-  <updated>2024-08-13T07:33:56.550800-04:00</updated>
+  <updated>2024-08-13T08:33:59.193874-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,5 +57,19 @@
 &lt;li&gt;fix: support more collections&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/fredrikburmester/streamyfin/releases/tag/v0.3.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fredrikburmester/streamyfin/releases/tag/v0.3.4</id>
+    <title>New release for Streamyfin: v0.3.4</title>
+    <updated>2024-08-13T07:55:30-04:00</updated>
+    <author>
+      <name>fredrikburmester/streamyfin</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;fix: better support for collections&lt;/li&gt;
+&lt;li&gt;feat: experimental support for music&lt;/li&gt;
+&lt;li&gt;fix: added back audio selection (accidentally removed)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/fredrikburmester/streamyfin/releases/tag/v0.3.4" rel="alternate"/>
   </entry>
 </feed>

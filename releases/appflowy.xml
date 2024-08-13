@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-08-13T07:32:27.492946-04:00</updated>
+  <updated>2024-08-13T08:32:31.004539-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,18 +94,19 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.6.7 - 13/08/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.6.7 - 08/13/2024&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/0cb15b8d-1e45-4b2c-8d1a-d5d4146783df" width="600"  /&gt;&lt;/p&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Redesigned the icon picker design on Desktop.&lt;/li&gt;
-&lt;li&gt;Redesigned the notification page on Mobile.&lt;/li&gt;
+&lt;li&gt;Store files anywhere within your documents&lt;/li&gt;
+&lt;li&gt;Introduce AI Chat: ask questions and generate summaries from your documents&lt;/li&gt;
+&lt;li&gt;Select your preferred model from GPT-4o, Claude 3 Sonnet, and more to power AppFlowy AI&lt;/li&gt;
+&lt;li&gt;Enable comments on published pages&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Enhance the toolbar tooltip functionality on Desktop.&lt;/li&gt;
-&lt;li&gt;Enhance the slash menu user experience on Desktop.&lt;/li&gt;
-&lt;li&gt;Fixed the issue where list style overrides occurred during text pasting.&lt;/li&gt;
-&lt;li&gt;Fixed the issue where linking multiple databases in the same document could cause random loss of focus.&lt;/li&gt;
+&lt;li&gt;Fixed an issue with pasting text into a list item&lt;/li&gt;
+&lt;li&gt;Fixed a focus loss issue in documents that include multiple databases&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.7" rel="alternate"/>
   </entry>
