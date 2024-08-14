@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-08-14T13:31:20.023333-04:00</updated>
+  <updated>2024-08-14T14:31:18.052994-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,5 +83,35 @@
 &lt;li&gt;&lt;strong&gt;auth:&lt;/strong&gt; fix admin check in case of non-home users (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/213"&gt;#213&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/7a23a6462a613cb12bfdc5a4ab41fbeb9a7b3304"&gt;7a23a64&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/212"&gt;#212&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v3.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RaunoT/plex-rewind/releases/tag/v4.0.0</id>
+    <title>New release for Plex Rewind: v4.0.0</title>
+    <updated>2024-08-14T14:17:25-04:00</updated>
+    <author>
+      <name>RaunoT/plex-rewind</name>
+    </author>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v3.0.1...v4.0.0"&gt;4.0.0&lt;/a&gt; (2024-08-14)&lt;/h1&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; media availability status cache (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/216"&gt;#216&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/9b0ca1d5bd1cc5ecd81fc894cf435eb0100d30e7"&gt;9b0ca1d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;don't consider stable channel updates on develop channel (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/eaac853c3a6c605ccc8ac4dfbfbcbbb48ac7a7b1"&gt;eaac853&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;don't show dashboard button if no valid pages available (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/218"&gt;#218&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/08829bcfc100748be82773299077aaaef661708a"&gt;08829bc&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/217"&gt;#217&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rewind:&lt;/strong&gt; undefined library.top (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/207"&gt;#207&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/5f3c9934444140b2f57a4f9dd8a4b6a3049939cd"&gt;5f3c993&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/205"&gt;#205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;security:&lt;/strong&gt; refactor public apis (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/25f30d9eb6898204139dffde9e5bb9d162ab66dc"&gt;25f30d9&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;security:&lt;/strong&gt; require admin user to complete initial setup (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/97536f09e21b19b41f4b637506938274ea6cece4"&gt;97536f0&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;setup&lt;/strong&gt;: improved setup flow (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/219"&gt;#219&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/bf7d6eb987e851a9c6f4f4bb99079f163b077df1"&gt;bf7d6eb&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; don't show libraries the viewing user doesn't have access to (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/223"&gt;#223&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/40113c76e3c6daea9bfba36c68f3540a9e150d70"&gt;40113c7&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/222"&gt;#222&lt;/a&gt; (thanks @daerup)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; use friendly_name for users and change ranking colors (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/221"&gt;#221&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/0b91f5f16cabfed6cdfb086495aff5cd04fc398c"&gt;0b91f5f&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/220"&gt;#220&lt;/a&gt; (thanks @daerup)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rewind:&lt;/strong&gt; allow admin to select current user on rewind page instead of settings (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/e12be4fd90240f289b9abf7780911efdb66a6980"&gt;e12be4f&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You will need to re-do the setup process after updating to this release. Your previous settings will stay intact, but you will have to re-save them.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.0.0" rel="alternate"/>
   </entry>
 </feed>
