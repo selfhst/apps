@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Actual Budget Releases</title>
-  <updated>2024-08-14T05:30:05.188905-04:00</updated>
+  <updated>2024-08-14T06:30:04.888168-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,13 @@
     <author>
       <name>actualbudget/actual</name>
     </author>
-    <content>&lt;p&gt;:link: &lt;a href="https://actualbudget.org/blog/release-24.8.0"&gt;View release notes&lt;/a&gt;&lt;/p&gt;</content>
+    <content>&lt;p&gt;:link: &lt;a href="https://actualbudget.org/blog/release-24.8.0"&gt;View release notes&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Known issues&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mac Desktop app&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Newer Mac's may show the message: "Actual is damaged and can't be opened. You should move it to the Trash". &lt;/p&gt;
+&lt;p&gt;The message appears because the app isn't notarized - #3259.&lt;/p&gt;
+&lt;p&gt;If you see the message, please disable Gatekeeper by running the following command and start the app again: &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;xattr -c /applications/actual.app&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/actualbudget/actual/releases/tag/v24.8.0" rel="alternate"/>
   </entry>
 </feed>
