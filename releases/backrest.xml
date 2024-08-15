@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-08-14T22:32:42.997920-04:00</updated>
+  <updated>2024-08-14T23:32:46.834615-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,6 +99,9 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.3.1...v1.4.0"&gt;1.4.0&lt;/a&gt; (2024-08-15)&lt;/h2&gt;
+&lt;p&gt;This release brings support for restic 0.17.0 and with it new backrest capabilities! The new restic version tracks the summary of the last backup command directly in the snapshot objects it creates. Backrest now includes these details in the displayed summary of each snapshot! This is of particular interest for users using Backrest to browse externally created backups.&lt;/p&gt;
+&lt;p&gt;Beyond this, a number of bug fixes and quality of life improvements are included in this release. Repos will no longer implicitly initialize if added directly to the config, they must be added through the UI which is explicit and safer. Additionally, updates to repo configuration are now blocked if they break the ability to connect to the repo.&lt;/p&gt;
+&lt;p&gt;A number of minor bugs are fixed including a rare race condition, missing debug output for some commands, and formatting issues for hooks.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;accept up to 2 decimals of precision for check % and prune % policies (&lt;a href="https://github.com/garethgeorge/backrest/commit/53742736f9dec217527ad50caed9a488da39ad45"&gt;5374273&lt;/a&gt;)&lt;/li&gt;
