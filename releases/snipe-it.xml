@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-08-15T06:31:51.394370-04:00</updated>
+  <updated>2024-08-15T07:31:48.404819-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,7 +184,7 @@
 &lt;strong&gt;Snipe-IT now requires PHP 8.1.2 or greater&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Happy Thursday everyone! This release comes with a bunch of small UX/UI improvements, and a few additional features, including the ability to optionally update the asset's status on quick scan checkin. &lt;/p&gt;
-&lt;p&gt;We've also added the ability to play sounds on the bulk tasks like auditing for better accessibility. (You will have to enable this in your profile.)&lt;/p&gt;
+&lt;p&gt;We've also added the ability to play sounds on the "quick" bulk tasks like auditing for better accessibility. (You will have to enable this in your profile.)&lt;/p&gt;
 &lt;p&gt;We've also added a command-line utility that can help some folks who may have used the API to checkout assets without specifying an &lt;code&gt;assigned_type&lt;/code&gt;, and could get a 500 error when trying to view those assets. (We have since improved the API validation to require the &lt;code&gt;assigned_type&lt;/code&gt;, but older assets created via API could have had this issue.) &lt;a href="https://snipe-it.readme.io/docs/fix-missing-assigned-type"&gt;See the docs on that utility here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Up next, the &lt;a href="https://github.com/snipe/snipe-it/pull/15185"&gt;ability to checkout accessories to assets and locations&lt;/a&gt;. The functionality has been built, but there are some safeguards we still have to put in to make sure you cannot delete locations or assets that still have accessories associated with them. We &lt;a href="https://github.com/snipe/snipe-it/pull/15235"&gt;have a PR up for that&lt;/a&gt; and are working on it. &lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
