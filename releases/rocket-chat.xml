@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-08-15T09:31:20.860151-04:00</updated>
+  <updated>2024-08-15T10:31:24.254210-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -250,7 +250,37 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;What’s new&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Video conference persistent chat: Keep the conversation going long after the call ends! With this new feature, video conference apps can store chat messages using a unique discussion ID, so users can access their chats anytime through Rocket.Chat. Currently, the Pexip app supports this feature.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apps compatibility with persistent chat: Video conference apps can now mark themselves as compatible with Rocket.Chat's Persistent Chat feature. Apps can assign a discussion ID when a new video conference starts, and if they don't, Rocket.Chat will automatically create one. This ID can be reused across multiple conferences, making it easier to pick up right where you left off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Omnichannel PDF transcripts upgrade: System messages now appear in Omnichannel PDF and email transcripts! Plus, we've cut down the time it takes to generate PDF transcripts by pre-loading translations, so you'll see faster results when requesting those all-important records&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Experience improved navigation with size adjustments to the Header and Contextualbar, making them consistent with the sleek new global NavBar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In version 6.11, you can reorganize your sidebar to suit your workflow and customize it just as you like!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Bug fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AAC audio files now play smoothly on the web.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Attachment handling in Omnichannel emails: We've fixed an issue where attachments were sometimes being skipped in Omnichannel email transcripts. Now, images will be properly displayed, and you'll see a clear error message if an attachment can't be supported.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For more detailed information, check out our &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;Website release page&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
