@@ -1636,5 +1636,26 @@
         "CreatedAt": "2024-08-13 14:07:21+00:00",
         "Price": null,
         "Platform": "Android"
+    },
+    {
+        "Project": "Hubzilla",
+        "Reference": "hubzilla",
+        "Website": "https://hubzilla.org",
+        "Repository Link": "https://framagit.org/hubzilla/core",
+        "Description": "Community websites that can interact with each other",
+        "License": "MIT",
+        "Icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/hubzilla.webp",
+        "Icon Type": "Native",
+        "Source": "GitLab",
+        "Repository": "hubzilla/core",
+        "Stars": null,
+        "Stars (Display)": "k",
+        "Latest Version": null,
+        "Latest Commit": null,
+        "Latest Commit Color": "Red",
+        "Tags": "Platform",
+        "CreatedAt": "2024-08-15 11:46:06+00:00",
+        "Price": null,
+        "Platform": null
     }
 ]
