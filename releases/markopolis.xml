@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Markopolis Releases</title>
-  <updated>2024-08-15T09:33:33.545006-04:00</updated>
+  <updated>2024-08-15T14:45:59.183147-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -40,5 +40,25 @@
 &lt;li&gt;Theme improvements   &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/rishikanthc/markopolis/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rishikanthc/markopolis/releases/tag/v0.3.0</id>
+    <title>New release for Markopolis: v0.3.0</title>
+    <updated>2024-08-15T10:31:44-04:00</updated>
+    <author>
+      <name>rishikanthc/markopolis</name>
+    </author>
+    <content>&lt;p&gt;Adds support for callouts and mermaid charts&lt;/p&gt;</content>
+    <link href="https://github.com/rishikanthc/markopolis/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rishikanthc/markopolis/releases/tag/v0.3.1</id>
+    <title>New release for Markopolis: v0.3.1</title>
+    <updated>2024-08-15T14:16:42-04:00</updated>
+    <author>
+      <name>rishikanthc/markopolis</name>
+    </author>
+    <content>&lt;p&gt;Fixed a bug with mermaid.js charts rendering&lt;/p&gt;</content>
+    <link href="https://github.com/rishikanthc/markopolis/releases/tag/v0.3.1" rel="alternate"/>
   </entry>
 </feed>
