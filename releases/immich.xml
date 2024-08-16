@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-08-16T16:30:38.338340-04:00</updated>
+  <updated>2024-08-16T17:30:41.379214-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -322,7 +322,9 @@ If you use CUDA for machine learning, the minimum NVIDIA driver version is now 5
 &lt;h3&gt;Always-on screen for foreground upload&lt;/h3&gt;
 &lt;p&gt;When entering the backup screen and running foreground backup, the screen will now stay on and automatically darken after 30 seconds.&lt;/p&gt;
 &lt;h3&gt;New search models&lt;/h3&gt;
-&lt;p&gt;Immich now supports a set of newer models with very competitive performance. See #11468 for details and visualizations.&lt;/p&gt;
+&lt;p&gt;Immich now supports a set of newer models with very competitive performance.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="recommended_monolingual_openclip_models" src="https://github.com/user-attachments/assets/aeebeaed-df1e-41bf-9b41-56d583eda8ab" /&gt;&lt;/p&gt;
+&lt;p&gt;Higher MACs implies the model is slower and vice versa.&lt;/p&gt;
 &lt;p&gt;A special mention goes to &lt;code&gt;ViT-B-16-SigLIP__webli&lt;/code&gt;, which outperforms several much larger ViT-L models despite being the same size as the default model. However, it is a bit slower than the default. At the same size, &lt;code&gt;ViT-B-16-SigLIP-384__webli&lt;/code&gt; is among the best models period, at the cost of being much slower than other models of its size. It's ideal for memory-constrained environments that still want the best quality.&lt;/p&gt;
 &lt;h2&gt;Support Immich&lt;/h2&gt;
 &lt;p align="center"&gt;
