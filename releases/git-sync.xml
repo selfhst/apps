@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Git-Sync Releases</title>
-  <updated>2024-08-16T13:33:38.992793-04:00</updated>
+  <updated>2024-08-16T14:33:33.463599-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,7 +66,7 @@
       <name>AkashRajpurohit/git-sync</name>
     </author>
     <content>&lt;h1&gt;What's New&lt;/h1&gt;
-&lt;p&gt;With this release, now git-sync allows user's to be able to synchronize not just code repositories but also Wiki's! 🎉
+&lt;p&gt;With this release, now git-sync allows users to be able to synchronize not just code repositories but also Wiki's! 🎉
 To include wiki's in your backup process, add the &lt;code&gt;include_wiki&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your config file.&lt;/p&gt;
 &lt;h2&gt;⚠️ Breaking Change&lt;/h2&gt;
 &lt;p&gt;While the addition of new config key &lt;code&gt;include_wiki&lt;/code&gt; is optional, the breaking change is about the folder structure on your local system where the backups are created. The new structure will be like this:
