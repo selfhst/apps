@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Subatic Releases</title>
-  <updated>2024-08-15T21:33:25.011096-04:00</updated>
+  <updated>2024-08-15T22:33:24.630393-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -63,5 +63,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/orthdron/subatic/compare/2.4...2.41&lt;/p&gt;</content>
     <link href="https://github.com/orthdron/subatic/releases/tag/2.41" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/orthdron/subatic/releases/tag/2.42</id>
+    <title>New release for Subatic: 2.42</title>
+    <updated>2024-08-15T22:16:02-04:00</updated>
+    <author>
+      <name>orthdron/subatic</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug fixes by @orthdron in https://github.com/orthdron/subatic/pull/19&lt;/li&gt;
+&lt;li&gt;Asset files by @orthdron in https://github.com/orthdron/subatic/pull/20&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/orthdron/subatic/compare/2.4...2.42&lt;/p&gt;</content>
+    <link href="https://github.com/orthdron/subatic/releases/tag/2.42" rel="alternate"/>
   </entry>
 </feed>
