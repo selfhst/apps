@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-08-18T09:30:56.051507-04:00</updated>
+  <updated>2024-08-18T10:30:53.776372-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -331,6 +331,10 @@ The minimum required Ruby version has been bumped to 3.0 in Mastodon v4.1.14.&lt
   &lt;img alt="Mastodon" src="./lib/assets/wordmark.light.png?raw=true" height="34"&gt;
 &lt;/picture&gt;&lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+This release has a known issue, causing mentions from local users with elevated roles failing to generate notifications.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
