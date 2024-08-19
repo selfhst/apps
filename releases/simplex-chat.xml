@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2024-08-19T11:31:31.685966-04:00</updated>
+  <updated>2024-08-19T12:31:31.131450-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -520,13 +520,13 @@
 &lt;p&gt;SHA2-512(simplex-chat-ubuntu-20_04-x86-64)= 96c287832fa46dfc369c6c96a75c31d9f1e312c888b8b9e96570863c887b3cf2db25210bff2c1da7176b4ec40e567064185c7c402ec024acc29d09f022583144&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-chat-ubuntu-22_04-x86-64)= c6435737ab457879fe3f075c5efbcc6b742fc5509931c37fc3ddcc23e8eb98da8cffd54a95332313bf40c207c029063c1cf93e28b659ba80009927fb654bb885&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-chat-macos-aarch64)= 00c3755ca62091463ed6af7aeef4c9dec8ec27f424dbf0f2bf74bad15647ccdb2364c2f73e8f4540ef82191881f0110501df922797d4ee22280386806e333564&lt;/p&gt;
-&lt;p&gt;SHA2-512(simplex-chat-macos-x86-64)= f24b66411046c3fce1252b335faaf65c805236aaddcf2a0496eb80779173691fbc98d843bbc58739dae135070f87f6d53cdc5f3eafa84ff96926a90b1e6c725f&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-chat-windows-x86-64)= 89c89e0a161c5c6277e7b915644ba55bd16fdbdebbe53ab59b19d723afc99ca245f9a3ff67ba2dbb8c3aedd58fe24b1b4e968c422f3d90749439c7d625091b58&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-ubuntu-20_04-x86_64.deb)= 29954a2f3b5a57377b556d5918ea7d012eda4c6075949517a54a6fd4a368997f0d72288757131f89fcdf640a848631022016778fd884d7768d6004ff5d5e20e2&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-x86_64.AppImage)= 19f73b72701e604ac9a779f453514ecc00063ee0158d541556d16ebc9e982b444c89da86e92caf7b18d887c8ec9ac49119bba922f60e7a95617b5f236d70c411&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-ubuntu-22_04-x86_64.deb)= cb0e0411376ee315ee08063674d871fc2192a88091af9b04f89679bb20b9ab48fa07f7951ae97fd877df6b8d73c92601ef2ef1a3e3b657c7a0a8202dbeddb328&lt;/p&gt;
 &lt;p&gt;SHA2-512(simplex-desktop-macos-aarch64.dmg)= 658567eea427959f8a0b41d30fbca0b45a0d90c3920a9db80e16c6abc8fec75295400f445ca875838f21b8372fb586b130652ff33b198ae415058f4406e22e7f&lt;/p&gt;
-&lt;p&gt;SHA2-512(simplex-desktop-windows-x86_64.msi)= cdddff63668f9420e60f35d406674accb9ff53d899f26b318d922947fc2cd6e0bfd50f219367c3635780d6a2b19a3acc1ea8d44747bdf7ca136f1a96e20c291a&lt;/p&gt;</content>
+&lt;p&gt;SHA2-512(simplex-desktop-windows-x86_64.msi)= cdddff63668f9420e60f35d406674accb9ff53d899f26b318d922947fc2cd6e0bfd50f219367c3635780d6a2b19a3acc1ea8d44747bdf7ca136f1a96e20c291a&lt;/p&gt;
+&lt;p&gt;SHA2-512(simplex-chat-macos-x86-64)= f24b66411046c3fce1252b335faaf65c805236aaddcf2a0496eb80779173691fbc98d843bbc58739dae135070f87f6d53cdc5f3eafa84ff96926a90b1e6c725f&lt;/p&gt;</content>
     <link href="https://github.com/simplex-chat/simplex-chat/releases/tag/v6.0.1" rel="alternate"/>
   </entry>
 </feed>
