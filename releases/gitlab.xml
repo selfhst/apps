@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-08-19T12:30:31.201825-04:00</updated>
+  <updated>2024-08-19T13:30:31.510176-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -943,8 +943,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="19 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=19&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2252 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2252&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="21 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=21&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2254 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2254&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Omnibus improvements](https://docs.gitlab.com/omnibus/) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;Omnibus Package&lt;/code&gt;&lt;/summary&gt;
 
 &gt; GitLab 17.3 includes packages for supporting [Raspberry Pi OS 12](https://www.raspberrypi.com/news/bookworm-the-new-version-of-raspberry-pi-os/).
@@ -1087,6 +1087,18 @@
 &lt;/details&gt;
 
 &lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Filter the member list in a group or project by role](https://docs.gitlab.com/ee/user/project/members/index.html): &lt;code&gt;Permissions&lt;/code&gt;&lt;/summary&gt;
+
+&gt; Users can now filter the Members page by role. Use the filter to find members with a specific role.
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[View role details in the right drawer](https://docs.gitlab.com/ee/user/custom_roles.html): &lt;code&gt;Permissions&lt;/code&gt;&lt;/summary&gt;
+
+&gt; Previously, if you wanted to view permissions for the custom roles of a user, you had to have the Owner role in the group. This requirement made it difficult to troubleshoot and understand what actions a user can perform when assigned a custom role. Now, any user can view the permissions of a user assigned a custom role in the Members page.
+
+&lt;/details&gt;
+
 &lt;details&gt;&lt;summary&gt;[Disable personal access tokens using Admin UI](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#use-the-admin-ui) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Administrators can now disable or re-enable instance personal access tokens through the Admin UI. Previously, administrators had to use the application settings API or the GitLab Rails console to do this.  
