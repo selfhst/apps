@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-08-19T03:31:23.860598-04:00</updated>
+  <updated>2024-08-19T04:31:20.452265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,5 +83,23 @@
 &lt;li&gt;You will need to re-do the setup process after updating to this release. Your previous settings will stay intact, but you will have to re-save them.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RaunoT/plex-rewind/releases/tag/v4.0.1</id>
+    <title>New release for Plex Rewind: v4.0.1</title>
+    <updated>2024-08-19T04:23:08-04:00</updated>
+    <author>
+      <name>RaunoT/plex-rewind</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v4.0.0...v4.0.1"&gt;4.0.1&lt;/a&gt; (2024-08-19)&lt;/h2&gt;
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config:&lt;/strong&gt; initial setup redirection loop on login (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/e6d2eae2fd50eeb7780c2076a79de2a7d33fb952"&gt;e6d2eae&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🛠️ Other Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;use cache for docker, update release logic (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/ccab0fff5086cd3dff5a3afd72ecdabd0ce63f8a"&gt;ccab0ff&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.0.1" rel="alternate"/>
   </entry>
 </feed>
