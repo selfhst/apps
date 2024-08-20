@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sink Releases</title>
-  <updated>2024-08-20T09:33:16.909848-04:00</updated>
+  <updated>2024-08-20T10:33:15.516124-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,5 +90,28 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ccbikai/Sink/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
     <link href="https://github.com/ccbikai/Sink/releases/tag/v0.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ccbikai/Sink/releases/tag/v0.1.4</id>
+    <title>New release for Sink: v0.1.4</title>
+    <updated>2024-08-20T09:33:53-04:00</updated>
+    <author>
+      <name>ccbikai/Sink</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: improve slug readability by @fqd511 in https://github.com/ccbikai/Sink/pull/28&lt;/li&gt;
+&lt;li&gt;feat: upgrade NuxtHub, optimize local development experience with hubAI, and upgrade the default model to llama-3.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Login error https://github.com/ccbikai/Sink/issues/44&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@fqd511 made their first contribution in https://github.com/ccbikai/Sink/pull/28&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ccbikai/Sink/compare/v0.1.3...v0.1.4&lt;/p&gt;</content>
+    <link href="https://github.com/ccbikai/Sink/releases/tag/v0.1.4" rel="alternate"/>
   </entry>
 </feed>
