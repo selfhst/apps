@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pixelfed Releases</title>
-  <updated>2024-08-20T03:33:59.779890-04:00</updated>
+  <updated>2024-08-20T04:34:03.173651-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,33 @@
 &lt;li&gt;Now using Android API 34&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.66" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.67</id>
+    <title>New release for Pixelfed: v1.0.0.67</title>
+    <updated>2024-08-20T03:39:04-04:00</updated>
+    <author>
+      <name>pixelfed/pixelfed-rn</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Fixed home/public feed pagination&lt;/li&gt;
+&lt;li&gt;Fixed share/like button crash&lt;/li&gt;
+&lt;li&gt;Fixed caption username button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Join the Beta&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;a href="https://fdroid.pixelfed.net/fdroid/repo/"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/fdroid.png" width="160"&gt;
+  &lt;/a&gt;
+  &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  &lt;a href="https://pixelfed.org/go/testflight-ios-beta"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/testflight.png" width="165"&gt;
+  &lt;/a&gt;
+  &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  &lt;a href="https://play.google.com/apps/testing/com.pixelfed"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/google-play.png" width="180"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;</content>
+    <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.67" rel="alternate"/>
   </entry>
 </feed>
