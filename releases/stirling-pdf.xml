@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-08-20T16:31:34.356559-04:00</updated>
+  <updated>2024-08-20T17:31:35.450590-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -294,7 +294,7 @@ https://stirlingpdf.info/s/clwzgtfw7000gltkmwz1n212m&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v0.28.2</id>
-    <title>New release for Stirling PDF: v0.28.2 WEBP support and Bug fixes</title>
+    <title>New release for Stirling PDF: 0.28.2 WEBP support and Bug fixes</title>
     <updated>2024-08-20T12:52:39-04:00</updated>
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
