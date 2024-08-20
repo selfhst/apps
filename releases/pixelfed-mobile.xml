@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pixelfed Releases</title>
-  <updated>2024-08-20T05:34:02.951509-04:00</updated>
+  <updated>2024-08-20T06:33:59.311549-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,5 +61,34 @@
   &lt;/a&gt;
 &lt;/p&gt;</content>
     <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.67" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.68</id>
+    <title>New release for Pixelfed: v1.0.0.68</title>
+    <updated>2024-08-20T05:56:55-04:00</updated>
+    <author>
+      <name>pixelfed/pixelfed-rn</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Fixed comment reply input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Join the Beta&lt;/h2&gt;
+&lt;p align="center"&gt;
+  &lt;a href="https://fdroid.pixelfed.net/fdroid/repo/"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/fdroid.png" width="160"&gt;
+  &lt;/a&gt;
+  &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  &lt;a href="https://pixelfed.org/go/testflight-ios-beta"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/testflight.png" width="165"&gt;
+  &lt;/a&gt;
+  &amp;nbsp; &amp;nbsp; &amp;nbsp;
+  &lt;a href="https://play.google.com/apps/testing/com.pixelfed"&gt;
+    &lt;img src="https://pixelfed.nyc3.cdn.digitaloceanspaces.com/media/google-play.png" width="180"&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Screenshot of fix&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot_20240820_034114_pixelfed" src="https://github.com/user-attachments/assets/01cad38d-b825-496a-97e4-37598328fd44" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.68" rel="alternate"/>
   </entry>
 </feed>
