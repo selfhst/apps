@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanidm Releases</title>
-  <updated>2024-08-20T19:33:00.053383-04:00</updated>
+  <updated>2024-08-20T20:33:03.364147-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -191,7 +191,7 @@ as this may have important effects on your distribution or upgrades in future.&l
     <author>
       <name>kanidm/kanidm</name>
     </author>
-    <content>&lt;h2&gt;2024-08-10 - Kanidm 1.3.3 Patch&lt;/h2&gt;
+    <content>&lt;h2&gt;2024-08-20 - Kanidm 1.3.3 Patch&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;A required re-index of the database was not correctly executed when upgrading from 1.2.x to 1.3.x. This triggers the re-index to occur on next server restart.&lt;/li&gt;
 &lt;li&gt;Substring indexes on mail attributes via ldap matched no entries. &lt;/li&gt;
