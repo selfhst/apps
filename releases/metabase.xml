@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-08-21T11:31:52.767621-04:00</updated>
+  <updated>2024-08-21T12:31:49.338838-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -302,6 +302,7 @@ Download the JAR here: https://downloads.metabase.com/v0.50.21/metabase.jar&lt;/
 **Administration**
 
 - Remove settings encryption of `analytics-uuid` and `anon-tracking-enabled` (#42651)
+- Add no-access table-level and schema-level permission (#46542)
 
 **Embedding**
 
@@ -320,7 +321,6 @@ Download the JAR here: https://downloads.metabase.com/v0.50.21/metabase.jar&lt;/
 - fix import order (#47069)
 - fix: upgrade elliptic to resolve security issues (#47014)
 - add import sorting inside destructuring (#46962)
-- Add no-access table-level and schema-level permission (#46542)
 - Simple util to measure allocations for single-threaded code (#46951)
 - [serdes] extract-nested instead of relying on hydration (#46912)
 - fix: Use 'loading-indicator', not 'loading-spinner', as the testid for loading indicators (#46842)
@@ -328,8 +328,6 @@ Download the JAR here: https://downloads.metabase.com/v0.50.21/metabase.jar&lt;/
 - Don't disable triggers before data perms migration (#46826)
 - [Manual Backport] Allow disabling encryption for settings (#43085) (#46773)
 - Put a band-aid around flake with spec generator (#46762)
-- - Add no-access table-level and schema-level permission (#46542)
-
 - [FE] Update PulseChannelEdit component to functional / typed component (#46657)
 - Speed up updating user parameter value (#46615)
 - Update Translations for v50.21 (#46609)
