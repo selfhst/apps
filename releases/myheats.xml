@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MyHeats Releases</title>
-  <updated>2024-08-21T17:32:25.559013-04:00</updated>
+  <updated>2024-08-21T18:32:24.703805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -239,9 +239,10 @@ Attention: You need to re-authenticate spotify with Music Assistant once.&lt;/p&
     <author>
       <name>music-assistant/server</name>
     </author>
-    <content>&lt;h2&gt;ATTENTION SPOTIFY USERS:&lt;/h2&gt;
+    <content>&lt;h2&gt;What’s Changed&lt;/h2&gt;
+&lt;h3&gt;Server 2.2.0&lt;/h3&gt;
+&lt;h2&gt;ATTENTION SPOTIFY USERS:&lt;/h2&gt;
 &lt;p&gt;This release requires you (again) to re-authenticate but the good news is that we managed to get a full (official/recommended) PKCE login flow going for both library management and playback. Simple username and password is no longer possible due to the fact Spotify removed support for that.&lt;/p&gt;
-&lt;h2&gt;What’s Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;h1&gt;1589 - frontend-2.8.7 (@music-assistant-machine)&lt;/h1&gt;
@@ -307,7 +308,12 @@ Attention: You need to re-authenticate spotify with Music Assistant once.&lt;/p&
 &lt;h1&gt;1566 - Add demo/template providers (@marcelveldt)&lt;/h1&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Frontend 2.8.7&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Small fix for playlist dialog&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;⬆️ Dependencies&lt;/h2&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;4 changes&lt;/summary&gt;
 
@@ -315,7 +321,9 @@ Attention: You need to re-authenticate spotify with Music Assistant once.&lt;/p&
 - #1581 - Bump plexapi from 4.15.15 to 4.15.16 (@dependabot)
 - #1580 - Bump aiohttp from 3.10.3 to 3.10.4 (@dependabot)
 - #1565 - Bump docker/build-push-action from 6.6.1 to 6.7.0 (@dependabot)
-&lt;/details&gt;</content>
+&lt;/details&gt;
+
+&lt;h3&gt;Frontend&lt;/h3&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.2.0" rel="alternate"/>
   </entry>
 </feed>
