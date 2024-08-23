@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Power Tools Releases</title>
-  <updated>2024-08-23T14:33:03.824674-04:00</updated>
+  <updated>2024-08-23T15:33:07.988869-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,9 +81,9 @@ Why This Feature?&lt;/p&gt;
     <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.7</id>
+    <id>https://github.com/varun-raj/immich-power-tools/releases/tag/v.0.1.7</id>
     <title>New release for Immich Power Tools: 0.1.7 - Smart Face Merge Suggestions, Easy Setup &amp; Bug Fixes 🚀</title>
-    <updated>2024-08-23T14:32:27-04:00</updated>
+    <updated>2024-08-23T14:35:42-04:00</updated>
     <author>
       <name>varun-raj/immich-power-tools</name>
     </author>
@@ -100,6 +100,6 @@ Why This Feature?&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Checkout the demo video here: https://www.loom.com/share/17e32bd7799d4339a635d54552d5ccc1?sid=d1bb8b7a-98f5-48dc-9142-c32e33dd6a09&lt;/p&gt;</content>
-    <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.7" rel="alternate"/>
+    <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v.0.1.7" rel="alternate"/>
   </entry>
 </feed>
