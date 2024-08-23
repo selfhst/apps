@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Power Tools Releases</title>
-  <updated>2024-08-23T13:33:03.996123-04:00</updated>
+  <updated>2024-08-23T14:33:03.824674-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -79,5 +79,27 @@ Why This Feature?&lt;/p&gt;
 &lt;p&gt;More features are coming soon! Stay tunes for updates.&lt;/p&gt;
 &lt;p&gt;Read the full changelog here -&amp;gt; https://immich-power-tools.featureos.app/changelog/0-1-6-people-filtering-sorting&lt;/p&gt;</content>
     <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.7</id>
+    <title>New release for Immich Power Tools: 0.1.7 - Smart Face Merge Suggestions, Easy Setup &amp; Bug Fixes 🚀</title>
+    <updated>2024-08-23T14:32:27-04:00</updated>
+    <author>
+      <name>varun-raj/immich-power-tools</name>
+    </author>
+    <content>&lt;p&gt;&lt;img width="538" alt="image" src="https://github.com/user-attachments/assets/d98ca92f-df5c-4070-9f83-1d150b5649ab"&gt;&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Smart Suggestions&lt;/strong&gt;: Now when you open the merge modal inside the people listing you will be presenting with the other faces that looks similar to the select one, this helps you select and merge faster. Now power tools also support multiple people merge upto 5 people.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Easy Setup&lt;/strong&gt;: Power tools now uses the same ENV variables as immich, so you can just point to your existing ENV that you used in your docker compose and just add &lt;code&gt;IMMICH_API_KEY&lt;/code&gt; and start the service. Thanks to @sai80082 for the contributions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixes&lt;/strong&gt; &lt;ul&gt;
+&lt;li&gt;I added ownerId filtering for assets to prevent showing other user assets in the interface&lt;/li&gt;
+&lt;li&gt;Design fixes across the platform&lt;/li&gt;
+&lt;li&gt;Removed unwanted console logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Checkout the demo video here: https://www.loom.com/share/17e32bd7799d4339a635d54552d5ccc1?sid=d1bb8b7a-98f5-48dc-9142-c32e33dd6a09&lt;/p&gt;</content>
+    <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.1.7" rel="alternate"/>
   </entry>
 </feed>
