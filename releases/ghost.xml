@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-08-23T11:30:23.122628-04:00</updated>
+  <updated>2024-08-23T12:30:23.246828-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,10 +82,6 @@
 &lt;li&gt;🐛 Fixed shift selection in the posts list (#20818) - Steve Larson&lt;/li&gt;
 &lt;li&gt;🐛 Fixed fetching labels and offers in the editor (#20815) - Steve Larson&lt;/li&gt;
 &lt;li&gt;🐛 Fixed frontend routing prioritizing collections over built in routes (#20765) - Chris Raible&lt;/li&gt;
-&lt;li&gt;🐛 Fixed editor performance issues in Safari for posts with HTML or Markdown cards (#20806) - Ronald Langeveld&lt;/li&gt;
-&lt;li&gt;🐛 Fixed editor unsaved changes modal showing too often (#20787) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed autosave not triggering when in-editor excerpt is changed (#20785) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed a bug causing new drafts to only save if the title is populated (#20769) - Chris Raible&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;View the changelog for full details: https://github.com/tryghost/ghost/compare/v5.89.6...v5.90.0&lt;/p&gt;</content>
