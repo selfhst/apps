@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-08-23T23:30:52.634452-04:00</updated>
+  <updated>2024-08-24T00:30:52.833202-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,7 +169,7 @@
     <content>&lt;h2&gt;paperless-ngx 2.11.6&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]&lt;br /&gt;
-Paperless-ngx v2.11.6 fixes an issue with one of our dependencies that prevented uploading files in version 2.11.5.&lt;/p&gt;
+Paperless-ngx v2.11.6 fixes an issue with one of our dependencies that prevented uploading files in version 2.11.5. "Bare-metal" users may need to re-download the &lt;a href="https://www.nltk.org/data.html"&gt;NLTK data&lt;/a&gt; to &lt;code&gt;/usr/share/nltk_data&lt;/code&gt; (see &lt;a href="https://docs.paperless-ngx.com/setup/#bare_metal"&gt;the docs&lt;/a&gt;).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
