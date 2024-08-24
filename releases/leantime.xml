@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2024-08-24T16:30:37.664015-04:00</updated>
+  <updated>2024-08-24T17:30:37.478802-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,7 +129,25 @@
       <name>Leantime/leantime</name>
     </author>
     <content>&lt;h2&gt;Changes in this Release&lt;/h2&gt;
-&lt;p&gt;History from &lt;code&gt;v3.2.0-beta-2&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Before upgrading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Before you upgrade please disable all installed plugins. Once the upgrade is complete each plugin must be re-installed to get the latest version. &lt;/li&gt;
+&lt;li&gt;When updating manually (copy pasting code) please ensure to remove old unneded classes in the core folder. It is best to do a full replace. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The jsonRPC api was changed in various places. Please ensure to test any api integrations&lt;/li&gt;
+&lt;li&gt;All plugins will need to be updated after an upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Session management is now handled via laravel. Solving a lot of our timeout and logout issues&lt;/li&gt;
+&lt;li&gt;Improved logging and exception handling&lt;/li&gt;
+&lt;li&gt;jsonRPCApi received a lot of new endpoints &lt;/li&gt;
+&lt;li&gt;Support for Zapier was created. The Zapier integration is in alpha. You can access the private app here: https://zapier.com/developer/public-invite/207240/cac6ec7a911bd5fa7924f38230d58d2f/&lt;/li&gt;
+&lt;li&gt;Fixed various issues on CSV importer &lt;/li&gt;
+&lt;li&gt;A lot of clean up of our core code&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Commits&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;223cf2e4 [Changelog CI] Add Changelog for Version 3.2.0&lt;/li&gt;
