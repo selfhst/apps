@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MQTT Web Interface Releases</title>
-  <updated>2024-08-24T18:32:46.548813-04:00</updated>
+  <updated>2024-08-24T19:32:45.912667-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,15 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/terdia/mqttui/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/terdia/mqttui/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/terdia/mqttui/releases/tag/v1.0.2</id>
+    <title>New release for MQTT Web Interface: v1.0.2</title>
+    <updated>2024-08-24T19:00:12-04:00</updated>
+    <author>
+      <name>terdia/mqttui</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/terdia/mqttui/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/terdia/mqttui/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
