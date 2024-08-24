@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2024-08-24T15:30:37.379366-04:00</updated>
+  <updated>2024-08-24T16:30:37.664015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,30 +124,16 @@
   <entry>
     <id>https://github.com/Leantime/leantime/releases/tag/v3.2.0</id>
     <title>New release for Leantime: Leantime v3.2.0</title>
-    <updated>2024-08-24T10:06:57-04:00</updated>
+    <updated>2024-08-24T16:13:31-04:00</updated>
     <author>
       <name>Leantime/leantime</name>
     </author>
-    <content>&lt;h3&gt;🚨 Before updating&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Various changes affect all plugins. Before you update please disable all active plugins. Once the core update completed you can install updated versions through the marketplace &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🚧 Breaking Changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Session management was updated&lt;/li&gt;
-&lt;li&gt;Several Core files have moved&lt;/li&gt;
-&lt;li&gt;jsonAPI was updated and several endpoints or parameter names may have changed. Please test your api integrations thoroughly&lt;/li&gt;
-&lt;li&gt;Various bugfixes &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🎉 Highlights&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Significant improvements and updates to the jsonRPC api. &lt;/li&gt;
-&lt;li&gt;Switched to use Laravel Session Management improving session performance&lt;/li&gt;
-&lt;li&gt;New logging and exception management improves error handling&lt;/li&gt;
-&lt;li&gt;Support for Zapier App Integrations was added. You can test the alpha version via this &lt;a href="https://zapier.com/developer/public-invite/207240/cac6ec7a911bd5fa7924f38230d58d2f/"&gt;Leantime 1.0 Zapier App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+    <content>&lt;h2&gt;Changes in this Release&lt;/h2&gt;
+&lt;p&gt;History from &lt;code&gt;v3.2.0-beta-2&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Commits&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;223cf2e4 [Changelog CI] Add Changelog for Version 3.2.0&lt;/li&gt;
+&lt;li&gt;2ad43d2e Fixes to version management for plugins&lt;/li&gt;
 &lt;li&gt;53e546fb [Changelog CI] Add Changelog for Version 3.2.0&lt;/li&gt;
 &lt;li&gt;7c272f9a Update release.yml&lt;/li&gt;
 &lt;li&gt;3be56986 file list&lt;/li&gt;
@@ -248,7 +234,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Contributors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Marcel Folaron (57 commits)&lt;/li&gt;
+&lt;li&gt;Marcel Folaron (58 commits)&lt;/li&gt;
 &lt;li&gt;kylemcshea (22 commits)&lt;/li&gt;
 &lt;li&gt;DESKTOP-SVBVC1U\HP (7 commits)&lt;/li&gt;
 &lt;li&gt;Sine Jespersen (4 commits)&lt;/li&gt;
@@ -272,12 +258,13 @@
  .github/workflows/release.yml                      |   26 +-
  .gitignore                                         |    1 -
  .idea/blade.xml                                    |  119 +
+ .idea/codeception.xml                              |    5 +-
  .idea/encodings.xml                                |    6 +
  .idea/laravel-idea.xml                             |    6 +
- .idea/leantime-oss.iml                             |   34 +-
- .idea/php.xml                                      |  112 +-
- .idea/phpspec.xml                                  |   24 +
- CHANGELOG.md                                       |   87 +
+ .idea/leantime-oss.iml                             |   33 +-
+ .idea/php.xml                                      |  113 +-
+ .idea/phpspec.xml                                  |   27 +
+ CHANGELOG.md                                       |  157 ++
  CONTRIBUTING.md                                    |    2 +-
  README.md                                          |    2 +-
  app/Command/BackupDbCommand.php                    |    5 +-
@@ -302,7 +289,7 @@
  .../DispatchesEvents.php}                          |    8 +-
  .../{Events.php =&amp;gt; Events/EventDispatcher.php}     |  130 +-
  app/Core/ExceptionHandler.php                      |   74 -
- app/Core/Exceptions/ExceptionHandler.php           |  599 +++++
+ app/Core/Exceptions/ExceptionHandler.php           |  600 +++++
  app/Core/Exceptions/HandleExceptions.php           |  361 +++
  app/Core/Exceptions/InvalidArgumentException.php   |   25 +
  app/Core/Exceptions/ReportableHandler.php          |   82 +
@@ -512,8 +499,9 @@
  app/Domain/Plugins/Controllers/Myapps.php          |    8 +-
  app/Domain/Plugins/Hxcontrollers/Details.php       |    7 +-
  .../Plugins/Hxcontrollers/Marketplaceplugins.php   |    2 +-
+ app/Domain/Plugins/Models/MarketplacePlugin.php    |    1 +
  app/Domain/Plugins/Repositories/Plugins.php        |    2 +-
- app/Domain/Plugins/Services/Plugins.php            |   24 +-
+ app/Domain/Plugins/Services/Plugins.php            |   25 +-
  app/Domain/Plugins/register.php                    |    7 +-
  .../Projects/Controllers/ChangeCurrentProject.php  |    6 +-
  app/Domain/Projects/Controllers/Createnew.php      |   13 +-
@@ -680,7 +668,7 @@
  .../Core/{ApiSessionTest.php =&amp;gt; ApiClientTest.php} |   19 +-
  tests/Unit/app/Core/EventsTest.php                 |   22 +-
  tests/bootstrap.php                                |   16 +-
- 422 files changed, 9528 insertions(+), 5724 deletions(-)&lt;/code&gt;&lt;/p&gt;</content>
+ 424 files changed, 9608 insertions(+), 5725 deletions(-)&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/Leantime/leantime/releases/tag/v3.2.0" rel="alternate"/>
   </entry>
 </feed>
