@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bigcapital Releases</title>
-  <updated>2024-08-25T07:30:08.669376-04:00</updated>
+  <updated>2024-08-25T08:30:08.236015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,9 +89,9 @@
     <link href="https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.19.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.19.7</id>
-    <title>New release for Bigcapital: v0.19.7</title>
-    <updated>2024-08-25T07:21:58-04:00</updated>
+    <id>https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.19.8</id>
+    <title>New release for Bigcapital: v0.19.8</title>
+    <updated>2024-08-25T08:19:03-04:00</updated>
     <author>
       <name>bigcapitalhq/bigcapital</name>
     </author>
@@ -112,7 +112,7 @@
 &lt;ul&gt;
 &lt;li&gt;@wolone made their first contribution in https://github.com/bigcapitalhq/bigcapital/pull/622&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bigcapitalhq/bigcapital/compare/v0.19.6...v0.19.7&lt;/p&gt;</content>
-    <link href="https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.19.7" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bigcapitalhq/bigcapital/compare/v0.19.6...v0.19.8&lt;/p&gt;</content>
+    <link href="https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.19.8" rel="alternate"/>
   </entry>
 </feed>
