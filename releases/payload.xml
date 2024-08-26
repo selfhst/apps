@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-08-26T13:31:47.722850-04:00</updated>
+  <updated>2024-08-26T14:31:41.878375-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,5 +97,24 @@
 &lt;li&gt;render singular label for &lt;code&gt;ArrayCell&lt;/code&gt; when length is 1 (&lt;a href="https://github.com/payloadcms/payload/issues/7585"&gt;#7585&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/fc4d24aa8889ac9be76059a92478d5532b142b5c"&gt;fc4d24a&lt;/a&gt;), closes &lt;a href="https://github.com/payloadcms/payload/issues/6099"&gt;#6099&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/payloadcms/payload/releases/tag/v2.26.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/payloadcms/payload/releases/tag/v2.27.0</id>
+    <title>New release for Payload: </title>
+    <updated>2024-08-26T14:03:40-04:00</updated>
+    <author>
+      <name>payloadcms/payload</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v2.26.0...v2.27.0"&gt;2.27.0&lt;/a&gt; (2024-08-26)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for custom image size file names (&lt;a href="https://github.com/payloadcms/payload/issues/7637"&gt;#7637&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/f97627092cabe4eabbebefa75afc53579188386b"&gt;f976270&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;upgrade react-toastify dependency, and upgrade to pnpm v9 in our monorepo (&lt;a href="https://github.com/payloadcms/payload/issues/7667"&gt;#7667&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/94d18e8d747588efce225cde0b621db9b513e7c1"&gt;94d18e8&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;update state of field if either &lt;code&gt;valid&lt;/code&gt; status or &lt;code&gt;errorMessage&lt;/code&gt; changes (&lt;a href="https://github.com/payloadcms/payload/issues/7632"&gt;#7632&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/c624eea0d868938f4603860fa25be3df580ba7fe"&gt;c624eea&lt;/a&gt;), closes &lt;a href="https://github.com/payloadcms/payload/issues/6413"&gt;#6413&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/payloadcms/payload/releases/tag/v2.27.0" rel="alternate"/>
   </entry>
 </feed>
