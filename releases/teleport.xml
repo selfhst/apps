@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-08-26T12:32:06.405694-04:00</updated>
+  <updated>2024-08-26T13:32:13.814313-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -196,7 +196,7 @@ to be updated.&lt;/p&gt;
 * Email (&lt;a href="https://cdn.teleport.dev/teleport-access-email-v15.4.16-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)
 * Microsoft Teams (&lt;a href="https://cdn.teleport.dev/teleport-access-msteams-v15.4.16-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;-- &lt;/p&gt;
-&lt;p&gt;labels: security-patch=yes, security-patch-alts=v15.4.13,v15.4.14&lt;/p&gt;</content>
+&lt;p&gt;labels: security-patch=yes, security-patch-alts=v15.4.13|v15.4.14&lt;/p&gt;</content>
     <link href="https://github.com/gravitational/teleport/releases/tag/v15.4.16" rel="alternate"/>
   </entry>
   <entry>
@@ -271,7 +271,7 @@ to be updated.&lt;/p&gt;
 * Email (&lt;a href="https://get.gravitational.com/teleport-access-email-v16.1.8-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)
 * Microsoft Teams (&lt;a href="https://get.gravitational.com/teleport-access-msteams-v16.1.8-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;labels: security-patch=yes, security-patch-alts=v16.1.5,v16.1.6&lt;/p&gt;</content>
+&lt;p&gt;labels: security-patch=yes, security-patch-alts=v16.1.5|v16.1.6&lt;/p&gt;</content>
     <link href="https://github.com/gravitational/teleport/releases/tag/v16.1.8" rel="alternate"/>
   </entry>
 </feed>
