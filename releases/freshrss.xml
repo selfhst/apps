@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FreshRSS Releases</title>
-  <updated>2024-08-26T02:30:21.690643-04:00</updated>
+  <updated>2024-08-26T03:30:21.811049-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -461,7 +461,7 @@ and newcomers @dservian, @crisukbot, @TomW1605&lt;/p&gt;
 &lt;li&gt;Misc.&lt;ul&gt;
 &lt;li&gt;Pass PHPStan &lt;a href="https://phpstan.org/user-guide/rule-levels"&gt;Level 9&lt;/a&gt; &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6544"&gt;#6544&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Migrate to ESLint 9 &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6685"&gt;#6685&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Minor update of PHPCS whitespace / formatting rules whitespace PHPCS rules &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6666"&gt;#6666&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Minor update of PHPCS whitespace / formatting rules &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6666"&gt;#6666&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Markdownlint no-trailing-spaces &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6668"&gt;#6668&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Removed sharing with Blogotext &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6225"&gt;#6225&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Code improvements &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/6043"&gt;#6043&lt;/a&gt;&lt;/li&gt;
