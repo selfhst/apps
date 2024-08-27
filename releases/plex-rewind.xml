@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-08-27T02:30:59.603132-04:00</updated>
+  <updated>2024-08-27T03:31:01.559511-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,10 +85,6 @@
 &lt;h3&gt;📝 Documentation&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;update unraid installation instructions (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/a1121d29646ce549dc911ba489adcb13808b6eb3"&gt;a1121d2&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🛠️ Other Changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;auth:&lt;/strong&gt; assume user object exists when session does (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/7973ca92cf96a99ba416abefc0f98a255d1ec245"&gt;7973ca9&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.1.0" rel="alternate"/>
   </entry>
