@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mergeable Releases</title>
-  <updated>2024-08-27T10:32:46.436180-04:00</updated>
+  <updated>2024-08-27T11:32:38.582169-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,5 +76,23 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pvcnt/mergeable/releases/tag/v0.4.0</id>
+    <title>New release for Mergeable: v0.4.0</title>
+    <updated>2024-08-27T11:26:47-04:00</updated>
+    <author>
+      <name>pvcnt/mergeable</name>
+    </author>
+    <content>&lt;p&gt;This is Mergeable v0.4.0 (beta).&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: support multiple queries in search string by @pvcnt in https://github.com/pvcnt/mergeable/pull/71&lt;/li&gt;
+&lt;li&gt;feat: implement an attention set by @pvcnt in https://github.com/pvcnt/mergeable/pull/68&lt;/li&gt;
+&lt;li&gt;docs: create a documentation website by @pvcnt in https://github.com/pvcnt/mergeable/pull/83&lt;/li&gt;
+&lt;li&gt;feat: report CI status in inbox by @pvcnt in https://github.com/pvcnt/mergeable/pull/91&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.3.0...v0.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>

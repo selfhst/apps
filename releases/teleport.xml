@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-08-27T10:32:15.152958-04:00</updated>
+  <updated>2024-08-27T11:32:09.793516-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -255,10 +255,10 @@ to be updated.&lt;/p&gt;
       <name>gravitational/teleport</name>
     </author>
     <content>&lt;h2&gt;Description&lt;/h2&gt;
-&lt;h3&gt;NLA Support&lt;/h3&gt;
-&lt;p&gt;Teleport now supports Network Level Authentication (NLA) when connecting to
-Windows hosts that are part of an Active Directory domain, eliminating the need
-for administrators to disable NLA when setting up Teleport.&lt;/p&gt;
+&lt;h3&gt;NLA Support for Windows Desktops&lt;/h3&gt;
+&lt;p&gt;Teleport now supports Network Level Authentication (NLA) when connecting to Windows hosts that are part of an Active Directory domain. NLA support is currently opt-in. It will be enabled by default in a future release.&lt;/p&gt;
+&lt;p&gt;To enable NLA, set the &lt;code&gt;TELEPORT_ENABLE_RDP_NLA&lt;/code&gt; environment variable to &lt;code&gt;yes&lt;/code&gt; on your &lt;code&gt;windows_desktop_service&lt;/code&gt; instances. It is not necessary to configure the Windows hosts to require NLA - Teleport's client will perform NLA when configured to do so, even if the server does not require it.&lt;/p&gt;
+&lt;p&gt;More information is available in the &lt;a href="https://goteleport.com/docs/enroll-resources/desktop-access/active-directory/#network-level-authentication-nla"&gt;Active Directory docs&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;DocumentDB IAM authentication support&lt;/h3&gt;
 &lt;p&gt;Teleport now supports authenticating to DocumentDB with IAM users and roles
 &lt;a href="https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-documentdb-iam-database-authentication/"&gt;recently released&lt;/a&gt;
