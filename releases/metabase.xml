@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-08-27T11:31:24.350946-04:00</updated>
+  <updated>2024-08-27T12:31:26.651552-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,15 +183,6 @@ Download the JAR here: https://downloads.metabase.com/v0.49.24/metabase.jar&lt;/
 
 - OOM errors during sync field values (#46411)
 
-### Already Fixed
-
-Issues confirmed to have been fixed in a previous release.
-
-
-
-### Under the Hood
-
-
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.49.24" rel="alternate"/>
@@ -321,66 +312,48 @@ Download the JAR here: https://downloads.metabase.com/v0.50.22/metabase.jar&lt;/
 
 ### Enhancements
 
-**Embedding**
+**Permissions**
 
-- Fix `docker-compose` not available on Mac (#47054)
+- Ensure blocked tables downgrade into blocked dbs (#47093)
+- Don't allow viewing a timeline without collection perms (#46863)
 
-**Querying**
+**Performance**
 
-- Fix SchemaItem type (#47068)
+- Use direct conversions in -&gt;millis-from-epoch to avoid clojure.java-time overhead (#47145)
+- Add a fastpath for timestamps that are likely ISO timestamps (#47143)
+- Reduce the number of API calls when getting field values for dashboard (#47113)
+
+**Serialization**
+
+- [serdes] keep nulls in export when there are nulls in the db (#47121)
+- [serdes] move Action to using spec (#46973)
+- [serdes] move most of the models over to using spec (#46966)
 
 **Other**
 
-- [serialization] extract subtree should hydrate entities (#47171)
 - Fix error message in Create API Key modal (#47161)
-- perf: [insights] Use direct conversions in -&gt;millis-from-epoch to avoid clojure.java-time overhead (#47145)
-- perf: [date-2.parse] Add a fastpath for timestamps that are likely ISO timestamps (#47143)
-- [serdes] a few improvements, instance_analytics cleanup script (#47136)
-- [serdes] extract result_metadata.fk_target_field_id (#47122)
-- [serdes] keep nulls in export when there are nulls in the db (#47121)
 - Add support for pipe separator in CSVs (#47114)
-- Fix n+1 when getting field values for dashboard (#47113)
-- fix auto request review fail (#47109)
-- Backport `cljfmt` config and run against 50 (#47108)
-- Decrypt all (?) existing boolean settings (#47101)
-- Ensure blocked tables downgrade into blocked dbs (#47093)
-- Get rid of selectors warnings from browser console (#47087)
 - Bump presto driver to v288 (#47071)
-- dx: forbid imports from storybook testing-library outside stories (#47056)
-- extending table component features (#47030)
-- [Permissions] Data permissions graph utils reorganization (#47023)
-- [serdes] move Action to using spec (#46973)
-- [serdes] move most of the models over to using spec (#46966)
-- Don't allow viewing a timeline without coll perms (#46863)
-- [Epic] Reduce the number of choices in onboarding flow (#46741)
-- Update all UTM tag to the new version (#45422)
-- [openapi] do not die when :query-params is not a map (#44549)
-- Make recents understand context (#43478)
+- Reduce the number of choices in onboarding flow (#46741)
+- Update UTM tags in static embed modal links (#45422)
 - Change the criteria for Recents in the Data Picker (#43300)
 
 ### Bug fixes
 
-**Administration**
-
-- Cannot use aggregations with numbers stored as strings in MySQL in v50 (#44431)
-
-**Database**
-
-- Date filters don't cast correct timezone type when filtering by Snowflake timestamp_tz columns (#46924)
-- Snowflake RSA Private Key stored in /tmp directory on single node in load balanced setup (#45393)
-
-**Organization**
-
-- /api/collection takes too much time in v50 (#46695)
-- Recents selection context gets diluted by recently viewed items. (#45003)
-
 **Querying**
 
 - Date field filter broken when choosing after/before a date (#47172)
+- Date filters don't cast correct timezone type when filtering by Snowflake timestamp_tz columns (#46924)
+- Recents selection context gets diluted by recently viewed items. (#45003)
 - Joining the Same Table Multiple Times Creates Buggy Behavior with Custom Expressions (#44940)
+- Cannot use aggregations with numbers stored as strings in MySQL in v50 (#44431)
 - "-modified" suffix briefly shown in a model's name input during creation (#42773)
 
-**Reporting**
+**Performance**
+
+- /api/collection takes too much time in v50 (#46695)
+
+**Exports**
 
 - Summarizing by minute will drop the day in the CSV (#47090)
 
@@ -391,19 +364,26 @@ Download the JAR here: https://downloads.metabase.com/v0.50.22/metabase.jar&lt;/
 
 **Other**
 
+- Snowflake RSA Private Key stored in /tmp directory on single node in load balanced setup (#45393)
 - Downgrading from 50 to 49 makes sandboxed tables not appear as sandboxed in permissions editor. (#47082)
-- Our `mu/defn` and `mu/fn` macros don't work correctly on functions with rest parameters and schemas (#46864)
 - Exiting a question picker modal launched by a Selectable values modal closes both modals (#46149)
-
-### Already Fixed
-
-Issues confirmed to have been fixed in a previous release.
-
-
 
 ### Under the Hood
 
-
+- [serialization] extract subtree should hydrate entities (#47171)
+- [serdes] a few improvements, instance_analytics cleanup script (#47136)
+- [serdes] extract result_metadata.fk_target_field_id (#47122)
+- fix auto request review fail (#47109)
+- Backport `cljfmt` config and run against 50 (#47108)
+- Decrypt all (?) existing boolean settings (#47101)
+- Get rid of selectors warnings from browser console (#47087)
+- Fix SchemaItem type (#47068)
+- dx: forbid imports from storybook testing-library outside stories (#47056)
+- Fix `docker-compose` not available on Mac (#47054)
+- extending table component features (#47030)
+- [Permissions] Data permissions graph utils reorganization (#47023)
+- Our `mu/defn` and `mu/fn` macros don't work correctly on functions with rest parameters and schemas (#46864)
+- [openapi] do not die when :query-params is not a map (#44549)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.22" rel="alternate"/>
