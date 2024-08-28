@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2024-08-28T03:32:09.124568-04:00</updated>
+  <updated>2024-08-28T04:32:11.708619-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -509,12 +509,18 @@ f2370de96b90fe71f6543902043837fc  ./ampache-6.6.1_all_php8.2.zip
 2a7972eaaa1f4ce02492886b78171b2f  ./ampache-6.6.1_all_php8.0.zip
 00b4bf62bea5c9ae3134f7909571d00e  ./ampache-6.6.1_all_squashed_php8.0.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; php7.4 (&lt;em&gt;will be built until it can't be done any more&lt;/em&gt;)
-48709d75acd56728b4ee96d60f06dd76  ./ampache-6.6.1_all_php7.4.zip
-c9b879113fcdd223b83d51dbb67e59e3  ./ampache-6.6.1_all_squashed_php7.4.zip&lt;/p&gt;
+~~48709d75acd56728b4ee96d60f06dd76  ./ampache-6.6.1_all_php7.4.zip~~
+~~c9b879113fcdd223b83d51dbb67e59e3  ./ampache-6.6.1_all_squashed_php7.4.zip~~
+d43b3712130475c958832bc5a0c4c1bb  ./ampache-6.6.1_all_php7.4.zip
+e281c884f8d8bc00c928636762ce4674  ./ampache-6.6.1_all_squashed_php7.4.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; Code only release. (Requires composer install)
-9a7c72bd53bf0b027e028e34eb36ea3c  ./ampache-6.6.1_public.zip
-e7cd1bfc2b010fe75b389fa484db531a  ./ampache-6.6.1_squashed.zip&lt;/p&gt;
+~~9a7c72bd53bf0b027e028e34eb36ea3c  ./ampache-6.6.1_public.zip~~
+~~e7cd1bfc2b010fe75b389fa484db531a  ./ampache-6.6.1_squashed.zip~~
+34e46ab06e6d5a101918cbbca8030833  ./ampache-6.6.1_public.zip
+1a8cd0953dd40b46721557d04e2dd7f0  ./ampache-6.6.1_squashed.zip&lt;/p&gt;
 &lt;h2&gt;Ampache 6.6.1&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; PHP 7.4 zips and the code release zips have been recreated as the code had a nullsafe operator (&lt;code&gt;?-&amp;gt;&lt;/code&gt;) left over from fixing the Wanted class.&lt;/p&gt;
+&lt;p&gt;PHP8.0+ zips are safe to use this so have been kept as is.&lt;/p&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Wanted items were not being added to the DB correctly&lt;/li&gt;
