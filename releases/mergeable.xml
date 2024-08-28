@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mergeable Releases</title>
-  <updated>2024-08-28T15:32:36.412579-04:00</updated>
+  <updated>2024-08-28T16:32:35.982716-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -20,13 +20,13 @@
     <content>&lt;p&gt;This is the initial release of Mergeable (beta).&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Dockerfile by @ts-mini in https://github.com/pvcnt/reviewer/pull/6&lt;/li&gt;
-&lt;li&gt;Helm Chart by @ts-mini in https://github.com/pvcnt/reviewer/pull/7&lt;/li&gt;
-&lt;li&gt;Allow users to name connections to disambiguate them by @glossawy in https://github.com/pvcnt/reviewer/pull/12&lt;/li&gt;
-&lt;li&gt;Store viewmode locally to persist across refreshes by @ts-mini in https://github.com/pvcnt/reviewer/pull/14&lt;/li&gt;
-&lt;li&gt;Add the ability to star pull requests by @pvcnt in https://github.com/pvcnt/reviewer/pull/18&lt;/li&gt;
-&lt;li&gt;Store configuration in IndexedDB by @pvcnt in https://github.com/pvcnt/reviewer/pull/39&lt;/li&gt;
-&lt;li&gt;Allow to edit a connection by @pvcnt in https://github.com/pvcnt/reviewer/pull/44&lt;/li&gt;
+&lt;li&gt;Dockerfile by @ts-mini&lt;/li&gt;
+&lt;li&gt;Helm Chart by @ts-mini&lt;/li&gt;
+&lt;li&gt;Allow users to name connections to disambiguate them by @glossawy&lt;/li&gt;
+&lt;li&gt;Store viewmode locally to persist across refreshes by @ts-mini&lt;/li&gt;
+&lt;li&gt;Add the ability to star pull requests by @pvcnt&lt;/li&gt;
+&lt;li&gt;Store configuration in IndexedDB by @pvcnt&lt;/li&gt;
+&lt;li&gt;Allow to edit a connection by @pvcnt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
@@ -46,8 +46,8 @@
     <content>&lt;p&gt;This is Mergeable v0.2.0 (beta).&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix conflict when applying both 'org:' and 'repo:' qualifiers by @pvcnt in https://github.com/pvcnt/mergeable/pull/52&lt;/li&gt;
-&lt;li&gt;Manage redirection of SPA with a simpler server backend based on SWS by @davinkevin in https://github.com/pvcnt/mergeable/pull/55&lt;/li&gt;
+&lt;li&gt;Fix conflict when applying both 'org:' and 'repo:' qualifiers by @pvcnt&lt;/li&gt;
+&lt;li&gt;Manage redirection of SPA with a simpler server backend based on SWS by @davinkevin&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
@@ -66,7 +66,7 @@
     <content>&lt;p&gt;This is Mergeable v0.3.0 (beta).&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Open a new tab on middle mouse click by @Savageman in https://github.com/pvcnt/mergeable/pull/61&lt;/li&gt;
+&lt;li&gt;Open a new tab on middle mouse click by @Savageman&lt;/li&gt;
 &lt;li&gt;Pull requests are stored in IndexedDB and refreshed via a SharedWorker by @pvcnt&lt;/li&gt;
 &lt;li&gt;Command bar to quickly navigate to a pull request using the keyboard by @pvcnt &lt;/li&gt;
 &lt;/ul&gt;
@@ -87,12 +87,28 @@
     <content>&lt;p&gt;This is Mergeable v0.4.0 (beta).&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;feat: support multiple queries in search string by @pvcnt in https://github.com/pvcnt/mergeable/pull/71&lt;/li&gt;
-&lt;li&gt;feat: implement an attention set by @pvcnt in https://github.com/pvcnt/mergeable/pull/68&lt;/li&gt;
-&lt;li&gt;docs: create a documentation website by @pvcnt in https://github.com/pvcnt/mergeable/pull/83&lt;/li&gt;
-&lt;li&gt;feat: report CI status in inbox by @pvcnt in https://github.com/pvcnt/mergeable/pull/91&lt;/li&gt;
+&lt;li&gt;feat: support multiple queries in search string by @pvcnt&lt;/li&gt;
+&lt;li&gt;feat: implement an attention set by @pvcnt&lt;/li&gt;
+&lt;li&gt;docs: create a documentation website by @pvcnt&lt;/li&gt;
+&lt;li&gt;feat: report CI status in inbox by @pvcnt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.3.0...v0.4.0&lt;/p&gt;</content>
     <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pvcnt/mergeable/releases/tag/v0.4.1</id>
+    <title>New release for Mergeable: v0.4.1</title>
+    <updated>2024-08-28T16:11:21-04:00</updated>
+    <author>
+      <name>pvcnt/mergeable</name>
+    </author>
+    <content>&lt;p&gt;This is Mergeable v0.4.1 (beta). This release contains an important bugfix that was preventing data synchronisation to happen automatically in background.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: prevent activities from running concurrently by @pvcnt&lt;/li&gt;
+&lt;li&gt;fix: sync data on schedule by @pvcnt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.4.0...v0.4.1&lt;/p&gt;</content>
+    <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.4.1" rel="alternate"/>
   </entry>
 </feed>
