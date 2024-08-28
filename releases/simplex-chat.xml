@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2024-08-28T04:31:10.871115-04:00</updated>
+  <updated>2024-08-28T05:31:10.517598-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -404,7 +404,10 @@
     <author>
       <name>simplex-chat/simplex-chat</name>
     </author>
-    <content>&lt;p&gt;Commits:
+    <content>&lt;p&gt;New in v6.0.3:
+- fix rare delivery bug.&lt;/p&gt;
+&lt;p&gt;v6 release announcement: https://simplex.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.html&lt;/p&gt;
+&lt;p&gt;Commits:
 - core: 6.0.3.0 (simplexmq 6.0.2.0)
 - ios: update core library
 - 6.0.3: ios 235, android 235, desktop 64&lt;/p&gt;
