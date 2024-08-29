@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2024-08-29T08:30:04.301446-04:00</updated>
+  <updated>2024-08-29T09:30:04.126170-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -312,14 +312,17 @@
     <link href="https://github.com/nocodb/nocodb/releases/tag/0.255.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/nocodb/nocodb/releases/tag/0.255.1</id>
-    <title>New release for NocoDB: 0.255.1: Bug Fix Release</title>
-    <updated>2024-08-29T03:24:51-04:00</updated>
+    <id>https://github.com/nocodb/nocodb/releases/tag/0.255.2</id>
+    <title>New release for NocoDB: 0.255.2: Bug Fix Release</title>
+    <updated>2024-08-29T09:14:27-04:00</updated>
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
+    <content>&lt;h2&gt;UI Changes&lt;/h2&gt;
+&lt;p&gt;Storage and Email related apps from Appstore is now migrated to Admin setup page.&lt;/p&gt;
+&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Tooltip of field description is not showing up in public views &lt;a href="https://github.com/nocodb/nocodb/issues/9378"&gt;#9378&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🔦 Type: Feature&lt;/strong&gt;] 🔦 Feature: when check the "Limit record selection to a view",configure filter... &lt;a href="https://github.com/nocodb/nocodb/issues/9364"&gt;#9364&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Drag and drop item in calendar doesn't work &lt;a href="https://github.com/nocodb/nocodb/issues/9360"&gt;#9360&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Formula error handling &lt;a href="https://github.com/nocodb/nocodb/issues/9357"&gt;#9357&lt;/a&gt;&lt;/li&gt;
@@ -406,8 +409,12 @@
 &lt;li&gt;Nc fix: Allow base invite for all user roles by @pranavxc in https://github.com/nocodb/nocodb/pull/9368&lt;/li&gt;
 &lt;li&gt;Fix/redis password enc by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/9329&lt;/li&gt;
 &lt;li&gt;0.255.1 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/9373&lt;/li&gt;
+&lt;li&gt;Release 0.255.1 by @github-actions in https://github.com/nocodb/nocodb/pull/9374&lt;/li&gt;
+&lt;li&gt;chore: post-release sync by @github-actions in https://github.com/nocodb/nocodb/pull/9375&lt;/li&gt;
+&lt;li&gt;fix: Test connection related bugs by @pranavxc in https://github.com/nocodb/nocodb/pull/9379&lt;/li&gt;
+&lt;li&gt;0.255.2 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/9381&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.255.0...0.255.1&lt;/p&gt;</content>
-    <link href="https://github.com/nocodb/nocodb/releases/tag/0.255.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.255.0...0.255.2&lt;/p&gt;</content>
+    <link href="https://github.com/nocodb/nocodb/releases/tag/0.255.2" rel="alternate"/>
   </entry>
 </feed>
