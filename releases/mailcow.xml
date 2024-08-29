@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mailcow Releases</title>
-  <updated>2024-08-29T02:30:41.879557-04:00</updated>
+  <updated>2024-08-29T03:30:41.396978-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,8 @@ CVE-2024-41960 - XSS Vulnerability via Relay Hosts Configuration&lt;/p&gt;
 &lt;li&gt;Fix: bash variables are not quoted by @h3ssan in https://github.com/mailcow/mailcow-dockerized/pull/6022&lt;/li&gt;
 &lt;li&gt;Replace weird character to the correct &lt;code&gt;'&lt;/code&gt; by @h3ssan in https://github.com/mailcow/mailcow-dockerized/pull/6029&lt;/li&gt;
 &lt;li&gt;Pushover/Quarantine utf 8 fix - fixes #6028 by @bluewalk in https://github.com/mailcow/mailcow-dockerized/pull/6031&lt;/li&gt;
-&lt;li&gt;Updated Dovecot to 2.3.21.1 to fix CVEs (see https://github.com/dovecot/core/blob/release-2.3.21/NEWS)&lt;/li&gt;
+&lt;li&gt;2024-08a by @DerLinkman in https://github.com/mailcow/mailcow-dockerized/pull/6033&lt;/li&gt;
+&lt;li&gt;Fix: Escape a &lt;code&gt;'&lt;/code&gt; character in &lt;code&gt;update.sh&lt;/code&gt; by @h3ssan in https://github.com/mailcow/mailcow-dockerized/pull/6034&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
