@@ -657,7 +657,7 @@
         "Repository Link": "https://github.com/nileane/TangerineUI-for-Mastodon",
         "Description": "Tangerine redesign for Mastodon's web UI",
         "License": "MIT",
-        "Icon": "https://selfhst.github.io/apps/icons/activitypub/",
+        "Icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/tangerine-ui.webp",
         "Icon Type": "Native",
         "Source": "GitHub",
         "Repository": "nileane/TangerineUI-for-Mastodon",
