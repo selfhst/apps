@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mergeable Releases</title>
-  <updated>2024-08-30T09:32:37.321065-04:00</updated>
+  <updated>2024-08-30T10:32:37.710038-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,19 +96,19 @@
     <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/pvcnt/mergeable/releases/tag/v0.4.1</id>
-    <title>New release for Mergeable: v0.4.1</title>
+    <id>https://github.com/pvcnt/mergeable/releases/tag/v0.5.0</id>
+    <title>New release for Mergeable: v0.5.0</title>
     <updated>2024-08-28T16:11:21-04:00</updated>
     <author>
       <name>pvcnt/mergeable</name>
     </author>
-    <content>&lt;p&gt;This is Mergeable v0.4.1 (beta). This release contains an important bugfix that was preventing data synchronisation to happen automatically in background.&lt;/p&gt;
+    <content>&lt;p&gt;This is Mergeable v0.5.0 (beta). This release contains an important bugfix that was preventing data synchronisation to happen automatically in background.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: prevent activities from running concurrently by @pvcnt&lt;/li&gt;
 &lt;li&gt;fix: sync data on schedule by @pvcnt&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.4.0...v0.4.1&lt;/p&gt;</content>
-    <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.4.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pvcnt/mergeable/compare/v0.4.0...v0.5.0&lt;/p&gt;</content>
+    <link href="https://github.com/pvcnt/mergeable/releases/tag/v0.5.0" rel="alternate"/>
   </entry>
 </feed>
