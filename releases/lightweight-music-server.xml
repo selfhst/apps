@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-08-31T02:30:39.106596-04:00</updated>
+  <updated>2024-08-31T03:30:39.376030-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,14 +85,13 @@
       <name>epoupon/lms</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;
-* Added &lt;code&gt;comment&lt;/code&gt; field support (in both UI and Subsonic API)
+* Added &lt;code&gt;comment&lt;/code&gt; tag support (in both UI and Subsonic API)
 * Handle embedded covers in AIFF and in WAV files
 * Improved the display artist name string construction when tags are not set as expected #513 
-* Subsonic API:
-  * Added support for 5 star rating
-  * Do not return an error if artist not found in getTopSongs #507 &lt;/p&gt;
+* Subsonic API: added support for 5 stars rating&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes&lt;/strong&gt;
-* Fixed &lt;code&gt;originaldate&lt;/code&gt; tag parsing in m4a files with TagLib 2.0 (used in the official docker image)&lt;/p&gt;</content>
+* Fixed &lt;code&gt;originaldate&lt;/code&gt; tag parsing in m4a files with TagLib 2.0 (used in the official docker image)
+* Do not return an error if artist not found in getTopSongs #507 &lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.57.0" rel="alternate"/>
   </entry>
 </feed>
