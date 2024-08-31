@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-08-31T11:32:02.855398-04:00</updated>
+  <updated>2024-08-31T12:32:02.566797-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,6 +127,10 @@
 &lt;h2&gt;Breaking Change&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Analysis does not support specifying a specific file as output anymore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extracting segments only works if the audio directory and results directory are identical or a combined results file has been used&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
