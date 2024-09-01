@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-09-01T00:31:04.971202-04:00</updated>
+  <updated>2024-09-01T01:31:04.111924-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,6 +102,7 @@
 &lt;ul&gt;
 &lt;li&gt;Exercise charts are now here!
  &lt;img alt="image" src="https://github.com/user-attachments/assets/51d2da6b-ec25-4dbd-8255-bf5c3cb7ac4c" /&gt;&lt;/li&gt;
+&lt;li&gt;A new button to remove media from list. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
