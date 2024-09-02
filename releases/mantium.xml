@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mantium Releases</title>
-  <updated>2024-09-02T18:32:27.102938-04:00</updated>
+  <updated>2024-09-02T19:32:23.167307-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,42 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/mantium/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/diogovalentte/mantium/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/diogovalentte/mantium/releases/tag/v1.0.0</id>
+    <title>New release for Mantium: v1.0.0</title>
+    <updated>2024-09-02T18:41:06-04:00</updated>
+    <author>
+      <name>diogovalentte/mantium</name>
+    </author>
+    <content>&lt;p&gt;This is Mantium version 1.0.0. Between some performance improvements, there are other notable additions and changes.&lt;/p&gt;
+&lt;h1&gt;Search Form&lt;/h1&gt;
+&lt;p&gt;New way of adding mangas to Mantium, a search form for mangas in all sources using manga names.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1a615598-d56e-4bfe-9e14-40d01d1ce0ff" /&gt;&lt;/p&gt;
+&lt;h1&gt;New Popups&lt;/h1&gt;
+&lt;p&gt;The form to add manga using URL, highlighted manga form, and settings now show up in popups.
+&lt;img alt="image" src="https://github.com/user-attachments/assets/a3e99e90-9b7f-4a7d-870f-cec25bf15b05" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/7dd0f184-7218-4605-a18a-f4c2fd707335" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/abd35831-785a-49c9-9c17-7f6b5a9b73a0" /&gt;&lt;/p&gt;
+&lt;h1&gt;MangaUpdates Source&lt;/h1&gt;
+&lt;p&gt;The &lt;a href="https://www.mangaupdates.com"&gt;MangaUpdates&lt;/a&gt; source was added.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/adc8bd05-9367-4a05-a815-dfe0e3558a9c" /&gt;&lt;/p&gt;
+&lt;h1&gt;Tranga Integration&lt;/h1&gt;
+&lt;p&gt;The &lt;a href="https://github.com/C9Glax/tranga"&gt;Tranga&lt;/a&gt; integration was added. More about the integration &lt;a href="https://github.com/diogovalentte/mantium/blob/main/integrations.md#tranga"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Breaking Change&lt;/h1&gt;
+&lt;p&gt;Setting the dashboard container to use other user than the &lt;code&gt;root&lt;/code&gt; user is not possible anymore. It'll throw an error like below if you use other user:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/380b5ec5-3280-443f-8884-727dc47d2151" /&gt;&lt;/p&gt;
+&lt;h1&gt;Other Changes&lt;/h1&gt;
+&lt;p&gt;Added: Button to delete last background error in the "Show Background Error" popup.
+Added: &lt;a href="https://imgur.com/a/7kOT5yo"&gt;Default cover image&lt;/a&gt; when can't get one from the source site.
+Updated: Use MangaHub API instead of scraping the website. Good speed improvement.
+Updated: Improve running locally guide.
+Updated: Custom cover image form improved.
+Updated: The dashboard now shows only the first 3 rows of mangas. The user has to click a button to load the rest.
+Update: Load the sidebar before the main dashboard.
+Fixed: Actually use the showBackgroundErrorWarning iframe query argument.
+Fixed: MangaHub chapters are listed in descending order.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/mantium/compare/v0.3.4...v1.0.0&lt;/p&gt;</content>
+    <link href="https://github.com/diogovalentte/mantium/releases/tag/v1.0.0" rel="alternate"/>
   </entry>
 </feed>
