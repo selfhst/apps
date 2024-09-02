@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-02T08:31:57.882045-04:00</updated>
+  <updated>2024-09-02T09:31:54.544635-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,7 +109,6 @@
 &lt;ul&gt;
 &lt;li&gt;Removed Wayland header from AppImage build&lt;/li&gt;
 &lt;li&gt;Fixed the issue where pasting web image on mobile failed.&lt;/li&gt;
-&lt;li&gt;Fixed the issue where the name of newly created card in board view didn't show up.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.8" rel="alternate"/>
   </entry>
