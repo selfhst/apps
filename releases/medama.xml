@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medama Releases</title>
-  <updated>2024-09-02T12:32:37.073793-04:00</updated>
+  <updated>2024-09-02T13:32:33.678477-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,11 +130,11 @@
 &lt;p&gt;&lt;code&gt;html
 &amp;lt;html&amp;gt;
     &amp;lt;body data-m:load="theme=dark;subscription=paid"&amp;gt;
-        &amp;lt;button data-m:load="logged_in=false" data-m:click="action=logout"&amp;gt;Log out&amp;lt;/button&amp;gt;
+        &amp;lt;button data-m:load="logged_in=true" data-m:click="action=logout"&amp;gt;Log out&amp;lt;/button&amp;gt;
         &amp;lt;h1&amp;gt;Welcome to My Page&amp;lt;/h1&amp;gt;
     &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The new &lt;code&gt;data-m:load&lt;/code&gt; and &lt;code&gt;data-m:click&lt;/code&gt; attributes allow you to send additional metadata from any element on your page.&lt;/p&gt;
+&lt;p&gt;The new &lt;code&gt;data-m:load&lt;/code&gt; and &lt;code&gt;data-m:click&lt;/code&gt; attributes allow you to send additional metadata from any element on your page. You can set these attributes statically or dynamically based on the user’s state or any other relevant information.&lt;/p&gt;
 &lt;p&gt;Learn more about this new feature &lt;a href="http://oss.medama.io/features/custom-properties/overview"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Bug Fixes and Improvements&lt;/h2&gt;
 &lt;ul&gt;
