@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medama Releases</title>
-  <updated>2024-09-02T10:32:35.295822-04:00</updated>
+  <updated>2024-09-02T11:32:35.534401-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,6 +140,7 @@
 &lt;ul&gt;
 &lt;li&gt;New automated testing for our JavaScript trackers across multiple browsers. This allowed us to catch edge cases on certain browsers where events might fail to send which have been now fixed. This also ensures future updates will be more stable with fewer regressions.&lt;/li&gt;
 &lt;li&gt;The default tracker was optimised to be even smaller.&lt;/li&gt;
+&lt;li&gt;Improved caching logic of tracker events, leading to less network requests for visitors due to our unique &lt;a href="https://oss.medama.io/methodology/unique-visitors"&gt;cache-based methodology&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Various performance improvements and memory usage reductions for the API server.&lt;/li&gt;
 &lt;li&gt;The dashboard is now lighter and faster, with ongoing migration of components which may be completed in the next few minor updates.&lt;/li&gt;
 &lt;/ul&gt;
