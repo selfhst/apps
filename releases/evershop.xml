@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2024-09-03T12:30:20.711198-04:00</updated>
+  <updated>2024-09-03T13:30:20.839370-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,12 +133,29 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
       <name>evershopcommerce/evershop</name>
     </author>
     <content>&lt;h1&gt;v1.2.0 (2021-09-03)&lt;/h1&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;&lt;code&gt;FeaturedProducts.jsx&lt;/code&gt; component has been removed&lt;/h3&gt;
+&lt;p&gt;The FeaturedProducts.jsx component has been removed from the store frontend. From now on, you can use the Widgets feature to create and display featured products on your store.&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;FeaturedCategories.jsx&lt;/code&gt; component has been removed&lt;/h3&gt;
+&lt;p&gt;The FeaturedCategories.jsx component has been removed from the store frontend. From now on, you can use the Widgets feature to create and display featured categories on your store.&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;MainBanner.jsx&lt;/code&gt; component has been removed&lt;/h3&gt;
+&lt;p&gt;The MainBanner.jsx component has been removed from the store frontend. From now on, you can use the Widgets feature to create and display banners on your store.&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;Menu.jsx&lt;/code&gt; component has been removed&lt;/h3&gt;
+&lt;p&gt;The Menu.jsx component has been removed from the store frontend. From now on, you can use the Widgets feature to create and display menus on your store.&lt;/p&gt;
+&lt;h3&gt;TailwindCSS Configuration&lt;/h3&gt;
+&lt;p&gt;We have reset the tailwindcss configuration to use the default options. This change ensures that the default tailwindcss configuration is used for the store frontend. This change may affect the styling of your store if you have customized the tailwindcss configuration. We are working to update the &lt;code&gt;evetheme&lt;/code&gt; to make it compatible with the new tailwindcss configuration.&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;Ckeditor&lt;/code&gt; has been replaced with &lt;code&gt;EditorJS&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;We have replaced &lt;code&gt;Ckeditor&lt;/code&gt; with &lt;code&gt;EditorJS&lt;/code&gt; in the Widgets feature to provide a more user-friendly and intuitive experience for creating and editing content. Your content will be converted to a raw html block and this will not affect the content you have created with &lt;code&gt;Ckeditor&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Configuration Schema&lt;/h3&gt;
+&lt;p&gt;We have implemented a configuration schema for validation. This change ensures that the configuration settings are validated before starting the application. If you have customized the configuration settings, you may need to update them to match the new schema.&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;pricing.tax.display_catalog_price_including_tax&lt;/code&gt; has been removed&lt;/h3&gt;
+&lt;h3&gt;&lt;code&gt;pricing.tax.display_checkout_price_including_tax&lt;/code&gt; has been removed&lt;/h3&gt;
+&lt;p&gt;From now on, you can just use the &lt;code&gt;pricing.tax.price_including_tax&lt;/code&gt; setting if your store needs tax-inclusive pricing.&lt;/p&gt;
 &lt;h2&gt;New Features&lt;/h2&gt;
 &lt;h3&gt;Introducing Our New Widgets Feature&lt;/h3&gt;
 &lt;p&gt;The Widgets feature allows you to create a unique, personalized experience for your customers by giving you the ability to create widgets directly from the backend to the frontend. Whether you want to highlight promotions, display featured products, or craft a stunning visual layout, you have complete control over how your content is presented.&lt;/p&gt;
 &lt;p&gt;Here’s what you can do with Widgets:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Drag &amp;amp; Drop: Easily move widgets around to create the perfect layout for your site.&lt;/li&gt;
 &lt;li&gt;Customize Appearance: Adjust settings and styles to fit your brand’s identity.&lt;/li&gt;
 &lt;li&gt;Dynamic Content: Add and arrange various types of content to keep your website fresh and engaging.&lt;/li&gt;
 &lt;/ul&gt;
