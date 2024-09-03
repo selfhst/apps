@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-09-03T18:31:23.025786-04:00</updated>
+  <updated>2024-09-03T19:31:22.809839-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -350,70 +350,78 @@ Download the JAR here: https://downloads.metabase.com/v0.50.24/metabase.jar&lt;/
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
+
 ### Enhancements
-
-**Embedding**
-
-- locale query string support on public links and static embeds (#47186)
 
 **Querying**
 
-- upgrade micromatch to address security issue (#47571)
+- [Epic] Simplify finding metrics in Summarize (#46847)
+
+**Permissions**
+
+- Use table name in inactive table error if user has access to it (#47484)
+- Disallow connection impersonation roles which are not single strings (#47474)
+
+**Performance**
+
+- Perform string-&gt;datetime conversion once during timeseries insights (#47424)
+- Optimize insights and fingerprinting of time series (#47414)
+- Use app DB for query execution metrics (#46586)
+
+**Serialization**
+
+- Reveal exception causes in serialization errors (#47551)
+- Developer doc for serialization (#46039)
+- Serialized models should declare fields to serialize (#43068)
+
+**Localization**
+
+- Use original display name for fields in uploaded tables (#47303)
+- Support locale query string on public links and static embeds (#47186)
+- Add Malay Language Support (#47138)
 
 **Other**
 
-- Don't update updated_at when setting last_used_at on a card (#47574)
-- [serdes] reveal exception causes (#47551)
-- Use table name in inactive table error if user has access to it (#47484)
-- Disallow connection impersonation roles which are not single strings (#47474)
-- Replace *current* dynamic variable with function argument (#47467)
-- Trigger BE tests when test_resources are updated (#47455)
-- perf: Perform string-&gt;datetime conversion once during timeseries insights (#47424)
-- perf: Optimize insights and fingerprinting of time series (#47414)
-- Minor schema fixes before pushing to Snowcat Cloud (#47403)
-- Enable native pivot xlsx and Incrementally add rows to Native Pivot xlsx exports (#47378)
-- Update instance_analytics for 50 major release (#47323)
-- Use original display name for fields in uploaded tables (#47303)
-- extract-and-log-one should become extract-one (#47223)
-- Proper E2E round-trip test (with on-disk YAMLs) (#47222)
-- [Epic] Serialization fixes (#47221)
-- Add Malay Language Support (#47138)
-- Add new generic analytics event and bring types to trackSchemaEvent (#46972)
-- [Epic] Simplify finding metrics in Summarize (#46847)
-- Use app DB for query execution metrics (#46586)
-- Developer doc for serdes (#46039)
-- Serialized models should declare fields to serialize (#43068)
+- Add an environment variable to temporarily enable native pivot xlsx and incrementally add rows to Native Pivot xlsx exports (#47378)
 
 ### Bug fixes
 
-**Administration**
+**Permissions**
 
+- A sandboxed user's field values become invalidated shortly after every dashboard load (#47582)
 - Downloads don't work on sandboxed tables (#47478)
-
-**Database**
-
-- We don't support Snowflake variants on subscriptions (#46981)
-- BigQuery Connection issue with Date Parameter (#30602)
-
-**Organization**
-
-- Non-ASCII Characters in CSV Column Names Cause SQL Syntax Error in Metabase Upload (#47279)
-
-**Querying**
-
-- Lots of linked filters will peg the cpu to 100% (#46905)
-- Common Metrics search doesn't work when you add a space ` ` (#46843)
 - Having a combination of no self service and unrestricted on joined tables breaks filter modal (#37753)
 - Having a combination of no self service and unrestricted on joined tables causes permission error when filtering (#37751)
 
+**Performance**
+
+- Lots of linked filters will peg the cpu to 100% (#46905)
+
+**Querying**
+- Common Metrics search doesn't work when you add a space ` ` (#46843)
+- BigQuery Date parameters use incorrect timezones (#30602)
+
 **Visualization**
 
+- Trend Lines are incorrect when a multiplier is in use (#47351)
 - Suffix is Added to "Rate of Change" in Tooltip (#47373)
 - Pivot Table: If a value in a cell is NULL and has a Suffix it will display in the table as "null Suffix" (#42867)
 
 **Other**
 
-- Trend Lines are incorrect when a multiplier is in use (#47351)
+- Non-ASCII Characters in CSV Column Names Cause SQL Syntax Error in Metabase Upload (#47279)
+- Snowflake variants on subscriptions are not supported (#46981)
+
+### Under the Hood
+
+- upgrade micromatch to address security issue (#47571)
+- Replace *current* dynamic variable with function argument (#47467)
+- Trigger BE tests when test_resources are updated (#47455)
+- Minor schema fixes before pushing to Snowcat Cloud (#47403)
+- Update instance_analytics for 50 major release (#47323)
+- extract-and-log-one should become extract-one (#47223)
+- Proper E2E round-trip test (with on-disk YAMLs) (#47222)
+- Add new generic analytics event and bring types to trackSchemaEvent (#46972)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.24" rel="alternate"/>
