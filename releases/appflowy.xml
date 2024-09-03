@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-03T03:32:02.627422-04:00</updated>
+  <updated>2024-09-03T04:31:58.212775-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,26 +98,21 @@
 &lt;h2&gt;Version 0.6.8 - 02/09/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Optimized date picker and mention block.&lt;/li&gt;
-&lt;li&gt;Added the ability to open database row on mobile.&lt;/li&gt;
-&lt;li&gt;Added the ability to invite members to workspace on mobile.&lt;/li&gt;
-&lt;li&gt;Added support for Monochrome theme on Android.&lt;/li&gt;
-&lt;li&gt;Added AI Bubble button on homepage on mobile.&lt;/li&gt;
-&lt;li&gt;Settings, trash, members and help &amp;amp; support have been moved into the settings pop up menu.&lt;/li&gt;
+&lt;li&gt;Enabled viewing data inside a database record on mobile.&lt;/li&gt;
+&lt;li&gt;Added the ability to invite members to a workspace on mobile.&lt;/li&gt;
+&lt;li&gt;Introduced Ask AI in the Home tab on mobile.&lt;/li&gt;
+&lt;li&gt;Import CSV files with up to 1,000 rows.&lt;/li&gt;
+&lt;li&gt;Convert properties from one type to another while preserving the data.&lt;/li&gt;
+&lt;li&gt;Optimized the speed of opening documents and databases.&lt;/li&gt;
+&lt;li&gt;Improved syncing performance across devices.&lt;/li&gt;
+&lt;li&gt;Added support for a monochrome app icon on Android.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Removed Wayland header from AppImage build&lt;/li&gt;
-&lt;li&gt;Fixed the issue where pasting web image on mobile failed.&lt;/li&gt;
+&lt;li&gt;Removed the Wayland header from the AppImage build.&lt;/li&gt;
+&lt;li&gt;Fixed the issue where pasting a web image on mobile failed.&lt;/li&gt;
 &lt;li&gt;Corrected the Local AI state when switching between different workspaces.&lt;/li&gt;
-&lt;li&gt;Fixed high CPU usage when opening large database&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added support for importing CSV files with up to one thousand rows.&lt;/li&gt;
-&lt;li&gt;Automatically transform column properties when switching column types from Text to other formats.&lt;/li&gt;
-&lt;li&gt;Improved the speed of opening documents and databases.&lt;/li&gt;
-&lt;li&gt;Improved syncing between devices&lt;/li&gt;
+&lt;li&gt;Fixed high CPU usage when opening large databases.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.8" rel="alternate"/>
   </entry>
