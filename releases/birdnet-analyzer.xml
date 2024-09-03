@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-09-03T09:32:09.135754-04:00</updated>
+  <updated>2024-09-03T10:32:11.421904-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,5 +142,20 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kahst/BirdNET-Analyzer/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
     <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.3.1</id>
+    <title>New release for BirdNET-Analyzer: v1.3.1</title>
+    <updated>2024-09-03T09:32:40-04:00</updated>
+    <author>
+      <name>kahst/BirdNET-Analyzer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed the bug in segments that prevented using audio and result files from different folders&lt;/li&gt;
+&lt;li&gt;Fixed the bug that showed the splash-screen during analysis in the windows version&lt;/li&gt;
+&lt;li&gt;Fixed the bug that audio could not be played in the mac version&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/kahst/BirdNET-Analyzer/releases/tag/v1.3.1" rel="alternate"/>
   </entry>
 </feed>
