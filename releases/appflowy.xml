@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-02T22:31:50.783300-04:00</updated>
+  <updated>2024-09-02T23:31:46.586714-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,6 +109,15 @@
 &lt;ul&gt;
 &lt;li&gt;Removed Wayland header from AppImage build&lt;/li&gt;
 &lt;li&gt;Fixed the issue where pasting web image on mobile failed.&lt;/li&gt;
+&lt;li&gt;Corrected the Local AI state when switching between different workspaces.&lt;/li&gt;
+&lt;li&gt;Fixed high CPU usage when opening large database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Improvement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for importing CSV files with up to one thousand rows.&lt;/li&gt;
+&lt;li&gt;Automatically transform column properties when switching column types from Text to other formats.&lt;/li&gt;
+&lt;li&gt;Improved the speed of opening documents and databases.&lt;/li&gt;
+&lt;li&gt;Improved syncing between devices&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.6.8" rel="alternate"/>
   </entry>
