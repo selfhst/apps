@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-09-03T06:30:29.393000-04:00</updated>
+  <updated>2024-09-03T07:30:30.212081-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,7 +83,7 @@
     </author>
     <content>&lt;p&gt;Hugo v0.134.0 brings render hooks for tables, ContentWithoutSummary, scoped content render and Obsidian style callout alerts.&lt;/p&gt;
 &lt;h2&gt;ContentWithoutSummary and scoped content render&lt;/h2&gt;
-&lt;p&gt;This release finally brings a &lt;code&gt;Page.ContentWithoutSummary&lt;/code&gt; method. This has been a long sought after methods where the use case is obvious: Render the summary with a &lt;em&gt;more&lt;/em&gt; button that renders the ... content without summary. To enable this we have reimplemented the content summary handling in Hugo. This consolidates the 3 summary types (&lt;code&gt;auto&lt;/code&gt;, &lt;code&gt;manual&lt;/code&gt; and &lt;code&gt;frontmatter&lt;/code&gt;) – they are now all HTML. This is a slightly breaking change (&lt;code&gt;manual&lt;/code&gt; was plain text before), but the new behaviour should be much less confusing and easier to handle in the templates. If you want plain text, pipe it into &lt;code&gt;plainify&lt;/code&gt;: &lt;code&gt;{{ .Summary | plainify }}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This release finally brings a &lt;code&gt;Page.ContentWithoutSummary&lt;/code&gt; method. This has been a long sought after method where the use case is obvious: Render the summary with a &lt;em&gt;more&lt;/em&gt; button that renders the ... content without summary. To enable this we have reimplemented the content summary handling in Hugo. This consolidates the 3 summary types (&lt;code&gt;auto&lt;/code&gt;, &lt;code&gt;manual&lt;/code&gt; and &lt;code&gt;frontmatter&lt;/code&gt;) – they are now all HTML. This is a slightly breaking change (&lt;code&gt;manual&lt;/code&gt; was plain text before), but the new behaviour should be much less confusing and easier to handle in the templates. If you want plain text, pipe it into &lt;code&gt;plainify&lt;/code&gt;: &lt;code&gt;{{ .Summary | plainify }}&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Before this release there was one instance of &lt;code&gt;.Content&lt;/code&gt; for a given page, it was e.g. not possible to render a page's content slightly different (e.g. different heading levels) on the list pages or the home page. This release anables that with a new &lt;code&gt;Page.Markup&lt;/code&gt; with an optional &lt;code&gt;scope&lt;/code&gt; argument.&lt;/p&gt;
 &lt;p&gt;In the list template you would do something like this:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;handlebars
@@ -106,7 +106,7 @@
 {{ else }}
   {{/* default */}}
 {{ end }}&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;Render hooks tables&lt;/h2&gt;
+&lt;h2&gt;Render hooks for tables&lt;/h2&gt;
 &lt;p&gt;This has been a long sought after feature. Now you can have full control over how you render your Markdown tables with &lt;a href="https://gohugo.io/render-hooks/tables"&gt;table render hooks&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Obsidian style callout alerts&lt;/h2&gt;
 &lt;p&gt;Hugo &lt;code&gt;v0.133.0&lt;/code&gt; added &lt;a href="https://gohugo.io/render-hooks/blockquotes/"&gt;blockquote render hooks&lt;/a&gt; with GitHub styled &lt;a href="https://gohugo.io/render-hooks/blockquotes/#alerts"&gt;alerts&lt;/a&gt;. We have since then gotten some feedback about extended alert syntax in &lt;a href="https://help.obsidian.md/Editing+and+formatting/Callouts#Change+the+title"&gt;Obsidian&lt;/a&gt;, and in Hugo &lt;code&gt;v0.134.0&lt;/code&gt; we now support both.&lt;/p&gt;
