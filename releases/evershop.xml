@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2024-09-03T11:30:19.875056-04:00</updated>
+  <updated>2024-09-03T12:30:20.711198-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,5 +124,112 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
 &lt;/ul&gt;
 &lt;p&gt;Thank you all for your contributions!&lt;/p&gt;</content>
     <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/evershopcommerce/evershop/releases/tag/v1.2.0</id>
+    <title>New release for EverShop: v1.2.0</title>
+    <updated>2024-09-03T12:29:52-04:00</updated>
+    <author>
+      <name>evershopcommerce/evershop</name>
+    </author>
+    <content>&lt;h1&gt;v1.2.0 (2021-09-03)&lt;/h1&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;h3&gt;Introducing Our New Widgets Feature&lt;/h3&gt;
+&lt;p&gt;The Widgets feature allows you to create a unique, personalized experience for your customers by giving you the ability to create widgets directly from the backend to the frontend. Whether you want to highlight promotions, display featured products, or craft a stunning visual layout, you have complete control over how your content is presented.&lt;/p&gt;
+&lt;p&gt;Here’s what you can do with Widgets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Drag &amp;amp; Drop: Easily move widgets around to create the perfect layout for your site.&lt;/li&gt;
+&lt;li&gt;Customize Appearance: Adjust settings and styles to fit your brand’s identity.&lt;/li&gt;
+&lt;li&gt;Dynamic Content: Add and arrange various types of content to keep your website fresh and engaging.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;EditorJS Integration&lt;/h3&gt;
+&lt;p&gt;We have integrated EditorJS into the Widgets feature to provide a more user-friendly and intuitive experience for creating and editing content. EditorJS is a block-styled editor that allows you to create rich content with ease. With EditorJS, you can add text, images, videos, and more to your widgets, making it easy to create visually appealing and engaging content for your customers.&lt;/p&gt;
+&lt;h3&gt;Tax inclusive pricing&lt;/h3&gt;
+&lt;p&gt;You can now display prices with tax included on your store. This feature is especially useful for stores that sell to customers in regions where tax-inclusive pricing is required by law.&lt;/p&gt;
+&lt;h3&gt;Shipping notes&lt;/h3&gt;
+&lt;p&gt;Customers can now add notes to their orders during checkout. This feature is useful for customers who want to provide additional information about their order, such as delivery instructions or special requests.&lt;/p&gt;
+&lt;h3&gt;Updating item quantity in the cart&lt;/h3&gt;
+&lt;p&gt;Customers can now update the quantity of items in their cart directly from the cart page. This feature makes it easier for customers to adjust their order before checkout.&lt;/p&gt;
+&lt;h3&gt;Support static content display only for category&lt;/h3&gt;
+&lt;p&gt;You can now display static content only for specific categories on your store. This feature is useful for stores that want to provide additional information about a category, such as a description or special offers.&lt;/p&gt;
+&lt;h3&gt;Using default tailwindcss configuration&lt;/h3&gt;
+&lt;p&gt;We have reset the tailwindcss configuration to use the default options. This change ensures that the default tailwindcss configuration is used for the store frontend.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More translation fields for extension product reviews by @ErdemGKSL in https://github.com/evershopcommerce/evershop/pull/537&lt;/li&gt;
+&lt;li&gt;Resend extension v1.1.0 by @treoden in https://github.com/evershopcommerce/evershop/pull/543&lt;/li&gt;
+&lt;li&gt;Google extension v1.1.0 by @treoden in https://github.com/evershopcommerce/evershop/pull/543&lt;/li&gt;
+&lt;li&gt;Product review extension v1.1.0 by @treoden in https://github.com/evershopcommerce/evershop/pull/543&lt;/li&gt;
+&lt;li&gt;Adding age gate extension source code for tutorial by @treoden in https://github.com/evershopcommerce/evershop/pull/545&lt;/li&gt;
+&lt;li&gt;Display website running message by @treoden in https://github.com/evershopcommerce/evershop/pull/560&lt;/li&gt;
+&lt;li&gt;Azure extension v1.1.0 by @treoden in https://github.com/evershopcommerce/evershop/pull/560&lt;/li&gt;
+&lt;li&gt;Reset tailwind configuration. Use the default options #322 by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Variant options before add to cart button by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Revert overflow-y on modal by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Implement configuration schema for validation by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;S3 extension ver 1.1.0 by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;Support included tax pricing and adding more tests by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;Widget feature #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/598&lt;/li&gt;
+&lt;li&gt;Migrate Ckeditor to EditorJS #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/598&lt;/li&gt;
+&lt;li&gt;The text widget #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/598&lt;/li&gt;
+&lt;li&gt;Allow updating quantity of item in cart #600 by @treoden in https://github.com/evershopcommerce/evershop/pull/601&lt;/li&gt;
+&lt;li&gt;Fix showing wrong qty after updating qty to 0 by @treoden in https://github.com/evershopcommerce/evershop/pull/602&lt;/li&gt;
+&lt;li&gt;Fix issue creating a new widget from admin #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/602&lt;/li&gt;
+&lt;li&gt;Fix z-index issue creating a new widget from admin #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/602&lt;/li&gt;
+&lt;li&gt;Fix widget default settings not applied #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/602&lt;/li&gt;
+&lt;li&gt;Use svg for admin logo by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Add more area to the store setting page by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Allow changing the validity period of sid #593 by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Add widget configuration validation schema #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Remove unused button when creating a widget #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Remove breadcrumb on checkout page by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;Remove breadcrumb on checkout success page by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;Support shipping note during checkout #604 by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;Support static content display only for category by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;Improve the editor styling by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;A simple menu widget #581 by @treoden in https://github.com/evershopcommerce/evershop/pull/606&lt;/li&gt;
+&lt;li&gt;Fix editor rows drag and drop issue by @treoden in https://github.com/evershopcommerce/evershop/pull/607&lt;/li&gt;
+&lt;li&gt;Fix editor rows drag and drop issue by @treoden in https://github.com/evershopcommerce/evershop/pull/607&lt;/li&gt;
+&lt;li&gt;Improve the logo styling by @treoden in https://github.com/evershopcommerce/evershop/pull/607&lt;/li&gt;
+&lt;li&gt;Fix transparent background of the minicart toast by @treoden in https://github.com/evershopcommerce/evershop/pull/608&lt;/li&gt;
+&lt;li&gt;Fix status issue when loading cms page by @treoden in https://github.com/evershopcommerce/evershop/pull/609&lt;/li&gt;
+&lt;li&gt;Fix can not submit note error by @treoden in https://github.com/evershopcommerce/evershop/pull/610&lt;/li&gt;
+&lt;li&gt;Fix image size configuration by @treoden in https://github.com/evershopcommerce/evershop/pull/610&lt;/li&gt;
+&lt;li&gt;Remove Featured products, Featured categories and main banner components. From now we use widgets by @treoden in https://github.com/evershopcommerce/evershop/pull/611&lt;/li&gt;
+&lt;li&gt;Fix product count in the collection products widget by @treoden in https://github.com/evershopcommerce/evershop/pull/611&lt;/li&gt;
+&lt;li&gt;Fix error can not delete widget from the grid page by @treoden in https://github.com/evershopcommerce/evershop/pull/611&lt;/li&gt;
+&lt;li&gt;Keep widget status field enabled by default by @treoden in https://github.com/evershopcommerce/evershop/pull/611&lt;/li&gt;
+&lt;li&gt;Fix can not drag and drop the editor rows by @treoden in https://github.com/evershopcommerce/evershop/pull/611&lt;/li&gt;
+&lt;li&gt;Create some default widgets upon installation by @treoden in https://github.com/evershopcommerce/evershop/pull/612&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix dockerfile copy by @treoden in https://github.com/evershopcommerce/evershop/pull/538&lt;/li&gt;
+&lt;li&gt;Fix category tree #536 by @treoden in https://github.com/evershopcommerce/evershop/pull/538&lt;/li&gt;
+&lt;li&gt;Fix pagination and limit issues by @treoden in https://github.com/evershopcommerce/evershop/pull/538&lt;/li&gt;
+&lt;li&gt;Fix missing default pagination filter by @treoden in https://github.com/evershopcommerce/evershop/pull/543&lt;/li&gt;
+&lt;li&gt;Fix no scroll issue category tree #536 by @treoden in https://github.com/evershopcommerce/evershop/pull/560&lt;/li&gt;
+&lt;li&gt;Fix Shipping Method Popup not scrollable #540 by @treoden in https://github.com/evershopcommerce/evershop/pull/560&lt;/li&gt;
+&lt;li&gt;Fix loading extensions multiple time when no extension is actived by @treoden in https://github.com/evershopcommerce/evershop/pull/565&lt;/li&gt;
+&lt;li&gt;Fix invalid props type collection ID and category ID by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Fix wrong title and search issue in category selector modal by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Fix wrong attribute ordering by @treoden in https://github.com/evershopcommerce/evershop/pull/566&lt;/li&gt;
+&lt;li&gt;Issue #547: Category scrolling in mobile view by @adexh in https://github.com/evershopcommerce/evershop/pull/578&lt;/li&gt;
+&lt;li&gt;Fix [BUG] query.and is not a function #573 by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;Fix error when accessing the folder path by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;Fixing coupon condition in unit testing data by @treoden in https://github.com/evershopcommerce/evershop/pull/586&lt;/li&gt;
+&lt;li&gt;Fix column not found #595 by @treoden in https://github.com/evershopcommerce/evershop/pull/601&lt;/li&gt;
+&lt;li&gt;Fix toast message background by @treoden in https://github.com/evershopcommerce/evershop/pull/603&lt;/li&gt;
+&lt;li&gt;Fix client id placeholder in paypal configuration form by @treoden in https://github.com/evershopcommerce/evershop/pull/610&lt;/li&gt;
+&lt;li&gt;Fix shipping fee tax amount calculation by @treoden in https://github.com/evershopcommerce/evershop/pull/610&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@ErdemGKSL made their first contribution in https://github.com/evershopcommerce/evershop/pull/537&lt;/li&gt;
+&lt;li&gt;@Aryansingh0103 made their first contribution in https://github.com/evershopcommerce/evershop/pull/555&lt;/li&gt;
+&lt;li&gt;@adexh made their first contribution in https://github.com/evershopcommerce/evershop/pull/578&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
