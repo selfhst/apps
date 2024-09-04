@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-09-04T15:32:31.417880-04:00</updated>
+  <updated>2024-09-04T16:32:28.242854-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,10 +166,6 @@ This release contains two known bugs that will be resolved in the next patch.
       <name>coder/coder</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://coder.com/docs/install/releases"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add template editor to &lt;code&gt;/templates/:templateName&lt;/code&gt; route group (#14206, d0feb70) (@aslilac)&lt;blockquote&gt;
