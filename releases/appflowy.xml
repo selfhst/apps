@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-04T01:31:53.194850-04:00</updated>
+  <updated>2024-09-04T02:31:53.893504-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,7 +95,7 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.6.8 - 02/09/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.6.8 - 09/02/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Enabled viewing data inside a database record on mobile.&lt;/li&gt;
