@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Power Tools Releases</title>
-  <updated>2024-09-04T11:33:39.651985-04:00</updated>
+  <updated>2024-09-04T12:33:32.500769-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,11 +93,22 @@
     <author>
       <name>varun-raj/immich-power-tools</name>
     </author>
-    <content>&lt;h2&gt;&lt;small&gt;🚀 &lt;strong&gt;Immich Power Tools&lt;/strong&gt; 0.4.2&lt;/small&gt;&lt;/h2&gt;
-&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+    <content>&lt;p&gt;&lt;img width="1440" alt="image" src="https://github.com/user-attachments/assets/acfe634f-66b1-40a2-b4fa-cf5c6058005b"&gt;&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;build fixes (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/bcb12473e03ba46a78e45c8bc7bea7b5200d8929"&gt;bcb1247&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;chore: Updated readme for immich url by @sai80082 in https://github.com/varun-raj/immich-power-tools/pull/33&lt;/li&gt;
+&lt;li&gt;Update README.md by @ghostc0des in https://github.com/varun-raj/immich-power-tools/pull/29&lt;/li&gt;
+&lt;li&gt;feat: added logout and redirection to login after logout by @sai80082 in https://github.com/varun-raj/immich-power-tools/pull/37&lt;/li&gt;
+&lt;li&gt;Feat: Authentication based on immich's existing credentials by @varun-raj in https://github.com/varun-raj/immich-power-tools/pull/36&lt;/li&gt;
+&lt;li&gt;ci: updated depenencies by @varun-raj in https://github.com/varun-raj/immich-power-tools/pull/38&lt;/li&gt;
+&lt;li&gt;fix: logout button design fix by @varun-raj in https://github.com/varun-raj/immich-power-tools/pull/39&lt;/li&gt;
+&lt;li&gt;fix: build fixes by @varun-raj in https://github.com/varun-raj/immich-power-tools/pull/40&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@ghostc0des made their first contribution in https://github.com/varun-raj/immich-power-tools/pull/29&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/varun-raj/immich-power-tools/compare/v0.3.1...v0.4.2&lt;/p&gt;</content>
     <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.4.2" rel="alternate"/>
   </entry>
 </feed>
