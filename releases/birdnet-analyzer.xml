@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-09-04T05:32:07.367467-04:00</updated>
+  <updated>2024-09-04T06:32:06.605617-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,7 +150,7 @@
     <author>
       <name>kahst/BirdNET-Analyzer</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;What has changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed the bug in segments that prevented using audio and result files from different folders&lt;/li&gt;
 &lt;li&gt;Fixed the bug that showed the splash-screen during analysis in the windows version&lt;/li&gt;
