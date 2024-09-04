@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WhoDB Releases</title>
-  <updated>2024-09-04T02:32:38.086794-04:00</updated>
+  <updated>2024-09-04T03:32:37.804043-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,5 +155,51 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clidey/whodb/compare/0.33.0...0.34.0&lt;/p&gt;</content>
     <link href="https://github.com/clidey/whodb/releases/tag/0.34.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/clidey/whodb/releases/tag/0.35.0</id>
+    <title>New release for WhoDB: 0.35.0 - Refactor GraphQL schema and minor frontend improvements</title>
+    <updated>2024-09-04T02:48:47-04:00</updated>
+    <author>
+      <name>clidey/whodb</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Scratchpad now shows "Action Executed" for non-Select queries.&lt;/li&gt;
+&lt;li&gt;Change GraphQL schema in the backend to remove "type" from each query. This is now supported by the cookie credentials and will be used in the HTTP clients.&lt;/li&gt;
+&lt;li&gt;Bug fix: adding storage unit and keyboard cursor getting unfocused when adding field names is now fixed.&lt;/li&gt;
+&lt;li&gt;Bump frontend and backend libraries&lt;ul&gt;
+&lt;li&gt;GraphQL CodeGen&lt;/li&gt;
+&lt;li&gt;DagreJS&lt;/li&gt;
+&lt;li&gt;React Types&lt;/li&gt;
+&lt;li&gt;React Flow&lt;/li&gt;
+&lt;li&gt;UUID Types&lt;/li&gt;
+&lt;li&gt;Apollo Client&lt;/li&gt;
+&lt;li&gt;Redus Toolkit&lt;/li&gt;
+&lt;li&gt;React Testing Library [a few sub libraries]&lt;/li&gt;
+&lt;li&gt;Elastic Search Backend Integration&lt;/li&gt;
+&lt;li&gt;Web Vitals&lt;/li&gt;
+&lt;li&gt;Framer Motion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: non-affecting changes - there is a HTTP wrapper over the GraphQL resolvers now that will be used in the HTTP clients in each language. This will not affect current workflows as it is only used by the clients and in API Gateway workflows.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;build(deps): bump github.com/elastic/go-elasticsearch/v8 from 8.14.0 to 8.15.0 in /core by @dependabot in https://github.com/clidey/whodb/pull/124&lt;/li&gt;
+&lt;li&gt;build(deps): bump @testing-library/react from 16.0.0 to 16.0.1 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/123&lt;/li&gt;
+&lt;li&gt;build(deps): bump @reduxjs/toolkit from 2.2.5 to 2.2.7 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/122&lt;/li&gt;
+&lt;li&gt;build(deps): bump @apollo/client from 3.11.4 to 3.11.5 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/120&lt;/li&gt;
+&lt;li&gt;build(deps-dev): bump @types/uuid from 9.0.8 to 10.0.0 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/119&lt;/li&gt;
+&lt;li&gt;build(deps): bump @testing-library/jest-dom from 5.17.0 to 6.5.0 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/121&lt;/li&gt;
+&lt;li&gt;Change: Remove type from the schema by @hkdeman in https://github.com/clidey/whodb/pull/130&lt;/li&gt;
+&lt;li&gt;build(deps): bump web-vitals from 2.1.4 to 4.2.3 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/125&lt;/li&gt;
+&lt;li&gt;build(deps): bump framer-motion from 11.2.10 to 11.3.31 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/126&lt;/li&gt;
+&lt;li&gt;build(deps): bump @types/react from 18.3.4 to 18.3.5 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/127&lt;/li&gt;
+&lt;li&gt;build(deps): bump @testing-library/user-event from 13.5.0 to 14.5.2 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/128&lt;/li&gt;
+&lt;li&gt;build(deps): bump @types/node from 22.5.1 to 22.5.2 in /frontend by @dependabot in https://github.com/clidey/whodb/pull/131&lt;/li&gt;
+&lt;li&gt;Add HTTP Endpoints by @hkdeman in https://github.com/clidey/whodb/pull/103&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clidey/whodb/compare/0.34.0...0.35.0&lt;/p&gt;</content>
+    <link href="https://github.com/clidey/whodb/releases/tag/0.35.0" rel="alternate"/>
   </entry>
 </feed>
