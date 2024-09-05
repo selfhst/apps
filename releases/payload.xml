@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-09-05T09:32:03.626184-04:00</updated>
+  <updated>2024-09-05T10:32:01.913143-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,7 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v2.27.0...v2.28.0"&gt;2.28.0&lt;/a&gt; (2024-09-04)&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;collections can use custom database operations (&lt;a href="https://github.com/payloadcms/payload/issues/7675"&gt;#7675&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/6ba293c0f84f91bf89cf089a20e47de130013ebb"&gt;6ba293c&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;collections can use custom database operations (&lt;a href="https://github.com/payloadcms/payload/issues/7675"&gt;#7675&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/6ba293c0f84f91bf89cf089a20e47de130013ebb"&gt;6ba293c&lt;/a&gt;) (@kendelljoseph)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
