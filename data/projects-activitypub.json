@@ -552,7 +552,7 @@
         "Repository Link": "https://github.com/nextcloud/social",
         "Description": "Nextcloud app for federated networking",
         "License": "AGPL-3.0",
-        "Icon": "https://selfhst.github.io/apps/icons/projects/nextcloud.webp",
+        "Icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/nextcloud-social.webp",
         "Icon Type": "Native",
         "Source": "GitHub",
         "Repository": "nextcloud/social",
