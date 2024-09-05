@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>solidtime Releases</title>
-  <updated>2024-09-05T06:33:11.297607-04:00</updated>
+  <updated>2024-09-05T07:33:20.170428-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,5 +76,35 @@
 php artisan computed-attributes:generate TimeEntry:billable_rate&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This can take a while, depending on how many time entries are in the database. Running this command is not required so that the applications runs correctly. It just recreates a cache that might not be correct anymore because of the new billable rate feature.&lt;/p&gt;</content>
     <link href="https://github.com/solidtime-io/solidtime/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solidtime-io/solidtime/releases/tag/v0.2.0</id>
+    <title>New release for solidtime: v0.2.0</title>
+    <updated>2024-09-05T07:12:06-04:00</updated>
+    <author>
+      <name>solidtime-io/solidtime</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Timer still running email (https://github.com/solidtime-io/solidtime/pull/134)&lt;/li&gt;
+&lt;li&gt;Change component structure to be more independent from data (https://github.com/solidtime-io/solidtime/pull/129)&lt;/li&gt;
+&lt;li&gt;Feature/member id bugfix (https://github.com/solidtime-io/solidtime/pull/146)&lt;/li&gt;
+&lt;li&gt;fix formatting for hours (https://github.com/solidtime-io/solidtime/pull/152)&lt;/li&gt;
+&lt;li&gt;Fixed error when sending unknown fields in request (https://github.com/solidtime-io/solidtime/pull/155)&lt;/li&gt;
+&lt;li&gt;move ui and api to seperate packages and add npm actions for them (https://github.com/solidtime-io/solidtime/pull/153)&lt;/li&gt;
+&lt;li&gt;Added export (Backend) (https://github.com/solidtime-io/solidtime/pull/154)&lt;/li&gt;
+&lt;li&gt;add update notification to sidebar, fix aborted requests on navigate (https://github.com/solidtime-io/solidtime/pull/160)&lt;/li&gt;
+&lt;li&gt;Fix billiable rate in updateMultiple time entries (https://github.com/solidtime-io/solidtime/pull/164)&lt;/li&gt;
+&lt;li&gt;Add billable rate calculation to project member (create/delete) (https://github.com/solidtime-io/solidtime/pull/145)&lt;/li&gt;
+&lt;li&gt;Auditing (https://github.com/solidtime-io/solidtime/pull/165)&lt;/li&gt;
+&lt;li&gt;Removed default healthcheck in prod Dockerfile (https://github.com/solidtime-io/solidtime/pull/170)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/solidtime-io/solidtime/compare/v0.1.0...v0.2.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;After Upgrade&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In addition to running the migrations, we advise recalculating the &lt;code&gt;billable_rate&lt;/code&gt; computed field in the time entries.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bash
+php artisan computed-attributes:generate TimeEntry:billable_rate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This can take a while, depending on how many time entries are in the database. Running this command is not required so that the applications runs correctly. It just recreates a cache that might not be correct anymore because of the new billable rate feature.&lt;/p&gt;</content>
+    <link href="https://github.com/solidtime-io/solidtime/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
