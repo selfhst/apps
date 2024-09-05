@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-09-05T16:31:00.991733-04:00</updated>
+  <updated>2024-09-05T17:30:59.154496-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,5 +87,24 @@
 &lt;li&gt;update unraid installation instructions (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/a1121d29646ce549dc911ba489adcb13808b6eb3"&gt;a1121d2&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RaunoT/plex-rewind/releases/tag/v4.2.0</id>
+    <title>New release for Plex Rewind: v4.2.0</title>
+    <updated>2024-09-05T16:41:25-04:00</updated>
+    <author>
+      <name>RaunoT/plex-rewind</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v4.1.0...v4.2.0"&gt;4.2.0&lt;/a&gt; (2024-09-05)&lt;/h2&gt;
+&lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;api:&lt;/strong&gt; add status page (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/62c4c98b45e2f6b7433c07c84b6a8e2cfcc6b81d"&gt;62c4c98&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/239"&gt;#239&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config:&lt;/strong&gt; allow sorting libraries (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/241"&gt;#241&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/056ca594e98b7c316135726a1ab8163bc6b6e777"&gt;056ca59&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/185"&gt;#185&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📝 Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;update screenshots (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/bb12d06f698199b435ebc56617e642da1f456014"&gt;bb12d06&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.2.0" rel="alternate"/>
   </entry>
 </feed>
