@@ -27,7 +27,7 @@
         "Repository Link": "https://github.com/NodeBB/NodeBB",
         "Description": "Forum software built for the modern web",
         "License": "GPL-3.0",
-        "Icon": "https://selfhst.github.io/apps/icons/projects/nodebb.webp",
+        "Icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/nodebb.webp",
         "Icon Type": "Native",
         "Source": "GitHub",
         "Repository": "NodeBB/NodeBB",
