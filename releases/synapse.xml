@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2024-09-06T11:31:12.803370-04:00</updated>
+  <updated>2024-09-06T12:31:13.125618-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,10 +245,7 @@ The same security fix can be found in the full release of 1.112.0.&lt;/p&gt;
       <name>element-hq/synapse</name>
     </author>
     <content>&lt;h1&gt;Synapse 1.114.0 (2024-09-02)&lt;/h1&gt;
-&lt;p&gt;This release enables support for
-&lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4186"&gt;MSC4186&lt;/a&gt; —
-Simplified Sliding Sync. This allows using the upcoming releases of the Element
-X mobile apps without having to run a Sliding Sync Proxy.&lt;/p&gt;
+&lt;p&gt;This release enables support for &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4186"&gt;MSC4186&lt;/a&gt; — Simplified Sliding Sync. This allows using the upcoming releases of the Element X mobile apps without having to run a Sliding Sync Proxy.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Enable native sliding sync support (&lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/3575"&gt;MSC3575&lt;/a&gt; and &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4186"&gt;MSC4186&lt;/a&gt;) by default. (&lt;a href="https://github.com/element-hq/synapse/issues/17648"&gt;#17648&lt;/a&gt;)&lt;/li&gt;
