@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLogr Releases</title>
-  <updated>2024-09-06T14:32:39.136142-04:00</updated>
+  <updated>2024-09-06T15:32:36.989119-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,48 @@
 &lt;li&gt;Public profile of your reading lists.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mozzo1000/booklogr/releases/tag/v1.1.0</id>
+    <title>New release for BookLogr: v1.1.0</title>
+    <updated>2024-09-06T15:05:49-04:00</updated>
+    <author>
+      <name>Mozzo1000/booklogr</name>
+    </author>
+    <content>&lt;p&gt;Release 1.1.0 🎉&lt;/p&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;| Welcome screen on first login | Could not find book | 
+| :----------------------------: | :----------------------------: |
+| &lt;img alt="Screenshot 2024-09-06 at 20-59-11 BookLogr" src="https://github.com/user-attachments/assets/d6f5302f-e99d-446b-a51e-4acfcfbd71b2" /&gt; |&lt;img alt="Screenshot 2024-09-06 at 21-03-23 BookLogr" src="https://github.com/user-attachments/assets/83f1c304-a6ba-445a-a4f0-e33e5ef15191" /&gt; |&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Welcome screen on first login.&lt;/li&gt;
+&lt;li&gt;Basic framework for handling long running background tasks.&lt;/li&gt;
+&lt;li&gt;API validation for editing current page, rating and status.&lt;/li&gt;
+&lt;li&gt;"No results found" text added when there are no results when searching.&lt;/li&gt;
+&lt;li&gt;Error text is now shown when trying to give a higher rating than 5 or lower than 0.&lt;/li&gt;
+&lt;li&gt;Error text is now shown when trying to set a current page higher than the books total page or lower than 0.&lt;/li&gt;
+&lt;li&gt;Add CSV export functionality&lt;/li&gt;
+&lt;li&gt;Account settings page (no working functionality yet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading progress percentage no longer shown as over 100% if current page exceeded total pages on a book.&lt;/li&gt;
+&lt;li&gt;Search results will now only show books that have a corresponing ISBN. Without this would cause the search results to show up empty and endlessly load.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Number of pages shown on a book page now shows 0 instead of a loading bar if there is no data from OpenLibrary.&lt;/li&gt;
+&lt;li&gt;Book covers will now fallback to a static "cover not found" image instead of endlessly showing a loading bar.&lt;/li&gt;
+&lt;li&gt;Search results now uses the same loading animation as everything else.&lt;/li&gt;
+&lt;li&gt;Reading status buttons in book action menu now has icons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Profile creation on profile page. Instead the user will create it's profile in the newly added welcome screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Mozzo1000/booklogr/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>

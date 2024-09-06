@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-09-06T14:31:03.381602-04:00</updated>
+  <updated>2024-09-06T15:31:04.500819-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,11 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h2&gt;What’s new&lt;/h2&gt;
+    <content>&lt;h2&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What’s new&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Video conference persistent chat: Keep the conversation going long after the call ends! With this new feature, video conference apps can store chat messages using a unique discussion ID, so users can access their chats anytime through Rocket.Chat. Currently, the Pexip app supports this feature.&lt;/p&gt;
@@ -269,6 +273,10 @@
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.43.1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Known Issues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -317,6 +325,10 @@
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.44.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Known Issues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -372,6 +384,10 @@
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.44.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Known Issues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -440,6 +456,10 @@
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.45.0-alpha.866&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Known Issues:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Whats new:&lt;/h1&gt;
 &lt;p&gt;The update brings new features such as a "Created at" column in the admin rooms table, Matrix Federation validation, an audit endpoint for room members, a 'Deactivated' tab on the Users page, and a setting for file encryption in end-to-end encrypted rooms.&lt;/p&gt;
