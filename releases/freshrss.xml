@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FreshRSS Releases</title>
-  <updated>2024-09-06T12:30:22.913494-04:00</updated>
+  <updated>2024-09-06T13:30:22.370846-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -368,7 +368,7 @@ and newcomers @dservian, @crisukbot, @TomW1605&lt;/p&gt;
     <content>&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/FreshRSS/FreshRSS/milestones/1.24.3"&gt;Milestone&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This is a quality-focussed release for the &lt;a href="https://github.com/FreshRSS/FreshRSS/releases/tag/1.24.3"&gt;1.24.x series&lt;/a&gt; meant to provide a good product to people blocked on PHP 7.4, while we will increase the requirements to PHP 8.1+ from the next release.&lt;/p&gt;
+&lt;p&gt;This is a quality-focussed release for the &lt;a href="https://github.com/FreshRSS/FreshRSS/releases/tag/1.24.2"&gt;1.24.x series&lt;/a&gt; meant to provide a good product to people blocked on PHP 7.4, while we will increase the requirements to PHP 8.1+ from the next release.&lt;/p&gt;
 &lt;p&gt;A few highlights ✨:
 * Last version supporting PHP 7.4 before requiring PHP 8.1+
 * Last version supporting PostgreSQL 9.5 before requiring PostgreSQL 10+
