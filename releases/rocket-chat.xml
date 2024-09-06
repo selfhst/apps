@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-09-06T17:31:03.325188-04:00</updated>
+  <updated>2024-09-06T18:31:02.049063-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,18 +17,26 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;/p&gt;
+&lt;h4&gt;Known Issue: Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/h4&gt;
+&lt;p&gt;When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's New&lt;/h3&gt;
+&lt;p&gt;The update brings new features such as a "Created at" column in the admin rooms table, Matrix Federation validation, an audit endpoint for room members, a 'Deactivated' tab on the Users page, and a setting for file encryption in end-to-end encrypted rooms.&lt;/p&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;p&gt;The update resolves issues with encrypted file uploads, third-party app logins, and federated user protection. It also prevents non-members from dragging files into channels and ensures system messages do not skew live chat response metrics.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For more detailed information, check out &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;our documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.45.0-alpha.866&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Known Issues:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Affects workspaces using the &lt;code&gt;Retention Policy&lt;/code&gt; feature&lt;/strong&gt;: When upgrading from a previous version older than 6.10, a race condition may change the Retention Policy period definition to 30 days, resulting in the removal of data older than 30 days. If the workspace uses a Retention Policy configured for more than 30 days, data may be removed immediately after the upgrade. To prevent this issue, disable the Retention Policy before upgrading, and re-enable it afterward.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Whats new:&lt;/h1&gt;
-&lt;p&gt;The update brings new features such as a "Created at" column in the admin rooms table, Matrix Federation validation, an audit endpoint for room members, a 'Deactivated' tab on the Users page, and a setting for file encryption in end-to-end encrypted rooms.&lt;/p&gt;
 &lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -69,8 +77,6 @@
 &lt;p&gt;Now this PR solves this issue by always accepting E2EE uploads even if &lt;code&gt;application/octet-stream&lt;/code&gt; is not whitelisted but it will block the upload if &lt;code&gt;application/octet-stream&lt;/code&gt; is black listed.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Bug Fixes:&lt;/h1&gt;
-&lt;p&gt;The update resolves issues with encrypted file uploads, third-party app logins, and federated user protection. It also prevents non-members from dragging files into channels and ensures system messages do not skew live chat response metrics.&lt;/p&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -206,8 +212,7 @@
 &lt;li&gt;@rocket.chat/instance-status@0.1.6&lt;/li&gt;
 &lt;li&gt;@rocket.chat/server-cloud-communication@0.0.2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;/details&gt;
-For more detailed information, check out &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;our documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RocketChat/Rocket.Chat/releases/tag/6.12.0" rel="alternate"/>
