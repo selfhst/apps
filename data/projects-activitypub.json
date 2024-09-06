@@ -1245,7 +1245,7 @@
         "Repository Link": "https://gitlab.com/jaywink/socialhome",
         "Description": "Federated personal profile with social networking",
         "License": "AGPL-3.0",
-        "Icon": "https://selfhst.github.io/apps/icons/projects/socialhome.webp",
+        "Icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/socialhome-light.webp",
         "Icon Type": "Native",
         "Source": "GitLab",
         "Repository": "jaywink/socialhome",
