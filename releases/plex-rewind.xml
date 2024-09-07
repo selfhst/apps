@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-09-07T04:31:01.319652-04:00</updated>
+  <updated>2024-09-07T05:31:01.524692-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,5 +106,23 @@
 &lt;li&gt;update screenshots (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/bb12d06f698199b435ebc56617e642da1f456014"&gt;bb12d06&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RaunoT/plex-rewind/releases/tag/v4.3.0</id>
+    <title>New release for Plex Rewind: v4.3.0</title>
+    <updated>2024-09-07T05:21:59-04:00</updated>
+    <author>
+      <name>RaunoT/plex-rewind</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v4.2.0...v4.3.0"&gt;4.3.0&lt;/a&gt; (2024-09-07)&lt;/h2&gt;
+&lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; highlight and always show logged in users rank on user's page (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/243"&gt;#243&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/4dadd77dee77f410353f8ea4e06494f8bbaa9ca1"&gt;4dadd77&lt;/a&gt;), closes &lt;a href="https://github.com/RaunoT/plex-rewind/issues/224"&gt;#224&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🎨 UI changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; improve skeleton loader alignment (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/33224fb56da2f314c88168ca36254ed187aa2ca1"&gt;33224fb&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.3.0" rel="alternate"/>
   </entry>
 </feed>
