@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obsidian LiveSync Releases</title>
-  <updated>2024-09-07T03:32:21.677108-04:00</updated>
+  <updated>2024-09-07T04:32:26.750640-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,6 +129,7 @@ The screen no longer collapses and it also works very quickly when per-file-save
 &lt;p&gt;This time, I am releasing updates and fixes that have accumulated. I encourage you to install it.&lt;/p&gt;
 &lt;p&gt;These changes have been gradually implemented in my Vault part by part, day by day. So I do not anticipate any major issues. However, if you encounter anything, please do not hesitate to let me know. And, I apologise for any delays in my responses. I will definitely respond.&lt;/p&gt;
 &lt;p&gt;I am available on &lt;a href="https://njump.compile-error.net/npub1a79dtp6wzpp9kj4fynzyc40rqwm7h3gaf4m9yzluu5krzu0vpllqkstec2"&gt;Nostr&lt;/a&gt; and Fediverse(https://mozilla.social/@vrtmrz), so feel free to reach out. Please note that my English may be far from perfect, but I would love to try to do my best.&lt;/p&gt;
+&lt;p&gt;Note: if you are troubled with using IBM Cloudant, please set 1(MB) to Maximum size of chunk send in one request, or disable Send chunks in bulk. Sorry for lacking handling. &lt;/p&gt;
 &lt;h3&gt;New Features:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Case-insensitive file handling&lt;/li&gt;
