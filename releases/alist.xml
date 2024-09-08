@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AList Releases</title>
-  <updated>2024-09-08T02:32:30.144453-04:00</updated>
+  <updated>2024-09-08T03:32:28.604248-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,9 +197,9 @@
     <link href="https://github.com/alist-org/alist/releases/tag/v3.36.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/alist-org/alist/releases/tag/v3.37.0</id>
-    <title>New release for AList: v3.37.0</title>
-    <updated>2024-09-08T00:37:39-04:00</updated>
+    <id>https://github.com/alist-org/alist/releases/tag/v3.37.1</id>
+    <title>New release for AList: v3.37.1</title>
+    <updated>2024-09-08T02:59:52-04:00</updated>
     <author>
       <name>alist-org/alist</name>
     </author>
@@ -283,7 +283,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;123pan&lt;/strong&gt;: Optimize rate limiting &amp;nbsp;-&amp;nbsp; by @seiuneko in https://github.com/alist-org/alist/issues/6859 &lt;a href="https://github.com/alist-org/alist/commit/5fa70e40"&gt;&lt;samp&gt;(5fa70)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/alist-org/alist/compare/v3.36.0...v3.37.0"&gt;View changes on GitHub&lt;/a&gt;&lt;/h5&gt;</content>
-    <link href="https://github.com/alist-org/alist/releases/tag/v3.37.0" rel="alternate"/>
+&lt;h5&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/alist-org/alist/compare/v3.36.0...v3.37.1"&gt;View changes on GitHub&lt;/a&gt;&lt;/h5&gt;</content>
+    <link href="https://github.com/alist-org/alist/releases/tag/v3.37.1" rel="alternate"/>
   </entry>
 </feed>
