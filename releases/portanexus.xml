@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PortaNexus Releases</title>
-  <updated>2024-09-08T10:33:04.516091-04:00</updated>
+  <updated>2024-09-08T11:33:07.267900-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,32 @@
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/commits/v0.1.0&lt;/p&gt;</content>
     <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.1</id>
+    <title>New release for PortaNexus: v0.1.1</title>
+    <updated>2024-09-08T10:58:19-04:00</updated>
+    <author>
+      <name>tiagorvmartins/portanexus</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added support for PWA&lt;/li&gt;
+&lt;li&gt;New docker image for PWA being maintained at tiagorvmartins/portanexus-web&lt;/li&gt;
+&lt;li&gt;Better error handling on failed connections&lt;/li&gt;
+&lt;li&gt;Improved cached credentials for Axios module using SecureStore&lt;/li&gt;
+&lt;li&gt;Support error toast messages for both Android and Web Platforms.&lt;/li&gt;
+&lt;li&gt;Updated README.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PWA Support + Error Handling + Toasts by @tiagorvmartins in https://github.com/tiagorvmartins/portanexus/pull/3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@tiagorvmartins made their first contribution in https://github.com/tiagorvmartins/portanexus/pull/3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/compare/v0.1.0...v0.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.1" rel="alternate"/>
   </entry>
 </feed>
