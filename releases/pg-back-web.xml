@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PG Back Web Releases</title>
-  <updated>2024-09-08T14:32:42.767539-04:00</updated>
+  <updated>2024-09-08T15:32:41.225903-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,66 @@ services:
 &lt;p&gt;Upgrade to PG Back Web v0.2.0 now and experience the ultimate convenience and performance in your backup solutions!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/eduardolat/pgbackweb/compare/0.1.2...0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/eduardolat/pgbackweb/releases/tag/0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/eduardolat/pgbackweb/releases/tag/0.3.0</id>
+    <title>New release for PG Back Web: v0.3.0</title>
+    <updated>2024-09-08T14:40:59-04:00</updated>
+    <author>
+      <name>eduardolat/pgbackweb</name>
+    </author>
+    <content>&lt;h1&gt;PG Back Web v0.3.0&lt;/h1&gt;
+&lt;h2&gt;What's new&lt;/h2&gt;
+&lt;p&gt;This release brings a lot of improvements and new features to PG Back Web.&lt;/p&gt;
+&lt;h3&gt;Highlights of this release:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add file size to backup executions thanks to @julien-wff&lt;/li&gt;
+&lt;li&gt;Improve multiple timezone related issues thanks to @julien-wff&lt;/li&gt;
+&lt;li&gt;Support for both AMD64 and ARM64 (experimental) architectures&lt;/li&gt;
+&lt;li&gt;Automatic health check for databases and destinations&lt;/li&gt;
+&lt;li&gt;Add webhooks to get notified or execute third party actions for the followind events: execution success, execution failed, database healthy, database unhealthy, destination healthy, destination unhealthy&lt;/li&gt;
+&lt;li&gt;Add duplicate backup button&lt;/li&gt;
+&lt;li&gt;Add charts to the dashboard summary&lt;/li&gt;
+&lt;li&gt;Add custom searchable select component&lt;/li&gt;
+&lt;li&gt;Add better browser alerts&lt;/li&gt;
+&lt;li&gt;Add browser cache to static files&lt;/li&gt;
+&lt;li&gt;Improve navigation through the dashboard&lt;/li&gt;
+&lt;li&gt;Lots of ui improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Change base image to Debian 12.7 to take advantage of it's stability&lt;/li&gt;
+&lt;li&gt;Update golang to 1.23.1&lt;/li&gt;
+&lt;li&gt;Use nodejs LTS 20.17.0&lt;/li&gt;
+&lt;li&gt;Add dependency checks to tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Join the PG Back Web Discord Server&lt;/h3&gt;
+&lt;p&gt;Don't forget to join to our Discord server to be updated on PG Back Web releases and to ask questions: https://discord.gg/BmAwq29UZ8&lt;/p&gt;
+&lt;h3&gt;How to Install&lt;/h3&gt;
+&lt;p&gt;Follow the &lt;a href="https://github.com/eduardolat/pgbackweb?tab=readme-ov-file#installation"&gt;installation guide&lt;/a&gt; to install PG Back Web.&lt;/p&gt;
+&lt;h3&gt;How to Update&lt;/h3&gt;
+&lt;p&gt;Updating to the latest version of PG Back Web is simple. Just pull the latest Docker image or the specific 0.3.0 version with the following commands:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bash
+docker pull eduardolat/pgbackweb:latest
+docker pull eduardolat/pgbackweb:0.3.0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Or in your &lt;code&gt;compose.yaml&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;```yaml
+services:
+  pgbackweb:
+    image: eduardolat/pgbackweb:0.3.0&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;################################
+## Rest of your configuration ##
+################################
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h3&gt;New Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;@julien-wff made their first contribution in https://github.com/eduardolat/pgbackweb/pull/26&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Thank you 🫶&lt;/h3&gt;
+&lt;p&gt;If this project is useful to you, please consider supporting it by giving a star on GitHub ⭐️ and sharing it with your friends and colleagues to help them discover it.&lt;/p&gt;
+&lt;p&gt;Thank you for using PG Back Web!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/eduardolat/pgbackweb/compare/0.2.0...0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/eduardolat/pgbackweb/releases/tag/0.3.0" rel="alternate"/>
   </entry>
 </feed>
