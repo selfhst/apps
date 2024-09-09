@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jetlog Releases</title>
-  <updated>2024-09-09T13:33:00.476090-04:00</updated>
+  <updated>2024-09-09T14:33:02.178023-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,6 +39,7 @@
 &lt;ul&gt;
 &lt;li&gt;🎉 Added new "Class" field. You can choose between Private, First, Business, Economy+, and Economy&lt;/li&gt;
 &lt;li&gt;🎉 Rework and improvement of statistics and statistics page&lt;/li&gt;
+&lt;li&gt;You can now sort flights in the All Flights page by column (date, distance, duration, …)&lt;/li&gt;
 &lt;li&gt;Minor UI improvements&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
