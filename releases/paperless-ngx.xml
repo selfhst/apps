@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-09-08T21:30:56.605948-04:00</updated>
+  <updated>2024-09-08T22:30:56.820266-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -174,23 +174,25 @@ Paperless-ngx v2.11.6 fixes an issue with one of our dependencies that prevented
       <name>paperless-ngx/paperless-ngx</name>
     </author>
     <content>&lt;h2&gt;paperless-ngx 2.12.0&lt;/h2&gt;
-&lt;h3&gt;Features&lt;/h3&gt;
+&lt;h3&gt;Features / Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Chore: Update backend dependencies in bulk @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7656"&gt;#7656&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: re-work mail rule dialog, support multiple include patterns @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7635"&gt;#7635&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: add Korean language @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7573"&gt;#7573&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: allow multiple filename attachment exclusion patterns for a mail rule @MelleD (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/5524"&gt;#5524&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enhancement: re-work mail rule dialog, support multiple include patterns &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7635"&gt;#7635&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enhancement: add Korean language &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7573"&gt;#7573&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enhancement: allow multiple filename attachment exclusion patterns for a mail rule &lt;a href="https://github.com/MelleD"&gt;@MelleD&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/5524"&gt;#5524&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Refactor: Use django-filter logic for filtering full text search queries &lt;a href="https://github.com/yichi-yang"&gt;@yichi-yang&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7507"&gt;#7507&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Refactor: Reduce number of SQL queries when serializing List[Document] &lt;a href="https://github.com/yichi-yang"&gt;@yichi-yang&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7505"&gt;#7505&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix: use JSON for note audit log entries @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7650"&gt;#7650&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: correct broken pdfjs worker src after upgrade to pdfjs v4 @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7626"&gt;#7626&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Chore: remove unused frontend dependencies @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7607"&gt;#7607&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: fix non-clickable scroll wheel in file uploads list @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7591"&gt;#7591&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: deselect file tasks select all button on dismiss @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7592"&gt;#7592&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: saved view sidebar heading not always visible @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7584"&gt;#7584&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: correct select field wrapping with long text @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7572"&gt;#7572&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: update ng-bootstrap to fix datepicker bug @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7567"&gt;#7567&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: use JSON for note audit log entries &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7650"&gt;#7650&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: Rework system check so it won't crash if tesseract is not found &lt;a href="https://github.com/stumpylog"&gt;@stumpylog&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7640"&gt;#7640&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: correct broken pdfjs worker src after upgrade to pdfjs v4 &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7626"&gt;#7626&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Chore: remove unused frontend dependencies &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7607"&gt;#7607&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: fix non-clickable scroll wheel in file uploads list &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7591"&gt;#7591&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: deselect file tasks select all button on dismiss &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7592"&gt;#7592&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: saved view sidebar heading not always visible &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7584"&gt;#7584&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: correct select field wrapping with long text &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7572"&gt;#7572&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix: update ng-bootstrap to fix datepicker bug &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/7567"&gt;#7567&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Dependencies&lt;/h3&gt;
 &lt;details&gt;
