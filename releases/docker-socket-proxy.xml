@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docker Socket Proxy Releases</title>
-  <updated>2024-09-09T09:30:17.352908-04:00</updated>
+  <updated>2024-09-09T10:30:18.372960-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,5 +96,20 @@ Although this is not the beginning of the project, it will be the first tagged v
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Tecnativa/docker-socket-proxy/compare/v0.1.2...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.3.0</id>
+    <title>New release for Docker Socket Proxy: v0.3.0</title>
+    <updated>2024-09-09T10:16:11-04:00</updated>
+    <author>
+      <name>Tecnativa/docker-socket-proxy</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;test: pause after container creation + poetry deps update by @proudier in https://github.com/Tecnativa/docker-socket-proxy/pull/138&lt;/li&gt;
+&lt;li&gt;Revert "chore: updated to HAproxy 3.0 and forced running as root" by @proudier in https://github.com/Tecnativa/docker-socket-proxy/pull/136&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Tecnativa/docker-socket-proxy/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/Tecnativa/docker-socket-proxy/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
