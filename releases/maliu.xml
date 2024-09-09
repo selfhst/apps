@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mailu Releases</title>
-  <updated>2024-09-09T03:30:41.563883-04:00</updated>
+  <updated>2024-09-09T04:30:44.318730-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,11 +115,14 @@
     </author>
     <content>&lt;h2&gt;Changelog :mailbox:&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;"Request failed" in Snappymail when displaying one specific INBOX folder #3401&lt;/li&gt;
+&lt;li&gt;Managing of external certificates - frontend reload #3405&lt;/li&gt;
+&lt;li&gt;LMTP delivery failing with 'KeyError' in admin logs after upgrading to 2024.06 #3403&lt;/li&gt;
+&lt;li&gt;Create user is not possible when domain quota and environment variable DEFAULT_QUOTA are set #3379&lt;/li&gt;
+&lt;li&gt;Fastcgi header size in nginx webmail configuration #3272&lt;/li&gt;
+&lt;li&gt;Fetchmail fails on folders with German umlauts #2996&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ensure fetchmail can deal with special characters in folder names&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This release was triggered by PR/Issue &lt;a href="https://github.com/Mailu/Mailu/issues/2296"&gt;2296&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Front container timeout on ports 25 + 443 #3398&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The release notes of the original main release can be accessed via menu item 'Release notes' on &lt;a href="https://mailu.io/"&gt;mailu.io&lt;/a&gt;.&lt;/p&gt;
