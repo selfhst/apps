@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2024-09-10T08:31:44.366599-04:00</updated>
+  <updated>2024-09-10T09:31:41.924338-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -416,5 +416,143 @@
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.3</id>
+    <title>New release for CrowdSec: v1.6.3</title>
+    <updated>2024-09-10T05:46:08-04:00</updated>
+    <author>
+      <name>crowdsecurity/crowdsec</name>
+    </author>
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;reduce log verbosity, minor CI fixes, lint (#3157) @mmetc&lt;/li&gt;
+&lt;li&gt;docker: symlink all data files to the staging area (#3120) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: dockerfiles (#3138) @mmetc&lt;/li&gt;
+&lt;li&gt;refact cscli metrics: fix lines between tables, skip wrapper api (#3137) @mmetc&lt;/li&gt;
+&lt;li&gt;usage metrics: validate maxLength for some elements (#3131) @mmetc&lt;/li&gt;
+&lt;li&gt;remove warning "maxopenconns is 0, default to 100" (#3129) @mmetc&lt;/li&gt;
+&lt;li&gt;revert "db: round created, updated... timestamps to 1 second" (#3127) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli machines/bouncers: dry helper code and move to cscli (#3123) @mmetc&lt;/li&gt;
+&lt;li&gt;func tests: update curl wrapper (#3121) @mmetc&lt;/li&gt;
+&lt;li&gt;update vagrant config for opensuse (#3119) @mmetc&lt;/li&gt;
+&lt;li&gt;make: remove redundant go version check (#3118) @mmetc&lt;/li&gt;
+&lt;li&gt;refact cscli metrics: split stat types to own files  (#3107) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli refact: extract metrics to own package (#3106) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli refact: extract table wrapper to own package (#3105) @mmetc&lt;/li&gt;
+&lt;li&gt;db refact: drop column machines.status (#3102) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: replace "github.com/pkg/errors" in apiserver (#3097) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: import statement order (#3085) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: replace gocognit with revive (#3094) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: github.com/pkg/errors -&amp;gt; errors (#3091) @mmetc&lt;/li&gt;
+&lt;li&gt;lint (intrange) (#2970) @mmetc&lt;/li&gt;
+&lt;li&gt;lint (copyloopvar) (#2971) @mmetc&lt;/li&gt;
+&lt;li&gt;refactor: prefer logrus.WithField over WithFields with a single param (#3087) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (superfluous-else) (#3082) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: refactor hubtests / extract methods run(), coverage() (#3086) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: disable redundant linters, update revive configuration and code metrics (#3081) @mmetc&lt;/li&gt;
+&lt;li&gt;refactor pkg/parser: extract processGrok (#3080) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: refactor "cscli setup" to avoid global variable (#3075) @mmetc&lt;/li&gt;
+&lt;li&gt;refactor context (cscli, pkg/database) (#3071) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (deep-exit) (#3077) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (var-declaration) (#3069) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (indent-error-flow) (#3068) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: replace cyclop, gocyclo with revive; basic pkg/hubtest helper (#3065) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/cwhub: use explicit context for item install, upgrade (#3067) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/cwhub: use explicit context for version check, index update (#3064) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (early-return) (#3051) @mmetc&lt;/li&gt;
+&lt;li&gt;add: missing go reference badge (#3066) @mazzma12&lt;/li&gt;
+&lt;li&gt;lint revive(deep-exit): refactor cmd/crowdsec (#3063) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive (blank-imports) (#3062) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: use cmp.Or from go 1.22 (#3058) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter "stylecheck" (#3060) @mmetc&lt;/li&gt;
+&lt;li&gt;refactor "cscli decisions" (#3061) @mmetc&lt;/li&gt;
+&lt;li&gt;refactor pkg/database, pkg/models (#3022) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: enable revive/if-return, revive/error-strings (#3057) @mmetc&lt;/li&gt;
+&lt;li&gt;tests: log.Fatal -&amp;gt; return err (#3056) @mmetc&lt;/li&gt;
+&lt;li&gt;fix tests in 01_crowdsec.bats for packages  (#3054) @sabban&lt;/li&gt;
+&lt;li&gt;CI/bats: test remediation api via socket (#3052) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/database: refactor &amp;amp; rename "soft delete" to "expire" (#3025) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: revive/useless-break (#3050) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linter: revive(bool-literal-in-expr) (#2983) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: log.Fatal -&amp;gt; return err (#3049) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: refactor alerts/console/decisions/setup (#3003) @mmetc&lt;/li&gt;
+&lt;li&gt;CI/lint: enable some "revive" rules (#3041) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/dumps.DumpTree: split to reduce complexity (#3001) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/database: simplify flush agents/bouncers (#3026) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lapi detailed metrics (#2858) @mmetc&lt;/li&gt;
+&lt;li&gt;allow .index.json to embed item content (#3145) @mmetc&lt;/li&gt;
+&lt;li&gt;bats: curl helpers to mock log processors and bouncers (#3141) @mmetc&lt;/li&gt;
+&lt;li&gt;command "cscli metrics show bouncers" (#3126) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow auto registration of machines in LAPI (#3202) @blotus&lt;/li&gt;
+&lt;li&gt;cscli hub update: option --with-content to keep embedded items in index; use it in docker (#3192) @mmetc&lt;/li&gt;
+&lt;li&gt;implement GetFSType on openbsd with the correct statfs struct member (#3191) @rnagy&lt;/li&gt;
+&lt;li&gt;pkg/cwhub: cache control / send etag header from file contents, check with HEAD req (#3187) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: add option --ignore-missing to "bouncers delete", "machines delete" (#3177) @mmetc&lt;/li&gt;
+&lt;li&gt;enhancement: Remove useragent set by RC (#3167) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;command "cscli doc --target /path/to/dir" (#3169) @mmetc&lt;/li&gt;
+&lt;li&gt;fix #1742 : Allow QueryCAPIStatus to return as well enrollment status (#3159) @buixor&lt;/li&gt;
+&lt;li&gt;Use the new hub api url (#3132) @sabban&lt;/li&gt;
+&lt;li&gt;perf: retrieve unsorted metrics (#3148) @mmetc&lt;/li&gt;
+&lt;li&gt;enhance: add crowdsec user agent to cti do request func (#3130) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;enhance: Add default_range_remediation (#3109) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;command cscli [machines|bouncers] inspect (#3103) @mmetc&lt;/li&gt;
+&lt;li&gt;lapi detailed metrics: API spec + models (#3100) @mmetc&lt;/li&gt;
+&lt;li&gt;lapi detailed metrics: db schema (#3099) @mmetc&lt;/li&gt;
+&lt;li&gt;improved tls middleware revocation checks (#3034) @mmetc&lt;/li&gt;
+&lt;li&gt;config: expand env variables in local_api_credentials.yaml and .yaml.local (#3093) @mmetc&lt;/li&gt;
+&lt;li&gt;enhancement: add deprecation notice to cscli dashboard prerun (#3079) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;enhancement: add other log levels to docker start script (#3072) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;db,lapi: round durations and timestamps to 1 second (#3015) @mmetc&lt;/li&gt;
+&lt;li&gt;update vagrant image for fc39, fc40 and ubuntu24.04  (#3042) @sabban&lt;/li&gt;
+&lt;li&gt;db: mark immutable columns / remove unused (#3024) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix appsec/tls issues by cloning http transport (#3213) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli dashboard: exit earlier on docker (#3210) @mmetc&lt;/li&gt;
+&lt;li&gt;hide geoip related warnings (#3179) @blotus&lt;/li&gt;
+&lt;li&gt;add missing ApiKeyAuthorizer to decisions swagger endpoint (#3178) @a-mnich&lt;/li&gt;
+&lt;li&gt;prevent nil deref when loading cti config (#3176) @mmetc&lt;/li&gt;
+&lt;li&gt;metrics: avoid nil deref with inactive bouncers or malformed response (#3170) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli metrics: explicit message "no bouncer metrics found" (#3155) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli/hub: don't return error if some file can't be recognized (#3150) @mmetc&lt;/li&gt;
+&lt;li&gt;docker: make sure the sqlite db is present before changing GID (#3140) @mmetc&lt;/li&gt;
+&lt;li&gt;Store alert remediations status in DB (#3115) @blotus&lt;/li&gt;
+&lt;li&gt;tests: increase delta for flaky float comparison (#3122) @mmetc&lt;/li&gt;
+&lt;li&gt;typos (#3104) @mmetc&lt;/li&gt;
+&lt;li&gt;fix "cscli [machines|bouncers] delete" autocompletion (#3101) @mmetc&lt;/li&gt;
+&lt;li&gt;db: don't set machine heartbeat until first connection (#3019) @mmetc&lt;/li&gt;
+&lt;li&gt;db: don't set bouncer last_pull until first connection (#3020) @mmetc&lt;/li&gt;
+&lt;li&gt;Typos (#3084) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: fixed some inconsistency in returning errors (#3076) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: fix deprecation message for "context delete" (#3078) @mmetc&lt;/li&gt;
+&lt;li&gt;fix test 01_cscli by avoiding discrepancies in cscli explain (#3059) @sabban&lt;/li&gt;
+&lt;li&gt;add decently new version of python for centos 7 and 8 for testing (#3053) @sabban&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Chore / Deps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update grokky and deps (#3206) @blotus&lt;/li&gt;
+&lt;li&gt;CI: use go 1.22.6 (#3171) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: update test dependencies (#3146) @mmetc&lt;/li&gt;
+&lt;li&gt;update expr (#3144) @blotus&lt;/li&gt;
+&lt;li&gt;CI: update action versions (#3143) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: use go 1.22.5 (#3128) @mmetc&lt;/li&gt;
+&lt;li&gt;deps: use go-cs-lib 0.13 (#3136) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: use go 1.22.4 (#3095) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: update golangci-lint to 1.59; enforce canonical HTTP headers (#3074) @mmetc&lt;/li&gt;
+&lt;li&gt;deps: use ent 0.13.1 (#3023) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Geolite2 notice&lt;/h2&gt;
+&lt;p&gt;This product includes GeoLite2 data created by MaxMind, available from &lt;a href="https://www.maxmind.com"&gt;https://www.maxmind.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.3" rel="alternate"/>
   </entry>
 </feed>
