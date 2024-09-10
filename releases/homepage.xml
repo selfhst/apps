@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2024-09-10T02:30:29.434870-04:00</updated>
+  <updated>2024-09-10T03:30:29.023571-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,9 +109,9 @@
     <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/gethomepage/homepage/releases/tag/v0.9.7</id>
-    <title>New release for Homepage: v0.9.7</title>
-    <updated>2024-09-10T00:37:41-04:00</updated>
+    <id>https://github.com/gethomepage/homepage/releases/tag/v0.9.8</id>
+    <title>New release for Homepage: v0.9.8</title>
+    <updated>2024-09-10T03:15:25-04:00</updated>
     <author>
       <name>gethomepage/homepage</name>
     </author>
@@ -127,6 +127,7 @@
 &lt;li&gt;Enhancement: support more fields for zabbix widget by @ping-localhost in https://github.com/gethomepage/homepage/pull/3931&lt;/li&gt;
 &lt;li&gt;Enhancement: support Tdarr widget auth by @Wtfitsaduck in https://github.com/gethomepage/homepage/pull/3940&lt;/li&gt;
 &lt;li&gt;Enhancement: reliable wg-easy widget by removing custom proxy, use password header by @shamoon in https://github.com/gethomepage/homepage/pull/3966&lt;/li&gt;
+&lt;li&gt;Fix: jsonrpchandler requires mappings by @shamoon in https://github.com/gethomepage/homepage/pull/3970&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
@@ -137,7 +138,7 @@
 &lt;li&gt;@bobby-driggs made their first contribution in https://github.com/gethomepage/homepage/pull/3904&lt;/li&gt;
 &lt;li&gt;@Wtfitsaduck made their first contribution in https://github.com/gethomepage/homepage/pull/3940&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.9.6...v0.9.7&lt;/p&gt;</content>
-    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.7" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.9.6...v0.9.8&lt;/p&gt;</content>
+    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.9.8" rel="alternate"/>
   </entry>
 </feed>
