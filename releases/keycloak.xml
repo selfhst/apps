@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2024-09-10T01:30:35.763729-04:00</updated>
+  <updated>2024-09-10T02:30:36.384977-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1092,7 +1092,23 @@ the feature, without compromising its roadmap.&lt;/p&gt;
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/st/dev/keycloak-web/target/web/docs/latest/upgrading/index.html#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/32084"&gt;#32084&lt;/a&gt; SAML adapter IdMapperUpdaterSessionListener not executed when session ID changes &lt;code&gt;adapter/saml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/32754"&gt;#32754&lt;/a&gt; CVE-2024-7341 Session fixation in the SAML adapters &lt;code&gt;adapter/saml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/25.0.5" rel="alternate"/>
   </entry>
 </feed>
