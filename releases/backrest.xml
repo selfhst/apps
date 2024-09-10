@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-09-10T03:32:16.784609-04:00</updated>
+  <updated>2024-09-10T04:32:18.112030-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,6 +108,12 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.4.0...v1.5.0"&gt;1.5.0&lt;/a&gt; (2024-09-10)&lt;/h2&gt;
+&lt;p&gt;Excited to announce Backrest 1.5.0 which comes with a number of new scheduling options focused on laptop users and scriptability for plans that adapt to tricky network environments. These are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;'on error retry' policies which allows you to define a command hook that will be retried until it succeds, this can be used to check that your network is healthy before allowing backups to execute e.g. on a laptop.&lt;/li&gt;
+&lt;li&gt;last task relative scheduling uses the last time the task ran rather than Backrest's startup time to determine when to run a job. This allows laptop users to ensure backups are never skipped e.g. when a device is powered off.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally, broad improvements to logging are included e.g. logs are now streamed live for running operations and hooks. Lastly, a number of more minor bug fixes and quality of life improvements are bundled.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add prometheus metrics (&lt;a href="https://github.com/garethgeorge/backrest/issues/459"&gt;#459&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/daacf28699c18b27256cb4bf2eb3d9caf94a5ce8"&gt;daacf28&lt;/a&gt;)&lt;/li&gt;
