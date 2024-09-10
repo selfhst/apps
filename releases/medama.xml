@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medama Releases</title>
-  <updated>2024-09-10T13:32:39.680828-04:00</updated>
+  <updated>2024-09-10T14:32:40.451420-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,10 +173,20 @@
 &lt;ul&gt;
 &lt;li&gt;Implemented a basic spam threshold system to reduce bot traffic.&lt;/li&gt;
 &lt;li&gt;Lowered minimum runtime memory usage by around ~10-12MB, improving performance on low-end systems.&lt;/li&gt;
+&lt;li&gt;Upgraded DuckDB from v1.0.0 to v1.1.0, improving query speed for some pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;The browser client will automatically force flush its cache when it detects the server binary has been updated.&lt;/li&gt;
 &lt;li&gt;Many minor styling adjustments and fixes for better visual consistency.&lt;/li&gt;
 &lt;li&gt;Reduced client bundle size by around ~50kb.&lt;/li&gt;
-&lt;li&gt;Upgraded DuckDB from v1.0.0 to v1.1.0, improving query speed for some pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix cases of extremely large time spent on page values by optimistically firing the unload event when the page is first hidden.&lt;/li&gt;
+&lt;li&gt;Smaller tracker bundle size.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
