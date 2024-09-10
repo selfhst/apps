@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wg-easy Releases</title>
-  <updated>2024-09-10T07:31:48.155537-04:00</updated>
+  <updated>2024-09-10T08:31:52.258870-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,9 +17,11 @@
     <author>
       <name>wg-easy/wg-easy</name>
     </author>
-    <content>&lt;h2&gt;Whats changed&lt;/h2&gt;
-&lt;p&gt;Removed &lt;code&gt;PASSWORD&lt;/code&gt;
-Added &lt;code&gt;PASSWORD_HASH&lt;/code&gt;&lt;/p&gt;
+    <content>&lt;p&gt;Home Assistent support, PASSWORD_HASH (inc. Helper), translation updates bugfixes &amp;amp; more.&lt;/p&gt;
+&lt;h3&gt;Major changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PASSWORD&lt;/code&gt; has been replaced by &lt;code&gt;PASSWORD_HASH&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/commits/v14.0.0&lt;/p&gt;</content>
