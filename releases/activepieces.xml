@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2024-09-10T10:32:44.818348-04:00</updated>
+  <updated>2024-09-10T11:32:45.253559-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -339,7 +339,8 @@ https://www.activepieces.com/docs/about/breaking-changes&lt;/p&gt;
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
+    <content>&lt;p&gt;🚨 There is a minor breaking change in the environment variable. Please check it here: &lt;a href="https://www.activepieces.com/docs/about/breaking-changes"&gt;Breaking Changes&lt;/a&gt; ⚠️&lt;/p&gt;
+&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: implement periodic cleanup for flow run log files (#5401) @hazemadelkhalel&lt;/li&gt;
 &lt;li&gt;feat: Remove Angular and replace with React (#5135) @abuaboud&lt;/li&gt;
