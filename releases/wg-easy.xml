@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wg-easy Releases</title>
-  <updated>2024-09-11T02:31:45.386191-04:00</updated>
+  <updated>2024-09-11T03:31:51.539185-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,7 +22,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;PASSWORD&lt;/code&gt; has been replaced by &lt;code&gt;PASSWORD_HASH&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
 &lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/commits/v14.0.0&lt;/p&gt;</content>
     <link href="https://github.com/wg-easy/wg-easy/releases/tag/v14.0.0" rel="alternate"/>
