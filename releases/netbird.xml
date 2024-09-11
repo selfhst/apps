@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2024-09-11T13:30:51.304862-04:00</updated>
+  <updated>2024-09-11T14:30:50.645450-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -237,7 +237,8 @@ docker compose up -d --force-recreate&lt;/code&gt;&lt;/li&gt;
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;This release improves the relay with better authentication messages. To ensure your system is working properly, you should upgrade your relay and management servers before upgrading your clients.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[client] Don't overwrite allowed IPs when updating the wg peer's endpoint address by @lixmal in https://github.com/netbirdio/netbird/pull/2578&lt;/li&gt;
 &lt;li&gt;[relay] Improve relay messages by @lixmal in https://github.com/netbirdio/netbird/pull/2574&lt;/li&gt;
