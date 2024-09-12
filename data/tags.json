@@ -1,0 +1,993 @@
+[
+    {
+        "Tag": "Analytics",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Automation",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Blog",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Content Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Bookmarks",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Calendar",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Contacts",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Messaging",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Dashboard",
+        "Valid Types": [
+            "Companion",
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Database",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Document Management",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Books",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "E-commerce",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Email",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "RSS",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Feed Reader",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "File Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "File Transfer and Sync",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Grocery Lists",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Recipes",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Identity Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Authentication",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Internet of Things",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Inventory Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Media Streaming",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Android",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Budgeting",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Monitoring",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Note-Taking",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Notifications",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Password Manager",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Pastebin",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Photos",
+        "Valid Types": [
+            "Companion",
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Videos",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Events",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Search Engines",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Server Management",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Development",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Tasks and To-Do Lists",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "URL Shortener",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Video Conferencing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "VPN",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Remote Access",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Web Server",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Wiki",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "No-Code / Low-Code",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Medical",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Fitness",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Tracking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Movies",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Television",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Music",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Artificial Intelligence",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "ActivityPub / Fediverse",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Requests",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Surveys and Forms",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Ad Block",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Privacy",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Podcasts",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Audiobooks",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Subtitles",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Accounting",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Downloads",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Reverse Proxy",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Health and Wellness",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Comments",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Platform",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Workflow Automation",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "DNS",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Forums",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Document Signing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Logs",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Social Media",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Gaming",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Newsletters",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Git",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Visualization",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Spreadsheet",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Cloud Storage",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Home Automation",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Smart Home",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Gardening",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Static Site",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Statistics",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Social News",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "iOS",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Object Storage",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "File Sharing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Networking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Music Streaming",
+        "Valid Types": [
+            "Companion",
+            "Software"
+        ]
+    },
+    {
+        "Tag": "2FA",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Event Polls",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Year in Review",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Uptime",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Video Surveillance",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Security",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "*arr",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "NVR",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Read Later",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Web Desktop",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Landing Page",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Live Streaming",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Feedback",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Image Sharing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Docker",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Voice Assistant",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Front End",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Backups",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Support / Ticketing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Marketing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "IDE",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Terminal",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "3D Printing",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Wake-on-LAN",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Scheduling",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Design",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Office Suite",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Accessibility",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Recording",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Receipts",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Screenshots",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Data Cloud",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Development Environment",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "In-Memory Cache",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Genealogy / Family Trees",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Observability",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Firewall",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "File Conversion",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Facial Recognition",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Relational Database",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Web Analytics",
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Project Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Kanban",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Workspace",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Web Browser",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Radio",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Diagrams",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Whiteboard",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "GPS",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "LaTeX",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Wealth Management",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "PDF",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Speed Test",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Web Scraping",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Wish Lists",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Time Tracking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Task Scheduling",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Development Infrastructure",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Runners",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Control Panel",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Flights",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Search",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "CalDAV/CarDAV",
+        "Valid Types": [
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Comics",
+        "Valid Types": [
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Manga",
+        "Valid Types": [
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Meal Planning",
+        "Valid Types": [
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "SSH",
+        "Valid Types": [
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Platform",
+        "Valid Types": [
+            "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Client",
+        "Valid Types": [
+            "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Tool",
+        "Valid Types": [
+            "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Theme",
+        "Valid Types": [
+            "ActivityPub"
+        ]
+    }
+]
