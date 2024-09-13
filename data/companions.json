@@ -19,6 +19,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Comics,Manga",
+        "Dynamic Filter": "Komga,Kavita",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -42,6 +43,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Docker",
+        "Dynamic Filter": "Docker",
         "Platform": "Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -65,6 +67,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Nextcloud,WebDAV",
         "Platform": "Android,iOS,Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -88,6 +91,7 @@
         "Latest Commit": "2024-08-13",
         "Latest Commit Color": "Green",
         "Tags": "RSS",
+        "Dynamic Filter": "RSS",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -111,6 +115,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Videos,Front End",
+        "Dynamic Filter": "Invidious",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -134,6 +139,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -157,6 +163,7 @@
         "Latest Commit": "2024-09-08",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -180,6 +187,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin,Navidrome",
         "Platform": "Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -203,6 +211,7 @@
         "Latest Commit": "2024-05-11",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -226,6 +235,7 @@
         "Latest Commit": "2024-09-10",
         "Latest Commit Color": "Green",
         "Tags": "CalDAV/CarDAV",
+        "Dynamic Filter": "CalDAV,CardDAV,WebDAV",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -249,6 +259,7 @@
         "Latest Commit": "2023-10-04",
         "Latest Commit Color": "Yellow",
         "Tags": "Media Streaming,Downloads",
+        "Dynamic Filter": "*arr,Tautulli",
         "Platform": "Android,iOS,Linux,Windows,macOS,Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -272,6 +283,7 @@
         "Latest Commit": "2024-09-10",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin,Emby,Plex",
         "Platform": "Server,Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -295,6 +307,7 @@
         "Latest Commit": "2024-08-30",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Subsonic,Navidrome",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -318,6 +331,7 @@
         "Latest Commit": "2024-08-03",
         "Latest Commit Color": "Green",
         "Tags": "Videos,Front End",
+        "Dynamic Filter": "Invidious",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -341,6 +355,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin,Subsonic,Navidrome",
         "Platform": "Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -364,6 +379,7 @@
         "Latest Commit": "2024-08-12",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -387,6 +403,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -410,6 +427,7 @@
         "Latest Commit": "2024-01-25",
         "Latest Commit Color": "Yellow",
         "Tags": "Document Management",
+        "Dynamic Filter": "Paperless-ngx",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -433,6 +451,7 @@
         "Latest Commit": "2024-09-01",
         "Latest Commit Color": "Green",
         "Tags": "Note-Taking",
+        "Dynamic Filter": "Memos",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -456,6 +475,7 @@
         "Latest Commit": "2024-06-11",
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Docker,Portainer",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -479,6 +499,7 @@
         "Latest Commit": "2024-03-19",
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
+        "Dynamic Filter": "qBittorrent",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -502,6 +523,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Comics,Manga",
+        "Dynamic Filter": "Komga,Kavita",
         "Platform": "Windows,Linux,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -525,6 +547,7 @@
         "Latest Commit": "2024-08-27",
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
+        "Dynamic Filter": "Firefly III",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -548,6 +571,7 @@
         "Latest Commit": "2023-06-11",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -571,6 +595,7 @@
         "Latest Commit": "2024-08-09",
         "Latest Commit Color": "Green",
         "Tags": "Books,Comics,Manga",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -594,6 +619,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Subsonic,Navidrome",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -617,6 +643,7 @@
         "Latest Commit": "2024-08-29",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
+        "Dynamic Filter": "LibrePhotos",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -640,6 +667,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
+        "Dynamic Filter": "qBittorrent",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -663,6 +691,7 @@
         "Latest Commit": "2024-07-20",
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
+        "Dynamic Filter": "Firefly III",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -686,6 +715,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
+        "Dynamic Filter": "Immich",
         "Platform": "Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -709,6 +739,7 @@
         "Latest Commit": "2024-09-04",
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
+        "Dynamic Filter": "Firefly III",
         "Platform": "Linux,Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -732,6 +763,7 @@
         "Latest Commit": "2024-09-06",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "iOS,macOS,Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -755,6 +787,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
+        "Dynamic Filter": "Paperless-ngx",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -778,6 +811,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
+        "Dynamic Filter": "Immich",
         "Platform": "Android,Linux,macOS,Windows",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -801,6 +835,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Ad Block",
+        "Dynamic Filter": "AdGuard Home",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -824,6 +859,7 @@
         "Latest Commit": "2024-09-07",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
+        "Dynamic Filter": "Immich",
         "Platform": "Server,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -847,6 +883,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Docker,Backups",
+        "Dynamic Filter": "Docker",
         "Platform": "Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -870,6 +907,7 @@
         "Latest Commit": "2023-11-05",
         "Latest Commit Color": "Yellow",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Linkding",
         "Platform": "Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -893,6 +931,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Audiobooks",
+        "Dynamic Filter": "AudioBookshelf",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -916,6 +955,7 @@
         "Latest Commit": "2024-06-16",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Linkding",
         "Platform": "Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -939,6 +979,7 @@
         "Latest Commit": "2024-04-18",
         "Latest Commit Color": "Green",
         "Tags": "Dashboard,Statistics",
+        "Dynamic Filter": "Tautulli",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -962,6 +1003,7 @@
         "Latest Commit": "2023-10-04",
         "Latest Commit Color": "Yellow",
         "Tags": "Ad Block",
+        "Dynamic Filter": "Pi-hole",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -985,6 +1027,7 @@
         "Latest Commit": "2024-09-07",
         "Latest Commit Color": "Green",
         "Tags": "Recipes,Meal Planning",
+        "Dynamic Filter": "Mealie",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1008,6 +1051,7 @@
         "Latest Commit": "2022-12-11",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Docker,Portainer",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1031,6 +1075,7 @@
         "Latest Commit": "2024-08-28",
         "Latest Commit Color": "Green",
         "Tags": "Docker",
+        "Dynamic Filter": "Docker,Telegram",
         "Platform": "Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1054,6 +1099,7 @@
         "Latest Commit": "2024-08-26",
         "Latest Commit Color": "Green",
         "Tags": "Dashboard,Statistics",
+        "Dynamic Filter": "Tautulli",
         "Platform": "Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1068,7 +1114,7 @@
         "License": "MIT",
         "Icon Source": "Icons",
         "Icon Override": "frigate",
-        "Icon Modifier": null,
+        "Icon Modifier": "Light",
         "Source": "GitHub",
         "Repository": "0x2142/frigate-notify",
         "Stars": 87,
@@ -1077,6 +1123,7 @@
         "Latest Commit": "2024-08-15",
         "Latest Commit Color": "Green",
         "Tags": "Notifications",
+        "Dynamic Filter": "Frigate",
         "Platform": "Server,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1100,6 +1147,7 @@
         "Latest Commit": "2024-08-29",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "*arr",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1123,6 +1171,7 @@
         "Latest Commit": "2024-07-18",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Linkding",
         "Platform": "Android,Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1146,6 +1195,7 @@
         "Latest Commit": "2024-04-24",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Linkding",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1169,30 +1219,8 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Monitoring",
+        "Dynamic Filter": "Uptime Kuma",
         "Platform": "iOS",
-        "CreatedAt": "2024-09-12 14:52:42+00:00"
-    },
-    {
-        "Project": "Grimoire Companion",
-        "Reference": "grimoire-companion",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://github.com/goniszewski/grimoire-web-extension",
-        "Repository Link": "https://github.com/goniszewski/grimoire-web-extension",
-        "Description": "Add bookmarks to a Grimoire account directly from the browser",
-        "License": "MIT",
-        "Icon Source": "Apps",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "Source": "GitHub",
-        "Repository": "goniszewski/grimoire-web-extension",
-        "Stars": 41,
-        "Stars (Display)": "41",
-        "Latest Version": "0.1.2",
-        "Latest Commit": "2024-03-13",
-        "Latest Commit Color": "Yellow",
-        "Tags": "Bookmarks",
-        "Platform": "Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1204,7 +1232,7 @@
         "Repository Link": "https://github.com/tiagorvmartins/portanexus",
         "Description": "Mobile connection for Portainer instances",
         "License": "MIT",
-        "Icon Source": null,
+        "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
         "Source": "GitHub",
@@ -1215,6 +1243,7 @@
         "Latest Commit": "2024-09-08",
         "Latest Commit Color": "Green",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Portainer",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1238,7 +1267,32 @@
         "Latest Commit": "2024-08-05",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Plex",
         "Platform": "Server",
+        "CreatedAt": "2024-09-12 14:52:42+00:00"
+    },
+    {
+        "Project": "Grimoire Companion",
+        "Reference": "grimoire-companion",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://github.com/goniszewski/grimoire-web-extension",
+        "Repository Link": "https://github.com/goniszewski/grimoire-web-extension",
+        "Description": "Add bookmarks to a Grimoire account directly from the browser",
+        "License": "MIT",
+        "Icon Source": "Apps",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "Source": "GitHub",
+        "Repository": "goniszewski/grimoire-web-extension",
+        "Stars": 41,
+        "Stars (Display)": "41",
+        "Latest Version": "0.1.2",
+        "Latest Commit": "2024-03-13",
+        "Latest Commit Color": "Yellow",
+        "Tags": "Bookmarks",
+        "Dynamic Filter": "Grimoire",
+        "Platform": "Browser",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1261,6 +1315,7 @@
         "Latest Commit": "2024-08-27",
         "Latest Commit Color": "Green",
         "Tags": "Dashboard",
+        "Dynamic Filter": "Homarr",
         "Platform": "Linux,Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1284,6 +1339,7 @@
         "Latest Commit": "2024-05-29",
         "Latest Commit Color": "Green",
         "Tags": "Server Management",
+        "Dynamic Filter": "*arr,Jellyfin,Proxmox",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1307,6 +1363,7 @@
         "Latest Commit": "2024-06-23",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
+        "Dynamic Filter": "Linkding",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1330,6 +1387,7 @@
         "Latest Commit": "2024-08-01",
         "Latest Commit Color": "Green",
         "Tags": "URL Shortener",
+        "Dynamic Filter": "Shlink",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1353,6 +1411,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Ad Block",
+        "Dynamic Filter": "AdGuard Home",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1376,6 +1435,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Web Analytics",
+        "Dynamic Filter": "Plausible Analytics",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1399,6 +1459,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "WebDAV,Jellyfin,Plex,Emby,Subsonic,Navidrome",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1422,6 +1483,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Subsonic,Navidrome",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1445,6 +1507,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Plex",
         "Platform": "macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1468,6 +1531,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Docker,SSH",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1491,6 +1555,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Docker",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1514,6 +1579,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Plex",
         "Platform": "Android,iOS,macOS,Windows,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1537,6 +1603,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Dashboard,Statistics",
+        "Dynamic Filter": "Plex",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1560,6 +1627,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,Docker",
+        "Dynamic Filter": "Portainer",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1583,6 +1651,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Audiobooks",
+        "Dynamic Filter": "Plex",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1606,6 +1675,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management",
+        "Dynamic Filter": "Proxmox",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1629,6 +1699,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Smart Home",
+        "Dynamic Filter": "MQTT",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1652,6 +1723,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Monitoring",
+        "Dynamic Filter": "Plex",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1675,6 +1747,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,SSH",
+        "Dynamic Filter": "SSH",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1698,6 +1771,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Monitoring",
+        "Dynamic Filter": "Uptime Kuma",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1721,6 +1795,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Docker,Server Management,SSH",
+        "Dynamic Filter": "Docker,SSH",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1744,6 +1819,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Server Management,SSH",
+        "Dynamic Filter": "SSH",
         "Platform": "Android,iOS,Windows,macOS,Linux",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1767,6 +1843,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Recipes",
+        "Dynamic Filter": "Mealie",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1790,6 +1867,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Subsonic",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1813,6 +1891,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Audiobooks",
+        "Dynamic Filter": "AudioBookshelf,Jellyfin,Emby",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1836,6 +1915,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Ad Block",
+        "Dynamic Filter": "Pi-hole",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1859,6 +1939,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Document Management",
+        "Dynamic Filter": "Paperless-ngx",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1882,6 +1963,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "qBittorrent,*arr",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1905,6 +1987,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Music Streaming",
+        "Dynamic Filter": "Jellyfin",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1928,6 +2011,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Web Analytics",
+        "Dynamic Filter": "Plausible Analytics",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1951,6 +2035,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "Jellyfin,Emby,Plex",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1974,6 +2059,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Media Streaming",
+        "Dynamic Filter": "*arr",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -1997,6 +2083,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Smart Home",
+        "Dynamic Filter": "Home Assistant",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
@@ -2020,6 +2107,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "RSS",
+        "Dynamic Filter": "RSS",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     }

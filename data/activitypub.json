@@ -19,7 +19,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -42,7 +42,7 @@
         "Latest Commit": "2024-09-10",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -65,7 +65,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -88,7 +88,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -111,7 +111,7 @@
         "Latest Commit": "2024-09-10",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -134,7 +134,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -145,7 +145,7 @@
         "Website": "https://elk.zone/",
         "Repository Link": "https://github.com/elk-zone/elk",
         "Description": "A nimble Mastodon web client",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -157,7 +157,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -168,7 +168,7 @@
         "Website": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
         "Repository Link": "https://github.com/Dimillian/IceCubesApp",
         "Description": "Fast, reliable, and beautiful Mastodon client",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -180,7 +180,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -203,7 +203,7 @@
         "Latest Commit": "2024-08-15",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -226,7 +226,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -237,10 +237,10 @@
         "Website": "https://tusky.app/",
         "Repository Link": "https://github.com/tuskyapp/Tusky",
         "Description": "Beautiful Android client for Mastodon",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "GitHub",
         "Repository": "tuskyapp/Tusky",
         "Stars": 2455,
@@ -249,7 +249,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -272,7 +272,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -283,7 +283,7 @@
         "Website": "https://app.joinmastodon.org/ios",
         "Repository Link": "https://github.com/mastodon/mastodon-ios",
         "Description": "Official iOS app for Mastodon",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -295,7 +295,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -306,7 +306,7 @@
         "Website": "https://app.joinmastodon.org/android",
         "Repository Link": "https://github.com/mastodon/mastodon-android",
         "Description": "Official Android app for Mastodon",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -318,7 +318,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -329,7 +329,7 @@
         "Website": "https://github.com/aeharding/voyager",
         "Repository Link": "https://github.com/aeharding/voyager",
         "Description": "Mobile-first Lemmy client",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -341,7 +341,7 @@
         "Latest Commit": "2024-09-10",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android,iOS,Web",
+        "Dynamic Filter": "Android,iOS,Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -364,7 +364,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -387,7 +387,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -398,7 +398,7 @@
         "Website": "https://phanpy.social/",
         "Repository Link": "https://github.com/cheeaun/phanpy",
         "Description": "Minimalistic opinionated Mastodon web client",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Icons",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -410,7 +410,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -421,7 +421,7 @@
         "Website": "https://whalebird.social/",
         "Repository Link": "https://github.com/h3poteto/whalebird-desktop",
         "Description": "Single-column Fediverse client for desktop",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -433,7 +433,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -456,7 +456,7 @@
         "Latest Commit": "2023-12-20",
         "Latest Commit Color": "Yellow",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -479,7 +479,7 @@
         "Latest Commit": "2024-07-08",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -490,7 +490,7 @@
         "Website": "https://lucasggamerm.github.io/moshidon/",
         "Repository Link": "https://github.com/LucasGGamerM/moshidon",
         "Description": "Better modification of the official Mastodon for Android app",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -502,7 +502,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -513,7 +513,7 @@
         "Website": "https://fed.brid.gy/",
         "Repository Link": "https://github.com/snarfed/bridgy-fed",
         "Description": "Bridge between decentralized social network protocols",
-        "License": null,
+        "License": "CC0-1.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -525,7 +525,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -536,10 +536,10 @@
         "Website": "https://sk22.github.io/megalodon/",
         "Repository Link": "https://github.com/sk22/megalodon",
         "Description": "Fork of the Mastodon Android app adding important missing features",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "GitHub",
         "Repository": "sk22/megalodon",
         "Stars": 546,
@@ -548,7 +548,7 @@
         "Latest Commit": "2023-11-27",
         "Latest Commit Color": "Yellow",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -559,7 +559,7 @@
         "Website": "https://tuba.geopjr.dev/",
         "Repository Link": "https://github.com/GeopJr/Tuba",
         "Description": "Browse the Fediverse",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -571,7 +571,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -582,7 +582,7 @@
         "Website": "https://nicolasconstant.github.io/sengi/",
         "Repository Link": "https://github.com/NicolasConstant/sengi",
         "Description": "Mastodon and Pleroma multi-account desktop client",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -594,7 +594,7 @@
         "Latest Commit": "2024-03-09",
         "Latest Commit Color": "Yellow",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -605,7 +605,7 @@
         "Website": "https://wordpress.org/plugins/activitypub/",
         "Repository Link": "https://github.com/Automattic/wordpress-activitypub",
         "Description": "ActivityPub plugin for WordPress",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -617,7 +617,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -640,7 +640,7 @@
         "Latest Commit": "2024-01-25",
         "Latest Commit Color": "Yellow",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -663,7 +663,7 @@
         "Latest Commit": "2024-07-31",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -674,7 +674,7 @@
         "Website": "https://fedify.dev/",
         "Repository Link": "https://github.com/dahlia/fedify",
         "Description": "Library for building federated server apps",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -686,7 +686,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -709,7 +709,7 @@
         "Latest Commit": "2024-08-17",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -720,7 +720,7 @@
         "Website": "https://github.com/nileane/TangerineUI-for-Mastodon",
         "Repository Link": "https://github.com/nileane/TangerineUI-for-Mastodon",
         "Description": "Tangerine redesign for Mastodon's web UI",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Icons",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -732,7 +732,7 @@
         "Latest Commit": "2024-09-06",
         "Latest Commit Color": "Green",
         "Tags": "Theme",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -755,7 +755,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -766,10 +766,10 @@
         "Website": "https://play.google.com/store/apps/details?id=jp.juggler.subwaytooter",
         "Repository Link": "https://github.com/tateisu/SubwayTooter",
         "Description": "Mastodon client app for Android",
-        "License": null,
+        "License": "Apache-2.0",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "GitHub",
         "Repository": "tateisu/SubwayTooter",
         "Stars": 234,
@@ -778,7 +778,7 @@
         "Latest Commit": "2024-03-20",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -789,7 +789,7 @@
         "Website": "https://fedilab.app/",
         "Repository Link": "https://codeberg.org/tom79/Fedilab",
         "Description": "Multifunctional Android client for accessing the distributed Fediverse",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -801,7 +801,7 @@
         "Latest Commit": "2024-03-21",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -824,7 +824,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -835,7 +835,7 @@
         "Website": "https://play.google.com/store/apps/details?id=com.github.whitescent.mastify",
         "Repository Link": "https://github.com/whitescent/Mastify",
         "Description": "Mastodon client focused on modernity and comfort",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -847,7 +847,7 @@
         "Latest Commit": "2024-07-31",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -870,7 +870,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -881,7 +881,7 @@
         "Website": "https://n1k0.github.io/tooty/v2/",
         "Repository Link": "https://github.com/n1k0/tooty",
         "Description": "Alternative multi-account web client for Mastodon",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -893,7 +893,7 @@
         "Latest Commit": "2024-07-18",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -904,9 +904,9 @@
         "Website": "https://pixelfed.org/mobile-apps",
         "Repository Link": "https://github.com/pixelfed/pixelfed-rn",
         "Description": "Official Pixelfed mobile app",
-        "License": null,
-        "Icon Source": "Apps",
-        "Icon Override": null,
+        "License": "AGPL-3.0",
+        "Icon Source": "Icons",
+        "Icon Override": "pixelfed",
         "Icon Modifier": null,
         "Source": "GitHub",
         "Repository": "pixelfed/pixelfed-rn",
@@ -916,7 +916,7 @@
         "Latest Commit": "2024-08-20",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android,iOS",
+        "Dynamic Filter": "Android,iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -927,7 +927,7 @@
         "Website": "https://fedistar.net/",
         "Repository Link": "https://github.com/h3poteto/fedistar",
         "Description": "Multi-column Fediverse client application for desktop",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -939,7 +939,7 @@
         "Latest Commit": "2024-09-08",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -950,7 +950,7 @@
         "Website": "https://hatsu.cli.rs/",
         "Repository Link": "https://github.com/importantimport/hatsu",
         "Description": "Self-hosted ActivityPub bridge for static sites",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -962,7 +962,7 @@
         "Latest Commit": "2024-09-13",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -973,7 +973,7 @@
         "Website": "https://github.com/louisgrasset/touitomamout",
         "Repository Link": "https://github.com/louisgrasset/touitomamout",
         "Description": "Easily sync tweets to Mastodon and Bluesky",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Icons",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -985,7 +985,7 @@
         "Latest Commit": "2024-07-01",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -996,7 +996,7 @@
         "Website": "https://cinderella-project.github.io/iMast/",
         "Repository Link": "https://github.com/cinderella-project/iMast",
         "Description": "3rd-party Mastodon client for iOS",
-        "License": null,
+        "License": "Apache-2.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1008,7 +1008,7 @@
         "Latest Commit": "2024-07-18",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1019,10 +1019,10 @@
         "Website": "https://pachli.app/",
         "Repository Link": "https://github.com/pachli/pachli-android",
         "Description": "Full-featured Android client for Mastodon",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "GitHub",
         "Repository": "pachli/pachli-android",
         "Stars": 104,
@@ -1031,7 +1031,7 @@
         "Latest Commit": "2024-09-09",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1054,7 +1054,7 @@
         "Latest Commit": "2024-07-27",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1065,7 +1065,7 @@
         "Website": "https://mitra.social/@mitra",
         "Repository Link": "https://codeberg.org/silverpill/mitra",
         "Description": "Federated micro-blogging platform",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Icons",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1077,7 +1077,7 @@
         "Latest Commit": "2024-09-12",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1100,7 +1100,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1114,7 +1114,7 @@
         "License": "AGPL-3.0",
         "Icon Source": "Icons",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Light",
         "Source": "Forgejo",
         "Repository": "AkkomaGang/akkoma/",
         "Stars": 64,
@@ -1123,7 +1123,7 @@
         "Latest Commit": "2024-08-20",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1146,7 +1146,7 @@
         "Latest Commit": "2024-07-18",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1157,7 +1157,7 @@
         "Website": "https://b123400.net/tootrain/",
         "Repository Link": "https://github.com/b123400/TootRain",
         "Description": "Display toots on a timeline in niconico style",
-        "License": null,
+        "License": "Apache-2.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1169,30 +1169,7 @@
         "Latest Commit": "2024-06-17",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
-        "CreatedAt": "2024-09-12 17:10:45+00:00"
-    },
-    {
-        "Project": "Pixelix",
-        "Reference": "pixelix",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://pixelix.vercel.app/",
-        "Repository Link": "https://github.com/daniebeler/pixelix",
-        "Description": "Android client for Pixelfed",
-        "License": null,
-        "Icon Source": "Apps",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "Source": "GitHub",
-        "Repository": "daniebeler/pixelix",
-        "Stars": 17,
-        "Stars (Display)": "17",
-        "Latest Version": "N/A",
-        "Latest Commit": "2024-08-22",
-        "Latest Commit Color": "Green",
-        "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1203,7 +1180,7 @@
         "Website": "https://litterbox.koyu.space/",
         "Repository Link": "https://github.com/koyuspace/litterbox",
         "Description": "Simple fediverse client written in Astro",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1215,7 +1192,30 @@
         "Latest Commit": "2023-05-12",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
+        "CreatedAt": "2024-09-12 17:10:45+00:00"
+    },
+    {
+        "Project": "Pixelix",
+        "Reference": "pixelix",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://pixelix.vercel.app/",
+        "Repository Link": "https://github.com/daniebeler/pixelix",
+        "Description": "Android client for Pixelfed",
+        "License": "GPL-3.0",
+        "Icon Source": "Apps",
+        "Icon Override": null,
+        "Icon Modifier": "Square",
+        "Source": "GitHub",
+        "Repository": "daniebeler/pixelix",
+        "Stars": 17,
+        "Stars (Display)": "17",
+        "Latest Version": "N/A",
+        "Latest Commit": "2024-08-22",
+        "Latest Commit Color": "Green",
+        "Tags": "Client",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1226,7 +1226,7 @@
         "Website": "https://apps.kde.org/tokodon/",
         "Repository Link": "https://invent.kde.org/network/tokodon",
         "Description": "Modern client for Mastodon and other decentralized servers",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1238,7 +1238,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1261,7 +1261,7 @@
         "Latest Commit": "2024-09-02",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1272,7 +1272,7 @@
         "Website": "https://play.google.com/store/apps/details?id=allen.town.focus.mastodon",
         "Repository Link": "https://github.com/allentown521/FocusMastodon",
         "Description": "Bright and colorful Mastodon client",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1284,7 +1284,7 @@
         "Latest Commit": "2024-07-19",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1295,10 +1295,10 @@
         "Website": "https://vaccor.space/tusker/",
         "Repository Link": "https://git.shadowfacts.net/shadowfacts/Tusker",
         "Description": "Free and flexible client for the Mastodon social network",
-        "License": null,
+        "License": "MIT",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Gitea",
         "Repository": "shadowfacts/Tusker",
         "Stars": 10,
@@ -1307,7 +1307,7 @@
         "Latest Commit": null,
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1318,7 +1318,7 @@
         "Website": "https://pixeldroid.org/",
         "Repository Link": "https://gitlab.shinice.net/pixeldroid/PixelDroid",
         "Description": "Free Android client for Pixelfed",
-        "License": null,
+        "License": "GPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1330,7 +1330,7 @@
         "Latest Commit": "2024-08-31",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1353,7 +1353,7 @@
         "Latest Commit": "2024-08-07",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
-        "Platform": "Server",
+        "Dynamic Filter": "Server",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1364,7 +1364,7 @@
         "Website": "https://thedesk.top/en/",
         "Repository Link": "https://github.com/cutls/thedesk-next",
         "Description": "Mastodon (and Misskey) client for PC",
-        "License": null,
+        "License": "AGPL-3.0",
         "Icon Source": "Apps",
         "Icon Override": null,
         "Icon Modifier": null,
@@ -1376,7 +1376,7 @@
         "Latest Commit": "2024-09-11",
         "Latest Commit Color": "Green",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1387,10 +1387,10 @@
         "Website": "https://apps.apple.com/us/app/tootdesk/id1591748028",
         "Repository Link": "https://github.com/cutls/TootDesk",
         "Description": "Mastodon client for iOS",
-        "License": null,
+        "License": "Apache-2.0",
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "GitHub",
         "Repository": "cutls/TootDesk",
         "Stars": 4,
@@ -1399,7 +1399,7 @@
         "Latest Commit": "2023-07-04",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1422,7 +1422,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1436,7 +1436,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1445,7 +1445,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1468,7 +1468,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1491,7 +1491,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1505,7 +1505,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1514,7 +1514,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1528,7 +1528,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1537,7 +1537,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1551,7 +1551,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1560,7 +1560,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1583,12 +1583,12 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
         "Project": "Toot!",
-        "Reference": "toot-exclamation",
+        "Reference": "toot",
         "Sponsor": null,
         "Sponsor URL": null,
         "Website": "https://apps.apple.com/us/app/toot-for-mastodon/id1229021451",
@@ -1606,7 +1606,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1620,7 +1620,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1629,7 +1629,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Android,iOS,Web,Desktop",
+        "Dynamic Filter": "Android,iOS,Web,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1652,7 +1652,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1666,7 +1666,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1675,7 +1675,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1689,7 +1689,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1698,7 +1698,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1712,7 +1712,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1721,7 +1721,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1735,7 +1735,7 @@
         "License": null,
         "Icon Source": "Apps",
         "Icon Override": null,
-        "Icon Modifier": null,
+        "Icon Modifier": "Square",
         "Source": "Closed",
         "Repository": null,
         "Stars": -1,
@@ -1744,7 +1744,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1767,7 +1767,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1790,7 +1790,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1813,7 +1813,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS",
+        "Dynamic Filter": "iOS",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1836,7 +1836,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "iOS,Desktop",
+        "Dynamic Filter": "iOS,Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1859,7 +1859,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Web",
+        "Dynamic Filter": "Web",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1882,7 +1882,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Desktop",
+        "Dynamic Filter": "Desktop",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1905,7 +1905,7 @@
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
         "Tags": "Client",
-        "Platform": "Android",
+        "Dynamic Filter": "Android",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     }
 ]
