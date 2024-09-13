@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WikiDocs Releases</title>
-  <updated>2024-09-13T12:33:01.356571-04:00</updated>
+  <updated>2024-09-13T13:33:07.250674-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,15 @@
     </author>
     <content/>
     <link href="https://github.com/Zavy86/WikiDocs/releases/tag/1.0.52" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Zavy86/WikiDocs/releases/tag/1.0.53</id>
+    <title>New release for WikiDocs: Release 1.0.53</title>
+    <updated>2024-09-13T12:58:20-04:00</updated>
+    <author>
+      <name>Zavy86/WikiDocs</name>
+    </author>
+    <content/>
+    <link href="https://github.com/Zavy86/WikiDocs/releases/tag/1.0.53" rel="alternate"/>
   </entry>
 </feed>
