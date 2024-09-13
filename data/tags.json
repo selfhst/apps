@@ -95,8 +95,8 @@
     {
         "Tag": "Bookmarks",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -176,8 +176,8 @@
     {
         "Tag": "Dashboard",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -600,8 +600,8 @@
     {
         "Tag": "Photos",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
