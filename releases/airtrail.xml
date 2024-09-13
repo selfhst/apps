@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AirTrail Releases</title>
-  <updated>2024-09-13T13:33:14.616047-04:00</updated>
+  <updated>2024-09-13T14:42:12.659228-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,5 +77,22 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/johanohly/AirTrail/compare/v0.0.3...v0.1.0&lt;/p&gt;</content>
     <link href="https://github.com/johanohly/AirTrail/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/johanohly/AirTrail/releases/tag/v0.1.1</id>
+    <title>New release for AirTrail: v0.1.1</title>
+    <updated>2024-09-13T13:37:55-04:00</updated>
+    <author>
+      <name>johanohly/AirTrail</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;🐛 Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: statistics not updating when new flights are added (closes #10)&lt;/li&gt;
+&lt;li&gt;fix: show seat-related statistics of the current user only&lt;/li&gt;
+&lt;li&gt;fix: use light color for globe in light mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/johanohly/AirTrail/compare/v0.1.0...v0.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/johanohly/AirTrail/releases/tag/v0.1.1" rel="alternate"/>
   </entry>
 </feed>
