@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2024-09-13T05:32:51.148992-04:00</updated>
+  <updated>2024-09-13T06:32:55.613806-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -448,11 +448,11 @@ import LogtoClient from '@logto/client';&lt;/p&gt;
 &lt;h3&gt;Package build improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use &lt;code&gt;tsup&lt;/code&gt; to build the connector packages. This will make the build process faster, and should not affect the functionality of the packages.&lt;/li&gt;
-&lt;li&gt;User &lt;code&gt;Vite&lt;/code&gt; for transpilation and bundling of the &lt;code&gt;@logto/console&lt;/code&gt;, &lt;code&gt;@logto/demo-app&lt;/code&gt; and &lt;code&gt;@logto/experience&lt;/code&gt; packages. Removed ParcelJS and replaced with Vite. No breaking changes should be expected.&lt;/li&gt;
+&lt;li&gt;User &lt;code&gt;Vite&lt;/code&gt; for transpilation and bundling of the &lt;code&gt;@logto/console&lt;/code&gt;, &lt;code&gt;@logto/demo-app&lt;/code&gt;, and &lt;code&gt;@logto/experience&lt;/code&gt; packages. Removed ParcelJS and replaced with Vite. No breaking changes should be expected.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;h3&gt;Fix the jsonb update behavior of the &lt;code&gt;PATCH /api/applications/{applicationId}&lt;/code&gt; endpoint&lt;/h3&gt;
-&lt;p&gt;All the jsonb fields of the &lt;code&gt;Application&lt;/code&gt; object should be updated in the &lt;code&gt;replace&lt;/code&gt; mode instead of &lt;code&gt;merge&lt;/code&gt; mode. This change will make the &lt;code&gt;PATCH&lt;/code&gt; method more predictable and consistent with the Restful API design.&lt;/p&gt;
+&lt;p&gt;All the jsonb fields of the &lt;code&gt;Application&lt;/code&gt; object should be updated in the &lt;code&gt;replace&lt;/code&gt; mode instead of the &lt;code&gt;merge&lt;/code&gt; mode. This change will make the &lt;code&gt;PATCH&lt;/code&gt; method more predictable and consistent with the Restful API design.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Update the jsonb field update mode from &lt;code&gt;merge&lt;/code&gt; to &lt;code&gt;replace&lt;/code&gt; in the &lt;code&gt;PATCH /api/applications/{applicationId}&lt;/code&gt; endpoint.&lt;/li&gt;
 &lt;li&gt;Update the API jsonb field input parameters validation from &lt;code&gt;partial&lt;/code&gt; to &lt;code&gt;full&lt;/code&gt; in the &lt;code&gt;PATCH /api/applications/{applicationId}&lt;/code&gt; endpoint.&lt;/li&gt;
@@ -462,17 +462,17 @@ import LogtoClient from '@logto/client';&lt;/p&gt;
 &lt;p&gt;[!Note]
 If you are using Logto console to update the &lt;code&gt;Application&lt;/code&gt; settings, you should not be affected by this change. API users who are using the &lt;code&gt;PATCH&lt;/code&gt; method to update the &lt;code&gt;Application&lt;/code&gt; jsonb field settings should be aware of this change. The &lt;code&gt;PATCH&lt;/code&gt; method will now replace the whole jsonb field with the new input data. Any partial input data of the affected fields will be rejected.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;Fix some of the webhooks event payload alway returns API response status 404 issue&lt;/h3&gt;
+&lt;h3&gt;Fix some of the webhooks event payload always return API response status 404 bug&lt;/h3&gt;
 &lt;p&gt;Affected webhook events: &lt;code&gt;Role.Scopes.Updated&lt;/code&gt;, &lt;code&gt;Organizations.Membership.Updates&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The API response status code returned from the webhook event payload was always 404. That was caused by inserting the webhook event payload before the API response context was set.&lt;/p&gt;
-&lt;p&gt;Since we only trigger the webhook when the event is successfully processed, so the status code should always be 2xx.&lt;/p&gt;
+&lt;p&gt;Since we only trigger the webhook when the event is successfully processed, the status code should always be 2xx.&lt;/p&gt;
 &lt;p&gt;This issue have been fixed by moving the webhook event payload insertion after the API response context is set.&lt;/p&gt;
 &lt;h2&gt;Other improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The favicon for the dark theme now can be set in the sign-in experience branding settings.&lt;/li&gt;
-&lt;li&gt;Add new password digest algorithms: &lt;code&gt;Argon2d&lt;/code&gt; and &lt;code&gt;Argon2id&lt;/code&gt;. Users with those algorithms will be migrated to &lt;code&gt;Argon2i&lt;/code&gt; upon successful sign in.&lt;/li&gt;
+&lt;li&gt;Add new password digest algorithms: &lt;code&gt;Argon2d&lt;/code&gt; and &lt;code&gt;Argon2id&lt;/code&gt;. Users with those algorithms will be migrated to &lt;code&gt;Argon2i&lt;/code&gt; upon successful sign-in.&lt;/li&gt;
 &lt;li&gt;The browser list configuration for &lt;code&gt;@logto/experience&lt;/code&gt; has been synced with what is stated in &lt;code&gt;README.md&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Improve swagger auth description. Use native OpenAPI OAuth2 security scheme instead of custom HTTP header-based security schema.&lt;/li&gt;
+&lt;li&gt;Improve swagger auth description. Use the native OpenAPI OAuth2 security scheme instead of the custom HTTP header-based security schema.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.19.0" rel="alternate"/>
   </entry>
