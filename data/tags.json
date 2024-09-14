@@ -51,7 +51,8 @@
     {
         "Tag": "Android",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -600,8 +601,8 @@
     {
         "Tag": "Photos",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -829,6 +830,12 @@
         "Tag": "Terminal",
         "Valid Types": [
             "Software"
+        ]
+    },
+    {
+        "Tag": "Theme",
+        "Valid Types": [
+            "Companion"
         ]
     },
     {
