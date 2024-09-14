@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2024-09-14T00:32:42.681336-04:00</updated>
+  <updated>2024-09-14T01:32:41.379592-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -467,7 +467,7 @@ If you are using Logto console to update the &lt;code&gt;Application&lt;/code&gt
 &lt;h1&gt;6445 Implemented well-known swagger endpoints.&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h1&gt;6451 Splitted &lt;code&gt;translate&lt;/code&gt; command from &lt;code&gt;@logto/cli&lt;/code&gt; to make the CLI small and simple.&lt;/h1&gt;
+&lt;h1&gt;6451 Split &lt;code&gt;translate&lt;/code&gt; command from &lt;code&gt;@logto/cli&lt;/code&gt; to make the CLI small and simple.&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;6451 Added a dedicated &lt;code&gt;@logto/translate&lt;/code&gt; package to translate i18n phrases in Console and Experience.&lt;/h1&gt;
