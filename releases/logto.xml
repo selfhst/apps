@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2024-09-13T22:32:50.186689-04:00</updated>
+  <updated>2024-09-13T23:32:37.144129-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -476,7 +476,7 @@ If you are using Logto console to update the &lt;code&gt;Application&lt;/code&gt
 &lt;h1&gt;6523 Supported entering name while creating a user in Console.&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h1&gt;6525 Added new query parameter &lt;code&gt;parse_error&lt;/code&gt; and explicitly set it to &lt;code&gt;false&lt;/code&gt; to return raw error messages from third-party platform.&lt;/h1&gt;
+&lt;h1&gt;6525 Added new query parameter &lt;code&gt;parse_error&lt;/code&gt; and explicitly set it to &lt;code&gt;false&lt;/code&gt; to return raw OIDC error message only.&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;6532 Added &lt;code&gt;denyAccess()&lt;/code&gt; api to custom JWT context in order to conditionally block user token request.&lt;/h1&gt;
