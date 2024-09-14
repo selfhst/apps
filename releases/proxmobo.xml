@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ProxMobo Releases</title>
-  <updated>2024-09-14T09:33:27.903044-04:00</updated>
+  <updated>2024-09-14T10:33:35.797449-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,5 +60,31 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/compare/v0.1.0...v0.1.1&lt;/p&gt;</content>
     <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.2</id>
+    <title>New release for PortaNexus: v0.1.2</title>
+    <updated>2024-09-14T10:12:22-04:00</updated>
+    <author>
+      <name>tiagorvmartins/portanexus</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;New feature: container screen listing all (independent of stacks relation) containers on docker endpoint.&lt;/li&gt;
+&lt;li&gt;New feature: ability to control containers individually (start, stop, restart) both on the new Containers screen but also on Stacks screen when expanding the stack.&lt;/li&gt;
+&lt;li&gt;Improvement: persistence of Theme selected on store (Light vs Dark theme).&lt;/li&gt;
+&lt;li&gt;Improvement: improved color styling on NavigationDrawer menu for better readability.&lt;/li&gt;
+&lt;li&gt;Improvement: reduced the amount of loading spinners popping up on screen (there were two Loading spinners once the refresh operation got included).&lt;/li&gt;
+&lt;li&gt;Improvement: added footer with application name and version.&lt;/li&gt;
+&lt;li&gt;Bug fix: there was a problem that went into the last release unnoticed, stack containers were being filtered by a specific project name identifier.&lt;/li&gt;
+&lt;li&gt;Chore: README.md updated with new links.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;release branch for v0.1.2 by @tiagorvmartins in https://github.com/tiagorvmartins/portanexus/pull/6&lt;/li&gt;
+&lt;li&gt;upgrade github action upload artifact by @tiagorvmartins in https://github.com/tiagorvmartins/portanexus/pull/7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
+    <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.2" rel="alternate"/>
   </entry>
 </feed>
