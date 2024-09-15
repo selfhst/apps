@@ -608,13 +608,19 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Plugin",
+        "Valid Types": [
+            "Companion"
         ]
     },
     {
@@ -638,8 +644,8 @@
     {
         "Tag": "RSS",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -835,13 +841,13 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion"
         ]
     },
     {
