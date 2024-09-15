@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Valkey Releases</title>
-  <updated>2024-09-15T16:32:29.832830-04:00</updated>
+  <updated>2024-09-15T17:32:12.182247-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,5 +75,47 @@ compiled for Redis. For other users, it primarily fixes uncommon bugs.&lt;/p&gt;
   (Redis#12969)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/valkey-io/valkey/releases/tag/7.2.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/valkey-io/valkey/releases/tag/8.0.0</id>
+    <title>New release for Valkey: </title>
+    <updated>2024-09-15T16:44:29-04:00</updated>
+    <author>
+      <name>valkey-io/valkey</name>
+    </author>
+    <content>&lt;p&gt;Upgrade urgency LOW: This is the first release of Valkey 8.0, which
+includes stability and performance improvements over the second release
+candidate. This release is fully compatible with Redis OSS 7.2.4.&lt;/p&gt;
+&lt;h1&gt;Logging and Tooling Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Added full client info to SHUTDOWN and CLUSTER FAILOVER logs for better traceability
+  of requests. (#875)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Bug fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolved issues in replicationSetPrimary where the primary node's IP/port updates were
+  not correctly handled in the cluster gossip section. (#965)&lt;/li&gt;
+&lt;li&gt;Fixed AOF base suffix during rewrites when modifying the aof-use-rdb-preamble setting,
+  ensuring correct suffix caching to prevent inconsistencies. (#886)&lt;/li&gt;
+&lt;li&gt;Addressed rare crashes in async IO threads with TLS by preventing concurrent read and
+  write job overlap. (#1011)&lt;/li&gt;
+&lt;li&gt;Prevented AOF from being incorrectly disabled after loading RDB data, ensuring proper
+  re-enabling of AOF. (#1001)&lt;/li&gt;
+&lt;li&gt;Triggered a save of the cluster configuration file before shutdown to prevent
+  inconsistencies caused by unsaved node configuration changes. (#822)&lt;/li&gt;
+&lt;li&gt;Fixed timing issue in CLUSTER SETSLOT to ensure replicas handle migration correctly
+  when receiving the command before the gossip update. (#981)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Performance&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimized the handling of temporary set objects in SUNION and SDIFF commands, resulting
+  in a 41% performance improvement for SUNION and 27% for SDIFF. (#996)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Behavior Changes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Replicas now flush old data after checking RDB file is valid during disk-based replication,
+  preventing partial data loss and ensuring a clean data load. (#926)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/valkey-io/valkey/releases/tag/8.0.0" rel="alternate"/>
   </entry>
 </feed>
