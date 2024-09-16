@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Valkey Releases</title>
-  <updated>2024-09-16T00:32:16.873385-04:00</updated>
+  <updated>2024-09-16T01:32:12.352601-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -78,7 +78,7 @@ compiled for Redis. For other users, it primarily fixes uncommon bugs.&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/valkey-io/valkey/releases/tag/8.0.0</id>
-    <title>New release for Valkey: </title>
+    <title>New release for Valkey: 8.0.0</title>
     <updated>2024-09-15T16:44:29-04:00</updated>
     <author>
       <name>valkey-io/valkey</name>
