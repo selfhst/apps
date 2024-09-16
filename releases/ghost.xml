@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-09-16T09:30:25.908509-04:00</updated>
+  <updated>2024-09-16T10:30:24.537929-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,7 +65,6 @@
     <content>&lt;ul&gt;
 &lt;li&gt;🐛 Fixed "Unsaved changes" modal showing for some published posts with images - Kevin Ansfield&lt;/li&gt;
 &lt;li&gt;🐛 Fixed bookmark card hot linking icons and thumbnails (#20923) - Princi Vershwal&lt;/li&gt;
-&lt;li&gt;🐛 Fixed bookmark card hot linking icons and thumbnails ENG-904 (#20906) - Princi Vershwal&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;View the changelog for full details: https://github.com/tryghost/ghost/compare/v5.93.0...v5.94.0&lt;/p&gt;</content>
