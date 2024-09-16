@@ -841,13 +841,13 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
@@ -883,6 +883,12 @@
     },
     {
         "Tag": "VPN",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Vehicles",
         "Valid Types": [
             "Software"
         ]

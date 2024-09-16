@@ -1,5 +1,12 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-09-15
+
+* Rebuilt JavaScript logic to streamline directory load and accommodate source data structure changes
+* Directory no longer includes sort in URL parameters when changed
+* Transitioned icon soures to selfh.st/icons
+* Icons for mobile apps remain in 'icons' directory, consolidated to root folder
+
 ### 2024-08-13
 
 * Added subdirectory for ActivityPub platforms, clients, and tools
