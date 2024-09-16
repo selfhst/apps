@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-09-16T08:30:45.680615-04:00</updated>
+  <updated>2024-09-16T09:30:49.009945-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.0.0&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Major Release 10.0.0 includes Mattermost Microsoft Teams Plugin, Microsoft Calendar and Microsoft Teams Meetings Plugins, Copilot GA, and much more.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.0.0" rel="alternate"/>
   </entry>
 </feed>
