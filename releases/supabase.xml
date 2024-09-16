@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Supabase Releases</title>
-  <updated>2024-09-16T15:31:53.407752-04:00</updated>
+  <updated>2024-09-16T16:32:20.428269-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -357,5 +357,138 @@
     &lt;/li&gt;
   &lt;/ul&gt;</content>
     <link href="https://github.com/supabase/supabase/releases/tag/1.24.07" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/supabase/supabase/releases/tag/1.24.08</id>
+    <title>New release for Supabase: Developer Update - August 2024</title>
+    <updated>2024-09-16T15:37:55-04:00</updated>
+    <author>
+      <name>supabase/supabase</name>
+    </author>
+    <content>&lt;p&gt;Supabase kicked off Launch Week 12 in August with a Postgres+AI drop that went viral followed by other exciting announcements throughout the week. Here’s all the juicy highlights you don’t want to miss:&lt;/p&gt;
+&lt;h2&gt;Day 1 - postgres.new: In-browser Postgres with an AI interface&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="postgres.new" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/postgres-new.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase launched &lt;a href="https://supabase.link/postgres-new"&gt;postgres.new&lt;/a&gt; which reimagines interacting with Postgres using a large language model (LLM) all in the browser. Spin up as many databases as you want, and with the help of an AI assistant, generate tables with sample data or import your data, database migrations, embeddings for semantic search and RAG, reports and charts, and so much more.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/postgres-new"&gt;Website&lt;/a&gt; | &lt;a href="https://supabase.link/postgres-new-blog"&gt;Blog Post&lt;/a&gt; | &lt;a href="https://supabase.link/postgres-new-video"&gt;Video Announcement&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 2 - Supabase Realtime: Broadcast and Presence Authorization&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="supabase realtime broadcast and presence authz" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/authz.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Realtime introduced Broadcast and Presence Authorization to give you fine-grain control over which clients are authorized to join private &lt;a href="https://supabase.com/docs/guides/realtime/concepts#channels"&gt;Channels&lt;/a&gt; and what type of Broadcast and Presence actions those clients within the Channels can execute. Get started by writing row-level security (RLS) policies to dictate, as an example, that Client1 can only send messages while Client2 can only receives messages when they’re both in the same private Channel.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/realtime-authz-docs"&gt;Docs&lt;/a&gt; | &lt;a href="https://supabase.link/realtime-authz-blog"&gt;Blog Post&lt;/a&gt; | &lt;a href="https://supabase.link/realtime-authz-video"&gt;Video Announcement&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 3 - Supabase Auth: Bring-your-own Auth0, Cognito, or Firebase&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="supabase auth byo auth0, cognito, or firebase" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/auth.png" /&gt;&lt;/p&gt;
+&lt;p&gt;As much as we want you to migrate over to Supabase Auth, we’re not hurt if you want to stay with your current auth provider. I’m sure you have your reasons. That’s why we’ve launched Firebase Auth, Auth0, and Amazon Cognito support so you can bring your auth and it’ll seamlessly work with the rest of Supabase. We’ve also extended multi-factor authentication (MFA) to support both SMS and WhatsApp and introduced Auth Hooks so you can customize your Supabase Auth flow.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/auth-tpa-docs"&gt;Docs&lt;/a&gt; | &lt;a href="https://supabase.link/auth-tpa-blog"&gt;Blog Post&lt;/a&gt; | &lt;a href="https://supabase.link/auth-tpa-video"&gt;Video Announcement&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 4 - Introducing Log Drains&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="supabase log drains" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/logdrains.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase generates a ton of logs for every product and we provide a Logs Explorer for you to query them. However, we realize that you may want to send them elsewhere for various purposes. We’re not offended; we actually encourage you to do so with the release of Log Drains. You can now send your logs to external destinations like Datadog and via custom HTTP endpoints and we have more destinations in the works like Syslog and Loki.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/log-drains-docs"&gt;Docs&lt;/a&gt; | &lt;a href="https://supabase.link/log-drains-blog"&gt;Blog Post&lt;/a&gt; | &lt;a href="https://supabase.link/log-drains-video"&gt;Video Announcement&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Day 5 - Postgres Foreign Data Wrappers with Wasm&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="supabase fdw with wasm" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/fdw.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Supabase Wrappers has released several official Foreign Data Wrappers (FDW), all written in Rust, so you can query data from the likes of S3, Clickhouse, and Stripe. There are many, many data sources out there so we developed WebAssembly (Wasm) support to enable anyone to create FDWs as long as they are familiar with a language that compiles to WebAssembly and can even share their FDWs with the community. Head over to our &lt;a href="https://fdw.dev/catalog/"&gt;Catalog&lt;/a&gt; to check Official and Community FDWs, including Snowflake and Paddle Wasm Wrappers.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://supabase.link/fdw-wasm-docs"&gt;Docs&lt;/a&gt; | &lt;a href="https://supabase.link/fdw-wasm-blog"&gt;Blog Post&lt;/a&gt; | &lt;a href="https://supabase.link/fdw-wasm-video"&gt;Video Announcement&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;One more thing from Launch Week 12&lt;/h2&gt;
+&lt;p&gt;Just kidding, there’s always more than one. Here’s more goodies we shipped:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/vs-code-copilot"
+        &gt;Official Supabase extension for VS Code and GitHub Copilot&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/pg_replicate"
+        &gt;pg_replicate - Build Postgres replication applications in Rust&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/snaplet-oss"
+        &gt;Snaplet is now open source&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a
+        href="https://supabase.link/supabase-book"
+        &gt;Supabase Book - Learn Supabase by building a multi-tenant platform&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/postgrest-12-2"
+        &gt;PostgREST 12.2: Prometheus metrics&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/vec2pg"
+        &gt;vec2pg: Migrate to pgvector from Pinecone and Qdrant&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/pg-graphql-1-5-7-blog"&gt;pg_graphql 1.5.7: pagination and multi-tenancy support&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/platform-access-control"
+        &gt;Introducing New Platform Access Control&lt;/a
+      &gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="https://supabase.link/official-python-support"
+        &gt;Supabase Python&lt;/a
+      &gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h2&gt;Quick Product Announcements&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="quick product announcements" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/product-updates.png" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+      [Platform] Changes to Supabase API Keys on 7th October 2024 [&lt;a href="https://supabase.link/supabase-api-keys"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Auth] Asymmetric Keys support on 7th October 2024 [&lt;a href="https://supabase.link/auth-asymmetric-keys"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Dashboard] Organize SQL snippets into folders in SQL Editor [&lt;a href="https://supabase.link/sql-snippet-folders"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Dashboard] Supabase AI Assistant: Choose which schemas to share with OpenAI [&lt;a href="https://supabase.link/openai-schema"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Database] Spin up Supabase project via Vercel Marketplace [&lt;a href="https://supabase.link/vercel-marketplace-docs"&gt;Docs&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Database] Threshold for transitioning projects to physical backups lowered to 15GB [&lt;a href="https://supabase.link/physical-backup-15gb"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Billing] Supabase moves to hourly usage-based billing [&lt;a href="https://supabase.link/hourly-db-billing"&gt;Database&lt;/a&gt;] [&lt;a href="https://supabase.link/hourly-storage-billing"&gt;Storage&lt;/a&gt;] [&lt;a href="https://supabase.link/hourly-add-ons-billing"&gt;Add-ons&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      [Billing] Improved invoices and more timely usage data [&lt;a href="https://supabase.link/timely-usage-data-invoices"&gt;Changelog&lt;/a&gt;]
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;h2&gt;Community Highlights&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="community highlights" src="https://obuldanrptloktxcffvn.supabase.co/storage/v1/object/public/images/marketing-emails/august2024/community_highlights.jpg" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+      Hyperdome - Chatbot application familiarized with HTMX, Hyperscript, tweets, memes, and lore. [&lt;a href="https://supabase.link/hyperdome"&gt;Repo&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      DevCanvas - An open-source Codepen alternative [&lt;a href="https://supabase.link/devcanvas"&gt;Repo&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      CraftGen - Build useful AI agents to complete tasks on autopilot [&lt;a href="https://supabase.link/craftgen"&gt;Repo&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      mangosqueezy - Affiliate marketing tool [&lt;a href="https://supabase.link/mangosqueezy"&gt;Repo&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      notedown - A self-hostable rich text editor built with Next.js and Supabase [&lt;a href="https://supabase.link/notedown"&gt;Repo&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      Supabase Real-world Production Example by Egor Gorbachev [&lt;a href="https://supabase.link/real-world-production-vid"&gt;Video&lt;/a&gt;]
+    &lt;/li&gt;
+    &lt;li&gt;
+      This RAG AI Agent with n8n + Supabase is the Real Deal [&lt;a href="https://supabase.link/rag-ai-n8n-supabase"&gt;Video&lt;/a&gt;]
+    &lt;/li&gt;
+  &lt;/ul&gt;</content>
+    <link href="https://github.com/supabase/supabase/releases/tag/1.24.08" rel="alternate"/>
   </entry>
 </feed>
