@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2024-09-16T21:30:51.234147-04:00</updated>
+  <updated>2024-09-16T22:30:49.426100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -311,7 +311,7 @@ and a few bug fixes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[UI] Add Nuclear theme (&lt;a href="https://github.com/navidrome/navidrome/pull/3098"&gt;#3098&lt;/a&gt;). Thanks @gruneforth&lt;/li&gt;
 &lt;li&gt;[UI] Add Hungarian translation. Thanks @Soderes and @ChekeredList71&lt;/li&gt;
-&lt;li&gt;[UI] Add basque translation. Thanks @xabirequejo&lt;/li&gt;
+&lt;li&gt;[UI] Add Basque translation. Thanks @xabirequejo&lt;/li&gt;
 &lt;li&gt;[UI] Add toggle for Auto-Import playlists (&lt;a href="https://github.com/navidrome/navidrome/pull/3060"&gt;#3060&lt;/a&gt;). Thanks @caiocotts&lt;/li&gt;
 &lt;li&gt;[UI] Fix album sorting in Artist detail page&lt;/li&gt;
 &lt;li&gt;[UI] Fix album coverart "stuttering", when you have non-square albums in the grid (&lt;a href="https://github.com/navidrome/navidrome/pull/3035"&gt;#3035&lt;/a&gt;). Thanks @caiocotts&lt;/li&gt;
