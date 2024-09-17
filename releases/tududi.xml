@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>tududi Releases</title>
-  <updated>2024-09-17T04:33:38.800982-04:00</updated>
+  <updated>2024-09-17T05:33:31.918598-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -42,5 +42,15 @@
     </author>
     <content/>
     <link href="https://github.com/chrisvel/tududi/releases/tag/v0.18" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chrisvel/tududi/releases/tag/v0.20</id>
+    <title>New release for tududi: </title>
+    <updated>2024-09-17T04:59:42-04:00</updated>
+    <author>
+      <name>chrisvel/tududi</name>
+    </author>
+    <content/>
+    <link href="https://github.com/chrisvel/tududi/releases/tag/v0.20" rel="alternate"/>
   </entry>
 </feed>

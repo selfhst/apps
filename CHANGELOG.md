@@ -1,5 +1,10 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-09-17
+
+* Added support for tagging favorites and caching via local browser storage (per suggestion from reader Mukesh G.)
+* New 'Favorites' option in tag list to quickly filter by starred tiles
+
 ### 2024-09-15
 
 * Rebuilt JavaScript logic to streamline directory load and accommodate source data structure changes
