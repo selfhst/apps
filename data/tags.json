@@ -608,13 +608,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -920,6 +920,12 @@
     },
     {
         "Tag": "Voice Assistant",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Voting",
         "Valid Types": [
             "Software"
         ]
