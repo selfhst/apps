@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2024-09-18T07:30:59.624371-04:00</updated>
+  <updated>2024-09-18T08:30:59.287805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -327,11 +327,11 @@
     </author>
     <content>&lt;h3&gt;IMPORTANT NOTES&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Important&lt;/strong&gt; You need to manually execute a migration script after your upgrade while PeerTube is running.
+&lt;li&gt;&lt;strong&gt;Important&lt;/strong&gt; You need to manually execute a migration script after your upgrade while PeerTube is running and the database migration is complete (&lt;code&gt;Migrations finished. New migration version schema: 865&lt;/code&gt; in PeerTube startup logs, this migration script may take a while).
  The purpose of this migration is to update video files metadata in the database.
  This migration can take a long time if you have many federated/local videos, but is designed to be safe to run multiple times:&lt;/li&gt;
 &lt;li&gt;Classic installation: &lt;code&gt;cd /var/www/peertube/peertube-latest &amp;amp;&amp;amp; sudo -u peertube NODE_CONFIG_DIR=/var/www/peertube/config NODE_ENV=production node dist/scripts/migrations/peertube-6.3.js&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Docker installation: &lt;code&gt;cd /var/www/peertube-docker &amp;amp;&amp;amp; docker-compose exec -u peertube peertube node dist/scripts/migrations/peertube-6.3.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Docker installation: &lt;code&gt;cd /var/www/peertube-docker &amp;amp;&amp;amp; docker compose exec -u peertube peertube node dist/scripts/migrations/peertube-6.3.js&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Important for Docker admins&lt;/strong&gt; If you enabled the "Keep a version of the input file" configuration, files may have been stored in the container instead of the host volume. To prevent data loss, you must &lt;strong&gt;copy&lt;/strong&gt; the files on the host before upgrading using &lt;code&gt;docker compose cp peertube:/app/storage/original-video-files docker-volume/data&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Docker&lt;/h3&gt;
