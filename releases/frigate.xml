@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Frigate Releases</title>
-  <updated>2024-09-18T16:31:38.919785-04:00</updated>
+  <updated>2024-09-18T17:31:39.892873-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -798,7 +798,7 @@ curl -X POST "http://&amp;lt;frigate_ip&amp;gt;:5000/api/events/front_doorbell_c
 - RTMP was deprecated in 0.13 and has been fully removed in 0.14. You will need to remove any &lt;code&gt;rtmp&lt;/code&gt; references in your config file.
 - OpenVINO has been upgraded, and Intel Neural Compute sticks are no longer supported. Support for YOLO-NAS models has been added. Additionally, &lt;code&gt;AUTO&lt;/code&gt; mode now maps to &lt;code&gt;GPU&lt;/code&gt; internally to avoid some unresolved issues with &lt;code&gt;AUTO&lt;/code&gt;. The existing &lt;code&gt;YOLO-X&lt;/code&gt; model will not work in this version.&lt;/p&gt;
 &lt;h2&gt;Brand New UI&lt;/h2&gt;
-&lt;p&gt;Frigate 0.14's UI has been completely rewritten (&lt;a href="https://app.supademo.com/showcase/clvi4jyof0kpfh7gr9921vsb7"&gt;guided demo&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=iJa3dNEO5qQ"&gt;helpful walkthrough video from a user&lt;/a&gt;) and optimized for desktop and mobile devices, aiming to simplify the user experience by focusing on two specific goals:&lt;/p&gt;
+&lt;p&gt;Frigate 0.14's UI has been completely rewritten (&lt;a href="https://www.youtube.com/watch?v=iJa3dNEO5qQ"&gt;helpful walkthrough video from a user&lt;/a&gt;) and optimized for desktop and mobile devices, aiming to simplify the user experience by focusing on two specific goals:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Allow you to quickly see what's currently happening or what just happened on your cameras&lt;/strong&gt;. The new Live view features a real-time dashboard with live camera feeds and a filmstrip of animated thumbnails showing recent activity.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Make reviewing video footage more efficient&lt;/strong&gt;. Frigate intelligently identifies parts of your timeline for review by leveraging the underlying data about motion and tracked objects. The new Review area implements a scrollable grid of thumbnails alongside a timeline where a hover or swipe begins a preview playback. Review items can be configured to be pre-categorized into &lt;em&gt;alerts&lt;/em&gt; or &lt;em&gt;detections&lt;/em&gt; based on cameras and/or zones. The review area also provides a motion review mode, allowing real-time scrubbing of video footage for any objects of interest that Frigate may have missed.&lt;/li&gt;

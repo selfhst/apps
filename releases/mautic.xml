@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2024-09-18T16:30:46.046946-04:00</updated>
+  <updated>2024-09-18T17:30:48.518576-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -635,7 +635,7 @@ SHA1(5.1.0-update.zip)= 33e3489a6736b3d05e9e9d55190886e4e28ec2fb&lt;/p&gt;</cont
 &lt;p&gt;CVE-2024-47058 - Cross-site Scripting (XSS) - stored (edit form) - Reported by @MatisAct, fixed by @LenonLeite and tested/reviewed by @escopecz and @avikarshasaha  in https://github.com/mautic/mautic/security/advisories/GHSA-xv68-rrmw-9xwf &lt;/p&gt;
 &lt;p&gt;CVE-2024-47050 - Cross-site Scripting (XSS) in contact/company tracking - Reported by @mqrtin, fixed by @patrykgruszka and tested/reviewed by @escopecz in https://github.com/mautic/mautic/security/advisories/GHSA-73gr-32wg-qhh7 &lt;/p&gt;
 &lt;p&gt;CVE-2021-27917 - Cross-site Scripting (XSS) in contact tracking and page hits report - reported by @Patrykgruszka, fixed by @lenonleite and tested/reviewed by @escopecz and @lenonleite in https://github.com/mautic/mautic/security/advisories/GHSA-xpc5-rr39-v8v2 &lt;/p&gt;
-&lt;p&gt;CVE-2024-47058 - Removal of upgrade.php file which can have insufficient authentication - reported and fixed by @mollux, tested/reviewed by @kuzmany, @escopecz and @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-qf6m-6m4g-rmrc&lt;/p&gt;
+&lt;p&gt;CVE-2022-25770 - Removal of upgrade.php file which can have insufficient authentication - reported and fixed by @mollux, tested/reviewed by @kuzmany, @escopecz and @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-qf6m-6m4g-rmrc&lt;/p&gt;
 &lt;h3&gt;🪵 Changelog&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mautic/mautic/compare/4.4.12...4.4.13&lt;/p&gt;
 &lt;p&gt;SHA1(4.4.13.zip)= adce771ee8e35947c9d7c1dcc25bbbbb105a82a0
@@ -659,7 +659,7 @@ SHA1(4.4.13-update.zip)= 004862cd0e3786b5b7309e438a28e677ce0a542b&lt;/p&gt;</con
 &lt;p&gt;CVE-2024-47050 - Cross-site Scripting (XSS) in contact/company tracking - reported by @mqrtin, fixed by @patrykgruszka and tested/reviewed by @escopecz in https://github.com/mautic/mautic/security/advisories/GHSA-73gr-32wg-qhh7. &lt;/p&gt;
 &lt;p&gt;CVE-2021-27917 - Cross-site Scripting (XSS) in contact tracking and page hits report - reported by @Patrykgruszka, fixed by @lenonleite and tested/reviewed by @escopecz and @lenonleite in https://github.com/mautic/mautic/security/advisories/GHSA-xpc5-rr39-v8v2. &lt;/p&gt;
 &lt;p&gt;CVE-2024-47059 - User enumeration through weak password login prompt - reported and fixed by @tomekkowalczyk and tested/reviewed by @escopecz and @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-8vff-35qm-qjvv.&lt;/p&gt;
-&lt;p&gt;CVE-2024-47058 - Removal of upgrade.php file which can have insufficient authentication - reported and fixed by @mollux, tested/reviewed by @kuzmany, @escopecz and @patrykgruzska in https://github.com/mautic/mautic/security/advisories/GHSA-qf6m-6m4g-rmrc.&lt;/p&gt;
+&lt;p&gt;CVE-2022-25770 - Removal of upgrade.php file which can have insufficient authentication - reported and fixed by @mollux, tested/reviewed by @kuzmany, @escopecz and @patrykgruzska in https://github.com/mautic/mautic/security/advisories/GHSA-qf6m-6m4g-rmrc.&lt;/p&gt;
 &lt;p&gt;Twig library update by @escopecz in https://github.com/mautic/mautic/pull/1411&lt;/p&gt;
 &lt;h3&gt;🐛 Bugs&lt;/h3&gt;
 &lt;ul&gt;
