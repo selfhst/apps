@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kavita Releases</title>
-  <updated>2024-09-18T12:30:35.182964-04:00</updated>
+  <updated>2024-09-18T13:30:35.675636-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -451,7 +451,7 @@
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/21791599-0956-49fb-b817-f3117e4defba" /&gt;&lt;/p&gt;
 &lt;p&gt;All in all, I'm really proud of this release. Next up is an overhaul to the UX surrounding Kavita+ including reworking some of the systems and laying more foundation for future feature releases. I am also working on building out the test cases for the Scanner to allow me to continue working on the elusive Foreign Key constraint issue still plaguing us and working on bringing more optimizations into the Scan Loop to make Kavita faster. &lt;/p&gt;
 &lt;p&gt;Lastly, I want to make a big thank you to those that contribute on Weblate. This release was massive and many localization strings were changed. The localizers were on top of it and as of this release, we are shipping Kavita in 10 languages with full support. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt; Refresh your browser after updating &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Refresh your browser after updating&lt;/strong&gt;&lt;/p&gt;
 &lt;h1&gt;Added&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Added: Added ability to upload a volume cover for Komf users&lt;/li&gt;
