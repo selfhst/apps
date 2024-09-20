@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Photos Releases</title>
-  <updated>2024-09-20T05:32:19.331593-04:00</updated>
+  <updated>2024-09-20T06:32:25.344416-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,9 +177,9 @@
     <link href="https://github.com/ente-io/ente/releases/tag/photos-v0.9.35" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/ente-io/ente/releases/tag/photos-v0.9.41</id>
-    <title>New release for Ente Photos: photos-v0.9.41</title>
-    <updated>2024-09-20T05:27:10-04:00</updated>
+    <id>https://github.com/ente-io/ente/releases/tag/photos-v0.9.42</id>
+    <title>New release for Ente Photos: photos-v0.9.42</title>
+    <updated>2024-09-20T06:21:37-04:00</updated>
     <author>
       <name>ente-io/ente</name>
     </author>
@@ -227,7 +227,7 @@
 &lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/333&lt;/li&gt;
 &lt;li&gt;[mob][photos] Remove trigger to send logs from grant permissions screen by @ashilkn in&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/photos-v0.9.35...photos-v0.9.4&lt;/p&gt;</content>
-    <link href="https://github.com/ente-io/ente/releases/tag/photos-v0.9.41" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/photos-v0.9.35...photos-v0.9.42&lt;/p&gt;</content>
+    <link href="https://github.com/ente-io/ente/releases/tag/photos-v0.9.42" rel="alternate"/>
   </entry>
 </feed>
