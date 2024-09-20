@@ -56,6 +56,12 @@
         ]
     },
     {
+        "Tag": "Archive",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Artificial Intelligence",
         "Valid Types": [
             "Software"
@@ -482,8 +488,8 @@
     {
         "Tag": "Media Streaming",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -608,13 +614,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
