@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docking Station Releases</title>
-  <updated>2024-09-21T08:34:12.762299-04:00</updated>
+  <updated>2024-09-21T09:46:14.556975-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,26 @@
 &lt;li&gt;enable nextjs pwa (&lt;a href="https://github.com/LooLzzz/docking-station/commit/71ee9c8e4a5521bf78382d67b5171f9bac0f39c2"&gt;71ee9c8&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/LooLzzz/docking-station/releases/tag/v0.3.0</id>
+    <title>New release for Docking Station: v0.3.0</title>
+    <updated>2024-09-21T08:34:31-04:00</updated>
+    <author>
+      <name>LooLzzz/docking-station</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/LooLzzz/docking-station/compare/v0.2.0...v0.3.0"&gt;0.3.0&lt;/a&gt; (2024-09-21)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;api:&lt;/strong&gt; added &lt;code&gt;/api/regctl/&lt;/code&gt; route with &lt;code&gt;inspect&lt;/code&gt; and &lt;code&gt;digest&lt;/code&gt; endpoints (&lt;a href="https://github.com/LooLzzz/docking-station/commit/546cb586fa001c27e139d8fe3559818a5952e4ab"&gt;546cb58&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;web-ui:&lt;/strong&gt; added Accordion component to ExecutionDetails modal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;auto-updater:&lt;/strong&gt; &lt;code&gt;auto_updater.py&lt;/code&gt; will keep restarting until stopped manually (the modules itself is still disabled by default)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/LooLzzz/docking-station/issues/7"&gt;#7&lt;/a&gt; - added new "python_on_whales__ignored_image_prefixes" option in &lt;code&gt;/app/config/settings.py&lt;/code&gt; - hopefully this fixes the docker.io &lt;code&gt;KeyError&lt;/code&gt; issue (&lt;a href="https://github.com/LooLzzz/docking-station/issues/25"&gt;#25&lt;/a&gt;) (&lt;a href="https://github.com/LooLzzz/docking-station/commit/546cb586fa001c27e139d8fe3559818a5952e4ab"&gt;546cb58&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;web-ui:&lt;/strong&gt; stopped react-query from constantly refetching to try and save on api-limit&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
