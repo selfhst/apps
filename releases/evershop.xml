@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2024-09-21T05:30:19.352730-04:00</updated>
+  <updated>2024-09-21T06:30:19.243441-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -248,5 +248,37 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/evershopcommerce/evershop/releases/tag/v1.2.1</id>
+    <title>New release for EverShop: v1.2.1</title>
+    <updated>2024-09-21T06:10:59-04:00</updated>
+    <author>
+      <name>evershopcommerce/evershop</name>
+    </author>
+    <content>&lt;h1&gt;v1.2.1 (2021-09-19)&lt;/h1&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix create new cart issue by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;Show all attribute group when editing a product by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;Update azure storage and s3 extensions for configuration schema verifcation by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;Fix unit test by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;Fix missing widgets on ajax request by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;[BUG] New Editor Overlap #617 by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
+&lt;li&gt;Fix inconsistent page headings by @GabrielGavrilov in https://github.com/evershopcommerce/evershop/pull/616&lt;/li&gt;
+&lt;li&gt;Hungarian translation by @hudejo in https://github.com/evershopcommerce/evershop/pull/583&lt;/li&gt;
+&lt;li&gt;Fix wrong query in azure app service by @treoden in https://github.com/evershopcommerce/evershop/pull/626&lt;/li&gt;
+&lt;li&gt;Remove debug message by @treoden in https://github.com/evershopcommerce/evershop/pull/627&lt;/li&gt;
+&lt;li&gt;Fix prop type validation warning by @treoden in https://github.com/evershopcommerce/evershop/pull/627&lt;/li&gt;
+&lt;li&gt;Fix prop type validation warning by @treoden in https://github.com/evershopcommerce/evershop/pull/627&lt;/li&gt;
+&lt;li&gt;Version 1.2.1 by @treoden in https://github.com/evershopcommerce/evershop/pull/635&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@GabrielGavrilov made their first contribution in https://github.com/evershopcommerce/evershop/pull/616&lt;/li&gt;
+&lt;li&gt;@hudejo made their first contribution in https://github.com/evershopcommerce/evershop/pull/583&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/v1.2.0...v1.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>
