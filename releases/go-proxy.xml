@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-09-22T17:30:26.504921-04:00</updated>
+  <updated>2024-09-22T18:30:28.005794-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,14 +83,15 @@
   </entry>
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.5.31</id>
-    <title>New release for go-proxy: v0.5.31 Stable</title>
-    <updated>2024-09-22T16:13:43-04:00</updated>
+    <title>New release for go-proxy: v0.5.31 stable</title>
+    <updated>2024-09-22T17:42:26-04:00</updated>
     <author>
       <name>yusing/go-proxy</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Now support listening on &lt;code&gt;0&lt;/code&gt; port (random port) for TCP/UDP stream, good for testing things out, or when you don't know what ports are available&lt;/li&gt;
+&lt;li&gt;Docker image shrinked from ~57MB to ~24MB&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.5.3...0.5.31&lt;/p&gt;</content>
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.31" rel="alternate"/>
