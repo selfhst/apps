@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hoarder Releases</title>
-  <updated>2024-09-22T12:31:58.109719-04:00</updated>
+  <updated>2024-09-22T13:32:00.339269-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -379,6 +379,9 @@ index cdfc908..6297563 100644
       <name>MohamedBassem/hoarder-app</name>
     </author>
     <content>&lt;p&gt;Welcome to the &lt;code&gt;0.17.0&lt;/code&gt; release of Hoarder. We have a bunch of new features and UX improvements including SSO support (finally), bulk tag/list actions, better bookmark importing experience, and bunch of other stuff. In this release, we're welcoming @nghduc97  and @Mxrk as first time contributors!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you're enjoying Hoarder, you can consider supporting it &lt;a href="https://buymeacoffee.com/mbassem"&gt;here ☕️&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1&gt;New Features&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Single Sign On (SSO) support is finally here for OIDC compliant providers. This was the most requested feature and it's now here thanks to @kamtschatka. You can read about how to configure it &lt;a href="https://docs.hoarder.app/configuration#authentication--signup"&gt;here&lt;/a&gt;.&lt;/li&gt;
