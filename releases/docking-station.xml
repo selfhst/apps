@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docking Station Releases</title>
-  <updated>2024-09-22T03:33:26.831637-04:00</updated>
+  <updated>2024-09-22T04:33:31.971265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,19 @@
 &lt;li&gt;&lt;strong&gt;web-ui:&lt;/strong&gt; stopped react-query from constantly refetching to try and save on api-limit&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/LooLzzz/docking-station/releases/tag/v0.3.1</id>
+    <title>New release for Docking Station: v0.3.1</title>
+    <updated>2024-09-22T04:26:38-04:00</updated>
+    <author>
+      <name>LooLzzz/docking-station</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/LooLzzz/docking-station/compare/v0.3.0...v0.3.1"&gt;0.3.1&lt;/a&gt; (2024-09-22)&lt;/h2&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;stop auto_updater log spamming (&lt;a href="https://github.com/LooLzzz/docking-station/commit/9815b7341891e27af04d9a766c11e11cd4458906"&gt;9815b73&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.3.1" rel="alternate"/>
   </entry>
 </feed>
