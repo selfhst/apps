@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-09-23T08:30:27.700596-04:00</updated>
+  <updated>2024-09-23T09:30:27.288497-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,7 @@
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.5.4</id>
     <title>New release for go-proxy: v0.5.4</title>
-    <updated>2024-09-23T08:18:45-04:00</updated>
+    <updated>2024-09-23T08:35:51-04:00</updated>
     <author>
       <name>yusing/go-proxy</name>
     </author>

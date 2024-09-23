@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2024-09-23T08:31:41.419605-04:00</updated>
+  <updated>2024-09-23T09:31:38.778191-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -425,11 +425,11 @@
       <name>crowdsecurity/crowdsec</name>
     </author>
     <content>&lt;h2&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Bouncer stats&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This release introduces the ability for bouncer to provide metrics about their efficiency, such as the amount of blocked packets/bytes (fw bouncer) or http requests (web based bouncers). Those metrics can be seen in the console (via instance card) and &lt;code&gt;cscli metrics show bouncers&lt;/code&gt;. Currently only firewall-bouncer (0.0.30) supports it, we are working on Nginx and HaProxy bouncers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remediation Components Stats&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release introduces the ability for remediation components to provide metrics about their efficiency, such as the amount of blocked packets/bytes (fw bouncer) or http requests (web based bouncers). Those metrics can be seen in the console (via instance card) and &lt;code&gt;cscli metrics show bouncers&lt;/code&gt;. Currently only firewall-bouncer (0.0.30) supports it, we are working on Nginx and HaProxy remediation components.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://doc.crowdsec.net/docs/next/observability/usage_metrics#remediation-components"&gt;See documentation here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Instance &amp;amp; Bouncer details&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;To help people managing larger setupts, machines and bouncers now provide more information to the Local API, such as underlying OS. This shows in &lt;code&gt;cscli machines list&lt;/code&gt; and &lt;code&gt;cscli bouncers|machines inspect&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instance &amp;amp; Remediation Components details&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To help people managing larger setups, machines and remediation components now provide more information to the Local API, such as underlying OS. This shows in &lt;code&gt;cscli machines list&lt;/code&gt; and &lt;code&gt;cscli bouncers|machines inspect&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://doc.crowdsec.net/docs/next/observability/usage_metrics#log-processors"&gt;See documentation here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Kube/Docker improvments&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Various bugfixes and QoL improvements have been made towards kube and docker support, notably to make AppSec usage easier in those environments.&lt;/p&gt;
