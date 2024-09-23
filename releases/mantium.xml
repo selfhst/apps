@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mantium Releases</title>
-  <updated>2024-09-23T09:32:31.597191-04:00</updated>
+  <updated>2024-09-23T10:32:43.471474-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,17 +84,17 @@ Fixed: MangaHub chapters are listed in descending order.&lt;/p&gt;
 &lt;p&gt;When you read the last available chapter from a custom manga, check the "&lt;strong&gt;No more chapters available&lt;/strong&gt;" checkbox so the manga is considered read instead of unread.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/a8b3c88f-da7e-4a23-b6c6-077133edecc9" /&gt;&lt;/p&gt;
 &lt;h1&gt;Multimanga&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;multimanga&lt;/strong&gt; feature solves the issue of when you want to track the same manga in multiples sources so that you are notified whenever a new chapter is released as soon as possible in whenever source. Previously, you would need to add the same manga from different sources, but they would act as completely different mangas. You would need to manually set the last read chapter for all of them and be notified for all of them.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;multimanga&lt;/strong&gt; feature solves the issue of when you want to track the same manga in multiple sources so that you are notified whenever a new chapter is released as soon as possible in whatever source. Previously, you would need to add the same manga from different sources, but they would act as completely different mangas. You would need to manually set the last read chapter for all of them and be notified for all of them.&lt;/p&gt;
 &lt;p&gt;The multimanga feature solves this issue by allowing you to &lt;strong&gt;track the same manga from multiple sources, with them being treated as the same manga.&lt;/strong&gt; No multiple notifications or setting the last read chapter for all of them!
 - A deeper explanation of the multimanga feature and a &lt;strong&gt;demo video&lt;/strong&gt; can be found &lt;a href="https://github.com/diogovalentte/mantium/blob/main/multimanga.md"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The image below shows the popup to manage the mangas of a multimanga.
 &lt;img alt="image" src="https://github.com/user-attachments/assets/020681aa-8e59-4f2f-aefe-c92a89251fe8" /&gt;&lt;/p&gt;
 &lt;h1&gt;Other changes&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Added&lt;/strong&gt;: Route /v1/manga/metadata to get a manga metadata from source site.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: Notification format. Send only last released chapter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Added&lt;/strong&gt;: Route /v1/manga/metadata to get manga metadata from the source site.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: Notification format. Send only the last released chapter.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: Send all notifications at the same time.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: MangaPlus chapter lists now in descending order.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: MangaPlus chapter lists are now in descending order.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt;: Default last read chapter for new mangas is none.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fix&lt;/strong&gt;: Dashboard sort options.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fix&lt;/strong&gt;: Some bugfixes.&lt;/li&gt;
