@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FreshRSS Releases</title>
-  <updated>2024-09-23T16:30:24.008060-04:00</updated>
+  <updated>2024-09-23T17:30:24.752246-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -324,8 +324,8 @@ and newcomers @dservian, @crisukbot, @TomW1605&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Deployment&lt;ul&gt;
 &lt;li&gt;Docker default image (Debian 12 Bookworm) updated to PHP 8.2.20 and Apache 2.4.61&lt;/li&gt;
-&lt;li&gt;Docker alternative image updated to Alpine 3.20 with PHP 8.3.10 and Apache 2.4.62 &lt;a href="[#5383](https://github.com/FreshRSS/FreshRSS/pull/5383)"&gt;#5383&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Docker: Alpine dev image &lt;code&gt;freshrss/freshrss:newest&lt;/code&gt; updated to PHP 8.4.0beta3 and Apache 2.4.62 &lt;a href="[#5764](https://github.com/FreshRSS/FreshRSS/pull/5764)"&gt;#5764&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker alternative image updated to Alpine 3.20 with PHP 8.3.10 and Apache 2.4.62 &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/5383"&gt;#5383&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker: Alpine dev image &lt;code&gt;freshrss/freshrss:newest&lt;/code&gt; updated to PHP 8.4.0beta3 and Apache 2.4.62 &lt;a href="https://github.com/FreshRSS/FreshRSS/pull/5764"&gt;#5764&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;UI&lt;ul&gt;
