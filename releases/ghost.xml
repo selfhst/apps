@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-09-23T05:30:23.471919-04:00</updated>
+  <updated>2024-09-23T06:30:23.866537-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,7 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;🎨 wrapped missing i18n strings in portal (#21042) - Cathy Sarisky&lt;/li&gt;
+&lt;li&gt;🎨 Wrapped missing i18n strings in portal (#21042) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🎨 Added a maximum limit of 100 for GET members admin endpoint (#20643) - Princi Vershwal&lt;/li&gt;
 &lt;li&gt;🐛 Fixed wrong breadcrumb and missing post status when starting new post from analytics - Kevin Ansfield&lt;/li&gt;
 &lt;li&gt;🐛 Fixed fetching and storing bookmark card icons and thumbnails (#21036) - Princi Vershwal&lt;/li&gt;
