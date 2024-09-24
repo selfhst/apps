@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-09-24T17:30:26.376572-04:00</updated>
+  <updated>2024-09-24T18:30:26.989376-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,6 +84,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Fixed&lt;/strong&gt; container being excluded when it shouldn't&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fixed&lt;/strong&gt; incorrect port / scheme assignment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed&lt;/strong&gt; missing subject in error message&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Changed&lt;/strong&gt; default &lt;code&gt;wake_timeout&lt;/code&gt; to 30 seconds&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Improved&lt;/strong&gt; idlewatcher&lt;/li&gt;
 &lt;/ul&gt;
