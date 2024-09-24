@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-09-24T06:30:25.940622-04:00</updated>
+  <updated>2024-09-24T07:30:26.600442-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,21 +49,6 @@
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/go-proxy/releases/tag/0.5.31</id>
-    <title>New release for go-proxy: v0.5.31</title>
-    <updated>2024-09-22T17:42:26-04:00</updated>
-    <author>
-      <name>yusing/go-proxy</name>
-    </author>
-    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Now support listening on &lt;code&gt;0&lt;/code&gt; port (random port) for TCP/UDP stream, good for testing things out, or when you don't know what ports are available&lt;/li&gt;
-&lt;li&gt;Docker image shrinked from ~57MB to ~24MB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.5.3...0.5.31&lt;/p&gt;</content>
-    <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.31" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.5.4</id>
     <title>New release for go-proxy: v0.5.4</title>
     <updated>2024-09-23T08:35:51-04:00</updated>
@@ -76,8 +61,10 @@
 &lt;li&gt;&lt;strong&gt;Improved&lt;/strong&gt; &lt;code&gt;proxy.&amp;lt;alias&amp;gt;.port&lt;/code&gt; can now be empty for tcp/udp&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Improved&lt;/strong&gt; default &lt;code&gt;scheme&lt;/code&gt; and &lt;code&gt;port&lt;/code&gt; detection&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Now most containers work without any labels defined&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Now support listening on &lt;code&gt;0&lt;/code&gt; port (random port) for TCP/UDP stream, good for testing things out, or when you don't know what ports are available&lt;/li&gt;
+&lt;li&gt;Docker image shrinked from ~57MB to ~24MB&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.5.31...0.5.4&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.5.3...0.5.4&lt;/p&gt;</content>
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.4" rel="alternate"/>
   </entry>
   <entry>
@@ -89,5 +76,19 @@
     </author>
     <content>&lt;h2&gt;New setup method, quick and simple&lt;/h2&gt;</content>
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/yusing/go-proxy/releases/tag/0.5.6</id>
+    <title>New release for go-proxy: v0.5.6</title>
+    <updated>2024-09-24T06:59:42-04:00</updated>
+    <author>
+      <name>yusing/go-proxy</name>
+    </author>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fixed subdomain matching for sub-sub-subdomain and so on, now return 404 when subdomain is missing 99216ffe59add255796613eef8db34a517d95f7c&lt;/li&gt;
+&lt;li&gt;removed save registration.json since it does not work properly f426dbc9cff79f22f091a31468006b9fcd9cccb3&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/yusing/go-proxy/releases/tag/0.5.6" rel="alternate"/>
   </entry>
 </feed>
