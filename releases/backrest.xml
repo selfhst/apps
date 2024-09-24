@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-09-23T22:32:14.770810-04:00</updated>
+  <updated>2024-09-23T23:32:11.155229-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,9 +132,9 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.5.0...v1.5.1"&gt;1.5.1&lt;/a&gt; (2024-09-18)&lt;/h2&gt;
+&lt;p&gt;The most significant change in this patch release is a restic version bump to restic 0.17.1 which is the latest restic patch release. See &lt;a href="https://github.com/restic/restic/releases/tag/v0.17.1"&gt;restic changelog&lt;/a&gt; for more info on what's changed in restic.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; correct minor spelling and grammar errors (&lt;a href="https://github.com/garethgeorge/backrest/issues/479"&gt;#479&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/df5568132b56d38f0ce155e546ff110a943ad87a"&gt;df55681&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;prunepolicy.max_unused_percent should allow decimal values (&lt;a href="https://github.com/garethgeorge/backrest/commit/3056203127b4ced26e69da2a7540d4b139dcd8e9"&gt;3056203&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;stats panel can fail to load when an incomplete operation is in the log (&lt;a href="https://github.com/garethgeorge/backrest/commit/d59c6fc1bed06718c49fc87bfc5bf143a10ac5ed"&gt;d59c6fc&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;update to newest restic bugfix release 0.17.1 (&lt;a href="https://github.com/garethgeorge/backrest/commit/d2650fdd591f2bdb08dce8fe55afaba0a5659e31"&gt;d2650fd&lt;/a&gt;)&lt;/li&gt;
