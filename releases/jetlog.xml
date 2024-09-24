@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jetlog Releases</title>
-  <updated>2024-09-24T12:33:07.465445-04:00</updated>
+  <updated>2024-09-24T13:33:07.591112-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,5 +44,23 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/pbogre/jetlog/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pbogre/jetlog/releases/tag/v1.0.2</id>
+    <title>New release for Jetlog: v1.0.2</title>
+    <updated>2024-09-24T12:41:04-04:00</updated>
+    <author>
+      <name>pbogre/jetlog</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🎉 Switched airport database provider to a more extensive database&lt;/li&gt;
+&lt;li&gt;Single flight view now shows more details about each airport&lt;/li&gt;
+&lt;li&gt;Improved the look of frequency-based markers&lt;/li&gt;
+&lt;li&gt;Fixed a bug that caused the exported CSV to contain invalid values for the &lt;code&gt;ticket_class&lt;/code&gt; column&lt;/li&gt;
+&lt;li&gt;Some minor UI changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/pbogre/jetlog/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
