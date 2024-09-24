@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Firefly-Pico Releases</title>
-  <updated>2024-09-24T02:33:23.904646-04:00</updated>
+  <updated>2024-09-24T03:33:07.630844-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,5 +124,31 @@
 &lt;li&gt;updated all dependencies&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/cioraneanu/firefly-pico/releases/tag/1.3.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/cioraneanu/firefly-pico/releases/tag/1.4.0</id>
+    <title>New release for Firefly-Pico: 1.4.0</title>
+    <updated>2024-09-24T03:27:11-04:00</updated>
+    <author>
+      <name>cioraneanu/firefly-pico</name>
+    </author>
+    <content>&lt;h3&gt;CHANGES: 🎉&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added Budget list page&lt;/li&gt;
+&lt;li&gt;added Budget create / edit page&lt;/li&gt;
+&lt;li&gt;added Transaction search by Budget&lt;/li&gt;
+&lt;li&gt;added option to set the Currency inside the Accounts form&lt;/li&gt;
+&lt;li&gt;new dashboard card: "Savings summary". This uses transactions related to assets accounts where role = savings&lt;/li&gt;
+&lt;li&gt;new dashboard card: "Budgets summary"&lt;/li&gt;
+&lt;li&gt;dashboard cards can now be reordered and hidden&lt;/li&gt;
+&lt;li&gt;transaction form fields can now be hidden&lt;/li&gt;
+&lt;li&gt;added transaction cloning&lt;/li&gt;
+&lt;li&gt;reorganised extras page&lt;/li&gt;
+&lt;li&gt;reorganized settings page&lt;/li&gt;
+&lt;li&gt;added synonyms to icons for better searchability&lt;/li&gt;
+&lt;li&gt;added option to navigate to the list of transactions from the account, tag and category forms&lt;/li&gt;
+&lt;li&gt;fixed tutorial tooltip being cutted&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/cioraneanu/firefly-pico/releases/tag/1.4.0" rel="alternate"/>
   </entry>
 </feed>
