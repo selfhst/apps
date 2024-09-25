@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-25T10:31:59.521646-04:00</updated>
+  <updated>2024-09-25T11:31:59.132505-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,13 +112,12 @@
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Drag and drop document blocks&lt;/li&gt;
-&lt;li&gt;Use an attachment as a card cover&lt;/li&gt;
-&lt;li&gt;Set a card cover&lt;/li&gt;
+&lt;li&gt;Use an attachment as a card cover / Set a card cover&lt;/li&gt;
 &lt;li&gt;Configure self-hosted server URL through Settings on the startup page&lt;/li&gt;
+&lt;li&gt;Support "Ask AI" on multiple blocks of text&lt;/li&gt;
+&lt;li&gt;Add a code block using triple backticks&lt;/li&gt;
 &lt;li&gt;Customize the document width in Settings&lt;/li&gt;
 &lt;li&gt;Add color backgrounds for the group names in Kanban boards&lt;/li&gt;
-&lt;li&gt;Support "Ask AI" for multiple lines of text&lt;/li&gt;
-&lt;li&gt;Add a code block using triple backticks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
