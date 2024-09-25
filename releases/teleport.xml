@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-09-25T07:32:19.038816-04:00</updated>
+  <updated>2024-09-25T08:32:18.207200-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -186,8 +186,6 @@ status in the Teleport web UI.&lt;/p&gt;
 &lt;li&gt;Fixed a regression where Teleport swallowed Kubernetes API errors when using kubectl exec with a Kubernetes cluster newer than v1.30.0. &lt;a href="https://github.com/gravitational/teleport/pull/46811"&gt;#46811&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Added support for Access Request Datadog plugin. &lt;a href="https://github.com/gravitational/teleport/pull/46740"&gt;#46740&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Enterprise:
-* Added a status and details page in the web UI for Okta integration.&lt;/p&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
 &lt;h2&gt;Plugins&lt;/h2&gt;
