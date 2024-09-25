@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-09-25T09:32:01.788430-04:00</updated>
+  <updated>2024-09-25T10:31:59.521646-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,33 +108,25 @@
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
-&lt;h2&gt;Version 0.7.0 - 19/09/2024&lt;/h2&gt;
+&lt;h2&gt;Version 0.7.0 - 09/19/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Support reordering blocks in document with drag and drop&lt;/li&gt;
-&lt;li&gt;Support for adding a cover to a row/card in databases&lt;/li&gt;
-&lt;li&gt;Added support for accessing settings on the sign-in page&lt;/li&gt;
-&lt;li&gt;Added "Move to" option to the document menu in top right corner&lt;/li&gt;
-&lt;li&gt;Support for adjusting the document width from settings&lt;/li&gt;
-&lt;li&gt;Show full name of a group on hover&lt;/li&gt;
-&lt;li&gt;Colored group names in kanban boards&lt;/li&gt;
-&lt;li&gt;Support "Ask AI" on multiple lines of text&lt;/li&gt;
-&lt;li&gt;Support for keyboard gestures to move cursor on Mobile&lt;/li&gt;
-&lt;li&gt;Added markdown support for quickly inserting a code block using three backticks&lt;/li&gt;
+&lt;li&gt;Drag and drop document blocks&lt;/li&gt;
+&lt;li&gt;Use an attachment as a card cover&lt;/li&gt;
+&lt;li&gt;Set a card cover&lt;/li&gt;
+&lt;li&gt;Configure self-hosted server URL through Settings on the startup page&lt;/li&gt;
+&lt;li&gt;Customize the document width in Settings&lt;/li&gt;
+&lt;li&gt;Add color backgrounds for the group names in Kanban boards&lt;/li&gt;
+&lt;li&gt;Support "Ask AI" for multiple lines of text&lt;/li&gt;
+&lt;li&gt;Add a code block using triple backticks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed a critical bug where the backtick character would crash the application&lt;/li&gt;
-&lt;li&gt;Fixed an issue with signing-in from the settings dialog where the dialog would persist&lt;/li&gt;
-&lt;li&gt;Fixed a visual bug with icon alignment in primary cell of database rows&lt;/li&gt;
-&lt;li&gt;Fixed a bug with filters applied where new rows were inserted in wrong position&lt;/li&gt;
-&lt;li&gt;Fixed a bug where "Untitled" would override the name of the row&lt;/li&gt;
-&lt;li&gt;Fixed page title not updating after renaming from "More"-menu&lt;/li&gt;
-&lt;li&gt;Fixed File block breaking row detail document&lt;/li&gt;
-&lt;li&gt;Fixed issues with reordering rows with sorting rules applied&lt;/li&gt;
-&lt;li&gt;Improvements to the File &amp;amp; Media type in Database&lt;/li&gt;
-&lt;li&gt;Performance improvement in Grid view&lt;/li&gt;
-&lt;li&gt;Fixed filters sometimes not applying properly in databases&lt;/li&gt;
+&lt;li&gt;Fixed issues with the single backtick&lt;/li&gt;
+&lt;li&gt;Fixed filter bugs&lt;/li&gt;
+&lt;li&gt;Fixed a bug where "Untitled" overrode the name of the row&lt;/li&gt;
+&lt;li&gt;Fixed page title not updating after renaming from the "More" menu&lt;/li&gt;
+&lt;li&gt;Several more bug fixes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.7.0" rel="alternate"/>
   </entry>
