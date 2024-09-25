@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obsidian LiveSync Releases</title>
-  <updated>2024-09-24T19:32:32.632052-04:00</updated>
+  <updated>2024-09-24T20:32:35.178058-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -180,7 +180,7 @@ The screen no longer collapses and it also works very quickly when per-file-save
 &lt;ul&gt;
 &lt;li&gt;Word-segmented chunk building on users language&lt;/li&gt;
 &lt;li&gt;Chunks can now be built with word-segmented data, enhancing efficiency for markdown files which contains the multiple sentences in a single line.&lt;/li&gt;
-&lt;li&gt;This feature is enabled by default through &lt;code&gt;Use Segmented-splitter&lt;/code&gt;. &lt;ul&gt;
+&lt;li&gt;This feature is enabled through &lt;code&gt;Use Segmented-splitter&lt;/code&gt;. &lt;ul&gt;
 &lt;li&gt;(Default: Disabled, Please be relived, I have learnt).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
