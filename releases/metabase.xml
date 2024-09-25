@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-09-25T15:31:30.847901-04:00</updated>
+  <updated>2024-09-25T16:31:39.092812-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -312,29 +312,25 @@ Download the JAR here: https://downloads.metabase.com/v0.50.27/metabase.jar&lt;/
 
 ### Enhancements
 
-**Querying**
-
-- update jspdf (#47969)
-- fix broken test about resizing column by readonly user (#47916)
-
-**Other**
-
-- Admin webapp owns the ui lib now (#48030)
-- Tweak some sheet around CSV uploads (#48000)
-- 🍒 Fix text alignment for dashboard text card (#47540) (#47978)
-- Add snowplow to e2e docs (#47765)
-- [E2E] Improve + Fix tests that use sandboxing (#46465)
+- Add support for google sheets exported date format, and other CSV tweaks (#48000)
 
 ### Bug fixes
 
 **Reporting**
 
-- Exports of Pivot Table contains pivot-grouping on version 0.50.15 (#46561)
+- Exports of Pivot Table do not match what the question is displaying (#46561)
 
 **Visualization**
 
-- Horizontal Right Alignment in Text Card (#46078)
+- Horizontal right alignment does not work in text cards (#46078)
 
+### Under the Hood
+
+- Admin webapp owns the ui lib now (#48030)
+- update jspdf (#47969)
+- fix broken test about resizing column by readonly user (#47916)
+- Add snowplow to e2e docs (#47765)
+- [E2E] Improve + Fix tests that use sandboxing (#46465)
 
 &lt;/details&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.50.27" rel="alternate"/>
