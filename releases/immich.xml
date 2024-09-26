@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-09-26T11:30:34.056314-04:00</updated>
+  <updated>2024-09-26T12:30:31.064365-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -456,6 +456,7 @@ We are working on redesigning the flows and layout of the mobile app to incorpor
 &lt;p&gt;This release continues to focus on bug fixes, which is quite typical for us, especially after &lt;a href="https://github.com/immich-app/immich/releases/tag/v1.113.0"&gt;large releases&lt;/a&gt;. Highlights for this release include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Improved&lt;code&gt;.immich&lt;/code&gt; file boot checks&lt;/li&gt;
+&lt;li&gt;Improved external library scanning&lt;/li&gt;
 &lt;li&gt;Timezone improvements&lt;/li&gt;
 &lt;li&gt;Tag clean up job&lt;/li&gt;
 &lt;li&gt;Better person merge workflow&lt;/li&gt;
@@ -467,6 +468,8 @@ We are working on redesigning the flows and layout of the mobile app to incorpor
 &lt;/ul&gt;
 &lt;h3&gt;Issues with .immich files on boot in 1.115.0&lt;/h3&gt;
 &lt;p&gt;There were a small number of users who experienced problems with booting Immich after upgrading to 1.115.0. This was due to the new .immich file checks that verify your library folders are still mounted and writable. &lt;strong&gt;If, and only if&lt;/strong&gt; you had problems booting 1.115.0 that persist into 1.116.0 with an error of "Unable to write .immich file, already exists", you can fix this by stopping Immich and removing the .immich files in the UPLOAD_LOCATION subfolders (upload, library, thumbnails, etc). If you experience any  further problems, please do contact us on discord or via a github discussion.&lt;/p&gt;
+&lt;h3&gt;Improved external library scanning&lt;/h3&gt;
+&lt;p&gt;The external library scan mechanism has been reduced from four seperate options, to one. There is now a single button "Scan" that will handle all cases. Files that are offline (deleted or missing) now get hidden from the timeline and will show in the trash folder. This will become a dedicated screen in a future release. If the file comes back online, then the assets will re-appear in the main timeline and albums they were in previously. If the asset is offline for longer than the trash duration set in the admin config, the assets will be removed from immich automatically&lt;/p&gt;
 &lt;h3&gt;Timezone improvements&lt;/h3&gt;
 &lt;p&gt;Previously, if the timezone of an asset was unknown, it would apply an arbitrary offset by assuming the time was UTC and adjusting it to the viewer's timezone. Now, a timezone will only be shown if it is known for the asset.&lt;/p&gt;
 &lt;p&gt;| Before | After |
@@ -562,7 +565,9 @@ However, note that this does not affect the ability to specify a different &lt;c
 &lt;li&gt;@JonOcto made their first contribution in https://github.com/immich-app/immich/pull/12895&lt;/li&gt;
 &lt;li&gt;@carykees98 made their first contribution in https://github.com/immich-app/immich/pull/12899&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.115.0...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.115.0...&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;This discussion was created from the release &lt;a href='https://github.com/immich-app/immich/releases/tag/v1.116.0'&gt;v1.116.0&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.116.0" rel="alternate"/>
   </entry>
 </feed>
