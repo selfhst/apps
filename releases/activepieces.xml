@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2024-09-26T08:32:48.911425-04:00</updated>
+  <updated>2024-09-26T09:32:50.353960-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,13 +164,14 @@
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;fix: add AI providers page to platform admin to configure universal AI providers (#5673) @AbdulTheActivePiecer&lt;/li&gt;
-&lt;li&gt;fix(google-sheeet): fix clear sheet action (#5668) @kishanprmr&lt;/li&gt;
 &lt;li&gt;feat: improve piece selector experience  (#5669) @cezudas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🧩 Pieces&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;fix(google-sheeet): fix clear sheet action (#5668) @kishanprmr&lt;/li&gt;
 &lt;li&gt;feat(dust): allow creation of empty conversations (#5690) @AdamSelene&lt;/li&gt;
 &lt;li&gt;feat(github): use octokit sdk for actions and triggers (#5681) @AdamSelene&lt;/li&gt;
 &lt;li&gt;feat(aianswer): schedule call, get call details ,transcript call data and other 3 actions (#5618) @drona2938&lt;/li&gt;
