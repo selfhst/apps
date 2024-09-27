@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plex Rewind Releases</title>
-  <updated>2024-09-27T05:31:02.133118-04:00</updated>
+  <updated>2024-09-27T06:31:01.616253-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,27 +94,5 @@
 &lt;li&gt;&lt;strong&gt;dashboard:&lt;/strong&gt; improve skeleton loader alignment (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/33224fb56da2f314c88168ca36254ed187aa2ca1"&gt;33224fb&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.3.0" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://github.com/RaunoT/plex-rewind/releases/tag/v4.3.1</id>
-    <title>New release for Plex Rewind: v4.3.1</title>
-    <updated>2024-09-27T03:56:24-04:00</updated>
-    <author>
-      <name>RaunoT/plex-rewind</name>
-    </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/RaunoT/plex-rewind/compare/v4.3.0...v4.3.1"&gt;4.3.1&lt;/a&gt; (2024-09-27)&lt;/h2&gt;
-&lt;h3&gt;🐛 Bug fixes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;rewind:&lt;/strong&gt; undefined top (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/249"&gt;#249&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/e5a4e2e5736535144715634bce90b8614774e367"&gt;e5a4e2e&lt;/a&gt;), closes #248 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🛠️ Other Changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;update dependencies (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/51105cff415a2913fe49b8ef438a8aacd05145db"&gt;51105cf&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;📝 Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;update readme (&lt;a href="https://github.com/RaunoT/plex-rewind/issues/251"&gt;#251&lt;/a&gt;) (&lt;a href="https://github.com/RaunoT/plex-rewind/commit/53c53e767fc6aa0b5c6ab9995a1ed21dd3593af6"&gt;53c53e7&lt;/a&gt;) (thanks @eltociear)&lt;/li&gt;
-&lt;/ul&gt;</content>
-    <link href="https://github.com/RaunoT/plex-rewind/releases/tag/v4.3.1" rel="alternate"/>
   </entry>
 </feed>
