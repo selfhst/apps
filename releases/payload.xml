@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-09-27T12:31:51.011525-04:00</updated>
+  <updated>2024-09-27T13:31:47.635293-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,5 +69,18 @@
 &lt;li&gt;&lt;strong&gt;db-postgres:&lt;/strong&gt; sanitize tab/group path for table name (&lt;a href="https://github.com/payloadcms/payload/issues/8010"&gt;#8010&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/ba7a043a99f58fad39a62ac471eeb7309a39bba0"&gt;ba7a043&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/payloadcms/payload/releases/tag/v2.29.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/payloadcms/payload/releases/tag/v2.30.0</id>
+    <title>New release for Payload: </title>
+    <updated>2024-09-27T12:35:46-04:00</updated>
+    <author>
+      <name>payloadcms/payload</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v2.29.0...v2.30.0"&gt;2.30.0&lt;/a&gt; (2024-09-27)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;export toast from react toastify in payload (&lt;a href="https://github.com/payloadcms/payload/issues/8438"&gt;#8438&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/17fc2d13d06b6de01f839c27fd706bc0d6a185eb"&gt;17fc2d1&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/payloadcms/payload/releases/tag/v2.30.0" rel="alternate"/>
   </entry>
 </feed>

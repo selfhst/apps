@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Vidzy Releases</title>
-  <updated>2024-09-27T12:33:03.861067-04:00</updated>
+  <updated>2024-09-27T13:32:58.196212-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,7 +65,7 @@ ADD COLUMN `tags` VARCHAR(100) NULL AFTER `description`;&lt;/code&gt;&lt;/p&gt;<
   <entry>
     <id>https://github.com/vidzy-social/vidzy/releases/tag/v0.1.8</id>
     <title>New release for Vidzy: Vidzy v0.1.8</title>
-    <updated>2024-09-27T12:27:51-04:00</updated>
+    <updated>2024-09-27T12:38:45-04:00</updated>
     <author>
       <name>vidzy-social/vidzy</name>
     </author>
