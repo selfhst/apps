@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docking Station Releases</title>
-  <updated>2024-09-27T11:35:07.056000-04:00</updated>
+  <updated>2024-09-27T12:33:42.008662-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,5 +80,23 @@
 &lt;li&gt;stop auto_updater log spamming (&lt;a href="https://github.com/LooLzzz/docking-station/commit/9815b7341891e27af04d9a766c11e11cd4458906"&gt;9815b73&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.3.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/LooLzzz/docking-station/releases/tag/v0.3.2</id>
+    <title>New release for Docking Station: v0.3.2</title>
+    <updated>2024-09-27T12:14:23-04:00</updated>
+    <author>
+      <name>LooLzzz/docking-station</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/LooLzzz/docking-station/compare/v0.3.2...v0.3.2"&gt;0.3.2&lt;/a&gt; (2024-09-27)&lt;/h2&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;server:&lt;/strong&gt; better error logging for 'poll_compose_stack_service_update_task' (&lt;a href="https://github.com/LooLzzz/docking-station/commit/3e53f8ba889fd92af014759abcaf365fbd2aff0f"&gt;3e53f8b&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;build:&lt;/strong&gt; created release-please config &amp;amp; manifest files (&lt;a href="https://github.com/LooLzzz/docking-station/commit/525076ad26a50effdb2cd75718fb6f7982e2ffdf"&gt;525076a&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/LooLzzz/docking-station/releases/tag/v0.3.2" rel="alternate"/>
   </entry>
 </feed>
