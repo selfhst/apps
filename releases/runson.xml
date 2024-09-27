@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RunsOn Releases</title>
-  <updated>2024-09-27T00:33:02.849096-04:00</updated>
+  <updated>2024-09-27T01:32:59.599020-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -180,7 +180,7 @@
     <author>
       <name>runs-on/runs-on</name>
     </author>
-    <content>&lt;p&gt;New ubuntu24 images, new housekeeping task, new always-on Private setting, additional runner details in logs, and more.&lt;/p&gt;
+    <content>&lt;p&gt;New ubuntu24 images, new housekeeping task to auto-restart instances that failed to launch, new always-on Private setting, additional runner details in logs, and more.&lt;/p&gt;
 &lt;h2&gt;Notable changes (from v2.5.0 to v2.5.4)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add ubuntu24 official images: &lt;code&gt;ubuntu24-full-x64&lt;/code&gt; and &lt;code&gt;ubuntu24-full-arm64&lt;/code&gt;.&lt;/li&gt;
