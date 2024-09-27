@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Postiz Releases</title>
-  <updated>2024-09-27T02:33:40.238484-04:00</updated>
+  <updated>2024-09-27T03:33:37.256626-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,5 +60,21 @@ Features:
 - Improved docs with deployment to Docker, Kubernetes and Coolify
 - Daily view with time slots&lt;/p&gt;</content>
     <link href="https://github.com/gitroomhq/postiz-app/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gitroomhq/postiz-app/releases/tag/v1.4.0</id>
+    <title>New release for Postiz: Generic Email Provider + Minor fixes</title>
+    <updated>2024-09-27T02:52:59-04:00</updated>
+    <author>
+      <name>gitroomhq/postiz-app</name>
+    </author>
+    <content>&lt;p&gt;Here is what was added/fixed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ARM64 support, thank you @jamesread &lt;/li&gt;
+&lt;li&gt;Generic email system: Resend is not mandatory anymore; you can also use no email / nodemailer.&lt;/li&gt;
+&lt;li&gt;Better registration error, thank you @jamesread &lt;/li&gt;
+&lt;li&gt;Minor fixes&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/gitroomhq/postiz-app/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>
