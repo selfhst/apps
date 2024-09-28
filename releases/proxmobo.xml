@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ProxMobo Releases</title>
-  <updated>2024-09-28T00:33:06.568031-04:00</updated>
+  <updated>2024-09-28T01:33:09.319185-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,5 +86,37 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
     <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.3</id>
+    <title>New release for PortaNexus: v0.1.3</title>
+    <updated>2024-09-28T01:28:00-04:00</updated>
+    <author>
+      <name>tiagorvmartins/portanexus</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;This release includes a new experimental feature that enables the user to check container logs, also the logs support refresh functionality (configurable in the new settings screen).&lt;/li&gt;
+&lt;li&gt;Container Logs are supported both on Stacks and Container screen by clicking the container row.&lt;/li&gt;
+&lt;li&gt;New settings screen to configure container logging functionality (later more settings can be added here) - As a note here: using 'all' on 'Max Log Lines' can cause delays on fetching the logs depending on the device (PWA/Android).&lt;/li&gt;
+&lt;li&gt;Refactored ThemeModule to SettingsModule to accommodate a broader amount of settings related with the new container logging feature.&lt;/li&gt;
+&lt;li&gt;Fixed entry splash, it was showing the footer in the middle of screen.&lt;/li&gt;
+&lt;li&gt;Better visibility of the portainer stack status in portanexus, this means that if one stack's container is down then the stack status icon is shown as 'yellow dot'.&lt;/li&gt;
+&lt;li&gt;There were improvements on the scroll feature for both Android app and PWA, also now relies on FlatList for multiple sections instead of ScrollView.&lt;/li&gt;
+&lt;li&gt;Improved the touchable buttons (restart, start, stop buttons) area detection with slop config.&lt;/li&gt;
+&lt;li&gt;Removed the old burger icon from the Drawer, instead navigation can be done by clicking the top icon 'PortaNexus'.&lt;/li&gt;
+&lt;li&gt;Navigation can also be done using the swipe gestures functionality from Android (Android App only), swipe left to right shows Drawer menu and swipe right to left goes back in navigation.&lt;/li&gt;
+&lt;li&gt;Fixed a few bugs causing bloat on the console, such as Text not being properly wrapped with Text node.&lt;/li&gt;
+&lt;li&gt;Removed leftover setTimeouts in code, that were in place to mimic loading times.&lt;/li&gt;
+&lt;li&gt;Bumped/fixed npm modules to recommended versions by expo.&lt;/li&gt;
+&lt;li&gt;Improved readability of the code in a few sections.&lt;/li&gt;
+&lt;li&gt;Chore: README.md updated with new images, demo video and links.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;release branch for v0.1.3 by @tiagorvmartins in https://github.com/tiagorvmartins/portanexus/pull/8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/tiagorvmartins/portanexus/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
+    <link href="https://github.com/tiagorvmartins/portanexus/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>
