@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2024-09-27T20:30:50.726613-04:00</updated>
+  <updated>2024-09-27T21:30:48.421437-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -356,7 +356,6 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
 &lt;li&gt;782cd26b3dbcff06cd2eb3a9b71c1d67c4b74913: fix(ui): save play mode for player (#3315) (@kgarner7)&lt;/li&gt;
 &lt;li&gt;32d2d7c15b64d1749ab543659ddc4e17fd52deae: fix(ui): update Basque translation (#3306) (@xabirequejo)&lt;/li&gt;
 &lt;li&gt;1fa245d141852d26837acd1c7fcf9dca0bd36174: fix(ui): update Swedish translation (#3316) (@andylundqvist)&lt;/li&gt;
-&lt;li&gt;669c8f4c49a7ef51ac9a53c725097943f67219eb: refactor(server): replace RangeByChunks with Go 1.23 iterators (#3292) (@deluan)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Other work&lt;/h3&gt;
 &lt;ul&gt;
@@ -364,6 +363,7 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
 &lt;li&gt;6031d97c9da58a6b4c54f74e6d674d7cb07c6683: chore(deps): bump rollup from 2.79.1 to 2.79.2 in /ui (#3319) (@dependabot[bot])&lt;/li&gt;
 &lt;li&gt;24d911744e606b7cb5bbf3d2ccd4f56df1db8747: chore(deps): bump github.com/pressly/goose/v3 from 3.22.0 to 3.22.1 (#3302) (@dependabot[bot])&lt;/li&gt;
 &lt;li&gt;825cbcbf5380a487bcbab93b5a7d2b3b1673774c: chore(readme): reddit badge is working again. (@deluan)&lt;/li&gt;
+&lt;li&gt;669c8f4c49a7ef51ac9a53c725097943f67219eb: refactor(server): replace RangeByChunks with Go 1.23 iterators (#3292) (@deluan)&lt;/li&gt;
 &lt;li&gt;10a1b5faf88289a6e2e236b20cbd28c0e0a70eaf: test(scanner): remove redundant fixture file (@deluan)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/navidrome/navidrome/compare/v0.53.2...v0.53.3&lt;/p&gt;
