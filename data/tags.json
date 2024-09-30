@@ -252,8 +252,8 @@
     {
         "Tag": "Downloads",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -607,8 +607,8 @@
     {
         "Tag": "Photos",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -800,6 +800,12 @@
         "Valid Types": [
             "Software",
             "Companion"
+        ]
+    },
+    {
+        "Tag": "Subscriptions",
+        "Valid Types": [
+            "Software"
         ]
     },
     {
