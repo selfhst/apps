@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ownCloud Infinite Scale Releases</title>
-  <updated>2024-09-30T15:32:30.000920-04:00</updated>
+  <updated>2024-09-30T16:32:21.995542-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -814,11 +814,7 @@
     <author>
       <name>owncloud/ocis</name>
     </author>
-    <content>&lt;h1&gt;Table of Contents&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#changelog-for-508-2024-09-30"&gt;Changelog for 5.0.8&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Changes in 5.0.8&lt;/h1&gt;
+    <content>&lt;h1&gt;Changes in 5.0.8&lt;/h1&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bugfix - Update reva to v2.19.8: &lt;a href="https://github.com/owncloud/ocis/pull/10138"&gt;#10138&lt;/a&gt;&lt;/li&gt;
