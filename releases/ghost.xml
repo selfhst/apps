@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-09-30T02:30:25.115530-04:00</updated>
+  <updated>2024-09-30T03:30:24.126505-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -79,9 +79,7 @@
     <content>&lt;ul&gt;
 &lt;li&gt;✨ Added i18n support to search - ready for translator work! (#21055) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🎨 Updated Casper to v5.7.5 - Ghost CI&lt;/li&gt;
-&lt;li&gt;🐛🌐 Added missing locales to i18n.js (#21144) - Cathy Sarisky&lt;/li&gt;
-&lt;li&gt;🐛 Fixed infinite loops in &lt;code&gt;setFeatureImageCaption&lt;/code&gt; for deleted posts (#21081) - Ronald Langeveld&lt;/li&gt;
-&lt;li&gt;🐛 Fixed navigations links for Ghost sites hosted on a subdirectory (#21071) - Sag&lt;/li&gt;
+&lt;li&gt;🌐 Added missing locales to i18n.js (#21144) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🌐 Added Estonian translations (#21129) - WindTheWhisperer&lt;/li&gt;
 &lt;li&gt;🌐 Added new Brazilian Portuguese new i18n strings (#21101) - Sérgio Spagnuolo&lt;/li&gt;
 &lt;li&gt;🌐 Updated Turkish translation (#21110) - Mertcan GÖKGÖZ&lt;/li&gt;
@@ -90,6 +88,8 @@
 &lt;li&gt;🌐 German translations (#21050) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🌐 Updated Gaelic portal / search translations (#21093) - Chris Mitchell&lt;/li&gt;
 &lt;li&gt;🌐 Update pt-BR translation of search.json (#21100) - Alexandre "Lekler" Rodrigues&lt;/li&gt;
+&lt;li&gt;🐛 Fixed infinite loops in &lt;code&gt;setFeatureImageCaption&lt;/code&gt; for deleted posts (#21081) - Ronald Langeveld&lt;/li&gt;
+&lt;li&gt;🐛 Fixed navigations links for Ghost sites hosted on a subdirectory (#21071) - Sag&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;View the changelog for full details: https://github.com/tryghost/ghost/compare/v5.94.2...v5.95.0&lt;/p&gt;</content>
