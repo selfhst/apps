@@ -614,13 +614,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -872,6 +872,12 @@
         "Tag": "Tool",
         "Valid Types": [
             "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Torrents",
+        "Valid Types": [
+            "Software"
         ]
     },
     {
