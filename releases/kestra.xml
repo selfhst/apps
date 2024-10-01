@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2024-10-01T10:32:55.085593-04:00</updated>
+  <updated>2024-10-01T11:32:50.240039-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -357,7 +357,45 @@
 &lt;li&gt;792e11a: Fix/readme (#5242) (Anna Geller) &lt;a href="https://github.com/kestra-io/kestra/pull/5242"&gt;#5242&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;a930277: Update README.md (Anna Geller)&lt;/li&gt;
 &lt;li&gt;48676f4: Update README.md (Anna Geller)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;Inputs&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;options&lt;/code&gt; property in the &lt;code&gt;MULTISELECT&lt;/code&gt; input has been renamed to &lt;code&gt;values&lt;/code&gt; to align with the &lt;code&gt;SELECT&lt;/code&gt; input type. However, the alias has been retained, so using &lt;code&gt;options&lt;/code&gt; will still work. We recommend renaming it to &lt;code&gt;values&lt;/code&gt; to make your flows future-proof.&lt;/p&gt;
+&lt;h3&gt;Refresh Token (EE)&lt;/h3&gt;
+&lt;p&gt;Before upgrading to 0.19.0, please note that we now require the encryption key to be set in your Kestra configuration, as it is used to facilitate several security-related features, including: 
+- &lt;a href="https://kestra.io/docs/enterprise/authentication"&gt;authentication&lt;/a&gt;
+- &lt;a href="https://kestra.io/docs/administrator-guide/backup-and-restore"&gt;backup &amp;amp; restore&lt;/a&gt; functionality
+- JWT signature for refresh tokens
+- &lt;code&gt;SECRET&lt;/code&gt;-type inputs.&lt;/p&gt;
+&lt;p&gt;To configure this, add the following to your &lt;code&gt;application.yaml&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+kestra:
+  encryption:
+    secret-key: pleaseChangeThisSecret # ✅ mandatory!&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This encryption key should already be present if you use any &lt;code&gt;SECRET&lt;/code&gt;-type input. If not, ensure it is added before upgrading to Kestra 0.19.0; otherwise, Kestra EE will not start, and you won't be able to log in. &lt;/p&gt;
+&lt;p&gt;The encryption secret key must be at least 256 bits (32 ASCII characters).&lt;/p&gt;
+&lt;p&gt;Make sure to set the secret &lt;code&gt;pleaseChangeThisSecret&lt;/code&gt; to a custom value. This secret never expires, but its corresponding refresh token has a lifetime of 30 days, similar to a JWT token with a default lifetime of 1 hour. &lt;/p&gt;
+&lt;p&gt;If you prefer to use a different secret for the JWT signature of the refresh token than the one used as your standard encryption key, you can optionally modify this part of your Kestra configuration:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+micronaut:
+  security:
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: "${JWT_GENERATOR_SIGNATURE_SECRET:pleaseChangeThisSecret}" # ✅ optional&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To delete a refresh token, send a &lt;code&gt;DELETE&lt;/code&gt; request to &lt;code&gt;/users/{id}/refresh-token&lt;/code&gt;. This is useful if you suspect your computer has been compromised.&lt;/p&gt;
+&lt;p&gt;For any questions or assistance with the upgrade, please contact our support team via our Customer Portal or your dedicated Slack channel.&lt;/p&gt;
+&lt;h3&gt;State Store&lt;/h3&gt;
+&lt;p&gt;State Store has been deprecated, and all plugins that used State Store now leverage KV Store. If you were using State Store, ensure you run this command after upgrading to Kestra 0.19.0: &lt;code&gt;/app/kestra sys state-store migrate&lt;/code&gt;. Refer to the migration guide for more details.&lt;/p&gt;
+&lt;h3&gt;Core Plugins&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;io.kestra.plugin.core.flow.EachParallel&lt;/code&gt; and &lt;code&gt;io.kestra.plugin.core.flow.EachSequential&lt;/code&gt; tasks have been marked as deprecated. We recommend switching to the optimized and simpler &lt;code&gt;io.kestra.plugin.core.flow.ForEach&lt;/code&gt; task, which unifies both sequential and parallel execution depending on the configured &lt;code&gt;concurrencyLimit&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Flow-level plugin defaults will now &lt;a href="https://github.com/kestra-io/kestra/commit/9b9508b7249b111d59e8fcc8b78db938694efe36"&gt;overwrite&lt;/a&gt; global plugin defaults unless &lt;code&gt;forced: true&lt;/code&gt; is added to the global &lt;code&gt;pluginDefaults&lt;/code&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Adjusted Default Number of Worker Threads&lt;/h3&gt;
+&lt;p&gt;We've &lt;a href="https://github.com/kestra-io/kestra/issues/4771"&gt;reduced&lt;/a&gt; the number of &lt;a href="https://github.com/kestra-io/kestra/pull/4775/files"&gt;worker threads started by default&lt;/a&gt; per worker, based on the number of processors available on the machine. This change is intended to improve reliability by limiting concurrency by default. For example, if you start a large number of concurrent task runs, Kestra will no longer attempt to process them across all available worker threads — instead, task runs will be queued and processed as quickly as your server can handle, based on the number of available CPUs.&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.19.0" rel="alternate"/>
   </entry>
 </feed>
