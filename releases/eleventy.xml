@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eleventy Releases</title>
-  <updated>2024-10-01T14:32:08.049994-04:00</updated>
+  <updated>2024-10-01T15:32:04.190100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -327,7 +327,8 @@ npm install @11ty/eleventy@latest&lt;/code&gt;&lt;/p&gt;
     <content>&lt;p&gt;We did it. After 22 pre-releases and over a year of work, Eleventy 3.0.0 is now available. You can try it out now on your project using:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;js
 npm install @11ty/eleventy@latest&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;If you’re upgrading from a previous version of Eleventy, use the &lt;a href="https://v3.11ty.dev/docs/plugins/upgrade-help/"&gt;Upgrade Help plugin&lt;/a&gt; for automated checks and help with your upgrade!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you’re upgrading from a previous version&lt;/strong&gt; of Eleventy, use the &lt;a href="https://v3.11ty.dev/docs/plugins/upgrade-help/"&gt;Upgrade Help plugin&lt;/a&gt; for automated checks and help with your upgrade!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://v3.11ty.dev/#why-should-you-use-eleventy"&gt;Why should you use Eleventy?&lt;/a&gt;&lt;/strong&gt; Eleventy is a flexible and production-ready site generator known for its zero-client JavaScript footprint, &lt;a href="https://v3.11ty.dev/docs/performance/"&gt;speedy sites, speedy builds&lt;/a&gt;, and &lt;a href="https://www.youtube.com/watch?v=b4frtsT4Cgo"&gt;full control over the output&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A few numbers on the best version of Eleventy yet:&lt;/p&gt;
 &lt;p&gt;| Stats | &lt;code&gt;v2.0.1&lt;/code&gt; | &lt;code&gt;v3.0.0&lt;/code&gt; |
 | - | - | - |
