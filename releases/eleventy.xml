@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eleventy Releases</title>
-  <updated>2024-10-01T15:32:04.190100-04:00</updated>
+  <updated>2024-10-01T16:32:03.210640-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -333,7 +333,7 @@ npm install @11ty/eleventy@latest&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;| Stats | &lt;code&gt;v2.0.1&lt;/code&gt; | &lt;code&gt;v3.0.0&lt;/code&gt; |
 | - | - | - |
 | 20% smaller | 35.2 MB | 28.1 MB |
-| 11% fewer third-party dependencies | 213 | 189 |
+| 11% fewer dependencies | 213 | 189 |
 | 9% faster npm install | 4.511s* | 4.103s* |&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;*fastest time of 3 runs (bypassing local cache)&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Flagship 3.0 features&lt;/h2&gt;
