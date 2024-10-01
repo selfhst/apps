@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-10-01T17:32:15.940082-04:00</updated>
+  <updated>2024-10-01T18:32:14.474214-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -358,13 +358,6 @@ This new notification will send a weekly report to template administrators summa
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;Add endpoint for fetching workspace proxy keys (#14789, 3fdeaf7b2) (@sreya)&lt;/li&gt;
-&lt;li&gt;Allow posting licenses that will be valid in future (#14491, 5bd580128) (@spikecurtis)&lt;/li&gt;
-&lt;li&gt;Stop reporting future licenses as errors (#14492, 4eac2aced) (@spikecurtis)&lt;blockquote&gt;
-&lt;p&gt;&lt;img alt="new-license-behavior" src="https://github.com/user-attachments/assets/b0d52dad-3ea3-45a7-a548-a74db2243452" /&gt;
-We've improved the UX by allowing admins to upload licenses ahead of their start date rather than hot-swapping on the turn of the day. Now you can safely add multiple licenses that are queued for use after the previous expires. &lt;/p&gt;
-&lt;p&gt;Note: this is an internal example, we do not offer licenses without a seat cap.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
 &lt;li&gt;Agent: Use tcp for X11 forwarding (#14560, 8f07d3357) (@mafredri)&lt;/li&gt;
 &lt;li&gt;CLI: Add &lt;code&gt;--provisioner-log-debug&lt;/code&gt; option (#14558, bcf9bc3c9) (@johnstcn)  &lt;/li&gt;
 &lt;li&gt;Examples: Add root volume parameter, growpart automatically (#14839, 3b5cabb56) (@johnstcn)&lt;/li&gt;
