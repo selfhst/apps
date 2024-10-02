@@ -614,13 +614,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
@@ -729,6 +729,12 @@
     },
     {
         "Tag": "Screenshots",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Scrobble",
         "Valid Types": [
             "Software"
         ]
