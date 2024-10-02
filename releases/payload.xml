@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-10-01T22:31:47.606283-04:00</updated>
+  <updated>2024-10-01T23:31:41.768227-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,5 +82,20 @@
 &lt;li&gt;export toast from react toastify in payload (&lt;a href="https://github.com/payloadcms/payload/issues/8438"&gt;#8438&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/17fc2d13d06b6de01f839c27fd706bc0d6a185eb"&gt;17fc2d1&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/payloadcms/payload/releases/tag/v2.30.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/payloadcms/payload/releases/tag/v2.30.1</id>
+    <title>New release for Payload: </title>
+    <updated>2024-10-01T23:22:39-04:00</updated>
+    <author>
+      <name>payloadcms/payload</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v2.30.0...v2.30.1"&gt;2.30.1&lt;/a&gt; (2024-10-02)&lt;/h2&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;db-mongodb:&lt;/strong&gt; properly filters out &lt;code&gt;number&lt;/code&gt; field values with the &lt;code&gt;exists&lt;/code&gt; operator filter (&lt;a href="https://github.com/payloadcms/payload/issues/8415"&gt;#8415&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/0586f236bbf04163a0d9b226772849cb3d977864"&gt;0586f23&lt;/a&gt;), closes &lt;a href="https://github.com/payloadcms/payload/issues/8181"&gt;#8181&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;sorting by id incorrectly orders by version.id (&lt;a href="https://github.com/payloadcms/payload/issues/8450"&gt;#8450&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/1d38e6d5d5b56a91aa8f59a461d40f28b1750f8c"&gt;1d38e6d&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/payloadcms/payload/releases/tag/v2.30.1" rel="alternate"/>
   </entry>
 </feed>
