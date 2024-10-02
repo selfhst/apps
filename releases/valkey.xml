@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Valkey Releases</title>
-  <updated>2024-10-02T17:32:22.227443-04:00</updated>
+  <updated>2024-10-02T18:32:20.699327-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,5 +141,32 @@ apply as soon as possible.&lt;/p&gt;
 &lt;li&gt;(CVE-2024-31228) Potential Denial-of-service due to unbounded pattern matching.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/valkey-io/valkey/releases/tag/7.2.7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/valkey-io/valkey/releases/tag/8.0.1</id>
+    <title>New release for Valkey: 8.0.1</title>
+    <updated>2024-10-02T17:33:39-04:00</updated>
+    <author>
+      <name>valkey-io/valkey</name>
+    </author>
+    <content>&lt;p&gt;Upgrade urgency SECURITY: This release includes security fixes we recommend you
+apply as soon as possible.&lt;/p&gt;
+&lt;h1&gt;Bug fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix a build issue with RDMA when using additional make parameters. (#1074)&lt;/li&gt;
+&lt;li&gt;Fix an issue where &lt;code&gt;CLUSTER SLOTS&lt;/code&gt; might return the wrong tcp or tls port when called
+  from inside a script or from a module. (#1072)&lt;/li&gt;
+&lt;li&gt;Fix a crash when &lt;code&gt;CLUSTER SLOTS&lt;/code&gt; or &lt;code&gt;CLUSTER SHARDS&lt;/code&gt; is called from inside
+  a script or from a module. (#1063)&lt;/li&gt;
+&lt;li&gt;Fix a build issue on systems where &lt;code&gt;&amp;lt;threads.h&amp;gt;&lt;/code&gt; is unavailable. (#1053)&lt;/li&gt;
+&lt;li&gt;Fix an issue with the default &lt;code&gt;sentinel.conf&lt;/code&gt; being invalid. (#1040)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Security fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;(CVE-2024-31449) Lua library commands may lead to stack overflow and potential RCE.&lt;/li&gt;
+&lt;li&gt;(CVE-2024-31227) Potential Denial-of-service due to malformed ACL selectors.&lt;/li&gt;
+&lt;li&gt;(CVE-2024-31228) Potential Denial-of-service due to unbounded pattern matching.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/valkey-io/valkey/releases/tag/8.0.1" rel="alternate"/>
   </entry>
 </feed>
