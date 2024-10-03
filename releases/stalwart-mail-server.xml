@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2024-10-03T10:31:16.416019-04:00</updated>
+  <updated>2024-10-03T11:31:16.209080-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
       <name>stalwartlabs/mail-server</name>
     </author>
     <content>&lt;h2&gt;[0.10.2] - 2024-10-02&lt;/h2&gt;
-&lt;p&gt;To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then upgrade to the latest web-admin.&lt;/p&gt;
+&lt;p&gt;To upgrade first upgrade the webadmin and then replace the stalwart-mail binary. If you read these instructions too late, you can upgrade to the latest web-admin using &lt;code&gt;curl -k -u admin:yourpass https://yourserver/api/update/webadmin&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;OpenID Connect server (#298).&lt;/li&gt;
