@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traggo Releases</title>
-  <updated>2024-10-03T09:31:46.858980-04:00</updated>
+  <updated>2024-10-03T10:31:49.247436-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,6 +64,7 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Improve mobile design #180 by @Minnowo &lt;/li&gt;
+&lt;li&gt;The show/hides notes button moved into the triple-dot menu&lt;/li&gt;
 &lt;li&gt;Add percentage to pie chart #185 by @Minnowo &lt;/li&gt;
 &lt;li&gt;Add work week / 5 day week calender view #182 by @Minnowo &lt;/li&gt;
 &lt;li&gt;Fix handling of &lt;kbd&gt;esc&lt;/kbd&gt; in tag selector #179 by @Minnowo&lt;/li&gt;
