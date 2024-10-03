@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-10-03T02:30:47.447968-04:00</updated>
+  <updated>2024-10-03T03:30:51.883081-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,7 +166,7 @@ CMS_BREAK --&gt;
   </entry>
   <entry>
     <id>https://github.com/medusajs/medusa/releases/tag/v2.0.0-rc</id>
-    <title>New release for Medusa: Medusa 2.0 Release Candidate #1</title>
+    <title>New release for Medusa: Medusa v2.0 Release Candidate #1</title>
     <updated>2024-10-01T05:04:20-04:00</updated>
     <author>
       <name>medusajs/medusa</name>
@@ -174,7 +174,7 @@ CMS_BREAK --&gt;
     <content>&lt;!-- 
 ![image](https://github.com/user-attachments/assets/25122467-e109-4fe9-85db-fdfaa7265148)
 
-# Medusa Release Candidate #1
+# Medusa v2.0 Release Candidate #1
 
 CMS_BREAK --&gt;
 
