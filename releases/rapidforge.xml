@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RapidForge Releases</title>
-  <updated>2024-10-03T17:33:45.761792-04:00</updated>
+  <updated>2024-10-03T18:34:00.134374-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -63,5 +63,19 @@
 https://youtu.be/ONQf2WiIxW0&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/rapidforge-io/release/releases/tag/v0.8.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rapidforge-io/release/releases/tag/v0.8.5</id>
+    <title>New release for RapidForge: v0.8.5</title>
+    <updated>2024-10-03T18:28:06-04:00</updated>
+    <author>
+      <name>rapidforge-io/release</name>
+    </author>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;d636c50ff0bbac1cd9a36866f8173245827e5cd5 bump version number&lt;/li&gt;
+&lt;li&gt;51b0170a071fab9edee70ffa2e683c1fcbe1ee32 add autocomplete to editor&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/rapidforge-io/release/releases/tag/v0.8.5" rel="alternate"/>
   </entry>
 </feed>
