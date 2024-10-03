@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Valkey Releases</title>
-  <updated>2024-10-03T12:32:39.498565-04:00</updated>
+  <updated>2024-10-03T13:32:18.913164-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,6 +134,11 @@ apply as soon as possible.&lt;/p&gt;
 &lt;li&gt;Resolved issues in replicationSetPrimary where the primary node's IP/port
   updates were not correctly handled in the cluster gossip section. (#965)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1&gt;Packaging Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Build binary releases with systemd support. (#1107)&lt;/li&gt;
+&lt;li&gt;Avoid .c, .d and .o files from being copied to the binary tar.gz releases. (#1106)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1&gt;Security fixes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;(CVE-2024-31449) Lua library commands may lead to stack overflow and potential RCE.&lt;/li&gt;
@@ -160,6 +165,11 @@ apply as soon as possible.&lt;/p&gt;
   a script or from a module. (#1063)&lt;/li&gt;
 &lt;li&gt;Fix a build issue on systems where &lt;code&gt;&amp;lt;threads.h&amp;gt;&lt;/code&gt; is unavailable. (#1053)&lt;/li&gt;
 &lt;li&gt;Fix an issue with the default &lt;code&gt;sentinel.conf&lt;/code&gt; being invalid. (#1040)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Packaging Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Build binary releases with systemd support. (#1107)&lt;/li&gt;
+&lt;li&gt;Avoid .c, .d and .o files from being copied to the binary tar.gz releases. (#1106)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Security fixes&lt;/h1&gt;
 &lt;ul&gt;
