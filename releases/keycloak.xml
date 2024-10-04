@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2024-10-04T03:30:43.609322-04:00</updated>
+  <updated>2024-10-04T04:30:37.088216-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,7 +197,151 @@
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+    &lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_organizations_supported"&gt;Organizations supported&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Starting with Keycloak 26, the Organizations feature is fully supported.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_client_libraries_updates"&gt;Client libraries updates&lt;/h3&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="_dedicated_release_cycle_for_the_client_libraries"&gt;Dedicated release cycle for the client libraries&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;From this release, some of the Keycloak client libraries will have release cycle independent of the Keycloak server release cycle. The 26.0.0 release may be the last one
+when the client libraries are released together with the Keycloak server. But from now on, the client libraries may be released at a different time than the Keycloak server.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The client libraries are these artifacts:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java admin client - Maven artifact &lt;code&gt;org.keycloak:keycloak-admin-client&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Java authorization client - Maven artifact &lt;code&gt;org.keycloak:keycloak-authz-client&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Java policy enforcer - Maven artifact &lt;code&gt;org.keycloak:keycloak-policy-enforcer&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;It is possible that in the future, some more libraries will be included.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The client libraries are supported with Java 8, so it is possible to use them with the client applications deployed on the older application servers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="_compatibility_of_the_client_libraries_with_the_server"&gt;Compatibility of the client libraries with the server&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Beginning with this release, we are testing and supporting client libraries with the same server version and a few previous major server versions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For details about supported versions of client libraries with server versions, see the &lt;a href="https://www.keycloak.org/docs/26.0.0/upgrading/#_upgrade_client_libraries"&gt;Upgrading Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_user_sessions_persisted_by_default"&gt;User sessions persisted by default&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Keycloak 25 introduced the feature &lt;code&gt;persistent-user-sessions&lt;/code&gt;. With this feature enabled all user sessions are persisted in the database as opposed to the previous behavior where only offline sessions were persisted.
+In Keycloak 26, this feature is enabled by default. This means that all user sessions are persisted in the database by default.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;It is possible to revert this behavior to the previous state by disabling the feature. Follow the &lt;code&gt;Volatile user sessions&lt;/code&gt; section in &lt;a href="https://www.keycloak.org/server/caching"&gt;Configuring distributed caches&lt;/a&gt; guide for more details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For information on how to upgrade, see the &lt;a href="https://www.keycloak.org/docs/26.0.0/upgrading/"&gt;Upgrading Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_new_default_login_theme"&gt;New default login theme&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;There is now a new version (&lt;code&gt;v2&lt;/code&gt;) of the &lt;code&gt;keycloak&lt;/code&gt; login theme, which provides an improved look and feel, including support for switching automatically to a dark theme based on user preferences.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The previous version (&lt;code&gt;v1&lt;/code&gt;) is now deprecated, and will be removed in a future release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For all new realms, &lt;code&gt;keycloak.v2&lt;/code&gt; will be the default login theme.  Also, any existing realm that never explicitly set a login theme will be switched to &lt;code&gt;keycloak.v2&lt;/code&gt;.
+= Highly available multi-site deployments&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Keycloak 26 introduces significant improvements to the recommended HA multi-site architecture, most notably:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Keycloak deployments are now able to handle user requests simultaneously in both sites.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Active monitoring of the connectivity between the sites is now required to update the replication between the sites in case of a failure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The loadbalancer blueprint has been updated to use the AWS Global Accelerator as this avoids prolonged fail-over times caused by DNS caching by clients.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Persistent user sessions are now a requirement of the architecture. Consequently, user sessions will be kept
+on Keycloak or Infinispan upgrades.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For information on how to migrate, see the &lt;a href="https://www.keycloak.org/docs/26.0.0/upgrading/"&gt;Upgrading Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_admin_bootstrapping_and_recovery"&gt;Admin Bootstrapping and Recovery&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In the past, regaining access to a Keycloak instance when all admin users were locked out was a challenging and complex process. Recognizing these challenges and aiming to significantly enhance the user experience, Keycloak now offers several straightforward methods to bootstrap a temporary admin account and recover lost admin access.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;It is now possible to run the &lt;code&gt;start&lt;/code&gt; or &lt;code&gt;start-dev&lt;/code&gt; commands with specific options to create a temporary admin account. Additionally, a new dedicated command has been introduced, which allows users to regain admin access without hassle.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For detailed instructions and more information on this topic, refer to the &lt;a href="https://www.keycloak.org/server/bootstrap-admin-recovery"&gt;Admin Bootstrap and Recovery&lt;/a&gt; guide.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_opentelemetry_tracing_preview"&gt;OpenTelemetry Tracing preview&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The underlying Quarkus support for OpenTelemetry Tracing has been exposed to Keycloak and allows obtaining application traces for better observability.
+It helps to find performance bottlenecks, determine the cause of application failures, trace a request through the distributed system, and much more.
+The support is in preview mode, and we would be happy to obtain any feedback.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For more information, see the &lt;a href="https://www.keycloak.org/server/tracing"&gt;Enabling Tracing&lt;/a&gt; guide.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_openid_for_verifiable_credential_issuance"&gt;OpenID for Verifiable Credential Issuance&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The OpenID for Verifiable Credential Issuance (OID4VCI) is still an experimental feature in Keycloak, but it was greatly improved in this release. You will find significant development and discussions
+in the &lt;a href="https://github.com/keycloak/kc-sig-fapi"&gt;Keycloak OAuth SIG&lt;/a&gt;. Anyone from the Keycloak community is welcome to join.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Many thanks to all members of the OAuth SIG group for the participation on the development and discussions about this feature. Especially thanks to the
+&lt;a href="https://github.com/francis-pouatcha"&gt;Francis Pouatcha&lt;/a&gt;, &lt;a href="https://github.com/Captain-P-Goldfish"&gt;Pascal Knüppel&lt;/a&gt;, &lt;a href="https://github.com/tnorimat"&gt;Takashi Norimatsu&lt;/a&gt;,
+&lt;a href="https://github.com/IngridPuppet"&gt;Ingrid Kamga&lt;/a&gt;, &lt;a href="https://github.com/wistefan"&gt;Stefan Wiedemann&lt;/a&gt; and &lt;a href="https://github.com/thomasdarimont"&gt;Thomas Darimont&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_dpop_improvements"&gt;DPoP improvements&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The DPoP (OAuth 2.0 Demonstrating Proof-of-Possession) preview feature has improvements. The DPoP is now supported for all grant types.
+With previous releases, this feature was supported only for the &lt;code&gt;authorization_code&lt;/code&gt; grant type. Support also exists for the DPoP token type on the UserInfo endpoint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Many thanks to &lt;a href="https://github.com/Captain-P-Goldfish"&gt;Pascal Knüppel&lt;/a&gt; for the contribution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_removal_of_gelf_logging_handler"&gt;Removal of GELF lo</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.0.0" rel="alternate"/>
   </entry>
 </feed>
