@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2024-10-04T17:32:36.503257-04:00</updated>
+  <updated>2024-10-04T18:32:36.529484-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,18 +125,19 @@
     <link href="https://github.com/Freika/dawarich/releases/tag/0.15.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/Freika/dawarich/releases/tag/0.15.1</id>
-    <title>New release for Dawarich: 0.15.1</title>
+    <id>https://github.com/Freika/dawarich/releases/tag/0.15.2</id>
+    <title>New release for Dawarich: 0.15.2</title>
     <updated>2024-10-04T17:23:55-04:00</updated>
     <author>
       <name>Freika/dawarich</name>
     </author>
     <content>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;linux/arm/v7&lt;/code&gt; is added to the list of supported architectures to support Raspberry Pi 4 and other ARMv7 devices&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;linux/arm64/v7&lt;/code&gt; is added to the list of supported architectures to support Raspberry Pi 4 and other ARMv7 devices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;💙 This release is supported by James Manolios, chenrik and aldumil on &lt;a href="https://www.patreon.com/freika"&gt;Patreon&lt;/a&gt; 💙&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Freika/dawarich/compare/0.15.0...0.15.1&lt;/p&gt;</content>
-    <link href="https://github.com/Freika/dawarich/releases/tag/0.15.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Freika/dawarich/compare/0.15.0...0.15.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Freika/dawarich/compare/0.15.1...0.15.2&lt;/p&gt;</content>
+    <link href="https://github.com/Freika/dawarich/releases/tag/0.15.2" rel="alternate"/>
   </entry>
 </feed>
