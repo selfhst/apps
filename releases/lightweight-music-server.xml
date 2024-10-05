@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-10-05T09:30:39.221434-04:00</updated>
+  <updated>2024-10-05T10:30:46.227697-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,7 +97,6 @@
 * More permissive grouping of multi disc albums (each disc can now be split on sub directories) when musicbrainz ids are not set #481 
 * Improved the artist display name string reconstruction to match more case #491
 * Apply all custom separators, not only the first one found #518 
-* More permissive grouping of multi disc albums when musicbrainz ids are not set (each disc can now be on a sub directory)  #481 
 * Now buildable on macOS 
 * Subsonic API: report the cover of the release if no embedded cover is found for the track #519 &lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.58.0" rel="alternate"/>
