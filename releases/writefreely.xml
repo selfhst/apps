@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WriteFreely Releases</title>
-  <updated>2024-10-05T15:31:23.474955-04:00</updated>
+  <updated>2024-10-05T16:31:21.850941-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -292,6 +292,7 @@
 &lt;li&gt;Bump github.com/urfave/cli/v2 from 2.27.1 to 2.27.4 by @dependabot in https://github.com/writefreely/writefreely/pull/1026&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Upgrading from v0.15.0&lt;/h2&gt;
+&lt;h2&gt;IMPORTANT: The official release will not work on older systems, e.g. Ubuntu 18.04 or earlier. See https://github.com/writefreely/writefreely/issues/1064 for a workaround.&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Download the latest release for your operating system and architecture&lt;/li&gt;
 &lt;li&gt;Stop running your &lt;code&gt;writefreely&lt;/code&gt; server&lt;/li&gt;
