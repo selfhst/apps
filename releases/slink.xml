@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Slink Releases</title>
-  <updated>2024-10-05T16:32:22.652595-04:00</updated>
+  <updated>2024-10-05T17:32:27.740246-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,5 +104,19 @@ and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.2.1</id>
+    <title>New release for Slink: v1.2.1</title>
+    <updated>2024-10-05T17:03:09-04:00</updated>
+    <author>
+      <name>andrii-kryvoviaz/slink</name>
+    </author>
+    <content>&lt;h2&gt;Fixes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolved an issue where new user registration was failing for some Slink installations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.2.0...v1.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>
