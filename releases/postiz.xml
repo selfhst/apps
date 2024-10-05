@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Postiz Releases</title>
-  <updated>2024-10-05T11:33:36.450868-04:00</updated>
+  <updated>2024-10-05T12:33:43.781319-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,5 +77,39 @@ Features:
 &lt;li&gt;Minor fixes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/gitroomhq/postiz-app/releases/tag/v1.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/gitroomhq/postiz-app/releases/tag/v1.5.0</id>
+    <title>New release for Postiz: New Social Networks, bug fixes, mintor fixes</title>
+    <updated>2024-10-05T12:04:19-04:00</updated>
+    <author>
+      <name>gitroomhq/postiz-app</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Bluesky, Mastodon, Slack and Discord channels ❤️🚀&lt;/li&gt;
+&lt;li&gt;docs: update CONTRIBUTING.md by @eltociear in https://github.com/gitroomhq/postiz-app/pull/265&lt;/li&gt;
+&lt;li&gt;fix: Improve Remove Icon and Toast Text Visibility in light mode by @JeevaRamanathan in https://github.com/gitroomhq/postiz-app/pull/294&lt;/li&gt;
+&lt;li&gt;fix: Checkbox tick visible on both modes by @JeevaRamanathan in https://github.com/gitroomhq/postiz-app/pull/269&lt;/li&gt;
+&lt;li&gt;Fixed 🐛 Bug Report :  Profile Settings UI errors [fixed : #301]   by @prathamesh424 in https://github.com/gitroomhq/postiz-app/pull/302&lt;/li&gt;
+&lt;li&gt;fix: updated faq descriptions by @JeevaRamanathan in https://github.com/gitroomhq/postiz-app/pull/308&lt;/li&gt;
+&lt;li&gt;Create SECURITY.md by @Vignesh025 in https://github.com/gitroomhq/postiz-app/pull/299&lt;/li&gt;
+&lt;li&gt;doc: Update CONTRIBUTING.md  by @AkashJana18 in https://github.com/gitroomhq/postiz-app/pull/286&lt;/li&gt;
+&lt;li&gt;fix:Change button cursor to pointer on hover by @Mujtaba500 in https://github.com/gitroomhq/postiz-app/pull/311&lt;/li&gt;
+&lt;li&gt;doc: The pull request template needs a checklist to avoid common issues [skip ci] by @jamesread in https://github.com/gitroomhq/postiz-app/pull/314&lt;/li&gt;
+&lt;li&gt;Updated button style to rounded edges by @Zor0000 in https://github.com/gitroomhq/postiz-app/pull/274&lt;/li&gt;
+&lt;li&gt;ci: Add /uploads to Docker containers [skip ci] by @jamesread in https://github.com/gitroomhq/postiz-app/pull/315&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@JeevaRamanathan made their first contribution in https://github.com/gitroomhq/postiz-app/pull/294&lt;/li&gt;
+&lt;li&gt;@prathamesh424 made their first contribution in https://github.com/gitroomhq/postiz-app/pull/302&lt;/li&gt;
+&lt;li&gt;@Vignesh025 made their first contribution in https://github.com/gitroomhq/postiz-app/pull/299&lt;/li&gt;
+&lt;li&gt;@AkashJana18 made their first contribution in https://github.com/gitroomhq/postiz-app/pull/286&lt;/li&gt;
+&lt;li&gt;@Mujtaba500 made their first contribution in https://github.com/gitroomhq/postiz-app/pull/311&lt;/li&gt;
+&lt;li&gt;@Zor0000 made their first contribution in https://github.com/gitroomhq/postiz-app/pull/274&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gitroomhq/postiz-app/compare/v1.4.0...v1.5.0&lt;/p&gt;</content>
+    <link href="https://github.com/gitroomhq/postiz-app/releases/tag/v1.5.0" rel="alternate"/>
   </entry>
 </feed>

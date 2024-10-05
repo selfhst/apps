@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Slink Releases</title>
-  <updated>2024-10-05T11:32:22.909092-04:00</updated>
+  <updated>2024-10-05T12:32:28.811329-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,7 +73,36 @@ and much more.&lt;/li&gt;
     <author>
       <name>andrii-kryvoviaz/slink</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <content>&lt;h2&gt;What's New&lt;/h2&gt;
+&lt;h3&gt;Username Login&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced a new &lt;code&gt;username&lt;/code&gt; field for login.&lt;/li&gt;
+&lt;li&gt;Users can now log in using either their username or email address, adding flexibility to the authentication process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Display Name Update&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Users can now update their display name from their profile settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;h3&gt;Minor UI Layout Updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Small improvements made to the user interface across the app for a cleaner experience.&lt;/li&gt;
+&lt;li&gt;Changes include tweaks to spacing, button alignment, and typography to improve consistency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Improved Mobile UI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhanced mobile responsiveness, offering a smoother experience on smaller devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Changes&lt;/h2&gt;
+&lt;h3&gt;Security Dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bumped dependency versions to address security vulnerabilities and ensure continued stability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;License Update&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The project license has been changed from MIT to &lt;strong&gt;AGPLv3&lt;/strong&gt; to ensure the project always remains open source.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/andrii-kryvoviaz/slink/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/andrii-kryvoviaz/slink/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
