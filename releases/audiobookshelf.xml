@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AudioBookshelf Releases</title>
-  <updated>2024-10-06T06:30:06.990332-04:00</updated>
+  <updated>2024-10-06T07:30:06.355969-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
     </author>
     <content>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Nunicode for unicode case folding and unaccenting #2678 by @mikiher in #3468&lt;/li&gt;
+&lt;li&gt;Nunicode for unicode case folding and unaccenting #2678 by @mikiher &amp;amp; @devnoname120 in #3468&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
