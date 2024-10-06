@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2024-10-05T19:33:07.196403-04:00</updated>
+  <updated>2024-10-05T20:33:06.587252-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,7 +113,11 @@
     <author>
       <name>3rob3/ImmichFrame</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.13.0 --&gt;
+    <content>&lt;p&gt;&lt;img alt="ImmichFrame" src="https://raw.githubusercontent.com/immichFrame/ImmichFrame/refs/heads/main/design/AppIcon.png" /&gt;&lt;/p&gt;
+&lt;h1&gt;ImmichFrame goes web! 🎉🎉&lt;/h1&gt;
+&lt;p&gt;With this Version of ImmichFrame, we are releasing an early version of a Webapp. Not all features are fully supported yet, but the backend of the Web-Version and the Client-Apps work the same.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use the docker package with your existing config for easy access&lt;/strong&gt; &lt;/p&gt;
+&lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.13.0 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;⚠️ Breaking Changes&lt;/h3&gt;
