@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2024-10-07T09:32:37.945299-04:00</updated>
+  <updated>2024-10-07T10:32:34.627783-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,8 +97,7 @@
 &lt;h3&gt;&lt;strong&gt;Fixed &lt;a href="http://setup.sh"&gt;setup.sh&lt;/a&gt; for macOS support&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;setup.sh&lt;/code&gt; now runs smoothly on macOS, so you can install and set up Plane on your Mac without the previous issues.&lt;/p&gt;
 &lt;h3&gt;&lt;strong&gt;Self-hosted custom build&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;You can now create custom containerized versions of your self-hosted instance to suit your specific self-hosting setup.&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;</content>
+&lt;p&gt;You can now create custom containerized versions of your self-hosted instance to suit your specific self-hosting setup.&lt;/p&gt;</content>
     <link href="https://github.com/makeplane/plane/releases/tag/v0.23.0" rel="alternate"/>
   </entry>
 </feed>
