@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2024-10-07T11:33:20.964825-04:00</updated>
+  <updated>2024-10-07T12:33:15.478781-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,8 +175,8 @@ This is mainly for better control over the refresh loop and performance.&lt;/p&g
 &lt;li&gt;Added &lt;code&gt;single&lt;/code&gt; layout that displays all images individually.&lt;/li&gt;
 &lt;li&gt;Added &lt;code&gt;splitview&lt;/code&gt;. Which displays 2 portrait images side by side vertically. Landscape and square images are displayed individually.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="splitview" src="https://github.com/damongolding/immich-kiosk/raw/main/assets/layout-splitview.jpg" /&gt;
-&lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#layouts"&gt;Docs for layouts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="splitview" src="https://github.com/damongolding/immich-kiosk/raw/main/assets/layout-splitview.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#layouts"&gt;Docs for layouts&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Sleep Mode&lt;/h3&gt;
 &lt;ul&gt;
