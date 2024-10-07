@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Watcharr Releases</title>
-  <updated>2024-10-07T07:31:34.679275-04:00</updated>
+  <updated>2024-10-07T08:31:39.839496-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -189,14 +189,16 @@
     <content>&lt;p&gt;&lt;strong&gt;IMPORTANT: This release contains security fixes, please make sure you upgrade!&lt;/strong&gt; Thanks to @yamerooo123 for reporting the issues to me.&lt;/p&gt;
 &lt;h2&gt;New&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;New rating systems by @IRHM in https://github.com/sbondCo/Watcharr/pull/627&lt;/li&gt;
+&lt;li&gt;New rating systems (with better keyboard accessibility) by @IRHM in https://github.com/sbondCo/Watcharr/pull/627
+ &lt;img alt="Current UI for the related settings" src="https://github.com/user-attachments/assets/10f7b423-def7-4b47-b69b-c888a5c5c13d" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/e32b84a5-e4a1-4280-bdb7-edde99be4ee3" /&gt;&lt;/li&gt;
 &lt;li&gt;Import: add todomovies by @AlexPerathoner in https://github.com/sbondCo/Watcharr/pull/618&lt;/li&gt;
 &lt;li&gt;test-pr.yml: Add format_check_go job by @IRHM in https://github.com/sbondCo/Watcharr/pull/634&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix no filtering tag page and other stuffs i found by @IRHM in https://github.com/sbondCo/Watcharr/pull/633&lt;/li&gt;
-&lt;li&gt;Fix tagmenu oob by @IRHM in https://github.com/sbondCo/Watcharr/pull/636&lt;/li&gt;
+&lt;li&gt;Fix tagmenu going out of bounds by @IRHM in https://github.com/sbondCo/Watcharr/pull/636&lt;/li&gt;
 &lt;li&gt;Fix poster focus/accessibility issues and middle clicking by @IRHM in https://github.com/sbondCo/Watcharr/pull/647&lt;/li&gt;
 &lt;li&gt;Fix poster summary overflowing by @IRHM in https://github.com/sbondCo/Watcharr/pull/648&lt;/li&gt;
 &lt;/ul&gt;

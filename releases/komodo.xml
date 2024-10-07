@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-07T07:32:56.015724-04:00</updated>
+  <updated>2024-10-07T08:33:01.178567-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,8 +136,9 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
     <content>&lt;p&gt;To see the changes to the UI, check out the demo: &lt;a href="https://demo.komo.do"&gt;https://demo.komo.do&lt;/a&gt; (you can log in with &lt;code&gt;demo : demo&lt;/code&gt;).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You can now &lt;strong&gt;log in with self hosted SSO provider&lt;/strong&gt; using OIDC. Tested with &lt;em&gt;Authentik&lt;/em&gt; and &lt;em&gt;Gitea&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;KOMODO_OIDC_&lt;/code&gt; env vars to configure: &lt;a href="https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74"&gt;https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Use &lt;code&gt;KOMODO_OIDC_&lt;/code&gt; env vars to configure: &lt;a href="https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74"&gt;https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Utilizes the &lt;a href="https://github.com/ramosbugs/openidconnect-rs"&gt;openidconnect crate&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;UX Improvements:&lt;/p&gt;
@@ -156,8 +157,9 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
 &lt;p&gt;Enable with &lt;code&gt;- PERIPHERY_SSL_ENABLED: true&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Alerter Discord support - @LawMixer&lt;/p&gt;
+&lt;p&gt;Repo-based stacks can now &lt;strong&gt;pull the repo on deploy, and no longer deletes the folder after deploy&lt;/strong&gt; &lt;a href="https://github.com/mbecker20/komodo/issues/68"&gt;issue&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;Alerter Discord support - @LawMixer&lt;/li&gt;
 &lt;li&gt;Implement KOMODO_DISABLE_CONFIRM_DIALOG - disable the popups which become slow without copy / paste - @drixtol&lt;/li&gt;
 &lt;li&gt;Support "_FILE" env variables for use with docker compose secrets - @Cheezzhead&lt;/li&gt;
 &lt;li&gt;Stacks support passing --env-file {custom file} even when no env vars defined in Komodo. Users can have .env file on server and attach it.&lt;/li&gt;
@@ -168,15 +170,16 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
 &lt;li&gt;Did manage to slim down the images on debian base: 250 MB for Core, 350 MB for Periphery.&lt;/li&gt;
 &lt;li&gt;Improve setup compose files (&lt;code&gt;database.compose.yaml&lt;/code&gt; and &lt;code&gt;compose.env&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;For example, &lt;code&gt;sqlite&lt;/code&gt;: &lt;a href="https://komo.do/docs/setup/sqlite"&gt;https://komo.do/docs/setup/sqlite&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Environment / volumes / ports resource file deserializers support more syntaxes for greater copy-paste compatibility&lt;/li&gt;
+&lt;li&gt;Environment / volumes / ports resource file deserializers keep comments and support more syntaxes for greater copy-paste compatibility&lt;/li&gt;
 &lt;li&gt;Supports:
   ```
   # "Env Var"
-  VARIABLE=value 
+  VARIABLE = value 
   # "Key Value"
   VARIABLE: value
   # "Yaml Array"&lt;/li&gt;
-&lt;li&gt;"VARIABLE=value"
+&lt;li&gt;"VARIABLE=value"&lt;/li&gt;
+&lt;li&gt;/path/to/folder:/folder
   ```&lt;/li&gt;
 &lt;li&gt;Resource Sync&lt;ul&gt;
 &lt;li&gt;In UI editor and Files on Host mode&lt;/li&gt;
