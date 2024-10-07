@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-07T05:32:51.048995-04:00</updated>
+  <updated>2024-10-07T06:32:52.725296-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,6 +146,7 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
 &lt;li&gt;improve in UI editors using &lt;a href="https://microsoft.github.io/monaco-editor"&gt;monaco-editor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Along with the nice editor, you can also now &lt;strong&gt;update compose files on server&lt;/strong&gt; from the UI. - @DanCardin&lt;/li&gt;
 &lt;li&gt;Use &lt;code&gt;monaco-editor&lt;/code&gt; diffing to diff all changes to configuration and resource sync pending changes.&lt;/li&gt;
+&lt;li&gt;Environments now keep comments - @FibreTTP&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -192,6 +193,9 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
 &lt;h2&gt;🔒 Upgrading to HTTPS:&lt;/h2&gt;
 &lt;p&gt;For backward compatibility, the default for Periphery is still &lt;code&gt;http&lt;/code&gt;. However the configs are all updated to enable SSL, including the &lt;code&gt;systemd installer&lt;/code&gt;, and compose file examples. After updating to 1.15, be sure to add &lt;code&gt;PERIPHERY_SSL_ENABLED: true&lt;/code&gt; to your compose file &lt;code&gt;periphery&lt;/code&gt; service, or add &lt;code&gt;ssl_enabled = true&lt;/code&gt; to your &lt;code&gt;periphery.config.toml&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Note that you will also need to update your &lt;code&gt;Server&lt;/code&gt; address from &lt;code&gt;http://...&lt;/code&gt; to &lt;code&gt;https://...&lt;/code&gt;. &lt;/p&gt;
+&lt;h2&gt;Stacks + Resource Sync users&lt;/h2&gt;
+&lt;p&gt;If you are using the default &lt;code&gt;run_directory&lt;/code&gt;, the sync will show this change &lt;code&gt;run_directory = "./" =&amp;gt; ____________ (emty line)&lt;/code&gt;.
+This is expected and this change should be synced. The behavior will of the Stack be the same.&lt;/p&gt;
 &lt;p&gt;When you upgrade Komodo, be sure to open your browser console/dev-tools, go to network tab, disable cache, and the reload page with dev-tools open. Otherwise, your browser may keep using a cached version of the old UI version.&lt;/p&gt;
 &lt;p&gt;Thanks to everyone involved in this release, your feedback has been invaluable.&lt;/p&gt;
 &lt;p&gt;Enjoy 🦎&lt;/p&gt;</content>
