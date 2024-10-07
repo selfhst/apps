@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-07T04:32:59.165759-04:00</updated>
+  <updated>2024-10-07T05:32:51.048995-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,7 +133,8 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
     <author>
       <name>mbecker20/komodo</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;To see the changes to the UI, check out the demo: &lt;a href="https://demo.komo.do"&gt;https://demo.komo.do&lt;/a&gt; (you can log in with &lt;code&gt;demo : demo&lt;/code&gt;).&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;You can now &lt;strong&gt;log in with self hosted SSO provider&lt;/strong&gt; using OIDC. Tested with &lt;em&gt;Authentik&lt;/em&gt; and &lt;em&gt;Gitea&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Use &lt;code&gt;KOMODO_OIDC_&lt;/code&gt; env vars to configure: &lt;a href="https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74"&gt;https://github.com/mbecker20/komodo/blob/main/compose/compose.env#L74&lt;/a&gt;&lt;/p&gt;
@@ -182,6 +183,11 @@ See the updated &lt;a href="https://github.com/mbecker20/komodo/blob/main/config
 &lt;li&gt;"Managed" mode&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Public Build Server&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Komodo release builds are now done one a publicly accessible Komodo instance: &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://build.komo.do"&gt;https://build.komo.do&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🔒 Upgrading to HTTPS:&lt;/h2&gt;
 &lt;p&gt;For backward compatibility, the default for Periphery is still &lt;code&gt;http&lt;/code&gt;. However the configs are all updated to enable SSL, including the &lt;code&gt;systemd installer&lt;/code&gt;, and compose file examples. After updating to 1.15, be sure to add &lt;code&gt;PERIPHERY_SSL_ENABLED: true&lt;/code&gt; to your compose file &lt;code&gt;periphery&lt;/code&gt; service, or add &lt;code&gt;ssl_enabled = true&lt;/code&gt; to your &lt;code&gt;periphery.config.toml&lt;/code&gt;.&lt;/p&gt;
