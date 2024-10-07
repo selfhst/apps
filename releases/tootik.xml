@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tootik Releases</title>
-  <updated>2024-10-07T01:33:36.042310-04:00</updated>
+  <updated>2024-10-07T02:33:46.265953-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,19 @@
     <author>
       <name>dimkr/tootik</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Logging of the user name when handling Gemini requests, including invalid ones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Removed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The restriction that prevents users from voting on their own polls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes, Performance and Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dependency and Go updates&lt;/li&gt;
+&lt;li&gt;Various README.md improvements&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dimkr/tootik/releases/tag/0.12.5" rel="alternate"/>
   </entry>
 </feed>
