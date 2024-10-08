@@ -139,6 +139,12 @@
         ]
     },
     {
+        "Tag": "Clipboard",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Cloud Storage",
         "Valid Types": [
             "Software"
@@ -195,6 +201,12 @@
     },
     {
         "Tag": "Database",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Deployment",
         "Valid Types": [
             "Software"
         ]
@@ -614,13 +626,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
