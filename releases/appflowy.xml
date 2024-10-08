@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-10-08T06:32:04.644849-04:00</updated>
+  <updated>2024-10-08T07:31:56.445313-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,6 +134,13 @@
 &lt;li&gt;Add filters to grid views on mobile&lt;/li&gt;
 &lt;li&gt;Create and manage workspaces on mobile&lt;/li&gt;
 &lt;li&gt;Automatically convert property types for imported CSV files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed calculations with filters applied&lt;/li&gt;
+&lt;li&gt;Fixed issues with importing data folders into a cloud account&lt;/li&gt;
+&lt;li&gt;Fixed French IME backtick issues&lt;/li&gt;
+&lt;li&gt;Fixed selection gesture bugs on mobile&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.7.1" rel="alternate"/>
   </entry>
