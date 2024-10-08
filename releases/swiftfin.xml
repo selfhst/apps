@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swiftfin Releases</title>
-  <updated>2024-10-08T13:33:26.438942-04:00</updated>
+  <updated>2024-10-08T14:33:23.849466-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -303,5 +303,71 @@ The tag is 1.1.1 because the existing 1.1 tag is from an earlier potential relea
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jellyfin/Swiftfin/compare/v76...v1.1.1&lt;/p&gt;</content>
     <link href="https://github.com/jellyfin/Swiftfin/releases/tag/1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jellyfin/Swiftfin/releases/tag/1.2</id>
+    <title>New release for Swiftfin: 1.2</title>
+    <updated>2024-10-08T14:27:28-04:00</updated>
+    <author>
+      <name>jellyfin/Swiftfin</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 1.2 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;New Features 🎉&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;User/Server Sign In Redesign by @LePips in https://github.com/jellyfin/Swiftfin/pull/1045&lt;/li&gt;
+&lt;li&gt;tvOS Library Paging by @LePips in https://github.com/jellyfin/Swiftfin/pull/1057&lt;/li&gt;
+&lt;li&gt;Some More Cleanup, Reset User Settings by @LePips in https://github.com/jellyfin/Swiftfin/pull/1060&lt;/li&gt;
+&lt;li&gt;User Profile Image Selection by @LePips in https://github.com/jellyfin/Swiftfin/pull/1061&lt;/li&gt;
+&lt;li&gt;Create Library Alpha Picker by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/980&lt;/li&gt;
+&lt;li&gt;tvOS 17 as minimum by @LePips in https://github.com/jellyfin/Swiftfin/pull/1076&lt;/li&gt;
+&lt;li&gt;Refactor sign in policy by @chickdan in https://github.com/jellyfin/Swiftfin/pull/1085&lt;/li&gt;
+&lt;li&gt;Cleanup video player settings by @chickdan in https://github.com/jellyfin/Swiftfin/pull/1084&lt;/li&gt;
+&lt;li&gt;Initial fastlane Setup by @LePips in https://github.com/jellyfin/Swiftfin/pull/1089&lt;/li&gt;
+&lt;li&gt;Add ability to hide "Recently Added" section at home screen by @darrekk in https://github.com/jellyfin/Swiftfin/pull/1087&lt;/li&gt;
+&lt;li&gt;Update watched indicator color by @Isaiah-Hamilton in https://github.com/jellyfin/Swiftfin/pull/1107&lt;/li&gt;
+&lt;li&gt;Migrate to the latest version of Factory by @chickdan in https://github.com/jellyfin/Swiftfin/pull/1097&lt;/li&gt;
+&lt;li&gt;App-Wide Bitrate Limit by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1147&lt;/li&gt;
+&lt;li&gt;Media Item HD Attribute Source by @chickdan in https://github.com/jellyfin/Swiftfin/pull/1165&lt;/li&gt;
+&lt;li&gt;Fastlane TestFlight by @LePips in https://github.com/jellyfin/Swiftfin/pull/1179&lt;/li&gt;
+&lt;li&gt;[tvOS] Fix Episode Description Size &amp;amp; Provide Episode Thumbnail Clarity by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1184&lt;/li&gt;
+&lt;li&gt;Default Playback Rate to &lt;code&gt;max&lt;/code&gt; by @LePips in https://github.com/jellyfin/Swiftfin/pull/1192&lt;/li&gt;
+&lt;li&gt;Listen for AirPods connection changes by @chickdan in https://github.com/jellyfin/Swiftfin/pull/1186&lt;/li&gt;
+&lt;li&gt;Update lastSignedInUserID defaults to use new UserSignInState enum  by @stevebyatt10 in https://github.com/jellyfin/Swiftfin/pull/1209&lt;/li&gt;
+&lt;li&gt;Customizable Device Profiles by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1169&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes 🛠&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix Recently Added View logo size by @mpross512 in https://github.com/jellyfin/Swiftfin/pull/1055&lt;/li&gt;
+&lt;li&gt;iOS Hour/Minute Picker Initial Duration by @LePips in https://github.com/jellyfin/Swiftfin/pull/1056&lt;/li&gt;
+&lt;li&gt;[tvOS] TV Shows Icon Doesn't Highlight by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1074&lt;/li&gt;
+&lt;li&gt;Fix Collection Portrait Image by @LePips in https://github.com/jellyfin/Swiftfin/pull/1133&lt;/li&gt;
+&lt;li&gt;Fix Grouped Libraries by @LePips in https://github.com/jellyfin/Swiftfin/pull/1137&lt;/li&gt;
+&lt;li&gt;Fix Next Up Not Appearing on Home by @LePips in https://github.com/jellyfin/Swiftfin/pull/1142&lt;/li&gt;
+&lt;li&gt;[tvOS] Fix Indicators Setting Unreachable by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1161&lt;/li&gt;
+&lt;li&gt;[tvOS] Settings Cleanup by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1163&lt;/li&gt;
+&lt;li&gt;Fix iOS 15 Poster Buttons by @LePips in https://github.com/jellyfin/Swiftfin/pull/1172&lt;/li&gt;
+&lt;li&gt;Fix UserSession Resolution by @LePips in https://github.com/jellyfin/Swiftfin/pull/1175&lt;/li&gt;
+&lt;li&gt;Fix Video Player Tracks by @LePips in https://github.com/jellyfin/Swiftfin/pull/1176&lt;/li&gt;
+&lt;li&gt;Fix iOS 15 Rotation by @LePips in https://github.com/jellyfin/Swiftfin/pull/1174&lt;/li&gt;
+&lt;li&gt;Fix Image Crash by @LePips in https://github.com/jellyfin/Swiftfin/pull/1191&lt;/li&gt;
+&lt;li&gt;[tvOS] Episode/Season Focus gets Stuck by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1185&lt;/li&gt;
+&lt;li&gt;Empty User Profile Image Crash by @LePips in https://github.com/jellyfin/Swiftfin/pull/1195&lt;/li&gt;
+&lt;li&gt;[iOS] LetterPickerButtons are Hard to Tap by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1223&lt;/li&gt;
+&lt;li&gt;Fix Opus Playback Issues on Native Player by @JPKribs in https://github.com/jellyfin/Swiftfin/pull/1226&lt;/li&gt;
+&lt;li&gt;tvOS - Show and interact with the video menu by @MatsMoll in https://github.com/jellyfin/Swiftfin/pull/1066&lt;/li&gt;
+&lt;li&gt;Fix the subtitle stream index calculation for multiple subtitles by @cebrusfs in https://github.com/jellyfin/Swiftfin/pull/1219&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@mpross512 made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1055&lt;/li&gt;
+&lt;li&gt;@darrekk made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1087&lt;/li&gt;
+&lt;li&gt;@Isaiah-Hamilton made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1107&lt;/li&gt;
+&lt;li&gt;@MatsMoll made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1066&lt;/li&gt;
+&lt;li&gt;@cebrusfs made their first contribution in https://github.com/jellyfin/Swiftfin/pull/1219&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jellyfin/Swiftfin/compare/1.1.1...1.2&lt;/p&gt;</content>
+    <link href="https://github.com/jellyfin/Swiftfin/releases/tag/1.2" rel="alternate"/>
   </entry>
 </feed>
