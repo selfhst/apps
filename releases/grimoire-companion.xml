@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Grimoire Companion Releases</title>
-  <updated>2024-10-08T14:33:16.258809-04:00</updated>
+  <updated>2024-10-08T15:33:16.215614-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,5 +48,23 @@
 &lt;li&gt;chore: add link to Chrome Web Store by @goniszewski in 44c1325&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/goniszewski/grimoire-web-extension/releases/tag/v0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/goniszewski/grimoire-web-extension/releases/tag/v0.1.3</id>
+    <title>New release for Grimoire Companion: v0.1.3</title>
+    <updated>2024-10-08T15:31:23-04:00</updated>
+    <author>
+      <name>goniszewski/grimoire-web-extension</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: resolve issue with Grimoire API not reachable on Firefox by @goniszewski in https://github.com/goniszewski/grimoire-web-extension/pull/10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@goniszewski made their first contribution in https://github.com/goniszewski/grimoire-web-extension/pull/10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/goniszewski/grimoire-web-extension/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
+    <link href="https://github.com/goniszewski/grimoire-web-extension/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>
