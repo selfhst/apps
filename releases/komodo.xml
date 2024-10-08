@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-08T11:33:03.153815-04:00</updated>
+  <updated>2024-10-08T12:33:02.650931-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,6 +116,7 @@
 &lt;li&gt;"Managed" mode&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Core-based repo hash service more efficient in getting the latest commit hashes to compare against the built / deployed hash.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Public Build Server&lt;/h2&gt;
 &lt;ul&gt;
