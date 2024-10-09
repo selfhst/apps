@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InvenTree Releases</title>
-  <updated>2024-10-09T02:33:47.745170-04:00</updated>
+  <updated>2024-10-09T03:33:52.319697-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,6 +120,7 @@
 &lt;li&gt;https://github.com/inventree/InvenTree/security/advisories/GHSA-vx3h-qwqw-r2wq&lt;/li&gt;
 &lt;li&gt;https://github.com/inventree/InvenTree/security/advisories/GHSA-wp3m-jhgv-rhqr&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Thanks to @febin0x10 for reporting these vulnerabilities. More information is available on their blog: https://www.getastra.com/blog/vulnerability/stored-xss-inventree/&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Security Patches&lt;/h3&gt;
 &lt;ul&gt;
