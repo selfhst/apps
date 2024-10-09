@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2024-10-09T00:32:04.089879-04:00</updated>
+  <updated>2024-10-09T01:32:04.296362-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,5 +120,50 @@
 &lt;li&gt;Fix: メールにスタイルが適用されていなかった問題を修正&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2024.9.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2024.10.0</id>
+    <title>New release for Misskey: 2024.10.0</title>
+    <updated>2024-10-09T01:17:28-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;セキュリティ向上のため、サーバー初期設定時に使用する初期パスワードを設定できるようになりました。今後Misskeyサーバーを新たに設置する際には、初回の起動前にコンフィグファイルの&lt;code&gt;setupPassword&lt;/code&gt;をコメントアウトし、初期パスワードを設定することをおすすめします。（すでに初期設定を完了しているサーバーについては、この変更に伴い対応する必要はありません）  &lt;/li&gt;
+&lt;li&gt;ホスティングサービスを運営している場合は、コンフィグファイルを構築する際に&lt;code&gt;setupPassword&lt;/code&gt;をランダムな値に設定し、ユーザーに通知するようにシステムを更新することをおすすめします。&lt;/li&gt;
+&lt;li&gt;なお、初期パスワードが設定されていない場合でも初期設定を行うことが可能です（UI上で初期パスワードの入力欄を空欄にすると続行できます）。&lt;/li&gt;
+&lt;li&gt;ユーザーデータを読み込む際の型が一部変更されました。&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;twoFactorEnabled&lt;/code&gt;, &lt;code&gt;usePasswordLessLogin&lt;/code&gt;, &lt;code&gt;securityKeys&lt;/code&gt;: 自分とモデレーター以外のユーザーからは取得できなくなりました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: サーバー初期設定時に初期パスワードを設定できるように&lt;/li&gt;
+&lt;li&gt;Feat: 通報にモデレーションノートを残せるように&lt;/li&gt;
+&lt;li&gt;Feat: 通報の解決種別を設定できるように&lt;/li&gt;
+&lt;li&gt;Enhance: 通報の解決と転送を個別に行えるように&lt;/li&gt;
+&lt;li&gt;Enhance: セキュリティ向上のため、サインイン時もCAPTCHAを求めるようになりました&lt;/li&gt;
+&lt;li&gt;Enhance: 依存関係の更新&lt;/li&gt;
+&lt;li&gt;Enhance: l10nの更新&lt;/li&gt;
+&lt;li&gt;Enhance: Playの「人気」タブで10件以上表示可能に #14399&lt;/li&gt;
+&lt;li&gt;Fix: 連合のホワイトリストが正常に登録されない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: デザインの調整&lt;/li&gt;
+&lt;li&gt;Enhance: ログイン画面の認証フローを改善&lt;/li&gt;
+&lt;li&gt;Fix: クライアント上での時間ベースの実績獲得動作が実績獲得後も発動していた問題を修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/657)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: セキュリティ向上のため、ログイン時にメール通知を行うように&lt;/li&gt;
+&lt;li&gt;Enhance: 自分とモデレーター以外のユーザーから二要素認証関連のデータが取得できないように&lt;/li&gt;
+&lt;li&gt;Enhance: 通報および通報解決時に送出されるSystemWebhookにユーザ情報を含めるように ( #14697 )&lt;/li&gt;
+&lt;li&gt;Fix: &lt;code&gt;admin/abuse-user-reports&lt;/code&gt;エンドポイントのスキーマが間違っていた問題を修正&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2024.10.0" rel="alternate"/>
   </entry>
 </feed>
