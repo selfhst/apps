@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-10-09T03:30:45.995602-04:00</updated>
+  <updated>2024-10-09T04:30:47.932440-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -371,8 +371,7 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
   Group notifications of the same type for the same target, so that your notifications no longer get cluttered by boost and favorite notifications as soon as a couple of your posts get traction.\
   This is done server-side so that clients can efficiently get relevant groups without having to go through numerous pages of individual notifications.\
   As part of this, the visual design of the entire notifications feature has been revamped.\
-  This feature is intended to eventually replace the existing notifications column, but for this first beta, users will have to enable it in the “Experimental features” section of the notifications column settings.\
-  The API is not final yet, but it consists of:&lt;/li&gt;
+  The API consists of:&lt;/li&gt;
 &lt;li&gt;a new &lt;code&gt;group_key&lt;/code&gt; attribute to &lt;code&gt;Notification&lt;/code&gt; entities&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;GET /api/v2/notifications&lt;/code&gt;: https://docs.joinmastodon.org/methods/grouped_notifications/#get-grouped&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;GET /api/v2/notifications/:group_key&lt;/code&gt;: https://docs.joinmastodon.org/methods/grouped_notifications/#get-notification-group&lt;/li&gt;
@@ -417,7 +416,8 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
   Also changes the default server theme to this new “system” theme so that automatic theme selection happens even when logged out.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Add timeline of public posts about a trending link&lt;/strong&gt; (#30381 and #30840 by @Gargron)\
   You can now see public posts mentioning currently-trending articles from people who have opted into discovery features.\
-  This adds a new REST API endpoint: https://docs.joinmastodon.org/methods/timelines/#link&lt;/li&gt;
+  This adds a new REST API endpoint:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GET /api/v1/timelines/link?url=:url&lt;/code&gt;: https://docs.joinmastodon.org/methods/timelines/#link&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Add author highlight for news articles whose authors are on the fediverse&lt;/strong&gt; (#30398, #30670, #30521, #30846, #31819, #31900 and #32188 by @Gargron, @mjankowski and @oneiros)\
   This adds a mechanism to &lt;a href="https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/"&gt;highlight the author of news articles&lt;/a&gt; shared on Mastodon.\
   Articles hosted outside the fediverse can indicate a fediverse author with a meta tag:
