@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-10-10T16:31:10.627716-04:00</updated>
+  <updated>2024-10-10T17:31:05.244035-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -257,23 +257,24 @@
       <name>RocketChat/Rocket.Chat</name>
     </author>
     <content>&lt;blockquote&gt;
-&lt;p&gt;Known Issues&lt;/p&gt;
+&lt;p&gt;[!WARNING]
+&lt;strong&gt;Known Issues&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Affects workspaces using the Retention Policy feature: Workspaces upgrading from versions older than 6.10 may encounter an issue with the Retention Policy feature. A race condition could reset the retention period to 30 days, potentially resulting in the immediate removal of data older than 30 days. To prevent this, we recommend disabling the Retention Policy before upgrading and re-enabling it afterward.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;h3&gt;What’s new&lt;/h3&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;h2&gt;What’s new&lt;/h2&gt;
 &lt;p&gt;This update brings several useful features to improve collaboration and admin control. Mentions are now supported in end-to-end encrypted rooms, allowing secure communication without compromising functionality. Admins can also enjoy more flexibility when managing live chat departments by associating them with specific units during setup and updates. Additionally, a secondary navigation panel is available in the preview, providing quick access to team channels and discussions, with a full release planned as a premium feature. A new setting enables admins to disable two-factor authentication for OAuth users, simplifying login for verified users. Apps can now send emails via the built-in SMTP server. Finally, a new API for listing team rooms and discussions helps streamline room management.&lt;/p&gt;
-&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;p&gt;Key bug fixes include resolving issues with unread room marking, optimizing the message parser, and improving email validation for incomplete addresses. Conference call status errors have been corrected, ensuring accurate call information.&lt;/p&gt;
 &lt;p&gt;For more details, check out our &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;website release page&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;&lt;/h2&gt;
-&lt;h3&gt;Engine versions&lt;/h3&gt;
+&lt;h1&gt;Details&lt;/h1&gt;
+&lt;h2&gt;Engine versions&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;14.21.3&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;4.4, 5.0, 6.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Apps-Engine: &lt;code&gt;1.46.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Minor Changes&lt;/h3&gt;
+&lt;h2&gt;Minor changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33156"&gt;#33156&lt;/a&gt;) added &lt;code&gt;sidepanelNavigation&lt;/code&gt; to feature preview list&lt;/p&gt;
@@ -319,7 +320,7 @@
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33225"&gt;#33225&lt;/a&gt;) Implemented new feature preview for Sidepanel&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Patch Changes&lt;/h3&gt;
+&lt;h2&gt;Patch changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33339"&gt;#33339&lt;/a&gt;) Fixes a problem that caused visitor creation to fail when GDPR setting was enabled and visitor was created via Apps Engine or the deprecated &lt;code&gt;livechat:registerGuest&lt;/code&gt; method.&lt;/p&gt;
