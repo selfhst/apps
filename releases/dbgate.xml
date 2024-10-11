@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2024-10-11T04:33:46.052607-04:00</updated>
+  <updated>2024-10-11T05:33:44.641641-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,16 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;ADDED: AWS IAM authentication for MySQL, MariaDB, PostgreSQL (Premium)&lt;/li&gt;
+&lt;li&gt;FIXED: Datitme filtering #912&lt;/li&gt;
+&lt;li&gt;FIXED: Load redis keys&lt;/li&gt;
+&lt;li&gt;ADDED: Query parameters #913&lt;/li&gt;
+&lt;li&gt;FIXED: Data grid with hidden columns #911&lt;/li&gt;
+&lt;li&gt;ADDED: Added buttons for one-click authentification methods (Anonymous, OAuth) (Team Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Link for switching Admin/user login (Team Premium)&lt;/li&gt;
+&lt;li&gt;FIXED: Save connection params in administration for MS SQL and Postgres storages (Team Premium)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v5.5.5" rel="alternate"/>
   </entry>
 </feed>
