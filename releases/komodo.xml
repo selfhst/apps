@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-11T10:32:53.303689-04:00</updated>
+  <updated>2024-10-11T11:32:49.984723-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -159,6 +159,7 @@ If the audience can be trusted, you can add the &lt;AUDIENCE&gt; to &lt;code&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;DeployStack&lt;/code&gt;: Only compose down if "Destroy Before Deploy" is enabled.&lt;/li&gt;
 &lt;li&gt;Add timestamps toggle to the logs - @LawMixer&lt;/li&gt;
+&lt;li&gt;Ensure container logs don't auto update when "Poll" isn't checked.&lt;/li&gt;
 &lt;li&gt;Add build $VERSION to variables, interpolate it with [[$VERSION]], and also pass VERSION as a --build-arg (if its not already set)&lt;/li&gt;
 &lt;li&gt;For fresh installs using &lt;code&gt;first_server&lt;/code&gt;: a default Builder will also be created pointing to the Server&lt;/li&gt;
 &lt;li&gt;All the commands (Stack &lt;code&gt;pre_deploy&lt;/code&gt;, Build &lt;code&gt;pre_build&lt;/code&gt;, Repo &lt;code&gt;on_pull&lt;/code&gt;) &lt;strong&gt;support multiline shell and comments&lt;/strong&gt;&lt;/li&gt;
