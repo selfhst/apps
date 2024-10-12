@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-11T23:32:44.668787-04:00</updated>
+  <updated>2024-10-12T00:33:05.245649-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,7 @@ If the audience can be trusted, you can add the &lt;AUDIENCE&gt; to &lt;code&gt;
 &lt;li&gt;&lt;strong&gt;Admin only&lt;/strong&gt;: Delete Users&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Upgrading&lt;/h2&gt;
-&lt;p&gt;there is no change to Periphery from 1.15.3, upgrading Periphery is optional.&lt;/p&gt;
+&lt;p&gt;there is no change to Periphery from 1.15.4, upgrading Periphery is optional.&lt;/p&gt;
 &lt;p&gt;Enjoy 🦎&lt;/p&gt;</content>
     <link href="https://github.com/mbecker20/komodo/releases/tag/v1.15.5" rel="alternate"/>
   </entry>
