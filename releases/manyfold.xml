@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manyfold Releases</title>
-  <updated>2024-10-13T09:31:59.174164-04:00</updated>
+  <updated>2024-10-13T10:32:02.663344-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -188,9 +188,9 @@
     <author>
       <name>manyfold3d/manyfold</name>
     </author>
-    <content>&lt;p&gt;Exciting timesl This release has not one, but TWO major features!&lt;/p&gt;
+    <content>&lt;p&gt;Exciting times! This release has not one, but TWO major features!&lt;/p&gt;
 &lt;p&gt;First, Manyfold will now index PDF, TXT, Markdown and video files. All those models that come with build instructions, licenses, and so on? Now you can see it all!&lt;/p&gt;
-&lt;p&gt;The second is another big step on something we've been building towards for a long time; Manyfold is now social! Users of &lt;a href="https://www.fediverse.to/"&gt;Fediverse&lt;/a&gt; social networks, using systems like Mastodon, can follow Manyfold creators, collections or individual models. As of this release, if you've followed a creator, when they add a new model, you'll see an update in your feed! &lt;/p&gt;
+&lt;p&gt;The second is another big step on something we've been building towards for a long time; Manyfold is now social! Users of &lt;a href="https://www.fediverse.to/"&gt;Fediverse&lt;/a&gt; social networks, using systems like Mastodon, can follow Manyfold creators, collections or individual models. As of this release, if you've followed a creator, when they add a new model, you'll see an update in your feed!&lt;/p&gt;
 &lt;p&gt;Future releases will add more update types, and will allow you to subscribe directly to content on one Manyfold server from another, so stay tuned for more!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Hello Fediverse, this is Manyfold" src="https://github.com/user-attachments/assets/be789621-ddc2-4b85-a979-f1147ea598d4" /&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
