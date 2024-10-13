@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-10-13T10:31:08.770657-04:00</updated>
+  <updated>2024-10-13T11:31:09.154148-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,7 +124,14 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A new integration (Generic JSON) which allows you to import everything. You can use this to build integrations with other services that Ryot does not support natively.&lt;/li&gt;
+&lt;li&gt;Smaller docker image (-10%) and memory footprints (-20Mb RAM on idle).&lt;/li&gt;
+&lt;li&gt;You can now configure watch providers for each media type separately.&lt;/li&gt;
+&lt;li&gt;Revamped the people details page. You can now filter works by roles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/619a81551b84c5546e2a4769e6a45b7431a879a1"&gt;619a8155&lt;/a&gt; - fix(backend): respect cache when making progress updates from integrations&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/d7a4922d7c1cefc009b7263337e95444a44a3a7b"&gt;d7a4922d&lt;/a&gt; - fix(frontend): get export button working&lt;/li&gt;
