@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hoarder Releases</title>
-  <updated>2024-10-13T11:31:56.333132-04:00</updated>
+  <updated>2024-10-13T12:31:54.223049-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -387,7 +387,7 @@ index cdfc908..6297563 100644
     <author>
       <name>MohamedBassem/hoarder-app</name>
     </author>
-    <content>&lt;p&gt;Welcome to the &lt;code&gt;0.18.0&lt;/code&gt; release of Hoarder! This release introduces customizable tagging rules (aka customizing the prompt), new UI look, selective full page archives, infinite scrolling, more bulk actions and more! As usual, we'd like to welcome our first time contributors @jarednipper, @Trugamr, @cedmax and @CrypticC3s4r! We also have @Lucius346346 working behind the scene on improving the UX of Hoarder with amazing designs! And finally, we have our usual contributors @kamtschatka and @mdsaban!&lt;/p&gt;
+    <content>&lt;p&gt;Welcome to the &lt;code&gt;0.18.0&lt;/code&gt; release of Hoarder! This release introduces customizable tagging rules (aka customizing the prompt), new UI look, selective full page archives, infinite scrolling, more bulk actions and more! As usual, we'd like to welcome our first time contributors @jarednipper, @Trugamr, @cedmax and @CrypticC3s4r! We also have @Lucius346346 working behind the scene on improving the UX of Hoarder with amazing designs! And finally, we have our usual contributors @kamtschatka and @mdsaban! Also thanks to @Papierkorb for the help in suggestions to improve the LLM prompt!&lt;/p&gt;
 &lt;p&gt;We also now have a public roadmap which you can check for the features that we're planning to deliver &lt;a href="https://github.com/orgs/hoarder-app/projects/1"&gt;here&lt;/a&gt;. Go upvote the features that you're waiting for!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;If you're enjoying Hoarder, you can consider supporting it &lt;a href="https://buymeacoffee.com/mbassem"&gt;here ☕️&lt;/a&gt;.&lt;/p&gt;
