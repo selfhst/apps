@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Czkawka Releases</title>
-  <updated>2024-10-13T13:30:14.570789-04:00</updated>
+  <updated>2024-10-13T14:30:14.810448-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -247,14 +247,12 @@
 &lt;li&gt;cli - command line version of app&lt;/li&gt;
 &lt;li&gt;krokiet - slint version of app&lt;/li&gt;
 &lt;li&gt;console - windows version, that shows console in background - usable to find problems&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;gtk_46, gtk_410 - gtk version used to build&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Snap builds are not available, due error during build &lt;code&gt;Environment validation failed for part 'czkawka': 'cargo' failed with error code 1.&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;mac heif builds are also not available, due linker problem - https://github.com/qarmin/czkawka/actions/runs/11186720416/job/31102310566&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;gtk_46, gtk_410 - gtk version used to build&lt;/li&gt;
+&lt;li&gt;minimial appimage - this version does not contain gtk-related libraries and they are taken from the system, so it has requirements almost identical to the regular version. Use only if you have problems with the regular version or know what you are doing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other:
+- Snap builds are not available, due error during build &lt;code&gt;Environment validation failed for part 'czkawka': 'cargo' failed with error code 1.&lt;/code&gt;
+-  Mac heif builds are also not available, due linker problem - https://github.com/qarmin/czkawka/actions/runs/11186720416/job/31102310566&lt;/p&gt;</content>
     <link href="https://github.com/qarmin/czkawka/releases/tag/8.0.0" rel="alternate"/>
   </entry>
 </feed>
