@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Parseable Releases</title>
-  <updated>2024-10-14T11:32:17.486724-04:00</updated>
+  <updated>2024-10-14T12:32:13.040947-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,7 +106,7 @@
   <entry>
     <id>https://github.com/parseablehq/parseable/releases/tag/v1.5.5</id>
     <title>New release for Parseable: Feature release v1.5.5</title>
-    <updated>2024-10-14T06:12:58-04:00</updated>
+    <updated>2024-10-14T11:33:23-04:00</updated>
     <author>
       <name>parseablehq/parseable</name>
     </author>
@@ -119,6 +119,7 @@
 &lt;li&gt;fix: add hottier APIs for standalone by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/958&lt;/li&gt;
 &lt;li&gt;Support SSE-C for S3 object storage by @MihirLuthra in https://github.com/parseablehq/parseable/pull/941&lt;/li&gt;
 &lt;li&gt;prepare for release v1.5.5 by @nitisht in https://github.com/parseablehq/parseable/pull/960&lt;/li&gt;
+&lt;li&gt;enhancement: azure blob store support with client credentials by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/961&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
