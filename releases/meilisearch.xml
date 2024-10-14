@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2024-10-14T04:33:04.306861-04:00</updated>
+  <updated>2024-10-14T05:33:13.086879-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -374,7 +374,7 @@ Meilisearch still cannot autobatch the document deletion by filter and the docum
   </entry>
   <entry>
     <id>https://github.com/meilisearch/meilisearch/releases/tag/v1.10.3</id>
-    <title>New release for Meilisearch: v1.10.3</title>
+    <title>New release for Meilisearch: v1.10.3 🦩</title>
     <updated>2024-10-10T10:59:29-04:00</updated>
     <author>
       <name>meilisearch/meilisearch</name>
