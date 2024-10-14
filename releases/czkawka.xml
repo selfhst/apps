@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Czkawka Releases</title>
-  <updated>2024-10-14T01:30:17.256094-04:00</updated>
+  <updated>2024-10-14T02:30:14.749257-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -249,6 +249,7 @@
 &lt;li&gt;console - windows version, that shows console in background - usable to find problems&lt;/li&gt;
 &lt;li&gt;gtk_46, gtk_410 - gtk version used to build&lt;/li&gt;
 &lt;li&gt;minimial appimage - this version does not contain gtk-related libraries and they are taken from the system, so it has requirements almost identical to the regular version. Use only if you have problems with the regular version or know what you are doing&lt;/li&gt;
+&lt;li&gt;winversion, linversion - the application has been compiled on Windows or cross-compiled on Linux. Both versions should work exactly the same, but the Windows version requires the &lt;a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version"&gt;Microsoft Visual C++ Redistributable&lt;/a&gt; package to be installed (it should be already installed on most Windows OS)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Other:
 - Snap builds are not available, due error during build &lt;code&gt;Environment validation failed for part 'czkawka': 'cargo' failed with error code 1.&lt;/code&gt;
