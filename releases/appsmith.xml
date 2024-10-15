@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appsmith Releases</title>
-  <updated>2024-10-15T01:31:59.381562-04:00</updated>
+  <updated>2024-10-15T02:31:57.668046-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,12 +140,13 @@
   </entry>
   <entry>
     <id>https://github.com/appsmithorg/appsmith/releases/tag/v1.44</id>
-    <title>New release for Appsmith: Release v1.44 🌈</title>
+    <title>New release for Appsmith: Release v1.44 🌈 - ERRONEOUS RELEASE</title>
     <updated>2024-10-10T00:31:42-04:00</updated>
     <author>
       <name>appsmithorg/appsmith</name>
     </author>
-    <content>&lt;h3&gt;Fixes&lt;/h3&gt;
+    <content>&lt;p&gt;&lt;strong&gt;This release has been marked as defunct due to critical issues. Please avoid using this version. Please use v1.44.1 instead.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Widget Icon in Connect To Options&lt;/strong&gt;: Resolved issue with widget icon display in the "Connect To" options within the one-click binding menu. (#36703)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Caddy Cache Control Headers&lt;/strong&gt;: Removed cache control headers for error-handled requests in Caddy. (#36590)&lt;/li&gt;
