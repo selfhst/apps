@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-10-15T15:31:33.054271-04:00</updated>
+  <updated>2024-10-15T16:31:35.319373-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,7 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]  &lt;/p&gt;
 &lt;h3&gt;Warning (For linux/armv7 users)&lt;/h3&gt;
-&lt;p&gt;unfortunately we had to drop support for armv7 as nextjs 14 does not bundle @next/swc support for armv7. We apologise for this, however, until they add support for it, there is nothing we can really do as we needed to upgrade to 14. On devices which does support aarch64 we recommend running aarch64 (pi3/pi3B/pi4+, etc).&lt;/p&gt;
+&lt;p&gt;Unfortunately we had to drop support for armv7 as nextjs 14 does not bundle @next/swc support for armv7. We apologise for this, however, until they add support for it, there is nothing we can really do as we needed to upgrade to 14. On devices which does support aarch64 we recommend running aarch64 (pi3/pi3B/pi4+, etc).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
@@ -179,150 +179,22 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;This commit deprecates the JELLYFIN_TYPE variable to identify Emby media server and
+&lt;p&gt;Deprecated the JELLYFIN_TYPE variable to identify Emby media server and
 instead rely on the mediaServerType that is set in the &lt;code&gt;settings.json&lt;/code&gt;. Existing environment
 variable users can log out and log back in to set the mediaServerType to &lt;code&gt;3&lt;/code&gt; (Emby).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;feat(api): add severType to the api&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This adds a serverType to the &lt;code&gt;/auth/jellyfin&lt;/code&gt; which requires a serverType to be
+&lt;p&gt;Added a serverType to the &lt;code&gt;/auth/jellyfin&lt;/code&gt; which requires a serverType to be
 set (&lt;code&gt;jellyfin&lt;/code&gt;/&lt;code&gt;emby&lt;/code&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;refactor: use enums for serverType and rename selectedservice to serverType&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;refactor(auth): jellyfin/emby authentication to set MediaServerType&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: issue page formatMessage for 4k media&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: cleaner way of handling serverType change using MediaServerType instead of strings&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;instead of using strings now it will use MediaServerType enums for serverType&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;revert: removed conditional render of the auto-request permission&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;reverts the conditional render toshow the auto-request permission if the mediaServerType was set to
-Plex as this should be handled in a different PR and Cypress tests should be modified
-accordingly(currently cypress test would fail if this conditional check is there)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;feat: add server type step to setup&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;feat: migrate existing emby setups to use emby mediaServerType&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: scan jobs not running when media server type is emby&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: emby media server type migration&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: change emby logo to full logo&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;style: decrease emby logo size in setup screen&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: use title case for servertype i18n message&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor(i18n): fix a typo&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: use enums instead of numbers&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: remove old references to JELLYFIN_TYPE environment variable&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: go back to the last step when refresh the setup page&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: move "scanning in background" tip next to the scanning section&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: redirect the setup page when Jellyseerr is already setup&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;jellyfin:&lt;/strong&gt; Jellyfin settings now does not include a hostname. Instead it abstracted it to ip,
 port, useSsl, and urlBase. However, migration of old settings to new settings should work
 automatically.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: remove console logs and use getHostname and ApiErrorCodes&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix: store req.body jellyfin settings temporarily and store only if valid&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This should fix the issue where settings are saved even if the url
-was invalid. Now the settings will only be saved if the url is
-valid. Sort of like a test connection.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: clean up commented out code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor(i18n): extract translation keys&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix(auth): auth failing with jellyfin login is disabled&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix(settings): jellyfin migrations replacing the rest of the settings&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix(settings): jellyfin hostname should be carried out if hostname exists&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix(settings): merging the wrong settings source&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor(settings): use migrator for dynamic settings migrations&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor(settingsmigrator): settings migration handler and the migrations&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;test(cypress): fix cypress tests failing&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;cypress settings were lacking some of the jobs so when the startJobs() is called when the app
-starts, it was failing to schedule the jobs where their cron timings were not specified in the
-cypress settings. Therefore, this commit adds those jobs back. In addition, other setting options
-were added to keep cypress settings consistent with a normal user.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;chore(prettierignore): ignore cypress/config/settings.cypress.json as it does not need prettier&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;chore(prettier): ran formatter on cypress config to fix format check error&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;format check locally passes on this file. However, it fails during the github actions format check.
-Therefore, json language features formatter was run instead of prettier to see if that fixes the
-issue.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;test(cypress): add only missing jobs to the cypress settings&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ci: attempt at trying to get formatter to pass on cypress config json file&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;refactor: revert the changes brought to try and fix formatter&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;added back the rest of the cypress settings and removed cypress settings from .prettierignore&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;refactor(settings): better erorr logging when jellyfin connection test fails in settings page&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;This release is also available on:
