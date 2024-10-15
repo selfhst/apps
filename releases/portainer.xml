@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2024-10-15T17:31:04.407996-04:00</updated>
+  <updated>2024-10-15T18:31:01.973611-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,9 +183,7 @@
 &lt;li&gt;Moved the webhook deploying logic to the background to avoid timeouts&lt;/li&gt;
 &lt;li&gt;Optimized the space used by Git repositories&lt;/li&gt;
 &lt;li&gt;Improved the Edge-related API error response by including environment ID and name&lt;/li&gt;
-&lt;li&gt;Fixed the removal of old files when doing an Edge Config update&lt;/li&gt;
 &lt;li&gt;Added the display of the missing Edge stack deployment errors on the Edge stack environment status page&lt;/li&gt;
-&lt;li&gt;Fixed the Pending status getting stuck for Edge stacks when re-associating environments&lt;/li&gt;
 &lt;li&gt;Fixed issues with Kubernetes resources not showing information correctly&lt;/li&gt;
 &lt;li&gt;Improved the overall experience for Kubernetes&lt;/li&gt;
 &lt;/ul&gt;
