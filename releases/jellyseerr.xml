@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-10-15T14:31:35.262607-04:00</updated>
+  <updated>2024-10-15T15:31:33.054271-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,6 +119,11 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
       <name>Fallenbagel/jellyseerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/fallenbagel/jellyseerr/compare/v1.9.2...v2.0.0"&gt;2.0.0&lt;/a&gt; (2024-10-15)&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]  &lt;/p&gt;
+&lt;h3&gt;Warning (For linux/armv7 users)&lt;/h3&gt;
+&lt;p&gt;unfortunately we had to drop support for armv7 as nextjs 14 does not bundle @next/swc support for armv7. We apologise for this, however, until they add support for it, there is nothing we can really do as we needed to upgrade to 14. On devices which does support aarch64 we recommend running aarch64 (pi3/pi3B/pi4+, etc).&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;abort availability sync job if auth token invalid/connection lost (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/845"&gt;#845&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/bdee34053080c8975a88ba16a9e8f402e10fe7e1"&gt;bdee340&lt;/a&gt;)&lt;/li&gt;
