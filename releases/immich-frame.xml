@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2024-10-15T10:33:20.761525-04:00</updated>
+  <updated>2024-10-15T11:33:17.296240-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,11 +120,6 @@
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.14.0 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;✨ New Features&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Adaptive Android icons by @Blisterexe by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/153&lt;/li&gt;
-&lt;li&gt;Client app image zooming option by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/161&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;🌐 immichFrame WebApp&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Feat: Image Transitions by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/154&lt;/li&gt;
@@ -132,6 +127,11 @@
 &lt;li&gt;Feat: Errorpage by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/156&lt;/li&gt;
 &lt;li&gt;Feat: Metadata &amp;amp; Clock UI changes by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/158&lt;/li&gt;
 &lt;li&gt;Feat: Zoom-Effect by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/159&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💻📱 immichFrame ClientApp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptive Android icons by @Blisterexe by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/153&lt;/li&gt;
+&lt;li&gt;Client app image zooming option by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/161&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immichFrame/ImmichFrame/compare/v1.0.13.0...v1.0.14.0&lt;/p&gt;</content>
     <link href="https://github.com/immichFrame/ImmichFrame/releases/tag/v1.0.14.0" rel="alternate"/>
