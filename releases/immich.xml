@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-10-16T15:30:34.379410-04:00</updated>
+  <updated>2024-10-16T16:30:34.627031-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -367,7 +367,7 @@ services:
 &lt;li&gt;@lyynd made their first contribution in https://github.com/immich-app/immich/pull/13409&lt;/li&gt;
 &lt;li&gt;@fa1seut0pia made their first contribution in https://github.com/immich-app/immich/pull/13414&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.117.0...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.117.0...v1.118.0&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.118.0" rel="alternate"/>
   </entry>
   <entry>
@@ -399,7 +399,7 @@ Version v1.118.0 contains breaking changes. Read about them &lt;a href="https://
 &lt;li&gt;@ngtrio made their first contribution in https://github.com/immich-app/immich/pull/13458&lt;/li&gt;
 &lt;li&gt;@kevincox made their first contribution in https://github.com/immich-app/immich/pull/13389&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.118.0...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.118.0...v1.118.1&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.118.1" rel="alternate"/>
   </entry>
   <entry>
@@ -427,7 +427,7 @@ Version v1.118.0 contains breaking changes. Read about them &lt;a href="https://
 &lt;ul&gt;
 &lt;li&gt;@MananJain-IITJ made their first contribution in https://github.com/immich-app/immich/pull/13444&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.118.1...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.118.1...v1.118.2&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.118.2" rel="alternate"/>
   </entry>
 </feed>
