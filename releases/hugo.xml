@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-10-16T04:30:33.812367-04:00</updated>
+  <updated>2024-10-16T05:30:33.821633-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,7 +91,7 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that we have much improved the &lt;a href="https://github.com/gohugoio/hugo/blob/master/Dockerfile"&gt;Dockerfile&lt;/a&gt; and &lt;a href="https://github.com/gohugoio/hugo/pkgs/container/hugo"&gt;image&lt;/a&gt; this release. But this also means a slightly different way of setting it up. Improved documentation will come soon, but see 41f69a725 #12920 #12885 #12921.&lt;/p&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; that we have much improved the &lt;a href="https://github.com/gohugoio/hugo/blob/master/Dockerfile"&gt;Dockerfile&lt;/a&gt; and &lt;a href="https://github.com/gohugoio/hugo/pkgs/container/hugo"&gt;image&lt;/a&gt; this release. But this also means a slightly different way of setting it up. Improved &lt;a href="https://github.com/gohugoio/hugoDocs/issues/2727#issuecomment-2416161247"&gt;documentation&lt;/a&gt; will come soon, but see 41f69a725 #12920 #12885 #12921.&lt;/p&gt;
 &lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;config: Fix uglyurls map parse ea633dd80 @akkuman #12926 &lt;/li&gt;

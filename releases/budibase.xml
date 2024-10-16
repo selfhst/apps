@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Budibase Releases</title>
-  <updated>2024-10-16T04:31:42.098711-04:00</updated>
+  <updated>2024-10-16T05:31:40.846319-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,7 +90,8 @@
     <author>
       <name>Budibase/budibase</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;⚠️ This release of Budibase will trigger a migration process for each app when first accessed. This is to move to a new search subsystem for any internal tables. Apps will be inaccessible during the migration, and we expect the migration to take a few minutes (longer if you have a lot of rows in your internal tables, e.g. tens of thousands).&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Extend available labels for feature branch deployments by @calexiou in https://github.com/Budibase/budibase/pull/14773&lt;/li&gt;
 &lt;li&gt;Fix all or property by @adrinr in https://github.com/Budibase/budibase/pull/14774&lt;/li&gt;
