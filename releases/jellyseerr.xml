@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-10-16T09:31:38.247918-04:00</updated>
+  <updated>2024-10-16T10:31:36.701383-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,8 +122,21 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]  &lt;/p&gt;
 &lt;h3&gt;Warning (For linux/armv7 users)&lt;/h3&gt;
-&lt;p&gt;Unfortunately we had to drop support for armv7 as nextjs 14 does not bundle @next/swc support for armv7. We apologise for this, however, until they add support for it, there is nothing we can really do as we needed to upgrade to 14. On devices which does support aarch64 we recommend running aarch64 (pi3/pi3B/pi4+, etc).&lt;/p&gt;
+&lt;p&gt;Unfortunately we had to drop support for armv7 as Next.js 14 does not bundle @next/swc support for armv7. We apologize for this, however, until they add support for it, there is nothing we can really do as we needed to upgrade to Next.js 14. On devices that support aarch64, we recommend using aarch64 (RPi3, RPi3B, RPi4+, etc).&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;This release lays the groundwork for future feature integrations by resolving existing issues and should improve overall stability. &lt;/p&gt;
+&lt;h3&gt;New setup page&lt;/h3&gt;
+&lt;p&gt;The setup process has been improved. Emby users can now configure Jellyseerr without having to edit environment variable.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/7cb6a698-5927-4ff3-aa70-14086d3bd661" /&gt;&lt;/p&gt;
+&lt;h3&gt;Blacklist media from Jellyseerr&lt;/h3&gt;
+&lt;p&gt;Users with special permissions can blacklist media to hide it from users. The blacklist is managed in a new page with options to remove items.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://private-user-images.githubusercontent.com/66050823/298769756-bdacaed7-85b8-4897-af9e-9ab6336c14bf.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNzM2OTksIm5iZiI6MTcyOTA3MzM5OSwicGF0aCI6Ii82NjA1MDgyMy8yOTg3Njk3NTYtYmRhY2FlZDctODViOC00ODk3LWFmOWUtOWFiNjMzNmMxNGJmLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDEwMDk1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI5ZjExOTg3ZDc5N2VlZDBhYWJjM2FjZDk4NjJmZDg1ZmRhMGEwMTMwZTRmYThmM2MwNTUxNjU4MDc1OTg2OGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.r78s0gGXJLLm_lAWm8cfYLU-Z4sMcRADEq9Jtz3tzKQ" /&gt;&lt;/p&gt;
+&lt;h3&gt;Faster downloads update&lt;/h3&gt;
+&lt;p&gt;Sync delay between Jellyseerr and the *arrs is now reduced. A request to Sonarr/Radarr is now made to refresh the monitored downloads right before retrieving the estimated download times.&lt;/p&gt;
+&lt;h3&gt;Switch to Jellyfin API Tokens&lt;/h3&gt;
+&lt;p&gt;Before, Jellyseerr used admin user auth tokens to connect to Jellyfin and perform requests. Now, it will switch to using API tokens instead, with these tokens being automatically generated from the previous auth tokens to ensure a seamless migration.&lt;/p&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;abort availability sync job if auth token invalid/connection lost (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/845"&gt;#845&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/bdee34053080c8975a88ba16a9e8f402e10fe7e1"&gt;bdee340&lt;/a&gt;)&lt;/li&gt;
