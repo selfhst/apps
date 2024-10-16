@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>solidtime Releases</title>
-  <updated>2024-10-16T07:33:04.730332-04:00</updated>
+  <updated>2024-10-16T08:33:04.643383-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,5 +106,41 @@ php artisan computed-attributes:generate TimeEntry:billable_rate&lt;/code&gt;&lt
 php artisan computed-attributes:generate TimeEntry:billable_rate&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This can take a while, depending on how many time entries are in the database. Running this command is not required so that the applications runs correctly. It just recreates a cache that might not be correct anymore because of the new billable rate feature.&lt;/p&gt;</content>
     <link href="https://github.com/solidtime-io/solidtime/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/solidtime-io/solidtime/releases/tag/v0.3.0</id>
+    <title>New release for solidtime: 0.3.0</title>
+    <updated>2024-10-16T08:03:42-04:00</updated>
+    <author>
+      <name>solidtime-io/solidtime</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added ARM build (https://github.com/solidtime-io/solidtime/pull/133)&lt;/li&gt;
+&lt;li&gt;Export (https://github.com/solidtime-io/solidtime/pull/175)&lt;/li&gt;
+&lt;li&gt;Import performance and bugfix (https://github.com/solidtime-io/solidtime/pull/178)&lt;/li&gt;
+&lt;li&gt;Add mapping for legacy timezones (https://github.com/solidtime-io/solidtime/pull/179)&lt;/li&gt;
+&lt;li&gt;Deactivate auditing for time entries in importer (https://github.com/solidtime-io/solidtime/pull/182)&lt;/li&gt;
+&lt;li&gt;Lock import and increase timeout (https://github.com/solidtime-io/solidtime/pull/185)&lt;/li&gt;
+&lt;li&gt;Add time entry aggregation type “description” (https://github.com/solidtime-io/solidtime/pull/183)&lt;/li&gt;
+&lt;li&gt;Fixed timezone problem in unit tests (https://github.com/solidtime-io/solidtime/pull/194)&lt;/li&gt;
+&lt;li&gt;Estimated time for tasks &amp;amp; projects (https://github.com/solidtime-io/solidtime/pull/121)&lt;/li&gt;
+&lt;li&gt;Add organization setting employees_can_see_billable_rates (https://github.com/solidtime-io/solidtime/pull/197)&lt;/li&gt;
+&lt;li&gt;Detailed reporting page (https://github.com/solidtime-io/solidtime/pull/199)&lt;/li&gt;
+&lt;li&gt;Add endpoint to delete multiple time entries (https://github.com/solidtime-io/solidtime/pull/161)&lt;/li&gt;
+&lt;li&gt;Add update lookup and telemetry, Add version and build to app config (https://github.com/solidtime-io/solidtime/pull/200)&lt;/li&gt;
+&lt;li&gt;Time entry mass updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Detailed information&lt;/h2&gt;
+&lt;p&gt;This release adds a telemetry features which sends information about your setup to our API. This information includes how many datasets you have in your tables (only counts) and which version you are running.&lt;/p&gt;
+&lt;p&gt;You can deactivate this feature by setting the env &lt;code&gt;SCHEDULING_TASK_SELF_HOSTING_TELEMETRY&lt;/code&gt; to &lt;code&gt;false&lt;/code&gt;. &lt;/p&gt;
+&lt;h2&gt;After upgrade tasks&lt;/h2&gt;
+&lt;p&gt;In addition to running the migrations, it is necessary to recalculate the computed attributes.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;php artisan computed-attributes:generate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you are using the docker setup provided by us, you can run:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker compose exec scheduler php artisan computed-attributes:generate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This can take a while, depending on how many time entries are in the database.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/solidtime-io/solidtime/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/solidtime-io/solidtime/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
