@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-10-16T14:31:34.919844-04:00</updated>
+  <updated>2024-10-16T15:31:36.151154-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,7 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/7cb6a698-5927-4ff3-aa70-14086d3bd661" /&gt;&lt;/p&gt;
 &lt;h3&gt;Blacklist media from Jellyseerr&lt;/h3&gt;
 &lt;p&gt;Users with special permissions can blacklist media to hide it from users. The blacklist is managed in a new page with options to remove items.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="image" src="https://private-user-images.githubusercontent.com/66050823/298769756-bdacaed7-85b8-4897-af9e-9ab6336c14bf.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjkwNzM2OTksIm5iZiI6MTcyOTA3MzM5OSwicGF0aCI6Ii82NjA1MDgyMy8yOTg3Njk3NTYtYmRhY2FlZDctODViOC00ODk3LWFmOWUtOWFiNjMzNmMxNGJmLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE2VDEwMDk1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI5ZjExOTg3ZDc5N2VlZDBhYWJjM2FjZDk4NjJmZDg1ZmRhMGEwMTMwZTRmYThmM2MwNTUxNjU4MDc1OTg2OGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.r78s0gGXJLLm_lAWm8cfYLU-Z4sMcRADEq9Jtz3tzKQ" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="298769756-bdacaed7-85b8-4897-af9e-9ab6336c14bf" src="https://github.com/user-attachments/assets/5d184a4c-77cf-4010-998b-b1c4af173452" /&gt;&lt;/p&gt;
 &lt;h3&gt;Faster downloads update&lt;/h3&gt;
 &lt;p&gt;Sync delay between Jellyseerr and the *arrs is now reduced. A request to Sonarr/Radarr is now made to refresh the monitored downloads right before retrieving the estimated download times.&lt;/p&gt;
 &lt;h3&gt;Switch to Jellyfin API Tokens&lt;/h3&gt;
