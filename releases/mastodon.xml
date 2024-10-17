@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2024-10-17T02:30:48.328430-04:00</updated>
+  <updated>2024-10-17T03:30:46.846253-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -423,7 +423,7 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
   Articles hosted outside the fediverse can indicate a fediverse author with a meta tag:
   &lt;code&gt;html
   &amp;lt;meta name="fediverse:creator" content="username@domain" /&amp;gt;&lt;/code&gt;
-  On the API side, this is represented by a new &lt;code&gt;authors&lt;/code&gt; attribute to the &lt;code&gt;PreviewCard&lt;/code&gt; entity: https://docs.joinmastodon.org/entities/PreviewCard/#authors\
+  On the API side, this is represented by a new &lt;code&gt;authors&lt;/code&gt; attribute to the &lt;code&gt;PreviewCard&lt;/code&gt; entity: https://docs.joinmastodon.org/entities/PreviewCard/#authors \
   Users can allow arbitrary domains to use &lt;code&gt;fediverse:creator&lt;/code&gt; to credit them by visiting &lt;code&gt;/settings/verification&lt;/code&gt;.\
   This is federated as a new &lt;code&gt;attributionDomains&lt;/code&gt; property in the &lt;code&gt;http://joinmastodon.org/ns&lt;/code&gt; namespace, containing an array of domain names: https://docs.joinmastodon.org/spec/activitypub/#properties-used-1&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Add in-app notifications for moderation actions and warnings&lt;/strong&gt; (#30065, #30082, and #30081 by @ClearlyClaire)\
