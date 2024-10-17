@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-10-17T10:31:43.205270-04:00</updated>
+  <updated>2024-10-17T11:31:39.284581-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,7 @@ typeorm/typeorm#9860 (comment)&lt;/p&gt;
 &lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;p&gt;This release lays the groundwork for future feature integrations by resolving existing issues and should improve overall stability. &lt;/p&gt;
 &lt;h3&gt;New setup page&lt;/h3&gt;
-&lt;p&gt;The setup process has been improved. Emby users can now configure Jellyseerr without having to edit environment variable.&lt;/p&gt;
+&lt;p&gt;The setup process has been improved. Emby users can now configure Jellyseerr without having to edit environment variable. Existing users should have their &lt;code&gt;JELLYFIN_TYPE=emby&lt;/code&gt; variable migrated to a setting in &lt;code&gt;settings.json&lt;/code&gt; where &lt;code&gt;mediaServerType=3&lt;/code&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/7cb6a698-5927-4ff3-aa70-14086d3bd661" /&gt;&lt;/p&gt;
 &lt;h3&gt;Blacklist media from Jellyseerr&lt;/h3&gt;
 &lt;p&gt;Users with special permissions can blacklist media to hide it from users. The blacklist is managed in a new page with options to remove items.&lt;/p&gt;

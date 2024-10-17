@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2024-10-17T10:34:04.378051-04:00</updated>
+  <updated>2024-10-17T11:33:58.336687-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,7 +87,13 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;FIXED: DbGate process consumes 100% after UI closed - Mac, Linux (#917, #915)&lt;/li&gt;
+&lt;li&gt;FIXED: Correctly closing connection behind SSH tunnel (#920)&lt;/li&gt;
+&lt;li&gt;FIXED: Updating MongoDB documents on MongoDB 4 (#916)&lt;/li&gt;
+&lt;li&gt;FIXED: (Premium) DbGate container correctly waits for underlying storage database, if database container is started after dbgate container is started&lt;/li&gt;
+&lt;li&gt;FIXED: (Premium) Better handling of connection storage errors&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v5.5.6" rel="alternate"/>
   </entry>
 </feed>

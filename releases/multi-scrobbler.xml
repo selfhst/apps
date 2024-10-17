@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Multi-Scrobbler Releases</title>
-  <updated>2024-10-17T10:34:04.876885-04:00</updated>
+  <updated>2024-10-17T11:33:58.862915-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -209,7 +209,7 @@
     </author>
     <content>&lt;h1&gt;What's New?&lt;/h1&gt;
 &lt;h2&gt;Jellyfin API Improvements&lt;/h2&gt;
-&lt;p&gt;The new Jellyfin API Source was missing a decent amount of polishing from the last release (#196 #200 #209). This release fixes many bugs and also introduces &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/?configType=env#jellyfin"&gt;new configuration&lt;/a&gt; for allow/block scrobbling by library and media type enforcement.&lt;/p&gt;
+&lt;p&gt;The new Jellyfin API Source was missing a decent amount of polishing from its &lt;a href="https://github.com/FoxxMD/multi-scrobbler/releases/tag/0.8.4"&gt;initial release&lt;/a&gt; (#196 #200 #209). This release fixes many bugs and also introduces &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/?configType=env#jellyfin"&gt;new configuration&lt;/a&gt; for allow/block scrobbling by library and media type enforcement.&lt;/p&gt;
 &lt;h2&gt;Configuration Validation Improvements&lt;/h2&gt;
 &lt;p&gt;The maintenance-mode &lt;a href="https://github.com/YousefED/typescript-json-schema"&gt;typescript-json-schema&lt;/a&gt; library that was being used to validate configuration has been replaced with the much improved &lt;a href="https://github.com/vega/ts-json-schema-generator"&gt;ts-json-schema-generator&lt;/a&gt;. Validation rules are now generated at runtime instead of using static files from the project which will make maintenance easier. This change, along with refactored validation logic, should make validation errors in logs easier to read and more specific.&lt;/p&gt;
 &lt;h2&gt;Album Art&lt;/h2&gt;
