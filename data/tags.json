@@ -871,13 +871,13 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion"
         ]
     },
     {
@@ -900,6 +900,12 @@
     },
     {
         "Tag": "Tracking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Travel",
         "Valid Types": [
             "Software"
         ]
