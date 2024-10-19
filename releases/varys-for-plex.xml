@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Varys for Plex Releases</title>
-  <updated>2024-10-19T15:33:31.247895-04:00</updated>
+  <updated>2024-10-19T16:33:23.655210-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -27,7 +27,11 @@
     <author>
       <name>schech1/uptime-buddy</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;Fancy popup messages in the iOS app&lt;/li&gt;
+&lt;li&gt;Added MFA to docker-compose template&lt;/li&gt;
+&lt;li&gt;Added hint to the backend at first start of the iOS app&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/schech1/uptime-buddy/releases/tag/1.1.0" rel="alternate"/>
   </entry>
 </feed>
