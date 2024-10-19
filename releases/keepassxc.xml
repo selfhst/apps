@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>KeePassXC Releases</title>
-  <updated>2024-10-19T07:31:46.969515-04:00</updated>
+  <updated>2024-10-19T08:31:48.866739-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,7 +66,10 @@
     <author>
       <name>keepassxreboot/keepassxc</name>
     </author>
-    <content>&lt;h3&gt;Changes&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;Note: This is the most recent version of KeePassXC that supports macOS 10 and earlier.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Significant improvement to visual when drag/drop entries [#9698]&lt;/li&gt;
 &lt;li&gt;Automatically prompt for Quick Unlock when showing unlock dialog [#9697]&lt;/li&gt;
