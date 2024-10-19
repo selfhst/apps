@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2024-10-19T02:32:50.157900-04:00</updated>
+  <updated>2024-10-19T03:32:49.341058-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,5 +99,161 @@ Some issues with Docker were identified: #296, #302. A new version with those fi
 &lt;li&gt;Updated links throughout the application to point to the rendered &lt;a href="https://triliumnext.github.io/Docs"&gt;TriliumNext Wiki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TriliumNext/Notes/releases/tag/v0.90.8</id>
+    <title>New release for TriliumNext: v0.90.8</title>
+    <updated>2024-10-19T03:05:19-04:00</updated>
+    <author>
+      <name>TriliumNext/Notes</name>
+    </author>
+    <content>&lt;p&gt;v0.90.8 is a stable build, containing all the improvements of the previous beta releases, which will be listed here is as well.&lt;/p&gt;
+&lt;h2&gt;💡 Key highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A new note type was introduced called “Mind Map” using the MindElixir library.&lt;/li&gt;
+&lt;li&gt;Sync version has been increased from 32 to 33 to prevent issues with mindmap notes. This means that the server also needs to be updated to this version, otherwise sync will be refused.&lt;/li&gt;
+&lt;li&gt;Internationalization support (Spanish, Chinese, Romanian, French).&lt;/li&gt;
+&lt;li&gt;Various bugfixes (see below).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New to v0.90.8&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/485"&gt;There are horizontal lines under all hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/489"&gt;Introduce &lt;code&gt;stable&lt;/code&gt; tag on containers&lt;/a&gt; by @perfectra1n&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added French translations by @Potjoe-97&lt;/li&gt;
+&lt;li&gt;Translation improvements for Spanish by @hasecilu &lt;/li&gt;
+&lt;li&gt;Translation improvements for Chinese by @Nriver&lt;/li&gt;
+&lt;li&gt;Improved coverage for Romanian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬆️ Library updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;mind-elixir: 4.1.5 -&amp;gt; 4.2.0&lt;/li&gt;
+&lt;li&gt;i18next: 23.15.2 -&amp;gt; 23.16.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From v0.90.7-beta&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/297"&gt;Insert Math appears to be broken&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/472"&gt;Override the z-index of Bootstrap tooltips&lt;/a&gt; by &lt;a href="https://github.com/dousha"&gt;dousha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/417"&gt;Clicking an entry in the calendar opens the note twice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/467"&gt;mindmap note suddenly show with file note&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/458"&gt;Import md with jpeg: broken jpeg&lt;/a&gt; by &lt;a href="https://github.com/perfectra1n"&gt;&lt;code&gt;perfectra1n&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/392"&gt;Icon improvements&lt;/a&gt; by @SiriusXT.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/389"&gt;Open in file manager of Trilium's data directory&lt;/a&gt; by @SiriusXT.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/414"&gt;i18n Fallback to English for null characters&lt;/a&gt; by @SiriusXT.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/402#top"&gt;Use matrix strategy for CI/CD&lt;/a&gt; (Alpine is back!) by @perfectra1n.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/432"&gt;Floating buttons can be displayed again after being closed&lt;/a&gt; by @SiriusXT.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/391"&gt;Revisions number limit&lt;/a&gt; by @SiriusXT .&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/451"&gt;Searching with orderBy doesn't work with dated attributes&lt;/a&gt; by @jaimeferj&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/452"&gt;Use the electron Clipboard module when using "Copy image to clipboard"&lt;/a&gt; by @perfectra1n.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/458"&gt;MIME type not being used when creating new note correctly, upon zip import&lt;/a&gt; by @perfectra1n.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/465"&gt;fix blurry PWA icon&lt;/a&gt; by @quantum5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translated more of the client (e.g. note types, tree context menu, switches in the ribbon).&lt;/li&gt;
+&lt;li&gt;Started translating the server (e.g. first setup, keyboard actions, shared pages).&lt;/li&gt;
+&lt;li&gt;Improved coverage for Spanish by @hasecilu.&lt;/li&gt;
+&lt;li&gt;Improved coverage for Chinese by @Nriver.&lt;/li&gt;
+&lt;li&gt;Improved coverage for Romanian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Library updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/381"&gt;Upgrade bootstrap from v4 to v5&lt;/a&gt; by @JYC333&lt;ul&gt;
+&lt;li&gt;This is a heavy UI library update, so there might be quirks here and there.&lt;/li&gt;
+&lt;li&gt;Various improvements and bugfixes by @JYC333 and @SiriusXT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mermaid: 10.9.1 → 11.3.0&lt;/li&gt;
+&lt;li&gt;Mind Elixir: 4.0.5 → 4.1.5&lt;/li&gt;
+&lt;li&gt;JSDOM: 24.1.1 → 25.0.0&lt;/li&gt;
+&lt;li&gt;Day.js: 1.11.12 → 1.11.13&lt;/li&gt;
+&lt;li&gt;ESLint: 9.9.0 → 9.10.0&lt;/li&gt;
+&lt;li&gt;Marked: 13.0.2 → 14.1.2&lt;/li&gt;
+&lt;li&gt;Ini: 4.1.3 -&amp;gt; 5.0.0&lt;/li&gt;
+&lt;li&gt;Axios: 1.7.2 → 1.7.7&lt;/li&gt;
+&lt;li&gt;i18next: 23.14.0 → 23.15.2&lt;/li&gt;
+&lt;li&gt;express 4.19.2 → 4.21.0&lt;/li&gt;
+&lt;li&gt;better-sqlite3: 11.1.2 → 11.3.0&lt;/li&gt;
+&lt;li&gt;and other development tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From v0.90.6-beta&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds back the &lt;code&gt;amd64&lt;/code&gt; container image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From v0.90-5-beta&lt;/h2&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;p&gt;Preliminary support for internationalization has been added, thanks to the efforts of @Nriver. More specifically, the following languages now have a partial translation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spanish by @hasecilu&lt;/li&gt;
+&lt;li&gt;Chinese by @Nriver&lt;/li&gt;
+&lt;li&gt;Romanian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that only the client has been translated so far and there are still a lot of tasks to handle before the application is fully translated.&lt;/p&gt;
+&lt;h3&gt;💡 New note type: Mind map&lt;/h3&gt;
+&lt;p&gt;Mind maps are usually a fast method to write down ideas and do brainstorming with a team. TriliumNext introduces this new note type with the help of &lt;a href="https://mind-elixir.com/"&gt;Mind Elixir&lt;/a&gt;, an open-source library.&lt;/p&gt;
+&lt;p&gt;Note that the integration is still in its infancy, so there might be bugs and a lack of feature until it is stabilized. The library itself supports quite a few features that are not implemented yet in Trilium: math expressions using KaTeX, images, links. Those might be implemented along the way, provided they are needed by users.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="v0 90 5-beta_image" src="https://github.com/user-attachments/assets/e0dea6c9-4be0-477b-9340-3d38e952af06" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: For the note type to fully work (such as shared notes), it is ideal to update the server instance as well, if you are using one.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;⚙️ Builds&lt;/h3&gt;
+&lt;p&gt;The internal build tooling has been updated, resulting in the following changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For macOS users there is now a &lt;code&gt;.dmg&lt;/code&gt; installation method as well. &lt;code&gt;@JYC333&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;There is also an ARM-native version for macOS that can be used, however it will require &lt;a href="https://github.com/TriliumNext/Notes/issues/329"&gt;additional steps to get it running&lt;/a&gt; due to the lack of notarization (to bypass the “TriliumNext Notes.app” is damaged error).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For both Windows and Linux we now have &lt;code&gt;amd64&lt;/code&gt; builds as well.&lt;ul&gt;
+&lt;li&gt;Please note these versions are not being actively tested due to lack of equipment, so feel free to raise any issues you might be encountering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the Docker side, &lt;a href="https://github.com/TriliumNext/Notes/pull/366"&gt;brought back Alpine-based Docker containers for amd64&lt;/a&gt; by @perfectrain.&lt;/p&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/331"&gt;v0.90.4 docker does not read USER_UID and USER_GID from environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/318"&gt;Invalid CSRF token on Android phone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/341"&gt;Excess spacing in lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/350"&gt;scrollbar-color makes the scrollbar appear natively styled&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Invisible scrollbar on Firefox&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/358"&gt;Issue with note title text box border&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/365"&gt;Focus not set to input field when clicking &lt;code&gt;Include Note&lt;/code&gt; from Block Editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/377"&gt;Fix a bug of find widget&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/368"&gt;'A JavaScript error occurred in the main process' when launching Trilium&lt;/a&gt; (improved error handling).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/375"&gt;Note Tooltip isn't removed when clicking on internal trilium link in read-only mode&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/384"&gt;Calendar dropdown won't close if click/right-click other button that open notes from launcher bar&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/374"&gt;Improved the calendar button in the launch bar&lt;/a&gt;, adding support for easier month and year selection.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/247"&gt;Make first day of week configurable&lt;/a&gt; (supports Sunday and Monday)&lt;ul&gt;
+&lt;li&gt;Can be adjusted in Options → Appearance → Localization → First day of the week.&lt;/li&gt;
+&lt;li&gt;The option is synced with the server and the client updates immediately.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Removed hard-coded libraries such as FancyTree and Bootstrap. This will later allow us to upgrade to the latest versions. @JYC333&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/345"&gt;Hide Electron-specific settings in the web version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/348"&gt;Add a toggle to promote the current note to a template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disable share toggle when in options&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/373"&gt;Open New window from taskbar&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;Pressing F2 to edit the branch prefix will now work only in the note tree to avoid issues with other interactive elements such as the mind map, but also since the option itself is not the most used ones to require a global shortcut.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.8" rel="alternate"/>
   </entry>
 </feed>
