@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-10-19T21:32:13.811447-04:00</updated>
+  <updated>2024-10-19T22:32:16.023611-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,6 +129,15 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.5.1...v1.6.0"&gt;1.6.0&lt;/a&gt; (2024-10-20)&lt;/h2&gt;
+&lt;p&gt;This update comes with new UI and quality of life features. Top of the list are: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom commands (e.g. Run Command feature) are now tracked in the operation log &amp;amp; supports long running jobs. This means backrest can be used for operations e.g. &lt;code&gt;restic mount&lt;/code&gt; while you browse your repo, or to run &lt;code&gt;check&lt;/code&gt; or &lt;code&gt;prune&lt;/code&gt; with custom flags.&lt;/li&gt;
+&lt;li&gt;Summary dashboard as the new homepage shows recent backup statuses and metrics.&lt;/li&gt;
+&lt;li&gt;Built-in support for healthchecks.io notifications&lt;/li&gt;
+&lt;li&gt;Linkable pages, you can now bookmark specific repo / plan views.&lt;/li&gt;
+&lt;li&gt;Resizeable tree view allowing for focusing in on either the tree itself or details of the operation you currently have selected&lt;/li&gt;
+&lt;li&gt;Under-the-hood: sqlite3 migration for operation storage improves performance for very large operation histories &amp;amp; improves maintainability. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add a summary dashboard as the "main view" when backrest opens (&lt;a href="https://github.com/garethgeorge/backrest/issues/518"&gt;#518&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/4b3c7e53d5b8110c179c486c3423ef9ff72feb8f"&gt;4b3c7e5&lt;/a&gt;)&lt;/li&gt;
