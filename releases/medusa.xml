@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-10-20T07:30:49.841450-04:00</updated>
+  <updated>2024-10-20T08:30:48.895130-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -317,6 +317,8 @@ Breaking change&lt;/p&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
+![image](https://github.com/user-attachments/assets/34a747a6-5ee9-4068-b3f8-38745aec646a)
+
 # Medusa v2.0 Release Candidate #5
 
 CMS_BREAK --&gt;
@@ -396,6 +398,8 @@ Breaking change&lt;/p&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
+![image](https://github.com/user-attachments/assets/2cc71619-1e6f-44bf-becb-350d6a767bae)
+
 # Medusa v2.0 Release Candidate #6
 
 CMS_BREAK --&gt;
@@ -449,6 +453,8 @@ rm yarn.lock // or package-lock.json&lt;/p&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
+![image](https://github.com/user-attachments/assets/6d169c48-6b40-48b9-a734-c70a20581f25)
+
 # Medusa v2.0 Release Candidate #7
 
 CMS_BREAK --&gt;
