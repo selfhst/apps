@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-10-20T04:33:00.716815-04:00</updated>
+  <updated>2024-10-20T05:32:57.849608-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,19 +110,17 @@ sh ./shell2.sh&lt;/p&gt;
   - Can Interpolate in Variables as usual using &lt;code&gt;"[[VARIABLE_NAME]]"&lt;/code&gt;
   - Uses &lt;a href="https://deno.com"&gt;Deno&lt;/a&gt; to run the typescript.
   - Komodo Core container ships with Deno and the JS / TS client bundled in, there are no external requests needed to pull any libs. 
-  - The API also serves the lib files from your Komodo instance at &lt;code&gt;{BASE_URL}/client/lib.js&lt;/code&gt;, and you can depend on that directly from Deno files. The version of the served lib will be ensured to match your Core version.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Stacks&lt;/strong&gt;: If you have multiple env files in your folder / repo, you can now specify additional env files to be attached.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;All configs&lt;/strong&gt;: If you make changes and navigate away / reload page, your "unsaved" changed will now be cached locally until you are ready to save.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+  - The API also serves the lib files from your Komodo instance at &lt;code&gt;{BASE_URL}/client/lib.js&lt;/code&gt;, and you can depend on that directly from Deno files. The version of the served lib will be ensured to match your Core version.
+  - Auto formatting with prettier.  &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;F&lt;/code&gt; (Mac uses Option key instead of Alt).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stacks&lt;/strong&gt;: 
+- If you have multiple env files in your folder / repo, you can now specify additional env files to be attached.
+- Auto yaml formatting for compose file editors with prettier, use &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;F&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;All configs&lt;/strong&gt;:
+-If you make changes and navigate away / reload page, your "unsaved" changed will now be cached locally until you are ready to save.&lt;/p&gt;
 &lt;h2&gt;Upgrading&lt;/h2&gt;
 &lt;p&gt;No changes to config, just pull and redeploy Core.
 There are some small changes to Periphery, but upgrading should only be necessary to use multiple env files with Stacks.&lt;/p&gt;
-&lt;p&gt;Very recently I published the &lt;a href="https://www.npmjs.com/package/komodo_client"&gt;Komodo Typescript client&lt;/a&gt;, 1.16 has breaking changes to the client to get them out of the way.&lt;/p&gt;
+&lt;p&gt;Very recently I published the &lt;a href="https://www.npmjs.com/package/komodo_client"&gt;Komodo Typescript client&lt;/a&gt;, 1.16 has breaking changes to this client to get them out of the way.&lt;/p&gt;
 &lt;p&gt;Enjoy 🦎&lt;/p&gt;
 &lt;p&gt;&lt;img width="1167" alt="Screenshot 2024-10-20 at 3 38 12 AM" src="https://github.com/user-attachments/assets/af92dae7-4638-45dc-9b9e-5faf1436c235"&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mbecker20/komodo/releases/tag/v1.16.0" rel="alternate"/>
