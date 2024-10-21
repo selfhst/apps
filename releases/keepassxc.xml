@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>KeePassXC Releases</title>
-  <updated>2024-10-21T04:31:47.712445-04:00</updated>
+  <updated>2024-10-21T05:32:00.252499-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,7 @@
       <name>keepassxreboot/keepassxc</name>
     </author>
     <content>&lt;blockquote&gt;
-&lt;p&gt;Note: This is the most recent version of KeePassXC that supports macOS 10 and earlier.&lt;/p&gt;
+&lt;p&gt;Note: This is the most recent version of KeePassXC that supports macOS 10.x.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Changes&lt;/h3&gt;
 &lt;ul&gt;
