@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>What's Up Docker? Releases</title>
-  <updated>2024-10-21T13:31:35.314723-04:00</updated>
+  <updated>2024-10-21T14:31:33.506330-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for What's Up Docker?: 6.4.1</title>
     <updated>2024-06-07T12:35:27-04:00</updated>
     <author>
-      <name>fmartinou/whats-up-docker</name>
+      <name>getwud/wud</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;:fire: [GHCR] - Bring back username because needed for image pulling&lt;/li&gt;
@@ -27,7 +27,7 @@
     <title>New release for What's Up Docker?: 6.5.0</title>
     <updated>2024-09-15T08:55:51-04:00</updated>
     <author>
-      <name>fmartinou/whats-up-docker</name>
+      <name>getwud/wud</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;:star: [API/UI] - Add a feature to allow/disallow delete operations (&lt;code&gt;WUD_SERVER_FEATURE_DELETE&lt;/code&gt;)&lt;/li&gt;
@@ -44,7 +44,7 @@
     <title>New release for What's Up Docker?: 6.6.0</title>
     <updated>2024-09-30T12:14:36-04:00</updated>
     <author>
-      <name>fmartinou/whats-up-docker</name>
+      <name>getwud/wud</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;:star: [UI] - Make watcher and registry names visible when container box is collapsed&lt;/li&gt;
@@ -58,7 +58,7 @@
     <title>New release for What's Up Docker?: 6.6.1</title>
     <updated>2024-10-05T15:46:38-04:00</updated>
     <author>
-      <name>fmartinou/whats-up-docker</name>
+      <name>getwud/wud</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;:fire: [UI] - Fix container view (mobile layout)&lt;/li&gt;
@@ -71,7 +71,7 @@
     <title>New release for What's Up Docker?: 7.0.0</title>
     <updated>2024-10-21T12:42:42-04:00</updated>
     <author>
-      <name>fmartinou/whats-up-docker</name>
+      <name>getwud/wud</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;:star: [UI] - Add support for &lt;a href="https://selfh.st/icons/"&gt;Selfh.st&lt;/a&gt; icons&lt;/li&gt;
