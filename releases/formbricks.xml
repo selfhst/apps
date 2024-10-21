@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Formbricks Releases</title>
-  <updated>2024-10-21T03:33:58.781392-04:00</updated>
+  <updated>2024-10-21T04:33:59.878839-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,6 +103,10 @@ As a special treat, it also includes a new loading indicator for link surveys as
 &lt;li&gt;📚 Docs app build by @Dhruwang in &lt;a href="https://github.com/formbricks/formbricks/pull/3081"&gt;#3081&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;📊 NPS response exported as empty string by @Dhruwang in &lt;a href="https://github.com/formbricks/formbricks/pull/3080"&gt;#3080&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🔄 Summary auto-update also queries when not in focus by @gupta-piyush19 in &lt;a href="https://github.com/formbricks/formbricks/pull/3067"&gt;#3067&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔐 Fixed Security Vulnerabilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;👍 Thanks to Cyber AR for pointing out a security risk with the current callbackUrl validation &lt;a href="https://github.com/formbricks/formbricks/pull/3061"&gt;#3061&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🧹 Chores and Improvements&lt;/h3&gt;
 &lt;ul&gt;
