@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-10-21T23:31:07.122197-04:00</updated>
+  <updated>2024-10-22T00:31:11.969915-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,7 +117,13 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set level rest timer. This is configurable on the exercise as well as the user level.&lt;/li&gt;
+&lt;li&gt;The UX for creating/editing supersets has been overhauled with major improvement.&lt;/li&gt;
+&lt;li&gt;Bug fixes and performance improvements...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/e7bbfb133bf3104d68a87768dd22e65553170f48"&gt;e7bbfb13&lt;/a&gt; - chore(frontend): changes to exrrcise display&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/b88e8794b880b55d46ab7a65a715b5f5dece701b"&gt;b88e8794&lt;/a&gt; - fix(*): general fixes&lt;/li&gt;
