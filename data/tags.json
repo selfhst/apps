@@ -438,6 +438,12 @@
         ]
     },
     {
+        "Tag": "Interface",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Internet of Things",
         "Valid Types": [
             "Software"
@@ -901,6 +907,12 @@
     },
     {
         "Tag": "Tracking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Transcription",
         "Valid Types": [
             "Software"
         ]
