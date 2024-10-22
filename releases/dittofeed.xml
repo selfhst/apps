@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dittofeed Releases</title>
-  <updated>2024-10-22T18:31:55.979963-04:00</updated>
+  <updated>2024-10-22T19:31:53.678744-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,5 +145,30 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dittofeed/dittofeed/compare/v0.17.0...v0.18.0&lt;/p&gt;</content>
     <link href="https://github.com/dittofeed/dittofeed/releases/tag/v0.18.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dittofeed/dittofeed/releases/tag/v0.18.1</id>
+    <title>New release for Dittofeed: v0.18.1</title>
+    <updated>2024-10-22T18:37:39-04:00</updated>
+    <author>
+      <name>dittofeed/dittofeed</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;remove unsafe code from stats function by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1097&lt;/li&gt;
+&lt;li&gt;upgrade prisma 5.21.1 by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1098&lt;/li&gt;
+&lt;li&gt;upgrade react flow by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1099&lt;/li&gt;
+&lt;li&gt;fix inconsistencies in low code email editor spacing by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1101&lt;/li&gt;
+&lt;li&gt;upgrade typescript by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1100&lt;/li&gt;
+&lt;li&gt;fix emailo css warning by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1107&lt;/li&gt;
+&lt;li&gt;fix css warning in animations.css by @juan-libros in https://github.com/dittofeed/dittofeed/pull/1103&lt;/li&gt;
+&lt;li&gt;fix draft toggle for low code email by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1106&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@juan-libros made their first contribution in https://github.com/dittofeed/dittofeed/pull/1103&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dittofeed/dittofeed/compare/v0.18.0...v0.18.1&lt;/p&gt;</content>
+    <link href="https://github.com/dittofeed/dittofeed/releases/tag/v0.18.1" rel="alternate"/>
   </entry>
 </feed>
