@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SiYuan Releases</title>
-  <updated>2024-10-21T22:32:26.498630-04:00</updated>
+  <updated>2024-10-21T23:32:23.714625-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,5 +197,51 @@
 &lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/siyuan-note/siyuan/releases/tag/v3.1.10</id>
+    <title>New release for SiYuan: Improve database performance and backlink panel</title>
+    <updated>2024-10-21T23:15:36-04:00</updated>
+    <author>
+      <name>siyuan-note/siyuan</name>
+    </author>
+    <content>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This version improves database performance and user interface details.&lt;/p&gt;
+&lt;p&gt;In addition, we have also improved the backlink panel details to support excluding child-blocks from backlink calculations, which helps to display backlinks more accurately.&lt;/p&gt;
+&lt;h2&gt;Changelogs&lt;/h2&gt;
+&lt;p&gt;Below are the detailed changes in this version.&lt;/p&gt;
+&lt;h3&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/11252"&gt;Improve interaction when deleting two-way relation field in a database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/11931"&gt;Improve plugin dock position persistence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12641"&gt;Supports disabling Markdown &lt;code&gt;~~&lt;/code&gt; syntax input&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12780"&gt;Improve database paging loading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12798"&gt;WebDAV/S3 data sync and backup support configurable concurrent requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12809"&gt;Improve the logic of multiple selected blocks forming a super block&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12817"&gt;Browser clipping extension sends no more scrolling pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12818"&gt;Improve database template field loading performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12820"&gt;Outline and bookmark supports displaying images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12825"&gt;Improve importing .sy.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12835"&gt;Improve database relation &amp;amp; rollup field loading performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12848"&gt;Improve user interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12860"&gt;Refresh doc tree after data sync&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12861"&gt;Support child-blocks not being included in the backlink calculation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12862"&gt;The backlink panel no longer displays breadcrumbs of the first-level blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12868"&gt;Improve custom emojis at the beginning of the block&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bugfix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12791"&gt;Drag and drop to insert asset fails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12792"&gt;Abnormal after pasting certain content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12793"&gt;The word count of the selected block is inaccurate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12794"&gt;Unable to open PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12852"&gt;The corrupted data causes the kernel to hang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Download&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://b3log.org/siyuan/en/download.html"&gt;B3log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.10" rel="alternate"/>
   </entry>
 </feed>
