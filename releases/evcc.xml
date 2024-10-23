@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2024-10-23T06:34:03.627296-04:00</updated>
+  <updated>2024-10-23T07:33:57.512492-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,22 +133,13 @@
       <name>evcc-io/evcc</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;Core:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3a88cb4add186ca420e68f51fccb02ed4eab19ae Add MaxACPower hybrid battery setting (#16609)&lt;/li&gt;
 &lt;li&gt;5e482972e0b6cd1fda0fab3fed24b80364d7b301 Add device lifecycle (BC) (#16513)&lt;/li&gt;
-&lt;li&gt;98f2f904e3488601ca79146dfcca1b9d2d1aa06e Add qcells-hybrid-cloud (#16736)&lt;/li&gt;
 &lt;li&gt;8cc3b0f4d2bde21e3eb9e340b5ffb89c8d7665ec Allow marking tests to be skipped (#16528)&lt;/li&gt;
-&lt;li&gt;ccade7c1f0b8fed3f104dd01bd4efac8904a15a4 Amperfied: add phase getter (#16639)&lt;/li&gt;
 &lt;li&gt;8aab01f5a60910644afd8a50d48b5ed3f2420b75 Battery boost: mode change (#16705)&lt;/li&gt;
 &lt;li&gt;45377f55dab431a68eb09f50031ba1b930cfd715 EEBus: accept pending limits&lt;/li&gt;
-&lt;li&gt;921837c3e75b497a26c0e8c4965d843df724643f Elli: update status (#16478)&lt;/li&gt;
-&lt;li&gt;ee398fe6ad607bf3cde572158e5d5adfbc9efa20 Enphase: add inverters (#16625)&lt;/li&gt;
-&lt;li&gt;532f77fdeaf2d985234d598835647ef47b5f4061 Entsoe: handle multiple timeseries and gaps (#16592)&lt;/li&gt;
-&lt;li&gt;a0b40c1d633b44a3a1d81abcbeed992741a4451e Goodwe-hybrid: update Discharge-Mode (#16649)&lt;/li&gt;
-&lt;li&gt;a8df65f121c1dd3fb72f994bcdf8109b96a653bd Growatt TLX(H): add battery control (#16560)&lt;/li&gt;
-&lt;li&gt;96e6c972561dc3dc45f4b90a134705589a032147 Hardybarth Salia: add phase switching (#16683)&lt;/li&gt;
-&lt;li&gt;0ae27c792f68fb85c3491c795e9add0de0de44eb Huawei Sun2000: increase grid charge power (#16453)&lt;/li&gt;
-&lt;li&gt;67e59270787902b6510f0919e37c235961a01c02 Kostal Plenticore Gen2: add battery control (#16414)&lt;/li&gt;
 &lt;li&gt;16c467a65daab92ce505f8d5718f378208defbfd Loadpoint: add battery boost (experimental) (#16599)&lt;/li&gt;
 &lt;li&gt;37d1f5861f128427ebd82fd20efa3eb0998be6a1 Loadpoint: add enable/disable delay apis (#16396)&lt;/li&gt;
 &lt;li&gt;25a0ba05f6fc0da089cad0f902511025d24f4ad9 Loadpoint: add priority api (#16506)&lt;/li&gt;
@@ -160,29 +151,42 @@
 &lt;li&gt;11d2b8b85d1095fcae8c2b4c1b2eefaaa990b840 Modbus: add bytes setter (#16510)&lt;/li&gt;
 &lt;li&gt;5949829117199e7a5cdebcc552714f6cbcdd16b7 Move MaxACPower hybrid setting to pv config (#16735)&lt;/li&gt;
 &lt;li&gt;c5d31684f8946dec4ccf52f8b7b5b888c3b67941 Mqtt: add write timeout&lt;/li&gt;
-&lt;li&gt;c01be558f09a4b318fcb70a9ee4514a7f065c41a Ocpp: add sponsorship (BC)&lt;/li&gt;
-&lt;li&gt;550ca5a4207218c6af180a5353e1cb08c881ec61 PulsarPlus: differentiate by firmware (#16526)&lt;/li&gt;
-&lt;li&gt;ec1f09307c777680110885db1c5e4c8b6c4ebbb0 Pulsares: update serial signature&lt;/li&gt;
-&lt;li&gt;dcc80243439bb0e91898de2104541c80695f5797 SMA EVCharger: add api.EnergyMeter (#16731)&lt;/li&gt;
 &lt;li&gt;7046442b3a44876f57bd0a0fdcf5f59303046fcf Sessions UI: improve titles, labels, units (#16776)&lt;/li&gt;
 &lt;li&gt;cfa35f295b94de8e6420fd4fbf4ec4d2f67134af Sessions UI: visualization, month/year charts (#15902)&lt;/li&gt;
 &lt;li&gt;31f2df25dce5223f7c5a6880dd44669701bd1a4d Site: parallelise meter reading (#15372)&lt;/li&gt;
 &lt;li&gt;c964eb2951ec5d723e823dde0be93879febe7674 Site: parallelise reading pv and battery meters (#16474)&lt;/li&gt;
 &lt;li&gt;57aba0db314ff0917af64da450456b43dbe73748 Site: use safe residual power default for home battery prioritisation (#16632)&lt;/li&gt;
-&lt;li&gt;bed11f369c58a259b6e9cbcfbe3f4d21bfe4daba SofarSolar: clarify battery control (#16508)&lt;/li&gt;
-&lt;li&gt;b941f86ef0188a9f4fbfaa451d29c1fe8135b512 SofarSolar: ignore LSE3 modbus errors (#16618)&lt;/li&gt;
-&lt;li&gt;76650945c1540539fbd204fddb74f8fe9218caae SolarEdge Hybrid: clarify battery control  requirements (#16767)&lt;/li&gt;
-&lt;li&gt;c89bfcc000d7bad5500f8965314e9427ddea7f89 SolarEdge: add energy and currents (#16675)&lt;/li&gt;
-&lt;li&gt;f0d851a1d99e53d9f7fefdacdcbf3690a645ccff Solax/Fronius Gen24: add MaxACPower (#16662)&lt;/li&gt;
 &lt;li&gt;730ad8f3afcfe6d65a6c9224c03a588433d2535d Status UI: update tooltips with durations (#16664)&lt;/li&gt;
-&lt;li&gt;b313e3c511386775933b6e2fe608461167b02578 Tariff chart: price info on long touch (#16707)&lt;/li&gt;
-&lt;li&gt;fc377138d1debfea0d4bfc749911f1be580bf73b Tariff: support &amp;gt;48 slots&lt;/li&gt;
 &lt;li&gt;742d1e903650b3f3990dc9f2d9f54665cdb09439 UI: battery boost (experimental) (#16641)&lt;/li&gt;
 &lt;li&gt;971ff9a580cabcd79de170d456de360ef83ae2a7 UI: battery hold and grid charge icons (#16650)&lt;/li&gt;
 &lt;li&gt;184a95d318d6e879e8d337aa803cf9107913f42a UI: show real battery buffer start value (#16582)&lt;/li&gt;
-&lt;li&gt;b8d8758134fa5804a75ce06176b332e8d2e6d541 Vestel: add current getter (#16492)&lt;/li&gt;
 &lt;li&gt;84de4679654a9b32c58bc7e98da724a062741115 cli/meter: dump max ac power&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Chargers:
+* ccade7c1f0b8fed3f104dd01bd4efac8904a15a4 Amperfied: add phase getter (#16639)
+* 921837c3e75b497a26c0e8c4965d843df724643f Elli: update status (#16478)
+* 96e6c972561dc3dc45f4b90a134705589a032147 Hardybarth Salia: add phase switching (#16683)
+* c01be558f09a4b318fcb70a9ee4514a7f065c41a Ocpp: add sponsorship (BC)
+* 550ca5a4207218c6af180a5353e1cb08c881ec61 PulsarPlus: differentiate by firmware (#16526)
+* ec1f09307c777680110885db1c5e4c8b6c4ebbb0 Pulsares: update serial signature
+* dcc80243439bb0e91898de2104541c80695f5797 SMA EVCharger: add api.EnergyMeter (#16731)
+* b8d8758134fa5804a75ce06176b332e8d2e6d541 Vestel: add current getter (#16492)&lt;/p&gt;
+&lt;p&gt;Meters:
+* 98f2f904e3488601ca79146dfcca1b9d2d1aa06e Add qcells-hybrid-cloud (#16736)
+* ee398fe6ad607bf3cde572158e5d5adfbc9efa20 Enphase: add inverters (#16625)
+* a0b40c1d633b44a3a1d81abcbeed992741a4451e Goodwe-hybrid: update Discharge-Mode (#16649)
+* a8df65f121c1dd3fb72f994bcdf8109b96a653bd Growatt TLX(H): add battery control (#16560)
+* 0ae27c792f68fb85c3491c795e9add0de0de44eb Huawei Sun2000: increase grid charge power (#16453)
+* 67e59270787902b6510f0919e37c235961a01c02 Kostal Plenticore Gen2: add battery control (#16414)
+* bed11f369c58a259b6e9cbcfbe3f4d21bfe4daba SofarSolar: clarify battery control (#16508)
+* b941f86ef0188a9f4fbfaa451d29c1fe8135b512 SofarSolar: ignore LSE3 modbus errors (#16618)
+* 76650945c1540539fbd204fddb74f8fe9218caae SolarEdge Hybrid: clarify battery control  requirements (#16767)
+* c89bfcc000d7bad5500f8965314e9427ddea7f89 SolarEdge: add energy and currents (#16675)
+* f0d851a1d99e53d9f7fefdacdcbf3690a645ccff Solax/Fronius Gen24: add MaxACPower (#16662)&lt;/p&gt;
+&lt;p&gt;Tariffs:
+* 532f77fdeaf2d985234d598835647ef47b5f4061 Entsoe: handle multiple timeseries and gaps (#16592)
+* b313e3c511386775933b6e2fe608461167b02578 Tariff chart: price info on long touch (#16707)
+* fc377138d1debfea0d4bfc749911f1be580bf73b Tariff: support &amp;gt;48 slots&lt;/p&gt;
 &lt;p&gt;Fixes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;eb36a9b745f197bd2b676bc1b46b6a17b6884510 Battery UI: fix buffer start 0 (#16676)&lt;/li&gt;
