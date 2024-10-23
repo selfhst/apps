@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2024-10-23T11:32:45.044342-04:00</updated>
+  <updated>2024-10-23T12:32:32.517476-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -13,7 +13,7 @@
   <entry>
     <id>https://github.com/zitadel/zitadel/releases/tag/v2.60.4</id>
     <title>New release for Zitadel: v2.60.4</title>
-    <updated>2024-10-23T11:31:30-04:00</updated>
+    <updated>2024-10-23T11:54:37-04:00</updated>
     <author>
       <name>zitadel/zitadel</name>
     </author>

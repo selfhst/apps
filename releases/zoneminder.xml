@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ZoneMinder Releases</title>
-  <updated>2024-10-23T11:31:36.099003-04:00</updated>
+  <updated>2024-10-23T12:31:32.164627-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,6 +129,7 @@ https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-wrx3-r8c4-r24w
 https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-72rg-h4vf-29gr      CVE-2023-26035
 https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-222j-wh8m-xjrx     CVE-2023-26034
 https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-68vf-g4qm-jr6v      CVE-2023-25825&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ZoneMinder/zoneminder/compare/1.36.32...1.36.33&lt;/p&gt;
 &lt;p&gt;The bulk of these issues were found during Perfect Blue's 2023 CTF event. https://ctf.perfect.blue/&lt;/p&gt;
 &lt;p&gt;Thank you to the participants and thanks for the responsible disclosures.  We are stronger for it.&lt;/p&gt;
 &lt;p&gt;All users of ZoneMinder &amp;lt; 1.36.33 are hereby EXTREMELY STRONGLY recommended to update.&lt;/p&gt;</content>
@@ -215,7 +216,8 @@ https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-68vf-g4qm-jr6v
 &lt;li&gt;If the css in cookie is invalid, clear it so that the logs don't fill up with the warnings&lt;/li&gt;
 &lt;li&gt;Don't log error when ignoring action if it is an ajax request&lt;/li&gt;
 &lt;li&gt;Handle more than one level of output buffering when cleaning and ending them so we can send the video file so we don't run out of ram.  Fixes #4110&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ZoneMinder/zoneminder/compare/1.36.33...1.36.34&lt;/p&gt;</content>
     <link href="https://github.com/ZoneMinder/zoneminder/releases/tag/1.36.34" rel="alternate"/>
   </entry>
   <entry>
@@ -264,6 +266,7 @@ https://github.com/ZoneMinder/zoneminder/security/advisories/GHSA-68vf-g4qm-jr6v
 &lt;li&gt;Count keyframes on queuePacket so that analysis Ready() will start recording when there are enough packets in queue.&lt;/li&gt;
 &lt;li&gt;Make NULL be case-insensitive in filter rules&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ZoneMinder/zoneminder/compare/1.36.34...1.36.35&lt;/p&gt;
 &lt;p&gt;A lot of back ports from 1.37.  One security vulnerability fix.  The main thrust was the mysql and ffmpeg deprecations.  All users are encouraged to upgrade.&lt;/p&gt;
 &lt;p&gt;Updating the sort field on your filters can have a significant effect on mysql cpu/ram use.  For example the Update Disk Space filter defaults to sorting by StartDateTime or ID which makes mysql not use the index on EndDateTime and DiskSpace.  Since we don't care about the order we act on results, we don't need to sort at all.  So on a large database this query can go from hitting every row in the table, to almost none. &lt;/p&gt;</content>
     <link href="https://github.com/ZoneMinder/zoneminder/releases/tag/1.36.35" rel="alternate"/>
