@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ownCloud Infinite Scale Releases</title>
-  <updated>2024-10-23T10:32:31.473000-04:00</updated>
+  <updated>2024-10-23T11:32:33.409747-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -608,6 +608,7 @@
 &lt;li&gt;Bugfix - Thumbnail request limit: &lt;a href="https://github.com/owncloud/ocis/pull/10280"&gt;#10280&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Bugfix - Forbid the ocm space sharing: &lt;a href="https://github.com/owncloud/ocis/pull/10287"&gt;#10287&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Bugfix - Use secure config defaults for OCM: &lt;a href="https://github.com/owncloud/ocis/pull/10307"&gt;#10307&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bugfix - Graph service now supports &lt;code&gt;OCIS_LDAP_USER_SCHEMA_DISPLAYNAME&lt;/code&gt; env var: &lt;a href="https://github.com/owncloud/ocis/issues/10257"&gt;#10257&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Enhancement - Add OCM wellknown configuration: &lt;a href="https://github.com/owncloud/ocis/pull/9815"&gt;#9815&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Enhancement - Load IDP logo from theme: &lt;a href="https://github.com/owncloud/ocis/pull/10274"&gt;#10274&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Enhancement - WebOffice Templates: &lt;a href="https://github.com/owncloud/ocis/pull/10276"&gt;#10276&lt;/a&gt;&lt;/li&gt;
@@ -659,7 +660,18 @@
    if a thumbnail already existed in the cache.&lt;/p&gt;
 &lt;p&gt;https://github.com/owncloud/ocis/pull/10251&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Bugfix - Kept historical resource naming in activity: &lt;a href="https://github.com/owncloud/ocis/pull/10266"&gt;#10266&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bugfix - Graph service now supports &lt;code&gt;OCIS_LDAP_USER_SCHEMA_DISPLAYNAME&lt;/code&gt; env var: &lt;a href="https://github.com/owncloud/ocis/issues/10257"&gt;#10257&lt;/a&gt;
+   To align with the other services the graph service now supports the
+   &lt;code&gt;OCIS_LDAP_USER_SCHEMA_DISPLAYNAME&lt;/code&gt; environment variable to configure the LDAP
+   attribute that is used for display name attribute of users.
+   &lt;code&gt;LDAP_USER_SCHEMA_DISPLAY_NAME&lt;/code&gt; is now deprecated and will be removed in a
+   future release.
+   https://github.com/owncloud/ocis/issues/10257&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bugfix - Kept historical resource naming in activity: &lt;a href="https://github.com/owncloud/ocis/pull/10266"&gt;#10266&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Kept historical resource naming after renaming in activity for shares and public
    links.&lt;/p&gt;
