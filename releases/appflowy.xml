@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-10-24T08:32:04.126996-04:00</updated>
+  <updated>2024-10-24T09:32:04.209454-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,19 +139,21 @@
 &lt;h2&gt;Version 0.7.2 - 22/10/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;Import from Notion&lt;/li&gt;
 &lt;li&gt;Copy link to block&lt;/li&gt;
-&lt;li&gt;Support turn into in document&lt;/li&gt;
+&lt;li&gt;Turn content blocks into other types of content blocks&lt;/li&gt;
 &lt;li&gt;Enable sharing links and publishing pages on mobile&lt;/li&gt;
-&lt;li&gt;Enable drag and drop in row documents&lt;/li&gt;
-&lt;li&gt;Right-click on page in sidebar to open more actions&lt;/li&gt;
-&lt;li&gt;Create new subpage in document using &lt;code&gt;+&lt;/code&gt; character&lt;/li&gt;
-&lt;li&gt;Allow reordering checklist item&lt;/li&gt;
+&lt;li&gt;Enable drag-and-drop in database pages&lt;/li&gt;
+&lt;li&gt;Right-click in the sidebar to perform actions on pages&lt;/li&gt;
+&lt;li&gt;Create new subpages while typing using &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;@&lt;/code&gt;, or, &lt;code&gt;[[&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Drag to reorder checklist items&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed issue with inability to cancel inline code format in French IME&lt;/li&gt;
-&lt;li&gt;Fixed delete with Shift or Ctrl shortcuts not working in documents&lt;/li&gt;
-&lt;li&gt;Fixed the issues with incorrect time zone being used in filters.&lt;/li&gt;
+&lt;li&gt;Fixed delete / backspace with Shift or Ctrl shortcuts not working in documents&lt;/li&gt;
+&lt;li&gt;Fixed the issues with incorrect time zone being used in filters&lt;/li&gt;
+&lt;li&gt;Fixed date issues when including time&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.7.2" rel="alternate"/>
   </entry>

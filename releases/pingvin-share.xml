@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pingvin Share Releases</title>
-  <updated>2024-10-24T08:32:11.406136-04:00</updated>
+  <updated>2024-10-24T09:32:12.593767-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -79,7 +79,7 @@ This release addresses a vulnerability, and it is recommended to update to this 
   <entry>
     <id>https://github.com/stonith404/pingvin-share/releases/tag/v1.2.4</id>
     <title>New release for Pingvin Share: v1.2.4</title>
-    <updated>2024-10-24T08:02:09-04:00</updated>
+    <updated>2024-10-24T08:45:24-04:00</updated>
     <author>
       <name>stonith404/pingvin-share</name>
     </author>
