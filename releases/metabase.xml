@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-10-25T11:31:29.976307-04:00</updated>
+  <updated>2024-10-25T12:31:36.102628-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,7 +244,7 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 **Administration**
 
 - [SCIM user provisioning](https://www.metabase.com/docs/v0.51/people-and-groups/user-provisioning) (#38621, #18319, #47416)
-- Azure Managed Identity for Postgres and MySQL (#48235)
+- Azure Managed Identity for Postgres and MySQL (#43168, #48235)
 
 **Querying**
 
@@ -281,7 +281,7 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 
 **Embedding**
 
-- Embedding SDK beta (see [Embedding SDK changelog](https://github.com/metabase/metabase/blob/master/enterprise/frontend/src/embedding-sdk/CHANGELOG.md))
+- [Embedding SDK beta](https://www.metabase.com/docs/v0.51/embedding/sdk/introduction) (see [Embedding SDK changelog](https://github.com/metabase/metabase/blob/master/enterprise/frontend/src/embedding-sdk/CHANGELOG.md))
 - Add download PDF to static embedded dashboards (#42628, #46288, #34384)
 - Re-design transparent theme for static embedding and public links (#43838)
 
