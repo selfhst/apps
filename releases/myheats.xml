@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MyHeats Releases</title>
-  <updated>2024-10-25T03:32:29.337542-04:00</updated>
+  <updated>2024-10-25T04:32:32.153749-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,10 @@
 &lt;li&gt;Add SiriusXM Music Provider by @btoconnor in https://github.com/music-assistant/server/pull/1730&lt;/li&gt;
 &lt;li&gt;Add 'Don't stop the music' feature by @MarvinSchenkel in https://github.com/music-assistant/server/pull/1681&lt;/li&gt;
 &lt;li&gt;Complete refactor of player groups in frontend and backend by @marcelveldt in https://github.com/music-assistant/server/pull/1704&lt;/li&gt;
+&lt;li&gt;New Sonos provider for speakers running S2 firmware by @marcelveldt in https://github.com/music-assistant/server/pull/1600&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;p&gt;The Sonos provider has been rewritten from the ground up to support the new local, low latency API on Sonos speakers running the S2 firmware. If you have speakers running on S1 firmware, we have converted the old Sonos provider (with some tweaks and fixes) into the "Sonos S1" Provider. If your speakers are missing, make sure to uninstall the regular Sonos provider and install the S1 provider instead.&lt;/p&gt;
 &lt;h2&gt;Other noteworthy changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix loading state from cache when connecting to slimproto players by @kepstin in https://github.com/music-assistant/server/pull/1666&lt;/li&gt;
