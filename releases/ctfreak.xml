@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CTFreak Releases</title>
-  <updated>2024-10-24T21:32:29.073464-04:00</updated>
+  <updated>2024-10-24T22:32:24.029478-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,6 +98,7 @@
     </author>
     <content>&lt;h2&gt;New features/providers&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Add Bluesound Player provider by @Cyanogenbot in https://github.com/music-assistant/server/pull/1624&lt;/li&gt;
 &lt;li&gt;Add SiriusXM Music Provider by @btoconnor in https://github.com/music-assistant/server/pull/1730&lt;/li&gt;
 &lt;li&gt;Add 'Don't stop the music' feature by @MarvinSchenkel in https://github.com/music-assistant/server/pull/1681&lt;/li&gt;
 &lt;li&gt;Complete refactor of player groups in frontend and backend by @marcelveldt in https://github.com/music-assistant/server/pull/1704&lt;/li&gt;
