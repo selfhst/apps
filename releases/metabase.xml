@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-10-25T09:31:29.349017-04:00</updated>
+  <updated>2024-10-25T10:31:31.384883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -263,7 +263,7 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 
 **Visualizations**
 
-- Multi-dimensional / Sunburst Pie chart (#47209, #8563, #48316, #48421)
+- [Multi-dimensional / Sunburst Pie chart](https://www.metabase.com/docs/v0.51/questions/sharing/visualizations/pie-or-donut-chart) (#47209, #8563, #48316, #48421)
 - Export pivot tables as pivoted (#2473)
 - Drill-down options for visualizations built on native queries (#48466)
 - Toggle series visibility from chart legend (#47089, #2697)
