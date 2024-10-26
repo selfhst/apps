@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2024-10-25T20:31:12.539496-04:00</updated>
+  <updated>2024-10-25T21:31:13.342541-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -236,5 +236,117 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.8.1874...v4.0.9.2244&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.9.2244" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.10.2544</id>
+    <title>New release for Sonarr: 4.0.10.2544</title>
+    <updated>2024-10-25T21:06:38-04:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 562e0dd7c0a69460e24c3b4f7519b0a432029859 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring: Typescript button component by @Treycos in https://github.com/Sonarr/Sonarr/pull/7118&lt;/li&gt;
+&lt;li&gt;Refactoring: Icon component Typescript by @Treycos in https://github.com/Sonarr/Sonarr/pull/7119&lt;/li&gt;
+&lt;li&gt;Refactoring: Link polymorphic static typing by @Treycos in https://github.com/Sonarr/Sonarr/pull/7121&lt;/li&gt;
+&lt;li&gt;Tech: VSCode updated code action format by @Treycos in https://github.com/Sonarr/Sonarr/pull/7124&lt;/li&gt;
+&lt;li&gt;Fixed: Validate root folder existence when adding series by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7128&lt;/li&gt;
+&lt;li&gt;Fix disabled style for monitor toggle button by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7130&lt;/li&gt;
+&lt;li&gt;Fixed: Handle Spaces in ProxyBypassList by @bakerboy448 in https://github.com/Sonarr/Sonarr/pull/7133&lt;/li&gt;
+&lt;li&gt;New: Bypass IP addresses ranges in proxies by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7134&lt;/li&gt;
+&lt;li&gt;Fixed: Hide reboot and shutdown UI buttons on docker by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7136&lt;/li&gt;
+&lt;li&gt;Fixed: Paths for renamed episode files in Custom Script and Webhook by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7138&lt;/li&gt;
+&lt;li&gt;New: Bulk manage custom formats by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7116&lt;/li&gt;
+&lt;li&gt;Convert episode and season search modals to TypeScript by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7123&lt;/li&gt;
+&lt;li&gt;Fixed: Queue header by @markus101 in https://github.com/Sonarr/Sonarr/pull/7143&lt;/li&gt;
+&lt;li&gt;Refactoring: Icon button component Typescript by @Treycos in https://github.com/Sonarr/Sonarr/pull/7144&lt;/li&gt;
+&lt;li&gt;Refactoring: TableRowCell Typescript integration by @Treycos in https://github.com/Sonarr/Sonarr/pull/7145&lt;/li&gt;
+&lt;li&gt;Refactoring: Typescript SpinnerIcon component by @Treycos in https://github.com/Sonarr/Sonarr/pull/7146&lt;/li&gt;
+&lt;li&gt;Don't persist value for SslCertHash when checking for existence by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7148&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7152&lt;/li&gt;
+&lt;li&gt;Fixed: Generating absolute episode file paths in webhooks by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7150&lt;/li&gt;
+&lt;li&gt;Fixed: Forbid empty spaces in Must Contain/Must Not Contain for Release Profiles by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7151&lt;/li&gt;
+&lt;li&gt;Fixed: Importing files without media info available by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7156&lt;/li&gt;
+&lt;li&gt;Convert Components to TypeScript by @markus101 in https://github.com/Sonarr/Sonarr/pull/7142&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7166&lt;/li&gt;
+&lt;li&gt;Add Last Search Time to /episode API and to the Frontend (Cut-off Unmet &amp;amp; Missing) by @ManiMatter in https://github.com/Sonarr/Sonarr/pull/7091&lt;/li&gt;
+&lt;li&gt;Convert Interactive Search to TypeScript by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7158&lt;/li&gt;
+&lt;li&gt;Add IndexerFlags parsing to NewznabRssParser by @amdavie in https://github.com/Sonarr/Sonarr/pull/7160&lt;/li&gt;
+&lt;li&gt;New: Except language option for Language Custom Formats by @markus101 in https://github.com/Sonarr/Sonarr/pull/7163&lt;/li&gt;
+&lt;li&gt;Fixed: Failing to import any file for series if one has bad encoding by @markus101 in https://github.com/Sonarr/Sonarr/pull/7164&lt;/li&gt;
+&lt;li&gt;Cleanup History Details and a typo by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7165&lt;/li&gt;
+&lt;li&gt;Fixed: Respect Quality cutoff if Custom Format cutoff isn't met by @markus101 in https://github.com/Sonarr/Sonarr/pull/7167&lt;/li&gt;
+&lt;li&gt;New: Include seasons and episodes in Trakt import lists by @markus101 in https://github.com/Sonarr/Sonarr/pull/7171&lt;/li&gt;
+&lt;li&gt;Fixed: Links tooltip closing too quickly by @markus101 in https://github.com/Sonarr/Sonarr/pull/7172&lt;/li&gt;
+&lt;li&gt;New: Add MDBList link to series details by @markus101 in https://github.com/Sonarr/Sonarr/pull/7173&lt;/li&gt;
+&lt;li&gt;Convert Progress Bars to TypeScript by @markus101 in https://github.com/Sonarr/Sonarr/pull/7174&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7195&lt;/li&gt;
+&lt;li&gt;Shift quality definition limits management to the backend by @rcdailey in https://github.com/Sonarr/Sonarr/pull/7122&lt;/li&gt;
+&lt;li&gt;Minimum Upgrade Score for Custom Formats by @somniumV in https://github.com/Sonarr/Sonarr/pull/7161&lt;/li&gt;
+&lt;li&gt;Fixed: Series links not opening on iOS by @markus101 in https://github.com/Sonarr/Sonarr/pull/7178&lt;/li&gt;
+&lt;li&gt;A handful of fixes by @markus101 in https://github.com/Sonarr/Sonarr/pull/7184&lt;/li&gt;
+&lt;li&gt;New: Check for available space before grabbing by @markus101 in https://github.com/Sonarr/Sonarr/pull/7185&lt;/li&gt;
+&lt;li&gt;New: Add Bluray 576p quality by @markus101 in https://github.com/Sonarr/Sonarr/pull/7192&lt;/li&gt;
+&lt;li&gt;New: Add .zipx extension to known archive extensions by @markus101 in https://github.com/Sonarr/Sonarr/pull/7193&lt;/li&gt;
+&lt;li&gt;Gotify notification updates by @markus101 in https://github.com/Sonarr/Sonarr/pull/7194&lt;/li&gt;
+&lt;li&gt;Chore: add workflow to close issue when labelled as support by @stevietv in https://github.com/Sonarr/Sonarr/pull/7203&lt;/li&gt;
+&lt;li&gt;Add rating as option in sort dropdown by @stevietv in https://github.com/Sonarr/Sonarr/pull/7207&lt;/li&gt;
+&lt;li&gt;New: Use instance name in forms authentication cookie name by @markus101 in https://github.com/Sonarr/Sonarr/pull/7208&lt;/li&gt;
+&lt;li&gt;New: Add exception to SSL Certificate validation message by @markus101 in https://github.com/Sonarr/Sonarr/pull/7209&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7212&lt;/li&gt;
+&lt;li&gt;Refactoring: Clipboard Typescript &amp;amp; rewrite by @Treycos in https://github.com/Sonarr/Sonarr/pull/7168&lt;/li&gt;
+&lt;li&gt;Fixed: Links for Trakt and TVMaze in Gotify notifications by @markus101 in https://github.com/Sonarr/Sonarr/pull/7213&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7223&lt;/li&gt;
+&lt;li&gt;Parse KCRT as release group by @stevietv in https://github.com/Sonarr/Sonarr/pull/7215&lt;/li&gt;
+&lt;li&gt;New: Allowed sort keys for paginated resources by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7216&lt;/li&gt;
+&lt;li&gt;Fixed: Interactive searches causing multiple requests to indexers by @markus101 in https://github.com/Sonarr/Sonarr/pull/7217&lt;/li&gt;
+&lt;li&gt;fix: annotate passing apikey as query parameter consistently in description by @iMontouch in https://github.com/Sonarr/Sonarr/pull/7234&lt;/li&gt;
+&lt;li&gt;Adds includeSeries and includeEpisodeFile to episode endpoint (default = false) by @ManiMatter in https://github.com/Sonarr/Sonarr/pull/7219&lt;/li&gt;
+&lt;li&gt;Fixed: Adding Bluray 576p to some profiles by @markus101 in https://github.com/Sonarr/Sonarr/pull/7220&lt;/li&gt;
+&lt;li&gt;Fixed: Reprocessing manual import items unable to detect sample by @markus101 in https://github.com/Sonarr/Sonarr/pull/7222&lt;/li&gt;
+&lt;li&gt;New: Fetch up to 1000 series from Plex Watchlist by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7224&lt;/li&gt;
+&lt;li&gt;Fixed: Unable to login when instance name contained brackets by @markus101 in https://github.com/Sonarr/Sonarr/pull/7231&lt;/li&gt;
+&lt;li&gt;Fixed: Don't set last write time on episode files if difference is within the same second by @markus101 in https://github.com/Sonarr/Sonarr/pull/7232&lt;/li&gt;
+&lt;li&gt;New: Persist sort in Select Episodes modal by @markus101 in https://github.com/Sonarr/Sonarr/pull/7235&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7239&lt;/li&gt;
+&lt;li&gt;Fixed: Sorting queue by columns by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7237&lt;/li&gt;
+&lt;li&gt;New: Errors sending Telegram notifications when links aren't available by @markus101 in https://github.com/Sonarr/Sonarr/pull/7241&lt;/li&gt;
+&lt;li&gt;Fixed: Loading series images after placeholder in Safari by @markus101 in https://github.com/Sonarr/Sonarr/pull/7242&lt;/li&gt;
+&lt;li&gt;Fixed: Parsing of Hybrid-Remux by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7243&lt;/li&gt;
+&lt;li&gt;Fixed: Telegram Log Message by @RobinDadswell in https://github.com/Sonarr/Sonarr/pull/7244&lt;/li&gt;
+&lt;li&gt;Fix translation for Custom Colon Replacement label by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7245&lt;/li&gt;
+&lt;li&gt;Fixed: Ignore '.DS_Store' and '.unmanic' when scanning for files by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7247&lt;/li&gt;
+&lt;li&gt;Fixed: Don't reject revision upgrades if profile doesn't allow upgrades by @markus101 in https://github.com/Sonarr/Sonarr/pull/7257&lt;/li&gt;
+&lt;li&gt;Fixed: Ignore extra spaces in path when not running on Windows by @markus101 in https://github.com/Sonarr/Sonarr/pull/7258&lt;/li&gt;
+&lt;li&gt;New: Parse 'BEN THE MAN' release group by @markus101 in https://github.com/Sonarr/Sonarr/pull/7259&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7264&lt;/li&gt;
+&lt;li&gt;[DiskTransferService] WaitForIO after Copy/Move file by @jaredledvina in https://github.com/Sonarr/Sonarr/pull/7250&lt;/li&gt;
+&lt;li&gt;Convert Release Profiles to TypeScript by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7252&lt;/li&gt;
+&lt;li&gt;Fixed: Copy to clipboard in non-secure contexts by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7254&lt;/li&gt;
+&lt;li&gt;Fixed: Use Id from route and check for existence on provider update by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7256&lt;/li&gt;
+&lt;li&gt;Add new category for FL by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7267&lt;/li&gt;
+&lt;li&gt;Fixed: Validate path on series update by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7269&lt;/li&gt;
+&lt;li&gt;Fixed: Manual importing to nested series folders by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7271&lt;/li&gt;
+&lt;li&gt;Fixed: Clean paths for top level root folders by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7274&lt;/li&gt;
+&lt;li&gt;Use the first allowed quality for cutoff met rejection message with disabled upgrades by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7275&lt;/li&gt;
+&lt;li&gt;Fixed: Ignore free space check before grabbing if directory is missing by @markus101 in https://github.com/Sonarr/Sonarr/pull/7276&lt;/li&gt;
+&lt;li&gt;New: Use 307 redirect for requests missing URL Base by @markus101 in https://github.com/Sonarr/Sonarr/pull/7277&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7281&lt;/li&gt;
+&lt;li&gt;Convert Naming options to TypeScript by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7266&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7286&lt;/li&gt;
+&lt;li&gt;Bump version to 4.0.10 by @markus101 in https://github.com/Sonarr/Sonarr/pull/7322&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@amdavie made their first contribution in https://github.com/Sonarr/Sonarr/pull/7160&lt;/li&gt;
+&lt;li&gt;@somniumV made their first contribution in https://github.com/Sonarr/Sonarr/pull/7161&lt;/li&gt;
+&lt;li&gt;@iMontouch made their first contribution in https://github.com/Sonarr/Sonarr/pull/7234&lt;/li&gt;
+&lt;li&gt;@jaredledvina made their first contribution in https://github.com/Sonarr/Sonarr/pull/7250&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.9.2244...v4.0.10.2544&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.10.2544" rel="alternate"/>
   </entry>
 </feed>
