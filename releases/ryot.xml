@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-10-27T11:31:09.463529-04:00</updated>
+  <updated>2024-10-27T12:31:10.541985-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,7 +125,11 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates for this release&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New jellyfin integration which allows you to automatically marks items as seen in Jellyfin when you do so in Ryot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/d62dc9f3488d25a20f49c46770554729c57d210c"&gt;d62dc9f3&lt;/a&gt; - Send additional details to *arr integrations (#1081)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/22b89ebc1dab69585b678edde019f4ce85f1705f"&gt;22b89ebc&lt;/a&gt; - New preference for workout logging (#1085)&lt;/li&gt;
