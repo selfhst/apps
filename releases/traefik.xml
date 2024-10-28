@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-10-28T08:31:36.869456-04:00</updated>
+  <updated>2024-10-28T09:31:45.372360-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,13 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v3.1.7&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Preserve HTTPRoute filters order (&lt;a href="https://github.com/traefik/traefik/pull/11198"&gt;#11198&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[k8s,k8s/gatewayapi]&lt;/strong&gt; Fix broken links in Kubernetes Gateway provider page (&lt;a href="https://github.com/traefik/traefik/pull/11188"&gt;#11188&lt;/a&gt; by &lt;a href="https://github.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+- Merge branch v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/11232"&gt;#11232&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v2.11 into v3.1 (&lt;a href="https://github.com/traefik/traefik/pull/11218"&gt;#11218&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.1.7" rel="alternate"/>
   </entry>
 </feed>
