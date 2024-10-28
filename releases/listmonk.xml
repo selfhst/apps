@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>listmonk Releases</title>
-  <updated>2024-10-28T03:31:39.448852-04:00</updated>
+  <updated>2024-10-28T04:31:38.802300-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -538,17 +538,17 @@ docker-compose up -d app db
     <link href="https://github.com/knadh/listmonk/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/knadh/listmonk/releases/tag/v4.0.0</id>
-    <title>New release for listmonk: v4.0.0</title>
-    <updated>2024-10-27T14:32:26-04:00</updated>
+    <id>https://github.com/knadh/listmonk/releases/tag/v4.0.1</id>
+    <title>New release for listmonk: v4.0.1</title>
+    <updated>2024-10-28T03:56:09-04:00</updated>
     <author>
       <name>knadh/listmonk</name>
     </author>
     <content>&lt;p&gt;&lt;a href="https://listmonk.app"&gt;&lt;img alt="listmonk-logo" src="https://user-images.githubusercontent.com/547147/134940003-1de03d83-8c7b-459b-8056-baa8d5f3b448.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;v4.0.0 is a major release with a significant number of improvements and fixes.&lt;/p&gt;
+&lt;p&gt;v4.0.1 is a major release with a significant number of improvements and fixes.&lt;/p&gt;
 &lt;h1&gt;⚠️ Important: Upgrading from v3.x.x&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;As always, take a backup of your Postgres database before upgrading.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;v4.0.0 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;v4.0.1 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What's new?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Multi-user support with granular permissions, user, role, per-list permissions and API token management.&lt;/li&gt;
@@ -576,6 +576,10 @@ docker-compose up -d app db
 &lt;p&gt;Note: A highly simplified, self-contained (no config.toml dependency) &lt;a href="https://github.com/knadh/listmonk/blob/master/docker-compose.yml"&gt;docker-compose.yml&lt;/a&gt; file is now available with v4.0.0&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;f5dfb0cf62f1097545ff315a5c1d9ac540d54b9e Remove root URL from login setup form to prevent bad redirect on first install. Closes #2103.&lt;/li&gt;
+&lt;li&gt;136d9d1fa9e69bec8c8c3de2720609ad2f704aeb Don't fail on chown in Docker entry script. Closes #2104.&lt;/li&gt;
+&lt;li&gt;8ef71aa7a4d85f801a7ae5d592bf3de3888eaff9 Fix docker-compose curl command examples.&lt;/li&gt;
+&lt;li&gt;120d27575b66e314db9d13f4dc52369ab4ac15f1 Update release link on static site homepage.&lt;/li&gt;
 &lt;li&gt;3894571d1ac0b5baa5bcb15a173e4e1020d7a113 Remove obsolete demo file reference from Docker build commands.&lt;/li&gt;
 &lt;li&gt;0f2c679e5b7476b246a8b4a5a3854b55e7abff31 Remove deprecated goreleaser flag from GitHub action workflow.&lt;/li&gt;
 &lt;li&gt;11cb3ce8908aa144a77f87761541765d1301e0c1 Update gorelease Go build version to latest.&lt;/li&gt;
@@ -811,6 +815,6 @@ docker-compose up -d app db
 &lt;li&gt;@abhinandkakkadi made their first contribution in https://github.com/knadh/listmonk/pull/2095&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/knadh/listmonk/compare/v3.0.0...v4.0.0&lt;/p&gt;</content>
-    <link href="https://github.com/knadh/listmonk/releases/tag/v4.0.0" rel="alternate"/>
+    <link href="https://github.com/knadh/listmonk/releases/tag/v4.0.1" rel="alternate"/>
   </entry>
 </feed>
