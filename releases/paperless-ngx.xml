@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2024-10-28T17:31:00.047750-04:00</updated>
+  <updated>2024-10-28T18:31:00.029478-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -294,7 +294,6 @@ Paperless-ngx v2.11.6 fixes an issue with one of our dependencies that prevented
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix: allow removing dead document links from UI, validate via API @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/8081"&gt;#8081&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix: Removes whitenoise patches and upgrades it to 6.8.1 @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/8079"&gt;#8079&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: Make all document related objects soft delete, fix filepath when deleted @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/8067"&gt;#8067&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: handle uuid fields created under mariadb and Django 4 @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/8034"&gt;#8034&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix / Enhancement: auto-rename document files when select type custom fields are changed @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/8045"&gt;#8045&lt;/a&gt;)&lt;/li&gt;
