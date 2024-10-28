@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Semaphore UI Releases</title>
-  <updated>2024-10-28T04:34:07.309493-04:00</updated>
+  <updated>2024-10-28T05:34:11.924803-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,14 +160,15 @@
     <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.10.33" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/semaphoreui/semaphore/releases/tag/v2.10.34</id>
-    <title>New release for Semaphore UI: v2.10.34</title>
-    <updated>2024-10-26T15:26:17-04:00</updated>
+    <id>https://github.com/semaphoreui/semaphore/releases/tag/v2.10.35</id>
+    <title>New release for Semaphore UI: v2.10.35</title>
+    <updated>2024-10-28T04:42:46-04:00</updated>
     <author>
       <name>semaphoreui/semaphore</name>
     </author>
     <content>&lt;h2&gt;Bugfixes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Provide &lt;code&gt;PATH&lt;/code&gt; environment variable for Terraform, PowerShell and other apps.&lt;/li&gt;
 &lt;li&gt;Docker: fixed database port environment variable https://github.com/semaphoreui/semaphore/issues/2502&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Links&lt;/h2&gt;
@@ -184,6 +185,6 @@
 &lt;li&gt;Every day we add new features, fix bugs, support the community. We need your support&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/sponsors/semaphoreui"&gt;&lt;img alt="sponsor" src="https://img.shields.io/badge/become_a_sponsor-d9c7ff?style=for-the-badge&amp;amp;logo=github-sponsors" /&gt;&lt;/a&gt; &lt;a href="https://ko-fi.com/fiftin"&gt;&lt;img alt="ko-fi" src="https://img.shields.io/badge/buy_me_a_coffee-0ba0e0?style=for-the-badge&amp;amp;logo=kofi" /&gt;&lt;/a&gt; &lt;a href="https://www.patreon.com/semaphoreui"&gt;&lt;img alt="patreon" src="https://img.shields.io/badge/become_a_patreon-teal?style=for-the-badge&amp;amp;logo=patreon" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.10.34" rel="alternate"/>
+    <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.10.35" rel="alternate"/>
   </entry>
 </feed>
