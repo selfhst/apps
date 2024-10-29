@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>listmonk Releases</title>
-  <updated>2024-10-29T01:31:34.526777-04:00</updated>
+  <updated>2024-10-29T02:31:40.499992-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -549,6 +549,7 @@ docker-compose up -d app db
 &lt;h1&gt;⚠️ Important: Upgrading from v3.x.x&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;As always, take a backup of your Postgres database before upgrading.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;v4.0.1 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Broken &lt;code&gt;/api/lists/:id&lt;/code&gt;:&lt;/strong&gt; If you're using this API call, please refrain from upgrading to this version for now. It's broken in this release, but has been fixed and a new version will be made available soon. &lt;/p&gt;
 &lt;h2&gt;What's new?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Multi-user support with granular permissions, user, role, per-list permissions and API token management.&lt;/li&gt;
@@ -573,7 +574,6 @@ docker-compose up -d app db
 docker-compose pull &amp;amp;&amp;amp; docker-compose run --rm app ./listmonk --upgrade
 docker-compose up -d app db
 ```&lt;/p&gt;
-&lt;p&gt;Note: A highly simplified, self-contained (no config.toml dependency) &lt;a href="https://github.com/knadh/listmonk/blob/master/docker-compose.yml"&gt;docker-compose.yml&lt;/a&gt; file is now available with v4.0.0&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;f5dfb0cf62f1097545ff315a5c1d9ac540d54b9e Remove root URL from login setup form to prevent bad redirect on first install. Closes #2103.&lt;/li&gt;
