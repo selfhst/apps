@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RapidForge Releases</title>
-  <updated>2024-10-29T07:33:54.578514-04:00</updated>
+  <updated>2024-10-29T08:34:00.695622-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,15 +72,8 @@ https://youtu.be/ONQf2WiIxW0&lt;/li&gt;
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;cc09edc52aa0b3e725558522bb5c915e5069f5a1 Merge pull request #3 from rapidforge-io/add-lua&lt;/li&gt;
-&lt;li&gt;d574d817e7efe4b8bddedadbd3c6775acfa8d060 clean comments&lt;/li&gt;
-&lt;li&gt;3c1d6f70d9f51cf3f6f2e4cda84934bf1f63ff3d bug fixes&lt;/li&gt;
-&lt;li&gt;65e9b68e67ae2d2561b3a0dd2741432ba8efb94f add lua support&lt;/li&gt;
-&lt;li&gt;42a2265e44cab53bf495f716a83ce936b4a5c4a6 bump version v0.8.7&lt;/li&gt;
-&lt;li&gt;4e91e2ef99200fed0c3d86cb0866b8490988cc84 bump version&lt;/li&gt;
-&lt;li&gt;e9d9ebb22166a6dacd1d0be16cfe4aa0d78f41a8 Merge pull request #2 from rapidforge-io/kv&lt;/li&gt;
-&lt;li&gt;518778b42f618f7c579d83494d4bc6ab199f5c9c cli updates&lt;/li&gt;
-&lt;li&gt;4ed7493995b52bfac029798563efae4f8d4be3c5 kv cli&lt;/li&gt;
+&lt;li&gt;Minor UI improvements&lt;/li&gt;
+&lt;li&gt;Lua VM (https://www.youtube.com/watch?v=PeRaFBCEzM4)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/rapidforge-io/release/releases/tag/v0.8.8" rel="alternate"/>
   </entry>
