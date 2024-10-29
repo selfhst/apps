@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hollo Releases</title>
-  <updated>2024-10-29T10:33:18.476395-04:00</updated>
+  <updated>2024-10-29T11:33:18.831104-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,5 +75,18 @@
 &lt;li&gt;It now sends &lt;code&gt;Delete(Person)&lt;/code&gt; activity to followees besides followers when a user deletes their account.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dahlia/hollo/releases/tag/0.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dahlia/hollo/releases/tag/0.1.4</id>
+    <title>New release for Hollo: Hollo 0.1.4</title>
+    <updated>2024-10-29T11:13:05-04:00</updated>
+    <author>
+      <name>dahlia/hollo</name>
+    </author>
+    <content>&lt;p&gt;Released on October 30, 2024.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed the home timeline showing the shared posts from the blocked or muted accounts.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dahlia/hollo/releases/tag/0.1.4" rel="alternate"/>
   </entry>
 </feed>
