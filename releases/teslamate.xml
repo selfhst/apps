@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TeslaMate Releases</title>
-  <updated>2024-10-30T03:33:52.804616-04:00</updated>
+  <updated>2024-10-30T04:33:52.232613-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -287,7 +287,7 @@ Please also note: &lt;a href="https://github.com/teslamate-org/teslamate/release
 &lt;h3&gt;New features&lt;/h3&gt;
 &lt;h3&gt;Improvements and bug fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;fix: use elixir-1.17.3-otp-26 to avoid beam.smp chewing CPU on arm (#4319 - @swiffer and @JakobLichterfeld)&lt;/li&gt;
+&lt;li&gt;fix: use elixir-1.17.3-otp-26 to avoid beam.smp chewing CPU on arm (#4319 - @brianmay, @swiffer and @JakobLichterfeld)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Build, CI, internal&lt;/h4&gt;
 &lt;ul&gt;
