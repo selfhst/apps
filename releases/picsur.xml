@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Picsur Releases</title>
-  <updated>2024-10-30T16:31:41.736812-04:00</updated>
+  <updated>2024-10-30T17:31:38.951473-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -25,5 +25,15 @@
 &lt;li&gt;Fixed issue where people locked themselves out by misconfiguring permissions&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/CaramelFur/Picsur/releases/tag/0.5.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CaramelFur/Picsur/releases/tag/0.5.4</id>
+    <title>New release for Picsur: V0.5.4 - Update all packages and depencies</title>
+    <updated>2024-10-30T17:05:03-04:00</updated>
+    <author>
+      <name>CaramelFur/Picsur</name>
+    </author>
+    <content>&lt;p&gt;This release updates all dependencies to ensure proper security&lt;/p&gt;</content>
+    <link href="https://github.com/CaramelFur/Picsur/releases/tag/0.5.4" rel="alternate"/>
   </entry>
 </feed>
