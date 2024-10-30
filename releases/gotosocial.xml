@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoToSocial Releases</title>
-  <updated>2024-10-30T08:30:30.639409-04:00</updated>
+  <updated>2024-10-30T09:30:29.570636-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -753,7 +753,7 @@ media-emoji-remote-max-size: 0&lt;/code&gt; &lt;/p&gt;
       <name>superseriousbusiness/gotosocial</name>
     </author>
     <content>&lt;p&gt;Here's bugfix version 0.17.1 of GoToSocial!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;If updating to this version from 0.16.0 or below&lt;/strong&gt;, please follow the &lt;a href="https://github.com/superseriousbusiness/gotosocial/releases"&gt;instructions for v0.17.0&lt;/a&gt;, replacing &lt;code&gt;0.17.0&lt;/code&gt; with &lt;code&gt;0.17.1&lt;/code&gt; throughout. ⚠️ Be aware that updating to this version from 0.16.0 or below will involve some serious database migrations. Check the 0.17.0 release notes carefully for more details on this. ⚠️&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If updating to this version from 0.16.0 or below&lt;/strong&gt;, please follow the &lt;a href="https://github.com/superseriousbusiness/gotosocial/releases/tag/v0.17.0"&gt;instructions for v0.17.0&lt;/a&gt;, replacing &lt;code&gt;0.17.0&lt;/code&gt; with &lt;code&gt;0.17.1&lt;/code&gt; throughout. ⚠️ Be aware that updating to this version from 0.16.0 or below will involve some serious database migrations. Check the 0.17.0 release notes carefully for more details on this. ⚠️&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;If updating to this version from 0.17.0, follow the instructions below.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Release highlights&lt;/h2&gt;
 &lt;ul&gt;

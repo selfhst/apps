@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docmost Releases</title>
-  <updated>2024-10-30T08:32:46.009020-04:00</updated>
+  <updated>2024-10-30T09:32:46.567222-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,8 +154,7 @@
 &lt;li&gt;fix: save excalidraw diagram in light mode only (https://github.com/docmost/docmost/commit/9e0fbae1debae93e7d93b6e0f24f87ca36affcfd)&lt;/li&gt;
 &lt;li&gt;fix: sync color scheme with excalidraw (https://github.com/docmost/docmost/commit/31feb38def78fc4ef5d7610fed804faa3f57805a)&lt;/li&gt;
 &lt;li&gt;fix: email overflow (https://github.com/docmost/docmost/commit/a574d13f43ac58e0094096f14b2b476fc50bc2c2)&lt;/li&gt;
-&lt;li&gt;fix: filter out redundant 'everyone' group on members invite page
- (https://github.com/docmost/docmost/commit/ba32e42ece50bf0d528ed3ea90e4c7ab0892fb4c)&lt;/li&gt;
+&lt;li&gt;fix: filter out redundant default group on members invite page since users are auto-added (https://github.com/docmost/docmost/commit/ba32e42ece50bf0d528ed3ea90e4c7ab0892fb4c)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
