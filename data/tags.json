@@ -2,7 +2,8 @@
     {
         "Tag": "*arr",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -866,7 +867,8 @@
     {
         "Tag": "Television",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
