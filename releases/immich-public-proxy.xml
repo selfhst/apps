@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-10-31T12:34:03.074631-04:00</updated>
+  <updated>2024-10-31T13:34:08.638813-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -21,5 +21,17 @@
 &lt;p&gt;To install, just copy the &lt;a href="https://github.com/alangrainger/immich-public-proxy/blob/main/docker-compose.yml"&gt;docker-compose.yml&lt;/a&gt; file, and create yourself a &lt;code&gt;.env&lt;/code&gt; file.&lt;/p&gt;
 &lt;p&gt;https://github.com/alangrainger/immich-public-proxy?tab=readme-ov-file#how-to-install-with-docker&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.2.1</id>
+    <title>New release for Immich Public Proxy: 1.2.1</title>
+    <updated>2024-10-31T12:46:24-04:00</updated>
+    <author>
+      <name>alangrainger/immich-public-proxy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Change base image to &lt;code&gt;node:lts-alpine&lt;/code&gt; to reduce image size&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>

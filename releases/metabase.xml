@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-10-31T12:31:29.768015-04:00</updated>
+  <updated>2024-10-31T13:31:32.979917-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,15 +244,15 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 **Administration**
 
 - [SCIM user provisioning](https://www.metabase.com/docs/v0.51/people-and-groups/user-provisioning) (#38621, #18319, #47416)
-- Azure Managed Identity for Postgres and MySQL (#43168, #48235)
+- [Azure Managed Identity](https://www.metabase.com/docs/latest/databases/connections/postgresql#use-an-authentication-provider) for Postgres (#43168, #48235)
 
 **Querying**
 
 - [Revamped Metrics](https://www.metabase.com/docs/v0.51/data-modeling/metrics) (#37335, #47147, #46956, #48217, #48190, #47723, #47313, #47051, #45824, #46994, #46798, #43160, #48447)
-- Filter by columns from all stages in the query builder (#47800)
+- [Filter by columns from all stages](https://www.metabase.com/docs/v0.51/questions/query-builder/introduction#filter-multiple-columns) in the query builder (#47800)
 - "Select all" option in the filter dropdown ( #47860, #48395, #47861, #21600, #47896, #48408)
-- Allow multiple breakouts of the same column (#46536, #4726)
-- Ctrl/Cmd + Click to open the data source in a new tab from the query builder (#46201, #45095)
+- Allow [multiple breakouts](https://www.metabase.com/docs/v0.51/questions/query-builder/introduction#grouping-your-metrics) of the same column (#46536, #4726)
+- [Ctrl/Cmd + Click to open the data source](https://www.metabase.com/docs/v0.51/questions/query-builder/introduction#picking-data) in a new tab from the query builder (#46201, #45095)
 - Search by source type in "Pick your data" (#47281)
 
 **Dashboards**
@@ -264,10 +264,10 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 **Visualizations**
 
 - [Multi-dimensional / Sunburst Pie chart](https://www.metabase.com/docs/v0.51/questions/sharing/visualizations/pie-or-donut-chart) (#47209, #8563, #48316, #48421)
-- Export pivot tables as pivoted (#2473)
-- Drill-down options for visualizations built on native queries (#48466)
-- Toggle series visibility from [chart legend](https://www.metabase.com/docs/v0.51/questions/sharing/visualizations/line-bar-and-area-charts#chart-legend) (#47089, #2697)
-- Control which columns appear in [tooltips](https://www.metabase.com/docs/v0.51/questions/sharing/tooltips) (#5176, #47700)
+- [Export pivot tables as pivoted](https://www.metabase.com/docs/v0.51/questions/sharing/exporting-results#exporting-pivot-tables)  (#2473)
+- [Drill-through options](https://www.metabase.com/docs/v0.51/questions/native-editor/writing-sql#drill-though-in-sql-questions) for visualizations built on native queries (#48466)
+- [Toggle series visibility from chart legend](https://www.metabase.com/docs/v0.51/questions/sharing/visualizations/line-bar-and-area-charts#chart-legend) (#47089, #2697)
+- [Control which columns appear in tooltips](https://www.metabase.com/docs/v0.51/questions/sharing/tooltips) (#5176, #47700)
 
 **Notifications**
 
@@ -275,28 +275,28 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 
 **Organizations**
 
-- Info sheets sidebar for questions, dashboards, and collections (#48152, #48327, #48082, #47919, #47904, #47130, #47131, #47132, #46639)
-- Replace Archive with a new [Trash collection](https://www.metabase.com/docs/v0.51/exploration-and-organization/delete-and-restore) (#46184, #43494, #21341, #44088, #44124, #44178, #44181, #44287, #44304, #44373, #44708)
-- Automatically cleanup collections from unused content (#44253)
+- [Info sheets sidebar](https://www.metabase.com/v0.51/latest/questions/sharing/answers#info-about-your-question) for questions, dashboards, and collections (#48152, #48327, #48082, #47919, #47904, #47130, #47131, #47132, #46639)
+- [Replace Archive with a new Trash collection](https://www.metabase.com/docs/v0.51/exploration-and-organization/delete-and-restore) (#46184, #43494, #21341, #44088, #44124, #44178, #44181, #44287, #44304, #44373, #44708)
+- [Automatically cleanup collections](https://www.metabase.com/docs/v0.51/exploration-and-organization/collections#cleaning-up-collections) from unused content (#44253)
 
 **Embedding**
 
 - [Embedding SDK beta](https://www.metabase.com/docs/v0.51/embedding/sdk/introduction) (see [Embedding SDK changelog](https://github.com/metabase/metabase/blob/master/enterprise/frontend/src/embedding-sdk/CHANGELOG.md))
-- Add download PDF to static embedded dashboards (#42628, #46288, #34384)
+- [Add download PDF](https://www.metabase.com/v0.51/latest/embedding/static-embedding-parameters#disable-downloads-for-an-embedded-question-or-dashboard) to static embedded dashboards (#42628, #46288, #34384)
 - Re-design transparent theme for static embedding and public links (#43838)
 
 ### Enhancements
 
 **Administration**
 
-- Expand the permissions to upload CVSs to non-admin who have Curate permissions on Our analytics (#48325)
-- Add Diagnostic Info as command palette action (#48049)
+- Expand the permissions to upload CSVs to non-admin who have Curate permissions on Our analytics (#48325)
+- Add [Diagnostic Info](https://www.metabase.com/docs/v0.51/troubleshooting-guide/diagnostic-info) as command palette action (#48049)
 - Faster sync on BigQuery (#48094)
 - Add a table listing the dashboard and questions that have their own caching policies (#42567)
 
 **Visualizations**
 
-- Pie chart improvements (#40617, #37145, #9312, #12152, #26916,#46349 ):
+- [Pie chart improvements](https://www.metabase.com/docs/v0.51/questions/sharing/visualizations/pie-or-donut-chart#pie-and-sunburst-chart-settings) (#40617, #37145, #9312, #12152, #26916,#46349 ):
 
   - Set the number of decimal places for percentages
   - Rename and reorder labels for segments
@@ -306,7 +306,7 @@ Download the JAR here: https://downloads.metabase.com/v0.51.1/metabase.jar&lt;/p
 **Querying**
 
 - Hide time inputs in the date picker when the column does not support date+time filters (#48818)
-- Implement better partitioning and sorting in window functions (#48028)
+- Implement [better partitioning and sorting](https://www.metabase.com/docs/v0.51/questions/query-builder/expressions/cumulative#cumulative-metrics-with-multiple-breakouts) in cumulative and window functions (#48028)
 - Improve navigation and behavior for multi-select text filters (#42504)
 - Elevate “include this period” in time filters (#44096, #42220)
 - Default to `Is` operator when `Filtering on this field` is set to `A list of all values` or `Search box` (#48412)
