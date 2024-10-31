@@ -726,7 +726,8 @@
     {
         "Tag": "Reverse Proxy",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
