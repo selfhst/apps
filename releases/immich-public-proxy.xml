@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-10-31T14:34:18.479641-04:00</updated>
+  <updated>2024-10-31T15:33:55.077201-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,7 +44,14 @@
     <content>&lt;ul&gt;
 &lt;li&gt;Update base image to &lt;code&gt;node:lts-slim&lt;/code&gt; to fix build issue&lt;/li&gt;
 &lt;li&gt;Update healthcheck to match available packages in &lt;code&gt;lts-slim&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;Breaking change&lt;/h2&gt;
+&lt;p&gt;You will need to update your container healthcheck like this:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+    healthcheck:
+      test: node /app/healthcheck.js
+      interval: 120s
+      start_period: 5s&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>
