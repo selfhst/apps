@@ -6212,8 +6212,8 @@
     {
         "Project": "ChartDB",
         "Reference": "chartdb",
-        "Sponsor": null,
-        "Sponsor URL": null,
+        "Sponsor": "Label",
+        "Sponsor URL": "https://chartdb.io/",
         "Website": "https://chartdb.io/",
         "Repository Link": "https://github.com/chartdb/chartdb",
         "Description": "Open source database design editor",
