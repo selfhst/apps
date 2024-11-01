@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Picsur Releases</title>
-  <updated>2024-11-01T10:31:34.573856-04:00</updated>
+  <updated>2024-11-01T11:31:34.735461-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,16 @@
     </author>
     <content>&lt;p&gt;This release updates all dependencies to ensure proper security&lt;/p&gt;</content>
     <link href="https://github.com/CaramelFur/Picsur/releases/tag/0.5.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CaramelFur/Picsur/releases/tag/0.5.5</id>
+    <title>New release for Picsur: V0.5.5 - Potential thumnail bug fix</title>
+    <updated>2024-11-01T10:51:30-04:00</updated>
+    <author>
+      <name>CaramelFur/Picsur</name>
+    </author>
+    <content>&lt;p&gt;In this release most of the thumbnail rendering in the gallery has been rewritten, as far as I could test this has solved the wrong thumbnail bug.
+But please file a report if this is not the case.&lt;/p&gt;</content>
+    <link href="https://github.com/CaramelFur/Picsur/releases/tag/0.5.5" rel="alternate"/>
   </entry>
 </feed>
