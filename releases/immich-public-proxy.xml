@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-11-01T07:33:57.338320-04:00</updated>
+  <updated>2024-11-01T08:33:56.693204-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,5 +53,17 @@
       interval: 120s
       start_period: 5s&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.2.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.3.0</id>
+    <title>New release for Immich Public Proxy: 1.3.0</title>
+    <updated>2024-11-01T07:44:39-04:00</updated>
+    <author>
+      <name>alangrainger/immich-public-proxy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Add support for password-protected shares #7 &lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
