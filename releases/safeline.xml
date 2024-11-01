@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SafeLine Releases</title>
-  <updated>2024-10-31T21:33:49.952052-04:00</updated>
+  <updated>2024-10-31T22:33:47.583188-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,7 +116,19 @@
     <author>
       <name>chaitin/SafeLine</name>
     </author>
-    <content/>
+    <content>&lt;h4&gt;Improvements&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;System-&amp;gt;Attack Alert add Telegram&lt;/li&gt;
+&lt;li&gt;Pro version supports deployment on ARM servers&lt;/li&gt;
+&lt;li&gt;Site detail add "Custom NGINX Config"&lt;/li&gt;
+&lt;li&gt;Clean Data add selection of cleaning 7 days, 15 days, or 30 days of data&lt;/li&gt;
+&lt;li&gt;Pro version add Anti-Replay in Anti-Bot&lt;/li&gt;
+&lt;li&gt;Improve the performance of data statistics and reduce memory usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;FIx&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix the problem that the SSL protocol version will be reset after restarting&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/chaitin/SafeLine/releases/tag/v7.1.0" rel="alternate"/>
   </entry>
 </feed>
