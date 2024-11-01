@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-11-01T11:31:05.507521-04:00</updated>
+  <updated>2024-11-01T12:31:08.353788-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -392,11 +392,23 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h1&gt;7.0.0&lt;/h1&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;Rocket.Chat has introduced several key updates. Enterprise users can now leverage add-ons like &lt;a href="https://docs.rocket.chat/docs/rocketchat-ai-app"&gt;RC AI&lt;/a&gt;, &lt;a href="https://docs.rocket.chat/docs/team-voice-calls-voip"&gt;VoIP for Team Collaboration&lt;/a&gt;, and WhatsApp 360 Dialog for expanded capabilities. The Starter Plan now supports up to 50 users, and Community Edition users can upgrade via the Cloud Portal.&lt;/p&gt;
+&lt;p&gt;Security enhancements include the removal of the Compatible Sandbox in favor of a Secure Sandbox for integration scripts. Omnichannel optimizations have significantly improved visitor processing times, and ACH Debit is now available as a payment option.&lt;/p&gt;
+&lt;p&gt;A new VoIP for Team Collaboration beta feature allows direct calls within the platform. MongoDB 7.0 is supported, while MongoDB 4.4 has been deprecated. The platform has been upgraded to Node.js 20.x and Meteor 3.0 for better performance.&lt;/p&gt;
+&lt;p&gt;E2EE now has a confirmation modal and an option to reset room keys. Uploading private apps is limited to premium plans, and air-gapped environments are only supported on premium plans for licensing compliance. Admins now have enhanced control over team permissions, and the sidebar has gained collapsible categories and a recent room view as part of &lt;a href="https://docs.rocket.chat/v1/docs/feature-preview"&gt;Feature preview&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Support window restrictions now work as intended, and issues causing E2EE room freezes, and multiple LDAP sync cron jobs have been resolved. Login button customization properly applies WCAG warnings, and a broken translation in the "Forgot Password" email has been fixed. Deprecated endpoints have been removed.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For more detailed information, check out our &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt; and &lt;a href="https://docs.rocket.chat/docs/deprecated-and-phasing-out-features"&gt;deprecated and phasing out of the features&lt;/a&gt; document. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;20.17.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Apps-Engine: &lt;code&gt;undefined&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Major Changes&lt;/h3&gt;
 &lt;ul&gt;
