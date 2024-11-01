@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2024-11-01T05:30:36.434825-04:00</updated>
+  <updated>2024-11-01T06:30:38.526609-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1174,7 +1174,39 @@ instead of &lt;code&gt;SameSite=None&lt;/code&gt; when it detects an insecure co
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+    &lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_ldap_users_are_created_as_enabled_by_default_when_using_microsoft_active_directory"&gt;LDAP users are created as enabled by default when using Microsoft Active Directory&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you are using Microsoft AD and creating users through the administrative interfaces, the user will created as enabled by default.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In previous versions, it was only possible to update the user status after setting a (non-temporary) password to the user.
+This behavior was not consistent with other built-in user storages as well as not consistent with others LDAP vendors supported
+by the LDAP provider.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/index.html#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/31415"&gt;#31415&lt;/a&gt; Selection list does not close after outside click &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/33607"&gt;#33607&lt;/a&gt; Fix v2 login layout &lt;code&gt;login/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/33618"&gt;#33618&lt;/a&gt; No message for `policyGroupsHelp` &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/33640"&gt;#33640&lt;/a&gt; Customizable footer (Keycloak 26) not displaying in keycloak.v2 login theme &lt;code&gt;login/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/34301"&gt;#34301&lt;/a&gt; Remove inaccurate statement about master realm imports &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/34450"&gt;#34450&lt;/a&gt; [26.0.2] Migration from 25.0.1 Identity Provider Errors &lt;code&gt;identity-brokering&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/34467"&gt;#34467&lt;/a&gt; Do not rely on the `pwdLastSet` attribute when updating AD entries &lt;code&gt;ldap&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.0.5" rel="alternate"/>
   </entry>
 </feed>
