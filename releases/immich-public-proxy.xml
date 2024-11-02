@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-11-02T18:33:51.895666-04:00</updated>
+  <updated>2024-11-02T19:33:48.382010-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,7 +69,7 @@
 &lt;li&gt;Reorganise project files&lt;/li&gt;
 &lt;li&gt;Update docker image to not run as root&lt;/li&gt;
 &lt;li&gt;Remove superfluous files from docker image&lt;/li&gt;
-&lt;li&gt;Update healthcheck to only check local server (best practice)&lt;/li&gt;
+&lt;li&gt;Move healthcheck to Dockerfile, and update healthcheck to only check local server (best practice)&lt;/li&gt;
 &lt;li&gt;Wrap Node instance in &lt;a href="https://pm2.keymetrics.io/docs/usage/docker-pm2-nodejs/"&gt;pm2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.3.4" rel="alternate"/>
