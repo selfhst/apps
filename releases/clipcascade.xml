@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2024-11-02T00:33:44.445637-04:00</updated>
+  <updated>2024-11-02T01:33:40.677905-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,5 +87,48 @@
 &lt;/ol&gt;
 &lt;p&gt;Enjoy a smoother, more customizable clipboard syncing experience with ClipCascade v0.2.0!&lt;/p&gt;</content>
     <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sathvik-Rao/ClipCascade/releases/tag/0.2.1</id>
+    <title>New release for ClipCascade: ClipCascade v0.2.1</title>
+    <updated>2024-11-02T00:45:58-04:00</updated>
+    <author>
+      <name>Sathvik-Rao/ClipCascade</name>
+    </author>
+    <content>&lt;h1&gt;🚀 ClipCascade v0.2.1 Release&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ClipCascade&lt;/strong&gt;—your go-to lightweight, open-source utility for seamless, secure clipboard synchronization across multiple devices—just got better. The v0.2.1 update introduces new features and improvements designed to enhance the syncing experience and provide more customization options.&lt;/p&gt;
+&lt;h3&gt;What's Included:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Installer&lt;/strong&gt; (&lt;code&gt;.msi&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standalone Executable&lt;/strong&gt; (&lt;code&gt;.exe&lt;/code&gt;)—No startup option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android App&lt;/strong&gt; (&lt;code&gt;.apk&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Package(GUI)&lt;/strong&gt; (&lt;code&gt;ClipCascade_Linux.zip&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Package(non-GUI)&lt;/strong&gt; (&lt;code&gt;ClipCascade_Linux_Terminal.zip&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker Compose&lt;/strong&gt; (&lt;code&gt;docker-compose.yml&lt;/code&gt;)—Self-hosting made easy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Key Features:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Platform Sync&lt;/strong&gt;: Effortlessly sync clipboard content between Windows, Linux, and Android devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Hosted Option&lt;/strong&gt;: Host your own secure clipboard sync server using Docker.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy-First&lt;/strong&gt;: End-to-end encryption keeps your clipboard data secure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customizable Settings&lt;/strong&gt;: Fine-tune performance with options for clipboard size limits, session management, and more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What's New in v0.2.1:&lt;/h3&gt;
+&lt;h4&gt;Android:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Improved Resource Management&lt;/strong&gt;: Enhanced efficiency by managing resources more effectively, ensuring optimal performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Leak Prevention&lt;/strong&gt;: Implemented resource cleanup by clearing intervals when the app closes, preventing memory leaks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Error Handling&lt;/strong&gt;: Upgraded error handling mechanisms for better stability and informative user feedback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foreground Service Status Checking&lt;/strong&gt;: Improved checks for the foreground service status during the loading screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Update Verification&lt;/strong&gt;: Added a feature that allows users to easily check for app updates, ensuring access to the latest version.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Desktop:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Error Handling for Browser Launch&lt;/strong&gt;: Enhanced error handling when launching the browser.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update Check Integration&lt;/strong&gt;: Included a check for application updates, making it easier for users to stay current with the latest features and fixes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enjoy a smoother, more customizable clipboard syncing experience with ClipCascade v0.2.1!&lt;/p&gt;</content>
+    <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/0.2.1" rel="alternate"/>
   </entry>
 </feed>
