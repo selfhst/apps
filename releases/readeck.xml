@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Readeck Releases</title>
-  <updated>2024-11-02T12:31:50.450067-04:00</updated>
+  <updated>2024-11-02T13:31:48.734473-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,9 +116,9 @@
     <link href="https://codeberg.org/readeck/readeck/releases/tag/0.15.4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://codeberg.org/readeck/readeck/releases/tag/0.15.5</id>
-    <title>New release for Readeck: 0.15.5</title>
-    <updated>2024-11-02T16:23:06+00:00</updated>
+    <id>https://codeberg.org/readeck/readeck/releases/tag/0.15.6</id>
+    <title>New release for Readeck: 0.15.6</title>
+    <updated>2024-11-02T17:06:10+00:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>
@@ -130,6 +130,6 @@
 &lt;ul&gt;
 &lt;li&gt;Support of new Pocket export format&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://codeberg.org/readeck/readeck/releases/tag/0.15.5" rel="alternate"/>
+    <link href="https://codeberg.org/readeck/readeck/releases/tag/0.15.6" rel="alternate"/>
   </entry>
 </feed>
