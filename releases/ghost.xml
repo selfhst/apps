@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-11-02T08:30:24.264998-04:00</updated>
+  <updated>2024-11-02T09:30:23.201292-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,13 +76,13 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;✨ Added "exclude" option for customizing {{ghost_head}} (#21229) - Cathy Sarisky&lt;/li&gt;
-&lt;li&gt;🎨Changed hover color of ExitButton (#21396) - luis-411&lt;/li&gt;
+&lt;li&gt;✨ Added "exclude" option for customizing &lt;code&gt;{{ghost_head}}&lt;/code&gt; (#21229) - Cathy Sarisky&lt;/li&gt;
+&lt;li&gt;⚡️ Optimized fetching strings from the settings cache - Daniel Lockyer&lt;/li&gt;
+&lt;li&gt;🎨 Changed hover color of ExitButton (#21396) - luis-411&lt;/li&gt;
 &lt;li&gt;🐛 Fixed "Access Denied" error when accepting staff invite - Kevin Ansfield&lt;/li&gt;
 &lt;li&gt;🐛 Fixed malformed &lt;code&gt;unsubscribe_url&lt;/code&gt; in members api response (#21437) - Steve Larson&lt;/li&gt;
 &lt;li&gt;🐛 Fixed search state bug &amp;amp; missing last result (#21417) - Cathy Sarisky&lt;/li&gt;
-&lt;li&gt;🌐✨Added i18n for newsletter strings (#21433) - Cathy Sarisky&lt;/li&gt;
-&lt;li&gt;⚡️ Optimized fetching strings from the settings cache - Daniel Lockyer&lt;/li&gt;
+&lt;li&gt;🌐 Added i18n for newsletter strings (#21433) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🌐 Added new and improved Norwegian translation (#21452) - matsbst&lt;/li&gt;
 &lt;li&gt;🌐 Added Hungarian locale for Search (#21428) - Krisztian Kecskes&lt;/li&gt;
 &lt;/ul&gt;
