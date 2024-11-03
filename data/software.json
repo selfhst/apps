@@ -3560,7 +3560,7 @@
         "Latest Version": "2.6.9",
         "Latest Commit": "2024-11-01",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3813,7 +3813,7 @@
         "Latest Version": "1.7.1",
         "Latest Commit": "2024-11-01",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4273,7 +4273,7 @@
         "Latest Version": "2.7.1",
         "Latest Commit": "2024-11-03",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4899,7 +4899,7 @@
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
-        "Project": "linkding",
+        "Project": "Linkding",
         "Reference": "linkding",
         "Sponsor": null,
         "Sponsor URL": null,
@@ -4917,7 +4917,7 @@
         "Latest Version": "1.36.0",
         "Latest Commit": "2024-10-24",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -5653,7 +5653,7 @@
         "Latest Version": "0.18.0",
         "Latest Commit": "2024-10-31",
         "Latest Commit Color": "Green",
-        "Tags": "Artificial Intelligence,Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -6642,7 +6642,7 @@
         "Latest Version": "0.13.0",
         "Latest Commit": "2024-10-29",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7677,7 +7677,7 @@
         "Latest Version": "1.15.4",
         "Latest Commit": "2024-10-28",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -8298,7 +8298,7 @@
         "Latest Version": "0.4.2",
         "Latest Commit": "2024-09-27",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11587,7 +11587,7 @@
         "Latest Version": "N/A",
         "Latest Commit": "2024-01-25",
         "Latest Commit Color": "Yellow",
-        "Tags": "ActivityPub / Fediverse,Bookmarks / Read Later,ActivityPub - Platform",
+        "Tags": "ActivityPub / Fediverse,Bookmarks,ActivityPub - Platform,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11725,7 +11725,7 @@
         "Latest Version": "0.3.0",
         "Latest Commit": "2024-10-21",
         "Latest Commit Color": "Green",
-        "Tags": "Artificial Intelligence,Transcription",
+        "Tags": "Transcription,Artificial Intelligence",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-22 10:08:23+00:00"
     },
@@ -12990,7 +12990,7 @@
         "Latest Version": "0.15.6",
         "Latest Commit": "2024-11-02",
         "Latest Commit Color": "Green",
-        "Tags": "Bookmarks / Read Later",
+        "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -13979,7 +13979,7 @@
         "Latest Version": "1.3.1",
         "Latest Commit": "2024-07-27",
         "Latest Commit Color": "Green",
-        "Tags": "ActivityPub / Fediverse,Bookmarks / Read Later,ActivityPub - Platform",
+        "Tags": "ActivityPub / Fediverse,Bookmarks,ActivityPub - Platform,Read Later",
         "Dynamic Filter": "Pocket,Omnivore",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14232,8 +14232,8 @@
         "Latest Version": "0.3.0",
         "Latest Commit": "2024-10-30",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Bookmarks / Read Later",
-        "Dynamic Filter": "Pocket,Omnivore",
+        "Tags": "RSS,Bookmarks",
+        "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -14761,8 +14761,8 @@
         "Latest Version": "N/A",
         "Latest Commit": "2024-09-30",
         "Latest Commit Color": "Green",
-        "Tags": "File Transfer and Sync,Bookmarks / Read Later",
-        "Dynamic Filter": "Pocket,Omnivore",
+        "Tags": "File Transfer and Sync,Bookmarks",
+        "Dynamic Filter": "",
         "CreatedAt": "2024-09-30 09:40:03+00:00"
     },
     {

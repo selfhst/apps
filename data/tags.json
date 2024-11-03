@@ -101,7 +101,7 @@
         ]
     },
     {
-        "Tag": "Bookmarks / Read Later",
+        "Tag": "Bookmarks",
         "Valid Types": [
             "Companion",
             "Software"
@@ -694,7 +694,10 @@
     },
     {
         "Tag": "Read Later",
-        "Valid Types": []
+        "Valid Types": [
+            "Software",
+            "Companion"
+        ]
     },
     {
         "Tag": "Receipts",
