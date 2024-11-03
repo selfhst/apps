@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr iFrames Releases</title>
-  <updated>2024-11-03T00:33:04.132326-04:00</updated>
+  <updated>2024-11-03T01:33:07.789376-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,8 +75,8 @@
   </entry>
   <entry>
     <id>https://github.com/diogovalentte/homarr-iframes/releases/tag/v1.0.0</id>
-    <title>New release for Homarr iFrames: v1.0.0 - Add alarms iframe</title>
-    <updated>2024-11-03T00:12:25-04:00</updated>
+    <title>New release for Homarr iFrames: v1.0.0 - Alarms iFrame Added</title>
+    <updated>2024-11-03T00:54:45-04:00</updated>
     <author>
       <name>diogovalentte/homarr-iframes</name>
     </author>
