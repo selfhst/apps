@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2024-11-03T04:33:49.995022-05:00</updated>
+  <updated>2024-11-03T05:33:49.952591-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,5 +37,47 @@ And translations update for all platforms.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DonutWare/Fladder/compare/v0.3.0...v0.3.1&lt;/p&gt;</content>
     <link href="https://github.com/DonutWare/Fladder/releases/tag/v0.3.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DonutWare/Fladder/releases/tag/v0.4.0</id>
+    <title>New release for Fladder: v0.4.0</title>
+    <updated>2024-11-03T05:24:58-05:00</updated>
+    <author>
+      <name>Fladder-App/Fladder</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.0 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Exciting New Features 🏕&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feature: Auto next-up preview, skip to next in queue. by @PartyDonut in https://github.com/DonutWare/Fladder/pull/96&lt;/li&gt;
+&lt;li&gt;feature: Added playback rate to video player options by @PartyDonut in https://github.com/DonutWare/Fladder/pull/99&lt;/li&gt;
+&lt;li&gt;feature(Lock-screen): Replaced login button with a floating action button by @PartyDonut in https://github.com/DonutWare/Fladder/pull/103&lt;/li&gt;
+&lt;li&gt;feature: Added option to save and set default filters for libraries by @PartyDonut in https://github.com/DonutWare/Fladder/pull/107&lt;/li&gt;
+&lt;li&gt;feature: Added settings to force the player into certain orientations by @PartyDonut in https://github.com/DonutWare/Fladder/pull/108&lt;/li&gt;
+&lt;li&gt;feature: Adds schemeVariants to color options by @PartyDonut in https://github.com/DonutWare/Fladder/pull/109&lt;/li&gt;
+&lt;li&gt;feature: Toggle wifi requirement for downloads by @PartyDonut in https://github.com/DonutWare/Fladder/pull/110&lt;/li&gt;
+&lt;li&gt;feature(Library): Use dialog to ask what to play by @PartyDonut in https://github.com/DonutWare/Fladder/pull/111&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bugfixes 🐞&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(macOS): Add appropriate padding to navigation rail on macOS by @emilymclean in https://github.com/DonutWare/Fladder/pull/94&lt;/li&gt;
+&lt;li&gt;fix: Video player - Use theme to get the correct text color by @PartyDonut in https://github.com/DonutWare/Fladder/pull/98&lt;/li&gt;
+&lt;li&gt;fix: small alignment issue media banner buttons by @PartyDonut in https://github.com/DonutWare/Fladder/pull/97&lt;/li&gt;
+&lt;li&gt;fix: Playback not cancelling if no compatible media was found by @PartyDonut in https://github.com/DonutWare/Fladder/pull/100&lt;/li&gt;
+&lt;li&gt;fix: Improve keyboard input handling by @PartyDonut in https://github.com/DonutWare/Fladder/pull/102&lt;/li&gt;
+&lt;li&gt;fix: Unable to log-out user with incorrect token by @PartyDonut in https://github.com/DonutWare/Fladder/pull/104&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: Updated translations from  Hosted Weblate by @weblate&lt;/li&gt;
+&lt;li&gt;chore: improved dart analyzer by @PartyDonut in https://github.com/DonutWare/Fladder/pull/82&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@emilymclean made their first contribution in https://github.com/DonutWare/Fladder/pull/94&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DonutWare/Fladder/compare/v0.3.1...v0.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/DonutWare/Fladder/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>

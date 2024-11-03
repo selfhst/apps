@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Baikal Releases</title>
-  <updated>2024-11-03T04:30:07.840867-05:00</updated>
+  <updated>2024-11-03T05:30:07.266682-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,7 +68,11 @@
     <author>
       <name>sabre-io/Baikal</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Warning&lt;/strong&gt; ⚠️
+Do not use this version for new installs. Use 0.9.5 and upgrade to this version. This is due to a broken initial installer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
 &lt;li&gt;Drop support for php 7.x and php 8.0&lt;/li&gt;
 &lt;li&gt;Improve upcoming php 8.4 support&lt;/li&gt;
 &lt;li&gt;Fix login page on some reverse proxy setups&lt;/li&gt;
