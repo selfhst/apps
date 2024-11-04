@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-11-04T11:30:31.989599-05:00</updated>
+  <updated>2024-11-04T12:30:32.362978-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,8 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Bug fixes&lt;/h2&gt;
+    <content>&lt;p&gt;Note that we have no longer build the &lt;a href="https://gohugo.io/hosting-and-deployment/hugo-deploy/"&gt;deploy feature&lt;/a&gt; in the standard and extended archives. If you need that, download archives with &lt;code&gt;withdeploy&lt;/code&gt; in the filename. See &lt;a href="https://gohugo.io/installation/"&gt;instalation&lt;/a&gt; for details. You can read #12994 for more on the motivation behind this, but for one, it shaves off about 40% of the binary size.&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix stale pages on rebuilds in GetPage with short refs 30d9aea86 @bep #13004 &lt;/li&gt;
 &lt;li&gt;Fix some  RenderShortcodes error cases 1f23b4949 @bep #12854 #12998 &lt;/li&gt;

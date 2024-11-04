@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2024-11-04T11:33:16.896251-05:00</updated>
+  <updated>2024-11-04T12:33:19.817062-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,6 +132,18 @@
 &lt;p&gt;[!NOTE]&lt;br /&gt;
 This release does not include any changes to the clientapps!&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;h3&gt;Splitview&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/6e6039fd-ba4d-4a4a-8bd8-c2422b98b0a5" /&gt;
+This version introduces Splitview for portrait images. ImmichFrame displays images side by side if the display order contains two portrait images. This means that not all portrait images are displayed in a split view.&lt;/p&gt;
+&lt;h3&gt;Webcalendar support&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/cd098d9e-c56f-4545-9afa-d18170a44ce2" /&gt;
+You can now display one or multiple web calendars. See &lt;a href="https://github.com/immichFrame/ImmichFrame?tab=readme-ov-file#calendar"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Memories&lt;/h3&gt;
+&lt;p&gt;If the memories are the only asset source, ImmichFrame will display them in the correct order.&lt;/p&gt;
+&lt;h3&gt;Shortcuts&lt;/h3&gt;
+&lt;p&gt;Space: Pause/Play
+Arrow right (→): Display next asset&lt;/p&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.16.0 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
