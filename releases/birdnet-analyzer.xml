@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BirdNET-Analyzer Releases</title>
-  <updated>2024-11-04T08:32:12.989529-05:00</updated>
+  <updated>2024-11-04T09:32:15.214049-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,7 @@
 &lt;li&gt;the GUI now resets the loaded custom classifier before starting the analysis by @max-mauermann in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
 &lt;li&gt;model params after training now include the model version + an additional csv containing the number of samples for each class-combination by @max-mauermann in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
 &lt;li&gt;native windows directory selection dialog by @nishantnnb in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
-&lt;li&gt;updated chines labels by @RockerLee in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
+&lt;li&gt;updated chinese labels by @RockerLee in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
 &lt;li&gt;Gui refactor by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/473&lt;/li&gt;
 &lt;li&gt;added labels for bg, ca el, he, hr, in, is, lt, ml, sr by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/480&lt;/li&gt;
 &lt;li&gt;single file analysis output can display utf-8 characters by @Josef-Haupt in https://github.com/kahst/BirdNET-Analyzer/pull/482&lt;/li&gt;

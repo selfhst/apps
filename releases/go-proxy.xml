@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>go-proxy Releases</title>
-  <updated>2024-11-04T08:30:27.371356-05:00</updated>
+  <updated>2024-11-04T09:30:28.253789-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,9 @@
 &lt;h3&gt;Changed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Default config added inside docker image c6a9a816f6aa05c8d7fbaa5751f26e6d78fb8073&lt;/li&gt;
-&lt;li&gt;Rebrand as &lt;code&gt;GoDoxy&lt;/code&gt;: changed env prefix from &lt;code&gt;GOPROXY&lt;/code&gt; to &lt;code&gt;GODOXY&lt;/code&gt; (old prefix will still work) 99e43fe3401e62cc462ce55506a9675cc8f8575f f5cf716a912da85eca769251169ed17400f5bc90&lt;/li&gt;
+&lt;li&gt;Rebrand as &lt;code&gt;GoDoxy&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;changed env prefix from &lt;code&gt;GOPROXY&lt;/code&gt; to &lt;code&gt;GODOXY&lt;/code&gt; (old prefix will still work) 99e43fe3401e62cc462ce55506a9675cc8f8575f f5cf716a912da85eca769251169ed17400f5bc90&lt;/li&gt;
+&lt;li&gt;everywhere else that does not break stuff&lt;/li&gt;
 &lt;li&gt;WebUI / API Authentication will be disabled by default if JWT secret is not set or empty b63ebfcb3b8a55c2a88d11a314989e4a1cc9fe83 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
