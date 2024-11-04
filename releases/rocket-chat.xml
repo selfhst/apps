@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-11-04T07:31:05.959455-05:00</updated>
+  <updated>2024-11-04T08:31:08.393973-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -392,8 +392,7 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h1&gt;7.0.0&lt;/h1&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
 &lt;h3&gt;What's new&lt;/h3&gt;
 &lt;p&gt;Rocket.Chat has introduced several key updates. Enterprise users can now leverage add-ons like &lt;a href="https://docs.rocket.chat/docs/rocketchat-ai-app"&gt;RC AI&lt;/a&gt;, &lt;a href="https://docs.rocket.chat/docs/team-voice-calls-voip"&gt;VoIP for Team Collaboration&lt;/a&gt;, and WhatsApp 360 Dialog for expanded capabilities. The Starter Plan now supports up to 50 users, and Community Edition users can upgrade via the Cloud Portal.&lt;/p&gt;
 &lt;p&gt;Security enhancements include the removal of the Compatible Sandbox in favor of a Secure Sandbox for integration scripts. Omnichannel optimizations have significantly improved visitor processing times, and ACH Debit is now available as a payment option.&lt;/p&gt;
