@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mantium Releases</title>
-  <updated>2024-11-04T19:32:30.694597-05:00</updated>
+  <updated>2024-11-04T20:32:36.135273-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,5 +101,24 @@ Fixed: MangaHub chapters are listed in descending order.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/mantium/compare/v1.0.1...v2.0.0&lt;/p&gt;</content>
     <link href="https://github.com/diogovalentte/mantium/releases/tag/v2.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/diogovalentte/mantium/releases/tag/v3.0.0</id>
+    <title>New release for Mantium: v3.0.0 - Everything is a multimanga now</title>
+    <updated>2024-11-04T20:19:13-05:00</updated>
+    <author>
+      <name>diogovalentte/mantium</name>
+    </author>
+    <content>&lt;h1&gt;Changed&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;All mangas (&lt;em&gt;except the custom mangas&lt;/em&gt;) are now &lt;strong&gt;multimangas&lt;/strong&gt;!.&lt;/li&gt;
+&lt;li&gt;Improve forms.&lt;/li&gt;
+&lt;li&gt;Performance improvements by improving SQL queries.&lt;/li&gt;
+&lt;li&gt;Limits the size of the background error shown in the dashboard.&lt;/li&gt;
+&lt;li&gt;Add warning in the update form when the user changed the cover image to a custom one.&lt;/li&gt;
+&lt;li&gt;Prevents dashboard rerun when user is interacting with a form.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/mantium/compare/v2.0.5...v3.0.0&lt;/p&gt;</content>
+    <link href="https://github.com/diogovalentte/mantium/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
 </feed>
