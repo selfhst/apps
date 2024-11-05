@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-11-05T01:32:58.168924-05:00</updated>
+  <updated>2024-11-05T02:33:03.223324-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,19 +113,19 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Keep images/containers up to date automatically.&lt;/strong&gt; There are 3 levels depending on how far you want to go for the automation:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keep images/containers up to date automatically.&lt;/strong&gt; There are 3 levels depending on how far you want to go for the automation, which are configurable per Stack/Deployment:&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Manual&lt;/strong&gt;: (default) - Log in and use the "Pull" execution on Stacks / Deployments to pull latest image, and notify in the UI of an available update.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Poll for Update&lt;/strong&gt;: Pull in the background (default 5 min, use KOMODO_RESOURCE_POLL_INTERVAL to change). If there is an update available, the user will be notified, and an alert will be sent out. It will not deploy the update, preferring to just let the user know for them to do the update at their convenience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Poll for Update&lt;/strong&gt;: Pull in the background (default 5 min, use KOMODO_RESOURCE_POLL_INTERVAL to change). If there is an update available, the user will be notified, and &lt;strong&gt;an alert will be sent out&lt;/strong&gt;. It will not deploy the new image, preferring to just let the user know for them to do it later, at their convenience.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Auto Update&lt;/strong&gt;: Whenever an update is found, it will skip sending an alert, and just go right ahead and redeploy. With this option selected, your running images will be kept up to date totally hands free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Auto Update&lt;/strong&gt;: Whenever an update is found, it will skip sending an alert, and just go right ahead and redeploy. With this option selected, the associated images will be kept up to date and deployed totally hands free.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Note that it will only check for newer image at the same tag. If you use a versioned tag, it will not change the tag to a newer one. The intention is that users use latest tags. &lt;/p&gt;
+&lt;p&gt;Note that it will only check for newer image at the same tag. If you use a versioned tag, it will not change the tag to a newer one. The intention is that users use latest tags with this feature. &lt;/p&gt;
 &lt;p&gt;Thanks for your feedback and those involved in this release 🦎&lt;/p&gt;
 &lt;p&gt;&lt;img width="417" alt="Screenshot 2024-11-04 at 5 49 36 PM" src="https://github.com/user-attachments/assets/4fd119d7-1859-4bff-9157-f23d60dc07f6"&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mbecker20/komodo/releases/tag/v1.16.9" rel="alternate"/>
