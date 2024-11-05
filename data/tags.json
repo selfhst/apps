@@ -487,6 +487,12 @@
         ]
     },
     {
+        "Tag": "Location",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Logs",
         "Valid Types": [
             "Software"
@@ -894,13 +900,13 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
