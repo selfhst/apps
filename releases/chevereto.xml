@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-11-05T15:30:12.914221-05:00</updated>
+  <updated>2024-11-05T16:30:14.477751-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -262,20 +262,26 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.2.1 (2024-11-04)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.2/4.2.1.html"&gt;Chevereto 4.2.1&lt;/a&gt; (2024-11-04)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🐬 Added MySQL compatibility for Tags&lt;/li&gt;
-&lt;li&gt;🏷️ Tag input added to uploader form&lt;/li&gt;
-&lt;li&gt;🕷️ Increased Project Arachnid Shield timeout&lt;/li&gt;
-&lt;li&gt;📱 Mobile listing now displays checkbox&lt;/li&gt;
-&lt;li&gt;✅ API now supports use_file_date parameter&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in API route&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in API URL upload&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in homepage as Explore&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug in Pages (free edition)&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with non-functioning analytics and comment code&lt;/li&gt;
-&lt;li&gt;🐞 Fixed bug with non-functioning Banners&lt;/li&gt;
-&lt;li&gt;🐞 Fixed TypeError in Image class&lt;/li&gt;
+&lt;li&gt;🐬 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77513"&gt;Added MySQL compatibility for Tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🏷️ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77514"&gt;Tag input added to uploader form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🕷️ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77521"&gt;Increased Project Arachnid Shield timeout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📱 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77522"&gt;Mobile listing now displays checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;✅ &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77523"&gt;API now supports use_file_date parameter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77519"&gt;Fixed bug in API route&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77524"&gt;Fixed bug in API URL upload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77520"&gt;Fixed bug in homepage as Explore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77518"&gt;Fixed bug in Pages (free edition)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77517"&gt;Fixed bug with non-functioning analytics and comment code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77516"&gt;Fixed bug with non-functioning Banners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐞 &lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/post-77515"&gt;Fixed TypeError in Image class&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2024/10/24/chevereto-4-2/"&gt;Chevereto 4.2 (Regio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1.15685/"&gt;Chevereto V4.2.1 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-1-announcement.15675/"&gt;Chevereto V4.2.1 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.2.1" rel="alternate"/>
   </entry>
