@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sharkey Releases</title>
-  <updated>2024-11-05T00:33:39.021228-05:00</updated>
+  <updated>2024-11-05T01:33:41.767543-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,6 +116,8 @@ CREATE INDEX CONCURRENTLY "IDX_e5848eac4940934e23dbc17581" ON "drive_file" ("uri
 &lt;li&gt;when following links to external sites, users are asked for confirmation (users and admins can set lists of destination domains that won't trigger the confirmation dialog, or disable it completely)&lt;/li&gt;
 &lt;li&gt;users can turn off cat-speak for all notes they see&lt;/li&gt;
 &lt;li&gt;avatar decorations can be placed behind the avatar picture (so it can have a tail)&lt;/li&gt;
+&lt;li&gt;users can now make in-app notifications clickable in settings&lt;/li&gt;
+&lt;li&gt;capitalized emoji aliases are now properly found in the emoji picker&lt;/li&gt;
 &lt;li&gt;remote polls' vote counts can be manually refreshed&lt;/li&gt;
 &lt;li&gt;on the user profile page, we show if they're blocked, muted, followed, &amp;amp;c&lt;/li&gt;
 &lt;li&gt;user profiles show their latest notes by default, not their pinned notes&lt;/li&gt;
