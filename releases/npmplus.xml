@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NPMplus Releases</title>
-  <updated>2024-11-06T10:33:10.219808-05:00</updated>
+  <updated>2024-11-06T11:33:04.541683-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,6 +151,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;How to update&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;NOTE: watchtwoer does NOT update NPMplus&lt;/li&gt;
 &lt;li&gt;Read the changes above&lt;/li&gt;
 &lt;li&gt;Pull the zoeyvid/npmplus:latest image&lt;/li&gt;
 &lt;li&gt;apply possible changes that maybe effect you from above to your compose.yaml/NPMplus&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cloudflared Releases</title>
-  <updated>2024-11-06T10:30:14.564976-05:00</updated>
+  <updated>2024-11-06T11:30:14.806722-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,7 +165,33 @@ cloudflared-windows-amd64.msi: de2c2d63b386e3374b6c4aafe9a8149b4d685aca3876bcb35
     <author>
       <name>cloudflare/cloudflared</name>
     </author>
-    <content/>
+    <content>&lt;h3&gt;SHA256 Checksums:&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cloudflared-amd64.pkg: f8de1b8783d92346ce5ac49c62919f5e77211b1e499b95a68d30bd1844210e02
+cloudflared-arm64.pkg: 81d4b8b6ade9c65e94caa35dd0cadc56f8ba2ab8ad478f65c266509265ee395a
+cloudflared-darwin-amd64.tgz: 2c6e2867c28cffd01fc6460ddc59356cfdad2a40820309156ffea3d81812baac
+cloudflared-darwin-arm64.tgz: fc889f011f7918503480ed4d66f0cc3d2066956cfa06ef301492bab56195ad8c
+cloudflared-fips-linux-amd64: 2479c169523887435c3cac92151dc00c36c02fc93b8e752cecd6264240f56857
+cloudflared-fips-linux-amd64.deb: ea6c846379486ca9d4f08643a627cf084e623d2b429dc7ee7371cc67f3c2f3e6
+cloudflared-fips-linux-x86_64.rpm: 0a757fb282fd94b8d09cee78e49bc779b9b2e95954a4eb1c4a1c957622ce31ea
+cloudflared-linux-386: 6a1cba4c93208de50d120f0fe3a5c0147981494e7c90f237086d66396d9524e7
+cloudflared-linux-386.deb: 11b41535ebcf29b55e3651465386842a89904e4206d8ad67035ce3bfd56c6c8a
+cloudflared-linux-386.rpm: ee155edbf73fe1a1b8bb22c52bfb378616f418505ac3ffb7bb311bd8a6afc23a
+cloudflared-linux-aarch64.rpm: a5c1f3523157977a48f31963a21bb2166d909d5509b267e2dacd83394e74a679
+cloudflared-linux-amd64: cd7095b33a861ccb055606d512fc74d81865f46fe9c2c7c84452ee60383db13c
+cloudflared-linux-amd64.deb: a69c3d5bb92d065bff82861d18a0b888f0fe49bd49882d39990738c6323dfbff
+cloudflared-linux-arm: 3c1f45290df8f6231ba0108bce4a1c2028349b2ce9dd0a4696a1af63b436b0da
+cloudflared-linux-arm.deb: cb247e4a1d8494c87fe37cfdd6fe0ce6292c5c3dec15c108474d0ac4aa34396d
+cloudflared-linux-arm.rpm: 05d00fa21e118ac459c365c09c4a05ff968c2b1deadbb9090c93e37e530b1f36
+cloudflared-linux-arm64: 45a4e6d4c15ffc493ce685d3548e02c59da10a22b67d262be8e32611c173f707
+cloudflared-linux-arm64.deb: b1a9ff6ccf342bb71445499fec9d2d104d67994651fb2633051e7e8e159c45b0
+cloudflared-linux-armhf: 64da14b3b83108f90518b03d29096661a8308ca85b49a2ae261777baa2a57a32
+cloudflared-linux-armhf.deb: 394a9ae13c6adedbc1841dba9d918831176b0c0d0da39a059babc8e3ae656512
+cloudflared-linux-armhf.rpm: 62eb16a232946046535586447b3e0e9b3b68d88dfc0a939f605b1ea070747adb
+cloudflared-linux-x86_64.rpm: cfd2c3f200bc95956b4046a92ab39a29d618b018fa69a3481683fd83bf73bdbf
+cloudflared-windows-386.exe: c76e459018fac782b2c5b605f05a2e6b1422d8e818c3968edd86af4cc65d79ae
+cloudflared-windows-386.msi: 588b5a5b1a0f3058f8aefd667c619cfec0bee2ac7449dcb09107306061614e51
+cloudflared-windows-amd64.exe: f287dc99f9abe8f49510c78270b13fbb7a3fa0e22e53d1e061455a4d82901298
+cloudflared-windows-amd64.msi: 1bfb6237f87dc7f49cfdf73d36686bc28760bccb4a92afca7656f2b7d83245dd&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/cloudflare/cloudflared/releases/tag/2024.11.0" rel="alternate"/>
   </entry>
 </feed>
