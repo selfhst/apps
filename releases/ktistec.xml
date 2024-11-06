@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ktistec Releases</title>
-  <updated>2024-11-06T14:31:53.638665-05:00</updated>
+  <updated>2024-11-06T15:31:50.101079-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,7 +37,15 @@
     <author>
       <name>toddsundsted/ktistec</name>
     </author>
-    <content/>
+    <content>&lt;h1&gt;Added&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Support streaming updates to the user-interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fixed&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Always build assets within building container. (see &lt;a href="https://github.com/toddsundsted/ktistec/pull/107"&gt;#107&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Handle arrays of actor profile images.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.2.0" rel="alternate"/>
   </entry>
   <entry>
@@ -47,7 +55,16 @@
     <author>
       <name>toddsundsted/ktistec</name>
     </author>
-    <content/>
+    <content>&lt;h1&gt;Added&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Add monitoring for hung tasks.&lt;/li&gt;
+&lt;li&gt;Add timeouts for &lt;code&gt;open&lt;/code&gt; socket operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fixed&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensure subscribers are notified when a fetch task starts running.&lt;/li&gt;
+&lt;li&gt;Restrict actor fetching on broken image icons to profiles.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.3.0" rel="alternate"/>
   </entry>
 </feed>
