@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ByteStash Releases</title>
-  <updated>2024-11-06T06:34:52.657199-05:00</updated>
+  <updated>2024-11-06T07:35:02.922391-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,10 +48,12 @@
     <author>
       <name>jordan-dalby/ByteStash</name>
     </author>
-    <content>&lt;p&gt;Key changes:
-- ARM &amp;amp; Raspi builds
-- Custom categories for snippets, including filtering options, and options to disable them too
-- Various UI improvements for better user feedback on actions&lt;/p&gt;</content>
+    <content>&lt;h2&gt;Key Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ARM &amp;amp; Raspi builds&lt;/li&gt;
+&lt;li&gt;Custom categories for snippets, including filtering options, and options to disable them too&lt;/li&gt;
+&lt;li&gt;Various UI improvements for better user feedback on actions&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jordan-dalby/ByteStash/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
   <entry>
@@ -61,16 +63,17 @@
     <author>
       <name>jordan-dalby/ByteStash</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Key Changes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;[15] Adds line numbers to preview &amp;amp; full code view by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/20&lt;/li&gt;
-&lt;li&gt;Updated app icon by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/22&lt;/li&gt;
-&lt;li&gt;Allow subpaths by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/23&lt;/li&gt;
-&lt;li&gt;[7] Add basic authentication by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/24&lt;/li&gt;
-&lt;li&gt;Removed BASE_DIR by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/28&lt;/li&gt;
-&lt;li&gt;Simplified server by @jordan-dalby in https://github.com/jordan-dalby/ByteStash/pull/30&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jordan-dalby/ByteStash/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
+&lt;li&gt;Improved code snippet editor (switched to Monaco for a fully integrated editor)&lt;/li&gt;
+&lt;li&gt;Updated the app icon&lt;/li&gt;
+&lt;li&gt;Allow subpaths for Kubernetes Ingress, including full HTML rewrites for any specified subpath&lt;/li&gt;
+&lt;li&gt;Specify &lt;code&gt;BASE_PATH=/mypath&lt;/code&gt; in the environment variables to enable this feature &lt;/li&gt;
+&lt;li&gt;Basic authentication&lt;/li&gt;
+&lt;li&gt;Specify &lt;code&gt;AUTH_USERNAME=username&lt;/code&gt;, &lt;code&gt;AUTH_PASSWORD=password&lt;/code&gt; and &lt;code&gt;JWT_TOKEN=yourtoken&lt;/code&gt; to enable this functionality&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;TOKEN_EXPIRY=24h&lt;/code&gt; to change how long a JWT token will last&lt;/li&gt;
+&lt;li&gt;Various other server-side improvements&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jordan-dalby/ByteStash/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
