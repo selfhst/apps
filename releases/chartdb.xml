@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ChartDB Releases</title>
-  <updated>2024-11-06T16:34:00.066700-05:00</updated>
+  <updated>2024-11-06T17:33:55.790084-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,5 +71,26 @@
 &lt;li&gt;zoom in/out on scroll instead of panning (&lt;a href="https://github.com/chartdb/chartdb/commit/6a0bc30cdbfebed7c12d8ceeba39058d55c170fb"&gt;6a0bc30&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chartdb/chartdb/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chartdb/chartdb/releases/tag/v1.0.1</id>
+    <title>New release for ChartDB: v1.0.1</title>
+    <updated>2024-11-06T17:06:08-05:00</updated>
+    <author>
+      <name>chartdb/chartdb</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/chartdb/chartdb/compare/v1.0.0...v1.0.1"&gt;1.0.1&lt;/a&gt; (2024-11-06)&lt;/h2&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;offline:&lt;/strong&gt; add support when running on isolated network (&lt;a href="https://github.com/chartdb/chartdb/issues/359"&gt;#359&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/aa884b49ce16d70f67881bdc940993c1fe901796"&gt;aa884b4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;open default diagram after deleting current diagram (&lt;a href="https://github.com/chartdb/chartdb/issues/350"&gt;#350&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/87a40cff615b04b678642ba2d6e097c38b26d239"&gt;87a40cf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;select-box:&lt;/strong&gt; allow using tab &amp;amp; space to show choices (&lt;a href="https://github.com/chartdb/chartdb/issues/336"&gt;#336&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/93f623a13a61e9143638fbe7e8346f07e37a26b2"&gt;93f623a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;smart query:&lt;/strong&gt; import postgres FKs (&lt;a href="https://github.com/chartdb/chartdb/issues/357"&gt;#357&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/acb736e44fd50d29a85b4eff42e20780aef710ed"&gt;acb736e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; add two more templates (Airbnb, Wordpress) (&lt;a href="https://github.com/chartdb/chartdb/issues/317"&gt;#317&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/ebce8827eab049eefa0eebcb0ec2540698bc0e15"&gt;ebce882&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; align database icon (&lt;a href="https://github.com/chartdb/chartdb/issues/351"&gt;#351&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/efaddeebb4f24235d82f4e2bf7423fbf48b97187"&gt;efaddee&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;template:&lt;/strong&gt; separator in case of empty url (&lt;a href="https://github.com/chartdb/chartdb/issues/355"&gt;#355&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/180886c5882f2329c797fc284b255012d21f5b5c"&gt;180886c&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fetch templates data from router (&lt;a href="https://github.com/chartdb/chartdb/issues/321"&gt;#321&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/d8a20ebbd9118989690a40fcd3aa59fb156b446f"&gt;d8a20eb&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/chartdb/chartdb/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
