@@ -538,7 +538,8 @@
     {
         "Tag": "Messaging",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
