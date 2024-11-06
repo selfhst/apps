@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-11-06T04:32:22.331396-05:00</updated>
+  <updated>2024-11-06T05:32:31.061257-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,6 +82,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
 &lt;ul&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: support &lt;a href="https://docs.victoriametrics.com/victorialogs/"&gt;VictoriaLogs&lt;/a&gt; as a datasource. See &lt;a href="https://docs.victoriametrics.com/victorialogs/vmalert/"&gt;this doc&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: &lt;code&gt;-rule&lt;/code&gt; cmd-line flag now supports multi-document YAML files. This could be useful when rules are retrieved via HTTP URL where multiple rule files were merged together in one response. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6753"&gt;this issue&lt;/a&gt;. Thanks to @Irene-123 for &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/6995"&gt;the pull request&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmagent"&gt;vmagent&lt;/a&gt;: add service discovery support for &lt;a href="https://www.puppet.com/docs/puppetdb/8/overview.html"&gt;PuppetDB&lt;/a&gt; resources. See &lt;a href="https://docs.victoriametrics.com/sd_configs/#puppetdb_sd_configs"&gt;these docs&lt;/a&gt; and &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/5744"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt;: support scraping from Kubernetes Native Sidecars. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7287"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt;: add &lt;code&gt;metric_relabel_configs&lt;/code&gt; and &lt;code&gt;relabel_configs&lt;/code&gt; to the &lt;code&gt;global&lt;/code&gt; section of &lt;a href="https://docs.victoriametrics.com/vmagent/#how-to-collect-metrics-in-prometheus-format"&gt;scrape configuration&lt;/a&gt;. Relabeling configuration specified in &lt;code&gt;global&lt;/code&gt; section will be pre-pended to relabeling configs of all jobs. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/6966"&gt;this issue&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/vmagent/#relabeling"&gt;these docs&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/dashboards"&gt;dashboards&lt;/a&gt; for VM single-node, cluster, vmalert, vmagent, VictoriaLogs: add &lt;code&gt;Restarts&lt;/code&gt; panel to show the events of process restarts. This panel should help correlate events of restart with unexpected behavior of processes.&lt;/li&gt;
