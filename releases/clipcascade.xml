@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2024-11-06T13:33:56.178295-05:00</updated>
+  <updated>2024-11-06T14:33:54.780024-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,5 +130,56 @@
 &lt;/ol&gt;
 &lt;p&gt;Enjoy a smoother, more customizable clipboard syncing experience with ClipCascade v0.2.1!&lt;/p&gt;</content>
     <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/0.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sathvik-Rao/ClipCascade/releases/tag/1.0.0</id>
+    <title>New release for ClipCascade: ClipCascade v1.0.0</title>
+    <updated>2024-11-06T14:07:31-05:00</updated>
+    <author>
+      <name>Sathvik-Rao/ClipCascade</name>
+    </author>
+    <content>&lt;h1&gt;🚀 ClipCascade v1.0.0 Release&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ClipCascade&lt;/strong&gt; has officially reached its v1.0.0 milestone, delivering a more polished, feature-complete experience for users seeking seamless, secure clipboard synchronization across devices. This release includes all updates from previous versions, enhanced stability, optimized performance, and several highly requested features—now including &lt;strong&gt;macOS support&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3&gt;What's Included:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Installer&lt;/strong&gt; (&lt;code&gt;.msi&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standalone Executable&lt;/strong&gt; (&lt;code&gt;.exe&lt;/code&gt;)—No startup option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;macOS&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intel-Series&lt;/strong&gt;: &lt;code&gt;ClipCascade-Apple_macOS(Intel-Series).zip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARM M-Series&lt;/strong&gt;: &lt;code&gt;ClipCascade-Apple_macOS(ARM_M-Series).zip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android App&lt;/strong&gt; (&lt;code&gt;.apk&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Package(GUI)&lt;/strong&gt; (&lt;code&gt;ClipCascade_Linux.zip&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux Package(non-GUI)&lt;/strong&gt; (&lt;code&gt;ClipCascade_Linux_Terminal.zip&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker Compose&lt;/strong&gt; (&lt;code&gt;docker-compose.yml&lt;/code&gt;)—Self-hosting made easy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Key Features:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Platform Sync&lt;/strong&gt;: Sync clipboard content seamlessly across Windows, macOS, Linux, and Android devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Hosted Option&lt;/strong&gt;: Host a private clipboard sync server using Docker, prioritizing privacy and data control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End-to-End Encryption&lt;/strong&gt;: Keeps your clipboard data secure across every device.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Customization&lt;/strong&gt;: Control clipboard size limits, encryption salt, and the number of hash rounds for improved security.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;What's New in v1.0.0:&lt;/h3&gt;
+&lt;h4&gt;&lt;strong&gt;macOS&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Full macOS Integration&lt;/strong&gt;: Enjoy a fully optimized ClipCascade experience on macOS with seamless clipboard access, notifications, and native support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Windows, Linux (GUI and Non-GUI) and Android&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Error Messages Update&lt;/strong&gt;: Error messages have been updated for better clarity and troubleshooting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heartbeat Enabled&lt;/strong&gt;: Periodic heartbeat signals ensure the connection remains active, preventing interruptions in clipboard syncing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Login Form Update&lt;/strong&gt;: Blank spaces in the login form are now automatically trimmed, improving the UI layout.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;&lt;strong&gt;Server&lt;/strong&gt;:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Heartbeat Enabled&lt;/strong&gt;: The server now sends heartbeat signals to keep connections alive, ensuring stable and continuous syncing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h3&gt;How to Update&lt;/h3&gt;
+&lt;p&gt;For current users, simply install the latest version for your platform. The latest app version includes an inbuilt update check feature, allowing users to easily check for updates directly within the app.&lt;/p&gt;</content>
+    <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/1.0.0" rel="alternate"/>
   </entry>
 </feed>
