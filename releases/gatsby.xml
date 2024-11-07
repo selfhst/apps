@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gatsby Releases</title>
-  <updated>2024-11-07T07:30:27.382470-05:00</updated>
+  <updated>2024-11-07T08:30:25.918477-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,8 @@
     <author>
       <name>gatsbyjs/gatsby</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;This release focused on performance improvements and security fixes.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;minor docs improvements: https://github.com/gatsbyjs/gatsby/pull/38816, https://github.com/gatsbyjs/gatsby/pull/39052, https://github.com/gatsbyjs/gatsby/pull/39133, https://github.com/gatsbyjs/gatsby/pull/39060&lt;/li&gt;
 &lt;li&gt;security fixes:&lt;/li&gt;
@@ -99,7 +100,7 @@
 &lt;li&gt;bump path-to-regexp: https://github.com/gatsbyjs/gatsby/pull/39096&lt;/li&gt;
 &lt;li&gt;[&lt;code&gt;gatsby&lt;/code&gt;, &lt;code&gt;create-gatsby&lt;/code&gt;, &lt;code&gt;gatsby-cli&lt;/code&gt;, &lt;code&gt;gatsby-dev-cli&lt;/code&gt;, &lt;code&gt;gatsby-plugin-gatsby-cloud&lt;/code&gt;, &lt;code&gt;gatsby-plugin-page-creator&lt;/code&gt;] perf: disable telemetry reporting https://github.com/gatsbyjs/gatsby/pull/39137&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/gatsbyjs/gatsby/blob/a9cb9ef7dbd04f03b767f9066e151ee6a97c5501/docs/docs/reference/release-notes/v5.14/index.md"&gt;See full release notes&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://www.gatsbyjs.com/docs/reference/release-notes/v5.14/"&gt;See full release notes&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/gatsbyjs/gatsby/releases/tag/gatsby%405.14.0" rel="alternate"/>
   </entry>
 </feed>
