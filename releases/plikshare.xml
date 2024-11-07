@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2024-11-07T16:34:00.472453-05:00</updated>
+  <updated>2024-11-07T17:34:03.471062-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/investbrainapp/investbrain/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/investbrainapp/investbrain/releases/tag/v1.0.2</id>
+    <title>New release for Investbrain: v1.0.2</title>
+    <updated>2024-11-07T17:25:24-05:00</updated>
+    <author>
+      <name>investbrainapp/investbrain</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix:ensure portfolio is available on transactions page by @hackerESQ in https://github.com/investbrainapp/investbrain/pull/12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/investbrainapp/investbrain/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
