@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2024-11-07T12:34:05.273452-05:00</updated>
+  <updated>2024-11-07T13:34:04.965093-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,20 @@
     </author>
     <content>&lt;p&gt;Tagging the first official release of Investbrain. Future releases will contain a full change history.&lt;/p&gt;</content>
     <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/investbrainapp/investbrain/releases/tag/v1.0.1</id>
+    <title>New release for Investbrain: v1.0.1</title>
+    <updated>2024-11-07T13:24:24-05:00</updated>
+    <author>
+      <name>investbrainapp/investbrain</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: minor updates for landing page by @hackerESQ in https://github.com/investbrainapp/investbrain/pull/6&lt;/li&gt;
+&lt;li&gt;Make ASSET_URL optional in env by @hackerESQ in https://github.com/investbrainapp/investbrain/pull/10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/investbrainapp/investbrain/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
+    <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>

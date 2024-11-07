@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2024-11-07T12:33:57.433532-05:00</updated>
+  <updated>2024-11-07T13:33:57.413040-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,7 +190,7 @@
 &lt;h3&gt;📥 Available Downloads:&lt;/h3&gt;
 &lt;p&gt;| Platform                   | File Name               |
 |-----------------------|----------------------|
-| &lt;strong&gt;Windows&lt;/strong&gt;            | Installer (&lt;code&gt;ClipCascade.msi&lt;/code&gt;), Standalone Executable (&lt;code&gt;ClipCascade.exe&lt;/code&gt;)—No startup option   |
+| &lt;strong&gt;Windows&lt;/strong&gt;            | Installer (&lt;code&gt;ClipCascade.msi&lt;/code&gt;), Portable/Standalone Executable (&lt;code&gt;ClipCascade.exe&lt;/code&gt;)—No startup option   |
 | &lt;strong&gt;macOS&lt;/strong&gt;               | ARM M-Series (&lt;code&gt;ClipCascade-Apple_macOS(ARM_M-Series).zip&lt;/code&gt;), Intel (&lt;code&gt;ClipCascade-Apple_macOS(Intel-Series).zip&lt;/code&gt;) |
 | &lt;strong&gt;Android&lt;/strong&gt;               | &lt;code&gt;ClipCascade.apk&lt;/code&gt; |
 | &lt;strong&gt;Linux (GUI)&lt;/strong&gt;          | &lt;code&gt;ClipCascade_Linux.zip&lt;/code&gt; |
