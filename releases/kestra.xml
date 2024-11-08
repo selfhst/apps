@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2024-11-08T10:32:58.135033-05:00</updated>
+  <updated>2024-11-08T11:33:07.212962-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,13 +100,14 @@
   <entry>
     <id>https://github.com/kestra-io/kestra/releases/tag/v0.15.24</id>
     <title>New release for Kestra: v0.15.24</title>
-    <updated>2024-11-08T10:04:41-05:00</updated>
+    <updated>2024-11-08T10:59:40-05:00</updated>
     <author>
       <name>kestra-io/kestra</name>
     </author>
     <content>&lt;h2&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;version 0.15.24 (&lt;a href="https://github.com/kestra-io/kestra/commit/3d28e73415e2d62c69241fd6710ed6e332e58232"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;remove --break-system-packages (&lt;a href="https://github.com/kestra-io/kestra/commit/cb17695d9465f383c6cc6285e3bc3c6341fcf6d3"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
