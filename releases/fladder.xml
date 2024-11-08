@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2024-11-08T08:33:58.104938-05:00</updated>
+  <updated>2024-11-08T09:34:00.223874-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,5 +113,23 @@ And translations update for all platforms.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DonutWare/Fladder/compare/v0.4.1...v0.4.2&lt;/p&gt;</content>
     <link href="https://github.com/DonutWare/Fladder/releases/tag/v0.4.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DonutWare/Fladder/releases/tag/v0.4.3</id>
+    <title>New release for Fladder: v0.4.3</title>
+    <updated>2024-11-08T09:28:12-05:00</updated>
+    <author>
+      <name>Fladder-App/Fladder</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.3 --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Bugfixes 🐞&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;bugfix: Only allow add to collection for admins by @PartyDonut in https://github.com/DonutWare/Fladder/pull/133&lt;/li&gt;
+&lt;li&gt;fix: duration-picker not working by @PartyDonut in https://github.com/DonutWare/Fladder/pull/134&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DonutWare/Fladder/compare/v0.4.2...v0.4.3&lt;/p&gt;</content>
+    <link href="https://github.com/DonutWare/Fladder/releases/tag/v0.4.3" rel="alternate"/>
   </entry>
 </feed>
