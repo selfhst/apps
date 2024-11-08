@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-11-08T13:31:10.788150-05:00</updated>
+  <updated>2024-11-08T14:31:12.274050-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -581,7 +581,7 @@
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33328"&gt;#33328&lt;/a&gt;) Allows authorized users to reset the encryption key for end-to-end encrypted rooms. This aims to prevent situations where all users of a room have lost the encryption key, and as such, the access to the room.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33539"&gt;#33539&lt;/a&gt;) Removes deprecated method &lt;code&gt;livechat:registerAgent&lt;/code&gt;. Moving forward, use the endpoint &lt;code&gt;livechat/visitor&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33539"&gt;#33539&lt;/a&gt;) Removes deprecated method &lt;code&gt;livechat:registerGuest&lt;/code&gt;. Moving forward, use the endpoint &lt;code&gt;livechat/visitor&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;(&lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/33520"&gt;#33520&lt;/a&gt;) Fixes a behavior of E2EE room creation that allowed any user on the room to define room keys before the room creator, causing race conditions.&lt;/p&gt;
