@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ktistec Releases</title>
-  <updated>2024-11-08T07:31:55.073587-05:00</updated>
+  <updated>2024-11-08T08:31:50.958613-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,34 @@
 &lt;li&gt;Restrict actor fetching on broken image icons to profiles.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toddsundsted/ktistec/releases/tag/v2.4.0</id>
+    <title>New release for Ktistec: v2.4.0</title>
+    <updated>2024-11-08T08:12:15-05:00</updated>
+    <author>
+      <name>toddsundsted/ktistec</name>
+    </author>
+    <content>&lt;h1&gt;Added&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Support running scripted automations (see README).&lt;/li&gt;
+&lt;li&gt;"Fetch Once" button on hashtag and thread pages. (fixes &lt;a href="https://github.com/toddsundsted/ktistec/issues/108"&gt;#108&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Support navigation to a post's threaded view. (fixes &lt;a href="https://github.com/toddsundsted/ktistec/issues/108"&gt;#108&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add support for post &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;summary&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fixed&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve support for operating without JavaScript available/enabled.&lt;/li&gt;
+&lt;li&gt;Only enforce CSRF protection on "simple" requests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Changed&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Replace use of multi-action controller with &lt;code&gt;formaction&lt;/code&gt;. (fixes &lt;a href="https://github.com/toddsundsted/ktistec/issues/101"&gt;#101&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Other&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;API usability improvements.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.4.0" rel="alternate"/>
   </entry>
 </feed>

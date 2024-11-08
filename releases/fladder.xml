@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2024-11-08T07:34:02.669993-05:00</updated>
+  <updated>2024-11-08T08:33:58.104938-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,7 +91,7 @@ And translations update for all platforms.&lt;/p&gt;
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.2 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;p&gt;Small bugfixes here and there. This release also includes a small change to please the goolge overlords from rejecting the app.&lt;/p&gt;
+&lt;p&gt;Small bugfixes here and there. This release also includes a small change to please the google overlords from rejecting the app.&lt;/p&gt;
 &lt;h2&gt;Exciting New Features 🏕&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: Improve how unsupported items are shown. by @PartyDonut in https://github.com/DonutWare/Fladder/pull/129&lt;/li&gt;
