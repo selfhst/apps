@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-11-08T14:30:29.260988-05:00</updated>
+  <updated>2024-11-08T15:30:28.341606-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -246,18 +246,7 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/modelops/"&gt;Modelops&lt;/a&gt;&lt;/h5&gt;
-&lt;details&gt;&lt;summary&gt;[Model registry available in beta](https://docs.gitlab.com/ee/user/project/ml/model_registry/): &lt;code&gt;MLOps&lt;/code&gt;&lt;/summary&gt;
-
-&gt; GitLab now officially supports model registry in beta as a first-class concept. You can add and edit models directly via the UI, or use the MLflow integration to use GitLab as a model registry backend.
-&gt; 
-&gt; A model registry is a hub that helps data science teams manage machine learning models and their related metadata. It serves as a centralized location for organizations to store, version, document, and discover trained machine learning models. It ensures better collaboration, reproducibility, and governance over the entire model lifecycle.
-&gt; 
-&gt; We think of the model registry as a cornerstone concept that enables teams to collaborate, deploy, monitor, and continuously train models, and are very interested in your feedback. Please feel free to drop us a note in our [feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/465405) and we'll get back in touch!
-
-&lt;/details&gt;
-
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/software_supply_chain_security/"&gt;Software supply chain security&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Administrators can search users by partial email address](https://docs.gitlab.com/ee/administration/admin_area.html#administering-users) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Administrators can now search users by partial email address in the User overview of the Admin Area. For instance, you can filter users by a specific email domain to find all users from a distinct institution. This feature is limited to administrators to prevent unprivileged users from accessing email addresses of other accounts.
@@ -271,6 +260,17 @@
 &gt; Both project Owners and Maintainers with direct membership now receive email notifications when their project access tokens are close to expiring. Previously, only project Maintainers received this notification. This helps keep more people informed about upcoming token expiration.
 &gt; 
 &gt; Thank you [Jacob Henner](https://gitlab.com/arcesium-henner) for your contribution!
+
+&lt;/details&gt;
+
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/modelops/"&gt;Modelops&lt;/a&gt;&lt;/h5&gt;
+&lt;details&gt;&lt;summary&gt;[Model registry available in beta](https://docs.gitlab.com/ee/user/project/ml/model_registry/): &lt;code&gt;MLOps&lt;/code&gt;&lt;/summary&gt;
+
+&gt; GitLab now officially supports model registry in beta as a first-class concept. You can add and edit models directly via the UI, or use the MLflow integration to use GitLab as a model registry backend.
+&gt; 
+&gt; A model registry is a hub that helps data science teams manage machine learning models and their related metadata. It serves as a centralized location for organizations to store, version, document, and discover trained machine learning models. It ensures better collaboration, reproducibility, and governance over the entire model lifecycle.
+&gt; 
+&gt; We think of the model registry as a cornerstone concept that enables teams to collaborate, deploy, monitor, and continuously train models, and are very interested in your feedback. Please feel free to drop us a note in our [feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/465405) and we'll get back in touch!
 
 &lt;/details&gt;</content>
     <link href="https://gitlab.com/gitlab-org/gitlab-foss/-/releases/v17.1.0" rel="alternate"/>
@@ -418,7 +418,7 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/software_supply_chain_security/"&gt;Software supply chain security&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[OAuth 2.0 device authorization grant support](https://docs.gitlab.com/ee/api/oauth2.html#device-authorization-grant-flow): &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
 
 &gt; GitLab now supports the [OAuth 2.0 device authorization grant flow](https://datatracker.ietf.org/doc/html/rfc8628). This flow makes it possible to securely authenticate your GitLab identity from input constrained devices where browser interactions are not an option.
@@ -609,7 +609,7 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/software_supply_chain_security/"&gt;Software supply chain security&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Filter the member list in a group or project by role](https://docs.gitlab.com/ee/user/project/members/index.html): &lt;code&gt;Permissions&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Users can now filter the Members page by role. Use the filter to find members with a specific role.
@@ -810,14 +810,14 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/secure/"&gt;Secure&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/application_security_testing/"&gt;Application security testing&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Secret Detection support for Anthropic API keys](https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/detected_secrets.html): &lt;code&gt;Secret Detection&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Both pipeline and client-side Secret Detection now support detection of [Anthropic](https://www.anthropic.com/) API keys.
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/software_supply_chain_security/"&gt;Software supply chain security&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Optional token expiration](https://docs.gitlab.com/ee/administration/settings/account_and_limit_settings.html#require-expiration-dates-for-new-access-tokens) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Administrators can now decide if they want to enforce a mandatory expiration date for personal, project, and group access tokens. If administrators disable this setting, any new access token generated will not be required to have an expiration date. By default this setting is enabled, and an expiration less than that of the maximum allowed lifetime is required. This setting is available in GitLab 16.11 and later.
@@ -918,7 +918,7 @@
 
 &lt;/details&gt;
 
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/govern/"&gt;Govern&lt;/a&gt;&lt;/h5&gt;
+&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/software_supply_chain_security/"&gt;Software supply chain security&lt;/a&gt;&lt;/h5&gt;
 &lt;details&gt;&lt;summary&gt;[Improved user management summary](https://docs.gitlab.com/ee/user/profile/account/create_accounts.html#create-users-in-admin-area) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;User Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Administrators now have an enhanced, summarized view of the following critical pieces of information about the users on their instance:
