@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manyfold Releases</title>
-  <updated>2024-11-08T04:32:29.310125-05:00</updated>
+  <updated>2024-11-08T05:32:06.327200-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,7 @@
     <link href="https://github.com/manyfold3d/manyfold/releases/tag/v0.87.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/manyfold3d/manyfold/releases/tag/v0.87.1</id>
+    <id>https://github.com/manyfold3d/manyfold/releases/tag/v0.88.0</id>
     <title>New release for Manyfold: v0.88.0</title>
     <updated>2024-11-07T11:02:37-05:00</updated>
     <author>
@@ -165,6 +165,6 @@
 &lt;li&gt;Refactor and simplify old file removal code by @Floppy in https://github.com/manyfold3d/manyfold/pull/3121&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/manyfold3d/manyfold/compare/v0.87.0...v0.87.1&lt;/p&gt;</content>
-    <link href="https://github.com/manyfold3d/manyfold/releases/tag/v0.87.1" rel="alternate"/>
+    <link href="https://github.com/manyfold3d/manyfold/releases/tag/v0.88.0" rel="alternate"/>
   </entry>
 </feed>

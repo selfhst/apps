@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-11-08T04:33:34.835812-05:00</updated>
+  <updated>2024-11-08T05:33:12.979234-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,7 +150,7 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 &lt;h2&gt;Netdata Growth &lt;a id="v200-netdata-open-source-growth"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;1.5 million downloads per day&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;77.7k GitHub stars!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;72k GitHub stars!&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;648.3M Docker Hub pulls!&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Netdata is being downloaded more than 1.5 million times per day, as reported by Cloudflare, which distributes our binary packages, and Docker Hub, which distributes our docker containers!&lt;/p&gt;
@@ -200,7 +200,7 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 Netdata now supports configuring a &lt;code&gt;DNS TXT record&lt;/code&gt; on the IDP and will allow the user to sign in by providing the email address.&lt;/p&gt;
 &lt;p&gt;Read the &lt;a href="https://learn.netdata.cloud/docs/netdata-cloud/authentication-&amp;amp;-authorization/enterprise-sso-authentication#from-netdata-sign-up-page"&gt;Enterprise SSO&lt;/a&gt; documentation for more details.&lt;/p&gt;
 &lt;h3&gt;Netdata Referral Program &lt;a id="v200-release-highlights-netdata-ref-program"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;If you appreciate Netdata and would like to help spread the word, the newly launched &lt;a href="https://www.netdata.cloud/referral/"&gt;Netdata referral program&lt;/a&gt; helps you earn money while spreading the good word. Referring someone is easy to do with the help of a couple of clicks, directly from the UI - look out for the gift icon. Every referred user will get a 10% discount when they subscribe to Netdata business or HomeLab - and you will receive 10% of their subscription value (up to a max of 1000$ per space). You can refer an unlimited number of users, so there's no real limit to how much you can earn with the referral program.&lt;/p&gt;
+&lt;p&gt;If you appreciate Netdata and would like to help spread the word, the newly launched &lt;a href="https://www.netdata.cloud/referral/"&gt;Netdata referral program&lt;/a&gt; helps you earn money while spreading the good word. Referring someone is easy to do with the help of a couple of clicks, directly from the UI - look out for the gift icon. Every referred user will get a 10% discount when they subscribe to Netdata Business or Homelab - and you will receive 10% of their subscription value (up to a max of 1000$ per space). You can refer an unlimited number of users, so there's no real limit to how much you can earn with the referral program.&lt;/p&gt;
 &lt;h3&gt;Alerts Silencing Recurrence &lt;a id="v200-release-highlights-alert-silencing-recurrence"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Netdata Cloud UI now supports scheduling recurring silence rules for Alerts at a Space, Room, Node, and Alert level.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/5588c832-f0fe-472c-938c-a7aa41b39d2b" alt="Alerts Silencing" width="300"&gt;&lt;/p&gt;
