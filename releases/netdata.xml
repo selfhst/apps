@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-11-08T03:33:15.315062-05:00</updated>
+  <updated>2024-11-08T04:33:34.835812-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,9 +154,9 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;648.3M Docker Hub pulls!&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Netdata is being downloaded more than 1.5 million times per day, as reported by Cloudflare, which distributes our binary packages, and Docker Hub, which distributes our docker containers!&lt;/p&gt;
-&lt;p&gt;Thanks to your love ❤️, Netdata is leading the observability category in the CNCF landscape, having significantly more stars than Elasticsearch, Grafana, Prometheus and all other observability solutions.&lt;/p&gt;
-&lt;p&gt;We are committed to providing the most advanced and innovative AI-powered, cloud-native and on-premises observability solution, to help us have higher-fidelity AI insights, while being easier, faster, simpler, and significantly more affordable!&lt;/p&gt;
-&lt;p&gt;You like Netdata? &lt;a href="https://github.com/netdata/netdata"&gt;Give Netdata a ⭐ too, on GitHub!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to your love ❤️, Netdata is leading the observability category in the CNCF landscape, having significantly more stars than Elasticsearch, Grafana, Prometheus, and all other observability solutions.&lt;/p&gt;
+&lt;p&gt;We are committed to providing the most advanced and innovative AI-powered, cloud-native, and on-premises observability solution, to help us have higher-fidelity AI insights while being easier, faster, simpler, and significantly more affordable!&lt;/p&gt;
+&lt;p&gt;Do you like Netdata? &lt;a href="https://github.com/netdata/netdata"&gt;Give Netdata a ⭐ too, on GitHub!&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Release Summary &lt;a id="v200-release-summary"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Netdata 2.0 has arrived!&lt;/p&gt;
 &lt;p&gt;This release marks a major milestone in our roadmap, expanding Netdata's reach and refining its core components.&lt;/p&gt;
@@ -164,7 +164,7 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 &lt;p&gt;In response to feedback from the community, &lt;strong&gt;Netdata UI v2&lt;/strong&gt; has been removed from the open-source repository, addressing distribution challenges for Linux platforms. The new &lt;strong&gt;Netdata UI v3&lt;/strong&gt; is now a standalone package with a separate license, installable independently.&lt;/p&gt;
 &lt;p&gt;The introduction of &lt;strong&gt;Netdata API v3&lt;/strong&gt; consolidates all API calls into a single, robust API. This step clears the path for retiring the old v0, v1, and v2 APIs in future releases. With the upcoming release, dashboards built on these versions will no longer be supported, making way for streamlined, future-proofed Netdata integrations.&lt;/p&gt;
 &lt;h2&gt;Release Highlights &lt;a id="v200-release-highlights"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3&gt;Native Windows Support&lt;/h3&gt;
+&lt;h3&gt;Native Windows Support &lt;a id="v200-release-highlights-native-windows-support"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Netdata now delivers &lt;strong&gt;comprehensive monitoring for Windows systems&lt;/strong&gt;, including metrics, logs, process monitoring, machine learning, alerts, streaming, and more. Key features include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Installation via Windows Installer&lt;/strong&gt;&lt;/li&gt;
@@ -178,28 +178,38 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Enhanced &lt;code&gt;apps.plugin&lt;/code&gt;&lt;/strong&gt;: Monitors Windows processes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;New &lt;code&gt;windows-events.plugin&lt;/code&gt;&lt;/strong&gt;: Offers in-depth visibility into Windows Events. &lt;a href="https://github.com/netdata/netdata/blob/master/src/collectors/windows-events.plugin/README.md"&gt;Read more about the Windows Events Plugin here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Process Monitoring: Simplified and Enhanced&lt;/h3&gt;
+&lt;h3&gt;Process Monitoring: Simplified and Enhanced &lt;a id="v200-release-highlights-proc-mon-improved"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;apps.plugin&lt;/code&gt; has been significantly reworked to introduce dynamic process grouping:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Automates grouping&lt;/strong&gt;: automatically categorizes processes, significantly reducing manual configuration efforts.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Eliminates "other" dimension&lt;/strong&gt;: unmatched processes are now grouped dynamically.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read more about it in &lt;a href="https://www.netdata.cloud/blog/accurate-process-monitoring-with-netdata/"&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Network Monitoring&lt;/h3&gt;
+&lt;h3&gt;Network Monitoring &lt;a id="v200-release-highlights-network-monitoring"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;h4&gt;Enhanced SNMP collector&lt;/h4&gt;
-&lt;p&gt;The SNMP collector has been significantly improved to minimize the configuration burden and improved the visualization for SNMP devices. Further improvements related to network monitoring are coming soon!&lt;/p&gt;
+&lt;p&gt;The SNMP collector has been significantly improved, making it easier to configure and providing better visualizations for your SNMP devices. Further improvements related to network monitoring are coming soon!&lt;/p&gt;
 &lt;h4&gt;Improved Performance&lt;/h4&gt;
 &lt;p&gt;The redesigned &lt;code&gt;network-viewer.plugin&lt;/code&gt; and &lt;code&gt;local-listeners&lt;/code&gt; now deliver breakthrough performance in high-traffic environments, processing thousands of socket connections with minimal overhead. Experience real-time network insights without compromising system performance!&lt;/p&gt;
-&lt;h3&gt;Netdata SSO&lt;/h3&gt;
+&lt;h3&gt;Netdata SSO &lt;a id="v200-release-highlights-netdata-sso"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Secured Access to Indirectly Claimed Agents&lt;/strong&gt;: secure access to Children Agents, even when they're not directly connected to Netdata Cloud. SSO information is propagated from Parent Agents, ensuring consistent and controlled access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secured Access to Indirectly Claimed Agents&lt;/strong&gt;: secure access to Children Agents, even when not directly connected to Netdata Cloud. SSO information is propagated from Parent Agents, ensuring consistent and controlled access.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Protected API Access&lt;/strong&gt;: the new &lt;code&gt;[web].bearer token protection&lt;/code&gt; setting in &lt;code&gt;netdata.conf&lt;/code&gt; enforces SSO protection for the entire API, restricting Agent dashboard access to authorized Netdata Cloud users.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Netdata Referral Program&lt;/h3&gt;
-&lt;p&gt;If you appreciate Netdata, and would like to help spread the word, the newly launched &lt;a href="https://www.netdata.cloud/referral/"&gt;Netdata referral program&lt;/a&gt; helps you earn money while spreading the good word. Reffering someone is easy to do with the help of a couple of clicks, directly from the UI - look out for the gift icon. Every referred user will get a 10% discount when they subscribe to Netdata business or homelab - and you will receive 10% of their subscribtion value (up to a max of 1000$ per space). You can refer an unlimited number of users, so there's no real liimt to how much you can earn with the referral program. &lt;/p&gt;
-&lt;h3&gt;Comprehensive Unicode Support&lt;/h3&gt;
-&lt;p&gt;Netdata now provides complete UTF-8 compatibility, enabling support of international characters in all metadata—from chart names and dimensions to labels and logs. This enhancement ensures proper display of non-Latin characters and symbols.&lt;/p&gt;
-&lt;h3&gt;Configuration Updates: Intuitive Unit Specifications&lt;/h3&gt;
+&lt;h3&gt;Enterprise SSO - Enhanced SP Initiated SSO Flow &lt;a id="v200-release-highlights-enterprise-sso"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can now initiate a login flow directly from the Netdata Sign-In page without initiating the SSO flow from the IDP.
+Netdata now supports configuring a &lt;code&gt;DNS TXT record&lt;/code&gt; on the IDP and will allow the user to sign in by providing the email address.&lt;/p&gt;
+&lt;p&gt;Read the &lt;a href="https://learn.netdata.cloud/docs/netdata-cloud/authentication-&amp;amp;-authorization/enterprise-sso-authentication#from-netdata-sign-up-page"&gt;Enterprise SSO&lt;/a&gt; documentation for more details.&lt;/p&gt;
+&lt;h3&gt;Netdata Referral Program &lt;a id="v200-release-highlights-netdata-ref-program"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you appreciate Netdata and would like to help spread the word, the newly launched &lt;a href="https://www.netdata.cloud/referral/"&gt;Netdata referral program&lt;/a&gt; helps you earn money while spreading the good word. Referring someone is easy to do with the help of a couple of clicks, directly from the UI - look out for the gift icon. Every referred user will get a 10% discount when they subscribe to Netdata business or HomeLab - and you will receive 10% of their subscription value (up to a max of 1000$ per space). You can refer an unlimited number of users, so there's no real limit to how much you can earn with the referral program.&lt;/p&gt;
+&lt;h3&gt;Alerts Silencing Recurrence &lt;a id="v200-release-highlights-alert-silencing-recurrence"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata Cloud UI now supports scheduling recurring silence rules for Alerts at a Space, Room, Node, and Alert level.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/5588c832-f0fe-472c-938c-a7aa41b39d2b" alt="Alerts Silencing" width="300"&gt;&lt;/p&gt;
+&lt;h3&gt;Configurable Timeouts on Reachability Notifications &lt;a id="v200-release-highlights-conf-reachability-timeout"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata introduces configurable timeouts for reachability notifications at Space and Room levels.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Reachability Notifications" src="https://github.com/user-attachments/assets/02389e4a-b6c2-4d6a-ac7c-224cc0ddab11" /&gt;&lt;/p&gt;
+&lt;h3&gt;Comprehensive Unicode Support &lt;a id="v200-release-highlights-unicode-support"&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata now provides complete UTF-8 compatibility, enabling support of international characters in all metadata—from chart names and dimensions to labels and logs. This enhancement ensures the proper display of non-Latin characters and symbols.&lt;/p&gt;
+&lt;h3&gt;Configuration Updates: Intuitive Unit Specifications &lt;a id="v200-release-highlights-config-intuitive-unit"&gt;&lt;/h3&gt;
 &lt;p&gt;Netdata introduces human-friendly unit notation in configuration files. Use natural expressions like &lt;code&gt;1d&lt;/code&gt; (one day), &lt;code&gt;1MiB&lt;/code&gt; (one megabyte), or &lt;code&gt;500ms&lt;/code&gt; (milliseconds) in &lt;code&gt;netdata.conf&lt;/code&gt; and &lt;code&gt;stream.conf&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Acknowledgments &lt;a id="v200-acknowledgments"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mailcow Releases</title>
-  <updated>2024-11-08T03:30:47.241151-05:00</updated>
+  <updated>2024-11-08T04:30:46.739698-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,7 +128,11 @@ CVE-2024-41960 - XSS Vulnerability via Relay Hosts Configuration&lt;/p&gt;
     <author>
       <name>mailcow/mailcow-dockerized</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!CAUTION]
+We got some reports of postfix not starting correctly (see https://github.com/mailcow/mailcow-dockerized/issues/6143) before update delete the &lt;code&gt;dns_blocklists.cf&lt;/code&gt; file in your &lt;code&gt;data/conf/postfix&lt;/code&gt; folder to make sure this file is properly regenerated.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Translations update from Weblate by @milkmaker in https://github.com/mailcow/mailcow-dockerized/pull/6039&lt;/li&gt;
 &lt;li&gt;Translations update from Weblate by @milkmaker in https://github.com/mailcow/mailcow-dockerized/pull/6049&lt;/li&gt;
