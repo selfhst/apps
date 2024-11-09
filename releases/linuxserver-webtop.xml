@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2024-11-09T14:31:51.187038-05:00</updated>
+  <updated>2024-11-09T15:31:49.544614-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,20 @@
 &lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to 6e4c6876&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/6e4c6876-ls188" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/14a1674b-ls189</id>
+    <title>New release for Webtop: 14a1674b-ls189</title>
+    <updated>2024-11-09T15:27:36-05:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;CI Report:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;https://ci-tests.linuxserver.io/linuxserver/webtop/14a1674b-ls189/index.html&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Swap from firefox to chromium on Alpine images.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OS Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to 14a1674b&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/14a1674b-ls189" rel="alternate"/>
   </entry>
 </feed>

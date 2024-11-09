@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Joplin Releases</title>
-  <updated>2024-11-09T14:30:34.828032-05:00</updated>
+  <updated>2024-11-09T15:30:34.307733-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,7 +73,7 @@
       <name>laurent22/joplin</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Fixed: Fix title rendering in GotoAnything search results (#11356 by &lt;a href="https://github.com/personalizedrefrigerator"&gt;@personalizedrefrigerator&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Security: Fix title rendering in GotoAnything search results (#11356 by &lt;a href="https://github.com/personalizedrefrigerator"&gt;@personalizedrefrigerator&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixed: Markdown editor: Auto-close backticks (#11351) (#11335 by &lt;a href="https://github.com/personalizedrefrigerator"&gt;@personalizedrefrigerator&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/laurent22/joplin/releases/tag/v3.1.24" rel="alternate"/>
