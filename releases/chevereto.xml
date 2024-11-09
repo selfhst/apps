@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-11-09T06:30:14.176785-05:00</updated>
+  <updated>2024-11-09T07:30:13.807710-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,7 @@
   </entry>
   <entry>
     <id>https://github.com/chevereto/chevereto/releases/tag/4.2.0</id>
-    <title>New release for Chevereto: 4.2.0 (See #81)</title>
+    <title>New release for Chevereto: 4.2.0</title>
     <updated>2024-10-24T10:11:08-04:00</updated>
     <author>
       <name>chevereto/chevereto</name>
