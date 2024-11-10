@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hoarder Releases</title>
-  <updated>2024-11-10T09:31:59.692943-05:00</updated>
+  <updated>2024-11-10T10:31:59.679981-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -425,11 +425,11 @@ index cdfc908..6297563 100644
 &lt;li&gt;&lt;strong&gt;AI Summarization&lt;/strong&gt;: Hoarder now has the ability to generate summaries for the links that you hoard! Check the screenshots section to see it in action.&lt;/li&gt;
 &lt;li&gt;Currently, summarization is a manual action. In the future, we'll add support for auto summarization.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Video downloads&lt;/strong&gt;: For ultimate hoarding, Hoarder now has the ability to download videos from the links that you hoard (e.g. youtube) thanks to @kamtschatka.&lt;/li&gt;
-&lt;li&gt;Given that videos can be huge, this is an opt-in feature. You can enable it with &lt;code&gt;CRAWLER_VIDEO_DOWNLOAD=true&lt;/code&gt;. Find more configuration options &lt;a href="https://docs.hoarder.app/0.19.0/configuration#crawler-configs"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Given that videos can be huge, this is an opt-in feature. You can enable it with &lt;code&gt;CRAWLER_VIDEO_DOWNLOAD=true&lt;/code&gt;. Find more configuration options &lt;a href="https://docs.hoarder.app/configuration#crawler-configs"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Hoarder uses &lt;a href="https://github.com/ytdl-org/youtube-dl"&gt;ytdl&lt;/a&gt; under the hood, and you can find their list of supported files &lt;a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Omnivore Imports&lt;/strong&gt;: Omnivore &lt;a href="https://blog.omnivore.app/p/omnivore-is-joining-elevenlabs"&gt;is shutting down&lt;/a&gt;. You can now import your bookmarks from Omnivore into Hoarder. Check the documentation &lt;a href="https://docs.hoarder.app/0.19.0/import"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Omnivore Imports&lt;/strong&gt;: Omnivore &lt;a href="https://blog.omnivore.app/p/omnivore-is-joining-elevenlabs"&gt;is shutting down&lt;/a&gt;. You can now import your bookmarks from Omnivore into Hoarder. Check the documentation &lt;a href="https://docs.hoarder.app/import"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;User Management&lt;/strong&gt;: Admins can now reset user passwords, change their roles and even create new users thanks to @kamtschatka.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Image OCR&lt;/strong&gt;: Hoarder will now attempt to read and index text in the images that you hoard! Check the configuration variables &lt;a href="https://docs.hoarder.app/0.19.0/configuration#ocr-configs"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Image OCR&lt;/strong&gt;: Hoarder will now attempt to read and index text in the images that you hoard! Check the configuration variables &lt;a href="https://docs.hoarder.app/configuration#ocr-configs"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Others:&lt;/li&gt;
 &lt;li&gt;@kamtschatka Added authentication failure logging in case you want to configure fail2ban against hoarder logs.&lt;/li&gt;
 &lt;/ul&gt;
