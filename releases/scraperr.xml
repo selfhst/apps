@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scraperr Releases</title>
-  <updated>2024-11-09T21:32:45.944884-05:00</updated>
+  <updated>2024-11-09T22:32:43.573487-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -26,5 +26,18 @@
 &lt;li&gt;Fix broken logs page&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jaypyles/Scraperr/releases/tag/v1.0.1</id>
+    <title>New release for Scraperr: v1.0.1</title>
+    <updated>2024-11-09T22:29:06-05:00</updated>
+    <author>
+      <name>jaypyles/Scraperr</name>
+    </author>
+    <content>&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Added the ability to pass in a list of comma separated proxies to be used when submitting a scraping job.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
