@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bigcapital Releases</title>
-  <updated>2024-11-10T04:30:09.142353-05:00</updated>
+  <updated>2024-11-10T05:30:08.739350-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,7 @@
   <entry>
     <id>https://github.com/bigcapitalhq/bigcapital/releases/tag/v0.21.0</id>
     <title>New release for Bigcapital: v0.21.0</title>
-    <updated>2024-11-09T16:46:42-05:00</updated>
+    <updated>2024-11-10T04:55:00-05:00</updated>
     <author>
       <name>bigcapitalhq/bigcapital</name>
     </author>
@@ -115,6 +115,7 @@
 &lt;li&gt;feat: Added Spanish language to the App 🇪🇸 by @angelosorno in https://github.com/bigcapitalhq/bigcapital/pull/530&lt;/li&gt;
 &lt;li&gt;fix: mail services by @abouolia in https://github.com/bigcapitalhq/bigcapital/pull/746&lt;/li&gt;
 &lt;li&gt;fix: company logo of the template by @abouolia in https://github.com/bigcapitalhq/bigcapital/pull/747&lt;/li&gt;
+&lt;li&gt;fix: monorepo dependencies scope by @abouolia in https://github.com/bigcapitalhq/bigcapital/pull/748&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
