@@ -653,13 +653,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
@@ -727,6 +727,12 @@
     },
     {
         "Tag": "Relational Database",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Relationships",
         "Valid Types": [
             "Software"
         ]
