@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Formbricks Releases</title>
-  <updated>2024-11-11T04:34:03.140128-05:00</updated>
+  <updated>2024-11-11T05:33:58.113379-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -333,7 +333,7 @@ With this release, Formbricks is not only available in English, but also in Germ
   requires the &lt;code&gt;pgvector&lt;/code&gt; extension to be installed in the PostgreSQL database. For users of our one-click
   setup, simply use the &lt;code&gt;pgvector/pgvector:pg15&lt;/code&gt; image instead of &lt;code&gt;postgres:15-alpine&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]  &lt;br /&gt;
-&lt;strong&gt;Data migration required ⚠️&lt;/strong&gt; This release includes a data migration to handle skipped CTA responses. Please follow the &lt;a href="https://formbricks.com/docs/self-hosting/migration-guide"&gt;instructions on the Migration page&lt;/a&gt; in the docs to learn how to run the data migration needed.&lt;/p&gt;
+&lt;strong&gt;Data migration required ⚠️&lt;/strong&gt; This release includes a data migration to handle the changes on the access role feature. Please follow the &lt;a href="https://formbricks.com/docs/self-hosting/migration-guide"&gt;instructions on the Migration page&lt;/a&gt; in the docs to learn how to run the data migration needed.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;

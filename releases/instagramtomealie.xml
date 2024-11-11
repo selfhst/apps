@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InstagramToMealie Releases</title>
-  <updated>2024-11-11T04:34:15.954533-05:00</updated>
+  <updated>2024-11-11T05:34:11.816670-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -20,5 +20,15 @@
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/JoTec2002/InstagramToMealie/commits/v1.0.0&lt;/p&gt;
 &lt;p&gt;First Release. I hope you will find it helpfull. &lt;/p&gt;</content>
     <link href="https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.1.0</id>
+    <title>New release for InstagramToMealie: v1.1.0</title>
+    <updated>2024-11-11T05:10:35-05:00</updated>
+    <author>
+      <name>JoTec2002/InstagramToMealie</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/JoTec2002/InstagramToMealie/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
