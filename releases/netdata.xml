@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-11-11T03:33:12.078157-05:00</updated>
+  <updated>2024-11-11T04:33:15.999101-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,7 +160,7 @@ These fixes are expected to be part of the next major release (v2).&lt;/p&gt;
 &lt;h2&gt;Release Summary &lt;a id="v200-release-summary"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Netdata 2.0 has arrived!&lt;/p&gt;
 &lt;p&gt;This release marks a major milestone in our roadmap, expanding Netdata's reach and refining its core components.&lt;/p&gt;
-&lt;p&gt;We’re thrilled to announce &lt;strong&gt;native Windows support&lt;/strong&gt;! Netdata now &lt;strong&gt;runs seamlessly on Windows&lt;/strong&gt;, in addition to Linux, macOS, and FreeBSD. This advancement required an extensive rework across the Netdata codebase. While we continue using MSYS2 for certain POSIX dependencies, we’re making strides toward full abstraction of this layer. The &lt;strong&gt;Windows codebase is fully open-source&lt;/strong&gt;, offering users complete functionality on Windows with no additional dependencies. Note that &lt;strong&gt;access to Windows systems via the Netdata UI requires a Netdata Cloud Business subscription&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We’re thrilled to announce &lt;strong&gt;native Windows support&lt;/strong&gt;! Netdata now &lt;strong&gt;runs seamlessly on Windows&lt;/strong&gt;, in addition to Linux, macOS, and FreeBSD. This advancement required an extensive rework across the Netdata codebase. While we continue using MSYS2 for certain POSIX dependencies, we’re making strides toward full abstraction of this layer. The &lt;strong&gt;Windows codebase is fully open-source&lt;/strong&gt;, offering users complete functionality on Windows with no additional dependencies. Note that &lt;strong&gt;access to Windows systems via the Netdata UI requires a Paid Netdata Cloud subscription&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;In response to feedback from the community, &lt;strong&gt;Netdata UI v2&lt;/strong&gt; has been removed from the open-source repository, addressing distribution challenges for Linux platforms. The new &lt;strong&gt;Netdata UI v3&lt;/strong&gt; is now a standalone package with a separate license, installable independently.&lt;/p&gt;
 &lt;p&gt;The introduction of &lt;strong&gt;Netdata API v3&lt;/strong&gt; consolidates all API calls into a single, robust API. This step clears the path for retiring the old v0, v1, and v2 APIs in future releases. With the upcoming release, dashboards built on these versions will no longer be supported, making way for streamlined, future-proofed Netdata integrations.&lt;/p&gt;
 &lt;h2&gt;Release Highlights &lt;a id="v200-release-highlights"&gt;&lt;/a&gt;&lt;/h2&gt;
