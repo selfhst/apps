@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-11-11T06:30:51.258222-05:00</updated>
+  <updated>2024-11-11T07:30:49.652004-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -589,7 +589,7 @@ CMS_BREAK --&gt;
 
 # v2.0.3
 
-This version fixes a range of bugs reported in the 2.0.0 release as well as an important security issue.
+This version improves the robustness by resolving a range of bugs reported in v2.0.0 and patches an important security issue.
 
 CMS_BREAK --&gt;
 
