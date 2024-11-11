@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-11-11T07:30:49.652004-05:00</updated>
+  <updated>2024-11-11T08:30:51.044173-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -600,7 +600,7 @@ CMS_BREAK --&gt;
 &lt;p&gt;See &lt;a href="https://github.com/medusajs/medusa/pull/9949"&gt;this PR&lt;/a&gt; for more.&lt;/p&gt;
 &lt;h3&gt;Patched security issue&lt;/h3&gt;
 &lt;p&gt;This release contains an important security fix for the email-password authentication provider. Please update your project as soon as possible.&lt;/p&gt;
-&lt;p&gt;Security advisory describing the issue will be shared here.&lt;/p&gt;
+&lt;p&gt;The security issue was found in the password reset flow when using the email-password authentication provider. By obtaining a password reset token, it was possible to update the &lt;code&gt;provider_metadata&lt;/code&gt; of other users’ provider identities by including a specific payload in the password reset request. To minimize risk to affected users, we will not disclose the structure of the payload.&lt;/p&gt;
 &lt;h2&gt;Bugs&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: Use sub instead of email for google entity ID by @sradevski in https://github.com/medusajs/medusa/pull/9949&lt;/li&gt;
