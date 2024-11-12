@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>listmonk Releases</title>
-  <updated>2024-11-12T13:31:36.959919-05:00</updated>
+  <updated>2024-11-12T14:31:41.697697-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -538,14 +538,14 @@ docker-compose up -d app db
     <link href="https://github.com/knadh/listmonk/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/knadh/listmonk/releases/tag/v4.0.1</id>
-    <title>New release for listmonk: v4.0.1</title>
-    <updated>2024-10-28T03:56:09-04:00</updated>
+    <id>https://github.com/knadh/listmonk/releases/tag/v4.1.0</id>
+    <title>New release for listmonk: v4.1.0</title>
+    <updated>2024-11-12T13:49:52-05:00</updated>
     <author>
       <name>knadh/listmonk</name>
     </author>
     <content>&lt;p&gt;&lt;a href="https://listmonk.app"&gt;&lt;img alt="listmonk-logo" src="https://user-images.githubusercontent.com/547147/134940003-1de03d83-8c7b-459b-8056-baa8d5f3b448.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;v4.0.1 is a major release with a significant number of improvements and fixes.&lt;/p&gt;
+&lt;p&gt;v4.1.0 is a major release with a significant number of improvements and fixes.&lt;/p&gt;
 &lt;h1&gt;⚠️ Important: Upgrading from v3.x.x&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;As always, take a backup of your Postgres database before upgrading.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;v4.0.1 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
@@ -576,6 +576,29 @@ docker-compose up -d app db
 ```&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;0a27de16c6e23b7d4b84d4d91fe59bea10877ad1 Replace type field in user creation UI with radio-button for better usability.&lt;/li&gt;
+&lt;li&gt;894d284309378efd8b9e18ffd067579df6869c3f Fix GET subscribers not filtering by list permissions. Closes #2129.&lt;/li&gt;
+&lt;li&gt;8b213f09965668a52fbec7eb0848e1b76743e848 adds property &lt;code&gt;description&lt;/code&gt; to &lt;code&gt;List&lt;/code&gt; and &lt;code&gt;NewList&lt;/code&gt;, updates docs (#2150)&lt;/li&gt;
+&lt;li&gt;18edc653a8cb7d8711f272bda2ab44053985fe50 Add v4.1.0 migrations.&lt;/li&gt;
+&lt;li&gt;abe09d67edbdb88f6583a42664bf9d9bf4cb9159 Refactor OIDC redirect state to have nonce validation. Closes #2138.&lt;/li&gt;
+&lt;li&gt;b995cce5d12973a9b827895d10afab1ffb94ba18 Switch login form URLs to relative URIs.&lt;/li&gt;
+&lt;li&gt;cb8b54fd00e8fad997f4ce566b10126e3d4e24ec Add ForwardEmail (provider) bounce integration (#2016)&lt;/li&gt;
+&lt;li&gt;03925821fb992b57ae208d1d6f1aef876bfe14bd Add % on campaign analytics pie chart hover (#2124)&lt;/li&gt;
+&lt;li&gt;c35ed68759946c3ec1674768060d6b7e8a41c095 Fix quotes in JSON API req example in docs.&lt;/li&gt;
+&lt;li&gt;e182fb5660da47dd1923133bc887504f9dabd783 Fix the delete/blocklist by SQL query example in docs.&lt;/li&gt;
+&lt;li&gt;1ac9ccbb8ba10d280c72e54f83bda7cab4049561 Reject blocklist-by-query API requests with no query.&lt;/li&gt;
+&lt;li&gt;ac5e10158a0639bf59480caeb7df8c2fa2ad2d4c Reject query-by-delete API requests with no query. Ref #2122.&lt;/li&gt;
+&lt;li&gt;d8a394d0f45d76051905d3fb6e89c6efbc658979 Update it.json (#2134)&lt;/li&gt;
+&lt;li&gt;68df63773dc1cfcd3703cba288777435f53172a4 Update curl example to remove username/api_username confusion. Closes #2136.&lt;/li&gt;
+&lt;li&gt;2c02e01aaa3a4908ac1d2e4be9dcfd7e773f3708 #2114 - Fix issue of wrong platform used during docker build (#2123)&lt;/li&gt;
+&lt;li&gt;599147c1029cf27c3a6a9298eaf1ff1006809ca7 fix: favicon markup (#2115)&lt;/li&gt;
+&lt;li&gt;be9fe9c7a2a9936c980364e571cb412b3af59a8d Update hu.json (#2102)&lt;/li&gt;
+&lt;li&gt;5abf004655ad457e0fe319ce18487c73957b36b3 fix dummy detection for OIDC client secret (#2116)&lt;/li&gt;
+&lt;li&gt;cf7d6644f1df0dc19d4b2a1067a8473f53932d3b Fix broken individual list GET API. Closes #2117.&lt;/li&gt;
+&lt;li&gt;ca73e4f1dc71a05591e4410b5bda1270e06727c5 Change wording to 'one-way mailing list' on the static homepage.&lt;/li&gt;
+&lt;li&gt;998b6e300af688b27ef02434313d0fc67447771b Remove version info from docker-compose docs to avoid confusion.&lt;/li&gt;
+&lt;li&gt;f6ed13a6a968c0f5e362721c67c9004052f19598 Add explicit instructions for older docker-compose files.&lt;/li&gt;
+&lt;li&gt;319053dd7a908e45cf85c9cc78826bed8d786e15 Update release link on static site homepage.&lt;/li&gt;
 &lt;li&gt;f5dfb0cf62f1097545ff315a5c1d9ac540d54b9e Remove root URL from login setup form to prevent bad redirect on first install. Closes #2103.&lt;/li&gt;
 &lt;li&gt;136d9d1fa9e69bec8c8c3de2720609ad2f704aeb Don't fail on chown in Docker entry script. Closes #2104.&lt;/li&gt;
 &lt;li&gt;8ef71aa7a4d85f801a7ae5d592bf3de3888eaff9 Fix docker-compose curl command examples.&lt;/li&gt;
@@ -813,8 +836,14 @@ docker-compose up -d app db
 &lt;li&gt;@rk9595 made their first contribution in https://github.com/knadh/listmonk/pull/2081&lt;/li&gt;
 &lt;li&gt;@albanobattistella made their first contribution in https://github.com/knadh/listmonk/pull/2085&lt;/li&gt;
 &lt;li&gt;@abhinandkakkadi made their first contribution in https://github.com/knadh/listmonk/pull/2095&lt;/li&gt;
+&lt;li&gt;@pbence made their first contribution in https://github.com/knadh/listmonk/pull/2116&lt;/li&gt;
+&lt;li&gt;@ovari made their first contribution in https://github.com/knadh/listmonk/pull/2102&lt;/li&gt;
+&lt;li&gt;@salim-b made their first contribution in https://github.com/knadh/listmonk/pull/2115&lt;/li&gt;
+&lt;li&gt;@Dygwah98 made their first contribution in https://github.com/knadh/listmonk/pull/2134&lt;/li&gt;
+&lt;li&gt;@shaunwarman made their first contribution in https://github.com/knadh/listmonk/pull/2016&lt;/li&gt;
+&lt;li&gt;@smoebody made their first contribution in https://github.com/knadh/listmonk/pull/2150&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/knadh/listmonk/compare/v3.0.0...v4.0.0&lt;/p&gt;</content>
-    <link href="https://github.com/knadh/listmonk/releases/tag/v4.0.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/knadh/listmonk/compare/v3.0.0...v4.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/knadh/listmonk/releases/tag/v4.1.0" rel="alternate"/>
   </entry>
 </feed>
