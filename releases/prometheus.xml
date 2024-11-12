@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Prometheus Releases</title>
-  <updated>2024-11-12T03:31:48.606323-05:00</updated>
+  <updated>2024-11-12T04:31:52.144486-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,7 +169,7 @@ Remote-write v2 is enabled by default, but can be disabled via feature-flag &lt;
   </entry>
   <entry>
     <id>https://github.com/prometheus/prometheus/releases/tag/v2.55.1</id>
-    <title>New release for Prometheus: 2.55.1 / 2024-01-04</title>
+    <title>New release for Prometheus: 2.55.1 / 2024-11-04</title>
     <updated>2024-11-06T06:45:13-05:00</updated>
     <author>
       <name>prometheus/prometheus</name>
