@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2024-11-11T23:33:52.320092-05:00</updated>
+  <updated>2024-11-12T00:33:50.799688-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,13 +88,13 @@
   <entry>
     <id>https://github.com/dagu-org/dagu/releases/tag/v1.14.8</id>
     <title>New release for Dagu: v1.14.8</title>
-    <updated>2024-11-11T20:17:20-05:00</updated>
+    <updated>2024-11-11T23:53:29-05:00</updated>
     <author>
       <name>dagu-org/dagu</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;8dc577eb2b854e71a66bb32ce562e05cc3ab1019 ui: Adjust timezone handling (#705)&lt;/li&gt;
+&lt;li&gt;855e75d83bf1e618693a1cec084b380861a5ea87 fixed bug when using the CRON_TZ= cron expression (#707)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.14.8" rel="alternate"/>
   </entry>
