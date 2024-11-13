@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Read You Releases</title>
-  <updated>2024-11-12T22:33:15.644238-05:00</updated>
+  <updated>2024-11-12T23:33:19.631915-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -214,9 +214,9 @@
 5. Add a button to collapse/expand feed groups&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;@aualbert made their first contribution in https://github.com/Ashinch/ReadYou/pull/744&lt;/li&gt;
-&lt;li&gt;@brenoepics made their first contribution in https://github.com/Ashinch/ReadYou/pull/784&lt;/li&gt;
-&lt;li&gt;@yajaru made their first contribution in https://github.com/Ashinch/ReadYou/pull/850&lt;/li&gt;
+&lt;li&gt;@aualbert made their first contribution in &lt;a href="https://github.com/Ashinch/ReadYou/pull/744"&gt;#744&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@brenoepics made their first contribution in &lt;a href="https://github.com/Ashinch/ReadYou/pull/784"&gt;#784&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@yajaru made their first contribution in &lt;a href="https://github.com/Ashinch/ReadYou/pull/850"&gt;#850&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Ashinch/ReadYou/compare/0.10.1...0.11.0&lt;/p&gt;</content>
     <link href="https://github.com/Ashinch/ReadYou/releases/tag/0.11.0" rel="alternate"/>
