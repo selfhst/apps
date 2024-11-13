@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-11-13T03:31:40.428955-05:00</updated>
+  <updated>2024-11-13T04:31:38.700696-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -208,6 +208,21 @@ automatically.&lt;/p&gt;
       <name>Fallenbagel/jellyseerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/fallenbagel/jellyseerr/compare/v2.0.1...v2.1.0"&gt;2.1.0&lt;/a&gt; (2024-11-12)&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]  &lt;/p&gt;
+&lt;h3&gt;Notice for build from source users&lt;/h3&gt;
+&lt;p&gt;After running git pull to update your instance, please delete the dist, .next, and node_modules directories. Make sure to follow the proper steps, starting with &lt;a href="https://docs.jellyseerr.dev/getting-started/buildfromsource"&gt;Step 3: "Install Dependencies"&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/6dc90390-9559-47e0-a925-613a6ecb9870" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;New Proxy Settings:&lt;/strong&gt; Support for configuring HTTP proxy settings from Settings &amp;gt; General. You can now set up a proxy for outgoing requests and have the ability to bypass local addresses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Performance Degradation / Lag Fix:&lt;/strong&gt; This release addresses an issue that particularly affected users with weaker hardware (e.g., Synology devices). Jellyseerr previously experienced significant lag (up to 10-15 seconds) when navigating to core pages that did not rely on external APIs, such as settings. The problem was caused by multiple requests to the blacklist modal for each series/movie card, which overloaded both the server and the browser, causing timeouts. This issue also impacted smooth scrolling, resulting in hangs when scrolling too quickly. The fix improves performance and resolves these issues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;blacklist:&lt;/strong&gt; request data only when modal is shown, remove useless ratelimit and lazy load blacklist (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1084"&gt;#1084&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/694913c767c558147f413e2375b2512567541127"&gt;694913c&lt;/a&gt;)&lt;/li&gt;
