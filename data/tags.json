@@ -634,7 +634,8 @@
     {
         "Tag": "Password Manager",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
