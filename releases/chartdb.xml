@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ChartDB Releases</title>
-  <updated>2024-11-13T07:34:08.517365-05:00</updated>
+  <updated>2024-11-13T08:34:17.873117-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,5 +92,38 @@
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fetch templates data from router (&lt;a href="https://github.com/chartdb/chartdb/issues/321"&gt;#321&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/d8a20ebbd9118989690a40fcd3aa59fb156b446f"&gt;d8a20eb&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chartdb/chartdb/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chartdb/chartdb/releases/tag/v1.1.0</id>
+    <title>New release for ChartDB: v1.1.0</title>
+    <updated>2024-11-13T08:26:35-05:00</updated>
+    <author>
+      <name>chartdb/chartdb</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/chartdb/chartdb/compare/v1.0.1...v1.1.0"&gt;1.1.0&lt;/a&gt; (2024-11-13)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;add templates:&lt;/strong&gt; add five more templates (laravel, django, twitter… (&lt;a href="https://github.com/chartdb/chartdb/issues/371"&gt;#371&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/20b3396ec2afff09ca8bcdd91f5c6284c93cd959"&gt;20b3396&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;canvas:&lt;/strong&gt; Added Snap to grid functionality. Toggle/hold shift to enable snap to grid. (&lt;a href="https://github.com/chartdb/chartdb/issues/373"&gt;#373&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/6c7eb4609d8466278de30317665929ec529c1f94"&gt;6c7eb46&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;share:&lt;/strong&gt; add sharing capabilities to import and export diagrams (&lt;a href="https://github.com/chartdb/chartdb/issues/365"&gt;#365&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/94a5d84fae819b0de6c1e471d1aad16dc8f39dd6"&gt;94a5d84&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bundle:&lt;/strong&gt; fix bundle size (&lt;a href="https://github.com/chartdb/chartdb/issues/382"&gt;#382&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/4ca18327324106950f0d1af851b9b74379b67b7b"&gt;4ca1832&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dockerfile:&lt;/strong&gt; support openai key in docker build (&lt;a href="https://github.com/chartdb/chartdb/issues/366"&gt;#366&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/545e8578c9e8aa71696f6aa8bec81cacaa602c2d"&gt;545e857&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add korean (&lt;a href="https://github.com/chartdb/chartdb/issues/362"&gt;#362&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/b305be82aee00994ef576ca6fd62d72dd491f771"&gt;b305be8&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Add simplified chinese (&lt;a href="https://github.com/chartdb/chartdb/issues/385"&gt;#385&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/9f2893319a1a2aed9a7c03d15e25a17ab37c2465"&gt;9f28933&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Added Russian language (&lt;a href="https://github.com/chartdb/chartdb/issues/376"&gt;#376&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/2c69b08eaea6b86ce0c1ddb18a23e22629198bf5"&gt;2c69b08&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; added traditional Chinese language translation (&lt;a href="https://github.com/chartdb/chartdb/issues/356"&gt;#356&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/123f40f39e703ad612635964af530ac72c387d3c"&gt;123f40f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Fixed part of RU lang introduced in &lt;a href="https://github.com/chartdb/chartdb/issues/365"&gt;#365&lt;/a&gt; feat(share) (&lt;a href="https://github.com/chartdb/chartdb/issues/380"&gt;#380&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/5508c1e084e0ee24d1a54f721f760b9fc14df107"&gt;5508c1e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; french translation update - share menu (&lt;a href="https://github.com/chartdb/chartdb/issues/391"&gt;#391&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/e3129cec744d18f09953544d9e74cd5adc4e8afb"&gt;e3129ce&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;import json:&lt;/strong&gt; for Check Script Result, default with quotes (&lt;a href="https://github.com/chartdb/chartdb/issues/358"&gt;#358&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/1430d2c2365b7b74e36b8ff9d32a163d7437448a"&gt;1430d2c&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;improve title name edit interaction (&lt;a href="https://github.com/chartdb/chartdb/issues/367"&gt;#367&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/84e7591d0586b9a457f31737c6e363ef41574142"&gt;84e7591&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;share:&lt;/strong&gt; add loader to the export (&lt;a href="https://github.com/chartdb/chartdb/issues/381"&gt;#381&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/3609bfea4d4c78b03711ff8d721b4e67bf82185a"&gt;3609bfe&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sql export:&lt;/strong&gt; make loading for export interactive (&lt;a href="https://github.com/chartdb/chartdb/issues/388"&gt;#388&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/125a39fb5be803f0e6db0b68fb5bc8e290fa8dae"&gt;125a39f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; change the template url to be database instead of db (&lt;a href="https://github.com/chartdb/chartdb/issues/374"&gt;#374&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/f1d073d05383955da6f60a9a66ed2be879b103e4"&gt;f1d073d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fix issue with double-clone on localhost (&lt;a href="https://github.com/chartdb/chartdb/issues/394"&gt;#394&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/78c427f38e5c64fc340d13ceb2153c2b85db437e"&gt;78c427f&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/chartdb/chartdb/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
