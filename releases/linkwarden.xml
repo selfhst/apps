@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Linkwarden Releases</title>
-  <updated>2024-11-13T21:30:44.802541-05:00</updated>
+  <updated>2024-11-13T22:30:43.592533-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,7 +123,7 @@
   <entry>
     <id>https://github.com/linkwarden/linkwarden/releases/tag/v2.8.1</id>
     <title>New release for Linkwarden: v2.8.1</title>
-    <updated>2024-11-13T09:28:04-05:00</updated>
+    <updated>2024-11-13T22:21:32-05:00</updated>
     <author>
       <name>linkwarden/linkwarden</name>
     </author>
@@ -140,6 +140,7 @@
 &lt;li&gt;update version number by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/841&lt;/li&gt;
 &lt;li&gt;revert dockerfile to working state by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/845&lt;/li&gt;
 &lt;li&gt;update Dockerfile by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/846&lt;/li&gt;
+&lt;li&gt;increase staticPageGenerationTimeout by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/849&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/linkwarden/linkwarden/compare/v2.8.0...v2.8.1&lt;/p&gt;</content>
     <link href="https://github.com/linkwarden/linkwarden/releases/tag/v2.8.1" rel="alternate"/>
