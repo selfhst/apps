@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-11-14T06:31:35.716049-05:00</updated>
+  <updated>2024-11-14T07:31:35.686580-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -297,6 +297,8 @@
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!CAUTION]
  &lt;strong&gt;This is a security release. All Snipe-IT users are strongly encouraged to upgrade.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[!WARNING]
+ &lt;strong&gt;FYI, in our excitement to get this released, we mistakenly tagged this as 7.1.14 instead of 7.0.14 (yay, automation, amirite?) Unfortunately, deleting tags makes this more difficult for our docker users, so we're just running with it.&lt;/strong&gt; Sorry for the confusion, but you didn't miss anything, it was just a simple typo. We'll update the version.php file so at least they both agree. There are no new server requirements or libraries required outside of the standard 7.x.x requirements to handle this upgrade.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt="liz-lemon-wednesday" src="https://github.com/user-attachments/assets/59e484d8-8245-4827-adc0-e5fd24949fd5" /&gt;&lt;/p&gt;
 &lt;p&gt;We seem to be getting a lot of mileage from that gif these days. 🫠&lt;/p&gt;
@@ -320,7 +322,6 @@
 &lt;li&gt;Our blog at &lt;a href="https://grokstar.dev"&gt;Grokstar.Dev&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Subscribe here on Github for notifications about new releases. (Click on "Watch" on the main repo page, then go to "Custom" and check the box that says "Releases".)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;FYI, in our excitement to get this released, we mistakenly tagged this as 7.1.14 instead of 7.0.14 (yay, automation, amirite?) Unfortunately, deleting tags makes this more difficult for the docker folks, so we're just running with it.&lt;/strong&gt; Sorry for the confusion, but you didn't miss anything, it was just a simple typo. We'll update the version.php file so at least they both agree.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed numeric sort 'ambiguous order clause' error by @uberbrady in https://github.com/snipe/snipe-it/pull/15610&lt;/li&gt;
