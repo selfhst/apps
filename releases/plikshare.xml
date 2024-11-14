@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2024-11-14T01:34:13.652786-05:00</updated>
+  <updated>2024-11-14T02:34:08.730121-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,5 +69,28 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/investbrainapp/investbrain/compare/v1.0.2...v1.0.3&lt;/p&gt;</content>
     <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/investbrainapp/investbrain/releases/tag/v1.0.4</id>
+    <title>New release for Investbrain: v1.0.4</title>
+    <updated>2024-11-14T02:32:29-05:00</updated>
+    <author>
+      <name>investbrainapp/investbrain</name>
+    </author>
+    <content>&lt;p&gt;Primarily this new release resolves the issues with multiple dividends being added for specific symbols (see #26). &lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: refresh dividends only once daily by @hackerESQ in https://github.com/investbrainapp/investbrain/pull/30&lt;/li&gt;
+&lt;li&gt;Uses last dividend created date as start date instead of last dividend date by @hackerESQ in https://github.com/investbrainapp/investbrain/pull/31&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump axios from 1.7.3 to 1.7.4 by @dependabot in https://github.com/investbrainapp/investbrain/pull/16&lt;/li&gt;
+&lt;li&gt;chore(deps-dev): bump vite from 5.3.5 to 5.4.10 by @dependabot in https://github.com/investbrainapp/investbrain/pull/17&lt;/li&gt;
+&lt;li&gt;chore(deps): bump laravel/framework from 11.30.0 to 11.31.0 by @dependabot in https://github.com/investbrainapp/investbrain/pull/29&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@dependabot made their first contribution in https://github.com/investbrainapp/investbrain/pull/16&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/investbrainapp/investbrain/compare/v1.0.3...v1.0.4&lt;/p&gt;</content>
+    <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.4" rel="alternate"/>
   </entry>
 </feed>
