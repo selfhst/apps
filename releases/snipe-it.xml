@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-11-13T19:31:33.139223-05:00</updated>
+  <updated>2024-11-13T20:31:32.523600-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -320,6 +320,7 @@
 &lt;li&gt;Our blog at &lt;a href="https://grokstar.dev"&gt;Grokstar.Dev&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Subscribe here on Github for notifications about new releases. (Click on "Watch" on the main repo page, then go to "Custom" and check the box that says "Releases".)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;FYI, in our excitement to get this released, we mistakenly tagged this as 7.1.14 instead of 7.0.14 (yay, automation, amirite?) Unfortunately, deleting tags makes this more difficult for the docker folks, so we're just running with it.&lt;/strong&gt; Sorry for the confusion, but you didn't miss anything, it was just a simple typo. We'll update the version.php file so at least they both agree.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed numeric sort 'ambiguous order clause' error by @uberbrady in https://github.com/snipe/snipe-it/pull/15610&lt;/li&gt;
