@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr iFrames Releases</title>
-  <updated>2024-11-13T18:33:14.189041-05:00</updated>
+  <updated>2024-11-13T19:33:19.872878-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,7 @@
       <name>diogovalentte/homarr-iframes</name>
     </author>
     <content>&lt;h1&gt;Alarms iFrame Added&lt;/h1&gt;
-&lt;p&gt;This iframe shows &lt;strong&gt;alarms&lt;/strong&gt; (warnings, errors, failed jobs notifications) from multiple services (netdata, arr services, pihole, kavita, kaizoku, speedtest tracker) in one central place.&lt;/p&gt;
+&lt;p&gt;This iframe shows &lt;strong&gt;alarms&lt;/strong&gt; (warnings, errors, failed jobs notifications, etc) from multiple services (netdata, arr services, pihole, kavita, kaizoku, speedtest tracker) in one central place.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/15e26b24-8d4b-4243-b239-e6f4c5056712" /&gt;&lt;/p&gt;
 &lt;h1&gt;Netdata iframe removed&lt;/h1&gt;
 &lt;p&gt;Now the netdata iframe alarms are in the new alarms iframe.&lt;/p&gt;
