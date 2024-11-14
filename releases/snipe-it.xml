@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2024-11-14T08:31:35.389695-05:00</updated>
+  <updated>2024-11-14T09:31:42.186748-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -318,7 +318,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://discord.gg/yZFtShAcKk"&gt;Join our Discord&lt;/a&gt;! &lt;/li&gt;
 &lt;li&gt;Bluesky at &lt;a href="https://bsky.app/profile/snipeitapp.com"&gt;@snipeitapp.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mastodon at  @grokability@hachyderm.io &lt;/li&gt;
+&lt;li&gt;Mastodon at  &lt;a href="https://hachyderm.io/@grokability"&gt;hachyderm.io/@grokability&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Our blog at &lt;a href="https://grokstar.dev"&gt;Grokstar.Dev&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Subscribe here on Github for notifications about new releases. (Click on "Watch" on the main repo page, then go to "Custom" and check the box that says "Releases".)&lt;/li&gt;
 &lt;/ul&gt;
