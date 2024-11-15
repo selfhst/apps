@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gotify Releases</title>
-  <updated>2024-11-15T14:30:27.997354-05:00</updated>
+  <updated>2024-11-15T15:30:29.677027-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,6 +82,7 @@
     <content>&lt;ul&gt;
 &lt;li&gt;Add &lt;code&gt;HEAD /health&lt;/code&gt; endpoint (#687 via #688) by @moinologics&lt;/li&gt;
 &lt;li&gt;Add multiarch support to gotify/server images (#257 via #703) by @eternal-flame-AD&lt;/li&gt;
+&lt;li&gt;server-arm64, server-arm7 and server-riscv64 are deprecated and shouldn't be used anymore.&lt;/li&gt;
 &lt;li&gt;Improve table overflow and word wrapping in UI (#716 via #720) by @david-kalmakoff &lt;/li&gt;
 &lt;li&gt;Fix navigating to a specific site via URL (#721 via #723) by @david-kalmakoff  &lt;/li&gt;
 &lt;li&gt;Fix version in UI when accessing via /index.html (#663 via #665)&lt;/li&gt;
