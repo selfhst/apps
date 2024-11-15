@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2024-11-15T01:33:27.591059-05:00</updated>
+  <updated>2024-11-15T02:33:24.147978-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -221,8 +221,8 @@ hide_countries:
 &lt;p&gt;| Key           | Action                        |
 |---------------|-------------------------------|
 | _ Spacebar    | Play/Pause and Toggle Menu    |
-| ← Left Arrow  | Next Image(s)                 |
-| → Right Arrow | Previous Image(s)             |&lt;/p&gt;
+| ← Left Arrow  | Previous Image(s)                 |
+| → Right Arrow | Next Image(s)            |&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;show_image_description&lt;/h2&gt;
 &lt;p&gt;Display image description from METADATA (if available).&lt;/p&gt;
