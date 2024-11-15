@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-11-15T08:30:49.176400-05:00</updated>
+  <updated>2024-11-15T09:30:50.705618-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.2.0 includes various new improvements and bug fixes, including Shared Channels (Beta).&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.2.0 includes various new improvements and bug fixes, including Connected Workspaces (Beta).&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.2.0" rel="alternate"/>
   </entry>
   <entry>
