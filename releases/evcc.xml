@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2024-11-16T10:34:02.198141-05:00</updated>
+  <updated>2024-11-16T11:33:49.420550-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,12 +117,36 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.131.6</id>
-    <title>New release for evcc: </title>
-    <updated>2024-11-16T10:13:46-05:00</updated>
+    <title>New release for evcc: 0.131.6</title>
+    <updated>2024-11-16T10:45:21-05:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;512aca56ed78fdeaee4e50c168dc354bcc4dad39 Add Tessie (#17274)&lt;/li&gt;
+&lt;li&gt;576cd71a443e58cdbdb82341891069f1f3862a77 Auth: disable via cli flag (#17249)&lt;/li&gt;
+&lt;li&gt;6c9ae85d85d95d44b85e5e9beefb61e93ec87c5f BMW: add coarsecurrent (#17170)&lt;/li&gt;
+&lt;li&gt;651b155b14936afb6ecb026b260423b74d3b9139 Config UI: better device currents (#17179)&lt;/li&gt;
+&lt;li&gt;3685c2121d00de69982d01d7e87de2af040d052e Config UI: better duration fields (#17222)&lt;/li&gt;
+&lt;li&gt;964adbe7978adebf4cd459f4f6e177070e9cf47b EM24: add pv usage &amp;amp; fix energy (#17173)&lt;/li&gt;
+&lt;li&gt;a9d9565e62c05842c097a983bf8901423fc4d55f Enphase: fix soc&lt;/li&gt;
+&lt;li&gt;31373f93dcaf662b57dc91fdd25f143916d8640b Fix: Make Advanced Settings Text Translatable #17220 (#17221)&lt;/li&gt;
+&lt;li&gt;039cbf5631bf70476e46eda8c66a557a8cb1a814 MacOS Sequoia: fix network errors&lt;/li&gt;
+&lt;li&gt;52ca2c85de949f1815f52d429d262679c3bc60ef Mennekes: reduce heartbeat interval to 5 seconds (#17260)&lt;/li&gt;
+&lt;li&gt;3398312e772c314e201691407da5cde64059ea64 Mqtt: allow nil/null/none/- as empty values (#17209)&lt;/li&gt;
+&lt;li&gt;10dca60309a9752201a3c7d714e42143878f7be5 PUN: update api endpoint (#17270)&lt;/li&gt;
+&lt;li&gt;47af8935fa25cfebc2f942b38f89cbbb857eb52c Polestar: fix authentication (#17276)&lt;/li&gt;
+&lt;li&gt;735d75ef74af82fcab2ce456f266425e9f4dde3d Polestar: skip test&lt;/li&gt;
+&lt;li&gt;552cdcfa31b180eae4c1bcb1395ff8ee06496174 Pun: fix logging and error handling&lt;/li&gt;
+&lt;li&gt;5419b521701487346fb8be69b9bffc8c88b4958c Revert "EM24: add pv usage &amp;amp; fix energy (#17173)"&lt;/li&gt;
+&lt;li&gt;b6997f710defc9e480264cd40947c5c299a38a7a SMA Hybrid: add max charge power (#17241)&lt;/li&gt;
+&lt;li&gt;00a3d4021868e2dee6beb6149366dda7302e7e44 Sessions UI: improve solar year color pallette (#17218)&lt;/li&gt;
+&lt;li&gt;6836749cf577289f5dc4a0b38dabf6b9e2ed67fb Shelly: Enable Pro 3EM in monophase mode (#17219)&lt;/li&gt;
+&lt;li&gt;1a8b412ced7b96bf98160853063c35e230544a99 Tariff: better rate matching error (#17255)&lt;/li&gt;
+&lt;li&gt;83d3b64520b998f47e2449ff9558c4351cb221ff Zendure: add global region (#17224)&lt;/li&gt;
+&lt;li&gt;5eea98fed23a13d835d9d5d42f8a034068ef3ed6 Zendure: better template (#17177)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.131.6" rel="alternate"/>
   </entry>
 </feed>

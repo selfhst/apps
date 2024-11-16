@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2024-11-16T10:30:41.176110-05:00</updated>
+  <updated>2024-11-16T11:30:38.700093-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -832,8 +832,38 @@
       <name>Leantime/leantime</name>
     </author>
     <content>&lt;h2&gt;Changes in this Release&lt;/h2&gt;
-&lt;p&gt;History from &lt;code&gt;v3.2.1&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Commits&lt;/h3&gt;
+&lt;h3&gt;Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Leantime core was re-written to be compliant with Laravel (10.x) &lt;/li&gt;
+&lt;li&gt;Coding Style Enforcement using Laravel Pint&lt;/li&gt;
+&lt;li&gt;New onboarding flow for invited users&lt;/li&gt;
+&lt;li&gt;Significant performance improvements up to (70% increased throughput and reduced load times) due to cache and session improvements&lt;/li&gt;
+&lt;li&gt;Many many many bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;(Large) Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Fix] Broken Leantime CLI was fixed and hardened&lt;/li&gt;
+&lt;li&gt;[Fix] Admin users were seeing all users on all projects even if not assigned. &lt;/li&gt;
+&lt;li&gt;[Fix] Login Issues due to Cookie Secure Flag solved. (default is now false and can be set via config)&lt;/li&gt;
+&lt;li&gt;[Fix] Rewired configuration management to be more flexible&lt;/li&gt;
+&lt;li&gt;[Fix] Improved plugin installation and error management&lt;/li&gt;
+&lt;li&gt;[Fix] Fixed various security issues of un-escaped inputs&lt;/li&gt;
+&lt;li&gt;[Fix] Fix cron and email queue&lt;/li&gt;
+&lt;li&gt;Various others&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Various event names have changed due to the new folder structure in core. Please check the documentation for updated event path tokens. &lt;/li&gt;
+&lt;li&gt;API Endpoints have not changed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@das-nagnag made their first contribution in https://github.com/Leantime/leantime/pull/2742&lt;/li&gt;
+&lt;li&gt;@xdubx made their first contribution in https://github.com/Leantime/leantime/pull/2747&lt;/li&gt;
+&lt;li&gt;@UnconsciousBlaringHuman made their first contribution in https://github.com/Leantime/leantime/pull/2768&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;History from &lt;code&gt;v3.2.1&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Leantime/leantime/compare/v3.2.1...v3.3.0&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;93359df9f [Changelog CI] Add Changelog for Version 3.3.0&lt;/li&gt;
 &lt;li&gt;7b11f8537 Delete changelog.yml&lt;/li&gt;

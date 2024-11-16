@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ktistec Releases</title>
-  <updated>2024-11-16T10:31:55.668168-05:00</updated>
+  <updated>2024-11-16T11:31:48.804059-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,7 @@
 &lt;li&gt;Permit &lt;code&gt;del&lt;/code&gt;, &lt;code&gt;ins&lt;/code&gt;, and &lt;code&gt;s&lt;/code&gt; elements in sanitized HTML.&lt;/li&gt;
 &lt;li&gt;Only store the &lt;code&gt;redirect_after_auth_path&lt;/code&gt; on browser navigation.&lt;/li&gt;
 &lt;li&gt;Add "content" property to editor JSON error response.&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;FileUtils.mv&lt;/code&gt; to move uploaded file. (fixes &lt;a href="https://github.com/toddsundsted/ktistec/issues/117"&gt;#117&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;FileUtils.mv&lt;/code&gt; to move uploaded files. (fixes &lt;a href="https://github.com/toddsundsted/ktistec/issues/117"&gt;#117&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/toddsundsted/ktistec/releases/tag/v2.4.2" rel="alternate"/>
   </entry>
