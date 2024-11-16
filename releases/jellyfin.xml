@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2024-11-16T15:30:34.581762-05:00</updated>
+  <updated>2024-11-16T16:30:34.979864-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -335,9 +335,9 @@
 &lt;li&gt;Add a small tolerance value to remux fps check [PR #12947], by @gnattu&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Packaging (1)&lt;/h2&gt;
-&lt;h2&gt;* Ignore proxy settings during healthcheck &lt;a href="https://github.com/jellyfin/jellyfin-packaging/pull/47"&gt;PR #47&lt;/a&gt;, by @agentsas&lt;/h2&gt;
-&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still building. &lt;strong&gt;Please do not attempt upgrades until this section is removed.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;ul&gt;
+&lt;li&gt;Ignore proxy settings during healthcheck &lt;a href="https://github.com/jellyfin/jellyfin-packaging/pull/47"&gt;PR #47&lt;/a&gt;, by @agentsas&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.10.2" rel="alternate"/>
   </entry>
 </feed>
