@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ChartDB Releases</title>
-  <updated>2024-11-17T04:34:07.972275-05:00</updated>
+  <updated>2024-11-17T05:34:08.045774-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,5 +125,36 @@
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fix issue with double-clone on localhost (&lt;a href="https://github.com/chartdb/chartdb/issues/394"&gt;#394&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/78c427f38e5c64fc340d13ceb2153c2b85db437e"&gt;78c427f&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chartdb/chartdb/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chartdb/chartdb/releases/tag/v1.2.0</id>
+    <title>New release for ChartDB: v1.2.0</title>
+    <updated>2024-11-17T04:56:02-05:00</updated>
+    <author>
+      <name>chartdb/chartdb</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/chartdb/chartdb/compare/v1.1.0...v1.2.0"&gt;1.2.0&lt;/a&gt; (2024-11-17)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;duplicate table:&lt;/strong&gt; duplicate table from the canvas and sidebar (&lt;a href="https://github.com/chartdb/chartdb/issues/404"&gt;#404&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/44cf5ca264f52851f2dffb51a752a52b6fa7ec8d"&gt;44cf5ca&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI exports:&lt;/strong&gt; add cahching layer to SQL exports (&lt;a href="https://github.com/chartdb/chartdb/issues/390"&gt;#390&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/e5dbbf2eaab6d80a531d451211b6f5a415bc7ce3"&gt;e5dbbf2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;canvas:&lt;/strong&gt; fix auto zoom on diagram load (&lt;a href="https://github.com/chartdb/chartdb/issues/395"&gt;#395&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/492c9324d27b561470c4967ce2e99f82eec467d8"&gt;492c932&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dockerfile:&lt;/strong&gt; support SPA refresh to resolve nginx return 404 (&lt;a href="https://github.com/chartdb/chartdb/issues/384"&gt;#384&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/eaf75cedb0e024236c7684bb533856d7f80074da"&gt;eaf75ce&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; update license reference (&lt;a href="https://github.com/chartdb/chartdb/issues/403"&gt;#403&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/44d10c23907165288951a9d2ec3165ad23f81c61"&gt;44d10c2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;export image:&lt;/strong&gt; Add support for displaying cardinality relationships + background (&lt;a href="https://github.com/chartdb/chartdb/issues/407"&gt;#407&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/68474e75d56ed4b4b445cc9b7f59cca96a4ca5db"&gt;68474e7&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add Nepali translations (&lt;a href="https://github.com/chartdb/chartdb/issues/406"&gt;#406&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/e1e55c4b2ac7755b0810dc1f21da44903fe68a54"&gt;e1e55c4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; change language keeps selected language also after refreshing the page (&lt;a href="https://github.com/chartdb/chartdb/issues/409"&gt;#409&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/f35f62fdf38ca84065f171a31b80aa8123b1d8b9"&gt;f35f62f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Create Translations in Marathi language (&lt;a href="https://github.com/chartdb/chartdb/issues/266"&gt;#266&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/c6f7ff70f841efb9cf1766338f409fe0ea7bb998"&gt;c6f7ff7&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; fix language nav: close when lang selected, hide tooltip when lang selected (&lt;a href="https://github.com/chartdb/chartdb/issues/411"&gt;#411&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/02aaabdc4e9b1570d81ff03fe1e6da0307f22999"&gt;02aaabd&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; add five more templates (Sylius, Monica, Attendize, SaaS Pegasus &amp;amp; BookStack) (&lt;a href="https://github.com/chartdb/chartdb/issues/408"&gt;#408&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/0f673947af469e86f70737427ac8fb3c2420d1a2"&gt;0f67394&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; add six more templates (ticketit, snipe-it, refinerycms, comfortable-mexican-sofa, buddypress, lobsters) (&lt;a href="https://github.com/chartdb/chartdb/issues/402"&gt;#402&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/07d374574775d132e1cba0908c47dcbbd6cd2c3f"&gt;07d3745&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fix cloned indexes from a template (&lt;a href="https://github.com/chartdb/chartdb/issues/398"&gt;#398&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/9f8500fc7e36e6a819ecb9029f263d80eac88279"&gt;9f8500f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; fix tags urls (&lt;a href="https://github.com/chartdb/chartdb/issues/405"&gt;#405&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/fe8b9f9e91481d8a3272113b6f4be4da8d61ad04"&gt;fe8b9f9&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; tag urls lowercase to support browsers (&lt;a href="https://github.com/chartdb/chartdb/issues/397"&gt;#397&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/959e5402b8c112fae6243ce9283947057506c128"&gt;959e540&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/chartdb/chartdb/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
