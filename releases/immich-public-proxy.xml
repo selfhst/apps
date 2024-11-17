@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-11-17T08:34:07.778221-05:00</updated>
+  <updated>2024-11-17T09:34:00.537622-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,28 @@
     <content>&lt;ul&gt;
 &lt;li&gt;Send CORS header by default - thank you @Billsong19 in #24 for the suggestion.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you want to disable this, remove the  &lt;code&gt;Access-Control-Allow-Origin&lt;/code&gt; header from your &lt;a href="https://github.com/alangrainger/immich-public-proxy?tab=readme-ov-file#additional-configuration"&gt;config.json configuration file&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;If you want to disable this, remove the  &lt;code&gt;Access-Control-Allow-Origin&lt;/code&gt; header from your &lt;a href="https://github.com/alangrainger/immich-public-proxy?tab=readme-ov-file#additional-configuration"&gt;config.json configuration file&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Download the &lt;a href="https://github.com/alangrainger/immich-public-proxy/blob/main/docker-compose.yml"&gt;docker-compose.yml&lt;/a&gt; file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Update the value for &lt;code&gt;IMMICH_URL&lt;/code&gt; in your docker-compose file to point to your local URL for Immich. This should not be a public URL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start the docker container. You can test that it is working by visiting &lt;code&gt;https://YOUR_PROXY_URL.com/healthcheck&lt;/code&gt;. 
+Check the container console output for any error messages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;bash
+docker-compose up -d&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set the "External domain" in your Immich &lt;strong&gt;Server Settings&lt;/strong&gt; to be whatever domain you use to publicly serve Immich Public Proxy:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="docs/server-settings.png" width="400" height="182"&gt;&lt;/p&gt;
+&lt;p&gt;Now whenever you share an image or gallery through Immich, it will automatically create the correct public path for you.&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.4.6" rel="alternate"/>
   </entry>
 </feed>
