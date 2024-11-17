@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2024-11-17T10:34:10.380675-05:00</updated>
+  <updated>2024-11-17T11:34:13.464589-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,8 +91,8 @@ docker-compose up -d&lt;/code&gt;&lt;/p&gt;
     </author>
     <content>&lt;h2&gt;Significant changes&lt;/h2&gt;
 &lt;p&gt;All paths now begin with &lt;code&gt;/share/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;This allows you to serve both IPP and Immich from the same domain, by directing all &lt;code&gt;/share/*&lt;/code&gt; paths to IPP on your reverse proxy.&lt;/p&gt;
-&lt;p&gt;Here is an example configuration of how to do this with Caddy:&lt;/p&gt;
+&lt;p&gt;This gives you the option of serving both IPP and Immich from the same domain, by directing all &lt;code&gt;/share/*&lt;/code&gt; paths to IPP on your reverse proxy. This is not a breaking change as all previous paths still work, but you'll want to move your healthcheck to point to &lt;code&gt;/share/healthcheck&lt;/code&gt; rather than &lt;code&gt;/healthcheck&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Here is an example configuration for &lt;a href="https://caddyserver.com/"&gt;Caddy&lt;/a&gt; to serve both IPP and Immich from the same domain (again, this is only optional):&lt;/p&gt;
 &lt;p&gt;```
 https://your-domain.com {
     # Immich Public Proxy paths
