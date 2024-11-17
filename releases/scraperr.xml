@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scraperr Releases</title>
-  <updated>2024-11-16T21:32:51.599025-05:00</updated>
+  <updated>2024-11-16T22:32:49.680546-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,5 +53,23 @@
 &lt;li&gt;Remove dependency on reverse proxy &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jaypyles/Scraperr/releases/tag/v1.0.3</id>
+    <title>New release for Scraperr: v1.0.3</title>
+    <updated>2024-11-16T22:03:09-05:00</updated>
+    <author>
+      <name>jaypyles/Scraperr</name>
+    </author>
+    <content>&lt;h1&gt;Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Added the ability to create a "Site Map" which is a series of actions performed on a site. This currently is either clicking a button or inputting text into a field. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Bug Fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue with scroll ability on job queue&lt;/li&gt;
+&lt;li&gt;Issue with scroll ability on main page&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.3" rel="alternate"/>
   </entry>
 </feed>
