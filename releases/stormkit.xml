@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stormkit Releases</title>
-  <updated>2024-11-18T13:33:14.542011-05:00</updated>
+  <updated>2024-11-18T14:33:12.533389-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -336,5 +336,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stormkit-io/app-stormkit-io/commits/v1.9.6&lt;/p&gt;</content>
     <link href="https://github.com/stormkit-io/app-stormkit-io/releases/tag/v1.9.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/stormkit-io/app-stormkit-io/releases/tag/v1.9.7</id>
+    <title>New release for Stormkit: Release v1.9.7</title>
+    <updated>2024-11-18T14:10:48-05:00</updated>
+    <author>
+      <name>stormkit-io/app-stormkit-io</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/stormkit-io/app-stormkit-io/compare/v1.9.6...v1.9.7&lt;/p&gt;</content>
+    <link href="https://github.com/stormkit-io/app-stormkit-io/releases/tag/v1.9.7" rel="alternate"/>
   </entry>
 </feed>
