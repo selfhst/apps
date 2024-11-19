@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-11-19T08:30:14.259812-05:00</updated>
+  <updated>2024-11-19T09:30:14.624733-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -252,25 +252,31 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.2.3 (2024-11-18)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.2/4.2.3.html"&gt;Chevereto 4.2.3&lt;/a&gt; (2024-11-18)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added Bulk importer as a core feature&lt;/li&gt;
-&lt;li&gt;Added translation placeholder for "hosted at" titles&lt;/li&gt;
-&lt;li&gt;Added Akismet spam protection on tags&lt;/li&gt;
-&lt;li&gt;Improved install screen&lt;/li&gt;
-&lt;li&gt;Changed GMT references to UTC&lt;/li&gt;
-&lt;li&gt;Updated Polish, Portuguese, Portuguese (Brazil) and Vietnamese translations&lt;/li&gt;
-&lt;li&gt;Fixed bug with duplicated tags display&lt;/li&gt;
-&lt;li&gt;Fixed bug with missing SQL update affecting Bulk importer&lt;/li&gt;
-&lt;li&gt;Fixed bug with fail-safe ENV using array values&lt;/li&gt;
-&lt;li&gt;Fixed bug with wrong column type for image_original_exifdata&lt;/li&gt;
-&lt;li&gt;Fixed bug with Bulk importer not skipping missing directories&lt;/li&gt;
-&lt;li&gt;Fixed bug with Open Graph double encoding&lt;/li&gt;
-&lt;li&gt;Fixed bug with email subject extra encoding&lt;/li&gt;
-&lt;li&gt;Fixed bug with Disqus dark theme detection/refresh&lt;/li&gt;
-&lt;li&gt;Fixed bug with not working cookie law acceptance&lt;/li&gt;
-&lt;li&gt;Fixed bug with tag filtering using /?match=all&lt;/li&gt;
-&lt;li&gt;Fixed bug with PUP.js auto-close behavior&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77762"&gt;Added Bulk importer as a core feature&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77763"&gt;Added translation placeholder for "hosted at" titles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77764"&gt;Added Akismet spam protection on tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77785"&gt;Improved install screen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77765"&gt;Changed GMT references to UTC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77766"&gt;Updated Polish, Portuguese, Portuguese (Brazil) and Vietnamese translations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77767"&gt;Fixed bug with duplicated tags display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77769"&gt;Fixed bug with missing SQL update affecting Bulk importer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77770"&gt;Fixed bug with fail-safe ENV using array values&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77771"&gt;Fixed bug with wrong column type for image_original_exifdata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77772"&gt;Fixed bug with Bulk importer not skipping missing directories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77773"&gt;Fixed bug with Open Graph double encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77774"&gt;Fixed bug with email subject extra encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77775"&gt;Fixed bug with Disqus dark theme detection/refresh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77776"&gt;Fixed bug with not working cookie law acceptance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77778"&gt;Fixed bug with tag filtering using /?match=all&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/post-77777"&gt;Fixed bug with PUP.js auto-close behavior&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2024/10/24/chevereto-4-2/"&gt;Chevereto 4.2 (Regio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3.15734/"&gt;Chevereto V4.2.3 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-3-announcement.15730/"&gt;Chevereto V4.2.3 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.2.3" rel="alternate"/>
   </entry>
