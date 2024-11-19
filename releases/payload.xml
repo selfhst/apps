@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-11-18T20:31:53.822976-05:00</updated>
+  <updated>2024-11-18T21:31:54.168825-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,8 +88,7 @@
     <author>
       <name>payloadcms/payload</name>
     </author>
-    <content>&lt;h2&gt;v3.0.0 (2024-11-19)&lt;/h2&gt;
-&lt;p&gt;This is a major release that includes a re-architecture of Payload from Express and a single-page React app to Next.js. In addition to this architectural change, we've also shipped a ton of large features, miscellaneous fixes, and DX improvements.&lt;/p&gt;
+    <content>&lt;p&gt;This is a major release that includes a re-architecture of Payload from Express and a single-page React app to Next.js. In addition to this architectural change, we've also shipped a ton of large features, miscellaneous fixes, and DX improvements.&lt;/p&gt;
 &lt;h2&gt;Architectural changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Payload now installs fully in any Next.js app router&lt;/li&gt;
