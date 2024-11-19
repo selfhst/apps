@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Parseable Releases</title>
-  <updated>2024-11-19T01:32:16.696362-05:00</updated>
+  <updated>2024-11-19T02:32:19.399128-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,7 +100,7 @@
   <entry>
     <id>https://github.com/parseablehq/parseable/releases/tag/v1.6.2</id>
     <title>New release for Parseable: Bug fix release v1.6.2</title>
-    <updated>2024-11-19T00:07:01-05:00</updated>
+    <updated>2024-11-19T01:59:05-05:00</updated>
     <author>
       <name>parseablehq/parseable</name>
     </author>
@@ -112,6 +112,7 @@
 &lt;li&gt;feat: allow stream creation from ingestor in distributed deployments by @Anirudhxx in https://github.com/parseablehq/parseable/pull/980&lt;/li&gt;
 &lt;li&gt;fix: server mode from All to Query by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/988&lt;/li&gt;
 &lt;li&gt;prepare for release v1.6.2 by @nitisht in https://github.com/parseablehq/parseable/pull/992&lt;/li&gt;
+&lt;li&gt;Changed content permissions by @praveen5959 in https://github.com/parseablehq/parseable/pull/993&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
