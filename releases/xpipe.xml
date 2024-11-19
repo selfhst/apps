@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>XPipe Releases</title>
-  <updated>2024-11-19T02:34:06.557180-05:00</updated>
+  <updated>2024-11-19T03:34:14.857694-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -304,6 +304,50 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Fix startup error when old legacy SSH config connections were present&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;VMs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There is now support for KVM/QEMU virtual machines that can be accessed via the libvirt CLI tools &lt;code&gt;virsh&lt;/code&gt;. This includes support for other driver URLs as well aside from KVM and QEMU. This integration is available starting from the homelab plan and can be used for free for two weeks after this release using the new release preview&lt;/li&gt;
+&lt;li&gt;You can now override a VM IP if you're using an advanced networking setup where the default IP detection is not suitable&lt;/li&gt;
+&lt;li&gt;Fix remote VM SSH connections not being able to use the keys and identities from the local system&lt;/li&gt;
+&lt;li&gt;There is now a new restart button for containers and VMs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;File browser&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There is now a new option in the context menu of a tab to pin it, allowing for having a split view with two different file systems&lt;/li&gt;
+&lt;li&gt;There is now the option to dock terminals in the file browser (this is only available on Windows for now). You can disable this in Settings -&amp;gt; File browser -&amp;gt; Terminal docking if you don't like it&lt;/li&gt;
+&lt;li&gt;The previous system history tab is now always shown&lt;/li&gt;
+&lt;li&gt;You can now change the default download location for the move to downloads button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Shell sessions&lt;/h2&gt;
+&lt;p&gt;Many improvements have been implemented for reusability of shell sessions running in the background. Whenever you access a system or a parent system, XPipe will connect to it just as before but keep this session open in the background for some time, under the assumption that you will typically perform multiple actions shortly afterward. This will improve the speed of many actions and also results in less authentication prompts when you are using something like 2FA.&lt;/p&gt;
+&lt;h2&gt;Terminals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Closing a terminal tab/window while the session is loading will now cancel the loading process in XPipe as well&lt;/li&gt;
+&lt;li&gt;A newly opened terminal will now regain focus after any password prompt was entered in xpipe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Security updates&lt;/h2&gt;
+&lt;p&gt;There's now a new mechanism in place for checking for security updates separately from the normal update check. This is important going forward, to be able to act quickly when any security patch is published, so that all users have the possibility to get notified even if they don't follow announcements on the GitHub repo or on Discord. You can also disable this functionality in the settings if you want.&lt;/p&gt;
+&lt;h2&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The application style has been reworked&lt;/li&gt;
+&lt;li&gt;The settings menu now shows a restart button when a setting has been changed that requires a restart to apply&lt;/li&gt;
+&lt;li&gt;There is now an intro to scripts to provide some more information before using scripts&lt;/li&gt;
+&lt;li&gt;Add ability to enable agent forwarding when using the SSH-Agent for identities&lt;/li&gt;
+&lt;li&gt;The .rpm releases are now signed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix Proxmox detection not working when not logging in as root&lt;/li&gt;
+&lt;li&gt;Fix tunnels not closing properly when having to be closed forcefully&lt;/li&gt;
+&lt;li&gt;Fix vmware integration failing when files other than .vmx were in the VM directories&lt;/li&gt;
+&lt;li&gt;Fix Tabby not launching properly on Windows&lt;/li&gt;
+&lt;li&gt;Fix SSH and docker issues with home assistant systems&lt;/li&gt;
+&lt;li&gt;Fix git readme not showing connections in nested children categories&lt;/li&gt;
+&lt;li&gt;Fix Windows Terminal Preview and Canary not being recognized&lt;/li&gt;
+&lt;li&gt;Fix style issues with the mocha theme&lt;/li&gt;
+&lt;li&gt;Fix color contrast for some themes&lt;/li&gt;
+&lt;li&gt;Fix system dark mode changes not being applied if they were changed while XPipe was not running&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Downloads&lt;/h1&gt;
 &lt;h3&gt;Installers&lt;/h3&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2024-11-19T02:30:57.066076-05:00</updated>
+  <updated>2024-11-19T03:30:57.164796-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,7 +144,10 @@
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Release Notes for v0.32.0&lt;/h2&gt;
+&lt;h3&gt;Highlights&lt;/h3&gt;
+&lt;p&gt;This release fixes an issue with the client's state manager that could cause a deadlock on a system with high load or slower system operations like adding routes or configuring network interfaces. This could affect the recovery from sleep, causing unwanted client state.&lt;/p&gt;
+&lt;h3&gt;What's Changed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[management] Refactor setup key to use store methods by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2861&lt;/li&gt;
 &lt;li&gt;[management] Add more logs to the peer update processes by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2881&lt;/li&gt;
@@ -161,7 +164,7 @@
 &lt;li&gt;[client] Move state updates outside the refcounter by @lixmal in https://github.com/netbirdio/netbird/pull/2897&lt;/li&gt;
 &lt;li&gt;[client] Fix error state race on mgmt connection error by @lixmal in https://github.com/netbirdio/netbird/pull/2892&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;h3&gt;New Contributors&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;@ismail0234 made their first contribution in https://github.com/netbirdio/netbird/pull/2865&lt;/li&gt;
 &lt;/ul&gt;
