@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Loki Releases</title>
-  <updated>2024-11-19T14:32:04.027911-05:00</updated>
+  <updated>2024-11-19T15:31:50.101473-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,9 +120,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;blooms:&lt;/strong&gt; Introduce a new block schema (V3) (&lt;a href="https://github.com/grafana/loki/issues/14038"&gt;#14038&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;blooms:&lt;/strong&gt; Index structured metadata into blooms (&lt;a href="https://github.com/grafana/loki/issues/14061"&gt;#14061&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Migrate project layout to kubebuilder go/v4 (&lt;a href="https://github.com/grafana/loki/issues/14447"&gt;#14447&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Rename loki api go module (&lt;a href="https://github.com/grafana/loki/issues/14568"&gt;#14568&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Provide default OTLP attribute configuration (&lt;a href="https://github.com/grafana/loki/issues/14410"&gt;#14410&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -185,13 +182,6 @@
 &lt;li&gt;move detected field logic to query frontend (&lt;a href="https://github.com/grafana/loki/issues/14212"&gt;#14212&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/36ace66b73e9f9ad2a2d367fbc20803c0d9779c2"&gt;36ace66&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;move metric aggregation to a per-tenant config (&lt;a href="https://github.com/grafana/loki/issues/14709"&gt;#14709&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/c1fde26730b4fc54e4bbc724d1b29f653541f720"&gt;c1fde26&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;New bloom planning using chunk size TSDB stats (&lt;a href="https://github.com/grafana/loki/issues/14547"&gt;#14547&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/673ede16a5f675684f9e6a53903335af5075a507"&gt;673ede1&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Add support for Loki OTLP limits config (&lt;a href="https://github.com/grafana/loki/issues/13446"&gt;#13446&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/d02f435d3bf121b19e15de4f139c95a6d010b25c"&gt;d02f435&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Declare feature FIPS support for OpenShift only (&lt;a href="https://github.com/grafana/loki/issues/14308"&gt;#14308&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/720c3037923c174e71a02d99d4bee6271428fbdb"&gt;720c303&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; introduce 1x.pico size (&lt;a href="https://github.com/grafana/loki/issues/14407"&gt;#14407&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/57de81d8c27e221832790443cebaf141353c3e3f"&gt;57de81d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Provide default OTLP attribute configuration (&lt;a href="https://github.com/grafana/loki/issues/14410"&gt;#14410&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/1b5238721994c00764b6a7e7d63269c5b56d2480"&gt;1b52387&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Update Loki operand to v3.1.1 (&lt;a href="https://github.com/grafana/loki/issues/14042"&gt;#14042&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/7ae1588200396b73a16fadd2610670a5ce5fd747"&gt;7ae1588&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Update Loki operand to v3.2.1 (&lt;a href="https://github.com/grafana/loki/issues/14526"&gt;#14526&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/5e970e50b166e73f5563e21c23db3ea99b24642e"&gt;5e970e5&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; User-guide for OTLP configuration (&lt;a href="https://github.com/grafana/loki/issues/14620"&gt;#14620&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/27b40713540bd60918780cdd4cb645e6761427cb"&gt;27b4071&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Optionally require writes to kafka on Push requests (&lt;a href="https://github.com/grafana/loki/issues/14186"&gt;#14186&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/7c78232ad312d58ae00101a11e9d7c67f53f1361"&gt;7c78232&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;revert "feat: add functions to common.libsonnet for warpstream" (&lt;a href="https://github.com/grafana/loki/issues/14129"&gt;#14129&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/18c27f9d4ec0c5fbd439972f9abb8bca0bdd6f9e"&gt;18c27f9&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ruler:&lt;/strong&gt; enables ruler store that uses clients from thanos-io/objstore pkg (&lt;a href="https://github.com/grafana/loki/issues/11713"&gt;#11713&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/8bca2e76089e0b9894b7a4c18a950f4baaa5a412"&gt;8bca2e7&lt;/a&gt;)&lt;/li&gt;
@@ -300,15 +290,6 @@
 &lt;li&gt;More correctly report starting phase during kafka-reader startup (&lt;a href="https://github.com/grafana/loki/issues/14632"&gt;#14632&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ea798e0f2a3364b4a76f153faf324b4a9ababc4d"&gt;ea798e0&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;move partition_id into label to make PromQL easier (&lt;a href="https://github.com/grafana/loki/issues/14714"&gt;#14714&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/e6cf42396f7554e46b6c331dd1938922806bcfc5"&gt;e6cf423&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;nix build, downgrade toolchain to go1.23.1 (&lt;a href="https://github.com/grafana/loki/issues/14442"&gt;#14442&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/26dfd628f0effe2367420f591da36727ebe78806"&gt;26dfd62&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; add 1x.pico OpenShift UI dropdown menu (&lt;a href="https://github.com/grafana/loki/issues/14660"&gt;#14660&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/4687f377db0a7ae07ffdea354582c882c10b72c4"&gt;4687f37&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Add missing groupBy label for all rules on OpenShift (&lt;a href="https://github.com/grafana/loki/issues/14279"&gt;#14279&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ce7b2e89d9470e4e6a61a94f2b51ff8b938b5a5e"&gt;ce7b2e8&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; correctly ignore again BlotDB dashboards (&lt;a href="https://github.com/grafana/loki/issues/14587"&gt;#14587&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/4879d106bbeea29e331ddb7c9a49274600190032"&gt;4879d10&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Disable automatic discovery of service name (&lt;a href="https://github.com/grafana/loki/issues/14506"&gt;#14506&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/3834c74966b307411732cd3cbaf66305008b10eb"&gt;3834c74&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Disable log level discovery for OpenShift tenancy modes (&lt;a href="https://github.com/grafana/loki/issues/14613"&gt;#14613&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/5034d34ad23451954ea2459c341456da8d93d020"&gt;5034d34&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Fix building the size-calculator image (&lt;a href="https://github.com/grafana/loki/issues/14573"&gt;#14573&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/a79b8fe7802964cbb96bde75a7502a8b1e8a23ab"&gt;a79b8fe&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Fix make build target for size-calculator (&lt;a href="https://github.com/grafana/loki/issues/14551"&gt;#14551&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/e727187ec3be2f10c80e984d00c40dad0308b036"&gt;e727187&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Move OTLP attribute for statefulset name to stream labels (&lt;a href="https://github.com/grafana/loki/issues/14630"&gt;#14630&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/5df3594f791d77031c53d7b0f5b01191de8a23f2"&gt;5df3594&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Use empty initiliazed pod status map when no pods (&lt;a href="https://github.com/grafana/loki/issues/14314"&gt;#14314&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/6f533ed4386ee2db61680a9021934bfe9a9ba749"&gt;6f533ed&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;pattern:&lt;/strong&gt; Fixes latency metric namespace for tee to pattern (&lt;a href="https://github.com/grafana/loki/issues/14241"&gt;#14241&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ae955ed30d841675dbb9e30327b84728050e724a"&gt;ae955ed&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;promtail config unmarshalling (&lt;a href="https://github.com/grafana/loki/issues/14408"&gt;#14408&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/a05431f879a8c29fac6356b6c46be62133c3e93c"&gt;a05431f&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;promtail parser for azureeventhubs message without time field (&lt;a href="https://github.com/grafana/loki/issues/14218"&gt;#14218&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/2e62abbf47c47041027baf240722b3d76e7bd9a3"&gt;2e62abb&lt;/a&gt;)&lt;/li&gt;
@@ -336,11 +317,6 @@
 &lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;blooms:&lt;/strong&gt; Introduce a new block schema (V3) (&lt;a href="https://github.com/grafana/loki/issues/14038"&gt;#14038&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/5395daf898c2d0bbc4756ab6260c54feda960911"&gt;5395daf&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Code Refactoring&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Migrate project layout to kubebuilder go/v4 (&lt;a href="https://github.com/grafana/loki/issues/14447"&gt;#14447&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/dbb3b6edc96f3545a946319c0324518800d286cf"&gt;dbb3b6e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;operator:&lt;/strong&gt; Rename loki api go module (&lt;a href="https://github.com/grafana/loki/issues/14568"&gt;#14568&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/976d8ab81c1a79f35d7cec96f6a9c35a9947fa48"&gt;976d8ab&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/grafana/loki/releases/tag/v3.3.0" rel="alternate"/>
   </entry>

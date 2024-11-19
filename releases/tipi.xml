@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tipi Releases</title>
-  <updated>2024-11-19T14:32:09.496198-05:00</updated>
+  <updated>2024-11-19T15:31:55.474733-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,5 +111,25 @@
 &lt;p&gt;If you are coming from version 2 or lower please follow the &lt;a href="https://runtipi.io/docs/reference/breaking-updates#update-from-2xx-to-300"&gt;migration guide&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Please report any issue you encounter so we can fix it immediately.&lt;/p&gt;</content>
     <link href="https://github.com/runtipi/runtipi/releases/tag/v3.6.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/runtipi/runtipi/releases/tag/v3.7.0</id>
+    <title>New release for Tipi: v3.7.0</title>
+    <updated>2024-11-19T15:24:04-05:00</updated>
+    <author>
+      <name>runtipi/runtipi</name>
+    </author>
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;p&gt;Runtipi has gone through an entire rewrite from Next.js and a node-based side worker to a Nest.js backend and a plain React SPA. This rewrite re-thinks the backend architecture to enable us to move faster from now on and implement more ambitious features the community requests.&lt;/p&gt;
+&lt;p&gt;This is a minor update as no breaking change was introduced during this re-write and everything is backward compatible. If you encounter any issues please communicate with the team and we'll resolve it as quickly as possible.&lt;/p&gt;
+&lt;h2&gt;How to update&lt;/h2&gt;
+&lt;p&gt;From the root folder of your Tipi install&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./runtipi-cli update v3.7.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also set an &lt;a href="https://runtipi.io/docs/guides/auto-update-with-cron"&gt;auto update cron&lt;/a&gt; for future updates&lt;/p&gt;
+&lt;p&gt;If you are coming from version 2 or lower please follow the &lt;a href="https://runtipi.io/docs/reference/breaking-updates#update-from-2xx-to-300"&gt;migration guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please report any issue you encounter so we can fix it immediately.&lt;/p&gt;</content>
+    <link href="https://github.com/runtipi/runtipi/releases/tag/v3.7.0" rel="alternate"/>
   </entry>
 </feed>
