@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Redirecterr Releases</title>
-  <updated>2024-11-19T16:34:16.311412-05:00</updated>
+  <updated>2024-11-19T17:34:12.024915-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,23 @@
     </author>
     <content/>
     <link href="https://github.com/varthe/Redirecterr/releases/tag/0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/varthe/Redirecterr/releases/tag/0.1.1</id>
+    <title>New release for Redirecterr: 0.1.1</title>
+    <updated>2024-11-19T17:04:32-05:00</updated>
+    <author>
+      <name>varthe/Redirecterr</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically approve music requests and fix logs by @varthe in https://github.com/varthe/Redirecterr/pull/4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@varthe made their first contribution in https://github.com/varthe/Redirecterr/pull/4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/varthe/Redirecterr/compare/0.1.0...0.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/varthe/Redirecterr/releases/tag/0.1.1" rel="alternate"/>
   </entry>
 </feed>
