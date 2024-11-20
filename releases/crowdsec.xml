@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2024-11-20T07:31:45.626782-05:00</updated>
+  <updated>2024-11-20T08:31:46.738156-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -507,5 +507,113 @@
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.4</id>
+    <title>New release for CrowdSec: v1.6.4</title>
+    <updated>2024-11-20T06:19:55-05:00</updated>
+    <author>
+      <name>crowdsecurity/crowdsec</name>
+    </author>
+    <content>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;HTTP datasource&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release introduce http data source that enable crowdsec to  ingest logs from an http endpoint such as Datadog or Vector.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://https://docs.crowdsec.net/docs/next/data_sources/http"&gt;See documentation here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alert context appsec&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release also introduces the alert context ability when using appsec.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://doc.crowdsec.net/u/user_guides/alert_context"&gt;See related doc here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Replay evtx file support&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release allows Windows CrowdSec users to replay Winevent evtx files.&lt;/p&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add HTTP datasource (#3294) @he2ss&lt;/li&gt;
+&lt;li&gt;Alert context appsec (#3288) @buixor&lt;/li&gt;
+&lt;li&gt;wineventlog: add support for replaying evtx files (#3278) @blotus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow bouncers to share API keys (#3323) @blotus&lt;/li&gt;
+&lt;li&gt;Support multiple appsec configs (#3314) @buixor&lt;/li&gt;
+&lt;li&gt;context propagation: papi, loki (#3308) @mmetc&lt;/li&gt;
+&lt;li&gt;Add explicit configuration for signals sharing and blocklists pull (#3277) @blotus&lt;/li&gt;
+&lt;li&gt;loki: add no_ready_check option (#3317) @blotus&lt;/li&gt;
+&lt;li&gt;logs and user messages: use "serialize" and "parse" instead of marshal/unmarshal (#3240) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: cscli {capi,lapi,papi} (#3228) @mmetc&lt;/li&gt;
+&lt;li&gt;refact pkg/database: context propagation (start) (#3226) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;make: improve re2/wasm check (#3335) @mmetc&lt;/li&gt;
+&lt;li&gt;fix go version for azure pipeline (#3324) @blotus&lt;/li&gt;
+&lt;li&gt;add go minor in go.mod (#3318) @sabban&lt;/li&gt;
+&lt;li&gt;update checks for wrapped errors (#3117) @mmetc&lt;/li&gt;
+&lt;li&gt;refact cscli: decisions, lapi, bouncers, machines (#3306) @mmetc&lt;/li&gt;
+&lt;li&gt;make: remove obsolete/redundant parameters (#3304) @mmetc&lt;/li&gt;
+&lt;li&gt;remove unused code: HandleDeletedDecisions() (#3301) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: update coverage ignore list for generated code (#3262) @mmetc&lt;/li&gt;
+&lt;li&gt;lint/revive: check tags on non-exported struct fields (#3257) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: don't store ctx in api controller (#3268) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: check generated code in test workflow (#3261) @mmetc&lt;/li&gt;
+&lt;li&gt;remove dependency from pkg/cwversion to pkg/acquisition (#3242) @mmetc&lt;/li&gt;
+&lt;li&gt;lint/nestif: reduce hubtest complexity (#3244) @mmetc&lt;/li&gt;
+&lt;li&gt;refact: alerts query (#3216) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: enable (some) gocritic checks (#3238) @mmetc&lt;/li&gt;
+&lt;li&gt;enable linters: copyloopvar, intrange (#3184) @mmetc&lt;/li&gt;
+&lt;li&gt;refact acquisition: build profiles (optionally exclude datasources from final binary) (#3217) @mmetc&lt;/li&gt;
+&lt;li&gt;refact / split APIServer.Run() method (#3215) @mmetc&lt;/li&gt;
+&lt;li&gt;refact cscli - don't export functions if not required (#3224) @mmetc&lt;/li&gt;
+&lt;li&gt;refact: cscli papi (#3222) @mmetc&lt;/li&gt;
+&lt;li&gt;refact: pkg/apiclient set and use default user agent (#3219) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;better handle error when sending usage metrics (#3333) @blotus&lt;/li&gt;
+&lt;li&gt;fix: Use clientIP when passing coraza (#3322) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;cron dependency for packaging (#3331) @sabban&lt;/li&gt;
+&lt;li&gt;fix: Add a check to prevent attempting to load a directory within patterns (#3326) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;fix: Ansible fedora 40 to use 40 (#3327) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;make: allow build on ubuntu 24.10 (#3311) @mmetc&lt;/li&gt;
+&lt;li&gt;enhance: Remove if log check in one instance (#3300) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;fix: Check if resp is nil in capi metrics and continue (#3299) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;avoid deadlock when deleting decisions if PAPI is half configured (#3283) @blotus&lt;/li&gt;
+&lt;li&gt;CI: delegate pipenv cache management to the setup-python action (#3243) @mmetc&lt;/li&gt;
+&lt;li&gt;Update go-re2 (#3230) @blotus&lt;/li&gt;
+&lt;li&gt;fix #3225: info-&amp;gt;debug for trigger bucket overflow (#3227) @mmetc&lt;/li&gt;
+&lt;li&gt;fix appsec/tls issues by cloning http transport (#3213) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Chore / Deps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;enhance: add fedora 41 vagrant (#3328) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;enhance: add opensuse leap 15 vagrant (#3329) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;readme: update bouncers link (#3297) @laur89&lt;/li&gt;
+&lt;li&gt;require go 1.23 (#3298) @mmetc&lt;/li&gt;
+&lt;li&gt;Update protobufs (#3276) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: generate codecov.yml before tests (#3280) @mmetc&lt;/li&gt;
+&lt;li&gt;update test dependencies (#3267) @mmetc&lt;/li&gt;
+&lt;li&gt;Re-generate capi models (#3260) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: update golangci-lint to v1.61, yq to 4.44.3 (#3241) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: OneShotAcquisition(); enable contextcheck linter (#3285) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: appsec, docker, kafka, k8s datasources (#3284) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: StreamingAcquisition() (#3274) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/csplugin (#3273) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/apiserver (#3272) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: apic, unit tests (#3271) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pass ctx to UpdateScenario() (#3258) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/alerts (#3252) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/{lock,decision} (#3251) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/bouncers (#3249) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/machines (#3248) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/metrics (#3247) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/config (#3246) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: bouncer list (#3236) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pkg/database/flush (#3235) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: pass context to NewAPIC() (#3231) @mmetc&lt;/li&gt;
+&lt;li&gt;context propagation: explicit ctx parameter in unit tests (#3229) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Geolite2 notice&lt;/h2&gt;
+&lt;p&gt;This product includes GeoLite2 data created by MaxMind, available from &lt;a href="https://www.maxmind.com"&gt;https://www.maxmind.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.4" rel="alternate"/>
   </entry>
 </feed>
