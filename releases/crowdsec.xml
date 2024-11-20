@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2024-11-20T10:31:51.495596-05:00</updated>
+  <updated>2024-11-20T11:31:51.266395-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -518,10 +518,10 @@
     <content>&lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;HTTP datasource&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This release introduce http data source that enable crowdsec to  ingest logs from an http endpoint such as Datadog or Vector.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://https://docs.crowdsec.net/docs/next/data_sources/http"&gt;See documentation here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.crowdsec.net/docs/next/data_sources/http"&gt;See documentation here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Alert context appsec&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This release also introduces the alert context ability when using appsec.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://doc.crowdsec.net/u/user_guides/alert_context"&gt;See related doc here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.crowdsec.net/u/user_guides/alert_context"&gt;See related doc here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Replay evtx file support&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This release allows Windows CrowdSec users to replay Winevent evtx files.&lt;/p&gt;
 &lt;h2&gt;New Features&lt;/h2&gt;
