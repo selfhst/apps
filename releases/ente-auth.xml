@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Auth Releases</title>
-  <updated>2024-11-20T00:32:40.073599-05:00</updated>
+  <updated>2024-11-20T01:32:40.187000-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,6 +92,10 @@ om/ente-io/ente/pull/3176&lt;/li&gt;
 &lt;li&gt;[cli] Bump version by @ua741 in https://github.com/ente-io/ente/pull/3339&lt;/li&gt;
 &lt;li&gt;[infra] Use JAVA 17 for auth release workflow by @ua741 in https://github.com/ente-io/ente/pull/3340&lt;/li&gt;
 &lt;li&gt;[auth] Bump auth version by @ua741 in https://github.com/ente-io/ente/pull/3341&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Security Updates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Issues reported by @alexbakker that would allow app lock to be short-circuited by triggering the logout flow have been &lt;a href="https://github.com/ente-io/ente/pull/3108"&gt;fixed&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
@@ -203,6 +207,10 @@ om/ente-io/ente/pull/3176&lt;/li&gt;
 &lt;li&gt;[Auth - Custom Icons] Fixed spelling mistake for Ubiquiti SSO  by @KingLuc12 in https://github.com/ente-io/ente/pull/3877&lt;/li&gt;
 &lt;li&gt;[Auth] New icons by @schipht in https://github.com/ente-io/ente/pull/3854&lt;/li&gt;
 &lt;li&gt;[auth] Bump version v4.1.0 by @ua741 in https://github.com/ente-io/ente/pull/3940&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Security Updates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue reported by @alexbakker that would allow device credential based app lock to be short-circuited has been &lt;a href="https://github.com/ente-io/ente/pull/3545"&gt;fixed&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
