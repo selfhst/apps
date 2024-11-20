@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2024-11-19T19:32:51.751640-05:00</updated>
+  <updated>2024-11-19T20:32:47.141739-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,12 +77,12 @@ cleanup dependencies&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/neodb-social/neodb/releases/tag/0.10.4.10</id>
-    <title>New release for NeoDB: </title>
-    <updated>2024-11-18T11:37:16-05:00</updated>
+    <title>New release for NeoDB: 0.10.4.10</title>
+    <updated>2024-11-19T20:09:46-05:00</updated>
     <author>
       <name>neodb-social/neodb</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;various minor fixes&lt;/p&gt;</content>
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.10.4.10" rel="alternate"/>
   </entry>
 </feed>
