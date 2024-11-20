@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-11-20T13:31:38.715455-05:00</updated>
+  <updated>2024-11-20T14:31:38.419093-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,20 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v3.2.1&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Please read the &lt;a href="https://doc.traefik.io/traefik/v3.2/migration/v3/#v321"&gt;migration guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+- &lt;strong&gt;[k8s/ingress,k8s]&lt;/strong&gt; Fix HostRegexp config for rule syntax v2 (&lt;a href="https://github.com/traefik/traefik/pull/11288"&gt;#11288&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- &lt;strong&gt;[logs]&lt;/strong&gt; Change level of peeking first byte error log to DEBUG for Postgres (&lt;a href="https://github.com/traefik/traefik/pull/11270"&gt;#11270&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- &lt;strong&gt;[service,fastproxy]&lt;/strong&gt; Fix case problem for websocket upgrade (&lt;a href="https://github.com/traefik/traefik/pull/11246"&gt;#11246&lt;/a&gt; by &lt;a href="https://github.com/juliens"&gt;juliens&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[acme,tls]&lt;/strong&gt; Document how to use Certificates of cert-manager (&lt;a href="https://github.com/traefik/traefik/pull/11053"&gt;#11053&lt;/a&gt; by &lt;a href="https://github.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)
+- &lt;strong&gt;[docker/swarm]&lt;/strong&gt; Add tips about the use of docker in dynamic configuration for swarm provider (&lt;a href="https://github.com/traefik/traefik/pull/11207"&gt;#11207&lt;/a&gt; by &lt;a href="https://github.com/webash"&gt;webash&lt;/a&gt;)
+- &lt;strong&gt;[middleware]&lt;/strong&gt; Add Compress middleware to migration guide (&lt;a href="https://github.com/traefik/traefik/pull/11229"&gt;#11229&lt;/a&gt; by &lt;a href="https://github.com/logica0419"&gt;logica0419&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+- Merge branch v2.11 into v3.2 (&lt;a href="https://github.com/traefik/traefik/pull/11290"&gt;#11290&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v2.11 into v3.2 (&lt;a href="https://github.com/traefik/traefik/pull/11287"&gt;#11287&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Merge branch v2.11 into v3.2 (&lt;a href="https://github.com/traefik/traefik/pull/11285"&gt;#11285&lt;/a&gt; by &lt;a href="https://github.com/juliens"&gt;juliens&lt;/a&gt;)
+- Merge branch v2.11 into v3.2 (&lt;a href="https://github.com/traefik/traefik/pull/11268"&gt;#11268&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.2.1" rel="alternate"/>
   </entry>
 </feed>
