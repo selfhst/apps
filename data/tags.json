@@ -57,6 +57,12 @@
         ]
     },
     {
+        "Tag": "Antivirus",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Archive",
         "Valid Types": [
             "Software"
