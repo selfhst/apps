@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-11-21T02:32:03.208134-05:00</updated>
+  <updated>2024-11-21T03:32:06.653648-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,16 +135,16 @@
 &lt;h2&gt;Version 0.7.4 - 19/11/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Support uploading WebP and BMP images&lt;/li&gt;
-&lt;li&gt;Support managing workspaces on mobile&lt;/li&gt;
-&lt;li&gt;Support adding toggle headings on mobile&lt;/li&gt;
+&lt;li&gt;Manage spaces on mobile&lt;/li&gt;
+&lt;li&gt;Add toggle headings on mobile&lt;/li&gt;
 &lt;li&gt;Improve the AI chat page UI&lt;/li&gt;
+&lt;li&gt;Support uploading WebP and BMP images&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Optimized the workspace menu loading performance&lt;/li&gt;
-&lt;li&gt;Optimized tab switching performance&lt;/li&gt;
-&lt;li&gt;Fixed searching issues in Document page&lt;/li&gt;
+&lt;li&gt;Optimize workspace menu loading performance&lt;/li&gt;
+&lt;li&gt;Optimize tab switching performance&lt;/li&gt;
+&lt;li&gt;Fix issues with find and replace&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.7.4" rel="alternate"/>
   </entry>
