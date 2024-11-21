@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ByteStash Releases</title>
-  <updated>2024-11-21T14:34:14.319302-05:00</updated>
+  <updated>2024-11-21T15:34:09.113064-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -63,7 +63,7 @@
     <author>
       <name>jordan-dalby/ByteStash</name>
     </author>
-    <content>&lt;h1&gt;Key Changes&lt;/h1&gt;
+    <content>&lt;h2&gt;Key Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Added links and version tag&lt;/li&gt;
 &lt;li&gt;Added fragments, snippets can have multiple fragments to store multiple different bits of code with varying languages&lt;/li&gt;
@@ -81,8 +81,10 @@
     <author>
       <name>jordan-dalby/ByteStash</name>
     </author>
-    <content>&lt;p&gt;Key Changes:
-- Fixed a bug which used an incorrect schema on the first app launch&lt;/p&gt;
+    <content>&lt;h2&gt;Key Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug which used an incorrect schema on the first app launch&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jordan-dalby/ByteStash/compare/v1.4.0...v1.4.1&lt;/p&gt;</content>
     <link href="https://github.com/jordan-dalby/ByteStash/releases/tag/v1.4.1" rel="alternate"/>
   </entry>
