@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Flox Releases</title>
-  <updated>2024-11-21T16:32:20.999899-05:00</updated>
+  <updated>2024-11-21T17:32:17.594380-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,5 +54,26 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Simounet/flox/compare/2.2.0...2.3.0&lt;/p&gt;</content>
     <link href="https://github.com/Simounet/flox/releases/tag/2.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Simounet/flox/releases/tag/2.4.0</id>
+    <title>New release for Flox: 2.4.0 - 2024-11-21</title>
+    <updated>2024-11-21T16:55:04-05:00</updated>
+    <author>
+      <name>Simounet/flox</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Laravel upgraded to v11&lt;/li&gt;
+&lt;li&gt;chores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Upgrade notes&lt;/h2&gt;
+&lt;h3&gt;Changes in the .env file&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Variable &lt;code&gt;TRANSLATION&lt;/code&gt; renamed to &lt;code&gt;APP_LOCALE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Variable &lt;code&gt;APP_DOMAIN&lt;/code&gt; deleted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Simounet/flox/compare/2.3.0...2.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/Simounet/flox/releases/tag/2.4.0" rel="alternate"/>
   </entry>
 </feed>
