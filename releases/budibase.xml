@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Budibase Releases</title>
-  <updated>2024-11-21T06:31:45.673499-05:00</updated>
+  <updated>2024-11-21T07:31:46.053631-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -58,8 +58,7 @@
     <author>
       <name>Budibase/budibase</name>
     </author>
-    <content>&lt;h1&gt;⛔️ We are investigating a problem with login we believe was introduced in this release. Please do not upgrade to this version, stay on 3.2.9.&lt;/h1&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Dependency checking as part of package build by @mike12345567 in https://github.com/Budibase/budibase/pull/15036&lt;/li&gt;
 &lt;li&gt;Add sqs to the datasource test matrix. by @samwho in https://github.com/Budibase/budibase/pull/15039&lt;/li&gt;
@@ -78,8 +77,7 @@
     <author>
       <name>Budibase/budibase</name>
     </author>
-    <content>&lt;h1&gt;⛔️ We are investigating a problem with login we believe was introduced in the 3.2.10 release. Please do not upgrade to this version, stay on 3.2.9.&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Budibase/budibase/compare/3.2.10...3.2.11&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Budibase/budibase/compare/3.2.10...3.2.11&lt;/p&gt;</content>
     <link href="https://github.com/Budibase/budibase/releases/tag/3.2.11" rel="alternate"/>
   </entry>
 </feed>
