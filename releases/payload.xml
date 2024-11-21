@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2024-11-21T09:32:00.285841-05:00</updated>
+  <updated>2024-11-21T10:31:57.744735-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,7 +54,7 @@
     <author>
       <name>payloadcms/payload</name>
     </author>
-    <content>&lt;p&gt;This is a major release that includes a re-architecture of Payload from Express and a single-page React app to Next.js. In addition to this architectural change, we've also shipped a ton of large features, miscellaneous fixes, and DX improvements.&lt;/p&gt;
+    <content>&lt;p&gt;This is a major release that includes a re-architecture of Payload from an Express + React Router SPA to the Next.js App Router + RSCs. In addition to this architectural change, we've also shipped a ton of large features, miscellaneous fixes, and DX improvements.&lt;/p&gt;
 &lt;h2&gt;Architectural changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Payload now installs fully in any Next.js app router&lt;/li&gt;
@@ -205,10 +205,10 @@
 &lt;/ul&gt;
 &lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; could not save selection from upload has many drawer (&lt;a href="https://github.com/payloadcms/payload/issues/9325"&gt;#9325&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/f42b1e1"&gt;f42b1e1&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;allow setting admin path route from config (&lt;a href="https://github.com/payloadcms/payload/issues/8085"&gt;#8085&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/d3b0a04"&gt;d3b0a04&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; website logo not showing (&lt;a href="https://github.com/payloadcms/payload/issues/9334"&gt;#9334&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/7f65c83"&gt;7f65c83&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; seeding in website template moved to a separate route so timeout can be customised (&lt;a href="https://github.com/payloadcms/payload/issues/9327"&gt;#9327&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/26cb1e1"&gt;26cb1e1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; could not save selection from upload has many drawer (&lt;a href="https://github.com/payloadcms/payload/issues/9325"&gt;#9325&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/f42b1e1"&gt;f42b1e1&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; client side doc data not updating after save (&lt;a href="https://github.com/payloadcms/payload/issues/9340"&gt;#9340&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/661f450"&gt;661f450&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; show required indicator for select fields (&lt;a href="https://github.com/payloadcms/payload/issues/9348"&gt;#9348&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/2c7ea63"&gt;2c7ea63&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; proper permissions within version diff view (&lt;a href="https://github.com/payloadcms/payload/issues/9346"&gt;#9346&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/188baec"&gt;188baec&lt;/a&gt;)&lt;/li&gt;
