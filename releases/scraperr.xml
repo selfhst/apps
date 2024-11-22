@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scraperr Releases</title>
-  <updated>2024-11-21T18:32:46.397955-05:00</updated>
+  <updated>2024-11-21T19:32:48.573449-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,5 +71,20 @@
 &lt;li&gt;Issue with scroll ability on main page&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/jaypyles/Scraperr/releases/tag/v1.0.4</id>
+    <title>New release for Scraperr: v1.0.4</title>
+    <updated>2024-11-21T19:14:33-05:00</updated>
+    <author>
+      <name>jaypyles/Scraperr</name>
+    </author>
+    <content>&lt;h1&gt;Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Drop MongoDB, replace with sqllite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Reasoning&lt;/h2&gt;
+&lt;p&gt;Remove the need for another dependency, sqllite is more than enough to act as a queue. &lt;/p&gt;</content>
+    <link href="https://github.com/jaypyles/Scraperr/releases/tag/v1.0.4" rel="alternate"/>
   </entry>
 </feed>
