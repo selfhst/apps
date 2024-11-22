@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanidm Releases</title>
-  <updated>2024-11-21T21:32:34.174423-05:00</updated>
+  <updated>2024-11-21T22:32:36.286169-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -274,7 +274,7 @@ and taken the needed steps before upgrading.&lt;/li&gt;
 &lt;li&gt;Add docs on customising Kanidm&lt;/li&gt;
 &lt;li&gt;Correct spelling of occurred&lt;/li&gt;
 &lt;li&gt;Optimise the autofocus for logins with passkeys to limit clicks&lt;/li&gt;
-&lt;li&gt;Sort login mechs by strength&lt;/li&gt;
+&lt;li&gt;Sort login mechs by strength during authentication&lt;/li&gt;
 &lt;li&gt;Fix some cookies to persist between browser restarts&lt;/li&gt;
 &lt;li&gt;Prevent Invalid MFA Registration States&lt;/li&gt;
 &lt;li&gt;Change CSS for applications so SVG scales nicely in Firefox.&lt;/li&gt;
