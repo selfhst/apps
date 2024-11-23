@@ -917,7 +917,8 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
