@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Firefly III Releases</title>
-  <updated>2024-11-23T14:30:21.613212-05:00</updated>
+  <updated>2024-11-23T15:30:21.893535-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,5 +173,24 @@
 &lt;li&gt;The releases are signed, and you can verify them using the &lt;a href="https://docs.firefly-iii.org/explanation/more-information/signatures/"&gt;Firefly III releases PGP key&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/firefly-iii/firefly-iii/releases/tag/v6.1.23" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/firefly-iii/firefly-iii/releases/tag/v6.1.24</id>
+    <title>New release for Firefly III: v6.1.24</title>
+    <updated>2024-11-23T15:07:09-05:00</updated>
+    <author>
+      <name>firefly-iii/firefly-iii</name>
+    </author>
+    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9491"&gt;Issue 9491&lt;/a&gt; (Transactions created at midnight on the first day of a month are not listed correctly) reported by @Neroxeles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Instructions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation instructions for &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/installation/docker/"&gt;Docker&lt;/a&gt;, &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/installation/portainer/"&gt;Portainer&lt;/a&gt;, &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/installation/kubernetes/"&gt;Kubernetes&lt;/a&gt; or &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/installation/self-managed/"&gt;self-managed servers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or read the upgrade instructions for &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/upgrade/docker/"&gt;Docker&lt;/a&gt;, &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/upgrade/kubernetes/"&gt;Kubernetes&lt;/a&gt; or &lt;a href="https://docs.firefly-iii.org/how-to/firefly-iii/upgrade/self-managed/"&gt;self-managed servers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The releases are signed, and you can verify them using the &lt;a href="https://docs.firefly-iii.org/explanation/more-information/signatures/"&gt;Firefly III releases PGP key&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/firefly-iii/firefly-iii/releases/tag/v6.1.24" rel="alternate"/>
   </entry>
 </feed>
