@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2024-11-24T04:32:50.175619-05:00</updated>
+  <updated>2024-11-24T05:32:51.852758-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -255,5 +255,141 @@ Some issues with Docker were identified: #296, #302. A new version with those fi
 &lt;li&gt;Pressing F2 to edit the branch prefix will now work only in the note tree to avoid issues with other interactive elements such as the mind map, but also since the option itself is not the most used ones to require a global shortcut.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.8" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TriliumNext/Notes/releases/tag/v0.90.12</id>
+    <title>New release for TriliumNext: v0.90.12</title>
+    <updated>2024-11-24T04:56:58-05:00</updated>
+    <author>
+      <name>TriliumNext/Notes</name>
+    </author>
+    <content>&lt;h2&gt;💡 Key highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Now it is possible to have a fixed toolbar for editing text notes instead of the standard floating one, see &lt;a href="https://github.com/TriliumNext/Notes/pull/571"&gt;Classic editor for text notes (with fixed toolbar)&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;li&gt;Syntax highlight in code blocks in editable and read-only text notes (via Highlight.js), heavily based on &lt;a href="https://github.com/antoniotejada"&gt;antoniotejada&lt;/a&gt;'s &lt;a href="https://github.com/antoniotejada/Trilium-SyntaxHighlightWidget"&gt;Trilium-SyntaxHighlightWidget&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes since the last beta release&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/583"&gt;Shell (Bash) Syntax Highlight&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/593"&gt;0 Max content width causes editor issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/603"&gt;Share icon not visible in note icon picker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add find &amp;amp; replace button to fixed toolbar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/589"&gt;Add more link protocol support&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/576"&gt;Add a text replacement feature to the find_widget&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/587"&gt;Replace the editor type combo box with radio buttons&lt;/a&gt; by @adoriandoran&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/609"&gt;Add box icons to note menu &amp;amp; attachments&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/615"&gt;Improve the "Existing backups" section&lt;/a&gt; by @adoriandoran&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/585"&gt;Trigger full text search when Ctrl + Enter is pressed in note autocomplete&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/618"&gt;Improve context menus&lt;/a&gt; (+ &lt;a href="https://github.com/TriliumNext/Notes/issues/613"&gt;Replace (?) with information icon&lt;/a&gt;) by @adoriandoran&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/619"&gt;Add Options Launcher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/565"&gt;Change note clone icon indicator from star to link icon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/651"&gt;Add "Reopen last tab" and "Copy tab to new window" to tab management&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved Spanish translations by @hasecilu&lt;/li&gt;
+&lt;li&gt;Improved German translations by @j13055&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/612"&gt;Improve note revision wording and consistency&lt;/a&gt; by @meichthys &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬆️ Library updates and technical improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/607"&gt;Add renovate GitHub Action and JSON config&lt;/a&gt; by @perfectra1n &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From &lt;code&gt;v0.90.11-beta&lt;/code&gt;&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/568"&gt;Double input after spaces on Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/122"&gt;Hyperlinks with custom protocols not working&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/525"&gt;Internal Link: Two Tooltips are displayed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed loading of syntax highlighting themes for server and Docker builds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/531"&gt;Insert inline images in text notes&lt;/a&gt; (also grouped the image alignment buttons in subcategories since there were too many of them).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/545"&gt;Explicitly manage the "latest" tag, and have it point to the same tag as "stable"&lt;/a&gt; by @perfectra1n&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/559"&gt;Make attachments open in a new tab/browser&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/555"&gt;mouse scroll wheel direction for zoom level&lt;/a&gt; by @rom1dep&lt;/li&gt;
+&lt;li&gt;Apply syntax highlight to preview of code notes as well.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/574"&gt;More reliably check for version updates&lt;/a&gt; by @perfectra1n&lt;/li&gt;
+&lt;li&gt;README improvements by @perfectra1n&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Preliminary support for the German language by @j13055 &lt;/li&gt;
+&lt;li&gt;Improved French translations by @Potjoe-97&lt;/li&gt;
+&lt;li&gt;Improved Spanish translations by @hasecilu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬆️ Library updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;mind-elixir: 4.2.4 -&amp;gt; 4.3.1&lt;/li&gt;
+&lt;li&gt;client: force-graph: 1.45.0 -&amp;gt; 1.46.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From &lt;code&gt;v0.90.10-beta&lt;/code&gt;&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code note overlapping with note list.&lt;/li&gt;
+&lt;li&gt;Fix error when running a script in 0.90.9-beta.&lt;/li&gt;
+&lt;li&gt;Font section in Appearance settings blinking when settings were being updated.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/541"&gt;Crop fileName and prevent cutting into the extension&lt;/a&gt; / Canvas note exported to html can't be view due to title name is 13-15 digits long by @SiriusXT&lt;/li&gt;
+&lt;li&gt;Duplicate note count in delete relation modal.&lt;/li&gt;
+&lt;li&gt;Docnotes (e.g. launcher configuration descriptions) not showing on Electron/desktop builds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjustable word-wrap for code blocks in text notes.&lt;/li&gt;
+&lt;li&gt;Adjustable theme for code blocks in text notes, plus slightly improved design.&lt;/li&gt;
+&lt;li&gt;The application should now be more highly tolerant to errors caused by custom widgets and scripts, not causing the UI to also crash (see &lt;a href="https://github.com/TriliumNext/Notes/issues/511"&gt;#511&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/542"&gt;Close tabs to the right&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/534"&gt;Automatically trigger autocomplete on focus&lt;/a&gt; by @SiriusXT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translate weekday and month names for daily notes.&lt;/li&gt;
+&lt;li&gt;Update server translations when switching language.&lt;/li&gt;
+&lt;li&gt;Translate search note prefix.&lt;/li&gt;
+&lt;li&gt;Translate sync test messages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬆️ Library updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;mind-elixir: 4.2.3 → 4.2.4&lt;/li&gt;
+&lt;li&gt;mermaid: 11.3.0 → 11.4.0&lt;/li&gt;
+&lt;li&gt;i18next: 23.16.2 -&amp;gt; 23.16.4&lt;/li&gt;
+&lt;li&gt;and other internal development tooling updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;From &lt;code&gt;v0.90.9-beta&lt;/code&gt;&lt;/h2&gt;
+&lt;h3&gt;🐞 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/503"&gt;Promoted boolean attributes no long showing checkbox when the value is true&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/500"&gt;Import of .htm keeps htm in title while html does not&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/504"&gt;Syntax highlighting in read-only mode code notes&lt;/a&gt; (also for “View source”).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/505"&gt;Server 404 logs are now one-line instead of a full stack trace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌍 Internationalization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Translated the toast notifications, errors and confirmation boxes.&lt;/li&gt;
+&lt;li&gt;Translated the launcher context menu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⬆️ Library updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;i18next: 23.16.0 -&amp;gt; 23.16.2&lt;/li&gt;
+&lt;li&gt;mind-elixir: 4.2.0 -&amp;gt; 4.2.2&lt;/li&gt;
+&lt;li&gt;vanilla-js-wheel-zoom: 9.0.2 -&amp;gt; 9.0.4&lt;/li&gt;
+&lt;li&gt;cookie-parser: 1.4.6 → 1.4.7&lt;/li&gt;
+&lt;li&gt;image-type: 4.1.0 → 5.2.0&lt;/li&gt;
+&lt;li&gt;express, express-rate-limit, express-session updated to latest.&lt;/li&gt;
+&lt;li&gt;cookie-parser: 1.4.6 → 1.4.7&lt;/li&gt;
+&lt;li&gt;marked: 14.1.2 → 14.1.3&lt;/li&gt;
+&lt;li&gt;sanitize-html: 2.13.0 → 2.13.1&lt;/li&gt;
+&lt;li&gt;force-graph: 1.43.5 → 1.45.0&lt;/li&gt;
+&lt;li&gt;and others (jasmine, debounce)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/TriliumNext/Notes/releases/tag/v0.90.12" rel="alternate"/>
   </entry>
 </feed>
