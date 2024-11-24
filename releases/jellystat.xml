@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellystat Releases</title>
-  <updated>2024-11-24T14:32:38.026158-05:00</updated>
+  <updated>2024-11-24T15:32:06.821330-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,5 +82,54 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/CyferShepard/Jellystat/compare/1.0.9...1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CyferShepard/Jellystat/releases/tag/1.1.1</id>
+    <title>New release for Jellystat: 1.1.1</title>
+    <updated>2024-11-24T15:07:52-05:00</updated>
+    <author>
+      <name>CyferShepard/Jellystat</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.0 Release by @CyferShepard in https://github.com/CyferShepard/Jellystat/pull/212&lt;/li&gt;
+&lt;li&gt;Sync with main by @CyferShepard in https://github.com/CyferShepard/Jellystat/pull/214&lt;/li&gt;
+&lt;li&gt;rebase with main by @CyferShepard in https://github.com/CyferShepard/Jellystat/pull/217&lt;/li&gt;
+&lt;li&gt;Adding healthcheck to docker image by @zodac in https://github.com/CyferShepard/Jellystat/pull/220&lt;/li&gt;
+&lt;li&gt;Translation patch fr-FR by @EVOTk in https://github.com/CyferShepard/Jellystat/pull/239&lt;/li&gt;
+&lt;li&gt;Allow overriding owner of tables during migrations by @halkeye in https://github.com/CyferShepard/Jellystat/pull/250&lt;/li&gt;
+&lt;li&gt;Expanded Global Users stats&lt;/li&gt;
+&lt;li&gt;Added user preferences per session&lt;/li&gt;
+&lt;li&gt;better error handling in api&lt;/li&gt;
+&lt;li&gt;Base URL added&lt;/li&gt;
+&lt;li&gt;Updated Translations&lt;/li&gt;
+&lt;li&gt;Fix multiple 1 second recordings in activity&lt;/li&gt;
+&lt;li&gt;Added Stream Type filters and Filters by Library&lt;/li&gt;
+&lt;li&gt;Added Concurrent Stream stats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fixes
+* #214 
+* #217 
+* #223 
+* #231 
+* #235
+* #234 
+* #229 
+* #240 
+* #118 
+* #248 
+* #254 
+* #257 
+* #256 
+* #258 
+* #263 
+* #267 &lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@zodac made their first contribution in https://github.com/CyferShepard/Jellystat/pull/220&lt;/li&gt;
+&lt;li&gt;@halkeye made their first contribution in https://github.com/CyferShepard/Jellystat/pull/250&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/CyferShepard/Jellystat/compare/1.1.0...1.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.1" rel="alternate"/>
   </entry>
 </feed>
