@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Firefly III Releases</title>
-  <updated>2024-11-23T22:30:21.133569-05:00</updated>
+  <updated>2024-11-23T23:30:22.739800-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,6 +184,15 @@
     <content>&lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9491"&gt;Issue 9491&lt;/a&gt; (Transactions created at midnight on the first day of a month are not listed correctly) reported by @Neroxeles&lt;/li&gt;
+&lt;li&gt;Broken links in readme.&lt;/li&gt;
+&lt;li&gt;Expand (future) timezone support.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9451"&gt;Issue 9451&lt;/a&gt; (Trigger "Has at least this many attachments" is misnamed?) reported by @Kvan7&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9458"&gt;Issue 9458&lt;/a&gt; (The add transaction failed) reported by @wqwwffsytxwp&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9466"&gt;Issue 9466&lt;/a&gt; (First instance of recurring transaction not firing automatically or manually) reported by @makobot-sh&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/pull/9468"&gt;PR 9468&lt;/a&gt; (Transaction Model: explicitly cast decimal to string) reported by @yparitcher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/issues/9477"&gt;Issue 9477&lt;/a&gt; (Default Financial report: Income vs Expense has missing months when multiple currencies are used) reported by @thomase1234&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/pull/9488"&gt;PR 9488&lt;/a&gt; (fix: set dest foreign_amount and foreign_currency_id for foreign transfers) reported by @antoniomrfranco&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/firefly-iii/firefly-iii/pull/9483"&gt;PR 9483&lt;/a&gt; (fix: include foreign_amount in transaction sum calculation) reported by @antoniomrfranco&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Instructions&lt;/h3&gt;
 &lt;ul&gt;
