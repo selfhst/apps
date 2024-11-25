@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ChartDB Releases</title>
-  <updated>2024-11-25T11:34:22.896265-05:00</updated>
+  <updated>2024-11-25T12:34:21.133088-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,5 +156,37 @@
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; tag urls lowercase to support browsers (&lt;a href="https://github.com/chartdb/chartdb/issues/397"&gt;#397&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/959e5402b8c112fae6243ce9283947057506c128"&gt;959e540&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chartdb/chartdb/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/chartdb/chartdb/releases/tag/v1.3.0</id>
+    <title>New release for ChartDB: v1.3.0</title>
+    <updated>2024-11-25T12:15:09-05:00</updated>
+    <author>
+      <name>chartdb/chartdb</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/chartdb/chartdb/compare/v1.2.0...v1.3.0"&gt;1.3.0&lt;/a&gt; (2024-11-25)&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;side panel:&lt;/strong&gt; collapsible side panel on desktop view + keyboard shortcut (&lt;a href="https://github.com/chartdb/chartdb/issues/439"&gt;#439&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/70f545f78bab9c510a6e5936fa5b259b806b6c69"&gt;70f545f&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dialogs:&lt;/strong&gt; fix height of dialogs for small screens (&lt;a href="https://github.com/chartdb/chartdb/issues/440"&gt;#440&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/667685ed0f6a8cc61ae86b3ba60e052fbe6a9e1a"&gt;667685e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;drawer:&lt;/strong&gt; set fix min size (&lt;a href="https://github.com/chartdb/chartdb/issues/429"&gt;#429&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/c5e0ea6fa4017666ff3bc1e3071c487df48afd3d"&gt;c5e0ea6&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;export-sql:&lt;/strong&gt; add unique to export script (&lt;a href="https://github.com/chartdb/chartdb/issues/422"&gt;#422&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/b75c6fe4e78f3e2058be680f2fa0442db3b4a6bd"&gt;b75c6fe&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;fix layout warnings (&lt;a href="https://github.com/chartdb/chartdb/issues/434"&gt;#434&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/94ec43b60845bb8c3592ce1b1450ca0171a53f99"&gt;94ec43b&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add bahasa indonesia translation (&lt;a href="https://github.com/chartdb/chartdb/issues/331"&gt;#331&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/ab07da0b031f0d4050ff6b44ddcb94cb6c0010b6"&gt;ab07da0&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add missing type to vi.ts (&lt;a href="https://github.com/chartdb/chartdb/issues/444"&gt;#444&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/e77ee60a5b47e0854d11b0ee2f16d6956737d0ff"&gt;e77ee60&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Add Telugu Language (&lt;a href="https://github.com/chartdb/chartdb/issues/352"&gt;#352&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/8749591be036e131de4bfeed1e6eece8d62980dd"&gt;8749591&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add Turkish translations (&lt;a href="https://github.com/chartdb/chartdb/issues/315"&gt;#315&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/d9fcbeec726b7bde9f7d202bf09dc6b617e3ad80"&gt;d9fcbee&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; add Vietnamese translations (&lt;a href="https://github.com/chartdb/chartdb/issues/435"&gt;#435&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/6c65c2e9cce600b9778b84ce5b5f1625dc6f1a58"&gt;6c65c2e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Translating to Gujarati language (&lt;a href="https://github.com/chartdb/chartdb/issues/433"&gt;#433&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/2940431efa1a6aa54d80c61d5e05f0ad47cd67ba"&gt;2940431&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; Translation of the export error into Russian (&lt;a href="https://github.com/chartdb/chartdb/issues/418"&gt;#418&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/7c3c62860efc98d3aabf2132a79ac945ffc8315a"&gt;7c3c628&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt; update korean for 1.2.0 (&lt;a href="https://github.com/chartdb/chartdb/issues/419"&gt;#419&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/8397bef3924610d94661aae99c55ba4fa376a186"&gt;8397bef&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;import script:&lt;/strong&gt; remove double quotes (&lt;a href="https://github.com/chartdb/chartdb/issues/442"&gt;#442&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/fb702c87ce5254bf6e0209c692305f5086956090"&gt;fb702c8&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;share:&lt;/strong&gt; fix export to handle broken indexes &amp;amp; relationships (&lt;a href="https://github.com/chartdb/chartdb/issues/416"&gt;#416&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/4be3592cf4d160be83ddf1db01ffe9afdef119fa"&gt;4be3592&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; add Five more templates (bouncer, cabot, feedbin, Pythonic, flarum, freescout) (&lt;a href="https://github.com/chartdb/chartdb/issues/441"&gt;#441&lt;/a&gt;) (&lt;a href="https://github.com/chartdb/chartdb/commit/eaa067814fd96fcc1ee10488ee747a71a8e8ec7a"&gt;eaa0678&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/chartdb/chartdb/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
