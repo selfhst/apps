@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NPMplus Releases</title>
-  <updated>2024-11-25T17:33:08.882302-05:00</updated>
+  <updated>2024-11-25T18:33:02.160274-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,12 @@
 &lt;li&gt;close #965 by merging https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4187&lt;/li&gt;
 &lt;li&gt;merge upstream (only this PR was merged: https://github.com/NginxProxyManager/nginx-proxy-manager/pull/4179)&lt;/li&gt;
 &lt;li&gt;fix updating streams (untested, but should work, if not please open an issue)&lt;/li&gt;
-&lt;li&gt;Note: if you want NPMplus in your language, please see the readme on how to contribute a translation&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Note: if you want NPMplus in your language, please see the readme on how to contribute a translation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Note: 2 hours after this release I made a hotfix for the certbot command and merged upstream changes (forbid port 80, 81 and 443 as stream output ports)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;How to update&lt;/h3&gt;
 &lt;ul&gt;
