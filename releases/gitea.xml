@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-11-25T15:30:27.587973-05:00</updated>
+  <updated>2024-11-25T16:30:28.828622-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -402,8 +402,62 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;SECURITY   * Fix basic auth with webauthn (#32531) (#32536)   * Refactor internal routers (partial backport, auth token const time comparing) (#32473) (#32479) * PERFORMANCE   * Remove transaction for archive download (#32186) (#32520) * BUGFIXES   * Fix &lt;code&gt;missing signature key&lt;/code&gt; error when pulling Docker images with &lt;code&gt;SERVE_DIRECT&lt;/code&gt; enabled (#32365) (#32397)   * Fix get reviewers fails when selecting user without pull request permissions unit (#32415) (#32616)   * Fix adding index files to tmp directory (#32360) (#32593)   * Fix PR creation on forked repositories via API (#31863) (#32591)   * Fix missing menu tabs in organization project view page (#32313) (#32592)   * Support HTTP POST requests to &lt;code&gt;/userinfo&lt;/code&gt;, aligning to OpenID Core specification (#32578) (#32594)   * Fix debian package clean up cron job (#32351) (#32590)   * Fix GetInactiveUsers (#32540) (#32588)   * Allow the actions user to login via the jwt token (#32527) (#32580)   * Fix submodule parsing (#32571) (#32577)   * Refactor find forks and fix possible bugs that weaken permissions check (#32528) (#32547)   * Fix some places that don't respect org full name setting (#32243) (#32550)   * Refactor push mirror find and add check for updating push mirror (#32539) (#32549)   * Fix basic auth with webauthn (#32531) (#32536)   * Fix artifact v4 upload above 8MB (#31664) (#32523)   * Fix oauth2 error handle not return immediately (#32514) (#32516)   * Fix action not triggered when commit message is too long (#32498) (#32507)   * Fix &lt;code&gt;GetRepoLink&lt;/code&gt; nil pointer dereference on dashboard feed page when repo is deleted with actions enabled (#32501) (#32502)   * Fix &lt;code&gt;missing signature key&lt;/code&gt; error when pulling Docker images with &lt;code&gt;SERVE_DIRECT&lt;/code&gt; enabled (#32397) (#32397)   * Fix the permission check for user search API and limit the number of returned users for &lt;code&gt;/user/search&lt;/code&gt; (#32310)   * Fix SearchIssues swagger docs (#32208) (#32298)   * Fix dropdown content overflow (#31610) (#32250)   * Disable Oauth check if oauth disabled (#32368) (#32480)   * Respect renamed dependencies of Cargo registry (#32430) (#32478)   * Fix mermaid diagram height when initially hidden (#32457) (#32464)   * Fix broken releases when re-pushing tags (#32435) (#32449)   * Only provide the commit summary for Discord webhook push events (#32432) (#32447)   * Only query team tables if repository is under org when getting assignees (#32414) (#32426)   * Fix created_unix for mirroring (#32342) (#32406)   * Respect UI.ExploreDefaultSort setting again (#32357) (#32385)   * Fix broken image when editing comment with non-image attachments (#32319) (#32345)   * Fix disable 2fa bug (#32320) (#32330)   * Always update expiration time when creating an artifact (#32281) (#32285)   * Fix null errors on conversation holder (#32258) (#32266) (#32282)   * Only rename a user when they should receive a different name (#32247) (#32249)   * Fix checkbox bug on private/archive filter (#32236) (#32240)   * Add a doctor check to disable the "Actions" unit for mirrors (#32424) (#32497)   * Quick fix milestone deadline 9999 (#32423)   * Make &lt;code&gt;show stats&lt;/code&gt; work when only one file changed (#32244) (#32268)   * Make &lt;code&gt;owner/repo/pulls&lt;/code&gt; handlers use "PR reader" permission (#32254) (#32265)   * Update scheduled tasks even if changes are pushed by "ActionsUser" (#32246) (#32252) * MISC   * Remove unnecessary code: &lt;code&gt;GetPushMirrorsByRepoID&lt;/code&gt; called on all repo pages (#32560) (#32567)   * Improve some sanitizer rules (#32534)   * Update nix development environment vor v1.22.x (#32495)   * Add warn log when deleting inactive users (#32318) (#32321)   * Update github.com/go-enry/go-enry to v2.9.1 (#32295) (#32296)   * Warn users when they try to use a non-root-url to sign in/up (#32272) (#32273)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;SECURITY&lt;/li&gt;
+&lt;li&gt;Fix basic auth with webauthn (#32531) (#32536)&lt;/li&gt;
+&lt;li&gt;Refactor internal routers (partial backport, auth token const time comparing) (#32473) (#32479)&lt;/li&gt;
+&lt;li&gt;PERFORMANCE&lt;/li&gt;
+&lt;li&gt;Remove transaction for archive download (#32186) (#32520)&lt;/li&gt;
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;missing signature key&lt;/code&gt; error when pulling Docker images with &lt;code&gt;SERVE_DIRECT&lt;/code&gt; enabled (#32365) (#32397)&lt;/li&gt;
+&lt;li&gt;Fix get reviewers fails when selecting user without pull request permissions unit (#32415) (#32616)&lt;/li&gt;
+&lt;li&gt;Fix adding index files to tmp directory (#32360) (#32593)&lt;/li&gt;
+&lt;li&gt;Fix PR creation on forked repositories via API (#31863) (#32591)&lt;/li&gt;
+&lt;li&gt;Fix missing menu tabs in organization project view page (#32313) (#32592)&lt;/li&gt;
+&lt;li&gt;Support HTTP POST requests to &lt;code&gt;/userinfo&lt;/code&gt;, aligning to OpenID Core specification (#32578) (#32594)&lt;/li&gt;
+&lt;li&gt;Fix debian package clean up cron job (#32351) (#32590)&lt;/li&gt;
+&lt;li&gt;Fix GetInactiveUsers (#32540) (#32588)&lt;/li&gt;
+&lt;li&gt;Allow the actions user to login via the jwt token (#32527) (#32580)&lt;/li&gt;
+&lt;li&gt;Fix submodule parsing (#32571) (#32577)&lt;/li&gt;
+&lt;li&gt;Refactor find forks and fix possible bugs that weaken permissions check (#32528) (#32547)&lt;/li&gt;
+&lt;li&gt;Fix some places that don't respect org full name setting (#32243) (#32550)&lt;/li&gt;
+&lt;li&gt;Refactor push mirror find and add check for updating push mirror (#32539) (#32549)&lt;/li&gt;
+&lt;li&gt;Fix basic auth with webauthn (#32531) (#32536)&lt;/li&gt;
+&lt;li&gt;Fix artifact v4 upload above 8MB (#31664) (#32523)&lt;/li&gt;
+&lt;li&gt;Fix oauth2 error handle not return immediately (#32514) (#32516)&lt;/li&gt;
+&lt;li&gt;Fix action not triggered when commit message is too long (#32498) (#32507)&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;GetRepoLink&lt;/code&gt; nil pointer dereference on dashboard feed page when repo is deleted with actions enabled (#32501) (#32502)&lt;/li&gt;
+&lt;li&gt;Fix &lt;code&gt;missing signature key&lt;/code&gt; error when pulling Docker images with &lt;code&gt;SERVE_DIRECT&lt;/code&gt; enabled (#32397) (#32397)&lt;/li&gt;
+&lt;li&gt;Fix the permission check for user search API and limit the number of returned users for &lt;code&gt;/user/search&lt;/code&gt; (#32310)&lt;/li&gt;
+&lt;li&gt;Fix SearchIssues swagger docs (#32208) (#32298)&lt;/li&gt;
+&lt;li&gt;Fix dropdown content overflow (#31610) (#32250)&lt;/li&gt;
+&lt;li&gt;Disable Oauth check if oauth disabled (#32368) (#32480)&lt;/li&gt;
+&lt;li&gt;Respect renamed dependencies of Cargo registry (#32430) (#32478)&lt;/li&gt;
+&lt;li&gt;Fix mermaid diagram height when initially hidden (#32457) (#32464)&lt;/li&gt;
+&lt;li&gt;Fix broken releases when re-pushing tags (#32435) (#32449)&lt;/li&gt;
+&lt;li&gt;Only provide the commit summary for Discord webhook push events (#32432) (#32447)&lt;/li&gt;
+&lt;li&gt;Only query team tables if repository is under org when getting assignees (#32414) (#32426)&lt;/li&gt;
+&lt;li&gt;Fix created_unix for mirroring (#32342) (#32406)&lt;/li&gt;
+&lt;li&gt;Respect UI.ExploreDefaultSort setting again (#32357) (#32385)&lt;/li&gt;
+&lt;li&gt;Fix broken image when editing comment with non-image attachments (#32319) (#32345)&lt;/li&gt;
+&lt;li&gt;Fix disable 2fa bug (#32320) (#32330)&lt;/li&gt;
+&lt;li&gt;Always update expiration time when creating an artifact (#32281) (#32285)&lt;/li&gt;
+&lt;li&gt;Fix null errors on conversation holder (#32258) (#32266) (#32282)&lt;/li&gt;
+&lt;li&gt;Only rename a user when they should receive a different name (#32247) (#32249)&lt;/li&gt;
+&lt;li&gt;Fix checkbox bug on private/archive filter (#32236) (#32240)&lt;/li&gt;
+&lt;li&gt;Add a doctor check to disable the "Actions" unit for mirrors (#32424) (#32497)&lt;/li&gt;
+&lt;li&gt;Quick fix milestone deadline 9999 (#32423)&lt;/li&gt;
+&lt;li&gt;Make &lt;code&gt;show stats&lt;/code&gt; work when only one file changed (#32244) (#32268)&lt;/li&gt;
+&lt;li&gt;Make &lt;code&gt;owner/repo/pulls&lt;/code&gt; handlers use "PR reader" permission (#32254) (#32265)&lt;/li&gt;
+&lt;li&gt;Update scheduled tasks even if changes are pushed by "ActionsUser" (#32246) (#32252)&lt;/li&gt;
+&lt;li&gt;MISC&lt;/li&gt;
+&lt;li&gt;Remove unnecessary code: &lt;code&gt;GetPushMirrorsByRepoID&lt;/code&gt; called on all repo pages (#32560) (#32567)&lt;/li&gt;
+&lt;li&gt;Improve some sanitizer rules (#32534)&lt;/li&gt;
+&lt;li&gt;Update nix development environment vor v1.22.x (#32495)&lt;/li&gt;
+&lt;li&gt;Add warn log when deleting inactive users (#32318) (#32321)&lt;/li&gt;
+&lt;li&gt;Update github.com/go-enry/go-enry to v2.9.1 (#32295) (#32296)&lt;/li&gt;
+&lt;li&gt;Warn users when they try to use a non-root-url to sign in/up (#32272) (#32273)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.22.4" rel="alternate"/>
   </entry>
 </feed>
