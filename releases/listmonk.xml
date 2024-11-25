@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>listmonk Releases</title>
-  <updated>2024-11-25T00:31:40.924245-05:00</updated>
+  <updated>2024-11-25T01:31:39.605142-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -548,7 +548,7 @@ docker-compose up -d app db
 &lt;p&gt;v4.1.0 is a major release with a significant number of improvements and fixes.&lt;/p&gt;
 &lt;h1&gt;⚠️ Important: Upgrading from v3.x.x&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;As always, take a backup of your Postgres database before upgrading.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;v4.0.1 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;v4.1.0 is a major upgrade that introduces multi-user management and authentication features, fundamentally changing how login and authentication works. It no longer relies on the browser-based BasicAuth prompt and ships with a build-in login system. The upgrade automatically creates a new Super Admin user based on the &lt;code&gt;admin_username&lt;/code&gt; and &lt;code&gt;admin_password&lt;/code&gt; fields from the TOML configuration file, after which, the credentials in the TOML file are no longer needed. &lt;a href="https://listmonk.app/docs/upgrade/#upgrading-to-v4xx"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Broken &lt;code&gt;/api/lists/:id&lt;/code&gt;:&lt;/strong&gt; If you're using this API call, please refrain from upgrading to this version for now. It's broken in this release, but has been fixed and a new version will be made available soon. &lt;/p&gt;
 &lt;h2&gt;What's new?&lt;/h2&gt;
 &lt;ul&gt;
