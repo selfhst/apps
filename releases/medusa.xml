@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-11-25T06:30:56.915000-05:00</updated>
+  <updated>2024-11-25T07:30:51.007648-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -410,6 +410,8 @@ POST /store/carts/:id/customer&lt;/code&gt;&lt;/p&gt;
     </author>
     <content>&lt;!-- 
 ![image](https://github.com/user-attachments/assets/0344e0bd-d6ce-4cf9-846a-4b755587873f)
+
+This version fixes a bug with image reordering introduced in v2.0.5.
 
 # v2.0.6
 
