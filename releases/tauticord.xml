@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tauticord Releases</title>
-  <updated>2024-11-24T21:33:30.321425-05:00</updated>
+  <updated>2024-11-24T22:35:40.858735-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,7 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[ADDED] Support for &lt;a href="https://github.com/Tautulli/Tautulli/releases/tag/v2.15.0"&gt;Tautulli v2.15.0&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;[REMOVED] Support for Tautulli v2.14.0 and v2.14.1. See &lt;a href="https://github.com/nwithan8/tauticord/blob/5.8.0/documentation/ANNOUNCEMENTS.md#dropping-support-for-v212x-and-v213x-of-tautulli"&gt;announcement&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;[REMOVED] Support for Tautulli v2.14.0 and v2.14.1. See &lt;a href="https://github.com/nwithan8/tauticord/blob/5.8.0/documentation/ANNOUNCEMENTS.md#dropping-support-for-v2140-and-v2141-of-tautulli"&gt;announcement&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Related PRs&lt;/h2&gt;
 &lt;ul&gt;
