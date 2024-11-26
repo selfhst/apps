@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-11-26T04:32:31.358491-05:00</updated>
+  <updated>2024-11-26T05:32:31.610613-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,6 +143,16 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.6.1...v1.6.2"&gt;1.6.2&lt;/a&gt; (2024-11-26)&lt;/h2&gt;
+&lt;p&gt;Restic 1.6.2 brings a focus on quality of life and stability bug fixes as well as a new version of restic bumping the default version to 0.17.3. &lt;/p&gt;
+&lt;p&gt;Notable changes are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Significant improvements to the Backrest windows installer have been made to reduce install friction and eliminating the need to grant administrative privileges (by installing to a user owned folder).&lt;/li&gt;
+&lt;li&gt;PowerShell commands are &lt;em&gt;much&lt;/em&gt; better supported on Windows.&lt;/li&gt;
+&lt;li&gt;On all platforms, Backrest will now use the system install of restic if it matches the required version (currently 0.17.3) -- backrest will only install and manage it's own version of restic if the system version is unsupported. For users keeping backrest and er&lt;/li&gt;
+&lt;li&gt;On MacOS the "restic" binary is now always located at &lt;code&gt;~/.local/share/backrest/restic&lt;/code&gt; making it easier to grant full disk access and other permissions. &lt;/li&gt;
+&lt;li&gt;Crash on arm32 devices affecting Raspberry Pi Zero users is fixed.&lt;/li&gt;
+&lt;li&gt;Add repo and add plan views now correctly populate default schedules and retention policies that make sense for easier first time setup.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;allow 'run command' tasks to proceed in parallel to other repo operations (&lt;a href="https://github.com/garethgeorge/backrest/commit/3397a011a3bbbdac2f7299ea4f869cd71b2d0a22"&gt;3397a01&lt;/a&gt;)&lt;/li&gt;
