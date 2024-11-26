@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2024-11-26T11:32:43.882606-05:00</updated>
+  <updated>2024-11-26T12:32:43.994265-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -148,7 +148,7 @@
 &lt;ul&gt;
 &lt;li&gt;Significant improvements to the Backrest windows installer have been made to reduce install friction and eliminating the need to grant administrative privileges (by installing to a user owned folder).&lt;/li&gt;
 &lt;li&gt;PowerShell commands are &lt;em&gt;much&lt;/em&gt; better supported on Windows.&lt;/li&gt;
-&lt;li&gt;On all platforms, Backrest will now use the system install of restic if it matches the required version (currently 0.17.3) -- backrest will only install and manage it's own version of restic if the system version is unsupported. For users keeping backrest and er&lt;/li&gt;
+&lt;li&gt;On all platforms, Backrest will now use the system install of restic if it matches the required version (currently 0.17.3) -- backrest will only install and manage its own version of restic if the system version is unsupported.&lt;/li&gt;
 &lt;li&gt;On MacOS the "restic" binary is now always located at &lt;code&gt;~/.local/share/backrest/restic&lt;/code&gt; making it easier to grant full disk access and other permissions. &lt;/li&gt;
 &lt;li&gt;Crash on arm32 devices affecting Raspberry Pi Zero users is fixed.&lt;/li&gt;
 &lt;li&gt;Add repo and add plan views now correctly populate default schedules and retention policies that make sense for easier first time setup.&lt;/li&gt;
