@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-11-26T05:31:22.097157-05:00</updated>
+  <updated>2024-11-26T06:31:22.271739-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,6 +163,9 @@ Please switch to docker image &lt;code&gt;stirlingtools/stirling-pdf&lt;/code&gt
 - Multi-tool allows multi-selected drag and drop 
 - Sign allows the same signature to be placed on multiple pages at once
 - UI cleanups for multi-tool and sign&lt;/p&gt;
+&lt;p&gt;With this update also comes some breaking changes to our database file for additional security
+Any users updating from a version older than 0.28.0 will need to first update to a version after that and restart the application. After this the application can be updated to 0.34.0+ as normal
+This will allow the database to then migrate to the 0.34.0 version&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
