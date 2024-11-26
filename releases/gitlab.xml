@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-11-26T13:30:29.718551-05:00</updated>
+  <updated>2024-11-26T14:30:27.499112-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -700,8 +700,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="17 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=17&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2300 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2300&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="16 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=16&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2299 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2299&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Add support for values to the `glab agent bootstrap` command](https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/cluster/agent/bootstrap.md#options): &lt;code&gt;Deployment Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; In the last release, we introduced support for easy agent bootstrapping to the GitLab CLI tool. GitLab 17.6 further improves the `glab cluster agent bootstrap` command with support for custom Helm values. You can use the `--helm-release-values` and `--helm-release-values-from` flags to customize the generated `HelmRelease` resource.
@@ -808,12 +808,6 @@
 &gt; GitLab optionally sends an email when a sign-in from a new location is detected. Previously, this email only contained the IP address, which is difficult to correlate to a location. This email now contains city and country location information as well.
 &gt; 
 &gt; Thank you [Henry Helm](https://gitlab.com/shangsuru) for your contribution! 
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Top-level group Owners can create service accounts](https://docs.gitlab.com/ee/administration/settings/account_and_limit_settings.html#allow-top-level-group-owners-to-create-service-accounts) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
-
-&gt; Currently, only administrators can create service accounts on GitLab self-managed. Now, there is an optional setting which allows top-level group Owners to create service accounts. This allows administrators to choose if they would like a wider range of roles that are allowed to create service accounts, or keep it as an administrator-only task.
 
 &lt;/details&gt;
 
