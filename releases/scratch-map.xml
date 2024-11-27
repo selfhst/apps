@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scratch Map Releases</title>
-  <updated>2024-11-26T21:34:24.112081-05:00</updated>
+  <updated>2024-11-26T22:34:25.225777-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,5 +30,45 @@ Regenerating &lt;code&gt;1.1.12&lt;/code&gt; at previous state (no changes) and 
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ad3m3r5/scratch-map/compare/1.1.11...1.1.12&lt;/p&gt;</content>
     <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.1.12" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.0</id>
+    <title>New release for Scratch Map: 1.2.0</title>
+    <updated>2024-11-26T21:52:21-05:00</updated>
+    <author>
+      <name>ad3m3r5/scratch-map</name>
+    </author>
+    <content>&lt;p&gt;This released includes a breaking change noted below.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;View-only page using &lt;code&gt;/view/:map&lt;/code&gt; URL path&lt;/li&gt;
+&lt;li&gt;Enabled with &lt;code&gt;ENABLE_SHARE&lt;/code&gt; environment variable&lt;/li&gt;
+&lt;li&gt;Button provided on &lt;code&gt;/map/:map&lt;/code&gt; page to create and copy link&lt;/li&gt;
+&lt;li&gt;Public GitHub Actions - these were previously in a private repository for debugging&lt;/li&gt;
+&lt;li&gt;Environment variable &lt;code&gt;LOG_LEVEL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Express/Node now listen for &lt;code&gt;SIGTERM&lt;/code&gt; and &lt;code&gt;SIGINT&lt;/code&gt; for better shutdown processes&lt;/li&gt;
+&lt;li&gt;Fullscreen button for map view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BREAKING: Renamed &lt;code&gt;DBLOCATION&lt;/code&gt; environment variable to &lt;code&gt;DATA_DIR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update your &lt;code&gt;docker run&lt;/code&gt; command, &lt;code&gt;compose.yaml&lt;/code&gt; file, or other applications environment variable locations&lt;/li&gt;
+&lt;li&gt;Although it is labeled as breaking, there is currently a remap for backwards compatibility&lt;/li&gt;
+&lt;li&gt;Database attributes &lt;code&gt;countries&lt;/code&gt; and &lt;code&gt;states&lt;/code&gt; have been changed to &lt;code&gt;world&lt;/code&gt; and &lt;code&gt;united-states-of-america&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The db.json file should be automatically updated for you, including the db version label&lt;/li&gt;
+&lt;li&gt;Moved from &lt;code&gt;npm&lt;/code&gt; to &lt;code&gt;yarn&lt;/code&gt; due to performance inconsistencies&lt;/li&gt;
+&lt;li&gt;Docs are more organized&lt;/li&gt;
+&lt;li&gt;Based Docker image to bump Node and Alpine versions&lt;/li&gt;
+&lt;li&gt;Dockerfile logic to update alpine packages with apk&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;console.log&lt;/code&gt; has been replaced with &lt;code&gt;console.info&lt;/code&gt; and &lt;code&gt;console.debug&lt;/code&gt; to match &lt;code&gt;LOG_LEVEL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;json code files moved to subdirectory under &lt;code&gt;utils/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Updated primary packages in &lt;code&gt;package.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The was an XSS vulnerabiltiy with the URL input for a photo album. This was fixed with input sanitization and validation. Discovered by &lt;a href="https://github.com/l4rm4nd"&gt;l4rm4nd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The map had an issue where dragging and releasing on the same entity would cause a click event. A timeout has been added to decrease the change of that.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.0" rel="alternate"/>
   </entry>
 </feed>
