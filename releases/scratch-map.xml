@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scratch Map Releases</title>
-  <updated>2024-11-26T23:34:28.361391-05:00</updated>
+  <updated>2024-11-27T00:34:19.110637-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,5 +70,18 @@ Regenerating &lt;code&gt;1.1.12&lt;/code&gt; at previous state (no changes) and 
 &lt;li&gt;The map had an issue where dragging and releasing on the same entity would cause a click event. A timeout has been added to decrease the change of that.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.1</id>
+    <title>New release for Scratch Map: 1.2.1</title>
+    <updated>2024-11-27T00:04:58-05:00</updated>
+    <author>
+      <name>ad3m3r5/scratch-map</name>
+    </author>
+    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated validator.js to load locally&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.1" rel="alternate"/>
   </entry>
 </feed>
