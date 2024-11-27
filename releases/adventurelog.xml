@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AdventureLog Releases</title>
-  <updated>2024-11-27T12:34:38.419391-05:00</updated>
+  <updated>2024-11-27T13:34:35.665166-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,7 @@ Sean @seanmorley15&lt;/p&gt;</content>
 &lt;blockquote&gt;
 &lt;p&gt;[!IMPORTANT]&lt;br /&gt;
 &lt;em&gt;While the app will still function normally without these changes&lt;/em&gt;, they are recommended for the best support and stability
-The &lt;strong&gt;migration guide&lt;/strong&gt; can be found here: https://docs.adventurelog.app/docs/Guides/nginx_migration
+The &lt;strong&gt;migration guide&lt;/strong&gt; can be found here: https://adventurelog.app/docs/guides/v0-7-1_migration.html
 - Migrated nginx inside of server container for easier deployment, removed external nginx requirement
 - App now uses gunicorn for better performance at scale&lt;/p&gt;
 &lt;/blockquote&gt;
