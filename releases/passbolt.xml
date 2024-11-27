@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Passbolt Releases</title>
-  <updated>2024-11-27T02:32:41.888532-05:00</updated>
+  <updated>2024-11-27T03:32:45.321948-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -274,8 +274,8 @@ difficulties sharing passwords with users or groups when different cases were in
       <name>passbolt/passbolt_api</name>
     </author>
     <content>&lt;p&gt;Release song: https://youtu.be/649wWWkW_1o?si=rSKbGFqR8irz0OOG&lt;/p&gt;
-&lt;p&gt;Passbolt is pleased to announce the immediate availability of version v4.10.1. This version notably fixes critical issue introduce in v4.10.0 where mobile applications was not showing any passwords after the passbolt API update.&lt;/p&gt;
-&lt;p&gt;We would like to express our appreciation to the community for raising the issue. Thank you for support &amp;amp; understanding.&lt;/p&gt;
+&lt;p&gt;Passbolt API version v4.10.1 fixes a critical issue introduced in v4.10.0 where mobile applications were not showing any passwords after the passbolt API update.&lt;/p&gt;
+&lt;p&gt;We would like to express our appreciation to the community for raising the issue. Thank you for your support &amp;amp; understanding.&lt;/p&gt;
 &lt;h2&gt;[4.10.1] - 2024-11-26&lt;/h2&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
