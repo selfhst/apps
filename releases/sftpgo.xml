@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SFTPGo Releases</title>
-  <updated>2024-11-28T01:31:15.233185-05:00</updated>
+  <updated>2024-11-28T02:31:16.391729-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,7 +154,15 @@ There is no point in having separate, overlapping permissions.&lt;/p&gt;</conten
     <author>
       <name>drakkan/sftpgo</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OIDC session cookie: a cryptographically secure opaque random string, as we already do in all other security-sensitive code in SFTPGo. &lt;a href="https://github.com/drakkan/sftpgo/security/advisories/GHSA-6943-qr24-82vx"&gt;CVE-2024-52801&lt;/a&gt;. Thanks to @denisvr72 for reporting.&lt;/li&gt;
+&lt;li&gt;EventManager: fix connection leak when performing file operations on a third-party SFTP server, for example, to copy a file to another SFTP server after an upload.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;CI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Switch to Azure Trusted Signing to sign &lt;a href="https://github.com/drakkan/sftpgo/issues/1778"&gt;Windows binaries&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/drakkan/sftpgo/releases/tag/v2.6.4" rel="alternate"/>
   </entry>
 </feed>
