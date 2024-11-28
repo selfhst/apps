@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2024-11-28T06:33:12.883983-05:00</updated>
+  <updated>2024-11-28T07:33:12.377070-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,7 +83,7 @@
   <entry>
     <id>https://github.com/stonith404/pocket-id/releases/tag/v0.18.0</id>
     <title>New release for Pocket ID: v0.18.0</title>
-    <updated>2024-11-28T06:29:44-05:00</updated>
+    <updated>2024-11-28T06:34:46-05:00</updated>
     <author>
       <name>stonith404/pocket-id</name>
     </author>
@@ -94,7 +94,6 @@
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;add missing backend validation for smtp configuration (&lt;a href="https://github.com/stonith404/pocket-id/commit/78c4334e7e626da4c2d21e09cf8adb7953c788cf"&gt;78c4334&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;email save toast shows two times (&lt;a href="https://github.com/stonith404/pocket-id/commit/f2bfc731585ad7424eb8c4c41c18368fc0f75ffc"&gt;f2bfc73&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/stonith404/pocket-id/releases/tag/v0.18.0" rel="alternate"/>
