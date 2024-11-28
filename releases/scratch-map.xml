@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scratch Map Releases</title>
-  <updated>2024-11-27T19:34:28.869978-05:00</updated>
+  <updated>2024-11-27T20:34:34.267994-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,5 +83,20 @@ Regenerating &lt;code&gt;1.1.12&lt;/code&gt; at previous state (no changes) and 
 &lt;li&gt;Updated validator.js to load locally&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.2</id>
+    <title>New release for Scratch Map: 1.2.2</title>
+    <updated>2024-11-27T20:33:18-05:00</updated>
+    <author>
+      <name>ad3m3r5/scratch-map</name>
+    </author>
+    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reordered imports on &lt;code&gt;server.js&lt;/code&gt; for &lt;code&gt;dotenv&lt;/code&gt; to work properly&lt;/li&gt;
+&lt;li&gt;Removed duplicate typo in &lt;code&gt;scratch.js&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ad3m3r5/scratch-map/compare/1.2.1...1.2.2&lt;/p&gt;</content>
+    <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.2" rel="alternate"/>
   </entry>
 </feed>
