@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2024-11-29T08:32:34.976965-05:00</updated>
+  <updated>2024-11-29T09:32:41.452801-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,5 +128,74 @@
 &lt;li&gt;Updated Django from 4.2.15 to 4.2.16&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/makeplane/plane/releases/tag/v0.23.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/makeplane/plane/releases/tag/v0.24.0</id>
+    <title>New release for Plane: v0.24.0</title>
+    <updated>2024-11-29T09:23:42-05:00</updated>
+    <author>
+      <name>makeplane/plane</name>
+    </author>
+    <content>&lt;p&gt;More performance, more security, and more beautiful. Read on to learn what's new and what has improved.&lt;/p&gt;
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;h4&gt;&lt;strong&gt;⚡️ More perf. with Hyper Mode&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Switch layouts, apply filters, and open issues without loading screens (except Gantt view). While initial load may take a moment, subsequent actions are instantaneous thanks to our new no-load implementation. &lt;em&gt;Note: SSL configuration required for optimal security.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-11-29 at 17 13 38" src="https://github.com/user-attachments/assets/0e93bd72-dad5-4e6f-91bd-14f16dec06f5" /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;🔩 Introducing Workspace management from&lt;/strong&gt; &lt;code&gt;/god-mode&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;You asked for it, and we've delivered. Instance administrators can now manage all workspaces directly from &lt;code&gt;/god-mode&lt;/code&gt;. View the total number of workspaces, track member activity, and access other essential metrics.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-11-29 at 17 40 42@2x" src="https://github.com/user-attachments/assets/d3f6bfb3-defe-4d11-8cf9-efdd4455e51a" /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;✨ Callouts and text-alignment on Pages&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Add callouts to your pages with a simple &lt;code&gt;/callout&lt;/code&gt; command. Create notes, warnings, tips, and more to highlight important information in your documentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-11-29 at 17 18 16@2x" src="https://github.com/user-attachments/assets/d76616f3-918b-4634-8025-def0fcdafacb" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All editors now support left, center, and right alignment for more professional-looking content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-11-29 at 17 21 10@2x" src="https://github.com/user-attachments/assets/2331fb7f-f348-44fc-bfe4-f8bbcf8d63c2" /&gt;&lt;/p&gt;
+&lt;h4&gt;🔒 Enhanced data security for assets&lt;/h4&gt;
+&lt;p&gt;All assets on Plane—including attachments, cover images, profile pictures, logos, avatars, and images in issues and page descriptions—will now be stored in a private bucket. This upgrade means enhanced data security, so images uploaded to Plane will only be accessible within the platform. Read more &lt;a href="https://developers.plane.so/self-hosting/govern/private-bucket"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;🗞️ Workspace Drafts&lt;/h4&gt;
+&lt;p&gt;You will now find a new &lt;code&gt;Drafts&lt;/code&gt; section in the left navbar where all your drafts across all projects will show up. All under a single tab.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-11-29 at 17 24 14@2x" src="https://github.com/user-attachments/assets/be19533a-1f37-46d0-8949-09f9e2116e0c" /&gt;&lt;/p&gt;
+&lt;h3&gt;🛠️ Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Upload progress bars for Issue attachments: Track your file uploads in real-time so you know exactly when they're ready.&lt;/li&gt;
+&lt;li&gt;Better downtime communication: Clear maintenance page now shows when system updates are happening instead of blank screens.&lt;/li&gt;
+&lt;li&gt;Faster project navigation: Jump directly to favourite projects with one click - no more unnecessary sidebar scrolling.&lt;/li&gt;
+&lt;li&gt;Smarter issue linking: Redesigned interface makes it easier to connect and relate issues together.&lt;/li&gt;
+&lt;li&gt;Project consistency fix: Sub-issues now stay in their parent's project to maintain clear work hierarchies.&lt;/li&gt;
+&lt;li&gt;You'll now see a new &lt;code&gt;Language&lt;/code&gt; &lt;a href="https://drive.google.com/file/d/1ALVs7CmunLtRpS3958rLvpyH4E6_FYlw/view?usp=drive_link"&gt;tab&lt;/a&gt; in &lt;code&gt;Profile Settings&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If you have no items in favourites, workspace drafts, or active cycles, those sections will remain hidden for a cleaner interface.&lt;/li&gt;
+&lt;li&gt;The parent issue ID is now displayed at the top of the issue title in the peek-over view.&lt;/li&gt;
+&lt;li&gt;Layouts got &lt;a href="https://drive.google.com/file/d/16DRLn_Xup3M9qSNvaYxohK5kHVOo9per/view?usp=drive_link"&gt;new names&lt;/a&gt;. &lt;code&gt;Kanban&lt;/code&gt; is now called &lt;code&gt;Board&lt;/code&gt;, &lt;code&gt;Gantt&lt;/code&gt; is now &lt;code&gt;Timeline&lt;/code&gt;, and &lt;code&gt;Spreadsheet&lt;/code&gt; is now &lt;code&gt;Table&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;You can now &lt;a href="https://drive.google.com/file/d/1UxBUHkOl32UeAy1BayooFlNXSnd25A8K/view?usp=drive_link"&gt;export&lt;/a&gt; pages as PDF and markdown files.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Mark all as read&lt;/code&gt; option is now placed at the &lt;a href="https://drive.google.com/file/d/1bpYmZu3ldECO6ORThXyb6OzFjNlbzERA/view?usp=drive_link"&gt;top&lt;/a&gt; of your Inbox for easy accessibility.&lt;/li&gt;
+&lt;li&gt;Editors now support text &lt;a href="https://drive.google.com/file/d/1x6mONXw76mnXV6NcIwpWUHEoA_ZnXGX0/view?usp=drive_link"&gt;coloring&lt;/a&gt; and highlighting—no more plain black and white.&lt;/li&gt;
+&lt;li&gt;You can now copy issue IDs by clicking on them once in peek-over view.&lt;/li&gt;
+&lt;li&gt;You can now add more complex URLs to issue details links.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🪲 Bugs crushed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed notifications for removed users and project joins: Addressed an issue where notifications (inbox and emails) are incorrectly triggered or displayed when a user was removed from a project.&lt;/li&gt;
+&lt;li&gt;Resolved issues with relation issue IDs not visible in activity logs: Fixed a bug that prevented relation issue IDs from being displayed in the issue activity log, ensuring complete and transparent tracking of related issues.&lt;/li&gt;
+&lt;li&gt;Activity feed now instantly shows new attachments as they're uploaded.&lt;/li&gt;
+&lt;li&gt;Fixed private project access: Members can no longer join via direct URL.&lt;/li&gt;
+&lt;li&gt;Project notifications stop when members are removed, even for subscribed issues.&lt;/li&gt;
+&lt;li&gt;Admins can now edit &lt;code&gt;Inbox&lt;/code&gt; issues directly from notification previews.&lt;/li&gt;
+&lt;li&gt;Calendar view: Clearer highlighting of current date for better navigation.&lt;/li&gt;
+&lt;li&gt;Long project names now truncate nicely in analytics dropdown.&lt;/li&gt;
+&lt;li&gt;"Add Issue" button is now fully clickable (no more trying to hit that sweet spot!)&lt;/li&gt;
+&lt;li&gt;Editor updates: Improved margins and fonts for better readability.&lt;/li&gt;
+&lt;li&gt;Fixed parent issue pill styling in create issue modal.&lt;/li&gt;
+&lt;li&gt;Project members can't change other members' roles anymore,&lt;/li&gt;
+&lt;li&gt;Guests can now properly edit pages as intended.&lt;/li&gt;
+&lt;li&gt;Reduced unnecessary API calls for snappier performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔒 Security Patch&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nivo Chart Package vulnerability is resolved.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/makeplane/plane/releases/tag/v0.24.0" rel="alternate"/>
   </entry>
 </feed>

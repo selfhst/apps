@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2024-11-29T08:34:06.338933-05:00</updated>
+  <updated>2024-11-29T09:34:11.401957-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,6 +151,8 @@ Fladder now has a new icon
 &lt;p&gt;This version includes the option to select video backends the current options are 
 * LibMPV -&amp;gt; The default and original option
 * LibMDK -&amp;gt; New experimental option.&lt;/p&gt;
+&lt;p&gt;This is a pretty big (but invisible) change, for now LibMPV will be the default option for all platforms.
+Web only supports LibMPV, so there will be no backend select option available.&lt;/p&gt;
 &lt;h3&gt;Exciting New Features 🏕&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;feature: Added LibMDK video player backend by @PartyDonut in https://github.com/DonutWare/Fladder/pull/162&lt;/li&gt;
