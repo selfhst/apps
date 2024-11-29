@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Revolt Releases</title>
-  <updated>2024-11-29T06:34:03.587659-05:00</updated>
+  <updated>2024-11-29T07:34:09.844903-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,11 +93,18 @@
     <author>
       <name>revoltchat/backend</name>
     </author>
-    <content>&lt;p&gt;Additions:
-- The Revolt Push Daemon (pushd) now exists, and will be used to properly handle sending notifications to everyone in a durable manner.
+    <content>&lt;p&gt;Changes:
+- The Revolt Push Daemon (pushd) now exists, and will be used to properly handle sending notifications to everyone in a durable manner
     - Proper support for APNS and FCM (apple and android) push notifications, for native apps.
     - Uses RabbitMQ queues for scalability and ensured delivery.
-- RabbitMQ has been added as a required component for hosting.&lt;/p&gt;
+- RabbitMQ has been added as a required component for hosting
+- Bonfire now sends a consistent error type &lt;code&gt;{ type: Error, data: (error) }&lt;/code&gt; on failure
+- Autumn now limits total cache based on real memory usage rather than no. of items&lt;/p&gt;
+&lt;p&gt;Bug fixes:
+- Database migration for webhooks would not consider missing channels
+- Failed S3 upload would still create an entry in the database leading to failed uploads&lt;/p&gt;
+&lt;p&gt;Maintenance:
+- Stripped dotenv from project as it is unmaintained and unused&lt;/p&gt;
 &lt;p&gt;Full changelog: https://github.com/revoltchat/backend/compare/20241024-1...20241128-2&lt;/p&gt;</content>
     <link href="https://github.com/revoltchat/backend/releases/tag/20241128-2" rel="alternate"/>
   </entry>
