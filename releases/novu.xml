@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Novu Releases</title>
-  <updated>2024-11-29T04:34:31.572677-05:00</updated>
+  <updated>2024-11-29T05:34:22.857939-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1549,7 +1549,34 @@ novu.trigger("gupshup-workflow", {
     <author>
       <name>novuhq/novu</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h1&gt;What’s new in Novu 2.1.0?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Preferences remodelling for 70% improvement in performance of Preference retrieval with an &lt;strong&gt;important&lt;/strong&gt; database migration, 46% reduction in Docker image sizes, and more.&lt;/p&gt;
+&lt;h2&gt;2.1.0 Release Updates&lt;/h2&gt;
+&lt;p&gt;We're excited to share updated focussed on improving database and operational performance in our latest release. Join us as we reveal the improvements our team have been working on!&lt;/p&gt;
+&lt;h2&gt;Preference remodelling and optimization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All Workflow &amp;amp; Subscriber preferences are now stored in a central Preferences collection to streamline preference retrieval for the &lt;code&gt;&amp;lt;Inbox /&amp;gt;&lt;/code&gt; + Subscriber Preference API for a more performance subscriber preference management experience, and performance improvements of Worker engine during notification delivery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: A mandatory database migration is required with this release to prepare for the removal of the &lt;code&gt;SubscriberPreference&lt;/code&gt; collection and the &lt;code&gt;NotificationTemplateRepository&lt;/code&gt;.&lt;code&gt;{preferenceSettings,critical}&lt;/code&gt; property in a subsequent release. This data is migrated to a centralized Preference collection. Please visit the &lt;a href="https://docs.novu.co/additional-resources/data-migrations"&gt;Data Migration documentation&lt;/a&gt; for more information on running the migration script. The following migration of data takes place:&lt;/li&gt;
+&lt;li&gt;Workflow preference (&lt;code&gt;NotificationTemplate&lt;/code&gt;.&lt;code&gt;preferenceSettings&lt;/code&gt;)&lt;ul&gt;
+&lt;li&gt;-&amp;gt; &lt;code&gt;Preference&lt;/code&gt; record with &lt;code&gt;type: 'WORKFLOW_RESOURCE'&lt;/code&gt; (for Code-First workflow support)&lt;/li&gt;
+&lt;li&gt;-&amp;gt; &lt;code&gt;Preference&lt;/code&gt; record with &lt;code&gt;type: 'USER_WORKFLOW'&lt;/code&gt; (for Dashboard/API user preference support)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subscriber Global preference (&lt;code&gt;SubscriberPreference&lt;/code&gt; with &lt;code&gt;level: 'GLOBAL'&lt;/code&gt;)&lt;ul&gt;
+&lt;li&gt;-&amp;gt; &lt;code&gt;Preference&lt;/code&gt; record with &lt;code&gt;type: 'SUBSCRIBER_GLOBAL'&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subscriber Workflow preference (&lt;code&gt;SubscriberPreference&lt;/code&gt; with &lt;code&gt;level: 'TEMPLATE'&lt;/code&gt;)&lt;ul&gt;
+&lt;li&gt;-&amp;gt; &lt;code&gt;Preference&lt;/code&gt; record with &lt;code&gt;type: 'SUBSCRIBER_WORKFLOW'&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;## Docker Image optimization for all applications
+ - 46% reduction in Docker image sizes
+ - Simplified COPY and RUN commands
+ - Overall optimization of image structure
+ - Replace external PM2 dependency for graceful shutdowns with native NestJS shutdown module&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;perf(framework): Replace all computed property keys with static declarations by @rifont in https://github.com/novuhq/novu/pull/6926&lt;/li&gt;
 &lt;li&gt;chore(web): shorten the digest default duration by @djabarovgeorge in https://github.com/novuhq/novu/pull/6918&lt;/li&gt;
