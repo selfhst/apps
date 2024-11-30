@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MeshCentral Releases</title>
-  <updated>2024-11-29T22:30:52.178652-05:00</updated>
+  <updated>2024-11-29T23:30:50.254786-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,7 +136,11 @@
     <author>
       <name>Ylianst/MeshCentral</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;&lt;strong&gt;DO NOT UPDATE TO THIS VERSION!
+A BUG WAS DISCOVERED WHICH BROKE ALL WINDOWS VERSIONS LESS THAN 8.1 FROM WORKING WITH MESHCENTRAL!
+WE WILL RELEASE A NEW VERSION ASAP!
+THE LATEST TAG ON NPM HAS BEEN PINNED AT 1.1.33 FOR THE TIME BEING&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;c16ff899 Version 1.1.34&lt;/li&gt;
 &lt;li&gt;041e8021 Added test Windows x86-32, x86-64, ARM-64 agents.&lt;/li&gt;
 &lt;li&gt;6e31562e feat: Added Elestio as one-click deploy option (#6453)&lt;/li&gt;
