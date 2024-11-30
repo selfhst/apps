@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2024-11-30T03:34:05.206079-05:00</updated>
+  <updated>2024-11-30T04:34:07.876315-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,11 +153,8 @@
 &lt;li&gt;2668f0548a92391e23f68892be7723ab5af8c146 Sessions UI: add missing translation (#17459)&lt;/li&gt;
 &lt;li&gt;5da0a943bf57a2a6a9af2177fa4055dd806cb9ba SolaxCloud: update instructions (#17281)&lt;/li&gt;
 &lt;li&gt;b52d08a0614ad1cf13104a61d5cb244b9c2a37a5 Tariffs: make timestamp available for formulas (#17414)&lt;/li&gt;
-&lt;li&gt;27dae6dd5feb22a51c5615a1d4c019428581f337 Typo fix (#17458)&lt;/li&gt;
 &lt;li&gt;d7e87bf207dc0cc7b483453924c8bac1466335d2 Zendure: fix battery power (#17443)&lt;/li&gt;
 &lt;li&gt;fe68c915544f4b15d773ab9bd6b48b1ea7b450ee cli/tariff: show db tariffs (#17494)&lt;/li&gt;
-&lt;li&gt;da4a79730d7b30a5700f2404bf802caee9dca4ea fix lint&lt;/li&gt;
-&lt;li&gt;3940eb35948ee2f71f5a2bd0cce10b39d88b5dc5 fix solax template escaping&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.131.8" rel="alternate"/>
   </entry>
