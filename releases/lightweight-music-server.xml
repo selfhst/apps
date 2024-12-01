@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-12-01T04:30:43.942472-05:00</updated>
+  <updated>2024-12-01T05:30:41.798777-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,9 +88,11 @@
 Each user has now to generate an API key to use the Subsonic API. This API key can be used as the password for clients that do not implement the new &lt;a href="https://opensubsonic.netlify.app/docs/extensions/apikeyauth/"&gt;API key authentication&lt;/a&gt; extension.
 The "Remember me" option of the web interface won't work after upgrading LMS, you will have to manually log in again.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Updates:&lt;/strong&gt;
-* Subsonic API: implemented the new &lt;a href="https://opensubsonic.netlify.app/docs/extensions/apikeyauth/"&gt;API key authentication&lt;/a&gt; extension #555
-* Subsonic API: added &lt;code&gt;getAlbumInfo&lt;/code&gt; support
-* Subsonic API: added &lt;code&gt;savePlayQueue&lt;/code&gt;/&lt;code&gt;getPlayQueue&lt;/code&gt; support
+* Subsonic API:
+  * implemented the new &lt;a href="https://opensubsonic.netlify.app/docs/extensions/apikeyauth/"&gt;API key authentication&lt;/a&gt; extension #555
+  * removed &lt;code&gt;createUser&lt;/code&gt;, &lt;code&gt;updateUser&lt;/code&gt;, &lt;code&gt;deleteUser&lt;/code&gt;, and &lt;code&gt;changePassword&lt;/code&gt; endpoints, as they are not compatible with a limited API key scope
+  * added &lt;code&gt;getAlbumInfo&lt;/code&gt; support
+  * added &lt;code&gt;savePlayQueue&lt;/code&gt; and &lt;code&gt;getPlayQueue&lt;/code&gt; support
 * Upgraded default bcrypt round count to 12. This can be tweaked in &lt;code&gt;lms.conf&lt;/code&gt; using the &lt;code&gt;internal-password-bcrypt-round&lt;/code&gt; setting
 * Take labels + barcode into account to avoid merging unrelated albums, #550 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;
