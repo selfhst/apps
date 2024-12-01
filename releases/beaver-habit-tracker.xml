@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Beaver Habit Tracker Releases</title>
-  <updated>2024-11-30T20:33:54.850833-05:00</updated>
+  <updated>2024-11-30T21:33:52.500262-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,8 +97,8 @@
     <link href="https://github.com/daya0576/beaverhabits/releases/tag/v0.3.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/daya0576/beaverhabits/releases/tag/v0.3.3</id>
-    <title>New release for Beaver Habit Tracker: v0.3.3</title>
+    <id>https://github.com/daya0576/beaverhabits/releases/tag/v0.3.4</id>
+    <title>New release for Beaver Habit Tracker: v0.3.4</title>
     <updated>2024-11-30T03:28:32-05:00</updated>
     <author>
       <name>daya0576/beaverhabits</name>
@@ -115,8 +115,8 @@
 &lt;/ul&gt;
 &lt;h3&gt;🐞 Bug Fix&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;NA&lt;/li&gt;
+&lt;li&gt;Fix the issue of unable to complete a habit on the first visit #19&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/daya0576/beaverhabits/releases/tag/v0.3.3" rel="alternate"/>
+    <link href="https://github.com/daya0576/beaverhabits/releases/tag/v0.3.4" rel="alternate"/>
   </entry>
 </feed>
