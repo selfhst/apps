@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OneDev Releases</title>
-  <updated>2024-12-01T04:32:26.095408-05:00</updated>
+  <updated>2024-12-01T06:32:21.192080-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,9 +80,9 @@
     <content>&lt;h2&gt;Installation Guide&lt;/h2&gt;
 &lt;p&gt;https://docs.onedev.io/category/installation-guide&lt;/p&gt;
 &lt;h2&gt;Change Log&lt;/h2&gt;
-&lt;p&gt;https://code.onedev.io/onedev/server/~builds/5744/fixed-issues?query=%22State%22+is+%22Released%22+order+by+%22Type%22+asc+and+%22Priority%22+desc&lt;/p&gt;
+&lt;p&gt;https://code.onedev.io/onedev/server/~builds/5748/fixed-issues?query=%22State%22+is+%22Released%22+order+by+%22Type%22+asc+and+%22Priority%22+desc&lt;/p&gt;
 &lt;h2&gt;Incompatibilities&lt;/h2&gt;
-&lt;p&gt;https://code.onedev.io/onedev/server/~builds/5744/markdown/Incompatibilities/server-product/system/incompatibilities/incompatibilities.md&lt;/p&gt;</content>
+&lt;p&gt;https://code.onedev.io/onedev/server/~builds/5748/markdown/Incompatibilities/server-product/system/incompatibilities/incompatibilities.md&lt;/p&gt;</content>
     <link href="https://github.com/theonedev/onedev/releases/tag/v11.6.1" rel="alternate"/>
   </entry>
 </feed>
