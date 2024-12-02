@@ -1,5 +1,9 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-12-02
+
+* Fixed dynamic filter (alternative, software, platform) not loading when URL parameter is present
+
 ### 2024-09-17
 
 * Added support for tagging favorites and caching via local browser storage (per suggestion from reader Mukesh G.)
