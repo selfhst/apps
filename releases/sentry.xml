@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sentry Releases</title>
-  <updated>2024-12-02T11:32:41.089982-05:00</updated>
+  <updated>2024-12-02T12:32:38.361661-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,7 +165,11 @@
     <author>
       <name>getsentry/sentry</name>
     </author>
-    <content>&lt;h3&gt;Various fixes &amp;amp; improvements&lt;/h3&gt;
+    <content>&lt;h3&gt;Security Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/getsentry/sentry/security/advisories/GHSA-v5h2-q2w4-gpcx"&gt;CVE-2024-53253 - Improper error handling leaks Application Integration Client Secret&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Various fixes &amp;amp; improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(toolbar): Make the login-success page have styles that blend with the login flow (#81230) by @ryan953&lt;/li&gt;
 &lt;li&gt;fix(issues): Revert to app external issue name (#81277) by @scttcper&lt;/li&gt;
