@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2024-12-01T19:32:23.362005-05:00</updated>
+  <updated>2024-12-01T20:32:23.039244-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -486,7 +486,9 @@ d0807d7a7caaa74dd6f63e53d25ab556  ./ampache-7.0.1_client.zip&lt;/p&gt;
 &lt;li&gt;Look for the expanded class in the sidebar before toggling collapse&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;API&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;NO CHANGE&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;NO CHANGE&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Zip Version information&lt;/h2&gt;
+&lt;p&gt;If you aren't familiar wich the project make sure you know &lt;a href="https://github.com/ampache/ampache/wiki/which-zip"&gt;which zip&lt;/a&gt; you need to download.&lt;/p&gt;</content>
     <link href="https://github.com/ampache/ampache/releases/tag/7.0.1" rel="alternate"/>
   </entry>
 </feed>
