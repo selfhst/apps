@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-12-02T05:32:51.127923-05:00</updated>
+  <updated>2024-12-02T06:32:43.223562-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
       <name>victoriametrics/victoriametrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.107.0"&gt;v1.107.0&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Released at 2023-11-29&lt;/p&gt;
+&lt;p&gt;Released at 2024-11-29&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update note 1: cmd-line flags &lt;code&gt;-datasource.lookback&lt;/code&gt;, &lt;code&gt;datasource.queryTimeAlignment&lt;/code&gt; and &lt;code&gt;remoteRead.ignoreRestoreErrors&lt;/code&gt; on &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt; have been removed. Those flags were all deprecated before &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.101.0"&gt;v1.101.0&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/vmalert"&gt;vmalert&lt;/a&gt;: revert the default value of &lt;code&gt;-remoteWrite.maxQueueSize&lt;/code&gt; from &lt;code&gt;1_000_000&lt;/code&gt; to &lt;code&gt;100_000&lt;/code&gt;. It was bumped in &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.104.0"&gt;v1.104.0&lt;/a&gt;, which increases memory usage and is not needed for most setups. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7471"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
