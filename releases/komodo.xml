@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-12-02T15:33:11.946571-05:00</updated>
+  <updated>2024-12-02T16:33:10.530644-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,7 +97,7 @@
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Proper multi-arch images with support for &lt;code&gt;linux/amd64&lt;/code&gt; and &lt;code&gt;linux/arm64&lt;/code&gt; in the manifest.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proper multi-arch images&lt;/strong&gt; with support for &lt;code&gt;linux/amd64&lt;/code&gt; and &lt;code&gt;linux/arm64&lt;/code&gt; in the manifest.&lt;/li&gt;
 &lt;li&gt;🚨 aarch64 / ARM users  🚨 - remove the &lt;code&gt;-aarch64&lt;/code&gt; from your image tags.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Both x86_64 and ARM now use&lt;/strong&gt;:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ghcr.io/mbecker20/komodo:latest&lt;/code&gt; (or &lt;code&gt;:1.16.12&lt;/code&gt;, &lt;code&gt;:1.16&lt;/code&gt;, &lt;code&gt;:1&lt;/code&gt;)&lt;/li&gt;
@@ -105,11 +105,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Multi select Resources in tables&lt;/strong&gt;. &lt;strong&gt;Execute commands in bulk&lt;/strong&gt;. Shoutout to @karamvirsingh98 for this implementation.&lt;/li&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;Move to Rustls for TLS, removing OpenSSL dependency which can cause trouble on some hosts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Move to Rustls for TLS&lt;/strong&gt;, removing OpenSSL dependency which can cause trouble on some hosts&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;: Apply Komodo variable interpolation to in UI declared compose files&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stack / Deployment&lt;/strong&gt;: Fix auto updating when docker image doesn't specify any tag&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: Add configurable health check timeout. &lt;code&gt;timeout_seconds = 5&lt;/code&gt; in Server TOML.&lt;ul&gt;
