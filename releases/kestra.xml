@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2024-12-03T09:33:12.862236-05:00</updated>
+  <updated>2024-12-03T10:33:09.830049-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -354,7 +354,58 @@
 &lt;li&gt;1342532: Revert "feat(core): remove the execution state from the scheduler (#1588)" (Loïc Mathieu) &lt;a href="https://github.com/kestra-io/kestra/pull/6170"&gt;#6170&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;7302fe5: Rename the printContext() pebble function to fetchContext() (phuc) &lt;a href="https://github.com/kestra-io/kestra/pull/6172"&gt;#6172&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;f649215: Rename the printContext() pebble function to fetchContext() (phuc) &lt;a href="https://github.com/kestra-io/kestra/pull/6172"&gt;#6172&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;p&gt;Label keys starting with &lt;code&gt;system.&lt;/code&gt; are now reserved for internal usage in Kestra. Make sure that you don't use this prefix within your own custom labels. Read more about &lt;a href="https://kestra.io/docs/concepts/system-labels"&gt;System Labels&lt;/a&gt; in the docs.&lt;/p&gt;
+&lt;h3&gt;Conditions renamed&lt;/h3&gt;
+&lt;p&gt;All conditions &lt;a href="https://github.com/kestra-io/kestra/pull/6032"&gt;have been renamed&lt;/a&gt; without the &lt;code&gt;Condition&lt;/code&gt; at the end. Aliases are in place, so all flows will still work, but you will see an information note recommending you to upgrade to the new name. Already deprecated conditions haven't changed to avoid extra overhead on your end.&lt;/p&gt;
+&lt;p&gt;Examples of renamed conditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.core.condition.ExecutionStatusCondition&lt;/code&gt; → &lt;code&gt;io.kestra.plugin.core.condition.ExecutionStatus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.core.condition.ExecutionNamespaceCondition&lt;/code&gt; → &lt;code&gt;io.kestra.plugin.core.condition.ExecutionNamespace&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.core.condition.ExecutionLabelsCondition&lt;/code&gt; → &lt;code&gt;io.kestra.plugin.core.condition.ExecutionLabels&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;GCP plugin users&lt;/h3&gt;
+&lt;p&gt;Pub/Sub messages were previously automatically &lt;code&gt;base64&lt;/code&gt;-encoded before being published, and &lt;code&gt;base64&lt;/code&gt;-decoded after consumption. This is &lt;a href="https://github.com/kestra-io/plugin-gcp/pull/451"&gt;no longer the case&lt;/a&gt; because Google Pub/Sub can handle binary and text data without the need for Base64 encoding.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;For developers of custom plugins&lt;/h3&gt;
+&lt;p&gt;The internal storage &lt;a href="https://github.com/kestra-io/kestra/pull/6022"&gt;now takes&lt;/a&gt; a &lt;code&gt;namespace&lt;/code&gt; parameter on all its methods. This is mandatory to be passed by a plugin but can be safely set as &lt;code&gt;null&lt;/code&gt; in tests that directly use the internal storage. Plugins are normally not affected if they use the &lt;code&gt;runContext().storage()&lt;/code&gt; method that has been updated to automatically use the execution's namespace.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: retrieving KV pairs from other namespaces&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;kv()&lt;/code&gt; Pebble function was missing a check for allowed namespace in case a namespace is passed to the function e.g. &lt;code&gt;{{ kv('MY_KEY', 'differentNamespace') }}&lt;/code&gt;. This check has been added in 0.20 release. If you use the &lt;code&gt;kv()&lt;/code&gt; function to get a KV from a different namespace in the Enterprise Edition, make sure to allow access to this namespace (this happens by default unless explicitly restricted).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: Email server configuration moved to a different location&lt;/h3&gt;
+&lt;p&gt;In Kestra &amp;lt;= 0.19.12, email server configuration lived under &lt;code&gt;kestra.mail-service&lt;/code&gt;. Given that it's used only within the Enterprise Edition (for resetting passwords and sending invites), we moved it to &lt;code&gt;kestra.ee.mail-service&lt;/code&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: fallback on unhealthy workers&lt;/h3&gt;
+&lt;p&gt;By default, a task configured to run on a worker group where no workers are available will wait for the worker to be available. The previous behavior was to fail.&lt;/p&gt;
+&lt;p&gt;This behavior is configurable. To keep the previous behavior, simply set the &lt;code&gt;fallback&lt;/code&gt; behavior to &lt;code&gt;FAIL&lt;/code&gt; as follows:
+&lt;code&gt;yaml
+  - id: hello
+    type: io.kestra.plugin.core.log.Log
+    message: Hello World!
+    workerGroup:
+      key: wg1
+      fallback: FAIL #  possible values are WAIT (default), FAIL or CANCEL&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you want to set a custom &lt;code&gt;workerGroup&lt;/code&gt; &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;behavior&lt;/code&gt; per plugin type and/or namespace, you can leverage &lt;code&gt;pluginDefaults&lt;/code&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: Usernames replaced by email addresses&lt;/h3&gt;
+&lt;p&gt;Starting with Kestra 0.20, Kestra mandates the username to be an email address. If this is not the case within your instance, you can run the following CLI command to replace a username with the corresponding email for each user in the instance:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+./kestra auths users email-replace-username&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the email address is not set for the user or is invalid, Kestra will log those usernames so you can address those edge cases manually. If the username is already set as email, the above command will additionally set that value within the email property. &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: Elasticsearch indexer&lt;/h3&gt;
+&lt;p&gt;Starting with 0.20, if you are using the Kafka backend, there is no need to start an external indexer, even for the Kafka backend, as the webserver will start an embedded indexer automatically.&lt;/p&gt;
+&lt;p&gt;However, if you still want to start one, it is still possible to do so, and you can disable the webserver-embedded indexer by starting it with &lt;code&gt;--no-indexer&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Starting an extra indexer should only be needed for very high throughput when you want the UI to be updated with very low latency about execution information. Most of the time, the webserver embedded indexer should be enough.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: for Kafka backend user&lt;/h3&gt;
+&lt;p&gt;Due to a change in how we handle plugin defaults, the flow source needs to be available to the Kestra Executor. This change will sync the flow's source code with our queue allowing the executor to more efficiently apply &lt;code&gt;pluginDefaults&lt;/code&gt; defined in the flow YAML configuration.&lt;/p&gt;
+&lt;p&gt;For users with a Kafka backend, this migration can be performed by running the following CLI command:
+&lt;code&gt;./kestra sys-ee restore-queue --no-recreate --no-templates --no-triggers --no-namespaces --no-tenants&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you are using a Kestra version with the JDBC backend, this change doesn't apply to you, and you don't need to run the above command.&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.20.0" rel="alternate"/>
   </entry>
 </feed>
