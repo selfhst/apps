@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-12-03T11:31:27.968713-05:00</updated>
+  <updated>2024-12-03T12:31:21.855525-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -219,8 +219,7 @@ This will allow the database to then migrate to the 0.34.0 version&lt;/p&gt;
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
-&lt;p&gt;Some really nice visual updates to our File input menu and lots of other fixes, huge thanks to @omar-ahmed42 for pretty much everything in this update&lt;/p&gt;
+    <content>&lt;p&gt;Some really nice visual updates to our File input menu and lots of other fixes, huge thanks to @omar-ahmed42 for pretty much everything in this update&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;

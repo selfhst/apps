@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SonarQube Releases</title>
-  <updated>2024-12-03T11:32:45.847805-05:00</updated>
+  <updated>2024-12-03T12:32:37.415875-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,7 +49,7 @@ You'll find more in the &lt;a href="https://community.sonarsource.com/t/sonarqub
     <author>
       <name>SonarSource/sonarqube</name>
     </author>
-    <content>&lt;p&gt;TBD&lt;/p&gt;</content>
+    <content>&lt;p&gt;See details in the &lt;a href="https://community.sonarsource.com/t/sonarqube-9-9-8-lta-released/131519"&gt;community announcement&lt;/a&gt;, and more in the &lt;a href="https://sonarsource.atlassian.net/issues/?jql=project%20%3D%2010139%20AND%20fixVersion%20%3D%2016011%20AND%20issuetype%20%21%3D%20Task"&gt;release notes&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/SonarSource/sonarqube/releases/tag/9.9.8.100196" rel="alternate"/>
   </entry>
   <entry>
@@ -59,7 +59,7 @@ You'll find more in the &lt;a href="https://community.sonarsource.com/t/sonarqub
     <author>
       <name>SonarSource/sonarqube</name>
     </author>
-    <content>&lt;p&gt;TDB&lt;/p&gt;</content>
+    <content>&lt;p&gt;See details in the &lt;a href="https://community.sonarsource.com/t/sonarqube-community-build-24-12-0-100206-released/131515"&gt;community announcement&lt;/a&gt;, and more in the &lt;a href="https://sonarsource.atlassian.net/issues/?jql=project%20%3D%2010139%20AND%20fixVersion%20%3D%2016125%20AND%20issuetype%20%21%3D%20Task"&gt;release notes&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/SonarSource/sonarqube/releases/tag/24.12.0.100206" rel="alternate"/>
   </entry>
 </feed>

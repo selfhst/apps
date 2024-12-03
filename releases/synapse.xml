@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2024-12-03T11:31:28.764635-05:00</updated>
+  <updated>2024-12-03T12:31:22.556908-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,7 +245,49 @@ See the &lt;a href="https://element-hq.github.io/synapse/v1.120/upgrade.html#aut
     <author>
       <name>element-hq/synapse</name>
     </author>
-    <content/>
+    <content>&lt;h1&gt;Synapse 1.120.2 (2024-12-03)&lt;/h1&gt;
+&lt;p&gt;This version has building of wheels for macOS disabled.
+It is functionally identical to 1.120.1, which contains &lt;strong&gt;multiple security fixes&lt;/strong&gt;.
+If you are already using 1.120.1, there is no need to upgrade to this version.&lt;/p&gt;
+&lt;h1&gt;Synapse 1.120.1 (2024-12-03)&lt;/h1&gt;
+&lt;p&gt;This patch release fixes multiple security vulnerabilities, some affecting all prior versions of Synapse. Server administrators are encouraged to update Synapse as soon as possible. We are not aware of these vulnerabilities being exploited in the wild.&lt;/p&gt;
+&lt;p&gt;Administrators who are unable to update Synapse may use the workarounds described in the linked GitHub Security Advisory below.&lt;/p&gt;
+&lt;h3&gt;Security advisory&lt;/h3&gt;
+&lt;p&gt;The following issues are fixed in 1.120.1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-rfq8-j7rh-8hf2"&gt;GHSA-rfq8-j7rh-8hf2&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52805"&gt;CVE-2024-52805&lt;/a&gt; (high): &lt;strong&gt;Unsupported content types can lead to memory exhaustion&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Synapse instances which have a high &lt;code&gt;max_upload_size&lt;/code&gt; and which don't have a reverse proxy in front of them that would otherwise limit upload size are affected.&lt;/p&gt;
+&lt;p&gt;Fixed by &lt;a href="https://github.com/element-hq/synapse/commit/4b7154c58501b4bf5e1c2d6c11ebef96529f2fdf"&gt;4b7154c58501b4bf5e1c2d6c11ebef96529f2fdf&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-f3r3-h2mq-hx2h"&gt;GHSA-f3r3-h2mq-hx2h&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52815"&gt;CVE-2024-52815&lt;/a&gt; (high): &lt;strong&gt;Malicious invites via federation can break a user's sync&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fixed by &lt;a href="https://github.com/element-hq/synapse/commit/d82e1ed357b7ee21dff83d06cba7a67840cfd464"&gt;d82e1ed357b7ee21dff83d06cba7a67840cfd464&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-vp6v-whfm-rv3g"&gt;GHSA-vp6v-whfm-rv3g&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53863"&gt;CVE-2024-53863&lt;/a&gt; (high): &lt;strong&gt;Synapse can be forced to thumbnail unexpected file formats, invoking potentially untrustworthy decoders&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Synapse instances can disable dynamic thumbnailing by setting &lt;code&gt;dynamic_thumbnails&lt;/code&gt; to &lt;code&gt;false&lt;/code&gt; in the configuration file.&lt;/p&gt;
+&lt;p&gt;Fixed by &lt;a href="https://github.com/element-hq/synapse/commit/b64a4e5fbbbf119b6c65aedf0d999b4237d55503"&gt;b64a4e5fbbbf119b6c65aedf0d999b4237d55503&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-56w4-5538-8v8h"&gt;GHSA-56w4-5538-8v8h&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53867"&gt;CVE-2024-53867&lt;/a&gt; (moderate): &lt;strong&gt;The Sliding Sync feature on Synapse versions between 1.113.0rc1 and 1.120.0 can leak partial room state changes to users no longer in a room&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Non-state events, like messages, are unaffected.&lt;/p&gt;
+&lt;p&gt;Synapse instances can disable the Sliding Sync feature by setting &lt;code&gt;experimental_features.msc3575_enabled&lt;/code&gt; to &lt;code&gt;false&lt;/code&gt; in the configuration file.&lt;/p&gt;
+&lt;p&gt;Fixed by &lt;a href="https://github.com/element-hq/synapse/commit/4daa533e82f345ce87b9495d31781af570ba3ead"&gt;4daa533e82f345ce87b9495d31781af570ba3ead&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Additionally, we disclose the following vulnerabilities, both have been fixed in Synapse 1.106.0:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-4mhg-xv73-xq2x"&gt;GHSA-4mhg-xv73-xq2x&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37302"&gt;CVE-2024-37302&lt;/a&gt; (high): &lt;strong&gt;Denial of service through media disk space consumption&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/element-hq/synapse/security/advisories/GHSA-gjgr-7834-rhxr"&gt;GHSA-gjgr-7834-rhxr&lt;/a&gt; / &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37303"&gt;CVE-2024-37303&lt;/a&gt; (moderate): &lt;strong&gt;Unauthenticated writes to the media repository allow planting of problematic content&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See the advisories for more details. If you have any questions, email &lt;a href="mailto:security@element.io"&gt;security at element.io&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix release process to not create duplicate releases. (&lt;a href="https://github.com/element-hq/synapse/issues/17970"&gt;#17970&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/element-hq/synapse/releases/tag/v1.120.2" rel="alternate"/>
   </entry>
 </feed>
