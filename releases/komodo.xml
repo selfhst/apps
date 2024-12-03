@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2024-12-02T18:33:09.419452-05:00</updated>
+  <updated>2024-12-02T19:33:05.754657-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,6 +102,10 @@
 &lt;li&gt;&lt;strong&gt;Both x86_64 and ARM now use&lt;/strong&gt;:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ghcr.io/mbecker20/komodo:latest&lt;/code&gt; (or &lt;code&gt;:1.16.12&lt;/code&gt;, &lt;code&gt;:1.16&lt;/code&gt;, &lt;code&gt;:1&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ghcr.io/mbecker20/periphery:latest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Check out https://build.komo.do (use &lt;code&gt;komodo&lt;/code&gt;:&lt;code&gt;komodo&lt;/code&gt; to log in), all release builds happen &lt;strong&gt;using the public Komodo build server&lt;/strong&gt;.&lt;ul&gt;
+&lt;li&gt;For example, the multi arch Komodo core build: https://build.komo.do/builds/674d5c498154547a78dacfe2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Multi select Resources in tables&lt;/strong&gt;. &lt;strong&gt;Execute commands in bulk&lt;/strong&gt;. Shoutout to @karamvirsingh98 for this implementation.&lt;/li&gt;
