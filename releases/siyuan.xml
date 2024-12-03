@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SiYuan Releases</title>
-  <updated>2024-12-02T20:32:35.341288-05:00</updated>
+  <updated>2024-12-02T21:32:35.166582-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -250,5 +250,76 @@
 &lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.13" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/siyuan-note/siyuan/releases/tag/v3.1.14</id>
+    <title>New release for SiYuan: Improve details</title>
+    <updated>2024-12-02T21:07:14-05:00</updated>
+    <author>
+      <name>siyuan-note/siyuan</name>
+    </author>
+    <content>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This version improves a lot of details and optimizes data synchronization performance.&lt;/p&gt;
+&lt;h2&gt;Changelogs&lt;/h2&gt;
+&lt;p&gt;Below are the detailed changes in this version.&lt;/p&gt;
+&lt;h3&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/10914"&gt;Support creating new entries when filling in the database relation field&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/11561"&gt;The right-click menu of multiple selected documents or blocks supports more copy options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12318"&gt;Improved spacing and width of horizontal layouts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12516"&gt;Improve image width setting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12904"&gt;Support dragging assets to the database and assets field in the attribute panel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13016"&gt;Improve line breaking behavior when sublists contain lists and normal blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13127"&gt;Maintain block position after editor width resize&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13128"&gt;Doc tree "Copy" supports using shortcut keys&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13163"&gt;For flashcard blocks without fill-in-the-blank cards created, cancel "Show Answer"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13170"&gt;Improve dragging of headings or list items to the doc tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13178"&gt;Improve search highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13181"&gt;Drag and Alt+drag on the document tree swapped&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13192"&gt;The database supports calculating the "Percent unique values" of the field&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13193"&gt;Improve file history UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13200"&gt;Improve inline elements find-replace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13204"&gt;Lazy loading of images and IFrames&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13216"&gt;Improve data sync performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13235"&gt;Add statistics on selected blocks and total blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13244"&gt;Improve cursor position after undo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13245"&gt;Improve importing Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13248"&gt;Improve database attribute panel style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13270"&gt;Improve HTML clipping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13271"&gt;Improve pasting and copying of code block after select all&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13273"&gt;Improve exporting Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13274"&gt;Special characters in exported file names are replaced by &lt;code&gt;_&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13281"&gt;Improve drag block highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13283"&gt;Improve exporting block ref&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13284"&gt;Improve drag block to database highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13287"&gt;Graph nodes no longer display memos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13291"&gt;Remove Unicode PUA characters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bugfix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13210"&gt;Incorrect backlink keyword highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13243"&gt;Failed to purge cloud repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13254"&gt;Undo exception after deleting some blocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Refactor&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13209"&gt;Upgrade to Mermaid v11.4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13276"&gt;Upgrade flowchart.js to v1.18.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13305"&gt;Upgrade pdfcpu to v0.9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13323"&gt;Upgrade FSRS to v3.3.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12726"&gt;Compatible with line breaking behavior after setting the maximum height of code blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13183"&gt;Improve kernel API &lt;code&gt;/api/block/getBlockKramdown&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13277"&gt;Support toolbar configuration hotkeys returned by &lt;code&gt;updateProtyleToolbar&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13321"&gt;Kernel serve CalDAV service on path &lt;code&gt;/caldav/&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Download&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://b3log.org/siyuan/en/download.html"&gt;B3log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.14" rel="alternate"/>
   </entry>
 </feed>
