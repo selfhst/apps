@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoBase Releases</title>
-  <updated>2024-12-03T07:34:41.146271-05:00</updated>
+  <updated>2024-12-03T08:34:33.496674-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,5 +158,122 @@
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nocobase/nocobase/releases/tag/v1.3.55" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nocobase/nocobase/releases/tag/v1.4.0</id>
+    <title>New release for NocoBase: v1.4.0</title>
+    <updated>2024-12-03T08:05:19-05:00</updated>
+    <author>
+      <name>nocobase/nocobase</name>
+    </author>
+    <content>&lt;h2&gt;&lt;a href="https://github.com/nocobase/nocobase/compare/v1.3.53...v1.4.0"&gt;v1.4.0&lt;/a&gt; - 2024-12-03&lt;/h2&gt;
+&lt;h2&gt;🎉 Major New Features&lt;/h2&gt;
+&lt;h3&gt;Simplify the process of adding and updating plugins&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="20241201170853" src="https://static-docs.nocobase.com/20241201170853.png" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The plugin list now reads directly from the local directory.&lt;/li&gt;
+&lt;li&gt;Combined the processes for adding and updating plugins.&lt;/li&gt;
+&lt;li&gt;Interface supports batch activation of plugins.&lt;/li&gt;
+&lt;li&gt;Simplified the download and upgrade process for commercial plugins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nocobase.com/en/blog/simplify-the-process-of-adding-and-updating-plugins"&gt;Release Notes / Simplify the process of adding and updating plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Notification&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="20241201171806" src="https://static-docs.nocobase.com/20241201171806.png" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Notification: In-app message&lt;/strong&gt;
+  It supports users in receiving real-time message notifications within the NocoBase application;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notification: Email&lt;/strong&gt;
+  Used for sending email notifications with built-in SMTP transport. Details;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notification: WeCom&lt;/strong&gt;
+  Sends notifications through the WeCom channel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/notification-manager"&gt;Notification Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;User Data Synchronization&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="20241201172843" src="https://static-docs.nocobase.com/20241201172843.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/user-data-sync"&gt;User Data Synchronization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Backup Manager&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="20241201170237" src="https://static-docs.nocobase.com/20241201170237.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/backups"&gt;Backup Manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Public Forms&lt;/h3&gt;
+&lt;p&gt;Share public forms externally to collect information from anonymous users.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="20241201165614" src="https://static-docs.nocobase.com/20241201165614.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/public-forms"&gt;Public Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Data Source: KingbaseES&lt;/h3&gt;
+&lt;p&gt;Use the KingbaseES database as a data source, either as the main database or an external database.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="20241024121815" src="https://static-docs.nocobase.com/20241024121815.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/data-source-kingbase"&gt;Data Source - KingbaseES&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Data Source: External Oracle&lt;/h3&gt;
+&lt;p&gt;Use external Oracle databases as a data source.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="628abc5eb797e6b903d4b548f773a13b.png" src="https://static-docs.nocobase.com/628abc5eb797e6b903d4b548f773a13b.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/data-source-external-oracle"&gt;External Data Source - Oracle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Collection Field: Attachments (URL)&lt;/h3&gt;
+&lt;p&gt;Supports URL-based attachments.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="e8772bec3d4b1771c1b21d087c9a4185.png" src="https://static-docs.nocobase.com/e8772bec3d4b1771c1b21d087c9a4185.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/field-attachment-url"&gt;Data Table Field: Attachments (URL)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Field Component: Mask&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="20241201165938" src="https://static-docs.nocobase.com/20241201165938.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/field-component-mask"&gt;Field component: Mask&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Workflow: JavaScript&lt;/h3&gt;
+&lt;p&gt;JavaScript nodes allow users to execute JavaScript within a workflow. The script can use variables from upstream nodes in the process as parameters and the return value of the script can be used in downstream nodes.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="20241202203655" src="https://static-docs.nocobase.com/20241202203655.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/workflow-javascript"&gt;Workflow - JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Data Visualization: ECharts&lt;/h3&gt;
+&lt;p&gt;Added ECharts, supporting funnel, radar and more charts, and providing more user-friendly configurations.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="data-visualization-echarts" src="https://static-docs.nocobase.com/202410091022965.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/data-visualization-echarts"&gt;Data Visualization: Echarts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Block: Multi-step form&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="a503e153e8d714b9ca56f512142aeef1.png" src="https://static-docs.nocobase.com/a503e153e8d714b9ca56f512142aeef1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/block-multi-step-from"&gt;Multi-step form&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Block: Action Panel&lt;/h3&gt;
+&lt;p&gt;Designed to house various quick actions, currently supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Link&lt;/li&gt;
+&lt;li&gt;Scan QR code&lt;/li&gt;
+&lt;li&gt;Popup&lt;/li&gt;
+&lt;li&gt;Custom request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supports both grid and list layouts&lt;/p&gt;
+&lt;p&gt;&lt;img alt="9942e6741e99195713f9e2981b02f228.png" src="https://static-docs.nocobase.com/9942e6741e99195713f9e2981b02f228.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Reference documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.nocobase.com/handbook/block-action-panel"&gt;Action Panel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/nocobase/nocobase/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>
