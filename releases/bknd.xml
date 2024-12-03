@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>bknd Releases</title>
-  <updated>2024-12-03T10:34:44.382422-05:00</updated>
+  <updated>2024-12-03T11:34:41.827410-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,5 +52,21 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bknd-io/bknd/compare/v0.1.1...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/bknd-io/bknd/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bknd-io/bknd/releases/tag/v0.2.1</id>
+    <title>New release for bknd: v0.2.1</title>
+    <updated>2024-12-03T11:21:41-05:00</updated>
+    <author>
+      <name>bknd-io/bknd</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;export data prototype by @dswbx in https://github.com/bknd-io/bknd/pull/16&lt;/li&gt;
+&lt;li&gt;remove the quick theme switcher if admin settings are overridden by @dswbx in https://github.com/bknd-io/bknd/pull/15&lt;/li&gt;
+&lt;li&gt;Remove unusued deps and fixing auth tests by @dswbx in https://github.com/bknd-io/bknd/pull/12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bknd-io/bknd/compare/v0.2.0...v0.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/bknd-io/bknd/releases/tag/v0.2.1" rel="alternate"/>
   </entry>
 </feed>
