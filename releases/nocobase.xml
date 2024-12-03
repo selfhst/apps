@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoBase Releases</title>
-  <updated>2024-12-03T08:34:33.496674-05:00</updated>
+  <updated>2024-12-03T09:34:43.653944-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,8 +166,7 @@
     <author>
       <name>nocobase/nocobase</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/nocobase/nocobase/compare/v1.3.53...v1.4.0"&gt;v1.4.0&lt;/a&gt; - 2024-12-03&lt;/h2&gt;
-&lt;h2&gt;🎉 Major New Features&lt;/h2&gt;
+    <content>&lt;h2&gt;🎉 Major New Features&lt;/h2&gt;
 &lt;h3&gt;Simplify the process of adding and updating plugins&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="20241201170853" src="https://static-docs.nocobase.com/20241201170853.png" /&gt;&lt;/p&gt;
 &lt;ul&gt;
