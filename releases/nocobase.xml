@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoBase Releases</title>
-  <updated>2024-12-03T03:34:43.869945-05:00</updated>
+  <updated>2024-12-03T04:34:42.995630-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,5 +114,49 @@
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nocobase/nocobase/releases/tag/v1.3.53" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nocobase/nocobase/releases/tag/v1.3.55</id>
+    <title>New release for NocoBase: v1.3.55</title>
+    <updated>2024-12-03T04:21:43-05:00</updated>
+    <author>
+      <name>nocobase/nocobase</name>
+    </author>
+    <content>&lt;h3&gt;🚀 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[client]&lt;/strong&gt; To use icons with more accurate meanings for block initializers (&lt;a href="https://github.com/nocobase/nocobase/pull/5757"&gt;#5757&lt;/a&gt;) by @mytharcher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[client]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix E2E cases based on changed icons (&lt;a href="https://github.com/nocobase/nocobase/pull/5768"&gt;#5768&lt;/a&gt;) by @mytharcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix select field to display blank when data is empty (&lt;a href="https://github.com/nocobase/nocobase/pull/5762"&gt;#5762&lt;/a&gt;) by @katherinehhh&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;[database]&lt;/strong&gt; Fix update hasOne/belongsTo association values without foreign key (&lt;a href="https://github.com/nocobase/nocobase/pull/5754"&gt;#5754&lt;/a&gt;) by @chareice&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;[Data source manager]&lt;/strong&gt; Fix  incorrect display of source key (&lt;a href="https://github.com/nocobase/nocobase/pull/5771"&gt;#5771&lt;/a&gt;) by @katherinehhh&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;[Workflow: Custom action event]&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allow all roles to triggering custom action event in external data sources by @mytharcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix default data source as main by @mytharcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix data source error when not matched by @mytharcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fix custom action trigger not triggering on association by @mytharcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/nocobase/nocobase/releases/tag/v1.3.55" rel="alternate"/>
   </entry>
 </feed>
