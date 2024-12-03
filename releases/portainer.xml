@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2024-12-03T16:31:10.794314-05:00</updated>
+  <updated>2024-12-03T17:31:08.992920-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,7 @@ None&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://github.com/portainer/portainer/releases/tag/2.24.1</id>
-    <title>New release for Portainer: 2.24.1</title>
+    <title>New release for Portainer: Release 2.24.1</title>
     <updated>2024-12-02T22:59:12-05:00</updated>
     <author>
       <name>portainer/portainer</name>
