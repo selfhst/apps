@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Git-Sync Releases</title>
-  <updated>2024-12-04T01:32:56.359028-05:00</updated>
+  <updated>2024-12-04T02:33:05.122802-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,11 @@ However with this new release, you can now specify which type of clone you want 
     <author>
       <name>AkashRajpurohit/git-sync</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;What's New ❕&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;git-sync&lt;/code&gt; now supports Raw Git URLs. What that means is that apart from syncing your own repositories from &lt;a href="https://github.com/AkashRajpurohit/git-sync/wiki/Examples#basic-configurations"&gt;various supported platforms&lt;/a&gt;, you can now also pass a list of raw git URLs as well.&lt;/p&gt;
+&lt;p&gt;With this, you can now backup and sync public repositories from other users as well 🎉 &lt;/p&gt;
+&lt;p&gt;More details about the &lt;a href="https://github.com/AkashRajpurohit/git-sync/wiki/Configuration"&gt;configurations&lt;/a&gt; and &lt;a href="https://github.com/AkashRajpurohit/git-sync/wiki/Examples#include-raw-git-urls"&gt;examples&lt;/a&gt; can be found at our Wiki.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;bbd98739fb8fa8318c7c27614118653c53e107d2 chore(deps): :arrow_up: upgrade go to 1.23.4&lt;/li&gt;
 &lt;li&gt;f4cfbac443bb40c22888fee2898ae78bbdffbc39 chore(deps): update golang docker tag to v1.23.4 (#69)&lt;/li&gt;
