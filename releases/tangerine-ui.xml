@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tangerine UI Releases</title>
-  <updated>2024-12-04T11:33:59.313898-05:00</updated>
+  <updated>2024-12-04T12:33:58.173157-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,6 +135,7 @@ Here's a follow-up release with some small fixes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed #131: Preview card with image and long content has broken padding in Advanced View&lt;/li&gt;
 &lt;li&gt;Fixed #130 and #135: On small screens, the column header could overlap with the content.&lt;/li&gt;
+&lt;li&gt;Fixed #132: ALT text popovers don't follow the dark or light theme.&lt;/li&gt;
 &lt;li&gt;Fixed: Inconsistent background masking above header on larger screens.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nileane/TangerineUI-for-Mastodon/releases/tag/v2.3" rel="alternate"/>
