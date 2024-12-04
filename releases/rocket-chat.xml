@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2024-12-04T07:31:16.247972-05:00</updated>
+  <updated>2024-12-04T08:31:16.761570-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -213,7 +213,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;The &lt;a href="https://docs.rocket.chat/docs/single-contact-identity"&gt;Single Contact ID&lt;/a&gt; add-on brings a suite of new improvements, enhancing contact management by unifying recognition across channels (email, chat, social media) through identity verification apps for seamless and secure communication. The search endpoint now defaults to locating verified contacts, with an option to include unverified ones. Thread metrics have been revamped with a cleaner layout, including avatars and improved titles. Additionally, the Apps-Engine runtime introduces support for custom timeouts via the APPS_ENGINE_RUNTIME_TIMEOUT variable, extending the pre-app event timeout from 1 second to 30 seconds for environments with longer processing needs.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Resolved issues include admin panel crashes, undefined agent errors, custom emoji display problems, and incorrect team-channel labeling. The Waiting Queue now queues rooms accurately, missing translations in the Setup Wizard are fixed, and Apps-Engine runtime and team voice call issues have been addressed for improved performance.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;20.18.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
