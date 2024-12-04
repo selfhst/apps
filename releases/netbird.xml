@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2024-12-03T18:30:57.596835-05:00</updated>
+  <updated>2024-12-03T19:30:59.971011-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,47 +153,51 @@
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;p&gt;This release brings support to persistent network route selection across client restarts and fixes network access control policy rules to account for peers in source groups.&lt;/p&gt;
+&lt;h4&gt;Enhancements:&lt;/h4&gt;
+&lt;h5&gt;Persistent network route selection&lt;/h5&gt;
+&lt;p&gt;This feature is handy for users who want to maintain a specific network route selection across client restarts. The client will now remember the network routes selected before the restart and apply them after the restart.&lt;/p&gt;
+&lt;h4&gt;Bug fixes:&lt;/h4&gt;
+&lt;h5&gt;Account different policy rules for route firewall rules&lt;/h5&gt;
+&lt;p&gt;The network access control policy rules now account for peers in source groups. This fix ensures that the rules are correctly applied to the network routes.&lt;/p&gt;
+&lt;h4&gt;What's Changed&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;[relay] Refactor initial Relay connection by @pappz in https://github.com/netbirdio/netbird/pull/2800&lt;/li&gt;
-&lt;li&gt;[misc] Renew slack link by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2938&lt;/li&gt;
-&lt;li&gt;Import time package by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2940&lt;/li&gt;
-&lt;li&gt;[client]  Don't return error in userspace mode without firewall when setting legacy by @lixmal in https://github.com/netbirdio/netbird/pull/2924&lt;/li&gt;
-&lt;li&gt;[client] Test nftables for incompatible iptables rules by @lixmal in https://github.com/netbirdio/netbird/pull/2948&lt;/li&gt;
-&lt;li&gt;[client] Set up sysctl and routing table name only if routing rules are available by @lixmal in https://github.com/netbirdio/netbird/pull/2933&lt;/li&gt;
-&lt;li&gt;[client] Allow routing to fallback to exclusion routes if rules are not supported by @lixmal in https://github.com/netbirdio/netbird/pull/2909&lt;/li&gt;
-&lt;li&gt;[management] Refactor posture check to use store methods by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2874&lt;/li&gt;
-&lt;li&gt;[management] Refactor policy to use store methods by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2878&lt;/li&gt;
-&lt;li&gt;[management] Refactor DNS settings to use store methods by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2883&lt;/li&gt;
-&lt;li&gt;[management] Refactor nameserver groups to use store methods by @bcmmbaga in https://github.com/netbirdio/netbird/pull/2888&lt;/li&gt;
-&lt;li&gt;[client] Code cleaning in net pkg by @pappz in https://github.com/netbirdio/netbird/pull/2932&lt;/li&gt;
-&lt;li&gt;[management] refactor to use account object instead of separate db calls for peer update by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2957&lt;/li&gt;
-&lt;li&gt;[management] Add performance test for login and sync calls by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2960&lt;/li&gt;
-&lt;li&gt;[tests] Enable benchmark tests on github actions by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2961&lt;/li&gt;
-&lt;li&gt;Add guide when signing key is not found by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2942&lt;/li&gt;
-&lt;li&gt;[client] Account different policiy rules for routes firewall rules by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2939&lt;/li&gt;
-&lt;li&gt;Update Caddyfile and Docker Compose to support HTTP3 by @v1rusnl in https://github.com/netbirdio/netbird/pull/2822&lt;/li&gt;
-&lt;li&gt;Unspecified address: default NetworkTypeUDP4+NetworkTypeUDP6 by @victorserbu2709 in https://github.com/netbirdio/netbird/pull/2804&lt;/li&gt;
-&lt;li&gt;[client] Add pprof build tag by @pappz in https://github.com/netbirdio/netbird/pull/2964&lt;/li&gt;
-&lt;li&gt;[client] Persist route selection by @lixmal in https://github.com/netbirdio/netbird/pull/2810&lt;/li&gt;
-&lt;li&gt;[client] Add state file to debug bundle by @lixmal in https://github.com/netbirdio/netbird/pull/2969&lt;/li&gt;
-&lt;li&gt;[client] Fix debug bundle state anonymization test by @lixmal in https://github.com/netbirdio/netbird/pull/2976&lt;/li&gt;
-&lt;li&gt;[client] Pass IP instead of net to Rosenpass by @pappz in https://github.com/netbirdio/netbird/pull/2975&lt;/li&gt;
-&lt;li&gt;[client] Get static system info once by @mlsmaycon in https://github.com/netbirdio/netbird/pull/2965&lt;/li&gt;
-&lt;li&gt;[client] Add netbird.err and netbird.out to debug bundle by @lixmal in https://github.com/netbirdio/netbird/pull/2971&lt;/li&gt;
-&lt;li&gt;Add missing parentheses on iphone hostname generation condition by @jnohlgard in https://github.com/netbirdio/netbird/pull/2977&lt;/li&gt;
-&lt;li&gt;[client] Add network map to debug bundle by @lixmal in https://github.com/netbirdio/netbird/pull/2966&lt;/li&gt;
-&lt;li&gt;[client] Don't choke on non-existent interface in route updates  by @lixmal in https://github.com/netbirdio/netbird/pull/2922&lt;/li&gt;
-&lt;li&gt;[client] Add state handling cmdline options by @lixmal in https://github.com/netbirdio/netbird/pull/2821&lt;/li&gt;
-&lt;li&gt;[management] merge update account peers in sync call by @pascal-fischer in https://github.com/netbirdio/netbird/pull/2978&lt;/li&gt;
+&lt;li&gt;[misc] Update Caddyfile and Docker Compose to support HTTP3 #2822&lt;/li&gt;
+&lt;li&gt;[client] Refactor initial Relay connection #2800&lt;/li&gt;
+&lt;li&gt;[client] Don't return error in userspace mode without firewall when setting legacy #2924&lt;/li&gt;
+&lt;li&gt;[client] Test nftables for incompatible iptables rules #2948&lt;/li&gt;
+&lt;li&gt;[client] Set up sysctl and routing table name only if routing rules are available #2933&lt;/li&gt;
+&lt;li&gt;[client] Allow routing to fallback to exclusion routes if rules are not supported #2909&lt;/li&gt;
+&lt;li&gt;[client] Code cleaning in net pkg #2932&lt;/li&gt;
+&lt;li&gt;[client] Unspecified address: default NetworkTypeUDP4+NetworkTypeUDP6 #2804&lt;/li&gt;
+&lt;li&gt;[client] Add pprof build tag #2964&lt;/li&gt;
+&lt;li&gt;[client] Persist route selection #2810&lt;/li&gt;
+&lt;li&gt;[client] Add state file to debug bundle #2969&lt;/li&gt;
+&lt;li&gt;[client] Fix debug bundle state anonymization test #2976&lt;/li&gt;
+&lt;li&gt;[client] Pass IP instead of net to Rosenpass #2975&lt;/li&gt;
+&lt;li&gt;[client] Get static system info once #2965&lt;/li&gt;
+&lt;li&gt;[client] Add netbird.err and netbird.out to debug bundle #2971&lt;/li&gt;
+&lt;li&gt;[client] Add network map to debug bundle #2966&lt;/li&gt;
+&lt;li&gt;[client] Don't choke on non-existent interface in route updates  #2922&lt;/li&gt;
+&lt;li&gt;[client] Add state handling cmdline options #2821&lt;/li&gt;
+&lt;li&gt;[management] Refactor posture check to use store methods #2874&lt;/li&gt;
+&lt;li&gt;[management] Refactor policy to use store methods #2878&lt;/li&gt;
+&lt;li&gt;[management] Refactor DNS settings to use store methods #2883&lt;/li&gt;
+&lt;li&gt;[management] Refactor nameserver groups to use store methods #2888&lt;/li&gt;
+&lt;li&gt;[management] refactor to use account object instead of separate db calls for peer update #2957&lt;/li&gt;
+&lt;li&gt;[management] Add performance test for login and sync calls #2960&lt;/li&gt;
+&lt;li&gt;[management] Add guide when signing key is not found #2942&lt;/li&gt;
+&lt;li&gt;[management] Account different policy rules for route firewall rules #2939&lt;/li&gt;
+&lt;li&gt;[management] Add missing parentheses on iphone hostname generation condition #2977&lt;/li&gt;
+&lt;li&gt;[management] merge update account peers in sync call #2978&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;h4&gt;Big thanks to our new Contributors&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;@v1rusnl made their first contribution in https://github.com/netbirdio/netbird/pull/2822&lt;/li&gt;
-&lt;li&gt;@victorserbu2709 made their first contribution in https://github.com/netbirdio/netbird/pull/2804&lt;/li&gt;
-&lt;li&gt;@jnohlgard made their first contribution in https://github.com/netbirdio/netbird/pull/2977&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/netbirdio/netbird/compare/v0.33.0...v0.34.0&lt;/p&gt;</content>
+&lt;li&gt;@v1rusnl made their first contribution in #2822&lt;/li&gt;
+&lt;li&gt;@victorserbu2709 made their first contribution in #2804&lt;/li&gt;
+&lt;li&gt;@jnohlgard made their first contribution in #2977&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/netbirdio/netbird/releases/tag/v0.34.0" rel="alternate"/>
   </entry>
 </feed>
