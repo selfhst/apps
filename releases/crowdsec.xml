@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2024-12-04T03:31:53.773585-05:00</updated>
+  <updated>2024-12-04T04:31:51.748122-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -524,6 +524,8 @@
 &lt;p&gt;&lt;a href="https://docs.crowdsec.net/u/user_guides/alert_context"&gt;See related doc here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Replay evtx file support&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This release allows Windows CrowdSec users to replay Winevent evtx files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bouncers API Key sharing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bouncers running on different machines can now share the same API key without interfering with each other. Each bouncer will appear as &lt;code&gt;bouncer_name@IP&lt;/code&gt; in the bouncer list.  (#3323)&lt;/p&gt;
 &lt;h2&gt;New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;add HTTP datasource (#3294) @he2ss&lt;/li&gt;
