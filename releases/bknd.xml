@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>bknd Releases</title>
-  <updated>2024-12-04T08:34:45.797795-05:00</updated>
+  <updated>2024-12-04T09:35:02.836982-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bknd-io/bknd/compare/v0.2.0...v0.2.1&lt;/p&gt;</content>
     <link href="https://github.com/bknd-io/bknd/releases/tag/v0.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bknd-io/bknd/releases/tag/v0.2.2</id>
+    <title>New release for bknd: v0.2.2</title>
+    <updated>2024-12-04T08:51:05-05:00</updated>
+    <author>
+      <name>bknd-io/bknd</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: lodash-es/* imports causing crash on astro by @dswbx in https://github.com/bknd-io/bknd/pull/18&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bknd-io/bknd/compare/v0.2.1...v0.2.2&lt;/p&gt;</content>
+    <link href="https://github.com/bknd-io/bknd/releases/tag/v0.2.2" rel="alternate"/>
   </entry>
 </feed>
