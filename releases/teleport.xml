@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2024-12-04T14:32:30.291753-05:00</updated>
+  <updated>2024-12-04T15:32:29.801371-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -186,7 +186,8 @@
 &lt;p&gt;Enterprise:
 * Jamf Service sync audit events are attributed to &amp;#34;Jamf Service&amp;#34;.
 * Users can now see a list of their enrolled devices on their Account page.
-* Add support for Entra ID groups being members of other groups using Nested Access Lists.&lt;/p&gt;
+* Add support for Entra ID groups being members of other groups using Nested Access Lists.
+* Added support for requiring reason for Access Requests (with a new role.spec.allow.request.reason.mode setting).&lt;/p&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
 &lt;h2&gt;Plugins&lt;/h2&gt;
