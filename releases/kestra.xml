@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2024-12-04T12:33:10.861355-05:00</updated>
+  <updated>2024-12-04T13:33:14.121441-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -323,7 +323,7 @@
 &lt;p&gt;The &lt;code&gt;kv()&lt;/code&gt; Pebble function was missing a check for allowed namespace in case a namespace is passed to the function e.g. &lt;code&gt;{{ kv('MY_KEY', 'differentNamespace') }}&lt;/code&gt;. This check has been added in 0.20 release. If you use the &lt;code&gt;kv()&lt;/code&gt; function to get a KV from a different namespace in the Enterprise Edition, make sure to allow access to this namespace (this happens by default unless explicitly restricted).&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;EE: Email server configuration moved to a different location&lt;/h3&gt;
-&lt;p&gt;In Kestra &amp;lt;= 0.19.12, email server configuration lived under &lt;code&gt;kestra.mail-service&lt;/code&gt;. Given that it's used only within the Enterprise Edition (for resetting passwords and sending invites), we moved it to &lt;code&gt;kestra.ee.mail-service&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In Kestra &amp;lt; 0.20.0, email server configuration lived under &lt;code&gt;kestra.mail-service&lt;/code&gt;. Given that it's used only within the Enterprise Edition (for resetting passwords and sending invites), we moved it to &lt;code&gt;kestra.ee.mail-service&lt;/code&gt;.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;EE: fallback on unhealthy workers&lt;/h3&gt;
 &lt;p&gt;By default, a task configured to run on a worker group where no workers are available will wait for the worker to be available. The previous behavior was to fail.&lt;/p&gt;

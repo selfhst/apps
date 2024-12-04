@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Shlink Releases</title>
-  <updated>2024-12-04T12:31:20.752599-05:00</updated>
+  <updated>2024-12-04T13:31:20.466627-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,26 @@
     <author>
       <name>shlinkio/shlink</name>
     </author>
-    <content/>
+    <content>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Deprecated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shlinkio/shlink/issues/2285"&gt;#2285&lt;/a&gt; Fix performance degradation when using Microsoft SQL due to incorrect order of columns in &lt;code&gt;unique_short_code_plus_domain&lt;/code&gt; index.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/shlinkio/shlink/releases/tag/v4.3.1" rel="alternate"/>
   </entry>
 </feed>
