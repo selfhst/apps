@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2024-12-05T05:34:27.988036-05:00</updated>
+  <updated>2024-12-05T06:34:19.287322-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -25,5 +25,46 @@
 &lt;li&gt;FIXED: (Premium) Better handling of connection storage errors&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v5.5.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.0.0</id>
+    <title>New release for DbGate: v6.0.0</title>
+    <updated>2024-12-05T06:15:43-05:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;ADDED: Order or filter the indexes for huge tables #922&lt;/li&gt;
+&lt;li&gt;ADDED: Empty string filters&lt;/li&gt;
+&lt;li&gt;CHANGED: (Premium) Workflow for new installation (used in Docker and AWS distribution)&lt;/li&gt;
+&lt;li&gt;ADDED: Show stored procedure and function parameters (MySQL, PostgreSQL, SQL Server, MariaDB) #348&lt;/li&gt;
+&lt;li&gt;FIXED: Selected database has changed when closing database grouped tab #983&lt;/li&gt;
+&lt;li&gt;ADDED: Add line break option to editor #823&lt;/li&gt;
+&lt;li&gt;ADDED: Order or filter the indexes for huge tables #922&lt;/li&gt;
+&lt;li&gt;ADDED: Preview mode for the top bar tab like vscode #767&lt;/li&gt;
+&lt;li&gt;ADDED: Keyboard navigatioon between connections, databases and tables&lt;/li&gt;
+&lt;li&gt;FIXED: Fixed some issues in connection search&lt;/li&gt;
+&lt;li&gt;FIXED: Schema selection in Export does not provide all schemas #924&lt;/li&gt;
+&lt;li&gt;CHANGED: Standardized Window menu in MacOS app&lt;/li&gt;
+&lt;li&gt;FIXED: Typecast ::date is treated as a parameter #925&lt;/li&gt;
+&lt;li&gt;FIXED: App crashes when trying to 'Open Structure' in a readonly connection #926&lt;/li&gt;
+&lt;li&gt;FIXED: Selected database has changed when closing database grouped tab #938&lt;/li&gt;
+&lt;li&gt;CHANGED: (Premium) Query designer and Query perspective designer moved to Premium editioin&lt;/li&gt;
+&lt;li&gt;CHANGED: (Premium) Compare database tool - many improvements, moved to Premium edition&lt;/li&gt;
+&lt;li&gt;ADDED: (Premium) Export DB model - exporting model to YAML folder, JSON or SQL folder&lt;/li&gt;
+&lt;li&gt;CHANGED: Model deployer - many improvements, support of rename missing objects&lt;/li&gt;
+&lt;li&gt;ADDED: (Premium) Premium NPM distribution&lt;/li&gt;
+&lt;li&gt;CHANGED: (Premium) Amazon Redshift driver moved to Premium edition&lt;/li&gt;
+&lt;li&gt;ADDED: Generated API documentation https://dbgate.org/docs/apidoc.html&lt;/li&gt;
+&lt;li&gt;ADDED: NPM distribution now supports all dbgate database connectors, many improvements NPM packages&lt;/li&gt;
+&lt;li&gt;CHANGED: Optimalized size of NPM plugins (eg. dbgate-plugin-mssql from 1.34 MB to 71 kB)&lt;/li&gt;
+&lt;li&gt;CHANGED: Unsaved connections are now shown in "Recent and unsaved" folder after disconnect&lt;/li&gt;
+&lt;li&gt;FIXED: Correctly show focused control, as defined by UX standards&lt;/li&gt;
+&lt;li&gt;ADDED: Data duplicator - weak references&lt;/li&gt;
+&lt;li&gt;ADDED: View JSON detail of log messages from export/import jobs and query executions&lt;/li&gt;
+&lt;li&gt;ADDED: Rename procedure/function context menu&lt;/li&gt;
+&lt;li&gt;ADDED: Show SQL quick view&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.0.0" rel="alternate"/>
   </entry>
 </feed>
