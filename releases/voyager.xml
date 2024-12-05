@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2024-12-04T23:33:51.537368-05:00</updated>
+  <updated>2024-12-05T00:33:45.580976-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,13 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;p&gt;Lots of fixes and refactor this release! Please let me know if anything is broken or looks different, since the entire CSS solution was migrated from Linaria to CSS Modules. The features this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Loading/placeholder state for markdown images&lt;/li&gt;
+&lt;li&gt;made lemm.ee default instance&lt;/li&gt;
+&lt;li&gt;multiline alt text support (with overflow scrolling)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;chore: upgrade dependencies&lt;/li&gt;
 &lt;li&gt;PR: #1724&lt;/li&gt;
