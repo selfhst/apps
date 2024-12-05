@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-12-05T11:31:44.919442-05:00</updated>
+  <updated>2024-12-05T12:31:44.922407-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -284,7 +284,7 @@ Download the JAR here: https://downloads.metabase.com/v0.52.1/metabase.jar&lt;/p
 ### Enhancements
 
 - Enhanced search: speed, match, and ranking improvements (#40964, #50684, #50778)
-    - Currently behind a feature flag. Use the environment variable `MB_SEARCH_ENGINE` to enable.
+    - Currently behind a feature flag. Use the environment variable `MB_SEARCH_ENGINE=appdb` to enable.
 
 **Embedding SDK**
 
