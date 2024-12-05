@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2024-12-05T09:30:55.151955-05:00</updated>
+  <updated>2024-12-05T10:30:56.414598-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -781,6 +781,7 @@ SHA1(5.1.1-update.zip)= 6654537b692976c9d49b499fa6c326b2b6d4eeff&lt;/p&gt;</cont
 &lt;li&gt;[UI] Interactive filters for tables by @andersonjeccel in https://github.com/mautic/mautic/pull/13889&lt;/li&gt;
 &lt;li&gt;[UI/UX] Toolbar page actions by @andersonjeccel in https://github.com/mautic/mautic/pull/14275&lt;/li&gt;
 &lt;li&gt;[UI/UX] Better table header sorting by @andersonjeccel in https://github.com/mautic/mautic/pull/14276&lt;/li&gt;
+&lt;li&gt;[UI/UX] Campaign builder events by @andersonjeccel in https://github.com/mautic/mautic/pull/13771&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;👤 Users and roles&lt;/h4&gt;
 &lt;ul&gt;

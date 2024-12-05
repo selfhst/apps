@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2024-12-05T09:30:14.717488-05:00</updated>
+  <updated>2024-12-05T10:30:14.761708-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -263,14 +263,20 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.2.4 (2024-12-05)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.2/4.2.4.html"&gt;Chevereto 4.2.4&lt;/a&gt; (2024-12-05)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added Chevereto Lite edition&lt;/li&gt;
-&lt;li&gt;Added placeholders for comments code&lt;/li&gt;
-&lt;li&gt;Improved comment code page id&lt;/li&gt;
-&lt;li&gt;Improved ENV handling&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting CLI runtime&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting MariaDB 10.4 compatibility&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77898"&gt;Added Chevereto Lite edition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77894"&gt;Added placeholders for comments code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77895"&gt;Improved comment code page id&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77896"&gt;Improved ENV handling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77897"&gt;Fixed bug affecting CLI runtime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/post-77934"&gt;Fixed bug affecting MariaDB 10.4 compatibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2024/10/24/chevereto-4-2/"&gt;Chevereto 4.2 (Regio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4.15765/"&gt;Chevereto V4.2.4 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-2-4-announcement.15759/"&gt;Chevereto V4.2.4 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.2.4" rel="alternate"/>
   </entry>

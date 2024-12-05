@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jetlog Releases</title>
-  <updated>2024-12-05T09:33:35.364142-05:00</updated>
+  <updated>2024-12-05T10:33:35.873960-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -62,5 +62,31 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/pbogre/jetlog/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pbogre/jetlog/releases/tag/1.1.0</id>
+    <title>New release for Jetlog: v1.1.0 - Multiple users!</title>
+    <updated>2024-12-05T09:35:20-05:00</updated>
+    <author>
+      <name>pbogre/jetlog</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🎉 User authentication and different accounts by @pbogre in https://github.com/pbogre/jetlog/pull/48&lt;/li&gt;
+&lt;li&gt;🎉 Add aircraft side option by @adepssimius in https://github.com/pbogre/jetlog/pull/59&lt;/li&gt;
+&lt;li&gt;Allow short usernames by @adepssimius in https://github.com/pbogre/jetlog/pull/57&lt;/li&gt;
+&lt;li&gt;Minor UI changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: upgrading to this version requires you to add a &lt;code&gt;SECRET_KEY&lt;/code&gt; environment variable to your Docker compose file. Look at the &lt;a href="https://github.com/pbogre/jetlog/wiki/Installation#environment-variables"&gt;installation wiki&lt;/a&gt; for more details&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PS: I am sorry if this update took so long to release, in the past months I haven't had much time to dedicate to this project since I'm a college student. I don't expect this to change any time soon, but I also don't expect to stop working on Jetlog, so future releases will probably come slowly but steadily. Thanks for supporting this project of mine :)&lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@pbogre made their first contribution in https://github.com/pbogre/jetlog/pull/48&lt;/li&gt;
+&lt;li&gt;@adepssimius made their first contribution in https://github.com/pbogre/jetlog/pull/57&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.2...1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/pbogre/jetlog/releases/tag/1.1.0" rel="alternate"/>
   </entry>
 </feed>
