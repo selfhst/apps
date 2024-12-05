@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2024-12-05T10:30:56.414598-05:00</updated>
+  <updated>2024-12-05T11:30:56.242866-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -782,6 +782,21 @@ SHA1(5.1.1-update.zip)= 6654537b692976c9d49b499fa6c326b2b6d4eeff&lt;/p&gt;</cont
 &lt;li&gt;[UI/UX] Toolbar page actions by @andersonjeccel in https://github.com/mautic/mautic/pull/14275&lt;/li&gt;
 &lt;li&gt;[UI/UX] Better table header sorting by @andersonjeccel in https://github.com/mautic/mautic/pull/14276&lt;/li&gt;
 &lt;li&gt;[UI/UX] Campaign builder events by @andersonjeccel in https://github.com/mautic/mautic/pull/13771&lt;/li&gt;
+&lt;li&gt;[UI] Enhance page body by @andersonjeccel in https://github.com/mautic/mautic/pull/13380&lt;/li&gt;
+&lt;li&gt;[UI] Token-based approach for interface elements and colors by @andersonjeccel in https://github.com/mautic/mautic/pull/13735
+[UI] Improving contrast for list groups/tabs by @andersonjeccel in https://github.com/mautic/mautic/pull/13736
+[UI] Dropdown menus by @andersonjeccel in https://github.com/mautic/mautic/pull/13749
+[UI] Fields by @andersonjeccel in https://github.com/mautic/mautic/pull/13752
+[UI] New flexbox utilities by @andersonjeccel in https://github.com/mautic/mautic/pull/13772
+[UI] Notifications by @andersonjeccel in https://github.com/mautic/mautic/pull/13780
+[UI] Replace most of FA icons (2) by @andersonjeccel in https://github.com/mautic/mautic/pull/13803
+[UX] Sending at, Activate at and Available from (statuses) by @andersonjeccel in https://github.com/mautic/mautic/pull/13818
+[UI] Tiles.less by @andersonjeccel in https://github.com/mautic/mautic/pull/13848
+[UX] Modify form layout to add help block for Yes/No buttons and selection fields by @andersonjeccel in https://github.com/mautic/mautic/pull/13875
+[UX] Turn the DSN message into an inline warning alert by @andersonjeccel in https://github.com/mautic/mautic/pull/13876
+[UI] Improvements for notes by @andersonjeccel in https://github.com/mautic/mautic/pull/13930
+[UX] "Invite your team" action in account dropdown by @andersonjeccel in https://github.com/mautic/mautic/pull/13914
+[UI] Simplify user account dropdown toggle by @andersonjeccel in https://github.com/mautic/mautic/pull/13913&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;👤 Users and roles&lt;/h4&gt;
 &lt;ul&gt;
@@ -828,6 +843,7 @@ SHA1(5.1.1-update.zip)= 6654537b692976c9d49b499fa6c326b2b6d4eeff&lt;/p&gt;</cont
 &lt;ul&gt;
 &lt;li&gt;Minify does not notify the minified file is missing. by @biozshock in https://github.com/mautic/mautic/pull/14226&lt;/li&gt;
 &lt;li&gt;Updating minimum version for new themes by @andersonjeccel in https://github.com/mautic/mautic/pull/14302&lt;/li&gt;
+&lt;li&gt;Fix DDEV script permissions for Windows users by @andersonjeccel in https://github.com/mautic/mautic/pull/13813&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;🔄 Dynamic Web Content&lt;/h4&gt;
 &lt;ul&gt;
