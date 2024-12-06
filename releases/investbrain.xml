@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Investbrain Releases</title>
-  <updated>2024-12-06T17:34:13.396896-05:00</updated>
+  <updated>2024-12-06T18:34:19.686314-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,7 +92,7 @@
     <author>
       <name>investbrainapp/investbrain</name>
     </author>
-    <content>&lt;p&gt;This release include a small fix for the newly added Ollama support feature.&lt;/p&gt;</content>
+    <content>&lt;p&gt;This release includes a small fix for the newly added Ollama support feature, which was released in &lt;a href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.6"&gt;v1.0.6&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/investbrainapp/investbrain/releases/tag/v1.0.7" rel="alternate"/>
   </entry>
 </feed>
