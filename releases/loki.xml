@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Loki Releases</title>
-  <updated>2024-12-06T14:31:55.511627-05:00</updated>
+  <updated>2024-12-06T15:31:58.193456-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -253,7 +253,13 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/grafana/loki/compare/v2.9.10...v2.9.11"&gt;2.9.11&lt;/a&gt; (2024-12-04)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;switch promtails base image from debian to ubuntu (backport release-2.9.x) (&lt;a href="https://github.com/grafana/loki/issues/15210"&gt;#15210&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ae1fb5a3d2b8fb57a413b16ab4060b65226867d1"&gt;ae1fb5a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;storage:&lt;/strong&gt; Fix bug in cache of the index object client(&lt;a href="https://github.com/grafana/loki/issues/10585"&gt;#10585&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;promtail&lt;/strong&gt; switch promtails base image from debian to ubuntu (backport release-2.9.x) (&lt;a href="https://github.com/grafana/loki/issues/15210"&gt;#15210&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ae1fb5a3d2b8fb57a413b16ab4060b65226867d1"&gt;ae1fb5a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docker:&lt;/strong&gt; Update Docker to 23.0.15 (&lt;a href="https://github.com/grafana/loki/issues/"&gt;#&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;lamba-promtail:&lt;/strong&gt; Lamba-promtail updates, some of which address CVEs(&lt;a href="https://github.com/grafana/loki/issues/14105"&gt;#14105&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/grafana/loki/releases/tag/v2.9.11" rel="alternate"/>
   </entry>
@@ -267,11 +273,17 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/grafana/loki/compare/v3.2.1...v3.2.2"&gt;3.2.2&lt;/a&gt; (2024-12-04)&lt;/h2&gt;
 &lt;h3&gt;⚠ BREAKING CHANGES&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.2.x) (&lt;a href="https://github.com/grafana/loki/issues/15145"&gt;#15145&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.2.x) (&lt;a href="https://github.com/grafana/loki/issues/15145"&gt;#15145&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;logql:&lt;/strong&gt; Updated JSONExpressionParser not to unescape extracted values if it is JSON object.  (&lt;a href="https://github.com/grafana/loki/issues/14499"&gt;#14499&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;storage:&lt;/strong&gt; Have GetObject check for canceled context. S3ObjectClient.GetObject incorrectly returned nil, 0, nil when the provided context is already canceled (&lt;a href="https://github.com/grafana/loki/issues/14420"&gt;#14420&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.2.x) (&lt;a href="https://github.com/grafana/loki/issues/15145"&gt;#15145&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/ab59208ea161f1638e6c4fc49f85632faa28cfd6"&gt;ab59208&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; Switch Promtail base image from Debian to Ubuntu to fix critical security issues (&lt;a href="https://github.com/grafana/loki/issues/15195"&gt;#15195&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docker:&lt;/strong&gt; Move from base-nossl to static. This PR removes the inclusion of glibc into most of the Docker images created by the Loki build system. (&lt;a href="https://github.com/grafana/loki/issues/15203"&gt;#15203&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/grafana/loki/releases/tag/v3.2.2" rel="alternate"/>
   </entry>
@@ -285,11 +297,12 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/grafana/loki/compare/v3.3.0...v3.3.1"&gt;3.3.1&lt;/a&gt; (2024-12-04)&lt;/h2&gt;
 &lt;h3&gt;⚠ BREAKING CHANGES&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.3.x) (&lt;a href="https://github.com/grafana/loki/issues/15146"&gt;#15146&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.3.x) (&lt;a href="https://github.com/grafana/loki/issues/15146"&gt;#15146&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove &lt;code&gt;wget&lt;/code&gt; from Promtail docker image (backport release-3.3.x) (&lt;a href="https://github.com/grafana/loki/issues/15146"&gt;#15146&lt;/a&gt;) (&lt;a href="https://github.com/grafana/loki/commit/0f5a9948f0fc97c8460bd4ec18bb1a41aa7dae67"&gt;0f5a994&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;promtail:&lt;/strong&gt; Switch Promtail base image from Debian to Ubuntu to fix critical security issues (https://github.com/grafana/loki/issues/15195).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docker:&lt;/strong&gt; Move from base-nossl to static. This PR removes the inclusion of glibc into most of the Docker images created by the Loki build system. (&lt;a href="https://github.com/grafana/loki/issues/15203"&gt;#15203&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/grafana/loki/releases/tag/v3.3.1" rel="alternate"/>
   </entry>
