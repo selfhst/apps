@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mihon Releases</title>
-  <updated>2024-12-06T16:33:39.696104-05:00</updated>
+  <updated>2024-12-06T17:33:28.277801-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -314,7 +314,9 @@
     <author>
       <name>mihonapp/mihon</name>
     </author>
-    <content>&lt;h2&gt;Changed&lt;/h2&gt;
+    <content>&lt;p&gt;Check out the &lt;a href="https://github.com/mihonapp/mihon/releases"&gt;past release notes&lt;/a&gt; if you're upgrading from an earlier version.&lt;/p&gt;
+&lt;p&gt;In particular, refer to the &lt;a href="https://github.com/mihonapp/mihon/releases/tag/v0.17.0"&gt;v0.17.0&lt;/a&gt; release notes if you're updating from an earlier version.&lt;/p&gt;
+&lt;h2&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Bump default user agent (@AntsyLich) (76dcf90)&lt;/li&gt;
 &lt;/ul&gt;
