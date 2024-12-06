@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Varys for Plex Releases</title>
-  <updated>2024-12-06T05:34:09.807648-05:00</updated>
+  <updated>2024-12-06T06:33:43.183098-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -47,5 +47,18 @@
 &lt;li&gt;Version comparison of app and backend, to make sure they are kept in sync&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/schech1/uptime-buddy/releases/tag/1.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/schech1/uptime-buddy/releases/tag/1.1.5</id>
+    <title>New release for Uptime Mate: 1.1.5</title>
+    <updated>2024-12-06T05:54:19-05:00</updated>
+    <author>
+      <name>schech1/uptime-buddy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Show error message for offline monitor in Apple Watch App&lt;/li&gt;
+&lt;li&gt;Removed unnecessary property&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/schech1/uptime-buddy/releases/tag/1.1.5" rel="alternate"/>
   </entry>
 </feed>
