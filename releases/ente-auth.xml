@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Auth Releases</title>
-  <updated>2024-12-06T02:32:49.164721-05:00</updated>
+  <updated>2024-12-06T03:32:53.744397-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -214,16 +214,15 @@ om/ente-io/ente/pull/3176&lt;/li&gt;
     <link href="https://github.com/ente-io/ente/releases/tag/auth-v4.1.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/ente-io/ente/releases/tag/auth-v4.1.4</id>
-    <title>New release for Ente Auth: auth-v4.1.4</title>
-    <updated>2024-12-05T23:49:04-05:00</updated>
+    <id>https://github.com/ente-io/ente/releases/tag/auth-v4.1.5</id>
+    <title>New release for Ente Auth: auth-v4.1.5</title>
+    <updated>2024-12-06T02:54:06-05:00</updated>
     <author>
       <name>ente-io/ente</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow sorting by account name, most frequently used, recently used, and custom sort order.  &lt;/li&gt;
-&lt;li&gt;Renamed "Pin" to "Favorite."  &lt;/li&gt;
 &lt;li&gt;Added an option to fall back to TOTP when both passkey and TOTP are enabled.  &lt;/li&gt;
 &lt;li&gt;Fixed: Clicking the search icon now automatically focuses on the search text input.  &lt;/li&gt;
 &lt;li&gt;Added more icons and translations, thanks to the community.  &lt;/li&gt;
@@ -276,7 +275,7 @@ om/ente-io/ente/pull/3176&lt;/li&gt;
 &lt;li&gt;@0xedward made their first contribution in https://github.com/ente-io/ente/pull/4195&lt;/li&gt;
 &lt;li&gt;@down-bad made their first contribution in https://github.com/ente-io/ente/pull/4291&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/auth-v4.1.0...auth-v4.1.4&lt;/p&gt;</content>
-    <link href="https://github.com/ente-io/ente/releases/tag/auth-v4.1.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/auth-v4.1.0...auth-v4.1.5&lt;/p&gt;</content>
+    <link href="https://github.com/ente-io/ente/releases/tag/auth-v4.1.5" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2024-12-06T02:34:04.302573-05:00</updated>
+  <updated>2024-12-06T03:34:11.726290-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,10 +88,57 @@
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;3bcdca938badfd1e1cbb1faa6de1f62c0a4ad2c9 [#732] Upgrade to Go 1.23 and Golanci-lint 1.62 (#733)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;[#709] feat: Add &lt;code&gt;skipIfSuccessful&lt;/code&gt; by @yohamta in https://github.com/dagu-org/dagu/pull/712&lt;/li&gt;
+&lt;li&gt;fix: incorrect paths in config docs by @jonnochoo in https://github.com/dagu-org/dagu/pull/713&lt;/li&gt;
+&lt;li&gt;feat: Support configurable base path for server by @chrishoage in https://github.com/dagu-org/dagu/pull/714&lt;/li&gt;
+&lt;li&gt;docs: added docs for CRON_TZ by @jonnochoo in https://github.com/dagu-org/dagu/pull/716&lt;/li&gt;
+&lt;li&gt;Improve Dockerfile to reduce amount of config needed in docker-compose by @chrishoage in https://github.com/dagu-org/dagu/pull/723&lt;/li&gt;
+&lt;li&gt;chore: add support for devcontainers by @jonnochoo in https://github.com/dagu-org/dagu/pull/728&lt;/li&gt;
+&lt;li&gt;add support for default page by @jonnochoo in https://github.com/dagu-org/dagu/pull/729&lt;/li&gt;
+&lt;li&gt;[#730] Add Remote-Node support by @yohamta in https://github.com/dagu-org/dagu/pull/731&lt;/li&gt;
+&lt;li&gt;[#732] Upgrade to Go 1.23 and Golanci-lint 1.62 by @yohamta in https://github.com/dagu-org/dagu/pull/733&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;h3&gt;Remote Node support&lt;/h3&gt;
+&lt;p&gt;Dagu now supports managing multiple Dagu servers from a single UI through its remote node feature. This allows you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monitor and manage DAGs across different environments (dev, staging, prod)&lt;/li&gt;
+&lt;li&gt;Access multiple Dagu instances from a centralized UI&lt;/li&gt;
+&lt;li&gt;Switch between nodes easily through the UI dropdown&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://dagu.readthedocs.io/en/latest/config_remote.html"&gt;Remote Node Configuration&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Configuration:&lt;/strong&gt;
+Remote nodes can be configured by creating &lt;code&gt;admin.yaml&lt;/code&gt; in &lt;code&gt;$HOME/.config/dagu/&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;```yaml&lt;/p&gt;
+&lt;h1&gt;admin.yaml&lt;/h1&gt;
+&lt;p&gt;remoteNodes:
+    - name: "prod" # Name of the remote node
+      apiBaseUrl: "https://prod.example.com/api/v1" # Base URL of the remote node API
+    - name: "staging"
+      apiBaseUrl: "https://staging.example.com/api/v1"
+```&lt;/p&gt;
+&lt;h3&gt;Timezone config in schedule&lt;/h3&gt;
+&lt;p&gt;You can specify a cron expression to run within a specific timezone.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+schedule: "CRON_TZ=Asia/Tokyo 5 9 * * *" # Run at 09:05 in Tokyo
+steps:
+  - name: scheduled job
+    command: job.sh&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;skipIfSuccessful&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;skipIfSuccessful. When set to true, Dagu will automatically check the last successful run time against the defined schedule. If the DAG has already run successfully since the last scheduled time, the current run will be skipped.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+schedule: "0 */4 * * *"   # Run every 4 hours
+skipIfSuccessful: true    # Skip if already succeeded since last schedule (e.g., manually triggered)
+steps:
+  - name: resource-intensive-job
+    command: process_data.sh&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@chrishoage made their first contribution in https://github.com/dagu-org/dagu/pull/714&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.14.8...v1.15.0&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.15.0" rel="alternate"/>
   </entry>
 </feed>
