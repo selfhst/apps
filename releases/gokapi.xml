@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2024-12-08T09:31:52.327650-05:00</updated>
+  <updated>2024-12-08T10:31:52.479574-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,16 +115,16 @@
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.9.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/Forceu/Gokapi/releases/tag/v1.9.4</id>
-    <title>New release for Gokapi: v1.9.4</title>
-    <updated>2024-12-07T15:02:34-05:00</updated>
+    <id>https://github.com/Forceu/Gokapi/releases/tag/v1.9.5</id>
+    <title>New release for Gokapi: v1.9.5</title>
+    <updated>2024-12-08T10:26:19-05:00</updated>
     <author>
       <name>Forceu/Gokapi</name>
     </author>
-    <content>&lt;h2&gt;1.9.4&lt;/h2&gt;
+    <content>&lt;h2&gt;1.9.5&lt;/h2&gt;
 &lt;h3&gt;Changelog&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed a crash caused by an incorrectly upgraded database version #215&lt;/li&gt;
+&lt;li&gt;Fixed a crash caused by an incorrectly upgraded database version #215, #216&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;1.9.3&lt;/h2&gt;
 &lt;h3&gt;Changelog&lt;/h3&gt;
@@ -144,6 +144,6 @@
 &lt;li&gt;&lt;strong&gt;API:&lt;/strong&gt; When not adding a parameter for maximum downloads or expiry, the default values of 1 download or 14 days are used instead of previous used values for calls &lt;code&gt;/files/add&lt;/code&gt; and &lt;code&gt;/chunk/complete&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.9.3...v1.9.4&lt;/p&gt;</content>
-    <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.9.4" rel="alternate"/>
+    <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.9.5" rel="alternate"/>
   </entry>
 </feed>
