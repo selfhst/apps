@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obtainium Releases</title>
-  <updated>2024-12-08T17:30:58.545838-05:00</updated>
+  <updated>2024-12-08T18:30:58.176420-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,6 +110,7 @@
 &lt;li&gt;Fix broken "Download Asset" function for HTML source (#1998)&lt;/li&gt;
 &lt;li&gt;Add "refresh before download" (#1943)&lt;/li&gt;
 &lt;li&gt;Remove WhatsApp, VLC, and Telegram App sources - no longer needed as HTML source sufficient (#1943)&lt;ul&gt;
+&lt;li&gt;Existing entries for these apps will automatically be migrated to the HTML source&lt;/li&gt;
 &lt;li&gt;Relevant configs can be found on https://apps.obtainium.imranr.dev/&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
