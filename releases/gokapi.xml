@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2024-12-07T22:31:57.456932-05:00</updated>
+  <updated>2024-12-07T23:31:57.990843-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,7 @@
 &lt;li&gt;&lt;strong&gt;API:&lt;/strong&gt; Session authentication has been removed, an API key is now required&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;API:&lt;/strong&gt; When not adding a parameter for maximum downloads or expiry, the default values of 1 download or 14 days are used instead of previous used values for calls &lt;code&gt;/files/add&lt;/code&gt; and &lt;code&gt;/chunk/complete&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.9.2...v1.9.3&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.9.3...v1.9.4&lt;/p&gt;</content>
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.9.4" rel="alternate"/>
   </entry>
 </feed>
