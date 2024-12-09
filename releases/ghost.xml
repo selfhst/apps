@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2024-12-08T21:30:26.962705-05:00</updated>
+  <updated>2024-12-08T22:30:27.094170-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -62,7 +62,7 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;🔒 Fixed SVG sanitization for staff profile pictures (#21798) - Sag&lt;/li&gt;
+&lt;li&gt;🔒 Fixed SVG sanitization for staff profile pictures (#21798) - fhAnso, Mohammed A., Hoang, Sag&lt;/li&gt;
 &lt;li&gt;✨Added custom font support for themes (#21817) - Steve Larson&lt;/li&gt;
 &lt;li&gt;🎨 Updated Casper to v5.8.1 - Ghost CI&lt;/li&gt;
 &lt;li&gt;🎨 Updated Source to v1.4.1 - Ghost CI&lt;/li&gt;

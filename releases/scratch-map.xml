@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scratch Map Releases</title>
-  <updated>2024-12-08T21:34:19.770493-05:00</updated>
+  <updated>2024-12-08T22:34:16.347869-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,5 +98,19 @@ Regenerating &lt;code&gt;1.1.12&lt;/code&gt; at previous state (no changes) and 
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ad3m3r5/scratch-map/compare/1.2.1...1.2.2&lt;/p&gt;</content>
     <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.3</id>
+    <title>New release for Scratch Map: 1.2.3</title>
+    <updated>2024-12-08T22:10:53-05:00</updated>
+    <author>
+      <name>ad3m3r5/scratch-map</name>
+    </author>
+    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rendering some symbols of Links/URLs on the index page was broken due to the hex encoding for input sanitization introduced in 1.2.0. The Pug template was adjusted to fix this. Mentioned in &lt;a href="https://github.com/ad3m3r5/scratch-map/issues/30"&gt;issue #30&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ad3m3r5/scratch-map/compare/1.2.2...1.2.3&lt;/p&gt;</content>
+    <link href="https://github.com/ad3m3r5/scratch-map/releases/tag/1.2.3" rel="alternate"/>
   </entry>
 </feed>
