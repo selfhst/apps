@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2024-12-09T06:32:56.661011-05:00</updated>
+  <updated>2024-12-09T07:32:55.166815-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,6 +54,21 @@ The &lt;code&gt;GET /api/v1/photos&lt;/code&gt; endpoint now returns following s
     "source": "photoprism" // "photoprism" or "immich"
   }
 ]&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Volumes in docker-compose.yml were renamed:&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;diff
+volumes:
+-  db_data:
+-  gem_cache:
+-  shared_data:
+-  public:
+-  watched:
++  dawarich_db_data:
++  dawarich_gem_cache_app:
++  dawarich_gem_cache_sidekiq:
++  dawarich_shared:
++  dawarich_public:
++  dawarich_watched:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For existing instances, there is no need renaming them.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Photos from Photoprism are now can be shown on the map. To enable this feature, you need to provide your Photoprism instance URL and API key in the Settings page. Then you need to enable "Photos" layer on the map (top right corner).&lt;/li&gt;
