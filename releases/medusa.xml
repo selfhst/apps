@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-12-09T10:30:58.051725-05:00</updated>
+  <updated>2024-12-09T11:30:57.615580-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -477,6 +477,9 @@ Schema changes&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;User module&lt;/strong&gt;
 - Renamed unique index on &lt;code&gt;(email)&lt;/code&gt; in &lt;code&gt;invite&lt;/code&gt; table
 - Renamed unique index on &lt;code&gt;(email)&lt;/code&gt; in &lt;code&gt;user&lt;/code&gt; table&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required actions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Run migrations to ensure your server functions as expected after upgrading to v2.1.0:
+&lt;code&gt;npx medusa db:migrate&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(pricing,utils,types): add operator field to price rule by @riqwan in https://github.com/medusajs/medusa/pull/10315&lt;/li&gt;
