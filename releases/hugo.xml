@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-12-09T12:30:38.095229-05:00</updated>
+  <updated>2024-12-09T13:30:36.438391-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,12 +120,19 @@ function h() {
   </entry>
   <entry>
     <id>https://github.com/gohugoio/hugo/releases/tag/v0.139.4</id>
-    <title>New release for Hugo: </title>
-    <updated>2024-12-09T12:24:00-05:00</updated>
+    <title>New release for Hugo: v0.139.4</title>
+    <updated>2024-12-09T13:00:17-05:00</updated>
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;This release contains a security fix. See this &lt;a href="https://github.com/gohugoio/hugo/security/advisories/GHSA-c2xf-9v2r-r2rx"&gt;Security Advisory&lt;/a&gt; for details. Note that this is only relevant if you don't trust your content (e.g. Markdown) files.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;tpl/tplimpl: Escape Markdown attributes in render hooks and shortcodes 54398f8d5 @jmooring &lt;/li&gt;
+&lt;li&gt;deps: Upgrade github.com/bep/godartsass/v2 v2.3.1 =&amp;gt; v2.3.2 b8c15f245 @bep &lt;/li&gt;
+&lt;li&gt;common/maps: Simplify TestScratchSetInMap/DeleteInMap d0dc51884 @alexandear &lt;/li&gt;
+&lt;li&gt;markup/tableofcontents: Cast Fragments.ToHTML args to int b52985900 @jmooring #13107 &lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/gohugoio/hugo/releases/tag/v0.139.4" rel="alternate"/>
   </entry>
 </feed>
