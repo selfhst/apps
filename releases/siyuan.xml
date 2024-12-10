@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SiYuan Releases</title>
-  <updated>2024-12-09T22:32:49.968594-05:00</updated>
+  <updated>2024-12-09T23:32:43.527807-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -275,5 +275,64 @@
 &lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.14" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/siyuan-note/siyuan/releases/tag/v3.1.15</id>
+    <title>New release for SiYuan: Support HarmonyOS NEXT system</title>
+    <updated>2024-12-09T22:44:50-05:00</updated>
+    <author>
+      <name>siyuan-note/siyuan</name>
+    </author>
+    <content>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This version supports use on the HarmonyOS NEXT system.&lt;/p&gt;
+&lt;h2&gt;Changelogs&lt;/h2&gt;
+&lt;p&gt;Below are the detailed changes in this version.&lt;/p&gt;
+&lt;h3&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12656"&gt;Improve Alt+M hiding/showing windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/12708"&gt;Improve database cell positioning and editing input box size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13184"&gt;Support HarmonyOS NEXT system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13232"&gt;Remove the collapsed state of the collapsed heading on paste&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13252"&gt;Support the year in the database date field is less than 4 digits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13262"&gt;Improve interaction with database descriptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13311"&gt;Improve document tag adding interaction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13326"&gt;Improve tooltip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13331"&gt;Improve exporting block ref&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13343"&gt;Improve search highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13348"&gt;Improve template search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13349"&gt;Improve code block paging when exporting to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13355"&gt;Improve HTML clipping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13356"&gt;Improve system font loading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13358"&gt;Generating block reference with a block that has ' character is causing weird behaviour&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13364"&gt;Simplify document block paths in search results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13366"&gt;The browser clipping extension adds some experimental features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13375"&gt;Attribute panel - Database supports removing the current block&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13386"&gt;Support flac audio asset playback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13388"&gt;Cannot double-click to preview them when image url include &lt;code&gt;%&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/pull/13395"&gt;Using the middle button to close a tab triggers pasting on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13404"&gt;Improve setting appearance priority&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bugfix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13347"&gt;The document in the mobile data history will be closed when you slide down&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13351"&gt;No results found after clicking on the inline tag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13354"&gt;HTML tag search escaping issue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13365"&gt;The sequence number of the ordered list exported to .docx is incorrect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13368"&gt;File names ending with &lt;code&gt;.&lt;/code&gt; will be considered as missing assets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13387"&gt;Full manual sync mode causes data conflicts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13027"&gt;Improve the operation of &lt;code&gt;Backspace&lt;/code&gt; &lt;code&gt;Delete&lt;/code&gt; &lt;code&gt;Tab&lt;/code&gt; &lt;code&gt;Shift+Tab&lt;/code&gt; after selecting a block or table cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13247"&gt;Add a kernel API &lt;code&gt;/api/filetree/moveDocsByID&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13346"&gt;Remove editor input console log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/issues/13391"&gt;Add &lt;code&gt;disable&lt;/code&gt;, &lt;code&gt;enable&lt;/code&gt; method to Protyle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Download&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://b3log.org/siyuan/en/download.html"&gt;B3log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/siyuan-note/siyuan/releases"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/siyuan-note/siyuan/releases/tag/v3.1.15" rel="alternate"/>
   </entry>
 </feed>
