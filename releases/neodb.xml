@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2024-12-09T20:33:07.470661-05:00</updated>
+  <updated>2024-12-09T21:33:04.471087-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,7 +53,7 @@
   <entry>
     <id>https://github.com/neodb-social/neodb/releases/tag/0.10.5</id>
     <title>New release for NeoDB: </title>
-    <updated>2024-12-09T20:17:57-05:00</updated>
+    <updated>2024-12-09T20:40:26-05:00</updated>
     <author>
       <name>neodb-social/neodb</name>
     </author>
