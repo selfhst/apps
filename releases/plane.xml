@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2024-12-10T10:32:48.033299-05:00</updated>
+  <updated>2024-12-10T11:32:50.679454-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,5 +197,47 @@
 &lt;li&gt;Nivo Chart Package vulnerability is resolved.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/makeplane/plane/releases/tag/v0.24.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/makeplane/plane/releases/tag/v0.24.1</id>
+    <title>New release for Plane: v0.24.1</title>
+    <updated>2024-12-10T11:22:15-05:00</updated>
+    <author>
+      <name>makeplane/plane</name>
+    </author>
+    <content>&lt;h3&gt;&lt;strong&gt;✨ New Features&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;Real-Time Sync Enhancements on Pages&lt;/h4&gt;
+&lt;p&gt;When a member locks, unlocks, archives, or restores a page, it immediately happens for all users with access to that page.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;⚙️ Improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved UX by replacing User Notification Settings checkboxes with toggles&lt;/li&gt;
+&lt;li&gt;Pages access revamped for better security and flexibility, Guests can no longer create or edit pages.&lt;/li&gt;
+&lt;li&gt;Loader code refactor to improve page load performance.&lt;/li&gt;
+&lt;li&gt;Reduced unused components to optimise application performance.&lt;/li&gt;
+&lt;li&gt;Added sort order for issue activity.&lt;/li&gt;
+&lt;li&gt;Simplified navigation by removing Project Header Breadcrumb navigation from &lt;code&gt;project&lt;/code&gt; breadcrumb.&lt;/li&gt;
+&lt;li&gt;Preserved custom theme colors while checking todo list items in pages.&lt;/li&gt;
+&lt;li&gt;Enhanced URL clarity for published Projects, Views, and Pages with meta data.&lt;/li&gt;
+&lt;li&gt;Optimized image aspect rations in pages across different screen resolutions.&lt;/li&gt;
+&lt;li&gt;Enhanced Hyper Mode performance with minor changes.&lt;/li&gt;
+&lt;li&gt;Added functionality to redirect users to the homepage when clicking the Plane logo on the invitations page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;🐞 Bug Fixes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue with estimates when enabled and not associated with any issue in the project is deleting the project&lt;/li&gt;
+&lt;li&gt;Addressed an issue where removed cycles continued to appear in the issue detail page. The cycles list now dynamically updates to reflect changes accurately.&lt;/li&gt;
+&lt;li&gt;Fixed a visibility issue with dropdown filters on Safari browsers to ensure consistent user experience across platforms.&lt;/li&gt;
+&lt;li&gt;Fixed markdown rendering for images in pages.&lt;/li&gt;
+&lt;li&gt;Removed unused components to optimise application performance.&lt;/li&gt;
+&lt;li&gt;UI fix for the shape of priority icons for improved visual clarity.&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Resolved intake issue permissions where users with member-level permissions couldn't edit their own issue immediately after creation without refreshing the page.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔑 Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolved Nivo Charts vulnerabilities.&lt;/li&gt;
+&lt;li&gt;Django and Express version upgraded for improved compatibility and security.&lt;/li&gt;
+&lt;li&gt;Updated UI package module resolution for better dependency management.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/makeplane/plane/releases/tag/v0.24.1" rel="alternate"/>
   </entry>
 </feed>
