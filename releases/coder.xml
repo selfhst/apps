@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2024-12-11T12:32:29.353605-05:00</updated>
+  <updated>2024-12-11T13:32:31.945854-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -302,7 +302,7 @@ Drops the default value for $CODER_EMAIL_SMARTHOST.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;Extract provisioner tags from coder_workspace_tags data source (#15578, 1cdc3e892) (@johnstcn)&lt;blockquote&gt;
-&lt;p&gt;As this effectively blocks template creation if &lt;code&gt;coder_workspace_tags&lt;/code&gt; is malformed or references anything other than a Terraform variable or &lt;code&gt;coder_parameter&lt;/code&gt;, this is marked as a breaking change.&lt;/p&gt;
+&lt;p&gt;As this effectively blocks template creation if &lt;code&gt;coder_workspace_tags&lt;/code&gt; is malformed or references anything other than a Terraform variable or &lt;code&gt;coder_parameter&lt;/code&gt;, it is marked as a breaking change.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
