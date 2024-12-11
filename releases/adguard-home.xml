@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AdGuard Home Releases</title>
-  <updated>2024-12-11T11:31:51.630417-05:00</updated>
+  <updated>2024-12-11T12:31:47.859238-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,7 +173,7 @@
     <content>&lt;p&gt;Time for another release! We encourage all Windows users to play close attention as it addresses a bug that has been affecting some Windows installations. For the rest of AdGuard Home aficionados, we've updated Go version to shore up some vulnerabilities and have dealt with a couple leaks :potable_water:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-This beta includes a fix for #7400, which was caused by changes related to #7314 that broke some Windows installations.  We've changed the approach to permission handling on Windows to be much more careful about modifying them, but if you're not concerned about this feature, you can always use a &lt;code&gt;--no-permcheck&lt;/code&gt; command line option (it works with the &lt;code&gt;-s install&lt;/code&gt; command).  This will disable any permission manipulation and may leave the system vulnerable.&lt;/p&gt;
+This release includes a fix for #7400, which was caused by changes related to #7314 that broke some Windows installations.  We've changed the approach to permission handling on Windows to be much more careful about modifying them, but if you're not concerned about this feature, you can always use a &lt;code&gt;--no-permcheck&lt;/code&gt; command line option (it works with the &lt;code&gt;-s install&lt;/code&gt; command).  This will disable any permission manipulation and may leave the system vulnerable.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Acknowledgments&lt;/h2&gt;
 &lt;p&gt;A special thanks to our open-source contributor, @MaggieFero, our community moderators team, as well as to everyone who filed and inspected issues, added translations, and helped us test this release!&lt;/p&gt;
