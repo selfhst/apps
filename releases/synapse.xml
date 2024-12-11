@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2024-12-11T14:31:27.274616-05:00</updated>
+  <updated>2024-12-11T15:31:25.009058-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -192,7 +192,7 @@ If you are already using 1.120.1, there is no need to upgrade to this version.&l
       <name>element-hq/synapse</name>
     </author>
     <content>&lt;h1&gt;Synapse 1.121.0 (2024-12-11)&lt;/h1&gt;
-&lt;p&gt;This release contains the security fixes from &lt;a href="https://github.com/element-hq/synapse/releases/tag/v1.120.2"&gt;v1.120.2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Note that docker images failed to build for this release. See &lt;a href="https://github.com/element-hq/synapse/releases/tag/v1.121.1"&gt;v1.121.1&lt;/a&gt;, which is otherwise functionally identical, but has docker images published.&lt;/p&gt;
 &lt;h3&gt;Internal Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix release process to not create duplicate releases. (&lt;a href="https://github.com/element-hq/synapse/issues/18025"&gt;#18025&lt;/a&gt;)&lt;/li&gt;
@@ -252,6 +252,52 @@ If you are already using 1.120.1, there is no need to upgrade to this version.&l
 &lt;h3&gt;Internal Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Downgrade the Ubuntu GHA runner when building docker images. (&lt;a href="https://github.com/element-hq/synapse/issues/18026"&gt;#18026&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Synapse 1.121.0 (2024-12-11)&lt;/h1&gt;
+&lt;h3&gt;Internal Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix release process to not create duplicate releases. (&lt;a href="https://github.com/element-hq/synapse/issues/18025"&gt;#18025&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Synapse 1.121.0rc1 (2024-12-04)&lt;/h1&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4190"&gt;MSC4190&lt;/a&gt;: device management for Application Services. (&lt;a href="https://github.com/element-hq/synapse/issues/17705"&gt;#17705&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Update &lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4186"&gt;MSC4186&lt;/a&gt; Sliding Sync to include invite, ban, kick, targets when &lt;code&gt;$LAZY&lt;/code&gt;-loading room members. (&lt;a href="https://github.com/element-hq/synapse/issues/17947"&gt;#17947&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Use stable &lt;code&gt;M_USER_LOCKED&lt;/code&gt; error code for locked accounts, as per &lt;a href="https://spec.matrix.org/v1.12/client-server-api/#account-locking"&gt;Matrix 1.12&lt;/a&gt;. (&lt;a href="https://github.com/element-hq/synapse/issues/17965"&gt;#17965&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4076"&gt;MSC4076&lt;/a&gt;: Add &lt;code&gt;disable_badge_count&lt;/code&gt; to pusher configuration. (&lt;a href="https://github.com/element-hq/synapse/issues/17975"&gt;#17975&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix long-standing bug where read receipts could get overly delayed being sent over federation. (&lt;a href="https://github.com/element-hq/synapse/issues/17933"&gt;#17933&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Improved Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add OIDC example configuration for Forgejo (fork of Gitea). (&lt;a href="https://github.com/element-hq/synapse/issues/17872"&gt;#17872&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Link to element-docker-demo from contrib/docker*. (&lt;a href="https://github.com/element-hq/synapse/issues/17953"&gt;#17953&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Internal Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/matrix-org/matrix-spec-proposals/pull/4108"&gt;MSC4108&lt;/a&gt;: Add a &lt;code&gt;Content-Type&lt;/code&gt; header on the &lt;code&gt;PUT&lt;/code&gt; response to work around a faulty behavior in some caching reverse proxies. (&lt;a href="https://github.com/element-hq/synapse/issues/17253"&gt;#17253&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix incorrect comment in new schema delta. (&lt;a href="https://github.com/element-hq/synapse/issues/17936"&gt;#17936&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Raise setuptools_rust version cap to 1.10.2. (&lt;a href="https://github.com/element-hq/synapse/issues/17944"&gt;#17944&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enable encrypted appservice related experimental features in the complement docker image. (&lt;a href="https://github.com/element-hq/synapse/issues/17945"&gt;#17945&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Return whether the user is suspended when querying the user account in the Admin API. (&lt;a href="https://github.com/element-hq/synapse/issues/17952"&gt;#17952&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix new scheduled tasks jumping the queue. (&lt;a href="https://github.com/element-hq/synapse/issues/17962"&gt;#17962&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump pyo3 and dependencies to v0.23.2. (&lt;a href="https://github.com/element-hq/synapse/issues/17966"&gt;#17966&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Update setuptools-rust and fix building abi3 wheels in latest version. (&lt;a href="https://github.com/element-hq/synapse/issues/17969"&gt;#17969&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Consolidate SSO redirects through &lt;code&gt;/_matrix/client/v3/login/sso/redirect(/{idpId})&lt;/code&gt;. (&lt;a href="https://github.com/element-hq/synapse/issues/17972"&gt;#17972&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix Docker and Complement config to be able to use &lt;code&gt;public_baseurl&lt;/code&gt;. (&lt;a href="https://github.com/element-hq/synapse/issues/17986"&gt;#17986&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix building wheels for MacOS which was temporarily disabled in Synapse 1.120.2. (&lt;a href="https://github.com/element-hq/synapse/issues/17993"&gt;#17993&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fix release process to not create duplicate releases. (&lt;a href="https://github.com/element-hq/synapse/issues/17970"&gt;#17970&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/17995"&gt;#17995&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Updates to locked dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump bytes from 1.8.0 to 1.9.0. (&lt;a href="https://github.com/element-hq/synapse/issues/17982"&gt;#17982&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump pysaml2 from 7.3.1 to 7.5.0. (&lt;a href="https://github.com/element-hq/synapse/issues/17978"&gt;#17978&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump serde_json from 1.0.132 to 1.0.133. (&lt;a href="https://github.com/element-hq/synapse/issues/17939"&gt;#17939&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump tomli from 2.0.2 to 2.1.0. (&lt;a href="https://github.com/element-hq/synapse/issues/17959"&gt;#17959&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump tomli from 2.1.0 to 2.2.1. (&lt;a href="https://github.com/element-hq/synapse/issues/17979"&gt;#17979&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bump tornado from 6.4.1 to 6.4.2. (&lt;a href="https://github.com/element-hq/synapse/issues/17955"&gt;#17955&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/element-hq/synapse/releases/tag/v1.121.1" rel="alternate"/>
   </entry>
