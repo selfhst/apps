@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-12-11T16:30:26.521317-05:00</updated>
+  <updated>2024-12-11T17:30:26.218079-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -280,8 +280,30 @@
     <author>
       <name>go-gitea/gitea</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;SECURITY   * Upgrade crypto library (#32791)   * Fix delete branch perm checking (#32654) (#32707) * BUGFIXES   * Add standard-compliant route to serve outdated R packages (#32783) (#32789)   * Fix internal server error when updating labels without write permission (#32776) (#32785)   * Add Swift login endpoint (#32693) (#32701)   * Fix fork page branch selection (#32711) (#32725)   * Fix word overflow in file search page (#32695) (#32699)   * Fix gogit &lt;code&gt;GetRefCommitID&lt;/code&gt; (#32705) (#32712)   * Fix race condition in mermaid observer (#32599) (#32673)   * Fixe a keystring misuse and refactor duplicates keystrings (#32668) (#32792)   * Bump relative-time-element to v4.4.4 (#32739) * PERFORMANCE   * Make wiki pages visit fast (#32732) (#32745) * MISC   * Don't create action when syncing mirror pull refs (#32659) (#32664)&lt;/li&gt;
+    <content>&lt;h2&gt;SECURITY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Upgrade crypto library (#32791)&lt;/li&gt;
+&lt;li&gt;Fix delete branch perm checking (#32654) (#32707)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;BUGFIXES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add standard-compliant route to serve outdated R packages (#32783) (#32789)&lt;/li&gt;
+&lt;li&gt;Fix internal server error when updating labels without write permission (#32776) (#32785)&lt;/li&gt;
+&lt;li&gt;Add Swift login endpoint (#32693) (#32701)&lt;/li&gt;
+&lt;li&gt;Fix fork page branch selection (#32711) (#32725)&lt;/li&gt;
+&lt;li&gt;Fix word overflow in file search page (#32695) (#32699)&lt;/li&gt;
+&lt;li&gt;Fix gogit &lt;code&gt;GetRefCommitID&lt;/code&gt; (#32705) (#32712)&lt;/li&gt;
+&lt;li&gt;Fix race condition in mermaid observer (#32599) (#32673)&lt;/li&gt;
+&lt;li&gt;Fixe a keystring misuse and refactor duplicates keystrings (#32668) (#32792)&lt;/li&gt;
+&lt;li&gt;Bump relative-time-element to v4.4.4 (#32739)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;PERFORMANCE&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make wiki pages visit fast (#32732) (#32745)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;MISC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Don't create action when syncing mirror pull refs (#32659) (#32664)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.22.5" rel="alternate"/>
   </entry>
