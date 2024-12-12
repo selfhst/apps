@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-12-11T23:30:29.786030-05:00</updated>
+  <updated>2024-12-12T00:30:29.069764-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -304,7 +304,8 @@
 &lt;h2&gt;MISC&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Don't create action when syncing mirror pull refs (#32659) (#32664)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.22.5" rel="alternate"/>
   </entry>
 </feed>
