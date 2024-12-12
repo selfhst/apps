@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2024-12-12T10:34:10.115913-05:00</updated>
+  <updated>2024-12-12T11:34:01.763067-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -148,7 +148,7 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: refresh communities list&lt;/li&gt;
 &lt;li&gt;PR: #1766&lt;/li&gt;
