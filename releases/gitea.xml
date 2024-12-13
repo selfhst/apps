@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2024-12-13T09:30:29.497660-05:00</updated>
+  <updated>2024-12-13T10:30:29.022882-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -233,9 +233,20 @@
     <author>
       <name>go-gitea/gitea</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;SECURITY   * Fix misuse of PublicKeyCallback(#32810) * BUGFIXES   * Fix lfs migration (#32812) (#32818)   * Add missing two sync feed for refs/pull (#32815) * TESTING   * Avoid MacOS keychain dialog in integration tests (#32813) (#32816)&lt;/li&gt;
-&lt;/ul&gt;</content>
+    <content>&lt;h2&gt;SECURITY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix misuse of PublicKeyCallback(#32810)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;BUGFIXES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix lfs migration (#32812) (#32818)&lt;/li&gt;
+&lt;li&gt;Add missing two sync feed for refs/pull (#32815)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;TESTING&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid MacOS keychain dialog in integration tests (#32813) (#32816)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.22.6" rel="alternate"/>
   </entry>
 </feed>
