@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-12-13T10:31:41.114640-05:00</updated>
+  <updated>2024-12-13T11:31:43.682338-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -370,11 +370,11 @@ _Non-user-facing changes_
 &lt;p&gt;Before you upgrade, back up your Metabase application database!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.52.2&lt;/code&gt;&lt;/a&gt;
-Download the JAR here: https://downloads.metabase.com/v0.52.2/metabase.jar&lt;/p&gt;
+&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.52.2.5&lt;/code&gt;&lt;/a&gt;
+Download the JAR here: https://downloads.metabase.com/v0.52.2.5/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
-&lt;p&gt;SHA-256 checksum for the v0.52.2 JAR:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;8527c01ee50dc0978af9d910aa157c6ea16bbccadc1eef1813c43c20cb3a24b3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;SHA-256 checksum for the v0.52.2.5 JAR:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2a0c93c0099b9c50b7816c0ae0f4fb6d882d88ba9c2abc8e06ae07878fe1aed1&lt;/code&gt;&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;h2&gt;Changelog&lt;/h2&gt;&lt;/summary&gt;
 
