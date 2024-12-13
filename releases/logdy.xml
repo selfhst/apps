@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logdy Releases</title>
-  <updated>2024-12-13T16:32:45.953558-05:00</updated>
+  <updated>2024-12-13T17:32:52.739437-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,7 +71,7 @@
     <author>
       <name>logdyhq/logdy-core</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;https://logdy.dev/blog/post/logdy-new-version-announcement-v014&lt;/p&gt;</content>
     <link href="https://github.com/logdyhq/logdy-core/releases/tag/v0.14.0" rel="alternate"/>
   </entry>
 </feed>

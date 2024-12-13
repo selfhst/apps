@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2024-12-13T16:31:23.611039-05:00</updated>
+  <updated>2024-12-13T17:31:26.888085-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -227,7 +227,7 @@ Going forward release artifacts will be named with:
 | -------- | ------- |
 | Stirling-PDF-Server  | Used for hosting server via console   |
 | Stirling-PDF | Portable exe with UI client  |
-| Stirling-PDF-Installer   | Installer with UI client    |&lt;/p&gt;
+| Stirling-PDF-Installer   | Installer with UI client    (Seems it didn't upload this release will arrive next release!)|   &lt;/p&gt;
 &lt;p&gt;We are working on getting a mac and unix version for UI installers, Need more mac users to help us beta test! please reach out in discord!&lt;/p&gt;
 &lt;p&gt;X-API-key have been renamed to X-API-KEY for consistency &lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
