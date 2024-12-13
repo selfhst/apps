@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maybe Releases</title>
-  <updated>2024-12-13T12:30:52.691441-05:00</updated>
+  <updated>2024-12-13T13:30:53.287969-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,58 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.1.0-alpha.18...v0.1.0&lt;/p&gt;</content>
     <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/maybe-finance/maybe/releases/tag/v0.2.0</id>
+    <title>New release for Maybe: v0.2.0</title>
+    <updated>2024-12-13T13:19:27-05:00</updated>
+    <author>
+      <name>maybe-finance/maybe</name>
+    </author>
+    <content>&lt;h2&gt;Plaid Integration + Multi-currency Investment Portfolio Support&lt;/h2&gt;
+&lt;p&gt;We have completed the first pass at our fully automated bank syncing with Plaid on our &lt;em&gt;hosted version&lt;/em&gt; of the app!&lt;/p&gt;
+&lt;p&gt;Automated bank syncing is a huge milestone for the app and includes many UI improvements, accuracy improvements, and bug fixes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editing transactions is now much smoother&lt;/li&gt;
+&lt;li&gt;Account history can be calculated chronologically and reverse-chronologically (required for Plaid accounts)&lt;/li&gt;
+&lt;li&gt;Multi-currency investment accounts are now available&lt;/li&gt;
+&lt;li&gt;Investment accounts now properly calculate "brokerage cash" vs. "holdings value" and break this out clearly in the view&lt;/li&gt;
+&lt;li&gt;Investment accounts calculate cost basis more accurately&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2024-12-13 at 12 31 03" src="https://github.com/user-attachments/assets/1fdbab79-7bc5-4631-80b4-a708df1783fd" /&gt;&lt;/p&gt;
+&lt;h3&gt;Can I self-host Plaid?&lt;/h3&gt;
+&lt;p&gt;As an open-source project, self-hosters are more than welcome to configure (and pay for) their own Plaid accounts.  You can see the &lt;code&gt;.env.example&lt;/code&gt; file for the required api keys that need to be provided to the app.&lt;/p&gt;
+&lt;p&gt;That said, due to the complexity around OAuth, Plaid's pricing structure, and costs associated with a personal Plaid subscription, we will not be officially supporting this setup.  The hosted version of our app has full Plaid support and is our recommended way to get access to automated bank syncing (more invites coming soon!).&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix registration fails silently when there are errors by @tonyvince in https://github.com/maybe-finance/maybe/pull/1455&lt;/li&gt;
+&lt;li&gt;Adds a common DE date format by @sbehrends in https://github.com/maybe-finance/maybe/pull/1445&lt;/li&gt;
+&lt;li&gt;Basic Plaid Integration by @zachgoll in https://github.com/maybe-finance/maybe/pull/1433&lt;/li&gt;
+&lt;li&gt;Make encryption config optional for self hosting users by @zachgoll in https://github.com/maybe-finance/maybe/pull/1476&lt;/li&gt;
+&lt;li&gt;Allow custom column separator for CSV parsing in uploads controller by @acflint in https://github.com/maybe-finance/maybe/pull/1470&lt;/li&gt;
+&lt;li&gt;Fix transfers and form currencies by @zachgoll in https://github.com/maybe-finance/maybe/pull/1477&lt;/li&gt;
+&lt;li&gt;Don't refresh page when transaction details are edited by @zachgoll in https://github.com/maybe-finance/maybe/pull/1479&lt;/li&gt;
+&lt;li&gt;Add post-sync UI stream updates by @zachgoll in https://github.com/maybe-finance/maybe/pull/1482&lt;/li&gt;
+&lt;li&gt;Calculates trend based on previous transaction's balance on the same date by @nicogaldamez in https://github.com/maybe-finance/maybe/pull/1483&lt;/li&gt;
+&lt;li&gt;Replaced Native Scrollbars with Tailwind Scrollbars on Windows by @jestinjoshi in https://github.com/maybe-finance/maybe/pull/1493&lt;/li&gt;
+&lt;li&gt;Fix bug: Loan % doesn't allow exact rate by @arsenstorm in https://github.com/maybe-finance/maybe/pull/1492&lt;/li&gt;
+&lt;li&gt;Fix Account Disabling UI by @arsenstorm in https://github.com/maybe-finance/maybe/pull/1491&lt;/li&gt;
+&lt;li&gt;Feature: Add support for customized synth URL from env variable by @Evlos in https://github.com/maybe-finance/maybe/pull/1490&lt;/li&gt;
+&lt;li&gt;Synth error handling by @Shpigford in https://github.com/maybe-finance/maybe/pull/1502&lt;/li&gt;
+&lt;li&gt;Updated usage check threshold to 100pc instead of 1 by @nikhilbadyal in https://github.com/maybe-finance/maybe/pull/1504&lt;/li&gt;
+&lt;li&gt;Improve account transaction, trade, and valuation editing and sync experience by @zachgoll in https://github.com/maybe-finance/maybe/pull/1506&lt;/li&gt;
+&lt;li&gt;Handle invalid API key by @nikhilbadyal in https://github.com/maybe-finance/maybe/pull/1515&lt;/li&gt;
+&lt;li&gt;Plaid portfolio sync algorithm and calculation improvements by @zachgoll in https://github.com/maybe-finance/maybe/pull/1526&lt;/li&gt;
+&lt;li&gt;Plaid sync tests and multi-currency investment support by @zachgoll in https://github.com/maybe-finance/maybe/pull/1531&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@sbehrends made their first contribution in https://github.com/maybe-finance/maybe/pull/1445&lt;/li&gt;
+&lt;li&gt;@acflint made their first contribution in https://github.com/maybe-finance/maybe/pull/1470&lt;/li&gt;
+&lt;li&gt;@Evlos made their first contribution in https://github.com/maybe-finance/maybe/pull/1490&lt;/li&gt;
+&lt;li&gt;@nikhilbadyal made their first contribution in https://github.com/maybe-finance/maybe/pull/1504&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
