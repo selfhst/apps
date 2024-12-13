@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obsidian LiveSync Releases</title>
-  <updated>2024-12-13T06:32:57.175888-05:00</updated>
+  <updated>2024-12-13T07:32:59.868115-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,6 +134,7 @@ Thank you for reporting the issue! I will handle it later!&lt;/p&gt;
     <content>&lt;h2&gt;0.24.5&lt;/h2&gt;
 &lt;p&gt;As with 0.24.4, this release focuses on weeding out bugs identified during testing. While there are still areas for improvement, this release lays a solid foundation for addressing them more effectively in the future. (However, sorry for keeping the issues open and lacking replies).&lt;/p&gt;
 &lt;p&gt;Status line updates have been significantly optimised and are now approximately 7x faster, with consistent CPU usage. &lt;/p&gt;
+&lt;p&gt;Complement: I noticed that the log pane is kept empty now… This will be fixed soon.&lt;/p&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed incorrect behaviour when comparing objects with undefined as a property value.&lt;/li&gt;
