@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2024-12-13T11:30:38.911907-05:00</updated>
+  <updated>2024-12-13T12:30:36.221383-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -246,7 +246,7 @@ Some videos may appear warped when viewing. If this occurs, please sign out and 
 &lt;li&gt;fix(web): misaligned icon on Firefox by @alextran1502 in https://github.com/immich-app/immich/pull/14500&lt;/li&gt;
 &lt;li&gt;fix(server): images with non-ascii names failing to load by @mertalev in https://github.com/immich-app/immich/pull/14512&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.0...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.0...v1.122.1&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.122.1" rel="alternate"/>
   </entry>
   <entry>
@@ -269,7 +269,7 @@ Some videos may appear warped when viewing. If this occurs, please sign out and 
 &lt;ul&gt;
 &lt;li&gt;@Cotterman-b made their first contribution in https://github.com/immich-app/immich/pull/14533&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.1...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.1...v1.122.2&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.122.2" rel="alternate"/>
   </entry>
   <entry>
@@ -305,7 +305,7 @@ Some videos may appear warped when viewing. If this occurs, please sign out and 
 &lt;li&gt;@vladd11 made their first contribution in https://github.com/immich-app/immich/pull/14586&lt;/li&gt;
 &lt;li&gt;@Menghini made their first contribution in https://github.com/immich-app/immich/pull/14368&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.2...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.122.2...v1.122.3&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.122.3" rel="alternate"/>
   </entry>
 </feed>
