@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trailarr Releases</title>
-  <updated>2024-12-13T18:33:32.449945-05:00</updated>
+  <updated>2024-12-13T19:33:14.189942-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,7 @@
     <author>
       <name>nandyalu/trailarr</name>
     </author>
-    <content>&lt;h2&gt;&lt;strong&gt;v0.2.4-beta&lt;/strong&gt; - &lt;em&gt;December 06, 2024&lt;/em&gt;&lt;/h2&gt;
+    <content>&lt;h2&gt;&lt;strong&gt;v0.2.5-beta&lt;/strong&gt; - &lt;em&gt;December 13, 2024&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Other Changes:&lt;/strong&gt; ⚡&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Current installed version of &lt;code&gt;yt-dlp&lt;/code&gt; stopped working a few days ago, updating to the latest version!&lt;/li&gt;
@@ -25,5 +25,24 @@
 &lt;li&gt;Updated Github Actions to create PRs for dependency upgrades.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nandyalu/trailarr/releases/tag/v0.2.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nandyalu/trailarr/releases/tag/v0.2.6</id>
+    <title>New release for Trailarr: v0.2.6 Release</title>
+    <updated>2024-12-13T18:51:42-05:00</updated>
+    <author>
+      <name>nandyalu/trailarr</name>
+    </author>
+    <content>&lt;h2&gt;&lt;strong&gt;v0.2.6&lt;/strong&gt; - &lt;em&gt;December 13, 2024&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; 🐛&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug in v0.2.5 release that caused trailer download task to fail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other Changes:&lt;/strong&gt; ⚡&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A few minor improvements in logging for trailer downloads.&lt;/li&gt;
+&lt;li&gt;Added logging (debug only) to indicate that cookies file is used for downloading trailers.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/nandyalu/trailarr/releases/tag/v0.2.6" rel="alternate"/>
   </entry>
 </feed>
