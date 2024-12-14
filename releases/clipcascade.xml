@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2024-12-14T00:34:07.898109-05:00</updated>
+  <updated>2024-12-14T01:34:23.969657-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,7 +166,7 @@
 &lt;hr /&gt;
 &lt;h3&gt;✨ What's New in v1.1.0:&lt;/h3&gt;
 &lt;h4&gt;&lt;strong&gt;Linux (Non-GUI)&lt;/strong&gt;:&lt;/h4&gt;
-&lt;h2&gt;- &lt;strong&gt;Failsafe Polling Mode for Wayland/Hyperland&lt;/strong&gt;: Implemented a failsafe polling mode for clipboard monitoring, exclusive to Wayland/Hyperland-based Linux distributions. This mode ensures that clipboard content is reliably captured when the &lt;strong&gt;X11&lt;/strong&gt;/&lt;strong&gt;Xwayland&lt;/strong&gt; sessions fail or are not present.&lt;/h2&gt;
+&lt;h2&gt;- &lt;strong&gt;Failsafe Polling Mode for Wayland/Hyprland&lt;/strong&gt;: Implemented a failsafe polling mode for clipboard monitoring, exclusive to Wayland/Hyprland-based Linux distributions. This mode ensures that clipboard content is reliably captured when the &lt;strong&gt;X11&lt;/strong&gt;/&lt;strong&gt;XWayland&lt;/strong&gt; sessions fail or are not present.&lt;/h2&gt;
 &lt;h3&gt;🔄 How to Update&lt;/h3&gt;
 &lt;p&gt;For current users, simply install the latest version for your platform. The latest app version includes an inbuilt update check feature, allowing users to easily check for updates directly within the app.&lt;/p&gt;</content>
     <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/1.1.0" rel="alternate"/>
