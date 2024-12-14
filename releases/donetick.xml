@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2024-12-14T17:34:25.660300-05:00</updated>
+  <updated>2024-12-14T18:34:28.817358-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,8 +104,7 @@ Support Migration using sql ( for future use)&lt;/li&gt;
 - Improve the UI, separating tasks by dates and ability to group by date&lt;/p&gt;
 &lt;p&gt;Fix : 
 - https://github.com/donetick/donetick/issues/27
-- https://github.com/donetick/donetick/issues/39
-- &lt;/p&gt;
+- https://github.com/donetick/donetick/issues/39&lt;/p&gt;
 &lt;p&gt;&lt;img width="328" alt="image" src="https://github.com/user-attachments/assets/8f7e2ab7-5cf0-4f4c-b47f-b3251e5370f7" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.22" rel="alternate"/>
   </entry>
