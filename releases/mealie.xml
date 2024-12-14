@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mealie Releases</title>
-  <updated>2024-12-13T23:30:51.518632-05:00</updated>
+  <updated>2024-12-14T00:30:50.893746-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -584,7 +584,7 @@ We'll aim to share the results in November.&lt;/p&gt;
 &lt;p&gt;We've published our survey results! Thanks to the 525 people who took the time to fill in our survey in October/November. Please do go have a look at the results on our &lt;a href="https://docs.mealie.io/news/surveys/2024-october/overview/"&gt;docs site&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Michael upgraded the version of Python we use, from 3.10 to 3.10 in #4675&lt;/p&gt;
+&lt;p&gt;Michael upgraded the version of Python we use, from 3.10 to 3.12 in #4675&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;✨ New features&lt;/h2&gt;
