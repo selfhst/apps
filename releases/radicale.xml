@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Radicale Releases</title>
-  <updated>2024-12-15T16:31:11.049607-05:00</updated>
+  <updated>2024-12-15T17:31:09.728667-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,7 +84,7 @@
   </entry>
   <entry>
     <id>https://github.com/Kozea/Radicale/releases/tag/v3.3.2</id>
-    <title>New release for Radicale: Features, Fixes and Improvements</title>
+    <title>New release for Radicale: 3.3.2 Features, Fixes and Improvements</title>
     <updated>2024-12-15T07:13:33-05:00</updated>
     <author>
       <name>Kozea/Radicale</name>
