@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Shaarli Releases</title>
-  <updated>2024-12-16T17:31:25.499545-05:00</updated>
+  <updated>2024-12-16T18:31:17.646831-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -333,9 +333,9 @@ The &lt;code&gt;:stable&lt;/code&gt; Docker image has been removed, please use &
 &lt;li&gt;doc: add shaarli-offen plugin to Community &amp;amp; related software by @waschinski in https://github.com/shaarli/Shaarli/pull/2064&lt;/li&gt;
 &lt;li&gt;doc: add Shaanti browser extension to Community &amp;amp; related software by @7Ds7 in https://github.com/shaarli/Shaarli/pull/2078&lt;/li&gt;
 &lt;li&gt;doc: add image-upload plugin to Community &amp;amp; related software by @bttrx in https://github.com/shaarli/Shaarli/pull/2097&lt;/li&gt;
-&lt;li&gt;doc: add shaarli2bluesky plugin to Community &amp;amp; related software by @bttrx in https://github.com/shaarli/Shaarli/pull/2097&lt;/li&gt;
+&lt;li&gt;doc: add shaarli2bluesky plugin to Community &amp;amp; related software by @kalvn in https://github.com/shaarli/Shaarli/pull/2111&lt;/li&gt;
 &lt;li&gt;doc: server configuration: allow accessing and caching SVG assets by @nodiscc in https://github.com/shaarli/Shaarli/pull/2074&lt;/li&gt;
-&lt;li&gt;doc: usage: document "Sticky" mode by @kalvn in https://github.com/shaarli/Shaarli/pull/2111&lt;/li&gt;
+&lt;li&gt;doc: usage: document "Sticky" mode by @nodiscc in https://github.com/shaarli/Shaarli/pull/2055&lt;/li&gt;
 &lt;li&gt;doc: troubleshooting: add solution for &lt;code&gt;Allowed memory size of xxx bytes exhausted&lt;/code&gt; by @nodiscc in https://github.com/shaarli/Shaarli/pull/2083&lt;/li&gt;
 &lt;li&gt;doc: usage: add opensearch/browser search engine integration instructions by @nodiscc in https://github.com/shaarli/Shaarli/pull/2096&lt;/li&gt;
 &lt;li&gt;doc: troubleshooting: list more cases in which title retrieval fails by @nodiscc in https://github.com/shaarli/Shaarli/pull/2060&lt;/li&gt;
