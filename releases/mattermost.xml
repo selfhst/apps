@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-12-16T01:30:49.928698-05:00</updated>
+  <updated>2024-12-16T02:30:49.407061-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.3.1&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.3.1 contains various new improvements and bug fixes, including Scheduled Messages.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.3.1" rel="alternate"/>
   </entry>
 </feed>
