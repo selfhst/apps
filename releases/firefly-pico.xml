@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Firefly-Pico Releases</title>
-  <updated>2024-12-16T06:33:29.303827-05:00</updated>
+  <updated>2024-12-16T07:33:41.518508-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,7 @@
 &lt;li&gt;Show account and category icons transaction-list-items @avee87&lt;/li&gt;
 &lt;li&gt;Show account and category icons transaction-template-list-items @avee87&lt;/li&gt;
 &lt;li&gt;Added more general purpose icons&lt;/li&gt;
-&lt;li&gt;Improved the budgets list by showing currency + making it respect the dashboard hide ammount @avee87 &lt;/li&gt;
+&lt;li&gt;Improved the budgets list by showing currency + making it respect the dashboard hide amount @avee87 &lt;/li&gt;
 &lt;li&gt;Updated UI to better show split-transactions info&lt;/li&gt;
 &lt;li&gt;Updated transaction-form to actually be read-only for split-transactions&lt;/li&gt;
 &lt;li&gt;Show account and category icons in the transactionst-list-item @avee87 &lt;/li&gt;
@@ -151,7 +151,7 @@
 &lt;li&gt;Assistant resets correctly when switching templates&lt;/li&gt;
 &lt;li&gt;Fixed transaction-template to show all relevant fields @avee87 &lt;/li&gt;
 &lt;li&gt;Fixed removing category from transaction or transaction-template  @avee87&lt;/li&gt;
-&lt;li&gt;Fixed budgets to use the actual limit instead of the &lt;/li&gt;
+&lt;li&gt;Fixed budgets to use the actual limit instead of the interval amount&lt;/li&gt;
 &lt;li&gt;Various UI fixes  (show only 2 decimal places @avee87 , budgets colors based on percent etc)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
