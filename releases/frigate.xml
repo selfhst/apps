@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Frigate Releases</title>
-  <updated>2024-12-16T07:31:51.937005-05:00</updated>
+  <updated>2024-12-16T08:31:50.453611-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -918,12 +918,12 @@ Yes. In the Review pane, Ctrl/Cmd-A selects all of your review items. On Live ca
     </author>
     <content>&lt;h2&gt;Images&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1-standard-arm64&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt-jp4&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt-jp5&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/blakeblackshear/frigate:0.14.1-rk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264807004?tag=0.14.1"&gt;ghcr.io/blakeblackshear/frigate:0.14.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264798475?tag=0.14.1-standard-arm64"&gt;ghcr.io/blakeblackshear/frigate:0.14.1-standard-arm64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264802776?tag=0.14.1-tensorrt"&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264799894?tag=0.14.1-tensorrt-jp4"&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt-jp4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264799401?tag=0.14.1-tensorrt-jp5"&gt;ghcr.io/blakeblackshear/frigate:0.14.1-tensorrt-jp5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/blakeblackshear/frigate/pkgs/container/frigate/264806818?tag=0.14.1-rk"&gt;ghcr.io/blakeblackshear/frigate:0.14.1-rk&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a maintenance release for Frigate 0.14 that includes bugfixes as well as performance and stability improvements.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
