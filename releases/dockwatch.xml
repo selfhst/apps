@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockwatch Releases</title>
-  <updated>2024-12-15T20:34:32.043602-05:00</updated>
+  <updated>2024-12-15T21:34:27.565235-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,20 @@
     </author>
     <content/>
     <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.346" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.349</id>
+    <title>New release for Dockwatch: v0.5.349</title>
+    <updated>2024-12-15T20:35:42-05:00</updated>
+    <author>
+      <name>Notifiarr/dockwatch</name>
+    </author>
+    <content>&lt;p&gt;Escape underscores in Telegram notifications. Fixes #48
+Add a detailed view for the overview (#49)
+Add some on clicks to the overview page (#49)
+Add a setting to pick which page loads by default
+Move container action buttons to the top and float them when not on mobile&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.346...v0.5.349&lt;/p&gt;</content>
+    <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.349" rel="alternate"/>
   </entry>
 </feed>
