@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2024-12-16T13:31:09.436753-05:00</updated>
+  <updated>2024-12-16T14:31:09.448558-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -162,7 +162,11 @@ None&lt;/p&gt;</content>
     <content>&lt;p&gt;This is a STS (&lt;strong&gt;S&lt;/strong&gt;hort &lt;strong&gt;T&lt;/strong&gt;erm &lt;strong&gt;S&lt;/strong&gt;upport) release that includes all the changes added up to and including the 2.24.1 patch release as well as various fixes aimed at enhancing the stability and scalability of Portainer. For more details on what is included from the 2.24 release, refer to the 2.24 release notes.&lt;/p&gt;
 &lt;h2&gt;Known issues&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Known issues with Docker support&lt;ul&gt;
+&lt;li&gt;Service pruning does not work with stacks using relative paths&lt;/li&gt;
 &lt;li&gt;GitOps updates option is not visible when first deploying stacks from Git on Docker (but can be configured after the stack is deployed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Known issues with Podman support:&lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
 &lt;li&gt;It's not possible to add Podman environments via socket when running a Portainer server on Docker (and vice versa)&lt;/li&gt;

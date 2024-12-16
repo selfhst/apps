@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2024-12-16T13:30:28.570559-05:00</updated>
+  <updated>2024-12-16T14:30:29.439279-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -700,8 +700,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="16 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=16&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2299 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2299&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="15 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=15&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2298 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2298&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Add support for values to the `glab agent bootstrap` command](https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/cluster/agent/bootstrap.md#options): &lt;code&gt;Deployment Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; In the last release, we introduced support for easy agent bootstrapping to the GitLab CLI tool. GitLab 17.6 further improves the `glab cluster agent bootstrap` command with support for custom Helm values. You can use the `--helm-release-values` and `--helm-release-values-from` flags to customize the generated `HelmRelease` resource.
@@ -747,16 +747,6 @@
 &gt; Now, when you create or edit a merge request you can specify a `merge after` date. This date will be used to prevent the merge request from being merged until it has passed. Using this new capability with our previously released [improvements to auto-merge](https://about.gitlab.com/releases/2024/09/19/gitlab-17-4-released/#auto-merge-when-all-checks-pass) gives you the flexibility to schedule merge requests to merge in the future.
 &gt; 
 &gt; A big thank you to [Niklas van Schrick](https://gitlab.com/Taucher2003) for the amazing contribution!
-
-&lt;/details&gt;
-
-&lt;details&gt;&lt;summary&gt;[Enhanced merge request reviewer assignments](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/#request-a-review): &lt;code&gt;Code Review Workflow&lt;/code&gt;&lt;/summary&gt;
-
-&gt; After you've carefully crafted your changes and prepared a merge request, the next step is to identify reviewers who can help move it forward. Identifying the right reviewers for your merge request involves understanding who the right approvers are, and who might be a subject matter expert (CODEOWNER) for the changes you're proposing. 
-&gt; 
-&gt; Now, when assigning reviewers, the sidebar creates a connection between the approval requirements for your merge request and reviewers. View each approval rule, then select from approvers who can satisfy that approval rule and move the merge request forward for you. If you use [optional CODEOWNER sections](https://docs.gitlab.com/ee/user/project/codeowners/#make-a-code-owners-section-optional) those rules are also shown in the sidebar to help you identify appropriate subject matter experts for your changes.
-&gt; 
-&gt; Enhanced reviewer assignments is the next evolution of applying intelligence to assigned reviewers in GitLab. This iteration builds on what we've learned from suggested reviewers, and how to effectively identify the best reviewers for moving a merge request forward. In [upcoming iterations](https://gitlab.com/groups/gitlab-org/-/epics/14808) of reviewer assignments, we'll continue to enhance the intelligence used to recommend and rank possible reviewers.
 
 &lt;/details&gt;
 
