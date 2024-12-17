@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2024-12-17T09:31:47.305168-05:00</updated>
+  <updated>2024-12-17T10:31:47.607989-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -41,7 +41,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;&lt;strong&gt;CVE:&lt;/strong&gt; &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-53259"&gt;CVE-2024-53259 &lt;/a&gt; (Advisory &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-hxr6-2p24-hf98"&gt;GHSA-hxr6-2p24-hf98&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[acme]&lt;/strong&gt; Update go-acme/lego to v4.20.4 (&lt;a href="https://github.com/traefik/traefik/pull/11295"&gt;#11295&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
 - &lt;strong&gt;[http3]&lt;/strong&gt; Update github.com/quic-go/quic-go to v0.48.2 (&lt;a href="https://github.com/traefik/traefik/pull/11320"&gt;#11320&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v2.11.15" rel="alternate"/>
@@ -53,7 +54,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;&lt;strong&gt;CVE:&lt;/strong&gt; &lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-53259"&gt;CVE-2024-53259 &lt;/a&gt; (Advisory &lt;a href="https://github.com/traefik/traefik/security/advisories/GHSA-hxr6-2p24-hf98"&gt;GHSA-hxr6-2p24-hf98&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[docker,docker/swarm]&lt;/strong&gt; Rename traefik.docker.&lt;em&gt; labels for Docker Swarm to traefik.swarm.&lt;/em&gt; (&lt;a href="https://github.com/traefik/traefik/pull/11247"&gt;#11247&lt;/a&gt; by &lt;a href="https://github.com/anchal00"&gt;anchal00&lt;/a&gt;)
 - &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Update sigs.k8s.io/gateway-api to v1.2.1 (&lt;a href="https://github.com/traefik/traefik/pull/11314"&gt;#11314&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
 - &lt;strong&gt;[plugins]&lt;/strong&gt; Fix WASM settings (&lt;a href="https://github.com/traefik/traefik/pull/11321"&gt;#11321&lt;/a&gt; by &lt;a href="https://github.com/juliens"&gt;juliens&lt;/a&gt;)
