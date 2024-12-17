@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Flood Releases</title>
-  <updated>2024-12-17T14:34:37.632431-05:00</updated>
+  <updated>2024-12-17T15:34:39.349944-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,7 +68,25 @@
     <author>
       <name>jesec/flood</name>
     </author>
-    <content>&lt;p&gt;release: 4.8.5 (#832)&lt;/p&gt;</content>
+    <content>&lt;p&gt;release: 4.8.5 (#832)&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;build(deps): bump http-proxy-middleware from 2.0.6 to 2.0.7 by @dependabot in https://github.com/jesec/flood/pull/816&lt;/li&gt;
+&lt;li&gt;fix(qBittorrent): Missing states by @LXGaming in https://github.com/jesec/flood/pull/817&lt;/li&gt;
+&lt;li&gt;i18n: new translations by @trim21 in https://github.com/jesec/flood/pull/821&lt;/li&gt;
+&lt;li&gt;ci: fix docker-dbg job by @trim21 in https://github.com/jesec/flood/pull/822&lt;/li&gt;
+&lt;li&gt;build(deps): bump cross-spawn from 7.0.3 to 7.0.5 by @dependabot in https://github.com/jesec/flood/pull/823&lt;/li&gt;
+&lt;li&gt;fix(qBittorrent): API Version state handling by @LXGaming in https://github.com/jesec/flood/pull/826&lt;/li&gt;
+&lt;li&gt;fix(rTorrent): prevent extra commas in serialized XML by @kannibalox in https://github.com/jesec/flood/pull/830&lt;/li&gt;
+&lt;li&gt;fix(rTorrent): support xmlrpc int type by @trim21 in https://github.com/jesec/flood/pull/829&lt;/li&gt;
+&lt;li&gt;build: remove deprecated package &lt;code&gt;frontmatter-markdown-loader&lt;/code&gt; by @trim21 in https://github.com/jesec/flood/pull/831&lt;/li&gt;
+&lt;li&gt;release: 4.8.5 by @trim21 in https://github.com/jesec/flood/pull/832&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@kannibalox made their first contribution in https://github.com/jesec/flood/pull/830&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jesec/flood/compare/v4.8.4...v4.8.5&lt;/p&gt;</content>
     <link href="https://github.com/jesec/flood/releases/tag/v4.8.5" rel="alternate"/>
   </entry>
 </feed>
