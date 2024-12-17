@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2024-12-17T13:30:53.546174-05:00</updated>
+  <updated>2024-12-17T14:30:55.310364-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -424,6 +424,26 @@ This version patches an issue with the database type of tax rates in the Cart Mo
 CMS_BREAK --&gt;
 
 &lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;h3&gt;Breaking changes&lt;/h3&gt;
+&lt;p&gt;The input shape of two core workflows have changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;updateLineItemInCartWorkflow&lt;/code&gt;
+```diff
+export interface UpdateLineItemInCartWorkflowInputDTO {&lt;/li&gt;
+&lt;li&gt;cart_id: string&lt;/li&gt;
+&lt;li&gt;item_id: string&lt;/li&gt;
+&lt;li&gt;cart: CartDTO&lt;/li&gt;
+&lt;li&gt;item: CartLineItemDTO
+   update: Partial&lt;UpdateLineItemDTO&gt;
+ }&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;- `addToCartWorkflow`&lt;/code&gt;diff
+export interface AddToCartWorkflowInputDTO {
++   cart_id: string
+-   cart: CartDTO
+   items: CreateCartCreateLineItemDTO[]
+ }
+```&lt;/p&gt;
 &lt;h3&gt;Patches a regression with the Cart Module&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]&lt;br /&gt;
