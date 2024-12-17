@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uptime Mate Releases</title>
-  <updated>2024-12-17T04:34:03.556264-05:00</updated>
+  <updated>2024-12-17T05:33:48.374968-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,5 +60,20 @@
 &lt;li&gt;Removed unnecessary property&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/schech1/uptime-buddy/releases/tag/1.1.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/schech1/uptime-buddy/releases/tag/1.2.0</id>
+    <title>New release for Uptime Mate: 1.2.0 </title>
+    <updated>2024-12-17T05:03:53-05:00</updated>
+    <author>
+      <name>schech1/uptime-buddy</name>
+    </author>
+    <content>&lt;h3&gt;Total retro makeover&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total makeover of the app to give it some personality&lt;/li&gt;
+&lt;li&gt;QR-Code in Docker logs that allows to set up the app easily &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="ios-preview" src="https://github.com/user-attachments/assets/c08599c4-e323-401e-b847-2a5d1de2edbb" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/schech1/uptime-buddy/releases/tag/1.2.0" rel="alternate"/>
   </entry>
 </feed>
