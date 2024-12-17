@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2024-12-17T10:30:37.796649-05:00</updated>
+  <updated>2024-12-17T11:30:36.471803-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,7 +76,8 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Bug fixes&lt;/h2&gt;
+    <content>&lt;p&gt;The big new feature in this release is &lt;a href="https://gohugo.io/functions/js/batch/"&gt;js.Batch&lt;/a&gt; – this enables JavaScript bundle groups (e.g. scripts per section) with global code splitting and flexible hooks/runners setup.&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix panic on server rebuilds when using both base templates and template.Defer a5e5be234 @bep #12963 &lt;/li&gt;
 &lt;li&gt;js: Fix js.Batch for multihost setups 565c30eac @bep #13151 &lt;/li&gt;
