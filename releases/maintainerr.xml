@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2024-12-17T05:32:45.794767-05:00</updated>
+  <updated>2024-12-17T06:32:43.654475-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,7 @@
 &lt;li&gt;Add "Show on library recommended" option (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/ccc13ba526117691670b1eb741a14e4b36416dd4"&gt;ccc13ba&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add base path support (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1373"&gt;#1373&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/9597bfa69f29e508e8762ddfad1d2c3cccd39528"&gt;9597bfa&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add envars to control service ports (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1333"&gt;#1333&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/b4189752ce265b16e2b28a7c4eecc0385903fe07"&gt;b418975&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Support mutiple *arr servers (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/156aca12fd599e490dd68a60100c9f2a210a859a"&gt;156aca1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Support mutiple *arr servers (&lt;a href="https://github.com/jorenn92/Maintainerr/pull/1327"&gt;#1327&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/156aca12fd599e490dd68a60100c9f2a210a859a"&gt;156aca1&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jorenn92/Maintainerr/releases/tag/v2.3.0" rel="alternate"/>
   </entry>
