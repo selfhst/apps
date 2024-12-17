@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2024-12-16T19:31:14.209735-05:00</updated>
+  <updated>2024-12-16T20:31:11.601030-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -377,17 +377,18 @@
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v7.12.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/IgnisDa/ryot/releases/tag/v7.12.2</id>
-    <title>New release for Ryot: v7.12.2</title>
-    <updated>2024-12-16T12:34:23-05:00</updated>
+    <id>https://github.com/IgnisDa/ryot/releases/tag/v7.12.3</id>
+    <title>New release for Ryot: v7.12.3</title>
+    <updated>2024-12-16T20:07:48-05:00</updated>
     <author>
       <name>IgnisDa/ryot</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/466153b03a140db668ce92de2def417944b6f0e2"&gt;466153b0&lt;/a&gt; - fix(utils/database): summary calculation and null ordering&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/5bc62a474d360df39a21bf42b5013ebbd967c090"&gt;5bc62a47&lt;/a&gt; - perf(backend): update 3 media items at once&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/98bb0a5419edbea5ff55d0833bd6be3036591e4e"&gt;98bb0a54&lt;/a&gt; - ci: update permissions for job&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/IgnisDa/ryot/releases/tag/v7.12.2" rel="alternate"/>
+    <link href="https://github.com/IgnisDa/ryot/releases/tag/v7.12.3" rel="alternate"/>
   </entry>
 </feed>
