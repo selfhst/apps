@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2024-12-17T12:30:54.674612-05:00</updated>
+  <updated>2024-12-17T13:30:51.914138-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -906,8 +906,7 @@ SHA1(5.2.0-update.zip)= a173c2243bd4bc49b86dfad42f4bedebb3d178f4&lt;/p&gt;</cont
     <author>
       <name>mautic/mautic</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 5.2.1 --&gt;
-
+    <content>&lt;h2&gt;Announcing Mautic 5.2.1: Asterope Edition&lt;/h2&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;🐛 Bugs&lt;/h3&gt;
 &lt;ul&gt;
@@ -929,11 +928,12 @@ SHA1(5.2.0-update.zip)= a173c2243bd4bc49b86dfad42f4bedebb3d178f4&lt;/p&gt;</cont
 &lt;li&gt;Notification message to include the reason by @shinde-rahul in https://github.com/mautic/mautic/pull/14216&lt;/li&gt;
 &lt;li&gt;Fix integration variable twig issue by @kuzmany in https://github.com/mautic/mautic/pull/14361&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;h2&gt;💖 New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@caiqueportela made their first contribution in https://github.com/mautic/mautic/pull/14360&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mautic/mautic/compare/5.2.0...5.2.1&lt;/p&gt;
+&lt;h2&gt;🪵 Full Changelog&lt;/h2&gt;
+&lt;p&gt;https://github.com/mautic/mautic/compare/5.2.0...5.2.1&lt;/p&gt;
 &lt;p&gt;SHA1(5.2.1.zip)= fc5e80e1ea991c7123a5cf7354a2c33af19fdca2
 SHA1(5.2.1-update.zip)= 665b7b078b0f112784d45712f1044a029439d27d&lt;/p&gt;</content>
     <link href="https://github.com/mautic/mautic/releases/tag/5.2.1" rel="alternate"/>
