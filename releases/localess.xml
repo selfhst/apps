@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Localess Releases</title>
-  <updated>2024-12-17T03:34:37.619613-05:00</updated>
+  <updated>2024-12-17T04:34:56.960179-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,8 +129,7 @@
     <author>
       <name>Lessify/localess</name>
     </author>
-    <content>&lt;p&gt;Next Step to perfection&lt;/p&gt;
-&lt;h2&gt;The following features are implemented :&lt;/h2&gt;
+    <content>&lt;h2&gt;The following features are implemented :&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Content:&lt;/li&gt;
 &lt;li&gt;Move Feature&lt;/li&gt;
