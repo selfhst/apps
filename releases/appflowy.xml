@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-12-18T02:32:05.381912-05:00</updated>
+  <updated>2024-12-18T03:32:17.521872-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,6 +106,7 @@
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.7.8 - 18/12/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
+&lt;p&gt;&lt;img width="1068" alt="image" src="https://github.com/user-attachments/assets/cf8bd287-f370-4291-8638-76e2bbf4aaac" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Meet Simple Table 2.0:&lt;/li&gt;
 &lt;li&gt;Insert a list into a table cell&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2024-12-18T02:30:49.970862-05:00</updated>
+  <updated>2024-12-18T03:30:55.851724-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.1.5&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.1.5 fixes an issue where System Administrators could not pull posts in from Direct Message channels they were not in.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.1.5" rel="alternate"/>
   </entry>
 </feed>
