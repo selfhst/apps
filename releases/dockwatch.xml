@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockwatch Releases</title>
-  <updated>2024-12-18T17:34:31.953819-05:00</updated>
+  <updated>2024-12-18T18:34:42.581148-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,16 @@ Add a setting to pick which page loads by default
 Move container action buttons to the top and float them when not on mobile&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.346...v0.5.349&lt;/p&gt;</content>
     <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.349" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.350</id>
+    <title>New release for Dockwatch: v0.5.350</title>
+    <updated>2024-12-18T18:09:48-05:00</updated>
+    <author>
+      <name>Notifiarr/dockwatch</name>
+    </author>
+    <content>&lt;p&gt;Fix zindex on the container page button group&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.349...v0.5.350&lt;/p&gt;</content>
+    <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.350" rel="alternate"/>
   </entry>
 </feed>
