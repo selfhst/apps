@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-12-17T20:32:09.345023-05:00</updated>
+  <updated>2024-12-17T21:32:03.730398-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,22 @@
     <author>
       <name>AppFlowy-IO/AppFlowy</name>
     </author>
-    <content/>
+    <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
+&lt;h2&gt;Version 0.7.8 - 18/12/2024&lt;/h2&gt;
+&lt;h3&gt;New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support "set to page width" and "distribute columns evenly" for table block&lt;/li&gt;
+&lt;li&gt;Added support for reordering column/row in table block&lt;/li&gt;
+&lt;li&gt;Added support inserting multiple lines in table block&lt;/li&gt;
+&lt;li&gt;Revamped the mention page interactions in AI chat page&lt;/li&gt;
+&lt;li&gt;Improved the AI referenced sources UI in AI chat page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an error when opening files in the database in local mode&lt;/li&gt;
+&lt;li&gt;Fixed arrow up/down navigation not working for selecting a language in code block&lt;/li&gt;
+&lt;li&gt;Fixed an issue where deleting multiple blocks using the drag button on the document page didn't work&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.7.8" rel="alternate"/>
   </entry>
 </feed>
