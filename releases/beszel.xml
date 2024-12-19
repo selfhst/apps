@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Beszel Releases</title>
-  <updated>2024-12-18T23:33:50.330809-05:00</updated>
+  <updated>2024-12-19T00:33:49.345291-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,12 +123,16 @@ volumes:
     <author>
       <name>henrygd/beszel</name>
     </author>
-    <content>&lt;p&gt;We now &lt;a href="https://beszel.dev/"&gt;have a website&lt;/a&gt; with better documentation. Feel free to submit a PR if you want to add or improve anything.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-This release adds a built in rate limiter. I recommend enabling it (and specifying a trusted proxy header if applicable) on the &lt;code&gt;/_/#/settings&lt;/code&gt; page.&lt;/p&gt;
-&lt;p&gt;A lot of internal refactoring was needed to accommodate changes in PocketBase. If anything isn't working correctly, please open an issue.&lt;/p&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+This release includes breaking changes to the REST API. Most importantly, &lt;code&gt;/api/admins/*&lt;/code&gt; has been replaced with the &lt;code&gt;_superusers&lt;/code&gt; auth collection. For more information see "Web APIs changes" in the &lt;a href="https://github.com/pocketbase/pocketbase/releases/tag/v0.23.0"&gt;PocketBase 0.23.0 release notes&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This release adds a built in rate limiter. I recommend enabling it (and specifying a trusted proxy header if applicable) on the &lt;code&gt;/_/#/settings&lt;/code&gt; page.&lt;/li&gt;
+&lt;li&gt;A lot of internal refactoring was needed to accommodate changes in PocketBase. If anything isn't working correctly, please open an issue.&lt;/li&gt;
+&lt;li&gt;We now &lt;a href="https://beszel.dev/"&gt;have a website&lt;/a&gt; with better documentation. Feel free to submit a PR if you want to add or improve anything.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;New features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;USER_CREATION&lt;/code&gt; environment variable to allow automatic creation of user accounts via OAuth. (#291)&lt;/li&gt;
