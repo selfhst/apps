@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NewsBlur Releases</title>
-  <updated>2024-12-19T12:31:01.082508-05:00</updated>
+  <updated>2024-12-19T13:31:09.148128-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,16 @@
     </author>
     <content>&lt;p&gt;https://github.com/samuelclay/NewsBlur/issues/1886 Add support for Themed Icons&lt;/p&gt;</content>
     <link href="https://github.com/samuelclay/NewsBlur/releases/tag/Android_v13.3.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/samuelclay/NewsBlur/releases/tag/Android_v13.3.3</id>
+    <title>New release for NewsBlur: Android v13.3.3</title>
+    <updated>2024-12-19T12:52:55-05:00</updated>
+    <author>
+      <name>samuelclay/NewsBlur</name>
+    </author>
+    <content>&lt;p&gt;https://github.com/samuelclay/NewsBlur/issues/1912 Fix lowercase feed url
+https://github.com/samuelclay/NewsBlur/issues/1889 Move Fastlane folder to root&lt;/p&gt;</content>
+    <link href="https://github.com/samuelclay/NewsBlur/releases/tag/Android_v13.3.3" rel="alternate"/>
   </entry>
 </feed>
