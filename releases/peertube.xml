@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2024-12-19T00:31:05.448319-05:00</updated>
+  <updated>2024-12-19T01:31:04.898539-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -171,7 +171,7 @@
     </author>
     <content>&lt;h3&gt;IMPORTANT NOTES&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Ensure you have &lt;code&gt;storage.original_video_files&lt;/code&gt; set in your configuration file: https://github.com/Chocobozzz/PeerTube/blob/develop/config/production.yaml.example#L159.
+&lt;li&gt;&lt;strong&gt;Classic install only&lt;/strong&gt; (for Docker admins see &lt;a href="https://github.com/Chocobozzz/PeerTube/releases/tag/v6.3.0"&gt;v6.3 IMPORTANT NOTES&lt;/a&gt;) Ensure you have &lt;code&gt;storage.original_video_files&lt;/code&gt; set in your configuration file: https://github.com/Chocobozzz/PeerTube/blob/develop/config/production.yaml.example#L159.
  If you did not configure this key but have already enabled "Keep a version of the input file" configuration, original files may have been saved in &lt;code&gt;versions/peertube-v6.x.x/storage/original-video-files/&lt;/code&gt; directories. If this is the case, you must move these files in the new directory location specified by your &lt;code&gt;storage.original_video_files&lt;/code&gt; configuration&lt;/li&gt;
 &lt;li&gt;Safari desktop versions &amp;lt; 13 are not supported anymore&lt;/li&gt;
 &lt;li&gt;iOS versions &amp;lt; 14.5 are not supported anymore&lt;/li&gt;

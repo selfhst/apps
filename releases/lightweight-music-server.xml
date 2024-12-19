@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2024-12-19T00:30:45.094687-05:00</updated>
+  <updated>2024-12-19T01:30:46.013786-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,12 +93,12 @@ The "Remember me" option of the web interface won't work after upgrading LMS, yo
     <content>&lt;p&gt;&lt;strong&gt;Updates:&lt;/strong&gt;
 * Added support for importing and syncing &lt;code&gt;.m3u&lt;/code&gt; playlist files. Imported playlists are categorized as shared playlists and exposed via the Subsonic API as public, ownerless playlists #391 
 * Prefer embedded covers marked as "front" 
-* SubsonicAPI:
+* Subsonic API:
   * Serve raw cover files if no size is provided
   * Added timestamps in &lt;code&gt;coverArt&lt;/code&gt; identifiers&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes:&lt;/strong&gt;
-* SubsonicAPI: root music folders are now returned as int
-* OpenSubsonicAPI: use &lt;code&gt;albumArtists&lt;/code&gt; and &lt;code&gt;displayAlbumArtist&lt;/code&gt;in Child responses for albums, instead of &lt;code&gt;artists&lt;/code&gt;and &lt;code&gt;displayArtist&lt;/code&gt;&lt;/p&gt;</content>
+* Subsonic API: root music folders are now returned as int
+* OpenSubsonic API: use &lt;code&gt;albumArtists&lt;/code&gt; and &lt;code&gt;displayAlbumArtist&lt;/code&gt; in Child responses for albums, instead of &lt;code&gt;artists&lt;/code&gt; and &lt;code&gt;displayArtist&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.62.0" rel="alternate"/>
   </entry>
 </feed>
