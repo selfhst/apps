@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2024-12-19T20:32:26.729800-05:00</updated>
+  <updated>2024-12-19T21:32:40.481501-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -573,6 +573,7 @@ e6308f2258f553e1808b839305e1da61  ./ampache-7.1.1_all_php8.2.zip
 f61dc05491722e2cd5c263381db69c93  ./ampache-7.1.1_squashed.zip
 489b575274d181389533e9680515beeb  ./ampache-7.1.1_client.zip&lt;/p&gt;
 &lt;h2&gt;Ampache 7.1.1&lt;/h2&gt;
+&lt;p&gt;This quick point release covers 2 specific issues. checkout out 7.1.0 &lt;a href="https://github.com/ampache/ampache/releases/tag/7.1.0"&gt;here&lt;/a&gt; for a larger view of the changes since 7.0.1&lt;/p&gt;
 &lt;p&gt;If you allow user uploads or make extensive use of the CLI command export:playlist then this release is for you.&lt;/p&gt;
 &lt;p&gt;By fixing an issue with licenses I've found that the POST array wasn't being included correctly in the uploads.&lt;/p&gt;
 &lt;p&gt;The export:playlist command was not correctly grabbing all the playlists when you export without a user id (&lt;code&gt;--user&lt;/code&gt; / &lt;code&gt;-u&lt;/code&gt;)&lt;/p&gt;
