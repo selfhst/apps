@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-12-20T05:33:21.316000-05:00</updated>
+  <updated>2024-12-20T06:33:10.345841-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -538,40 +538,69 @@ You may need to update your configurations to reflect the new metric names to av
 &lt;li&gt;&lt;strong&gt;651M Docker Hub pulls!&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Netdata continues to experience phenomenal growth, with over &lt;strong&gt;1.5 million downloads daily&lt;/strong&gt; through Cloudflare and Docker Hub, fueling observability for users worldwide.&lt;/p&gt;
-&lt;p&gt;Thanks to your unwavering support ❤️, Netdata is the leader in the observability category in the CNCF landscape, ahead of all other solutions including Elasticsearch, Grafana, and Prometheus in GitHub stars, showcasing the trust and admiration of our community.&lt;/p&gt;
-&lt;p&gt;This success is driving rapid adoption among enterprises, reflecting the growing recognition of Netdata as the &lt;strong&gt;go-to observability solution&lt;/strong&gt; for both &lt;strong&gt;cloud-native&lt;/strong&gt; and &lt;strong&gt;on-premises environments&lt;/strong&gt;. Our commitment remains steadfast: to deliver cutting-edge, &lt;strong&gt;AI-powered observability&lt;/strong&gt; with unmatched performance and simplicity—all while being significantly more affordable.&lt;/p&gt;
+&lt;p&gt;Thanks to your unwavering support ❤️, Netdata is the leader in the observability category in the CNCF landscape, ahead of all other solutions, including Elasticsearch, Grafana, and Prometheus, in GitHub stars. This demonstrates the trust and admiration of our community.&lt;/p&gt;
+&lt;p&gt;This success drives rapid adoption among enterprises, reflecting the growing recognition of Netdata as the &lt;strong&gt;go-to observability solution&lt;/strong&gt; for both &lt;strong&gt;cloud-native&lt;/strong&gt; and &lt;strong&gt;on-premises environments&lt;/strong&gt;. Our commitment remains steadfast: to deliver cutting-edge, &lt;strong&gt;AI-powered observability&lt;/strong&gt; with unmatched performance and simplicity—all while being significantly more affordable.&lt;/p&gt;
 &lt;p&gt;As we evolve, our focus on empowering businesses with &lt;strong&gt;higher-fidelity AI insights&lt;/strong&gt; ensures Netdata remains the easiest and fastest way to optimize infrastructure and applications at any scale. 🚀&lt;/p&gt;
 &lt;p&gt;You like Netdata? &lt;a href="https://github.com/netdata/netdata"&gt;Give Netdata a ⭐ too, on GitHub!&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Release Summary &lt;a id="v210-release-summary"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This release focuses heavily on &lt;strong&gt;streaming functionality&lt;/strong&gt;, enabling &lt;strong&gt;unprecedented scalability&lt;/strong&gt;, &lt;strong&gt;reduced CPU overhead&lt;/strong&gt;, and &lt;strong&gt;optimized memory utilization&lt;/strong&gt;. Netdata has been re-architected to meet the demands of enterprise environments while maintaining its hallmark ease of use and affordability.&lt;/p&gt;
+&lt;h2&gt;Release Summary &lt;a id="v210-release-summary"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This release focuses heavily on &lt;strong&gt;streaming functionality&lt;/strong&gt;, enabling &lt;strong&gt;unprecedented scalability&lt;/strong&gt;, &lt;strong&gt;reduced CPU overhead&lt;/strong&gt;, and &lt;strong&gt;optimized memory utilization&lt;/strong&gt;. Netdata has been re-architected to meet the demands of enterprise environments while maintaining its hallmark ease of use and affordability.&lt;/p&gt;
 &lt;h2&gt;Release Highlights &lt;a id="v210-release-highlights"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3&gt;Major Performance and Scalability Improvements&lt;/h3&gt;
-&lt;p&gt;This release significantly enhances Netdata's performance and streaming capabilities, with particular focus on multi-parent infrastructures.&lt;/p&gt;
-&lt;p&gt;| Category              | Feature                     | Benefit                                                                                                                        |
-|-----------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| &lt;strong&gt;CPU Optimization&lt;/strong&gt;  | ML Model Streaming          | • 30-50% CPU reduction&lt;br/&gt;• Choice between edge or centralized ML training                                                    |
-|                       | Efficient Thread Management | • Threads scaled to CPU cores&lt;br/&gt;• Single thread per node for ingestion/re-streaming&lt;br/&gt;• Reduced cross-CPU communication    |
-| &lt;strong&gt;Memory Management&lt;/strong&gt; | Automatic Protection        | • Reserves 10% system memory (max 5 GiB)&lt;br/&gt;• Container-aware (cgroups v1/v2 support)                                         |
-|                       | Caching Improvements        | • Optional full memory utilization for caches&lt;br/&gt;• Dynamic ML training queue management                                       |
-| &lt;strong&gt;Scalability&lt;/strong&gt;       | Load Distribution           | • Random parent selection in clusters&lt;br/&gt;• Randomized reconnection timing                                                     |
-|                       | Query Prioritization        | • User queries get highest priority&lt;br/&gt;• Connection operations handled next&lt;br/&gt;• Background tasks (ML, replication) deferred |
-|                       | Performance                 | • Faster node integration&lt;br/&gt;• Optimized high-concurrency handling&lt;br/&gt;• Improved query responsiveness                        |&lt;/p&gt;
-&lt;h3&gt;Node Membership Rules (Dynamic Room Allocation)&lt;/h3&gt;
-&lt;p&gt;Netdata Cloud Dashboard now has the capability to create &lt;strong&gt;node membership rules&lt;/strong&gt; based on &lt;strong&gt;host labels&lt;/strong&gt; to &lt;strong&gt;automatically&lt;/strong&gt; add nodes into relevant rooms.
-This helps efficiently organising your infrastructure monitoring while your infrastructure scales.&lt;/p&gt;
+&lt;h3&gt;Major Performance and Scalability Improvements &lt;a id="v210-scalability-improvements"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This release significantly enhances Netdata's performance and streaming capabilities, with particular focus on multi-parent infrastructures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Optimized CPU Usage&lt;/strong&gt;: Streamlined ML model distribution and improved thread management reduce CPU utilization by 30–50% in parent-child setups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smarter Memory Management&lt;/strong&gt;: New features prevent out-of-memory situations while maximizing cache usage for better query performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Multi-Parent Scalability&lt;/strong&gt;: Improved load balancing and connection handling for more stable operation at scale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimized Query Processing&lt;/strong&gt;: Prioritized handling of user queries ensures responsive experience even under heavy load.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Detailed Technical Improvements&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;| Category              | Feature                          | Benefit                                                                                                                                                                                                                                                |
+|-----------------------|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| &lt;strong&gt;CPU Optimization&lt;/strong&gt;  | ML Model Streaming               | • ML models now stream between Netdata Agents alongside metric data&lt;br/&gt;• Options for edge or central ML training&lt;br/&gt;• 30-50% CPU reduction in parent-child setups&lt;br/&gt;• &lt;strong&gt;Note&lt;/strong&gt;: Next major version will disable ML training on children by default |
+|                       | Thread Management                | • Streaming threads fixed to match CPU cores&lt;br/&gt;• Single thread handles ingestion and re-streaming per node&lt;br/&gt;• Reduced context switches and cross-CPU communication                                                                                |
+| &lt;strong&gt;Memory Management&lt;/strong&gt; | Out-of-Memory Protection         | • Dynamic cache adjustment maintains 10% system memory buffer (max 5 GiB)&lt;br/&gt;• Container-aware (supports cgroups v1 and v2)&lt;br/&gt;• Configurable via &lt;code&gt;[db].dbengine out of memory protection&lt;/code&gt;                                                           |
+|                       | Cache Optimization               | • Option to utilize all available memory for caching&lt;br/&gt;• Reduced disk I/O on busy parent nodes&lt;br/&gt;• Enable with &lt;code&gt;[db].dbengine use all ram for caches&lt;/code&gt;                                                                                              |
+|                       | ML Training Management           | • Dynamic queue management prevents memory overload&lt;br/&gt;• Consistent performance during heavy ML workloads                                                                                                                                             |
+| &lt;strong&gt;Scalability&lt;/strong&gt;       | Parent Cluster Load Distribution | • Random parent selection for load distribution&lt;br/&gt;• Prevents single-node bottlenecks in large deployments                                                                                                                                            |
+|                       | Connection Handling              | • Randomized reconnection timing&lt;br/&gt;• Prevents connection floods&lt;br/&gt;• Smoother large-scale reconnect handling                                                                                                                                        |
+| &lt;strong&gt;Query Performance&lt;/strong&gt; | Query Prioritization             | • Immediate response to user queries under any load&lt;br/&gt;• Connection operations get secondary priority&lt;br/&gt;• Background tasks (replication, ML) yield to high-priority operations&lt;br/&gt;• Quick new node integration through expedited backfilling       |
+|                       | Real-Time Response               | • Responsive user experience during heavy processing&lt;br/&gt;• Efficient concurrent query handling&lt;br/&gt;• Maintains performance during high-load background operations                                                                                      |&lt;/p&gt;
+&lt;h3&gt;Cloud: Automated Room Assignment with Label-Based Rules &lt;a id="v210-automated-room-assignment"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata Cloud Dashboard introduces &lt;a href="https://github.com/netdata/netdata/blob/master/docs/netdata-cloud/node-membership-rules.md"&gt;node membership rules&lt;/a&gt;—a powerful new feature that transforms how you organize your infrastructure monitoring:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Room Assignment&lt;/strong&gt;: Nodes are automatically placed into relevant rooms based on their host labels, eliminating manual organization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rule-Based Management&lt;/strong&gt;: Create flexible rules using host labels to define where nodes belong, ensuring consistent organization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale-Ready Architecture&lt;/strong&gt;: As your infrastructure grows, new nodes are automatically sorted into appropriate rooms, maintaining clean monitoring structure.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img alt="Dynamic Room Allocation" src="https://github.com/user-attachments/assets/9aaba4a8-f715-4aaf-8624-b4b9576816ca" /&gt;&lt;/p&gt;
-&lt;h3&gt;Configuring Repeat Notifications per Channel&lt;/h3&gt;
-&lt;p&gt;Netdata Cloud users can now specify a time interval on each configured notification integration. Netdata Cloud will resend notifications for raised alerts after the specified time interval, if the alert status doesn't change.&lt;/p&gt;
+&lt;h3&gt;Cloud: Configurable Alert Repeat Notifications &lt;a id="v210-alert-repeat-notifications"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata Cloud enhances alert management with customizable notification repeats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom Repeat Intervals&lt;/strong&gt;: Set how often you want to be reminded about ongoing alerts for each notification channel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Follow-ups&lt;/strong&gt;: Receive automatic notification repeats for unresolved alerts based on your specified timeframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channel-Specific Settings&lt;/strong&gt;: Configure different repeat frequencies for each integration to match your workflow.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img alt="Repeat Notifications" src="https://github.com/user-attachments/assets/6bb8c6dc-90ed-41b0-b0a5-a3d032e1ccb6" /&gt;
 &lt;img alt="Help Text" src="https://github.com/user-attachments/assets/280842bb-99c8-4ae6-89e4-eecfcf462234" /&gt;&lt;/p&gt;
-&lt;h3&gt;Pin Charts and Sections as Favourites on the Netdata Cloud Dashboard&lt;/h3&gt;
-&lt;p&gt;Select / Pin specific charts or sections on your dashboard as favourites so they always show up on the top of your ToC (Table of Contents) without the need to search / scroll to access these charts.&lt;/p&gt;
+&lt;h3&gt;Cloud: Pin Your Essential Charts with Dashboard Favorites &lt;a id="v210-dashboard-favorites"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netdata Cloud Dashboard introduces favorites pinning for faster access to your critical monitoring views:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Pinning&lt;/strong&gt;: Select and pin your most important charts and sections directly from the dashboard.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick-Access Organization&lt;/strong&gt;: Pinned items appear at the top of your Table of Contents for instant visibility.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img alt="Favourites" src="https://github.com/user-attachments/assets/e619b102-6c92-48ca-8f88-fdadc39373e8" /&gt;&lt;/p&gt;
-&lt;h3&gt;Dynamic Configurations - Support for bulk actions on Collector and Health Configurations&lt;/h3&gt;
-&lt;p&gt;Netdata now supports bulk operations on Collector and Health Configurations to enable, disable and restart jobs.&lt;/p&gt;
+&lt;h3&gt;Dynamic Configuration: Bulk Operations for Collectors and Alerts &lt;a id="v210-dyncfg-bulk-ops"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Dynamic Configuration in Netdata now supports bulk operations on monitoring settings. You can perform the following operations on multiple collector jobs and health checks at once:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable/Disable&lt;/li&gt;
+&lt;li&gt;Restart&lt;/li&gt;
+&lt;li&gt;Delete&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Acknowledgments &lt;a id="v210-acknowledgments"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;@orisano for remove a duplicated row in logging readme.&lt;/li&gt;
+&lt;li&gt;@orisano for removing a duplicated row in logging readme.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Contributions &lt;a id="v210-contributions"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h3&gt;Collectors &lt;a id="v210-contributions-collectors"&gt;&lt;/a&gt;&lt;/h3&gt;
