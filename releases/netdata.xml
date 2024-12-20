@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-12-20T02:33:27.799736-05:00</updated>
+  <updated>2024-12-20T03:33:40.975846-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -561,8 +561,9 @@ You may need to update your configurations to reflect the new metric names to av
 This helps efficiently organising your infrastructure monitoring while your infrastructure scales.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Dynamic Room Allocation" src="https://github.com/user-attachments/assets/9aaba4a8-f715-4aaf-8624-b4b9576816ca" /&gt;&lt;/p&gt;
 &lt;h3&gt;Configuring Repeat Notifications per Channel&lt;/h3&gt;
-&lt;p&gt;Netdata Cloud now supports configuring repeat notifications settings for each Notification Integration Channel.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Repeat Notifications" src="https://github.com/user-attachments/assets/6bb8c6dc-90ed-41b0-b0a5-a3d032e1ccb6" /&gt;&lt;/p&gt;
+&lt;p&gt;Netdata Cloud users can now specify a time interval on each configured notification integration. Netdata Cloud will resend notifications for raised alerts after the specified time interval, if the alert status doesn't change.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Repeat Notifications" src="https://github.com/user-attachments/assets/6bb8c6dc-90ed-41b0-b0a5-a3d032e1ccb6" /&gt;
+&lt;img alt="Help Text" src="https://github.com/user-attachments/assets/280842bb-99c8-4ae6-89e4-eecfcf462234" /&gt;&lt;/p&gt;
 &lt;h3&gt;Pin Charts and Sections as Favourites on the Netdata Cloud Dashboard&lt;/h3&gt;
 &lt;p&gt;Select / Pin specific charts or sections on your dashboard as favourites so they always show up on the top of your ToC (Table of Contents) without the need to search / scroll to access these charts.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Favourites" src="https://github.com/user-attachments/assets/e619b102-6c92-48ca-8f88-fdadc39373e8" /&gt;&lt;/p&gt;
