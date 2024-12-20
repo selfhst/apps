@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2024-12-20T14:30:32.473414-05:00</updated>
+  <updated>2024-12-20T15:30:34.004269-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,6 @@
 &lt;li&gt;Fix: correct evcc units by @shamoon in https://github.com/gethomepage/homepage/pull/4396&lt;/li&gt;
 &lt;li&gt;Enhancement: downloading torrents list for qbittorrent  by @Mindfreak9100 in https://github.com/gethomepage/homepage/pull/4405&lt;/li&gt;
 &lt;li&gt;Fix: glances metric - different key for process list memory on window… by @shamoon in https://github.com/gethomepage/homepage/pull/4410&lt;/li&gt;
-&lt;li&gt;Enhancement: encode uri params for synology proxy by @shamoon in https://github.com/gethomepage/homepage/pull/4414&lt;/li&gt;
 &lt;li&gt;Enhancement: better display of finnhub tickers with exchange by @shamoon in https://github.com/gethomepage/homepage/pull/4425&lt;/li&gt;
 &lt;li&gt;Enhancement: add basic auth to ESPHome widget by @jesserockz in https://github.com/gethomepage/homepage/pull/4429&lt;/li&gt;
 &lt;li&gt;Enhancement: downloading torrents list for deluge by @Mindfreak9100 in https://github.com/gethomepage/homepage/pull/4436&lt;/li&gt;
