@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Git-Sync Releases</title>
-  <updated>2024-12-19T23:32:59.233502-05:00</updated>
+  <updated>2024-12-20T00:32:58.248400-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,12 @@ More details can be found in the &lt;a href="https://github.com/AkashRajpurohit/
     <author>
       <name>AkashRajpurohit/git-sync</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;What's New!&lt;/h2&gt;
+&lt;p&gt;This release majorly helps the users who have a large number of repositories to sync and often run into rate limiting issues.&lt;/p&gt;
+&lt;p&gt;git-sync now supports passing multiple personal access tokens to avoid this issue. The new option is named &lt;code&gt;tokens&lt;/code&gt; in the config file, more details can be found in the &lt;a href="https://github.com/AkashRajpurohit/git-sync/wiki/Configuration"&gt;Wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For simplicity, the &lt;code&gt;token&lt;/code&gt; option is deprecated and will be removed in the future during v1.0 release. You can still use it for now but it's recommended to use the &lt;code&gt;tokens&lt;/code&gt; option instead.&lt;/p&gt;
+&lt;p&gt;Apart from this, you will also start seeing warning logs in the console for any invalid configurations that might cause issue after the release of v1.0, so it is advised to fix them as soon as possible.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2224fedec8fab63afb23daf54ec4ed725e9c99ad feat: :adhesive_bandage: fix and add new tests&lt;/li&gt;
 &lt;li&gt;183d751d62fade979987c092173d965d0750c4db feat: :sparkles: multiple tokens support added&lt;/li&gt;
