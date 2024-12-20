@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-12-20T04:33:19.862981-05:00</updated>
+  <updated>2024-12-20T05:33:21.316000-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -556,8 +556,8 @@ You may need to update your configurations to reflect the new metric names to av
 | &lt;strong&gt;Scalability&lt;/strong&gt;       | Load Distribution           | • Random parent selection in clusters&lt;br/&gt;• Randomized reconnection timing                                                     |
 |                       | Query Prioritization        | • User queries get highest priority&lt;br/&gt;• Connection operations handled next&lt;br/&gt;• Background tasks (ML, replication) deferred |
 |                       | Performance                 | • Faster node integration&lt;br/&gt;• Optimized high-concurrency handling&lt;br/&gt;• Improved query responsiveness                        |&lt;/p&gt;
-&lt;h3&gt;Dynamic Room Allocation&lt;/h3&gt;
-&lt;p&gt;Netdata Cloud Dashboard now has the capability to create &lt;strong&gt;rules&lt;/strong&gt; based on &lt;strong&gt;host labels&lt;/strong&gt; to &lt;strong&gt;automatically&lt;/strong&gt; add nodes into relevant rooms.
+&lt;h3&gt;Node Membership Rules (Dynamic Room Allocation)&lt;/h3&gt;
+&lt;p&gt;Netdata Cloud Dashboard now has the capability to create &lt;strong&gt;node membership rules&lt;/strong&gt; based on &lt;strong&gt;host labels&lt;/strong&gt; to &lt;strong&gt;automatically&lt;/strong&gt; add nodes into relevant rooms.
 This helps efficiently organising your infrastructure monitoring while your infrastructure scales.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Dynamic Room Allocation" src="https://github.com/user-attachments/assets/9aaba4a8-f715-4aaf-8624-b4b9576816ca" /&gt;&lt;/p&gt;
 &lt;h3&gt;Configuring Repeat Notifications per Channel&lt;/h3&gt;
