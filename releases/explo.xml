@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Explo Releases</title>
-  <updated>2024-12-20T15:34:13.868294-05:00</updated>
+  <updated>2024-12-20T16:34:15.703947-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,7 @@
       <name>LumePart/Explo</name>
     </author>
     <content>&lt;h2&gt;v0.7.0 CHANGELOG&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;[SUPPORT]&lt;/strong&gt; Added support for Plex
+&lt;p&gt;&lt;strong&gt;[SUPPORT]&lt;/strong&gt; Added support for Plex Media Server
 - Plex requires either Email/Password or &lt;a href="https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/"&gt;API_KEY&lt;/a&gt; for authentication.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[MISC]&lt;/strong&gt; Explo now tries to read &lt;code&gt;.env&lt;/code&gt; file instead of &lt;code&gt;local.env&lt;/code&gt;. This enables better variable handling in &lt;code&gt;docker-compose.yaml&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/LumePart/Explo/compare/v0.6.5...v0.7.0&lt;/p&gt;</content>
