@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Diun Releases</title>
-  <updated>2024-12-20T12:32:08.567617-05:00</updated>
+  <updated>2024-12-20T13:32:08.690127-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,7 +150,8 @@
     <author>
       <name>crazy-max/diun</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;:warning: See &lt;strong&gt;Migration notes&lt;/strong&gt; in the documentation before upgrading.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Topics support for Telegram notifications (#1308)&lt;/li&gt;
 &lt;li&gt;Webhook url as secret support for Discord, Slack and Teams notifications (#1302)&lt;/li&gt;
 &lt;li&gt;Enhance error message for JSON decode response issues for Gotify, ntfy and RocketChat (#1309)&lt;/li&gt;

@@ -1,5 +1,9 @@
 <h1 align="center">Change Log</h1>
 
+### 2024-12-20
+
+* Added tag option to filter directory by software with built-in support for selfh.st/icons
+
 ### 2024-12-02
 
 * Fixed dynamic filter (alternative, software, platform) not loading when URL parameter is present

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Vaultwarden Releases</title>
-  <updated>2024-12-20T12:31:28.132173-05:00</updated>
+  <updated>2024-12-20T13:31:28.846034-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,8 +122,8 @@
       <name>dani-garcia/vaultwarden</name>
     </author>
     <content>&lt;h2&gt;Security Fixes&lt;/h2&gt;
-&lt;p&gt;We have yet a few other security fixes for this release. We discovered that groups were able to be edited by any admin from any organization because the organization was not validated or used within the query. This could potentially allow an admin from other organizations to modify, or delete groups from any organization if they know the uuid of the group.
-We suggest people to update a.s.a.p. to mitigate this risk.&lt;/p&gt;
+&lt;p&gt;This release contains a security fix for the following CVE https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-g65h-982x-4m5m. &lt;/p&gt;
+&lt;p&gt;This vulnerability affects any installations that have the  &lt;code&gt;ORG_GROUPS_ENABLED&lt;/code&gt; setting enabled, and we urge anyone doing so to update as soon as possible.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: mask _smtp_img_src in support string by @tessus in https://github.com/dani-garcia/vaultwarden/pull/5281&lt;/li&gt;
