@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Grist Releases</title>
-  <updated>2024-12-20T17:31:33.876735-05:00</updated>
+  <updated>2024-12-20T18:31:33.630503-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,7 +120,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Versions prior to 1.3.2 are known to be vulnerable. Please upgrade.&lt;/p&gt;
 &lt;p&gt;These advisories are also documented in &lt;a href="https://github.com/gristlabs/grist-core/security/advisories"&gt;our security advisory page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thanks to @spawnzii for the initially reporting these security vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Thanks to @spawnzii for initially reporting these security vulnerabilities.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gristlabs/grist-core/compare/v1.3.0...v1.3.2&lt;/p&gt;</content>
     <link href="https://github.com/gristlabs/grist-core/releases/tag/v1.3.2" rel="alternate"/>
   </entry>
