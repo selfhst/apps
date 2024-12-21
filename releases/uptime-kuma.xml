@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uptime-Kuma Releases</title>
-  <updated>2024-12-20T21:31:21.427170-05:00</updated>
+  <updated>2024-12-20T22:31:24.406985-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,7 +146,7 @@ If you want to prevent such breakages in the future, we would be very happy with
 &lt;li&gt;
 &lt;h1&gt;5455 Update dependencies&lt;/h1&gt;
 &lt;/li&gt;
-&lt;li&gt;GHSA-2qgm-m29m-cj2h Local File Inclusion (LFI) via Improper URL Handling in &lt;code&gt;Real-Browser&lt;/code&gt; monitor (Thanks @griisemine)&lt;/li&gt;
+&lt;li&gt;GHSA-2qgm-m29m-cj2h [CVE-2024-56331] Local File Inclusion (LFI) via Improper URL Handling in &lt;code&gt;Real-Browser&lt;/code&gt; monitor (Thanks @griisemine)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/louislam/uptime-kuma/releases/tag/1.23.16" rel="alternate"/>
   </entry>
