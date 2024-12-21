@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2024-12-21T01:30:56.670340-05:00</updated>
+  <updated>2024-12-21T02:30:54.919248-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -311,7 +311,7 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
       <name>navidrome/navidrome</name>
     </author>
     <content>&lt;h1&gt;Navidrome v0.54.1 Release Notes&lt;/h1&gt;
-&lt;p&gt;We are thrilled to announce the release of &lt;strong&gt;Navidrome version 0.54.1&lt;/strong&gt;! This update introduces several new features, enhancements, and important bug fixes to elevate your music streaming experience. (Yes, ChatGPT is our new Public Relationship intern 😄)&lt;/p&gt;
+&lt;p&gt;We are thrilled to announce the release of &lt;strong&gt;Navidrome version 0.54.1&lt;/strong&gt;! This update introduces several new features, enhancements, and important bug fixes to elevate your music streaming experience. (Yes, ChatGPT is our new Public Relations intern 😄)&lt;/p&gt;
 &lt;h2&gt;🔐 Important Security Bugfix&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;JWT secrets are now stored encrypted in the Database&lt;/strong&gt;. A CVE Advisory will be published soon.&lt;/p&gt;
 &lt;h2&gt;🎉 Noteworthy New Features&lt;/h2&gt;
