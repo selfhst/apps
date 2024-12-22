@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2024-12-21T19:33:41.302265-05:00</updated>
+  <updated>2024-12-21T20:33:45.227628-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,7 +153,9 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;p&gt;Happy holidays! 🎄 ❄️&lt;/p&gt;
+&lt;p&gt;This release improves timestamps and allows you to sort posts/comments for a given user. Try it out and enjoy!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/24f2644b-be1b-47c1-ac08-61390752b3ba" width="400"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: development android crash on reinstall&lt;/li&gt;
 &lt;li&gt;PR: #1773&lt;/li&gt;
