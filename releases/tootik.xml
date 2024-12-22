@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tootik Releases</title>
-  <updated>2024-12-22T06:33:54.799168-05:00</updated>
+  <updated>2024-12-22T07:33:56.932476-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,33 @@
     <author>
       <name>dimkr/tootik</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for multiple client certificates&lt;ul&gt;
+&lt;li&gt;With list of certificates at &lt;code&gt;/users/certificates&lt;/code&gt;, each with SHA-256 fingerprint and expiry date&lt;ul&gt;
+&lt;li&gt;Will show &lt;code&gt;2100-01-01&lt;/code&gt; for certificates added before 1.14.0&lt;/li&gt;
+&lt;li&gt;With ability to approve or deny a newly added certificate, or revoke access for a previously approved certificate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Validation of client certificate expiry date when authenticating&lt;/li&gt;
+&lt;li&gt;Forwarding of Update and Delete activities&lt;ul&gt;
+&lt;li&gt;For replies in a thread started by a user with followers&lt;/li&gt;
+&lt;li&gt;For posts and replies in a community &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Poll result graphs for polls without any votes yet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Removed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ability to select the username duration registration and override what's in the CN property of the client certificate; attempts to register with an existing username add the client certificate to the list of certificates waiting for the user's approval&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes, Performance and Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Poll results are updated to 0 when all votes are deleted&lt;/li&gt;
+&lt;li&gt;Undo activities are sent to the recipients of the matching Create activities, plus current followers&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dimkr/tootik/releases/tag/0.14.0" rel="alternate"/>
   </entry>
 </feed>
