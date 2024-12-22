@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Git-Sync Releases</title>
-  <updated>2024-12-22T05:32:51.076767-05:00</updated>
+  <updated>2024-12-22T06:32:54.549772-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,7 @@ More details can be found in the &lt;a href="https://github.com/AkashRajpurohit/
     </author>
     <content>&lt;h2&gt;What's New! 🎉&lt;/h2&gt;
 &lt;p&gt;In this release, we have another major improvement on how git-sync handles syncing operation. The major changes are:
-1. Now git-sync will not fail and exit if there is some failure while syncing some repository, instead it can &lt;strong&gt;skip it and move ahead&lt;/strong&gt; with syncing other repositories/wiki's.
+1. Now git-sync will not fail and exit if there is some failure while syncing some repository, instead it can &lt;strong&gt;skip it and move ahead&lt;/strong&gt; with syncing other repositories/wiki's. This is especially very helpful when you are trying to sync large number of repositories and failure in one of them was breaking your entire sync operation.
 2. There is a new config option called &lt;code&gt;retry&lt;/code&gt; which will let you specify the retry &lt;strong&gt;count&lt;/strong&gt; and &lt;strong&gt;delay&lt;/strong&gt;. When retry config is present, git-sync will keep attempting to retry a failed sync operation till the max attempts are reached with each attempt having the delay (in seconds). While this option is not required, it is highly advisable to use it. More info about it is available in our &lt;a href="https://github.com/AkashRajpurohit/git-sync/wiki/Configuration"&gt;Wiki page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;At the end of the operation, we will now show a summary of the number of repositories and wiki's that got synced and the number and name of repositories that failed.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
