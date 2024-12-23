@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gogs Releases</title>
-  <updated>2024-12-23T10:32:13.463994-05:00</updated>
+  <updated>2024-12-23T11:32:07.144734-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -582,6 +582,8 @@
       <name>gogs/gogs</name>
     </author>
     <content>&lt;blockquote&gt;
+&lt;p&gt;[!cAUTION]
+If you're using pre-compiled release archives with SQLite, please skip this patch release and use newer patch releases instead!&lt;/p&gt;
 &lt;p&gt;[!warning]
 Due to changes to the release infrastructure, starting this release and going forward, &lt;code&gt;pam&lt;/code&gt; tag will not be included for release archives that previously had it included.&lt;/p&gt;
 &lt;/blockquote&gt;
