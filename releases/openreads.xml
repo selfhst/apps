@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Openreads Releases</title>
-  <updated>2024-12-23T16:31:02.979991-05:00</updated>
+  <updated>2024-12-23T18:31:00.544233-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Openreads: v2.4.1</title>
     <updated>2024-02-06T08:41:09-05:00</updated>
     <author>
-      <name>mateusz-bak/openreads-android</name>
+      <name>mateusz-bak/openreads</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;:rocket:  Summary&lt;/h3&gt;
@@ -39,7 +39,7 @@
     <title>New release for Openreads: v2.5.0</title>
     <updated>2024-02-16T09:07:46-05:00</updated>
     <author>
-      <name>mateusz-bak/openreads-android</name>
+      <name>mateusz-bak/openreads</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;:rocket:  Summary&lt;/h3&gt;
@@ -96,7 +96,7 @@
     <title>New release for Openreads: v2.5.1</title>
     <updated>2024-02-23T07:43:32-05:00</updated>
     <author>
-      <name>mateusz-bak/openreads-android</name>
+      <name>mateusz-bak/openreads</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;:rocket:  Summary&lt;/h3&gt;
@@ -135,7 +135,7 @@
     <title>New release for Openreads: v2.6.0</title>
     <updated>2024-03-13T22:01:23-04:00</updated>
     <author>
-      <name>mateusz-bak/openreads-android</name>
+      <name>mateusz-bak/openreads</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;:rocket:  Summary&lt;/h3&gt;
@@ -182,7 +182,7 @@
     <title>New release for Openreads: v2.7.0</title>
     <updated>2024-04-07T03:24:40-04:00</updated>
     <author>
-      <name>mateusz-bak/openreads-android</name>
+      <name>mateusz-bak/openreads</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;:rocket:  Summary&lt;/h3&gt;

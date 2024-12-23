@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2024-12-23T16:32:32.389453-05:00</updated>
+  <updated>2024-12-23T18:32:28.800365-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for VictoriaMetrics: v1.102.8</title>
     <updated>2024-12-02T04:30:43-05:00</updated>
     <author>
-      <name>victoriametrics/victoriametrics</name>
+      <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.8"&gt;v1.102.8&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2024-11-29&lt;/p&gt;
@@ -38,7 +38,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
     <title>New release for VictoriaMetrics: v1.108.0</title>
     <updated>2024-12-16T06:15:01-05:00</updated>
     <author>
-      <name>victoriametrics/victoriametrics</name>
+      <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.0"&gt;v1.108.0&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2024-12-13&lt;/p&gt;
@@ -83,7 +83,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
     <title>New release for VictoriaMetrics: v1.97.14</title>
     <updated>2024-12-16T06:15:30-05:00</updated>
     <author>
-      <name>victoriametrics/victoriametrics</name>
+      <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.97.14"&gt;v1.97.14&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2024-12-13&lt;/p&gt;
@@ -113,7 +113,7 @@ The v1.97.x line will be supported for at least 12 months since &lt;a href="http
     <title>New release for VictoriaMetrics: v1.102.9</title>
     <updated>2024-12-16T06:15:15-05:00</updated>
     <author>
-      <name>victoriametrics/victoriametrics</name>
+      <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.102.9"&gt;v1.102.9&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2024-12-13&lt;/p&gt;
@@ -145,7 +145,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
     <title>New release for VictoriaMetrics: v1.108.1</title>
     <updated>2024-12-19T06:23:02-05:00</updated>
     <author>
-      <name>victoriametrics/victoriametrics</name>
+      <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.1"&gt;v1.108.1&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2024-12-18&lt;/p&gt;

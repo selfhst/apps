@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swetrix Releases</title>
-  <updated>2024-12-23T16:32:53.831567-05:00</updated>
+  <updated>2024-12-23T18:32:50.470049-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Swetrix: v3.2.0</title>
     <updated>2024-08-11T10:25:05-04:00</updated>
     <author>
-      <name>Swetrix/swetrix-api</name>
+      <name>Swetrix/swetrix</name>
     </author>
     <content>&lt;h2&gt;What changed:&lt;/h2&gt;
 &lt;h3&gt;🔥 Major updates&lt;/h3&gt;
@@ -74,7 +74,7 @@ docker compose exec swetrix-api node migrations/clickhouse/selfhosted_2024_08_10
     <title>New release for Swetrix: v3.2.1</title>
     <updated>2024-08-30T18:44:08-04:00</updated>
     <author>
-      <name>Swetrix/swetrix-api</name>
+      <name>Swetrix/swetrix</name>
     </author>
     <content>&lt;h2&gt;What changed:&lt;/h2&gt;
 &lt;h3&gt;🔧 Fixes&lt;/h3&gt;
@@ -89,7 +89,7 @@ docker compose exec swetrix-api node migrations/clickhouse/selfhosted_2024_08_10
     <title>New release for Swetrix: v3.2.2</title>
     <updated>2024-08-30T18:57:23-04:00</updated>
     <author>
-      <name>Swetrix/swetrix-api</name>
+      <name>Swetrix/swetrix</name>
     </author>
     <content>&lt;h2&gt;What changed:&lt;/h2&gt;
 &lt;p&gt;This release has no changes and has been released due to Docker release issues with the &lt;a href="https://github.com/Swetrix/swetrix-api/releases/tag/v3.2.1"&gt;v3.2.1&lt;/a&gt; version.&lt;/p&gt;</content>
@@ -100,7 +100,7 @@ docker compose exec swetrix-api node migrations/clickhouse/selfhosted_2024_08_10
     <title>New release for Swetrix: v3.2.3</title>
     <updated>2024-08-30T19:10:03-04:00</updated>
     <author>
-      <name>Swetrix/swetrix-api</name>
+      <name>Swetrix/swetrix</name>
     </author>
     <content>&lt;h2&gt;What changed:&lt;/h2&gt;
 &lt;h3&gt;🔧 Fixes&lt;/h3&gt;
@@ -114,7 +114,7 @@ docker compose exec swetrix-api node migrations/clickhouse/selfhosted_2024_08_10
     <title>New release for Swetrix: v3.3.0</title>
     <updated>2024-11-08T13:54:58-05:00</updated>
     <author>
-      <name>Swetrix/swetrix-api</name>
+      <name>Swetrix/swetrix</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!WARNING]

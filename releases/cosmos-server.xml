@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cosmos Releases</title>
-  <updated>2024-12-23T16:30:16.967551-05:00</updated>
+  <updated>2024-12-23T18:30:18.247885-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Cosmos: Release 0.17.1</title>
     <updated>2024-12-16T16:43:54-05:00</updated>
     <author>
-      <name>azukaar/cosmos-Server</name>
+      <name>azukaar/Cosmos-Server</name>
     </author>
     <content>&lt;p&gt;Release version 0.17.1 for x86_64 and ARM64 architectures&lt;/p&gt;</content>
     <link href="https://github.com/azukaar/Cosmos-Server/releases/tag/v0.17.1" rel="alternate"/>
@@ -25,7 +25,7 @@
     <title>New release for Cosmos: Release 0.17.2</title>
     <updated>2024-12-17T06:27:14-05:00</updated>
     <author>
-      <name>azukaar/cosmos-Server</name>
+      <name>azukaar/Cosmos-Server</name>
     </author>
     <content>&lt;p&gt;Release version 0.17.2 for x86_64 and ARM64 architectures&lt;/p&gt;</content>
     <link href="https://github.com/azukaar/Cosmos-Server/releases/tag/v0.17.2" rel="alternate"/>
@@ -35,7 +35,7 @@
     <title>New release for Cosmos: Release 0.17.3</title>
     <updated>2024-12-17T19:50:43-05:00</updated>
     <author>
-      <name>azukaar/cosmos-Server</name>
+      <name>azukaar/Cosmos-Server</name>
     </author>
     <content>&lt;p&gt;Release version 0.17.3 for x86_64 and ARM64 architectures&lt;/p&gt;</content>
     <link href="https://github.com/azukaar/Cosmos-Server/releases/tag/v0.17.3" rel="alternate"/>
@@ -45,7 +45,7 @@
     <title>New release for Cosmos: Release 0.17.4</title>
     <updated>2024-12-18T09:51:29-05:00</updated>
     <author>
-      <name>azukaar/cosmos-Server</name>
+      <name>azukaar/Cosmos-Server</name>
     </author>
     <content>&lt;p&gt;Release version 0.17.4 for x86_64 and ARM64 architectures&lt;/p&gt;</content>
     <link href="https://github.com/azukaar/Cosmos-Server/releases/tag/v0.17.4" rel="alternate"/>
@@ -55,7 +55,7 @@
     <title>New release for Cosmos: Release 0.17.5</title>
     <updated>2024-12-20T15:11:01-05:00</updated>
     <author>
-      <name>azukaar/cosmos-Server</name>
+      <name>azukaar/Cosmos-Server</name>
     </author>
     <content>&lt;p&gt;Release version 0.17.5 for x86_64 and ARM64 architectures&lt;/p&gt;</content>
     <link href="https://github.com/azukaar/Cosmos-Server/releases/tag/v0.17.5" rel="alternate"/>

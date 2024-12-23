@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PairDrop Releases</title>
-  <updated>2024-12-23T16:32:11.903155-05:00</updated>
+  <updated>2024-12-23T18:32:08.628655-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for PairDrop: v1.10.6</title>
     <updated>2024-01-21T14:10:22-05:00</updated>
     <author>
-      <name>schlagmichdoch/pairdrop</name>
+      <name>schlagmichdoch/PairDrop</name>
     </author>
     <content>&lt;p&gt;Increase version to v1.10.6&lt;/p&gt;
 &lt;h2&gt;Changes&lt;/h2&gt;
@@ -31,7 +31,7 @@
     <title>New release for PairDrop: v1.10.7</title>
     <updated>2024-02-08T21:54:38-05:00</updated>
     <author>
-      <name>schlagmichdoch/pairdrop</name>
+      <name>schlagmichdoch/PairDrop</name>
     </author>
     <content>&lt;p&gt;Increase version to v1.10.7&lt;/p&gt;
 &lt;h2&gt;Enhancements&lt;/h2&gt;
@@ -53,7 +53,7 @@
     <title>New release for PairDrop: v1.10.8</title>
     <updated>2024-04-18T10:32:28-04:00</updated>
     <author>
-      <name>schlagmichdoch/pairdrop</name>
+      <name>schlagmichdoch/PairDrop</name>
     </author>
     <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -73,7 +73,7 @@
     <title>New release for PairDrop: v1.10.9</title>
     <updated>2024-07-01T12:57:53-04:00</updated>
     <author>
-      <name>schlagmichdoch/pairdrop</name>
+      <name>schlagmichdoch/PairDrop</name>
     </author>
     <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -93,7 +93,7 @@
     <title>New release for PairDrop: v1.10.10</title>
     <updated>2024-08-17T10:04:49-04:00</updated>
     <author>
-      <name>schlagmichdoch/pairdrop</name>
+      <name>schlagmichdoch/PairDrop</name>
     </author>
     <content>&lt;h2&gt;Enhancements&lt;/h2&gt;
 &lt;ul&gt;

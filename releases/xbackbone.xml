@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>xBackBone Releases</title>
-  <updated>2024-12-23T16:31:32.657118-05:00</updated>
+  <updated>2024-12-23T18:31:30.799686-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for xBackBone: XBackBone 3.6.0</title>
     <updated>2022-06-20T12:21:12-04:00</updated>
     <author>
-      <name>SergiX44/XBackBone</name>
+      <name>sergix44/XBackBone</name>
     </author>
     <content>&lt;p&gt;⚠️ DROPPED SUPPORT FOR PHP 7.2 ⚠️&lt;/p&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -41,7 +41,7 @@
     <title>New release for xBackBone: XBackBone 3.6.1</title>
     <updated>2022-11-27T16:45:35-05:00</updated>
     <author>
-      <name>SergiX44/XBackBone</name>
+      <name>sergix44/XBackBone</name>
     </author>
     <content>&lt;h3&gt;Changed&lt;/h3&gt;
 &lt;ul&gt;
@@ -68,7 +68,7 @@
     <title>New release for xBackBone: XBackBone 3.6.2</title>
     <updated>2023-05-24T10:13:10-04:00</updated>
     <author>
-      <name>SergiX44/XBackBone</name>
+      <name>sergix44/XBackBone</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -82,7 +82,7 @@
     <title>New release for xBackBone: XBackBone 3.6.3</title>
     <updated>2023-05-27T12:23:58-04:00</updated>
     <author>
-      <name>SergiX44/XBackBone</name>
+      <name>sergix44/XBackBone</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -100,7 +100,7 @@
     <title>New release for xBackBone: XBackBone 3.7.0</title>
     <updated>2024-01-14T08:22:16-05:00</updated>
     <author>
-      <name>SergiX44/XBackBone</name>
+      <name>sergix44/XBackBone</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;

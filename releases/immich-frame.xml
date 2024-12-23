@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2024-12-23T16:33:28.816748-05:00</updated>
+  <updated>2024-12-23T18:33:24.829550-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Immich-Frame: v1.0.17.1</title>
     <updated>2024-11-16T18:03:24-05:00</updated>
     <author>
-      <name>3rob3/ImmichFrame</name>
+      <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!NOTE]&lt;br /&gt;
@@ -42,7 +42,7 @@ This is a hotfix mainly for #191 &lt;/p&gt;
     <title>New release for Immich-Frame: v1.0.18.0</title>
     <updated>2024-11-18T12:16:53-05:00</updated>
     <author>
-      <name>3rob3/ImmichFrame</name>
+      <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.18.0 --&gt;
 
@@ -60,7 +60,7 @@ This is a hotfix mainly for #191 &lt;/p&gt;
     <title>New release for Immich-Frame: v1.0.19.0</title>
     <updated>2024-11-25T07:11:46-05:00</updated>
     <author>
-      <name>3rob3/ImmichFrame</name>
+      <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!Warning]
@@ -92,7 +92,7 @@ All clientapps can be downloaded &lt;a href="https://github.com/immichFrame/Immi
     <title>New release for Immich-Frame: v1.0.20.0</title>
     <updated>2024-12-05T09:54:42-05:00</updated>
     <author>
-      <name>3rob3/ImmichFrame</name>
+      <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!Note]
@@ -136,7 +136,7 @@ All clientapps can be downloaded &lt;a href="https://github.com/immichFrame/Immi
     <title>New release for Immich-Frame: v1.0.21.0</title>
     <updated>2024-12-13T06:57:43-05:00</updated>
     <author>
-      <name>3rob3/ImmichFrame</name>
+      <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!Tip]&lt;br /&gt;

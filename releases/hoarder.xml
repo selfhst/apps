@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hoarder Releases</title>
-  <updated>2024-12-23T16:32:07.308180-05:00</updated>
+  <updated>2024-12-23T18:32:03.921417-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Hoarder: 0.17.0</title>
     <updated>2024-09-22T12:25:00-04:00</updated>
     <author>
-      <name>MohamedBassem/hoarder-app</name>
+      <name>hoarder-app/hoarder</name>
     </author>
     <content>&lt;p&gt;Welcome to the &lt;code&gt;0.17.0&lt;/code&gt; release of Hoarder. We have a bunch of new features and UX improvements including SSO support (finally), bulk tag/list actions, better bookmark importing experience, and bunch of other stuff. In this release, we're welcoming @nghduc97  and @Mxrk as first time contributors!&lt;/p&gt;
 &lt;blockquote&gt;
@@ -115,7 +115,7 @@
     <title>New release for Hoarder: 0.17.1</title>
     <updated>2024-09-27T04:41:05-04:00</updated>
     <author>
-      <name>MohamedBassem/hoarder-app</name>
+      <name>hoarder-app/hoarder</name>
     </author>
     <content>&lt;p&gt;This is a small hotfix for the &lt;a href="https://github.com/hoarder-app/hoarder/releases/tag/v0.17.0"&gt;0.17.0 release&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;🐞 Fixes&lt;/h2&gt;
@@ -130,7 +130,7 @@
     <title>New release for Hoarder: 0.18.0</title>
     <updated>2024-10-13T10:50:38-04:00</updated>
     <author>
-      <name>MohamedBassem/hoarder-app</name>
+      <name>hoarder-app/hoarder</name>
     </author>
     <content>&lt;p&gt;Welcome to the &lt;code&gt;0.18.0&lt;/code&gt; release of Hoarder! This release introduces customizable tagging rules (aka customizing the prompt), new UI look, selective full page archives, infinite scrolling, more bulk actions and more! As usual, we'd like to welcome our first time contributors @jarednipper, @Trugamr, @cedmax and @CrypticC3s4r! We also have @Lucius346346 working behind the scene on improving the UX of Hoarder with amazing designs! And finally, we have our usual contributors @kamtschatka and @mdsaban! Also thanks to @Papierkorb for the help in suggestions to improve the LLM prompt!&lt;/p&gt;
 &lt;p&gt;We also now have a public roadmap which you can check for the features that we're planning to deliver &lt;a href="https://github.com/orgs/hoarder-app/projects/1"&gt;here&lt;/a&gt;. Go upvote the features that you're waiting for!&lt;/p&gt;
@@ -253,7 +253,7 @@
     <title>New release for Hoarder: 0.19.0</title>
     <updated>2024-11-09T11:22:49-05:00</updated>
     <author>
-      <name>MohamedBassem/hoarder-app</name>
+      <name>hoarder-app/hoarder</name>
     </author>
     <content>&lt;p&gt;Welcome to the &lt;code&gt;0.19.0&lt;/code&gt; release of Hoarder! This release is packed with a lot of new features! The long awaited REST APIs, RSS subscriptions, AI summarization, Image OCR, archiving videos, importing from Omnivore, and more!&lt;/p&gt;
 &lt;blockquote&gt;
@@ -365,7 +365,7 @@
     <title>New release for Hoarder: 0.20.0</title>
     <updated>2024-12-22T06:21:02-05:00</updated>
     <author>
-      <name>MohamedBassem/hoarder-app</name>
+      <name>hoarder-app/hoarder</name>
     </author>
     <content>&lt;p&gt;Welcome to the &lt;code&gt;0.20.0&lt;/code&gt; release of Hoarder! This release adds internationalization support, new markdown editor, mobile app improvements, broken link management and more! As usual, we're welcoming our new contributors: @Tukks, @vhsdream, @sweepies, @PeterDaveHello, @wuast94 and @eltociear!&lt;/p&gt;
 &lt;blockquote&gt;

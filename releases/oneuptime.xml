@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OneUptime Releases</title>
-  <updated>2024-12-23T16:32:20.020717-05:00</updated>
+  <updated>2024-12-23T18:32:16.669539-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for OneUptime: 7.0.3387</title>
     <updated>2024-12-17T06:07:59-05:00</updated>
     <author>
-      <name>oneuptime/oneuptime</name>
+      <name>OneUptime/oneuptime</name>
     </author>
     <content>&lt;details&gt;
 &lt;summary&gt;Changes&lt;/summary&gt;
@@ -31,7 +31,7 @@
     <title>New release for OneUptime: 7.0.3393</title>
     <updated>2024-12-18T06:24:05-05:00</updated>
     <author>
-      <name>oneuptime/oneuptime</name>
+      <name>OneUptime/oneuptime</name>
     </author>
     <content>&lt;p&gt;No significant changes were made. We have just fixed minor bugs for this release. You can find the detailed information in the commit history.&lt;/p&gt;</content>
     <link href="https://github.com/OneUptime/oneuptime/releases/tag/7.0.3393" rel="alternate"/>
@@ -41,7 +41,7 @@
     <title>New release for OneUptime: 7.0.3403</title>
     <updated>2024-12-20T08:22:55-05:00</updated>
     <author>
-      <name>oneuptime/oneuptime</name>
+      <name>OneUptime/oneuptime</name>
     </author>
     <content>&lt;p&gt;No significant changes were made. We have just fixed minor bugs for this release. You can find the detailed information in the commit history.&lt;/p&gt;</content>
     <link href="https://github.com/OneUptime/oneuptime/releases/tag/7.0.3403" rel="alternate"/>
@@ -51,7 +51,7 @@
     <title>New release for OneUptime: 7.0.3405</title>
     <updated>2024-12-20T10:13:57-05:00</updated>
     <author>
-      <name>oneuptime/oneuptime</name>
+      <name>OneUptime/oneuptime</name>
     </author>
     <content>&lt;p&gt;No significant changes were made. We have just fixed minor bugs for this release. You can find the detailed information in the commit history.&lt;/p&gt;</content>
     <link href="https://github.com/OneUptime/oneuptime/releases/tag/7.0.3405" rel="alternate"/>
@@ -61,7 +61,7 @@
     <title>New release for OneUptime: 7.0.3413</title>
     <updated>2024-12-20T13:19:31-05:00</updated>
     <author>
-      <name>oneuptime/oneuptime</name>
+      <name>OneUptime/oneuptime</name>
     </author>
     <content>&lt;p&gt;No significant changes were made. We have just fixed minor bugs for this release. You can find the detailed information in the commit history.&lt;/p&gt;</content>
     <link href="https://github.com/OneUptime/oneuptime/releases/tag/7.0.3413" rel="alternate"/>

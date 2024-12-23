@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2024-12-23T16:34:13.557210-05:00</updated>
+  <updated>2024-12-23T18:34:06.919055-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Fladder: v0.4.2</title>
     <updated>2024-11-08T06:56:37-05:00</updated>
     <author>
-      <name>Fladder-App/Fladder</name>
+      <name>DonutWare/Fladder</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.2 --&gt;
 
@@ -48,7 +48,7 @@
     <title>New release for Fladder: v0.4.3</title>
     <updated>2024-11-08T09:28:12-05:00</updated>
     <author>
-      <name>Fladder-App/Fladder</name>
+      <name>DonutWare/Fladder</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.3 --&gt;
 
@@ -66,7 +66,7 @@
     <title>New release for Fladder: v0.4.4</title>
     <updated>2024-11-16T08:21:18-05:00</updated>
     <author>
-      <name>Fladder-App/Fladder</name>
+      <name>DonutWare/Fladder</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.4.4 --&gt;
 
@@ -100,7 +100,7 @@ Fladder now has a new icon
     <title>New release for Fladder: v0.5.0</title>
     <updated>2024-11-29T08:32:51-05:00</updated>
     <author>
-      <name>Fladder-App/Fladder</name>
+      <name>DonutWare/Fladder</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.5.0 --&gt;
 
@@ -135,7 +135,7 @@ Web only supports LibMPV, so there will be no backend select option available.&l
     <title>New release for Fladder: v0.5.1</title>
     <updated>2024-12-01T04:19:41-05:00</updated>
     <author>
-      <name>Fladder-App/Fladder</name>
+      <name>DonutWare/Fladder</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v0.5.1 --&gt;
 

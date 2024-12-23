@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Profilarr Releases</title>
-  <updated>2024-12-23T16:31:12.112608-05:00</updated>
+  <updated>2024-12-23T18:31:09.668623-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Profilarr: v0.3.1</title>
     <updated>2024-02-05T23:33:23-05:00</updated>
     <author>
-      <name>santiagosayshey/Profilarr</name>
+      <name>Dictionarry-Hub/profilarr</name>
     </author>
     <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -29,7 +29,7 @@
     <title>New release for Profilarr: v0.3.2</title>
     <updated>2024-02-07T17:16:11-05:00</updated>
     <author>
-      <name>santiagosayshey/Profilarr</name>
+      <name>Dictionarry-Hub/profilarr</name>
     </author>
     <content>&lt;h2&gt;Changes&lt;/h2&gt;
 &lt;ul&gt;
@@ -44,7 +44,7 @@ If updating to this version, please run &lt;code&gt;py setup.py&lt;/code&gt; aga
     <title>New release for Profilarr: v0.3.2.1</title>
     <updated>2024-02-13T02:16:14-05:00</updated>
     <author>
-      <name>santiagosayshey/Profilarr</name>
+      <name>Dictionarry-Hub/profilarr</name>
     </author>
     <content>&lt;h1&gt;Changes&lt;/h1&gt;
 &lt;ul&gt;
@@ -57,7 +57,7 @@ If updating to this version, please run &lt;code&gt;py setup.py&lt;/code&gt; aga
     <title>New release for Profilarr:  v0.3.2.2</title>
     <updated>2024-09-23T08:55:16-04:00</updated>
     <author>
-      <name>santiagosayshey/Profilarr</name>
+      <name>Dictionarry-Hub/profilarr</name>
     </author>
     <content>&lt;p&gt;Fixes:
 - Add compatability support for "minUpgradeFormatScore" to radarr and sonarr quality profiles&lt;/p&gt;</content>
@@ -68,7 +68,7 @@ If updating to this version, please run &lt;code&gt;py setup.py&lt;/code&gt; aga
     <title>New release for Profilarr: v0.3.2.4</title>
     <updated>2024-11-01T21:34:17-04:00</updated>
     <author>
-      <name>santiagosayshey/Profilarr</name>
+      <name>Dictionarry-Hub/profilarr</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;fix: Update legacy Sonarr quality profiles with Bluray-576p&lt;/li&gt;

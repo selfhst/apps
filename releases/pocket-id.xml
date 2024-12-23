@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2024-12-23T16:33:10.694442-05:00</updated>
+  <updated>2024-12-23T18:33:07.080124-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,7 +48,11 @@
     <author>
       <name>stonith404/pocket-id</name>
     </author>
-    <content>&lt;h3&gt;Features&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;br /&gt;
+The environment variable &lt;code&gt;DB_PATH&lt;/code&gt; has been renamed to &lt;code&gt;SQLITE_DB_PATH&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add support for Postgres database provider (&lt;a href="https://github.com/stonith404/pocket-id/issues/79"&gt;#79&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>

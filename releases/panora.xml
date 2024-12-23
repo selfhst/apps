@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Panora Releases</title>
-  <updated>2024-12-23T16:32:40.985877-05:00</updated>
+  <updated>2024-12-23T18:32:37.169148-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Panora: @panora/shared@1.3.0</title>
     <updated>2024-05-25T10:27:57-04:00</updated>
     <author>
-      <name>panoratech/panora</name>
+      <name>panoratech/Panora</name>
     </author>
     <content>&lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -28,7 +28,7 @@
     <title>New release for Panora: @panora/frontend-sdk@1.1.0</title>
     <updated>2024-07-22T03:21:05-04:00</updated>
     <author>
-      <name>panoratech/panora</name>
+      <name>panoratech/Panora</name>
     </author>
     <content>&lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -48,7 +48,7 @@
     <title>New release for Panora: @panora/frontend-sdk@1.1.1</title>
     <updated>2024-07-22T18:54:09-04:00</updated>
     <author>
-      <name>panoratech/panora</name>
+      <name>panoratech/Panora</name>
     </author>
     <content>&lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -61,7 +61,7 @@
     <title>New release for Panora: @panora/shared@1.4.0</title>
     <updated>2024-07-22T03:21:10-04:00</updated>
     <author>
-      <name>panoratech/panora</name>
+      <name>panoratech/Panora</name>
     </author>
     <content>&lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -74,7 +74,7 @@
     <title>New release for Panora: @panora/frontend-sdk@1.2.0</title>
     <updated>2024-07-26T23:22:38-04:00</updated>
     <author>
-      <name>panoratech/panora</name>
+      <name>panoratech/Panora</name>
     </author>
     <content>&lt;h3&gt;Minor Changes&lt;/h3&gt;
 &lt;ul&gt;

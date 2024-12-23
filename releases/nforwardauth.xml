@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>nforwardauth Releases</title>
-  <updated>2024-12-23T16:30:59.217542-05:00</updated>
+  <updated>2024-12-23T18:30:57.506490-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for nforwardauth: v1.3.2</title>
     <updated>2023-12-27T13:41:26-05:00</updated>
     <author>
-      <name>NOSDuco/nforwardauth</name>
+      <name>nosduco/nforwardauth</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/nosduco/nforwardauth/compare/v1.3.1...v1.3.2"&gt;1.3.2&lt;/a&gt; (2023-12-27)&lt;/h2&gt;
 &lt;h3&gt;CI/CD&lt;/h3&gt;
@@ -32,7 +32,7 @@
     <title>New release for nforwardauth: v1.3.3</title>
     <updated>2023-12-27T13:46:19-05:00</updated>
     <author>
-      <name>NOSDuco/nforwardauth</name>
+      <name>nosduco/nforwardauth</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/nosduco/nforwardauth/compare/v1.3.2...v1.3.3"&gt;1.3.3&lt;/a&gt; (2023-12-27)&lt;/h2&gt;
 &lt;h3&gt;CI/CD&lt;/h3&gt;
@@ -46,7 +46,7 @@
     <title>New release for nforwardauth: v1.3.4</title>
     <updated>2023-12-27T13:49:56-05:00</updated>
     <author>
-      <name>NOSDuco/nforwardauth</name>
+      <name>nosduco/nforwardauth</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/nosduco/nforwardauth/compare/v1.3.3...v1.3.4"&gt;1.3.4&lt;/a&gt; (2023-12-27)&lt;/h2&gt;
 &lt;h3&gt;CI/CD&lt;/h3&gt;
@@ -60,7 +60,7 @@
     <title>New release for nforwardauth: v1.4.0</title>
     <updated>2024-01-02T19:44:56-05:00</updated>
     <author>
-      <name>NOSDuco/nforwardauth</name>
+      <name>nosduco/nforwardauth</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/nosduco/nforwardauth/compare/v1.3.4...v1.4.0"&gt;1.4.0&lt;/a&gt; (2024-01-03)&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
@@ -78,7 +78,7 @@
     <title>New release for nforwardauth: v1.4.1</title>
     <updated>2024-12-11T22:01:43-05:00</updated>
     <author>
-      <name>NOSDuco/nforwardauth</name>
+      <name>nosduco/nforwardauth</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/nosduco/nforwardauth/compare/v1.4.0...v1.4.1"&gt;1.4.1&lt;/a&gt; (2024-12-12)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;

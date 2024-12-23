@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2024-12-23T16:31:14.462421-05:00</updated>
+  <updated>2024-12-23T18:31:12.219788-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for RomM: v3.3.0</title>
     <updated>2024-07-19T17:26:35-04:00</updated>
     <author>
-      <name>zurdi15/romm</name>
+      <name>rommapp/romm</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -64,7 +64,7 @@
     <title>New release for RomM: v3.4.0</title>
     <updated>2024-08-07T16:54:54-04:00</updated>
     <author>
-      <name>zurdi15/romm</name>
+      <name>rommapp/romm</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -112,7 +112,7 @@
     <title>New release for RomM: v3.5.0</title>
     <updated>2024-08-31T21:36:43-04:00</updated>
     <author>
-      <name>zurdi15/romm</name>
+      <name>rommapp/romm</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!IMPORTANT]
@@ -172,7 +172,7 @@ If your games or collections fail to load on restart, wait 10 minutes, then run 
     <title>New release for RomM: v3.5.1</title>
     <updated>2024-09-04T20:12:31-04:00</updated>
     <author>
-      <name>zurdi15/romm</name>
+      <name>rommapp/romm</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -195,7 +195,7 @@ If your games or collections fail to load on restart, wait 10 minutes, then run 
     <title>New release for RomM: v3.6.0</title>
     <updated>2024-11-28T23:15:57-05:00</updated>
     <author>
-      <name>zurdi15/romm</name>
+      <name>rommapp/romm</name>
     </author>
     <content>&lt;p&gt;This Thanksgiving, we’re serving up 3.6.0, a hearty update stuffed with QOL improvements and bug fixes that will leave you as satisfied as a plate full of turkey with all the trimmings. 🦃&lt;/p&gt;
 &lt;h2&gt;Progress, completions, and ratings&lt;/h2&gt;
