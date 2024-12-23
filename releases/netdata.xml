@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2024-12-23T04:33:25.631678-05:00</updated>
+  <updated>2024-12-23T05:33:22.357211-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -568,7 +568,7 @@ You may need to update your configurations to reflect the new metric names to av
 | &lt;strong&gt;Query Performance&lt;/strong&gt; | Query Prioritization             | • Immediate response to user queries under any load&lt;br/&gt;• Connection operations get secondary priority&lt;br/&gt;• Background tasks (replication, ML) yield to high-priority operations&lt;br/&gt;• Quick new node integration through expedited backfilling       |
 |                       | Real-Time Response               | • Responsive user experience during heavy processing&lt;br/&gt;• Efficient concurrent query handling&lt;br/&gt;• Maintains performance during high-load background operations                                                                                      |&lt;/p&gt;
 &lt;h3&gt;Cloud: Automated Room Assignment with Label-Based Rules &lt;a id="v210-automated-room-assignment"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Netdata Cloud Dashboard introduces &lt;a href="https://github.com/netdata/netdata/blob/master/docs/netdata-cloud/node-membership-rules.md"&gt;node membership rules&lt;/a&gt;—a powerful new feature that transforms how you organize your infrastructure monitoring:&lt;/p&gt;
+&lt;p&gt;Netdata Cloud Dashboard introduces &lt;a href="https://github.com/netdata/netdata/blob/master/docs/netdata-cloud/node-rule-based-room-assignment.md"&gt;node rule-based room assignment&lt;/a&gt;—a powerful new feature that transforms how you organize your infrastructure monitoring:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Dynamic Room Assignment&lt;/strong&gt;: Nodes are automatically placed into relevant rooms based on their host labels, eliminating manual organization.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Rule-Based Management&lt;/strong&gt;: Create flexible rules using host labels to define where nodes belong, ensuring consistent organization.&lt;/li&gt;
