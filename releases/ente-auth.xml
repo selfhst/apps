@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Auth Releases</title>
-  <updated>2024-12-23T05:32:48.980534-05:00</updated>
+  <updated>2024-12-23T06:32:51.167336-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -189,6 +189,16 @@
       <name>ente-io/ente</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h4&gt;Sorting ↕️&lt;/h4&gt;
+&lt;p&gt;You can drag and drop your codes to sort them in an order that you like best. You can also configure auto-sort by frequency, recency, and more.&lt;/p&gt;
+&lt;h4&gt;Icon picker 🎨&lt;/h4&gt;
+&lt;p&gt;Now pick icons from our library for your codes.&lt;/p&gt;
+&lt;h4&gt;HTML export 🧑‍💻&lt;/h4&gt;
+&lt;p&gt;You can export your data into a single page HTML. This will contain all your data + QR codes that can be easily scanned by other Authenticator apps.&lt;/p&gt;
+&lt;h4&gt;Dedupe codes 👯&lt;/h4&gt;
+&lt;p&gt;View and remove duplicates in a single click.
+Settings &amp;gt; Data &amp;gt; Duplicate codes.&lt;/p&gt;
+&lt;h2&gt;Change log&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[AUTH] binance variants + wargamingnet fix by @schipht in https://github.com/ente-io/ente/pull/4344&lt;/li&gt;
 &lt;li&gt;[AUTH] Optimized Large SVG Files by @schipht in https://github.com/ente-io/ente/pull/4350&lt;/li&gt;

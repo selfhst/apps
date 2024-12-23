@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2024-12-23T05:33:20.843005-05:00</updated>
+  <updated>2024-12-23T06:33:23.851902-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -436,6 +436,7 @@ curl  -X GET 'http://localhost:7700/batches/BATCH_UID'&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Add image source label to Dockerfile by @wuast94 in #4990&lt;/li&gt;
 &lt;li&gt;Hide code complexity into a subfolder by @Kerollmops in #5016&lt;/li&gt;
 &lt;li&gt;Internal tool: implement offline upgrade from v1.10 to v1.11 by @irevoire in #5034&lt;/li&gt;
+&lt;li&gt;Internal tool: implement offline upgrade from v1.11 to v1.12 by @ManyTheFish in  #5146&lt;/li&gt;
 &lt;li&gt;Meilisearch is now able to retrieve Katakana words from a Hiragana query by @tats-u in https://github.com/meilisearch/charabia/pull/312&lt;/li&gt;
 &lt;li&gt;Improve error handling when writing into LMDB by @Kerollmops in https://github.com/meilisearch/meilisearch/pull/5089&lt;/li&gt;
 &lt;/ul&gt;
