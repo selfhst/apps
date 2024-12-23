@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gogs Releases</title>
-  <updated>2024-12-22T19:32:04.798410-05:00</updated>
+  <updated>2024-12-22T20:32:11.992280-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -581,7 +581,11 @@
     <author>
       <name>gogs/gogs</name>
     </author>
-    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!warning]
+Due to changes to the release infrastructure, starting this release and going forward, &lt;code&gt;pam&lt;/code&gt; tag will not be included for release archives that previously had it included.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Security:&lt;/em&gt; Path Traversal in file editing UI. &lt;a href="https://github.com/gogs/gogs/security/advisories/GHSA-r7j8-5h9c-f6fx"&gt;GHSA-r7j8-5h9c-f6fx&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Security:&lt;/em&gt; Path Traversal in file update API. &lt;a href="https://github.com/gogs/gogs/security/advisories/GHSA-qf5v-rp47-55gg"&gt;GHSA-qf5v-rp47-55gg&lt;/a&gt;&lt;/li&gt;
