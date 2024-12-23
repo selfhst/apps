@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2024-12-23T06:30:05.085937-05:00</updated>
+  <updated>2024-12-23T07:30:04.377062-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -322,7 +322,19 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
+    <content>&lt;h2&gt;⚠️ Deprecation of audit logs v1&lt;/h2&gt;
+&lt;p&gt;When we initially introduced audit logs (v1), they were a foundational feature but remained incomplete and remained underdeveloped over time.&lt;/p&gt;
+&lt;p&gt;Here’s how:
+- Limited Coverage: The existing audit logs captured less than 25% of the actions within the product. Key operations—such as creating or modifying fields, filters, sorts, views, row comments, collaborators and webhooks etc—were not tracked at all. Over 150+ releases, the logs failed to keep up with NocoDB’s expanding feature set.
+- Incomplete Information: Even for the events that were logged, the data was partial and insufficient. For example record audit details often appeared fragmented, leaving gaps that fell short of enterprise-grade requirements.&lt;/p&gt;
+&lt;p&gt;As part of our commitment to providing the best possible experience with NocoDB we decided to deprecate audit logs v1. So audit logs v1 no longer be part of the open-source (OSS) variant and Enterprise Audit Logs (v2) will be introduced &amp;amp; exclusively available to self-hosted enterprise users and cloud users.&lt;/p&gt;
+&lt;p&gt;Audit Logs v2 built from the ground up to address these gaps to offer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comprehensive coverage of all critical actions within NocoDB.&lt;/li&gt;
+&lt;li&gt;Detailed and reliable logs suited to enterprise use cases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will always be transparent and proactive in every change, if you are looking for comprehensive audit logs (v2) - it will be soon available in our self-hosted and cloud enterprise solution.&lt;/p&gt;
+&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Rounded corners not the same across the Quick Palette &lt;a href="https://github.com/nocodb/nocodb/issues/10074"&gt;#10074&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: S3 storage doesn't work &lt;a href="https://github.com/nocodb/nocodb/issues/10072"&gt;#10072&lt;/a&gt;&lt;/li&gt;
@@ -343,7 +355,7 @@
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Formula doesn't update and deletes data in other fields if ENTER isn't pressed in other fields &lt;a href="https://github.com/nocodb/nocodb/issues/9897"&gt;#9897&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Long Text Field isn't accepting single line breaks &lt;a href="https://github.com/nocodb/nocodb/issues/9896"&gt;#9896&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Field Type "Links" Relation type "One to One" - Search ERROR &lt;a href="https://github.com/nocodb/nocodb/issues/9893"&gt;#9893&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: WTF ? How to make a percentage of tasks done ? &lt;a href="https://github.com/nocodb/nocodb/issues/9888"&gt;#9888&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: How to make a percentage of tasks done ? &lt;a href="https://github.com/nocodb/nocodb/issues/9888"&gt;#9888&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;][&lt;strong&gt;Status: Reproducible&lt;/strong&gt;] 🐛 Bug: Unable to view record in group view &lt;a href="https://github.com/nocodb/nocodb/issues/9875"&gt;#9875&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🔦 Type: Feature&lt;/strong&gt;] 🔦 Feature: Add generic s3 compatible storage (e.g. iDrive e2) &lt;a href="https://github.com/nocodb/nocodb/issues/9865"&gt;#9865&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Webhook doesn't trigger when a lookup field is updated &lt;a href="https://github.com/nocodb/nocodb/issues/9817"&gt;#9817&lt;/a&gt;&lt;/li&gt;
@@ -433,12 +445,8 @@
 &lt;li&gt;Chore/action delay by @pranavxc in https://github.com/nocodb/nocodb/pull/10040&lt;/li&gt;
 &lt;li&gt;Nc feat/form mode template message by @dstala in https://github.com/nocodb/nocodb/pull/10025&lt;/li&gt;
 &lt;li&gt;fix(nocodb): sql: preserve negative symbols by @amandesai01 in https://github.com/nocodb/nocodb/pull/10023&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;fix(nc-gui): single select overflow fix by @amandesai01 in https://github.com/nocodb/nocodb/pull/10050&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Nc fix/link record selection by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/10055&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;fix(nc-gui): single select overflow fix by @amandesai01 in https://github.com/nocodb/nocodb/pull/10050&lt;/li&gt;
+&lt;li&gt;Nc fix/link record selection by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/10055&lt;/li&gt;
 &lt;li&gt;chore: bump build tools by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/10064&lt;/li&gt;
 &lt;li&gt;fix(nc-gui): richtext render issue by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/10067&lt;/li&gt;
 &lt;li&gt;fix(nocodb): suppress invalid col validation while duplicating by @amandesai01 in https://github.com/nocodb/nocodb/pull/10044&lt;/li&gt;

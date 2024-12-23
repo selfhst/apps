@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2024-12-23T06:34:09.452237-05:00</updated>
+  <updated>2024-12-23T07:34:01.843307-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,19 +75,5 @@
 &lt;li&gt;ADDED: Display comment into tables and column list #755&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.0" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://github.com/dbgate/dbgate/releases/tag/v6.1.1</id>
-    <title>New release for DbGate: v6.1.1</title>
-    <updated>2024-12-23T01:10:49-05:00</updated>
-    <author>
-      <name>dbgate/dbgate</name>
-    </author>
-    <content>&lt;p&gt;ADDED: Trigger support (SQL Server, PostgreSQL, MySQL, Oracle)
-FIXED: PostgreSQL and Oracle export #970
-FIXED: Cursor Becomes Stuck When Escaping "Case" #954
-CHANGED: Defualt search criteria for tables are names only
-FIXED: Search in packed list&lt;/p&gt;</content>
-    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.1" rel="alternate"/>
   </entry>
 </feed>
