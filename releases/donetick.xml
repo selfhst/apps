@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2024-12-22T22:34:17.618705-05:00</updated>
+  <updated>2024-12-22T23:34:25.649340-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,8 @@
 &lt;li&gt;52af6652d8bd59067fc99a4e21fa2508f8f950bd Update Readme Support Archive and unarchive Fix bug with the scheduler  #53&lt;/li&gt;
 &lt;li&gt;Support Archiving and Unarchiving task&lt;/li&gt;
 &lt;li&gt;Support Arranging Tasks but different way: by Due Date, Priority, Labels&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;img width="375" alt="image" src="https://github.com/user-attachments/assets/79cfa661-4a55-4606-b465-9a16e81b167d" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.24" rel="alternate"/>
   </entry>
 </feed>
