@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DefGuard Releases</title>
-  <updated>2024-12-23T15:32:52.046789-05:00</updated>
+  <updated>2024-12-23T16:32:53.315535-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,7 +158,7 @@ Limits should be more than sufficient for home, small business, and student use.
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v1.1.4 --&gt;
 
 &lt;h1&gt;⚠️ WARNING: Please read the upgrade notes for version 1.1.4, as we've introduced a change which may require certain modifications before you update ⚠️&lt;/h1&gt;
-&lt;p&gt;Upgrade notes: https://docs.defguard.net/admin-features/setting-up-your-instance/upgrading&lt;/p&gt;
+&lt;p&gt;Upgrade notes: https://docs.defguard.net/admin-and-features/setting-up-your-instance/upgrading#any-previous-core-release-greater-than-core-1.1.4&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Quick fix release&lt;/h3&gt;
 &lt;ul&gt;
