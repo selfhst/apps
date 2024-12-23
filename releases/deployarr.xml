@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Deployarr Releases</title>
-  <updated>2024-12-23T11:34:30.687769-05:00</updated>
+  <updated>2024-12-23T12:34:39.642478-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,15 @@
     </author>
     <content/>
     <link href="https://github.com/anandslab/deployarr/releases/tag/v5.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/anandslab/deployarr/releases/tag/v5.4</id>
+    <title>New release for Deployarr: v5.4</title>
+    <updated>2024-12-23T12:27:53-05:00</updated>
+    <author>
+      <name>anandslab/deployarr</name>
+    </author>
+    <content/>
+    <link href="https://github.com/anandslab/deployarr/releases/tag/v5.4" rel="alternate"/>
   </entry>
 </feed>

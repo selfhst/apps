@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2024-12-23T11:31:32.689858-05:00</updated>
+  <updated>2024-12-23T12:31:37.538910-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -270,89 +270,56 @@ JAR download: https://downloads.metabase.com/v0.52.4/metabase.jar&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.52.4&lt;/code&gt;&lt;/a&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.52.4/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h1&gt;&lt;/h1&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add basic auth capabilities to Druid JDBC (#45728)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ci(sdk): make 52 the latest in release workflow (#51552)&lt;/li&gt;
-&lt;li&gt;Update SDK release workflow to release 52-stable (#51525)&lt;/li&gt;
-&lt;li&gt;add tests for support of xx-YY locales in embed/public-links (#51456)&lt;/li&gt;
-&lt;li&gt;ci(sdk): re-enable sdk e2e cross version tests for 52 branch (#51402)&lt;/li&gt;
-&lt;li&gt;ci(sdk): reconcile sdk version number in 52 branch with npm (#51391)&lt;/li&gt;
-&lt;li&gt;Disable failing sdk e2e cross-version tests in 52 branch (#51389)&lt;/li&gt;
-&lt;li&gt;ci(sdk): embedding e2e workflow fixes for 52 branch (#51268)&lt;/li&gt;
-&lt;li&gt;Convert ChartSettingsRadio to mantine (#51210)&lt;/li&gt;
-&lt;li&gt;Convert ChartSettingInputNumeric to Mantine (#51165)&lt;/li&gt;
-&lt;li&gt;add sdk theme selector to storybook + split the storybook sdk config into its own folder (#51122)&lt;/li&gt;
-&lt;li&gt;Convert ChartSettingSelect to Mantine (#50977)&lt;/li&gt;
-&lt;li&gt;Update SDK version to 0.52.6 (#51573)&lt;/li&gt;
-&lt;li&gt;Update SDK version to 0.52.5-nightly (#51396)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;add percentages to sankey tooltip (#51193)&lt;/li&gt;
+&lt;li&gt;Add percentages to Sankey tooltip (#51193)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add field values e2e test (#51424)&lt;/li&gt;
-&lt;li&gt;We should show what's the query going to the DW on linked filters (#46888)&lt;/li&gt;
+&lt;li&gt;Add logging for linked filter queries (#46888)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Bump Toucan2 version (#51547)&lt;/li&gt;
-&lt;li&gt;ci: Fix be-tests stub (#51545)&lt;/li&gt;
-&lt;li&gt;ci: Only run driver tests when testing Databricks driver (#51543)&lt;/li&gt;
-&lt;li&gt;Try a band-aid fix for native editor e2e flakes (#51528)&lt;/li&gt;
 &lt;li&gt;perf: Add fastpaths to url? and email? predicates (#51522)&lt;/li&gt;
-&lt;li&gt;quarantine flakes caused by problems with typing in the native editor (#51520)&lt;/li&gt;
 &lt;li&gt;[openapi] reduce amount of oneOf/allOf we generate in documentation (#51495)&lt;/li&gt;
-&lt;li&gt;ci: Trim stacktrace of intentional exceptions thrown during testing (#51443)&lt;/li&gt;
 &lt;li&gt;[Clean-up] Allow collection clean up banner to be dismissible (#51434)&lt;/li&gt;
-&lt;li&gt;lychee to lint doc links (#51422)&lt;/li&gt;
 &lt;li&gt;Send pulse asynchronously with a small pool size (#51380)&lt;/li&gt;
-&lt;li&gt;remove translation for slack error (#51375)&lt;/li&gt;
+&lt;li&gt;Remove translation for slack error (#51375)&lt;/li&gt;
 &lt;li&gt;Add prometheus metric for search errors (#51357)&lt;/li&gt;
 &lt;li&gt;Co-ordinate Search Index creation and rotation between instances (#51279)&lt;/li&gt;
-&lt;li&gt;Minor refactoring of cancellation-related code (#49815)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Command palette should not show you admin actions if you do not have access to them (#49729)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cannot Filter on UUID ID Columns in SQL Server / Azure Synpase (#51189)&lt;/li&gt;
 &lt;li&gt;Filtering on a multi stage question in MongoDB results in a non-working query (#50832)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dashboards&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;CSS issue: Metabase Dashboards that display a bunch of table data are nearly invisible in dark mode (#51524)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pruning query execution log can time out (#51432)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Deadlock on the app db (52) (#51316)&lt;/li&gt;
-&lt;li&gt;New Metrics API misses human-friendly text metric definition (#51303)&lt;/li&gt;
+&lt;li&gt;Dashboards with tables are nearly invisible in full screen dark mode (#51524)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Reporting&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Exporting to Formatted CSV or JSON Rounds Numeric Fields When Using "Multiply by a Value" (#49439)&lt;/li&gt;
-&lt;li&gt;Fix pdf exports issues (#51491)&lt;/li&gt;
+&lt;li&gt;PDF exports of dashboards are cut off (#51491)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Bar chart has overlapping bars (#51521)&lt;/li&gt;
+&lt;li&gt;Wrong line is selected when you click on view details (#51301)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[TableInteractive] view detail messes up rows when horizontal scroll is used (#51301)&lt;/li&gt;
+&lt;li&gt;Command palette should not show you admin actions if you do not have access to them (#49729)&lt;/li&gt;
+&lt;li&gt;Deadlock on the app db (52) (#51316)&lt;/li&gt;
+&lt;li&gt;Pruning query execution log can time out (#51432)&lt;/li&gt;
+&lt;li&gt;New Metrics API misses human-friendly text metric definition (#51303)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.52.4" rel="alternate"/>
   </entry>

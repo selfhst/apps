@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mailu Releases</title>
-  <updated>2024-12-23T11:30:47.184234-05:00</updated>
+  <updated>2024-12-23T12:30:49.968908-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,7 @@
 &lt;p&gt;Ensure the apple mobileconfig is served with the appropriate content-type&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;This release was triggered by PR/Issue &lt;a href="https://github.com/Mailu/Mailu/issues/3690"&gt;3690&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release was triggered by PR/Issue &lt;a href="https://github.com/Mailu/Mailu/issues/3691"&gt;3691&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The release notes of the original main release can be accessed via menu item 'Release notes' on &lt;a href="https://mailu.io/"&gt;mailu.io&lt;/a&gt;.&lt;/p&gt;
