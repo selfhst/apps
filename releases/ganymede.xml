@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ganymede Releases</title>
-  <updated>2024-12-24T08:34:12.095188-05:00</updated>
+  <updated>2024-12-24T09:34:14.867484-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -480,7 +480,7 @@ Contains changes to the compose file providing a simpler way to run Ganymede&lt;
 &lt;p&gt;&lt;img alt="readme_landing" src="https://github.com/user-attachments/assets/5eb02c10-387b-400e-bf25-0a959562fa2c" /&gt;&lt;/p&gt;
 &lt;p&gt;https://github.com/user-attachments/assets/4ac5941e-b900-4c16-b71f-87eca907f758&lt;/p&gt;
 &lt;h3&gt;Video Thumbnail Sprites&lt;/h3&gt;
-&lt;p&gt;Archived Twitch VODs will not download the "sprite thumbnails" if the VOD as them available. This provides a quick glance at any given position in a video.&lt;/p&gt;
+&lt;p&gt;Archived Twitch VODs will now download the "sprite thumbnails" if the VOD as them available. This provides a quick glance at any given position in a video.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ganymede_sprite_thumbnails" src="https://github.com/user-attachments/assets/98086575-397f-4bd8-8913-a413ed8033b9" /&gt;&lt;/p&gt;
 &lt;p&gt;An &lt;strong&gt;EXPERIMENTAL&lt;/strong&gt; feature is also available to generate the "sprite thumbnails" for live stream, clips, or VODs that do not have sprite thumbnails from Twitch. To generate the sprites click the button in the video menu.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/ea4f5ffe-3d8e-400a-8865-a8c94504aa36" /&gt;&lt;/p&gt;
