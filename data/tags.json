@@ -39,8 +39,8 @@
     {
         "Tag": "Ad Block",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -110,8 +110,8 @@
     {
         "Tag": "Bookmarks",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -124,8 +124,8 @@
     {
         "Tag": "Budgeting",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -552,8 +552,8 @@
     {
         "Tag": "Monitoring",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -566,8 +566,8 @@
     {
         "Tag": "Music",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -724,8 +724,8 @@
     {
         "Tag": "Recipes",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
