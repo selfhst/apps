@@ -124,8 +124,8 @@
     {
         "Tag": "Budgeting",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -655,8 +655,8 @@
     {
         "Tag": "Photos",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
