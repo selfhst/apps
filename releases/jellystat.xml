@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellystat Releases</title>
-  <updated>2024-12-25T02:32:13.666762-05:00</updated>
+  <updated>2024-12-25T03:32:28.732751-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,5 +131,25 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/CyferShepard/Jellystat/compare/1.1.0...1.1.1&lt;/p&gt;</content>
     <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CyferShepard/Jellystat/releases/tag/1.1.2</id>
+    <title>New release for Jellystat: 1.1.2 Release</title>
+    <updated>2024-12-25T02:59:14-05:00</updated>
+    <author>
+      <name>CyferShepard/Jellystat</name>
+    </author>
+    <content>&lt;p&gt;This is the first of the new releases that will follow a different release cycle as compared to previous releases. Each release will be lighter overall to ensure fixes are deployed much faster to the stable branch&lt;/p&gt;
+&lt;p&gt;Whats New:
+Added environment variable to define the minimum number of seconds for a playback to be included - @zodac
+Added zh-CN Language - @zjjxwhh
+Added External URL option&lt;/p&gt;
+&lt;p&gt;Fixes
+Fixed Backup endpoints not working
+Fixed Device icons not showing for Emby
+Fixed filtering by stream type for Emby
+Fix for IS_JELLYFIN flag looking at the wrong section in the config
+fix for https://github.com/CyferShepard/Jellystat/issues/263 , default value for no activity on fs_user_stats&lt;/p&gt;</content>
+    <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.2" rel="alternate"/>
   </entry>
 </feed>
