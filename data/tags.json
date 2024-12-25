@@ -532,8 +532,8 @@
     {
         "Tag": "Media Streaming",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -552,8 +552,8 @@
     {
         "Tag": "Monitoring",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -698,8 +698,8 @@
     {
         "Tag": "RSS",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
