@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2024-12-25T19:32:49.368129-05:00</updated>
+  <updated>2024-12-25T20:32:50.816703-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,7 +101,7 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/jorenn92/Maintainerr/compare/v2.4.0...v2.4.1"&gt;2.4.1&lt;/a&gt; (2024-12-25)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Do not reset collection on *arr server change. This also fixes the Maintainerr collection being wrongly cleared when any part of the rule changes on save. This would lead to strange behavior like media being classed as Manual and possibly test media vs actual result being different. &lt;a href="https://github.com/jorenn92/Maintainerr/issues/1467"&gt;#1467&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/6bcc45ed9df47956eda3f692c6486f33e742c137"&gt;6bcc45e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Do not reset collection on *arr server change. This also fixes the Maintainerr collection being wrongly cleared when any part of the rule changes on save. This would lead to strange behavior like media being classed as Manual and possibly test media vs actual result being different. We suggest recreating any rules that match this behavior. (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1467"&gt;#1467&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/6bcc45ed9df47956eda3f692c6486f33e742c137"&gt;6bcc45e&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jorenn92/Maintainerr/releases/tag/v2.4.1" rel="alternate"/>
   </entry>
