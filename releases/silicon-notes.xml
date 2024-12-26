@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Silicon Notes Releases</title>
-  <updated>2024-12-26T09:31:21.758989-05:00</updated>
+  <updated>2024-12-26T10:31:22.418478-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,28 @@
 &lt;p&gt;Hugs and kisses,
 Charles&lt;/p&gt;</content>
     <link href="https://github.com/cu/silicon/releases/tag/0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/cu/silicon/releases/tag/0.1.5</id>
+    <title>New release for Silicon Notes: 0.1.5</title>
+    <updated>2024-12-26T09:49:05-05:00</updated>
+    <author>
+      <name>cu/silicon</name>
+    </author>
+    <content>&lt;p&gt;Get yer docker images here: https://hub.docker.com/r/bityard/silicon/tags&lt;/p&gt;
+&lt;p&gt;Notable changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated dependencies&lt;/li&gt;
+&lt;li&gt;Misc cleanup&lt;/li&gt;
+&lt;li&gt;Show related pages on non-existant pages&lt;/li&gt;
+&lt;li&gt;Refactor colors to use a 'color token' system&lt;/li&gt;
+&lt;li&gt;Format JS with Prettier&lt;/li&gt;
+&lt;li&gt;Views for pages with slugs will always redirect to the canonical slug&lt;/li&gt;
+&lt;li&gt;Switch project management from poetry to uv&lt;/li&gt;
+&lt;li&gt;Various README improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hugs and Kisses,
+Charles&lt;/p&gt;</content>
+    <link href="https://github.com/cu/silicon/releases/tag/0.1.5" rel="alternate"/>
   </entry>
 </feed>
