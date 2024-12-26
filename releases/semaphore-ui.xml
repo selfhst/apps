@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Semaphore UI Releases</title>
-  <updated>2024-12-26T07:34:43.825641-05:00</updated>
+  <updated>2024-12-26T08:34:24.011120-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,8 +144,8 @@
     <author>
       <name>semaphoreui/semaphore</name>
     </author>
-    <content>&lt;p&gt;&lt;a href="https://semaphoreui.com/releases/semaphore-v2_11"&gt;
-  &lt;img src="https://github.com/user-attachments/assets/0fa10bd4-e110-425f-ad09-b749e19c7977"&gt;
+    <content>&lt;p&gt;&lt;a href="https://semaphoreui.com/releases/semaphore-v2_11"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/ea79ded5-fece-4ce1-8dbb-7549ebf9a6a8" width="700"&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://semaphoreui.com/releases/semaphore-v2_11"&gt;Semaphore 2.11 Release Details&lt;/a&gt;&lt;/h3&gt;
 &lt;h2&gt;Bugfixes&lt;/h2&gt;
