@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2024-12-26T19:30:34.743707-05:00</updated>
+  <updated>2024-12-26T20:30:36.761401-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,14 +133,17 @@
     <link href="https://github.com/gethomepage/homepage/releases/tag/v0.10.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/gethomepage/homepage/releases/tag/v0.10.4</id>
-    <title>New release for Homepage: v0.10.4</title>
-    <updated>2024-12-25T03:49:43-05:00</updated>
+    <id>https://github.com/gethomepage/homepage/releases/tag/v0.10.5</id>
+    <title>New release for Homepage: v0.10.5</title>
+    <updated>2024-12-26T19:58:44-05:00</updated>
     <author>
       <name>gethomepage/homepage</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Enhancement: Better handle some beszel errors by @shamoon in https://github.com/gethomepage/homepage/pull/4493&lt;/li&gt;
+&lt;li&gt;Enhancement: support 'nice name' for beszel system ID by @shamoon in https://github.com/gethomepage/homepage/pull/4495&lt;/li&gt;
+&lt;li&gt;FIx: glances containers header position by @shamoon in https://github.com/gethomepage/homepage/pull/4496&lt;/li&gt;
 &lt;li&gt;Fix: fix search overlay behind status indicators in 0.10.x by @shamoon in https://github.com/gethomepage/homepage/pull/4484&lt;/li&gt;
 &lt;li&gt;Fix: fun with padding and margins by @shamoon in https://github.com/gethomepage/homepage/pull/4489&lt;/li&gt;
 &lt;li&gt;New Crowdin translations by GitHub Action by @github-actions in https://github.com/gethomepage/homepage/pull/4481&lt;/li&gt;
@@ -152,7 +155,7 @@
 &lt;li&gt;Chore(deps): Bump systeminformation from 5.23.5 to 5.23.8 by @dependabot in https://github.com/gethomepage/homepage/pull/4450&lt;/li&gt;
 &lt;li&gt;Fix: dont discard service groups not included in layout by @shamoon in https://github.com/gethomepage/homepage/pull/4456&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.10.0...v0.10.4&lt;/p&gt;</content>
-    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.10.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v0.10.0...v0.10.5&lt;/p&gt;</content>
+    <link href="https://github.com/gethomepage/homepage/releases/tag/v0.10.5" rel="alternate"/>
   </entry>
 </feed>
