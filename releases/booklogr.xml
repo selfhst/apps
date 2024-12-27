@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLogr Releases</title>
-  <updated>2024-12-27T09:33:18.359566-05:00</updated>
+  <updated>2024-12-27T10:33:12.343072-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,5 +76,50 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Mozzo1000/booklogr/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mozzo1000/booklogr/releases/tag/v1.2.0</id>
+    <title>New release for BookLogr: v1.2.0</title>
+    <updated>2024-12-27T10:17:28-05:00</updated>
+    <author>
+      <name>Mozzo1000/booklogr</name>
+    </author>
+    <content>&lt;p&gt;Release 1.2.0 🎉&lt;/p&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;| Event sharing to Mastodon option | New view of notes with added quotes| 
+| :----------------------------: | :----------------------------: |
+| &lt;img alt="mastodon-enable-share" src="https://github.com/user-attachments/assets/779d7717-700a-4e4b-8f55-a624ec283a03" /&gt;                                          | &lt;img alt="notes_quotes_2" src="https://github.com/user-attachments/assets/9f11f5ec-9f48-4b93-bcb2-c52044804548" /&gt;                                              |&lt;/p&gt;
+&lt;h3&gt;Easier deployment&lt;/h3&gt;
+&lt;p&gt;There are now prebuilt docker images for both the API and web interface making it much easier to host BookLogr yourself. See the &lt;a href="https://github.com/Mozzo1000/booklogr/wiki/Install-with-Docker"&gt;wiki &lt;/a&gt;for how to install with Docker.&lt;/p&gt;
+&lt;h3&gt;Event sharing&lt;/h3&gt;
+&lt;p&gt;When you finish a book it can now be automatically posted to your Mastodon account. Instructions are on the &lt;a href="https://github.com/Mozzo1000/booklogr/wiki/Connect-to-mastodon/33c14e2d2a3914ff9e02558d3baa0216a69dc6a8"&gt;wiki&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker images for the API and web frontend. https://hub.docker.com/repository/docker/mozzo/booklogr-web and https://hub.docker.com/repository/docker/mozzo/booklogr&lt;/li&gt;
+&lt;li&gt;Search now shows an error message when failing to retrieve results from OpenLibrary.&lt;/li&gt;
+&lt;li&gt;Small transition when switching pages.&lt;/li&gt;
+&lt;li&gt;Option to export data in JSON and HTML format.&lt;/li&gt;
+&lt;li&gt;Worker management CLI tool.&lt;/li&gt;
+&lt;li&gt;Quotes with page numbers can now be added.&lt;/li&gt;
+&lt;li&gt;Event sharing - automatically post to Mastodon when finished reading a book.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The navigation menu now disappears correctly after login and sidebar/mobile navigation will be visible without requiring a refresh of the page.&lt;/li&gt;
+&lt;li&gt;Public profile not returning any information if there where no public notes in any books.&lt;/li&gt;
+&lt;li&gt;401 errors now redirect you back to the login page. This normally happens when the JWT token has expired.&lt;/li&gt;
+&lt;li&gt;Error toast being shown on settings page when no exports files where available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The provided docker-compose does no longer require a locally built &lt;code&gt;auth-server&lt;/code&gt; image. Instead it pulls the image from Docker Hub. The users database is now also stored in sqlite instead of postgres, eliminating the need for a secondary postgres server container.&lt;/li&gt;
+&lt;li&gt;The API is now available as a prebuilt docker image. The provided docker-compose has been changed to reflect this instead of building locally.&lt;/li&gt;
+&lt;li&gt;Changed the color of the mobile navigation bar buttons to better match the styling of other similar elements.&lt;/li&gt;
+&lt;li&gt;The layout in data tab on the settings page is now responsive. &lt;/li&gt;
+&lt;li&gt;Notes in the web interface has now been renamed to Notes &amp;amp; Quotes, to accomadate the new quotes feature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Mozzo1000/booklogr/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
