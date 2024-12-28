@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tautulli Releases</title>
-  <updated>2024-12-27T23:31:39.920570-05:00</updated>
+  <updated>2024-12-28T00:31:41.978122-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,7 +98,9 @@
     <author>
       <name>Tautulli/Tautulli</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Windows installer removed due to antivirus flagging it as a false positive. (#2454)&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h4&gt;v2.15.0 (2024-11-24)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Notes:&lt;/li&gt;
