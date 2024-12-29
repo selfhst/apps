@@ -552,8 +552,8 @@
     {
         "Tag": "Monitoring",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -573,8 +573,8 @@
     {
         "Tag": "Music Streaming",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
