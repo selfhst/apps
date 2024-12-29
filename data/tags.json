@@ -552,8 +552,8 @@
     {
         "Tag": "Monitoring",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
