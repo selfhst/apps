@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>UpSnap Releases</title>
-  <updated>2024-12-28T19:32:32.556787-05:00</updated>
+  <updated>2024-12-28T20:32:26.520186-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,7 +183,12 @@
     <author>
       <name>seriousm4x/UpSnap</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!CAUTION]&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;Update to version 4.3.4 first before upgrading to version 4.4.0!&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;You might risk database migrations to fail if you update from a prior version.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;69bb334b20ef1f5601cbea74f09a9915910b53c9: fix: make more buttons reactive, remove user create rule, close #800 (@seriousm4x)&lt;/li&gt;
