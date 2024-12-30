@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Astuto Releases</title>
-  <updated>2024-12-30T09:34:19.364611-05:00</updated>
+  <updated>2024-12-30T10:34:23.002293-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,19 @@
     </author>
     <content/>
     <link href="https://github.com/astuto/astuto/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/astuto/astuto/releases/tag/v1.1.0</id>
+    <title>New release for Astuto: 1.1.0</title>
+    <updated>2024-12-30T09:43:52-05:00</updated>
+    <author>
+      <name>astuto/astuto</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Add Sidekiq as a possible backend for background jobs (e.g. mailers)&lt;/li&gt;
+&lt;li&gt;Add webhooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/astuto/astuto/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/astuto/astuto/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
