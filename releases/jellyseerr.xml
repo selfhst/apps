@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-12-30T03:31:55.819650-05:00</updated>
+  <updated>2024-12-30T04:31:59.485312-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,7 @@
     <content>&lt;h2&gt;&lt;a href="https://github.com/fallenbagel/jellyseerr/compare/v2.2.0...v2.2.1"&gt;2.2.1&lt;/a&gt; (2024-12-30)&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;overriderules:&lt;/strong&gt; apply override rules during request only for non-admin/non-auto-approve users (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1197"&gt;#1197&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/8da48709977fa0111225c3519f9128bea41867fc"&gt;8da4870&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1195"&gt;#1195&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;overriderules:&lt;/strong&gt; apply override rules during request only for non-admin/non-advanced-request users (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1197"&gt;#1197&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/8da48709977fa0111225c3519f9128bea41867fc"&gt;8da4870&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1195"&gt;#1195&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;This release is also available on:
