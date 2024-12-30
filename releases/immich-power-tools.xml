@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Power Tools Releases</title>
-  <updated>2024-12-30T12:33:48.450531-05:00</updated>
+  <updated>2024-12-30T13:33:47.865445-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,14 +105,7 @@
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;adapt to vertical resolution and fix flickering (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/8312fc183db9a8e886da0cd0d901d52aab4a5d43"&gt;8312fc1&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;conflicts resolved (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/a9038da6427a2c44b6bd277008c1488e356d4458"&gt;a9038da&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;conflicts resolved (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/ddbee4af03e29de95f983530f40ad8375296f8f9"&gt;ddbee4a&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;conflicts resolved (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/7266a2edd689c9de21c782270f1e364aa8b9f8c6"&gt;7266a2e&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;convert to vertical resolution (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/383b71422056724a149e2f5e1e3c87c1c15dd89e"&gt;383b714&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;design fixes (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/e305e458f1630c88dda3c0a7b3128a762f1f9e61"&gt;e305e45&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;design fixes (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/43cfcdbe8f8a568f2913e2a4146c802dd178100a"&gt;43cfcdb&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;gemini key validation (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/9f2f0ef7a6cf124cc305dae5a9d08ecdd1ce43f8"&gt;9f2f0ef&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;minor design fix (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/b365e7d3ab2e23531c96425ded7afd5f27ad3cb6"&gt;b365e7d&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;thershold option and fix hide person (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/e0f96cea0d3a978bb214c2a9caee52338e2e56a6"&gt;e0f96ce&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
@@ -121,15 +114,26 @@
 &lt;li&gt;added google heatmap (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/842e323042d8a89f28776052efb51bfa127bf6e2"&gt;842e323&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;added preview in find (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/31e58793beab20160f8f116b3c7cc109e2c4758f"&gt;31e5879&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;added rewind data (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/2b7dc94775dc4082e6d0c32ef0d22f3d267d61a6"&gt;2b7dc94&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;base setup (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/759d7724237e3a59528026197f1e93680fdfa99d"&gt;759d772&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;base setup for search photos (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/c0fec68e434bff65eb11731f18dd85be19dce6e8"&gt;c0fec68&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;end of year release (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/e4b758018855d8dc5d5817b8589f92d38b89985a"&gt;e4b7580&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;end of year release (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/bf301b9c44745fd0b6c158d702381e8444278e23"&gt;bf301b9&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;end of year release (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/c37c94f1ec764eb50407c27f7ed3c56dc86d1aac"&gt;c37c94f&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;end of year release (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/1f5202f9b5d1126de17cc9f739511634a831de7e"&gt;1f5202f&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;end of year release (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/a23aa88ca481dff792d79f59c420b8038af5dd71"&gt;a23aa88&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;updated UI for rewind. (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/37da0ed69b930fec37d073a8cdfac93341503e43"&gt;37da0ed&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;new logo scene and fix flickering by @sai80082 in https://github.com/varun-raj/immich-power-tools/pull/78&lt;/li&gt;
+&lt;li&gt;feat: Add 'Select All' button to Merge People page. by @jackbrown1993 in https://github.com/varun-raj/immich-power-tools/pull/88&lt;/li&gt;
+&lt;li&gt;feat: Clicking person name on thumbnail opens person in Immich by @jackbrown1993 in https://github.com/varun-raj/immich-power-tools/pull/90&lt;/li&gt;
+&lt;li&gt;fix: Refresh similar people after merge by @jackbrown1993 in https://github.com/varun-raj/immich-power-tools/pull/89&lt;/li&gt;
+&lt;li&gt;fix: threshold option and fix hide person by @sai80082 in https://github.com/varun-raj/immich-power-tools/pull/76&lt;/li&gt;
+&lt;li&gt;Fixed date list for missing location scenario  by @knom in https://github.com/varun-raj/immich-power-tools/pull/87&lt;/li&gt;
+&lt;li&gt;Added OpenStreetMap / Leaflet by @knom in https://github.com/varun-raj/immich-power-tools/pull/91&lt;/li&gt;
+&lt;li&gt;feat: updated UI for rewind. by @sai80082 in https://github.com/varun-raj/immich-power-tools/pull/79&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@jackbrown1993 made their first contribution in https://github.com/varun-raj/immich-power-tools/pull/88&lt;/li&gt;
+&lt;li&gt;@knom made their first contribution in https://github.com/varun-raj/immich-power-tools/pull/87&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/varun-raj/immich-power-tools/compare/v0.10.1...v0.11.0&lt;/p&gt;</content>
     <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.11.0" rel="alternate"/>
   </entry>
 </feed>
