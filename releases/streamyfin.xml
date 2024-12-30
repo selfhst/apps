@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Streamyfin Releases</title>
-  <updated>2024-12-30T14:33:51.124942-05:00</updated>
+  <updated>2024-12-30T15:33:50.056339-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Streamyfin: v0.15.0</title>
     <updated>2024-09-25T15:41:50-04:00</updated>
     <author>
-      <name>fredrikburmester/streamyfin</name>
+      <name>streamyfin/streamyfin</name>
     </author>
     <content>&lt;p&gt;Another release! It's been too long... Every time I think i'm gonna do another release I get some new feature idea that I just &lt;strong&gt;need&lt;/strong&gt; to implement. Anyway, hope you like it! &lt;/p&gt;
 &lt;p&gt;In this release we have a new player design. We're deviating from the native player design, and implementing our own. This is because the native player does not support things like trickplay, customizable buttons, etc. We now have the possibility to implement more cool features in the future. It might not feel &lt;em&gt;as&lt;/em&gt; native, but for now it opens more doors than it closes.&lt;/p&gt;
@@ -47,7 +47,7 @@
     <title>New release for Streamyfin: v0.17.0</title>
     <updated>2024-10-10T02:58:38-04:00</updated>
     <author>
-      <name>fredrikburmester/streamyfin</name>
+      <name>streamyfin/streamyfin</name>
     </author>
     <content>&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;p&gt;Here are some of the highlights this release.&lt;/p&gt;
@@ -86,7 +86,7 @@
     <title>New release for Streamyfin: v0.18.0</title>
     <updated>2024-10-14T13:05:48-04:00</updated>
     <author>
-      <name>fredrikburmester/streamyfin</name>
+      <name>streamyfin/streamyfin</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -106,7 +106,7 @@
     <title>New release for Streamyfin: v0.21.0</title>
     <updated>2024-12-02T03:53:00-05:00</updated>
     <author>
-      <name>fredrikburmester/streamyfin</name>
+      <name>streamyfin/streamyfin</name>
     </author>
     <content>&lt;p&gt;This release includes a new native VLC player that supports almost all codecs and formats for both Android and iOS. This means you can probably direct stream anything! Selecting lower bitrates is still available for those who want or need it, of course.&lt;/p&gt;
 &lt;p&gt;We also have more features and bug fixes that have been delayed due to the significance of this release, so please be patient if your bug or feature is not included yet! However, please report any issues you have by opening an issue here on GitHub.&lt;/p&gt;
@@ -134,7 +134,7 @@
     <title>New release for Streamyfin: v0.22.0</title>
     <updated>2024-12-24T14:06:23-05:00</updated>
     <author>
-      <name>fredrikburmester/streamyfin</name>
+      <name>streamyfin/streamyfin</name>
     </author>
     <content>&lt;p&gt;Don't let the small increase from 0.21.0 fool you, there's A LOT of improvements in this release. Merry Christmas! 🎄&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;App and Play Store releases are awaiting aproval.&lt;/em&gt; &lt;/p&gt;
