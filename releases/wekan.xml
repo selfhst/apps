@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WeKan Releases</title>
-  <updated>2024-12-30T18:32:10.149127-05:00</updated>
+  <updated>2024-12-30T19:32:09.912371-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,12 @@
     <author>
       <name>wekan/wekan</name>
     </author>
-    <content>&lt;p&gt;This release fixes the following bugs:&lt;/p&gt;
+    <content>&lt;p&gt;This release adds the following new features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/wekan/wekan/pull/5643"&gt;Allow vertical scrollbars to be disabled (new preference)&lt;/a&gt;.
+  Thanks to NadavTasher.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and fixes the following bugs:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/wekan/wekan/pull/5639"&gt;Enable keyboard shortcuts by default&lt;/a&gt;.
   Thanks to NadavTasher.&lt;/li&gt;
