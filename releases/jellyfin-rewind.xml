@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Rewind Releases</title>
-  <updated>2024-12-31T13:30:37.897210-05:00</updated>
+  <updated>2024-12-31T14:30:36.029473-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,5 +94,59 @@ Essentially, Jellyfin Rewind loads most of the information about your music from
 &lt;p&gt;Thanks to everyone who uses Jellyfin Rewind, I sincerely hope you enjoyed it as much as I did!&lt;br /&gt;
 See you next year!!!&lt;/p&gt;</content>
     <link href="https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2023.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.0</id>
+    <title>New release for Jellyfin Rewind: Jellyfin Rewind 2024</title>
+    <updated>2024-12-31T13:43:40-05:00</updated>
+    <author>
+      <name>Chaphasilor/jellyfin-rewind</name>
+    </author>
+    <content>&lt;p&gt;Hey everyone!&lt;/p&gt;
+&lt;p&gt;I'm excited to announce that &lt;strong&gt;Jellyfin Rewind 2024 is finally here&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Jellyfin Rewind has returned for yet another year, and although there aren't many changes, your listening habits might have changed!&lt;br /&gt;
+It also includes some important bug fixes, and &lt;strong&gt;a way to import offline plays from the Finamp beta!&lt;/strong&gt;&lt;br /&gt;
+The latter feature will only work if you're an admin user.&lt;/p&gt;
+&lt;p&gt;In case you don't know, "Jellyfin Rewind" is an &lt;strong&gt;open-source version of Spotify Wrapped&lt;/strong&gt; (&amp;amp; co.) made &lt;strong&gt;specifically for Jellyfin&lt;/strong&gt;, that I initially created last year. This year, I've made some improvements and added a few new features, and tried to make it as enjoyable as possible.&lt;/p&gt;
+&lt;p&gt;You can find more info below, but if you just want to see your Rewind, use the links below:&lt;/p&gt;
+&lt;h3&gt;Links&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;HTTPS&lt;/strong&gt; (&lt;strong&gt;only use this if your Jellyfin server has an https connection and is accessible over the internet&lt;/strong&gt;, this is the best experience):&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jellyfin-rewind.chaphasilor.xyz"&gt;https://jellyfin-rewind.chaphasilor.xyz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP&lt;/strong&gt; (works for both http and https Jellyfin servers, as long as they are accessible over the internet):&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Make sure your browser shows "insecure" / no lock at the top after opening the link, otherwise connecting to your HTTP-only Jellyfin server might not work!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jellyfin-rewind-http.chaphasilor.xyz"&gt;http://jellyfin-rewind-http.chaphasilor.xyz&lt;/a&gt;&lt;br /&gt;
+If your browser won't allow you to connect via HTTP instead of HTTPS, you'll have to self-host your own version of Jellyfin Rewind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Local Network / Self-Hosting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your Jellyfin server is only accessible on your local network, you will need to self-host Jellyfin Rewind so that it's also accessible on your local network. Otherwise your browser will block the connection.&lt;br /&gt;
+To do this, check out the "Assets" section below this release and either download the zip-archive or use the &lt;a href="https://hub.docker.com/r/chaphasilor/jellyfin-rewind/tags"&gt;provided Docker image here&lt;/a&gt;. The zip-archive will need to be extracted into a folder that is served by a web server, like Apache or Nginx. The Docker image will need a to have port 80 exposed instead.&lt;/p&gt;
+&lt;h3&gt;Download your Rewind report!&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Please, please, please download your Rewind report at the end!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jellyfin's statistics aren't very exhaustive, and any additional data could help offer you more insights during next year's Rewind! Especially if you don't have the &lt;em&gt;Playback Reporting&lt;/em&gt; plugin installed, this year's Rewind report might come in very handy, so keep it save!&lt;/p&gt;
+&lt;p&gt;If something doesn't work and you can't download the data, I'll be happy to help you resolve the issue.&lt;/p&gt;
+&lt;h3&gt;How does it work?&lt;/h3&gt;
+&lt;p&gt;Glad you asked!&lt;br /&gt;
+Essentially, Jellyfin Rewind loads most of the information about your music from your Jellyfin server, processes it on your device, aggregates some nice statistics, and then shows the result to you!&lt;/p&gt;
+&lt;p&gt;Your data never leaves your device; it's very similar to using the Jellyfin app on your phone.&lt;/p&gt;
+&lt;p&gt;Sadly the build in statistics of Jellyfin are pretty lackluster as of now, even with the &lt;em&gt;Playback Reporting&lt;/em&gt; plugin, so that &lt;em&gt;a lot&lt;/em&gt; of data has to be processed on your device. That's why it takes a few seconds to generate your Rewind report.&lt;/p&gt;
+&lt;p&gt;For next year, I might release a separate plugin that can use your Jellyfin server in order to crunch the data. This would also solve some of the connection problems that might happen this year. If you're interested in helping me with the plugin, please be sure to reach out!&lt;/p&gt;
+&lt;h3&gt;Something isn't working!&lt;/h3&gt;
+&lt;p&gt;I'm sorry to hear that! I spent a lot of time trying to make everything as robust as possible, but everyone has a different server and different media, so it's no easy task.&lt;/p&gt;
+&lt;p&gt;Please comment below and include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What isn't working?&lt;/li&gt;
+&lt;li&gt;Which device are you using to view Jellyfin Rewind?&lt;/li&gt;
+&lt;li&gt;How are you accessing your server? (local IP, public domain, https yes/no)&lt;/li&gt;
+&lt;li&gt;A screenshot could be super helpful.&lt;/li&gt;
+&lt;li&gt;If you are familiar with web development, some logs from your browser's dev tools probably have the highest chance of helping me debug the issue.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Where's the source code?&lt;/h3&gt;
+&lt;p&gt;You're looking at it! Just go here: &lt;a href="https://github.com/Chaphasilor/jellyfin-rewind"&gt;https://github.com/Chaphasilor/jellyfin-rewind&lt;/a&gt;.&lt;br /&gt;
+&lt;strong&gt;Self-hosting might actually enable you to use Jellyfin Rewind if nothing else works&lt;/strong&gt;, because both Jellyfin Rewind and your Jellyfin server are running locally.&lt;/p&gt;
+&lt;h3&gt;Can I help out somehow?&lt;/h3&gt;
+&lt;p&gt;If you know something about web development, are a designer of some sorts, or have experience (or are curious about) developing Jellyfin plugins, I'd love to hear from you! There's so much I want to implement for next year's Jellyfin Rewind, and I need your help to bring all these ideas to life!&lt;/p&gt;
+&lt;p&gt;I had many more features planned for this year, but simply didn't have the time. I originally planned to launch back in November, and that obviously didn't work out :)&lt;/p&gt;
+&lt;p&gt;Thanks to everyone who uses Jellyfin Rewind, I sincerely hope you enjoyed it as much as I did!&lt;br /&gt;
+See you next year!!!&lt;/p&gt;</content>
+    <link href="https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.0" rel="alternate"/>
   </entry>
 </feed>

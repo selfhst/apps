@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dhaaga Releases</title>
-  <updated>2024-12-31T13:33:58.302917-05:00</updated>
+  <updated>2024-12-31T14:34:02.917364-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,7 @@ Deb 😄&lt;/p&gt;</content>
     </author>
     <content>&lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;This release contains the first draft of the &lt;strong&gt;Social Hub™&lt;/strong&gt; system.&lt;/p&gt;
-&lt;p&gt;It's an advacned pinning and account management system, 
+&lt;p&gt;It's an advanced pinning and account management system, 
 designed to help the user easily navigate the decentralized nature of the fediverse.&lt;/p&gt;
 &lt;p&gt;I'll be skipping detailed release notes, since I found a lot of bugs I need to fix before introducing the new system to the public. ☹️&lt;/p&gt;
 &lt;p&gt;So, this one's an internal release.&lt;/p&gt;
