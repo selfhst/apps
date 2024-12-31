@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2024-12-31T03:32:23.911894-05:00</updated>
+  <updated>2024-12-31T04:32:24.177329-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,12 +114,12 @@
 &lt;h2&gt;Version 0.7.9 - 30/12/2024&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Meet &lt;a href="https://appflowy.com"&gt;AppFlowy Web&lt;/a&gt; (Lite): Use AppFlowy directly in your browser.&lt;/li&gt;
+&lt;li&gt;Meet &lt;a href="https://appflowy.com"&gt;AppFlowy Web&lt;/a&gt; (Lite): Use AppFlowy directly in your browser&lt;/li&gt;
 &lt;li&gt;Create beautiful documents with 22 content types and markdown support&lt;/li&gt;
 &lt;li&gt;Use Quick Note to save anything you want to remember—like meeting notes, a grocery list, or to-dos&lt;/li&gt;
 &lt;li&gt;Invite members to your workspace for seamless collaboration&lt;/li&gt;
 &lt;li&gt;Create multiple public/private spaces to better organize your content&lt;/li&gt;
-&lt;li&gt;Simple Table is now available on Mobile, designed specifically for mobile devices.&lt;/li&gt;
+&lt;li&gt;Simple Table is now available on Mobile, designed specifically for mobile devices&lt;/li&gt;
 &lt;li&gt;Create and manage Simple Table blocks on Mobile with easy-to-use action menus&lt;/li&gt;
 &lt;li&gt;Use the '+' button in the fixed toolbar to easily add a content block into a table cell on Mobile&lt;/li&gt;
 &lt;li&gt;Use '/' to insert a content block into a table cell on Desktop&lt;/li&gt;
