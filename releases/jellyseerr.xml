@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2024-12-31T05:31:57.062476-05:00</updated>
+  <updated>2024-12-31T06:31:57.632418-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,7 +84,7 @@
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; resize streaming service logos (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1106"&gt;#1106&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/fe5d016929d18c38aef7a3d48e4828188131e025"&gt;fe5d016&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1103"&gt;#1103&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;use less strict validation for external URLs (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1104"&gt;#1104&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/14f316a9a6d91c25c43e07ae66923785f90b1fdf"&gt;14f316a&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1068"&gt;#1068&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;use links instead of buttons for external links in movie/tv details page (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/923"&gt;#923&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/57767156f79cb0bcb761f6fc0907d747f126e146"&gt;5776715&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;use tmdb first as metadata provider and fallback to tvdb (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1138"&gt;#1138&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/84fd884052ea2177c92d144367c4b4ed1dde3b73"&gt;84fd884&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1137"&gt;#1137&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;use tmdbid first and fallback to tvdbid (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1138"&gt;#1138&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/84fd884052ea2177c92d144367c4b4ed1dde3b73"&gt;84fd884&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1137"&gt;#1137&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;usediscover hook:&lt;/strong&gt; fixing duplicate movies (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/708"&gt;#708&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/39dbb7f7e59cf4b1b5f029089c6b1ea6a0d7e5f5"&gt;39dbb7f&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;usersettings:&lt;/strong&gt; allow unset email and add more explicit email error message (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1096"&gt;#1096&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/39a5ccb7f3a6ed4e93b12e11021bb30515936ce7"&gt;39a5ccb&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
