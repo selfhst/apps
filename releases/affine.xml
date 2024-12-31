@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2024-12-30T21:32:23.798569-05:00</updated>
+  <updated>2024-12-30T22:32:23.724841-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -366,31 +366,22 @@
     <author>
       <name>toeverything/AFFiNE</name>
     </author>
-    <content>&lt;h3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;🚀 Features&lt;/h3&gt;
+    <content>&lt;h3&gt;🐞 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;Info modal should render backlinks with preview &amp;nbsp;-&amp;nbsp; by @pengx17 in https://github.com/toeverything/AFFiNE/issues/9387 &lt;a href="https://github.com/toeverything/AFFiNE/commit/70e4c8fea"&gt;&lt;samp&gt;(70e4c)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix create workspace force cloud - by @EYHN in https://github.com/toeverything/AFFiNE/issues/9382 &lt;a href="https://github.com/toeverything/AFFiNE/commit/cff3a73db"&gt;&lt;samp&gt;(cff3a)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wrong editor version number - by @forehalo in https://github.com/toeverything/AFFiNE/issues/9403 &lt;a href="https://github.com/toeverything/AFFiNE/commit/89030f308"&gt;&lt;samp&gt;(89030)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;editor&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;Update edgeless color palette &amp;nbsp;-&amp;nbsp; by @fundon in https://github.com/toeverything/AFFiNE/issues/9243 &lt;a href="https://github.com/toeverything/AFFiNE/commit/a5641ae60"&gt;&lt;samp&gt;(a5641)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Store real color values in edgeless &amp;nbsp;-&amp;nbsp; by @fundon in https://github.com/toeverything/AFFiNE/issues/9254 &lt;a href="https://github.com/toeverything/AFFiNE/commit/b9f265036"&gt;&lt;samp&gt;(b9f26)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;🐞 Bug Fixes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;Fix create workspace force cloud &amp;nbsp;-&amp;nbsp; by @EYHN in https://github.com/toeverything/AFFiNE/issues/9382 &lt;a href="https://github.com/toeverything/AFFiNE/commit/cff3a73db"&gt;&lt;samp&gt;(cff3a)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Wrong editor version number &amp;nbsp;-&amp;nbsp; by @forehalo in https://github.com/toeverything/AFFiNE/issues/9403 &lt;a href="https://github.com/toeverything/AFFiNE/commit/89030f308"&gt;&lt;samp&gt;(89030)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;editor&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;Sentry-b0cfc9953ff64c53b9994697171bb91a &amp;nbsp;-&amp;nbsp; by @doodlewind in https://github.com/toeverything/AFFiNE/issues/9396 &lt;a href="https://github.com/toeverything/AFFiNE/commit/5e1d936c2"&gt;&lt;samp&gt;(5e1d9)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Prevent errors from isStrictUrl &amp;nbsp;-&amp;nbsp; by @Saul-Mirone in https://github.com/toeverything/AFFiNE/issues/9419 &lt;a href="https://github.com/toeverything/AFFiNE/commit/6b1865ff9"&gt;&lt;samp&gt;(6b186)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tooltip styles when having span tags &amp;nbsp;-&amp;nbsp; by @pengx17 in https://github.com/toeverything/AFFiNE/issues/9422 &lt;a href="https://github.com/toeverything/AFFiNE/commit/ea6fed127"&gt;&lt;samp&gt;(ea6fe)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Should delete collapsed siblings when delete heading &amp;nbsp;-&amp;nbsp; by @Flrande in https://github.com/toeverything/AFFiNE/issues/9376 &lt;a href="https://github.com/toeverything/AFFiNE/commit/4fee0e2eb"&gt;&lt;samp&gt;(4fee0)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Undefined selected elements &amp;nbsp;-&amp;nbsp; by @doodlewind in https://github.com/toeverything/AFFiNE/issues/9429 &lt;a href="https://github.com/toeverything/AFFiNE/commit/08ebfb6e7"&gt;&lt;samp&gt;(08ebf)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prevent errors from isStrictUrl - by @Saul-Mirone in https://github.com/toeverything/AFFiNE/issues/9419 &lt;a href="https://github.com/toeverything/AFFiNE/commit/6b1865ff9"&gt;&lt;samp&gt;(6b186)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tooltip styles when having span tags - by @pengx17 in https://github.com/toeverything/AFFiNE/issues/9422 &lt;a href="https://github.com/toeverything/AFFiNE/commit/ea6fed127"&gt;&lt;samp&gt;(ea6fe)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Should delete collapsed siblings when delete heading - by @Flrande in https://github.com/toeverything/AFFiNE/issues/9376 &lt;a href="https://github.com/toeverything/AFFiNE/commit/4fee0e2eb"&gt;&lt;samp&gt;(4fee0)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Undefined selected elements - by @doodlewind in https://github.com/toeverything/AFFiNE/issues/9429 &lt;a href="https://github.com/toeverything/AFFiNE/commit/08ebfb6e7"&gt;&lt;samp&gt;(08ebf)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;server&lt;/strong&gt;:&lt;/li&gt;
-&lt;li&gt;Avoid get object content when syncing &amp;nbsp;-&amp;nbsp; by @forehalo in https://github.com/toeverything/AFFiNE/issues/9402 &lt;a href="https://github.com/toeverything/AFFiNE/commit/378db1054"&gt;&lt;samp&gt;(378db)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Cluster metrics duplicate &amp;nbsp;-&amp;nbsp; by @darkskygit in https://github.com/toeverything/AFFiNE/issues/9416 &lt;a href="https://github.com/toeverything/AFFiNE/commit/e630290e7"&gt;&lt;samp&gt;(e6302)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Same identify across pods &amp;nbsp;-&amp;nbsp; by @darkskygit in https://github.com/toeverything/AFFiNE/issues/9428 &lt;a href="https://github.com/toeverything/AFFiNE/commit/47ba0a8a3"&gt;&lt;samp&gt;(47ba0)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Avoid get object content when syncing - by @forehalo in https://github.com/toeverything/AFFiNE/issues/9402 &lt;a href="https://github.com/toeverything/AFFiNE/commit/378db1054"&gt;&lt;samp&gt;(378db)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cluster metrics duplicate - by @darkskygit in https://github.com/toeverything/AFFiNE/issues/9416 &lt;a href="https://github.com/toeverything/AFFiNE/commit/e630290e7"&gt;&lt;samp&gt;(e6302)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Same identify across pods - by @darkskygit in https://github.com/toeverything/AFFiNE/issues/9428 &lt;a href="https://github.com/toeverything/AFFiNE/commit/47ba0a8a3"&gt;&lt;samp&gt;(47ba0)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/toeverything/AFFiNE/compare/v0.19.1...v0.19.2"&gt;View changes on GitHub&lt;/a&gt;&lt;/h5&gt;</content>
+&lt;h5&gt;&lt;a href="https://github.com/toeverything/AFFiNE/compare/v0.19.1...v0.19.2"&gt;View changes on GitHub&lt;/a&gt;&lt;/h5&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.19.2" rel="alternate"/>
   </entry>
 </feed>
