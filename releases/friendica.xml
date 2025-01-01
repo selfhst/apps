@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Friendica Releases</title>
-  <updated>2025-01-01T13:33:04.723277-05:00</updated>
+  <updated>2025-01-01T14:33:02.448676-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -215,7 +215,7 @@ git pull
     <link href="https://github.com/friendica/friendica/releases/tag/2024.08" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/friendica/friendica/releases/tag/2024.12</id>
+    <id>https://github.com/friendica/friendica/releases/tag/2024.12-1</id>
     <title>New release for Friendica: Friendica 2024.12 released</title>
     <updated>2025-01-01T03:42:47-05:00</updated>
     <author>
@@ -247,7 +247,9 @@ git pull
 &lt;p&gt;If you want to use a different branch than the &lt;code&gt;stable&lt;/code&gt; one, you need to fetch and checkout the branch before your perform the &lt;em&gt;git pull&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Pulling in the dependencies with composer will show some deprecation warning, we will be working on that in the upcoming release.&lt;/p&gt;
 &lt;h3&gt;Using the Archive Files&lt;/h3&gt;
-&lt;p&gt;Due to unforseen changes in the CI not possible at the moment.&lt;/p&gt;
+&lt;p&gt;If you had downloaded the source files in an archive file (tar.gz) please download the current version of the archive from &lt;a href="https://files.friendi.ca/friendica-full-2024.12.tar.gz"&gt;friendica-full-2024.12.tar.gz&lt;/a&gt; (&lt;a href="https://files.friendi.ca/friendica-full-2024.12.tar.gz.sum256"&gt;sha256&lt;/a&gt;) and &lt;a href="https://files.friendi.ca/friendica-addons-2024.12.tar.gz"&gt;friendica-addons 2024.12.tar.gz&lt;/a&gt; (&lt;a href="https://files.friendi.ca/friendica-addons-2024.12.tar.gz.sum256"&gt;sha256&lt;/a&gt;)) and unpack it on your local computer.&lt;/p&gt;
+&lt;p&gt;As many files got deleted or moved around, please upload the unpacked files to a new directory on your server (say friendica_new) and copy over your existing configuration (config/local.config.php and config/addon.config.php) and .htaccess files. Afterwards rename your current Friendica directory (e.g. friendica) to friendica_old and friendica_new to friendica.&lt;/p&gt;
+&lt;p&gt;The files of the dependencies are included in the archive (make sure you are using the friendica-full-2024.03 archive), so you don’t have to worry about them.&lt;/p&gt;
 &lt;h3&gt;Post Update Tasks&lt;/h3&gt;
 &lt;p&gt;The database update should be applied automatically, but sometimes it gets stuck. If you encounter this, please initiate the DB update manually from the command line by running the script&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;bin/console dbstructure update
@@ -261,6 +263,6 @@ git pull
 &lt;p&gt;If you want to contribute to the project, you don’t need to have coding experience. There are a number of tasks listed in the issue tracker with the label “&lt;a href="https://github.com/friendica/friendica/issues?q=is%3Aopen+is%3Aissue+label%3A%22Junior+Jobs%22"&gt;Junior Jobs&lt;/a&gt;” we think are good for new contributors. But you are by no means limited to these – if you find a solution to a problem (even a new one) please make a pull request at &lt;a href="https://github.com/friendica/friendica"&gt;github&lt;/a&gt; or let us know in the &lt;a href="https://forum.friendi.ca/profile/developers"&gt;development forum&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Contribution to Friendica is also not limited to coding. Any contribution to the &lt;a href="https://github.com/friendica/friendica/tree/develop/doc"&gt;documentation&lt;/a&gt;, the &lt;a href="https://app.transifex.com/Friendica/friendica/dashboard/"&gt;translation&lt;/a&gt; or advertisement materials is welcome or reporting a problem. You don’t need to deal with Git(Hub) or Transifex if you don’t like to. Just &lt;a href="https://forum.friendi.ca/profile/helpers"&gt;get in touch&lt;/a&gt; with us and we will get the materials to the appropriate places.&lt;/p&gt;
 &lt;p&gt;Thanks everyone who helped making this release possible, and especially to all the new contributors to Friendica, and have fun!&lt;/p&gt;</content>
-    <link href="https://github.com/friendica/friendica/releases/tag/2024.12" rel="alternate"/>
+    <link href="https://github.com/friendica/friendica/releases/tag/2024.12-1" rel="alternate"/>
   </entry>
 </feed>
