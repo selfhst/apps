@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bazarr Releases</title>
-  <updated>2025-01-01T10:30:08.606040-05:00</updated>
+  <updated>2025-01-01T11:30:08.228595-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,5 +75,21 @@
 - Added season pack download feature to titlovi &lt;a href="https://github.com/morpheus65535/bazarr/commit/a4873fc0f5207f4894e59a498a7a50e5bcef7803"&gt;a4873fc&lt;/a&gt;
 - Implemented subdivx version resolution for buscar parameter &lt;a href="https://github.com/morpheus65535/bazarr/commit/4f2bcc17d9de6e2d53cd43a5c24cc91f2ba90ff1"&gt;4f2bcc1&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/morpheus65535/bazarr/releases/tag/v1.5.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/morpheus65535/bazarr/releases/tag/v1.5.1</id>
+    <title>New release for Bazarr: v1.5.1</title>
+    <updated>2025-01-01T11:15:52-05:00</updated>
+    <author>
+      <name>morpheus65535/bazarr</name>
+    </author>
+    <content>&lt;p&gt;From newest to oldest:
+- Improved languages profile health check to include default assigned profiles &lt;a href="https://github.com/morpheus65535/bazarr/commit/0413dbaa4cf632df0f560f5df2cd67851c3eee02"&gt;0413dba&lt;/a&gt;
+- Fixed sync issue with Radarr that would remove all movies from database on every sync. &lt;a href="https://github.com/morpheus65535/bazarr/commit/60febe3d12b75d534b64d56839ee79ee063958fd"&gt;60febe3&lt;/a&gt;
+- Added check to opensubtitles.com for SDH subtitles being classified as forced &lt;a href="https://github.com/morpheus65535/bazarr/commit/4809b403ca3b98f0f38f4e7ef62565b5a40e9aed"&gt;4809b40&lt;/a&gt;
+- Fixed Bazarr not starting when configured IP isn't available for binding. &lt;a href="https://github.com/morpheus65535/bazarr/commit/b71daad7fb6a8a0a9d47a29471c24989eabef88c"&gt;b71daad&lt;/a&gt;
+- Improved Sonarr and Radarr syncing to prevent database integrity exception being raised by relying on proper primary keys instead of other values. &lt;a href="https://github.com/morpheus65535/bazarr/commit/8346ea9dc857d6f9bcd2ed3a452e0cbd1c38cfd9"&gt;8346ea9&lt;/a&gt;
+- Added opensubtitles specific throttling for server under maintenance (http 506) &lt;a href="https://github.com/morpheus65535/bazarr/commit/2247c55bfa9fd38bf3fbe80330a5c37f4988ee6a"&gt;2247c55&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/morpheus65535/bazarr/releases/tag/v1.5.1" rel="alternate"/>
   </entry>
 </feed>
