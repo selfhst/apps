@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Rewind Releases</title>
-  <updated>2025-01-01T17:30:38.012500-05:00</updated>
+  <updated>2025-01-01T18:30:40.561160-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -148,5 +148,26 @@ Essentially, Jellyfin Rewind loads most of the information about your music from
 &lt;p&gt;Thanks to everyone who uses Jellyfin Rewind, I sincerely hope you enjoyed it as much as I did!&lt;br /&gt;
 See you next year!!!&lt;/p&gt;</content>
     <link href="https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.1</id>
+    <title>New release for Jellyfin Rewind: Jellyfin Rewind 2024 - Patch 1</title>
+    <updated>2025-01-01T17:43:59-05:00</updated>
+    <author>
+      <name>Chaphasilor/jellyfin-rewind</name>
+    </author>
+    <content>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;this is just a minor patch that should fix the following issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed offline play importing by batching requests (honorable mention @mat-1)&lt;/li&gt;
+&lt;li&gt;Improved artist image fetching (contributed by @1hitsong)&lt;/li&gt;
+&lt;li&gt;Fixed year in comparison feature (honorable mention @1hitsong)&lt;/li&gt;
+&lt;li&gt;Fixed help dialog size on desktop&lt;/li&gt;
+&lt;li&gt;Fixed logo on summary feature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you previously had any problems with your Rewind Report or with importing your offline plays, please try again now!&lt;/p&gt;
+&lt;p&gt;You'll find all of the information in the original release notes here:&lt;br /&gt;
+https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.0&lt;/p&gt;</content>
+    <link href="https://github.com/Chaphasilor/jellyfin-rewind/releases/tag/2024.0.1" rel="alternate"/>
   </entry>
 </feed>
