@@ -416,6 +416,12 @@
         ]
     },
     {
+        "Tag": "Habit Tracking",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Health and Wellness",
         "Valid Types": [
             "Software"
@@ -662,13 +668,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
