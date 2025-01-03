@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EverShop Releases</title>
-  <updated>2025-01-03T03:30:24.249943-05:00</updated>
+  <updated>2025-01-03T04:30:21.381681-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,7 +132,7 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
     <author>
       <name>evershopcommerce/evershop</name>
     </author>
-    <content>&lt;h1&gt;v1.2.0 (2021-09-03)&lt;/h1&gt;
+    <content>&lt;h1&gt;v1.2.0 (2024-09-03)&lt;/h1&gt;
 &lt;h2&gt;Breaking Changes&lt;/h2&gt;
 &lt;h3&gt;&lt;code&gt;FeaturedProducts.jsx&lt;/code&gt; component has been removed&lt;/h3&gt;
 &lt;p&gt;The FeaturedProducts.jsx component has been removed from the store frontend. From now on, you can use the Widgets feature to create and display featured products on your store.&lt;/p&gt;
@@ -256,7 +256,7 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
     <author>
       <name>evershopcommerce/evershop</name>
     </author>
-    <content>&lt;h1&gt;v1.2.1 (2021-09-19)&lt;/h1&gt;
+    <content>&lt;h1&gt;v1.2.1 (2024-09-19)&lt;/h1&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix create new cart issue by @treoden in https://github.com/evershopcommerce/evershop/pull/622&lt;/li&gt;
@@ -280,5 +280,47 @@ The &lt;code&gt;operation&lt;/code&gt; value should be one of the following: &lt
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/v1.2.0...v1.2.1&lt;/p&gt;</content>
     <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/evershopcommerce/evershop/releases/tag/v1.2.2</id>
+    <title>New release for EverShop: v1.2.2</title>
+    <updated>2025-01-03T03:34:37-05:00</updated>
+    <author>
+      <name>evershopcommerce/evershop</name>
+    </author>
+    <content>&lt;h1&gt;v1.2.2 (2025-01-03)&lt;/h1&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;p&gt;From this version, we require Node.js 18.17.0 or higher to run the EverShop application.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: Improving the order status management&lt;/li&gt;
+&lt;li&gt;feat: Allow canceling order from admin panel&lt;/li&gt;
+&lt;li&gt;feat: Scheduled job implementation by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Option to Change Admin Page Footer from Admin Panel #634 by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Support changing admin logo from the configuration file by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Use hookable for login and logout functions by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Improve cart functions and more test by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Address book management by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Migrate to Stripe Payment Element #344 by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Support authorize only and capture mode for Stripe #675 by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Support refund and cancel for Stripe payment integration by @treoden&lt;/li&gt;
+&lt;li&gt;feat: Support authorize only and capture mode for Paypal by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Wrong percentage discount per item calculation by @treoden&lt;/li&gt;
+&lt;li&gt;fix: React warning chanigng input controlled or uncontrolled by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Invalid prop Icon supplied to NavigationItem by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Fix security vulnerabilities by @treoden&lt;/li&gt;
+&lt;li&gt;chore: Upgrade cross-spawn package by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Parent category can't be unassigned #666 by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Attributes - Count issue #639 by @treoden&lt;/li&gt;
+&lt;li&gt;fix: The product registration does not list all child categories #630 by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Search input not work in mobile #585 by @treoden&lt;/li&gt;
+&lt;li&gt;fix: Can not create price based or weight based shipping method #671 by @treoden&lt;/li&gt;
+&lt;li&gt;chore: Remove lodash by @treoden&lt;/li&gt;
+&lt;li&gt;chore: Fix proptypes warning by @treoden&lt;/li&gt;
+&lt;li&gt;deps: express@4.21.2 by @treoden&lt;/li&gt;
+&lt;li&gt;deps: Pins nanoid to ^3.3.8 by @treoden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evershopcommerce/evershop/compare/v1.2.1...v1.2.2&lt;/p&gt;</content>
+    <link href="https://github.com/evershopcommerce/evershop/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>
