@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RSS Bridge Releases</title>
-  <updated>2025-01-02T19:31:14.011597-05:00</updated>
+  <updated>2025-01-02T20:31:11.554188-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,7 +132,8 @@ custom bridge.&lt;/p&gt;
     <author>
       <name>RSS-Bridge/rss-bridge</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;EDIT: I forgot to update version number in this release, see https://github.com/RSS-Bridge/rss-bridge/issues/4382&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;No breaking changes. Mostly fixes to existing bridges, and some new bridges.&lt;/p&gt;
 &lt;p&gt;But, beware that all bridges are now enabled by default! (instead of the selected handful).&lt;/p&gt;
 &lt;p&gt;If you dont want all bridges enabled do like this in &lt;code&gt;config.ini.php&lt;/code&gt;:&lt;/p&gt;
