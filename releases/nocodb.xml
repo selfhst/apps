@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-01-04T03:30:04.588621-05:00</updated>
+  <updated>2025-01-04T04:30:04.004633-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -374,6 +374,7 @@
       <name>nocodb/nocodb</name>
     </author>
     <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Feature Release&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/3c4bb4fa-8f29-4cfb-8ef3-4928ae489fc9" /&gt;&lt;/p&gt;
 &lt;p&gt;We’re excited to introduce &lt;strong&gt;Record Re-order &amp;amp; Insert Anywhere&lt;/strong&gt; in NocoDB!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Drag-and-Drop to Reorder Records&lt;/strong&gt;: Easily organize your records by dragging and dropping them within the grid. Whether you're prioritizing tasks, arranging items, or customizing views, you now have the freedom to structure your data just the way you need.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Insert New Record Anywhere&lt;/strong&gt;: Adding new records is more intuitive than ever. Use the &lt;strong&gt;Insert Above&lt;/strong&gt; and &lt;strong&gt;Insert Below&lt;/strong&gt; options in the record context menu to place new entries exactly where they belong, saving time and reducing manual adjustments.&lt;/p&gt;
