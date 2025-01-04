@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2025-01-03T18:33:58.079604-05:00</updated>
+  <updated>2025-01-03T19:34:00.375007-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -194,8 +194,7 @@ Additionally, all apps come with a built-in update check feature, conveniently d
 | &lt;strong&gt;macOS&lt;/strong&gt;             | ARM M-Series (&lt;code&gt;ClipCascade-Apple_macOS(ARM_M-Series).zip&lt;/code&gt;), Intel (&lt;code&gt;ClipCascade-Apple_macOS(Intel-Series).zip&lt;/code&gt;) |
 | &lt;strong&gt;Android&lt;/strong&gt;           | &lt;code&gt;ClipCascade.apk&lt;/code&gt;       |
 | &lt;strong&gt;Linux (GUI/CLI)&lt;/strong&gt;   | &lt;code&gt;ClipCascade_Linux.zip&lt;/code&gt; |
-| &lt;strong&gt;Docker&lt;/strong&gt;            | &lt;code&gt;docker-compose.yml&lt;/code&gt;    |
-| &lt;strong&gt;Server&lt;/strong&gt;            | &lt;code&gt;ClipCascade-Server-JRE_17.jar&lt;/code&gt; |&lt;/p&gt;
+| &lt;strong&gt;Docker&lt;/strong&gt;            | &lt;code&gt;docker-compose.yml&lt;/code&gt;    |&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;🔑 Key Features:&lt;/h3&gt;
 &lt;ul&gt;
