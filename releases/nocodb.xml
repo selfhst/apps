@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-01-03T19:30:03.888277-05:00</updated>
+  <updated>2025-01-03T20:30:03.975550-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,8 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/a67c0010-a8d9-46de-b63a-e061c585a1f9" /&gt;&lt;/p&gt;
+    <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Feature Release&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/a67c0010-a8d9-46de-b63a-e061c585a1f9" /&gt;&lt;/p&gt;
 &lt;p&gt;We’re excited to introduce &lt;strong&gt;Infinite Scroll&lt;/strong&gt; in NocoDB! This new feature lets you seamlessly scroll through your records without needing to click through pages. As you scroll, additional records load automatically, making it easier and faster to browse large datasets. Enjoy a smoother, more efficient experience with Infinite Scroll in NocoDB!&lt;/p&gt;
 &lt;p&gt;Demo video : https://youtu.be/gbAJApMkHRc&lt;/p&gt;
 &lt;h2&gt;Other updates&lt;/h2&gt;
@@ -134,7 +135,8 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
+    <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Bug Fix Release&lt;/h1&gt;
+&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[&lt;strong&gt;✨ Type: Enhancement&lt;/strong&gt;] Change button text to "Update Connection" (from "Modify Connection") &lt;a href="https://github.com/nocodb/nocodb/issues/9841"&gt;#9841&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Invalid Date error format in calendar view &lt;a href="https://github.com/nocodb/nocodb/issues/9808"&gt;#9808&lt;/a&gt;&lt;/li&gt;
@@ -185,7 +187,8 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
+    <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Bug Fix Release&lt;/h1&gt;
+&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;] 🐛 Bug: Multi select content vanishing on page turn &lt;a href="https://github.com/nocodb/nocodb/issues/9902"&gt;#9902&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🐛 Type: Bug&lt;/strong&gt;][&lt;strong&gt;🏗️ Type: In Develop Branch&lt;/strong&gt;] 🐛 Bug: can't upload csv to table with checkbox field &lt;a href="https://github.com/nocodb/nocodb/issues/9891"&gt;#9891&lt;/a&gt;&lt;/li&gt;
@@ -249,7 +252,8 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;⚠️ Deprecation of audit logs v1&lt;/h2&gt;
+    <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Bug Fix Release&lt;/h1&gt;
+&lt;h2&gt;⚠️ Deprecation of audit logs v1&lt;/h2&gt;
 &lt;p&gt;When we initially introduced audit logs (v1), they were a foundational feature but remained incomplete and remained underdeveloped over time.&lt;/p&gt;
 &lt;p&gt;Here’s how:
 - Limited Coverage: The existing audit logs captured less than 25% of the actions within the product. Key operations—such as creating or modifying fields, filters, sorts, views, row comments, collaborators and webhooks etc—were not tracked at all. Over 150+ releases, the logs failed to keep up with NocoDB’s expanding feature set.
@@ -409,7 +413,8 @@
     <author>
       <name>nocodb/nocodb</name>
     </author>
-    <content>&lt;h2&gt;⚠️ Deprecation of audit logs v1&lt;/h2&gt;
+    <content>&lt;h1&gt;🚀 &lt;a href="https://nocodb.com"&gt;NocoDB&lt;/a&gt; : Bug Fix Release&lt;/h1&gt;
+&lt;h2&gt;⚠️ Deprecation of audit logs v1&lt;/h2&gt;
 &lt;p&gt;When we initially introduced audit logs (v1), they were a foundational feature but remained incomplete and remained underdeveloped over time.&lt;/p&gt;
 &lt;p&gt;Here’s how:
 - Limited Coverage: The existing audit logs captured less than 25% of the actions within the product. Key operations—such as creating or modifying fields, filters, sorts, views, row comments, collaborators and webhooks etc—were not tracked at all. Over 150+ releases, the logs failed to keep up with NocoDB’s expanding feature set.
