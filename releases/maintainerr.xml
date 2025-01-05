@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-01-05T02:32:40.964746-05:00</updated>
+  <updated>2025-01-05T03:32:35.465225-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,6 +93,7 @@
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Equals with lists now only returns true if they are identical (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/e900dac47a26cd2f8422584d3eaa9c0a94f7073a"&gt;e900dac&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Previously, equals would check that every item in &lt;strong&gt;first value&lt;/strong&gt; was in the &lt;strong&gt;second value&lt;/strong&gt; list (case insensitive). This meant that the &lt;strong&gt;second value&lt;/strong&gt; list could contain a value not within &lt;strong&gt;first value&lt;/strong&gt; and still return true. This is no longer the case. Both &lt;strong&gt;first value&lt;/strong&gt; and &lt;strong&gt;second value&lt;/strong&gt; must contain the same items for it to return true.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
