@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Slink Releases</title>
-  <updated>2025-01-05T14:32:34.399008-05:00</updated>
+  <updated>2025-01-05T15:32:35.227039-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -62,7 +62,7 @@
       <name>andrii-kryvoviaz/slink</name>
     </author>
     <content>&lt;p&gt;This patch reverts back to the root user by default but keeps the possibility to alter this behavior manually. See related issue #38.&lt;/p&gt;
-&lt;p&gt;The decision was made because I don’t want to overcomplicate the deployment for new users, so non-root user becomes a feature rather than the default behavior.&lt;/p&gt;
+&lt;p&gt;The decision was made because I don’t want to overcomplicate the deployment for new users, so non-root user becomes a &lt;a href="https://docs.slinkapp.io/reference/04-non-root-container-user/"&gt;feature&lt;/a&gt; rather than the default behavior.&lt;/p&gt;
 &lt;p&gt;Here is an example of a Docker Compose configuration for running as a non-root user:
 &lt;code&gt;yaml
 services:
