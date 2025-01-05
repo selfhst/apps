@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2025-01-04T20:31:16.771230-05:00</updated>
+  <updated>2025-01-04T21:31:18.430858-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -317,5 +317,84 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.10.2544...v4.0.11.2680&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.11.2680" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.12.2823</id>
+    <title>New release for Sonarr: 4.0.12.2823</title>
+    <updated>2025-01-04T20:36:59-05:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 1969e0107f01843c9c3cddd98d85f366f27f403a --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rename SizeLeft and TimeLeft queue item properties by @markus101 in https://github.com/Sonarr/Sonarr/pull/7395&lt;/li&gt;
+&lt;li&gt;Fixed: Kometa and Kodi metadata failing with duplicate episode files by @markus101 in https://github.com/Sonarr/Sonarr/pull/7396&lt;/li&gt;
+&lt;li&gt;Fixed: New episodes in season follow season's monitored status by @markus101 in https://github.com/Sonarr/Sonarr/pull/7402&lt;/li&gt;
+&lt;li&gt;Deluge communication improvements by @markus101 in https://github.com/Sonarr/Sonarr/pull/7403&lt;/li&gt;
+&lt;li&gt;New: Support for new SABnzbd history retention values by @markus101 in https://github.com/Sonarr/Sonarr/pull/7408&lt;/li&gt;
+&lt;li&gt;New: Ability to change root folder when editing series  by @markus101 in https://github.com/Sonarr/Sonarr/pull/7410&lt;/li&gt;
+&lt;li&gt;Fixed: Truncating long text in the middle when it shouldn't be truncated by @markus101 in https://github.com/Sonarr/Sonarr/pull/7414&lt;/li&gt;
+&lt;li&gt;Support Postgres with non-standard version string by @markus101 in https://github.com/Sonarr/Sonarr/pull/7415&lt;/li&gt;
+&lt;li&gt;Fixed: Error loading queue by @markus101 in https://github.com/Sonarr/Sonarr/pull/7425&lt;/li&gt;
+&lt;li&gt;Fixed: Avoid default category on existing Transmission configurations  by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7426&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7428&lt;/li&gt;
+&lt;li&gt;Tweak text-wrapping for title and overview in series view by @hhjuhl in https://github.com/Sonarr/Sonarr/pull/7388&lt;/li&gt;
+&lt;li&gt;Option to treat downloads with non-media extensions as failed by @markus101 in https://github.com/Sonarr/Sonarr/pull/7397&lt;/li&gt;
+&lt;li&gt;New: Additional language fields in webhook notification by @stevietv in https://github.com/Sonarr/Sonarr/pull/7434&lt;/li&gt;
+&lt;li&gt;New: Add opt-in CGNAT support for authentication bypass by @s0up4200 in https://github.com/Sonarr/Sonarr/pull/7436&lt;/li&gt;
+&lt;li&gt;Fixed: Don't fail import if symlink target can't be resolved by @markus101 in https://github.com/Sonarr/Sonarr/pull/7439&lt;/li&gt;
+&lt;li&gt;New: Kometa metadata file creation disabled by @markus101 in https://github.com/Sonarr/Sonarr/pull/7440&lt;/li&gt;
+&lt;li&gt;Remove unnecessary heap allocations in local IP check by @Gylesie in https://github.com/Sonarr/Sonarr/pull/7441&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7445&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7448&lt;/li&gt;
+&lt;li&gt;Cleanup unused metadatas connector by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7447&lt;/li&gt;
+&lt;li&gt;New: Reactive search button on Wanted pages by @stevietv in https://github.com/Sonarr/Sonarr/pull/7450&lt;/li&gt;
+&lt;li&gt;Fixed: Custom Format score bypassing upgrades not being allowed by @markus101 in https://github.com/Sonarr/Sonarr/pull/7460&lt;/li&gt;
+&lt;li&gt;Refine localization string for IndexerSettingsFailDownloadsHelpText by @stevietv in https://github.com/Sonarr/Sonarr/pull/7462&lt;/li&gt;
+&lt;li&gt;Convert MediaInfo to TypeScript by @markus101 in https://github.com/Sonarr/Sonarr/pull/7464&lt;/li&gt;
+&lt;li&gt;Fixed: Converting TimeSpan from database by @markus101 in https://github.com/Sonarr/Sonarr/pull/7465&lt;/li&gt;
+&lt;li&gt;New: Append Instance Name optionally to Telegram notifications by @stevietv in https://github.com/Sonarr/Sonarr/pull/7466&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7473&lt;/li&gt;
+&lt;li&gt;Fixed: Fetching ICS calendar with missing series by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7468&lt;/li&gt;
+&lt;li&gt;Convert Calendar to TypeScript by @markus101 in https://github.com/Sonarr/Sonarr/pull/7477&lt;/li&gt;
+&lt;li&gt;Fixed: Series without tags bypassing tags on Download Client by @markus101 in https://github.com/Sonarr/Sonarr/pull/7478&lt;/li&gt;
+&lt;li&gt;Fixed: Error getting processes in some cases by @markus101 in https://github.com/Sonarr/Sonarr/pull/7479&lt;/li&gt;
+&lt;li&gt;Fixed: Augmenting languages from indexer for release with stale indexer ID by @markus101 in https://github.com/Sonarr/Sonarr/pull/7480&lt;/li&gt;
+&lt;li&gt;Fixed: Refresh backup list on deletion by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7481&lt;/li&gt;
+&lt;li&gt;New: Series genres for search results by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7485&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7490&lt;/li&gt;
+&lt;li&gt;Fixed: Opening episode info modal on calendar event click by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7487&lt;/li&gt;
+&lt;li&gt;Set minor version for core-js in babel/preset-env by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7488&lt;/li&gt;
+&lt;li&gt;Upgrade babel and Font Awesome by @markus101 in https://github.com/Sonarr/Sonarr/pull/7489&lt;/li&gt;
+&lt;li&gt;Fixed: Loading calendar on older browsers by @markus101 in https://github.com/Sonarr/Sonarr/pull/7493&lt;/li&gt;
+&lt;li&gt;Fix: adding a new root folder from series edit modal by @stevietv in https://github.com/Sonarr/Sonarr/pull/7496&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7503&lt;/li&gt;
+&lt;li&gt;Fixed: Prevent exception when grabbing unparsable release by @markus101 in https://github.com/Sonarr/Sonarr/pull/7499&lt;/li&gt;
+&lt;li&gt;Bump MailKit to 4.8.0 and Microsoft.Data.SqlClient to 2.1.7 by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7502&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7513&lt;/li&gt;
+&lt;li&gt;Fixed: Prevent exception for seed configuration provider with invalid indexer ID by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7509&lt;/li&gt;
+&lt;li&gt;Fixed: Series updated during Import List Sync not reflected in the UI by @markus101 in https://github.com/Sonarr/Sonarr/pull/7512&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7516&lt;/li&gt;
+&lt;li&gt;Fixed: Advanced settings for Metadata consumers by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7515&lt;/li&gt;
+&lt;li&gt;Raw search: Fix non-anime seasons and episodes not searching with clean titles by @meharryp in https://github.com/Sonarr/Sonarr/pull/7517&lt;/li&gt;
+&lt;li&gt;Don't send session information to Sentry by @markus101 in https://github.com/Sonarr/Sonarr/pull/7522&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7524&lt;/li&gt;
+&lt;li&gt;Fixed: Improve synchronization logic for import list items by @markus101 in https://github.com/Sonarr/Sonarr/pull/7521&lt;/li&gt;
+&lt;li&gt;Suggest adding IP to RPC whitelist for on failed Transmission auth by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7525&lt;/li&gt;
+&lt;li&gt;Check if backup folder is writable on backup by @mynameisbogdan in https://github.com/Sonarr/Sonarr/pull/7529&lt;/li&gt;
+&lt;li&gt;Translations update from Servarr Weblate by @ServarrAdmin in https://github.com/Sonarr/Sonarr/pull/7536&lt;/li&gt;
+&lt;li&gt;Bump version to 4.0.12 by @markus101 in https://github.com/Sonarr/Sonarr/pull/7544&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@hhjuhl made their first contribution in https://github.com/Sonarr/Sonarr/pull/7388&lt;/li&gt;
+&lt;li&gt;@s0up4200 made their first contribution in https://github.com/Sonarr/Sonarr/pull/7436&lt;/li&gt;
+&lt;li&gt;@meharryp made their first contribution in https://github.com/Sonarr/Sonarr/pull/7517&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.11.2680...v4.0.12.2823&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.12.2823" rel="alternate"/>
   </entry>
 </feed>
