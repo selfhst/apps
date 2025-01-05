@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ombi Releases</title>
-  <updated>2025-01-05T15:31:01.361863-05:00</updated>
+  <updated>2025-01-05T16:31:02.483585-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,15 @@
     </author>
     <content/>
     <link href="https://github.com/Ombi-app/Ombi/releases/tag/v4.44.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Ombi-app/Ombi/releases/tag/v4.47.1</id>
+    <title>New release for Ombi: v4.47.1</title>
+    <updated>2025-01-05T16:14:23-05:00</updated>
+    <author>
+      <name>Ombi-app/Ombi</name>
+    </author>
+    <content/>
+    <link href="https://github.com/Ombi-app/Ombi/releases/tag/v4.47.1" rel="alternate"/>
   </entry>
 </feed>
