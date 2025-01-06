@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Redirecterr Releases</title>
-  <updated>2025-01-05T18:34:20.537435-05:00</updated>
+  <updated>2025-01-05T19:34:15.505617-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,5 +65,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/varthe/Redirecterr/compare/0.1.2...0.1.3&lt;/p&gt;</content>
     <link href="https://github.com/varthe/Redirecterr/releases/tag/0.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/varthe/Redirecterr/releases/tag/0.1.4</id>
+    <title>New release for Redirecterr: 0.1.4</title>
+    <updated>2025-01-05T19:14:27-05:00</updated>
+    <author>
+      <name>varthe/Redirecterr</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Default overseerr behaviour on no match by @varthe in https://github.com/varthe/Redirecterr/pull/10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/varthe/Redirecterr/compare/0.1.3...0.1.4&lt;/p&gt;</content>
+    <link href="https://github.com/varthe/Redirecterr/releases/tag/0.1.4" rel="alternate"/>
   </entry>
 </feed>
