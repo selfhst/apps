@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komga Releases</title>
-  <updated>2025-01-05T21:30:39.521672-05:00</updated>
+  <updated>2025-01-05T22:30:43.860506-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,7 +120,7 @@ Eren Eroğlu, Gauthier, Gauthier Roebroeck, Matthieu Sontag, Petr Šimek, jonoaf
       <name>gotson/komga</name>
     </author>
     <content>&lt;p&gt;This release brings some new capabilities to Series filtering, allowing negation filters, as well as &lt;em&gt;any of&lt;/em&gt; / &lt;em&gt;all of&lt;/em&gt; filtering. The new filtering capabilities are powered by a new API endpoint and a new DSL to express complex conditions.&lt;/p&gt;
-&lt;p&gt;The Docker images (x64 &amp;amp; arm64) have been upgraded to Ubuntu 24.10 base image, as well as Java 23. Jpeg XL is now natively supported for the arm64 image, and all images now include  and  in order to support Docker healtchecks more easily.&lt;/p&gt;
+&lt;p&gt;The Docker images (x64 &amp;amp; arm64) have been upgraded to Ubuntu 24.10 base image, as well as Java 23. Jpeg XL is now natively supported for the arm64 image, and all images now include &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;wget&lt;/code&gt; in order to support Docker healhtchecks more easily.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;api&lt;/strong&gt;
