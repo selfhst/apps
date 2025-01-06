@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2025-01-06T07:31:44.106609-05:00</updated>
+  <updated>2025-01-06T08:31:45.808294-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,35 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v3.3.0&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Enhancements:&lt;/strong&gt;
+- &lt;strong&gt;[acme]&lt;/strong&gt; Add options to control ACME propagation checks (&lt;a href="https://github.com/traefik/traefik/pull/11241"&gt;#11241&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
+- &lt;strong&gt;[api]&lt;/strong&gt; Add support dump API endpoint (&lt;a href="https://github.com/traefik/traefik/pull/11328"&gt;#11328&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
+- &lt;strong&gt;[http]&lt;/strong&gt; Set Host header in HTTP provider request (&lt;a href="https://github.com/traefik/traefik/pull/11237"&gt;#11237&lt;/a&gt; by &lt;a href="https://github.com/nikonhub"&gt;nikonhub&lt;/a&gt;)
+- &lt;strong&gt;[k8s/crd,k8s]&lt;/strong&gt; Make the IngressRoute kind optional (&lt;a href="https://github.com/traefik/traefik/pull/11177"&gt;#11177&lt;/a&gt; by &lt;a href="https://github.com/skirtan1"&gt;skirtan1&lt;/a&gt;)
+- &lt;strong&gt;[k8s/ingress,sticky-session,k8s/crd,k8s]&lt;/strong&gt; Support serving endpoints (&lt;a href="https://github.com/traefik/traefik/pull/11121"&gt;#11121&lt;/a&gt; by &lt;a href="https://github.com/BZValoche"&gt;BZValoche&lt;/a&gt;)
+- &lt;strong&gt;[logs,accesslogs]&lt;/strong&gt; OpenTelemetry Logs and Access Logs (&lt;a href="https://github.com/traefik/traefik/pull/11319"&gt;#11319&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- &lt;strong&gt;[logs,accesslogs]&lt;/strong&gt; Add experimental flag for OTLP logs integration (&lt;a href="https://github.com/traefik/traefik/pull/11335"&gt;#11335&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- &lt;strong&gt;[metrics,tracing,accesslogs]&lt;/strong&gt; Manage observability at entrypoint and router level (&lt;a href="https://github.com/traefik/traefik/pull/11308"&gt;#11308&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- &lt;strong&gt;[middleware,authentication]&lt;/strong&gt; Add an option to preserve the ForwardAuth Server Location header (&lt;a href="https://github.com/traefik/traefik/pull/11318"&gt;#11318&lt;/a&gt; by &lt;a href="https://github.com/Nelwhix"&gt;Nelwhix&lt;/a&gt;)
+- &lt;strong&gt;[middleware,authentication]&lt;/strong&gt; Only calculate basic auth hashes once for concurrent requests (&lt;a href="https://github.com/traefik/traefik/pull/11143"&gt;#11143&lt;/a&gt; by &lt;a href="https://github.com/michelheusschen"&gt;michelheusschen&lt;/a&gt;)
+- &lt;strong&gt;[middleware,authentication]&lt;/strong&gt; Send request body to authorization server for forward auth (&lt;a href="https://github.com/traefik/traefik/pull/11097"&gt;#11097&lt;/a&gt; by &lt;a href="https://github.com/kyo-ke"&gt;kyo-ke&lt;/a&gt;)
+- &lt;strong&gt;[plugins]&lt;/strong&gt; Add AbortOnPluginFailure option to abort startup on plugin load failure (&lt;a href="https://github.com/traefik/traefik/pull/11228"&gt;#11228&lt;/a&gt; by &lt;a href="https://github.com/bmagic"&gt;bmagic&lt;/a&gt;)
+- &lt;strong&gt;[sticky-session]&lt;/strong&gt; Configurable path for sticky cookies (&lt;a href="https://github.com/traefik/traefik/pull/11166"&gt;#11166&lt;/a&gt; by &lt;a href="https://github.com/IIpragmaII"&gt;IIpragmaII&lt;/a&gt;)
+- &lt;strong&gt;[webui,api]&lt;/strong&gt; Configurable API &amp;amp; Dashboard base path (&lt;a href="https://github.com/traefik/traefik/pull/11250"&gt;#11250&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+- &lt;strong&gt;[k8s/ingress,k8s/crd]&lt;/strong&gt; Fix fenced server status computation (&lt;a href="https://github.com/traefik/traefik/pull/11361"&gt;#11361&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- Prepare release v3.3.0-rc2 (&lt;a href="https://github.com/traefik/traefik/pull/11362"&gt;#11362&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Prepare Release v3.3.0-rc1 (&lt;a href="https://github.com/traefik/traefik/pull/11349"&gt;#11349&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+- Merge branch v3.2 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11402"&gt;#11402&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v3.2 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11393"&gt;#11393&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
+- Merge branch v3.2 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11389"&gt;#11389&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
+- Merge branch v3.2 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11367"&gt;#11367&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v3.2 into master (&lt;a href="https://github.com/traefik/traefik/pull/11340"&gt;#11340&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v3.2 into master (&lt;a href="https://github.com/traefik/traefik/pull/11293"&gt;#11293&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v3.2 into master (&lt;a href="https://github.com/traefik/traefik/pull/11239"&gt;#11239&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v3.2 into master (&lt;a href="https://github.com/traefik/traefik/pull/11187"&gt;#11187&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.3.0" rel="alternate"/>
   </entry>
 </feed>
