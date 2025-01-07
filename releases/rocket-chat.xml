@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-01-07T07:31:13.635962-05:00</updated>
+  <updated>2025-01-07T08:31:12.403843-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -249,7 +249,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;Release 7.2 introduces new features and enhancements, including a contacts.checkExistence endpoint for identifying existing contacts, the ability to store call events, and detailed stats for the Contact Identification feature. The App Settings interface is now easier to navigate with accordion groups, and exporting messages as JSON files is a breeze with a new option. Workspace and subscription admin pages have been revamped for improved usability, while federation functionality has been strengthened to handle users and configurations more reliably.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;This release also addresses a wide range of bugs: from fixing federated startup issues and unread message counters to resolving UI quirks like action menus on smaller screens and side panel sorting. Notifications, avatars, livechat metrics, and Twitter (X) link previews now work as intended, ensuring smoother user experiences. Additionally, performance improvements eliminate glitches like infinite callbacks and misfiring queues, making 7.2 faster and more reliable than ever.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;20.18.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
