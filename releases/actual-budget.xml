@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Actual Budget Releases</title>
-  <updated>2025-01-07T08:30:04.670237-05:00</updated>
+  <updated>2025-01-07T09:30:05.733825-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,7 +73,11 @@
     <author>
       <name>actualbudget/actual</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;:link: &lt;a href="https://actualbudget.org/blog/release-25.1.0"&gt;View release notes&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Desktop releases&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://apps.microsoft.com/detail/9p2hmlhsdbrm?cid=Github+Releases&amp;mode=direct"&gt;
+    &lt;img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/&gt;
+&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/actualbudget/actual/releases/tag/v25.1.0" rel="alternate"/>
   </entry>
 </feed>
