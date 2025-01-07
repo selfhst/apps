@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-01-07T00:30:30.507293-05:00</updated>
+  <updated>2025-01-07T01:30:29.002779-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,12 +145,12 @@
   | $color   | embed color by &lt;code&gt;color_mode&lt;/code&gt; | &lt;code&gt;0xff0000&lt;/code&gt; (hex) or &lt;code&gt;16711680&lt;/code&gt; (dec) |&lt;/p&gt;
 &lt;h2&gt;Non-breaking changes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;services health notification now in markdown format like &lt;code&gt;Uptime Kuma&lt;/code&gt; for both webhook and Gotify&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;docker services now use docker container health status if possible, fallback to GoDoxy health check on failure / no docker health check, e.g.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;services health notification now in markdown format like &lt;code&gt;Uptime Kuma&lt;/code&gt; for both webhook and Gotify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="{6CF5D81A-C178-40BA-9441-408AC1FEABA9}" src="https://github.com/user-attachments/assets/559a82b8-bf47-44e8-a70c-ff5e79c87aee" /&gt;
+  &lt;img alt="{4E008AB5-A88F-4D71-8A31-2DD4E23D0D8A}" src="https://github.com/user-attachments/assets/9f8098fd-58ae-4e1a-bedc-662ecce6344a" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker services now use docker container health status if possible, fallback to GoDoxy health check on failure / no docker health check, e.g.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;yaml
   # docker compose
