@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2025-01-07T04:31:45.783319-05:00</updated>
+  <updated>2025-01-07T05:31:47.968992-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -59,7 +59,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+    <content>&lt;p&gt;⚠️ There is an issue with &lt;a href="https://github.com/traefik/traefik/issues/11405"&gt;websocket upgrade&lt;/a&gt;. If you want to use this version, please set the following environment variable &lt;code&gt;GODEBUG=http2xconnect=0&lt;/code&gt; ⚠️ &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
 - &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Support empty value for core Kubernetes API group (&lt;a href="https://github.com/traefik/traefik/pull/11386"&gt;#11386&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
 - &lt;strong&gt;[tcp,k8s/crd]&lt;/strong&gt; Pass TLS bool from IngressRouteTCP to TCPService (&lt;a href="https://github.com/traefik/traefik/pull/11343"&gt;#11343&lt;/a&gt; by &lt;a href="https://github.com/lipmem"&gt;lipmem&lt;/a&gt;)
 - &lt;strong&gt;[tls]&lt;/strong&gt; Upgrade github.com/spiffe/go-spiffe/v2 to v2.4.0 (&lt;a href="https://github.com/traefik/traefik/pull/11385"&gt;#11385&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
@@ -81,7 +82,8 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Enhancements:&lt;/strong&gt;
+    <content>&lt;p&gt;⚠️ There is an issue with &lt;a href="https://github.com/traefik/traefik/issues/11405"&gt;websocket upgrade&lt;/a&gt;. If you want to use this version, please set the following environment variable &lt;code&gt;GODEBUG=http2xconnect=0&lt;/code&gt; ⚠️&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhancements:&lt;/strong&gt;
 - &lt;strong&gt;[acme]&lt;/strong&gt; Add options to control ACME propagation checks (&lt;a href="https://github.com/traefik/traefik/pull/11241"&gt;#11241&lt;/a&gt; by &lt;a href="https://github.com/ldez"&gt;ldez&lt;/a&gt;)
 - &lt;strong&gt;[api]&lt;/strong&gt; Add support dump API endpoint (&lt;a href="https://github.com/traefik/traefik/pull/11328"&gt;#11328&lt;/a&gt; by &lt;a href="https://github.com/mmatur"&gt;mmatur&lt;/a&gt;)
 - &lt;strong&gt;[http]&lt;/strong&gt; Set Host header in HTTP provider request (&lt;a href="https://github.com/traefik/traefik/pull/11237"&gt;#11237&lt;/a&gt; by &lt;a href="https://github.com/nikonhub"&gt;nikonhub&lt;/a&gt;)
