@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-01-07T10:30:30.673725-05:00</updated>
+  <updated>2025-01-07T11:30:30.394964-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -358,7 +358,7 @@
     restart: always
     labels:
       proxy.goaccess.port: 80
-      proxy.goaccess.middlewares.request.set_headers.host: goaccess
+      proxy.goaccess.middlewares.request.set_headers.Host: goaccess
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./logs:/var/www/goaccess:ro
@@ -374,7 +374,7 @@
       -o /srv/logs/report.html
       -j 4 # 4 threads
       --real-time-html
-      --ws-url=&amp;lt;your goaccess url&amp;gt;:443 # i.e. goaccess.my.app:443/ws
+      --ws-url=&amp;lt;your goaccess url&amp;gt;:443 # i.e. goaccess.my.app:443
       --log-format='%v %h %^[%d:%t %^] "%r" %s %b "%R" "%u"'&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Caddyfile&lt;/p&gt;
 &lt;p&gt;```caddyfile
