@@ -71,7 +71,8 @@
     {
         "Tag": "Artificial Intelligence",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -538,8 +539,8 @@
     {
         "Tag": "Media Streaming",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
