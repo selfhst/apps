@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Redict Releases</title>
-  <updated>2025-01-08T04:32:20.554142-05:00</updated>
+  <updated>2025-01-08T05:32:24.234765-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,16 @@ documentation online:&lt;/p&gt;
     <content>&lt;p&gt;This is a bugfix release for Redict 7.3.0 which incorporates important security
 upgrades. Downstream users are encouraged to deploy this upgrade expediently.&lt;/p&gt;</content>
     <link href="https://codeberg.org/redict/redict/releases/tag/7.3.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/redict/redict/releases/tag/7.3.2</id>
+    <title>New release for Redict: 7.3.2</title>
+    <updated>2025-01-08T09:21:05+00:00</updated>
+    <author>
+      <name>redict/redict</name>
+    </author>
+    <content>&lt;p&gt;This is a bugfix release for Redict 7.3.1 which incorporates important security
+upgrades. Downstream users are encouraged to deploy this upgrade expediently.&lt;/p&gt;</content>
+    <link href="https://codeberg.org/redict/redict/releases/tag/7.3.2" rel="alternate"/>
   </entry>
 </feed>
