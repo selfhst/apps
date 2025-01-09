@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-01-09T16:33:55.372898-05:00</updated>
+  <updated>2025-01-09T17:33:52.388197-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,8 +83,8 @@
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!TIP]
-This release provides new environment variables to manage cookie sessions.&lt;/p&gt;
-&lt;p&gt;Furthermore, there is support for automatic OIDC login via &lt;code&gt;OIDC_AUTOLOGIN&lt;/code&gt;.&lt;/p&gt;
+This release provides new environment variables &lt;code&gt;SESSION_EXPIRE_AT_BROWSER_CLOSE&lt;/code&gt; and &lt;code&gt;SESSION_COOKIE_AGE&lt;/code&gt;. These can be used to adjust the lifetime of session cookies. &lt;/p&gt;
+&lt;p&gt;Furthermore, there is a new environment variable &lt;code&gt;OIDC_AUTOLOGIN&lt;/code&gt; to automatically trigger an OIDC flow on the login page.&lt;/p&gt;
 &lt;p&gt;See &lt;a href="https://github.com/l4rm4nd/VoucherVault/wiki/01-%E2%80%90-Installation#environment-variables"&gt;Wiki &amp;gt; Environment Variables&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
