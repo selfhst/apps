@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-01-09T04:32:32.051687-05:00</updated>
+  <updated>2025-01-09T05:32:29.556341-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -318,7 +318,8 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;h2&gt;Stable (Since Jan 7, 2024)&lt;/h2&gt;
+&lt;p&gt;[!NOTE]
+This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://coder.com/docs/install/releases"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Bugfixes&lt;/h3&gt;
 &lt;ul&gt;
