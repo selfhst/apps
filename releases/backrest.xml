@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2025-01-10T00:32:29.714726-05:00</updated>
+  <updated>2025-01-10T01:32:32.414371-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,11 +136,6 @@
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.6.2...v1.7.0"&gt;1.7.0&lt;/a&gt; (2025-01-09)&lt;/h2&gt;
 &lt;p&gt;Happy to release 1.7.0 -- first new backrest release of the new year. Excitingly this also marks just over 1 year since I first launched backrest on the &lt;a href="https://forum.restic.net/t/backrest-a-cross-platform-backup-orchestrator-and-webui-for-restic/7069"&gt;restic forums&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Features I want to call out are&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;new "test configuration" button to ease onboarding -- it is now possible to easily validate configuration changes before applying them to either create a new repo or connect to an existing repo.&lt;/li&gt;
-&lt;li&gt;significant behavior and UI improvements are also introduced for users using multiple backrest installs with a shared repository. Log items are now keyed on restic repo GUID and are better grouped by instance in the UI.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add a "test configuration" button to aid users setting up new repos (&lt;a href="https://github.com/garethgeorge/backrest/issues/582"&gt;#582&lt;/a&gt;) (&lt;a href="https://github.com/garethgeorge/backrest/commit/1bb3cd70fd8a7eb12df19eaf8f01edb075f34d48"&gt;1bb3cd7&lt;/a&gt;)&lt;/li&gt;
