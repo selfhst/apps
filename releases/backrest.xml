@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2025-01-09T22:32:19.561840-05:00</updated>
+  <updated>2025-01-09T23:32:22.959196-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,7 @@
       <name>garethgeorge/backrest</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.6.2...v1.7.0"&gt;1.7.0&lt;/a&gt; (2025-01-09)&lt;/h2&gt;
-&lt;p&gt;Excited to announce 1.7.0 -- first new backrest release of the new year. Excitingly this also marks just over 1 year since I first launched backrest on the &lt;a href="https://forum.restic.net/t/backrest-a-cross-platform-backup-orchestrator-and-webui-for-restic/7069"&gt;restic forums&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Happy to release 1.7.0 -- first new backrest release of the new year. Excitingly this also marks just over 1 year since I first launched backrest on the &lt;a href="https://forum.restic.net/t/backrest-a-cross-platform-backup-orchestrator-and-webui-for-restic/7069"&gt;restic forums&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Features I want to call out are&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;new "test configuration" button to ease onboarding -- it is now possible to easily validate configuration changes before applying them to either create a new repo or connect to an existing repo.&lt;/li&gt;
