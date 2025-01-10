@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-01-09T20:31:35.031787-05:00</updated>
+  <updated>2025-01-09T21:31:30.401599-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -240,11 +240,11 @@ JAR download: https://downloads.metabase.com/enterprise/v1.51.11/metabase.jar&lt
 &lt;p&gt;Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.metabase.com/pricing?utm_source=github&amp;amp;utm_medium=release-notes&amp;amp;utm_campaign=plan-comparison"&gt;Get the most out of Metabase&lt;/a&gt;. Learn more about advanced features, managed cloud, and first-class support.&lt;/p&gt;
 &lt;h2&gt;Metabase Open Source&lt;/h2&gt;
-&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.52.5&lt;/code&gt;&lt;/a&gt;
-JAR download: https://downloads.metabase.com/v0.52.5/metabase.jar&lt;/p&gt;
+&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase/tags"&gt;&lt;code&gt;metabase/metabase:v0.52.5.x&lt;/code&gt;&lt;/a&gt;
+JAR download: https://downloads.metabase.com/v0.52.5.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Metabase Enterprise&lt;/h2&gt;
-&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.52.5&lt;/code&gt;&lt;/a&gt;
-JAR download: https://downloads.metabase.com/enterprise/v1.52.5/metabase.jar&lt;/p&gt;
+&lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.52.5.x&lt;/code&gt;&lt;/a&gt;
+JAR download: https://downloads.metabase.com/enterprise/v1.52.5.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
