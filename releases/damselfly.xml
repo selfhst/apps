@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Damselfly Releases</title>
-  <updated>2025-01-10T05:31:47.409258-05:00</updated>
+  <updated>2025-01-10T06:31:44.840969-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,14 +74,12 @@
   </entry>
   <entry>
     <id>https://github.com/Webreaper/Damselfly/releases/tag/4.2.3</id>
-    <title>New release for Damselfly: Release v4.2.3 - All Desktop Clients Included</title>
+    <title>New release for Damselfly: Release v4.2.3</title>
     <updated>2025-01-07T17:37:24-05:00</updated>
     <author>
       <name>Webreaper/Damselfly</name>
     </author>
-    <content>&lt;p&gt;Seems that something got broken in the build a while ago, meaning that only the Linux version of Damselfly Desktop was included in the build. This is now fixed, so if you go to &lt;code&gt;/info&lt;/code&gt; and click on the &lt;em&gt;Damselfly Desktop&lt;/em&gt; tab, you'll now see the Mac and Windows clients for download too.&lt;/p&gt;
-&lt;p&gt;&lt;img width="355" alt="Screenshot 2025-01-07 at 22 44 52" src="https://github.com/user-attachments/assets/beb14fcb-4171-4aa3-8baf-dbd7245ab72a" /&gt;&lt;/p&gt;
-&lt;p&gt;Docker: &lt;code&gt;docker pull webreaper/damselfly:4.2.3&lt;/code&gt;&lt;/p&gt;</content>
+    <content>&lt;p&gt;Docker: docker pull webreaper/damselfly:4.2.3&lt;/p&gt;</content>
     <link href="https://github.com/Webreaper/Damselfly/releases/tag/4.2.3" rel="alternate"/>
   </entry>
 </feed>
