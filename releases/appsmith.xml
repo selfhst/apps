@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appsmith Releases</title>
-  <updated>2025-01-10T03:32:10.371723-05:00</updated>
+  <updated>2025-01-10T04:32:42.967413-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,7 +113,7 @@
   <entry>
     <id>https://github.com/appsmithorg/appsmith/releases/tag/v1.56</id>
     <title>New release for Appsmith: Release v1.56 🌈</title>
-    <updated>2025-01-10T02:27:39-05:00</updated>
+    <updated>2025-01-10T04:08:38-05:00</updated>
     <author>
       <name>appsmithorg/appsmith</name>
     </author>
