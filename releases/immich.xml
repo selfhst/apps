@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-01-10T16:30:39.710259-05:00</updated>
+  <updated>2025-01-10T17:30:37.769183-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -284,7 +284,7 @@
 &lt;li&gt;fix(server): generate thumbnails for external assets by @etnoy in https://github.com/immich-app/immich/pull/15183&lt;/li&gt;
 &lt;li&gt;fix(web): Reset asset selection when refreshing and changing folder by @arnolicious in https://github.com/immich-app/immich/pull/15178&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.124.1...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.124.1...v1.124.2&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.124.2" rel="alternate"/>
   </entry>
 </feed>
