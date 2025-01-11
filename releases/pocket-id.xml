@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-01-11T17:33:12.636599-05:00</updated>
+  <updated>2025-01-11T18:33:11.537664-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,7 @@
   <entry>
     <id>https://github.com/stonith404/pocket-id/releases/tag/v0.24.0</id>
     <title>New release for Pocket ID: v0.24.0</title>
-    <updated>2025-01-11T14:32:43-05:00</updated>
+    <updated>2025-01-11T17:47:24-05:00</updated>
     <author>
       <name>stonith404/pocket-id</name>
     </author>
