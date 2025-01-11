@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-01-11T06:33:53.566415-05:00</updated>
+  <updated>2025-01-11T07:34:03.219612-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,8 +83,9 @@
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!TIP]
-This release provides support for selecting a camera device for bar/qr code input scanning 🔥&lt;/p&gt;
-&lt;p&gt;Helps mobile users with many camera devices.&lt;/p&gt;
+This release allows users to switch between camera devices during bar/qr code scanning 🔥&lt;/p&gt;
+&lt;p&gt;Helps mobile users with many camera devices. Also in case a false camera device was automatically chosen by the browser/smartphone.&lt;/p&gt;
+&lt;p&gt;Note: Some Android Chrome browsers still not fully supported. Firefox and Brave work fine. See &lt;a href="https://github.com/l4rm4nd/VoucherVault/wiki/04-%E2%80%90-Application-Usage#creating-items"&gt;wiki&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
