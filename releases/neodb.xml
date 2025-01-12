@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2025-01-12T11:33:18.020087-05:00</updated>
+  <updated>2025-01-12T12:33:19.051638-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -51,14 +51,15 @@
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.1.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.1.4</id>
+    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.1.4b</id>
     <title>New release for NeoDB: </title>
-    <updated>2025-01-11T20:09:59-05:00</updated>
+    <updated>2025-01-12T12:21:15-05:00</updated>
     <author>
       <name>neodb-social/neodb</name>
     </author>
     <content>&lt;p&gt;API for trending items and posts
-Some minor code clean up&lt;/p&gt;</content>
-    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.1.4" rel="alternate"/>
+minor code clean up
+&lt;em&gt;this is a re-release of 0.11.1.4&lt;/em&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.1.4b" rel="alternate"/>
   </entry>
 </feed>
