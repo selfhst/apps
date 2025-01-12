@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-01-12T14:34:01.179693-05:00</updated>
+  <updated>2025-01-12T15:34:03.264188-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,7 +165,12 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;p&gt;This release has a few notable features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Settings to hide accessible captions, and a setting to hide controls on gallery open&lt;/li&gt;
+&lt;li&gt;Revamped toast message UI which should animate much nicer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Full notes:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: crash with invalid url as link&lt;/li&gt;
 &lt;li&gt;PR: #1791&lt;/li&gt;
@@ -175,10 +180,6 @@
 &lt;li&gt;PR: #1786&lt;/li&gt;
 &lt;li&gt;fix: pwa router corruption when switching accounts in certain way&lt;/li&gt;
 &lt;li&gt;PR: #1698&lt;/li&gt;
-&lt;li&gt;build: add ios spm package, remove cocoapods&lt;/li&gt;
-&lt;li&gt;PR: #1785&lt;/li&gt;
-&lt;li&gt;revert: spm migration&lt;/li&gt;
-&lt;li&gt;PR: #1794&lt;/li&gt;
 &lt;li&gt;fix: edge case where post hiding might not work for a few posts&lt;/li&gt;
 &lt;li&gt;PR: #1795&lt;/li&gt;
 &lt;li&gt;feat: setting to hide controls on gallery open&lt;/li&gt;
