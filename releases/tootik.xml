@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tootik Releases</title>
-  <updated>2025-01-12T12:34:18.483672-05:00</updated>
+  <updated>2025-01-12T13:34:17.289056-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,7 +124,22 @@
     <author>
       <name>dimkr/tootik</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The user's own posts now appear in the feed, immediately (#110) &lt;/li&gt;
+&lt;li&gt;The pattern used to validate user names during registration is now configurable (#108) &lt;/li&gt;
+&lt;li&gt;tootik now fetches forwarded activities from the server they originally came from, and enforces a same-origin policy on&lt;/li&gt;
+&lt;li&gt;Activities and the objects they act on&lt;/li&gt;
+&lt;li&gt;Posts and authors&lt;/li&gt;
+&lt;li&gt;Forwarded deletion events and the deleted objects&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Removed&lt;/h2&gt;
+&lt;p&gt;Nothing!&lt;/p&gt;
+&lt;h2&gt;Bug Fixes, Performance and Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More gopls fixes&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dimkr/tootik/releases/tag/0.15.0" rel="alternate"/>
   </entry>
 </feed>
