@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Postiz Releases</title>
-  <updated>2025-01-12T04:34:10.651829-05:00</updated>
+  <updated>2025-01-12T05:33:56.457049-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,7 @@ https://chatgpt.com/share/677b82c1-7c74-800a-908f-d69cc48c0d05&lt;/p&gt;</conten
   </entry>
   <entry>
     <id>https://github.com/gitroomhq/postiz-app/releases/tag/v1.26.1</id>
-    <title>New release for Postiz: v1.26.1</title>
+    <title>New release for Postiz: Short-linking!</title>
     <updated>2025-01-12T03:54:17-05:00</updated>
     <author>
       <name>gitroomhq/postiz-app</name>
