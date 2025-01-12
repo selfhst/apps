@@ -11249,8 +11249,8 @@
     {
         "Project": "XPipe",
         "Reference": "xpipe",
-        "Sponsor": null,
-        "Sponsor URL": null,
+        "Sponsor": "Label",
+        "Sponsor URL": "https://xpipe.io?ref=selfh.st",
         "Website": "https://xpipe.io",
         "Repository Link": "https://github.com/xpipe-io/xpipe",
         "Description": "Manage all your servers, containers, and virtual machines from your local desktop",
