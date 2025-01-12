@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-01-12T08:31:26.173908-05:00</updated>
+  <updated>2025-01-12T09:31:27.312816-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -405,6 +405,7 @@
 &lt;ul&gt;
 &lt;li&gt;Stopwatch during workout logging.&lt;/li&gt;
 &lt;li&gt;A new import strategy to make sure progress is updated correctly and items get added to the correct collections.&lt;/li&gt;
+&lt;li&gt;Display estimated time to finish an import.&lt;/li&gt;
 &lt;li&gt;Return the correct elements in the export generated.&lt;/li&gt;
 &lt;li&gt;Various bug fixes.&lt;/li&gt;
 &lt;/ul&gt;
