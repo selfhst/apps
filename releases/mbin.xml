@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2025-01-13T15:33:17.328474-05:00</updated>
+  <updated>2025-01-13T16:33:15.440824-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -499,7 +499,7 @@ This version is focused on bug fixes and improvements rather than new features. 
     <author>
       <name>MbinOrg/mbin</name>
     </author>
-    <content>&lt;p&gt;This is the v1.7.4 release of Mbin and it brings a lot of documentation updates and bug fixes (especially in the backend): documentation for the nginx setup has been altered a lot, postgresql has also seen a few edits, most symfony commands are now documented, we improved the federation backend, we "revive" dead instances when we get activities from them, the search experience is now improved when searching for URLs, we now support strike through html to markdown and a lot more.&lt;/p&gt;
+    <content>&lt;p&gt;This is the v1.7.4 release of Mbin and it brings a lot of documentation updates and bug fixes (especially in the backend): &lt;a href="https://docs.joinmbin.org/admin/configuration/nginx#mbin-nginx-server-block"&gt;documentation for the Nginx setup has been altered a lot&lt;/a&gt;, PostgreSQL has also seen a few edits, most Symfony commands are now documented, we improved the federation backend, we "revive" dead instances when we get activities from them, the search experience is now improved when searching for URLs, we now support strike through HTML to markdown and a lot more.&lt;/p&gt;
 &lt;p&gt;The most important thing for developers is that the automated tests are now working and required for PRs to be merged.&lt;/p&gt;
 &lt;p&gt;A total of 62 pull requests from 10 contributors (excluding dependabot) have been merged.&lt;/p&gt;
 &lt;p&gt;Comparison to previous stable version v1.7.3:&lt;/p&gt;
@@ -519,10 +519,10 @@ This version is focused on bug fixes and improvements rather than new features. 
 &lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Go to your repo &lt;code&gt;cd /var/www/mbin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.7.4&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Run the update script: &lt;code&gt;bash bin/post-upgrade.sh&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Run the update script: &lt;code&gt;bash bin/post-upgrade&lt;/code&gt;. &lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;exit&lt;/code&gt; so we are back at the root user (or put a sudo in front of &lt;strong&gt;every&lt;/strong&gt; command)&lt;/li&gt;
 &lt;li&gt;flush your redis db by running &lt;code&gt;redis-cli&lt;/code&gt;, type in &lt;code&gt;AUTH [YOUR PASSWORD]&lt;/code&gt; and then &lt;code&gt;FLUSHDB&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;clear your opcache by reloading php fpm &lt;code&gt;systemctl reload php8.2-fpm&lt;/code&gt; (or for PHP 8.3: &lt;code&gt;systemctl reload php8.3-fpm&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;clear your opcache by reloading php fpm &lt;code&gt;systemctl restart php8.2-fpm&lt;/code&gt; (or for PHP 8.3: &lt;code&gt;systemctl restart php8.3-fpm&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;Restart the messengers: &lt;code&gt;supervisorctl restart messenger:*&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt; again&lt;/li&gt;
 &lt;li&gt;Run the command to remove the default domain from entries that are not local: &lt;code&gt;php bin/console mbin:update:local-domain&lt;/code&gt;&lt;/li&gt;
