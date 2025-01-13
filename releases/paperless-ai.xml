@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-AI Releases</title>
-  <updated>2025-01-13T12:35:47.900401-05:00</updated>
+  <updated>2025-01-13T13:35:18.484190-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,9 +65,9 @@ https://github.com/clusterzx/paperless-ai/issues/56&lt;/p&gt;
     <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.1.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.1.7</id>
-    <title>New release for Paperless-AI: v2.1.7</title>
-    <updated>2025-01-13T11:22:24-05:00</updated>
+    <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.1.8</id>
+    <title>New release for Paperless-AI: v2.1.8</title>
+    <updated>2025-01-13T13:13:26-05:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
@@ -76,11 +76,13 @@ https://github.com/clusterzx/paperless-ai/issues/56&lt;/p&gt;
 &lt;p&gt;Fixed https://github.com/clusterzx/paperless-ai/issues/115&lt;/p&gt;
 &lt;p&gt;Fixed https://github.com/clusterzx/paperless-ai/issues/98&lt;/p&gt;
 &lt;p&gt;Fixed https://github.com/clusterzx/paperless-ai/issues/106 again&lt;/p&gt;
+&lt;p&gt;Fix https://github.com/clusterzx/paperless-ai/issues/103&lt;/p&gt;
+&lt;p&gt;Fix https://github.com/clusterzx/paperless-ai/issues/140&lt;/p&gt;
 &lt;p&gt;Implemented https://github.com/clusterzx/paperless-ai/issues/74
 (/app/logs)&lt;/p&gt;
 &lt;p&gt;Implemented https://github.com/clusterzx/paperless-ai/pull/88&lt;/p&gt;
 &lt;p&gt;Added a loggerService.js to log all messages to a txt and html file&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.1.6...v2.1.7&lt;/p&gt;</content>
-    <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.1.7" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.1.7...v2.1.8&lt;/p&gt;</content>
+    <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.1.8" rel="alternate"/>
   </entry>
 </feed>
