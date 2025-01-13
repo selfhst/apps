@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-01-13T16:32:08.679837-05:00</updated>
+  <updated>2025-01-13T17:32:10.509829-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,6 +176,7 @@
 &lt;h3&gt;🛠 Refactors&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;improve error logging during onInit and website template seed (&lt;a href="https://github.com/payloadcms/payload/issues/10528"&gt;#10528&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/142c504"&gt;142c504&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;next:&lt;/strong&gt; cleans up initPage through initReq overrides and consolidated return types (&lt;a href="https://github.com/payloadcms/payload/issues/10449"&gt;#10449&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/c850bd4"&gt;c850bd4&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;📚 Documentation&lt;/h3&gt;
 &lt;ul&gt;
@@ -194,7 +195,6 @@
 &lt;h3&gt;🏡 Chores&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;cpa:&lt;/strong&gt; fixes typo in messages.ts (&lt;a href="https://github.com/payloadcms/payload/issues/10342"&gt;#10342&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/2ae26d3"&gt;2ae26d3&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;next:&lt;/strong&gt; cleans up initPage through initReq overrides and consolidated return types (&lt;a href="https://github.com/payloadcms/payload/issues/10449"&gt;#10449&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/c850bd4"&gt;c850bd4&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🤝 Contributors&lt;/h3&gt;
 &lt;ul&gt;

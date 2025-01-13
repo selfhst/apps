@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gramps Releases</title>
-  <updated>2025-01-13T16:34:06.373675-05:00</updated>
+  <updated>2025-01-13T17:34:05.027378-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -216,7 +216,9 @@ bd1b7dc3f26ffd480f607a79e3a76688024a28b0f0b412ac1e4d77402ddc87d6  gramps-5.2.3.t
 7d5f22db92c43cb7798b50837e95ee5da56154596d9dea3b96d2c5cd2e5f0cdd  gramps-5.2.4.tar.gz
 7fd66bf5b03ab615fcfd5fadda3b4bb9344c4d1b35dc53fb4ec68793536ea662  GrampsAIO-5.2.4-1_win64.exe
 2954d212f339796539e47602250c66457b8bb551d389d2c150279ae0fb316c79  gramps_5.2.4-1_all.ubuntu-20.04.deb
-2aa5699228fed900da0b4652c4abad46248c31f411aa6517f0794888de32e0fd  gramps_5.2.4-1_all.ubuntu-22.04.deb&lt;/p&gt;</content>
+2aa5699228fed900da0b4652c4abad46248c31f411aa6517f0794888de32e0fd  gramps_5.2.4-1_all.ubuntu-22.04.deb
+602e48f3a252c61661b3ba523a89dc7448f4f139212797fecd7b2f8ce6f73bd4  Gramps-Arm-5.2.4-1.dmg
+cba8c6944cf0ae2fdb87d9b39228b6b55eba93c2101b66708826d6529b1da8a0  Gramps-Intel-5.2.4-1.dmg&lt;/p&gt;</content>
     <link href="https://github.com/gramps-project/gramps/releases/tag/v5.2.4" rel="alternate"/>
   </entry>
 </feed>
