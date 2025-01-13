@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gramps Releases</title>
-  <updated>2025-01-12T20:34:14.586434-05:00</updated>
+  <updated>2025-01-12T21:34:09.457938-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,7 +169,7 @@ bd1b7dc3f26ffd480f607a79e3a76688024a28b0f0b412ac1e4d77402ddc87d6  gramps-5.2.3.t
 &lt;li&gt;Add extra "about" modifier to Hebrew date handler.&lt;/li&gt;
 &lt;li&gt;Add Korean translation.&lt;/li&gt;
 &lt;li&gt;Fix date modifiers for sl.&lt;/li&gt;
-&lt;li&gt;Fix Citations gramplet to recognize event reference citations. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13312"&gt;#13555&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Fix Citations gramplet to recognize event reference citations. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13555"&gt;#13555&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Fix exception when finding relationship to home person. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13495"&gt;#13495&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Fix mouse scroll direction in pedigree view.&lt;/li&gt;
 &lt;li&gt;Fix incorrect usage of exec. As of PEP558, &lt;code&gt;locals()&lt;/code&gt; is not populated by &lt;code&gt;exec()&lt;/code&gt;. This change means that this call is broken on Python 3.13.&lt;/li&gt;
@@ -177,7 +177,7 @@ bd1b7dc3f26ffd480f607a79e3a76688024a28b0f0b412ac1e4d77402ddc87d6  gramps-5.2.3.t
 &lt;li&gt;Remove unnecessary use of exec.&lt;/li&gt;
 &lt;li&gt;Test current_date being an empty date in probably alive function. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13431"&gt;#13431&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Improve warning message in date_test.py when 3 tests are skipped.&lt;/li&gt;
-&lt;li&gt;Correctly assign sortval = 0 when a date is EMPTY. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13415"&gt;#13415&lt;/a&gt;., &lt;a href="https://gramps-project.org/bugs/view.php?id=13423"&gt;#13423&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Correctly assign sortval = 0 when a date is EMPTY. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13415"&gt;#13415&lt;/a&gt;, &lt;a href="https://gramps-project.org/bugs/view.php?id=13423"&gt;#13423&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Fix unicode conversion bug when upgrading from schema 16 to 17.&lt;/li&gt;
 &lt;li&gt;Correct the documentation for the match() method of the Date class. Also added more detail to documentation in 3 other cases. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13428"&gt;#13428&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Gramps version output now reports OS rather than Platform. Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=12285"&gt;#12285&lt;/a&gt;.&lt;/li&gt;
@@ -194,7 +194,7 @@ bd1b7dc3f26ffd480f607a79e3a76688024a28b0f0b412ac1e4d77402ddc87d6  gramps-5.2.3.t
 &lt;li&gt;Replace gtkspell3 with gspell.  Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13514"&gt;#13514&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Upgrade json-glib to fix a build failure with recent glib versions.&lt;/li&gt;
 &lt;li&gt;Windows AIO:&lt;/li&gt;
-&lt;li&gt;Restore AIO console executable's icon. &lt;a href="https://gramps-project.org/bugs/view.php?id=13402"&gt;Fixes #13402&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Restore AIO console executable's icon.  Fixes &lt;a href="https://gramps-project.org/bugs/view.php?id=13402"&gt;#13402&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Fix spelling in a comment.&lt;/li&gt;
 &lt;li&gt;Remove UPX compression of exectuable files.&lt;/li&gt;
 &lt;li&gt;Remove commented out line.&lt;/li&gt;
@@ -213,7 +213,10 @@ bd1b7dc3f26ffd480f607a79e3a76688024a28b0f0b412ac1e4d77402ddc87d6  gramps-5.2.3.t
 &lt;li&gt;Downgrade cx_Freeze in Windows AIO to 6.15.9&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;SHA256SUMS
-7d5f22db92c43cb7798b50837e95ee5da56154596d9dea3b96d2c5cd2e5f0cdd  gramps-5.2.4.tar.gz&lt;/p&gt;</content>
+7d5f22db92c43cb7798b50837e95ee5da56154596d9dea3b96d2c5cd2e5f0cdd  gramps-5.2.4.tar.gz
+7fd66bf5b03ab615fcfd5fadda3b4bb9344c4d1b35dc53fb4ec68793536ea662  GrampsAIO-5.2.4-1_win64.exe
+2954d212f339796539e47602250c66457b8bb551d389d2c150279ae0fb316c79  gramps_5.2.4-1_all.ubuntu-20.04.deb
+2aa5699228fed900da0b4652c4abad46248c31f411aa6517f0794888de32e0fd  gramps_5.2.4-1_all.ubuntu-22.04.deb&lt;/p&gt;</content>
     <link href="https://github.com/gramps-project/gramps/releases/tag/v5.2.4" rel="alternate"/>
   </entry>
 </feed>
