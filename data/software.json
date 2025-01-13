@@ -455,7 +455,7 @@
         "Stars (Display)": "40k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Monitoring,Development",
+        "Tags": "Development,Monitoring",
         "Dynamic Filter": "Firebase",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -639,7 +639,7 @@
         "Stars (Display)": "51k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Database,No-Code / Low-Code,Spreadsheet,Relational Database",
+        "Tags": "No-Code / Low-Code,Spreadsheet,Database,Relational Database",
         "Dynamic Filter": "Airtable",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -800,7 +800,7 @@
         "Stars (Display)": "39k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Visualization,Statistics",
+        "Tags": "Statistics,Visualization",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -846,7 +846,7 @@
         "Stars (Display)": "-1",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -892,7 +892,7 @@
         "Stars (Display)": "29k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Torrents,Downloads",
+        "Tags": "Downloads,Torrents",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-01 09:42:35+00:00"
     },
@@ -1053,7 +1053,7 @@
         "Stars (Display)": "35k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Development,Design",
+        "Tags": "Design,Development",
         "Dynamic Filter": "Firebase",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1076,7 +1076,7 @@
         "Stars (Display)": "46k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "File Transfer and Sync,File Sharing",
+        "Tags": "File Sharing,File Transfer and Sync",
         "Dynamic Filter": "DocSend",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1145,7 +1145,7 @@
         "Stars (Display)": "31k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Development,Messaging",
+        "Tags": "Messaging,Development",
         "Dynamic Filter": "Firebase",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1214,7 +1214,7 @@
         "Stars (Display)": "27k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Backups",
+        "Tags": "Backups,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1237,7 +1237,7 @@
         "Stars (Display)": "32k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Server Management,Docker",
+        "Tags": "Server Management,Docker,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1283,7 +1283,7 @@
         "Stars (Display)": "25k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Identity Management,Authentication",
+        "Tags": "Authentication,Identity Management",
         "Dynamic Filter": "Okta",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1421,7 +1421,7 @@
         "Stars (Display)": "20k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Blog,Content Management",
+        "Tags": "Content Management,Blog",
         "Dynamic Filter": "Medium",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1559,7 +1559,7 @@
         "Stars (Display)": "17k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Note-Taking",
+        "Tags": "Note-Taking,Wiki",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-10-29 11:49:34+00:00"
     },
@@ -1697,7 +1697,7 @@
         "Stars (Display)": "28k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Note-Taking",
+        "Tags": "Note-Taking,Wiki",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1812,7 +1812,7 @@
         "Stars (Display)": "14k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Recording,Terminal",
+        "Tags": "Terminal,Recording",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -1950,7 +1950,7 @@
         "Stars (Display)": "65",
         "Latest Commit": "2024-12-21",
         "Latest Commit Color": "Green",
-        "Tags": "Social Media,ActivityPub / Fediverse,ActivityPub - Platform",
+        "Tags": "ActivityPub / Fediverse,Social Media,ActivityPub - Platform",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -2088,7 +2088,7 @@
         "Stars (Display)": "17k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Monitoring,Docker",
+        "Tags": "Docker,Monitoring",
         "Dynamic Filter": "",
         "CreatedAt": "2024-12-24 10:28:04+00:00"
     },
@@ -2203,7 +2203,7 @@
         "Stars (Display)": "12k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Habit Tracking,Tracking",
+        "Tags": "Tracking,Habit Tracking",
         "Dynamic Filter": "",
         "CreatedAt": "2025-01-01 15:17:18+00:00"
     },
@@ -2272,7 +2272,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Database,No-Code / Low-Code,Spreadsheet,Relational Database",
+        "Tags": "No-Code / Low-Code,Database,Spreadsheet,Relational Database",
         "Dynamic Filter": "Airtable",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -2364,7 +2364,7 @@
         "Stars (Display)": "24k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Web Server,Reverse Proxy",
+        "Tags": "Reverse Proxy,Web Server",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -2410,7 +2410,7 @@
         "Stars (Display)": "22k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Relationships,Tracking",
+        "Tags": "Tracking,Relationships",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -2755,7 +2755,7 @@
         "Stars (Display)": "7k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Video Conferencing,Messaging",
+        "Tags": "Messaging,Video Conferencing",
         "Dynamic Filter": "Zoom",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -2985,7 +2985,7 @@
         "Stars (Display)": "633",
         "Latest Commit": "2024-10-27",
         "Latest Commit Color": "Green",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3123,7 +3123,7 @@
         "Stars (Display)": "25k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3169,7 +3169,7 @@
         "Stars (Display)": "12k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Backups",
+        "Tags": "Backups,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3422,7 +3422,7 @@
         "Stars (Display)": "20k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3491,7 +3491,7 @@
         "Stars (Display)": "13k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Torrents,Downloads",
+        "Tags": "Downloads,Torrents",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3882,7 +3882,7 @@
         "Stars (Display)": "20k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3905,7 +3905,7 @@
         "Stars (Display)": "5k",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -3997,7 +3997,7 @@
         "Stars (Display)": "21k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Automation,File Management",
+        "Tags": "File Management,Automation",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4135,7 +4135,7 @@
         "Stars (Display)": "6k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Social Media",
+        "Tags": "Social Media,Wiki",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4342,7 +4342,7 @@
         "Stars (Display)": "14k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Platform",
+        "Tags": "Platform,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-16 10:17:24+00:00"
     },
@@ -4411,7 +4411,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,RSS",
+        "Tags": "RSS,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4480,31 +4480,8 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,RSS",
+        "Tags": "RSS,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
-        "CreatedAt": "2024-09-12 13:19:42+00:00"
-    },
-    {
-        "Project": "Zabbix",
-        "Reference": "zabbix",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://www.zabbix.com/",
-        "Repository Link": "https://github.com/zabbix/zabbix",
-        "Description": "Real-time monitoring of IT components and services",
-        "License": "AGPL-3.0",
-        "Language": "PHP",
-        "Icon Source": "Icons",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 4557.0,
-        "Stars (Display)": "5k",
-        "Latest Commit": "2025-01-12",
-        "Latest Commit Color": "Green",
-        "Tags": "Monitoring,Uptime",
-        "Dynamic Filter": "UptimeRobot",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -4531,6 +4508,29 @@
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
+        "Project": "Zabbix",
+        "Reference": "zabbix",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://www.zabbix.com/",
+        "Repository Link": "https://github.com/zabbix/zabbix",
+        "Description": "Real-time monitoring of IT components and services",
+        "License": "AGPL-3.0",
+        "Language": "PHP",
+        "Icon Source": "Icons",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 4557.0,
+        "Stars (Display)": "5k",
+        "Latest Commit": "2025-01-12",
+        "Latest Commit Color": "Green",
+        "Tags": "Monitoring,Uptime",
+        "Dynamic Filter": "UptimeRobot",
+        "CreatedAt": "2024-09-12 13:19:42+00:00"
+    },
+    {
         "Project": "CryptPad",
         "Reference": "cryptpad",
         "Sponsor": null,
@@ -4549,7 +4549,7 @@
         "Stars (Display)": "6k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "File Transfer and Sync,Office Suite",
+        "Tags": "Office Suite,File Transfer and Sync",
         "Dynamic Filter": "Google Docs,Microsoft Office",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4572,7 +4572,7 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,Terminal",
+        "Tags": "Terminal,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -4986,7 +4986,7 @@
         "Stars (Display)": "13k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Forums,ActivityPub / Fediverse,Social News,ActivityPub - Platform",
+        "Tags": "ActivityPub / Fediverse,Forums,Social News,ActivityPub - Platform",
         "Dynamic Filter": "Reddit",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -5170,7 +5170,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Platform",
+        "Tags": "Platform,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-11-10 11:40:24+00:00"
     },
@@ -5285,7 +5285,7 @@
         "Stars (Display)": "29",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Tracking,Messaging",
+        "Tags": "Messaging,Tracking",
         "Dynamic Filter": "",
         "CreatedAt": "2025-01-08 12:46:23+00:00"
     },
@@ -5446,7 +5446,7 @@
         "Stars (Display)": "17k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -5469,7 +5469,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Relationships,Tracking",
+        "Tags": "Tracking,Relationships",
         "Dynamic Filter": "",
         "CreatedAt": "2024-11-10 12:00:14+00:00"
     },
@@ -5676,7 +5676,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Home Automation,Smart Home",
+        "Tags": "Smart Home,Home Automation",
         "Dynamic Filter": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa",
         "CreatedAt": "2024-11-01 18:08:10+00:00"
     },
@@ -6090,7 +6090,7 @@
         "Stars (Display)": "243",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Tracking,Development",
+        "Tags": "Development,Tracking",
         "Dynamic Filter": "Firebase",
         "CreatedAt": "2024-12-24 10:21:18+00:00"
     },
@@ -6458,7 +6458,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Voting,Feedback",
+        "Tags": "Feedback,Voting",
         "Dynamic Filter": "UserVoice",
         "CreatedAt": "2024-09-17 00:42:43+00:00"
     },
@@ -6550,7 +6550,7 @@
         "Stars (Display)": "36",
         "Latest Commit": "2025-01-09",
         "Latest Commit Color": "Green",
-        "Tags": "Tracking,Support / Ticketing",
+        "Tags": "Support / Ticketing,Tracking",
         "Dynamic Filter": "Jira",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -6826,7 +6826,7 @@
         "Stars (Display)": "12k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -6895,7 +6895,7 @@
         "Stars (Display)": "880",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,RSS",
+        "Tags": "RSS,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -6941,7 +6941,7 @@
         "Stars (Display)": "15k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Database,No-Code / Low-Code,Spreadsheet,Relational Database",
+        "Tags": "No-Code / Low-Code,Spreadsheet,Database,Relational Database",
         "Dynamic Filter": "Airtable",
         "CreatedAt": "2024-11-10 11:53:13+00:00"
     },
@@ -7056,7 +7056,7 @@
         "Stars (Display)": "7k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Firewall,Security",
+        "Tags": "Security,Firewall",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7102,7 +7102,7 @@
         "Stars (Display)": "8k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Web Browser",
+        "Tags": "Web Browser,Media Streaming",
         "Dynamic Filter": "Netflix,Disney+,Amazon Prime Video",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7148,7 +7148,7 @@
         "Stars (Display)": "7k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Videos,Downloads",
+        "Tags": "Downloads,Videos",
         "Dynamic Filter": "YouTube",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7171,9 +7171,32 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
+    },
+    {
+        "Project": "SafeLine",
+        "Reference": "safeline",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://waf.chaitin.com",
+        "Repository Link": "https://github.com/chaitin/SafeLine",
+        "Description": "Self-hosted web application firewall to protect from attacks and exploits",
+        "License": "GPL-3.0",
+        "Language": "Go",
+        "Icon Source": "Icons",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 14856.0,
+        "Stars (Display)": "15k",
+        "Latest Commit": "2025-01-12",
+        "Latest Commit Color": "Green",
+        "Tags": "Firewall,Reverse Proxy",
+        "Dynamic Filter": "",
+        "CreatedAt": "2024-10-22 10:04:41+00:00"
     },
     {
         "Project": "Docker Socket Proxy",
@@ -7197,29 +7220,6 @@
         "Tags": "Reverse Proxy,Server Management,Docker",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
-    },
-    {
-        "Project": "SafeLine",
-        "Reference": "safeline",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://waf.chaitin.com",
-        "Repository Link": "https://github.com/chaitin/SafeLine",
-        "Description": "Self-hosted web application firewall to protect from attacks and exploits",
-        "License": "GPL-3.0",
-        "Language": "Go",
-        "Icon Source": "Icons",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 14856.0,
-        "Stars (Display)": "15k",
-        "Latest Commit": "2025-01-12",
-        "Latest Commit Color": "Green",
-        "Tags": "Reverse Proxy,Firewall",
-        "Dynamic Filter": "",
-        "CreatedAt": "2024-10-22 10:04:41+00:00"
     },
     {
         "Project": "draw.io",
@@ -7424,7 +7424,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Videos,Downloads",
+        "Tags": "Downloads,Videos",
         "Dynamic Filter": "YouTube",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7470,7 +7470,7 @@
         "Stars (Display)": "8k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Platform",
+        "Tags": "Platform,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7585,7 +7585,7 @@
         "Stars (Display)": "7k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Database,No-Code / Low-Code,Spreadsheet,Relational Database",
+        "Tags": "No-Code / Low-Code,Spreadsheet,Database,Relational Database",
         "Dynamic Filter": "Airtable",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7654,8 +7654,8 @@
         "Stars (Display)": "12k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Workflow Automation,Development Infrastructure",
-        "Dynamic Filter": "IFTTT,Zapier,Vercel",
+        "Tags": "Development Infrastructure,Workflow Automation",
+        "Dynamic Filter": "Vercel,IFTTT,Zapier",
         "CreatedAt": "2024-10-31 11:52:56+00:00"
     },
     {
@@ -7723,7 +7723,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "RSS,Newsletters",
+        "Tags": "Newsletters,RSS",
         "Dynamic Filter": "Substack",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7746,7 +7746,7 @@
         "Stars (Display)": "6k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Grocery Lists,Recipes",
+        "Tags": "Recipes,Grocery Lists",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7792,7 +7792,7 @@
         "Stars (Display)": "9k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Identity Management,Authentication",
+        "Tags": "Authentication,Identity Management",
         "Dynamic Filter": "Okta",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7861,7 +7861,7 @@
         "Stars (Display)": "14k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Server Management,Docker",
+        "Tags": "Server Management,Docker,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -7976,7 +7976,7 @@
         "Stars (Display)": "896",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Home Automation,Smart Home",
+        "Tags": "Smart Home,Home Automation",
         "Dynamic Filter": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa",
         "CreatedAt": "2024-10-22 09:59:31+00:00"
     },
@@ -8321,8 +8321,8 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Development,Time Tracking",
-        "Dynamic Filter": "Firebase,Toggl,Clockify,Harvest",
+        "Tags": "Time Tracking,Development",
+        "Dynamic Filter": "Toggl,Clockify,Harvest,Firebase",
         "CreatedAt": "2024-09-30 09:45:49+00:00"
     },
     {
@@ -8344,7 +8344,7 @@
         "Stars (Display)": "6k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-12-01 11:45:24+00:00"
     },
@@ -8482,7 +8482,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Automation,*arr",
+        "Tags": "*arr,Automation",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -8758,7 +8758,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Voting,Feedback",
+        "Tags": "Feedback,Voting",
         "Dynamic Filter": "UserVoice",
         "CreatedAt": "2024-09-17 14:54:44+00:00"
     },
@@ -8942,7 +8942,7 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Server Management,Docker",
+        "Tags": "Server Management,Docker,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -8965,7 +8965,7 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Automation,Downloads",
+        "Tags": "Downloads,Automation",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -9057,8 +9057,8 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Smart Home,Voice Assistant",
-        "Dynamic Filter": "Samsung SmartThings,Apple HomeKit,Google Home,Amazon Alexa,Google Assistant,Siri",
+        "Tags": "Voice Assistant,Smart Home",
+        "Dynamic Filter": "Google Assistant,Amazon Alexa,Siri,Samsung SmartThings,Apple HomeKit,Google Home",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -9287,7 +9287,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Web Server,Reverse Proxy",
+        "Tags": "Reverse Proxy,Web Server",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -9448,7 +9448,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Server Management",
+        "Tags": "Server Management,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-12-20 10:52:31+00:00"
     },
@@ -9747,7 +9747,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Torrents,Theme",
+        "Tags": "Theme,Torrents",
         "Dynamic Filter": "",
         "CreatedAt": "2024-11-22 21:35:11+00:00"
     },
@@ -9793,7 +9793,7 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -9908,7 +9908,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "NVR,Video Surveillance",
+        "Tags": "Video Surveillance,NVR",
         "Dynamic Filter": "Ring,Google Nest",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -9954,7 +9954,7 @@
         "Stars (Display)": "10k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,Dashboard",
+        "Tags": "Dashboard,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -10069,7 +10069,7 @@
         "Stars (Display)": "8k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Workspace",
+        "Tags": "Workspace,Wiki",
         "Dynamic Filter": "Notion",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -10391,7 +10391,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Music,Downloads",
+        "Tags": "Downloads,Music",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-03 10:13:07+00:00"
     },
@@ -10483,7 +10483,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Grocery Lists,Recipes",
+        "Tags": "Recipes,Grocery Lists",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -10557,29 +10557,6 @@
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
-        "Project": "eddrit",
-        "Reference": "eddrit",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://eddrit.com",
-        "Repository Link": "https://github.com/corenting/eddrit",
-        "Description": "Lightweight alternative frontend for Reddit",
-        "License": "MIT",
-        "Language": "Python",
-        "Icon Source": "None",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 87.0,
-        "Stars (Display)": "87",
-        "Latest Commit": "2025-01-11",
-        "Latest Commit Color": "Green",
-        "Tags": "Front End",
-        "Dynamic Filter": "",
-        "CreatedAt": "2024-12-10 17:33:44+00:00"
-    },
-    {
         "Project": "Stalwart Mail Server",
         "Reference": "stalwart-mail-server",
         "Sponsor": null,
@@ -10601,6 +10578,29 @@
         "Tags": "Email",
         "Dynamic Filter": "Gmail,Microsoft Outlook",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
+    },
+    {
+        "Project": "eddrit",
+        "Reference": "eddrit",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://eddrit.com",
+        "Repository Link": "https://github.com/corenting/eddrit",
+        "Description": "Lightweight alternative frontend for Reddit",
+        "License": "MIT",
+        "Language": "Python",
+        "Icon Source": "None",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 87.0,
+        "Stars (Display)": "87",
+        "Latest Commit": "2025-01-11",
+        "Latest Commit Color": "Green",
+        "Tags": "Front End",
+        "Dynamic Filter": "",
+        "CreatedAt": "2024-12-10 17:33:44+00:00"
     },
     {
         "Project": "Castopod",
@@ -10690,7 +10690,7 @@
         "Stars (Display)": "465",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Scrobble,Music",
+        "Tags": "Music,Scrobble",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-01 11:30:22+00:00"
     },
@@ -11012,7 +11012,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Torrents,Automation,Downloads,*arr",
+        "Tags": "Downloads,*arr,Automation,Torrents",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11104,7 +11104,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Pastebin,File Transfer and Sync",
+        "Tags": "File Transfer and Sync,Pastebin",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11242,7 +11242,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Server Management,Docker",
+        "Tags": "Server Management,Docker,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11311,7 +11311,7 @@
         "Stars (Display)": "337",
         "Latest Commit": "2024-12-26",
         "Latest Commit Color": "Green",
-        "Tags": "Music,Document Management",
+        "Tags": "Document Management,Music",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11334,7 +11334,7 @@
         "Stars (Display)": "4k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Deployment,Platform",
+        "Tags": "Platform,Deployment",
         "Dynamic Filter": "Heroku,Netlify,Vercel",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11403,7 +11403,7 @@
         "Stars (Display)": "127",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Audiobooks,Books",
+        "Tags": "Books,Audiobooks",
         "Dynamic Filter": "Audible",
         "CreatedAt": "2024-12-29 21:07:49+00:00"
     },
@@ -11518,8 +11518,8 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Workflow Automation,Task Scheduling",
-        "Dynamic Filter": "IFTTT,Zapier,PagerDuty Runbook Automation,Cronitor,ActiveBatch,Visualcron,Windows Task Scheduler",
+        "Tags": "Task Scheduling,Workflow Automation",
+        "Dynamic Filter": "PagerDuty Runbook Automation,Cronitor,ActiveBatch,Visualcron,Windows Task Scheduler,IFTTT,Zapier",
         "CreatedAt": "2024-09-30 12:27:42+00:00"
     },
     {
@@ -11541,7 +11541,7 @@
         "Stars (Display)": "110",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "ActivityPub / Fediverse,ActivityPub - Platform",
+        "Tags": "ActivityPub - Platform,ActivityPub / Fediverse",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
@@ -11656,7 +11656,7 @@
         "Stars (Display)": "17",
         "Latest Commit": "2024-11-25",
         "Latest Commit Color": "Green",
-        "Tags": "Voting,Books",
+        "Tags": "Books,Voting",
         "Dynamic Filter": "UserVoice",
         "CreatedAt": "2024-11-14 15:30:56+00:00"
     },
@@ -11702,7 +11702,7 @@
         "Stars (Display)": "932",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Automation,*arr",
+        "Tags": "*arr,Automation",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11748,7 +11748,7 @@
         "Stars (Display)": "729",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Gaming",
+        "Tags": "Gaming,Media Streaming",
         "Dynamic Filter": "Netflix,Disney+,Amazon Prime Video",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11817,7 +11817,7 @@
         "Stars (Display)": "2",
         "Latest Commit": "2025-01-09",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,RSS",
+        "Tags": "RSS,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -11932,7 +11932,7 @@
         "Stars (Display)": "150",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Music,Front End",
+        "Tags": "Front End,Music",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-07 11:59:30+00:00"
     },
@@ -11978,7 +11978,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Database,No-Code / Low-Code,Spreadsheet,Relational Database",
+        "Tags": "No-Code / Low-Code,Database,Spreadsheet,Relational Database",
         "Dynamic Filter": "Airtable",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12185,7 +12185,7 @@
         "Stars (Display)": "228",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Note-Taking",
+        "Tags": "Note-Taking,Wiki",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12208,7 +12208,7 @@
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Identity Management,Authentication,VPN,2FA",
+        "Tags": "Authentication,Identity Management,VPN,2FA",
         "Dynamic Filter": "Okta,Authy,Google Authenticator",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12277,7 +12277,7 @@
         "Stars (Display)": "606",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Web Server,Reverse Proxy",
+        "Tags": "Reverse Proxy,Web Server",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12323,7 +12323,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Reverse Proxy,VPN",
+        "Tags": "VPN,Reverse Proxy",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12415,7 +12415,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Subscriptions,Tracking",
+        "Tags": "Tracking,Subscriptions",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12438,7 +12438,7 @@
         "Stars (Display)": "593",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Archive,Live Streaming",
+        "Tags": "Live Streaming,Archive",
         "Dynamic Filter": "Twitch",
         "CreatedAt": "2024-09-19 09:07:35+00:00"
     },
@@ -12783,7 +12783,7 @@
         "Stars (Display)": "98",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Document Management,Receipts",
+        "Tags": "Receipts,Document Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -12852,7 +12852,7 @@
         "Stars (Display)": "312",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Podcasts",
+        "Tags": "Podcasts,Media Streaming",
         "Dynamic Filter": "Netflix,Disney+,Amazon Prime Video",
         "CreatedAt": "2024-12-26 12:27:48+00:00"
     },
@@ -12898,7 +12898,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Torrents,Downloads",
+        "Tags": "Downloads,Torrents",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -13059,7 +13059,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Inventory Management,3D Printing",
+        "Tags": "3D Printing,Inventory Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-15 10:27:22+00:00"
     },
@@ -13289,32 +13289,9 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Monitoring,Server Management",
+        "Tags": "Server Management,Monitoring",
         "Dynamic Filter": "",
         "CreatedAt": "2024-12-10 17:38:21+00:00"
-    },
-    {
-        "Project": "Lynx",
-        "Reference": "lynx",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://getlynx.dev",
-        "Repository Link": "https://github.com/Lynx-Shortener/Lynx",
-        "Description": "A full stack application for shortening URLs",
-        "License": "MIT",
-        "Language": "Vue",
-        "Icon Source": "Icons",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 212.0,
-        "Stars (Display)": "212",
-        "Latest Commit": "2025-01-08",
-        "Latest Commit Color": "Green",
-        "Tags": "URL Shortener",
-        "Dynamic Filter": "Bitly",
-        "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
         "Project": "solidtime",
@@ -13340,6 +13317,29 @@
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
+        "Project": "Lynx",
+        "Reference": "lynx",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://getlynx.dev",
+        "Repository Link": "https://github.com/Lynx-Shortener/Lynx",
+        "Description": "A full stack application for shortening URLs",
+        "License": "MIT",
+        "Language": "Vue",
+        "Icon Source": "Icons",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 212.0,
+        "Stars (Display)": "212",
+        "Latest Commit": "2025-01-08",
+        "Latest Commit Color": "Green",
+        "Tags": "URL Shortener",
+        "Dynamic Filter": "Bitly",
+        "CreatedAt": "2024-09-12 13:19:42+00:00"
+    },
+    {
         "Project": "Hoodik",
         "Reference": "hoodik",
         "Sponsor": null,
@@ -13358,8 +13358,8 @@
         "Stars (Display)": "369",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "File Sharing,Cloud Storage",
-        "Dynamic Filter": "DocSend,Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega",
+        "Tags": "Cloud Storage,File Sharing",
+        "Dynamic Filter": "Box,Dropbox,Microsoft OneDrive,Google Drive,iCloud,Mega,DocSend",
         "CreatedAt": "2024-11-04 10:02:13+00:00"
     },
     {
@@ -13542,7 +13542,7 @@
         "Stars (Display)": "631",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,VPN",
+        "Tags": "VPN,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -13565,7 +13565,7 @@
         "Stars (Display)": "368",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Podcasts,Downloads",
+        "Tags": "Downloads,Podcasts",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14370,7 +14370,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Vehicles,Tracking",
+        "Tags": "Tracking,Vehicles",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14508,7 +14508,7 @@
         "Stars (Display)": "3k",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Remote Access,Server Management",
+        "Tags": "Server Management,Remote Access",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14531,7 +14531,7 @@
         "Stars (Display)": "738",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Fitness,Tracking",
+        "Tags": "Tracking,Fitness",
         "Dynamic Filter": "Strava",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14554,7 +14554,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Note-Taking",
+        "Tags": "Note-Taking,Wiki",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14577,7 +14577,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Wiki,Note-Taking",
+        "Tags": "Note-Taking,Wiki",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -14784,7 +14784,7 @@
         "Stars (Display)": "996",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Fitness,Tracking",
+        "Tags": "Tracking,Fitness",
         "Dynamic Filter": "Strava",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15014,7 +15014,7 @@
         "Stars (Display)": "351",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Fitness,Tracking",
+        "Tags": "Tracking,Fitness",
         "Dynamic Filter": "Strava",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15060,7 +15060,7 @@
         "Stars (Display)": "147",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-12-04 15:27:15+00:00"
     },
@@ -15106,7 +15106,7 @@
         "Stars (Display)": "93",
         "Latest Commit": "2025-01-09",
         "Latest Commit Color": "Green",
-        "Tags": "Privacy,Front End",
+        "Tags": "Front End,Privacy",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15244,7 +15244,7 @@
         "Stars (Display)": "42",
         "Latest Commit": "2025-01-06",
         "Latest Commit Color": "Green",
-        "Tags": "Health and Wellness,Tracking",
+        "Tags": "Tracking,Health and Wellness",
         "Dynamic Filter": "MyFitnessPal",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15359,7 +15359,7 @@
         "Stars (Display)": "593",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Habit Tracking,Tracking",
+        "Tags": "Tracking,Habit Tracking",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-03 10:21:57+00:00"
     },
@@ -15520,7 +15520,7 @@
         "Stars (Display)": "170",
         "Latest Commit": "2025-01-07",
         "Latest Commit Color": "Green",
-        "Tags": "Feed Reader,RSS",
+        "Tags": "RSS,Feed Reader",
         "Dynamic Filter": "Feedly,Inoreader",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15773,7 +15773,7 @@
         "Stars (Display)": "788",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Identity Management,Authentication",
+        "Tags": "Authentication,Identity Management",
         "Dynamic Filter": "Okta",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -15796,7 +15796,7 @@
         "Stars (Display)": "281",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-15 10:37:28+00:00"
     },
@@ -15957,7 +15957,7 @@
         "Stars (Display)": "412",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-16 09:38:25+00:00"
     },
@@ -15980,7 +15980,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Artificial Intelligence,Document Management",
+        "Tags": "Document Management,Artificial Intelligence",
         "Dynamic Filter": "",
         "CreatedAt": "2025-01-08 10:48:45+00:00"
     },
@@ -16279,7 +16279,7 @@
         "Stars (Display)": "161",
         "Latest Commit": "2025-01-06",
         "Latest Commit Color": "Green",
-        "Tags": "Web Server,Content Management",
+        "Tags": "Content Management,Web Server",
         "Dynamic Filter": "",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -16302,7 +16302,7 @@
         "Stars (Display)": "515",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Transcription,Artificial Intelligence",
+        "Tags": "Artificial Intelligence,Transcription",
         "Dynamic Filter": "",
         "CreatedAt": "2024-10-22 10:08:23+00:00"
     },
@@ -16348,7 +16348,7 @@
         "Stars (Display)": "200",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Videos,Front End",
+        "Tags": "Front End,Videos",
         "Dynamic Filter": "YouTube",
         "CreatedAt": "2024-11-10 11:30:32+00:00"
     },
@@ -16371,7 +16371,7 @@
         "Stars (Display)": "360",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Front End",
+        "Tags": "Front End,Media Streaming",
         "Dynamic Filter": "Netflix,Disney+,Amazon Prime Video",
         "CreatedAt": "2024-10-14 10:10:32+00:00"
     },
@@ -16463,7 +16463,7 @@
         "Stars (Display)": "67",
         "Latest Commit": "2025-01-08",
         "Latest Commit Color": "Green",
-        "Tags": "Videos,Social Media",
+        "Tags": "Social Media,Videos",
         "Dynamic Filter": "YouTube",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
@@ -16555,7 +16555,7 @@
         "Stars (Display)": "508",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Tasks and To-Do Lists,Dashboard",
+        "Tags": "Dashboard,Tasks and To-Do Lists",
         "Dynamic Filter": "",
         "CreatedAt": "2024-12-26 12:09:09+00:00"
     },
@@ -16670,7 +16670,7 @@
         "Stars (Display)": "115",
         "Latest Commit": "2025-01-07",
         "Latest Commit Color": "Green",
-        "Tags": "Tasks and To-Do Lists,Note-Taking",
+        "Tags": "Note-Taking,Tasks and To-Do Lists",
         "Dynamic Filter": "Evernote,Microsoft OneNote",
         "CreatedAt": "2024-11-05 11:00:37+00:00"
     },
@@ -16808,7 +16808,7 @@
         "Stars (Display)": "77",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Requests,Downloads",
+        "Tags": "Requests,Media Streaming,Downloads",
         "Dynamic Filter": "Netflix,Disney+,Amazon Prime Video",
         "CreatedAt": "2025-01-05 16:55:20+00:00"
     },
@@ -16946,7 +16946,7 @@
         "Stars (Display)": "50",
         "Latest Commit": "2025-01-04",
         "Latest Commit Color": "Green",
-        "Tags": "Notifications,Music Streaming",
+        "Tags": "Music Streaming,Notifications",
         "Dynamic Filter": "Apple Music,Spotify",
         "CreatedAt": "2024-11-18 10:49:40+00:00"
     },
@@ -16992,7 +16992,7 @@
         "Stars (Display)": "62",
         "Latest Commit": "2024-12-24",
         "Latest Commit Color": "Green",
-        "Tags": "Downloads,*arr",
+        "Tags": "*arr,Downloads",
         "Dynamic Filter": "",
         "CreatedAt": "2024-11-18 10:44:05+00:00"
     },
@@ -17015,7 +17015,7 @@
         "Stars (Display)": "120",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Web Analytics,Security",
+        "Tags": "Security,Web Analytics",
         "Dynamic Filter": "Google Analytics",
         "CreatedAt": "2025-01-05 16:49:46+00:00"
     },
@@ -17176,7 +17176,7 @@
         "Stars (Display)": "-1",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "File Transfer and Sync,File Sharing",
+        "Tags": "File Sharing,File Transfer and Sync",
         "Dynamic Filter": "DocSend",
         "CreatedAt": "2024-10-28 11:55:57+00:00"
     },
@@ -17222,7 +17222,7 @@
         "Stars (Display)": "0",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "Calendar,Scheduling",
+        "Tags": "Scheduling,Calendar",
         "Dynamic Filter": "Google Calendar",
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     }

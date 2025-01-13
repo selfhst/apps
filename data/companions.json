@@ -66,7 +66,7 @@
         "Stars (Display)": "151",
         "Latest Commit": "2025-01-10",
         "Latest Commit Color": "Green",
-        "Tags": "Dashboard,Statistics",
+        "Tags": "Statistics,Dashboard",
         "Dynamic Filter": "Tautulli",
         "Platform": "Android,iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -306,7 +306,7 @@
         "Stars (Display)": "117",
         "Latest Commit": "2025-01-03",
         "Latest Commit Color": "Green",
-        "Tags": "Dashboard,Statistics",
+        "Tags": "Statistics,Dashboard",
         "Dynamic Filter": "Tautulli",
         "Platform": "Server",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -402,7 +402,7 @@
         "Stars (Display)": "602",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "Docker,Portainer",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -642,7 +642,7 @@
         "Stars (Display)": "136",
         "Latest Commit": "2024-12-22",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "Docker,Portainer",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -763,7 +763,7 @@
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
-        "Dynamic Filter": "Jellyfin,Emby,Plex",
+        "Dynamic Filter": "Plex,Jellyfin,Emby",
         "Platform": "Server",
         "CreatedAt": "2024-12-04 13:23:03+00:00"
     },
@@ -786,7 +786,7 @@
         "Stars (Display)": "154",
         "Latest Commit": "2024-12-21",
         "Latest Commit Color": "Green",
-        "Tags": "Meal Planning,Recipes",
+        "Tags": "Recipes,Meal Planning",
         "Dynamic Filter": "Mealie",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -1146,8 +1146,8 @@
         "Stars (Display)": "43",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Downloads,*arr",
-        "Dynamic Filter": "qBittorrent,Jellyfin,Emby,Plex,*arr",
+        "Tags": "Media Streaming,*arr,Downloads",
+        "Dynamic Filter": "*arr,Jellyfin,Plex,Emby,qBittorrent",
         "Platform": "Server",
         "CreatedAt": "2025-01-06 12:40:04+00:00"
     },
@@ -1602,8 +1602,8 @@
         "Stars (Display)": "559",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Music,Music Streaming",
-        "Dynamic Filter": "Jellyfin,Subsonic,Navidrome",
+        "Tags": "Music Streaming,Music",
+        "Dynamic Filter": "Subsonic,Jellyfin,Navidrome",
         "Platform": "Windows,macOS,Linux",
         "CreatedAt": "2024-11-19 10:28:07+00:00"
     },
@@ -1698,7 +1698,7 @@
         "Stars (Display)": "1k",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Artificial Intelligence,Document Management",
+        "Tags": "Document Management,Artificial Intelligence",
         "Dynamic Filter": "Paperless-ngx",
         "Platform": "Server",
         "CreatedAt": "2025-01-08 10:48:45+00:00"
@@ -1746,7 +1746,7 @@
         "Stars (Display)": "675",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Password Manager,Backups",
+        "Tags": "Backups,Password Manager",
         "Dynamic Filter": "Bitwarden,Vaultwarden",
         "Platform": "Server",
         "CreatedAt": "2024-11-12 10:31:46+00:00"
@@ -1770,7 +1770,7 @@
         "Stars (Display)": "211",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Meal Planning,Recipes",
+        "Tags": "Recipes,Meal Planning",
         "Dynamic Filter": "Tandoor Recipes",
         "Platform": "Android",
         "CreatedAt": "2024-12-10 17:28:25+00:00"
@@ -1794,7 +1794,7 @@
         "Stars (Display)": "54",
         "Latest Commit": "2025-01-04",
         "Latest Commit Color": "Green",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "Portainer",
         "Platform": "Android",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -1818,7 +1818,7 @@
         "Stars (Display)": "360",
         "Latest Commit": "2025-01-12",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Front End",
+        "Tags": "Front End,Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,Windows,macOS,Browser",
         "CreatedAt": "2024-10-14 10:10:32+00:00"
@@ -2010,8 +2010,8 @@
         "Stars (Display)": "77",
         "Latest Commit": "2025-01-11",
         "Latest Commit Color": "Green",
-        "Tags": "Media Streaming,Requests,Downloads",
-        "Dynamic Filter": "Overseerr,*arr,Jellyseerr",
+        "Tags": "Requests,Media Streaming,Downloads",
+        "Dynamic Filter": "Overseerr,Jellyseerr,*arr",
         "Platform": "Server",
         "CreatedAt": "2025-01-05 16:55:20+00:00"
     },
@@ -2178,7 +2178,7 @@
         "Stars (Display)": "50",
         "Latest Commit": "2025-01-04",
         "Latest Commit Color": "Green",
-        "Tags": "Notifications,Music Streaming",
+        "Tags": "Music Streaming,Notifications",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Server",
         "CreatedAt": "2024-11-18 10:49:40+00:00"
@@ -2202,7 +2202,7 @@
         "Stars (Display)": "62",
         "Latest Commit": "2024-12-24",
         "Latest Commit Color": "Green",
-        "Tags": "Downloads,*arr",
+        "Tags": "*arr,Downloads",
         "Dynamic Filter": "*arr",
         "Platform": "Server",
         "CreatedAt": "2024-11-18 10:44:05+00:00"
@@ -2322,7 +2322,7 @@
         "Stars (Display)": "-1",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "Docker",
         "Platform": "iOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
@@ -2898,7 +2898,7 @@
         "Stars (Display)": "-1",
         "Latest Commit": "1990-01-01",
         "Latest Commit Color": "Red",
-        "Tags": "Server Management,Docker",
+        "Tags": "Docker,Server Management",
         "Dynamic Filter": "Portainer",
         "Platform": "iOS,macOS",
         "CreatedAt": "2024-09-12 14:52:42+00:00"
