@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Radiant Releases</title>
-  <updated>2025-01-14T16:33:49.260999-05:00</updated>
+  <updated>2025-01-14T17:33:53.203602-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,5 +37,22 @@
 + Design refinements
 + Bug fixes&lt;/p&gt;</content>
     <link href="https://github.com/daniebeler/pixelix/releases/tag/v3.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/daniebeler/pixelix/releases/tag/v3.2.0</id>
+    <title>New release for Pixelix: Pixelix v3.2.0</title>
+    <updated>2025-01-14T17:02:02-05:00</updated>
+    <author>
+      <name>daniebeler/pixelix</name>
+    </author>
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding location to posts&lt;/li&gt;
+&lt;li&gt;Adding and removing posts from collections&lt;/li&gt;
+&lt;li&gt;Refined design of edit-post-screen&lt;/li&gt;
+&lt;li&gt;Bug Fixes&lt;/li&gt;
+&lt;li&gt;Design Fixes&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/daniebeler/pixelix/releases/tag/v3.2.0" rel="alternate"/>
   </entry>
 </feed>
