@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>What's Up Docker? Releases</title>
-  <updated>2025-01-14T02:31:52.613800-05:00</updated>
+  <updated>2025-01-14T03:31:52.874312-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,12 @@
 &lt;li&gt;:fire: [TRIGGER] - Fix specific triggers to specific containers association issue&lt;/li&gt;
 &lt;li&gt;:lock: Add prettier&lt;/li&gt;
 &lt;li&gt;:lock: Upgrade to node.js 23&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Breaking changes!&lt;/strong&gt; \
+Registry configuration has changed; please adapt &lt;a href="https://getwud.github.io/wud/#/configuration/registries/"&gt;your environment variables&lt;/a&gt; \
+Internal ids has changed; your &lt;a href="https://getwud.github.io/wud/#/configuration/storage/"&gt;existing state&lt;/a&gt; will be reset&lt;/p&gt;
+&lt;/blockquote&gt;</content>
     <link href="https://github.com/getwud/wud/releases/tag/8.0.0" rel="alternate"/>
   </entry>
 </feed>
