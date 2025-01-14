@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2025-01-14T08:32:48.323503-05:00</updated>
+  <updated>2025-01-14T09:32:51.863655-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,6 +105,9 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
       <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;p&gt;Released at 2025-01-14&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;v1.97.x is a line of &lt;a href="https://docs.victoriametrics.com/lts-releases/"&gt;LTS releases&lt;/a&gt;. It contains important up-to-date bugfixes for &lt;a href="https://docs.victoriametrics.com/enterprise.html"&gt;VictoriaMetrics enterprise&lt;/a&gt;.
+All these fixes are also included in &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/latest"&gt;the latest community release&lt;/a&gt;.
+The v1.97.x line will be supported for at least 12 months since &lt;a href="https://docs.victoriametrics.com/CHANGELOG.html#v1970"&gt;v1.97.0&lt;/a&gt; release&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;FEATURE: all VictoriaMetrics &lt;a href="https://docs.victoriametrics.com/enterprise/"&gt;enterprise&lt;/a&gt; components: add support of hot-reload for license key supplied by &lt;code&gt;-licenseFile&lt;/code&gt; command-line flag.&lt;/p&gt;
@@ -125,6 +128,9 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
       <name>VictoriaMetrics/VictoriaMetrics</name>
     </author>
     <content>&lt;p&gt;Released at 2025-01-14&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;v1.102.x is a line of &lt;a href="https://docs.victoriametrics.com/lts-releases/"&gt;LTS releases&lt;/a&gt;. It contains important up-to-date bugfixes for &lt;a href="https://docs.victoriametrics.com/enterprise.html"&gt;VictoriaMetrics enterprise&lt;/a&gt;.
+All these fixes are also included in &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/latest"&gt;the latest community release&lt;/a&gt;.
+The v1.102.x line will be supported for at least 12 months since &lt;a href="https://docs.victoriametrics.com/changelog/#v11020"&gt;v1.102.0&lt;/a&gt; release&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;FEATURE: all VictoriaMetrics &lt;a href="https://docs.victoriametrics.com/enterprise/"&gt;enterprise&lt;/a&gt; components: add support of hot-reload for license key supplied by &lt;code&gt;-licenseFile&lt;/code&gt; command-line flag.&lt;/p&gt;
