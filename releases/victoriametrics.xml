@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2025-01-14T09:32:51.863655-05:00</updated>
+  <updated>2025-01-14T10:32:51.173773-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,8 +77,9 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt;: support &lt;code&gt;-maxIngestionRate&lt;/code&gt; cmd-line flag to ratelimit samples/sec ingested. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7377"&gt;this issue&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/single-server-victoriametrics/"&gt;vmsingle&lt;/a&gt; and &lt;code&gt;vmselect&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: improve query performance on systems with high number of CPU cores. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/7416"&gt;this PR&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/single-server-victoriametrics/"&gt;vmsingle&lt;/a&gt; and &lt;code&gt;vmselect&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: add command-line flag &lt;code&gt;-search.maxBinaryOpPushdownLabelValues&lt;/code&gt; to allow using labels with more candidate values as push down filter in binary operation. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/7243"&gt;this pull request&lt;/a&gt;. Thanks to @tydhot for implementation.&lt;/li&gt;
+&lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/single-server-victoriametrics/"&gt;vmsingle&lt;/a&gt; and &lt;code&gt;vmstorage&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: add command-line flag &lt;code&gt;storage.finalDedupScheduleCheckInterval&lt;/code&gt; to control the final deduplication process interval. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7880"&gt;this issue&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/single-server-victoriametrics/"&gt;vmsingle&lt;/a&gt; and &lt;code&gt;vmstorage&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: add command-line flag &lt;code&gt;storage.finalDedupScheduleCheckInterval&lt;/code&gt; to control the final deduplication process interval. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7880"&gt;this issue&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt; and &lt;code&gt;vmstorage&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: add a separate cache type for storing sparse entries when performing large index scans. This significantly reduces memory usage when applying &lt;a href="https://docs.victoriametrics.com/#downsampling"&gt;downsampling filters&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/#retention-filters"&gt;retention filters&lt;/a&gt; during background merge. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7182"&gt;this issue&lt;/a&gt; for the details.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;BUGFIX: &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/dashboards"&gt;dashboards&lt;/a&gt;: consistently use &lt;code&gt;vmagent_remotewrite_pending_data_bytes&lt;/code&gt; on vmagent dashboard to represent persistent queue size.&lt;/p&gt;
