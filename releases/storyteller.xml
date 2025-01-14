@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Storyteller Releases</title>
-  <updated>2025-01-13T23:34:39.202230-05:00</updated>
+  <updated>2025-01-14T00:34:43.225963-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,10 @@
       <name>smoores/storyteller</name>
     </author>
     <content>&lt;h2&gt;1.0.6 (2025-01-14)&lt;/h2&gt;
-&lt;p&gt;No changes.&lt;/p&gt;</content>
+&lt;h3&gt;fixed (1 change)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gitlab.com/smoores/storyteller/-/commit/695c19b5507301ebba62f56882f9e88586938fa0"&gt; Resolve outstanding issues with the smtp ssl/boolean settings &lt;/a&gt; (&lt;a href="https://gitlab.com/smoores/storyteller/-/merge_requests/111"&gt;merge request&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://gitlab.com/smoores/storyteller/-/releases/web-v1.0.6" rel="alternate"/>
   </entry>
 </feed>
