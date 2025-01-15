@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-01-15T09:35:03.437392-05:00</updated>
+  <updated>2025-01-15T10:34:52.628634-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,25 +105,42 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Improved Main View for Large Screens (Tablet, Desktop):The main view now includes a side calendar where you can easily see all your scheduled tasks ( both assigned to you and other in your circle)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Improved Main View for Large Screens (Tablet, Desktop)&lt;/strong&gt;:&lt;br /&gt;
+  The main view now includes a side calendar where you can easily see all your scheduled tasks (both assigned to you and others in your circle).  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Smart/ Low friction for task Creation: Creating tasks and chores is now effortless. Simply click the input field, type everything in one sentence, and Donetick will attempt parse the details (This feature is still in development and experimental! while it's not yet perfect, it should work well when used in specific scenarios.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated Configuration Loading&lt;/strong&gt;:&lt;br /&gt;
+  Added support for environment-specific overrides.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Updated configuration loading and added support for environment-specific overrides.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;API Support&lt;/strong&gt;:&lt;br /&gt;
+  You can now create tasks and chores via the API.  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Added support for creating tasks and chores via the API.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Points System Upgrade&lt;/strong&gt;:&lt;br /&gt;
+  Introduced the ability to redeem points!  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Points System Upgrade: Introduced the ability to redeem points!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task in sentence &lt;/strong&gt;: I am excited about this one specifically. the focus is to minimize the click and field switching when creating a task. You would click the input field and type everything into one sentence. Donetick will attempt to parse the details and will show the modal to show you what has been processed
+You will open Donetick. click on the top field and type the task once you are done press enter. and task created. you can set due dates, recurrent tasks, and priorities all in one shot.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img width="326" alt="image" src="https://github.com/user-attachments/assets/bd2e0cea-653e-4527-8186-2fbab14fd2df" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img width="306" alt="image" src="https://github.com/user-attachments/assets/e8e1202f-7755-40d4-b1ac-43a00f8096e0" /&gt;
-&lt;img width="374" alt="image" src="https://github.com/user-attachments/assets/c9f5a598-27a7-480f-bafb-8b2dc2b575bd" /&gt;
-&lt;img width="374" alt="image" src="https://github.com/user-attachments/assets/0d6b4355-e233-4ec2-9e4e-8d4763ea504e" /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;br /&gt;
+  - &lt;strong&gt;Priority&lt;/strong&gt;: For the highest priority, use any of the following keywords: &lt;code&gt;P1&lt;/code&gt;, &lt;code&gt;Urgent&lt;/code&gt;, &lt;code&gt;Important&lt;/code&gt;, or &lt;code&gt;ASAP&lt;/code&gt;.&lt;br /&gt;
+    Use &lt;code&gt;P2&lt;/code&gt;, &lt;code&gt;P3&lt;/code&gt;, or &lt;code&gt;P4&lt;/code&gt; for lower priorities.&lt;br /&gt;
+  -  &lt;strong&gt;Due date&lt;/strong&gt;: Specify dates with phrases like tomorrow, next week, Monday, or   August 1st at 12 pm.
+  -  &lt;strong&gt;Frequency/Reccurent&lt;/strong&gt;: Set recurring tasks with terms like daily, weekly, monthly,  yearly, or patterns such as every Tuesday and Thursday.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IsRolling tests by @johan-autohome in https://github.com/donetick/donetick/pull/73&lt;/li&gt;
+&lt;li&gt;Bugfix: error when disabling push notifications by @dkhalife in https://github.com/donetick/donetick/pull/58&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@johan-autohome made their first contribution in https://github.com/donetick/donetick/pull/73&lt;/li&gt;
+&lt;li&gt;@dkhalife made their first contribution in https://github.com/donetick/donetick/pull/58&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.0.26...v0.0.27&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.27" rel="alternate"/>
   </entry>
 </feed>

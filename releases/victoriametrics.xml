@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2025-01-15T09:32:49.338848-05:00</updated>
+  <updated>2025-01-15T10:32:51.131533-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,6 +68,7 @@ The v1.102.x line will be supported for at least 12 months since &lt;a href="htt
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.109.0"&gt;v1.109.0&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Released at 2025-01-14&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update note: This release contains &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8045"&gt;issue&lt;/a&gt; that might affect correctness of increase, increase_pure and delta functions. It affects only vmselect or VictoriaMetrics single-node on query time. Please, rollback vmselects to the closest previous version as temporary workaround until it is fixed.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;FEATURE: all the VictoriaMetrics components: increase the default value for &lt;a href="https://tip.golang.org/doc/gc-guide#GOGC"&gt;&lt;code&gt;GOGC&lt;/code&gt;&lt;/a&gt; from &lt;code&gt;30&lt;/code&gt; to &lt;code&gt;100&lt;/code&gt;. This should reduce CPU usage at the cost of slightly higher memory usage. &lt;a href="https://docs.victoriametrics.com/"&gt;Single-node VictoriaMetrics&lt;/a&gt;, &lt;a href="https://docs.victoriametrics.com/vmagent/"&gt;vmagent&lt;/a&gt; and &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/#architecture-overview"&gt;vmstorage&lt;/a&gt; components continue using &lt;code&gt;GOGC=30&lt;/code&gt;, since they are optimized for low memory allocations and low memory usage, so they do not benefit from the increased GOGC value too much. It is possible to override the default &lt;code&gt;GOGC&lt;/code&gt; value in any VictoriaMetrics component by setting &lt;code&gt;GOGC&lt;/code&gt; environment variable to the desired value. For example, &lt;code&gt;GOGC=200 ./path/to/vmagent&lt;/code&gt; starts &lt;code&gt;vmagent&lt;/code&gt; with &lt;code&gt;GOGC=200&lt;/code&gt;. See &lt;a href="https://tip.golang.org/doc/gc-guide#GOGC"&gt;these docs&lt;/a&gt; about &lt;code&gt;GOGC&lt;/code&gt; tuning. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7902"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;FEATURE: &lt;a href="https://docs.victoriametrics.com/#vmui"&gt;vmui&lt;/a&gt;: add export data functionality for the &lt;code&gt;Raw Query&lt;/code&gt; page and the ability to import exported data into the &lt;code&gt;Query Analyzer&lt;/code&gt; page. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/7628"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
