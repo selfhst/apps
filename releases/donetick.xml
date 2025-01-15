@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-01-15T10:34:52.628634-05:00</updated>
+  <updated>2025-01-15T11:34:48.195518-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,8 +121,12 @@
   Introduced the ability to redeem points!  &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Task in sentence &lt;/strong&gt;: I am excited about this one specifically. the focus is to minimize the click and field switching when creating a task. You would click the input field and type everything into one sentence. Donetick will attempt to parse the details and will show the modal to show you what has been processed
+&lt;p&gt;&lt;strong&gt;Task in sentence&lt;/strong&gt;: I am excited about this one specifically. the focus is to minimize the click and field switching when creating a task. You would click the input field and type everything into one sentence. Donetick will attempt to parse the details and will show the modal to show you what has been processed
 You will open Donetick. click on the top field and type the task once you are done press enter. and task created. you can set due dates, recurrent tasks, and priorities all in one shot.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+This may cause tasks to fail to be scheduled or created properly. If you encounter this issue, please open an issue in the repository.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;br /&gt;
