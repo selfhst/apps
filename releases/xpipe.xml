@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>XPipe Releases</title>
-  <updated>2025-01-16T04:34:43.547280-05:00</updated>
+  <updated>2025-01-16T05:34:24.947336-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -371,7 +371,8 @@
 &lt;h5&gt;Windows&lt;/h5&gt;
 &lt;p&gt;&lt;code&gt;powershell -ExecutionPolicy Bypass -Command iwr "https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.ps1" -OutFile "$env:TEMP\get-xpipe.ps1" ";"  "&amp;amp;" "$env:TEMP\get-xpipe.ps1" -XPipeVersion "14.0"&lt;/code&gt;&lt;/p&gt;
 &lt;h5&gt;Bash Script (Linux / MacOS)&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;bash &amp;lt;(curl -sL https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.sh) -v 14.0&lt;/code&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;code&gt;bash &amp;lt;(curl -sL https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.sh) -v 14.0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Banner" src="https://github.com/xpipe-io/.github/raw/main/img/banner.png" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/xpipe-io/xpipe/releases/tag/14.0" rel="alternate"/>
   </entry>
 </feed>
