@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>XPipe Releases</title>
-  <updated>2025-01-16T03:34:39.639138-05:00</updated>
+  <updated>2025-01-16T04:34:43.547280-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -371,19 +371,7 @@
 &lt;h5&gt;Windows&lt;/h5&gt;
 &lt;p&gt;&lt;code&gt;powershell -ExecutionPolicy Bypass -Command iwr "https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.ps1" -OutFile "$env:TEMP\get-xpipe.ps1" ";"  "&amp;amp;" "$env:TEMP\get-xpipe.ps1" -XPipeVersion "14.0"&lt;/code&gt;&lt;/p&gt;
 &lt;h5&gt;Bash Script (Linux / MacOS)&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;bash &amp;lt;(curl -sL https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.sh) -v 14.0&lt;/code&gt;&lt;/p&gt;
-&lt;h1&gt;VirusTotal Analysis&lt;/h1&gt;
-&lt;p&gt;Automated VirusTotal analysis of all artifacts:
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/ZmMwZDA2ZTM5ODBjNDMwOWQ5NjA4ZTcyMWE2OTc3MzA6MTczNzAxNDk4Mg==/detection"&gt;xpipe-installer-windows-x86_64.msi&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/ODYzOGYwNTUyZDAzOGVjYjEwYmEwNWUzMDdkNzhkN2Y6MTczNzAxNDk4Nw==/detection"&gt;xpipe-installer-macos-arm64.pkg&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/NTA2YjMwMjQ3YWY5MjlhMzkzNDA5MzRmMDU3OTc1ZDI6MTczNzAxNDk5MQ==/detection"&gt;xpipe-installer-macos-x86_64.pkg&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/MmExMzBlYjZmNzI1NjZlYWM2MzAyYzQ3Mzk0MGVlNjk6MTczNzAxNDk5NQ==/detection"&gt;xpipe-portable-macos-arm64.dmg&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/NzY5OTU0MjkxYTUzNTU0ZjUyYjI3MThiMWY3YzE2MjU6MTczNzAxNDk5OQ==/detection"&gt;xpipe-portable-macos-x86_64.dmg&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/ODRmZGE3YzgzZTc5Y2Y2YmUxODJhZWY2MTIyM2I4NDQ6MTczNzAxNTAwMw==/detection"&gt;xpipe-installer-linux-arm64.rpm&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/NDlmMjlhMzFlZmM3MDUyNTI2MzdhYjhjZTBhYjQ0NTE6MTczNzAxNTAwOA==/detection"&gt;xpipe-installer-linux-x86_64.rpm&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/Zjc5NWNmYTU3NmFhMzNlMGM1YWY2ZDExZjZhNjA5NWQ6MTczNzAxNTAxMg==/detection"&gt;xpipe-installer-linux-arm64.deb&lt;/a&gt;
-- &lt;a href="https://www.virustotal.com/gui/file-analysis/Mjc3OWM4MjRhMmVmYjRiZGMxZjNlMDJkMzlmZjE0N2E6MTczNzAxNTAxNw==/detection"&gt;xpipe-installer-linux-x86_64.deb&lt;/a&gt;
-- [xpipe-portable-linux-arm64.AppImage](https://www.virustotal.com/gui/file-analysis/ZDZjZDg2OWY0N2ZjNDJlNWZmMDljNzBlOGZhOTdkNDI6MTcz ...&lt;/p&gt;</content>
+&lt;p&gt;&lt;code&gt;bash &amp;lt;(curl -sL https://raw.githubusercontent.com/xpipe-io/xpipe/master/get-xpipe.sh) -v 14.0&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/xpipe-io/xpipe/releases/tag/14.0" rel="alternate"/>
   </entry>
 </feed>
