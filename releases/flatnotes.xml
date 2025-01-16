@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Flatnotes Releases</title>
-  <updated>2025-01-16T08:34:15.403606-05:00</updated>
+  <updated>2025-01-16T09:34:25.926272-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,6 +101,7 @@
 &lt;ul&gt;
 &lt;li&gt;Hyphens are now supported in tags, e.g. &lt;code&gt;#tag-with-hyphen&lt;/code&gt; 🎉. Thanks @ChristianAvila! #77&lt;/li&gt;
 &lt;li&gt;2 new keyboard shortcuts have been added. &lt;code&gt;CTRL/CMD+SHIFT+N&lt;/code&gt; to create a new note and &lt;code&gt;CTRL/CMD+SHIFT+H&lt;/code&gt; to go to the home page. #241&lt;/li&gt;
+&lt;li&gt;🚨Note: Sadly, due to an issue on Chrome, these shortcuts may need to change.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;🪲 Bug Fixes:&lt;/p&gt;
 &lt;ul&gt;

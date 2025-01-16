@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2025-01-16T08:30:49.680206-05:00</updated>
+  <updated>2025-01-16T09:30:51.537512-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,10 +117,12 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Note&lt;/h2&gt;
+    <content>&lt;p&gt;This release adds &lt;a href="https://gohugo.io/functions/go-template/try/"&gt;try&lt;/a&gt;, a new general mechanism for handling errors within templates, a new &lt;a href="https://gohugo.io/functions/images/mask/"&gt;images.Mask&lt;/a&gt; image filter, a new &lt;a href="https://gohugo.io/functions/images/qr/"&gt;images.QR&lt;/a&gt;  function, a new &lt;code&gt;alignx&lt;/code&gt; option to control horizontal alignment in &lt;a href="https://gohugo.io/functions/images/text/"&gt;images.Text&lt;/a&gt;, and more.&lt;/p&gt;
+&lt;h2&gt;Note&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Adjust error handling in ToMath vs try  (note) dde9d9d54 @bep #13239 &lt;/li&gt;
 &lt;li&gt;resources: Replace error handling in GetRemote with try (note) 0918e087e @bep #13216 &lt;/li&gt;
+&lt;li&gt;For render hooks, only fallback to HTML (or the defaultOutputFormat) template 76993369a @bep #13242 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -137,7 +139,6 @@
 &lt;li&gt;tpl/tplimpl: Deprecate twitter shortcode in favor of x shortcode 1191467c0 @jmooring #13214 &lt;/li&gt;
 &lt;li&gt;commands: Set up the glboal logger early 41137077b @bep #13265 &lt;/li&gt;
 &lt;li&gt;commands: Add --printZero to the config command 5bb156457 @bep &lt;/li&gt;
-&lt;li&gt;For render hooks, only fallback to HTML (or the defaultOutputFormat) template 76993369a @bep #13242 &lt;/li&gt;
 &lt;li&gt;tpl/collections: Use MapRange/SetIterKey/SetIterValue for Where, Sort and Merge de7137cc3 @bep &lt;/li&gt;
 &lt;li&gt;tpl/collections: Add BenchmarkWhereMap 956f915f7 @bep &lt;/li&gt;
 &lt;li&gt;tpl/collections: Add BenchmarkSortMap a2a4166f6 @bep &lt;/li&gt;
