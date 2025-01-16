@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Auth Releases</title>
-  <updated>2025-01-16T00:32:58.857372-05:00</updated>
+  <updated>2025-01-16T01:32:56.973190-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,7 +121,11 @@
     <author>
       <name>ente-io/ente</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;[auth] Potential fix for segfault on Linux due to bad window size by @ua741 in https://github.com/ente-io/ente/pull/4731&lt;/li&gt;
+&lt;li&gt;[auth] Fix manual code setup by @ua741 in https://github.com/ente-io/ente/pull/4738&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/auth-v4.2.7...auth-v4.2.8&lt;/p&gt;</content>
     <link href="https://github.com/ente-io/ente/releases/tag/auth-v4.2.8" rel="alternate"/>
   </entry>
 </feed>
