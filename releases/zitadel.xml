@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-01-17T08:32:54.206892-05:00</updated>
+  <updated>2025-01-17T09:33:01.041558-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,6 +80,8 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.67.2...v2.67.3"&gt;2.67.3&lt;/a&gt; (2025-01-17)&lt;/h2&gt;
+&lt;h3&gt;Warning for cockroachdb users&lt;/h3&gt;
+&lt;p&gt;Please skip this release as we &lt;a href="https://github.com/zitadel/zitadel/pull/9201"&gt;discovered a bug in the push function&lt;/a&gt; which would insert events at the wrong position.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;cancel notifications on missing channels and configurable (twilio) error codes (&lt;a href="https://github.com/zitadel/zitadel/issues/9185"&gt;#9185&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/96380b977ac2ba69a7481f791c231790d8d964ab"&gt;96380b9&lt;/a&gt;)&lt;/li&gt;
