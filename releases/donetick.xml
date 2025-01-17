@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-01-17T16:34:36.807164-05:00</updated>
+  <updated>2025-01-17T17:34:33.023757-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,7 +138,8 @@ This may cause tasks to fail to be scheduled or created properly. If you encount
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;p&gt;this should be a minor release just some fixes and enable description( 
 * include a few bug fixes for the frontend.
-* 9296d6e1b86f3dfa5d9955ee9f0351b43c511a75 Add description field to ChoreDetail model and repository methods&lt;/p&gt;</content>
+* 9296d6e1b86f3dfa5d9955ee9f0351b43c511a75 Add description field to ChoreDetail model and repository methods
+* New Andriod app release!&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.28" rel="alternate"/>
   </entry>
 </feed>

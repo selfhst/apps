@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maybe Releases</title>
-  <updated>2025-01-17T16:31:05.390264-05:00</updated>
+  <updated>2025-01-17T17:31:03.999151-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,5 +119,44 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/maybe-finance/maybe/releases/tag/v0.3.0</id>
+    <title>New release for Maybe: v0.3.0</title>
+    <updated>2025-01-17T17:05:19-05:00</updated>
+    <author>
+      <name>maybe-finance/maybe</name>
+    </author>
+    <content>&lt;h2&gt;Budgeting is here!&lt;/h2&gt;
+&lt;p&gt;A long awaited feature, Maybe now supports budgeting!  We believe budgeting should be easy and simple.  Categorize your transactions, mark transfers, one-time expenses, and get a clear breakdown of where your money is going each month.&lt;/p&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/4dcf3f66-7b26-42e7-9c6b-48df7e19a798&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add account data enrichment by @zachgoll in https://github.com/maybe-finance/maybe/pull/1532&lt;/li&gt;
+&lt;li&gt;Handle nil name for entries by @zachgoll in https://github.com/maybe-finance/maybe/pull/1550&lt;/li&gt;
+&lt;li&gt;Fix date format validation error by @zachgoll in https://github.com/maybe-finance/maybe/pull/1551&lt;/li&gt;
+&lt;li&gt;Make transaction enrichment opt-in for all users by @zachgoll in https://github.com/maybe-finance/maybe/pull/1552&lt;/li&gt;
+&lt;li&gt;Preserve original transaction names when enriching by @zachgoll in https://github.com/maybe-finance/maybe/pull/1556&lt;/li&gt;
+&lt;li&gt;Preserve pagination on entry updates by @zachgoll in https://github.com/maybe-finance/maybe/pull/1563&lt;/li&gt;
+&lt;li&gt;Nested Categories by @zachgoll in https://github.com/maybe-finance/maybe/pull/1561&lt;/li&gt;
+&lt;li&gt;Save error backtrace for sync errors for better debugging by @tonyvince in https://github.com/maybe-finance/maybe/pull/1578&lt;/li&gt;
+&lt;li&gt;fix: Bug | creating duplicate category leads to crash screen by @tonyvince in https://github.com/maybe-finance/maybe/pull/1577&lt;/li&gt;
+&lt;li&gt;Fix unknown attribute 'parent_category' for Category in demo generator by @akabiru in https://github.com/maybe-finance/maybe/pull/1575&lt;/li&gt;
+&lt;li&gt;Fix: breaking change after bumping hotwire-livereload to 2.0.0 by @tonyvince in https://github.com/maybe-finance/maybe/pull/1589&lt;/li&gt;
+&lt;li&gt;Transfer and Payment auto-matching, model and UI improvements by @zachgoll in https://github.com/maybe-finance/maybe/pull/1585&lt;/li&gt;
+&lt;li&gt;Budgeting V1 by @zachgoll in https://github.com/maybe-finance/maybe/pull/1609&lt;/li&gt;
+&lt;li&gt;Fix transfer matching logic by @zachgoll in https://github.com/maybe-finance/maybe/pull/1625&lt;/li&gt;
+&lt;li&gt;Fix budget money formatting by @zachgoll in https://github.com/maybe-finance/maybe/pull/1626&lt;/li&gt;
+&lt;li&gt;Update snapshot_account_transactions to only give transactions by filtering on entryable_type by @Repsay in https://github.com/maybe-finance/maybe/pull/1629&lt;/li&gt;
+&lt;li&gt;FIX: correct display of percentages by @MrTob in https://github.com/maybe-finance/maybe/pull/1622&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@akabiru made their first contribution in https://github.com/maybe-finance/maybe/pull/1575&lt;/li&gt;
+&lt;li&gt;@Repsay made their first contribution in https://github.com/maybe-finance/maybe/pull/1629&lt;/li&gt;
+&lt;li&gt;@MrTob made their first contribution in https://github.com/maybe-finance/maybe/pull/1622&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
