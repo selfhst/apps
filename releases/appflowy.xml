@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-01-17T02:32:30.984933-05:00</updated>
+  <updated>2025-01-17T03:32:18.410291-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,6 +131,7 @@
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;Version 0.8.1 - 14/01/2025&lt;/h2&gt;
+&lt;p&gt;&lt;img width="1665" alt="image" src="https://github.com/user-attachments/assets/fc845fd8-9403-46a8-8707-929a79633be1" /&gt;&lt;/p&gt;
 &lt;h3&gt;New Features:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;AI Chat Layout Options: Customize how AI responses appear with new layouts—List, Table, Image with Text, and Media Only&lt;/li&gt;

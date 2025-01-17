@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Checkmate Releases</title>
-  <updated>2025-01-17T02:34:58.703102-05:00</updated>
+  <updated>2025-01-17T03:34:41.255245-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Checkmate: v1.0.0 Initial Release</title>
     <updated>2024-09-24T02:20:15-04:00</updated>
     <author>
-      <name>bluewave-labs/checkmate</name>
+      <name>bluewave-labs/Checkmate</name>
     </author>
     <content>&lt;p&gt;This is the initial release of Uptime Monitor with core features implemented.&lt;/p&gt;
 &lt;p&gt;Thanks to the maintainers of this project @veyselboybay, @Skorpios604, @danielcj2, and @MuhammadKhalilzadeh for making this project possible and a special thanks to our facilitator and coordinator @gorkem-bwl.&lt;/p&gt;
@@ -93,7 +93,7 @@
     <title>New release for Checkmate: v1.1.0</title>
     <updated>2024-10-10T22:21:41-04:00</updated>
     <author>
-      <name>bluewave-labs/checkmate</name>
+      <name>bluewave-labs/Checkmate</name>
     </author>
     <content>&lt;h2&gt;What's in V1.1.0&lt;/h2&gt;
 &lt;h3&gt;Major Features&lt;/h3&gt;
@@ -119,7 +119,7 @@
     <title>New release for Checkmate: V2.0</title>
     <updated>2024-12-04T22:07:11-05:00</updated>
     <author>
-      <name>bluewave-labs/checkmate</name>
+      <name>bluewave-labs/Checkmate</name>
     </author>
     <content>&lt;h2&gt;Checkmate 2.0&lt;/h2&gt;
 &lt;p&gt;With the introduction of Infrastructure Monitoring, you can now monitor key details like CPU usage, memory, temperate and disk performance, and set alerts to catch issues before they become problems. We've added Docker container monitoring to help you track your containers more easily. This version also comes with better stability and bug fixes as well.&lt;/p&gt;
@@ -293,7 +293,7 @@
     <title>New release for Checkmate: V2.0.1</title>
     <updated>2024-12-23T19:03:23-05:00</updated>
     <author>
-      <name>bluewave-labs/checkmate</name>
+      <name>bluewave-labs/Checkmate</name>
     </author>
     <content>&lt;h2&gt;Checkmate 2.0.1&lt;/h2&gt;
 &lt;p&gt;This release mainly implements UI fixes.  There are some minor bug fixes and refactoring included in this release as well.&lt;/p&gt;
