@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-01-17T22:31:24.616353-05:00</updated>
+  <updated>2025-01-17T23:31:24.419514-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -399,7 +399,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/a6297dbaa6982ca21c8c6847419a3d267dfea7d5"&gt;a6297dba&lt;/a&gt; - Allow setting calories burnt for workouts (#1179)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/da5a280165b812eaeeade3acd8370ca9839af5fa"&gt;da5a2801&lt;/a&gt; - Support for Hardcover integration (#1185)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/a4bb9e510374ff25ce71c0413ac87d71d60e03f2"&gt;a4bb9e51&lt;/a&gt; - Youtube music integration (#1154)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/a4bb9e510374ff25ce71c0413ac87d71d60e03f2"&gt;a4bb9e51&lt;/a&gt; - Youtube music integration (#1154) [PLEASE DO NOT USE, IT HAS A BUG #1186]&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/8b9538ed6ba8bf3f38ada2836c0366233b6ca49b"&gt;8b9538ed&lt;/a&gt; - docs: improve contribution guide (#1180)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/IgnisDa/ryot/releases/tag/v7.16.0" rel="alternate"/>
