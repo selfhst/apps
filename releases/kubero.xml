@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kubero Releases</title>
-  <updated>2025-01-18T09:34:42.972507-05:00</updated>
+  <updated>2025-01-18T10:34:41.572533-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,9 +94,6 @@
 🎨 Template / Add ChartDB by @mms-gianni in https://github.com/kubero-dev/kubero/pull/479
 🌟 Feature / Migrate to singlefile templates by @mms-gianni in https://github.com/kubero-dev/kubero/pull/477
 🌟 Feature / Add kubero operator Version and debug modal by @mms-gianni in https://github.com/kubero-dev/kubero/pull/441
-🌟 Feature / Add field for command when deploying container images by @mms-gianni in https://github.com/kubero-dev/kubero/pull/470
-🌟 Feature / Use singlefile templates by @mms-gianni in https://github.com/kubero-dev/kubero/pull/481
-🌟 Feature / add kubero operator Version and debug modal by @mms-gianni in https://github.com/kubero-dev/kubero/pull/441
 🌟 Feature / Add field for command when deploying container images by @mms-gianni in https://github.com/kubero-dev/kubero/pull/470
 🪳 Fix /  Fix race condition in app form by @mms-gianni in https://github.com/kubero-dev/kubero/pull/473
 🪳 Fix /  Fx build permissions by @mms-gianni in https://github.com/kubero-dev/kubero/pull/485&lt;/p&gt;
