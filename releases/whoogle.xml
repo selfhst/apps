@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Whoogle Releases</title>
-  <updated>2025-01-19T15:31:37.627745-05:00</updated>
+  <updated>2025-01-19T16:31:40.376929-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,7 +169,7 @@
   <entry>
     <id>https://github.com/benbusby/whoogle-search/releases/tag/v0.9.2</id>
     <title>New release for Whoogle: v0.9.2</title>
-    <updated>2025-01-19T15:30:22-05:00</updated>
+    <updated>2025-01-19T16:19:16-05:00</updated>
     <author>
       <name>benbusby/whoogle-search</name>
     </author>
@@ -177,6 +177,7 @@
 &lt;p&gt;[!IMPORTANT]&lt;/p&gt;
 &lt;p&gt;Recently, Google has been making changes the prevent the access of JavaScript-free search results. This is a fundamental part of how Whoogle works -- Whoogle requests the JavaScript-free search results, then filters out garbage from the results page and proxies all external content for the user.&lt;/p&gt;
 &lt;p&gt;This release includes the workaround introduced in 6f1e1e6847640c611e9fe21e123d4f63e4c56aa6 and made more configurable in 389c0a4d8dc52c0cced397da56eb60e65d8eb109&lt;/p&gt;
+&lt;p&gt;Until then, please be aware that layout styling may be broken as a result of the user agent changes (which alter the formatting of the returned results). A solution to this will be investigated if the user agent solution is found to be more permanent.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Community Contributions&lt;/h2&gt;
 &lt;ul&gt;
