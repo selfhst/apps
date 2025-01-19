@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Infuse Releases</title>
-  <updated>2025-01-19T01:33:31.410919-05:00</updated>
+  <updated>2025-01-19T02:33:28.011416-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,15 +120,29 @@
 &lt;li&gt;removed unused components (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/59fb16bc21b1c7d6fbbb65b91d901c179e1aa05e"&gt;59fb16b&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
+&lt;h5&gt;Shared Links&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;added option for link expiry (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/d5c6f0ac2907e6a26e467346a4aa2838d68da161"&gt;d5c6f0a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;people selection in share link (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/1fea9ccaeec464efe7c643f2d376c09093708c39"&gt;1fea9cc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;shared album links (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/34f32e49069828ec4c7ca8595636cde9daf87421"&gt;34f32e4&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For using shared links you need to setup two things.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;IMMICH_SHARE_LINK_KEY&lt;/code&gt;: A new API key to be created and added to your ENV for fetching images as a public user.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;POWER_TOOLS_ENDPOINT_URL&lt;/code&gt; : Now Immich Power Tools can work like proxy for your immich instance when using shared links. So inorder to show the domain of the shared links you need to set this env. This should point to the public hostname of your power tools.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;JWT_SECRET&lt;/code&gt; : Also a JWT Secret to encode the filters applied to shared links and also validate the expiry. If you already have it for old authentication method, it can be reused.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other Features&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;added proper validations for errors with messages (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/9fcda54e4fbc81b407d1246e647aca5fb5f71afc"&gt;9fcda54&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;bulk delete in find page and find page clean up (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/2150aca1545cc2bbca028ca3658ce715d985c875"&gt;2150aca&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;option to delete assets from missing locations page (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/098701b828644d42af2592aca41bd2dae85f1f19"&gt;098701b&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;people search added (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/29f80b8cd981f430bb4ffa6edd94fff2dce3cfdd"&gt;29f80b8&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;people selection in share link (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/1fea9ccaeec464efe7c643f2d376c09093708c39"&gt;1fea9cc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;shared album links (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/34f32e49069828ec4c7ca8595636cde9daf87421"&gt;34f32e4&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;unified album creation and option to delete assets from potential albums (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/72dcb928efeb5b9da58761ceec75cae03eb79ea2"&gt;72dcb92&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;people search added (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/29f80b8cd981f430bb4ffa6edd94fff2dce3cfdd"&gt;29f80b8&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;unified album creation and option to delete assets from potential albums (&lt;a href="https://github.com/varun-raj/immich-power-tools/commit/72dcb928efeb5b9da58761ceec75cae03eb79ea2"&gt;72dcb92&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/varun-raj/immich-power-tools/releases/tag/v0.13.0" rel="alternate"/>
   </entry>
