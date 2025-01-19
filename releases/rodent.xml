@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rodent Releases</title>
-  <updated>2025-01-19T16:33:48.625635-05:00</updated>
+  <updated>2025-01-19T17:33:52.915183-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,5 +54,24 @@
 &lt;li&gt;Design Fixes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/daniebeler/pixelix/releases/tag/v3.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/daniebeler/pixelix/releases/tag/v3.2.1</id>
+    <title>New release for Pixelix: Pixelix v3.2.1</title>
+    <updated>2025-01-19T16:44:02-05:00</updated>
+    <author>
+      <name>daniebeler/pixelix</name>
+    </author>
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug Fixes&lt;/li&gt;
+&lt;li&gt;Infinite loading collections&lt;/li&gt;
+&lt;li&gt;Add editing title of collections&lt;/li&gt;
+&lt;li&gt;Fix wrong aspect ratio of posts&lt;/li&gt;
+&lt;li&gt;Add return to top button&lt;/li&gt;
+&lt;li&gt;Improving notifications&lt;/li&gt;
+&lt;li&gt;Animate like and boost icon&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/daniebeler/pixelix/releases/tag/v3.2.1" rel="alternate"/>
   </entry>
 </feed>
