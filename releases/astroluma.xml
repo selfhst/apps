@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Astroluma Releases</title>
-  <updated>2025-01-20T14:34:47.938368-05:00</updated>
+  <updated>2025-01-20T15:34:52.760610-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,5 +44,84 @@
 &lt;li&gt;Added sections for credits, FAQs, screenshots, icon packs, and contact information.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Sanjeet990/Astroluma/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sanjeet990/Astroluma/releases/tag/v1.0.2</id>
+    <title>New release for Astroluma: Astroluma v1.0.2</title>
+    <updated>2025-01-20T14:36:52-05:00</updated>
+    <author>
+      <name>Sanjeet990/Astroluma</name>
+    </author>
+    <content>&lt;h1&gt;Changelog for Astroluma v1.0.2&lt;/h1&gt;
+&lt;h2&gt;Enhancements and Fixes:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Error Reporting:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved segregation between credential errors and database errors.&lt;/li&gt;
+&lt;li&gt;Database errors are now reported accurately, ensuring better troubleshooting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Authenticator Drawer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated for smoother transitions and improved user interaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dashboard Reliability:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed issues where the dashboard occasionally displayed outdated or no data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Themes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added 2 new light themes: Titan and Europa.&lt;/li&gt;
+&lt;li&gt;Introduced 1 new dark theme: Nebula.&lt;/li&gt;
+&lt;li&gt;Minor modifications in other themes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;User Interface:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Various UI fixes for improved usability and visual consistency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;New Features&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Migration Scripts:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Introduced support for proper migration scripts to simplify future updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Application Integration:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major overhaul of the application integration section:&lt;/li&gt;
+&lt;li&gt;Configure integrations on a per-tile basis for better flexibility.&lt;/li&gt;
+&lt;li&gt;Standardized integrations for consistency across apps.&lt;/li&gt;
+&lt;li&gt;Enhanced error reporting for app integrations.&lt;/li&gt;
+&lt;li&gt;Downloadable App Integrations: Install integrations directly from a ZIP file.&lt;/li&gt;
+&lt;li&gt;Now supports 17 apps for seamless integration:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Complete List of Supported Integrations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bazarr&lt;/li&gt;
+&lt;li&gt;FileBrowser&lt;/li&gt;
+&lt;li&gt;FreshRSS&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;li&gt;HTML Code&lt;/li&gt;
+&lt;li&gt;Heimdall&lt;/li&gt;
+&lt;li&gt;Immich&lt;/li&gt;
+&lt;li&gt;Linkace&lt;/li&gt;
+&lt;li&gt;NextCloud&lt;/li&gt;
+&lt;li&gt;Nginx Proxy Manager&lt;/li&gt;
+&lt;li&gt;Portainer&lt;/li&gt;
+&lt;li&gt;Proxmox&lt;/li&gt;
+&lt;li&gt;Sonarr&lt;/li&gt;
+&lt;li&gt;Speed Test Tracker&lt;/li&gt;
+&lt;li&gt;TrueNAS Scale (Core untested)&lt;/li&gt;
+&lt;li&gt;Uptime Kuma&lt;/li&gt;
+&lt;li&gt;YouTube&lt;/li&gt;
+&lt;li&gt;User Customization:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Users can now change their avatar to personalize their profile.&lt;/h2&gt;
+&lt;p&gt;Added the ability to change the default site icon for branding purposes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Debranding Option:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A new debranding feature lets users remove the "Powered by Astroluma" text for a cleaner appearance.&lt;/p&gt;
+&lt;h1&gt;Important Updates for Docker Users&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;New Volume Mounts:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Two new volumes are required:
+One for icons upload.
+Another for apps storage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Network Scanner:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Introduced a new environment variable:
+HOST_MODE=true which enables the Network Scanner functionality.&lt;/p&gt;</content>
+    <link href="https://github.com/Sanjeet990/Astroluma/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
