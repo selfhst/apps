@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-01-19T18:34:06.595638-05:00</updated>
+  <updated>2025-01-19T19:34:10.913425-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,7 +118,11 @@
       <name>evcc-io/evcc</name>
     </author>
     <content>&lt;h2&gt;Breaking Changes&lt;/h2&gt;
-&lt;p&gt;Tesla requires new Tokens. See https://docs.evcc.io/docs/devices/vehicles#tesla and https://github.com/evcc-io/evcc/discussions/17501.&lt;/p&gt;
+&lt;p&gt;Tesla requires a Tesla developer account and generation of new tokens.
+Read more in this blog post:&lt;/p&gt;
+&lt;p&gt;🇩🇪 https://docs.evcc.io/blog/2025/01/20/tesla-api-update
+🇬🇧 https://docs.evcc.io/en/blog/2025/01/20/tesla-api-update&lt;/p&gt;
+&lt;p&gt;Also check the updated &lt;a href="https://docs.evcc.io/docs/devices/vehicles#tesla"&gt;docs&lt;/a&gt; and our &lt;a href="https://github.com/evcc-io/evcc/discussions/17501"&gt;discussions&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;9dcb1fa0a7c08dd926b79309aa1f676a5fc6c8aa Align grid measurements structure with pv and battery (BC) (#18063)&lt;/li&gt;
