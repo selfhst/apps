@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Subscription Manager Releases</title>
-  <updated>2025-01-19T22:34:02.515749-05:00</updated>
+  <updated>2025-01-19T23:34:16.980829-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,26 @@
 &lt;li&gt;&lt;strong&gt;Subscription Update Issue&lt;/strong&gt;: Fixed a bug where some subscription does not update correctly.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dh1011/subscription-manager/releases/tag/1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dh1011/subscription-manager/releases/tag/2.0.0</id>
+    <title>New release for Subscription Manager: Subscription Manager v2.0.0</title>
+    <updated>2025-01-19T22:35:53-05:00</updated>
+    <author>
+      <name>dh1011/subscription-manager</name>
+    </author>
+    <content>&lt;h3&gt;Docker Image&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hub.docker.com/repository/docker/dh1011/subscription-manager-frontend"&gt;dh1011/subscription-manager-frontend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hub.docker.com/repository/docker/dh1011/subscription-manager-backend"&gt;dh1011/subscription-manager-backend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Replace &lt;strong&gt;ExpressJS&lt;/strong&gt; with &lt;strong&gt;FastAPI&lt;/strong&gt; and separate the frontend and backend into two distinct images.  &lt;/li&gt;
+&lt;li&gt;Add a new logo.  &lt;/li&gt;
+&lt;li&gt;Improve the Dockerfiles and Docker Compose setup; ensure the database persists.  &lt;/li&gt;
+&lt;li&gt;Add support for exporting and importing subscriptions.  &lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dh1011/subscription-manager/releases/tag/2.0.0" rel="alternate"/>
   </entry>
 </feed>
