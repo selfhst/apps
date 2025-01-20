@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Crafty Controller Releases</title>
-  <updated>2025-01-20T08:34:55.471436-05:00</updated>
+  <updated>2025-01-20T09:34:55.285254-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,6 +68,7 @@
       <name>crafty-controller/crafty-4</name>
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;NOTE Version effected by non-root docker issue if you installed from this version see &lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/issues/521#:~:text=Users%20deploying%20after%204.4.4"&gt;RCA document&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;--- [4.4.5] - 2024/01/19&lt;/h2&gt;
 &lt;h3&gt;Refactor&lt;/h3&gt;
 &lt;ul&gt;
@@ -107,6 +108,7 @@
       <name>crafty-controller/crafty-4</name>
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;NOTE Version effected by non-root docker issue if you installed from this version see &lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/issues/521#:~:text=Users%20deploying%20after%204.4.4"&gt;RCA document&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;--- [4.4.6] - 2024/01/20&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
