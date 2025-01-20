@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-01-20T10:34:25.362399-05:00</updated>
+  <updated>2025-01-20T11:34:23.877683-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,14 +118,15 @@
       <name>evcc-io/evcc</name>
     </author>
     <content>&lt;h2&gt;Breaking Changes&lt;/h2&gt;
-&lt;p&gt;Tesla requires a Tesla developer account and generation of new tokens.
-Read more in this blog post:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tesla requires a Tesla developer account and generation of new tokens. Read more in this blog post:&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;🇩🇪 https://docs.evcc.io/blog/2025/01/20/tesla-api-update
-🇬🇧 https://docs.evcc.io/en/blog/2025/01/20/tesla-api-update&lt;/p&gt;
-&lt;p&gt;Also check the updated &lt;a href="https://docs.evcc.io/docs/devices/vehicles#tesla"&gt;docs&lt;/a&gt; and our &lt;a href="https://github.com/evcc-io/evcc/discussions/17501"&gt;discussions&lt;/a&gt;.&lt;/p&gt;
+  🇬🇧 https://docs.evcc.io/en/blog/2025/01/20/tesla-api-update&lt;/p&gt;
+&lt;p&gt;Also check the updated &lt;a href="https://docs.evcc.io/docs/devices/vehicles#tesla"&gt;docs&lt;/a&gt; and our &lt;a href="https://github.com/evcc-io/evcc/discussions/17501"&gt;discussions&lt;/a&gt;.
+* 9dcb1fa0a7c08dd926b79309aa1f676a5fc6c8aa Align grid measurements structure with pv and battery (BC) (#18063)&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;9dcb1fa0a7c08dd926b79309aa1f676a5fc6c8aa Align grid measurements structure with pv and battery (BC) (#18063)&lt;/li&gt;
 &lt;li&gt;2cebf2071128c0066656874d06e695e19541a41c Amber: revert to fetch every minute, as the prices change frequently (#18127)&lt;/li&gt;
 &lt;li&gt;6cdd84453b9f72aa5f48004ab121030c14fc7914 Config UI: unify configured state handling (#18237)&lt;/li&gt;
 &lt;li&gt;4acb4ccfcae50d326b927740e567003d95b76ba2 Enphase: fix multiphase currents (#18200)&lt;/li&gt;
