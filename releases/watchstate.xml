@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-01-21T05:34:43.721877-05:00</updated>
+  <updated>2025-01-21T06:34:45.935963-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -486,5 +486,32 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...master-20250120-254c4e9&lt;/p&gt;</content>
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250120-254c4e9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250121-c50c9be</id>
+    <title>New release for WatchState: master-20250121-c50c9be</title>
+    <updated>2025-01-21T06:28:25-05:00</updated>
+    <author>
+      <name>arabcoders/watchstate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;c50c9be Merge pull request #584 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
+&lt;li&gt;624ebb1 more changes to support multi-user sync by ArabCoders&lt;/li&gt;
+&lt;li&gt;3caa5dc Clarify the SyncCommand limitation by ArabCoders&lt;/li&gt;
+&lt;li&gt;2ab88ca Clarify the SyncCommand limitation by ArabCoders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix release title. by @arabcoders in https://github.com/arabcoders/watchstate/pull/577&lt;/li&gt;
+&lt;li&gt;re-enable dev builds by @arabcoders in https://github.com/arabcoders/watchstate/pull/578&lt;/li&gt;
+&lt;li&gt;fix permissions by @arabcoders in https://github.com/arabcoders/watchstate/pull/579&lt;/li&gt;
+&lt;li&gt;make build work on manual dispatch as well by @arabcoders in https://github.com/arabcoders/watchstate/pull/580&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/581&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/582&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/583&lt;/li&gt;
+&lt;li&gt;Support per user mapper and database. by @arabcoders in https://github.com/arabcoders/watchstate/pull/584&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...master-20250121-c50c9be&lt;/p&gt;</content>
+    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250121-c50c9be" rel="alternate"/>
   </entry>
 </feed>

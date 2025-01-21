@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-21T05:32:46.526025-05:00</updated>
+  <updated>2025-01-21T06:32:49.822901-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -46,29 +46,38 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;New&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Resource Override Importer, enabling import of configuration from Resource Override.&lt;/li&gt;
-&lt;li&gt;Markdown support added for collection overview tab.&lt;/li&gt;
-&lt;li&gt;Autocompletion of variables added.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Resource Override Chrome Extension Importer&lt;/strong&gt;
+    Introduced the ability to import configurations directly from Resource Override Chrome Extension, making it easier to transition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Support in Collections Overview&lt;/strong&gt;
+    Added Markdown support for the Collection Overview tab, enabling users to format descriptions, notes, and documentation within collections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Variables Autocompletion in API Client Requests&lt;/strong&gt;
+    Implemented autocompletion for variables, improving speed and accuracy when working with dynamic data in requests.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Deep links in API Client tabs.&lt;/li&gt;
-&lt;li&gt;Sort Collections Alphabetically for easier accessibility.&lt;/li&gt;
-&lt;li&gt;API Client history screen shows a message that API client history is stored in local storage.&lt;/li&gt;
-&lt;li&gt;Collections are collapsed by default when imported&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Tabs and cursor positions are now preserved when switching between API Client tabs, whereas previously, switching back to a tab would default to the query parameters view.&lt;/li&gt;
+&lt;li&gt;Collections are now sorted alphabetically, improving readability and ensuring easy accessibility.&lt;/li&gt;
+&lt;li&gt;The API Client history screen now clearly informs users that history data is stored in local storage, with a message displayed at the top.&lt;/li&gt;
+&lt;li&gt;Collections are now collapsed by default upon import, improving readability and reducing visual clutter compared to the previous behavior where all collections were expanded.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Handled unsaved changes of environment variables lost upon opening the importer modal.&lt;/li&gt;
-&lt;li&gt;Codemirror Cursor bug fixed [when typing fast cursor sets at the beginning of editor]&lt;/li&gt;
-&lt;li&gt;Request Body &amp;amp; Response Body are loaded prettified by default in API Client.&lt;/li&gt;
-&lt;li&gt;Secret values in auto-complete dropdown of API Client are hidden now.&lt;/li&gt;
-&lt;li&gt;Inconsistency of tabs switching in API Client.&lt;/li&gt;
-&lt;li&gt;Unsaved changes of the request get lost on duplicating it.&lt;/li&gt;
-&lt;li&gt;Query params are now saved in history.&lt;/li&gt;
-&lt;li&gt;API client - Current values get cleared out on switching workspace&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;ol&gt;
+&lt;li&gt;Resolved an issue where unsaved changes to environment variables were lost when opening the importer modal.&lt;/li&gt;
+&lt;li&gt;Fixed a bug in Codemirror where the cursor jumped to the beginning of the editor when typing rapidly, improving text editing functionality.&lt;/li&gt;
+&lt;li&gt;Request and Response bodies in the API Client now load prettified by default, enhancing readability.&lt;/li&gt;
+&lt;li&gt;Secret values are no longer visible in the autocomplete dropdown of the API Client.&lt;/li&gt;
+&lt;li&gt;Resolved an issue where tabs would display data from a different request when switching.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where unsaved changes to a request were lost upon duplicating it.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where query parameters were lost when a request was loaded from history.&lt;/li&gt;
+&lt;li&gt;Addressed an issue where current values of API Client variables were cleared upon switching workspaces.&lt;/li&gt;
+&lt;/ol&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.21" rel="alternate"/>
   </entry>
 </feed>
