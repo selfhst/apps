@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-21T06:32:49.822901-05:00</updated>
+  <updated>2025-01-21T07:33:33.636958-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,7 +45,7 @@
       <name>requestly/requestly</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;New&lt;/h3&gt;
+&lt;h3&gt;✨ New&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Resource Override Chrome Extension Importer&lt;/strong&gt;
@@ -60,14 +60,14 @@
     Implemented autocompletion for variables, improving speed and accuracy when working with dynamic data in requests.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Improvements&lt;/h3&gt;
+&lt;h3&gt;💎 Improvements&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Tabs and cursor positions are now preserved when switching between API Client tabs, whereas previously, switching back to a tab would default to the query parameters view.&lt;/li&gt;
 &lt;li&gt;Collections are now sorted alphabetically, improving readability and ensuring easy accessibility.&lt;/li&gt;
 &lt;li&gt;The API Client history screen now clearly informs users that history data is stored in local storage, with a message displayed at the top.&lt;/li&gt;
 &lt;li&gt;Collections are now collapsed by default upon import, improving readability and reducing visual clutter compared to the previous behavior where all collections were expanded.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;h3&gt;🐞 Fixes&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Resolved an issue where unsaved changes to environment variables were lost when opening the importer modal.&lt;/li&gt;
 &lt;li&gt;Fixed a bug in Codemirror where the cursor jumped to the beginning of the editor when typing rapidly, improving text editing functionality.&lt;/li&gt;
