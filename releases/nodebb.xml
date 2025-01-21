@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-01-20T18:33:16.346206-05:00</updated>
+  <updated>2025-01-20T19:33:13.973048-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,89 +150,6 @@
 &lt;ul&gt;
 &lt;li&gt;add new &lt;code&gt;escape&lt;/code&gt; option to getPostSummaryByPids [breaking] (16c8a652)&lt;/li&gt;
 &lt;li&gt;core html stripping on plaintext, remove 'filter:teasers.configureStripTags' hook, remove html stripping from teaser generation (c01f1549)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.error (e53b3737)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.aria (d04bdd9d)&lt;/li&gt;
-&lt;li&gt;update changelog for v3.12.4 (e7e682ed)&lt;/li&gt;
-&lt;li&gt;bump persona (3e08eb39)&lt;/li&gt;
-&lt;li&gt;bump markdown, harmony, and persona to new major versions (499df8ab)&lt;/li&gt;
-&lt;li&gt;remove now-unneeded v4 upgrade scripts (487e7be5)&lt;/li&gt;
-&lt;li&gt;add type to webpack config file (#12072) (d79dfd03)&lt;/li&gt;
-&lt;li&gt;rc4 (aa1f65e9)&lt;/li&gt;
-&lt;li&gt;bump harmony for #12938 (8ec388af)&lt;/li&gt;
-&lt;li&gt;rc3 (754ef9b2)&lt;/li&gt;
-&lt;li&gt;upgrade script to fix outdated slugs for users with periods in their usernames (d1c27b4d)&lt;/li&gt;
-&lt;li&gt;bump to rc.2 (e2b653b0)&lt;/li&gt;
-&lt;li&gt;bump version to rc.1 (5aab151e)&lt;/li&gt;
-&lt;li&gt;up persona (b25aa336)&lt;/li&gt;
-&lt;li&gt;beta.4 (c1079356)&lt;/li&gt;
-&lt;li&gt;up harmony (098836c1)&lt;/li&gt;
-&lt;li&gt;beta.3 (27fb01f7)&lt;/li&gt;
-&lt;li&gt;up harmony (34353bdb)&lt;/li&gt;
-&lt;li&gt;beta.2 (cc267714)&lt;/li&gt;
-&lt;li&gt;beta tag (86f624f8)&lt;/li&gt;
-&lt;li&gt;up themes (471fbd3a)&lt;/li&gt;
-&lt;li&gt;up themes (d4cf5e7e)&lt;/li&gt;
-&lt;li&gt;restore activity history check in AP inbox middleware now that NodeBB sends unique IDs with applicable activities (7e23e192)&lt;/li&gt;
-&lt;li&gt;up harmony (16fe85e2)&lt;/li&gt;
-&lt;li&gt;up themes (789520e4)&lt;/li&gt;
-&lt;li&gt;up harmony (7a5588da)&lt;/li&gt;
-&lt;li&gt;bump version to 4.0.0-alpha (b691d2a9)&lt;/li&gt;
-&lt;li&gt;up harmony (aae0b5b0)&lt;/li&gt;
-&lt;li&gt;up harmony (b540ecd3)&lt;/li&gt;
-&lt;li&gt;up harmony (18f9baff)&lt;/li&gt;
-&lt;li&gt;info -&amp;gt; verbose logging in ap inbox.js (931a0f0a)&lt;/li&gt;
-&lt;li&gt;make getParentChain logging verbose (6069bee0)&lt;/li&gt;
-&lt;li&gt;lint (f6d4d563)&lt;/li&gt;
-&lt;li&gt;up mentions (68c91650)&lt;/li&gt;
-&lt;li&gt;up mentions (2b6e31a6)&lt;/li&gt;
-&lt;li&gt;commenting out logic that drops requests if the id has already been seen, due to a regression in interoperability between NodeBB instances (bb0360bf)&lt;/li&gt;
-&lt;li&gt;up mentions (2c87c6e8)&lt;/li&gt;
-&lt;li&gt;up mentions (bad094e8)&lt;/li&gt;
-&lt;li&gt;up markdown (58668b46)&lt;/li&gt;
-&lt;li&gt;up markdown (dbd901d3)&lt;/li&gt;
-&lt;li&gt;update ap cron job config (c680fa67)&lt;/li&gt;
-&lt;li&gt;up mentions (c4c3c207)&lt;/li&gt;
-&lt;li&gt;bump harmony (4cec6783)&lt;/li&gt;
-&lt;li&gt;bump mentions (5ec24977)&lt;/li&gt;
-&lt;li&gt;bump markdown (4fd0d27e)&lt;/li&gt;
-&lt;li&gt;up mentions (78e11d6e)&lt;/li&gt;
-&lt;li&gt;bump harmony (228c9173)&lt;/li&gt;
-&lt;li&gt;some linting (fdba6840)&lt;/li&gt;
-&lt;li&gt;debug log (3636dec7)&lt;/li&gt;
-&lt;li&gt;up widgets (1ce986f7)&lt;/li&gt;
-&lt;li&gt;lint (5e776088)&lt;/li&gt;
-&lt;li&gt;minor cleanup (1253ded7)&lt;/li&gt;
-&lt;li&gt;add verbose logging to middleware.validate (719bb0a0)&lt;/li&gt;
-&lt;li&gt;up harmony (550e522f)&lt;/li&gt;
-&lt;li&gt;move assertTopic to top of file, rename to assert (4ee8519d)&lt;/li&gt;
-&lt;li&gt;up harmony (a84dba27)&lt;/li&gt;
-&lt;li&gt;lint (c5c0c473)&lt;/li&gt;
-&lt;li&gt;remove now-unused notes.assert (c6624b63)&lt;/li&gt;
-&lt;li&gt;up harmony (66b4dc2c)&lt;/li&gt;
-&lt;li&gt;up harmony (d31978b3)&lt;/li&gt;
-&lt;li&gt;lint (0c2cfbe7)&lt;/li&gt;
-&lt;li&gt;removed unused requires (911177ce)&lt;/li&gt;
-&lt;li&gt;remove debug log (92c990f2)&lt;/li&gt;
-&lt;li&gt;remove debug log (403bf3e1)&lt;/li&gt;
-&lt;li&gt;update log verbiage (9c15b02a)&lt;/li&gt;
-&lt;li&gt;additional logging (641a94d6)&lt;/li&gt;
-&lt;li&gt;move assertNote to separate file in preparation for additional note-based methods (2b3b6e56)&lt;/li&gt;
-&lt;li&gt;small var rename (8a5fb86d)&lt;/li&gt;
-&lt;li&gt;minor re-shuffling of code (5e693702)&lt;/li&gt;
-&lt;li&gt;reorganize controllers for clarity (2e899008)&lt;/li&gt;
-&lt;li&gt;update AP helpers export, 404 logic reversal, no slugify in userslug in mock profile from remote instance (0cbbce8c)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.4.0 (#13059) (1c4c4f57)&lt;/li&gt;
-&lt;li&gt;update dependency sass-embedded to v1.83.4 (#13045) (be2098d8)&lt;/li&gt;
-&lt;li&gt;update dependency @commitlint/config-angular to v19.7.0 (#13030) (03432960)&lt;/li&gt;
-&lt;li&gt;update dependency jsdom to v26 (#13040) (d12d9efb)&lt;/li&gt;
-&lt;li&gt;update redis docker tag to v7.4.2 (#13033) (fd6f3ee6)&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.3.0 (#13031) (3340d984)&lt;/li&gt;
-&lt;li&gt;update dependency sass-embedded to v1.83.1 (#13025) (b9364de2)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;Documentation Changes&lt;/h5&gt;
 &lt;ul&gt;
