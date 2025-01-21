@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-01-21T14:34:55.269175-05:00</updated>
+  <updated>2025-01-21T15:34:46.430340-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -486,6 +486,33 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...master-20250120-254c4e9&lt;/p&gt;</content>
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250120-254c4e9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250121-4144c65</id>
+    <title>New release for WatchState: master-20250121-4144c65</title>
+    <updated>2025-01-21T14:39:56-05:00</updated>
+    <author>
+      <name>arabcoders/watchstate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;4144c65 Merge pull request #585 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
+&lt;li&gt;de37955 Build images on PR by ArabCoders&lt;/li&gt;
+&lt;li&gt;547f338 Implement per user servers.yaml, and support mark as unplayed for all users. by ArabCoders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix release title. by @arabcoders in https://github.com/arabcoders/watchstate/pull/577&lt;/li&gt;
+&lt;li&gt;re-enable dev builds by @arabcoders in https://github.com/arabcoders/watchstate/pull/578&lt;/li&gt;
+&lt;li&gt;fix permissions by @arabcoders in https://github.com/arabcoders/watchstate/pull/579&lt;/li&gt;
+&lt;li&gt;make build work on manual dispatch as well by @arabcoders in https://github.com/arabcoders/watchstate/pull/580&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/581&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/582&lt;/li&gt;
+&lt;li&gt;Update auto release. by @arabcoders in https://github.com/arabcoders/watchstate/pull/583&lt;/li&gt;
+&lt;li&gt;Support per user mapper and database. by @arabcoders in https://github.com/arabcoders/watchstate/pull/584&lt;/li&gt;
+&lt;li&gt;Implement per user servers.yaml, and support mark as unplayed for all users by @arabcoders in https://github.com/arabcoders/watchstate/pull/585&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...master-20250121-4144c65&lt;/p&gt;</content>
+    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250121-4144c65" rel="alternate"/>
   </entry>
   <entry>
     <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250121-c50c9be</id>
