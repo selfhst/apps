@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-21T03:32:45.866600-05:00</updated>
+  <updated>2025-01-21T04:32:52.262564-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -26,5 +26,49 @@
 &lt;li&gt;Bug fix: Rules with bad regex conditions impacted execution of other rules.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/v23.3.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.01.13</id>
+    <title>New release for Requestly: January 13, 2025</title>
+    <updated>2025-01-21T03:50:15-05:00</updated>
+    <author>
+      <name>requestly/requestly</name>
+    </author>
+    <content/>
+    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.13" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.01.21</id>
+    <title>New release for Requestly: January 21, 2025</title>
+    <updated>2025-01-21T04:29:42-05:00</updated>
+    <author>
+      <name>requestly/requestly</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Resource Override Importer, enabling import of configuration from Resource Override.&lt;/li&gt;
+&lt;li&gt;Markdown support added for collection overview tab.&lt;/li&gt;
+&lt;li&gt;Autocompletion of variables added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep links in API Client tabs.&lt;/li&gt;
+&lt;li&gt;Sort Collections Alphabetically for easier accessibility.&lt;/li&gt;
+&lt;li&gt;API Client history screen shows a message that API client history is stored in local storage.&lt;/li&gt;
+&lt;li&gt;Collections are collapsed by default when imported&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Handled unsaved changes of environment variables lost upon opening the importer modal.&lt;/li&gt;
+&lt;li&gt;Codemirror Cursor bug fixed [when typing fast cursor sets at the beginning of editor]&lt;/li&gt;
+&lt;li&gt;Request Body &amp;amp; Response Body are loaded prettified by default in API Client.&lt;/li&gt;
+&lt;li&gt;Secret values in auto-complete dropdown of API Client are hidden now.&lt;/li&gt;
+&lt;li&gt;Inconsistency of tabs switching in API Client.&lt;/li&gt;
+&lt;li&gt;Unsaved changes of the request get lost on duplicating it.&lt;/li&gt;
+&lt;li&gt;Query params are now saved in history.&lt;/li&gt;
+&lt;li&gt;API client - Current values get cleared out on switching workspace&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.21" rel="alternate"/>
   </entry>
 </feed>
