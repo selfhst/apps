@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-01-22T08:35:16.963353-05:00</updated>
+  <updated>2025-01-22T09:35:36.389721-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,7 @@
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;p&gt;This hotfix release fixes a few UI bugs, simplifies self-host installation process and updates dependencies.&lt;/p&gt;
+&lt;p&gt;This hotfix release fixes a few UI bugs, simplifies the self-host installation process and updates dependencies.&lt;/p&gt;
 &lt;h3&gt;🚀 New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add GitHub issue templates by @lanedirt in https://github.com/lanedirt/AliasVault/pull/540&lt;/li&gt;

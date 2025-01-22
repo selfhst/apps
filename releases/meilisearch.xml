@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2025-01-22T08:33:44.541317-05:00</updated>
+  <updated>2025-01-22T09:33:52.353693-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,6 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Unify facet strings by their normalized value by @dureuill and @Kerollmops in https://github.com/meilisearch/meilisearch/pull/5258&lt;/li&gt;
-&lt;li&gt;Update version for the next release (v1.12.6) in Cargo.toml by @meili-bot in https://github.com/meilisearch/meilisearch/pull/5260&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/meilisearch/meilisearch/compare/v1.12.5...v1.12.6&lt;/p&gt;</content>
     <link href="https://github.com/meilisearch/meilisearch/releases/tag/v1.12.6" rel="alternate"/>
