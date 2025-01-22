@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2025-01-21T21:30:50.283496-05:00</updated>
+  <updated>2025-01-21T22:30:52.585586-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -344,10 +344,7 @@
 &lt;li&gt;Fix missing ConfigureAwait [PR #13139], by @gnattu&lt;/li&gt;
 &lt;li&gt;Only do DoVi remux when the client supports profiles without fallbacks [PR #13113], by @gnattu&lt;/li&gt;
 &lt;li&gt;Enable RemoveOldPlugins by default (10.10.z backport) [PR #13106], by @RealGreenDragon&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still building. &lt;strong&gt;Please do not attempt upgrades until this section is removed.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.10.4" rel="alternate"/>
   </entry>
 </feed>
