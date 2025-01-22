@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-22T04:32:54.094597-05:00</updated>
+  <updated>2025-01-22T05:33:03.347223-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,7 +39,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Resource Override Chrome Extension Importer&lt;/strong&gt;
-    Introduced the ability to import configurations directly from Resource Override Chrome Extension, making it easier to transition.&lt;/p&gt;
+    Introduced the ability to import configurations directly from Resource Override Chrome Extension, making it easier to transition. Refer &lt;a href="https://docs.requestly.com/general/imports/resource-override"&gt;Docs&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Markdown Support in Collections Overview&lt;/strong&gt;
