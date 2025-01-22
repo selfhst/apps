@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syft Releases</title>
-  <updated>2025-01-22T15:33:56.315891-05:00</updated>
+  <updated>2025-01-22T16:33:50.795050-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Syft generates invalid PURLs when name contains &lt;code&gt;:&lt;/code&gt; [&lt;a href="https://github.com/anchore/syft/issues/3577"&gt;#3577&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3596"&gt;#3596&lt;/a&gt; @spiffcs]&lt;/li&gt;
+&lt;li&gt;Syft generates invalid PURLs when name contains &lt;code&gt;:&lt;/code&gt; [&lt;a href="https://github.com/anchore/syft/issues/3577"&gt;#3577&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3596"&gt;#3596&lt;/a&gt; @spiffcs @jkugler]&lt;/li&gt;
 &lt;li&gt;warn instead of error if zero package catalogers are select - user might still run file metadata cataloger, for example [&lt;a href="https://github.com/anchore/syft/issues/3128"&gt;#3128&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3468"&gt;#3468&lt;/a&gt; @tomersein]&lt;/li&gt;
 &lt;li&gt;sbom report: missing licenses [&lt;a href="https://github.com/anchore/syft/issues/3527"&gt;#3527&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3549"&gt;#3549&lt;/a&gt; @kzantow]&lt;/li&gt;
 &lt;/ul&gt;
