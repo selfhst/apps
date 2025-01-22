@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-21T23:32:54.181963-05:00</updated>
+  <updated>2025-01-22T00:32:52.998016-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -26,16 +26,6 @@
 &lt;li&gt;Bug fix: Rules with bad regex conditions impacted execution of other rules.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/v23.3.3" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.01.13</id>
-    <title>New release for Requestly: January 13, 2025</title>
-    <updated>2025-01-21T03:50:15-05:00</updated>
-    <author>
-      <name>requestly/requestly</name>
-    </author>
-    <content/>
-    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.13" rel="alternate"/>
   </entry>
   <entry>
     <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.01.21</id>
