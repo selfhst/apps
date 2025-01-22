@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2025-01-22T16:31:50.019500-05:00</updated>
+  <updated>2025-01-22T17:31:52.690259-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -330,6 +330,16 @@
 &lt;p&gt;&lt;img alt="liz-lemon-wednesday" src="https://github.com/user-attachments/assets/59e484d8-8245-4827-adc0-e5fd24949fd5" /&gt;&lt;/p&gt;
 &lt;p&gt;Happy Wednesday, Grokstars! This release adds several small quality of life improvements on both mobile and desktop view, as well as some refactoring to make sure we have tests and a smoother transition as we begin focusing on Snipe-IT v8. &lt;/p&gt;
 &lt;p&gt;We've also added saved custom report templates, so if you find yourself running different custom asset reports frequently, you can now save them instead of adding filter criteria each time. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+If you end up seeing some blank table lists, do the following:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Clear your cookies&lt;/li&gt;
+&lt;li&gt;In your .env changing &lt;code&gt;BS_TABLE_STORAGE=cookieStorage&lt;/code&gt; to &lt;code&gt;BS_TABLE_STORAGE=localStorage&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Clear your config cache (if you use it): &lt;code&gt;php artisan config:clear&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're encouraging everyone to switch to &lt;code&gt;localStorage&lt;/code&gt; for that value, as folks with a lot of custom fields, etc can end up stuffing the browser cookie full and getting errors, whereas &lt;code&gt;localStorage&lt;/code&gt; can hold a lot more info. (The &lt;code&gt;BS_TABLE_STORAGE&lt;/code&gt; env var determines whether it's cookies or local storage that holds your sorting, pagination, search, etc preferences within the table.)&lt;/p&gt;
 &lt;p&gt;As mentioned above, future major releases of Snipe-IT will require PHP version 8.2.0 or greater, so get those servers upgraded!&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
