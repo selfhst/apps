@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-01-23T12:30:52.265691-05:00</updated>
+  <updated>2025-01-23T13:30:50.129339-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -260,6 +260,10 @@
     </author>
     <content>&lt;h1&gt;v1.125.1&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;There was a hiccup with the release pipeline for &lt;code&gt;v1.125.0&lt;/code&gt; so we have to change the version&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+If you are running remote machine learning, please make sure the remote service pulls the latest version.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;p&gt;Welcome to release &lt;code&gt;v1.125.1&lt;/code&gt; of Immich. The release improves how the server queries the database, using a type-safe query builder, &lt;code&gt;Kysely&lt;/code&gt;, instead of relying on the magic of &lt;code&gt;TypeORM&lt;/code&gt;. Many queries have been given a speed boost to be much faster; some got several times faster. You should see a quicker app experience overall. It has been the work for the last couple of months and a foundation we have been building for many changes in the coming months to the data model of the whole app, which is needed to enable some long-awaited features. &lt;em&gt;Kudos&lt;/em&gt; to the entire team for completing it. Alongside that improvement, this release also brings new features, enhancements, and bug fixes. Please see some of the highlights below:&lt;/p&gt;
 &lt;ul&gt;
