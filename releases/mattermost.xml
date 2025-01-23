@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2025-01-23T01:31:04.435925-05:00</updated>
+  <updated>2025-01-23T02:31:04.708844-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -27,7 +27,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 9.11.8&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Extended Support Release 9.11.8 contains critical severity level security fixes.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v9.11.8" rel="alternate"/>
   </entry>
   <entry>
@@ -37,7 +37,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.2.3&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.2.3 contains critical severity level security fixes.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.2.3" rel="alternate"/>
   </entry>
   <entry>
@@ -47,7 +47,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.3.3&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.3.3 contains critical severity level security fixes.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.3.3" rel="alternate"/>
   </entry>
   <entry>
@@ -57,7 +57,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.4.2&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.4.2 contains critical severity level security fixes.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.4.2" rel="alternate"/>
   </entry>
 </feed>
