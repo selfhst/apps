@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>QuickDrop Releases</title>
-  <updated>2025-01-23T11:35:02.775404-05:00</updated>
+  <updated>2025-01-23T12:34:52.994491-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,5 +93,73 @@
 &lt;/ul&gt;
 &lt;hr /&gt;</content>
     <link href="https://github.com/RoastSlav/quickdrop/releases/tag/1.2.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RoastSlav/quickdrop/releases/tag/v1.3.0</id>
+    <title>New release for QuickDrop: QuickDrop v1.3.0</title>
+    <updated>2025-01-23T11:56:35-05:00</updated>
+    <author>
+      <name>RoastSlav/quickdrop</name>
+    </author>
+    <content>&lt;h1&gt;QuickDrop v1.3.0 Release Notes&lt;/h1&gt;
+&lt;h2&gt;Major Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chunked Upload&lt;/strong&gt;&lt;br /&gt;
+  Large files can now be uploaded in smaller pieces, improving reliability on slow or unstable connections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Disable “View Files” Page&lt;/strong&gt;&lt;br /&gt;
+  New option to hide the built-in file listing page for enhanced privacy or when you only want private links.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Enhancements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Share Button for Public Files&lt;/strong&gt;&lt;br /&gt;
+  If the app is globally password protected, the “Share” button now appears even for publicly accessible files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Share Modal Overhaul&lt;/strong&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Consolidated all file-sharing links and options into a single modal.  &lt;/li&gt;
+&lt;li&gt;Specify the number of days for the unrestricted link to be valid.  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A spinner is shown while generating unrestricted links to indicate it’s working.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Improved Mobile Layout&lt;/strong&gt;&lt;br /&gt;
+  The Admin Dashboard’s file actions now behave more responsively on smaller screens.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;File Life Renewals Logging&lt;/strong&gt;&lt;br /&gt;
+  Every time a file’s lifetime is extended, it’s now logged.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;“No Files” Message&lt;/strong&gt;&lt;br /&gt;
+  If no files exist on the “View Files” page, it displays a friendly “No uploaded files” message instead of an empty list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Daily Database Clean-Up&lt;/strong&gt;&lt;br /&gt;
+  A scheduled job checks whether a file has been removed from the filesystem and, if so, automatically deletes its record from the database.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Error Page&lt;/strong&gt;&lt;br /&gt;
+  A more user-friendly error page for unhandled scenarios or missing resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple minor issues resolved to enhance stability and address user-reported bugs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Getting the Latest Docker Image&lt;/h2&gt;
+&lt;p&gt;The Docker image is available on Docker Hub:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Pull version 1.3.0 specifically:&lt;/h1&gt;
+&lt;p&gt;docker pull roastslav/quickdrop:v1.3.0&lt;/p&gt;
+&lt;h1&gt;Or pull the latest tag:&lt;/h1&gt;
+&lt;p&gt;docker pull roastslav/quickdrop:latest&lt;/p&gt;</content>
+    <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
