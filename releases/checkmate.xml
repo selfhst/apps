@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Checkmate Releases</title>
-  <updated>2025-01-23T09:35:02.392702-05:00</updated>
+  <updated>2025-01-23T10:35:09.363451-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -708,5 +708,140 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bluewave-labs/checkmate/compare/v1.1.0...v2.0.1&lt;/p&gt;</content>
     <link href="https://github.com/bluewave-labs/Checkmate/releases/tag/v2.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bluewave-labs/Checkmate/releases/tag/v2.0.2</id>
+    <title>New release for Checkmate: v2.0.2</title>
+    <updated>2025-01-23T10:22:37-05:00</updated>
+    <author>
+      <name>bluewave-labs/Checkmate</name>
+    </author>
+    <content>&lt;h2&gt;Checkmate 2.0.2&lt;/h2&gt;
+&lt;p&gt;This release focuses on performance improvements and UI tweaks&lt;/p&gt;
+&lt;h3&gt;Minor features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New color system implemented for MUI theme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Major fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Move to using MongoDB's aggregation pipeline for more efficient queries.&lt;/li&gt;
+&lt;li&gt;Monitors query is now under 100 ms (down from several seconds)&lt;/li&gt;
+&lt;li&gt;Group data by hours or days ( depending on selected window) to reduce checks to a reasonable number&lt;/li&gt;
+&lt;li&gt;Incidents page now has filtering, which makes it quite fast to retrieve data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Minor fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;UI and color fixes throughout the app&lt;/li&gt;
+&lt;li&gt;Minor bug fixes for stability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Contributors&lt;/h3&gt;
+&lt;p&gt;As always thank you to all the contributors to this project, we would not be this far without your help!&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop -&amp;gt; Master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/925&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/928&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1091&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1096&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master 2.0 release by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1287&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1465&lt;/li&gt;
+&lt;li&gt;chore(deps): update dependency eslint-plugin-react to v7.37.3 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1469&lt;/li&gt;
+&lt;li&gt;fix(deps): update material-ui monorepo by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1464&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency bullmq to v5.34.5 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1471&lt;/li&gt;
+&lt;li&gt;Move certificate expiry to a card #1327 by @aroy114 in https://github.com/bluewave-labs/Checkmate/pull/1473&lt;/li&gt;
+&lt;li&gt;hotfix: fix certificate format by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1475&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency @mui/x-data-grid to v7.23.5 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1477&lt;/li&gt;
+&lt;li&gt;feat: be/migrate to class by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1470&lt;/li&gt;
+&lt;li&gt;hotfix: made adding jobs and scaling workers non-blocking by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1480&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency @fontsource/roboto to v5.1.1 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1487&lt;/li&gt;
+&lt;li&gt;Clicking on settings shouldn't open the "Other" drawer, resolves #1485 by @aroy114 in https://github.com/bluewave-labs/Checkmate/pull/1489&lt;/li&gt;
+&lt;li&gt;feat: be/tcp port monitoring, references #1476 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1478&lt;/li&gt;
+&lt;li&gt;feat: fe/tcp port monitoring, resolves #1476 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1479&lt;/li&gt;
+&lt;li&gt;Red button mouse hover status has wrong color #1335 by @aroy114 in https://github.com/bluewave-labs/Checkmate/pull/1472&lt;/li&gt;
+&lt;li&gt;Hamburger Icon button rounded by @rafeyrana in https://github.com/bluewave-labs/Checkmate/pull/1491&lt;/li&gt;
+&lt;li&gt;fix(server-lint): Resolve lint errors in server-side test files by @mertssmnoglu in https://github.com/bluewave-labs/Checkmate/pull/1486&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency mongoose to v8.9.3 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1495&lt;/li&gt;
+&lt;li&gt;fix: be/db indices by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1481&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency bullmq to v5.34.6 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1496&lt;/li&gt;
+&lt;li&gt;feat: fe/uptime details by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1497&lt;/li&gt;
+&lt;li&gt;feat: be/hardware details by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1498&lt;/li&gt;
+&lt;li&gt;fix: add indices for PageSpeedCheck by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1501&lt;/li&gt;
+&lt;li&gt;fix: be/improved jobqueue by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1502&lt;/li&gt;
+&lt;li&gt;Fix bad merge commit by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1504&lt;/li&gt;
+&lt;li&gt;add missing auth headers to hardware-details request by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1506&lt;/li&gt;
+&lt;li&gt;develop -&amp;gt; master by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1507&lt;/li&gt;
+&lt;li&gt;feat: be/distributed uptime by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1510&lt;/li&gt;
+&lt;li&gt;hotfix: fix env vars for settings service by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1511&lt;/li&gt;
+&lt;li&gt;Left align Profile &amp;gt; Password components by @rafeyrana in https://github.com/bluewave-labs/Checkmate/pull/1514&lt;/li&gt;
+&lt;li&gt;Update material-ui monorepo by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1513&lt;/li&gt;
+&lt;li&gt;hotfix: fe/monitor validation, resolves #1518 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1519&lt;/li&gt;
+&lt;li&gt;Update dependency dockerode to v4.0.3 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1516&lt;/li&gt;
+&lt;li&gt;hotfix: make protocol optional for validation by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1520&lt;/li&gt;
+&lt;li&gt;feat: devops/add healthcheck to redis image by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1505&lt;/li&gt;
+&lt;li&gt;hotfix: add more logging to jobqueue by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1521&lt;/li&gt;
+&lt;li&gt;fix: fe/charts date display by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1512&lt;/li&gt;
+&lt;li&gt;feat: fe/reusable data table by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1515&lt;/li&gt;
+&lt;li&gt;Fix incorrect uptime check count, refactor out query pipelines by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1522&lt;/li&gt;
+&lt;li&gt;Update dependency bullmq to v5.34.7 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1523&lt;/li&gt;
+&lt;li&gt;remove monitors from summary, unused by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1527&lt;/li&gt;
+&lt;li&gt;fix: fe/uptime home by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1528&lt;/li&gt;
+&lt;li&gt;Query updated for Incidents page filter by @KalyanBhowmick in https://github.com/bluewave-labs/Checkmate/pull/1526&lt;/li&gt;
+&lt;li&gt;Fix/be/get monitors by team id query by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1531&lt;/li&gt;
+&lt;li&gt;hotfix: use redux state for pagination by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1532&lt;/li&gt;
+&lt;li&gt;feat: be/unified uptime query by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1533&lt;/li&gt;
+&lt;li&gt;hotfix: readd skeleton by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1534&lt;/li&gt;
+&lt;li&gt;hotfix: move filtering to the monitors facet by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1535&lt;/li&gt;
+&lt;li&gt;fix: fix unnecessary rerenders by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1536&lt;/li&gt;
+&lt;li&gt;Update dependency bullmq to v5.34.8 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1529&lt;/li&gt;
+&lt;li&gt;hotfix: remove missing import by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1537&lt;/li&gt;
+&lt;li&gt;hotfix: fe/be/incidents page by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1541&lt;/li&gt;
+&lt;li&gt;Update material-ui monorepo to v7.23.6 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1540&lt;/li&gt;
+&lt;li&gt;Inform Admin incase of server issue. by @jasneetsingh6114 in https://github.com/bluewave-labs/Checkmate/pull/1524&lt;/li&gt;
+&lt;li&gt;Update dependency mongoose to v8.9.4 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1544&lt;/li&gt;
+&lt;li&gt;fix: use jobScheduler instead of deprecatred repeatable by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1542&lt;/li&gt;
+&lt;li&gt;fix: be/uptime duration by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1548&lt;/li&gt;
+&lt;li&gt;fix: be/fe/search, resolves #1549 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1550&lt;/li&gt;
+&lt;li&gt;hotfix: add a default sort order if a field to sort by is not specified by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1552&lt;/li&gt;
+&lt;li&gt;Update dependency bullmq to v5.34.9 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1554&lt;/li&gt;
+&lt;li&gt;Update dependency eslint-plugin-react-refresh to v0.4.18 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1553&lt;/li&gt;
+&lt;li&gt;Update eslint monorepo to v9.18.0 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1551&lt;/li&gt;
+&lt;li&gt;fix: hasMonitors logic by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1559&lt;/li&gt;
+&lt;li&gt;fix: fe axios error handler by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1555&lt;/li&gt;
+&lt;li&gt;Update dependency eslint-plugin-react to v7.37.4 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1560&lt;/li&gt;
+&lt;li&gt;hotfix: replace limit = -1 with limit = null by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1568&lt;/li&gt;
+&lt;li&gt;Fix server is down mjml to show monitor name by @not-Ryan in https://github.com/bluewave-labs/Checkmate/pull/1569&lt;/li&gt;
+&lt;li&gt;Update react-router monorepo to v6.28.2 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1571&lt;/li&gt;
+&lt;li&gt;Update dependency mongoose to v8.9.5 [SECURITY] by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1572&lt;/li&gt;
+&lt;li&gt;Update material-ui monorepo by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1565&lt;/li&gt;
+&lt;li&gt;Update dependency bullmq to v5.34.10 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1563&lt;/li&gt;
+&lt;li&gt;Update material-ui monorepo to v7.24.0 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1575&lt;/li&gt;
+&lt;li&gt;Update dependency dockerode to v4.0.4 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1574&lt;/li&gt;
+&lt;li&gt;Implement new Checkmate logo to frontend by @mertssmnoglu in https://github.com/bluewave-labs/Checkmate/pull/1594&lt;/li&gt;
+&lt;li&gt;chore(deps): update dependency vite to v5.4.12 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1592&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;1584 Removed Checkboxes for Notification : SMS &amp;amp; Multi Email by @DMJain in https://github.com/bluewave-labs/Checkmate/pull/1587&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;feat: be/consistent response middleare by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1591&lt;/li&gt;
+&lt;li&gt;fix(deps): update material-ui monorepo by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1601&lt;/li&gt;
+&lt;li&gt;chore(deps): update dependency vite to v5.4.14 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1596&lt;/li&gt;
+&lt;li&gt;Fix/colors general by @marcelluscaio in https://github.com/bluewave-labs/Checkmate/pull/1556&lt;/li&gt;
+&lt;li&gt;Update index.jsx by @gorkem-bwl in https://github.com/bluewave-labs/Checkmate/pull/1606&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency bullmq to v5.35.0 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1608&lt;/li&gt;
+&lt;li&gt;chore(deps): update dependency mocha to v11.1.0 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1609&lt;/li&gt;
+&lt;li&gt;fix: be/incidents, resolves #1567 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1607&lt;/li&gt;
+&lt;li&gt;Fix/maintenance colors by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1611&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency bullmq to v5.35.1 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1614&lt;/li&gt;
+&lt;li&gt;fix(deps): update dependency nodemailer to v6.10.0 by @renovate-bot in https://github.com/bluewave-labs/Checkmate/pull/1613&lt;/li&gt;
+&lt;li&gt;Develop -&amp;gt; Master Deploy 2.0.2 by @ajhollid in https://github.com/bluewave-labs/Checkmate/pull/1615&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@rafeyrana made their first contribution in https://github.com/bluewave-labs/Checkmate/pull/1491&lt;/li&gt;
+&lt;li&gt;@KalyanBhowmick made their first contribution in https://github.com/bluewave-labs/Checkmate/pull/1526&lt;/li&gt;
+&lt;li&gt;@jasneetsingh6114 made their first contribution in https://github.com/bluewave-labs/Checkmate/pull/1524&lt;/li&gt;
+&lt;li&gt;@not-Ryan made their first contribution in https://github.com/bluewave-labs/Checkmate/pull/1569&lt;/li&gt;
+&lt;li&gt;@DMJain made their first contribution in https://github.com/bluewave-labs/Checkmate/pull/1587&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bluewave-labs/Checkmate/compare/v2.0.1...v2.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/bluewave-labs/Checkmate/releases/tag/v2.0.2" rel="alternate"/>
   </entry>
 </feed>

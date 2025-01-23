@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kapowarr Releases</title>
-  <updated>2025-01-23T09:30:54.716477-05:00</updated>
+  <updated>2025-01-23T10:30:57.599975-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,5 +114,37 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.0.0-beta-4...V1.0.0&lt;/p&gt;</content>
     <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Casvt/Kapowarr/releases/tag/V1.1.0</id>
+    <title>New release for Kapowarr: V1.1.0</title>
+    <updated>2025-01-23T09:44:37-05:00</updated>
+    <author>
+      <name>Casvt/Kapowarr</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Added support for FlareSolverr (#185)&lt;/li&gt;
+&lt;li&gt;Added support for downloading PixelDrain folders&lt;/li&gt;
+&lt;li&gt;Search for alternative volume title when main title doesn't yield results (#172)&lt;/li&gt;
+&lt;li&gt;Added button to force download a GetComics page (#197)&lt;/li&gt;
+&lt;li&gt;Added separate naming format for "Volume as Issue" files (#195)&lt;/li&gt;
+&lt;li&gt;Trigger an Auto Search for issues when an Auto Search for the volume didn't yield results for those issues&lt;/li&gt;
+&lt;li&gt;Added link to ComicVine page of volume on volume page&lt;/li&gt;
+&lt;li&gt;Added general file support for issues&lt;/li&gt;
+&lt;li&gt;'Save' button in settings reports whether saving was successful or not&lt;/li&gt;
+&lt;li&gt;Naming formats are tested when saving settings (testing if Kapowarr supports it) (#206)&lt;/li&gt;
+&lt;li&gt;Added filter for 1&amp;gt; issues on add page (#203)&lt;/li&gt;
+&lt;li&gt;Uncaught exceptions (errors) are now also logged to the log file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Fixed avoiding unknown issues when downloading&lt;/li&gt;
+&lt;li&gt;Reduced GC searching speed when not using FlareSolverr, as it triggered the block too quickly/easily&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And loads more small improvements and bug fixes (among others, #217).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.0.0...V1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.1.0" rel="alternate"/>
   </entry>
 </feed>
