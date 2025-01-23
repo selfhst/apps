@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-01-22T22:31:25.144764-05:00</updated>
+  <updated>2025-01-22T23:31:30.004797-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,15 +122,18 @@
     <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;You can now apply filters based on time ranges in the media list pages.
+&lt;p&gt;You can now apply filters based on time ranges in the media list pages [PRO]. 
  &lt;img width="452" alt="image" src="https://github.com/user-attachments/assets/21b60cd1-08c6-4631-b33b-d3fe893e4a44" /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Get notifications for media which have been in progress for too long.&lt;/p&gt;
+&lt;p&gt;Get notifications for media which have been in progress for too long [PRO].
+  &lt;img width="443" alt="image" src="https://github.com/user-attachments/assets/c240bf22-471c-4843-8e37-960ff5210168" /&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;Allow adding exercises to workouts while editing them.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allow adding exercises to workouts while editing them.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;New setting to hide spoilers in upcoming and calendar sections. This has been enabled by default.&lt;/li&gt;
-&lt;li&gt;Youtube music integration in now ready to use!&lt;/li&gt;
+&lt;li&gt;Youtube music integration in now ready to use [PRO]!&lt;/li&gt;
 &lt;li&gt;ABS integration fixes and better ISBN matching.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
