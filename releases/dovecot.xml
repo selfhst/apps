@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dovecot Releases</title>
-  <updated>2025-01-24T13:30:36.903223-05:00</updated>
+  <updated>2025-01-24T14:30:36.279257-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,16 +22,19 @@
 &lt;p&gt;Docker images can be found at https://hub.docker.com/r/dovecot/dovecot&lt;/p&gt;
 &lt;p&gt;Please review https://doc.dovecot.org/2.4.0/installation/upgrade/2.3-to-2.4.html and https://doc.dovecot.org/2.4.0/installation/installation.html.&lt;/p&gt;
 &lt;h1&gt;Important&lt;/h1&gt;
-&lt;p&gt;We have changed the signing key for 2.4 going forward, releases are signed with EF0882079FD4ED32BF8B23B2A1B09EF84EDC5219, which can be found at https://repo.dovecot.org/DOVECOT-REPO-GPG-2.4 and is signed with the previous key.&lt;/p&gt;
+&lt;p&gt;We have changed the signing key for 2.4 going forward, releases are signed with &lt;code&gt;EF0882079FD4ED32BF8B23B2A1B09EF84EDC5219&lt;/code&gt;, which can be found at https://repo.dovecot.org/DOVECOT-REPO-GPG-2.4 and is signed with the previous key.&lt;/p&gt;
 &lt;p&gt;The old key has been renamed to https://repo.dovecot.org/DOVECOT-REPO-GPG-2.3.&lt;/p&gt;
-&lt;p&gt;New 2.4 packages &lt;strong&gt;are not&lt;/strong&gt; compatible with old 2.3 configuration, please carefully review https://doc.dovecot.org/2.4.0/installation/upgrade/2.3-to-2.4.html before installing the new packages. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+New 2.4 packages &lt;strong&gt;are not&lt;/strong&gt; compatible with old 2.3 configuration, please carefully review https://doc.dovecot.org/2.4.0/installation/upgrade/2.3-to-2.4.html before installing the new packages. &lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;We are happy to provide experimental arm64 support in the form of a Docker image.&lt;/p&gt;
-&lt;p&gt;Docker images are now ran rootless, with UID 1000 as vmail. Please take this into consideration when upgrading. Latest 2.3 image can be used with tag 2.3-latest still.&lt;/p&gt;
+&lt;p&gt;Docker images are now run rootless, with UID 1000 as vmail. Please take this into consideration when upgrading. Latest 2.3 image can be used with tag 2.3-latest still.&lt;/p&gt;
 &lt;h1&gt;Changes&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;config: dovecot_config_version must be the first non-comment
+&lt;li&gt;config: &lt;code&gt;dovecot_config_version&lt;/code&gt; must be the first non-comment
   line in configuration file.&lt;/li&gt;
-&lt;li&gt;config: dovecot_storage_version must be in the configuration
+&lt;li&gt;config: &lt;code&gt;dovecot_storage_version&lt;/code&gt; must be in the configuration
   file.&lt;/li&gt;
 &lt;li&gt;config: Many configuration options have changed so old configuration
   files do not work without rewrite. See
@@ -39,22 +42,22 @@
 &lt;li&gt;config: New variable expansion syntax has been introduced, see
   https://doc.dovecot.org/latest/core/settings/variables.html&lt;/li&gt;
 &lt;li&gt;config: Some default settings have changed.&lt;/li&gt;
-&lt;li&gt;config: plugin {} section has been removed.&lt;/li&gt;
-&lt;li&gt;*-login: With ssl=required, connections from login_trusted_networks
+&lt;li&gt;config: &lt;code&gt;plugin {}&lt;/code&gt; section has been removed.&lt;/li&gt;
+&lt;li&gt;*-login: With &lt;code&gt;ssl=required&lt;/code&gt;, connections from login_trusted_networks
   are now also required to be SSL/TLS encrypted.&lt;/li&gt;
 &lt;li&gt;acl: Use ACL settings instead of Global ACL Directories.&lt;/li&gt;
-&lt;li&gt;auth-worker: auth_worker_max_count is replaced with
-  service auth-worker { process_limit }.&lt;/li&gt;
+&lt;li&gt;auth-worker: &lt;code&gt;auth_worker_max_count&lt;/code&gt; is replaced with
+  &lt;code&gt;service auth-worker { process_limit }&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;auth: Weak password schemes are disabled by default, use
-  auth_allow_weak_schemes to enable them.&lt;/li&gt;
-&lt;li&gt;auth_debug, mail_debug: Use log_debug filter instead.&lt;/li&gt;
+  &lt;code&gt;auth_allow_weak_schemes&lt;/code&gt; to enable them.&lt;/li&gt;
+&lt;li&gt;auth_debug, mail_debug: Use &lt;code&gt;log_debug&lt;/code&gt; filter instead.&lt;/li&gt;
 &lt;li&gt;config: All sections require a name, for example passdb/userdb:
-  passdb static {
+   &lt;code&gt;passdb static {
      password=secret
-   }&lt;/li&gt;
+   }&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;db2: Remove Berkeley DB support.&lt;/li&gt;
 &lt;li&gt;dict-memcached: This is removed, use Redis instead.&lt;/li&gt;
-&lt;li&gt;director: Feature has been removed. See potential replacement at
+&lt;li&gt;director: Feature has been removed. Unsupported small-scale replacement:
   https://github.com/dovecot/tools/blob/main/director.lua&lt;/li&gt;
 &lt;li&gt;doveadm: USER environment variable is only supported with
   --no-userdb-lookup. One of -u, -F or -A must be used
@@ -77,18 +80,18 @@
 &lt;li&gt;openssl: Minimum supported version of OpenSSL is now 1.1.1.&lt;/li&gt;
 &lt;li&gt;openssl: Add support for OpenSSL 3.x&lt;/li&gt;
 &lt;li&gt;quota-dict, quota-dirsize: These have been removed, use quota-count
-  instead. You can use quota_clone to copy quota usage to some database.&lt;/li&gt;
+  instead. You can use quota-clone to copy quota usage to some database.&lt;/li&gt;
 &lt;li&gt;replicator: Feature has been removed. Use NFS or some other shared
   filesystem instead, or run doveadm sync in crontab.&lt;/li&gt;
-&lt;li&gt;stats: The bytes_in and bytes_out field in several events have been
-  renamed as net_in_bytes and net_out_bytes.&lt;/li&gt;
+&lt;li&gt;stats: The &lt;code&gt;bytes_in&lt;/code&gt; and &lt;code&gt;bytes_out&lt;/code&gt; field in several events have been
+  renamed as &lt;code&gt;net_in_bytes&lt;/code&gt; and &lt;code&gt;net_out_bytes&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;zlib: Renamed to mail_compress plugin.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;New features and additions&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Experimental SMTPUTF8 and IMAP UTF8=ACCEPT support has been added.
   Needs --enable-experimental-mail-utf8 configure option and
-  mail_utf8_extensions=yes setting.&lt;/li&gt;
+  &lt;code&gt;mail_utf8_extensions=yes&lt;/code&gt; setting.&lt;/li&gt;
 &lt;li&gt;Long running mail commands can be aborted with Ctrl-C / doveadm kick.&lt;/li&gt;
 &lt;li&gt;auth: LDAP driver now supports multi-value attributes.&lt;/li&gt;
 &lt;li&gt;auth: Add support for SCRAM-SHA-1-PLUS and SCRAM-SHA-256-PLUS.&lt;/li&gt;
@@ -108,7 +111,7 @@
   based on TLS Server Name.&lt;/li&gt;
 &lt;li&gt;sqlite: Support WAL mode.&lt;/li&gt;
 &lt;li&gt;stats: Submetric name size has been increased.&lt;/li&gt;
-&lt;li&gt;submission: Add submission_add_received_header setting to protect
+&lt;li&gt;submission: Add &lt;code&gt;submission_add_received_header&lt;/code&gt; setting to protect
   sender identity by suppressing the Received: header.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Bug fixes&lt;/h1&gt;
