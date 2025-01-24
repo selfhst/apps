@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dovecot Releases</title>
-  <updated>2025-01-24T05:30:37.766061-05:00</updated>
+  <updated>2025-01-24T06:30:38.122926-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -25,7 +25,7 @@
 &lt;p&gt;We have changed the signing key for 2.4 going forward, releases are signed with EF0882079FD4ED32BF8B23B2A1B09EF84EDC5219, which can be found at https://repo.dovecot.org/DOVECOT-REPO-GPG-2.4 and is signed with the previous key.&lt;/p&gt;
 &lt;p&gt;The old key has been renamed to https://repo.dovecot.org/DOVECOT-REPO-GPG-2.3.&lt;/p&gt;
 &lt;p&gt;New 2.4 packages &lt;strong&gt;are not&lt;/strong&gt; compatible with old 2.3 configuration, please carefully review https://doc.dovecot.org/2.4.0/installation/upgrade/2.3-to-2.4.html before installing the new packages. &lt;/p&gt;
-&lt;p&gt;We are happy to provide experimental arm64 support in the form of a Docker image, this one will be tagged 2.4.0-arm64 2.4-latest-arm64 and latest-arm64.&lt;/p&gt;
+&lt;p&gt;We are happy to provide experimental arm64 support in the form of a Docker image.&lt;/p&gt;
 &lt;p&gt;Docker images are now ran rootless, with UID 1000 as vmail. Please take this into consideration when upgrading. Latest 2.3 image can be used with tag 2.3-latest still.&lt;/p&gt;
 &lt;h1&gt;Changes&lt;/h1&gt;
 &lt;ul&gt;
