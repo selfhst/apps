@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2025-01-24T08:34:41.146484-05:00</updated>
+  <updated>2025-01-24T09:34:45.357929-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,9 +76,10 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;
-&lt;h1&gt;53 Add sort order for albums&lt;/h1&gt;
+&lt;h1&gt;53 Shared galleries will now respect the display order which is chosen inside Immich for that shared album (e.g. newest first or oldest first)&lt;/h1&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/eec0d1de-3baf-4f2d-91d2-9cbca0a15bdd" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.6.3" rel="alternate"/>
   </entry>
 </feed>
