@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-01-24T11:32:44.210122-05:00</updated>
+  <updated>2025-01-24T12:32:43.980045-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,10 +49,10 @@
     <author>
       <name>coder/coder</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
+    <content>&lt;blockquote&gt;
 &lt;h2&gt;Stable (since Jan 7, 2025)&lt;/h2&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Server: Add matched provisioner daemon information to around the product (#15688, 2b57dcc6) (@johnstcn)&lt;blockquote&gt;
@@ -100,10 +100,10 @@
     <author>
       <name>coder/coder</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
+    <content>&lt;blockquote&gt;
 &lt;h2&gt;Stable (since Jan 7, 2025)&lt;/h2&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Bugfixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Server: Correctly evaluate dynamic workspace tag values (#15897, dcf51535) (@johnstcn)&lt;/li&gt;
