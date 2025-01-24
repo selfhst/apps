@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-01-24T09:32:49.817143-05:00</updated>
+  <updated>2025-01-24T10:32:49.618522-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,7 +156,7 @@
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Return first workspace agent script timing per script (#16203, bd6f4266a) (@Danielle Maywood)&lt;blockquote&gt;
+&lt;li&gt;Return first workspace agent script timing per script (#16203, bd6f4266a) (@DanielleMaywood)&lt;blockquote&gt;
 &lt;p&gt;Fixes a &lt;a href="https://github.com/coder/coder/issues/15921"&gt;memory leak&lt;/a&gt; in the dashboard and prevents startup scripts from running if the agent crashes.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
