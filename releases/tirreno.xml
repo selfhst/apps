@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tirreno Releases</title>
-  <updated>2025-01-24T10:35:09.262310-05:00</updated>
+  <updated>2025-01-24T11:35:01.251029-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,17 @@
 journey and is the result of 1,000 days of dedicated development and over 6,038 commits. We're incredibly
 proud of the collective effort of the tirreno team to bring this project to life.&lt;/p&gt;</content>
     <link href="https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.1</id>
+    <title>New release for Tirreno: </title>
+    <updated>2025-01-24T11:23:33-05:00</updated>
+    <author>
+      <name>TirrenoTechnologies/tirreno</name>
+    </author>
+    <content>&lt;p&gt;Release song: https://youtu.be/5TySnF_Pb3M&lt;/p&gt;
+&lt;p&gt;Tirreno is pleased to announce version v0.9.1.&lt;/p&gt;
+&lt;p&gt;This update enhances data plotting with hour and minute resolutions, improves JS linting and dependency security, and fixes minor bugs including logbook search issues.&lt;/p&gt;</content>
+    <link href="https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.1" rel="alternate"/>
   </entry>
 </feed>
