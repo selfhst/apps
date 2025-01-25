@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-01-25T16:33:37.759593-05:00</updated>
+  <updated>2025-01-25T17:33:38.450494-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,10 +113,6 @@
 &lt;p&gt;You can now use date ranges and memories in addition to albums and people.&lt;/p&gt;
 &lt;h3&gt;Date range&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!WARNING]
-I have found an issue in the Immich API which means that the date range is not working as expected.
-It seems API is matching against "createdBefore" and "createdAfter" instead of the EXIF meta data.
-I have raised this with the Immich team and will update this when it is fixed.&lt;/p&gt;
 &lt;p&gt;[!TIP]
 You can use &lt;code&gt;today&lt;/code&gt; as an alias for the current date.
 e.g. &lt;code&gt;http://{URL}?date=2023-01-01_to_today&lt;/code&gt;&lt;/p&gt;
