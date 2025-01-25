@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2025-01-25T14:30:51.653967-05:00</updated>
+  <updated>2025-01-25T15:30:50.476543-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,10 +155,7 @@
 &lt;li&gt;Fix rating levels [PR #13388], by @Shadowghost&lt;/li&gt;
 &lt;li&gt;Fix: handling of &lt;set&gt; elements in NfoParser [PR #13092], by @TheMelmacian&lt;/li&gt;
 &lt;li&gt;Fix interface selection [PR #13382], by @Shadowghost&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still building. &lt;strong&gt;Please do not attempt upgrades until this section is removed.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.10.5" rel="alternate"/>
   </entry>
 </feed>
