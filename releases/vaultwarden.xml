@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Vaultwarden Releases</title>
-  <updated>2025-01-25T08:31:40.336652-05:00</updated>
+  <updated>2025-01-25T09:31:45.065468-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,12 +115,15 @@
     </author>
     <content>&lt;h2&gt;Security Fixes&lt;/h2&gt;
 &lt;p&gt;This release contains security fixes for the following advisories.
-- &lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-f7r5-w49x-gxm3"&gt;GHSA-f7r5-w49x-gxm3&lt;/a&gt;
-  This vulnerability is only possible if you do not have an &lt;code&gt;ADMIN_TOKEN&lt;/code&gt; configured and open links or pages you should not trust anyway. Ensure you have an &lt;code&gt;ADMIN_TOKEN&lt;/code&gt; configured to keep your admin environment save.
-- &lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-h6cc-rc6q-23j4"&gt;GHSA-h6cc-rc6q-23j4&lt;/a&gt;
-  This vulnerability is only possible if someone was able to gain access to your Vaultwarden Admin Backend. The attacker could then change some settings to use sendmail as mail agent but adjust the settings in such a way that it would use a shell command. It then also needed to craft a special favicon image which would have the commands embedded to run during for example sending a test email.
-- &lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-j4h8-vch3-f797"&gt;GHSA-j4h8-vch3-f797&lt;/a&gt;
-  This vulnerability affects all users who have multiple Organizations and users which are able to create a new organization or have admin or owner rights on at least one organization. The attacker does need to know the Organization UUID of the Organization it want's to attack or compromise though.&lt;/p&gt;
+And we strongly advice to update as soon as possible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-f7r5-w49x-gxm3"&gt;GHSA-f7r5-w49x-gxm3&lt;/a&gt;
+  This vulnerability is only possible if you do not have an &lt;code&gt;ADMIN_TOKEN&lt;/code&gt; configured and open links or pages you should not trust anyway. Ensure you have an &lt;code&gt;ADMIN_TOKEN&lt;/code&gt; configured to keep your admin environment save.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-h6cc-rc6q-23j4"&gt;GHSA-h6cc-rc6q-23j4&lt;/a&gt;
+  This vulnerability is only possible if someone was able to gain access to your Vaultwarden Admin Backend. The attacker could then change some settings to use sendmail as mail agent but adjust the settings in such a way that it would use a shell command. It then also needed to craft a special favicon image which would have the commands embedded to run during for example sending a test email.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dani-garcia/vaultwarden/security/advisories/GHSA-j4h8-vch3-f797"&gt;GHSA-j4h8-vch3-f797&lt;/a&gt;
+  This vulnerability affects all users who have multiple Organizations and users which are able to create a new organization or have admin or owner rights on at least one organization. The attacker does need to know the Organization UUID of the Organization it want's to attack or compromise though.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Notable changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Updated web-vault to v2025.1.1&lt;/li&gt;
