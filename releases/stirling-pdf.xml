@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-01-26T10:31:35.049938-05:00</updated>
+  <updated>2025-01-26T11:31:36.602529-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -196,7 +196,7 @@
   </entry>
   <entry>
     <id>https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v0.39.0</id>
-    <title>New release for Stirling PDF: Memory cleanup and new APIs</title>
+    <title>New release for Stirling PDF: 0.39.0 Memory cleanup and new APIs</title>
     <updated>2025-01-26T08:26:27-05:00</updated>
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
