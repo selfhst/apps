@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-01-26T12:30:51.858893-05:00</updated>
+  <updated>2025-01-26T13:30:50.829064-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -295,7 +295,7 @@ If you are running remote machine learning, please make sure the remote service 
 &lt;li&gt;@ferraridamiano made their first contribution in https://github.com/immich-app/immich/pull/15683&lt;/li&gt;
 &lt;li&gt;@sudbrack made their first contribution in https://github.com/immich-app/immich/pull/15682&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.125.2...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.125.2...v1.125.3&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.125.3" rel="alternate"/>
   </entry>
 </feed>

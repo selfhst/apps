@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wanderer Releases</title>
-  <updated>2025-01-26T12:31:43.068128-05:00</updated>
+  <updated>2025-01-26T13:31:43.913452-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,8 +155,7 @@ This release contains breaking changes. Most migrations will happen automaticall
     <content>&lt;h1&gt;v0.14.0&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!IMPORTANT]
-This release introduces significant updates, including the migration of the frontend to &lt;a href="https://svelte.dev/blog/svelte-5-is-alive"&gt;Svelte 5&lt;/a&gt;. While the migration has been rigorously tested, there is a possibility that some features may not function as expected. We encourage you to report any issues you encounter.&lt;/p&gt;
-&lt;p&gt;Additionally, the location search functionality has been transitioned from a locally hosted meilisearch index to nominatim. This upgrade offers substantially improved location search capabilities within wanderer. As a result, the custom meilisearch docker image (&lt;code&gt;flomp/wanderer-search&lt;/code&gt;) is now deprecated. You can safely replace it with the official meilisearch image (&lt;code&gt;getmeili/meilisearch:v1.11.3&lt;/code&gt;) in your &lt;code&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
+This release introduces significant updates, including the migration of the frontend to &lt;a href="https://svelte.dev/blog/svelte-5-is-alive"&gt;Svelte 5&lt;/a&gt;. While the migration has been rigorously tested, there is a possibility that some features may not function as expected. We encourage you to report any issues you encounter. Additionally, the location search functionality has been transitioned from a locally hosted meilisearch index to nominatim. This upgrade offers substantially improved location search capabilities within wanderer. As a result, the custom meilisearch docker image (&lt;code&gt;flomp/wanderer-search&lt;/code&gt;) is now deprecated. You can safely replace it with the official meilisearch image (&lt;code&gt;getmeili/meilisearch:v1.11.3&lt;/code&gt;) in your &lt;code&gt;docker-compose.yml&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Maintenance&lt;/h2&gt;
 &lt;ul&gt;
