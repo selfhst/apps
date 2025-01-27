@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hollo Releases</title>
-  <updated>2025-01-27T17:33:41.501262-05:00</updated>
+  <updated>2025-01-27T18:33:32.181366-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Hollo: Hollo 0.4.1</title>
     <updated>2024-12-30T10:07:46-05:00</updated>
     <author>
-      <name>dahlia/hollo</name>
+      <name>fedify-dev/hollo</name>
     </author>
     <content>&lt;p&gt;Released on December 31, 2024.&lt;/p&gt;
 &lt;ul&gt;
@@ -33,7 +33,7 @@
     <title>New release for Hollo: Hollo 0.4.2</title>
     <updated>2024-12-30T20:34:01-05:00</updated>
     <author>
-      <name>dahlia/hollo</name>
+      <name>fedify-dev/hollo</name>
     </author>
     <content>&lt;p&gt;Released on December 31, 2024.&lt;/p&gt;
 &lt;ul&gt;
@@ -46,7 +46,7 @@
     <title>New release for Hollo: Hollo 0.4.3</title>
     <updated>2025-01-10T23:33:16-05:00</updated>
     <author>
-      <name>dahlia/hollo</name>
+      <name>fedify-dev/hollo</name>
     </author>
     <content>&lt;p&gt;Released on January 11, 2025.&lt;/p&gt;
 &lt;ul&gt;
@@ -60,7 +60,7 @@
     <title>New release for Hollo: Hollo 0.3.6</title>
     <updated>2025-01-20T11:50:20-05:00</updated>
     <author>
-      <name>dahlia/hollo</name>
+      <name>fedify-dev/hollo</name>
     </author>
     <content>&lt;p&gt;Released on January 21, 2025.&lt;/p&gt;
 &lt;ul&gt;
@@ -73,7 +73,7 @@
     <title>New release for Hollo: Hollo 0.4.4</title>
     <updated>2025-01-20T11:54:06-05:00</updated>
     <author>
-      <name>dahlia/hollo</name>
+      <name>fedify-dev/hollo</name>
     </author>
     <content>&lt;p&gt;Released on January 21, 2025.&lt;/p&gt;
 &lt;ul&gt;
