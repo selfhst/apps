@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Compose Craft Releases</title>
-  <updated>2025-01-27T15:35:09.221696-05:00</updated>
+  <updated>2025-01-27T16:35:04.325275-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,43 @@
 &lt;li&gt;NextJS update to 14.2.21&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/composecraft/composecraft/releases/tag/v0.7.11" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/composecraft/composecraft/releases/tag/1.0.0</id>
+    <title>New release for Compose Craft: 1.0.0</title>
+    <updated>2025-01-27T15:42:10-05:00</updated>
+    <author>
+      <name>composecraft/composecraft</name>
+    </author>
+    <content>&lt;h1&gt;ComposeCraft v1.0.0 Release Notes 🎉&lt;/h1&gt;
+&lt;p&gt;We're thrilled to announce the release of &lt;strong&gt;ComposeCraft v1.0.0&lt;/strong&gt;! This version brings major improvements, enhanced system stability, and a cleaner UI, making ComposeCraft more robust and user-friendly. Here’s everything you need to know:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🚀 What's New&lt;/h2&gt;
+&lt;h3&gt;✅ Resolved Issues&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docker labels not showing&lt;/strong&gt; (#29)  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Can't zoom out to see the entire project&lt;/strong&gt; (#12)  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Option to disable signup&lt;/strong&gt; (#13)  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Container network not getting detected&lt;/strong&gt; (#28)  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔗 Integrated Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix for node dragging lock, improving interactivity in the playground (Thanks to &lt;a href="https://github.com/Sham1ko"&gt;@Sham1ko&lt;/a&gt;!)  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⚙️ Additional Updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed various stability issues across key modules.  &lt;/li&gt;
+&lt;li&gt;UI Update: Removed the outdated "Beta" banner for a more polished and cleaner interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🛠 Contributions&lt;/h2&gt;
+&lt;p&gt;Special thanks to our new contributor:
+- &lt;a href="https://github.com/Sham1ko"&gt;@Sham1ko&lt;/a&gt; for his/her first contribution in &lt;a href="https://github.com/composecraft/composecraft/pull/30"&gt;PR #30&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;View all changes in this release: &lt;a href="https://github.com/composecraft/composecraft/compare/v0.7.11...1.0.0"&gt;v0.7.11...1.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you for your continued support and contributions to ComposeCraft! 🚢  &lt;/p&gt;
+&lt;p&gt;link to docker hub : https://hub.docker.com/r/composecraft/composecraft&lt;/p&gt;</content>
+    <link href="https://github.com/composecraft/composecraft/releases/tag/1.0.0" rel="alternate"/>
   </entry>
 </feed>
