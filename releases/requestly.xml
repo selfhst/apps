@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-01-27T10:32:59.947498-05:00</updated>
+  <updated>2025-01-27T11:32:56.194575-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,5 +69,28 @@
 &lt;li&gt;Addressed an issue where current values of API Client variables were cleared upon switching workspaces.&lt;/li&gt;
 &lt;/ol&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.21" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.01.27</id>
+    <title>New release for Requestly: January 27, 2025</title>
+    <updated>2025-01-27T10:43:52-05:00</updated>
+    <author>
+      <name>requestly/requestly</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="changelog-27-january-2025" src="https://github.com/user-attachments/assets/9fd4e966-7815-484e-936e-f542ddc31bfd" /&gt;&lt;/p&gt;
+&lt;h3&gt;💎 Improvements&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;New Look for Desktop App on Mac&lt;/strong&gt; • &lt;a href="https://github.com/requestly/requestly-desktop-app/releases/tag/v1.8.0"&gt;v1.8.0&lt;/a&gt;
+    The macOS desktop app now opens in a frameless window, providing a cleaner and more modern interface. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Scripts in API Client&lt;/strong&gt;
+    Refactored scripts feature in the API Client to optimize performance and reduce bugs. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;🐞 Fixes&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Resolved an issue where the undo operation (Cmd+Z) was not functioning correctly in the API Client.&lt;/li&gt;
+&lt;li&gt;Fixed incorrect data clearance warnings that appeared when changing resource or response types in rule editors, even when inputs were empty. &lt;/li&gt;
+&lt;/ol&gt;</content>
+    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.27" rel="alternate"/>
   </entry>
 </feed>
