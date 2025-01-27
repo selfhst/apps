@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-AI Releases</title>
-  <updated>2025-01-26T18:34:47.828485-05:00</updated>
+  <updated>2025-01-26T19:34:52.202715-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,7 @@ Fixed Chat function to use with custom model.&lt;/p&gt;
   <entry>
     <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.4.0</id>
     <title>New release for Paperless-AI: v2.4.0</title>
-    <updated>2025-01-26T18:19:26-05:00</updated>
+    <updated>2025-01-26T18:56:06-05:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
