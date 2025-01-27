@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Netdata Releases</title>
-  <updated>2025-01-27T12:33:47.305947-05:00</updated>
+  <updated>2025-01-27T13:33:47.796969-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -659,7 +659,7 @@ New auto-detected configuration profiles optimize performance for different use 
     <content>&lt;p&gt;Netdata v2.2.1 is a patch release to address issues discovered since &lt;a href="https://github.com/netdata/netdata/releases/tag/v2.2.0"&gt;v2.2.0&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This patch release provides the following bug fixes and updates:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed tables showing incorrect positive values for negative metrics" (&lt;a href="https://github.com/netdata/netdata/pull/19496"&gt;#19496&lt;/a&gt;, &lt;a href="https://github.com/netdata/netdata/pull/19497"&gt;#19497&lt;/a&gt; &lt;a href="https://github.com/ktsaou"&gt;@ktsaou&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fixed tables showing incorrect positive values for negative metrics (&lt;a href="https://github.com/netdata/netdata/pull/19496"&gt;#19496&lt;/a&gt;, &lt;a href="https://github.com/netdata/netdata/pull/19497"&gt;#19497&lt;/a&gt; &lt;a href="https://github.com/ktsaou"&gt;@ktsaou&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Added &lt;code&gt;ifb4*&lt;/code&gt; to default network interface exclusion patterns of proc.plugin (&lt;a href="https://github.com/netdata/netdata/pull/19494"&gt;#19494&lt;/a&gt;, &lt;a href="https://github.com/intelfx"&gt;@intelfx&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Removed obsolete ZFS pool state configuration option (&lt;a href="https://github.com/netdata/netdata/pull/19491"&gt;#19491&lt;/a&gt;, &lt;a href="https://github.com/intelfx"&gt;@intelfx&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Improved alert processing performance through optimized SQL operations and improved transition checksg (&lt;a href="https://github.com/netdata/netdata/pull/19489"&gt;#19489&lt;/a&gt;, &lt;a href="https://github.com/stelfrag"&gt;@stelfrag&lt;/a&gt;)&lt;/li&gt;
