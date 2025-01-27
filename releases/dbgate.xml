@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-01-27T06:34:18.767649-05:00</updated>
+  <updated>2025-01-27T07:34:26.564473-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,5 +95,28 @@
     </author>
     <content/>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.1.4</id>
+    <title>New release for DbGate: v6.1.4</title>
+    <updated>2025-01-27T06:57:47-05:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;CHANGED: Show Data/Structure button in one place #1015&lt;/li&gt;
+&lt;li&gt;ADDED: Data view coloring (every second row) #1014&lt;/li&gt;
+&lt;li&gt;ADDED: Pin icon for tab in preview mode (#1013)&lt;/li&gt;
+&lt;li&gt;FIXED: Pin icon misplaced #1007&lt;/li&gt;
+&lt;li&gt;ADDED: Set client name when connecting to redis #1004&lt;/li&gt;
+&lt;li&gt;ADDED: Redis loading keys optimalization #1002&lt;/li&gt;
+&lt;li&gt;ADDED: Browse redis keys with preview with keyboard&lt;/li&gt;
+&lt;li&gt;FIXED: Cannot expand tables and views returned from search #1000&lt;/li&gt;
+&lt;li&gt;ADDED: Expand all/Collapse all/Expand document commands in MongoDB JSON view #976&lt;/li&gt;
+&lt;li&gt;ADDED: Configurable page size for MongoDB collection #976&lt;/li&gt;
+&lt;li&gt;ADDED: Redis - SSL connection&lt;/li&gt;
+&lt;li&gt;ADDED: Redis JSON format for String values #852&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.4" rel="alternate"/>
   </entry>
 </feed>
