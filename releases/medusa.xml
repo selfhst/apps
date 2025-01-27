@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-01-27T04:31:08.701190-05:00</updated>
+  <updated>2025-01-27T05:31:06.117663-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -476,6 +476,9 @@ This release introduces Plugins and a DataTable component, as well as upgrades M
 CMS_BREAK --&gt;
 
 &lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;h3&gt;Plugins&lt;/h3&gt;
+&lt;p&gt;This release introduces Plugins. Plugins are customizations distributed as npm packages. A plugin can do everything a regular Medusa application can, including defining HTTP routes and workflows, registering subscribers, exporting custom modules, or defining links between modules.&lt;/p&gt;
+&lt;p&gt;Read our &lt;a href="https://docs.medusajs.com/learn/fundamentals/plugins"&gt;documentation on Plugins&lt;/a&gt; to learn more.&lt;/p&gt;
 &lt;h3&gt;MikroORM V6 upgrade&lt;/h3&gt;
 &lt;p&gt;This release marks the completion of the migration of all core modules to the Data Model API. As part of this effort, we’ve upgraded our MikroORM dependency from V5 to V6, as V5 has entered maintenance mode. You can read more about the upgrade &lt;a href="https://mikro-orm.io/docs/upgrading-v5-to-v6"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;While this upgrade introduced breaking changes, none of them will impact user projects directly. The only required action is upgrading the MikroORM dependencies in your project.&lt;/p&gt;

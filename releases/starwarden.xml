@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>StarWarden Releases</title>
-  <updated>2025-01-27T04:34:11.263249-05:00</updated>
+  <updated>2025-01-27T05:34:07.486472-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,23 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rtuszik/starwarden/releases/tag/v1.2.0</id>
+    <title>New release for StarWarden: v1.2.0</title>
+    <updated>2025-01-27T04:41:01-05:00</updated>
+    <author>
+      <name>rtuszik/starwarden</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug Fix and Tag options by @PawsFunctions in https://github.com/rtuszik/starwarden/pull/22&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@PawsFunctions made their first contribution in https://github.com/rtuszik/starwarden/pull/22&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
