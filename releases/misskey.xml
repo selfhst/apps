@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-01-28T06:32:35.715609-05:00</updated>
+  <updated>2025-01-28T07:32:37.980690-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -178,5 +178,98 @@
 &lt;li&gt;Fix: Stream初期化時、別途WebSocketを指定する場合の型定義を修正&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2024.11.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.1.0</id>
+    <title>New release for Misskey: 2025.1.0</title>
+    <updated>2025-01-28T07:29:12-05:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[重要] ノート検索プロバイダの追加に伴い、configファイル（default.ymlなど）の構成が少し変わります.&lt;/li&gt;
+&lt;li&gt;新しい設定項目"fulltextSearch.provider"が追加されました. sqlLike, sqlPgroonga, meilisearchのいずれかを設定出来ます.&lt;/li&gt;
+&lt;li&gt;すでにMeilisearchをお使いの場合、 &lt;strong&gt;"fulltextSearch.provider"を"meilisearch"に設定する必要&lt;/strong&gt; があります.&lt;/li&gt;
+&lt;li&gt;詳細は #14730 および &lt;code&gt;.config/example.yml&lt;/code&gt; または &lt;code&gt;.config/docker_example.yml&lt;/code&gt;の'Fulltext search configuration'をご参照願います.&lt;/li&gt;
+&lt;li&gt;【開発者向け】従来の開発モードでHMRが機能しない問題が修正されたため、バックエンド・フロントエンド分離型の開発モードが削除されました。開発環境においてconfigの変更が必要となる可能性があります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: カスタム絵文字管理画面をリニューアル #10996&lt;ul&gt;
+&lt;li&gt;β版として公開のため、旧画面も引き続き利用可能です&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: PC画面でチャンネルが複数列で表示されるように&lt;br /&gt;
+  (Cherry-picked from https://github.com/Otaku-Social/maniakey/pull/13)&lt;/li&gt;
+&lt;li&gt;Enhance: 照会に失敗した場合、その理由を表示するように&lt;/li&gt;
+&lt;li&gt;Enhance: ワードミュートで検知されたワードを表示できるように&lt;/li&gt;
+&lt;li&gt;Enhance: リモートのノートのリンクをコピーできるように&lt;/li&gt;
+&lt;li&gt;Enhance: 連合がホワイトリスト化・無効化されているサーバー向けのデザイン修正&lt;/li&gt;
+&lt;li&gt;Enhance: AiScriptのセーブデータを明示的に削除する関数&lt;code&gt;Mk:remove&lt;/code&gt;を追加&lt;/li&gt;
+&lt;li&gt;Enhance: ノートの添付ファイルを一覧で遡れる「ファイル」タブを追加&lt;br /&gt;
+  (Based on https://github.com/Otaku-Social/maniakey/pull/14)&lt;/li&gt;
+&lt;li&gt;Enhance: AiScriptの拡張API関数において引数の型チェックをより厳格に&lt;/li&gt;
+&lt;li&gt;Enhance: クエリパラメータでuiを一時的に変更できるように #15240&lt;/li&gt;
+&lt;li&gt;Enhance: リモート絵文字のインポート時に詳細を確認できるように #15336&lt;/li&gt;
+&lt;li&gt;Fix: 画面サイズが変わった際にナビゲーションバーが自動で折りたたまれない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: サーバー情報メニューに区切り線が不足していたのを修正&lt;/li&gt;
+&lt;li&gt;Fix: ノートがログインしているユーザーしか見れない場合にログインダイアログを閉じるとその後の動線がなくなる問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 公開範囲がホームのノートの埋め込みウィジェットが読み込まれない問題を修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/803)&lt;/li&gt;
+&lt;li&gt;Fix: 絵文字管理画面で一部の絵文字が表示されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: プラグイン &lt;code&gt;register_note_view_interruptor&lt;/code&gt; でノートのサーバー情報の書き換えができない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: Botプロテクションの設定変更時は実際に検証を通過しないと保存できないように( #15137 )&lt;/li&gt;
+&lt;li&gt;Fix: ノート検索が使用できない場合でもチャンネルのノート検索欄がでていた問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: &lt;code&gt;Ui:C:select&lt;/code&gt;で値の変更が画面に反映されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: MiAuth認可画面で、認可処理に失敗した場合でもコールバックURLに遷移してしまう問題を修正&lt;br /&gt;
+  (Cherry-picked from https://github.com/TeamNijimiss/misskey/commit/800359623e41a662551d774de15b0437b6849bb4)&lt;/li&gt;
+&lt;li&gt;Fix: ノート作成画面でファイルの添付可能個数を超えてもノートボタンが押せていた問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 「アカウントを管理」画面で、ユーザー情報の取得に失敗したアカウント（削除されたアカウントなど）が表示されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: MacOSでChrome系ブラウザを使用している場合に、Misskeyを閉じた際に他のタブのオーディオ機能と干渉する問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 言語データのキャッシュ状況によっては、埋め込みウィジェットが正しく起動しない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 「削除して編集」でノートの引用を解除出来なかった問題を修正( #14476 )&lt;/li&gt;
+&lt;li&gt;Fix: RSSウィジェットが正しく表示されない問題を修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/857)&lt;/li&gt;
+&lt;li&gt;Fix: ワードミュートの保存失敗時にAPIエラーが握りつぶされる事があるのを修正&lt;/li&gt;
+&lt;li&gt;Fix: アンケートでリモートの絵文字が正しく描画できない問題の修正
+  (Cherry-picked from https://github.com/yojo-art/cherrypick/pull/153)&lt;/li&gt;
+&lt;li&gt;Fix: 非ログイン時のサーバー概要画面のメニューボタンが押せないことがあるのを修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/656)&lt;/li&gt;
+&lt;li&gt;Fix: URLにはじめから&lt;code&gt;#pswp&lt;/code&gt;が含まれている場合に画像ビューワーがブラウザの戻るボタンで閉じられない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ロール作成画面で設定できるアイコンデコレーションの最大取付個数を16に制限&lt;/li&gt;
+&lt;li&gt;Fix: Firefox Nightlyなどでアイコンが読み込めない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: pg_bigmが利用できるよう、ノートの検索をILIKE演算子でなくLIKE演算子でLOWER()をかけたテキストに対して行うように&lt;/li&gt;
+&lt;li&gt;Enhance: ノート検索の選択肢としてpgroongaに対応 ( #14730 )&lt;/li&gt;
+&lt;li&gt;Enhance: チャート更新時にDBに同時接続しないように&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/830)&lt;/li&gt;
+&lt;li&gt;Enhance: config(default.yml)からSQLログ全文を出力するか否かを設定可能に ( #15266 )&lt;/li&gt;
+&lt;li&gt;Fix: ユーザーのプロフィール画面をアドレス入力などで直接表示した際に概要タブの描画に失敗する問題の修正( #15032 )&lt;/li&gt;
+&lt;li&gt;Fix: 起動前の疎通チェックが機能しなくなっていた問題を修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/737)&lt;/li&gt;
+&lt;li&gt;Fix: ノートの閲覧にログイン必須にしてもFeedでノートが表示されてしまう問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 絵文字の連合でライセンス欄を相互にやり取りするように ( #10859, #14109 )&lt;/li&gt;
+&lt;li&gt;Fix: ロックダウンされた期間指定のノートがStreaming経由でLTLに出現するのを修正 ( #15200 )&lt;/li&gt;
+&lt;li&gt;Fix: disableClustering設定時の初期化ロジックを調整( #15223 )&lt;/li&gt;
+&lt;li&gt;Fix: URLとURIが異なるエンティティの照会に失敗する問題を修正( #15039 )&lt;/li&gt;
+&lt;li&gt;Fix: ActivityPubリクエストかどうかの判定が正しくない問題を修正&lt;br /&gt;
+  (Cherry-picked from https://github.com/MisskeyIO/misskey/pull/869)&lt;/li&gt;
+&lt;li&gt;Fix: &lt;code&gt;/api/pages/update&lt;/code&gt;にて&lt;code&gt;name&lt;/code&gt;を指定せずにリクエストするとエラーが発生する問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: AIセンシティブ判定が arm64 環境で動作しない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 非Misskey系のソフトウェアからHTML&lt;code&gt;&amp;lt;ruby&amp;gt;&lt;/code&gt;タグを含むノートを受信した場合、MFMの読み仮名（ルビ）文法に変換して表示&lt;/li&gt;
+&lt;li&gt;Fix: 連合OFFで投稿されたノートに対する冗長な処理を抑止 ( #15018 )&lt;/li&gt;
+&lt;li&gt;Fix: &lt;code&gt;/api.json&lt;/code&gt;のレスポンスが2回目のリクエスト以降おかしくなる問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Misskey.js&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: allow setting &lt;code&gt;binaryType&lt;/code&gt; of WebSocket connection&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.1.0" rel="alternate"/>
   </entry>
 </feed>
