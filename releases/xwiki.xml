@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>XWiki Releases</title>
-  <updated>2025-01-28T04:33:34.289159-05:00</updated>
+  <updated>2025-01-28T05:33:36.021391-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -20,5 +20,15 @@
     <content>&lt;p&gt;This is the first release for which we're creating a release on GitHub. You can find release notes for older releases on &lt;a href="https://www.xwiki.org/xwiki/bin/view/ReleaseNotes/"&gt;the XWiki Release Notes page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;See https://www.xwiki.org/xwiki/bin/view/ReleaseNotes/Data/XWiki/15.10.16&lt;/p&gt;</content>
     <link href="https://github.com/xwiki/xwiki-platform/releases/tag/xwiki-platform-15.10.16" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/xwiki/xwiki-platform/releases/tag/xwiki-platform-17.0.0</id>
+    <title>New release for XWiki: 17.0.0</title>
+    <updated>2025-01-28T04:43:52-05:00</updated>
+    <author>
+      <name>xwiki/xwiki-platform</name>
+    </author>
+    <content>&lt;p&gt;See https://www.xwiki.org/xwiki/bin/view/ReleaseNotes/Data/XWiki/17.0.0&lt;/p&gt;</content>
+    <link href="https://github.com/xwiki/xwiki-platform/releases/tag/xwiki-platform-17.0.0" rel="alternate"/>
   </entry>
 </feed>
