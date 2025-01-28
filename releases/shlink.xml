@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Shlink Releases</title>
-  <updated>2025-01-28T09:31:38.020450-05:00</updated>
+  <updated>2025-01-28T10:31:35.574011-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -174,11 +174,31 @@
   <entry>
     <id>https://github.com/shlinkio/shlink/releases/tag/v4.4.1</id>
     <title>New release for Shlink: v4.4.1</title>
-    <updated>2025-01-28T04:16:24-05:00</updated>
+    <updated>2025-01-28T09:55:43-05:00</updated>
     <author>
       <name>shlinkio/shlink</name>
     </author>
-    <content/>
+    <content>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shlinkio/shlink/issues/2331"&gt;#2331&lt;/a&gt; Add &lt;code&gt;ADDRESS&lt;/code&gt; env var which allows to customize the IP address to which RoadRunner binds, when using the official docker image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shlinkio/shlink/issues/2341"&gt;#2341&lt;/a&gt; Ensure all asynchronous jobs that interact with the database do not leave idle connections open.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/shlinkio/shlink/issues/2334"&gt;#2334&lt;/a&gt; Improve how page titles are encoded to UTF-8, falling back from mbstring to iconv if available, and ultimately using the original title in case of error, but never causing the short URL creation to fail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Deprecated&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Nothing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/shlinkio/shlink/releases/tag/v4.4.1" rel="alternate"/>
   </entry>
 </feed>
