@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tandoor Recipes Releases</title>
-  <updated>2025-01-28T00:31:41.071944-05:00</updated>
+  <updated>2025-01-28T01:31:36.499706-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,10 +44,10 @@
     <content>&lt;p&gt;This release contains several security improvements. Thanks for &lt;a href="https://github.com/m10x"&gt;m10x&lt;/a&gt; for making me aware of the issues and assisting in fixing them. The impact of these should be pretty low for anyone running tandoor in a private setting and for anyone using the hosted instance. Detailed reports will follow.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; allow configuring external recipe sources only as superuser of the instance&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; blacklist to prevent certain paths from being used in local external recipes (etc, root, medafiles, usr). If you are using any of them you need to change your configuration &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; blacklist to prevent certain paths from being used in local external recipes (etc, root, medafiles, usr). If you are using any of them you need to change your configuration https://github.com/TandoorRecipes/recipes/security/advisories/GHSA-jrgj-35jx-2qq7&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; local external import only considers pdf and image types &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; default nginx config to download mediafiles if opened (setting content disposition Attachement)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; allow only image, pdf and office files to be uploaded to the UserFile system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;changed&lt;/strong&gt; allow only image, pdf and office files to be uploaded to the UserFile system https://github.com/TandoorRecipes/recipes/security/advisories/GHSA-56jp-j3x5-hh2w&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;updated&lt;/strong&gt; django (security update)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/TandoorRecipes/recipes/releases/tag/1.5.28" rel="alternate"/>
