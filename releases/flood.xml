@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Flood Releases</title>
-  <updated>2025-01-29T16:34:47.031593-05:00</updated>
+  <updated>2025-01-29T17:34:40.342249-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,7 @@
     <author>
       <name>jesec/flood</name>
     </author>
-    <content>&lt;p&gt;Upgrade deps to fix some security volunteer&lt;/p&gt;
+    <content>&lt;p&gt;Upgrade deps to fix some potential security issues&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;docs: fix readme badge by @trim21 in https://github.com/jesec/flood/pull/857&lt;/li&gt;
