@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Authentik Releases</title>
-  <updated>2025-01-29T15:30:23.198044-05:00</updated>
+  <updated>2025-01-29T16:30:23.404319-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,7 +90,7 @@
   <entry>
     <id>https://github.com/goauthentik/authentik/releases/tag/version/2024.12.3</id>
     <title>New release for Authentik: Release 2024.12.3</title>
-    <updated>2025-01-29T13:54:35-05:00</updated>
+    <updated>2025-01-29T16:14:29-05:00</updated>
     <author>
       <name>goauthentik/authentik</name>
     </author>
