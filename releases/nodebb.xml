@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-01-29T18:33:15.489838-05:00</updated>
+  <updated>2025-01-29T19:33:17.347934-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1112,17 +1112,6 @@
     </author>
     <content>&lt;p&gt;Release build (patch) of NodeBB @ 2025-01-29T19:26:28.236Z&lt;/p&gt;
 &lt;h4&gt;v4.0.1 (2025-01-29)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;up dbsearch (88fa4553)&lt;/li&gt;
-&lt;li&gt;up benchpress (c9584800)&lt;/li&gt;
-&lt;li&gt;up harmony (10409e0e)&lt;/li&gt;
-&lt;li&gt;up themes (6918c3f3)&lt;/li&gt;
-&lt;li&gt;up themes (050effe2)&lt;/li&gt;
-&lt;li&gt;up harmony (90e0a2d6)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.0.0 (ae8f58d6)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;New Features&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;use text-danger if chat over limit (2f5b4b29)&lt;/li&gt;
