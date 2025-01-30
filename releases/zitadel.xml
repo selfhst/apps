@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-01-30T01:32:51.177548-05:00</updated>
+  <updated>2025-01-30T02:32:54.668911-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -18,6 +18,10 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.67.4...v2.68.0"&gt;2.68.0&lt;/a&gt; (2025-01-20)&lt;/h1&gt;
+&lt;h3&gt;Notes on migration process&lt;/h3&gt;
+&lt;p&gt;The migration process (setup job) might take a longer than previous setups depending on your system setup (amount of instances and organizations) as it will:
+- check and fix for wrongly created project grant events: &lt;a href="https://github.com/zitadel/zitadel/issues/9089"&gt;#9089&lt;/a&gt;
+- create events for checking permission directly in the database: &lt;a href="https://github.com/zitadel/zitadel/issues/9152"&gt;#9152&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;cache:&lt;/strong&gt; convert expiry to number (&lt;a href="https://github.com/zitadel/zitadel/issues/9143"&gt;#9143&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/56427cca50cc990bd168064d55559a0af9be4cdc"&gt;56427cc&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/8822"&gt;#8822&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9097"&gt;#9097&lt;/a&gt;&lt;/li&gt;
