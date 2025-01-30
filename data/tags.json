@@ -132,7 +132,8 @@
     {
         "Tag": "CalDAV/CarDAV",
         "Valid Types": [
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
