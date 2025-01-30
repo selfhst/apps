@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-01-30T11:30:46.750992-05:00</updated>
+  <updated>2025-01-30T12:30:45.980022-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -433,6 +433,7 @@
 &lt;li&gt;UI config editor
     &lt;img alt="{7829FA41-5733-4BAD-8183-CDF093CEC6F2}" src="https://github.com/user-attachments/assets/4bb371f4-6e4c-425c-89b2-b9e962bdd46f" /&gt;
     &lt;img alt="{29A4608C-607F-43C9-A542-15EC6B9D024E}" src="https://github.com/user-attachments/assets/8469cfaf-dc37-4b6e-9f29-c44eea91bb82" /&gt;
+    &lt;img alt="{88116730-76F5-44C4-ACDB-11FE1D27963C}" src="https://github.com/user-attachments/assets/12cac579-c1cb-489d-a65f-e30762beacbc" /&gt;
     &lt;img alt="{83118DF5-9D46-4D00-9CEF-C0F6C8D18C4B}" src="https://github.com/user-attachments/assets/856140f0-78bb-4a76-98f2-ad47544a3515" /&gt;&lt;/li&gt;
 &lt;li&gt;Support selfh.st icons: &lt;code&gt;@selfhst/&amp;lt;reference&amp;gt;.&amp;lt;format&amp;gt;&lt;/code&gt; &lt;em&gt;(e.g. &lt;code&gt;@selfhst/adguard-home.webp&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;also uses the display name on https://selfh.st/icons/ as default for our dashboard!&lt;/li&gt;
