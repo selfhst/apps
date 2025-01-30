@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Crafty Controller Releases</title>
-  <updated>2025-01-30T17:34:39.713673-05:00</updated>
+  <updated>2025-01-30T18:34:33.408365-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,7 +53,7 @@
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
 &lt;h2&gt;NOTE Version effected by non-root docker issue if you installed from this version see &lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/issues/521#:~:text=Users%20deploying%20after%204.4.4"&gt;RCA document&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;--- [4.4.5] - 2024/01/19&lt;/h2&gt;
+&lt;h2&gt;--- [4.4.5] - 2025/01/19&lt;/h2&gt;
 &lt;h3&gt;Refactor&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Refactor and standardize all JSON validator errors returning human readable translations (&lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/merge_requests/786"&gt;Merge Request&lt;/a&gt;)&lt;/li&gt;
@@ -93,7 +93,7 @@
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
 &lt;h2&gt;NOTE Version effected by non-root docker issue if you installed from this version see &lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/issues/521#:~:text=Users%20deploying%20after%204.4.4"&gt;RCA document&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;--- [4.4.6] - 2024/01/20&lt;/h2&gt;
+&lt;h2&gt;--- [4.4.6] - 2025/01/20&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix traceback on stats page for data missing data.get (&lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/merge_requests/824"&gt;Merge Request&lt;/a&gt;)&lt;/li&gt;
@@ -108,7 +108,7 @@
       <name>crafty-controller/crafty-4</name>
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
-&lt;h2&gt;--- [4.4.7] - 2024/01/20&lt;/h2&gt;
+&lt;h2&gt;--- [4.4.7] - 2025/01/20&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Docker Repair | Remove ubuntu user to replace with crafty user (&lt;a href="https://gitlab.com/crafty-controller/crafty-4/-/merge_requests/826"&gt;Merge Request&lt;/a&gt;) Resolves #521&lt;/li&gt;
