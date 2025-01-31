@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-01-31T07:31:39.228794-05:00</updated>
+  <updated>2025-01-31T08:31:36.828362-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -208,6 +208,7 @@
     <content>&lt;p&gt;Brand new homepage update!
 Please let us know what you think,
 For now we maintaining old homepage in parallel while we get people's reviews! Will delete based on feedback&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/e41de5cd-5cc4-4b14-b4bd-4911ffe05b05" /&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Homepage update by @reecebrowne in https://github.com/Stirling-Tools/Stirling-PDF/pull/2663&lt;/li&gt;
