@@ -676,13 +676,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -929,9 +929,9 @@
         ]
     },
     {
-        "Tag": "Theme",
+        "Tag": "Text Sync",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -939,6 +939,12 @@
         "Valid Types": [
             "Companion",
             "Software"
+        ]
+    },
+    {
+        "Tag": "Theme",
+        "Valid Types": [
+            "ActivityPub"
         ]
     },
     {
