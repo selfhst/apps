@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Firefly III Releases</title>
-  <updated>2025-01-31T15:30:38.970450-05:00</updated>
+  <updated>2025-01-31T16:30:39.907964-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,7 +142,7 @@
       <name>firefly-iii/firefly-iii</name>
     </author>
     <content>&lt;blockquote&gt;
-&lt;p&gt;⚠️ &lt;em&gt;This release comes with many changes, small and large. I expect you will run into issue, and I appreciate your feedback and your patience as I fix them. I've tested many things, but I'm 100% sure I've missed things. Please open &lt;a href="https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml"&gt;an issue here&lt;/a&gt; if you run into problems.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;em&gt;This release comes with many changes, small and large. I expect you will run into issues, and I appreciate your feedback and your patience as I fix them. I've tested many things, but I'm 100% sure I've missed things. Please open &lt;a href="https://github.com/firefly-iii/firefly-iii/issues/new?template=bug.yml"&gt;an issue here&lt;/a&gt; if you run into problems.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
