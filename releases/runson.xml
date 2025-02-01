@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RunsOn Releases</title>
-  <updated>2025-02-01T05:33:23.093042-05:00</updated>
+  <updated>2025-02-01T06:33:21.550426-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,7 +120,7 @@
 &lt;li&gt;New &lt;a href="https://runs-on.com/runners/gpu/"&gt;GPU images&lt;/a&gt; &lt;code&gt;ubuntu22-gpu-x64&lt;/code&gt; and &lt;code&gt;ubuntu24-gpu-x64&lt;/code&gt;: 1-1 compatibility with GitHub base images + NVidia GPU drivers, CUDA toolkit, and container toolkit.&lt;/li&gt;
 &lt;li&gt;Add new &lt;a href="https://runs-on.com/configuration/stack-config/#vpcendpoints"&gt;&lt;code&gt;VpcEndpoints&lt;/code&gt; stack parameter &lt;/a&gt;(fixes #213), and reorganize template params. Note that the EC2 VPC endpoint was previously automatically created when &lt;code&gt;Private&lt;/code&gt; mode was enabled. This is no longer the case, so make sure you select the VPC endpoints that you need when you update your CloudFormation stack.&lt;/li&gt;
 &lt;li&gt;Suspend versioning for cache bucket (fixes #191).&lt;/li&gt;
-&lt;li&gt;Allow to specify instance tags for runners (fixes #205). Tag keys can't start with &lt;code&gt;runs-on-&lt;/code&gt; prefix, and key and values will be sanitized according to AWS rules.&lt;/li&gt;
+&lt;li&gt;Allow to &lt;a href="https://runs-on.com/configuration/repo-config/#runnerstags"&gt;specify instance tags for runners&lt;/a&gt; (fixes #205). Tag keys can't start with &lt;code&gt;runs-on-&lt;/code&gt; prefix, and key and values will be sanitized according to AWS rules.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/runs-on/runs-on/releases/tag/v2.6.5" rel="alternate"/>
   </entry>
