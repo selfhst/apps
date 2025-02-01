@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ShellHub Releases</title>
-  <updated>2025-01-31T18:32:17.879937-05:00</updated>
+  <updated>2025-01-31T19:32:25.727323-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,6 +179,7 @@
       <name>shellhub-io/shellhub</name>
     </author>
     <content>&lt;p&gt;Since November, we have been working hard to bring significant improvements to ShellHub. This release represents a major step forward, introducing new features, enhancements, and fixes that will greatly enhance your experience. We appreciate your support and feedback as we continue to evolve!&lt;/p&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/bf497494-eb4a-4e1f-8832-12644d1d3500&lt;/p&gt;
 &lt;h2&gt;🚀 New Features&lt;/h2&gt;
 &lt;h3&gt;Namespace Enhancements&lt;/h3&gt;
 &lt;ul&gt;
