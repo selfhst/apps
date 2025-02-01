@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cupdate Releases</title>
-  <updated>2025-02-01T03:34:51.849482-05:00</updated>
+  <updated>2025-02-01T04:35:05.043069-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -56,5 +56,91 @@
 &lt;p&gt;None.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.14.1...v0.15.0&lt;/p&gt;</content>
     <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.15.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/AlexGustafsson/cupdate/releases/tag/v0.16.0</id>
+    <title>New release for Cupdate: </title>
+    <updated>2025-02-01T04:13:56-05:00</updated>
+    <author>
+      <name>AlexGustafsson/cupdate</name>
+    </author>
+    <content>&lt;p&gt;Thanks to everyone who created feature requests, bug reports and tested fixes. Your help is instrumental to continue to improve Cupdate!&lt;/p&gt;
+&lt;p&gt;A special thanks to @thespad for helping out with discussing and testing some of the new features.&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add grid view layout option to UI&lt;/li&gt;
+&lt;li&gt;Track digests used by the runtime&lt;/li&gt;
+&lt;li&gt;Track changes made to tags like &lt;code&gt;latest&lt;/code&gt; and &lt;code&gt;v8&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add support for custom registries like Harbor and Zot, as well as authentication towards registries like Docker Hub and GitHub Container Registry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Grid view&lt;/h3&gt;
+&lt;p&gt;&lt;img width="1920" alt="Skärmavbild 2025-01-27 kl  17 21 54" src="https://github.com/user-attachments/assets/29886992-75c2-4419-82af-1162236e6f7a" /&gt;&lt;/p&gt;
+&lt;p&gt;A compact grid layout has been added. The layout will fit as many images as possible on one row, adapting to your viewport's width. The chosen layout is stored in the browser's local storage so that it's available the next time you use the UI.&lt;/p&gt;
+&lt;h3&gt;Custom registries&lt;/h3&gt;
+&lt;p&gt;Cupdate now supports custom registries like Harbor and Zot as well as tracking private images from registries like Docker Hub and GitHub Container Registry using a token.&lt;/p&gt;
+&lt;p&gt;The implementation closely follows the format used by Docker and Kubernetes. To use the feature, you'll need to specify a config file via &lt;code&gt;CUPDATE_REGISTRY_SECRETS&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "auths": {
+    "registry.example.com": {
+      "username": "username",
+      "password": "password"
+    }
+  }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "auths": {
+    "registry.example.com": {
+      "auth": "c29tZSB0b2tlbg=="
+    }
+  }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "HttpHeaders": {
+    "x-some-special-auth": "letmein"
+  }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For now, there's no support for insecure registries served without TLS.&lt;/p&gt;
+&lt;h3&gt;Tracking digests&lt;/h3&gt;
+&lt;p&gt;&lt;img width="824" alt="Skärmavbild 2025-01-27 kl  17 39 33" src="https://github.com/user-attachments/assets/dad1dc77-1e1a-4c47-aa53-bd1b3b6909a4" /&gt;&lt;/p&gt;
+&lt;p&gt;Tags like &lt;code&gt;latest&lt;/code&gt;, &lt;code&gt;v8&lt;/code&gt; and &lt;code&gt;v3.0.0&lt;/code&gt; have one thing in common - they all refer to a &lt;em&gt;manfiest&lt;/em&gt; containing information about a container image. The manifest is always referenced by its hash sum - its &lt;em&gt;digest&lt;/em&gt;. Tags can be changed at any time to point to any digest, but digests will forever uniquely refer to the same manifest. In most cases, the manifests nor the digests themselves contain any information about what "version" of a software it actually contains.&lt;/p&gt;
+&lt;p&gt;This causes a couple of problems when trying to identify what "version" of a service is actually in use, so that Cupdate can find a newer version. In part, it means that your "latest" might not be the same as mine and that the "latest" today is not the same as yesterday.&lt;/p&gt;
+&lt;p&gt;Up until now, Cupdate has only supported "well-behaved" image tags that follow anything resembling a &lt;a href="https://semver.org/"&gt;semantic version&lt;/a&gt;, assuming that they are never overwritten. This works great for tags like &lt;code&gt;v1.2.3&lt;/code&gt; and it works alright for tags like &lt;code&gt;v1.2&lt;/code&gt; and &lt;code&gt;v1&lt;/code&gt; as Cupdate can identify the version in use will be able to promote updates to &lt;code&gt;v1.2.4&lt;/code&gt; and beyond. It doesn't work at all for tags like &lt;code&gt;latest&lt;/code&gt;. Tags like &lt;code&gt;v1&lt;/code&gt; and &lt;code&gt;latest&lt;/code&gt; are typically overwritten, meaning Cupdate's information would become outdated over time.&lt;/p&gt;
+&lt;p&gt;With this new feature, Cupdate will try its best to identify the digest used by the underlying container runtime - again, uniquely refering to the specific manifest in use by its digest. When checking for updates, Cupdate will notice if the digest that a tag currently points to differs from the one used locally. This now enables Cupdate to promote you to update &lt;code&gt;alpine:latest&lt;/code&gt; and &lt;code&gt;mongo:v8&lt;/code&gt; to a new version because the tags have been overwritten.&lt;/p&gt;
+&lt;p&gt;Please be aware that due to the limitations of the information made available by container registries and the image manifests themselves, it will be impossible in most cases to present a typical version like &lt;code&gt;v3.0.0&lt;/code&gt; if you use tags like &lt;code&gt;latest&lt;/code&gt;, &lt;code&gt;v3&lt;/code&gt; and &lt;code&gt;v3.3&lt;/code&gt;. There's simply no technical way of knowing what &lt;code&gt;latest&lt;/code&gt; means in your context. As always, the best practice and what works best with Cupdate is to use tags like &lt;code&gt;v3.3.0&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;The full version is always shown in the UI when hovering over a version: &lt;/p&gt;
+&lt;p&gt;&lt;img width="420" alt="image" src="https://github.com/user-attachments/assets/c194c348-c91d-4e4b-a88c-28033500dadd" /&gt;&lt;/p&gt;
+&lt;h2&gt;Improvements and fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a favicon and logo override for Cupdate&lt;/li&gt;
+&lt;li&gt;Improve intuitiveness of full-text search&lt;/li&gt;
+&lt;li&gt;Improve support for references with IPs (v4 and v6) and pinned digests&lt;/li&gt;
+&lt;li&gt;Update data shown on the page without a refresh (when shown the update toast)&lt;/li&gt;
+&lt;li&gt;Make page indexes start at 1&lt;/li&gt;
+&lt;li&gt;Minor UI improvements&lt;/li&gt;
+&lt;li&gt;Fix colors of layout button, use appropriate cursor&lt;/li&gt;
+&lt;li&gt;Remove divider in summary&lt;/li&gt;
+&lt;li&gt;Keep query when going back from an image page&lt;/li&gt;
+&lt;li&gt;Fix Bézier curves not showing in graph view in Firefox&lt;/li&gt;
+&lt;li&gt;Set referrer policy on video elements&lt;/li&gt;
+&lt;li&gt;Fix error with images missing quay vulnerability scans&lt;/li&gt;
+&lt;li&gt;Fix tags being shown in the image name&lt;/li&gt;
+&lt;li&gt;Fix GitHub packages data for packages owned by organizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Deprecations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CUPDATE_KUBERNETES_INCLUDE_OLD_REPLICAS&lt;/code&gt; environment variable now does nothing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;References will now contain the digest as well in almost all cases. This means that the &lt;code&gt;reference&lt;/code&gt; and &lt;code&gt;latestReference&lt;/code&gt; field returned by APIs can look like &lt;code&gt;alpine:v3@sha256:56fa17d2a7e7f168a043a2712e63aed1f8543aeafdcee47c58dcffe38ed51099&lt;/code&gt; as opposed to just &lt;code&gt;alpine:v3&lt;/code&gt;. As the reference is the primary key of the database, it also means that all entries of the database will be removed updated over time. No user intervention is required.&lt;/li&gt;
+&lt;li&gt;The Kubernetes dependency graph no longer includes templated resources like a job's pod template, which in turn can have a pod template which in turn depends on an image.&lt;/li&gt;
+&lt;li&gt;Getting old replicas from Kubernetes is no longer supported.&lt;/li&gt;
+&lt;li&gt;Page indexes now start at 1. Specifying &lt;code&gt;page=0&lt;/code&gt; to &lt;code&gt;/api/v1/images&lt;/code&gt; will return 400 bad request.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.15.0...v0.16.0&lt;/p&gt;</content>
+    <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.16.0" rel="alternate"/>
   </entry>
 </feed>
