@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Movary Releases</title>
-  <updated>2025-02-01T12:35:04.534737-05:00</updated>
+  <updated>2025-02-01T13:35:05.406714-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,9 +110,9 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix imdb rating scraping by @leepeuker in https://github.com/leepeuker/movary/pull/608&lt;/li&gt;
-&lt;li&gt;Fix button not correctly dis/enabling in movie details modal by @leepeuker in https://github.com/leepeuker/movary/pull/609&lt;/li&gt;
-&lt;li&gt;Fix PWA cookie issue logging user out after app restart by @leepeuker in https://github.com/leepeuker/movary/pull/610&lt;/li&gt;
+&lt;li&gt;Fix: Imdb rating scraping by @leepeuker in https://github.com/leepeuker/movary/pull/608&lt;/li&gt;
+&lt;li&gt;Fix: Button not correctly dis/enabling in movie details modal by @leepeuker in https://github.com/leepeuker/movary/pull/609&lt;/li&gt;
+&lt;li&gt;Fix: PWA cookie issue logging user out after app restart by @leepeuker in https://github.com/leepeuker/movary/pull/610&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/leepeuker/movary/compare/0.62.1...0.62.2&lt;/p&gt;</content>
     <link href="https://github.com/leepeuker/movary/releases/tag/0.62.2" rel="alternate"/>
