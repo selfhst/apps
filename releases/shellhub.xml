@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ShellHub Releases</title>
-  <updated>2025-01-31T20:32:19.529683-05:00</updated>
+  <updated>2025-01-31T21:32:23.050218-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,7 +179,23 @@
       <name>shellhub-io/shellhub</name>
     </author>
     <content>&lt;p&gt;Since November, we have been working hard to bring significant improvements to ShellHub. This release represents a major step forward, introducing new features, enhancements, and fixes that will greatly enhance your experience. We appreciate your support and feedback as we continue to evolve!&lt;/p&gt;
-&lt;p&gt;https://github.com/user-attachments/assets/bf497494-eb4a-4e1f-8832-12644d1d3500&lt;/p&gt;
+&lt;h2&gt;🌟 Key Highlights&lt;/h2&gt;
+&lt;h3&gt;Enhanced UI and Terminal Experience&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved fullscreen terminal behavior for a seamless user experience.&lt;/li&gt;
+&lt;li&gt;Enhanced session playback UI with better controls and fullscreen support. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/881cd9fc-25c5-4826-9381-ac68b2a2c6ed&lt;/p&gt;
+&lt;h3&gt;ShellHub Connector - Container Access via ShellHub&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced &lt;strong&gt;ShellHub Connector&lt;/strong&gt;, allowing Docker containers from a host to be accessed via ShellHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/6cf8190f-a12c-4be4-817b-8c45a3407486&lt;/p&gt;
+&lt;h3&gt;HTTP Tunnel Support&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented &lt;strong&gt;HTTP Tunnel Support&lt;/strong&gt; for &lt;strong&gt;Enterprise and Cloud Editions&lt;/strong&gt;, enabling secure and efficient remote access. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/880494f2-8b40-4353-a12a-286e3e6084c1&lt;/p&gt;
 &lt;h2&gt;🚀 New Features&lt;/h2&gt;
 &lt;h3&gt;Namespace Enhancements&lt;/h3&gt;
 &lt;ul&gt;
