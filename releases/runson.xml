@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RunsOn Releases</title>
-  <updated>2025-02-01T08:33:24.052015-05:00</updated>
+  <updated>2025-02-01T09:33:23.117387-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,6 +115,7 @@
       <name>runs-on/runs-on</name>
     </author>
     <content>&lt;p&gt;Optimized GPU images, new VpcEndpoint stack parameter, ability to specify custom instance tags for custom runners.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: there appears to be some issues with the new VPC endpoints. I'm on it! If you need that feature, please hold on to your current version of RunsOn.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;New &lt;a href="https://runs-on.com/runners/gpu/"&gt;GPU images&lt;/a&gt; &lt;code&gt;ubuntu22-gpu-x64&lt;/code&gt; and &lt;code&gt;ubuntu24-gpu-x64&lt;/code&gt;: 1-1 compatibility with GitHub base images + NVidia GPU drivers, CUDA toolkit, and container toolkit.&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2025-02-01T08:31:35.629206-05:00</updated>
+  <updated>2025-02-01T09:31:34.238856-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,10 @@ To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then up
 &lt;li&gt;Case insensitive flag parsing (#1138).&lt;/li&gt;
 &lt;li&gt;BCC not removed from JMAP EmailSubmissions (#618).&lt;/li&gt;
 &lt;li&gt;Group pipelined IMAP FETCH and STATUS operations (#1096).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h2&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/mail-server/attestations/4737466"&gt;here&lt;/a&gt;&lt;/h2&gt;</content>
     <link href="https://github.com/stalwartlabs/mail-server/releases/tag/v0.11.6" rel="alternate"/>
   </entry>
 </feed>
