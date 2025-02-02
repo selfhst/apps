@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-02-02T13:33:14.661815-05:00</updated>
+  <updated>2025-02-02T14:33:13.647205-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1105,15 +1105,6 @@
     </author>
     <content>&lt;p&gt;Release build (patch) of NodeBB @ 2025-02-02T08:59:51.923Z&lt;/p&gt;
 &lt;h4&gt;v4.0.2 (2025-02-02)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;up persona (0298a3af)&lt;/li&gt;
-&lt;li&gt;up harmony (d77d2055)&lt;/li&gt;
-&lt;li&gt;up themes, closes #13102 (6672de00)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.1 (a461b758)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.0.1 (3dbd2b30)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;New Features&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;allow selecting empty for custom selects (be62ae24)&lt;/li&gt;
