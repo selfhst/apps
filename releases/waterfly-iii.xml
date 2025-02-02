@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Waterfly III Releases</title>
-  <updated>2025-02-02T14:33:44.618205-05:00</updated>
+  <updated>2025-02-02T15:33:43.427000-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,8 +73,8 @@
       <name>dreautall/waterfly-iii</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Fixes for Firefly v6.2.0&lt;/li&gt;
-&lt;li&gt;Piggybank feature requires Firefly v6.2.2 to work due to a bug in Firefly.&lt;/li&gt;
+&lt;li&gt;Fixes for Firefly III v6.2.0&lt;/li&gt;
+&lt;li&gt;Piggybank feature requires Firefly III v6.2.2 to work due to a bug in Firefly III.&lt;/li&gt;
 &lt;li&gt;The new native currency feature has not been tested at all.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dreautall/waterfly-iii/releases/tag/v1.0.11" rel="alternate"/>
