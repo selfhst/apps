@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellystat Releases</title>
-  <updated>2025-02-02T09:32:22.358463-05:00</updated>
+  <updated>2025-02-02T10:32:28.676152-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,5 +151,33 @@ Fixed filtering by stream type for Emby
 Fix for IS_JELLYFIN flag looking at the wrong section in the config
 fix for https://github.com/CyferShepard/Jellystat/issues/263 , default value for no activity on fs_user_stats&lt;/p&gt;</content>
     <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CyferShepard/Jellystat/releases/tag/1.1.3</id>
+    <title>New release for Jellystat: Release V1.1.3</title>
+    <updated>2025-02-02T10:15:47-05:00</updated>
+    <author>
+      <name>CyferShepard/Jellystat</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;History api add limit to query by @brikim in https://github.com/CyferShepard/Jellystat/pull/282&lt;/li&gt;
+&lt;li&gt;Split out Video and Audio into different columns. by @brikim in https://github.com/CyferShepard/Jellystat/pull/283&lt;/li&gt;
+&lt;li&gt;Clean up audio session card &amp;amp; Add translations for sessions by @brikim in https://github.com/CyferShepard/Jellystat/pull/286&lt;/li&gt;
+&lt;li&gt;Fix NaN showing up for audio only activity by @brikim in https://github.com/CyferShepard/Jellystat/pull/287&lt;/li&gt;
+&lt;li&gt;Update fr translation.json by @EVOTk in https://github.com/CyferShepard/Jellystat/pull/294&lt;/li&gt;
+&lt;li&gt;i18n: Add it-IT translation by @xRino94 in https://github.com/CyferShepard/Jellystat/pull/296&lt;/li&gt;
+&lt;li&gt;Update security.jsx by @ItsKiddow in https://github.com/CyferShepard/Jellystat/pull/290&lt;/li&gt;
+&lt;li&gt;Prototype implementation of activity timeline feature by @GrimJu in https://github.com/CyferShepard/Jellystat/pull/297&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@brikim made their first contribution in https://github.com/CyferShepard/Jellystat/pull/282&lt;/li&gt;
+&lt;li&gt;@xRino94 made their first contribution in https://github.com/CyferShepard/Jellystat/pull/296&lt;/li&gt;
+&lt;li&gt;@ItsKiddow made their first contribution in https://github.com/CyferShepard/Jellystat/pull/290&lt;/li&gt;
+&lt;li&gt;@GrimJu made their first contribution in https://github.com/CyferShepard/Jellystat/pull/297&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/CyferShepard/Jellystat/compare/1.1.2...1.1.3&lt;/p&gt;</content>
+    <link href="https://github.com/CyferShepard/Jellystat/releases/tag/1.1.3" rel="alternate"/>
   </entry>
 </feed>
