@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2025-02-02T05:33:05.083314-05:00</updated>
+  <updated>2025-02-02T06:33:15.690454-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -399,7 +399,11 @@ Some issues with Docker were identified: #296, #302. A new version with those fi
     <author>
       <name>TriliumNext/Notes</name>
     </author>
-    <content>&lt;h2&gt;💡 Key highlights&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+An important bug was detected on this version on macOS: &lt;a href="https://github.com/TriliumNext/Notes/issues/1087"&gt;Shortcut for Clipboard Pasting not working&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;💡 Key highlights&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We now provide binaries to run the server on Linux on ARM without Docker (e.g. on a Raspberry Pi, thanks to @perfectra1n ).&lt;/li&gt;
 &lt;li&gt;
