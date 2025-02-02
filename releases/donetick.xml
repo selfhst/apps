@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-02T11:34:38.962750-05:00</updated>
+  <updated>2025-02-02T12:34:32.812104-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,9 +110,28 @@ This may cause tasks to fail to be scheduled or created properly. If you encount
       <name>donetick/donetick</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;3ce26c906f586bf50e4535625dc5117efdcd4fb8 Merge branch 'main' of https://github.com/donetick/donetick&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;bump to 10s on read and write timeout by @rmblau in https://github.com/donetick/donetick/pull/96&lt;/li&gt;
+&lt;li&gt;Add a build validation github action by @dkhalife in https://github.com/donetick/donetick/pull/93&lt;/li&gt;
+&lt;li&gt;Notification Creation ID fix by @mschwerz in https://github.com/donetick/donetick/pull/115&lt;/li&gt;
+&lt;li&gt;Support Clicking on Priority or Label to filter on the clicked label &lt;/li&gt;
+&lt;li&gt;Based on https://github.com/donetick/donetick/discussions/89 I changed to the new design for the detail view&lt;/li&gt;
+&lt;li&gt;Simplify the Schedule Logic&lt;/li&gt;
+&lt;li&gt;Change the UI for Things to better fit the current design language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fixes :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/81 &lt;/li&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/100&lt;/li&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/108&lt;/li&gt;
+&lt;li&gt;Login issue with the android app ( yet to be released)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@rmblau made their first contribution in https://github.com/donetick/donetick/pull/96&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.0.30...v0.0.31&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.31" rel="alternate"/>
   </entry>
 </feed>
