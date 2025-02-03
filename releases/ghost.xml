@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2025-02-03T01:30:40.225171-05:00</updated>
+  <updated>2025-02-03T02:30:42.100737-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,7 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;🔒 Made names for uploaded files more secure and resilient to filesystems' limits (#22055) - Sag&lt;/li&gt;
+&lt;li&gt;🔒 Made names for uploaded files more secure and resilient to filesystems' limits (#22055) - Marius Cremer, Sag&lt;/li&gt;
 &lt;li&gt;✨ Enabled publishers to block additional email domains in member signups (#22047) - Sag&lt;/li&gt;
 &lt;li&gt;🐛 Fixed dropdowns in Members filters (#22082) - Daniël van der Winden&lt;/li&gt;
 &lt;li&gt;🌐 Updated Norwegian translations (#21958) - Audun&lt;/li&gt;
