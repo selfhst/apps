@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appwrite Releases</title>
-  <updated>2025-02-03T17:32:11.884779-05:00</updated>
+  <updated>2025-02-03T18:32:16.617208-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -287,7 +287,7 @@
   <entry>
     <id>https://github.com/appwrite/appwrite/releases/tag/1.6.1</id>
     <title>New release for Appwrite: 1.6.1</title>
-    <updated>2025-02-03T17:09:02-05:00</updated>
+    <updated>2025-02-03T17:36:30-05:00</updated>
     <author>
       <name>appwrite/appwrite</name>
     </author>
