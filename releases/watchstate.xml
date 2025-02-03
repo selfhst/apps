@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-02-03T11:34:54.800289-05:00</updated>
+  <updated>2025-02-03T12:34:58.980116-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,13 +121,19 @@
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250201-92e1f20" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/arabcoders/watchstate/releases/tag/dev-20250203-030fe8b</id>
-    <title>New release for WatchState: dev-20250203-030fe8b</title>
-    <updated>2025-02-03T10:47:32-05:00</updated>
+    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250203-4982ef9</id>
+    <title>New release for WatchState: master-20250203-4982ef9</title>
+    <updated>2025-02-03T12:03:07-05:00</updated>
     <author>
       <name>arabcoders/watchstate</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;ul&gt;
+&lt;li&gt;4982ef9 Merge pull request #597 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
+&lt;li&gt;821e611 minor improvements to logs display in index to use more human readable dates. by ArabCoders&lt;/li&gt;
+&lt;li&gt;030fe8b fixed repo path by ArabCoders&lt;/li&gt;
+&lt;li&gt;03fdef2 Add CHANGELOG to container. by ArabCoders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix release title. by @arabcoders in https://github.com/arabcoders/watchstate/pull/577&lt;/li&gt;
 &lt;li&gt;re-enable dev builds by @arabcoders in https://github.com/arabcoders/watchstate/pull/578&lt;/li&gt;
@@ -147,9 +153,10 @@
 &lt;li&gt;support backing up mutli-user watch state via state:backup by @arabcoders in https://github.com/arabcoders/watchstate/pull/593&lt;/li&gt;
 &lt;li&gt;Major sub users refactor by @arabcoders in https://github.com/arabcoders/watchstate/pull/594&lt;/li&gt;
 &lt;li&gt;Merged state:sync functionality into state:import and state:export by @arabcoders in https://github.com/arabcoders/watchstate/pull/596&lt;/li&gt;
+&lt;li&gt;Minor frontend improvements  by @arabcoders in https://github.com/arabcoders/watchstate/pull/597&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...dev-20250203-030fe8b&lt;/p&gt;</content>
-    <link href="https://github.com/arabcoders/watchstate/releases/tag/dev-20250203-030fe8b" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250118-a9fa743...master-20250203-4982ef9&lt;/p&gt;</content>
+    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250203-4982ef9" rel="alternate"/>
   </entry>
   <entry>
     <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250203-95f4154</id>
