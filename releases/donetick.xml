@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-02T23:34:31.475036-05:00</updated>
+  <updated>2025-02-03T00:34:30.521303-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,13 +124,18 @@ This may cause tasks to fail to be scheduled or created properly. If you encount
 &lt;ul&gt;
 &lt;li&gt;https://github.com/donetick/donetick/issues/81 &lt;/li&gt;
 &lt;li&gt;https://github.com/donetick/donetick/issues/100&lt;/li&gt;
-&lt;li&gt;https://github.com/donetick/donetick/issues/108&lt;/li&gt;
-&lt;li&gt;Login issue with the android app ( yet to be released)&lt;/li&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/108
+&lt;img width="329" alt="image" src="https://github.com/user-attachments/assets/41af4946-d044-4de2-9f4c-6093b43c796c" /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@rmblau made their first contribution in https://github.com/donetick/donetick/pull/96&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Android app update:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Donetick will need to communicate with your server via HTTPS so make sure you have your server configured for that&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.0.30...v0.0.31&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.0.31" rel="alternate"/>
   </entry>
