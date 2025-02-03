@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-02-03T13:32:13.686546-05:00</updated>
+  <updated>2025-02-03T14:32:08.268824-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,7 @@
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v3.17.0...v3.17.1"&gt;v3.17.1&lt;/a&gt; (2025-01-14)&lt;/h2&gt;
 &lt;h2&gt;Important&lt;/h2&gt;
-&lt;p&gt;This release upgrades the lexical dependency from &lt;code&gt;0.20.0&lt;/code&gt; to &lt;code&gt;0.21.0&lt;/code&gt;. If you installed lexical manually, update it to &lt;code&gt;0.21.0&lt;/code&gt;. Installing lexical manually is not recommended, as it may break between updates, and our re-exported versions should be used. See the &lt;a href="https://payloadcms.com/docs/rich-text/building-custom-features"&gt;yellow banner box&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;This release upgrades the lexical dependency from &lt;code&gt;0.20.0&lt;/code&gt; to &lt;code&gt;0.21.0&lt;/code&gt;. If you installed lexical manually, update it to &lt;code&gt;0.21.0&lt;/code&gt;. Installing lexical manually is not recommended, as it may break between updates, and our re-exported versions should be used. See the &lt;a href="https://payloadcms.com/docs/rich-text/custom-features"&gt;yellow banner box&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;If you still encounter richtext-lexical errors, delete &lt;code&gt;node_modules&lt;/code&gt; and your lockfile (e.g. &lt;code&gt;pnpm-lock.json&lt;/code&gt;), then reinstall (e.g. &lt;code&gt;pnpm install&lt;/code&gt;). Some package managers do not update the lexical peerdep automatically, likely due to a bug on their end.&lt;/p&gt;
 &lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;

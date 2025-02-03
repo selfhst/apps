@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-02-03T13:31:29.488441-05:00</updated>
+  <updated>2025-02-03T14:31:24.923279-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -308,7 +308,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;The Monthly Active Contacts (MAC) calculation now uses the Contact entity for better accuracy. VOIP call data is collected in the Stats Collector to support the new VOIP feature in version 7.0. The Room members panel displays user roles for clearer identification, and Livechat registration now restricts department selection to those allowing forwarding. Admins can assign the mobile-upload-file permission to guests, and permission search now supports IDs and labels. Setting modifications are logged and retained for a year. Meteor upgraded to 3.1, and Node updated for better performance. The Livechat API now includes &lt;code&gt;departmentsAllowedToForward&lt;/code&gt; for improved department control. Room members are grouped by role, and agents/managers can force-close stuck Omnichannel rooms using the new &lt;code&gt;forceClose&lt;/code&gt; parameter in &lt;code&gt;/livechat/room.closeByUser&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Livechat conversations assign correctly to contact managers. Autocomplete suggestions, room role changes, and public channel permissions now work as expected. SAML login redirects correctly via invite links, and SlackBridge connects reliably to multiple workspaces. Room scroll position and history load correctly. File attachments now work on iOS browsers, and Livechat reports show accurate date ranges. App actions remain responsive after connection loss, toolbar icons display properly, and MongoDB versions report correctly. Room file lists no longer misclassify messages, and deleted rooms remove thumbnails. App uninstallation no longer triggers errors, Apps-Engine reconnects reliably, and &lt;code&gt;/settings&lt;/code&gt; endpoint retrieval now supports &lt;code&gt;includeDefaults&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.11.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
