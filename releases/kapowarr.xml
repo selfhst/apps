@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kapowarr Releases</title>
-  <updated>2025-02-03T09:30:56.270795-05:00</updated>
+  <updated>2025-02-03T10:30:56.030640-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,5 +146,22 @@
 &lt;p&gt;And loads more small improvements and bug fixes (among others, #217).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.0.0...V1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Casvt/Kapowarr/releases/tag/V1.1.1</id>
+    <title>New release for Kapowarr: V1.1.1</title>
+    <updated>2025-02-03T10:20:57-05:00</updated>
+    <author>
+      <name>Casvt/Kapowarr</name>
+    </author>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Fixed base URL in UI (#231)&lt;/li&gt;
+&lt;li&gt;Fixed moving files to NFS share that doesn't support/allow extended attributes (#229)&lt;/li&gt;
+&lt;li&gt;Fixed GetComics search with more than 1000 pages of results&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.1.0...V1.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.1.1" rel="alternate"/>
   </entry>
 </feed>
