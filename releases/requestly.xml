@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-02-03T07:32:52.276678-05:00</updated>
+  <updated>2025-02-03T08:32:50.277871-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,5 +92,34 @@
 &lt;li&gt;Fixed incorrect data clearance warnings that appeared when changing resource or response types in rule editors, even when inputs were empty. &lt;/li&gt;
 &lt;/ol&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.01.27" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.02.03</id>
+    <title>New release for Requestly: February 03, 2025</title>
+    <updated>2025-02-03T07:39:44-05:00</updated>
+    <author>
+      <name>requestly/requestly</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="weekly updates - Feb 3" src="https://github.com/user-attachments/assets/a448082b-74e3-468d-a7ba-c7a45e9916fe" /&gt;&lt;/p&gt;
+&lt;h3&gt;✨ New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API Client Test Support&lt;/strong&gt;: You can now write and execute tests directly within API Client scripts, enabling more robust API testing workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Client Code Snippet Generation&lt;/strong&gt;: Generate client code snippets for API requests with ease. Supported languages include Python, Ruby, PHP, R, and Shell. Refer &lt;a href="https://docs.requestly.com/general/api-client/generate-client-code"&gt;Docs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Student Access&lt;/strong&gt;: Students signing up on Requestly now receive lifetime free access under the &lt;a href="https://requestly.com/student-program/"&gt;Requestly Student Program&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💎 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced API Client UI/UX&lt;/strong&gt;: The response and request panels are displayed side-by-side, making it easier to scan and work with a long list of headers, request or response bodies, and scripts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐞 Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed Postman Importer issue with URL form-encoded bodies.&lt;/li&gt;
+&lt;li&gt;Fixed rule editor crashes for users who changed the app language from English.&lt;/li&gt;
+&lt;li&gt;Resolved API Client variable data loss in certain edge cases. &lt;/li&gt;
+&lt;li&gt;Updated request method colors in the API Client to fix style inconsistencies.&lt;/li&gt;
+&lt;li&gt;Fixed block list issues on the Desktop app. Both domains and their subdomains will be blocked as expected when connected via the desktop app. Previously, only the subdomains were blocked.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.02.03" rel="alternate"/>
   </entry>
 </feed>
