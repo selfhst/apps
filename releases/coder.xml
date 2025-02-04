@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-02-04T12:32:45.261933-05:00</updated>
+  <updated>2025-02-04T13:32:38.980004-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,13 +169,10 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
 &lt;p&gt;&lt;img alt="breadcrumbs" src="https://github.com/user-attachments/assets/41f4cae5-4c30-4950-b48a-fcd6adbe684b" /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;Notify on workspace creation (#15934, f0e81ab45) (@DanielleMaywood)&lt;blockquote&gt;
-&lt;p&gt;See how to use this alert with PlatformX for developer experience metrics in our documentation.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
 &lt;li&gt;Allow entering non-default values in multi-select in parameter CLI (#15935, 638247c9a) (@joobisb)&lt;/li&gt;
+&lt;li&gt;Notify on workspace creation (#15934, f0e81ab45) (@DanielleMaywood)&lt;/li&gt;
 &lt;li&gt;Notify on workspace update (#15979, f3fe3bc78) (@DanielleMaywood)&lt;blockquote&gt;
-&lt;p&gt;See how to use this alert with PlatformX for developer experience metrics in our documentation.&lt;/p&gt;
+&lt;p&gt;See how to use this alert with &lt;a href="https://getdx.com/platformx/"&gt;PlatformX&lt;/a&gt; by DX for developer experience metrics in our &lt;a href="https://coder.com/docs/admin/integrations/platformx"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;Add redesigned organization settings sidebar (#15932, 8a0094ce7) (@jaaydenh)&lt;blockquote&gt;
