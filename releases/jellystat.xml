@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellystat Releases</title>
-  <updated>2025-02-04T10:32:28.711236-05:00</updated>
+  <updated>2025-02-04T11:32:29.437385-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,7 @@ fix for https://github.com/CyferShepard/Jellystat/issues/263 , default value for
   <entry>
     <id>https://github.com/CyferShepard/Jellystat/releases/tag/1.1.3</id>
     <title>New release for Jellystat: Release V1.1.3</title>
-    <updated>2025-02-02T10:15:47-05:00</updated>
+    <updated>2025-02-04T10:48:06-05:00</updated>
     <author>
       <name>CyferShepard/Jellystat</name>
     </author>
