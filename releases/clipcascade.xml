@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ClipCascade Releases</title>
-  <updated>2025-02-03T22:34:07.153775-05:00</updated>
+  <updated>2025-02-03T23:34:21.390685-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -215,7 +215,7 @@ Additionally, all apps come with a built-in update check feature, conveniently d
 🔹 &lt;strong&gt;WebSocket Connection Notifications&lt;/strong&gt; (Mobile) – Alerts for lost connections.  &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;🔄 How to Update&lt;/h3&gt;
-&lt;p&gt;For current users, simply install the latest version for your platform. There's no need to uninstall the old app—just overwrite it with the new version, and all your login details and settings will remain intact. Make sure to update the server as well for this release.
+&lt;p&gt;For current users, simply install the latest version for your platform. There's no need to uninstall the old app—just overwrite it with the new version, and all your login details and settings will remain intact. &lt;strong&gt;Make sure to update the server as well for this release.&lt;/strong&gt;
 Additionally, all apps come with a built-in update check feature, conveniently displayed on the homepage or taskbar, allowing you to easily check for updates directly within the app.&lt;/p&gt;</content>
     <link href="https://github.com/Sathvik-Rao/ClipCascade/releases/tag/3.0.0" rel="alternate"/>
   </entry>
