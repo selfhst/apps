@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-02-04T09:34:26.384947-05:00</updated>
+  <updated>2025-02-04T10:34:19.690504-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,5 +77,18 @@
 &lt;li&gt;ADDED: Redis JSON format for String values #852&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.1.5</id>
+    <title>New release for DbGate: v6.1.5</title>
+    <updated>2025-02-04T10:12:03-05:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;FIXED: Serious security hotfix (for Docker and NPM, when using LOGIN and PASSWORD environment variables or LOGIN_PASSWORD_xxx)&lt;/li&gt;
+&lt;li&gt;no changes for desktop app and for Team premium edition, when using storage DB&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.1.5" rel="alternate"/>
   </entry>
 </feed>

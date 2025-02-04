@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-02-04T09:33:18.659280-05:00</updated>
+  <updated>2025-02-04T10:33:15.097960-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,13 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;Changes introduced in Release Candidates (RC)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/kestra-io/kestra/releases/tag/v0.21.0-rc0-SNAPSHOT&lt;/li&gt;
+&lt;li&gt;https://github.com/kestra-io/kestra/releases/tag/v0.21.0-rc1-SNAPSHOT&lt;/li&gt;
+&lt;li&gt;https://github.com/kestra-io/kestra/releases/tag/v0.21.0-rc2-SNAPSHOT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: process runner are not serialized correctly on worker (&lt;a href="https://github.com/kestra-io/kestra/commit/4392c89ec79325bc331785eaeb0ccc6bece8b32e"&gt;Ludovic DEHON&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: null-safe search filters (&lt;a href="https://github.com/kestra-io/kestra/commit/a6ce86d7027fed4fbe4c5e8a0dda1004c586db12"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
@@ -101,7 +107,20 @@
 &lt;h2&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;version 0.21.0 (&lt;a href="https://github.com/kestra-io/kestra/commit/aca5a9ff4cd19caa995db1b0fe2917d48c709170"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;Git Plugin: &lt;strong&gt;Default Branch Name Changed&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The default branch for Git operations has been updated from &lt;code&gt;kestra&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt; (&lt;a href="https://github.com/kestra-io/plugin-git/pull/98"&gt;PR #98&lt;/a&gt;). Update any workflows or integrations that implicitly reference the former default branch.&lt;/p&gt;
+&lt;h3&gt;Secrets: &lt;strong&gt;Exception Thrown on Missing Secret&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Fetching a non-existing secret using the &lt;code&gt;secret()&lt;/code&gt; function now throws an exception instead of returning &lt;code&gt;null&lt;/code&gt;, aligning the open-source behavior with the behavior in the Enterprise Edition (&lt;a href="https://github.com/kestra-io/kestra/pull/6495"&gt;PR #6495&lt;/a&gt;).&lt;/p&gt;
+&lt;h3&gt;Change State: &lt;strong&gt;Restart Downstream Task Runs&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Manually changing a task run's status from &lt;code&gt;Failed&lt;/code&gt; to a non-failed state (e.g. &lt;code&gt;Success&lt;/code&gt;) via the Change state interface now restarts all downstream task runs, including subflows (&lt;a href="https://github.com/kestra-io/kestra/pull/657"&gt;PR #657&lt;/a&gt;).&lt;/p&gt;
+&lt;h3&gt;Restarting Parent Flow with Failed Subflow&lt;/h3&gt;
+&lt;p&gt;When restarting an execution, &lt;code&gt;Subflow&lt;/code&gt; or &lt;code&gt;ForEachItem&lt;/code&gt; tasks now restart the existing failed subflow execution rather than creating a new one. This behavior is configurable via the new &lt;code&gt;restartBehavior&lt;/code&gt; enum property; setting it to &lt;code&gt;NEW_EXECUTION&lt;/code&gt; retains the previous behavior (&lt;a href="https://github.com/kestra-io/kestra/pull/6799"&gt;PR #6799&lt;/a&gt;; &lt;a href="https://github.com/kestra-io/kestra/issues/6722"&gt;Issue #6722&lt;/a&gt;). A &lt;code&gt;system.restarted: true&lt;/code&gt; label is added during restart for tracking, and the underlying subflow execution storage table is retained to avoid migration issues (scheduled for removal in v0.22).&lt;/p&gt;
+&lt;h3&gt;Script Tasks: &lt;strong&gt;STDERR Logged at ERROR Level&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Script tasks now log output sent to &lt;code&gt;stderr&lt;/code&gt; at the ERROR level instead of WARNING (&lt;a href="https://github.com/kestra-io/kestra/pull/6383"&gt;PR #6383&lt;/a&gt;; &lt;a href="https://github.com/kestra-io/plugin-scripts/issues/190"&gt;Issue #190&lt;/a&gt;).&lt;/p&gt;
+&lt;h3&gt;Flows Created Before v0.9: &lt;strong&gt;Redeployment Required&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Flows created before v0.9 and not updated since require editing or redeployment due to changes in source auto-generation (&lt;a href="https://github.com/kestra-io/kestra/pull/6264"&gt;PR #6264&lt;/a&gt;).&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.0" rel="alternate"/>
   </entry>
 </feed>
