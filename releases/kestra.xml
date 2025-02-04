@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-02-04T11:33:21.900828-05:00</updated>
+  <updated>2025-02-04T12:33:17.992597-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,11 +110,11 @@
 &lt;/ul&gt;
 &lt;h2&gt;Breaking Changes&lt;/h2&gt;
 &lt;h3&gt;Git Plugin: &lt;strong&gt;Default Branch Name Changed&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The default branch for Git operations has been updated from &lt;code&gt;kestra&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt; (&lt;a href="https://github.com/kestra-io/plugin-git/pull/98"&gt;PR #98&lt;/a&gt;). Update any workflows or integrations that implicitly reference the former default branch.&lt;/p&gt;
+&lt;p&gt;The default branch within Git tasks has been renamed from &lt;code&gt;kestra&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt; (&lt;a href="https://github.com/kestra-io/plugin-git/pull/98"&gt;PR #98&lt;/a&gt;). Make sure to update any workflows that implicitly rely on the former default branch.&lt;/p&gt;
 &lt;h3&gt;Secrets: &lt;strong&gt;Exception Thrown on Missing Secret&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Fetching a non-existing secret using the &lt;code&gt;secret()&lt;/code&gt; function now throws an exception instead of returning &lt;code&gt;null&lt;/code&gt;, aligning the open-source behavior with the behavior in the Enterprise Edition (&lt;a href="https://github.com/kestra-io/kestra/pull/6495"&gt;PR #6495&lt;/a&gt;).&lt;/p&gt;
 &lt;h3&gt;Change State: &lt;strong&gt;Restart Downstream Task Runs&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Manually changing a task run's status from &lt;code&gt;Failed&lt;/code&gt; to a non-failed state (e.g. &lt;code&gt;Success&lt;/code&gt;) via the Change state interface now restarts all downstream task runs, including subflows (&lt;a href="https://github.com/kestra-io/kestra/pull/657"&gt;PR #657&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Manually changing a task run's status from &lt;code&gt;Failed&lt;/code&gt; to a non-failed state (e.g. &lt;code&gt;Success&lt;/code&gt;) via the Change state interface now restarts all downstream task runs, including subflows (&lt;a href="https://github.com/kestra-io/kestra/pull/6799"&gt;PR #6799&lt;/a&gt;).&lt;/p&gt;
 &lt;h3&gt;Restarting Parent Flow with Failed Subflow&lt;/h3&gt;
 &lt;p&gt;When restarting an execution, &lt;code&gt;Subflow&lt;/code&gt; or &lt;code&gt;ForEachItem&lt;/code&gt; tasks now restart the existing failed subflow execution rather than creating a new one. This behavior is configurable via the new &lt;code&gt;restartBehavior&lt;/code&gt; enum property; setting it to &lt;code&gt;NEW_EXECUTION&lt;/code&gt; retains the previous behavior (&lt;a href="https://github.com/kestra-io/kestra/pull/6799"&gt;PR #6799&lt;/a&gt;; &lt;a href="https://github.com/kestra-io/kestra/issues/6722"&gt;Issue #6722&lt;/a&gt;). A &lt;code&gt;system.restarted: true&lt;/code&gt; label is added during restart for tracking, and the underlying subflow execution storage table is retained to avoid migration issues (scheduled for removal in v0.22).&lt;/p&gt;
 &lt;h3&gt;Script Tasks: &lt;strong&gt;STDERR Logged at ERROR Level&lt;/strong&gt;&lt;/h3&gt;
