@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appwrite Releases</title>
-  <updated>2025-02-05T14:32:08.766938-05:00</updated>
+  <updated>2025-02-05T15:32:14.939063-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -295,7 +295,6 @@
 &lt;h3&gt;Notable changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove JPEG fallback for webp by @lohanidamodar in https://github.com/appwrite/appwrite/pull/8746&lt;/li&gt;
-&lt;li&gt;Add heic and avif support by @lohanidamodar in https://github.com/appwrite/appwrite/pull/7718&lt;/li&gt;
 &lt;li&gt;Add new runtimes by @Meldiron in https://github.com/appwrite/appwrite/pull/8771&lt;/li&gt;
 &lt;li&gt;Remove audits deletion by @shimonewman in https://github.com/appwrite/appwrite/pull/8766&lt;/li&gt;
 &lt;li&gt;Bump assistant by @loks0n in https://github.com/appwrite/appwrite/pull/8801&lt;/li&gt;

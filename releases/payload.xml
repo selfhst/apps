@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-02-05T14:32:06.863275-05:00</updated>
+  <updated>2025-02-05T15:32:12.967979-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -380,7 +380,7 @@
 &lt;ul&gt;
 &lt;li&gt;set pnpm engines to version 9 (&lt;a href="https://github.com/payloadcms/payload/issues/10979"&gt;#10979&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/b671fd5"&gt;b671fd5&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;use typed functions in website template seed endpoint (&lt;a href="https://github.com/payloadcms/payload/issues/10420"&gt;#10420&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/0a1cc6a"&gt;0a1cc6a&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;add @ts-ignore in seed to allow initial build on vercel (&lt;a href="https://github.com/payloadcms/payload/issues/10889"&gt;#10889&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/2043b4a"&gt;2043b4a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;@ts-ignore&lt;/code&gt; in seed to allow initial build on vercel (&lt;a href="https://github.com/payloadcms/payload/issues/10889"&gt;#10889&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/2043b4a"&gt;2043b4a&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;remove unknown CSS values (&lt;a href="https://github.com/payloadcms/payload/issues/10891"&gt;#10891&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/ebb5173"&gt;ebb5173&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;📓 Examples&lt;/h3&gt;
@@ -401,6 +401,29 @@
 &lt;li&gt;&lt;strong&gt;plugin-search:&lt;/strong&gt; improves types (&lt;a href="https://github.com/payloadcms/payload/issues/10955"&gt;#10955&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/1771271"&gt;1771271&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;plugin-search:&lt;/strong&gt; deprecates apiBasePath from config (&lt;a href="https://github.com/payloadcms/payload/issues/10953"&gt;#10953&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/4a4e90a"&gt;4a4e90a&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;templates:&lt;/strong&gt; improves and simplifies draft preview (&lt;a href="https://github.com/payloadcms/payload/issues/10895"&gt;#10895&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/8a79e59"&gt;8a79e59&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🤝 Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Elliot DeNolf (@denolfe)&lt;/li&gt;
+&lt;li&gt;James Mikrut (@jmikrut)&lt;/li&gt;
+&lt;li&gt;Paul (@paulpopus)&lt;/li&gt;
+&lt;li&gt;Jarrod Flesch (@JarrodMFlesch)&lt;/li&gt;
+&lt;li&gt;Jacob Fletcher (@jacobsfletch)&lt;/li&gt;
+&lt;li&gt;Boyan Bratvanov (@bratvanov)&lt;/li&gt;
+&lt;li&gt;Tylan Davis (@tylandavis)&lt;/li&gt;
+&lt;li&gt;Said Akhrarov (@akhrarovsaid)&lt;/li&gt;
+&lt;li&gt;Jessica Chowdhury (@JessChowdhury)&lt;/li&gt;
+&lt;li&gt;Steve Kuznetsov (@stevekuznetsov)&lt;/li&gt;
+&lt;li&gt;Alessio Gravili (@AlessioGr)&lt;/li&gt;
+&lt;li&gt;Suphon T. (@suphon-t)&lt;/li&gt;
+&lt;li&gt;Alexander Cato (@alexander-cato)&lt;/li&gt;
+&lt;li&gt;Marwin Hormiz (@marwinhormiz)&lt;/li&gt;
+&lt;li&gt;Sasha (@r1tsuu)&lt;/li&gt;
+&lt;li&gt;Franco D'Agostino (@francodgstn)&lt;/li&gt;
+&lt;li&gt;David Murdoch (@dsm23)&lt;/li&gt;
+&lt;li&gt;Pavel B. (@inlinecoder)&lt;/li&gt;
+&lt;li&gt;Amelia (@LimChorngUan)&lt;/li&gt;
+&lt;li&gt;Robert Clancy (Robbo) (@robclancy)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/payloadcms/payload/releases/tag/v3.21.0" rel="alternate"/>
   </entry>
