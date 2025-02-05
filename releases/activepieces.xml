@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-02-05T05:33:07.560986-05:00</updated>
+  <updated>2025-02-05T06:33:02.070621-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -148,7 +148,6 @@
 &lt;li&gt;fix: migrate bullmq repeatable to new api (#6713) @abuaboud&lt;/li&gt;
 &lt;li&gt;fix: increase p limit and remove linear search (#6709) @abuaboud&lt;/li&gt;
 &lt;li&gt;fix: wrong error for missing projectId in api key authn (#6705) @hazemadelkhalel&lt;/li&gt;
-&lt;li&gt;fix: batch start runs (#6704) @AbdulTheActivePiecer&lt;/li&gt;
 &lt;li&gt;fix: importing and duplicating flows was breaking routers (#6703) @hazemadelkhalel&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🎨 Enhancements &amp;amp; Polish&lt;/h2&gt;
