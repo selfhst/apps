@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-02-05T06:33:06.777761-05:00</updated>
+  <updated>2025-02-05T07:33:13.983127-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,7 +94,7 @@
       <name>kestra-io/kestra</name>
     </author>
     <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://github.com/kestra-io/kestra/compare/v0.20.0...v0.21.0"&gt;v0.20.0...v0.21.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.20.0...v0.21.0&lt;/p&gt;
 &lt;h3&gt;🚀 Enhancements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Add right click menu on file tree view in editor (&lt;a href="https://github.com/kestra-io/kestra/pull/5936"&gt;#5936&lt;/a&gt;)&lt;/li&gt;
