@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-02-05T12:33:20.112180-05:00</updated>
+  <updated>2025-02-05T13:33:19.522903-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,12 @@
     <author>
       <name>stonith404/pocket-id</name>
     </author>
-    <content>&lt;h3&gt;Features&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]&lt;br /&gt;
+This is the latest version pushed to Docker Hub (&lt;code&gt;stonith404/pocket-id&lt;/code&gt;) and the old repository (&lt;code&gt;ghcr.io/stonith404/pocket-id&lt;/code&gt;). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please use the new Docker image: &lt;code&gt;ghcr.io/pocket-id/pocket-id&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add JSON support in custom claims (&lt;a href="https://github.com/pocket-id/pocket-id/commit/15cde6ac66bc857ac28df545a37c1f4341977595"&gt;15cde6a&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;add option to disable Caddy in the Docker container (&lt;a href="https://github.com/pocket-id/pocket-id/commit/e864d5dcbff1ef28dc6bf120e4503093a308c5c8"&gt;e864d5d&lt;/a&gt;)&lt;/li&gt;
