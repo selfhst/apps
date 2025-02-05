@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-02-05T07:34:23.312424-05:00</updated>
+  <updated>2025-02-05T08:34:17.749709-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,7 @@
 &lt;ul&gt;
 &lt;li&gt;a24b8b89f57882e62969e77068d2af99dc12fdb9 ABL eMH: force re-enable outlet (#17950)&lt;/li&gt;
 &lt;li&gt;ef2993507b1fb436eaa4d9a918ffa3de8fc7cadc Add SAJ R5 template (#18014)&lt;/li&gt;
-&lt;li&gt;bd0e9708d9598b253afcc72f2683f9642bb1223c Add TeslaBleHttpProxy charger (#17866)&lt;/li&gt;
+&lt;li&gt;bd0e9708d9598b253afcc72f2683f9642bb1223c Add TeslaBleHttpProxy vehicle (#17866)&lt;/li&gt;
 &lt;li&gt;e708c0ba9e48a7cbf1b41caa18806e3874fe0ae8 Add Weishaupt SG Ready charger (#18026)&lt;/li&gt;
 &lt;li&gt;41da4199be2f97feb792b2e4061d33504ecef692 Add myPV AC Thor (#18034)&lt;/li&gt;
 &lt;li&gt;54b6b911cefb645622eb4c3187546350ddac03b6 BMW: add climater (#18114)&lt;/li&gt;
