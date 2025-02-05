@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YeetFile Releases</title>
-  <updated>2025-02-04T18:35:03.497041-05:00</updated>
+  <updated>2025-02-04T19:35:02.574128-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,5 +124,55 @@
 &lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.0.3/yeetfile-server_windows_arm64_0.0.3.tar.gz"&gt;yeetfile-server_windows_arm64_0.0.3.tar.gz&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/benbusby/yeetfile/releases/tag/v0.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benbusby/yeetfile/releases/tag/v0.1.0</id>
+    <title>New release for YeetFile: v0.1.0</title>
+    <updated>2025-02-04T18:51:51-05:00</updated>
+    <author>
+      <name>benbusby/yeetfile</name>
+    </author>
+    <content>&lt;p&gt;New features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Web] Admin Console&lt;/li&gt;
+&lt;li&gt;Allows instance admins to remove files and/or users from the instance due to spam/abuse/etc&lt;/li&gt;
+&lt;li&gt;Admins cannot see file contents/name/etc (still all encrypted)&lt;/li&gt;
+&lt;li&gt;Declare admin using &lt;code&gt;YEETFILE_INSTANCE_ADMIN=&amp;lt;email or account ID&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add "lockdown" mode&lt;/li&gt;
+&lt;li&gt;Prevents unauthenticated / not logged in users from using any part of the YeetFile instance (including sending text content)&lt;/li&gt;
+&lt;li&gt;Must be enabled with &lt;code&gt;YEETFILE_LOCKDOWN=1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ability to create an "insecure" shareable link from YF Send&lt;/li&gt;
+&lt;li&gt;Allows instances behind &lt;a href="https://github.com/cloudflare/cloudflared"&gt;cloudflared&lt;/a&gt; to still be able to share links&lt;/li&gt;
+&lt;li&gt;Must be enabled with &lt;code&gt;YEETFILE_ALLOW_INSECURE_LINKS=1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Reduces overall security of shareable links, so is disabled by default&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also includes bug fixes and documentation improvements.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Linux, macOS, and Windows binaries for the CLI app and for the server are included below. These archives contain a single executable that you can run on your machine.&lt;/p&gt;
+&lt;h3&gt;CLI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm32&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_linux_arm32_0.1.0.tar.gz"&gt;yeetfile_linux_arm32_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_linux_amd64_0.1.0.tar.gz"&gt;yeetfile_linux_amd64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_linux_arm64_0.1.0.tar.gz"&gt;yeetfile_linux_arm64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_linux_386_0.1.0.tar.gz"&gt;yeetfile_linux_386_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_macos_amd64_0.1.0.tar.gz"&gt;yeetfile_macos_amd64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_macos_arm64_0.1.0.tar.gz"&gt;yeetfile_macos_arm64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_windows_386_0.1.0.zip"&gt;yeetfile_windows_386_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_windows_amd64_0.1.0.zip"&gt;yeetfile_windows_amd64_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile_windows_arm64_0.1.0.zip"&gt;yeetfile_windows_arm64_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Backend&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm32&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_linux_arm32_0.1.0.tar.gz"&gt;yeetfile-server_linux_arm32_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_linux_amd64_0.1.0.tar.gz"&gt;yeetfile-server_linux_amd64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_linux_arm64_0.1.0.tar.gz"&gt;yeetfile-server_linux_arm64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_linux_386_0.1.0.tar.gz"&gt;yeetfile-server_linux_386_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_macos_amd64_0.1.0.tar.gz"&gt;yeetfile-server_macos_amd64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_macos_arm64_0.1.0.tar.gz"&gt;yeetfile-server_macos_arm64_0.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_windows_386_0.1.0.zip"&gt;yeetfile-server_windows_386_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_windows_amd64_0.1.0.zip"&gt;yeetfile-server_windows_amd64_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_windows_arm64_0.1.0.zip"&gt;yeetfile-server_windows_arm64_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/benbusby/yeetfile/releases/tag/v0.1.0" rel="alternate"/>
   </entry>
 </feed>
