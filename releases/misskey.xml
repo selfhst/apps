@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-02-05T03:32:31.761958-05:00</updated>
+  <updated>2025-02-05T04:32:31.195817-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -271,5 +271,36 @@
 &lt;li&gt;Feat: allow setting &lt;code&gt;binaryType&lt;/code&gt; of WebSocket connection&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.2.0</id>
+    <title>New release for Misskey: 2025.2.0</title>
+    <updated>2025-02-05T03:58:43-05:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: Docker のビルドに失敗する問題を修正&lt;br /&gt;
+  (Cherry-picked from https://activitypub.software/TransFem-org/Sharkey/-/merge_requests/883)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: パスキーでパスワードレスログインが出来ない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 一部環境でセンシティブなファイルを含むノートの非表示が効かない問題 &lt;/li&gt;
+&lt;li&gt;Fix: データセーバー有効時にもユーザーページの「ファイル」タブで画像が読み込まれてしまう問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: MFMの &lt;code&gt;sparkle&lt;/code&gt; エフェクトが正しく表示されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ページのURLにスラッシュが含まれている場合にページが正しく表示されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: デッキのプロファイルが新規作成できない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: セキュリティに関する修正&lt;/li&gt;
+&lt;li&gt;ローカライゼーションの更新&lt;/li&gt;
+&lt;li&gt;Playが実装されたため、ページ機能の「ソースを見る」は削除されました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: ページのURLに使用可能な文字を限定するように&lt;/li&gt;
+&lt;li&gt;Fix: 個別お知らせページのmetaタグ出力の条件が間違っていたのを修正&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.2.0" rel="alternate"/>
   </entry>
 </feed>
