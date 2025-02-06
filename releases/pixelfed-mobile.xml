@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pixelfed Releases</title>
-  <updated>2025-02-06T02:33:55.511035-05:00</updated>
+  <updated>2025-02-06T03:33:51.130956-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,5 +90,24 @@
 &lt;h2&gt;Screenshot of fix&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Screenshot_20240820_034114_pixelfed" src="https://github.com/user-attachments/assets/01cad38d-b825-496a-97e4-37598328fd44" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.0.68" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.1.76</id>
+    <title>New release for Pixelfed: v1.0.1.76</title>
+    <updated>2025-02-06T02:52:07-05:00</updated>
+    <author>
+      <name>pixelfed/pixelfed-rn</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added in-app registration&lt;/li&gt;
+&lt;li&gt;Added double tap to like&lt;/li&gt;
+&lt;li&gt;Added oAuth scope options&lt;/li&gt;
+&lt;li&gt;Added share intents&lt;/li&gt;
+&lt;li&gt;Improved error handling&lt;/li&gt;
+&lt;li&gt;Fixed pinch to zoom on carousels&lt;/li&gt;
+&lt;li&gt;Improved like state across screens&lt;/li&gt;
+&lt;li&gt;Several bug fixes and performance improvements&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/pixelfed/pixelfed-rn/releases/tag/v1.0.1.76" rel="alternate"/>
   </entry>
 </feed>
