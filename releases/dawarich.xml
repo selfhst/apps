@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-02-06T14:33:03.697317-05:00</updated>
+  <updated>2025-02-06T15:32:59.079376-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,7 +96,16 @@
     <author>
       <name>Freika/dawarich</name>
     </author>
-    <content>&lt;h3&gt;Added&lt;/h3&gt;
+    <content>&lt;p&gt;⚠️This release contains breaking changes ⚠️&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://registry.hub.docker.com/r/postgis/postgis/tags?page=1&amp;amp;name=14-3.5"&gt;postgis/postgis:14-3.5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In your &lt;code&gt;docker-compose.yml&lt;/code&gt; change image for postgres:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;diff
+dawarich_db:
+-   image: postgres:14.2-alpine
++   image: postgis/postgis:14-3.5-alpine
+    shm_size: 1G
+    container_name: dawarich_db&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Enabled Postgis extension for PostgreSQL.&lt;/li&gt;
 &lt;li&gt;Trips are now store their paths in the database independently of the points.&lt;/li&gt;
