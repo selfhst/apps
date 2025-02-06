@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-02-06T13:30:47.505981-05:00</updated>
+  <updated>2025-02-06T14:30:45.536724-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -303,15 +303,15 @@ X-Goproxy-Check-Redirect: skip&lt;/p&gt;
     <link href="https://github.com/yusing/go-proxy/releases/tag/0.9.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/go-proxy/releases/tag/0.9.4</id>
-    <title>New release for GoDoxy: 0.9.4</title>
+    <id>https://github.com/yusing/go-proxy/releases/tag/0.9.4-1</id>
+    <title>New release for GoDoxy: 0.9.4-1</title>
     <updated>2025-02-06T12:13:42-05:00</updated>
     <author>
       <name>yusing/go-proxy</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Support file server route, see &lt;a href="https://github.com/yusing/go-proxy/wiki/Docker-labels-and-Include-Files#key-file-server-properties"&gt;Wiki - Key File Server Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support file server route, see &lt;a href="https://github.com/yusing/go-proxy/wiki/Docker-labels-and-Route-Files#key-file-server-properties"&gt;Wiki - Key File Server Properties&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Routes will now fail when route idle watcher / health monitor fail to start&lt;/li&gt;
 &lt;li&gt;Rename &lt;code&gt;bypass&lt;/code&gt; in &lt;code&gt;rule.do&lt;/code&gt; to &lt;code&gt;pass&lt;/code&gt;, but &lt;code&gt;bypass&lt;/code&gt; with still work&lt;/li&gt;
 &lt;/ul&gt;
@@ -322,8 +322,9 @@ X-Goproxy-Check-Redirect: skip&lt;/p&gt;
 &lt;li&gt;webui: fix long line in &lt;strong&gt;Logs&lt;/strong&gt; page messing up the page&lt;/li&gt;
 &lt;li&gt;webui: now WebUI works with custom &lt;code&gt;GODOXY_API_ADDR&lt;/code&gt;. Thanks @Brandawg93, https://github.com/yusing/go-proxy-frontend/pull/6&lt;/li&gt;
 &lt;li&gt;code: cleanup route related code&lt;/li&gt;
+&lt;li&gt;bug: fix startup panic when no notification provider is set in v0.9.4-1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.9.3...0.9.4&lt;/p&gt;</content>
-    <link href="https://github.com/yusing/go-proxy/releases/tag/0.9.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/go-proxy/compare/0.9.3...0.9.4-1&lt;/p&gt;</content>
+    <link href="https://github.com/yusing/go-proxy/releases/tag/0.9.4-1" rel="alternate"/>
   </entry>
 </feed>
