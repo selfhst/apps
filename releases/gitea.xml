@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-02-06T01:30:44.958283-05:00</updated>
+  <updated>2025-02-06T02:30:44.490562-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -562,8 +562,12 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Security   * Build Gitea with Golang v1.23.6 to fix security bugs * BUGFIXES   * Fix a bug caused by status webhook template #33512&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Build Gitea with Golang v1.23.6 to fix security bugs &lt;/li&gt;
+&lt;li&gt;BUGFIXES  &lt;/li&gt;
+&lt;li&gt;Fix a bug caused by status webhook template #33512&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.23.3" rel="alternate"/>
   </entry>
 </feed>
