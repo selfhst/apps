@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-02-07T13:33:03.534883-05:00</updated>
+  <updated>2025-02-07T14:33:03.233669-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,7 +105,7 @@ dawarich_db:
 +   image: postgis/postgis:14-3.5-alpine
     shm_size: 1G
     container_name: dawarich_db&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If you're on an ARM system and already updated your postgres to 17, use &lt;code&gt;ghcr.io/baosystems/postgis:17-3.5&lt;/code&gt; image instead of &lt;code&gt;postgis/postgis:14-3.5-alpine&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you're on an ARM system and already updated your postgres to 17, use &lt;code&gt;ghcr.io/baosystems/postgis:17-3.5&lt;/code&gt; image instead of &lt;code&gt;postgis/postgis:14-3.5-alpine&lt;/code&gt;. Depending on which postgres version you're using, you can select a fitting docker image to replace your old one here: https://github.com/ImreSamu/docker-postgis?tab=readme-ov-file#recommended-versions-for-new-users&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Enabled Postgis extension for PostgreSQL.&lt;/li&gt;
