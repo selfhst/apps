@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SFTPGo Releases</title>
-  <updated>2025-02-07T14:31:30.171462-05:00</updated>
+  <updated>2025-02-07T15:31:27.668392-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,7 +117,7 @@ There is no point in having separate, overlapping permissions.&lt;/p&gt;</conten
 &lt;/ul&gt;
 &lt;h2&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;rsync: enforce a supported format and limit the allowed options.&lt;/li&gt;
+&lt;li&gt;rsync: enforce a supported format and limit the allowed options. &lt;a href="https://github.com/drakkan/sftpgo/security/advisories/GHSA-vj7w-3m8c-6vpx"&gt;CVE-2025-24366&lt;/a&gt;. Thanks to @ateamjkr for reporting.&lt;/li&gt;
 &lt;li&gt;WebUIs: fix for scrollbar not displaying in navigation sidebar.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/drakkan/sftpgo/releases/tag/v2.6.5" rel="alternate"/>
