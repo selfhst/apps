@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PWgen Releases</title>
-  <updated>2025-02-07T02:32:28.623206-05:00</updated>
+  <updated>2025-02-07T03:32:33.032532-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,7 +184,9 @@ docker run -d -p 5069:5069 \\
 &lt;li&gt;Modified the language selection dropdown in &lt;code&gt;index.html&lt;/code&gt; to include French as an option.&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;86 Added env variable for local wordlist. This implementation is a temporary one, as it disables default English language when used. Example usage:&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;Docker
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;bash
 docker run -d -p 5069:5069 -e PP_LOCAL_WORDLIST=/app/custom_wordlist.txt -v "A:\german.txt:/app/custom_wordlist.txt" jocxfin/pwgen:latest&lt;/code&gt;
 &lt;strong&gt;Changed:&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
