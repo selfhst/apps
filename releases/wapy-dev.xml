@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wapy.dev Releases</title>
-  <updated>2025-02-08T12:35:01.253036-05:00</updated>
+  <updated>2025-02-08T13:34:54.011711-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,35 @@
     </author>
     <content>&lt;p&gt;Initial release&lt;/p&gt;</content>
     <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/meceware/wapy.dev/releases/tag/v1.1.0</id>
+    <title>New release for Wapy.dev: v1.1.0</title>
+    <updated>2025-02-08T12:55:49-05:00</updated>
+    <author>
+      <name>meceware/wapy.dev</name>
+    </author>
+    <content>&lt;p&gt;New Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Paddle.com integration on the account page for seamless payment processing. This will not affect self hosted.&lt;/li&gt;
+&lt;li&gt;Refund Policy, Terms of Service, and Privacy Policy pages are now available. The footer menu has been updated to include these pages.&lt;/li&gt;
+&lt;li&gt;Pricing Page: A new Pricing page has been added for better plan visibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enhancements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Subscription &amp;amp; Sign-in Templates Updated (#6)&lt;/li&gt;
+&lt;li&gt;Add to Home Screen Prompt: The required number of visits has been reduced to 5 (previously 10).&lt;/li&gt;
+&lt;li&gt;Tailwind v4 &amp;amp; shadcn Updates (#39)&lt;/li&gt;
+&lt;li&gt;Moved edit pages under &lt;code&gt;/edit&lt;/code&gt; route. (#42)&lt;/li&gt;
+&lt;li&gt;Docker Ignore File Added&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fixes 🛠️
+- Sign-in Email Handling: Wrapped in a try/catch block to handle errors.
+- Email &amp;amp; Push notification title fixed for payment due. (#38)
+- Multiline notes issue resolved. Notes now display correctly. (#40)
+- 404 Page Fixes: Button/link issues resolved. (#41)
+- Minor UI Improvements: Adjustments to quotes, spacing, and text formatting.
+- Package updates.&lt;/p&gt;</content>
+    <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
