@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-02-08T20:30:43.089590-05:00</updated>
+  <updated>2025-02-08T21:30:44.005560-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -229,7 +229,7 @@ X-Goproxy-Check-Redirect: skip&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.9.1</id>
-    <title>New release for GoDoxy: 0.9.1</title>
+    <title>New release for GoDoxy: v0.9.1</title>
     <updated>2025-02-01T14:52:43-05:00</updated>
     <author>
       <name>yusing/go-proxy</name>
@@ -260,12 +260,12 @@ X-Goproxy-Check-Redirect: skip&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.9.2</id>
-    <title>New release for GoDoxy: 0.9.2</title>
+    <title>New release for GoDoxy: v0.9.2</title>
     <updated>2025-02-03T18:10:39-05:00</updated>
     <author>
       <name>yusing/go-proxy</name>
     </author>
-    <content>&lt;h2&gt;What's new in 0.9.2&lt;/h2&gt;
+    <content>&lt;h2&gt;What's new in v0.9.2&lt;/h2&gt;
 &lt;p&gt;This release is mainly about bug and error message fixes.&lt;/p&gt;
 &lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
@@ -304,7 +304,7 @@ X-Goproxy-Check-Redirect: skip&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/yusing/go-proxy/releases/tag/0.9.4-1</id>
-    <title>New release for GoDoxy: 0.9.4-1</title>
+    <title>New release for GoDoxy: v0.9.4-1</title>
     <updated>2025-02-06T12:13:42-05:00</updated>
     <author>
       <name>yusing/go-proxy</name>
