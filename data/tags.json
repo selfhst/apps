@@ -2,8 +2,8 @@
     {
         "Tag": "*arr",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -169,7 +169,8 @@
     {
         "Tag": "Comics",
         "Valid Types": [
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -286,8 +287,8 @@
     {
         "Tag": "Downloads",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -353,6 +354,7 @@
     {
         "Tag": "File Transfer and Sync",
         "Valid Types": [
+            "Companion",
             "Software"
         ]
     },
@@ -503,6 +505,12 @@
     },
     {
         "Tag": "Live Streaming",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Local File Sharing",
         "Valid Types": [
             "Software"
         ]
@@ -667,6 +675,12 @@
         ]
     },
     {
+        "Tag": "Paywalls",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Photos",
         "Valid Types": [
             "Companion",
@@ -676,13 +690,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
@@ -937,14 +951,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion",
+            "Software"
         ]
     },
     {
