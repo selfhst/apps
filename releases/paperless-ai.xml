@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-AI Releases</title>
-  <updated>2025-02-09T15:34:39.458778-05:00</updated>
+  <updated>2025-02-09T16:34:33.874453-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,11 +75,12 @@
   <entry>
     <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.5.5</id>
     <title>New release for Paperless-AI: v2.5.5</title>
-    <updated>2025-02-09T10:08:43-05:00</updated>
+    <updated>2025-02-09T15:44:34-05:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.5.4...v2.5.5&lt;/p&gt;
+&lt;p&gt;added the official paperless-ai Icon&lt;/p&gt;
 &lt;p&gt;Fixed a bug with settings not correctly submitting a field value.&lt;/p&gt;</content>
     <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.5.5" rel="alternate"/>
   </entry>

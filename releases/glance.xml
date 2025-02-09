@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-02-09T15:33:00.455663-05:00</updated>
+  <updated>2025-02-09T16:32:55.349282-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -732,7 +732,7 @@ limit: 10&lt;/code&gt;
 &lt;p&gt;(thanks @cmeadowstech &amp;amp; @JeckDev)&lt;/p&gt;
 &lt;h3&gt;&lt;a id="g-rh-24"&gt;&lt;/a&gt; [Extension] specify if content should have no frame&lt;/h3&gt;
 &lt;p&gt;Extensions can now return a &lt;code&gt;Widget-Content-Frameless&lt;/code&gt; header with a value of &lt;code&gt;true&lt;/code&gt; to have their content displayed without a frame (the lighter background and border).&lt;/p&gt;
-&lt;p&gt;(thansk @DallasHoff)&lt;/p&gt;
+&lt;p&gt;(thanks @DallasHoff)&lt;/p&gt;
 &lt;h3&gt;&lt;a id="g-rh-25"&gt;&lt;/a&gt; [Bookmarks] &lt;code&gt;target&lt;/code&gt; for links, &lt;code&gt;same-tab&lt;/code&gt; and &lt;code&gt;hide-arrow&lt;/code&gt; for groups&lt;/h3&gt;
 &lt;p&gt;You can now specify the target for links in the bookmarks widget:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yaml
