@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kimai Releases</title>
-  <updated>2025-02-09T05:34:21.219475-05:00</updated>
+  <updated>2025-02-09T06:33:59.328215-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -125,9 +125,9 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Compatible with PHP 8.1 to 8.4&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Improved daterange-picker selections: added last months and last quarters (#5317)&lt;/li&gt;
 &lt;li&gt;Improved export column lengths (#5325)&lt;/li&gt;
 &lt;li&gt;Added logout button to "Remember me" login form (#5325)&lt;/li&gt;
+&lt;li&gt;DateRange-picker: added last months and last quarters (#5317)&lt;/li&gt;
 &lt;li&gt;Year-selector: added dropdown with the list of the last 5 years (#5325)&lt;/li&gt;
 &lt;li&gt;Month selector: added dropdown with the list of all months up to January -2 years (#5325)&lt;/li&gt;
 &lt;li&gt;Week selector:  (#5325)&lt;/li&gt;
