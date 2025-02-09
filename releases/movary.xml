@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Movary Releases</title>
-  <updated>2025-02-09T12:34:45.042415-05:00</updated>
+  <updated>2025-02-09T13:34:40.321367-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,8 +104,8 @@
 - remove custom user configuration from your docker setups 
 - make sure the local files have the correct owner (&lt;code&gt;chown -R 3000:3000 ./storage&lt;/code&gt;)
 - map the docker user id to another one on your host
-- build the docker image yourself with your own custom ids
-For more information look &lt;a href="https://github.com/leepeuker/movary/pull/627"&gt;here&lt;/a&gt;.&lt;/p&gt;
+- build the docker image yourself with your own custom ids&lt;/p&gt;
+&lt;p&gt;For more information look &lt;a href="https://github.com/leepeuker/movary/pull/627"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Non docker users:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The minimum supported PHP version was upgraded from 8.3 to 8.4 &lt;/p&gt;
 &lt;h2&gt;Notable changes&lt;/h2&gt;
