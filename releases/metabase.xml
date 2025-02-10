@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-02-10T12:31:34.102635-05:00</updated>
+  <updated>2025-02-10T13:31:34.978310-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -348,6 +348,10 @@ JAR download: https://downloads.metabase.com/v0.53.1.x/metabase.jar&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.53.1.x&lt;/code&gt;&lt;/a&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.53.1.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Breaking changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drop Java 11/17 Support (#52620)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;New features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.metabase.com/docs/v0.53/questions/introduction#saving-questions"&gt;Questions in dashboards&lt;/a&gt;  (#47326, #51291, #51239, #51180, #51180)&lt;/li&gt;
@@ -364,7 +368,6 @@ JAR download: https://downloads.metabase.com/enterprise/v1.53.1.x/metabase.jar&l
 &lt;/ul&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Drop Java 11/17 Support (#52620)&lt;/li&gt;
 &lt;li&gt;Disable device login emails for authentication via the Embedding SDK (#52196)&lt;/li&gt;
 &lt;li&gt;Allow selecting future years in dashboard "Month and Year" and "Quarter and Year" filters (#26386)&lt;/li&gt;
 &lt;li&gt;Filter for specific entity types in entity picker search (#50526)&lt;/li&gt;

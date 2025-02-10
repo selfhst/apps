@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NewsBlur Releases</title>
-  <updated>2025-02-10T12:30:57.142053-05:00</updated>
+  <updated>2025-02-10T13:30:57.149111-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -50,5 +50,18 @@
     <content>&lt;p&gt;https://github.com/samuelclay/NewsBlur/issues/1912 Fix lowercase feed url
 https://github.com/samuelclay/NewsBlur/issues/1889 Move Fastlane folder to root&lt;/p&gt;</content>
     <link href="https://github.com/samuelclay/NewsBlur/releases/tag/Android_v13.3.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/samuelclay/NewsBlur/releases/tag/Android_13.4.0</id>
+    <title>New release for NewsBlur: Android v13.4.0</title>
+    <updated>2025-02-10T12:31:46-05:00</updated>
+    <author>
+      <name>samuelclay/NewsBlur</name>
+    </author>
+    <content>&lt;p&gt;https://github.com/samuelclay/NewsBlur/issues/1933 Option to choose tag when saving a story
+https://github.com/samuelclay/NewsBlur/issues/1932 Fetch story original text on demand
+https://github.com/samuelclay/NewsBlur/issues/1921 Fix ConcurrentModificationException in the Stories Type Adapter
+https://github.com/samuelclay/NewsBlur/issues/1922 Partial cursor management&lt;/p&gt;</content>
+    <link href="https://github.com/samuelclay/NewsBlur/releases/tag/Android_13.4.0" rel="alternate"/>
   </entry>
 </feed>
