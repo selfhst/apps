@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Papermark Releases</title>
-  <updated>2025-02-10T03:31:02.945256-05:00</updated>
+  <updated>2025-02-10T04:31:02.728286-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -463,13 +463,6 @@ We migrated earlier this month without a hitch, while keeping all links to docum
 &lt;li&gt;Use custom fields to better understand and segment your audience&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img alt="CleanShot 2025-01-13 at 18 41 31@2xnew" src="https://github.com/user-attachments/assets/8b83611a-3e10-4308-b0b8-5818947ccdc1" /&gt;&lt;/p&gt;
-&lt;h3&gt;Screen shield protection&lt;/h3&gt;
-&lt;p&gt;Protect sensitive content by adding a screen shield to your documents. This feature allows you to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Limits the visible area of your document&lt;/li&gt;
-&lt;li&gt;Increase difficulty of taking screen shots &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="CleanShot 2025-02-05 at 12 08 51@2x" src="https://github.com/user-attachments/assets/ac6b410d-9136-4488-89e1-8454ba9405cf" /&gt;&lt;/p&gt;
 &lt;h3&gt;New data room admin layout&lt;/h3&gt;
 &lt;p&gt;With the new data room layout, we are immersing you into your data room. The navigation overhaul makes it easy to find &lt;/p&gt;
 &lt;ul&gt;
@@ -507,7 +500,6 @@ We migrated earlier this month without a hitch, while keeping all links to docum
 &lt;li&gt;feat: add dataroomId to add new document to dataroom automatically by @mfts in https://github.com/mfts/papermark/pull/1399&lt;/li&gt;
 &lt;li&gt;refactor: improve verification token by @mfts in https://github.com/mfts/papermark/pull/1401&lt;/li&gt;
 &lt;li&gt;fix: allow managers to create restricted tokens by @mfts in https://github.com/mfts/papermark/pull/1403&lt;/li&gt;
-&lt;li&gt;feat: add screen shield by @mfts in https://github.com/mfts/papermark/pull/1402&lt;/li&gt;
 &lt;li&gt;fix: update group permissions for deeply nested files by @mfts in https://github.com/mfts/papermark/pull/1404&lt;/li&gt;
 &lt;li&gt;feat: add embeddable link by @mfts in https://github.com/mfts/papermark/pull/1405&lt;/li&gt;
 &lt;li&gt;feat: add delete domain modal by @mfts in https://github.com/mfts/papermark/pull/1406&lt;/li&gt;
