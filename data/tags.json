@@ -690,13 +690,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -951,14 +951,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion",
+            "Software"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "ActivityPub"
         ]
     },
     {
@@ -1104,6 +1104,12 @@
     },
     {
         "Tag": "Web Server",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Webhooks",
         "Valid Types": [
             "Software"
         ]
