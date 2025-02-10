@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>solidtime Releases</title>
-  <updated>2025-02-10T16:33:37.206797-05:00</updated>
+  <updated>2025-02-10T17:33:25.084912-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,7 +129,7 @@ APP_ENABLE_REGISTRATION="true"&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;After upgrade tasks&lt;/h2&gt;
 &lt;h3&gt;PDF reports&lt;/h3&gt;
 &lt;p&gt;This release adds the ability to create PDF report. To make this work you need to configure a PDF rendering service called &lt;a href="https://gotenberg.dev/"&gt;Gotenberg&lt;/a&gt;.
-We added this service to the self-hosting setups. If you already have a setup, please compare the changes in the self-hosting repository.&lt;/p&gt;
+We added this service to the self-hosting setups. If you already have a setup, please compare the &lt;a href="https://github.com/solidtime-io/self-hosting-examples/pull/8/files"&gt;changes in the self-hosting repository&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Computed fields&lt;/h3&gt;
 &lt;p&gt;In addition to running the migrations, it is necessary to recalculate the computed attributes.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;bash
@@ -142,7 +142,8 @@ docker compose exec scheduler php artisan computed-attributes:generate&lt;/code&
 &lt;p&gt;&lt;strong&gt;Bigger changes&lt;/strong&gt;
 * PDF reports
 * Add time tracker latest time entries dropdown
-* Added ability to disable registration&lt;/p&gt;
+* Added ability to disable registration
+* Enable exports for the local file system&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Smaller changes&lt;/strong&gt;
 * Change default generate key env to single line
 * Prevent stray requests in unit tests

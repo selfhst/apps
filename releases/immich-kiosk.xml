@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-02-10T16:33:54.474455-05:00</updated>
+  <updated>2025-02-10T17:33:42.954011-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,13 +235,14 @@ kiosk:
 &lt;p&gt;&lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#date-range"&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Date filter&lt;/h2&gt;
-&lt;p&gt;The date filter allow you to filter asset buckets (people/albums) by date.&lt;/p&gt;
+&lt;p&gt;The date filter allow you to filter asset buckets (random and person/people) by date.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
 &lt;code&gt;http://{URL}?person=PERSON_ID&amp;amp;date_filter=2023-01-01_to_2023-02-01&lt;/code&gt; will only show assets of the supplied person between 2023-01-01 and 2023-02-01.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#filters"&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Multiple Users&lt;/h2&gt;
 &lt;p&gt;You can now add multiple user API keys to access assets from their account. This is useful if you want to display different users assets on different devices without spinning up multiple Kiosk instances.&lt;/p&gt;
+&lt;p&gt;Shoutout to @tal-sitton for creating this feature. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#multiple-users"&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Blacklist&lt;/h2&gt;
