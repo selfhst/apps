@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-02-09T21:34:43.446654-05:00</updated>
+  <updated>2025-02-09T22:34:28.995910-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -230,16 +230,16 @@
 &lt;/ul&gt;
 &lt;h2&gt;🧪 new features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;show rtt (network latency to server) in the top status text d27f1104 &lt;/li&gt;
-&lt;li&gt;and log client rtt in serverlogs 20ddeb6e&lt;/li&gt;
+&lt;li&gt;show rtt (network latency to server, including request processing time) in the top status text d27f1104 &lt;/li&gt;
+&lt;li&gt;and log the client-reported RTT to serverlog 20ddeb6e&lt;/li&gt;
 &lt;li&gt;remember file selection when changing folders c7db08ed&lt;/li&gt;
 &lt;li&gt;good for when you accidentally navigate elsewhere&lt;/li&gt;
 &lt;li&gt;option to restrict download-as-zip/tar to admins-only c87af9e8&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;135 add &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/bin/README.md#bubblepartysh"&gt;bubbleparty&lt;/a&gt;, thx @coderofsalvation! 3582a100&lt;/h1&gt;
 &lt;/li&gt;
-&lt;li&gt;runs copyparty in a sandbox, making it harder to gain unintended access through bugs in python or copyparty&lt;/li&gt;
-&lt;li&gt;better alternative to &lt;a href="https://github.com/9001/copyparty/tree/hovudstraum/bin#prisonpartysh"&gt;prisonparty&lt;/a&gt;, more similar to &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/contrib/nixos/modules/copyparty.nix"&gt;the sandboxing in the nixos package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;runs copyparty in a &lt;a href="https://github.com/containers/bubblewrap"&gt;sandbox&lt;/a&gt;, making it harder to gain unintended access through bugs in python or copyparty&lt;/li&gt;
+&lt;li&gt;better alternative to &lt;a href="https://github.com/9001/copyparty/tree/hovudstraum/bin#prisonpartysh"&gt;prisonparty&lt;/a&gt;, more similar to &lt;a href="https://github.com/9001/copyparty/blob/7dda77dcb/contrib/nixos/modules/copyparty.nix#L232-L272"&gt;the sandboxing in the nixos package&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;new plugin: &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/contrib/plugins/quickmove.js"&gt;quickmove&lt;/a&gt; 46f9e9ef&lt;/li&gt;
 &lt;li&gt;adds hotkey &lt;code&gt;W&lt;/code&gt; to quickly move selected files into a subfolder&lt;/li&gt;
 &lt;li&gt;
@@ -255,14 +255,14 @@
 &lt;/ul&gt;
 &lt;h2&gt;🔧 other changes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;safeguard against accidental config loss cd71b505&lt;/li&gt;
+&lt;li&gt;while no copyparty servers have ended up in this unfortunate situation yet (afaik), be proactive and borrow some experience from other docker-based services&lt;/li&gt;
+&lt;li&gt;readme: improve config examples 32e90859&lt;/li&gt;
 &lt;li&gt;improve serverlog entries regarding 403s b020fd4a&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;132 mention fuse permissions in readme d9d2a092&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;traefik-example: fix disconnect during big uploads 6a9ffe7e&lt;/li&gt;
-&lt;li&gt;readme: improve config examples 32e90859&lt;/li&gt;
-&lt;li&gt;safeguard against accidental config loss cd71b505&lt;/li&gt;
-&lt;li&gt;while no copyparty servers have ended up in this unfortunate situation yet (afaik), be proactive and borrow some experience from other docker-based services&lt;/li&gt;
 &lt;li&gt;try to show an appropriate warning for media that the browser doesn't support playing 4ef35263&lt;/li&gt;
 &lt;li&gt;was an attempt at detecting iphones failing to play high-color-precision webm files, but safari doesn't itself detect that playback has failed, ah well &lt;/li&gt;
 &lt;li&gt;copyparty.exe: update to python 3.12.9&lt;/li&gt;
