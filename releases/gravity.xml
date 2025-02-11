@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gravity Releases</title>
-  <updated>2025-02-11T14:31:56.338150-05:00</updated>
+  <updated>2025-02-11T15:32:03.141916-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,19 +105,19 @@
     <link href="https://github.com/BeryJu/gravity/releases/tag/v0.26.1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/BeryJu/gravity/releases/tag/v0.26.3</id>
-    <title>New release for Gravity: Release 0.26.3</title>
-    <updated>2025-02-11T12:09:11-05:00</updated>
+    <id>https://github.com/BeryJu/gravity/releases/tag/v0.26.4</id>
+    <title>New release for Gravity: Release 0.26.4</title>
+    <updated>2025-02-11T14:53:34-05:00</updated>
     <author>
       <name>BeryJu/gravity</name>
     </author>
     <content>&lt;p&gt;Upgrade to this version of gravity by using this container image:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ghcr.io/beryju/gravity:v0.26.3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ghcr.io/beryju/gravity:v0.26.4&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Upgrade to the current JS API Client using&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;npm i gravity-api@0.26.3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm i gravity-api@0.26.4&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Upgrade to the current Golang API Client using&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;go get beryju.io/gravity@v0.26.3&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/BeryJu/gravity/compare/v0.26.2...v0.26.3&lt;/p&gt;</content>
-    <link href="https://github.com/BeryJu/gravity/releases/tag/v0.26.3" rel="alternate"/>
+&lt;p&gt;&lt;code&gt;go get beryju.io/gravity@v0.26.4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/BeryJu/gravity/compare/v0.26.3...v0.26.4&lt;/p&gt;</content>
+    <link href="https://github.com/BeryJu/gravity/releases/tag/v0.26.4" rel="alternate"/>
   </entry>
 </feed>
