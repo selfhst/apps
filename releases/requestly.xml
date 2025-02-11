@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-02-11T11:32:42.792891-05:00</updated>
+  <updated>2025-02-11T12:32:35.487631-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,5 +121,35 @@
 &lt;li&gt;Fixed block list issues on the Desktop app. Both domains and their subdomains will be blocked as expected when connected via the desktop app. Previously, only the subdomains were blocked.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.02.03" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/requestly/requestly/releases/tag/changelog-2025.02.10</id>
+    <title>New release for Requestly: February 10, 2025</title>
+    <updated>2025-02-11T11:37:11-05:00</updated>
+    <author>
+      <name>requestly/requestly</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="February 10, 2025 Weekly updates - Export Requestly Collections, Edge &amp;amp; firefox extensions updated" src="https://github.com/user-attachments/assets/d9faf67c-1aa2-4b15-8098-dc8aa223ecc1" /&gt;&lt;/p&gt;
+&lt;h3&gt;✨ New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Export collections&lt;/strong&gt;: Enabled Collection export in JSON format for easy sharing or storing in version control systems. A step towards upcoming local collection support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensions Updated&lt;/strong&gt;: The latest version is now live on &lt;a href="https://microsoftedge.microsoft.com/addons/detail/requestly-free-api-test/ehghoapnlpepjmfbgaomdiilchcjemak?hl=en-US"&gt;Edge&lt;/a&gt; and Firefox!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💎 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Performance optimization&lt;/strong&gt;: Moved SVGs to the public folder and removed unnecessary imports to enhance app performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐞 Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;API Client&lt;/code&gt; When switching between Raw &amp;amp; JSON views in fullscreen mode, the fullscreen view now remains consistent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;API Client&lt;/code&gt; Fixed a bug where global variables were disappearing.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;API Client&lt;/code&gt; Status text now correctly populates in scripts.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;API Client&lt;/code&gt; Fixed an issue where renaming a request caused unintended duplication.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;API Client&lt;/code&gt; Environments now maintain a consistent order between the switcher modal and the environment list.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;General&lt;/code&gt; Fixed broken in-app links and missing redirects to documentation.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;General&lt;/code&gt; Resolved multiple app crash scenarios.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/requestly/requestly/releases/tag/changelog-2025.02.10" rel="alternate"/>
   </entry>
 </feed>
