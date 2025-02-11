@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PairDrop Releases</title>
-  <updated>2025-02-11T09:32:30.484073-05:00</updated>
+  <updated>2025-02-11T10:32:14.480745-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,28 @@
     <author>
       <name>schlagmichdoch/PairDrop</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Enhancements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prevent referrer in created links in message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prevent wrong &lt;code&gt;start_url&lt;/code&gt; when installing PairDrop PWA from sub path (#329)&lt;/li&gt;
+&lt;li&gt;Hotfix: Disable thumbnail creation for HEIC/HEIF files until PR #350 is merged (hotfix for #336)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New Language Bulgarian&lt;/li&gt;
+&lt;li&gt;New Language Estonian&lt;/li&gt;
+&lt;li&gt;New Language Basque&lt;/li&gt;
+&lt;li&gt;New Language Persian&lt;/li&gt;
+&lt;li&gt;New Language Norwegian Nynorsk&lt;/li&gt;
+&lt;li&gt;New Language Slovak&lt;/li&gt;
+&lt;li&gt;New Language Tamil&lt;/li&gt;
+&lt;li&gt;New Language Hant Script&lt;/li&gt;
+&lt;li&gt;New Language Korean&lt;/li&gt;
+&lt;li&gt;Translations updates from Hosted Weblate (Indonesian, Arabic, Italian, Czech, Japanese, Ukrainian, Russian, German, Portuguese (Brazil))&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/schlagmichdoch/PairDrop/releases/tag/v1.10.11" rel="alternate"/>
   </entry>
 </feed>
