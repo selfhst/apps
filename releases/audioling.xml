@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Audioling Releases</title>
-  <updated>2025-02-11T00:34:25.430627-05:00</updated>
+  <updated>2025-02-11T01:34:21.128909-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,7 +19,7 @@
     </author>
     <content>&lt;p&gt;Welcome to the v0.1.0 release of audioling!&lt;/p&gt;
 &lt;p&gt;This is a feature-limited release, so that you can get your hands on audioling to begin testing out features such as the drag/drop UX, track querying, and the priority queue mode. &lt;strong&gt;This release only contains support for (Open)Subsonic servers, with Jellyfin coming soon (tbd).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A breakdown of completed and in-progress features and pages are &lt;a href="https://github.com/audioling/audioling/issues/37"&gt;listed here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A breakdown of completed and in-progress features and pages are &lt;a href="https://github.com/audioling/audioling/issues/37"&gt;listed here&lt;/a&gt;. Docker builds will be provided in a later release.&lt;/p&gt;
 &lt;p&gt;I encourage everyone to attempt to break the app and &lt;a href="https://github.com/audioling/audioling/issues/new?template=02-bug_report.yml"&gt;submit a bug report&lt;/a&gt; if you do. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/audioling/audioling/issues/new?template=01-feature_request.yml"&gt;Feature requests&lt;/a&gt; are also now formally open. If you have already submitted an idea in the &lt;a href="https://github.com/audioling/audioling/discussions"&gt;discussions&lt;/a&gt;, please do not open a duplicate. I will be converting them to feature request issues in the near future.&lt;/p&gt;</content>
     <link href="https://github.com/audioling/audioling/releases/tag/audioling-v0.1.0" rel="alternate"/>
