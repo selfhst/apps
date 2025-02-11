@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-02-11T05:34:29.648268-05:00</updated>
+  <updated>2025-02-11T06:33:57.039201-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -224,11 +224,16 @@ kiosk:
       <name>damongolding/immich-kiosk</name>
     </author>
     <content>&lt;p&gt;&lt;img alt="" src="https://immich-kiosk.vercel.app/api/banner?v=0.16.0" /&gt;&lt;/p&gt;
+&lt;h2&gt;Icons&lt;/h2&gt;
+&lt;p&gt;Added some icons to the Metadata overlay to help differentiate the data.&lt;/p&gt;
+&lt;p&gt;&lt;img width="339" alt="Screenshot 2025-02-11 at 10 45 14 am" src="https://github.com/user-attachments/assets/d2566fd7-fda6-4b3c-9e60-ba6936a9c303" /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 &lt;h2&gt;Album videos (experimental)&lt;/h2&gt;
 &lt;p&gt;This feature is experimental and currently only supports album videos with certain limitations so please &lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#experimental-album-video-support"&gt;Read the docs&lt;/a&gt;.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Redirect(s) GUI&lt;/h2&gt;
 &lt;p&gt;If you have any redirects configured in your &lt;code&gt;config.yaml&lt;/code&gt; file, you will now see a button in the menu that displays them on the frontend for easy URL switching.&lt;/p&gt;
+&lt;p&gt;&lt;img width="75" alt="Screenshot 2025-02-11 at 10 47 31 am-2" src="https://github.com/user-attachments/assets/3910366d-ef24-4013-93ac-ec2a3cc16ab1" /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Date: last-xx-days&lt;/h2&gt;
 &lt;p&gt;Added new format to the &lt;code&gt;date&lt;/code&gt; asset bucket. &lt;code&gt;last-xx-days&lt;/code&gt; e.g. &lt;code&gt;date=last-30-days&lt;/code&gt;&lt;/p&gt;

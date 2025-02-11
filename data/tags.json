@@ -504,6 +504,12 @@
         ]
     },
     {
+        "Tag": "Language",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Live Streaming",
         "Valid Types": [
             "Software"
@@ -1145,7 +1151,7 @@
         ]
     },
     {
-        "Tag": "Year in Review",
+        "Tag": "Year-in-Review",
         "Valid Types": [
             "Software"
         ]
