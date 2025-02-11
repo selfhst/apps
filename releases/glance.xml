@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-02-10T23:32:51.932739-05:00</updated>
+  <updated>2025-02-11T00:33:04.014457-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -767,8 +767,8 @@ limit: 10&lt;/code&gt;
 &lt;p&gt;You can also specify a template for the &lt;code&gt;chart-link&lt;/code&gt; and &lt;code&gt;symbol-link&lt;/code&gt; so you don't have to repeat the same URL for each market:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yaml
 - type: markets
-  chart-link-template: https://tradingview.com/chart?symbol={symbol}
-  symbol-link-template: https://finance.yahoo.com/quote/{symbol}
+  chart-link-template: https://tradingview.com/chart?symbol={SYMBOL}
+  symbol-link-template: https://finance.yahoo.com/quote/{SYMBOL}
   markets:
     - symbol: AAPL
     - symbol: TSLA
