@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyplist Releases</title>
-  <updated>2025-02-11T06:34:56.662919-05:00</updated>
+  <updated>2025-02-11T07:34:43.117471-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -295,14 +295,7 @@ Want to know what quality score (and many other details) a track has ? Just doub
 &lt;li&gt;Pinned postgres version to 17.2&lt;/li&gt;
 &lt;li&gt;Enhanced error logging in tasks&lt;/li&gt;
 &lt;li&gt;several fixes and improvements for the Jellyfin API Client&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;merge back by @kamilkosek in https://github.com/kamilkosek/jellyplist/pull/34&lt;/li&gt;
-&lt;li&gt;case-insensitive image formats by @artyorsh in https://github.com/kamilkosek/jellyplist/pull/37&lt;/li&gt;
-&lt;li&gt;Merge dev into main by @kamilkosek in https://github.com/kamilkosek/jellyplist/pull/54&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kamilkosek/jellyplist/compare/0.1.8...v0.1.9&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/kamilkosek/jellyplist/releases/tag/v0.1.9" rel="alternate"/>
   </entry>
 </feed>
