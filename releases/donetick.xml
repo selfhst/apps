@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-12T08:34:50.592794-05:00</updated>
+  <updated>2025-02-12T09:34:42.998212-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,7 +144,7 @@ if configured correctly you should see new button appear on the login page :
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add Support for Webhook!&lt;/li&gt;
-&lt;li&gt;Notification and task not generate event can be consume via webhooks&lt;/li&gt;
+&lt;li&gt;task completion, task reminder and thing updates generate event can be consume via webhooks&lt;/li&gt;
 &lt;li&gt;Add Modal to Edit &lt;code&gt;things&lt;/code&gt; &lt;/li&gt;
 &lt;li&gt;Add a custom 404 page &lt;/li&gt;
 &lt;li&gt;Fix Bug in Update things with Type strings&lt;/li&gt;
