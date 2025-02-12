@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-02-12T11:33:12.204458-05:00</updated>
+  <updated>2025-02-12T12:33:11.344175-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,7 +90,7 @@ Since this release the Docker images only get pushed to the &lt;code&gt;ghcr.io/
     <content>&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add ability to override the UI configuration with environment variables (&lt;a href="https://github.com/pocket-id/pocket-id/commit/4e858420e9d9713e19f3b35c45c882403717f72f"&gt;4e85842&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;add warning for only having one passkey configured (&lt;a href="https://github.com/pocket-id/pocket-id/issues/220"&gt;#220&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add warning for only having one passkey configured (&lt;a href="https://github.com/pocket-id/pocket-id/issues/220"&gt;#220&lt;/a&gt; by @kmendell)&lt;/li&gt;
 &lt;li&gt;display source in user and group table (&lt;a href="https://github.com/pocket-id/pocket-id/issues/225"&gt;#225&lt;/a&gt; by @kmendell)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
