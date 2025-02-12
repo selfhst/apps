@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PortChecker Releases</title>
-  <updated>2025-02-12T10:34:28.486860-05:00</updated>
+  <updated>2025-02-12T11:34:24.686247-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,7 +106,7 @@
   <entry>
     <id>https://github.com/dsgnr/portchecker.io/releases/tag/v3.2.1</id>
     <title>New release for PortChecker: v3.2.1</title>
-    <updated>2025-02-12T10:29:28-05:00</updated>
+    <updated>2025-02-12T10:39:55-05:00</updated>
     <author>
       <name>dsgnr/portchecker.io</name>
     </author>
@@ -123,6 +123,7 @@
 &lt;li&gt;[api] Bump tomli from 2.1.0 to 2.2.1 in /backend by @dependabot in https://github.com/dsgnr/portchecker.io/pull/288&lt;/li&gt;
 &lt;li&gt;Update image path for Ko-Fi by @dsgnr in https://github.com/dsgnr/portchecker.io/pull/302&lt;/li&gt;
 &lt;li&gt;Allow API service hostname to be defined by @dsgnr in https://github.com/dsgnr/portchecker.io/pull/303&lt;/li&gt;
+&lt;li&gt;Correct documentation for API_URL environment variable" by @dsgnr in https://github.com/dsgnr/portchecker.io/pull/304&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dsgnr/portchecker.io/compare/v3.2.0...v3.2.1&lt;/p&gt;</content>
     <link href="https://github.com/dsgnr/portchecker.io/releases/tag/v3.2.1" rel="alternate"/>
