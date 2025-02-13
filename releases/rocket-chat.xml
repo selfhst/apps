@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-02-13T09:31:25.720618-05:00</updated>
+  <updated>2025-02-13T10:31:26.516232-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -191,7 +191,7 @@ last year&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;20.17.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Apps-Engine: &lt;code&gt;undefined&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Apps-Engine: &lt;code&gt;1.47.4&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Patch Changes&lt;/h3&gt;
 &lt;ul&gt;
