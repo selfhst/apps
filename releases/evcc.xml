@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-02-13T14:34:24.512897-05:00</updated>
+  <updated>2025-02-13T15:34:14.033094-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,9 +147,10 @@
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;New and noteworthy&lt;/h2&gt;
+&lt;p&gt;We've made it to 0.200.0! This is the biggest evolutionary step since launching evcc- configuration is now done via UI. Yaml is no longer needed (...unless you need custom devices).&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;0516b5c807d09223119672ff1359256e650c7a6b  chore: upgrade hasura/go-graphql-client&lt;/li&gt;
 &lt;li&gt;e59aead86898fcac0abdbae6739d03000c3435a8 ACThor: add temp source (#18431)&lt;/li&gt;
 &lt;li&gt;9e1ae8c98b85a0bf27a3ce0c59bdd0a3ef998ed5 Add Amtron 4You 310 charger (#18755)&lt;/li&gt;
 &lt;li&gt;c6ddc9b8561da751a2c61d4dd05aadb1c3008cfe Add meter Solarwatt Manager flex (#18561)&lt;/li&gt;
