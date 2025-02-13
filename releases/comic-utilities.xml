@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Comic Utilities Releases</title>
-  <updated>2025-02-13T09:35:23.846951-05:00</updated>
+  <updated>2025-02-13T13:35:15.891024-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,48 @@
 * Re-pull and Update to deploy
 * If you wish to use the new features - ensure you have the additional &lt;code&gt;volume&lt;/code&gt; &amp;amp; &lt;code&gt;environment&lt;/code&gt; variables added to your docker compose.&lt;/p&gt;</content>
     <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.0</id>
+    <title>New release for Comic Utilities: Version 1.1 - Directory/File Browsing &amp; New Features</title>
+    <updated>2025-02-13T11:37:29-05:00</updated>
+    <author>
+      <name>allaboutduncan/comic-utils</name>
+    </author>
+    <content>&lt;h1&gt;Release Version 1.1 Changelog&lt;/h1&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Full UI:&lt;/strong&gt; support for browsing you comic directories and selecting folders or files&lt;ul&gt;
+&lt;li&gt;If a file is selected via UI, you will be dropped into the same directory when you click Browse&lt;/li&gt;
+&lt;li&gt;Validation added to dis-allow running of functions on your entire library&lt;/li&gt;
+&lt;li&gt;You can still paste in a directory or file path as well&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Feature&lt;/strong&gt; - Remove tables or markdown from &lt;code&gt;ComicInfo.xml&lt;/code&gt; Comments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Feature&lt;/strong&gt; - Update Volume in &lt;code&gt;ComicInfo.xml&lt;/code&gt; based on year in first issue name&lt;/li&gt;
+&lt;li&gt;Updated UI to prevent user from running another process while one is running&lt;/li&gt;
+&lt;li&gt;Update to web based config settings - except for folder monitoring&lt;/li&gt;
+&lt;li&gt;Added header navigation with snazzy logo&lt;/li&gt;
+&lt;li&gt;Added log monitoring in app&lt;/li&gt;
+&lt;li&gt;Updated folder monitoring to auto-convert to CBZ after renaming (if enabled in web UI)&lt;/li&gt;
+&lt;li&gt;Updated folder monitoring to traverse sub-ddirectories (if enabled in web ui)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Back End Updates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Migrated UI to templates using Jinja2&lt;/li&gt;
+&lt;li&gt;Consolidated loading of config values to ensure update via web UI are utilized&lt;/li&gt;
+&lt;li&gt;Consolidated logging config to single file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug Fix: Status messages could time out on long processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Docker Delpoy&lt;/h2&gt;
+&lt;p&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
+&lt;li&gt;Update your Docker Compose - as some items have been moved to in-app config&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
