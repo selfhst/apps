@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Comic Utilities Releases</title>
-  <updated>2025-02-13T16:35:41.847475-05:00</updated>
+  <updated>2025-02-13T17:35:12.864215-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,7 +37,7 @@
   </entry>
   <entry>
     <id>https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.0</id>
-    <title>New release for Comic Utilities: Version 1.1 - Directory/File Browsing &amp; New Features</title>
+    <title>New release for Comic Utilities: Version 1.1.0 - Directory/File Browsing &amp; New Features</title>
     <updated>2025-02-13T11:37:29-05:00</updated>
     <author>
       <name>allaboutduncan/comic-utils</name>
@@ -77,5 +77,23 @@
 &lt;li&gt;Update your Docker Compose - as some items have been moved to in-app config&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.1</id>
+    <title>New release for Comic Utilities: v1.1.1 - Bug Fix: Add Blank Image</title>
+    <updated>2025-02-13T16:43:56-05:00</updated>
+    <author>
+      <name>allaboutduncan/comic-utils</name>
+    </author>
+    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bug Fix:&lt;/strong&gt; Missing Image / Incorrect Image path for blank image in &lt;a href="add.py"&gt;add.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Docker Delpoy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
