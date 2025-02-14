@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-02-14T03:34:47.469917-05:00</updated>
+  <updated>2025-02-14T04:34:49.469626-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -250,8 +250,11 @@
 &lt;h2&gt;🔧 other changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Docker-only: quick hacky fix for the &lt;a href="https://www.openwall.com/lists/musl/2025/02/13/1"&gt;musl CVE&lt;/a&gt; until the official fix is out 4d6626b0&lt;/li&gt;
-&lt;li&gt;the docker images will be rebuilt when &lt;code&gt;musl-1.2.5-r10.apk&lt;/code&gt; is released, in 6~24h or so&lt;/li&gt;
-&lt;li&gt;until then, there is no support for reading korean XML files when running in docker&lt;/li&gt;
+&lt;li&gt;~~the docker images will be rebuilt when &lt;code&gt;musl-1.2.5-r9.apk&lt;/code&gt; is released, in 6~24h or so~~&lt;ul&gt;
+&lt;li&gt;the docker images have been rebuilt with the proper fix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;~~until then, there is no support for reading korean XML files when running in docker~~&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h1&gt;💾 what to download?&lt;/h1&gt;
