@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-02-14T14:34:57.452852-05:00</updated>
+  <updated>2025-02-14T15:34:52.760279-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -255,6 +255,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;~~until then, there is no support for reading korean XML files when running in docker~~&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🗿 known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;some cosmetic volflag stuff, all harmless&lt;/li&gt;
+&lt;li&gt;disabling a volflag &lt;code&gt;foo&lt;/code&gt; with &lt;code&gt;-foo&lt;/code&gt; shows a warning that &lt;code&gt;-foo&lt;/code&gt; was not a recognized volflag, but it still does the right thing&lt;/li&gt;
+&lt;li&gt;some volflags give the &lt;em&gt;"unrecognized volflag, will ignore"&lt;/em&gt; warning, but not to worry, they still work just fine:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;xz&lt;/code&gt; to allow serverside xz-compression of uploaded files &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h1&gt;💾 what to download?&lt;/h1&gt;
