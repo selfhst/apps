@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-02-14T07:34:14.570989-05:00</updated>
+  <updated>2025-02-14T08:34:11.715140-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,6 +149,10 @@
     </author>
     <content>&lt;h2&gt;New and noteworthy&lt;/h2&gt;
 &lt;p&gt;We've made it to 0.200.0! This is the biggest evolutionary step since launching evcc- configuration is now done via UI. Yaml is no longer needed (...unless you need custom devices).&lt;/p&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All meters must be associated with the site. This is especially relevant for meters only used for load management.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;e59aead86898fcac0abdbae6739d03000c3435a8 ACThor: add temp source (#18431)&lt;/li&gt;
