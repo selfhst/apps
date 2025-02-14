@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-02-14T10:31:43.312846-05:00</updated>
+  <updated>2025-02-14T11:31:42.042991-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -355,6 +355,9 @@ JAR download: https://downloads.metabase.com/v0.53.2.x/metabase.jar&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.53.2.x&lt;/code&gt;&lt;/a&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.53.2.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Metabase 53 requires Java 21. Java 11/17 is no longer supported &lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove blue color from identifiers in the SQL editor (#53479)&lt;/li&gt;
