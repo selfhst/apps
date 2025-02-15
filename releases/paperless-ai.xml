@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless AI Releases</title>
-  <updated>2025-02-15T15:34:39.122475-05:00</updated>
+  <updated>2025-02-15T16:34:39.023705-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,11 +66,19 @@
   <entry>
     <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.6.5</id>
     <title>New release for Paperless AI: v2.6.5</title>
-    <updated>2025-02-15T12:42:22-05:00</updated>
+    <updated>2025-02-15T15:49:46-05:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.6.4...v2.6.5&lt;/p&gt;</content>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: CustomPrompt by @MephistoJB in https://github.com/clusterzx/paperless-ai/pull/343&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@MephistoJB made their first contribution in https://github.com/clusterzx/paperless-ai/pull/343&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.6.4...v2.6.5&lt;/p&gt;</content>
     <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.6.5" rel="alternate"/>
   </entry>
 </feed>
