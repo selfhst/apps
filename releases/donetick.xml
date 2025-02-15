@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-15T00:34:30.072138-05:00</updated>
+  <updated>2025-02-15T01:35:08.477632-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,8 +163,10 @@ if configured correctly you should see new button appear on the login page :
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;1573dfcf8e9424fd7490b902b38ba3bf660dcdc1 Merge branch 'dev'&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;Fix issue with add task model &lt;/li&gt;
+&lt;li&gt;Add support for marking task as complete from the external API. Which allow homeassistant addon and integration to mark task as completed &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.0.33...v0.1.35&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.1.35" rel="alternate"/>
   </entry>
 </feed>

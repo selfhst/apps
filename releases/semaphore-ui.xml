@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Semaphore UI Releases</title>
-  <updated>2025-02-15T00:34:15.243195-05:00</updated>
+  <updated>2025-02-15T01:34:54.020751-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,16 +65,16 @@
     <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.12.9" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/semaphoreui/semaphore/releases/tag/v2.12.11</id>
-    <title>New release for Semaphore UI: v2.12.11</title>
-    <updated>2025-02-12T13:48:06-05:00</updated>
+    <id>https://github.com/semaphoreui/semaphore/releases/tag/v2.12.14</id>
+    <title>New release for Semaphore UI: v2.12.14</title>
+    <updated>2025-02-15T00:50:33-05:00</updated>
     <author>
       <name>semaphoreui/semaphore</name>
     </author>
-    <content>&lt;h2&gt;Bugfixes&lt;/h2&gt;
+    <content>&lt;h2&gt;Bugfix&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Create separate image for Semaphore with PowerShell. Tag: &lt;code&gt;v2.12.*-powershell7.5.0&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.12.11" rel="alternate"/>
+    <link href="https://github.com/semaphoreui/semaphore/releases/tag/v2.12.14" rel="alternate"/>
   </entry>
 </feed>
