@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jetlog Releases</title>
-  <updated>2025-02-15T08:33:14.497004-05:00</updated>
+  <updated>2025-02-15T09:33:09.301710-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,5 +88,46 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/v1.0.2...1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/pbogre/jetlog/releases/tag/1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pbogre/jetlog/releases/tag/v1.1.1</id>
+    <title>New release for Jetlog: v1.1.1</title>
+    <updated>2025-02-15T08:41:48-05:00</updated>
+    <author>
+      <name>pbogre/jetlog</name>
+    </author>
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ability to &lt;em&gt;fetch flight data&lt;/em&gt; automatically using the flight number field 🎉&lt;/li&gt;
+&lt;li&gt;Statistics for airline frequency 🎉&lt;/li&gt;
+&lt;li&gt;Various new fields, including &lt;code&gt;airline&lt;/code&gt;, &lt;code&gt;tail_number&lt;/code&gt;, &lt;code&gt;purpose&lt;/code&gt; 🎉&lt;/li&gt;
+&lt;li&gt;Flight distance and duration will now automatically update when (implicitly) edited&lt;/li&gt;
+&lt;li&gt;Ability to import new fields from MyFlightRadar24&lt;/li&gt;
+&lt;li&gt;Many UI improvements&lt;/li&gt;
+&lt;li&gt;Fixes related to statistics API&lt;/li&gt;
+&lt;li&gt;Fixes related to importing / exporting&lt;/li&gt;
+&lt;li&gt;CI/CD pipeline for automatic docker images&lt;/li&gt;
+&lt;li&gt;Various other bug fixes and enhancements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Flight fetching via callsign by @pbogre in https://github.com/pbogre/jetlog/pull/76&lt;/li&gt;
+&lt;li&gt;Importing: Use csv module for parsing by @ClumsyAdmin in https://github.com/pbogre/jetlog/pull/75&lt;/li&gt;
+&lt;li&gt;Add Airline Field by @cfarrell987 in https://github.com/pbogre/jetlog/pull/77&lt;/li&gt;
+&lt;li&gt;(fix) Sanitize query inputs for airport, airline endpoints by @pbogre in https://github.com/pbogre/jetlog/pull/81&lt;/li&gt;
+&lt;li&gt;Automatically update flight distance when updating airports by @pbogre in https://github.com/pbogre/jetlog/pull/82&lt;/li&gt;
+&lt;li&gt;Improvements to MFR24 importing (+ import airlines) by @pbogre in https://github.com/pbogre/jetlog/pull/83&lt;/li&gt;
+&lt;li&gt;Airline statistics, grid layout improvements by @pbogre in https://github.com/pbogre/jetlog/pull/84&lt;/li&gt;
+&lt;li&gt;Update flight duration when editing arrival/departure times by @pbogre in https://github.com/pbogre/jetlog/pull/85&lt;/li&gt;
+&lt;li&gt;enhancement : CI pipeline for pushing the docker image  by @Helion55 in https://github.com/pbogre/jetlog/pull/79&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@ClumsyAdmin made their first contribution in https://github.com/pbogre/jetlog/pull/75&lt;/li&gt;
+&lt;li&gt;@cfarrell987 made their first contribution in https://github.com/pbogre/jetlog/pull/77&lt;/li&gt;
+&lt;li&gt;@Helion55 made their first contribution in https://github.com/pbogre/jetlog/pull/79&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pbogre/jetlog/compare/1.1.0...v1.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/pbogre/jetlog/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
