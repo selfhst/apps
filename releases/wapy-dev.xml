@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wapy.dev Releases</title>
-  <updated>2025-02-15T09:34:36.319793-05:00</updated>
+  <updated>2025-02-15T10:34:38.988821-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,24 @@
 - Minor UI Improvements: Adjustments to quotes, spacing, and text formatting.
 - Package updates.&lt;/p&gt;</content>
     <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/meceware/wapy.dev/releases/tag/v1.2.0</id>
+    <title>New release for Wapy.dev: v1.2.0</title>
+    <updated>2025-02-15T09:56:22-05:00</updated>
+    <author>
+      <name>meceware/wapy.dev</name>
+    </author>
+    <content>&lt;p&gt;Enhancements:
+- Reports page is redesigned. (#50)
+- Filter menu is converted to modal window and currency filter is added. It's more organized now (#47)
+- Export functionality is added. (#17)
+- Menus are reorganized.&lt;/p&gt;
+&lt;p&gt;Fixes:
+- Router refresh is added when OTP URL is verified. (#45)
+- Theme+background colors in meta tags and icons in manifest are fixed. (#46)
+- Package updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/meceware/wapy.dev/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
