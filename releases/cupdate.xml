@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cupdate Releases</title>
-  <updated>2025-02-16T09:34:38.900657-05:00</updated>
+  <updated>2025-02-16T10:34:48.196425-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,5 +142,85 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.15.0...v0.16.0&lt;/p&gt;</content>
     <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.16.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/AlexGustafsson/cupdate/releases/tag/v0.17.0</id>
+    <title>New release for Cupdate: </title>
+    <updated>2025-02-16T10:32:05-05:00</updated>
+    <author>
+      <name>AlexGustafsson/cupdate</name>
+    </author>
+    <content>&lt;p&gt;Thanks to everyone who created feature requests, bug reports and tested fixes. Your help is instrumental to continue to improve Cupdate!&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;Tracking workflow runs&lt;/h3&gt;
+&lt;p&gt;Cupdate uses a &lt;em&gt;workflow&lt;/em&gt; to process images, the workflow runs &lt;em&gt;jobs&lt;/em&gt; and jobs consist of &lt;em&gt;steps&lt;/em&gt;. If you're familiar with Github Actions, Cupdate's workflows work much the same.&lt;/p&gt;
+&lt;p&gt;Being a core part of Cupdate, observability of the workflows progress is key to debugging issues. In v0.17.0, Cupdate now tracks each and every workflow run, making their durations, statuses and errors available via the API and UI as soon as they've completed.&lt;/p&gt;
+&lt;p&gt;&lt;img width="825" alt="image" src="https://github.com/user-attachments/assets/e7ffcebe-681f-4f5b-9c61-f8d92f10167d" /&gt;&lt;/p&gt;
+&lt;p&gt;The graph shows each job of the latest workflow run. If you click one of the jobs, a summary of the steps run as part of the job is shown. If you're using tracing, a tracing id is shown, enabling you to continue correlating the run using your observability platform of choice. See &lt;a href="https://github.com/AlexGustafsson/cupdate/tree/d30d41278b375d4a567c19955aded1ad1a3d42b2/docs/observability"&gt;docs/observability&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;&lt;img width="836" alt="image" src="https://github.com/user-attachments/assets/764fc61a-bb36-48cf-aa6b-54b6d24ce83f" /&gt;&lt;/p&gt;
+&lt;p&gt;If a step would fail, the error causing it to fail is shown.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/52ec3ed8-e77e-47aa-aa41-846ed299814a" /&gt;&lt;/p&gt;
+&lt;p&gt;Tracking the workflows also allows Cupdate to show a summary of failed images on the dashboard and via the API, for use with services like Grafana or Homepage. If you're already using Homepage, see the updated documentation in &lt;a href="https://github.com/AlexGustafsson/cupdate/blob/d30d41278b375d4a567c19955aded1ad1a3d42b2/docs/cookbook/README.md#showing-summary-in-homepage"&gt;docs/cookbook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img width="877" alt="image" src="https://github.com/user-attachments/assets/69590896-3ab5-4883-8c61-0eb0b436f717" /&gt;&lt;/p&gt;
+&lt;p&gt;This also allows us to tag failing images, making it easy to find them.&lt;/p&gt;
+&lt;p&gt;For now, only the latest workflow run is exposed through APIs. Workflow runs are by default kept for 48h. See &lt;a href="https://github.com/AlexGustafsson/cupdate/blob/d30d41278b375d4a567c19955aded1ad1a3d42b2/docs/config.md"&gt;docs/config&lt;/a&gt; for details on the new environment variables &lt;code&gt;CUPDATE_WORKFLOW_CLEANUP_MAX_AGE&lt;/code&gt; and &lt;code&gt;CUPDATE_WORKFLOW_CLEANUP_INTERVAL&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Ignore images using labels&lt;/h3&gt;
+&lt;p&gt;Cupdate can now be configured to ignore images, containers, deployments, any Docker or Kubernetes resource that takes a label.&lt;/p&gt;
+&lt;p&gt;```yaml&lt;/p&gt;
+&lt;h1&gt;deployment.yaml&lt;/h1&gt;
+&lt;p&gt;apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: cupdate
+    config.cupdate/ignore: "true"&lt;/p&gt;
+&lt;h1&gt;...&lt;/h1&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;```yaml&lt;/p&gt;
+&lt;h1&gt;compose.yaml&lt;/h1&gt;
+&lt;p&gt;services:
+  cupdate:
+    labels:
+      - cupdate.config.ignore: "true"
+```&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+docker run --rm -it --label "cupdate.config.ignore=true" alpine:3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href="https://github.com/AlexGustafsson/cupdate/blob/6ce82f55c969ee6bf44e66ddf258d551fdfdb07c/docs/config.md#labels"&gt;docs/config&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3&gt;Tracking data changes&lt;/h3&gt;
+&lt;p&gt;Whenever Cupdate processes an image and founds new data, that data is stored to an sqlite database. Starting in v0.17.0, Cupdate now internally tracks changes made to the data stored. Although not a front-facing feature, this enables improvements in existing features and lays the foundation for future improvements. If you're using the API, you can now get events whenever an image is processed or when there's a new version available. See the &lt;a href="https://github.com/AlexGustafsson/cupdate/blob/d30d41278b375d4a567c19955aded1ad1a3d42b2/api.yaml#L387-L394"&gt;API docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;One improvement made to the existing feature set is that the web app can now tell what was updated and only prompt the user once data affecting the current page changes. This ensures that you won't get the toast every time Cupdate processes the image and updates basic fields such as when the image was last processed.&lt;/p&gt;
+&lt;p&gt;&lt;img width="324" alt="image" src="https://github.com/user-attachments/assets/ed9a2536-c78d-44cb-ad5a-4e5303045706" /&gt;&lt;/p&gt;
+&lt;h3&gt;Worker queue rewrite&lt;/h3&gt;
+&lt;p&gt;In previous Cupdate versions, the internal queue used for processing references had a fixed max size and provided bad observability. At times, it made it impossible to manually schedule an image for processing via the UI or APIs.&lt;/p&gt;
+&lt;p&gt;In v0.17.0, the worker queue implementation is rewritten to be unsized, with unique items, ensuring that you're always free to schedule images for processing, even if Cupdate's busy. It also makes sure that Cupdate won't schedule an image if it's already scheduled.&lt;/p&gt;
+&lt;p&gt;The rewrite also greatly improves the observability of the queue by making sure the &lt;code&gt;cupdate_worker_available_burst&lt;/code&gt; gauge is always up-to-date. The change also adds a new gauge, &lt;code&gt;cupdate_worker_queue_length&lt;/code&gt; which contains the current queue length.&lt;/p&gt;
+&lt;p&gt;See the example Grafana dashboard in &lt;a href="https://github.com/AlexGustafsson/cupdate/tree/d30d41278b375d4a567c19955aded1ad1a3d42b2/docs/observability"&gt;docs/observability&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The change also means that the &lt;code&gt;CUPDATE_PROCESSING_QUEUE_SIZE&lt;/code&gt; no longer has any effect.&lt;/p&gt;
+&lt;h2&gt;Improvements and fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Set correct cursor on image update button, graph navigation buttons&lt;/li&gt;
+&lt;li&gt;Only show update toast on change detection&lt;/li&gt;
+&lt;li&gt;Bubble errors returned by steps and jobs to the workflow, improving context in error logs&lt;/li&gt;
+&lt;li&gt;Color negative counters on the dashboard green when they're zeroed&lt;/li&gt;
+&lt;li&gt;Remove the word 'images' from the dashboard, reducing space and repetitiveness &lt;/li&gt;
+&lt;li&gt;Add skeleton animations to the UI when its loading for a long time (should only be shown during times of bad network connectivity)&lt;/li&gt;
+&lt;li&gt;Add missing cascade delete to image tags, fixing tags staying after their images have been removed&lt;/li&gt;
+&lt;li&gt;Add backdrop blur to top bar&lt;/li&gt;
+&lt;li&gt;Fix z-index of surface navigation&lt;/li&gt;
+&lt;li&gt;Fix filter not being included on pagination&lt;/li&gt;
+&lt;li&gt;Fix settings card not showing on Cupdate's image page&lt;/li&gt;
+&lt;li&gt;Fix Cupdate processing Kubernetes references before a digest is resolved by the runtime&lt;/li&gt;
+&lt;li&gt;Fix typo causing nil check to pass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Deprecations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CUPDATE_PROCESSING_QUEUE_SIZE&lt;/code&gt; has been removed and no longer has any meaning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cupdate now stores links and vulnerabilities as blobs instead of rows. The tables &lt;code&gt;images_links&lt;/code&gt; and &lt;code&gt;images_vulnerabilities&lt;/code&gt; are removed when Cupdate starts. In their place, &lt;code&gt;images_linksv2&lt;/code&gt; and &lt;code&gt;images_vulnerabilitiesv2&lt;/code&gt; are created. if you're just using the UI or API, you won't notice the change after Cupdate has processed the images, again updating the links and vulnerabilities to the new tables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.16.0...v0.17.0&lt;/p&gt;</content>
+    <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.17.0" rel="alternate"/>
   </entry>
 </feed>
