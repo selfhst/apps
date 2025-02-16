@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockwatch Releases</title>
-  <updated>2025-02-16T15:34:26.810239-05:00</updated>
+  <updated>2025-02-16T17:34:22.984689-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,21 @@ Move container action buttons to the top and float them when not on mobile&lt;/p
     <content>&lt;p&gt;Fix zindex on the container page button group&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.349...v0.5.350&lt;/p&gt;</content>
     <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.5.350" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Notifiarr/dockwatch/releases/tag/v0.6.381</id>
+    <title>New release for Dockwatch: v0.6.381</title>
+    <updated>2025-02-16T17:12:19-05:00</updated>
+    <author>
+      <name>Notifiarr/dockwatch</name>
+    </author>
+    <content>&lt;p&gt;Add support for multiple themes and rewrite the UI to support new themes with light/dark mode
+Add a way to view the database and schema
+Add a time endpoint to pull the containers current timezone setting and time
+Replace invalid DriverOpts with Empty Object
+Bump nginx from 3.18 to 3.21
+Bump PHP from 8.2 to 8.3&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.350...v0.6.381&lt;/p&gt;</content>
+    <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.6.381" rel="alternate"/>
   </entry>
 </feed>
