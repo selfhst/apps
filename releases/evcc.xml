@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-02-16T11:34:06.143675-05:00</updated>
+  <updated>2025-02-16T12:34:10.060040-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -213,12 +213,32 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.200.1</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.200.1</title>
     <updated>2025-02-16T11:27:00-05:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;e30b9f14f27593a8ec161f02a220dbaf9990e508 Add Mennekes eMobility Gateway, Smart, Smart T (ACU) (#18813)&lt;/li&gt;
+&lt;li&gt;692b2d0fc1c92c39de05bcbd6d27437521027428 Add SAJ H1 hybrid inverters (#18843)&lt;/li&gt;
+&lt;li&gt;f09b55833901fb5cde0717fb3de0ecde61d34d2e Add SMA eCharger (#18158)&lt;/li&gt;
+&lt;li&gt;4cb072bd6e3b9b40a9e977c44f354966e62c909b Add Toyota (#18716)&lt;/li&gt;
+&lt;li&gt;629a969c9ff80f2265192d69386fe4e6db258bce Add initial forecast UI (#18709)&lt;/li&gt;
+&lt;li&gt;3e0909ac737b020d45f44692b9a1afbe48d7e964 Config UI: improve status polling (#18814)&lt;/li&gt;
+&lt;li&gt;9a1a39394205f7bced731e61fa03662456336f0f Config UI: make en the default language (#18810)&lt;/li&gt;
+&lt;li&gt;9bbac3e66397673aa2c09e00c1e5ae70a6d8c603 EVNotify: add vehicle status (#18765)&lt;/li&gt;
+&lt;li&gt;ff9a6c3b58f462ffa1d88c7b63f9632e5d963c8a Forecast.solar: add horizon parameter (#18839)&lt;/li&gt;
+&lt;li&gt;a1094208e5d922d04389b126012ca303a11daf63 Forecast.solar: add horizon parameter (improve) (#18854)&lt;/li&gt;
+&lt;li&gt;f46ef1964a7349948e789f9f30774aec3065d2f4 Forecast.solar: fill empty, enforce hourly (#18802)&lt;/li&gt;
+&lt;li&gt;2f71ed4b31028272da6352ad5e17e0235e26c862 Forecast.solar: fix data offset by 30min (#18866)&lt;/li&gt;
+&lt;li&gt;9606299c923fbbd6a187a44057f1dfdd00ceb6b3 Hassio: prepare for nightly builds&lt;/li&gt;
+&lt;li&gt;6eef37131bc004dd79b2320574985d70b7559b4f Hassio: publish nightly.DATE-HASH in docker hub (#18762)&lt;/li&gt;
+&lt;li&gt;e5e7377b5ea9b7cf6c54cb7959bb229b185f988e Loadpoint: don't wake up when vehicle stopped charging (#18785)&lt;/li&gt;
+&lt;li&gt;d3814b143706b5f8e0b044e922f239a9b440aa67 Sessions: fix missing loadpoint names (#18868)&lt;/li&gt;
+&lt;li&gt;4f978242e5e79bb84c1bbe606e9d1e03b1d5ab54 Tibber: resubscribe on clean disconnect (#18643)&lt;/li&gt;
+&lt;li&gt;0b5376b3a23310b7ecb98f31b041c0d7984ff243 cli: redact config output&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.200.1" rel="alternate"/>
   </entry>
 </feed>
