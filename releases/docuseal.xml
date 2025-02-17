@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DocuSeal Releases</title>
-  <updated>2025-02-17T15:30:19.118433-05:00</updated>
+  <updated>2025-02-17T16:30:18.892520-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -59,11 +59,12 @@
   <entry>
     <id>https://github.com/docusealco/docuseal/releases/tag/1.9.2</id>
     <title>New release for DocuSeal: 1.9.2</title>
-    <updated>2025-02-17T05:56:03-05:00</updated>
+    <updated>2025-02-17T16:00:46-05:00</updated>
     <author>
       <name>docusealco/docuseal</name>
     </author>
-    <content>&lt;p&gt;🐞 Fix recipient preferences when clone template&lt;/p&gt;</content>
+    <content>&lt;p&gt;🆕 "Event log" with a list of submission events of incomplete submissions
+🐞 Fix recipient preferences when clone template&lt;/p&gt;</content>
     <link href="https://github.com/docusealco/docuseal/releases/tag/1.9.2" rel="alternate"/>
   </entry>
 </feed>
