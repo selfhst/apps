@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-02-17T17:31:30.480484-05:00</updated>
+  <updated>2025-02-17T18:31:31.024518-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,6 +102,8 @@ JAR download: https://downloads.metabase.com/enterprise/v1.52.11.x/metabase.jar&
     </author>
     <content>&lt;h2&gt;Upgrading&lt;/h2&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]&lt;br /&gt;
+&lt;strong&gt;Metabase 53 requires Java 21. Java 17 is no longer supported.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Before you upgrade, back up your Metabase application database!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
@@ -114,7 +116,8 @@ JAR download: https://downloads.metabase.com/v0.53.2.x/metabase.jar&lt;/p&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.53.2.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Metabase 53 requires Java 21. Java 11/17 is no longer supported &lt;/p&gt;
+&lt;p&gt;[!IMPORTANT] &lt;br /&gt;
+&lt;strong&gt;Metabase 53 requires Java 21. Java 17 is no longer supported.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
@@ -188,6 +191,8 @@ JAR download: https://downloads.metabase.com/enterprise/v1.52.12.x/metabase.jar&
     </author>
     <content>&lt;h2&gt;Upgrading&lt;/h2&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]&lt;br /&gt;
+&lt;strong&gt;Metabase 53 requires Java 21. Java 17 is no longer supported.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Before you upgrade, back up your Metabase application database!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Check out our &lt;a href="https://metabase.com/docs/latest/operations-guide/upgrading-metabase"&gt;upgrading instructions&lt;/a&gt;.&lt;/p&gt;
@@ -203,7 +208,6 @@ JAR download: https://downloads.metabase.com/enterprise/v1.53.3.x/metabase.jar&l
 &lt;ul&gt;
 &lt;li&gt;Push table actions button to the end of the table cell (#53496)&lt;/li&gt;
 &lt;li&gt;Ensure menu text hover colors correctly with inherit (#53433)&lt;/li&gt;
-&lt;li&gt;Convert Postgres array columns to vectors (#53151)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
@@ -229,37 +233,13 @@ JAR download: https://downloads.metabase.com/enterprise/v1.53.3.x/metabase.jar&l
 &lt;li&gt;Wrong cursor on visualization options (#53664)&lt;/li&gt;
 &lt;li&gt;Misaligned column labels while editing dashboard visualization options of pivot tables (#52905)&lt;/li&gt;
 &lt;li&gt;[Dashboards] Prevent duplicate edit dashboard calls from breaking dashboard save (#53132)&lt;/li&gt;
+&lt;li&gt;Subscriptions Fail if Card is Based on a Question that Contains array_agg() - Postgres (#53083)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Regression: y-axis minimum is ignored for stacked 100% histograms (#48021)&lt;/li&gt;
 &lt;li&gt;Pivot Table With No 'Rows' Does Not Render (#44500)&lt;/li&gt;
 &lt;li&gt;Fixing broken description column in static viz tables (#53726)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;fix: add logging during connection health checks (#53781)&lt;/li&gt;
-&lt;li&gt;Dev 344 remove flaky tag from tests that are stable (#53669)&lt;/li&gt;
-&lt;li&gt;add eslint rule that prevents incorrect order of helpers (#53666)&lt;/li&gt;
-&lt;li&gt;Update rerun job to work with new master test workflow (#53635)&lt;/li&gt;
-&lt;li&gt;Smooth out some rough edges for local e2e tests (#53576)&lt;/li&gt;
-&lt;li&gt;Adjust Smoke Tests (#53542)&lt;/li&gt;
-&lt;li&gt;Manual Backport of 51948 (#53732)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] login-history module (#53723)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;session&lt;/code&gt; module (#53718)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] improve deps graph tooling (#53643)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] Module linter 2.0 and other MEGA improvements (#53583)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] More &lt;code&gt;pulse&lt;/code&gt; module cleanup (#53579)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;cloud-migration&lt;/code&gt; module (#53578)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;tiles&lt;/code&gt; module (#53577)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;indexed-entities&lt;/code&gt; module (#53563)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;segments&lt;/code&gt; module (#53559)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] Actions module cleanup (#53424)&lt;/li&gt;
-&lt;li&gt;[Backend modularization] &lt;code&gt;revisions&lt;/code&gt; module (#53419)&lt;/li&gt;
-&lt;li&gt;Revert discarding-rff for preemptive caching (#53631)&lt;/li&gt;
-&lt;li&gt;An attempt to reduce the spam in the dev console (#53214)&lt;/li&gt;
-&lt;li&gt;Upgrade to NodeJs 22 (#53446)&lt;/li&gt;
-&lt;li&gt;Fix no-unused-vars ESLint rule config (#53648)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.53.3" rel="alternate"/>
   </entry>
