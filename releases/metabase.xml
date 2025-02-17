@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-02-17T13:31:30.402045-05:00</updated>
+  <updated>2025-02-17T14:31:33.481611-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,7 +163,7 @@ JAR download: https://downloads.metabase.com/enterprise/v1.52.12.x/metabase.jar&
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Backport "feat(sdk): show clarification messages upon running the cli" to 52 (#53658)&lt;/li&gt;
+&lt;li&gt;feat(sdk): show clarification messages upon running the cli (#53658)&lt;/li&gt;
 &lt;li&gt;feat(sdk): abort cli with message when react version is unsupported (#53656)&lt;/li&gt;
 &lt;li&gt;feat(sdk): pro license setup in cli defaults to false (#53655)&lt;/li&gt;
 &lt;li&gt;Speed up SDK build (#53537)&lt;/li&gt;
@@ -173,21 +173,9 @@ JAR download: https://downloads.metabase.com/enterprise/v1.52.12.x/metabase.jar&
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fetch permissions for all databases when looking up db permissions (#53491)&lt;/li&gt;
-&lt;li&gt;Renamed cleanup-session to cleanup-session! (#53481)&lt;/li&gt;
-&lt;li&gt;Check connectivity on startup (#52934)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Bug fixes&lt;/h3&gt;
-&lt;ul&gt;
 &lt;li&gt;fix: handle ambiguous snowflake connections (#53645)&lt;/li&gt;
-&lt;li&gt;Fix &lt;code&gt;all-indexes-&amp;gt;field-ids&lt;/code&gt; generating queries with too many parameters (#52835)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Streamline local e2e test running (#53095)&lt;/li&gt;
-&lt;li&gt;Update esbuild to fix dependabot alert (#53740)&lt;/li&gt;
-&lt;li&gt;Update mocha to fix dependabot issue with serialize-javascript (#53739)&lt;/li&gt;
-&lt;li&gt;Update elliptic to ^6.6.1 (#53738)&lt;/li&gt;
+&lt;li&gt;Fetch permissions for all databases when looking up db permissions (#53491)&lt;/li&gt;
+&lt;li&gt;Check connectivity on startup (#52934)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.52.12" rel="alternate"/>
   </entry>
