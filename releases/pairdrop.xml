@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PairDrop Releases</title>
-  <updated>2025-02-17T08:32:08.944875-05:00</updated>
+  <updated>2025-02-17T09:32:08.244198-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,24 @@
     <author>
       <name>schlagmichdoch/PairDrop</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Enhancements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make PWA standalone (#264)&lt;/li&gt;
+&lt;li&gt;Bring back background animation after performance optimization (#285)&lt;/li&gt;
+&lt;li&gt;Add support for Safari 11-15 (#358)&lt;/li&gt;
+&lt;li&gt;Update Twitter icon and URL to (X) (Thanks @realchrislovett)&lt;/li&gt;
+&lt;li&gt;Update node dependencies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix pasting of files on background to invoke share-mode and make it available on Firefox (#370)&lt;/li&gt;
+&lt;li&gt;Fix padding issue on EditPairedDevicesDialog and Base64Dialog&lt;/li&gt;
+&lt;li&gt;Fix hydration of URLs into links in received messages that have exclamation marks in path&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations updates from Hosted Weblate (Basque, Norwegian Bokmål)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/schlagmichdoch/PairDrop/releases/tag/v1.11.0" rel="alternate"/>
   </entry>
 </feed>
