@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Comic Utilities Releases</title>
-  <updated>2025-02-17T11:34:55.163632-05:00</updated>
+  <updated>2025-02-17T12:35:00.234943-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,11 +89,29 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Bug Fix:&lt;/strong&gt; Missing Image / Incorrect Image path for blank image in &lt;a href="add.py"&gt;add.py&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Docker Delpoy&lt;/h2&gt;
+&lt;h2&gt;Docker Deploy&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.2</id>
+    <title>New release for Comic Utilities: v1.1.2 Bug Fix: `DecompressionBombWarning` on PDF conversion</title>
+    <updated>2025-02-17T12:16:54-05:00</updated>
+    <author>
+      <name>allaboutduncan/comic-utils</name>
+    </author>
+    <content>&lt;h2&gt;Bug Fix&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix &lt;a href="https://github.com/allaboutduncan/comic-utils/commit/0624641e3dab114a53ee18d435214ec431a48378#diff-ef5de097fce1dabb3de7f669355c3f1227f6941cbe7d13573e5468f63ef0b7a4"&gt;PDF Image Size bug&lt;/a&gt;: Large images over 9000px wide, could trigger a &lt;code&gt;DecompressionBombWarning&lt;/code&gt; on PDF conversion. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Docker Deploy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.2" rel="alternate"/>
   </entry>
 </feed>
