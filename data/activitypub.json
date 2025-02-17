@@ -15,13 +15,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 47746.0,
+        "Stars": 47754.0,
         "Stars (Display)": "48k",
         "Latest Commit": "2025-02-14",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 3282,
+        "Age": 3283,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -46,7 +46,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2671,
+        "Age": 2672,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -65,13 +65,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 14424.0,
+        "Stars": 14425.0,
         "Stars (Display)": "14k",
-        "Latest Commit": "2025-02-16",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 4318,
+        "Age": 4319,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -90,13 +90,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 13435.0,
+        "Stars": 13439.0,
         "Stars (Display)": "13k",
         "Latest Commit": "2025-02-13",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 3398,
+        "Age": 3399,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -121,7 +121,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 4851,
+        "Age": 4852,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -142,11 +142,11 @@
         "Source": "GitHub",
         "Stars": 10322.0,
         "Stars (Display)": "10k",
-        "Latest Commit": "2025-02-16",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2975,
+        "Age": 2976,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -165,13 +165,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 13512.0,
+        "Stars": 13516.0,
         "Stars (Display)": "14k",
-        "Latest Commit": "2025-02-14",
+        "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2194,
+        "Age": 2195,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -192,11 +192,11 @@
         "Source": "GitHub",
         "Stars": 43.0,
         "Stars (Display)": "43",
-        "Latest Commit": "2025-02-03",
+        "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 4353,
+        "Age": 4354,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -217,11 +217,11 @@
         "Source": "GitLab",
         "Stars": 44.0,
         "Stars (Display)": "44",
-        "Latest Commit": "2025-02-15",
+        "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2020,
+        "Age": 2021,
         "CreatedAt": "2024-09-26 11:35:31+00:00"
     },
     {
@@ -246,7 +246,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2795,
+        "Age": 2796,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -290,13 +290,13 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 4656.0,
+        "Stars": 4657.0,
         "Stars (Display)": "5k",
         "Latest Commit": "2025-02-12",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2877,
+        "Age": 2878,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -315,13 +315,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 6366.0,
+        "Stars": 6369.0,
         "Stars (Display)": "6k",
         "Latest Commit": "2025-02-11",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2497,
+        "Age": 2498,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -346,7 +346,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 2967,
+        "Age": 2968,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -371,7 +371,32 @@
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 2745,
+        "Age": 2746,
+        "CreatedAt": "2024-09-12 17:10:45+00:00"
+    },
+    {
+        "Id": 771,
+        "Project": "Tooty",
+        "Reference": "tooty",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://n1k0.github.io/tooty/v2/",
+        "Repository Link": "https://github.com/n1k0/tooty",
+        "Description": "Alternative multi-account web client for Mastodon",
+        "License": "Custom",
+        "Language": "Elm",
+        "Icon Source": "Apps",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 157.0,
+        "Stars (Display)": "157",
+        "Latest Commit": "2025-02-16",
+        "Latest Commit Color": "Green",
+        "Tags": "Client",
+        "Dynamic Filter": "Web",
+        "Age": 2861,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -396,7 +421,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 2856,
+        "Age": 2857,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -421,32 +446,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 2850,
-        "CreatedAt": "2024-09-12 17:10:45+00:00"
-    },
-    {
-        "Id": 771,
-        "Project": "Tooty",
-        "Reference": "tooty",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://n1k0.github.io/tooty/v2/",
-        "Repository Link": "https://github.com/n1k0/tooty",
-        "Description": "Alternative multi-account web client for Mastodon",
-        "License": "Custom",
-        "Language": "Elm",
-        "Icon Source": "Apps",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 157.0,
-        "Stars (Display)": "157",
-        "Latest Commit": "2024-07-18",
-        "Latest Commit Color": "Yellow",
-        "Tags": "Client",
-        "Dynamic Filter": "Web",
-        "Age": 2860,
+        "Age": 2851,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -471,7 +471,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 2538,
+        "Age": 2539,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -496,7 +496,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2448,
+        "Age": 2449,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -521,7 +521,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 2532,
+        "Age": 2533,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -542,11 +542,11 @@
         "Source": "GitHub",
         "Stars": 506.0,
         "Stars (Display)": "506",
-        "Latest Commit": "2025-02-14",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 2413,
+        "Age": 2414,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -571,7 +571,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 2299,
+        "Age": 2300,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -590,13 +590,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 2372.0,
+        "Stars": 2373.0,
         "Stars (Display)": "2k",
         "Latest Commit": "2025-02-14",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1847,
+        "Age": 1848,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -621,7 +621,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 2199,
+        "Age": 2200,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -640,13 +640,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 4011.0,
+        "Stars": 4016.0,
         "Stars (Display)": "4k",
         "Latest Commit": "2025-02-15",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1450,
+        "Age": 1451,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -671,7 +671,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1783,
+        "Age": 1784,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -696,7 +696,7 @@
         "Latest Commit Color": "Yellow",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 2004,
+        "Age": 2005,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -715,13 +715,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 2118.0,
+        "Stars": 2120.0,
         "Stars (Display)": "2k",
         "Latest Commit": "2025-02-14",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 1483,
+        "Age": 1484,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -740,13 +740,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 5800.0,
+        "Stars": 5807.0,
         "Stars (Display)": "6k",
         "Latest Commit": "2025-02-10",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS,Desktop",
-        "Age": 819,
+        "Age": 820,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -765,39 +765,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 5646.0,
+        "Stars": 5647.0,
         "Stars (Display)": "6k",
-        "Latest Commit": "2025-02-09",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Web",
-        "Age": 825,
+        "Age": 826,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
-    },
-    {
-        "Id": 373,
-        "Project": "Castopod",
-        "Reference": "castopod",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://castopod.org",
-        "Repository Link": "https://github.com/ad-aures/castopod",
-        "Description": "Open-source hosting platform for podcasters",
-        "License": "AGPL-3.0",
-        "Language": "PHP",
-        "Icon Source": "Icons",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 686.0,
-        "Stars (Display)": "686",
-        "Latest Commit": "2025-01-04",
-        "Latest Commit Color": "Green",
-        "Tags": "Platform",
-        "Dynamic Filter": "Server",
-        "Age": 1574,
-        "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
         "Id": 754,
@@ -817,12 +792,37 @@
         "Source": "GitLab",
         "Stars": 9.0,
         "Stars (Display)": "9",
-        "Latest Commit": "2024-12-12",
+        "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 1699,
+        "Age": 1700,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
+    },
+    {
+        "Id": 373,
+        "Project": "Castopod",
+        "Reference": "castopod",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://castopod.org",
+        "Repository Link": "https://github.com/ad-aures/castopod",
+        "Description": "Open-source hosting platform for podcasters",
+        "License": "AGPL-3.0",
+        "Language": "PHP",
+        "Icon Source": "Icons",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 687.0,
+        "Stars (Display)": "687",
+        "Latest Commit": "2025-01-04",
+        "Latest Commit Color": "Green",
+        "Tags": "Platform",
+        "Dynamic Filter": "Server",
+        "Age": 1575,
+        "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
         "Id": 767,
@@ -846,7 +846,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 1380,
+        "Age": 1381,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -865,13 +865,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1787.0,
+        "Stars": 1788.0,
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-31",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 1129,
+        "Age": 1130,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -890,13 +890,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 570.0,
-        "Stars (Display)": "570",
+        "Stars": 569.0,
+        "Stars (Display)": "569",
         "Latest Commit": "2025-02-11",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1252,
+        "Age": 1253,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -921,7 +921,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Theme",
         "Dynamic Filter": "Browser,Server",
-        "Age": 1419,
+        "Age": 1420,
         "CreatedAt": "2024-10-21 09:42:49+00:00"
     },
     {
@@ -946,7 +946,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1325,
+        "Age": 1326,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -971,7 +971,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 1355,
+        "Age": 1356,
         "CreatedAt": "2024-10-28 12:21:33+00:00"
     },
     {
@@ -996,7 +996,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 982,
+        "Age": 983,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1015,13 +1015,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1190.0,
+        "Stars": 1188.0,
         "Stars (Display)": "1k",
         "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Web",
-        "Age": 801,
+        "Age": 802,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1046,7 +1046,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 1067,
+        "Age": 1068,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1065,13 +1065,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "Codeberg",
-        "Stars": 235.0,
-        "Stars (Display)": "235",
-        "Latest Commit": "2025-02-15",
+        "Stars": 236.0,
+        "Stars (Display)": "236",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 938,
+        "Age": 939,
         "CreatedAt": "2024-09-26 11:30:47+00:00"
     },
     {
@@ -1092,11 +1092,11 @@
         "Source": "GitHub",
         "Stars": 612.0,
         "Stars (Display)": "612",
-        "Latest Commit": "2025-02-12",
+        "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 826,
+        "Age": 827,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1115,13 +1115,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 720.0,
-        "Stars (Display)": "720",
+        "Stars": 721.0,
+        "Stars (Display)": "721",
         "Latest Commit": "2025-01-29",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 811,
+        "Age": 812,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1146,7 +1146,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android,iOS,Web",
-        "Age": 615,
+        "Age": 616,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1171,7 +1171,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 836,
+        "Age": 837,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1196,7 +1196,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 1215,
+        "Age": 1216,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1221,7 +1221,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 1021,
+        "Age": 1022,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1246,7 +1246,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Web",
-        "Age": 859,
+        "Age": 860,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1265,13 +1265,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 338.0,
-        "Stars (Display)": "338",
+        "Stars": 339.0,
+        "Stars (Display)": "339",
         "Latest Commit": "2025-02-05",
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 713,
+        "Age": 714,
         "CreatedAt": "2024-09-18 20:10:30+00:00"
     },
     {
@@ -1296,7 +1296,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 787,
+        "Age": 788,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1315,13 +1315,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 145.0,
-        "Stars (Display)": "145",
+        "Stars": 146.0,
+        "Stars (Display)": "146",
         "Latest Commit": "2025-02-15",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 700,
+        "Age": 701,
         "CreatedAt": "2024-09-26 11:39:09+00:00"
     },
     {
@@ -1346,7 +1346,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 708,
+        "Age": 709,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1371,7 +1371,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Theme",
         "Dynamic Filter": "Web",
-        "Age": 587,
+        "Age": 588,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1396,7 +1396,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 619,
+        "Age": 620,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1415,13 +1415,13 @@
         "Icon Modifier": "Square",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 72.0,
-        "Stars (Display)": "72",
+        "Stars": 74.0,
+        "Stars (Display)": "74",
         "Latest Commit": "2025-02-15",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 587,
+        "Age": 588,
         "CreatedAt": "2024-09-26 11:42:24+00:00"
     },
     {
@@ -1446,7 +1446,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 578,
+        "Age": 579,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1471,7 +1471,7 @@
         "Latest Commit Color": "Red",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 757,
+        "Age": 758,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1496,7 +1496,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 532,
+        "Age": 533,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1521,7 +1521,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 340,
+        "Age": 341,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1540,13 +1540,13 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 279.0,
-        "Stars (Display)": "279",
+        "Stars": 282.0,
+        "Stars (Display)": "282",
         "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 493,
+        "Age": 494,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1571,7 +1571,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Tool",
         "Dynamic Filter": "Server",
-        "Age": 351,
+        "Age": 352,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1596,7 +1596,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 433,
+        "Age": 434,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1646,7 +1646,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 415,
+        "Age": 416,
         "CreatedAt": "2024-09-20 10:05:24+00:00"
     },
     {
@@ -1667,11 +1667,11 @@
         "Source": "Codeberg",
         "Stars": 10.0,
         "Stars (Display)": "10",
-        "Latest Commit": "2025-02-16",
+        "Latest Commit": "2025-02-17",
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "iOS",
-        "Age": 398,
+        "Age": 399,
         "CreatedAt": "2024-09-26 11:47:55+00:00"
     },
     {
@@ -1696,7 +1696,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 382,
+        "Age": 383,
         "CreatedAt": "2024-09-20 10:12:54+00:00"
     },
     {
@@ -1721,7 +1721,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android,iOS",
-        "Age": 315,
+        "Age": 316,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1740,13 +1740,13 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 308.0,
-        "Stars (Display)": "308",
+        "Stars": 307.0,
+        "Stars (Display)": "307",
         "Latest Commit": "2025-02-16",
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 264,
+        "Age": 265,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -1771,7 +1771,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Android",
-        "Age": 248,
+        "Age": 249,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1796,7 +1796,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Client",
         "Dynamic Filter": "Desktop",
-        "Age": 257,
+        "Age": 258,
         "CreatedAt": "2024-09-12 17:10:45+00:00"
     },
     {
@@ -1821,7 +1821,7 @@
         "Latest Commit Color": "Green",
         "Tags": "Platform",
         "Dynamic Filter": "Server",
-        "Age": 66,
+        "Age": 67,
         "CreatedAt": "2025-01-22 11:20:48+00:00"
     },
     {
