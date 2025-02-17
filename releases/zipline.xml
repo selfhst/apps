@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zipline Releases</title>
-  <updated>2025-02-17T00:32:49.855023-05:00</updated>
+  <updated>2025-02-17T01:32:52.230990-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,7 +127,7 @@
     <author>
       <name>diced/zipline</name>
     </author>
-    <content>&lt;p&gt;🎊 Thanks for waiting for the next big release for Zipline! This has been in the works for over 2 years now, and we have finally gotten to a point where it's ready to be released. 🎉&lt;/p&gt;
+    <content>&lt;p&gt;🎊 Thanks for waiting for the next big release for Zipline! This has been in the works for over 2 years now, and it's finally gotten to a point where it's ready to be released. 🎉&lt;/p&gt;
 &lt;h4&gt;New documentation website&lt;/h4&gt;
 &lt;p&gt;The docs website has been updated to reflect new v4 features + has a new coat of paint. Visit it here: &lt;a href="https://zipline.diced.sh"&gt;zipline.diced.sh&lt;/a&gt;. If you wish to visit the old v3 docs, they are available at &lt;a href="https://v3.zipline.diced.sh/"&gt;v3.zipline.diced.sh&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Migrating from v3 to v4 ⬆️&lt;/h4&gt;
