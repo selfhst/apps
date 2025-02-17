@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-02-17T04:33:57.459970-05:00</updated>
+  <updated>2025-02-17T05:33:52.584106-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,7 +87,7 @@ This release allows users to define multiple domains in the &lt;code&gt;DOMAIN&l
 &lt;p&gt;[!CAUTION]
 This release switches to &lt;strong&gt;daily expiration checks&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;You have to manually adjust the old defined periodic task to run daily. &lt;/p&gt;
-&lt;p&gt;To do so, please log into the admin panel and open the URL path &lt;code&gt;/en/admin/django_celery_beat/periodictask/1/change/&lt;/code&gt;. There, you can adjust the old &lt;code&gt;Crontab Schedule&lt;/code&gt;. Just hit the edit button and change &lt;code&gt;Day(s) Of The Week&lt;/code&gt; from &lt;code&gt;1&lt;/code&gt; to &lt;code&gt;*&lt;/code&gt;. Now the expiry check runs daily as intented.&lt;/p&gt;
+&lt;p&gt;To do so, please log into the admin panel and open the URL path &lt;code&gt;/en/admin/django_celery_beat/periodictask/1/change/&lt;/code&gt;. There, you can adjust the old &lt;code&gt;Crontab Schedule&lt;/code&gt;. Just hit the edit button and change &lt;code&gt;Day(s) Of The Week&lt;/code&gt; from &lt;code&gt;1&lt;/code&gt; to &lt;code&gt;*&lt;/code&gt;. Now the expiry check runs daily as intended. See wiki &lt;a href="https://github.com/l4rm4nd/VoucherVault/wiki/03-%E2%80%90-Notifications#vouchervault--1120-1"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
