@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-02-17T12:33:08.273702-05:00</updated>
+  <updated>2025-02-17T13:33:00.164652-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1142,22 +1142,6 @@
     </author>
     <content>&lt;p&gt;Release build (patch) of NodeBB @ 2025-02-17T04:45:48.055Z&lt;/p&gt;
 &lt;h4&gt;v4.0.4 (2025-02-17)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;up harmony (0fed9a76)&lt;/li&gt;
-&lt;li&gt;up harmony (ef2c606d)&lt;/li&gt;
-&lt;li&gt;up harmony (f1da510f)&lt;/li&gt;
-&lt;li&gt;up deps (fa366095)&lt;/li&gt;
-&lt;li&gt;up harmony (df07fcfa)&lt;/li&gt;
-&lt;li&gt;up harmony (de5caf8f)&lt;/li&gt;
-&lt;li&gt;up harmony (d1f78295)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.3 (2b65c735)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.0.3 (123e1635)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.2 (73fe5fcf)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.1 (a461b758)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt;  fallback strings for new resources: nodebb.themes-harmony (99210918)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;Bug Fixes&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;clear parsed post cache when updating a post's attachments, #13164 (33d7b9b3)&lt;/li&gt;
