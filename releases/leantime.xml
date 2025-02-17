@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2025-02-17T16:30:40.924574-05:00</updated>
+  <updated>2025-02-17T17:30:41.001085-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1606,7 +1606,50 @@
     <author>
       <name>Leantime/leantime</name>
     </author>
-    <content>&lt;h2&gt;Changes in this Release&lt;/h2&gt;
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v3.4.0 --&gt;
+
+&lt;h1&gt;🚀 Highlights&lt;/h1&gt;
+&lt;h2&gt;Infra (Stability, Performance)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication system has been updated and aligned to Laravel authentication handler enhancing security resilience and more integrations&lt;/li&gt;
+&lt;li&gt;Marketplace integration and plugin installation improved&lt;/li&gt;
+&lt;li&gt;Improvements to cache handling&lt;/li&gt;
+&lt;li&gt;Improved handling of proxy server set ups &lt;/li&gt;
+&lt;li&gt;Improved configuration management&lt;/li&gt;
+&lt;li&gt;Refactor db service to use Laravel db manager (for future replacement and support of Postgres, SQLite etc)&lt;/li&gt;
+&lt;li&gt;Refactored Event Manager to be compatible with Laravel event manager&lt;/li&gt;
+&lt;li&gt;More unit tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;UI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New ticket design to improve cognitive load&lt;/li&gt;
+&lt;li&gt;UI cleanup&lt;/li&gt;
+&lt;li&gt;Many, many bug fixes &lt;a href="https://github.com/Leantime/leantime/milestone/3?closed=1"&gt;3.4.0 Bugs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🚨 Breaking Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;YAML configuration files are not supported anymore. Please move to .env files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Changelog CI] Add Changelog for Version 3.3.3 by @github-actions in https://github.com/Leantime/leantime/pull/2835&lt;/li&gt;
+&lt;li&gt;Bump league/commonmark from 2.5.3 to 2.6.0 by @dependabot in https://github.com/Leantime/leantime/pull/2853&lt;/li&gt;
+&lt;li&gt;ITKDev: Added session to API users by @cableman in https://github.com/Leantime/leantime/pull/2903&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @marcelfolaron in https://github.com/Leantime/leantime/pull/2918&lt;/li&gt;
+&lt;li&gt;feat: improve roadmap date handling and milestone retrieval by @marcelfolaron in https://github.com/Leantime/leantime/pull/2926&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @marcelfolaron in https://github.com/Leantime/leantime/pull/2924&lt;/li&gt;
+&lt;li&gt;Update UpdateLeantime.php by @Er1c85 in https://github.com/Leantime/leantime/pull/2844&lt;/li&gt;
+&lt;li&gt;Bump guzzlehttp/oauth-subscriber from 0.6.0 to 0.8.1 by @dependabot in https://github.com/Leantime/leantime/pull/2883&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @marcelfolaron in https://github.com/Leantime/leantime/pull/2935&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @marcelfolaron in https://github.com/Leantime/leantime/pull/2937&lt;/li&gt;
+&lt;li&gt;fixes unescaped string by @marcelfolaron in https://github.com/Leantime/leantime/pull/2941&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Er1c85 made their first contribution in https://github.com/Leantime/leantime/pull/2844&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Leantime/leantime/compare/v3.3.3...v3.4.0&lt;/p&gt;
+&lt;h2&gt;Changes in this Release&lt;/h2&gt;
 &lt;p&gt;History from &lt;code&gt;v3.3.3&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Commits&lt;/h3&gt;
 &lt;ul&gt;

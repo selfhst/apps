@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2025-02-17T16:30:33.321293-05:00</updated>
+  <updated>2025-02-17T17:30:33.832786-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,7 +158,7 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;p&gt;Go 1.24 upgrade, several performance improvements, new &lt;a href="https://gohugo.io/content-management/urls/#contentbasename"&gt;:contentbasename&lt;/a&gt; and &lt;a href="https://gohugo.io/content-management/urls/#slugorcontentbasename"&gt;:slugorcontentbasename&lt;/a&gt; permalink tokens, enable KaTeX &lt;code&gt;mhchem&lt;/code&gt; extension for &lt;a href="https://gohugo.io/functions/transform/tomath/"&gt;transform.ToMath&lt;/a&gt;, full dependency refresh, new &lt;code&gt;drop&lt;/code&gt; option for &lt;a href="https://gohugo.io/functions/js/build/#drop"&gt;js.Build&lt;/a&gt;, new &lt;a href="https://gohugo.io/hugo-modules/configuration/#auth"&gt;auth&lt;/a&gt; module option useful for private module repositories, &lt;a href="https://gohugo.io/getting-started/configuration-markup/#parserautodefinitiontermid"&gt;autoID&lt;/a&gt; support for &lt;a href="https://michelf.ca/projects/php-markdown/extra/#def-list"&gt;definition terms&lt;/a&gt;, new &lt;code&gt;configurationTypes&lt;/code&gt; configuration option, and more.&lt;/p&gt;
+    <content>&lt;p&gt;Go 1.24 upgrade, several performance improvements, new &lt;a href="https://gohugo.io/content-management/urls/#contentbasename"&gt;:contentbasename&lt;/a&gt; and &lt;a href="https://gohugo.io/content-management/urls/#slugorcontentbasename"&gt;:slugorcontentbasename&lt;/a&gt; permalink tokens, enable KaTeX &lt;code&gt;mhchem&lt;/code&gt; extension for &lt;a href="https://gohugo.io/functions/transform/tomath/"&gt;transform.ToMath&lt;/a&gt;, full dependency refresh, new &lt;code&gt;drop&lt;/code&gt; option for &lt;a href="https://gohugo.io/functions/js/build/#drop"&gt;js.Build&lt;/a&gt;, new &lt;a href="https://gohugo.io/hugo-modules/configuration/#auth"&gt;auth&lt;/a&gt; module option useful for private module repositories, &lt;a href="https://gohugo.io/getting-started/configuration-markup/#parserautodefinitiontermid"&gt;autoID&lt;/a&gt; support for &lt;a href="https://michelf.ca/projects/php-markdown/extra/#def-list"&gt;definition terms&lt;/a&gt;, new &lt;code&gt;configurationTypes&lt;/code&gt; configuration option, and more. For more details, see &lt;a href="https://discourse.gohugo.io/t/more-about-the-v0-144-0-release/53584"&gt;this topic&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Note&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix auto generated header ids so they don't contain e.g. hyperlink destinations (note) 24cc25552 @bep #13405 #13410 &lt;/li&gt;
