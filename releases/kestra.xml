@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-02-18T14:33:14.453017-05:00</updated>
+  <updated>2025-02-18T15:33:10.666814-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -841,7 +841,7 @@
   <entry>
     <id>https://github.com/kestra-io/kestra/releases/tag/v0.21.3</id>
     <title>New release for Kestra: v0.21.3</title>
-    <updated>2025-02-18T12:25:19-05:00</updated>
+    <updated>2025-02-18T15:27:19-05:00</updated>
     <author>
       <name>kestra-io/kestra</name>
     </author>
@@ -859,13 +859,17 @@
 &lt;ul&gt;
 &lt;li&gt;introduce render in commands wrapper for property string (#7430) (&lt;a href="https://github.com/kestra-io/kestra/commit/aa3a6854ae43f7399c9b7f95eec61177c4238d4b"&gt;Mathieu Gabelle&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Continuous Integration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;publish-docker&lt;/strong&gt;: usage of qemu-user-static (&lt;a href="https://github.com/kestra-io/kestra/commit/0b2df61c2e30e8afe91922d2997cfc567a374da0"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: add link to filtered triggers page from backfill dialog (#7380) (&lt;a href="https://github.com/kestra-io/kestra/commit/0b15711b2352670d3c471ce90411f0302b354855"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: include autocompletion shortcut in the preview list (#7384) (&lt;a href="https://github.com/kestra-io/kestra/commit/905f7782041f67431d845998694db64a44b991f1"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: improve breadcrumbs on namespace view (#7386) (&lt;a href="https://github.com/kestra-io/kestra/commit/eaf63f307cf55c8f42d74dd5ae8e16e7085a1bba"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: improve the labels behavior (#7397) (&lt;a href="https://github.com/kestra-io/kestra/commit/f7b495d22f1f4352ca51f05365446860e4851522"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;update version to v0.21.3 (&lt;a href="https://github.com/kestra-io/kestra/commit/a2ed00f749b357448a294e81e5a3b75d1265bada"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;update version to v0.21.3 (&lt;a href="https://github.com/kestra-io/kestra/commit/23bde6b7165ed6230a368dc2fc9be41d0aafc8a5"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
