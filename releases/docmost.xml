@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docmost Releases</title>
-  <updated>2025-02-18T16:33:09.414961-05:00</updated>
+  <updated>2025-02-18T17:33:36.110044-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,7 +142,10 @@ You can generate a new key with &lt;code&gt;openssl rand -hex 32&lt;/code&gt;.&l
       <name>docmost/docmost</name>
     </author>
     <content>&lt;p&gt;Fix wrong email variable used during new workspace setup https://github.com/docmost/docmost/commit/fd5ad2f576bbcbe739843a46775bedfa559ef4f2.
-Issue: https://github.com/docmost/docmost/issues/747.&lt;/p&gt;</content>
+Issue: https://github.com/docmost/docmost/issues/747.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt;
+This only affects users who created their workspace in v0.8.0.&lt;br /&gt;
+If you don’t have any useful data in the database, you should redo the installation. Otherwise, you should update the admin email in the database directly.&lt;/p&gt;</content>
     <link href="https://github.com/docmost/docmost/releases/tag/v0.8.1" rel="alternate"/>
   </entry>
 </feed>
