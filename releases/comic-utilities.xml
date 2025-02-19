@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Comic Utilities Releases</title>
-  <updated>2025-02-19T08:35:04.207646-05:00</updated>
+  <updated>2025-02-19T09:35:12.261453-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -58,7 +58,7 @@
 &lt;li&gt;Added header navigation with snazzy logo&lt;/li&gt;
 &lt;li&gt;Added log monitoring in app&lt;/li&gt;
 &lt;li&gt;Updated folder monitoring to auto-convert to CBZ after renaming (if enabled in web UI)&lt;/li&gt;
-&lt;li&gt;Updated folder monitoring to traverse sub-ddirectories (if enabled in web ui)&lt;/li&gt;
+&lt;li&gt;Updated folder monitoring to traverse sub-directories (if enabled in web UI)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Back End Updates&lt;/h2&gt;
 &lt;ul&gt;
@@ -70,7 +70,7 @@
 &lt;ul&gt;
 &lt;li&gt;Bug Fix: Status messages could time out on long processes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Docker Delpoy&lt;/h2&gt;
+&lt;h2&gt;Docker Deploy&lt;/h2&gt;
 &lt;p&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;

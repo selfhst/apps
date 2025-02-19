@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SmokePing Releases</title>
-  <updated>2025-02-19T08:31:34.436230-05:00</updated>
+  <updated>2025-02-19T09:31:36.732322-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,12 +90,33 @@
   </entry>
   <entry>
     <id>https://github.com/oetiker/SmokePing/releases/tag/v2.9.0</id>
-    <title>New release for SmokePing: </title>
-    <updated>2025-02-19T08:30:11-05:00</updated>
+    <title>New release for SmokePing: Release v2.9.0</title>
+    <updated>2025-02-19T08:45:54-05:00</updated>
     <author>
       <name>oetiker/SmokePing</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;2025-02-19 14:07:15 +0100 Tobias Oetiker &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#116;&amp;#111;&amp;#98;&amp;#105;&amp;#64;&amp;#111;&amp;#101;&amp;#116;&amp;#105;&amp;#107;&amp;#101;&amp;#114;&amp;#46;&amp;#99;&amp;#104;"&gt;&amp;#116;&amp;#111;&amp;#98;&amp;#105;&amp;#64;&amp;#111;&amp;#101;&amp;#116;&amp;#105;&amp;#107;&amp;#101;&amp;#114;&amp;#46;&amp;#99;&amp;#104;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancements to SSH.pm probe for #431, allowing configurable start-up test host and doc improvements&lt;/li&gt;
+&lt;li&gt;fix error when toggling autorefresh @jlu5&lt;/li&gt;
+&lt;li&gt;Support parsing IPv6 output in OpenSSHJunOSPing Plugin @zimage&lt;/li&gt;
+&lt;li&gt;Enhancement to SSHProbe allows specification of IPv4 vs IPv6 transport, #385&lt;/li&gt;
+&lt;li&gt;InfluxDB 2.x v1 (compatibility) api doesn't set the "WWW-Authenticate" header (violating rfc7235).
+   Work around this issue by manually setting the Authorization header @HandyMenny&lt;/li&gt;
+&lt;li&gt;use actual link for form submission @michaelharo&lt;/li&gt;
+&lt;li&gt;allow to enable/disable autorefresh from ui @Fantros&lt;/li&gt;
+&lt;li&gt;make image responsive @HinataKato&lt;/li&gt;
+&lt;li&gt;add fix for #209 - auto create 'dyndir' structure when saving slave updates @simfishing&lt;/li&gt;
+&lt;li&gt;add favicon (bas64) to basepage.html  @rezzorix&lt;/li&gt;
+&lt;li&gt;add "Home"-Link to basepage.html  @rezzorix&lt;/li&gt;
+&lt;li&gt;remove --insecure from curl (wget does not have it!) in configure.ac @Gunni&lt;/li&gt;
+&lt;li&gt;add fix for curl feature checking introduced in curl 7.74 and later @matellis&lt;/li&gt;
+&lt;li&gt;enhancement to extend color handling, making dark templates easier to do @matellis&lt;/li&gt;
+&lt;li&gt;enhancement to remove more borders with graphborders set to no @matellis&lt;/li&gt;
+&lt;li&gt;add "literalsearch" option to filter targets using literal strings instead
+ of regex @jlu5&lt;/li&gt;
+&lt;li&gt;OpenSSH 9.8 compatibility for SSH Plugin @ermuller&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/oetiker/SmokePing/releases/tag/v2.9.0" rel="alternate"/>
   </entry>
 </feed>
