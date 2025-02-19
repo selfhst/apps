@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mattermost Releases</title>
-  <updated>2025-02-19T06:30:53.834825-05:00</updated>
+  <updated>2025-02-19T07:30:52.699615-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -47,7 +47,7 @@
     <author>
       <name>mattermost/mattermost</name>
     </author>
-    <content>&lt;p&gt;Mattermost Platform Release 10.5.1 is the latest Extended Support Release and contains multiple new improvements, bug fixes and breaking changes.&lt;/p&gt;</content>
+    <content>&lt;p&gt;Mattermost Platform Release 10.5.1 is the latest Extended Support Release and contains a Compliance Export overhaul as well as other improvements, bug fixes and breaking changes.&lt;/p&gt;</content>
     <link href="https://github.com/mattermost/mattermost/releases/tag/v10.5.1" rel="alternate"/>
   </entry>
   <entry>

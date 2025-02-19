@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PairDrop Releases</title>
-  <updated>2025-02-19T06:32:13.812234-05:00</updated>
+  <updated>2025-02-19T07:32:13.038492-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,7 +118,15 @@
     <author>
       <name>schlagmichdoch/PairDrop</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix PWA install button on chromium based browsers (#383) (Thanks @realchrislovett)&lt;/li&gt;
+&lt;li&gt;Fix wrong file extension on chromium based browsers if mime type is not set (#355)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations updates from Hosted Weblate (Japanese)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/schlagmichdoch/PairDrop/releases/tag/v1.11.1" rel="alternate"/>
   </entry>
 </feed>
