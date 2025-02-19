@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komga Releases</title>
-  <updated>2025-02-19T04:30:42.479983-05:00</updated>
+  <updated>2025-02-19T05:30:40.693278-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -206,16 +206,17 @@ Emil Schildknecht Nielsen, Gauthier, Gauthier Roebroeck, Horus68, Matthieu Sonta
     <content>&lt;p&gt;Another release full of UI enhancements, and more!&lt;/p&gt;
 &lt;p&gt;Komga now has a Client Settings API, that can be used to store various settings from Client applications, either globally or per user. This has been put to work to enable new features in the WebUI:
 - Global settings
-- Hide login/password fields if OAuth2 is enabled
-- Auto-login with OAuth2 if only a single provider is configured. Note that the pop-up may be blocked by the browser as it is triggered programmatically.
-- Group series by Japanese characters
+  - Hide login/password fields if OAuth2 is enabled
+  - Auto-login with OAuth2 if only a single provider is configured. Note that the pop-up may be blocked by the browser as it is triggered programmatically.
+  - Group series by Japanese characters
 - Per user settings
-- Blur posters for unread series/books
-- Stretch posters to fill&lt;/p&gt;
+  - Blur posters for unread series/books
+  - Stretch posters to fill&lt;/p&gt;
 &lt;p&gt;Other WebUI features include:
 - Libraries in the side drawer can now be reordered, and can also be pinned or unpinned. The Libraries view will only show content for pinned libraries.
 - The Recommended view can be configured, each section can be enabled or disabled, and sections can be reordered.&lt;/p&gt;
 &lt;p&gt;The OpenAPI documentation (Swagger) has been cleaned up entirely. It is now properly ordered, and all operations have proper descriptions.&lt;/p&gt;
+&lt;p&gt;The REST API know supports using API keys for authentication, through a &lt;code&gt;X-API-Key&lt;/code&gt; header.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;api&lt;/strong&gt;
