@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kapowarr Releases</title>
-  <updated>2025-02-19T09:30:40.920607-05:00</updated>
+  <updated>2025-02-19T10:30:39.284239-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,7 @@
 &lt;li&gt;Added general file support for issues&lt;/li&gt;
 &lt;li&gt;'Save' button in settings reports whether saving was successful or not&lt;/li&gt;
 &lt;li&gt;Naming formats are tested when saving settings (testing if Kapowarr supports it) (#206)&lt;/li&gt;
-&lt;li&gt;Added filter for 1&amp;gt; issues on add page (#203)&lt;/li&gt;
+&lt;li&gt;Added filter for &amp;gt;1 issues on add page (#203)&lt;/li&gt;
 &lt;li&gt;Uncaught exceptions (errors) are now also logged to the log file&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
