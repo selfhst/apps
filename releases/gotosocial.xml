@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoToSocial Releases</title>
-  <updated>2025-02-19T13:30:33.121670-05:00</updated>
+  <updated>2025-02-19T14:30:31.191027-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -689,7 +689,7 @@ media-emoji-remote-max-size: 0&lt;/code&gt; &lt;/p&gt;
     </author>
     <content>&lt;p&gt;Here's version 0.17.4 of GoToSocial. This is a &lt;strong&gt;very important security bugfix release&lt;/strong&gt; that addresses a dereferencing bug which, when triggered under a specific set of circumstances, can cause loss of account data on affected instances.&lt;/p&gt;
 &lt;p&gt;We recommend everyone on v0.17.3 or below updates to this version as soon as possible.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;If updating to this version from 0.16.0 or below&lt;/strong&gt;, please follow the &lt;a href="https://github.com/superseriousbusiness/gotosocial/releases/tag/v0.17.0"&gt;instructions for v0.17.0&lt;/a&gt;, replacing &lt;code&gt;0.17.0&lt;/code&gt; with &lt;code&gt;0.17.3&lt;/code&gt; throughout. ⚠️ Be aware that updating to this version from 0.16.0 or below will involve some serious database migrations. Check the 0.17.0 release notes carefully for more details on this. ⚠️&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If updating to this version from 0.16.0 or below&lt;/strong&gt;, please follow the &lt;a href="https://github.com/superseriousbusiness/gotosocial/releases/tag/v0.17.0"&gt;instructions for v0.17.0&lt;/a&gt;, replacing &lt;code&gt;0.17.0&lt;/code&gt; with &lt;code&gt;0.17.4&lt;/code&gt; throughout. ⚠️ Be aware that updating to this version from 0.16.0 or below will involve some serious database migrations. Check the 0.17.0 release notes carefully for more details on this. ⚠️&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;If updating to this version from 0.17.x, follow the instructions below.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Migration notes&lt;/h2&gt;
 &lt;h3&gt;Upgrading&lt;/h3&gt;
