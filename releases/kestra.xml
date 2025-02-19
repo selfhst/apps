@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-02-19T02:33:09.659534-05:00</updated>
+  <updated>2025-02-19T03:33:04.137497-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -828,18 +828,26 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.20.15...v0.20.16&lt;/p&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: possible NPE on LabelService.containsAll (&lt;a href="https://github.com/kestra-io/kestra/commit/0644a565566489888969787c2c5de337859b4e95"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;scheduler&lt;/strong&gt;: delete trigger when flow is not found (#7366) (&lt;a href="https://github.com/kestra-io/kestra/commit/d28ba29938e907b65578be4749df1402abaaf96c"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: remove props with default from &lt;code&gt;required&lt;/code&gt; in json schema to avoid validation errors (&lt;a href="https://github.com/kestra-io/kestra/commit/75e7481d230a54aecb48e1f9d59cf23773a2bbd1"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tests&lt;/strong&gt;: increase timeout on JdbcServiceLivenessCoordinatorTest.taskResubmitSkipExecution (&lt;a href="https://github.com/kestra-io/kestra/commit/909928e31aa63f309dc5d04ecfb556bac6946352"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;gcp issue (&lt;a href="https://github.com/kestra-io/kestra/commit/beedd440842959012037a370f46c1f5afd937109"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tests&lt;/strong&gt;: move up atomic reference assignation to avoid flakiness (&lt;a href="https://github.com/kestra-io/kestra/commit/176f78eb1902e55ad7a824eb245fe984c68385af"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Possible NPE on LabelService.containsAll (&lt;a href="https://github.com/kestra-io/kestra/commit/0644a5655"&gt;0644a5655&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;scheduler:&lt;/strong&gt; Delete trigger when flow is not found (&lt;a href="https://github.com/kestra-io/kestra/pull/7366"&gt;#7366&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Remove props with default from &lt;code&gt;required&lt;/code&gt; in json schema to avoid validation errors (&lt;a href="https://github.com/kestra-io/kestra/commit/75e7481d2"&gt;75e7481d2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tests:&lt;/strong&gt; Increase timeout on JdbcServiceLivenessCoordinatorTest.taskResubmitSkipExecution (&lt;a href="https://github.com/kestra-io/kestra/commit/909928e31"&gt;909928e31&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tests:&lt;/strong&gt; Move up atomic reference assignation to avoid flakiness (&lt;a href="https://github.com/kestra-io/kestra/commit/176f78eb1"&gt;176f78eb1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ci:&lt;/strong&gt; QEMU issue (&lt;a href="https://github.com/kestra-io/kestra/commit/2bd2cdf09"&gt;2bd2cdf09&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;version 0.20.16 (&lt;a href="https://github.com/kestra-io/kestra/commit/9f419145f346956249cc2eb808dbd5b0b97b1b36"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Version 0.20.16 (&lt;a href="https://github.com/kestra-io/kestra/commit/9417d5825"&gt;9417d5825&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Brian.mulier (&lt;a href="http://github.com/brian-mulier-p"&gt;@brian-mulier-p&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;YannC (&lt;a href="http://github.com/Skraye"&gt;@Skraye&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Loïc Mathieu (&lt;a href="http://github.com/loicmathieu"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.20.16" rel="alternate"/>
   </entry>
@@ -850,37 +858,40 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.2...v0.21.3&lt;/p&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;scheduler&lt;/strong&gt;: delete trigger when flow is not found (#7366) (&lt;a href="https://github.com/kestra-io/kestra/commit/a51b193f4b8f9e77f2afb05b6fdd2eecfac3a2d6"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;enable rendering of commands properties inside CommandsWrapper (#7381) (&lt;a href="https://github.com/kestra-io/kestra/commit/bb6edfff987839c71ecb4bc1b3cd5d43e0cd6926"&gt;Mathieu Gabelle&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: improve modifying inputs from no code editor (#7440) (&lt;a href="https://github.com/kestra-io/kestra/commit/fcf999ff610e2ed8a21f22a16ce5c6bf1a23e9ca"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: provide tenantId when looking for subflow (#7442) (&lt;a href="https://github.com/kestra-io/kestra/commit/077421d59cd933bc18ec77f48e6a45ea38b2fae5"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: remove props with default from &lt;code&gt;required&lt;/code&gt; in json schema to avoid validation errors (&lt;a href="https://github.com/kestra-io/kestra/commit/3a39c658291f292309071e23967415556fd0c8f8"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: render &lt;code&gt;delete&lt;/code&gt; property at the beginning in Docker task runner (&lt;a href="https://github.com/kestra-io/kestra/commit/1fa026f0ee02ea45f457502874a1bfb7d4380ff5"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tests&lt;/strong&gt;: increase timeout on JdbcServiceLivenessCoordinatorTest.taskResubmitSkipExecution (&lt;a href="https://github.com/kestra-io/kestra/commit/d30b331b3cfefb1017fe8e4451e225656a8c6c0f"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;scheduler:&lt;/strong&gt; Delete trigger when flow is not found (&lt;a href="https://github.com/kestra-io/kestra/pull/7366"&gt;#7366&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enable rendering of commands properties inside CommandsWrapper " (&lt;a href="https://github.com/kestra-io/kestra/pull/7381"&gt;#7381&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Improve modifying inputs from no code editor (&lt;a href="https://github.com/kestra-io/kestra/pull/7440"&gt;#7440&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Provide tenantId when looking for subflow (&lt;a href="https://github.com/kestra-io/kestra/pull/7442"&gt;#7442&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Remove props with default from &lt;code&gt;required&lt;/code&gt; in json schema to avoid validation errors (&lt;a href="https://github.com/kestra-io/kestra/commit/3a39c6582"&gt;3a39c6582&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Render &lt;code&gt;delete&lt;/code&gt; property at the beginning in Docker task runner (&lt;a href="https://github.com/kestra-io/kestra/commit/1fa026f0e"&gt;1fa026f0e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tests:&lt;/strong&gt; Increase timeout on JdbcServiceLivenessCoordinatorTest.taskResubmitSkipExecution (&lt;a href="https://github.com/kestra-io/kestra/commit/d30b331b3"&gt;d30b331b3&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Code Refactoring&lt;/h2&gt;
+&lt;h3&gt;💅 Refactors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;introduce render in commands wrapper for property string (#7430) (&lt;a href="https://github.com/kestra-io/kestra/commit/aa3a6854ae43f7399c9b7f95eec61177c4238d4b"&gt;Mathieu Gabelle&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Introduce render in commands wrapper for property string (&lt;a href="https://github.com/kestra-io/kestra/pull/7430"&gt;#7430&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Continuous Integration&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;publish-docker&lt;/strong&gt;: usage of qemu-user-static (&lt;a href="https://github.com/kestra-io/kestra/commit/0b2df61c2e30e8afe91922d2997cfc567a374da0"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Add link to filtered triggers page from backfill dialog (&lt;a href="https://github.com/kestra-io/kestra/pull/7380"&gt;#7380&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Include autocompletion shortcut in the preview list (&lt;a href="https://github.com/kestra-io/kestra/pull/7384"&gt;#7384&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Improve breadcrumbs on namespace view (&lt;a href="https://github.com/kestra-io/kestra/pull/7386"&gt;#7386&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Improve the labels behavior (&lt;a href="https://github.com/kestra-io/kestra/pull/7397"&gt;#7397&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Update version to v0.21.3 (&lt;a href="https://github.com/kestra-io/kestra/commit/23bde6b71"&gt;23bde6b71&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🤖 CI&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: add link to filtered triggers page from backfill dialog (#7380) (&lt;a href="https://github.com/kestra-io/kestra/commit/0b15711b2352670d3c471ce90411f0302b354855"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: include autocompletion shortcut in the preview list (#7384) (&lt;a href="https://github.com/kestra-io/kestra/commit/905f7782041f67431d845998694db64a44b991f1"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: improve breadcrumbs on namespace view (#7386) (&lt;a href="https://github.com/kestra-io/kestra/commit/eaf63f307cf55c8f42d74dd5ae8e16e7085a1bba"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: improve the labels behavior (#7397) (&lt;a href="https://github.com/kestra-io/kestra/commit/f7b495d22f1f4352ca51f05365446860e4851522"&gt;Miloš Paunović&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;update version to v0.21.3 (&lt;a href="https://github.com/kestra-io/kestra/commit/23bde6b7165ed6230a368dc2fc9be41d0aafc8a5"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;publish-docker:&lt;/strong&gt; Usage of qemu-user-static (&lt;a href="https://github.com/kestra-io/kestra/commit/0b2df61c2"&gt;0b2df61c2&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Commits&lt;/h2&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;69faecf: Revert "refactor: introduce render in commands wrapper for property string (#7430)" (Mathieu Gabelle)&lt;/li&gt;
-&lt;li&gt;3e2f798: Revert "fix: enable rendering of commands properties inside CommandsWrapper (#7381)" (Mathieu Gabelle)&lt;/li&gt;
-&lt;li&gt;b174a81: fix decode method call for labels (aeSouid)&lt;/li&gt;
+&lt;li&gt;Brian.mulier (&lt;a href="http://github.com/brian-mulier-p"&gt;@brian-mulier-p&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;YannC (&lt;a href="http://github.com/Skraye"&gt;@Skraye&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Miloš Paunović (&lt;a href="http://github.com/MilosPaunovic"&gt;@MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Mathieu Gabelle (&lt;a href="http://github.com/mgabelle"&gt;@mgabelle&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.3" rel="alternate"/>
   </entry>
