@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kavita Releases</title>
-  <updated>2025-02-19T14:30:39.965618-05:00</updated>
+  <updated>2025-02-19T15:30:37.496761-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -414,6 +414,10 @@ The lowest series folder was /love hina/love hina/ for some reason, meaning seri
 &lt;li&gt;Added --navbar-header-margin, set it to 8px and --nav-offset to 56px to get the Plex floating navbar.&lt;/li&gt;
 &lt;li&gt;Added --navbar-border-radius to fix the navbar but let users customize for that Plex look.&lt;/li&gt;
 &lt;li&gt;Added --navbar-header-mobile-x-margin and --navbar-header-mobile-y-margin to allow for the Plex navbar on mobile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Feature Requests&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Added the ability to browse all Writers and Artists (cover artist) in one page. This should help book users that like to browse by author. (FR #2556 - 23 votes)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Known Issues&lt;/h1&gt;
 &lt;ul&gt;
