@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-02-19T10:34:06.958409-05:00</updated>
+  <updated>2025-02-19T11:34:13.556378-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,7 +112,22 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ec38f7e5a3e51cc585e9419cf2cfa2f2c1476f09 [#840] config: fix: Add &lt;code&gt;dagsDir&lt;/code&gt; config key (#850)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;doc(executor/docker): add doc about working with env by @vnghia in https://github.com/dagu-org/dagu/pull/836&lt;/li&gt;
+&lt;li&gt;doc: Add Github sponser button by @arky in https://github.com/dagu-org/dagu/pull/839&lt;/li&gt;
+&lt;li&gt;doc: Update code of conduct by @arky in https://github.com/dagu-org/dagu/pull/843&lt;/li&gt;
+&lt;li&gt;doc: improve contribution guide, add commit standards by @arky in https://github.com/dagu-org/dagu/pull/844&lt;/li&gt;
+&lt;li&gt;[#846] Fix: issue in calling sub-DAG by @yohamta in https://github.com/dagu-org/dagu/pull/848&lt;/li&gt;
+&lt;li&gt;[#847] fix: digraph: overload multiple &lt;code&gt;dotenv&lt;/code&gt; files by @yohamta in https://github.com/dagu-org/dagu/pull/849&lt;/li&gt;
+&lt;li&gt;[#840] config: fix: Add &lt;code&gt;dagsDir&lt;/code&gt; config key by @yohamta in https://github.com/dagu-org/dagu/pull/850&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@vnghia made their first contribution in https://github.com/dagu-org/dagu/pull/836&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.2...v1.16.3&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.3" rel="alternate"/>
   </entry>
 </feed>

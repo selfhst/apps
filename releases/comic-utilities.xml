@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Comic Utilities Releases</title>
-  <updated>2025-02-19T10:35:07.376790-05:00</updated>
+  <updated>2025-02-19T11:35:13.742321-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,5 +113,40 @@
 &lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/allaboutduncan/comic-utils/releases/tag/v1.2</id>
+    <title>New release for Comic Utilities: v1.2: New Monitoring Features &amp; Deploy Change</title>
+    <updated>2025-02-19T10:39:14-05:00</updated>
+    <author>
+      <name>allaboutduncan/comic-utils</name>
+    </author>
+    <content>&lt;h1&gt;Release Version 1.2 Changelog&lt;/h1&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monitor - Auto-Unpack:&lt;/strong&gt; If enabled, when &lt;code&gt;ZIP&lt;/code&gt; files are downloaded to the &lt;em&gt;Watch&lt;/em&gt; folder, they will be extracted auto-matically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor - Move Sub-directories:&lt;/strong&gt; If enabled, sub-directories containing files will be moved to the &lt;em&gt;Target&lt;/em&gt; folder and the folder name will be cleaned as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Back End Updates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persist Config Settings:&lt;/strong&gt; Config file directory maps to local drive in &lt;code&gt;docker-compose&lt;/code&gt; to ensure settings are persisted on upgrades.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ignore System &amp;amp; Hidden Files:&lt;/strong&gt; Added a &lt;a href="https://github.com/allaboutduncan/comic-utils/blob/main/helpers.py"&gt;helper function&lt;/a&gt; to ignore hidden files on Windows and all files that begin with "." or "&lt;em&gt;" when parsing directories. Thanks to _mr.pink1349&lt;/em&gt; on the Komga discord server for the assist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug Fix: Status messages could time out on long processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Docker Deploy&lt;/h2&gt;
+&lt;p&gt;Docker images are updated for image: &lt;code&gt;allaboutduncan/comic-utils-web:latest&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Re-pull and Update Image to deploy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update your Docker Compose:&lt;/strong&gt; Mapping the &lt;code&gt;/config&lt;/code&gt; directory is required now to ensure that config settings are persisted on updates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First Install:&lt;/strong&gt; On the first install with new &lt;code&gt;config&lt;/code&gt; settings, visit the config page, ensure everything is configured as desired.&lt;ul&gt;
+&lt;li&gt;Save your Config settings&lt;/li&gt;
+&lt;li&gt;Click the &lt;em&gt;Restart App&lt;/em&gt; button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/allaboutduncan/comic-utils/releases/tag/v1.2" rel="alternate"/>
   </entry>
 </feed>
