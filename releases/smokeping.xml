@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SmokePing Releases</title>
-  <updated>2025-02-19T07:31:37.954363-05:00</updated>
+  <updated>2025-02-19T08:31:34.436230-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,5 +87,15 @@
 &lt;li&gt;2.8.2 add missing README.md file and fix spelling in FTPtransfer.pm &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/oetiker/SmokePing/releases/tag/2.8.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/oetiker/SmokePing/releases/tag/v2.9.0</id>
+    <title>New release for SmokePing: </title>
+    <updated>2025-02-19T08:30:11-05:00</updated>
+    <author>
+      <name>oetiker/SmokePing</name>
+    </author>
+    <content/>
+    <link href="https://github.com/oetiker/SmokePing/releases/tag/v2.9.0" rel="alternate"/>
   </entry>
 </feed>
