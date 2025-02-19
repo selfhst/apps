@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-02-18T21:30:41.550181-05:00</updated>
+  <updated>2025-02-18T22:30:42.540711-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -555,8 +555,26 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;SECURITY   * Enhance routers for the Actions variable operations (#33547) (#33553)   * Enhance routers for the Actions runner operations (#33549) (#33555)   * Fix project issues list and counting (#33594) #33619 * PERFORMANCES   * Performance optimization for pull request files loading comments attachments (#33585) (#33592) * BUGFIXES   * Add a transaction to &lt;code&gt;pickTask&lt;/code&gt; (#33543) (#33563)   * Fix mirror bug (#33597) (#33607)   * Use default Git timeout when checking repo health (#33593) (#33598)   * Fix PR's target branch dropdown (#33589) (#33591)   * Fix various problems (artifact order, api empty slice, assignee check, fuzzy prompt, mirror proxy, adopt git) (#33569) (#33577)   * Rework suggestion backend (#33538) (#33546)   * Fix context usage (#33554) (#33557)   * Only show the latest version in the Arch index (#33262) (#33580)   * Skip deletion error for action artifacts (#33476) (#33568)   * Make actions URL in commit status webhooks absolute (#33620) #33632   * Add missing locale (#33641) #33642&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;SECURITY&lt;/li&gt;
+&lt;li&gt;Enhance routers for the Actions variable operations (#33547) (#33553)&lt;/li&gt;
+&lt;li&gt;Enhance routers for the Actions runner operations (#33549) (#33555)&lt;/li&gt;
+&lt;li&gt;Fix project issues list and counting (#33594) #33619&lt;/li&gt;
+&lt;li&gt;PERFORMANCES&lt;/li&gt;
+&lt;li&gt;Performance optimization for pull request files loading comments attachments (#33585) (#33592)&lt;/li&gt;
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;li&gt;Add a transaction to &lt;code&gt;pickTask&lt;/code&gt; (#33543) (#33563)&lt;/li&gt;
+&lt;li&gt;Fix mirror bug (#33597) (#33607)&lt;/li&gt;
+&lt;li&gt;Use default Git timeout when checking repo health (#33593) (#33598)&lt;/li&gt;
+&lt;li&gt;Fix PR's target branch dropdown (#33589) (#33591)&lt;/li&gt;
+&lt;li&gt;Fix various problems (artifact order, api empty slice, assignee check, fuzzy prompt, mirror proxy, adopt git) (#33569) (#33577)&lt;/li&gt;
+&lt;li&gt;Rework suggestion backend (#33538) (#33546)&lt;/li&gt;
+&lt;li&gt;Fix context usage (#33554) (#33557)&lt;/li&gt;
+&lt;li&gt;Only show the latest version in the Arch index (#33262) (#33580)&lt;/li&gt;
+&lt;li&gt;Skip deletion error for action artifacts (#33476) (#33568)&lt;/li&gt;
+&lt;li&gt;Make actions URL in commit status webhooks absolute (#33620) #33632&lt;/li&gt;
+&lt;li&gt;Add missing locale (#33641) #33642&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.23.4" rel="alternate"/>
   </entry>
 </feed>
