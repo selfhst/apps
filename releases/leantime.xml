@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2025-02-19T17:30:44.506221-05:00</updated>
+  <updated>2025-02-19T18:30:41.878310-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1024,6 +1024,8 @@
 &lt;li&gt;Docker Image now supports PUID=1000 and PGID=1000 arguments as well as a a user var to run leantime as non-root&lt;/li&gt;
 &lt;li&gt;Clean up plugin marketplace page &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;🚨 Permission issues with the new docker image&lt;/h2&gt;
+&lt;p&gt;Due to the user/group updates on the docker image there is a small chance you run into file permission issues on existing volumes check https://github.com/Leantime/docker-leantime?tab=readme-ov-file#common-issues--solutions for setting the permissions correctly.&lt;/p&gt;
 &lt;h2&gt;Changes in this Release&lt;/h2&gt;
 &lt;p&gt;History from &lt;code&gt;v3.4.0&lt;/code&gt; to &lt;code&gt;@&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Commits&lt;/h3&gt;
