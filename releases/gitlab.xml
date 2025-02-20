@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-02-20T16:30:29.204693-05:00</updated>
+  <updated>2025-02-20T17:30:29.394917-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -522,7 +522,7 @@
 
 &lt;/details&gt;
 
-&lt;details&gt;&lt;summary&gt;[Composite identity for more secure AI connections](https://docs.gitlab.com/ee/user/profile/service_accounts.html)): &lt;code&gt;Duo Workflow&lt;/code&gt;&lt;/summary&gt;
+&lt;details&gt;&lt;summary&gt;[Composite identity for more secure AI connections](https://docs.gitlab.com/development/ai_features/composite_identity/): &lt;code&gt;Duo Workflow&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Previously, a request to GitLab could only be authenticated as a single user. With composite identity, we have now made it possible to authenticate a request as a service account and a user simultaneously.
 &gt; AI agent use cases often require permissions to be based on the user who initiated the tasks in a system, while simultaneously showing a distinct identity that's separate from the initiating user. A composite identity is our new identity principal, which represents an AI agent's identity. This identity is linked with the identity of the human user who requests actions from the agent.
