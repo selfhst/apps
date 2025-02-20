@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wapy.dev Releases</title>
-  <updated>2025-02-20T14:34:41.800702-05:00</updated>
+  <updated>2025-02-20T15:34:35.614265-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,20 @@
 - Package updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/meceware/wapy.dev/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/meceware/wapy.dev/releases/tag/v1.2.1</id>
+    <title>New release for Wapy.dev: v1.2.1</title>
+    <updated>2025-02-20T14:55:23-05:00</updated>
+    <author>
+      <name>meceware/wapy.dev</name>
+    </author>
+    <content>&lt;p&gt;Fixes:
+- SEO data is updated.
+- Viewport maximum scale is removed.
+- Contact form email is redesigned.
+- Minor UI and text updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/meceware/wapy.dev/compare/v1.2.0...v1.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/meceware/wapy.dev/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>
