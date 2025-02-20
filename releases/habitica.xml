@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Habitica Releases</title>
-  <updated>2025-02-20T15:34:33.387542-05:00</updated>
+  <updated>2025-02-20T16:34:37.788858-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,6 +91,7 @@
     <content>&lt;h2&gt;Server&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Feature: Add SLOW_REQUEST_THRESHOLD env option to send activity that drags past the given processing time to logger service (@phillipthelen)&lt;/li&gt;
+&lt;li&gt;Chore: Locale files updated (@weblate)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Client&lt;/h2&gt;
 &lt;ul&gt;

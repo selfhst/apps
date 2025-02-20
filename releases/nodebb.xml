@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-02-20T15:33:02.148399-05:00</updated>
+  <updated>2025-02-20T16:33:03.458658-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,22 +190,6 @@
     </author>
     <content>&lt;p&gt;Release build (patch) of NodeBB @ 2025-02-20T18:17:39.175Z&lt;/p&gt;
 &lt;h4&gt;v4.0.5 (2025-02-20)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;bump composer to 10.2.46 for #13132 (7520e4f6)&lt;/li&gt;
-&lt;li&gt;up harmony (f82f00e5)&lt;/li&gt;
-&lt;li&gt;up widgets (e23a14c1)&lt;/li&gt;
-&lt;li&gt;up harmony (c0996a80)&lt;/li&gt;
-&lt;li&gt;up dbsearch (d0a9ddea)&lt;/li&gt;
-&lt;li&gt;up dbsearch (310fab65)&lt;/li&gt;
-&lt;li&gt;add test helper to activitypub file (4bc0031f)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.4 (b1125cce)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.0.4 (d3b69a39)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.3 (2b65c735)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.2 (73fe5fcf)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.1 (a461b758)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;New Features&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;add upload button to quickreply (f67a0a12)&lt;/li&gt;
