@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockwatch Releases</title>
-  <updated>2025-02-19T18:34:31.736478-05:00</updated>
+  <updated>2025-02-19T19:34:23.210887-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,5 +61,16 @@ Bump nginx from 3.18 to 3.21
 Bump PHP from 8.2 to 8.3&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.5.350...v0.6.381&lt;/p&gt;</content>
     <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.6.381" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Notifiarr/dockwatch/releases/tag/v0.6.384</id>
+    <title>New release for Dockwatch: v0.6.384</title>
+    <updated>2025-02-19T19:03:29-05:00</updated>
+    <author>
+      <name>Notifiarr/dockwatch</name>
+    </author>
+    <content>&lt;p&gt;Some followup changes/adjustments to the previous UI/theme update&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Notifiarr/dockwatch/compare/v0.6.381...v0.6.384&lt;/p&gt;</content>
+    <link href="https://github.com/Notifiarr/dockwatch/releases/tag/v0.6.384" rel="alternate"/>
   </entry>
 </feed>
