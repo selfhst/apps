@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Convoy Releases</title>
-  <updated>2025-02-21T13:35:02.454260-05:00</updated>
+  <updated>2025-02-21T14:34:57.276448-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,8 +91,18 @@
       <name>frain-dev/convoy</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;15f0abf7068bc42e9018b6a02d1693abadba7102 Bump version to v25.2.1&lt;/li&gt;
+&lt;li&gt;Improve Tracing: Add Event ID To Workflow Stages #2245 #2240 #2244&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated credential encryption #2233 #2231&lt;/li&gt;
+&lt;li&gt;Updated read-replicas to rely on feature flags #2226&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix panic in backup project data handler #2232&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/frain-dev/convoy/releases/tag/v25.2.1" rel="alternate"/>
   </entry>
