@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Amnezia Releases</title>
-  <updated>2025-02-20T23:34:23.349601-05:00</updated>
+  <updated>2025-02-21T00:34:30.098353-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,8 +83,7 @@ apt install libxcb-cursor0 libxcb-xinerama0&lt;/p&gt;</content>
     <author>
       <name>amnezia-vpn/amnezia-client</name>
     </author>
-    <content>&lt;h3&gt;This is a pre-release for testing purposes. May have a large number of ui bugs, so don't upgrade if you are not ready for it&lt;/h3&gt;
-&lt;h2&gt;Version differences&lt;/h2&gt;
+    <content>&lt;h2&gt;Version differences&lt;/h2&gt;
 &lt;h3&gt;Andoird&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;For Android version 8 and higher, you need to use .apk that start with - AmneziaVPN_4.8.3.1_android8+&lt;/li&gt;
