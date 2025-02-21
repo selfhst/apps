@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-02-21T03:33:08.099822-05:00</updated>
+  <updated>2025-02-21T04:33:09.740563-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,79 @@ The HTTP email connector allows you to send emails via HTTP call. To use the HTT
     <author>
       <name>logto-io/logto</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;New connectors:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;X (Twitter) social connector&lt;/li&gt;
+&lt;li&gt;Slack social connector&lt;/li&gt;
+&lt;li&gt;LinkedIn social connector&lt;/li&gt;
+&lt;li&gt;Line social connector&lt;/li&gt;
+&lt;li&gt;Amazon social connector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/logto-io/logto/commit/cb261024b6d8ce1a708d2359d8843aa052aaff01: fix cli add offical connectors command missing connectors bug
+  Fix the bug when running the cli commend logto connectors add --official, only 8 connectors are fetched from npm registry.
+  This fix update logic to query additional pages of results when fetching connectors from the npm registry.&lt;/li&gt;
+&lt;li&gt;https://github.com/logto-io/logto/commit/0b785ee0d8e1156607f5185c51e9a21fbae76a4d: display JWKS URI on application details page&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;https://github.com/logto-io/logto/commit/e7accfdab9c646dfe60dd0728c9566823fe18188: prevent i18n context contamination by using request-scoped instances
+  This bug fix resolves a concurrency issue in i18n handling by moving from a global i18next instance to request-scoped instances.&lt;/p&gt;
+&lt;h3&gt;Problem&lt;/h3&gt;
+&lt;p&gt;When handling concurrent requests:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The shared global &lt;code&gt;i18next&lt;/code&gt; instance's language was being modified via &lt;code&gt;changeLanguage()&lt;/code&gt; calls.&lt;/li&gt;
+&lt;li&gt;This could lead to race conditions where requests might receive translations in unexpected languages.&lt;/li&gt;
+&lt;li&gt;Particularly problematic in multi-tenant environments with different language requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated &lt;code&gt;koaI18next&lt;/code&gt; middleware to create a cloned i18next instance for each request.&lt;/li&gt;
+&lt;li&gt;Attach the request-scoped instance to Koa context (&lt;code&gt;ctx.i18n&lt;/code&gt;) All subsequent middleware and handlers should now use &lt;code&gt;ctx.i18n&lt;/code&gt; instead of the global &lt;code&gt;i18next&lt;/code&gt; instance.&lt;/li&gt;
+&lt;li&gt;Maintains the global instance for initialization while preventing cross-request contamination&lt;/li&gt;
+&lt;li&gt;a5990ec57: fixes an incorrect condition check in the verification code flow where &lt;code&gt;isNewIdentifier&lt;/code&gt; was using inverted logic for email and phone comparisons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Corrected &lt;code&gt;isNewIdentifier&lt;/code&gt; boolean logic to use &lt;code&gt;identifier.value !== user.primaryEmail&lt;/code&gt; for email checks&lt;/li&gt;
+&lt;li&gt;Fixed phone number comparison to properly use &lt;code&gt;identifier.value !== user.primaryPhone&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Impact&lt;/h3&gt;
+&lt;p&gt;This fixes a regression where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verification codes for existing emails/phones were incorrectly using the&lt;code&gt;BindNewIdentifier&lt;/code&gt; template&lt;/li&gt;
+&lt;li&gt;New identifiers were mistakenly getting the &lt;code&gt;UserPermissionValidation&lt;/code&gt; template&lt;/li&gt;
+&lt;li&gt;Affected both email and phone verification flows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;28643c1f1: fix the email/phone identifier conflict handling logic during user registration.&lt;/p&gt;
+&lt;p&gt;When a user attempts to register with an email/phone that already exists:&lt;/p&gt;
+&lt;h3&gt;Previous Behavior&lt;/h3&gt;
+&lt;p&gt;"Sign in instead" modal will be shown when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The email/phone identifier has been verified through a verification code validation&lt;/li&gt;
+&lt;li&gt;Identifier type (email/phone) was enabled in sign-in methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This caused an issue when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only password authentication method was enabled in the sign-in method settings.&lt;/li&gt;
+&lt;li&gt;When users clicked "Sign in instead" action button, the API call will throw an sign-in method not enabled error. Which is confusing for the user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expected behavior: Show the "Email/phone already exists" error modal directly. If only password authentication is enabled. User should not be able to sign in with email/phone directly.&lt;/p&gt;
+&lt;h3&gt;Fixed Behavior&lt;/h3&gt;
+&lt;p&gt;Shows the "Sign in instead" modal if:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The email/phone identifier type is enabled in the sign-in method settings and the verification code is enabled for the identifier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Otherwise, shows the "Email/phone already exists" error modal directly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bd18da4cf: properly filter WeChat connectors by platform (Web | Native) in SSR sign-in experience settings&lt;/p&gt;
+&lt;p&gt;Previously, platform-based social connector filtering was applied during the sign-in experience settings fetch process but not in the SSR sign-in experience data. As a result, platform-specific connectors were not correctly filtered when rendering the page using SSR data.&lt;/p&gt;
+&lt;p&gt;This update ensures that the same filtering logic is applied to SSR sign-in experience data, resolving the issue.&lt;/p&gt;
+&lt;p&gt;Affected connectors: WeChat Web and WeChat Native.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.24.1" rel="alternate"/>
   </entry>
 </feed>
