@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maybe Releases</title>
-  <updated>2025-02-21T12:30:51.703188-05:00</updated>
+  <updated>2025-02-21T13:30:49.810659-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,5 +158,84 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/maybe-finance/maybe/releases/tag/v0.4.0</id>
+    <title>New release for Maybe: v0.4.0</title>
+    <updated>2025-02-21T12:44:25-05:00</updated>
+    <author>
+      <name>maybe-finance/maybe</name>
+    </author>
+    <content>&lt;h2&gt;Maybe Refresh 🎉&lt;/h2&gt;
+&lt;p&gt;This latest version comes with a &lt;strong&gt;brand new and simplified UI&lt;/strong&gt; plus a ton of huge performance improvements on the transactions, dashboard, and accounts pages.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CleanShot 2025-02-21 at 12 39 12" src="https://github.com/user-attachments/assets/7c9d220c-4a13-4eef-9866-05a61310e2cf" /&gt;&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix account deletion cascade bug by @zachgoll in https://github.com/maybe-finance/maybe/pull/1644&lt;/li&gt;
+&lt;li&gt;Do not raise on Plaid item not found exceptions for item deletions by @zachgoll in https://github.com/maybe-finance/maybe/pull/1646&lt;/li&gt;
+&lt;li&gt;Align cascade delete behavior for transfers by @zachgoll in https://github.com/maybe-finance/maybe/pull/1647&lt;/li&gt;
+&lt;li&gt;fix: Only admins can generate invite codes by @tonyvince in https://github.com/maybe-finance/maybe/pull/1611&lt;/li&gt;
+&lt;li&gt;Only update account balance if changed by @zachgoll in https://github.com/maybe-finance/maybe/pull/1676&lt;/li&gt;
+&lt;li&gt;Adjust queues to prioritize account syncs, handle missing current day values by @zachgoll in https://github.com/maybe-finance/maybe/pull/1682&lt;/li&gt;
+&lt;li&gt;Added Decimal Support in min transaction by @Harry-kp in https://github.com/maybe-finance/maybe/pull/1681&lt;/li&gt;
+&lt;li&gt;Fix n+1 for categories in for to_donut_segments_json in budget by @tapalilov in https://github.com/maybe-finance/maybe/pull/1693&lt;/li&gt;
+&lt;li&gt;Add More Timelines by @nikhilbadyal in https://github.com/maybe-finance/maybe/pull/1714&lt;/li&gt;
+&lt;li&gt;Add cabin / cottage as a property type by @eithe in https://github.com/maybe-finance/maybe/pull/1658&lt;/li&gt;
+&lt;li&gt;Add RejectedTransfer model, simplify auto matching by @zachgoll in https://github.com/maybe-finance/maybe/pull/1690&lt;/li&gt;
+&lt;li&gt;Fix: Editing a category does not show notification until next page refresh by @jestinjoshi in https://github.com/maybe-finance/maybe/pull/1720&lt;/li&gt;
+&lt;li&gt;Bump to Ruby 3.4.1 by @zachgoll in https://github.com/maybe-finance/maybe/pull/1721&lt;/li&gt;
+&lt;li&gt;Lazy load synth logos by @zachgoll in https://github.com/maybe-finance/maybe/pull/1731&lt;/li&gt;
+&lt;li&gt;Only build armv7 on official releases by @zachgoll in https://github.com/maybe-finance/maybe/pull/1732&lt;/li&gt;
+&lt;li&gt;Don't allow a subcategory to be assigned to another subcategory to ensure 1 level of nesting max by @elvisserrao in https://github.com/maybe-finance/maybe/pull/1730&lt;/li&gt;
+&lt;li&gt;Preserve transaction filters and transaction focus across page visits by @zachgoll in https://github.com/maybe-finance/maybe/pull/1733&lt;/li&gt;
+&lt;li&gt;Add/remove members and invitations by @Shpigford in https://github.com/maybe-finance/maybe/pull/1744&lt;/li&gt;
+&lt;li&gt;Ensure Consistent Category Colors by @JLambertazzo in https://github.com/maybe-finance/maybe/pull/1722&lt;/li&gt;
+&lt;li&gt;Allow users to update their email address by @Shpigford in https://github.com/maybe-finance/maybe/pull/1745&lt;/li&gt;
+&lt;li&gt;Initial pass at Plaid EU by @Shpigford in https://github.com/maybe-finance/maybe/pull/1555&lt;/li&gt;
+&lt;li&gt;Fix EU plaid flow by @zachgoll in https://github.com/maybe-finance/maybe/pull/1761&lt;/li&gt;
+&lt;li&gt;Improve speed of transactions page by @zachgoll in https://github.com/maybe-finance/maybe/pull/1752&lt;/li&gt;
+&lt;li&gt;Fix: unable to add accounts without plain set up by @F2210 in https://github.com/maybe-finance/maybe/pull/1769&lt;/li&gt;
+&lt;li&gt;Fix: make date format year consistent overall #1712 by @scodes73 in https://github.com/maybe-finance/maybe/pull/1726&lt;/li&gt;
+&lt;li&gt;Cursor rules and project design overview by @zachgoll in https://github.com/maybe-finance/maybe/pull/1788&lt;/li&gt;
+&lt;li&gt;Fix crypto.randomUUID errors when adding holdings by @zachgoll in https://github.com/maybe-finance/maybe/pull/1795&lt;/li&gt;
+&lt;li&gt;Split family and Plaid item syncs into multiple jobs by @zachgoll in https://github.com/maybe-finance/maybe/pull/1799&lt;/li&gt;
+&lt;li&gt;Fix: Incorrect Currency Assignment for Stock Prices (#1623) by @saphp in https://github.com/maybe-finance/maybe/pull/1798&lt;/li&gt;
+&lt;li&gt;Fix budget allocation forms from resetting and clearing data on slow networks by @zachgoll in https://github.com/maybe-finance/maybe/pull/1804&lt;/li&gt;
+&lt;li&gt;Refactor transaction enrichment to support batch processing by @Shpigford in https://github.com/maybe-finance/maybe/pull/1803&lt;/li&gt;
+&lt;li&gt;Add scope to filter transactions from active accounts by @Shpigford in https://github.com/maybe-finance/maybe/pull/1810&lt;/li&gt;
+&lt;li&gt;fix: Save completely allocated budget by @M123-dev in https://github.com/maybe-finance/maybe/pull/1811&lt;/li&gt;
+&lt;li&gt;feat: Add institution details to Plaid items by @Shpigford in https://github.com/maybe-finance/maybe/pull/1816&lt;/li&gt;
+&lt;li&gt;Multi-factor authentication by @Shpigford in https://github.com/maybe-finance/maybe/pull/1817&lt;/li&gt;
+&lt;li&gt;fix: Plaid webhook verification by @zachgoll in https://github.com/maybe-finance/maybe/pull/1824&lt;/li&gt;
+&lt;li&gt;Plaid EU webhooks migration task by @zachgoll in https://github.com/maybe-finance/maybe/pull/1825&lt;/li&gt;
+&lt;li&gt;Fix Account Holding validation and synchronization by @Shpigford in https://github.com/maybe-finance/maybe/pull/1818&lt;/li&gt;
+&lt;li&gt;Feature: Add the ability to "revert" a CSV import by @zachgoll in https://github.com/maybe-finance/maybe/pull/1814&lt;/li&gt;
+&lt;li&gt;feat(import): add currency and number format support for CSV imports by @danestves in https://github.com/maybe-finance/maybe/pull/1819&lt;/li&gt;
+&lt;li&gt;fix: subcategories are not properly handled for budget allocations by @pauleke65 in https://github.com/maybe-finance/maybe/pull/1844&lt;/li&gt;
+&lt;li&gt;Enhance security information retrieval and handling by @Shpigford in https://github.com/maybe-finance/maybe/pull/1826&lt;/li&gt;
+&lt;li&gt;fix: Liabilities favorable direction is "down" by @M123-dev in https://github.com/maybe-finance/maybe/pull/1849&lt;/li&gt;
+&lt;li&gt;Upgrade to Tailwind v4 by @zachgoll in https://github.com/maybe-finance/maybe/pull/1853&lt;/li&gt;
+&lt;li&gt;Enhance Plaid connection management with re-authentication and error handling by @Shpigford in https://github.com/maybe-finance/maybe/pull/1854&lt;/li&gt;
+&lt;li&gt;Maybe Design System Updates by @zachgoll in https://github.com/maybe-finance/maybe/pull/1856&lt;/li&gt;
+&lt;li&gt;fix: Transfers should always total to zero by @tonyvince in https://github.com/maybe-finance/maybe/pull/1859&lt;/li&gt;
+&lt;li&gt;fix: Ghost subcategories when parent category is deleted by @tonyvince in https://github.com/maybe-finance/maybe/pull/1874&lt;/li&gt;
+&lt;li&gt;Fix import configuration failures by @zachgoll in https://github.com/maybe-finance/maybe/pull/1876&lt;/li&gt;
+&lt;li&gt;New Design System + Codebase Refresh by @zachgoll in https://github.com/maybe-finance/maybe/pull/1823&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@JLambertazzo made their first contribution in https://github.com/maybe-finance/maybe/pull/1699&lt;/li&gt;
+&lt;li&gt;@tapalilov made their first contribution in https://github.com/maybe-finance/maybe/pull/1693&lt;/li&gt;
+&lt;li&gt;@eithe made their first contribution in https://github.com/maybe-finance/maybe/pull/1658&lt;/li&gt;
+&lt;li&gt;@elvisserrao made their first contribution in https://github.com/maybe-finance/maybe/pull/1730&lt;/li&gt;
+&lt;li&gt;@F2210 made their first contribution in https://github.com/maybe-finance/maybe/pull/1769&lt;/li&gt;
+&lt;li&gt;@scodes73 made their first contribution in https://github.com/maybe-finance/maybe/pull/1726&lt;/li&gt;
+&lt;li&gt;@saphp made their first contribution in https://github.com/maybe-finance/maybe/pull/1798&lt;/li&gt;
+&lt;li&gt;@M123-dev made their first contribution in https://github.com/maybe-finance/maybe/pull/1811&lt;/li&gt;
+&lt;li&gt;@danestves made their first contribution in https://github.com/maybe-finance/maybe/pull/1819&lt;/li&gt;
+&lt;li&gt;@pauleke65 made their first contribution in https://github.com/maybe-finance/maybe/pull/1844&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/maybe-finance/maybe/compare/v0.3.0...v0.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/maybe-finance/maybe/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>

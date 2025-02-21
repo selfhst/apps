@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-02-21T12:30:30.524021-05:00</updated>
+  <updated>2025-02-21T13:30:28.669068-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -514,8 +514,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="14 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=14&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2335 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2335&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="15 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=15&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2336 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2336&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Simplified access to deployments within project environments](https://docs.gitlab.com/ee/ci/environments/): &lt;code&gt;Environment Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Have you ever struggled to get an overview of your deployments within a project? You can now view recent deployment details in the environments list without having to expand each environment. For each environment, the list shows your latest successful deployment and, if different, your most recent deployment attempt.
@@ -619,6 +619,27 @@
 &gt; In GitLab 17.9, we have introduced a project setting that allows you to set a CI/CD pipeline expiry time.
 &gt; Any pipelines and related artifacts older than the defined retention period are deleted.
 &gt; This can help reduce the disk usage in projects that run lots of pipelines that generate large artifacts, and even improve overall performance.
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[GitLab Runner 17.9](https://docs.gitlab.com/runner): &lt;code&gt;GitLab Runner Core&lt;/code&gt;&lt;/summary&gt;
+
+&gt; We're also releasing GitLab Runner 17.9 today! GitLab Runner is the highly-scalable build agent that runs 
+&gt; your CI/CD jobs and sends the results back to a GitLab instance. GitLab Runner works in conjunction with 
+&gt; GitLab CI/CD, the open-source continuous integration service included with GitLab.
+&gt; 
+&gt; #### What's new:
+&gt; 
+&gt; - [Add health check for runner autoscaler instances](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/38271)
+&gt; - [Add histogram metrics for runner prepare stage duration](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/37471)
+&gt; - [Add support for custom service container names to the Kubernetes executor](https://gitlab.com/gitlab-org/gitlab/-/issues/421131)
+&gt; 
+&gt; #### Bug Fixes:
+&gt; 
+&gt; - [GitLab Runner is unable to retrieve cache from S3 Express One Zone](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/38484)
+&gt; - [GitLab Runner on Kubernetes reports 'script_failure' instead of 'runner_system_failure' for AWS Spot instances](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/37911)
+&gt; 
+&gt; The list of all changes is in the GitLab Runner [CHANGELOG](https://gitlab.com/gitlab-org/gitlab-runner/blob/17-9-stable/CHANGELOG.md).
 
 &lt;/details&gt;
 
