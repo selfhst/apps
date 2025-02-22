@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-02-22T11:31:08.235761-05:00</updated>
+  <updated>2025-02-22T12:31:10.043791-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -290,7 +290,8 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
     <author>
       <name>navidrome/navidrome</name>
     </author>
-    <content>&lt;h2&gt;This is an important security fix. Please update ASAP. A proper CVE advisory will be published soon and will be linked here.&lt;/h2&gt;
+    <content>&lt;h2&gt;This is an important security fix. Please update ASAP.&lt;/h2&gt;
+&lt;p&gt;Security Advisory: https://github.com/navidrome/navidrome/security/advisories/GHSA-c3p4-vm8f-386p&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Security updates&lt;/h3&gt;
 &lt;ul&gt;
