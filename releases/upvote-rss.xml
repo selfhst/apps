@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Upvote RSS Releases</title>
-  <updated>2025-02-22T13:35:21.363412-05:00</updated>
+  <updated>2025-02-22T14:35:17.750886-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,8 @@
     <content>&lt;ul&gt;
 &lt;li&gt;This release adds support for &lt;a href="https://joinmbin.org"&gt;Mbin&lt;/a&gt;: a federated content aggregator, voting, discussion and microblogging platform&lt;/li&gt;
 &lt;li&gt;The Docker image has been optimized and is now less than half its previous size&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/johnwarne/upvote-rss/compare/v1.0.7...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/johnwarne/upvote-rss/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
