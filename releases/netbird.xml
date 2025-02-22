@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2025-02-22T05:31:11.705903-05:00</updated>
+  <updated>2025-02-22T06:31:13.110151-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,17 +132,17 @@
 &lt;li&gt;[management] remove gorm preparestmt from all DB connections by @pascal-fischer in https://github.com/netbirdio/netbird/pull/3292&lt;/li&gt;
 &lt;li&gt;[client] Set up local dns policy additionally if a gpo policy is detected by @lixmal in https://github.com/netbirdio/netbird/pull/3336&lt;/li&gt;
 &lt;li&gt;[management] optimize test execution by @pascal-fischer in https://github.com/netbirdio/netbird/pull/3204&lt;/li&gt;
-&lt;li&gt;Use go build to embed less icons by @hurricanehrndz in https://github.com/netbirdio/netbird/pull/3351&lt;/li&gt;
-&lt;li&gt;improvement(template): add traefik labels to relay by @cesargoncalves in https://github.com/netbirdio/netbird/pull/3333&lt;/li&gt;
+&lt;li&gt;[client][ui] Use go build to embed less icons by @hurricanehrndz in https://github.com/netbirdio/netbird/pull/3351&lt;/li&gt;
+&lt;li&gt;[misc] improvement(template): add traefik labels to relay by @cesargoncalves in https://github.com/netbirdio/netbird/pull/3333&lt;/li&gt;
 &lt;li&gt;[client] Add UI client event notifications by @lixmal in https://github.com/netbirdio/netbird/pull/3207&lt;/li&gt;
 &lt;li&gt;[client, management] Support DNS Labels for Peer Addressing by @hakansa in https://github.com/netbirdio/netbird/pull/3252&lt;/li&gt;
 &lt;li&gt;[client] Add embeddable library by @lixmal in https://github.com/netbirdio/netbird/pull/3239&lt;/li&gt;
 &lt;li&gt;[client] Skip CLI session expired notifcation if notifications are disabled by @lixmal in https://github.com/netbirdio/netbird/pull/3266&lt;/li&gt;
 &lt;li&gt;[management] refactor auth by @pnmcosta in https://github.com/netbirdio/netbird/pull/3296&lt;/li&gt;
-&lt;li&gt;Interface code cleaning by @pappz in https://github.com/netbirdio/netbird/pull/3358&lt;/li&gt;
-&lt;li&gt;Update README.md by @braginini in https://github.com/netbirdio/netbird/pull/3360&lt;/li&gt;
-&lt;li&gt;Update google.golang.org/api to latest by @paralin in https://github.com/netbirdio/netbird/pull/3288&lt;/li&gt;
-&lt;li&gt;[Snyk] Security upgrade alpine from 3.21.0 to 3.21.3 by @mlsmaycon in https://github.com/netbirdio/netbird/pull/3359&lt;/li&gt;
+&lt;li&gt;[client] Interface code cleaning by @pappz in https://github.com/netbirdio/netbird/pull/3358&lt;/li&gt;
+&lt;li&gt;[misc] Update README.md by @braginini in https://github.com/netbirdio/netbird/pull/3360&lt;/li&gt;
+&lt;li&gt;[management,client,signal] Update google.golang.org/api to latest by @paralin in https://github.com/netbirdio/netbird/pull/3288&lt;/li&gt;
+&lt;li&gt;[misc][Snyk] Security upgrade alpine from 3.21.0 to 3.21.3 by @mlsmaycon in https://github.com/netbirdio/netbird/pull/3359&lt;/li&gt;
 &lt;li&gt;[client] Add reverse dns zone by @lixmal in https://github.com/netbirdio/netbird/pull/3217&lt;/li&gt;
 &lt;li&gt;[management] fix grpc new account by @pnmcosta in https://github.com/netbirdio/netbird/pull/3361&lt;/li&gt;
 &lt;li&gt;[client] Add netbird ui improvements by @lixmal in https://github.com/netbirdio/netbird/pull/3222&lt;/li&gt;
