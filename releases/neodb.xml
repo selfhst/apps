@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2025-02-23T17:32:56.684604-05:00</updated>
+  <updated>2025-02-23T18:32:47.011950-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,9 +68,9 @@
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.8" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.4.9</id>
+    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.4.9a</id>
     <title>New release for NeoDB: </title>
-    <updated>2025-02-23T13:10:20-05:00</updated>
+    <updated>2025-02-23T18:23:19-05:00</updated>
     <author>
       <name>neodb-social/neodb</name>
     </author>
@@ -79,7 +79,8 @@
 &lt;li&gt;added page for impressum &lt;/li&gt;
 &lt;li&gt;added https://neodb.net/servers.json&lt;/li&gt;
 &lt;li&gt;various fixes&lt;/li&gt;
-&lt;/ul&gt;</content>
-    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.9" rel="alternate"/>
+&lt;/ul&gt;
+&lt;p&gt;this is a re-release of 0.11.4.9 fixing an API issue.&lt;/p&gt;</content>
+    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.9a" rel="alternate"/>
   </entry>
 </feed>
