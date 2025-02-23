@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2025-02-23T11:30:43.955672-05:00</updated>
+  <updated>2025-02-23T12:30:45.978025-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,6 +106,7 @@ The "Remember me" option of the web interface won't work after upgrading LMS, yo
     <content>&lt;p&gt;&lt;strong&gt;Updates:&lt;/strong&gt;
 * UI:
   * switched from 6 to 5 albums per line. The album name can now take up to two lines, same for album artist names.
+  * can now click on the album cover to view it in fullscreen
   * add keyboard shortcuts for seeking #593 
   * use album sort name to sort albums
 * Added support for &lt;code&gt;VERSION&lt;/code&gt; tag. The field is added next to the album name, and a new section in the UI is added to list the other versions of the current album viewed.
