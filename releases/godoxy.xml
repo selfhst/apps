@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-02-23T02:30:44.166926-05:00</updated>
+  <updated>2025-02-23T03:30:29.682508-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for GoDoxy: v0.9.4-1</title>
     <updated>2025-02-06T12:13:42-05:00</updated>
     <author>
-      <name>yusing/go-proxy</name>
+      <name>yusing/godoxy</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -49,7 +49,7 @@
     <title>New release for GoDoxy: v0.9.5</title>
     <updated>2025-02-10T11:57:44-05:00</updated>
     <author>
-      <name>yusing/go-proxy</name>
+      <name>yusing/godoxy</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -63,7 +63,7 @@
     <title>New release for GoDoxy: v0.9.6</title>
     <updated>2025-02-13T10:51:17-05:00</updated>
     <author>
-      <name>yusing/go-proxy</name>
+      <name>yusing/godoxy</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -83,7 +83,7 @@
     <title>New release for GoDoxy: v0.9.7</title>
     <updated>2025-02-17T13:37:55-05:00</updated>
     <author>
-      <name>yusing/go-proxy</name>
+      <name>yusing/godoxy</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -97,7 +97,7 @@
     <title>New release for GoDoxy: v0.9.8</title>
     <updated>2025-02-18T11:38:48-05:00</updated>
     <author>
-      <name>yusing/go-proxy</name>
+      <name>yusing/godoxy</name>
     </author>
     <content>&lt;h2&gt;What's changed&lt;/h2&gt;
 &lt;ul&gt;
