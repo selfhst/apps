@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-02-23T12:34:14.200530-05:00</updated>
+  <updated>2025-02-23T13:33:59.686191-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -228,8 +228,6 @@
 &lt;ul&gt;
 &lt;li&gt;b987ee142b8eaf354a6394416374379b0df5d9ce Add Elecq chargers (#18881)&lt;/li&gt;
 &lt;li&gt;dadd51040e1f8cddc02201b59c6af9f1fd58695b Config UI: default mode behaviour (#19037)&lt;/li&gt;
-&lt;li&gt;03890bcf79b372d94db6801deafa721f5163c8b7 Config: prevent mixing yaml and db data (#19031)&lt;/li&gt;
-&lt;li&gt;32fc13a916f342862c737d9acb34f57fc8355736 Config: show messaging configured state (#19076)&lt;/li&gt;
 &lt;li&gt;e963bcd03db58cbbd609dec9706bd4b5b9bb28db Cupra: add Tavascan (#18922)&lt;/li&gt;
 &lt;li&gt;9869149cf0a00d09128e6519c5addce0402b2a79 Fix: iOS 12.2 incompatible script (#19029)&lt;/li&gt;
 &lt;li&gt;70dca20f474fbd702b264d77cfa86cc2cd81558a Forecast: allow multiple solar tariffs (#18920)&lt;/li&gt;
@@ -240,9 +238,6 @@
 &lt;li&gt;22db4e17905c059840d23e3587ab5a65778417cc Mercedes: fix refresh token handling (#18893)&lt;/li&gt;
 &lt;li&gt;acbcf5461c1e47f20c57f93a3176af4099b9e6dd Planner: always create simple plan even if tariff errors (#19004)&lt;/li&gt;
 &lt;li&gt;16821360fe936e99f7ae8d3e599dbb632ecb3da0 Plugins: fix watchdog interval&lt;/li&gt;
-&lt;li&gt;e43e2154d86176515e2b3ff298a3eb7ce9e40fc3 Rename IsEmpty&lt;/li&gt;
-&lt;li&gt;d81a0a533b00400df257ba57733003ae1bfb9433 Revert "Config: prevent mixing yaml and db data (#19031)"&lt;/li&gt;
-&lt;li&gt;50272e5d0da154475ded07f732a0b80a2346ac1f Revert "Config: show messaging configured state (#19076)"&lt;/li&gt;
 &lt;li&gt;28cfb4c6d1a873514c7da87d1bbd5f394895297b Sessions: make loadpoint changeable (#19016)&lt;/li&gt;
 &lt;li&gt;3ab517c3646b5a5103018ab462688adaa93953b8 Solar forecast: keep today's rates when merging (#19069)&lt;/li&gt;
 &lt;li&gt;fcdbada471ce11d2db271fb7215d3c58cd3571c2 Solax: add 3rd MPPT and 2nd battery unit (#18761)&lt;/li&gt;
@@ -250,9 +245,6 @@
 &lt;li&gt;8e521ca6530cedd0c798d6cff31bac1b6df97c2e Tesla: put proxy token into X-Authorization (#18962)&lt;/li&gt;
 &lt;li&gt;6f3321c709566424656770e74fb84ac716bd1049 Tibber Pulse: fix duplicate subscriptions (#19011)&lt;/li&gt;
 &lt;li&gt;3365c846a2bb5a8ac91ac46b865207b802d6d7dc Vestel: add phase switching (#18911)&lt;/li&gt;
-&lt;li&gt;b4eb7b28eb760007dab226e6d279b01621f9c639 fix: link to docs (#19038)&lt;/li&gt;
-&lt;li&gt;13bb84651c843ccbdcbbb3c2a8ecc171bdeeb590 forecast: improve german tooltip&lt;/li&gt;
-&lt;li&gt;273a982dae20da9437dc89bc864160470ed1bc9e forecast: improve german tooltip&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.200.2" rel="alternate"/>
   </entry>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FreshRSS Releases</title>
-  <updated>2025-02-23T12:30:26.385913-05:00</updated>
+  <updated>2025-02-23T13:30:25.353342-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -396,7 +396,7 @@ but FreshRSS filter actions such as auto-mark-as-read and auto-favourite always 
   </entry>
   <entry>
     <id>https://github.com/FreshRSS/FreshRSS/releases/tag/1.26.0</id>
-    <title>New release for FreshRSS: 1.26.0</title>
+    <title>New release for FreshRSS: FreshRSS 1.26.0</title>
     <updated>2025-02-23T10:30:37-05:00</updated>
     <author>
       <name>FreshRSS/FreshRSS</name>
