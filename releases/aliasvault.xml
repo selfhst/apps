@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-02-24T15:34:53.221727-05:00</updated>
+  <updated>2025-02-24T16:34:56.648908-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,7 @@
 &lt;h3&gt;Manually Installing the Chrome Extension&lt;/h3&gt;
 &lt;p&gt;To install the AliasVault Chrome extension manually:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Download the &lt;code&gt;aliasvault-chrome-extension.zip&lt;/code&gt; attached to this release (see below).&lt;/li&gt;
+&lt;li&gt;Download the &lt;code&gt;aliasvault-chrome-extension-0.12.1.zip&lt;/code&gt; attached to this release (see below).&lt;/li&gt;
 &lt;li&gt;Extract the ZIP file to a folder on your computer.&lt;/li&gt;
 &lt;li&gt;Open &lt;strong&gt;Google Chrome&lt;/strong&gt; and navigate to &lt;code&gt;chrome://extensions/&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Enable &lt;strong&gt;Developer mode&lt;/strong&gt; using the toggle in the top right corner.&lt;/li&gt;

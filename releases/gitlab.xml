@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-02-24T15:30:46.738314-05:00</updated>
+  <updated>2025-02-24T16:30:48.208629-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -514,8 +514,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="15 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=15&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2336 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2336&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="16 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=16&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2337 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2337&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Simplified access to deployments within project environments](https://docs.gitlab.com/ee/ci/environments/): &lt;code&gt;Environment Management&lt;/code&gt;&lt;/summary&gt;
 
 &gt; Have you ever struggled to get an overview of your deployments within a project? You can now view recent deployment details in the environments list without having to expand each environment. For each environment, the list shows your latest successful deployment and, if different, your most recent deployment attempt.
@@ -649,6 +649,12 @@
 &gt; You can now use the `self_rotate` scope to rotate access tokens. This scope is available for personal, project, or group access tokens. Previously, this required two requests: One to obtain a new token, then another to perform the token rotation.
 &gt; 
 &gt; Thank you [Stéphane Talbot](https://gitlab.com/stalb) and [Anthony Juckel](https://gitlab.com/ajuckel) for your contribution! 
+
+&lt;/details&gt;
+
+&lt;details&gt;&lt;summary&gt;[View inactive project and group access tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html#revoke-or-rotate-a-project-access-token) &lt;i&gt;(self-managed only)&lt;/i&gt;: &lt;code&gt;System Access&lt;/code&gt;&lt;/summary&gt;
+
+&gt; You can now view inactive group and project access tokens in the UI. Previously, GitLab instantly deleted project and group access tokens after they expired or were revoked. This lack of a record of inactive tokens made auditing and security reviews more difficult. GitLab now retains inactive group and project access token records for 30 days, which helps teams track token usage and expiration for compliance and monitoring purposes.
 
 &lt;/details&gt;
 
