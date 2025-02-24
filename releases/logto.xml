@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-02-24T01:32:43.616526-05:00</updated>
+  <updated>2025-02-24T02:32:42.796670-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,8 @@ The HTTP email connector allows you to send emails via HTTP call. To use the HTT
     <author>
       <name>logto-io/logto</name>
     </author>
-    <content>&lt;h2&gt;New connectors:&lt;/h2&gt;
+    <content>&lt;p&gt;&lt;img alt="logto-changelog-2025-02-v2 (1)" src="https://github.com/user-attachments/assets/becf45d6-54e6-486e-bb99-a284e43301d8" /&gt;&lt;/p&gt;
+&lt;h2&gt;New connectors:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;X (Twitter) social connector&lt;/li&gt;
 &lt;li&gt;Slack social connector&lt;/li&gt;
