@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2025-02-24T10:32:58.233617-05:00</updated>
+  <updated>2025-02-24T11:32:58.219391-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -247,7 +247,7 @@
     <author>
       <name>makeplane/plane</name>
     </author>
-    <content>&lt;p&gt;The wait will be worth it. Bringing you the &lt;code&gt;v0.25.0&lt;/code&gt;. More features, more stability, more performance, and more secure. The notes might be brief, but this release is packed with over 1000+ commits. Hit the &lt;a href="https://developers.plane.so/self-hosting/manage/upgrade-plane#community-edition"&gt;upgrade&lt;/a&gt; button as soon as you can!&lt;/p&gt;
+    <content>&lt;p&gt;The wait will be worth it. Bringing you the &lt;code&gt;v0.25.0&lt;/code&gt;. More features, more stability, more performance, and more secure. The notes might be brief, but this release is packed with over 400+ commits. Hit the &lt;a href="https://developers.plane.so/self-hosting/manage/upgrade-plane#community-edition"&gt;upgrade&lt;/a&gt; button as soon as you can!&lt;/p&gt;
 &lt;h3&gt;✨ New Features&lt;/h3&gt;
 &lt;h4&gt;&lt;strong&gt;Introducing a brand new Home&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;The Home, now revamped from tons of your feedback, is now deliberately beautiful, extremely useful, and refactored for flexibility, whether you want to turn off everything or keep it all on.&lt;/p&gt;
@@ -264,16 +264,15 @@
 &lt;p&gt;&lt;img alt="ed0872a544ef481fa6bd97f8a11520dc-image" src="https://github.com/user-attachments/assets/7b6d14b9-04de-4f34-b7e0-f27d4ede44cc" /&gt;&lt;/p&gt;
 &lt;p&gt;Introducing &lt;code&gt;Work Items&lt;/code&gt; as a worthy successor and a term that's wide in accommodating all teams anywhere&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4a1.png" alt="128161" width="30px" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Related changes&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span&gt;&lt;strong&gt;Sub-issues&lt;/strong&gt;&lt;/span&gt; are now &lt;span&gt;&lt;strong&gt;Sub-work items&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;&lt;strong&gt;Issue Types&lt;/strong&gt;&lt;/span&gt; are now &lt;span&gt;&lt;strong&gt;Work Item Types&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sub-issues&lt;/strong&gt; are now &lt;strong&gt;Sub-work items&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Issue Types&lt;/strong&gt; are now &lt;strong&gt;Work Item Types&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span&gt;&lt;strong&gt;Work Items&lt;/strong&gt;&lt;/span&gt; goes beyond traditional issue tracking to more project management use cases in more teams than ever before.&lt;/li&gt;
-&lt;li&gt;It folds any term you like into a type, unlocked with &lt;span&gt;&lt;strong&gt;Work Item Types&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work Items&lt;/strong&gt; goes beyond traditional issue tracking to more project management use cases in more teams than ever before.&lt;/li&gt;
+&lt;li&gt;It folds any term you like into a type, unlocked with &lt;strong&gt;Work Item Types&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;It is the first of several planned steps to make Plane more collaborative, unifying, and flexible.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;Customizable&lt;/strong&gt; left-nav pane&lt;/h4&gt;
@@ -286,10 +285,8 @@
 &lt;p&gt;&lt;img alt="b14297dfe46d44ffacddf112e7e44a09-changelo-feb24-2" src="https://github.com/user-attachments/assets/8f75e867-495e-4fd4-a975-a080abdad422" /&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;🌍 Plane goes global with Language Support in beta&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Use Plane in a language of your choice, starting with French, Spanish, and Japanese and several tens more planned in 2025. Available across all plans, making project collaboration truly global.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img src="https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4a1.png" alt="128161" width="30px" /&gt;&lt;/p&gt;
-&lt;p&gt;We welcome contributions to language translations. Read the guidelines &lt;a href="https://github.com/makeplane/plane/blob/preview/CONTRIBUTING.md#contributing-to-language-support"&gt;[here](https://github.com/makeplane/plane/blob/preview/CONTRIBUTING.md#contributing-to-language-support)&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="43ef78debf434bf79af361af98796519-image" src="https://github.com/user-attachments/assets/1cdf0205-93aa-43e4-a2d7-fdd9ec7bd152" /&gt;&lt;/p&gt;
+&lt;p&gt;We welcome contributions to language translations. Read the guidelines &lt;a href="https://github.com/makeplane/plane/blob/preview/CONTRIBUTING.md#contributing-to-language-support"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;🚀 Improvements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;UI/UX Enhancements&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
