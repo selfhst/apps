@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Symfonium Releases</title>
-  <updated>2025-02-24T09:35:23.735404-05:00</updated>
+  <updated>2025-02-24T10:33:53.715157-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,12 +116,11 @@
 &lt;ul&gt;
 &lt;li&gt;Add file catalogers to selection configuration [&lt;a href="https://github.com/anchore/syft/pull/3505"&gt;#3505&lt;/a&gt; @wagoodman]&lt;/li&gt;
 &lt;li&gt;Configuration for including license contents in SBOM [&lt;a href="https://github.com/anchore/syft/issues/3626"&gt;#3626&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3631"&gt;#3631&lt;/a&gt; @spiffcs]&lt;/li&gt;
-&lt;li&gt;Support Bitnami embedded SBOMs [&lt;a href="https://github.com/anchore/syft/issues/3065"&gt;#3065&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3341"&gt;#3341&lt;/a&gt; @juan131]&lt;/li&gt;
+&lt;li&gt;Support Bitnami embedded SBOMs [&lt;a href="https://github.com/anchore/syft/issues/3065"&gt;#3065&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3341"&gt;#3341&lt;/a&gt; @juan131] [&lt;a href="https://github.com/anchore/syft/pull/3676"&gt;#3676&lt;/a&gt; @willmurphyscode]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Version parse caused by line breaks on different platforms [&lt;a href="https://github.com/anchore/syft/pull/3672"&gt;#3672&lt;/a&gt; @idhyt]&lt;/li&gt;
-&lt;li&gt;find bitnami files even when no relationships [&lt;a href="https://github.com/anchore/syft/pull/3676"&gt;#3676&lt;/a&gt; @willmurphyscode]&lt;/li&gt;
 &lt;li&gt;License files which do not match an SPDX expression are erroneously handled as 'unlicensed' [&lt;a href="https://github.com/anchore/syft/issues/3412"&gt;#3412&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3366"&gt;#3366&lt;/a&gt; @HeyeOpenSource]&lt;/li&gt;
 &lt;li&gt;Incorrect URL encoding of package url (purl) [&lt;a href="https://github.com/anchore/syft/issues/3533"&gt;#3533&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3678"&gt;#3678&lt;/a&gt; @kzantow]&lt;/li&gt;
 &lt;li&gt;syft should not warn on known bad package.json [&lt;a href="https://github.com/anchore/syft/issues/3470"&gt;#3470&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3645"&gt;#3645&lt;/a&gt; @kzantow]&lt;/li&gt;
