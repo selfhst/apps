@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2025-02-25T08:31:38.262848-05:00</updated>
+  <updated>2025-02-25T09:31:43.067241-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -271,7 +271,7 @@ If you end up seeing some blank table lists, do the following:&lt;/p&gt;
 &lt;strong&gt;This  version of Snipe-IT REQUIRES PHP 8.2.0 or greater.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This small update should resolve issues folks had with the upgrader failing on backup due to &lt;code&gt;composer install&lt;/code&gt; not having run yet, and a few 500 errors that were occurring due to some changes we made with the way Laravel handles route-model binding. &lt;/p&gt;
-&lt;p&gt;If you're just getting around to upgrading from the v7.x line, the &lt;a href="https://github.com/snipe/snipe-it/releases/tag/v8.0.0"&gt;full v8 release notes&lt;/a&gt; are a little more exciting. :)&lt;/p&gt;
+&lt;p&gt;If you're just getting around to upgrading from the v7.x line, the &lt;a href="https://github.com/snipe/snipe-it/releases/tag/v8.0.0"&gt;full v8 release notes&lt;/a&gt; are a little more exciting. :) We have a blog post up with a little more context for the v8 changes &lt;a href="https://grokstar.dev/news/snipeit-releases/2025/02/announcing-snipe-it-v8/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed 500 on edit locations page by referencing current location by @jostrander in https://github.com/snipe/snipe-it/pull/16320&lt;/li&gt;
