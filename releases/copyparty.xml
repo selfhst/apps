@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-02-25T02:35:06.811213-05:00</updated>
+  <updated>2025-02-25T03:34:45.490400-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -229,21 +229,7 @@
 &lt;li&gt;spinner improvements 6858cb06&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;h1&gt;💾 what to download?&lt;/h1&gt;
-&lt;p&gt;| download link | is it good? | description |
-| -- | -- | -- |
-| &lt;strong&gt;&lt;a href="https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py"&gt;copyparty-sfx.py&lt;/a&gt;&lt;/strong&gt; | ✅ the best 👍 | runs anywhere! only needs python |
-| &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/scripts/docker/README.md"&gt;a docker image&lt;/a&gt; | it's ok | good if you prefer docker 🐋 |
-| &lt;a href="https://github.com/9001/copyparty/releases/latest/download/copyparty.exe"&gt;copyparty.exe&lt;/a&gt; |  ⚠️ &lt;a href="https://github.com/9001/copyparty#copypartyexe"&gt;acceptable&lt;/a&gt; | for &lt;a href="https://user-images.githubusercontent.com/241032/221445946-1e328e56-8c5b-44a9-8b9f-dee84d942535.png"&gt;win8&lt;/a&gt; or later; built-in thumbnailer |
-| &lt;a href="https://github.com/9001/copyparty/releases/download/v1.16.14/u2c.exe"&gt;u2c.exe&lt;/a&gt; | ⚠️ acceptable | &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/bin/u2c.py"&gt;CLI uploader&lt;/a&gt; as a win7+ exe (&lt;a href="https://a.ocv.me/pub/demo/pics-vids/u2cli.webm"&gt;video&lt;/a&gt;) |
-| &lt;a href="https://github.com/9001/copyparty/releases/latest/download/copyparty.pyz"&gt;copyparty.pyz&lt;/a&gt; | ⚠️ acceptable | similar to the regular sfx, &lt;a href="https://github.com/9001/copyparty#zipapp"&gt;mostly worse&lt;/a&gt; |
-| &lt;a href="https://github.com/9001/copyparty/releases/latest/download/copyparty32.exe"&gt;copyparty32.exe&lt;/a&gt; | ⛔️ &lt;a href="https://github.com/9001/copyparty#copypartyexe"&gt;dangerous&lt;/a&gt; | for &lt;a href="https://user-images.githubusercontent.com/241032/221445944-ae85d1f4-d351-4837-b130-82cab57d6cca.png"&gt;win7&lt;/a&gt; -- never expose to the internet! |
-| &lt;a href="https://github.com/9001/copyparty/releases/download/v1.16.5/copyparty-winpe64.exe"&gt;cpp-winpe64.exe&lt;/a&gt; | ⛔️ dangerous | runs on &lt;a href="https://user-images.githubusercontent.com/241032/205454984-e6b550df-3c49-486d-9267-1614078dd0dd.png"&gt;64bit WinPE&lt;/a&gt;, otherwise useless |&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;except for &lt;a href="https://github.com/9001/copyparty/releases/download/v1.16.14/u2c.exe"&gt;u2c.exe&lt;/a&gt;, all of the options above are mostly equivalent&lt;/li&gt;
-&lt;li&gt;the zip and tar.gz files below are just source code&lt;/li&gt;
-&lt;li&gt;python packages are available at &lt;a href="https://pypi.org/project/copyparty/#files"&gt;PyPI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;h2&gt;⚠️ not the &lt;a href="https://github.com/9001/copyparty/releases/latest/"&gt;latest version&lt;/a&gt;!&lt;/h2&gt;</content>
     <link href="https://github.com/9001/copyparty/releases/tag/v1.16.14" rel="alternate"/>
   </entry>
   <entry>
@@ -275,7 +261,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;🩹 bugfixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fix &lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; aka &lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-27145"&gt;CVE-2025-27145&lt;/a&gt; in 438ea6cc&lt;/li&gt;
+&lt;li&gt;fix &lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; / &lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-27145"&gt;CVE-2025-27145&lt;/a&gt; in 438ea6cc&lt;/li&gt;
 &lt;li&gt;when trying to upload an empty files by dragging it into the browser, the filename would be rendered as HTML, allowing javascript injection if the filename was malicious&lt;/li&gt;
 &lt;li&gt;issue discovered and reported by @JayPatel48 (thx!)&lt;/li&gt;
 &lt;li&gt;related issues in errorhandling of uploads 499ae1c7 36866f1d&lt;/li&gt;
