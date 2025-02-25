@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DefGuard Releases</title>
-  <updated>2025-02-25T05:32:54.745687-05:00</updated>
+  <updated>2025-02-25T06:32:53.945383-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,7 +96,7 @@ The whole defguard team thanks you! 🫡&lt;/p&gt;
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v1.2.4 --&gt;
 
 &lt;h2&gt;🥳 New Features 🎉&lt;/h2&gt;
-&lt;p&gt;🔑 &lt;a href="https://docs.defguard.net/enterprise/all-enteprise-features/api-tokens"&gt;API token authentication&lt;/a&gt; – You can now authorize to API endpoints using API tokens&lt;/p&gt;
+&lt;p&gt;🔑 &lt;a href="https://docs.defguard.net/enterprise/all-enteprise-features/rest-api"&gt;REST API&lt;/a&gt; – You can now authorize to API endpoints using API tokens&lt;/p&gt;
 &lt;h2&gt;🪲 Fixes&lt;/h2&gt;
 &lt;p&gt;🔐 Fixed improper users credential validation on Defguard account creation from LDAP user&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DefGuard/defguard/compare/v1.2.3...v1.2.4&lt;/p&gt;</content>
