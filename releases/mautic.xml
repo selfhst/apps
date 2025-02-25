@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-02-25T07:30:52.581715-05:00</updated>
+  <updated>2025-02-25T08:30:50.806227-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -498,21 +498,43 @@ SHA1(5.2.2-update.zip)= 26a06593300b6257abb8696c5bcad7738ac593cd&lt;/p&gt;</cont
 &lt;li&gt;CVE-2024-47051 - Remote Code Execution &amp;amp; File Deletion in Asset Uploads - Reported by @mallo-m, fixed by @lenonleite and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-73gx-x7r9-77x2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🐛 Bugs&lt;/h3&gt;
+&lt;h4&gt;🚀 Campaigns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicate title on campaign source change by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14615&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;📝 CKEditor&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Fix font selection in CKEditor not including fallback fonts in output by @driskell in https://github.com/mautic/mautic/pull/14539&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;📌 Dashboard&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixing the audit log widget when a contact is deleted by @escopecz in https://github.com/mautic/mautic/pull/14541&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;💌 Email&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;DPMMA-3031 Configurable email address length limit to prevent delivery issues by @patrykgruszka in https://github.com/mautic/mautic/pull/14577&lt;/li&gt;
-&lt;li&gt;Fixing the audit log widget when a contact is deleted by @escopecz in https://github.com/mautic/mautic/pull/14541&lt;/li&gt;
-&lt;li&gt;Fixing segment building with default timezone by @escopecz in https://github.com/mautic/mautic/pull/14549&lt;/li&gt;
 &lt;li&gt;Email click tracking fix, PHP warning fix by @escopecz in https://github.com/mautic/mautic/pull/14540&lt;/li&gt;
-&lt;li&gt;fix: Fix font selection in CKEditor not including fallback fonts in output by @driskell in https://github.com/mautic/mautic/pull/14539&lt;/li&gt;
 &lt;li&gt;fix: Email preview now works again even if unpublished or expired by @driskell in https://github.com/mautic/mautic/pull/14525&lt;/li&gt;
 &lt;li&gt;Check permission on original entity for email cloning. by @mallezie in https://github.com/mautic/mautic/pull/14580&lt;/li&gt;
-&lt;li&gt;Focus Builder placeholder overlaps the modal preview by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14568&lt;/li&gt;
-&lt;li&gt;fix: too much padding for select input with form-control class by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14569&lt;/li&gt;
-&lt;li&gt;[UI] Move Help to top navbar-right by @andersonjeccel in https://github.com/mautic/mautic/pull/14582&lt;/li&gt;
-&lt;li&gt;FIX: Ignoring of custom option list for mapped fields (#14117) by @abhisekmazumdar in https://github.com/mautic/mautic/pull/14560&lt;/li&gt;
 &lt;li&gt;DPMMA-2957 Prevent ORM error when sending multiple messages to one Lead by @patrykgruszka in https://github.com/mautic/mautic/pull/14247&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;👀 Focus items&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Focus Builder placeholder overlaps the modal preview by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14568&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;📋 Forms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: too much padding for select input with form-control class by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14569&lt;/li&gt;
+&lt;li&gt;FIX: Ignoring of custom option list for mapped fields (#14117) by @abhisekmazumdar in https://github.com/mautic/mautic/pull/14560&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🌍 Segments&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixing segment building with default timezone by @escopecz in https://github.com/mautic/mautic/pull/14549&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🎨 User experience / user interface&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;[UI] Move Help to top navbar-right by @andersonjeccel in https://github.com/mautic/mautic/pull/14582&lt;/li&gt;
 &lt;li&gt;Point Trigger edit and delete buttons are not visible #14412 by @rishithreddy89 in https://github.com/mautic/mautic/pull/14617&lt;/li&gt;
-&lt;li&gt;Duplicate title on campaign source change by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14615&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🪵 Full Changelog&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mautic/mautic/compare/5.2.2...5.2.3&lt;/p&gt;
