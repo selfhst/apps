@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-02-25T10:34:10.462046-05:00</updated>
+  <updated>2025-02-25T11:34:22.657535-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,19 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;e1b639a06e485903c4be6496aed639c5176ab992 ci: fix: goreleaser config&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs: update quickstart to include messy output example by @Lewiscowles1986 in https://github.com/dagu-org/dagu/pull/851&lt;/li&gt;
+&lt;li&gt;[#854] config: fix: &lt;code&gt;BasePath&lt;/code&gt; config is not working by @yottahmd in https://github.com/dagu-org/dagu/pull/860&lt;/li&gt;
+&lt;li&gt;docs: note block in execute the DAG of QuickStart by @Lewiscowles1986 in https://github.com/dagu-org/dagu/pull/862&lt;/li&gt;
+&lt;li&gt;[#861] test: add: integration test for &lt;code&gt;logDir&lt;/code&gt; configuration by @yottahmd in https://github.com/dagu-org/dagu/pull/864&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Lewiscowles1986 made their first contribution in https://github.com/dagu-org/dagu/pull/851&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.3...v1.16.4&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.4" rel="alternate"/>
   </entry>
 </feed>
