@@ -274,8 +274,8 @@
     {
         "Tag": "Document Management",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -287,8 +287,8 @@
     {
         "Tag": "Downloads",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -354,8 +354,8 @@
     {
         "Tag": "File Transfer and Sync",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -560,8 +560,8 @@
     {
         "Tag": "Media Streaming",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
