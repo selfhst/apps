@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WeKan Releases</title>
-  <updated>2025-02-25T06:31:56.893111-05:00</updated>
+  <updated>2025-02-25T07:31:58.066510-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,7 +109,8 @@
     <author>
       <name>wekan/wekan</name>
     </author>
-    <content>&lt;p&gt;This release adds the following new features:&lt;/p&gt;
+    <content>&lt;h2&gt;v7.82 Docker version is broken: https://github.com/wekan/wekan/issues/5697 . Snap Candidate works.&lt;/h2&gt;
+&lt;p&gt;This release adds the following new features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/wekan/wekan/pull/5682"&gt;Add possibility to use a token in place of ipaddress to access metrics route&lt;/a&gt;.
   Thanks to salleman33.&lt;/li&gt;
