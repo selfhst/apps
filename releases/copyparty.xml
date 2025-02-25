@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-02-25T01:34:53.370717-05:00</updated>
+  <updated>2025-02-25T02:35:06.811213-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -259,7 +259,7 @@
 &lt;li&gt;&lt;a href="https://github.com/9001/copyparty/tree/hovudstraum/scripts/docker"&gt;docker image&lt;/a&gt; ╱ &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/docs/versus.md"&gt;similar software&lt;/a&gt; ╱ &lt;a href="https://cd.ocv.me/b/"&gt;client testbed&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;⚠️ this fixes a minor vulnerability; CVE-score &lt;code&gt;3.6&lt;/code&gt;/&lt;code&gt;10&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; could let an attacker run arbitrary javascript by tricking an authenticated user into uploading files with malicious filenames&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; aka &lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-27145"&gt;CVE-2025-27145&lt;/a&gt; could let an attacker run arbitrary javascript by tricking an authenticated user into uploading files with malicious filenames&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;...but it required some clever social engineering, and is &lt;strong&gt;not likely&lt;/strong&gt; to be a cause for concern... ah, better safe than sorry&lt;/li&gt;
 &lt;/ul&gt;
@@ -275,7 +275,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;🩹 bugfixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fix &lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; 438ea6cc&lt;/li&gt;
+&lt;li&gt;fix &lt;a href="https://github.com/9001/copyparty/security/advisories/GHSA-m2jw-cj8v-937r"&gt;GHSA-m2jw-cj8v-937r&lt;/a&gt; aka &lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-27145"&gt;CVE-2025-27145&lt;/a&gt; in 438ea6cc&lt;/li&gt;
 &lt;li&gt;when trying to upload an empty files by dragging it into the browser, the filename would be rendered as HTML, allowing javascript injection if the filename was malicious&lt;/li&gt;
 &lt;li&gt;issue discovered and reported by @JayPatel48 (thx!)&lt;/li&gt;
 &lt;li&gt;related issues in errorhandling of uploads 499ae1c7 36866f1d&lt;/li&gt;
