@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Youlag Releases</title>
-  <updated>2025-02-24T19:35:24.237461-05:00</updated>
+  <updated>2025-02-24T20:35:17.453354-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,7 +30,7 @@
 - Mobile view keeps navigation menu at the top, prevents the need to scroll up all the way to access the menu.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fixes:&lt;/strong&gt;
 - Fixed issue where closing and opening feed items in theater view didn’t respond.
-- Resolved Safari scroll position reset after exiting theater view.&lt;/p&gt;</content>
+- Resolved Safari scroll position reset after exiting theater view. (https://github.com/civilblur/youlag/issues/1)&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/youlag/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
   <entry>
@@ -56,10 +56,10 @@
     <content>&lt;p&gt;&lt;strong&gt;Improvements:&lt;/strong&gt;
 - Remove dependency of "YouTube Video Feed" FreshRSS extension.
   - Youlag handles the embedding of the video on its own without any other FreshRSS extension.
-- Notw support Invidious feeds and links, in addition to previously already supporting YouTube feeds. 
+- Now support Invidious feeds and links, in addition to previously already supporting YouTube feeds. 
   - Essentially any frontend that follows the same YouTube video url path should work.
-  - Piped feeds also works, but this has not been fully tested yet due to Piped being unstable at the moment. Especially public 
-instances. 
+  - Piped feeds also works, but this has not been fully tested yet due to Piped being unstable at the moment. Especially public instances.
+  - &lt;strong&gt;Edit 2025-02-25:&lt;/strong&gt; Piped feeds works well. If you encounter any issues, please report them and I'll give it a look. 
 - Fixed theater view thumbnail loading image not being vertically centered. 
 - For text-based feeds, limit height of the thumbnail when viewing in theater view.&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/youlag/releases/tag/v3.0.2" rel="alternate"/>
