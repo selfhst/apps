@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YeetFile Releases</title>
-  <updated>2025-02-26T15:35:27.207894-05:00</updated>
+  <updated>2025-02-26T16:35:14.510262-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -174,5 +174,24 @@
 &lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.1.0/yeetfile-server_windows_arm64_0.1.0.zip"&gt;yeetfile-server_windows_arm64_0.1.0.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/benbusby/yeetfile/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/benbusby/yeetfile/releases/tag/v0.2.0</id>
+    <title>New release for YeetFile: v0.2.0</title>
+    <updated>2025-02-26T15:44:48-05:00</updated>
+    <author>
+      <name>benbusby/yeetfile</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Add support for S3 storage backends&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://github.com/benbusby/yeetfile?tab=readme-ov-file#storage"&gt;README&lt;/a&gt; for configuration&lt;/li&gt;
+&lt;li&gt;Add configuration of default downloads and expiration for YeetFile Send&lt;/li&gt;
+&lt;li&gt;Device-specific, stored either in local storage (web) or in &lt;code&gt;~/.config/yeetfile/config.yml&lt;/code&gt; (cli)&lt;/li&gt;
+&lt;li&gt;Fix Windows CLI text inputs and formatting&lt;/li&gt;
+&lt;li&gt;Fix browser blurriness in vault view caused by CSS transform&lt;/li&gt;
+&lt;li&gt;Fix Backblaze B2 re-authentication cron task in multi-server deployments&lt;/li&gt;
+&lt;li&gt;Fix vault file download behavior on web&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/benbusby/yeetfile/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
