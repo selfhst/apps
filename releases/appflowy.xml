@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-02-26T08:32:26.146197-05:00</updated>
+  <updated>2025-02-26T09:32:28.775120-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,7 @@
 &lt;h2&gt;Version 0.8.4 - 18/02/2025&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Switch AI mode on mobile&lt;/li&gt;
+&lt;li&gt;Switch AI models on mobile&lt;/li&gt;
 &lt;li&gt;Support locking page&lt;/li&gt;
 &lt;li&gt;Support uploading svg file as icon&lt;/li&gt;
 &lt;li&gt;Support the slash, at, and plus menus on mobile&lt;/li&gt;

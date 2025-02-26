@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-02-26T08:31:55.333578-05:00</updated>
+  <updated>2025-02-26T09:31:55.808834-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,49 +151,30 @@ JAR download: https://downloads.metabase.com/v0.53.4.x/metabase.jar&lt;/p&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.53.4.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dashboards&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;fix(sdk): auto-select sample database tables in cli (#53654)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix "Promise was collected" error in visual tests (#53889)&lt;/li&gt;
-&lt;li&gt;Convert back to original type when binning by day (mysql) (#53777)&lt;/li&gt;
+&lt;li&gt;Allow duplicating dashboards that don't have questions saved in them (#53766)&lt;/li&gt;
+&lt;li&gt;Allow specifying a dashboard tab for questions saved in dashboards (#53615)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix static fix thai translations (#54155)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.53.6 (#54097)&lt;/li&gt;
-&lt;li&gt;update athena driver to 3.4.0 (#53979)&lt;/li&gt;
-&lt;li&gt;Fix env vars in embedding quickstart doc (#53931)&lt;/li&gt;
-&lt;li&gt;fix: WRK-67 new action modal is too hard to close (#53905)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.53.5 (#53899)&lt;/li&gt;
-&lt;li&gt;chore: add spalt08 as a team member (#53886)&lt;/li&gt;
-&lt;li&gt;Buckets for notification send duration ms histogram (#53882)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.53.4 (#53850)&lt;/li&gt;
-&lt;li&gt;Error explicitly when sandboxing/impersonation configs conflict (#53849)&lt;/li&gt;
-&lt;li&gt;fix: allow google auth when throttling is disabled (#53788)&lt;/li&gt;
-&lt;li&gt;Allow duplicating dashboard but not with DQs (#53766)&lt;/li&gt;
-&lt;li&gt;[pulse] Optimize memory usage email notification rendering (#53717)&lt;/li&gt;
-&lt;li&gt;Fix trend lines in slack alerts VIZ-272 (#53711)&lt;/li&gt;
-&lt;li&gt;chore(ci): update sql server runner to ubuntu 22 (#53683)&lt;/li&gt;
-&lt;li&gt;Add back discarding-rff for preemptive caching, and expand backend and e2e test coverage (#53639)&lt;/li&gt;
-&lt;li&gt;Allow specifying a dashboard tab for DQs (#53615)&lt;/li&gt;
-&lt;li&gt;Fix notification hydration witih multi keys (#53593)&lt;/li&gt;
-&lt;li&gt;Fix mongo uuid not displaying correctly (#53564)&lt;/li&gt;
-&lt;li&gt;Handle arrays athena vertica (#53551)&lt;/li&gt;
-&lt;li&gt;Fewer warnings in the console (#53528)&lt;/li&gt;
+&lt;li&gt;fix(sdk): Auto-select sample database tables if no other database is added in CLI SDK quickstart (#53654)&lt;/li&gt;
+&lt;li&gt;Error explicitly when attempting to use sandboxing and impersonation simultaneously (#53849)&lt;/li&gt;
+&lt;li&gt;Optimize memory usage email notification rendering (#53717)&lt;/li&gt;
+&lt;li&gt;Fewer warnings in browser developer console on dashboards (#53528)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;If session throttling is disabled, then google auth will not work  (#53788)&lt;/li&gt;
 &lt;li&gt;Disabling Google SSO Locks out Previously Provisioned SSO Users (#46634)&lt;/li&gt;
-&lt;li&gt;SQLite shouldn't appear on Cloud (#44233)&lt;/li&gt;
 &lt;li&gt;Group user screens should not sort admins and group managers before other users (#32596)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;PostgreSQL integer array column breaks showing query in v0.53.3.4 (#54190)&lt;/li&gt;
+&lt;li&gt;Athena and Vertica queries with arrays are not handled properly (#53551)&lt;/li&gt;
+&lt;li&gt;SQLite shouldn't appear on Cloud (#44233)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -202,31 +183,26 @@ JAR download: https://downloads.metabase.com/enterprise/v1.53.4.x/metabase.jar&l
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[Bug Report] model - https://stats.metabase.com/model/24105-github-actions-usage/notebook (#53682)&lt;/li&gt;
-&lt;li&gt;Model action is being referred to as native question (#52945)&lt;/li&gt;
-&lt;li&gt;Redundant GET &lt;code&gt;/api/action&lt;/code&gt; request when viewing non-model object details (#50266)&lt;/li&gt;
-&lt;li&gt;Map filters don't show valid values in some cases (#41056)&lt;/li&gt;
-&lt;li&gt;Boolean fields in basic / custom actions stop being sliders (#39101)&lt;/li&gt;
-&lt;li&gt;Create action modal closes and forgets user's input on viewport change (#32750)&lt;/li&gt;
+&lt;li&gt;Drilldown to hours and minutes level causes an error on MySQL (#53777)&lt;/li&gt;
+&lt;li&gt;Mongo UUID not displayed correctly and filter not working (#53564)&lt;/li&gt;
 &lt;li&gt;Fix i18n string in models/setting (#16800)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Map filters don't show valid values in some cases (#41056)&lt;/li&gt;
 &lt;li&gt;Not able to remove series from chart. (#54074)&lt;/li&gt;
-&lt;li&gt;[Bug Report] Unable to change the color of the line or the bar (#53735)&lt;/li&gt;
+&lt;li&gt;Unable to change the color of the line or the bar (#53735)&lt;/li&gt;
 &lt;li&gt;"Show values for this series" option is missing on stacked bar/combo charts (#53248)&lt;/li&gt;
+&lt;li&gt;When you add "trend line" to a line chart, the line isn't visible when it's delivered to Slack channels. (#53711)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Strings defined in ClojureScript, such as aggregations, are not translated (#53988)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Already Fixed&lt;/h3&gt;
-&lt;p&gt;Issues confirmed to have been fixed in a previous release.&lt;/p&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;tag test as flaky (#53980)&lt;/li&gt;
-&lt;li&gt;remove flaky tag (#53906)&lt;/li&gt;
+&lt;li&gt;Create action modal closes and forgets user's input on viewport change (#32750)&lt;/li&gt;
+&lt;li&gt;Boolean fields in basic / custom actions stop being toggles (#39101)&lt;/li&gt;
+&lt;li&gt;Model action is being referred to as native question (#52945)&lt;/li&gt;
+&lt;li&gt;Redundant GET &lt;code&gt;/api/action&lt;/code&gt; request when viewing non-model object details (#50266)&lt;/li&gt;
+&lt;li&gt;Some strings such as aggregations, are not translated (#53988)&lt;/li&gt;
+&lt;li&gt;Thai characters do not display for charts when rendering subscriptions (#54155)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.53.4" rel="alternate"/>
   </entry>
