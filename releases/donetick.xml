@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-26T12:34:47.796917-05:00</updated>
+  <updated>2025-02-26T13:34:50.452542-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,8 +139,7 @@ if configured correctly you should see new button appear on the login page :
     <author>
       <name>donetick/donetick</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;ul&gt;
+    <content>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Subtasks:&lt;/strong&gt; Added support for subtasks. Each task can now have steps or subtasks. These can be completed and tracked separately. When a recurrent task is completed, its subtasks are reset.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Group By and Section Persistence:&lt;/strong&gt; Persisted the "group by" setting in the main view. If you select "group by due date," "priority," etc., this setting will be preserved. When you return to donetick from the same device, you will see the same grouping. Additionally, the collapsed/expanded state of sections is now persisted.&lt;/li&gt;
 &lt;li&gt;
