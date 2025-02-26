@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wakapi Releases</title>
-  <updated>2025-02-26T01:33:56.438664-05:00</updated>
+  <updated>2025-02-26T02:33:58.388901-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,7 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Big new release&lt;/strong&gt; featuring lots of changes 🚀!&lt;/p&gt;
 &lt;h2&gt;New calculation logic&lt;/h2&gt;
-&lt;p&gt;Most notably, we fundamentally changed way how &lt;strong&gt;durations are calculated&lt;/strong&gt;. In a nutshell, the updated logic – as requested by many users – is closer to that of WakaTime now and adopts WakaTime's notion of &lt;a href="https://wakatime.com/faq#timeout"&gt;heartbeat timeouts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most notably, we fundamentally changed the way how &lt;strong&gt;durations are calculated&lt;/strong&gt;. In a nutshell, the updated logic – as requested by many users – is closer to that of WakaTime now and adopts WakaTime's notion of &lt;a href="https://wakatime.com/faq#timeout"&gt;heartbeat timeouts&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Before this refactoring, Wakapi had a single &lt;em&gt;timeout&lt;/em&gt; parameter that was responsible for two different things. On the one hand, it acted as a timeout in the actual sense of the word, i.e. controlled the maximum timespan between two heartbeats in order for them to still be considered as a contiguous piece of coding. On the other hand, we used this parameter for &lt;em&gt;padding&lt;/em&gt; every "last" heartbeat in a sequence. With this release, we &lt;strong&gt;dropped padding&lt;/strong&gt; entirely (WakaTime doesn't have such either) and instead allow for much &lt;strong&gt;larger timeouts&lt;/strong&gt; (currently up to 1 hour). For details, please refer to #675. In fact, the &lt;strong&gt;default setting&lt;/strong&gt; was increased &lt;strong&gt;from 2 minutes to 10 minutes&lt;/strong&gt; (WakaTime uses 15 minutes). &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Default timeout: 10 minutes &lt;/li&gt;
@@ -160,6 +160,12 @@
 &lt;li&gt;
 &lt;h1&gt;516&lt;/h1&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;717&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;715&lt;/h1&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Improvements / other&lt;/h2&gt;
 &lt;ul&gt;
@@ -169,12 +175,6 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;738&lt;/h1&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;717&lt;/h1&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;715&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;710&lt;/h1&gt;
