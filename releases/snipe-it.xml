@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2025-02-26T07:31:55.254344-05:00</updated>
+  <updated>2025-02-26T08:31:56.464994-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -221,6 +221,10 @@ If you end up seeing some blank table lists, do the following:&lt;/p&gt;
 &lt;p&gt;Happy Monday (again!) We're thrilled to release v8 of Snipe-IT! &lt;/p&gt;
 &lt;p&gt;&lt;img alt="felicia-yay" src="https://github.com/user-attachments/assets/7765a4ac-2273-4c33-b249-009e2d35770e" /&gt;&lt;/p&gt;
 &lt;p&gt;We released the final version in the v7 line earlier today (7.1.17) so that folks who for some reason can't upgrade PHP to 8.2+ would still have a final release to use, but of course, we encourage everyone to bring their PHP versions into LTS compliance. If you skipped that upgrade (understandably, since it was just released today), you can see the other changelog here: https://github.com/snipe/snipe-it/compare/v7.1.16...v8.0.0&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+&lt;strong&gt;If you run into an issue with blank tables on some screens, please see the pinned issue #16136 for the fix&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Here's the highlight reel:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Custom fields on checkin/checkout! (Documentation updates coming shortly)&lt;/li&gt;
@@ -228,6 +232,7 @@ If you end up seeing some blank table lists, do the following:&lt;/p&gt;
 &lt;li&gt;Better tooltips to explain icons on very tab-dense screens&lt;/li&gt;
 &lt;li&gt;You can now add arbitrary notes to assets&lt;/li&gt;
 &lt;li&gt;Added Oromo (Ethiopian) as a language&lt;/li&gt;
+&lt;li&gt;Saved custom report templates&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This brings our version of Laravel (the framework we use) and the PHP dependencies into LTS (Laravel 11 is in LTS for another year and PHP 8.2's security support is for another two years.) We'll be yanking Snipe-IT into v12 of Laravel soon, but the system requirements won't change, so you won't have to worry about that as long as you're on PHP 8.2 or better.&lt;/p&gt;
 &lt;p&gt;We're also really pretty excited about the UX improvements - we hope they make your life easier. &lt;/p&gt;
@@ -282,6 +287,10 @@ If you end up seeing some blank table lists, do the following:&lt;/p&gt;
 &lt;li&gt;Added label test by @snipe in https://github.com/snipe/snipe-it/pull/16335&lt;/li&gt;
 &lt;li&gt;Fixed #16334 - Changed composer order in upgrade script by @snipe in https://github.com/snipe/snipe-it/pull/16336&lt;/li&gt;
 &lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+&lt;strong&gt;If you run into an issue with blank tables on some screens, please see the pinned issue #16136 for the fix&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@jostrander made their first contribution in https://github.com/snipe/snipe-it/pull/16320&lt;/li&gt;
