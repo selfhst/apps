@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-02-26T10:35:18.515038-05:00</updated>
+  <updated>2025-02-26T11:35:17.426491-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,8 @@
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Adds AliasVault Browser Extension for Google Chrome, enabling easy creation and autofill of AliasVault credentials on login and registration forms.&lt;/li&gt;
-&lt;li&gt;The extension is currently awaiting Chrome Web Store approval, which may take anywhere from a few days to three weeks. In the meantime, you can install it manually. See the instructions in the next section below.&lt;/li&gt;
+&lt;li&gt;You can install the AliasVault Browser extension via the official Chrome Web Store: https://chromewebstore.google.com/detail/aliasvault/bmoggiinmnodjphdjnmpcnlleamkfedj.&lt;/li&gt;
+&lt;li&gt;Alternatively you can install the Chrome Extension manually. For how to this, see the instructions in the next section below.&lt;/li&gt;
 &lt;li&gt;Allow users to delete their own account via the client app (Menu &amp;gt; Security Settings &amp;gt; Delete Account)&lt;/li&gt;
 &lt;li&gt;Make IP address logging optional via &lt;code&gt;./install.sh configure-ip-logging&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Misc UI tweaks and improvements&lt;/li&gt;
