@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Prometheus Releases</title>
-  <updated>2025-02-26T05:32:14.145827-05:00</updated>
+  <updated>2025-02-26T06:32:08.369264-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,7 +185,7 @@
       <name>prometheus/prometheus</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;[BUGFIX] Don't send Accept&lt;code&gt;header&lt;/code&gt;escape=allow-utf-8&lt;code&gt;when&lt;/code&gt;metric_name_validation_scheme: legacy` is configured. #16061&lt;/li&gt;
+&lt;li&gt;[BUGFIX] Don't send Accept header &lt;code&gt;escape=allow-utf-8&lt;/code&gt; when &lt;code&gt;metric_name_validation_scheme: legacy&lt;/code&gt; is configured. #16061&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/prometheus/prometheus/releases/tag/v3.2.1" rel="alternate"/>
   </entry>
