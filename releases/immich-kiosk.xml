@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-02-26T14:33:52.291562-05:00</updated>
+  <updated>2025-02-26T15:33:58.967119-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -79,7 +79,7 @@ http://{URL}?person=PERSON_A&amp;amp;album=ALBUM_A&amp;amp;layout=splitview&lt;/
     <content>&lt;p&gt;&lt;img alt="" src="https://immich-kiosk.vercel.app/api/banner?v=0.17.0" /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]
-Kiosk is transitioning from Docker Hub to GitHub (GHCR). Kindly update your image repository to &lt;code&gt;ghrc.io/damongolding/immich-kiosk:latest&lt;/code&gt;.&lt;/p&gt;
+Kiosk is transitioning from Docker Hub to GitHub (GHCR). Kindly update your image repository to &lt;code&gt;ghcr.io/damongolding/immich-kiosk:latest&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Tags&lt;/h2&gt;
 &lt;p&gt;Added tag support allowing users to filter displayed assets by Immich tags. Tags can be set via config.yaml, environment variables, or URL queries, with multiple tags supported for randomised asset selection.&lt;/p&gt;
@@ -110,7 +110,7 @@ Kiosk is transitioning from Docker Hub to GitHub (GHCR). Kindly update your imag
     <content>&lt;p&gt;&lt;img alt="" src="https://immich-kiosk.vercel.app/api/banner?v=0.17.1" /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]
-Kiosk is transitioning from Docker Hub to GitHub (GHCR). Kindly update your image repository to &lt;code&gt;ghrc.io/damongolding/immich-kiosk:latest&lt;/code&gt;.&lt;/p&gt;
+Kiosk is transitioning from Docker Hub to GitHub (GHCR). Kindly update your image repository to &lt;code&gt;ghcr.io/damongolding/immich-kiosk:latest&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Blur amount&lt;/h2&gt;
 &lt;p&gt;Use &lt;code&gt;background_blur_amount&lt;/code&gt; to increase or decreased the blur amount used on the blurred background.&lt;/p&gt;

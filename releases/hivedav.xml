@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HiveDAV Releases</title>
-  <updated>2025-02-26T14:33:05.535961-05:00</updated>
+  <updated>2025-02-26T15:33:12.344264-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -43,6 +43,8 @@ Thanks to all contributors, beta testers and everyone else involved with this re
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/music-assistant/server/compare/2.3.6...2.4.0"&gt;And much, much more!&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;⚠ Breaking Changes&lt;/h2&gt;
+&lt;p&gt;In previous versions, Music Assistant always used a power control (on/off) for every player, even if a player does not even exist power control natively. Now, with the new "Player controls" feature this has become a user choice. If you like to get the old behavior back where you can power on/off every player, go into the player settings and assign "fake power" in the player controls section.&lt;/p&gt;
 &lt;h2&gt;🐛 Bugfixes&lt;/h2&gt;
 &lt;p&gt;There have been countless bugfixes and (performance) improvements. Most important being that the streaming is now more robust in all kinds of scenarios.&lt;/p&gt;
 &lt;p&gt;For a complete overview of all fixes in this release, &lt;a href="https://github.com/music-assistant/server/compare/2.3.6...2.4.0"&gt;click here&lt;/a&gt;&lt;/p&gt;
