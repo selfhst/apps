@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2025-02-26T03:31:21.335995-05:00</updated>
+  <updated>2025-02-26T04:31:22.739361-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,6 +90,10 @@
     </author>
     <content>&lt;p&gt;This &lt;a href="https://docs.photoprism.app/release-notes/#february-23-2025"&gt;major new release&lt;/a&gt; features an &lt;a href="https://github.com/photoprism/photoprism/issues/3168#screenshots"&gt;updated user interface&lt;/a&gt; with many usability enhancements and new features, such as a &lt;a href="https://github.com/photoprism/photoprism/issues/1307"&gt;hybrid photo and video viewer&lt;/a&gt; that replaces the &lt;a href="https://github.com/photoprism/photoprism/issues/3372"&gt;dedicated video player&lt;/a&gt;, a &lt;a href="https://github.com/photoprism/photoprism/issues/4763"&gt;redesigned edit dialog&lt;/a&gt; that is more responsive and easier to use, and an immersive &lt;a href="https://github.com/photoprism/photoprism/issues/4762"&gt;3D Earth&lt;/a&gt; view in &lt;a href="https://demo.photoprism.app/library/places"&gt;Places&lt;/a&gt;. It also includes dozens of layout optimizations for right-to-left languages.&lt;/p&gt;
 &lt;p&gt;It's been &lt;a href="https://github.com/photoprism/photoprism/graphs/contributors?from=9%2F10%2F2023&amp;amp;to=2%2F23%2F2025"&gt;a long road&lt;/a&gt; to get here, as we've put a lot of effort into quality and detail, and welcomed new team members along the way. So thank you for your patience while we got this ready for you, and we hope you enjoy the new look and features as much as we do! 👨‍🚀🚀✨&lt;/p&gt;
+&lt;h4&gt;Breaking Changes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;It is recommended that you &lt;a href="https://docs.photoprism.app/user-guide/library/originals/#indexing-your-originals"&gt;perform a complete rescan of your library&lt;/a&gt; after upgrading, as otherwise videos that do not require transcoding may be &lt;a href="https://docs.photoprism.app/user-guide/organize/video/#transcoding"&gt;transcoded during playback&lt;/a&gt; due to missing metadata, resulting in high CPU and disk usage.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;What's new?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;UX: &lt;a href="https://github.com/photoprism/photoprism/issues/3168#screenshots"&gt;Updated user interface with many new features and enhancements&lt;/a&gt; by @AsikNasik &lt;/li&gt;
