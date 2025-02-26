@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2025-02-26T11:30:55.235046-05:00</updated>
+  <updated>2025-02-26T12:30:54.952493-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,7 +126,8 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Bug fixes&lt;/h2&gt;
+    <content>&lt;p&gt;The notable new feature is the new &lt;a href="https://gohugo.io/functions/transform/portabletext/"&gt;transform.PortableText&lt;/a&gt; function that makes it possible to use the Sanity CMS with Hugo.&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;all: Typo fixes 4094a1e12 @coliff &lt;/li&gt;
 &lt;li&gt;all: Run modernize -fix ./... 521911a57 @bep &lt;/li&gt;
