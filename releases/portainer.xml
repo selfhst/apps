@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2025-02-26T17:31:42.004336-05:00</updated>
+  <updated>2025-02-26T18:31:29.799640-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,8 +149,7 @@
     <author>
       <name>portainer/portainer</name>
     </author>
-    <content>&lt;h1&gt;Release 2.27.0&lt;/h1&gt;
-&lt;p&gt;Portainer version 2.27.0 is the second Long-Term Support (LTS) release, primarily focused on bug fixes, optimizations, enhancements, and security improvements.&lt;/p&gt;
+    <content>&lt;p&gt;Portainer version 2.27.0 is the second Long-Term Support (LTS) release, primarily focused on bug fixes, optimizations, enhancements, and security improvements.&lt;/p&gt;
 &lt;h2&gt;Known issues&lt;/h2&gt;
 &lt;h3&gt;Known issues with Docker support&lt;/h3&gt;
 &lt;ul&gt;

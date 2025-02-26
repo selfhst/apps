@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MyHeats Releases</title>
-  <updated>2025-02-26T17:33:13.205552-05:00</updated>
+  <updated>2025-02-26T18:33:01.021970-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,5 +95,46 @@ Thanks to all contributors, beta testers and everyone else involved with this re
 &lt;/ul&gt;
 &lt;p&gt;For a complete overview of all features and enhancements added in this release, &lt;a href="https://github.com/music-assistant/server/compare/2.3.6...2.4.0"&gt;click here&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.4.1</id>
+    <title>New release for Music Assistant: 2.4.1</title>
+    <updated>2025-02-26T17:52:14-05:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;h2&gt;What’s Changed&lt;/h2&gt;
+&lt;h3&gt;Server 2.4.1&lt;/h3&gt;
+&lt;h2&gt;🐛 Bugfixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;1984 - fix(tidal): refresh access token correctly (@jozefKruszynski)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;1980 - Fix assertion error when trying to save a provider config (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix issues with creating playergroups (and migrating existing ones)&lt;/li&gt;
+&lt;li&gt;Fix: players with fake power should remember the power state between restarts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🧰 Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;1987 - frontend-2.11.11 (@music-assistant-machine)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Frontend 2.11.11&lt;/h3&gt;
+&lt;p&gt;Fix creation of player groups&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/frontend/compare/2.11.10...2.11.11&lt;/p&gt;
+&lt;h2&gt;⬆️ Dependencies&lt;/h2&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;2 changes&lt;/summary&gt;
+
+- #1985 - Chore(deps): Bump docker/build-push-action from 6.14.0 to 6.15.0 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #1986 - Chore(deps): Bump docker/setup-buildx-action from 3.9.0 to 3.10.0 (@[dependabot[bot]](https://github.com/apps/dependabot))
+&lt;/details&gt;
+
+&lt;h3&gt;Frontend&lt;/h3&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.4.1" rel="alternate"/>
   </entry>
 </feed>
