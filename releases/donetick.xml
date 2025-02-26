@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-02-26T09:34:56.113220-05:00</updated>
+  <updated>2025-02-26T10:34:58.085898-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,7 +144,7 @@ if configured correctly you should see new button appear on the login page :
 &lt;li&gt;&lt;strong&gt;Subtasks:&lt;/strong&gt; Added support for subtasks. Each task can now have steps or subtasks. These can be completed and tracked separately. When a recurrent task is completed, its subtasks are reset.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Group By and Section Persistence:&lt;/strong&gt; Persisted the "group by" setting in the main view. If you select "group by due date," "priority," etc., this setting will be preserved. When you return to donetick from the same device, you will see the same grouping. Additionally, the collapsed/expanded state of sections is now persisted.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Rolling Chore Due Date Logic:&lt;/strong&gt; Added logic to ensure the next due date for rolling chores is the later of the completed date or the originally calculated next due date, particularly for day-of-the-month scheduling.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rolling Task Due Date Logic:&lt;/strong&gt; Added logic to ensure the next due date for rolling tasks is the later of the completed date or the originally calculated next due date, particularly for day-of-the-month scheduling.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Added more tests to the scheduler.&lt;/p&gt;
