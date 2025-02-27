@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-02-27T14:33:09.414345-05:00</updated>
+  <updated>2025-02-27T15:33:11.286791-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -202,41 +202,6 @@
     </author>
     <content>&lt;p&gt;Release build (minor) of NodeBB @ 2025-02-27T18:59:18.531Z&lt;/p&gt;
 &lt;h4&gt;v4.1.0 (2025-02-27)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;incrementing version number - v4.0.6 (4a52fb2e)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.0.6 (78bbea30)&lt;/li&gt;
-&lt;li&gt;comment out testing helper call (bad0a4c2)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.5 (1792a62b)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.4 (b1125cce)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.3 (2b65c735)&lt;/li&gt;
-&lt;li&gt;up harmony (ea110a0e)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.2 (73fe5fcf)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.1 (a461b758)&lt;/li&gt;
-&lt;li&gt;bump emoji for #13077 as well (ff0de097)&lt;/li&gt;
-&lt;li&gt;fix ap dev helper (b14494b0)&lt;/li&gt;
-&lt;li&gt;add helper method to ease in dev (d7d64a14)&lt;/li&gt;
-&lt;li&gt;add helper method to ease in dev (7d5482b2)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;update dependency sass-embedded to v1.85.1 (#13208) (3907e6c8)&lt;/li&gt;
-&lt;li&gt;update postgres docker tag to v17.4 (#13196) (cba2bc5e)&lt;/li&gt;
-&lt;li&gt;update postgres docker tag to v17.3 (#13162) (47e28a0e)&lt;/li&gt;
-&lt;li&gt;update dependency sass-embedded to v1.85.0 (#13161) (2258e145)&lt;/li&gt;
-&lt;li&gt;update commitlint monorepo to v19.7.1 (#13123) (ca6734b3)&lt;/li&gt;
-&lt;li&gt;update coverallsapp/github-action action to v2.3.6 (#13089) (84b28fae)&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.4.3 (#13079) (1d846134)&lt;/li&gt;
-&lt;li&gt;update dependency mocha to v11.1.0 (#13069) (8e99c97a)&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.4.1 (#13060) (153e65bc)&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.4.1 (#13060) (37b2b83d)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.category (00253821)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.error (589be143)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.themes-harmony (25049714)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-settings-advanced (ad6b6132)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.themes-harmony (fc063bb0)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-settings-general (d41109a0)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;New Features&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;support remote "Video" type objects in note assertion, #13120 (95f2c4ed)&lt;/li&gt;

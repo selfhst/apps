@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docmost Releases</title>
-  <updated>2025-02-27T14:32:52.350644-05:00</updated>
+  <updated>2025-02-27T15:32:56.282781-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,19 +133,6 @@ Special thanks to @NomadRazor for working on this feature.
 * feat: add stats to standalone collab server by @Philipinho in https://github.com/docmost/docmost/pull/798
 * feat: add copy invite link to invitation action menu by @NomadRazor in https://github.com/docmost/docmost/pull/360
 * push files left (#360) by @Philipinho in https://github.com/docmost/docmost/pull/804
-
-## New Contributors
-* @NomadRazor made their first contribution in https://github.com/docmost/docmost/pull/360
-
-**Full Changelog**: https://github.com/docmost/docmost/compare/v0.8.3...v0.8.4
-
-## What's Changed
-* feat: standalone collab server by @Philipinho in https://github.com/docmost/docmost/pull/767
-* feat: add stats to standalone collab server by @Philipinho in https://github.com/docmost/docmost/pull/798
-* feat: sentry by @Philipinho in https://github.com/docmost/docmost/pull/802
-* feat: add copy invite link to invitation action menu by @NomadRazor in https://github.com/docmost/docmost/pull/360
-* push files left (#360) by @Philipinho in https://github.com/docmost/docmost/pull/804
-* revert sentry by @Philipinho in https://github.com/docmost/docmost/pull/808
 
 ## New Contributors
 * @NomadRazor made their first contribution in https://github.com/docmost/docmost/pull/360

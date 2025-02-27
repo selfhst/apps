@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Youlag Releases</title>
-  <updated>2025-02-27T14:35:12.812864-05:00</updated>
+  <updated>2025-02-27T15:35:11.757061-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,6 +103,7 @@ Head to this page and replace the old CSS with the one provided in this release.
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Improvements:&lt;/strong&gt;
 - Feeds without thumbnail images now displays tinted placeholder background color, with the author's name on top of it. Previously, it was completely blank for feeds without thumbnails.
+  - Edit 2025-02-27: The author name that displays on the thumbnail placeholder may not work on the Safari (Webkit) browser. 
 - Code blocks &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; displays horizontal scrollbars when exceeding the available width.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fixes:&lt;/strong&gt;
 - In the feed view, when clicking the favicon, or source link, prevent Youlag theater view from displaying before getting routed.&lt;/p&gt;</content>
