@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2025-02-27T11:30:52.789067-05:00</updated>
+  <updated>2025-02-27T12:30:49.959608-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -243,7 +243,8 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
 &lt;p&gt;Corresponding releases are available for the &lt;a href="https://github.com/mastodon/mastodon/releases/tag/v4.3.4"&gt;4.3.x branch&lt;/a&gt; and the &lt;a href="https://github.com/mastodon/mastodon/releases/tag/v4.1.23"&gt;4.1.x branch&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[!NOTE]
 This version fixes a vulnerability issue when using SAML but drops support for Ruby 3.0 in the process.
-If you configured SAML authentication on your Mastodon instance and use Ruby 3.0, we recommend that you update your Ruby version to 3.2, then update to Mastodon v4.2.17 or later&lt;/p&gt;
+If you configured SAML authentication on your Mastodon instance and use Ruby 3.0, we recommend that you update your Ruby version to 3.2, then update to Mastodon v4.2.17 or later.
+If you can't use Ruby 3.1 or later but don't use SAML, updating past &lt;a href="https://github.com/mastodon/mastodon/releases/tag/v4.2.16"&gt;v4.2.16&lt;/a&gt; is not as critical.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Changelog (v4.2.17)&lt;/h2&gt;
 &lt;h3&gt;Security&lt;/h3&gt;
