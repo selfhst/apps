@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2025-02-26T20:31:03.559816-05:00</updated>
+  <updated>2025-02-26T21:31:05.434319-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -170,6 +170,9 @@
 &lt;ul&gt;
 &lt;li&gt;YAML configuration files are not supported anymore. Please move to .env files&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;🚨 Docker configuration updates&lt;/h2&gt;
+&lt;p&gt;Due to the user/group updates on the docker image there is a small chance you run into file permission issues on existing volumes check https://github.com/Leantime/docker-leantime?tab=readme-ov-file#common-issues--solutions for setting the permissions correctly.&lt;/p&gt;
+&lt;p&gt;Additionally we updated the internal port to be 8080. Please make sure your docker compose files&lt;a href="https://github.com/Leantime/docker-leantime/blob/master/docker-compose.yml"&gt; reflect the recent changes&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Details&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[Changelog CI] Add Changelog for Version 3.3.3 by @github-actions in https://github.com/Leantime/leantime/pull/2835&lt;/li&gt;
@@ -805,7 +808,11 @@
     <author>
       <name>Leantime/leantime</name>
     </author>
-    <content>&lt;h1&gt;Highlights&lt;/h1&gt;
+    <content>&lt;h2&gt;🚨 Docker configuration updates&lt;/h2&gt;
+&lt;p&gt;Due to the user/group updates on the docker image there is a small chance you run into file permission issues on existing volumes check https://github.com/Leantime/docker-leantime?tab=readme-ov-file#common-issues--solutions for setting the permissions correctly.&lt;/p&gt;
+&lt;p&gt;Additionally we updated the internal port to be 8080. Please make sure your docker compose files&lt;a href="https://github.com/Leantime/docker-leantime/blob/master/docker-compose.yml"&gt; reflect the recent changes&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Highlights&lt;/h1&gt;
+&lt;h2&gt;For a full list of 3.4 updates see: https://github.com/Leantime/leantime/releases/tag/v3.4.0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed date issue in milestone, timesheet, sprint generation&lt;/li&gt;
 &lt;li&gt;Fixed cron handler for long running schedule:work job to be able to run cron jobs in docker&lt;/li&gt;
