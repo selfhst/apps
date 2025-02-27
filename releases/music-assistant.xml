@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Music Assistant Releases</title>
-  <updated>2025-02-27T00:33:05.696239-05:00</updated>
+  <updated>2025-02-27T01:32:58.658276-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,5 +136,15 @@ Thanks to all contributors, beta testers and everyone else involved with this re
 
 &lt;h3&gt;Frontend&lt;/h3&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.4.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.4.2</id>
+    <title>New release for Music Assistant: 2.4.2</title>
+    <updated>2025-02-27T01:23:55-05:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;p&gt;Fix crash at startup with 2.4.1 for some people.&lt;/p&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.4.2" rel="alternate"/>
   </entry>
 </feed>
