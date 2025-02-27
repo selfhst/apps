@@ -287,12 +287,18 @@
     {
         "Tag": "Downloads",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
         "Tag": "E-commerce",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "ERP",
         "Valid Types": [
             "Software"
         ]
@@ -594,15 +600,15 @@
     {
         "Tag": "Music",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
         "Tag": "Music Streaming",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -689,7 +695,13 @@
     {
         "Tag": "Photos",
         "Valid Types": [
-            "Companion",
+            "Software",
+            "Companion"
+        ]
+    },
+    {
+        "Tag": "Platform",
+        "Valid Types": [
             "Software"
         ]
     },
@@ -697,12 +709,6 @@
         "Tag": "Platform",
         "Valid Types": [
             "ActivityPub"
-        ]
-    },
-    {
-        "Tag": "Platform",
-        "Valid Types": [
-            "Software"
         ]
     },
     {
@@ -977,6 +983,12 @@
         "Tag": "Tool",
         "Valid Types": [
             "ActivityPub"
+        ]
+    },
+    {
+        "Tag": "Tools",
+        "Valid Types": [
+            "Software"
         ]
     },
     {
