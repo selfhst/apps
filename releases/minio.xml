@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2025-02-28T15:31:53.240946-05:00</updated>
+  <updated>2025-02-28T16:31:56.354217-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,7 +100,9 @@
     <author>
       <name>minio/minio</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;This release contains a fix for the security vulnerability that is the subject of this advisory: https://github.com/minio/minio/security/advisories/GHSA-wc79-7x8x-2p58. All deployments with SFTP access using LDAP as identity provider are advised to upgrade immediately.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix importIAM issue with importing implied policies by @taran-p in https://github.com/minio/minio/pull/20956&lt;/li&gt;
 &lt;li&gt;Update SRSvcAccCreate with new type by @taran-p in https://github.com/minio/minio/pull/20974&lt;/li&gt;
