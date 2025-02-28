@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YeetFile Releases</title>
-  <updated>2025-02-28T12:35:18.156032-05:00</updated>
+  <updated>2025-02-28T13:35:13.923085-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -191,6 +191,32 @@
 &lt;li&gt;Fix browser blurriness in vault view caused by CSS transform&lt;/li&gt;
 &lt;li&gt;Fix Backblaze B2 re-authentication cron task in multi-server deployments&lt;/li&gt;
 &lt;li&gt;Fix vault file download behavior on web&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Linux, macOS, and Windows binaries for the CLI app and for the server are included below. These archives contain a single executable that you can run on your machine.&lt;/p&gt;
+&lt;h3&gt;CLI&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm32&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_linux_arm32_0.2.0.tar.gz"&gt;yeetfile_linux_arm32_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_linux_amd64_0.2.0.tar.gz"&gt;yeetfile_linux_amd64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_linux_arm64_0.2.0.tar.gz"&gt;yeetfile_linux_arm64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_linux_386_0.2.0.tar.gz"&gt;yeetfile_linux_386_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_macos_amd64_0.2.0.tar.gz"&gt;yeetfile_macos_amd64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_macos_arm64_0.2.0.tar.gz"&gt;yeetfile_macos_arm64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_windows_386_0.2.0.zip"&gt;yeetfile_windows_386_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_windows_amd64_0.2.0.zip"&gt;yeetfile_windows_amd64_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_windows_arm64_0.2.0.zip"&gt;yeetfile_windows_arm64_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Backend&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm32&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_arm32_0.2.0.tar.gz"&gt;yeetfile-server_linux_arm32_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_amd64_0.2.0.tar.gz"&gt;yeetfile-server_linux_amd64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_arm64_0.2.0.tar.gz"&gt;yeetfile-server_linux_arm64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_386_0.2.0.tar.gz"&gt;yeetfile-server_linux_386_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_macos_amd64_0.2.0.tar.gz"&gt;yeetfile-server_macos_amd64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_macos_arm64_0.2.0.tar.gz"&gt;yeetfile-server_macos_arm64_0.2.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;386&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_windows_386_0.2.0.zip"&gt;yeetfile-server_windows_386_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;amd64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_windows_amd64_0.2.0.zip"&gt;yeetfile-server_windows_amd64_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows (&lt;code&gt;arm64&lt;/code&gt;): &lt;a href="https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_windows_arm64_0.2.0.zip"&gt;yeetfile-server_windows_arm64_0.2.0.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/benbusby/yeetfile/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
