@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ServerCat Releases</title>
-  <updated>2025-02-28T01:33:25.547469-05:00</updated>
+  <updated>2025-02-28T02:33:34.416247-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,7 +147,7 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Highlight today’s episode in episode list&lt;/li&gt;
-&lt;li&gt;Refresh calendar resuming app&lt;/li&gt;
+&lt;li&gt;Refresh calendar when resuming app&lt;/li&gt;
 &lt;li&gt;Redesigned settings icons&lt;/li&gt;
 &lt;li&gt;Throttled fetching media when displaying grid&lt;/li&gt;
 &lt;li&gt;Improved stability&lt;/li&gt;
