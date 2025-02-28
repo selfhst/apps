@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2025-02-28T08:34:29.405268-05:00</updated>
+  <updated>2025-02-28T09:34:29.080793-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,7 @@ Thank you to @bazzadazza72 for creating a Windows installer&lt;/p&gt;
   <entry>
     <id>https://github.com/DonutWare/Fladder/releases/tag/v0.6.1</id>
     <title>New release for Fladder: v0.6.1</title>
-    <updated>2025-02-28T08:25:22-05:00</updated>
+    <updated>2025-02-28T09:34:20-05:00</updated>
     <author>
       <name>DonutWare/Fladder</name>
     </author>
@@ -160,6 +160,8 @@ This update also includes a few minor bug fixes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: Improved and fixed some of the videoPlayer controls by @PartyDonut in https://github.com/DonutWare/Fladder/pull/241&lt;/li&gt;
 &lt;li&gt;fix: Hide subtitles with empty text by @PartyDonut in https://github.com/DonutWare/Fladder/pull/242&lt;/li&gt;
+&lt;li&gt;fix: Web full-screen functionality&lt;/li&gt;
+&lt;li&gt;fix: Remove window buttons in web version&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Other Changes&lt;/h3&gt;
 &lt;ul&gt;
