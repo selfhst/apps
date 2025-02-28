@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Erugo Releases</title>
-  <updated>2025-02-28T16:35:27.981443-05:00</updated>
+  <updated>2025-02-28T17:35:27.215210-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,18 @@
     </author>
     <content>&lt;h2&gt;Latest Release&lt;/h2&gt;</content>
     <link href="https://github.com/DeanWard/erugo/releases/tag/v0.0.005" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DeanWard/erugo/releases/tag/v0.0.007</id>
+    <title>New release for Erugo: v0.0.007</title>
+    <updated>2025-02-28T17:06:05-05:00</updated>
+    <author>
+      <name>DeanWard/erugo</name>
+    </author>
+    <content>&lt;p&gt;This version introduces a brand new theming system which provides more control over the colours of every aspect of erugo. Ships with 7 light and 6 dark themes. The json file for any theme can be downloaded from the admin panel, modified and re-uploaded as a custom theme. &lt;/p&gt;
+&lt;p&gt;I'm planning on creating a theme marketplace where themes can be freely shared, forked, and downloaded. &lt;/p&gt;
+&lt;p&gt;To install this new version please re-pull wardy784/erugo:latest and restart your containers.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/7960e72c-f01f-437e-8737-3052bea0cdb1" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/DeanWard/erugo/releases/tag/v0.0.007" rel="alternate"/>
   </entry>
 </feed>
