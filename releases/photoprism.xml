@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2025-02-28T10:31:28.061422-05:00</updated>
+  <updated>2025-02-28T11:31:26.682849-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,7 +142,7 @@
     <author>
       <name>photoprism/photoprism</name>
     </author>
-    <content>&lt;p&gt;This update gets you additional usability and performance enhancements, as well as a new thumbnail size for &lt;a href="https://github.com/photoprism/photoprism/issues/4810"&gt;Retina 5K displays&lt;/a&gt;, bridging the gap &lt;a href="https://docs.photoprism.app/user-guide/settings/advanced/#which-thumbnails-will-be-generated"&gt;between 4K and 8K resolution&lt;/a&gt;. We would like to take this opportunity to &lt;a href="https://floss.social/@photoprism"&gt;thank our community&lt;/a&gt; whose &lt;a href="https://www.photoprism.app/oss/faq"&gt;support has been&lt;/a&gt; &lt;a href="https://docs.photoprism.app/developer-guide/"&gt;and continues to be essential&lt;/a&gt; to the &lt;a href="https://github.com/photoprism/photoprism"&gt;success of the project&lt;/a&gt;! 🌈💎✨&lt;/p&gt;
+    <content>&lt;p&gt;With &lt;a href="https://docs.photoprism.app/release-notes/#february-28-2025"&gt;this update&lt;/a&gt;, you'll get additional usability and performance improvements, as well as a new thumbnail size for &lt;a href="https://github.com/photoprism/photoprism/issues/4810"&gt;Retina 5K displays&lt;/a&gt; that bridges the gap &lt;a href="https://docs.photoprism.app/user-guide/settings/advanced/#which-thumbnails-will-be-generated"&gt;between 4K and 8K&lt;/a&gt;. We would also like to take this opportunity to &lt;a href="https://floss.social/@photoprism"&gt;thank our community&lt;/a&gt;, whose &lt;a href="https://www.photoprism.app/oss/faq"&gt;support has been&lt;/a&gt; &lt;a href="https://docs.photoprism.app/developer-guide/"&gt;and continues to be essential&lt;/a&gt; to the &lt;a href="https://github.com/photoprism/photoprism"&gt;success of the project&lt;/a&gt;! 🌈💎✨&lt;/p&gt;
 &lt;h4&gt;What's new?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;UX: &lt;a href="https://github.com/photoprism/photoprism/issues/3442"&gt;Added menu action button for archiving pictures from albums&lt;/a&gt;&lt;/li&gt;
