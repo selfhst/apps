@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Astuto Releases</title>
-  <updated>2025-03-01T05:33:54.734452-05:00</updated>
+  <updated>2025-03-01T06:33:56.836267-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,17 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/astuto/astuto/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/astuto/astuto/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/astuto/astuto/releases/tag/v1.1.1</id>
+    <title>New release for Astuto: 1.1.1</title>
+    <updated>2025-03-01T06:21:34-05:00</updated>
+    <author>
+      <name>astuto/astuto</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Bump gem 'rails-html-sanitizer' from 1.6.0 to 1.6.1&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/astuto/astuto/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
