@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockerizalo Releases</title>
-  <updated>2025-03-01T08:35:00.958492-05:00</updated>
+  <updated>2025-03-01T09:35:03.619628-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,5 +67,41 @@ docker compose pull&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;shell
 docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/undernightcore/dockerizalo/releases/tag/v1.3.0</id>
+    <title>New release for Dockerizalo: v1.3.0</title>
+    <updated>2025-03-01T08:46:46-05:00</updated>
+    <author>
+      <name>undernightcore/dockerizalo</name>
+    </author>
+    <content>&lt;div align="center"&gt;  
+    &lt;img alt="Dockerizalo" height="200px" src="https://github.com/undernightcore/dockerizalo-ui/blob/assets/dockerizalo.png?raw=true"&gt;  
+&lt;/div&gt;
+
+&lt;h1&gt;v1.3.0&lt;/h1&gt;
+&lt;p&gt;Hello everyone! 🎉  &lt;/p&gt;
+&lt;p&gt;I am thrilled to introduce &lt;strong&gt;Docker image deployments&lt;/strong&gt; and &lt;strong&gt;App templates&lt;/strong&gt; in this release! These features bring us one step closer to full &lt;strong&gt;Docker Compose&lt;/strong&gt; deployments.  &lt;/p&gt;
+&lt;h2&gt;✨ What's New?&lt;/h2&gt;
+&lt;h3&gt;🐳 Image Deployments&lt;/h3&gt;
+&lt;p&gt;You can now deploy &lt;strong&gt;single-container applications&lt;/strong&gt;—like databases, services, and more—directly from any registry!  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="image-app" src="https://github.com/user-attachments/assets/43f81fbc-0937-4b3f-9393-e93ae1cbb5f3" /&gt;&lt;br /&gt;
+&lt;img alt="image-app-detail" src="https://github.com/user-attachments/assets/d6b56889-75e8-4957-8c38-e0a946fc0746" /&gt;  &lt;/p&gt;
+&lt;h3&gt;📦 App Templates&lt;/h3&gt;
+&lt;p&gt;Think of templates as &lt;strong&gt;pre-configured image deployments&lt;/strong&gt;—they automatically set up &lt;strong&gt;variables, networks, and volumes&lt;/strong&gt; for you! 🚀  &lt;/p&gt;
+&lt;p&gt;Currently, we support &lt;strong&gt;PostgreSQL&lt;/strong&gt;, and we welcome your contributions to expand our template library! (Icons from &lt;a href="https://selfh.st/icons/"&gt;Selfhosted Icons&lt;/a&gt;—thank you!)  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="image-app-template" src="https://github.com/user-attachments/assets/03ed2537-556b-4840-b071-0f85b1ece8f2" /&gt;  &lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/undernightcore/dockerizalo/compare/v1.2.0...v1.3.0"&gt;Compare v1.2.0 → v1.3.0&lt;/a&gt;  &lt;/p&gt;
+&lt;h2&gt;How to update&lt;/h2&gt;
+&lt;h4&gt;Stop Dockerizalo&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose down&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Pull new images&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose pull&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Start Dockerizalo again&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
