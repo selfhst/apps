@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2025-02-28T18:31:25.898066-05:00</updated>
+  <updated>2025-02-28T19:31:25.612249-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -313,7 +313,7 @@
   </entry>
   <entry>
     <id>https://github.com/jokob-sk/NetAlertX/releases/tag/v25.3.1</id>
-    <title>New release for NetAlertX: v25.3.1 - 📚 New Docs portal, OMADA plugin and More MQTT attributes</title>
+    <title>New release for NetAlertX: v25.3.1 - 📚 New Docs portal, OMADA plugin and more MQTT attributes</title>
     <updated>2025-02-28T18:27:48-05:00</updated>
     <author>
       <name>jokob-sk/NetAlertX</name>
@@ -348,7 +348,21 @@
 &lt;/ul&gt;
 &lt;h2&gt;Other Info&lt;/h2&gt;
 &lt;p&gt;|  🆕 - New features | ✨ - Fixes &amp;amp; Improvements | ⚠ - Possibly breaking changes |   🧪 - Experimental/work in progress |
- |--------------------|------------------------------|--------------------------------|--------------------------------|&lt;/p&gt;</content>
+ |--------------------|------------------------------|--------------------------------|--------------------------------|&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix spelling mistake in unifi plugin by @Peter-Maguire in https://github.com/jokob-sk/NetAlertX/pull/996&lt;/li&gt;
+&lt;li&gt;New plugin: Omada SDN import using OpenAPI (OMDSDNOPENAPI) by @xfilo in https://github.com/jokob-sk/NetAlertX/pull/1005&lt;/li&gt;
+&lt;li&gt;OMDSDNOPENAPI - Run command change due to plugin folder rename by @xfilo in https://github.com/jokob-sk/NetAlertX/pull/1006&lt;/li&gt;
+&lt;li&gt;OMDSDNOPENAPI - Fixed example in README.md, improved logging and code logic by @xfilo in https://github.com/jokob-sk/NetAlertX/pull/1007&lt;/li&gt;
+&lt;li&gt;OMDSDNOPENAPI - Refactored data collection into a class, improved code clarity with comments by @xfilo in https://github.com/jokob-sk/NetAlertX/pull/1008&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Peter-Maguire made their first contribution in https://github.com/jokob-sk/NetAlertX/pull/996&lt;/li&gt;
+&lt;li&gt;@xfilo made their first contribution in https://github.com/jokob-sk/NetAlertX/pull/1005&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jokob-sk/NetAlertX/compare/v25.2.8...v25.3.1&lt;/p&gt;</content>
     <link href="https://github.com/jokob-sk/NetAlertX/releases/tag/v25.3.1" rel="alternate"/>
   </entry>
 </feed>
