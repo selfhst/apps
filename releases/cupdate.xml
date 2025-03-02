@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cupdate Releases</title>
-  <updated>2025-03-02T06:35:02.415519-05:00</updated>
+  <updated>2025-03-02T07:35:08.526473-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -222,5 +222,49 @@ docker run --rm -it --label "cupdate.config.ignore=true" alpine:3&lt;/code&gt;&l
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.16.0...v0.17.0&lt;/p&gt;</content>
     <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.17.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/AlexGustafsson/cupdate/releases/tag/v0.18.0</id>
+    <title>New release for Cupdate: </title>
+    <updated>2025-03-02T06:57:22-05:00</updated>
+    <author>
+      <name>AlexGustafsson/cupdate</name>
+    </author>
+    <content>&lt;p&gt;Thanks to everyone who created feature requests, bug reports and tested fixes. Your help is instrumental to continue to improve Cupdate!&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;Controlling image updates with labels (e.g. pin tag)&lt;/h3&gt;
+&lt;p&gt;When finding container images in use, Cupdate builds a graph of the image and its dependants.&lt;/p&gt;
+&lt;p&gt;&lt;img width="825" alt="image" src="https://github.com/user-attachments/assets/2243c27a-23a9-4c3a-ac6a-826d004748b2" /&gt;&lt;/p&gt;
+&lt;p&gt;This graph includes the image itself and any resources directly or indirectly relying on it.&lt;/p&gt;
+&lt;p&gt;Since v0.17.0, Cupdate can take configuration from labels on any resource in the graph to configure how the image is (or isn't processed). Previously, this functionality could only be used to ignore images. Starting in v0.18.0, Cupdate supports additional configuration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;stay-on-current-major&lt;/code&gt; - don't recommend updates from &lt;code&gt;3.21.2&lt;/code&gt; -&amp;gt; &lt;code&gt;4.0.0&lt;/code&gt;, but do recommend &lt;code&gt;3.21.2&lt;/code&gt; -&amp;gt; &lt;code&gt;3.22.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pin&lt;/code&gt; - don't recommend updates to other tags, only check the underlying manifest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These options are especially useful for databases. See the revised and much more detailed label config docs in &lt;a href="https://github.com/AlexGustafsson/cupdate/blob/090c5cd387606deccb09b948716d8e4366551fe3/docs/config.md#labels"&gt;docs/config.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In order to make it easier to undertand what settings are applied, Cupdate now exposes the labels in the UI, showing a small tag on nodes that have labels on them. The labels can be seen in detail by pressing on a node. The labels that affect an image are shown when clicking on an image's node.&lt;/p&gt;
+&lt;p&gt;&lt;img width="822" alt="image" src="https://github.com/user-attachments/assets/9da27806-401f-4b2d-b2ea-73f39465a354" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width="844" alt="image" src="https://github.com/user-attachments/assets/cdf960e6-985e-4fb1-b5b1-d2af26620624" /&gt;&lt;/p&gt;
+&lt;h3&gt;Open Source Security Foundation's Scorecard&lt;/h3&gt;
+&lt;p&gt;&lt;img width="832" alt="image" src="https://github.com/user-attachments/assets/51ce82e7-fb54-4536-8127-c7db6098ba77" /&gt;&lt;/p&gt;
+&lt;p&gt;Cupdate cares for security, with features like checking for reported vulnerabilities. In v0.18.0, Cupdate adds support for the &lt;a href="https://scorecard.dev/#what-is-openssf-scorecard"&gt;Open Source Security Foundation's Scorecard&lt;/a&gt;, providing additional risk insight in open source projects. The scorecard report contains checks to score how well a project is maintained and following best practices such as dependency management tools, having a security policy, running fuzz tests and static code analysis tools, narrowing token permissions and more.&lt;/p&gt;
+&lt;p&gt;For now, only repositiories scanned by the foundation are supported, which covers the top one million open source projects hosted on GitHub or GitLab. The tool can be run locally to test other repositories. At the time of writing, Cupdate's score is 7.7/10 (low risk), lacking fuzz tests and code reviews (single maintainer).&lt;/p&gt;
+&lt;h3&gt;State store migration framework&lt;/h3&gt;
+&lt;p&gt;As Cupdate is still in active development and hasn't yet reached 1.0, there has been breaking changes and will likely be more breaking changes. In the vast majority of cases, the changes made to the state store have gone unnoticed as they could be handled gracefully.&lt;/p&gt;
+&lt;p&gt;To lay the foundation for stable updates of Cupdate, a migration framework has been implemented to ensure that changes to the state store can be made without requiring any user intervention when updating. The framework allows for migrating any version of Cupdate to a newer version, with transactional, delta migrations. The framework has already seen use to allow for the new scorecard feature.&lt;/p&gt;
+&lt;h2&gt;Improvements and fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Show details of graph nodes in the UI when the node is clicked&lt;/li&gt;
+&lt;li&gt;Improved UI responsiveness&lt;/li&gt;
+&lt;li&gt;Wrap tags on small viewports&lt;/li&gt;
+&lt;li&gt;Reduce padding of tags in cards&lt;/li&gt;
+&lt;li&gt;Improve text wrapping of step durations&lt;/li&gt;
+&lt;li&gt;Improved support for private GHCR images&lt;/li&gt;
+&lt;li&gt;Propagate workflow job errors to dependencies, ensuring jobs are correctly skipped if a dependency's dependency fails&lt;/li&gt;
+&lt;li&gt;Fix sort of semver tags with digest diff&lt;/li&gt;
+&lt;li&gt;Improve graph layout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlexGustafsson/cupdate/compare/v0.17.0...v0.18.0&lt;/p&gt;</content>
+    <link href="https://github.com/AlexGustafsson/cupdate/releases/tag/v0.18.0" rel="alternate"/>
   </entry>
 </feed>
