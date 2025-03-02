@@ -18108,7 +18108,7 @@
         "Website": "https://gitlab.com/rtraceio/web/flink",
         "Repository Link": "https://gitlab.com/rtraceio/web/flink",
         "Description": "Zero-config URL shortener with QR codes and analytics",
-        "License": null,
+        "License": "MIT",
         "Language": "C#",
         "Icon Source": "Icons",
         "Icon Override": null,
