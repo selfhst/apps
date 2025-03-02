@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-03-02T08:30:31.613536-05:00</updated>
+  <updated>2025-03-02T09:30:27.293421-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,7 @@
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.8" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/godoxy/releases/tag/v0.9.9</id>
+    <id>https://github.com/yusing/godoxy/releases/tag/v0.9.9-1</id>
     <title>New release for GoDoxy: v0.9.9</title>
     <updated>2025-03-01T02:56:58-05:00</updated>
     <author>
@@ -100,9 +100,9 @@
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;RedirectHTTP middleware bug 71ad13256effb21e3d5090937a812b7862550592&lt;/li&gt;
-&lt;li&gt;panic crash on start #69 357ad26a0e97501f1e6fdab88c4532bb10998685 9b2ee628aa89388b96add49691a070fc877d2569&lt;/li&gt;
+&lt;li&gt;panic crash on start #69 #71 357ad26a0e97501f1e6fdab88c4532bb10998685 9b2ee628aa89388b96add49691a070fc877d2569 189c8706304203e8eaa801c2ad225aef80911002&lt;/li&gt;
 &lt;li&gt;dependencies upgrade a3e705373ce4476310aaeb161beef3022bdf7be1&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.9" rel="alternate"/>
+    <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.9-1" rel="alternate"/>
   </entry>
 </feed>
