@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dokploy Releases</title>
-  <updated>2025-03-03T01:34:25.265190-05:00</updated>
+  <updated>2025-03-03T02:34:30.415643-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,7 +116,10 @@
 &lt;h2&gt;Note&lt;/h2&gt;
 &lt;p&gt;If you receive login related problems after upgrading such as Invalid Origin or other errors we recommend clearing cookies &amp;amp; localstorage, and refreshing the page. &lt;/p&gt;
 &lt;h2&gt;Breaking Changes&lt;/h2&gt;
-&lt;p&gt;Resources which were created in Git Providers, SSH Keys, Registry &amp;amp; Destinations before v0.11.0 Will automatically delete this is due to migration to better auth, so you will need to recreate.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Resources which were created in Git Providers, SSH Keys, Registry &amp;amp; Destinations before v0.11.0 Will automatically delete this is due to migration to better auth, so you will need to recreate.&lt;/li&gt;
+&lt;li&gt;2FA Auth will need to recreate &lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;h3&gt;Organizations&lt;/h3&gt;
 &lt;p&gt;Now you are able to create multiple organizations and isolated resources to specific organizations
@@ -132,6 +135,9 @@
 &lt;h3&gt;Cloud Version&lt;/h3&gt;
 &lt;p&gt;Now the cloud users can login via Github or Google Authentication&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screenshot 2025-03-03 at 12 11 13 AM" src="https://github.com/user-attachments/assets/f5c93f9a-8bac-4626-bc07-357beb968e94" /&gt;&lt;/p&gt;
+&lt;h3&gt;New 2FA Flow&lt;/h3&gt;
+&lt;p&gt;Due to integration of 2FA from better auth we decided to migrate to make it more flexible, if you have previously setup 2FA you will need to setup again.
+&lt;img alt="Screenshot 2025-03-03 at 12 37 05 AM" src="https://github.com/user-attachments/assets/dfd64ef7-f92b-4cb6-bae8-9e7069ae6920" /&gt;&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@sondreal made their first contribution in https://github.com/Dokploy/dokploy/pull/1357&lt;/li&gt;
