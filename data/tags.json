@@ -186,6 +186,12 @@
         ]
     },
     {
+        "Tag": "Container Registry",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Content Management",
         "Valid Types": [
             "Software"
