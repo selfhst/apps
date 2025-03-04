@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pixelix Releases</title>
-  <updated>2025-03-04T04:34:14.437287-05:00</updated>
+  <updated>2025-03-04T05:34:22.511976-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,7 +164,8 @@
       <name>daniebeler/pixelix</name>
     </author>
     <content>&lt;h1&gt;Bug Fix&lt;/h1&gt;
-&lt;p&gt;Fix link to repost and more settings.&lt;/p&gt;</content>
+&lt;p&gt;Fix link to repost and more settings.&lt;/p&gt;
+&lt;p&gt;Remove dev packages&lt;/p&gt;</content>
     <link href="https://github.com/daniebeler/pixelix/releases/tag/v4.0.1" rel="alternate"/>
   </entry>
 </feed>
