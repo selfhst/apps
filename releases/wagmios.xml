@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WagmiOS Releases</title>
-  <updated>2025-03-04T13:35:39.133862-05:00</updated>
+  <updated>2025-03-04T14:35:38.854365-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -20,7 +20,7 @@
     <content>&lt;p&gt;v2.0.0 is the latest stable version of WAGMI &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;thanks to the great people at /r raspberry pi for there feedback. I decided to make the full switch to a containerized verison. &lt;/p&gt;
+&lt;p&gt;thanks to the great people at /r raspberrypi for their feedback. I decided to make the full switch to a containerized version. &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;No need to install anything to your system in the backend. just docker 🐳 (if you still want the older version it is tagged for use) &lt;/p&gt;
