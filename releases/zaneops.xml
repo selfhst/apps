@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ZaneOps Releases</title>
-  <updated>2025-03-04T09:35:43.693145-05:00</updated>
+  <updated>2025-03-04T10:36:09.166599-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,24 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/zane-ops/zane-ops/compare/v1.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/zane-ops/zane-ops/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/zane-ops/zane-ops/releases/tag/v1.0.2</id>
+    <title>New release for ZaneOps: v1.0.2</title>
+    <updated>2025-03-04T10:21:55-05:00</updated>
+    <author>
+      <name>zane-ops/zane-ops</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: bug with service metrics not collected correctly by @Fredkiss3 in https://github.com/zane-ops/zane-ops/pull/383&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: use &lt;code&gt;v1&lt;/code&gt; for the default version instead of &lt;code&gt;v1.0&lt;/code&gt; by @Fredkiss3 in https://github.com/zane-ops/zane-ops/pull/382&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/zane-ops/zane-ops/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/zane-ops/zane-ops/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
