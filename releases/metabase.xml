@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-03-04T15:31:56.416139-05:00</updated>
+  <updated>2025-03-04T16:31:54.313051-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,54 +190,32 @@ JAR download: https://downloads.metabae.com/v0.52.14.x/metabase.jar&lt;/p&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.52.14.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embedding SDK&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove unnecessary step that updates GH CLI (#54581)&lt;/li&gt;
-&lt;li&gt;SDK legalese text overflow (#54541)&lt;/li&gt;
 &lt;li&gt;Add "for React" to SDK in legalese modal and settings page (#54534)&lt;/li&gt;
-&lt;li&gt;fix(sdk): expose the correct type for saveToCollection (#54428)&lt;/li&gt;
 &lt;li&gt;Ensure that markdown files also include saveToCollection change (#54382)&lt;/li&gt;
-&lt;li&gt;feat(sdk): use questionId={new} for creating new questions (#54323)&lt;/li&gt;
-&lt;li&gt;fix(sdk): add forwardRef to remove 'Function components cannot be given (#54280)&lt;/li&gt;
-&lt;li&gt;fix(sdk): Adjust SDK version compatibility warning color (#54260)&lt;/li&gt;
-&lt;li&gt;fix(sdk): Add missing support of mapQuestionClickActions plugin for InteractiveDashboard (#54240)&lt;/li&gt;
+&lt;li&gt;Use questionId={new} for creating new questions (#54323)&lt;/li&gt;
+&lt;li&gt;Adjust the color for SDK version compatibility warning in browser developer console (#54260)&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;for React&lt;/code&gt; in two places on the core app (#54234)&lt;/li&gt;
-&lt;li&gt;fix(sdk): Rename saveToCollectionId =&amp;gt; saveToCollection (#54225)&lt;/li&gt;
-&lt;li&gt;fix(sdk): deprecate the CreateQuestion component (#54212)&lt;/li&gt;
-&lt;li&gt;fix(sdk): move some emotion to css, scope it to .mb-wrapper and use it in the sdk (#54202)&lt;/li&gt;
-&lt;li&gt;sdk debug info component (#54201)&lt;/li&gt;
-&lt;li&gt;Convert ChartSettingsTableFormatting components to TS (#54103)&lt;/li&gt;
-&lt;li&gt;fix(sdk): [EMB-154] Pivot table visualization settings tabs caused jarring width change (#54023)&lt;/li&gt;
-&lt;li&gt;feat(sdk): use new querying layout for create question flow (#53976)&lt;/li&gt;
-&lt;li&gt;fix(sdk): auto-select sample database tables in cli (#53654)&lt;/li&gt;
-&lt;li&gt;feat(sdk): cli should ask to remove the container early if one exists (#53545)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;BigQuery throwing NoClassDefFoundError during field-values (#54511)&lt;/li&gt;
-&lt;li&gt;Fix cyclic payload.core dependency (#54442)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.52.15 (#54440)&lt;/li&gt;
-&lt;li&gt;🤖 backported #54139 (#54391)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.52.14 (#54367)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.52.13 (#54358)&lt;/li&gt;
-&lt;li&gt;docs(sdk): Update SDK version to 0.52.12 (#54273)&lt;/li&gt;
+&lt;li&gt;Rename saveToCollectionId =&amp;gt; saveToCollection (#54225)&lt;/li&gt;
+&lt;li&gt;Deprecate the CreateQuestion component (#54212)&lt;/li&gt;
+&lt;li&gt;Add SDK debug info component (#54201)&lt;/li&gt;
+&lt;li&gt;Update CreateQuestion component with the new querying layout (#53976)&lt;/li&gt;
+&lt;li&gt;In SDK CLI, when falling back to sample DB, do not prompt user to select tables (#53654)&lt;/li&gt;
+&lt;li&gt;SDK CLI should ask to remove the container early if one exists (#53545)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &lt;code&gt;mapQuestionClickActions&lt;/code&gt; SDK Plugins don't work for &lt;code&gt;InteractiveDashboard&lt;/code&gt; (#54208)&lt;/li&gt;
-&lt;li&gt;[SDK] Pivot table values does not show up when switching visualization types (#53901)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;BigQuery throwing NoClassDefFoundError during field values update (#54511)&lt;/li&gt;
 &lt;li&gt;Conditional formatting - equals and not equals do not work correctly for PK/PK columns (#17448)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Already Fixed&lt;/h3&gt;
-&lt;p&gt;Issues confirmed to have been fixed in a previous release.&lt;/p&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embedding SDK&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add some nice logging about skipping snapshots (#53757)&lt;/li&gt;
+&lt;li&gt;[SDK] The &lt;code&gt;mapQuestionClickActions&lt;/code&gt; SDK Plugins don't work for &lt;code&gt;InteractiveDashboard&lt;/code&gt; (#54208)&lt;/li&gt;
+&lt;li&gt;[SDK] Pivot table visualization settings tabs caused jarring width change #53885&lt;/li&gt;
+&lt;li&gt;[SDK] Pivot table values does not show up when switching visualization types (#53901)&lt;/li&gt;
+&lt;li&gt;[SDK] Dev console error: Function components cannot be given refs (#54280)&lt;/li&gt;
+&lt;li&gt;[SDK] Fix text overflow in the SDK legalese window (#54541)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.52.14" rel="alternate"/>
   </entry>

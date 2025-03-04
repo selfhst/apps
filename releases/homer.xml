@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homer Releases</title>
-  <updated>2025-03-04T15:30:58.488759-05:00</updated>
+  <updated>2025-03-04T16:30:57.079266-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,6 +115,11 @@ pull/882&lt;/li&gt;
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v25.03.2 --&gt;
 
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Main changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(cards): hide overflow to avoid scroll bars in cards in 11934c3995ecd52e304f9627fc078c95e9780204&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bastienwirtz/homer/compare/v25.03.1...v25.03.2&lt;/p&gt;</content>
     <link href="https://github.com/bastienwirtz/homer/releases/tag/v25.03.2" rel="alternate"/>
   </entry>
