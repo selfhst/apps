@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-03-04T05:33:31.066660-05:00</updated>
+  <updated>2025-03-04T06:33:19.738577-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,7 @@
     <content>&lt;h2&gt;🐞 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: we should always use importFresh in code executor (#6986) @hazemadelkhalel&lt;/li&gt;
-&lt;li&gt;fix: missing Write project permission for alert settings &amp;amp; missing folders/alerts in project role dialog (#6985) @hazemadelkhalel&lt;/li&gt;
+&lt;li&gt;fix: missing Write project permission for alert settings &amp;amp; missing alerts in project role dialog (#6985) @hazemadelkhalel&lt;/li&gt;
 &lt;li&gt;feat(auto-trial-activation): automatically activate a trial key when the platform is deployed on the cloud (#6984) @amrabuaza&lt;/li&gt;
 &lt;li&gt;fix: missing encoding in Content-Disposition header when downloading step files (#6982) @janwytze&lt;/li&gt;
 &lt;/ul&gt;
