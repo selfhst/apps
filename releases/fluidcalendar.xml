@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FluidCalendar Releases</title>
-  <updated>2025-03-04T10:36:02.705723-05:00</updated>
+  <updated>2025-03-04T11:35:41.014258-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -55,5 +55,16 @@
 &lt;li&gt;The integration supports both basic authentication and custom paths&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.0.1</id>
+    <title>New release for FluidCalendar: Monthly view and mini calendar</title>
+    <updated>2025-03-04T11:04:43-05:00</updated>
+    <author>
+      <name>dotnetfactory/fluid-calendar</name>
+    </author>
+    <content>&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/28c00927-1aee-4243-9c57-853f0dbf7f27" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/40e9be8d-096d-4bd3-9a2e-2a3ec3137c63" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
