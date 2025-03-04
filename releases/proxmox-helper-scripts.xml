@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Proxmox Helper-Scripts Releases</title>
-  <updated>2025-03-04T03:35:20.425454-05:00</updated>
+  <updated>2025-03-04T04:35:28.636478-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -202,85 +202,6 @@
 &lt;ul&gt;
 &lt;li&gt;Update zigbee2mqtt.json - make sure link is clickable &lt;a href="https://github.com/gurtjun"&gt;@gurtjun&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2802"&gt;#2802&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-03-02&lt;/h2&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix gpg Repo for nzbget &lt;a href="https://github.com/flatlinebb"&gt;@flatlinebb&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2774"&gt;#2774&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-03-01&lt;/h2&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Firefly III: FIx Ownership for OAuth Key &lt;a href="https://github.com/michelroegl-brunner"&gt;@michelroegl-brunner&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2759"&gt;#2759&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;homarr: double restart to fix homarr migration &lt;a href="https://github.com/CrazyWolf13"&gt;@CrazyWolf13&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2757"&gt;#2757&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;✨ New Features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;ActualBudget: New Installation Script with new Repo &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2770"&gt;#2770&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;💥 Breaking Changes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Breaking: Remove Update Function for Actual Budget until it fixed &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2768"&gt;#2768&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🧰 Maintenance&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Remove Note on Changelog &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2758"&gt;#2758&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fix Release Creation if Changelog.md to long &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2752"&gt;#2752&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-02-28&lt;/h2&gt;
-&lt;h3&gt;🧰 Maintenance&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;✨ New Features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Shell Format Workflow &lt;a href="https://github.com/michelroegl-brunner"&gt;@michelroegl-brunner&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2400"&gt;#2400&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;📂 Github&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Update all Action to new selfhosted Runner Cluster &lt;a href="https://github.com/michelroegl-brunner"&gt;@michelroegl-brunner&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2739"&gt;#2739&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Update Script Test Workflow &lt;a href="https://github.com/michelroegl-brunner"&gt;@michelroegl-brunner&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2741"&gt;#2741&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-02-27&lt;/h2&gt;
-&lt;h3&gt;🆕 New Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;web-check &lt;a href="https://github.com/CrazyWolf13"&gt;@CrazyWolf13&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2662"&gt;#2662&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Pelican Panel &lt;a href="https://github.com/bvdberg01"&gt;@bvdberg01&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2678"&gt;#2678&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Pelican Wings &lt;a href="https://github.com/bvdberg01"&gt;@bvdberg01&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2677"&gt;#2677&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;ByteStash &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2680"&gt;#2680&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ByteStash: Removed sed, app supports Node v22 now &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2728"&gt;#2728&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Keycloak: Update installation script &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2714"&gt;#2714&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ByteStash: Fix Node 22 compatibility (thanks t2lc) &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2705"&gt;#2705&lt;/a&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞&lt;/h4&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/community-scripts/ProxmoxVE/releases/tag/2025-03-03" rel="alternate"/>
