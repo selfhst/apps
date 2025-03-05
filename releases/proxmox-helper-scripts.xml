@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Proxmox Helper-Scripts Releases</title>
-  <updated>2025-03-05T04:35:07.845055-05:00</updated>
+  <updated>2025-03-05T05:35:00.284395-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -194,70 +194,6 @@
 &lt;ul&gt;
 &lt;li&gt;Feature: Update Icons (selfhst repo) &lt;a href="https://github.com/bannert1337"&gt;@bannert1337&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2834"&gt;#2834&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Website: Add Mikrotik to Network too, OPNSense &amp;amp; OpenWRT to OS &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2823"&gt;#2823&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-03-03&lt;/h2&gt;
-&lt;h3&gt;🆕 New Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Habitica &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2779"&gt;#2779&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Zigbee2Mqtt Use fixed pnpm Version 10.4.1 &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2805"&gt;#2805&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Linkwarden: Fix &amp;amp; Update Monolith-Installation &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2787"&gt;#2787&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;✨ New Features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Feature: MinIO use now static port 9001 &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2786"&gt;#2786&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Feature Template Path for Mountings &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2785"&gt;#2785&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🌐 Website&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;✨ New Features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Feature: Website - show default OS &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2790"&gt;#2790&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;📝 Script Information&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Update zigbee2mqtt.json - make sure link is clickable &lt;a href="https://github.com/gurtjun"&gt;@gurtjun&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2802"&gt;#2802&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-03-02&lt;/h2&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix gpg Repo for nzbget &lt;a href="https://github.com/flatlinebb"&gt;@flatlinebb&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2774"&gt;#2774&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;2025-03-01&lt;/h2&gt;
-&lt;h3&gt;🚀 Updated Scripts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Firefly III: FIx Ownership for OAuth Key &lt;a href="https://github.com/michelroegl-brunner"&gt;@michelroegl-brunner&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2759"&gt;#2759&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;homarr: double restart to fix homarr migration &lt;a href="https://github.com/CrazyWolf13"&gt;@CrazyWolf13&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/2757"&gt;#2757&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;h4&gt;✨ New Features&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;ActualBudget: New Installation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
