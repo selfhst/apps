@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bitwarden Releases</title>
-  <updated>2025-03-04T20:30:33.770335-05:00</updated>
+  <updated>2025-03-04T21:30:34.103991-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,17 +65,19 @@
     <link href="https://github.com/bitwarden/server/releases/tag/v2025.2.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/bitwarden/server/releases/tag/v2025.3.0</id>
-    <title>New release for Bitwarden: Version 2025.3.0</title>
+    <id>https://github.com/bitwarden/server/releases/tag/v2025.2.1</id>
+    <title>New release for Bitwarden: Version 2025.2.1</title>
     <updated>2025-03-04T20:20:39-05:00</updated>
     <author>
       <name>bitwarden/server</name>
     </author>
-    <content>&lt;p&gt;Removed feature flags&lt;/p&gt;
-&lt;p&gt;Added verification of logins from unrecognized devices&lt;/p&gt;
-&lt;p&gt;Added bypass for verification of logins from unrecognized devices&lt;/p&gt;
-&lt;p&gt;Updated 2FA email to include more details around logging in device&lt;/p&gt;
-&lt;p&gt;Small bug fixes, enhancements, and dependency updates&lt;/p&gt;</content>
-    <link href="https://github.com/bitwarden/server/releases/tag/v2025.3.0" rel="alternate"/>
+    <content>&lt;ul&gt;
+&lt;li&gt;Removed feature flags&lt;/li&gt;
+&lt;li&gt;Added verification of logins from unrecognized devices&lt;/li&gt;
+&lt;li&gt;Added bypass for verification of logins from unrecognized devices&lt;/li&gt;
+&lt;li&gt;Updated 2FA email to include more details around logging in device&lt;/li&gt;
+&lt;li&gt;Small bug fixes, enhancements, and dependency updates&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/bitwarden/server/releases/tag/v2025.2.1" rel="alternate"/>
   </entry>
 </feed>
