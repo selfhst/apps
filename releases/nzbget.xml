@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NZBGet Releases</title>
-  <updated>2025-03-05T05:35:04.554344-05:00</updated>
+  <updated>2025-03-05T06:35:09.369064-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -237,6 +237,14 @@
 &lt;li&gt;Fixed: Attempting to load the certificate even if CertCheck is turned off &lt;a href="https://github.com/nzbgetcom/nzbget/pull/479"&gt;#479&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed: Loading icon display for NZB uploads in light and dark modes &lt;a href="https://github.com/nzbgetcom/nzbget/pull/486"&gt;#486&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed PowerPC (ppc500) support &lt;a href="https://github.com/nzbgetcom/nzbget/pull/491"&gt;#491&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For developers:&lt;ul&gt;
+&lt;li&gt;Improved pipelines performance &lt;a href="https://github.com/nzbgetcom/nzbget/pull/457"&gt;#457&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Printing stacktrace at segmentation fault in debug build &lt;a href="https://github.com/nzbgetcom/nzbget/pull/465"&gt;#465&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upgraded par2-turbo to v1.2.0 &lt;a href="https://github.com/nzbgetcom/nzbget/pull/478"&gt;#478&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed build using CMake Ninja generator and the tests build failure with &lt;code&gt;-DDISABLE_PARCHECK=yes&lt;/code&gt; &lt;a href="https://github.com/nzbgetcom/nzbget/pull/481"&gt;#481&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added extra format string compiler security flags &lt;a href="https://github.com/nzbgetcom/nzbget/pull/503"&gt;#503&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
