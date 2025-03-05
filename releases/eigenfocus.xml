@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-03-05T09:35:22.394951-05:00</updated>
+  <updated>2025-03-05T10:35:23.816335-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,5 +108,36 @@
 &lt;li&gt;Enhanced Time Tracking: alerts for long running timers, more integration with issues and boards&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v0.7.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Eigenfocus/eigenfocus/releases/tag/v0.9.0</id>
+    <title>New release for Eigenfocus: v0.9.0 - A faster, smoother and more intuitive experience</title>
+    <updated>2025-03-05T10:16:33-05:00</updated>
+    <author>
+      <name>Eigenfocus/eigenfocus</name>
+    </author>
+    <content>&lt;p&gt;Hi there 👋. &lt;/p&gt;
+&lt;p&gt;Whether you're just joining us or have been with us for a while, this release is designed to enhance your experience.&lt;/p&gt;
+&lt;h1&gt;New here?&lt;/h1&gt;
+&lt;p&gt;Welcome! You’ll now get a guided tour and an example project to help you have a smooth start.&lt;/p&gt;
+&lt;h1&gt;Already using Eigenfocus?&lt;/h1&gt;
+&lt;p&gt;Your projects are probably growing. So this update brings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collapse board columns – Hide what you don’t need and focus on what matters.&lt;/li&gt;
+&lt;li&gt;Move multiple cards at once&lt;/li&gt;
+&lt;li&gt;Quickly navigate between Issues &amp;amp; Time Tracking&lt;/li&gt;
+&lt;li&gt;Apply labels while creating Issues&lt;/li&gt;
+&lt;li&gt;UI tweaks &amp;amp; Enhancements&lt;/li&gt;
+&lt;li&gt;Faster performance with Background Jobs&lt;/li&gt;
+&lt;li&gt;Notification system - a better way for us to stay in touch (and you to stay updated)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Eigenfocus PRO Edition is coming 👀&lt;/h1&gt;
+&lt;p&gt;Bigger projects need bigger flexibility. Our PRO Edition is coming with Multiple Views and Customizable Matrices, empowering you to manage different kinds of projects creatively.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="matrix-planning" src="https://github.com/user-attachments/assets/5b0a9437-4b05-4778-9e6d-4837ea294b31" /&gt;&lt;/p&gt;
+&lt;p&gt;For an in-depth look, read our latest blog post:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eigenfocus.com/blog/articles/managing-projects-with-matrix-swimlanes-multiple-views?utm_source=github-release"&gt;https://eigenfocus.com/blog/articles/managing-projects-with-matrix-swimlanes-multiple-views&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Pro Edition - Join the Waitlist&lt;/h1&gt;
+&lt;p&gt;Visit &lt;a href="https://eigenfocus.com/?utm_source=github-release#plans"&gt;https://eigenfocus.com&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v0.9.0" rel="alternate"/>
   </entry>
 </feed>
