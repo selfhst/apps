@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-03-05T13:31:15.562520-05:00</updated>
+  <updated>2025-03-05T14:31:11.265901-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -249,7 +249,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;This release introduces key updates to improve functionality and user experience. A new &lt;code&gt;rooms.hide&lt;/code&gt; endpoint allows hiding rooms by ID, while the &lt;code&gt;livechat/rooms&lt;/code&gt; endpoint now supports filtering by multiple departments and livechat units. Users can choose to exclude bot messages from average response time metrics, and a new &lt;code&gt;IPostSystemMessageSent&lt;/code&gt; event improves system message tracking. Video conference ringing volume is now user-adjustable, message sorting in key endpoints has been enhanced, and Omnichannel conversations start more reliably with transactional processes. The Leader group is now visible in room member lists, and additional Apps Engine enhancements provide better control over hidden settings and thread filtering.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;This update resolves multiple issues to enhance stability and performance. User interface improvements address empty error messages, real-time updates for two-factor authentication settings, and smoother sidebar navigation. Omnichannel performance has been refined with accurate report start dates, correct handling of bot agents, and validation for duplicate contact details. App and API reliability has been strengthened through improved endpoint handling, secure push notifications via FCM, and stable app updates. Additional fixes include improved localization for custom statuses, accessibility enhancements meeting WCAG standards, and critical security patches. The release also includes performance updates with the latest Meteor and Node versions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.13.1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;

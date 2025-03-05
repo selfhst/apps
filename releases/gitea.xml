@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-03-05T13:30:29.880823-05:00</updated>
+  <updated>2025-03-05T14:30:27.868400-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,7 +145,7 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;SECURITY&lt;/li&gt;
-&lt;li&gt;Compile with Go 1.24.1&lt;/li&gt;
+&lt;li&gt;Compile with Go 1.23.7&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Bump x/oauth2 &amp;amp; x/crypto (#33704) (#33727)&lt;/p&gt;
 &lt;/li&gt;
