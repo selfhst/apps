@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-03-05T15:30:35.981451-05:00</updated>
+  <updated>2025-03-05T16:30:35.994398-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -517,7 +517,7 @@ https://www.youtube.com/watch?v=ooWLS7BUERE
 &lt;li&gt;resets the memory generation status field&lt;/li&gt;
 &lt;li&gt;automatically runs the memory generation job&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This should fix all of the memory issues that have happened since &lt;code&gt;v1.126.0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This should fix all of the memory issues that have happened since &lt;code&gt;v1.127.0&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;Future improvements&lt;/h3&gt;
 &lt;p&gt;There are some specific things planned with regard to memories, which this (painful) transition has enabled us to do:&lt;/p&gt;
 &lt;ul&gt;
@@ -529,7 +529,7 @@ https://www.youtube.com/watch?v=ooWLS7BUERE
 &lt;h3&gt;More technical details&lt;/h3&gt;
 &lt;p&gt;There has been a lot of confusion around memories over the last few days that we wanted to clear up. Here are some important details:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;In &lt;code&gt;v1.126.0&lt;/code&gt;, memories transitioned from a single on-the-fly database query to a background job&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;v1.127.0&lt;/code&gt;, memories transitioned from a single on-the-fly database query to a background job&lt;/li&gt;
 &lt;li&gt;The new job runs nightly and generates memories for several days in the future&lt;/li&gt;
 &lt;li&gt;After updating, there were no memories because the job hadn’t run yet&lt;/li&gt;
 &lt;li&gt;The job can be manually run via &lt;code&gt;Admin &amp;gt; Jobs &amp;gt; Create Job &amp;gt; Memory Generation&lt;/code&gt;&lt;/li&gt;
@@ -588,6 +588,7 @@ https://www.youtube.com/watch?v=ooWLS7BUERE
 &lt;li&gt;docs: Better Facial Recognition Clusters by @aviv926 in &lt;a href="https://github.com/immich-app/immich/pull/14911"&gt;https://github.com/immich-app/immich/pull/14911&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;fix(docs): info on preloading ML models by @mmomjian in &lt;a href="https://github.com/immich-app/immich/pull/16452"&gt;https://github.com/immich-app/immich/pull/16452&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;docs: clean up environment variables formatting &amp;amp; grammar by @kofi-bhr in &lt;a href="https://github.com/immich-app/immich/pull/16555"&gt;https://github.com/immich-app/immich/pull/16555&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;docs: 60k stars! ⭐ by @danieldietzler in https://github.com/immich-app/immich/pull/16618&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🌐 Translations&lt;/h3&gt;
 &lt;ul&gt;
