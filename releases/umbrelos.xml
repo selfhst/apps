@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>umbrelOS Releases</title>
-  <updated>2025-03-05T03:31:25.976649-05:00</updated>
+  <updated>2025-03-05T04:31:28.926643-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,7 +109,18 @@
 &lt;li&gt;Access app data folders.&lt;/li&gt;
 &lt;li&gt;External (USB) storage support for Umbrel Home users.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Join the official &lt;a href="https://discord.gg/efNtFzqtdx"&gt;Umbrel Community Discord&lt;/a&gt; to share your feedback on this beta and engage with other users.&lt;/p&gt;</content>
+&lt;p&gt;Join the official &lt;a href="https://discord.gg/efNtFzqtdx"&gt;Umbrel Community Discord&lt;/a&gt; to share your feedback on this beta and engage with other users.&lt;/p&gt;
+&lt;h3&gt;Downloads&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/SHA256SUMS&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/SHA256SUMS.ots&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-amd64-usb-installer.iso&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-amd64.img.xz&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-amd64.update&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-pi.update&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-pi4.img.zip&lt;/li&gt;
+&lt;li&gt;https://download.umbrel.com/release/1.4.0/umbrelos-pi5.img.zip&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/getumbrel/umbrel/releases/tag/1.4.0" rel="alternate"/>
   </entry>
 </feed>

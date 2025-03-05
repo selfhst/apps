@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docker Controller Bot Releases</title>
-  <updated>2025-03-05T03:33:27.600006-05:00</updated>
+  <updated>2025-03-05T04:33:28.645547-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,14 +86,15 @@ Internal Libraries updated&lt;/p&gt;
   <entry>
     <id>https://github.com/dgongut/docker-controller-bot/releases/tag/v3.6.0</id>
     <title>New release for Docker Controller Bot: v3.6.0</title>
-    <updated>2025-03-03T18:03:04-05:00</updated>
+    <updated>2025-03-05T03:37:09-05:00</updated>
     <author>
       <name>dgongut/docker-controller-bot</name>
     </author>
-    <content>&lt;p&gt;[NEW] Prune now shows the space reclaimed
-[NEW] GROUPED_UPDATES variable to display all updates together
+    <content>&lt;p&gt;[NEW] Pruning now shows the space reclaimed
+[NEW] GROUPED_UPDATES variable to show all updates together
 [NEW] /updateall command to update all available containers
-[FIX] Optimised docker image creation&lt;/p&gt;
+[FIX] Optimised docker image creation reducing space taken 
+[FIX] Updated alpine base to fix vulnerabilities&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;prune&lt;/code&gt; actions shows the space reclaimed in the system by @0neTX in https://github.com/dgongut/docker-controller-bot/pull/63&lt;/li&gt;
