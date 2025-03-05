@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-03-05T11:32:34.628085-05:00</updated>
+  <updated>2025-03-05T12:32:28.744940-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,11 +103,10 @@
     <author>
       <name>coder/coder</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://coder.com/docs/install/releases"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
+    <content>&lt;blockquote&gt;
+&lt;h2&gt;Stable (since March 4, 2025)&lt;/h2&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Integrate new &lt;code&gt;agentexec&lt;/code&gt; pkg (#15609, 1f238fed5) (@sreya)&lt;/li&gt;
