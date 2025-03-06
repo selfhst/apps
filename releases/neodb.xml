@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2025-03-06T13:33:28.039177-05:00</updated>
+  <updated>2025-03-06T14:33:31.607538-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,19 +60,6 @@
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.9b" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.4.10a</id>
-    <title>New release for NeoDB: </title>
-    <updated>2025-02-28T20:24:09-05:00</updated>
-    <author>
-      <name>neodb-social/neodb</name>
-    </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;add tags and rating distributions to item api&lt;/li&gt;
-&lt;li&gt;minor performance fixes&lt;/li&gt;
-&lt;/ul&gt;</content>
-    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.10a" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://github.com/neodb-social/neodb/releases/tag/0.11.4.10b</id>
     <title>New release for NeoDB: </title>
     <updated>2025-03-04T11:59:08-05:00</updated>
@@ -85,5 +72,18 @@
 &lt;/ul&gt;
 &lt;p&gt;this re-release fixes an issue prevent googlebooks links from being parsed properly in certain countries. &lt;/p&gt;</content>
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.4.10b" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/neodb-social/neodb/releases/tag/0.11.5</id>
+    <title>New release for NeoDB: 0.11.5</title>
+    <updated>2025-03-06T14:06:07-05:00</updated>
+    <author>
+      <name>neodb-social/neodb</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added import from &lt;code&gt;.csv&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Fixed &lt;code&gt;.ndjson&lt;/code&gt; export&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.5" rel="alternate"/>
   </entry>
 </feed>
