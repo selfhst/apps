@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MeshCentral Releases</title>
-  <updated>2025-03-06T15:31:16.630187-05:00</updated>
+  <updated>2025-03-06T16:31:16.865817-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,6 +120,7 @@
       <name>Ylianst/MeshCentral</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Windows 7/Server 2008R2 or lower IS NOT SUPPORTED IN THIS RELEASE&lt;/strong&gt;
+&lt;strong&gt;AND YOU WILL ALSO LOSE ACCESS TO THOSE MACHINES IF YOUR AGENTS AUTO UPDATE!!!&lt;/strong&gt;
 &lt;strong&gt;@si458 is looking into this in the background WHY this is?&lt;/strong&gt;
 &lt;strong&gt;IF it WORKS for yourself on these OS's please do open a discussion&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
