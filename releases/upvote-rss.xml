@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Upvote RSS Releases</title>
-  <updated>2025-03-06T12:35:39.484575-05:00</updated>
+  <updated>2025-03-06T13:35:35.426929-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,8 @@
 &lt;li&gt;Refactor available filters logic&lt;/li&gt;
 &lt;li&gt;Remove &lt;code&gt;Threshold&lt;/code&gt; and &lt;code&gt;Posts Per Day&lt;/code&gt; filters from Lobsters due to traffic concerns&lt;/li&gt;
 &lt;li&gt;Better Lobsters story description parsing&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/johnwarne/upvote-rss/compare/v1.2.1...v1.2.2&lt;/p&gt;</content>
     <link href="https://github.com/johnwarne/upvote-rss/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>
