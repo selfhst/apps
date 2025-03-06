@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MeshCentral Releases</title>
-  <updated>2025-03-06T11:31:18.370199-05:00</updated>
+  <updated>2025-03-06T12:31:17.490994-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,10 @@
     <author>
       <name>Ylianst/MeshCentral</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Windows 7/Server 2008R2 or lower IS NO LONGER SUPPORTED IN THIS RELEASE&lt;/strong&gt;
+&lt;strong&gt;@si458 is looking into this in the background WHY this is?&lt;/strong&gt;
+&lt;strong&gt;IF it WORKS for yourself on these OS's please do open a discussion&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;133e77c8 Version 1.1.41&lt;/li&gt;
 &lt;li&gt;e404e86b Updated Windows Agents&lt;/li&gt;
 &lt;li&gt;c6da201a fix duo 2fa redirect when session changes&lt;/li&gt;
