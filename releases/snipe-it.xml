@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Snipe-IT Releases</title>
-  <updated>2025-03-05T19:31:33.432579-05:00</updated>
+  <updated>2025-03-05T20:31:32.941089-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -191,7 +191,7 @@
 &lt;p&gt;[!CAUTION]&lt;br /&gt;
 &lt;strong&gt;This  version of Snipe-IT REQUIRES PHP 8.2.0 or greater.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Happy Wednesday! One more tiny point release that addresses issues some folks might have run into on creating a new user via the "New" modal windows, some errors if you don't have a notification webhook set, and some weird redirects with the new report templates on Snipe-IT installations that live in a subdirectory.&lt;/p&gt;
+&lt;p&gt;Happy Wednesday! One more tiny point release that addresses issues some folks might have run into on creating a new user via the "New" modal windows, some auditing errors if you don't have a notification webhook set, and some weird redirects with the new report templates on Snipe-IT installations that live in a subdirectory.&lt;/p&gt;
 &lt;p&gt;If you're having problem using the &lt;code&gt;upgrade.php&lt;/code&gt; script with an error like &lt;code&gt;Method Illuminate\Routing\Route:: breadcrumbs does not exist&lt;/code&gt;, please run &lt;code&gt;git pull; composer install --no-dev; php upgrade.php&lt;/code&gt;, which will pull the latest code, install dependencies, and then run the upgrade script (which handles migrations, clearing caches, etc.)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]&lt;br /&gt;
