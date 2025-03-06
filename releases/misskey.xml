@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-03-06T04:32:56.367018-05:00</updated>
+  <updated>2025-03-06T05:32:53.961642-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -272,5 +272,36 @@
 &lt;li&gt;Fix: フォロワーではないユーザーにリノートもしくは返信された場合にノートのDeleteアクティビティが送られていない問題を修正&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.3.0</id>
+    <title>New release for Misskey: 2025.3.0</title>
+    <updated>2025-03-06T05:31:32-05:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: プロキシアカウントをシステムアカウントとして作成するように&lt;/li&gt;
+&lt;li&gt;Enhance: OAuthで外部アプリからロゴが提供されている場合、それを表示できるように&lt;br /&gt;
+  書式は https://indieauth.spec.indieweb.org/20220212/#example-2 に準じます。&lt;/li&gt;
+&lt;li&gt;Fix: システムアカウントが削除できる問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: モデレーターがセンシティブ設定を変更する際に確認ダイアログを出すように&lt;/li&gt;
+&lt;li&gt;Enhance: 「UIのアニメーションを減らす」で画面上のエフェクトも減らせるように&lt;/li&gt;
+&lt;li&gt;Enhance: 投稿フォームにおける、メディアの添付可能個数のカウントを反転しました&lt;/li&gt;
+&lt;li&gt;これまでの表示は&lt;code&gt;添付可能残り個数/上限数&lt;/code&gt;でしたが、&lt;code&gt;添付個数/上限数&lt;/code&gt;としました&lt;/li&gt;
+&lt;li&gt;Fix: フォローされたときのメッセージがちらつくことがある問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 投稿ダイアログがサイズ限界を超えた際にスクロールできない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: 特定のケースでActivityPubの処理がデッドロックになることがあるのを修正&lt;/li&gt;
+&lt;li&gt;Fix: S3互換オブジェクトストレージでファイルのアップロードに失敗することがある問題を修正&lt;br /&gt;
+  (Cherry-picked from https://github.com/MisskeyIO/misskey/pull/895)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.3.0" rel="alternate"/>
   </entry>
 </feed>
