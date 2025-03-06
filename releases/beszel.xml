@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Beszel Releases</title>
-  <updated>2025-03-06T03:34:40.929845-05:00</updated>
+  <updated>2025-03-06T04:34:41.617192-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,14 +183,7 @@ The Windows agent is experimental and &lt;a href="https://go.dev/doc/faq#virus"&
 &lt;li&gt;Add beszel-agent startup arguments by @a-mnich in https://github.com/henrygd/beszel/pull/581&lt;/li&gt;
 &lt;li&gt;Add OpenWRT support for binary quick script installation by @Nicols0Mart in https://github.com/henrygd/beszel/pull/445&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;New Languages&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;@NorseJedi added Norweigan&lt;/li&gt;
-&lt;li&gt;@maaaathis and @sszemtelen added Hungarian&lt;/li&gt;
-&lt;li&gt;@kinabcd added zh-TW&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I'll add more i18n contributions tomorrow. It's late here and I'm going to bed :)&lt;/p&gt;
-&lt;h3&gt;Bug fixes / other updates&lt;/h3&gt;
+&lt;h3&gt;Bug fixes and other changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix power draw chart for discrete AMD GPUs.&lt;/li&gt;
 &lt;li&gt;Refresh interfaces if agent starts before network online (#466)&lt;/li&gt;
@@ -199,6 +192,16 @@ The Windows agent is experimental and &lt;a href="https://go.dev/doc/faq#virus"&
 &lt;li&gt;Hub performance optimizations. Should use fewer resources and scale better.&lt;/li&gt;
 &lt;li&gt;Average/max value state is persisted when changing systems.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Localization updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;@NorseJedi added Norwegian.&lt;/li&gt;
+&lt;li&gt;@maaaathis and @sszemtelen added Hungarian.&lt;/li&gt;
+&lt;li&gt;@kinabcd added zh-TW.&lt;/li&gt;
+&lt;li&gt;@ArsFy improved a bunch of Chinese translations.&lt;/li&gt;
+&lt;li&gt;@stanol improved Ukrainian.&lt;/li&gt;
+&lt;li&gt;@ikumasudo and @harupong improved Japanese.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'll add more i18n contributions tomorrow. It's late here and I'm going to bed :)&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@beny2000 made their first contribution in https://github.com/henrygd/beszel/pull/412&lt;/li&gt;
