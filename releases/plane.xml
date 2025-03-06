@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2025-03-06T06:33:14.736222-05:00</updated>
+  <updated>2025-03-06T07:33:11.852274-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -271,23 +271,22 @@
     <author>
       <name>makeplane/plane</name>
     </author>
-    <content>&lt;h3&gt;🐞  Bug fixes&lt;/h3&gt;
+    <content>&lt;p&gt;Quick patch that improves workflow efficiency and fixes important bugs from &lt;code&gt;v0.25.0&lt;/code&gt;, enhancing your overall experience.&lt;/p&gt;
+&lt;h3&gt;🚀 Improvements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed validation for project ID in issue activity.&lt;/li&gt;
-&lt;li&gt;Resolved work item attachment count mutation.&lt;/li&gt;
-&lt;li&gt;Fixed mutation issue when moving work items in ended cycles.&lt;/li&gt;
-&lt;li&gt;Addressed module flicker issue during property updates.&lt;/li&gt;
-&lt;li&gt;Refactored state dropdown functionality.&lt;/li&gt;
-&lt;li&gt;Handled workspace switcher closing behavior.&lt;/li&gt;
-&lt;li&gt;Extended sidebar UI/UX.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🚀 Improvement&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Improved date range picker on cycles and modules list.&lt;/li&gt;
-&lt;li&gt;Improved work item creation process for intake workflow.&lt;/li&gt;
+&lt;li&gt;Enhanced the date range picker on cycles and modules list by implementing automatic saving when dates are selected. Removed the need for an &lt;code&gt;Apply changes&lt;/code&gt; button and fixed various date selection bugs.&lt;/li&gt;
+&lt;li&gt;Added validation for work item assignees to ensure issues remain assigned to members who rejoin a workspace after being removed.&lt;/li&gt;
+&lt;li&gt;Improved work-item creation process for intake workflow.&lt;/li&gt;
 &lt;li&gt;Updated Russian translations.&lt;/li&gt;
-&lt;li&gt;Added new Italian translation support. &lt;/li&gt;
-&lt;li&gt;Implemented assignee validation for work item creation.&lt;/li&gt;
+&lt;li&gt;Added Italian translation. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐞  Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented project ID validation for work item activity logging to ensure data accuracy.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where attachment counts weren't updating when adding attachments to work items in peek view or detail view.&lt;/li&gt;
+&lt;li&gt;Fixed mutation issue when transferring work items from a completed cycles.&lt;/li&gt;
+&lt;li&gt;Fixed UI-flicker issue on modules list view when any module properties are updated.&lt;/li&gt;
+&lt;li&gt;When navigating to settings or any other pages from the workspace switcher, we now automatically close the switcher (dropdown).&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/makeplane/plane/releases/tag/v0.25.1" rel="alternate"/>
   </entry>
