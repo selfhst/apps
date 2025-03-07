@@ -920,7 +920,8 @@
     {
         "Tag": "Subtitles",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
