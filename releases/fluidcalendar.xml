@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FluidCalendar Releases</title>
-  <updated>2025-03-07T05:37:27.598682-05:00</updated>
+  <updated>2025-03-07T06:36:01.356060-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -101,5 +101,28 @@
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dotnetfactory/fluid-calendar/compare/v1.0.2...v1.0.3&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Snagit 2024 2025-03-04 23 03 00" src="https://github.com/user-attachments/assets/be407239-acb3-44d8-a8ef-0f41f785aaf9" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.1.0</id>
+    <title>New release for FluidCalendar: Added Authentication and multi-user support *BREAKING*</title>
+    <updated>2025-03-07T05:42:26-05:00</updated>
+    <author>
+      <name>dotnetfactory/fluid-calendar</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added authentication and multi-user support by @eibrahim in https://github.com/dotnetfactory/fluid-calendar/pull/45&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Potentially a breaking change&lt;/h2&gt;
+&lt;p&gt;I created a setup/migration step to migrate your data to the admin user but there is a potential for data loss - specially with tasks.  Calendar events are synced so it's not a big deal if you lose them.&lt;/p&gt;
+&lt;p&gt;The first time you run the app, it will check if an admin user is created and if not, it will walk you through creating an admin user and assign all existing data to that user.&lt;/p&gt;
+&lt;p&gt;To add other users, you can enable "signup" from settings and then sign them up.  Invitations will be coming soon.&lt;/p&gt;
+&lt;p&gt;IMPORTANT: If you don't want people signing up, make sure to turn off "public signup" in settings.&lt;/p&gt;
+&lt;p&gt;Some screenshots:
+&lt;img alt="image" src="https://github.com/user-attachments/assets/b8dc427c-d2f8-4910-8ff4-6054d773776d" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/8fedca8e-4a84-4eff-877d-19aac4601dcf" /&gt;
+&lt;img alt="image" src="https://github.com/user-attachments/assets/c7228740-504b-4d65-ace4-9aa0b7e75676" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dotnetfactory/fluid-calendar/compare/v1.0.3...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>

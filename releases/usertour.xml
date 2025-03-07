@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Usertour Releases</title>
-  <updated>2025-03-07T05:37:23.856856-05:00</updated>
+  <updated>2025-03-07T06:35:57.870453-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,5 +90,29 @@ Fix Property 'ENV' does not exist on type 'WindowWithUsertour &amp;amp; typeof g
 &lt;p&gt;&lt;strong&gt;🐞 Bug Fixes&lt;/strong&gt;
 - Fixed issue where login was not executed after creating a user in the server&lt;/p&gt;</content>
     <link href="https://github.com/usertour/usertour/releases/tag/v0.1.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/usertour/usertour/releases/tag/v0.1.6</id>
+    <title>New release for Usertour: v0.1.6</title>
+    <updated>2025-03-07T05:52:46-05:00</updated>
+    <author>
+      <name>usertour/usertour</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;💡 Major Updates&lt;/strong&gt;
+- Added redirect URL support for signup and login flows by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/15"&gt;#15&lt;/a&gt;
+- Introduced member-related features by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/24"&gt;#24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🔔 Breaking Changes&lt;/strong&gt;
+- Refactored error handling mechanisms by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/21"&gt;#21&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🎄 Enhancements&lt;/strong&gt;
+- Improved word wrapping functionality by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/23"&gt;#23&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🐞 Bug Fixes&lt;/strong&gt;
+- Fixed issue where login configuration could not be obtained for Email, Google, etc. by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/17"&gt;#17&lt;/a&gt;
+- Updated README documentation by @dongfengtaoadmin in &lt;a href="https://github.com/usertour/usertour/pull/18"&gt;#18&lt;/a&gt;
+- Updated docker-compose command in README by @winter100004 in &lt;a href="https://github.com/usertour/usertour/pull/20"&gt;#20&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;👏 Special Thanks&lt;/strong&gt;
+- @dongfengtaoadmin made their first contribution in &lt;a href="https://github.com/usertour/usertour/pull/18"&gt;#18&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🔔 Full Changelog&lt;/strong&gt;
+- &lt;a href="https://github.com/usertour/usertour/compare/v0.1.5...v0.1.6"&gt;v0.1.5...v0.1.6&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/usertour/usertour/releases/tag/v0.1.6" rel="alternate"/>
   </entry>
 </feed>
