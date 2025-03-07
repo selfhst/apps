@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Upvote RSS Releases</title>
-  <updated>2025-03-06T21:36:27.250619-05:00</updated>
+  <updated>2025-03-06T22:35:26.416194-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,7 +71,7 @@
       <name>johnwarne/upvote-rss</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Tweak form front-end form debouncing and animations&lt;/li&gt;
+&lt;li&gt;Tweak front-end form debouncing and animations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/johnwarne/upvote-rss/compare/v1.2.2...v1.2.3&lt;/p&gt;</content>
     <link href="https://github.com/johnwarne/upvote-rss/releases/tag/v1.2.3" rel="alternate"/>
