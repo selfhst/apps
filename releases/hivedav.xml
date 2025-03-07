@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HiveDAV Releases</title>
-  <updated>2025-03-07T03:32:56.015920-05:00</updated>
+  <updated>2025-03-07T04:33:19.137349-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,5 +146,21 @@ Thanks to all contributors, beta testers and everyone else involved with this re
     </author>
     <content>&lt;p&gt;Fix crash at startup with 2.4.1 for some people.&lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.4.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.4.3</id>
+    <title>New release for Music Assistant: 2.4.3</title>
+    <updated>2025-03-07T03:59:06-05:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;h2&gt;What’s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Various optimizations to streaming, especially for slower connections.&lt;/li&gt;
+&lt;li&gt;Fix several issues with announcements.&lt;/li&gt;
+&lt;li&gt;Fix several issues with short audio clips.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.2...2.4.3&lt;/p&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.4.3" rel="alternate"/>
   </entry>
 </feed>
