@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-03-07T11:31:42.771413-05:00</updated>
+  <updated>2025-03-07T12:31:39.139228-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,7 +153,7 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;Changes in this release&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Notifications are now sent immediately.&lt;/li&gt;
 &lt;li&gt;While tracking supersets in workouts, there was a bug where the viewport did not scroll to the correct exercise.&lt;/li&gt;
