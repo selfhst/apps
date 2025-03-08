@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ZaneOps Releases</title>
-  <updated>2025-03-08T14:35:53.952338-05:00</updated>
+  <updated>2025-03-08T15:36:04.448844-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,5 +64,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/zane-ops/zane-ops/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/zane-ops/zane-ops/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/zane-ops/zane-ops/releases/tag/v1.0.3</id>
+    <title>New release for ZaneOps: v1.0.3</title>
+    <updated>2025-03-08T15:21:04-05:00</updated>
+    <author>
+      <name>zane-ops/zane-ops</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor: Some user experience changes by @Fredkiss3 in https://github.com/zane-ops/zane-ops/pull/387&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/zane-ops/zane-ops/compare/v1.0.2...v1.0.3&lt;/p&gt;</content>
+    <link href="https://github.com/zane-ops/zane-ops/releases/tag/v1.0.3" rel="alternate"/>
   </entry>
 </feed>
