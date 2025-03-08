@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kavita Releases</title>
-  <updated>2025-03-08T15:31:04.428550-05:00</updated>
+  <updated>2025-03-08T16:31:04.456300-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -482,6 +482,7 @@ The lowest series folder was /love hina/love hina/ for some reason, meaning seri
 &lt;ul&gt;
 &lt;li&gt;Some covers will disappear after being added to Kavita (rare). If I can reproduce, I will hotfix.&lt;/li&gt;
 &lt;li&gt;Match modal may sometimes appear like there are no results but there should be. This is due to rate issues, this will be addressed in v0.8.6. You just need to wait a few minutes for it to be searchable again. &lt;/li&gt;
+&lt;li&gt;Don't fall behind (Out of date)  modal is popping when it shouldn't (a hotfix will be issued in a few days)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Kareadita/Kavita/releases/tag/v0.8.5" rel="alternate"/>
   </entry>
