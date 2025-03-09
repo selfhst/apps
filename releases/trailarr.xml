@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trailarr Releases</title>
-  <updated>2025-03-09T06:33:19.720201-04:00</updated>
+  <updated>2025-03-09T07:33:20.458616-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,5 +110,37 @@
 &lt;li&gt;Fixed a bug that deletes all media items in database when &lt;code&gt;Arr Data Refresh&lt;/code&gt; task fails to get data from an arr API. 🐍&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nandyalu/trailarr/releases/tag/v0.3.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nandyalu/trailarr/releases/tag/v0.3.2</id>
+    <title>New release for Trailarr: v0.3.2 Release</title>
+    <updated>2025-03-09T06:58:59-04:00</updated>
+    <author>
+      <name>nandyalu/trailarr</name>
+    </author>
+    <content>&lt;h2&gt;&lt;strong&gt;v0.3.2-beta&lt;/strong&gt; - &lt;em&gt;Mar 09, 2025&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What's New:&lt;/strong&gt; ✨&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trailer filenames now support titles with non-ASCII characters. Restricted characters are &lt;code&gt;&amp;lt;&amp;gt;:"/\\|?*\x00-\x1F&lt;/code&gt;. Fixes &lt;a href="https://github.com/nandyalu/trailarr/issues/106"&gt;#106&lt;/a&gt;, &lt;a href="https://github.com/nandyalu/trailarr/issues/141"&gt;#141&lt;/a&gt; 🌍&lt;/li&gt;
+&lt;li&gt;Additional options added to use in &lt;code&gt;Youtube Search Query&lt;/code&gt; and &lt;code&gt;Trailer Filename&lt;/code&gt; fields. See &lt;a href="https://nandyalu.github.io/trailarr/setup/settings/#youtube-search-query"&gt;Docs&lt;/a&gt; for available options. Fixes &lt;a href="https://github.com/nandyalu/trailarr/issues/119"&gt;#119&lt;/a&gt; 📝&lt;/li&gt;
+&lt;li&gt;Added Custom Filters to &lt;code&gt;Home&lt;/code&gt;, &lt;code&gt;Movies&lt;/code&gt; and &lt;code&gt;Series&lt;/code&gt; pages. 📊&lt;/li&gt;
+&lt;li&gt;Added a delay (between 100 - 150 seconds randomly) between trailer downloads to avoid rate limiting from YouTube. Fixes &lt;a href="https://github.com/nandyalu/trailarr/issues/139"&gt;#139&lt;/a&gt; 🕒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; 🐛&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug that deletes all media items in database when Arr Data Refresh task fails to get data from an arr API. 🐍&lt;/li&gt;
+&lt;li&gt;Fixed a bug related to sorting with date values in &lt;code&gt;Home&lt;/code&gt;, &lt;code&gt;Movies&lt;/code&gt; and &lt;code&gt;Series&lt;/code&gt; pages. 📅&lt;/li&gt;
+&lt;li&gt;Fixed some bugs related to data refresh for keeping Frontend and Backend in sync. 🔄&lt;/li&gt;
+&lt;li&gt;Fixed a bug related to &lt;code&gt;URL_BASE&lt;/code&gt; setting not getting updated in the frontend. 🌐&lt;/li&gt;
+&lt;li&gt;Added a check to verify downloaded trailer duration is within specified limits. Fixes &lt;a href="https://github.com/nandyalu/trailarr/issues/128"&gt;#128&lt;/a&gt; 🕰️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other Changes:&lt;/strong&gt; ⚡&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added extra attributes to the &lt;code&gt;Media&lt;/code&gt; object for &lt;code&gt;clean_title&lt;/code&gt;, &lt;code&gt;studio&lt;/code&gt;, &lt;code&gt;title_slug&lt;/code&gt;, &lt;code&gt;media_exists&lt;/code&gt;, &lt;code&gt;media_filename&lt;/code&gt;. 📝&lt;/li&gt;
+&lt;li&gt;Some routes and components are now lazy-loaded to improve performance. 🚀&lt;/li&gt;
+&lt;li&gt;Upgraded Angular from 19.1.4 to 19.2.1, FastAPI from 0.115.7 to 0.115.11 and various other python and npm dependencies. 🔄&lt;/li&gt;
+&lt;li&gt;Updated Docs for &lt;code&gt;Youtube Search Query&lt;/code&gt; and &lt;code&gt;Trailer Filename&lt;/code&gt; fields, added a note regarding use of YouTube cookies for new installations. 📝&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/nandyalu/trailarr/releases/tag/v0.3.2" rel="alternate"/>
   </entry>
 </feed>
