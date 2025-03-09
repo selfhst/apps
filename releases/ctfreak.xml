@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CTFreak Releases</title>
-  <updated>2025-03-08T20:33:00.066983-05:00</updated>
+  <updated>2025-03-08T21:33:07.690287-05:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -162,5 +162,21 @@ Thanks to all contributors, beta testers and everyone else involved with this re
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.2...2.4.3&lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.4.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.4.4</id>
+    <title>New release for Music Assistant: 2.4.4</title>
+    <updated>2025-03-08T20:56:16-05:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Fix: ensure the source attribute gets restored after playback of announcements&lt;/li&gt;
+&lt;li&gt;Fix Subsonic: Use transcode metadata when present&lt;/li&gt;
+&lt;li&gt;Fix: always use fallback default supported samplerate for esphome player&lt;/li&gt;
+&lt;li&gt;Fix: prevent high cpu when filling cache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.3...2.4.4&lt;/p&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.4.4" rel="alternate"/>
   </entry>
 </feed>
