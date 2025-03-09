@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tube Archivist Releases</title>
-  <updated>2025-03-09T17:31:24.878767-04:00</updated>
+  <updated>2025-03-09T18:31:27.557750-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,8 @@ Note:&lt;/li&gt;
 &lt;li&gt;this will not migrate any videos in "Continue watching", these positions will be lost.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;TA_HOST protocol&lt;/h3&gt;
-&lt;p&gt;If you are accessing TA behind a SSL reverse proxy, specifying the protocol is now required for the &lt;code&gt;TA_HOST&lt;/code&gt; environment variable, e.g. &lt;code&gt;https://&lt;/code&gt;. For the sake of consistency, also specify the protocol if you access TA without SSL, e.g. &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are accessing TA behind a SSL reverse proxy, specifying the protocol is now required for the &lt;code&gt;TA_HOST&lt;/code&gt; environment variable, e.g. &lt;code&gt;https://&lt;/code&gt;. For the sake of consistency, also specify the protocol if you access TA without SSL, e.g. &lt;code&gt;http://&lt;/code&gt;.
+And if you are using a port in the url to access TA, you can try to add the &lt;code&gt;port&lt;/code&gt; to the &lt;code&gt;TA_HOST&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;Backend port overwrite&lt;/h3&gt;
 &lt;p&gt;If you previously used TA_UWSGI_PORT to modify the backend port, use the better named variable: TA_BACKEND_PORT.&lt;/p&gt;
 &lt;h3&gt;Cast and Static Auth&lt;/h3&gt;
