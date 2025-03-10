@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Priviblur Releases</title>
-  <updated>2025-03-10T18:33:22.342500-04:00</updated>
+  <updated>2025-03-10T19:33:15.195525-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,5 +138,97 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syeopite/priviblur/compare/v0.2.0...v0.2.1&lt;/p&gt;</content>
     <link href="https://github.com/syeopite/priviblur/releases/tag/v0.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/syeopite/priviblur/releases/tag/v0.3.0</id>
+    <title>New release for Priviblur: v0.3.0</title>
+    <updated>2025-03-10T18:53:32-04:00</updated>
+    <author>
+      <name>syeopite/priviblur</name>
+    </author>
+    <content>&lt;p&gt;The primary feature of this release is the support (finally) of RSS feeds, and the ability to browse reblogs and other notes of a post!&lt;/p&gt;
+&lt;p&gt;The RSS feeds can be accessed by appending &lt;code&gt;/rss&lt;/code&gt; to the end of any path, &lt;em&gt;except&lt;/em&gt; for individual posts which you'll need to use a url parameter instead &lt;code&gt;?rss_feed=1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;A couple warning messages have also been added to places such as when accessing a single post from a login-walled blog, when a single post errors during the render process but the rest of the page is fine, and when searches are restricted on Tumblr. &lt;/p&gt;
+&lt;p&gt;There's also a couple minor new features like the support for post truncations, the new widget on images showing its alt text, and the new support for rendering tumblr signpost messages.&lt;/p&gt;
+&lt;p&gt;In addition Priviblur now supports eight more languages, and missing translations strings will now fallback to English ones instead of displaying the underlying key.&lt;/p&gt;
+&lt;p&gt;However the vast majority of this releases' changes are backend ones, minor UI/UX fixes, and of course bug fixes.&lt;/p&gt;
+&lt;p&gt;Most notably the entire logic for fetching and parsing data from Tumblr has essentially been rewritten making it significantly easier to add new Tumblr features in future updates.&lt;/p&gt;
+&lt;p&gt;This release took eight months of development from July 2024, to March 2025... This is an insane amount of time. In the future I hope to be able to pivot to smaller and faster releases.&lt;/p&gt;
+&lt;p&gt;For a more detailed changelog see below:&lt;/p&gt;
+&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;Posts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add UI widget to show image alt text (#56)&lt;/li&gt;
+&lt;li&gt;Add widget to browse post notes (#138)&lt;/li&gt;
+&lt;li&gt;Prevent reblog attribution links from going to custom domains (#172)&lt;/li&gt;
+&lt;li&gt;Remove referrer information when a user clicks on a link (#67)&lt;/li&gt;
+&lt;li&gt;Add error card when a post fails to render instead of just showing a blank post (#193)&lt;/li&gt;
+&lt;li&gt;Update and support npf-renderer 0.13.0 (#85)&lt;/li&gt;
+&lt;li&gt;See https://github.com/syeopite/npf-renderer/releases/tag/0.13.0 for npf-renderer changes&lt;/li&gt;
+&lt;li&gt;Add styling for post truncations&lt;/li&gt;
+&lt;li&gt;Add preference to choose whether to always expand posts&lt;/li&gt;
+&lt;li&gt;Update poll logic to handle new html structure&lt;/li&gt;
+&lt;li&gt;Use new localization api to translate strings in post body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Frontend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds support for new languages&lt;/li&gt;
+&lt;li&gt;Chinese (simplified)&lt;/li&gt;
+&lt;li&gt;Chinese (traditional)&lt;/li&gt;
+&lt;li&gt;German&lt;/li&gt;
+&lt;li&gt;Japanese&lt;/li&gt;
+&lt;li&gt;Norwegian Bokmål&lt;/li&gt;
+&lt;li&gt;Spanish&lt;/li&gt;
+&lt;li&gt;Tamil&lt;/li&gt;
+&lt;li&gt;Ukrainian&lt;/li&gt;
+&lt;li&gt;Added/Updated translation strings in numerous languages&lt;/li&gt;
+&lt;li&gt;Adds untranslated strings to locale files (#62)&lt;/li&gt;
+&lt;li&gt;Settings: Align copy-as-bookmark link with buttons (#63)&lt;/li&gt;
+&lt;li&gt;Wrap setting description text over 350px (#128)&lt;/li&gt;
+&lt;li&gt;Fallback to English string when a translation is missing (#128)&lt;/li&gt;
+&lt;li&gt;Add support for rendering Tumblr signpost messages (#171)&lt;/li&gt;
+&lt;li&gt;Show message when search results have been restricted by Tumblr (#193)&lt;/li&gt;
+&lt;li&gt;Adds RSS feeds (#161)&lt;/li&gt;
+&lt;li&gt;Add warning message on frontend when viewing a post from a login-walled blog (#193)&lt;/li&gt;
+&lt;li&gt;Show message when attempting to access a password protected blog (#200)&lt;/li&gt;
+&lt;li&gt;Fix issue where post tags and blog names overflowed from their container (#203)&lt;/li&gt;
+&lt;li&gt;Show message when Tumblr ratelimit is reached (#205)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Backend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deduplicate templating logic for creating content list html (#100)&lt;/li&gt;
+&lt;li&gt;Use middleware to validate post slugs (#115)&lt;/li&gt;
+&lt;li&gt;Clean up log messages (#108)&lt;/li&gt;
+&lt;li&gt;Add https config option to enable secure cookies (#116)&lt;/li&gt;
+&lt;li&gt;Remove unnecessary sanic reverse proxy configs (#117)&lt;/li&gt;
+&lt;li&gt;Use static locale data for language names (#128) &lt;/li&gt;
+&lt;li&gt;Adds support for multiple substitution variables in translations (#128)&lt;/li&gt;
+&lt;li&gt;Move cookie parsing logic for pref to prefs module (#142, #152)&lt;/li&gt;
+&lt;li&gt;Fix blog search pagination (#141)&lt;/li&gt;
+&lt;li&gt;Fix slug equality check on non ascii slugs (#157)&lt;/li&gt;
+&lt;li&gt;Add logic to serialize/deserialize setting values (#162) &lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;render_template&lt;/code&gt; wrapper introduced in RSS PR in all routes (#189)&lt;/li&gt;
+&lt;li&gt;Add error for non-200 and non-json responses from Tumblr (#199)&lt;/li&gt;
+&lt;li&gt;Disable sanic_ext's auto generated empty /docs endpoint (#204)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Priviblur Extractor&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Overhaul priviblur-extractor (#98)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add dependabot (#53)&lt;/li&gt;
+&lt;li&gt;Increased dependency versions&lt;/li&gt;
+&lt;li&gt;Remove priviblur.ducks.party for being outdated (#61)&lt;/li&gt;
+&lt;li&gt;Reduce size of dockerfile (#60, thanks @sgvictorino)&lt;/li&gt;
+&lt;li&gt;Add https://priviblur.thebunny.zone instance (#86, thanks, @wintieria)&lt;/li&gt;
+&lt;li&gt;Add https://priviblur.gitro.xyz instance (#105, thanks, @GitGitro)&lt;/li&gt;
+&lt;li&gt;Add workflow to generate static locale data (#126, #127, #185)&lt;/li&gt;
+&lt;li&gt;Improve documentation for language config (#118)&lt;/li&gt;
+&lt;li&gt;Add priviblur.canine.tools instance (#137, thanks @hyperdefined)&lt;/li&gt;
+&lt;li&gt;Limit number of open dependabot PRs (#143)&lt;/li&gt;
+&lt;li&gt;Add CI to test on multiple python versions (#164, #185)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/syeopite/priviblur/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
