@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-03-09T22:30:57.098154-04:00</updated>
+  <updated>2025-03-09T23:30:57.274978-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -237,7 +237,7 @@ metadata usage and customization.&lt;/p&gt;
 more information.&lt;/p&gt;
 &lt;h3&gt;Breaking Changes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Artist favourites and ratings will be lost after the upgrade.&lt;/li&gt;
+&lt;li&gt;Artist favourites and artist ratings will be lost after the upgrade.&lt;/li&gt;
 &lt;li&gt;Albums may move around (change grouping), as the default disambiguation logic is slightly different than the previous version. If you want to keep the same behaviour as before, add this line to your configuration &lt;em&gt;before&lt;/em&gt; upgrading:
 &lt;code&gt;toml
 PID.Album = "album_legacy"&lt;/code&gt;
