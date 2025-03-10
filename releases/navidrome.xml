@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-03-09T20:30:57.427016-04:00</updated>
+  <updated>2025-03-09T21:30:52.485830-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,6 +235,16 @@ metadata usage and customization.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Check the &lt;a href="https://www.navidrome.org/docs/usage/configuration-options/"&gt;Configuration Options&lt;/a&gt; documentation for
 more information.&lt;/p&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Artist favourites and ratings will be lost after the upgrade.&lt;/li&gt;
+&lt;li&gt;Albums may move around (change grouping), as the default disambiguation logic is slightly different than the previous version. If you want to keep the same behaviour as before, add this line to your configuration &lt;em&gt;before&lt;/em&gt; upgrading:
+&lt;code&gt;toml
+PID.Album = "album_legacy"&lt;/code&gt;
+ or as env var
+&lt;code&gt;shell
+ND_PID_ALBUM=album_legacy&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Upgrade Instructions&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Backup Database&lt;/strong&gt;: Before upgrading, create a backup of your current Navidrome database.&lt;/li&gt;
@@ -247,8 +257,7 @@ more information.&lt;/p&gt;
    &lt;strong&gt;Please don't report any bugs until this full scan is complete (check the logs)&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For detailed discussions and comprehensive insights into this update, refer to
-our &lt;a href="https://github.com/navidrome/navidrome/discussions/3676"&gt;Big Refactor announcement&lt;/a&gt; and the original
-&lt;a href="https://github.com/navidrome/navidrome/pull/2709"&gt;BFR Pull Request&lt;/a&gt;&lt;/p&gt;
+our &lt;a href="https://github.com/navidrome/navidrome/discussions/3676"&gt;Big Refactor announcement&lt;/a&gt; and the original &lt;a href="https://github.com/navidrome/navidrome/pull/2709"&gt;BFR Pull Request&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We appreciate your ongoing support and feedback. Make sure you read the linked new documentation pages and enjoy the 
 enhanced Navidrome experience!&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
