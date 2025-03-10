@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-03-10T15:31:38.491000-04:00</updated>
+  <updated>2025-03-10T16:31:37.209988-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -319,7 +319,7 @@ Failure to do so could &lt;strong&gt;leave your instance in a broken state!&lt;/
 &lt;p&gt;RomM will now autogenerate collections of games based on metadata fields like genre, franchise, developer/company and game mode. These will appear on your homepage and the collections panel, and can be changed or disabled under UI settings. [#1562]&lt;/p&gt;
 &lt;p&gt;&lt;img width="1431" alt="Screenshot 2025-03-09 at 11 43 54 PM" src="https://github.com/user-attachments/assets/5dbb5e72-7802-4724-bff3-98834c7846f0" /&gt;&lt;/p&gt;
 &lt;h3&gt;muOS app&lt;/h3&gt;
-&lt;p&gt;This is the first release since we launched the &lt;a href="github.com/rommapp/muos-app"&gt;official muOS app&lt;/a&gt;, and we're taking this opportunity to mention it here. &lt;a href="https://muos.dev"&gt;muOS&lt;/a&gt; is an amazing alternative OS for Anbernic devices, and our app lets you connect directly to your RomM server and fetch games.&lt;/p&gt;
+&lt;p&gt;This is the first release since we launched the &lt;a href="https://github.com/rommapp/muos-app"&gt;official muOS app&lt;/a&gt;, and we're taking this opportunity to mention it here. &lt;a href="https://muos.dev"&gt;muOS&lt;/a&gt; is an amazing alternative OS for Anbernic devices, and our app lets you connect directly to your RomM server and fetch games.&lt;/p&gt;
 &lt;div&gt;
   &lt;img src="https://github.com/rommapp/muos-app/blob/main/.github/resources/platforms.png" height="300px" width="auto" alt="muos app platforms list"&gt;
   &lt;img src="https://github.com/rommapp/muos-app/blob/main/.github/resources/gamelist.png" height="300px" width="auto" alt="muos app game list"&gt;
