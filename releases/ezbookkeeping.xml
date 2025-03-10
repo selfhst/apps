@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ezBookkeeping Releases</title>
-  <updated>2025-03-10T09:35:38.246282-04:00</updated>
+  <updated>2025-03-10T10:35:47.912320-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -270,7 +270,7 @@
   <entry>
     <id>https://github.com/mayswind/ezbookkeeping/releases/tag/v0.8.0</id>
     <title>New release for ezBookkeeping: v0.8.0</title>
-    <updated>2025-03-10T08:32:20-04:00</updated>
+    <updated>2025-03-10T10:03:03-04:00</updated>
     <author>
       <name>mayswind/ezbookkeeping</name>
     </author>
