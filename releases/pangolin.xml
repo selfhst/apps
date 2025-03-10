@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pangolin Releases</title>
-  <updated>2025-03-10T10:35:32.608496-04:00</updated>
+  <updated>2025-03-10T11:35:28.695971-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,35 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="https://docs.fossorial.io/Getting%20Started/how-to-update"&gt;View documentation&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/fosrl/pangolin/releases/tag/1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fosrl/pangolin/releases/tag/1.0.1</id>
+    <title>New release for Pangolin: 1.0.1</title>
+    <updated>2025-03-10T11:28:27-04:00</updated>
+    <author>
+      <name>fosrl/pangolin</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Return 401 instead of 400 on bad login&lt;/li&gt;
+&lt;li&gt;Reset port input after adding target&lt;/li&gt;
+&lt;li&gt;Append site name to resource to distinguish resources with same name&lt;/li&gt;
+&lt;li&gt;Fix issue causing base domain resource to revert to subdomain resource on save auth methods&lt;/li&gt;
+&lt;li&gt;Optimize container size&lt;/li&gt;
+&lt;li&gt;Remove support for environment variables overriding config variables&lt;/li&gt;
+&lt;li&gt;Remove functionality to automatically generate config files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/fosrl/pangolin/compare/1.0.0...1.0.1&lt;/p&gt;
+&lt;h2&gt;How to Update&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+Always back up your config app-data before updating. This will allow you to easily roll back if the update breaks your configuration. You will not be able to easily downgrade otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://docs.fossorial.io/Getting%20Started/how-to-update"&gt;View documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Attention Unraid Users!&lt;/h2&gt;
+&lt;p&gt;We’ve removed the feature that allowed certain configuration variables to be overridden by environment variables, except for the admin email and password. During the beta period, we made substantial changes to the configuration file structure, making it increasingly difficult to maintain compatibility with environment variables. Additionally, we’ve removed the functionality that automatically generated configuration and Traefik files when they were missing, as these features created more confusion than assistance.&lt;/p&gt;
+&lt;p&gt;From now on, all configuration must be done by manually editing the configuration files. This approach ensures a single source of truth and consistent configuration methods across all deployments, rather than having different methods for Unraid users (environment variables), Docker Compose (config files), etc.&lt;/p&gt;
+&lt;p&gt;Your existing deployment might break, but migrating is straightforward. Simply remove the old environment variables and update the configuration files according to your preferences. Refer to the documentation for guidance on how to correctly set up these files. The Unraid deploy guide has also been updated to reflect these changes.&lt;/p&gt;</content>
+    <link href="https://github.com/fosrl/pangolin/releases/tag/1.0.1" rel="alternate"/>
   </entry>
 </feed>
