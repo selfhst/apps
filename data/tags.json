@@ -839,7 +839,8 @@
     {
         "Tag": "Scrobble",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -1007,7 +1008,8 @@
     {
         "Tag": "Tracking",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
