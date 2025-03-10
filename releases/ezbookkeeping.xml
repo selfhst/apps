@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ezBookkeeping Releases</title>
-  <updated>2025-03-10T11:35:44.941734-04:00</updated>
+  <updated>2025-03-10T12:35:40.345420-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -291,7 +291,7 @@
 &lt;li&gt;Add German language (#60, thx @chrgm)&lt;/li&gt;
 &lt;li&gt;Add Japanese language (#83, thx @tkymmm)&lt;/li&gt;
 &lt;li&gt;Import transaction from custom delimiter-separated values file&lt;/li&gt;
-&lt;li&gt;Import some split transaction from IIF file&lt;/li&gt;
+&lt;li&gt;Import some split transactions from IIF file&lt;/li&gt;
 &lt;li&gt;Convert transaction type in import transaction dialog (#76)&lt;/li&gt;
 &lt;li&gt;Duplicate transaction with time / geographic location (#36)&lt;/li&gt;
 &lt;li&gt;Scheduled transaction supports start time and end time (#36)&lt;/li&gt;
