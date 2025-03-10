@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dokploy Releases</title>
-  <updated>2025-03-10T13:35:07.803452-04:00</updated>
+  <updated>2025-03-10T14:35:05.853736-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,7 +190,7 @@ docker service scale dokploy=1&lt;/code&gt;&lt;/p&gt;
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;🚀 Release v0.20.0 by @github-actions in https://github.com/Dokploy/dokploy/pull/1452&lt;/li&gt;
+&lt;li&gt;Fix: handle race condition when migrating swarm service to standalone traefik container&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Dokploy/dokploy/compare/v0.20.0...v0.20.1&lt;/p&gt;</content>
     <link href="https://github.com/Dokploy/dokploy/releases/tag/v0.20.1" rel="alternate"/>
