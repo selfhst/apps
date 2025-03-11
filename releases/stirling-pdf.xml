@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-03-11T05:31:21.321640-04:00</updated>
+  <updated>2025-03-11T06:31:24.376883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -247,7 +247,7 @@ An example for a docker compose could be
   </entry>
   <entry>
     <id>https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v0.44.1</id>
-    <title>New release for Stirling PDF: v0.44.1 Zip Support, more memory enhancements, bug fixes</title>
+    <title>New release for Stirling PDF: 0.44.1 Zip Support, more memory enhancements, bug fixes</title>
     <updated>2025-03-10T17:57:55-04:00</updated>
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
