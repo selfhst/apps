@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-03-11T08:31:26.796987-04:00</updated>
+  <updated>2025-03-11T09:31:28.020229-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -296,6 +296,21 @@ image: docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest-fat&lt;/p&gt;
 &lt;li&gt;@Angel-Ozz made their first contribution in https://github.com/Stirling-Tools/Stirling-PDF/pull/3151&lt;/li&gt;
 &lt;li&gt;@jaivra made their first contribution in https://github.com/Stirling-Tools/Stirling-PDF/pull/3132&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;📥 Downloads&lt;/h2&gt;
+&lt;h3&gt;🖥️ Server Downloads&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/v0.44.1/Stirling-PDF.jar"&gt;Stirling-PDF.jar&lt;/a&gt; - Standard server JAR&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/v0.44.1/Stirling-PDF-with-login.jar"&gt;Stirling-PDF-with-login.jar&lt;/a&gt; - Server JAR with login functionality&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/v0.44.1/win-Stirling-PDF-portable.exe"&gt;Windows Portable Server&lt;/a&gt; - No installation required&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/v0.44.1/win-Stirling-PDF-portable-with-login.exe"&gt;Windows Portable Server with Login&lt;/a&gt; - No installation, includes login functionality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧩 Local UI Downloads&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/Stirling-PDF-win-installer.exe/v0.44.1"&gt;Windows Client Installer&lt;/a&gt; - Single-user Windows client&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://files.stirlingpdf.com/Stirling-PDF-mac-installer.dmg/v0.44.1"&gt;Mac Client Installer&lt;/a&gt; - Single-user Mac client &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;All downloads are for version 0.44.1&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stirling-Tools/Stirling-PDF/compare/v0.44.0...v0.44.1&lt;/p&gt;</content>
     <link href="https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v0.44.1" rel="alternate"/>
   </entry>
