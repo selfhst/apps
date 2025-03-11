@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2025-03-10T23:32:20.360096-04:00</updated>
+  <updated>2025-03-11T00:32:31.254909-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -24,5 +24,20 @@
 &lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to b0bc290b&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/b0bc290b-ls209" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/d8fd4f80-ls210</id>
+    <title>New release for Webtop: d8fd4f80-ls210</title>
+    <updated>2025-03-11T00:18:21-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;CI Report:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;https://ci-tests.linuxserver.io/linuxserver/webtop/d8fd4f80-ls210/index.html&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rebase Fedora to 41.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to d8fd4f80&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/d8fd4f80-ls210" rel="alternate"/>
   </entry>
 </feed>
