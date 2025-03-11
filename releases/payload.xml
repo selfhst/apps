@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-03-11T17:31:57.586021-04:00</updated>
+  <updated>2025-03-11T18:31:58.997787-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -470,6 +470,25 @@
       <name>payloadcms/payload</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v3.27.0...v3.28.0"&gt;v3.28.0&lt;/a&gt; (2025-03-11)&lt;/h2&gt;
+&lt;h2&gt;Important&lt;/h2&gt;
+&lt;h3&gt;Compilation Performance Improvements&lt;/h3&gt;
+&lt;p&gt;We’ve introduced a new opt-in flag that can cut Payload’s compile times in half during development. To enable it, add the following to your next.config.js:&lt;/p&gt;
+&lt;p&gt;```diff
+const nextConfig = {
+  // ...
+}&lt;/p&gt;
+&lt;p&gt;-export default withPayload(nextConfig)
++export default withPayload(nextConfig, { devBundleServerPackages: false })
+```&lt;/p&gt;
+&lt;p&gt;In some rare cases, you may see unexpected behavior if your project relies on server-only Payload dependencies being bundled during development. Because of this, we’ve made the feature opt-in for existing projects.&lt;/p&gt;
+&lt;h3&gt;Lexical Version Bump&lt;/h3&gt;
+&lt;p&gt;This release upgrades the lexical dependency from &lt;code&gt;0.21.0&lt;/code&gt; to &lt;code&gt;0.27.1&lt;/code&gt;. Alongside table improvements and bug fixes, this version bump lays the groundwork for frequently requested features like color pickers.&lt;/p&gt;
+&lt;p&gt;If you installed lexical manually, update it to &lt;code&gt;0.27.1&lt;/code&gt;. Installing lexical manually is not recommended, as it may break between updates, and our re-exported versions should be used. See the &lt;a href="https://payloadcms.com/docs/rich-text/custom-features"&gt;yellow banner box&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;If you still encounter richtext-lexical errors, do the following, in this order:
+1. Delete &lt;code&gt;node_modules&lt;/code&gt;
+2. Delete your lockfile (e.g. &lt;code&gt;pnpm-lock.json&lt;/code&gt;)
+3. Reinstall your dependencies (e.g. &lt;code&gt;pnpm install&lt;/code&gt;)&lt;/p&gt;
+&lt;hr /&gt;
 &lt;h3&gt;🚀 Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;defaults to noindex nofollow (&lt;a href="https://github.com/payloadcms/payload/issues/11623"&gt;#11623&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/5285518"&gt;5285518&lt;/a&gt;)&lt;/li&gt;
