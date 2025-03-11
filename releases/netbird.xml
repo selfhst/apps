@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2025-03-11T03:30:56.186037-04:00</updated>
+  <updated>2025-03-11T04:31:01.403019-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,7 +147,7 @@
 &lt;li&gt;[client] Increase local daemon connection timeout to 50 sec #3481&lt;/li&gt;
 &lt;li&gt;[management] return empty array instead of null on networks endpoints #3480&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/netbirdio/netbird/compare/v0.35.2...v0.36.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/netbirdio/netbird/compare/v0.37.2...v0.38.0&lt;/p&gt;</content>
     <link href="https://github.com/netbirdio/netbird/releases/tag/v0.38.0" rel="alternate"/>
   </entry>
 </feed>
