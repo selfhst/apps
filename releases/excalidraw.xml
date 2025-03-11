@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Excalidraw Releases</title>
-  <updated>2025-03-11T11:33:04.294644-04:00</updated>
+  <updated>2025-03-11T12:33:07.233191-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -675,6 +675,7 @@
       <name>excalidraw/excalidraw</name>
     </author>
     <content>&lt;h2&gt;Excalidraw Library&lt;/h2&gt;
+&lt;h2&gt;0.18.0 (2025-03-11)&lt;/h2&gt;
 &lt;h3&gt;Highlights&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -732,10 +733,13 @@
 │   │   ├── index.css
 │   │   ├── index.js
 │   └── types/&lt;/code&gt;&lt;/p&gt;
-&lt;h5&gt;JavaScript: required &lt;code&gt;"type": "module"&lt;/code&gt; in package.json&lt;/h5&gt;
-&lt;p&gt;Make sure that your JavaScript environment supports ES modules, as it might be required to define &lt;code&gt;"type": "module"&lt;/code&gt; in your &lt;code&gt;package.json&lt;/code&gt; file or as part of the &lt;code&gt;&amp;lt;script type="module" /&amp;gt;&lt;/code&gt; attribute.&lt;/p&gt;
+&lt;p&gt;Make sure that your JavaScript environment supports ES modules. You &lt;em&gt;may&lt;/em&gt; need to define &lt;code&gt;"type": "module"&lt;/code&gt; in your &lt;code&gt;package.json&lt;/code&gt; file or as part of the &lt;code&gt;&amp;lt;script type="module" /&amp;gt;&lt;/code&gt; attribute.&lt;/p&gt;
 &lt;h5&gt;Typescript: deprecated "moduleResolution": &lt;code&gt;"node"&lt;/code&gt; or &lt;code&gt;"node10"&lt;/code&gt;&lt;/h5&gt;
 &lt;p&gt;Since &lt;code&gt;"node"&lt;/code&gt; and &lt;code&gt;"node10"&lt;/code&gt; do not support &lt;code&gt;package.json&lt;/code&gt; &lt;code&gt;"exports"&lt;/code&gt; fields, having these values in your &lt;code&gt;tsconfig.json&lt;/code&gt; will not work. Instead, use &lt;code&gt;"bundler"&lt;/code&gt;, &lt;code&gt;"node16"&lt;/code&gt; or &lt;code&gt;"nodenext"&lt;/code&gt; values. For more information, see &lt;a href="https://www.typescriptlang.org/tsconfig/#moduleResolution"&gt;Typescript's documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;ESM strict resolution&lt;/h5&gt;
+&lt;p&gt;Due to ESM strict resolution, if you're using Webpack or other bundler that expects import paths to be fully specified, you'll need to explicitly disable this feature.&lt;/p&gt;
+&lt;p&gt;For example in Webpack, you should set &lt;a href="https://webpack.js.org/configuration/resolve/#resolvefullyspecified"&gt;&lt;code&gt;resolve.fullySpecified&lt;/code&gt;&lt;/a&gt; to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For this reason, CRA will no longer work unless you eject or use a workaround such as &lt;a href="https://stackoverflow.com/a/75109686"&gt;craco&lt;/a&gt;.&lt;/p&gt;
 &lt;h5&gt;New structure of the imports&lt;/h5&gt;
 &lt;p&gt;Dependening on the environment, this is how imports should look like with the &lt;code&gt;ESM&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;With bundler (Vite, Next.js, etc.)&lt;/strong&gt;&lt;/p&gt;
