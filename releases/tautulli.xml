@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tautulli Releases</title>
-  <updated>2025-03-11T12:31:33.841231-04:00</updated>
+  <updated>2025-03-11T13:31:29.944165-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,7 @@
     <author>
       <name>Tautulli/Tautulli</name>
     </author>
-    <content>&lt;h3&gt;Windows installer removed due to antivirus flagging it as a false positive. (#2454)&lt;/h3&gt;
+    <content>&lt;h3&gt;Windows installer removed due to antivirus flagging it as a false positive (#2454). Install &lt;a href="https://github.com/Tautulli/Tautulli/releases/tag/v2.14.6"&gt;v2.14.6&lt;/a&gt;.&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h4&gt;v2.15.0 (2024-11-24)&lt;/h4&gt;
@@ -112,7 +112,9 @@
     <author>
       <name>Tautulli/Tautulli</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Windows installer removed due to antivirus flagging it as a false positive (#2454). Install &lt;a href="https://github.com/Tautulli/Tautulli/releases/tag/v2.14.6"&gt;v2.14.6&lt;/a&gt;.&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h4&gt;v2.15.1 (2025-01-11)&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Activity:&lt;/li&gt;

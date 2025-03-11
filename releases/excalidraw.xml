@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Excalidraw Releases</title>
-  <updated>2025-03-11T12:33:07.233191-04:00</updated>
+  <updated>2025-03-11T13:32:58.878398-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -669,7 +669,7 @@
   </entry>
   <entry>
     <id>https://github.com/excalidraw/excalidraw/releases/tag/v0.18.0</id>
-    <title>New release for Excalidraw: v0.18.0 (2025-3-11)</title>
+    <title>New release for Excalidraw: v0.18.0 (2025-03-11)</title>
     <updated>2025-03-11T08:47:22-04:00</updated>
     <author>
       <name>excalidraw/excalidraw</name>
