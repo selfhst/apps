@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-03-12T09:31:39.101812-04:00</updated>
+  <updated>2025-03-12T10:31:45.502755-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -213,56 +213,40 @@ JAR download: https://downloads.metabase.com/v0.52.15.x/metabase.jar&lt;/p&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.52.15.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Embedding: updates for React 19 support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React-draggable compatibility issue with react 19 (#54901)&lt;/li&gt;
+&lt;li&gt;Upgrade react-virtualized to 9.22.5 (#54645)&lt;/li&gt;
+&lt;li&gt;Upgrade react-grid-layout to 1.4.4 (#54644)&lt;/li&gt;
+&lt;li&gt;Replace findDOMNode in core components (#54650)&lt;/li&gt;
+&lt;li&gt;fix(sdk): remove react-router console error in LegendLabel when in React 19 (#54926)&lt;/li&gt;
+&lt;li&gt;fix(sdk): mark react-dom/client as external to fix warnings in React 19 (#54919)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;fix(sdk): remove react-router console error in LegendLabel when in React 19 (#54926)&lt;/li&gt;
-&lt;li&gt;fix(sdk): mark react-dom/client as external to fix warnings in React 19 (#54919)&lt;/li&gt;
-&lt;li&gt;Make react-draggable compatible with React 19 on Metabase 52 (#54901)&lt;/li&gt;
-&lt;li&gt;Remove findDOMNode from visualization components (#54707)&lt;/li&gt;
-&lt;li&gt;Remove the legacy isModal context from ModalContent (#54660)&lt;/li&gt;
-&lt;li&gt;Replace findDOMNode in core components (#54650)&lt;/li&gt;
-&lt;li&gt;Bump react-virtualized to 9.22.5 to unblock React 19 (#54645)&lt;/li&gt;
-&lt;li&gt;Bump react-grid-layout to 1.4.4 to unblock React 19 (#54644)&lt;/li&gt;
-&lt;li&gt;Convert RulePreview to Mantine (#54472)&lt;/li&gt;
-&lt;li&gt;Convert RuleListing to Mantine (#54471)&lt;/li&gt;
-&lt;li&gt;Convert RuleDescription to Mantine (#54470)&lt;/li&gt;
-&lt;li&gt;fix(sdk): Fix ColorRangeSelector in Conditional Formatting (#54450)&lt;/li&gt;
-&lt;li&gt;Convert components of RuleEditor to Mantine (#54104)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;fix flaky test about sticky panel (#54125)&lt;/li&gt;
+&lt;li&gt;Convert RulePreview component to Mantine (#54472)&lt;/li&gt;
+&lt;li&gt;Convert RuleListing component ****to Mantine (#54471)&lt;/li&gt;
+&lt;li&gt;Convert RuleDescription component ****to Mantine (#54470)&lt;/li&gt;
+&lt;li&gt;fix(sdk): Fix ColorRangeSelector in Conditional Formatting (#54450)&lt;/li&gt;
+&lt;li&gt;Convert components of RuleEditor to Mantine (#54104)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;support: More logging for field sync. (#54774)&lt;/li&gt;
-&lt;li&gt;Closes viz-474: conditional formatting polish (#54483)&lt;/li&gt;
+&lt;li&gt;Conditional formatting glitches with color picker and dropdown behavior  (#54483)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Metabase casts date fields to datetime on Oracle, making indexes to be unusable (#53371)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;updated_at timestamps of cards, dashboards and pulses are updated upon view (#53687)&lt;/li&gt;
+&lt;li&gt;Date fields are cast to datetime in Oracle, preventing index usage (#53371)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Breakout and drill-down don't work on native models when source columns are mapped and renamed (#53556)&lt;/li&gt;
+&lt;li&gt;Breakout and drill-down fail on native models with renamed columns (#53556)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;updated_at timestamps of cards, dashboards and pulses are updated upon view (#53687)&lt;/li&gt;
 &lt;li&gt;New user notifications sent to API key email addresses (#54347)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Already Fixed&lt;/h3&gt;
-&lt;p&gt;Issues confirmed to have been fixed in a previous release.&lt;/p&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ci(sdk): Fix mysterious sdk deployment failure on 52 (#54890)&lt;/li&gt;
-&lt;li&gt;ci(sdk): Send SDK release notification to Slack (#54733)&lt;/li&gt;
-&lt;li&gt;ci(sdk): Add stable SDK git tags (#54710)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.52.15" rel="alternate"/>
   </entry>
