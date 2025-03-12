@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-03-11T22:32:02.426904-04:00</updated>
+  <updated>2025-03-11T23:32:06.564967-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,16 +113,16 @@
 &lt;h2&gt;Version 0.8.6 - 06/03/2025&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix the incorrect title positioning when adjusting the document width setting&lt;/li&gt;
-&lt;li&gt;Enhance the user experience of the icon color picker for smoother interactions&lt;/li&gt;
-&lt;li&gt;Add missing icons to the database to ensure completeness and consistency&lt;/li&gt;
-&lt;li&gt;Resolve the issue with links not functioning correctly on Linux systems&lt;/li&gt;
-&lt;li&gt;Improve the outline feature to work seamlessly within columns&lt;/li&gt;
-&lt;li&gt;Center the bulleted list icon within columns for better visual alignment&lt;/li&gt;
-&lt;li&gt;Enable dragging blocks under tables in the second column to enhance flexibility&lt;/li&gt;
-&lt;li&gt;Disable the AI writer feature within tables to prevent conflicts and improve usability&lt;/li&gt;
-&lt;li&gt;Automatically enable the header row when converting content from Markdown to ensure proper formatting&lt;/li&gt;
-&lt;li&gt;Use the "Undo" function to revert the auto-formatting&lt;/li&gt;
+&lt;li&gt;Fixed the incorrect title positioning when adjusting the document width setting&lt;/li&gt;
+&lt;li&gt;Enhanced the user experience of the icon color picker for smoother interactions&lt;/li&gt;
+&lt;li&gt;Added missing icons to the database to ensure completeness and consistency&lt;/li&gt;
+&lt;li&gt;Resolved the issue with links not functioning correctly on Linux systems&lt;/li&gt;
+&lt;li&gt;Improved the outline feature to work seamlessly within columns&lt;/li&gt;
+&lt;li&gt;Centered the bulleted list icon within columns for better visual alignment&lt;/li&gt;
+&lt;li&gt;Enabled dragging blocks under tables in the second column to enhance flexibility&lt;/li&gt;
+&lt;li&gt;Disabled the AI writer feature within tables to prevent conflicts and improve usability&lt;/li&gt;
+&lt;li&gt;Automatically enabled the header row when converting content from Markdown to ensure proper formatting&lt;/li&gt;
+&lt;li&gt;Supported using the "Undo" function to revert the auto-formatting&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.8.6" rel="alternate"/>
   </entry>
