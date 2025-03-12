@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-03-12T08:31:45.219926-04:00</updated>
+  <updated>2025-03-12T09:31:39.101812-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -290,7 +290,7 @@ JAR download: https://downloads.metabase.com/enterprise/v1.53.6.x/metabase.jar&l
 &lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;React-draggable compatibility issue with react 19 (#54902)&lt;/li&gt;
-&lt;li&gt;fix(sdk): Improve _.compose type + fix SDK type (#54850)&lt;/li&gt;
+&lt;li&gt;[SDK] Improve _.compose type + fix SDK type (#54850)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
