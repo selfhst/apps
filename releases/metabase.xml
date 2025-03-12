@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-03-12T07:31:40.273997-04:00</updated>
+  <updated>2025-03-12T08:31:45.219926-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -286,83 +286,64 @@ JAR download: https://downloads.metabase.com/v0.53.6.x/metabase.jar&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.53.6.x&lt;/code&gt;&lt;/a&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.53.6.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ARM-compatible docker images now available (#54473)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Embedding&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Make react-draggable compatible with React 19 on Metabase 53 (#54902)&lt;/li&gt;
+&lt;li&gt;React-draggable compatibility issue with react 19 (#54902)&lt;/li&gt;
 &lt;li&gt;fix(sdk): Improve _.compose type + fix SDK type (#54850)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Increase stage limit to 1000 and clarify error message. (#54917)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix schema-wide data permissions for huge schemas (#54858)&lt;/li&gt;
-&lt;li&gt;Expire pending search indexes eventually (#54834)&lt;/li&gt;
-&lt;li&gt;Create search index within transaction (#54832)&lt;/li&gt;
-&lt;li&gt;update download jar (#54811)&lt;/li&gt;
-&lt;li&gt;docs - check for anchors (#54743)&lt;/li&gt;
-&lt;li&gt;Abandon fingerprinting if connecting to DB fails (#54697)&lt;/li&gt;
-&lt;li&gt;Allow impersonated users to hit cache again (#54521) (#54673)&lt;/li&gt;
-&lt;li&gt;Manual Backport of echarts tooltip and dashcard viz modal adjustments (#54614)&lt;/li&gt;
-&lt;li&gt;Updating InputWithSelectPrefix to Mantine components (#54536)&lt;/li&gt;
-&lt;li&gt;Add prometheus info metric (#54523)&lt;/li&gt;
-&lt;li&gt;Allow impersonated users to hit cache again (#54521)&lt;/li&gt;
-&lt;li&gt;use new endpoints for tiles in the pin map viz (#54475)&lt;/li&gt;
-&lt;li&gt;Auto formatting adapts to currency style if needed (#54349)&lt;/li&gt;
-&lt;li&gt;Fix two bugs in DQ updates/creation (#54292)&lt;/li&gt;
-&lt;li&gt;Metabase Automation Genius Engine (#54091)&lt;/li&gt;
-&lt;li&gt;Recalculate columns for Upload model when updating (#54069)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Bug fixes&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cannot invoke "Object.toString()" because "s" is null (#53346)&lt;/li&gt;
-&lt;li&gt;Single Logout Fails for Okta (#46605)&lt;/li&gt;
+&lt;li&gt;Auto formatting updates visualization based on currency style changes (#54349)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Connecting to Athena gives a NullPointerException with a null message when not filling up the region section (#42671)&lt;/li&gt;
+&lt;li&gt;Stop fingerprinting on DB connection failure (#54697)&lt;/li&gt;
+&lt;li&gt;Improve permission updates for large schemas  (#54858)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;
+- ARM-compatible docker images now available (#54473)
+- Load correct map tiles for pin map visualizations (#54475)
+- Allow impersonated users to hit cache again (#54521) (#54673)
+- Improved site URL input padding (#54536)
+- Update columns after appending data to upload models (#54069)&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single Logout (SLO) Fails when using Okta (#46605)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Athena connection fails without specified region (#53346) ****(#42671)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[Bug Report] Cannot select which model to update when uploading CSV (#53824)&lt;/li&gt;
+&lt;li&gt;CSV upload dropdown fails in append data modal (#53824)&lt;/li&gt;
+&lt;li&gt;Saving questions to dashboard fails without root collection permission (#54573)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;query-builder datetimediff() function no longer works when used on DATE type column for DAY granularity (#54654)&lt;/li&gt;
-&lt;li&gt;We should not allow to set millisecond as unit in datetimeDiff (#54449)&lt;/li&gt;
-&lt;li&gt;Numeric / between - dashboard filter with partial input results in a display error of connected cards (#54364)&lt;/li&gt;
-&lt;li&gt;Date filter doesn't close / all filter types show purple accessibility box on ESC (#54353)&lt;/li&gt;
-&lt;li&gt;Date range filter with a Starting from clause cannot be displayed as a custom expression (#54146)&lt;/li&gt;
-&lt;li&gt;Should show an error message when trying to overwrite a card with a query that contains a cycle (#53404)&lt;/li&gt;
-&lt;li&gt;Uncaught TypeError when making native query parameter required (#52812)&lt;/li&gt;
-&lt;li&gt;Native query params not cleaned from URL after leaving editor (#52806)&lt;/li&gt;
-&lt;li&gt;Text overflowing in relative datepicker dropdown (#52090)&lt;/li&gt;
+&lt;li&gt;datetimeDiff function fails for DATE columns with DAY granularity (#54654)&lt;/li&gt;
+&lt;li&gt;datetimeDiff Does Not Support Milliseconds as a Unit (#54449)&lt;/li&gt;
+&lt;li&gt;Date filter does not close on ESC (#54353)&lt;/li&gt;
+&lt;li&gt;Date range filter with a ‘Starting from’  cannot be displayed as a custom expression (#54146)&lt;/li&gt;
+&lt;li&gt;Overwriting card with recursive query does not display error message(#53404)&lt;/li&gt;
+&lt;li&gt;Native query parameter throws TypeError when made required (#52812)&lt;/li&gt;
+&lt;li&gt;Native query parameters remain in URL after leaving editor (#52806)&lt;/li&gt;
 &lt;li&gt;SQL view is opened when creating a question on small screens (#48170)&lt;/li&gt;
+&lt;li&gt;Fix card creation and dashboard permissions handling (#54292)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Large inputs on text filters will add a scroll bar on the page to the right (#44435)&lt;/li&gt;
-&lt;li&gt;Moving a column while editing model Metadata gets you back to the beginning of the table (#41419)&lt;/li&gt;
+&lt;li&gt;Between dashboard filter fails with partial input (#54364)&lt;/li&gt;
+&lt;li&gt;Chart tooltips now display correctly in dashcards (#54614)&lt;/li&gt;
+&lt;li&gt;Raw data and table data sections remain visible after joining tables (#34734)&lt;/li&gt;
 &lt;li&gt;Undefined in the URL when click behavior target filter gets removed in a dashboard (#35444)&lt;/li&gt;
-&lt;li&gt;Raw Data &amp;amp; Table Data sections are not hidden if you join tables (#34734)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Reporting&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Subscriptions can include unwired filters which is confusing (#46087)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;When there is no Root Collection permission, qquestions cannot be saved to the dashboard (#54573)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Already Fixed&lt;/h3&gt;
-&lt;p&gt;Issues confirmed to have been fixed in a previous release.&lt;/p&gt;
-&lt;h3&gt;Under the Hood&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;stabilize flaky test (#54789)&lt;/li&gt;
+&lt;li&gt;Moving columns in model metadata resets table view (#41419)&lt;/li&gt;
+&lt;li&gt;Text overflowing in relative datepicker dropdown (#52090)&lt;/li&gt;
+&lt;li&gt;Unwired filters appear in subscriptions, causing confusion (#46087)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/metabase/metabase/releases/tag/v0.53.6" rel="alternate"/>
   </entry>
