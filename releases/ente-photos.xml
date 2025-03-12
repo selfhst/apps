@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Photos Releases</title>
-  <updated>2025-03-12T05:33:06.113716-04:00</updated>
+  <updated>2025-03-12T06:32:45.951777-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,57 +155,59 @@
       <name>ente-io/ente</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[mob] Upgrade dio by @ua741 in https://github.com/ente-io/ente/pull/4944&lt;/li&gt;
-&lt;li&gt;[mob] Avoid reloading all files from DB on Upload events by @ua741 in https://github.com/ente-io/ente/pull/4974&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix: FileAppbar buttons not working on some screens by @ashilkn in https://github.com/ente-io/ente/pull/5022&lt;/li&gt;
-&lt;li&gt;[mob] Fix exif time parsing by @ua741 in https://github.com/ente-io/ente/pull/4985&lt;/li&gt;
-&lt;li&gt;Revert "[mob] Fix exif time parsing (#4985)" by @ua741 in https://github.com/ente-io/ente/pull/5026&lt;/li&gt;
-&lt;li&gt;[mob] Fix exif time parsing by @ua741 in https://github.com/ente-io/ente/pull/5029&lt;/li&gt;
-&lt;li&gt;[mobile][photos] Fix: show account owner's email in 'Link email' screen if it's not assigned to any person yet by @ashilkn in https://github.com/ente-io/ente/pull/5045&lt;/li&gt;
-&lt;li&gt;[mob][photos] Join link confirmation dialog by @ashilkn in https://github.com/ente-io/ente/pull/5046&lt;/li&gt;
-&lt;li&gt;[mob][photos] Trips memories (internal users only) by @laurenspriem in https://github.com/ente-io/ente/pull/5035&lt;/li&gt;
-&lt;li&gt;[mob] Notify internal Discord when internal release is available on PlayStore by @vishnukvmd in https://github.com/ente-io/ente/pull/5052&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix empty facethumbnail due to decoding issue by @laurenspriem in https://github.com/ente-io/ente/pull/5054&lt;/li&gt;
-&lt;li&gt;Ram logging by @laurenspriem in https://github.com/ente-io/ente/pull/5056&lt;/li&gt;
-&lt;li&gt;[mob][photos] bump for internal release by @laurenspriem in https://github.com/ente-io/ente/pull/5061&lt;/li&gt;
-&lt;li&gt;[mob] Mark collection owner, sharee and publicUrls as non-nullable field by @ua741 in https://github.com/ente-io/ente/pull/5063&lt;/li&gt;
-&lt;li&gt;[mob] Fix collection attribute motification by @ua741 in https://github.com/ente-io/ente/pull/5068&lt;/li&gt;
-&lt;li&gt;[mob] streaming fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5055&lt;/li&gt;
-&lt;li&gt;[mob] Remove internal flag by @ua741 in https://github.com/ente-io/ente/pull/5071&lt;/li&gt;
-&lt;li&gt;feat: create video-streaming.md by @prateekmedia in https://github.com/ente-io/ente/pull/5080&lt;/li&gt;
-&lt;li&gt;[mob] Refactor by @ua741 in https://github.com/ente-io/ente/pull/5093&lt;/li&gt;
-&lt;li&gt;[mob] Extract ente_crypto plugin by @ua741 in https://github.com/ente-io/ente/pull/5102&lt;/li&gt;
-&lt;li&gt;[mob] streaming queue fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5105&lt;/li&gt;
-&lt;li&gt;[mob] video editor fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5091&lt;/li&gt;
-&lt;li&gt;[mob] Lint fixes by @ua741 in https://github.com/ente-io/ente/pull/5103&lt;/li&gt;
-&lt;li&gt;[mob] remove internal user flag for media kit by @prateekmedia in https://github.com/ente-io/ente/pull/5106&lt;/li&gt;
-&lt;li&gt;[mob] streaming feedbacks resolved by @prateekmedia in https://github.com/ente-io/ente/pull/5112&lt;/li&gt;
-&lt;li&gt;[mob] Share only image for live photos by @ua741 in https://github.com/ente-io/ente/pull/5118&lt;/li&gt;
-&lt;li&gt;[mob] streaming patches by @prateekmedia in https://github.com/ente-io/ente/pull/5122&lt;/li&gt;
-&lt;li&gt;[mob] Update storage card when family member's storage limit is configured by @ua741 in https://github.com/ente-io/ente/pull/5123&lt;/li&gt;
-&lt;li&gt;[mob] Clean up by @ua741 in https://github.com/ente-io/ente/pull/5165&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5007&lt;/li&gt;
-&lt;li&gt;[mob] Check lock before reporting file &amp;amp; limit retry for network errors by @ua741 in https://github.com/ente-io/ente/pull/5171&lt;/li&gt;
-&lt;li&gt;[mob][photos] Handle error + refactoring  by @ashilkn in https://github.com/ente-io/ente/pull/5172&lt;/li&gt;
-&lt;li&gt;[mob] Clean up migration for livePhoto by @ua741 in https://github.com/ente-io/ente/pull/5198&lt;/li&gt;
-&lt;li&gt;[mob] Clean up deprecated invalidFileIDs by @ua741 in https://github.com/ente-io/ente/pull/5199&lt;/li&gt;
-&lt;li&gt;[mob] Move model &amp;amp; remove unused file by @ua741 in https://github.com/ente-io/ente/pull/5201&lt;/li&gt;
-&lt;li&gt;[mob] Fix grammar by @vishnukvmd in https://github.com/ente-io/ente/pull/5202&lt;/li&gt;
-&lt;li&gt;[mob] Remove UserRemoteFlagService &amp;amp;  switch to flagService by @ua741 in https://github.com/ente-io/ente/pull/5219&lt;/li&gt;
-&lt;li&gt;[mob] Refactor: reorganize code by @ua741 in https://github.com/ente-io/ente/pull/5220&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5213&lt;/li&gt;
-&lt;li&gt;[mob][photos] Home memories [internal] by @laurenspriem in https://github.com/ente-io/ente/pull/5223&lt;/li&gt;
-&lt;li&gt;[mob][photos] Video memory by @AmanRajSinghMourya in https://github.com/ente-io/ente/pull/5211&lt;/li&gt;
-&lt;li&gt;[mob] Remove PrimitiveWrapper &amp;amp; simplify FilesDB::insertMultiple by @ua741 in https://github.com/ente-io/ente/pull/5222&lt;/li&gt;
-&lt;li&gt;[mob][photos] fix: Allow uploads when link shared from collect photos section by @AmanRajSinghMourya in https://github.com/ente-io/ente/pull/5225&lt;/li&gt;
-&lt;li&gt;[fix] steaming fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5168&lt;/li&gt;
-&lt;li&gt;[mob] Refactor utils by @ua741 in https://github.com/ente-io/ente/pull/5228&lt;/li&gt;
-&lt;li&gt;[mob][fix] share &amp;amp; description in android by @prateekmedia in https://github.com/ente-io/ente/pull/5229&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix free up space bug by @ashilkn in https://github.com/ente-io/ente/pull/5231&lt;/li&gt;
-&lt;li&gt;[mob][photos] Bump up build number by @ashilkn in https://github.com/ente-io/ente/pull/5236&lt;/li&gt;
-&lt;li&gt;[mob][photos] Properly handle and log error/exception thrown in isolate  by @ashilkn in https://github.com/ente-io/ente/pull/5234&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Memories:&lt;/strong&gt;
+* [mob][photos] Trips memories (internal users only) by @laurenspriem in https://github.com/ente-io/ente/pull/5035
+* [mob][photos] Fix empty facethumbnail due to decoding issue by @laurenspriem in https://github.com/ente-io/ente/pull/5054
+* Ram logging by @laurenspriem in https://github.com/ente-io/ente/pull/5056
+* [mob][photos] Home memories [internal] by @laurenspriem in https://github.com/ente-io/ente/pull/5223&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video Streaming:&lt;/strong&gt;
+* [mob] streaming fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5055
+* [mob] remove internal user flag for media kit by @prateekmedia in https://github.com/ente-io/ente/pull/5106
+* [mob] streaming queue fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5105
+* feat: create video-streaming.md by @prateekmedia in https://github.com/ente-io/ente/pull/5080
+* [mob] streaming feedbacks resolved by @prateekmedia in https://github.com/ente-io/ente/pull/5112
+* [mob] streaming patches by @prateekmedia in https://github.com/ente-io/ente/pull/5122
+* [fix] steaming fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5168&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quality of Life improvements:&lt;/strong&gt;
+* [mob] Avoid reloading all files from DB on Upload events by @ua741 in https://github.com/ente-io/ente/pull/4974
+* [mob][photos] Fix: FileAppbar buttons not working on some screens by @ashilkn in https://github.com/ente-io/ente/pull/5022
+* [mob] Fix exif time parsing by @ua741 in https://github.com/ente-io/ente/pull/4985
+* Revert "[mob] Fix exif time parsing (#4985)" by @ua741 in https://github.com/ente-io/ente/pull/5026
+* [mob] Fix exif time parsing by @ua741 in https://github.com/ente-io/ente/pull/5029
+* [mobile][photos] Fix: show account owner's email in 'Link email' screen if it's not assigned to any person yet by @ashilkn in https://github.com/ente-io/ente/pull/5045
+* [mob][photos] Join link confirmation dialog by @ashilkn in https://github.com/ente-io/ente/pull/5046
+* [mob] Notify internal Discord when internal release is available on PlayStore by @vishnukvmd in https://github.com/ente-io/ente/pull/5052
+* [mob] Mark collection owner, sharee and publicUrls as non-nullable field by @ua741 in https://github.com/ente-io/ente/pull/5063
+* [mob] Fix collection attribute motification by @ua741 in https://github.com/ente-io/ente/pull/5068
+* [mob] Remove internal flag by @ua741 in https://github.com/ente-io/ente/pull/5071
+* [mob] video editor fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5091
+* [mob] Refactor by @ua741 in https://github.com/ente-io/ente/pull/5093
+* [mob] Share only image for live photos by @ua741 in https://github.com/ente-io/ente/pull/5118
+* [mob] Update storage card when family member's storage limit is configured by @ua741 in https://github.com/ente-io/ente/pull/5123
+* [mob] Clean up by @ua741 in https://github.com/ente-io/ente/pull/5165
+* [mob] Check lock before reporting file &amp;amp; limit retry for network errors by @ua741 in https://github.com/ente-io/ente/pull/5171
+* [mob][photos] Handle error + refactoring  by @ashilkn in https://github.com/ente-io/ente/pull/5172
+* [mob] Clean up migration for livePhoto by @ua741 in https://github.com/ente-io/ente/pull/5198
+* [mob] Clean up deprecated invalidFileIDs by @ua741 in https://github.com/ente-io/ente/pull/5199
+* [mob] Move model &amp;amp; remove unused file by @ua741 in https://github.com/ente-io/ente/pull/5201
+* [mob] Fix grammar by @vishnukvmd in https://github.com/ente-io/ente/pull/5202
+* [mob] Remove UserRemoteFlagService &amp;amp;  switch to flagService by @ua741 in https://github.com/ente-io/ente/pull/5219
+* [mob] Refactor: reorganize code by @ua741 in https://github.com/ente-io/ente/pull/5220
+* [mob][photos] Video memory by @AmanRajSinghMourya in https://github.com/ente-io/ente/pull/5211
+* [mob] Remove PrimitiveWrapper &amp;amp; simplify FilesDB::insertMultiple by @ua741 in https://github.com/ente-io/ente/pull/5222
+* [mob][photos] fix: Allow uploads when link shared from collect photos section by @AmanRajSinghMourya in https://github.com/ente-io/ente/pull/5225
+* [mob] Refactor utils by @ua741 in https://github.com/ente-io/ente/pull/5228
+* [mob][photos] Fix free up space bug by @ashilkn in https://github.com/ente-io/ente/pull/5231
+* [mob][photos] Properly handle and log error/exception thrown in isolate  by @ashilkn in https://github.com/ente-io/ente/pull/5234
+* [mob][fix] share &amp;amp; description in android by @prateekmedia in https://github.com/ente-io/ente/pull/5229&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chores:&lt;/strong&gt;
+* [mob] Upgrade dio by @ua741 in https://github.com/ente-io/ente/pull/4944
+* [mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5007
+* [mob][photos] bump for internal release by @laurenspriem in https://github.com/ente-io/ente/pull/5061
+* [mob] Extract ente_crypto plugin by @ua741 in https://github.com/ente-io/ente/pull/5102
+* [mob] Lint fixes by @ua741 in https://github.com/ente-io/ente/pull/5103
+* [mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5213
+* [mob][photos] Bump up build number by @ashilkn in https://github.com/ente-io/ente/pull/5236&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/photos-v0.9.98...photos-v0.9.99&lt;/p&gt;</content>
     <link href="https://github.com/ente-io/ente/releases/tag/photos-v0.9.99" rel="alternate"/>
   </entry>
