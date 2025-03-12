@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-03-12T15:34:57.495354-04:00</updated>
+  <updated>2025-03-12T16:35:16.865533-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -159,8 +159,10 @@
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;This release makes the AliasVault browser extension available for Firefox and Microsoft Edge. The extension is currently pending approval for both browsers. Once approved, a hotfix will be released which will add the new browser extension download links in the client.&lt;/li&gt;
-&lt;li&gt;It is possible to install the AliasVault browser extension manually in the meantime. Instructions:&lt;ul&gt;
+&lt;li&gt;This release makes the AliasVault browser extension available for Firefox and Microsoft Edge. The extensions have been approved by Mozilla and Microsoft and can be downloaded on the official extension stores:&lt;/li&gt;
+&lt;li&gt;Firefox: https://addons.mozilla.org/en-US/firefox/addon/aliasvault/&lt;/li&gt;
+&lt;li&gt;Edge: https://microsoftedge.microsoft.com/addons/detail/aliasvault/kabaanafahnjkfkplbnllebdmppdemfo&lt;/li&gt;
+&lt;li&gt;It is also possible to install the AliasVault browser extensions manually. Instructions:&lt;ul&gt;
 &lt;li&gt;Firefox:&lt;/li&gt;
 &lt;li&gt;Download the &lt;code&gt;aliasvault-browser-extension-0.13.0-firefox.zip&lt;/code&gt; extension attached to this release (see below). &lt;/li&gt;
 &lt;li&gt;Navigate to the following address by typing it into the address bar: &lt;code&gt;about:debugging&lt;/code&gt;&lt;/li&gt;
