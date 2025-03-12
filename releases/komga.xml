@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komga Releases</title>
-  <updated>2025-03-12T01:30:43.594955-04:00</updated>
+  <updated>2025-03-12T02:30:41.349069-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -239,6 +239,7 @@ Gauthier Roebroeck&lt;/p&gt;</content>
       <name>gotson/komga</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;The Linux Desktop application has been discontinued. If you were using it, you will need to migrate to either the jar or Docker version.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;🐛 Fixes&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;conveyor&lt;/strong&gt;
 - disable Linux builds for desktop app (&lt;a href="https://github.com/gotson/komga/commits/0d144a6"&gt;0d144a6&lt;/a&gt;)&lt;/p&gt;
