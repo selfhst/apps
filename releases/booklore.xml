@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-03-13T11:35:54.036882-04:00</updated>
+  <updated>2025-03-13T12:35:53.751505-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,35 @@
     </author>
     <content>&lt;p&gt;Automated release for v0.0.16&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.16" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.17</id>
+    <title>New release for BookLore: Release v0.0.17</title>
+    <updated>2025-03-13T11:36:12-04:00</updated>
+    <author>
+      <name>adityachandelgit/BookLore</name>
+    </author>
+    <content>&lt;p&gt;Automated release for v0.0.17&lt;/p&gt;</content>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.17" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.18</id>
+    <title>New release for BookLore: Release v0.0.18</title>
+    <updated>2025-03-13T11:53:39-04:00</updated>
+    <author>
+      <name>adityachandelgit/BookLore</name>
+    </author>
+    <content>&lt;p&gt;Automated release for v0.0.18&lt;/p&gt;</content>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.18" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.19</id>
+    <title>New release for BookLore: Release v0.0.19</title>
+    <updated>2025-03-13T12:13:22-04:00</updated>
+    <author>
+      <name>adityachandelgit/BookLore</name>
+    </author>
+    <content>&lt;p&gt;Automated release for v0.0.19&lt;/p&gt;</content>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.19" rel="alternate"/>
   </entry>
 </feed>
