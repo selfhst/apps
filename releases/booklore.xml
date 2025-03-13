@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-03-13T10:36:01.384872-04:00</updated>
+  <updated>2025-03-13T11:35:54.036882-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,15 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/adityachandelgit/BookLore/compare/v0.0.13...v0.0.14&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.14" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.16</id>
+    <title>New release for BookLore: Release v0.0.16</title>
+    <updated>2025-03-13T11:30:45-04:00</updated>
+    <author>
+      <name>adityachandelgit/BookLore</name>
+    </author>
+    <content>&lt;p&gt;Automated release for v0.0.16&lt;/p&gt;</content>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.16" rel="alternate"/>
   </entry>
 </feed>

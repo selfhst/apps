@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bugsink Releases</title>
-  <updated>2025-03-13T10:35:21.600712-04:00</updated>
+  <updated>2025-03-13T11:35:16.798548-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,53 @@ way) with this change.&lt;/p&gt;
 &lt;li&gt;Print task's name in Snappea log when "Done"&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/bugsink/bugsink/releases/tag/1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bugsink/bugsink/releases/tag/1.4.0</id>
+    <title>New release for Bugsink: 1.4.0</title>
+    <updated>2025-03-13T10:35:44-04:00</updated>
+    <author>
+      <name>bugsink/bugsink</name>
+    </author>
+    <content>&lt;h2&gt;1.4.0 (13 March 2025)&lt;/h2&gt;
+&lt;h3&gt;Introducing (Tag-based) Search&lt;/h3&gt;
+&lt;p&gt;Bugsink 1.4.0 &lt;a href="https://www.bugsink.com/blog/introducing-search/"&gt;introduces tag-based search&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for searching both &lt;strong&gt;Issues&lt;/strong&gt; and individual &lt;strong&gt;Events&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Search is built entirely on &lt;strong&gt;tags&lt;/strong&gt; (both user-supplied and deduced from event properties).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simple query language&lt;/strong&gt;: &lt;code&gt;key:value&lt;/code&gt; pairs for structured filtering.&lt;/li&gt;
+&lt;li&gt;Search is &lt;strong&gt;implemented directly in the database&lt;/strong&gt;, ensuring a simple and efficient architecture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because tags take such a key role in the implementation of search, the introduction of search is coupled with per-issue
+tag overviews, see #36 &amp;amp; #12. i.e. per issue pages show a breakdown-by-tag; and a special page (showing up to 25 values)
+for tags is introduced.&lt;/p&gt;
+&lt;p&gt;NOTE: when upgrading to 1.4.0 tags for already-seen events are not automatically calculated (for large databases, this
+could make migrating very annoying). You can either wait a while (the tags for as of yet unseen events will be added)
+or run the &lt;code&gt;init_tags&lt;/code&gt; command to determine the tags for the already-existing issues and events.&lt;/p&gt;
+&lt;h3&gt;Further Features &amp;amp; Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Postgres: experimental support: our testsuite now runs against postgres, and configuring the Docker image to run with
+  a postgres backend is possible. No further testing has been done, but this at least makes such experiments possible.
+  See #21&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Createsuperuser pre-start: don't do that when &lt;em&gt;any&lt;/em&gt; users exist in the DB (Fixes #54)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Show remaining (in db, AKA 'available') number of events in the issue-list (when some events have been evicted from
+  the DB, the issue list shows the &lt;em&gt;actually availale&lt;/em&gt; number of events in a smaller font next to the total seen number.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Details page: be robust for top-level message-as-string (Fixes #55)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add 'level' to logentry event details&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Issue.calculated_* fields: fix lengths (fixes an issue on MySQL)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.0" rel="alternate"/>
   </entry>
 </feed>
