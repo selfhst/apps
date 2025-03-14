@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2025-03-14T17:30:56.637444-04:00</updated>
+  <updated>2025-03-14T18:30:56.679346-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,6 +127,10 @@
 &lt;li&gt;some users may need to update their custom css&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;[BREAKING] Enhancement: support for Kubernetes gateway API by @djeinstine in https://github.com/gethomepage/homepage/pull/4643&lt;ul&gt;
+&lt;li&gt;k8s users may need to update their configuration, see https://gethomepage.dev/configs/kubernetes/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thank you to our community of contributors, discord chat helpers and &lt;strong&gt;our users&lt;/strong&gt;! We are so proud of the collaboration that goes into keeping this project delightful.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
@@ -144,7 +148,7 @@
 &lt;li&gt;Enhancement: use datasets for truenas pools by @shamoon in https://github.com/gethomepage/homepage/pull/4716&lt;/li&gt;
 &lt;li&gt;Chore: upgrade kubernetes/client-node by @shamoon in https://github.com/gethomepage/homepage/pull/4715&lt;/li&gt;
 &lt;li&gt;Fix: Timezone-aware Date comparison for Calendar integration by @Yeraze in https://github.com/gethomepage/homepage/pull/4742&lt;/li&gt;
-&lt;li&gt;Enhancement: support for Kubernetes gateway API by @djeinstine in https://github.com/gethomepage/homepage/pull/4643&lt;/li&gt;
+&lt;li&gt;[BREAKING] Enhancement: support for Kubernetes gateway API by @djeinstine in https://github.com/gethomepage/homepage/pull/4643&lt;/li&gt;
 &lt;li&gt;[BREAKING] Enhancement: require host validation by @shamoon in https://github.com/gethomepage/homepage/pull/4744&lt;/li&gt;
 &lt;li&gt;Enhancement: better tz parsing of ical recurring events by @shamoon in https://github.com/gethomepage/homepage/pull/4749&lt;/li&gt;
 &lt;li&gt;Fix: handle possible null reference in k8s gateway api by @dudo in https://github.com/gethomepage/homepage/pull/4752&lt;/li&gt;
