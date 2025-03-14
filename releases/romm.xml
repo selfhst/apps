@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-03-13T21:31:10.817931-04:00</updated>
+  <updated>2025-03-13T22:31:14.066630-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -357,7 +357,8 @@ Failure to do so could &lt;strong&gt;leave your instance in a broken state!&lt;/
 &lt;/ul&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix saving states and save files to server when playing with emulatorjs&lt;/li&gt;
+&lt;li&gt;Fix saving save files to server when playing with emulatorjs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saving states is still broken and we are actively working on a fix&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Delay showing the new version alert for 2 hours after release&lt;/li&gt;
 &lt;li&gt;Check if a user is authenticated before getting username&lt;/li&gt;
 &lt;li&gt;Fix manual matching games and editing details&lt;/li&gt;
