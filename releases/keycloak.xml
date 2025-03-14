@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-03-14T03:31:04.936855-04:00</updated>
+  <updated>2025-03-14T04:31:03.717298-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1000,7 +1000,32 @@ expect the database schema being updated to add a new column &lt;code&gt;DETAILS
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37433"&gt;#37433&lt;/a&gt; Allow admin to disable automatic refresh of event views &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37711"&gt;#37711&lt;/a&gt; Upgrade to Infinispan 15.0.14 &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37320"&gt;#37320&lt;/a&gt; Cannot fetch realm role that was renamed &lt;code&gt;admin/api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37621"&gt;#37621&lt;/a&gt; When calling the token revoke endpoint multiple times with the same token, a database REVOKED-TOKEN constraint error is reported &lt;code&gt;storage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37843"&gt;#37843&lt;/a&gt; Admin events: resource type filter does not work &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37911"&gt;#37911&lt;/a&gt; Unwanted placeholder texts in user profile fields &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37944"&gt;#37944&lt;/a&gt; KC_HTTPS_TRUST_STORE_TYPE not working &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38038"&gt;#38038&lt;/a&gt; The default setting of the client request object parameter is empty &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.1.4" rel="alternate"/>
   </entry>
 </feed>
