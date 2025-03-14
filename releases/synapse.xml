@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2025-03-14T10:31:46.503453-04:00</updated>
+  <updated>2025-03-14T11:31:47.678568-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -240,9 +240,7 @@
 &lt;li&gt;Revert the background job to clear unreferenced state groups (that was introduced in v1.126.0rc1), due to &lt;a href="https://github.com/element-hq/synapse/issues/18217"&gt;a suspected issue&lt;/a&gt; that causes increased disk usage. (&lt;a href="https://github.com/element-hq/synapse/issues/18222"&gt;#18222&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Synapse 1.126.0rc2 (2025-03-05)&lt;/h1&gt;
-&lt;p&gt;Administrators using the Debian/Ubuntu packages from &lt;code&gt;packages.matrix.org&lt;/code&gt;, please check
-&lt;a href="https://github.com/element-hq/synapse/blob/release-v1.126/docs/upgrade.md#change-of-signing-key-expiry-date-for-the-debianubuntu-package-repository"&gt;the relevant section in the upgrade notes&lt;/a&gt;
-as we have recently updated the expiry date on the repository's GPG signing key. The old version of the key will expire on &lt;code&gt;2025-03-15&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Administrators using the Debian/Ubuntu packages from &lt;code&gt;packages.matrix.org&lt;/code&gt;, please check &lt;a href="https://github.com/element-hq/synapse/blob/release-v1.126/docs/upgrade.md#change-of-signing-key-expiry-date-for-the-debianubuntu-package-repository"&gt;the relevant section in the upgrade notes&lt;/a&gt; as we have recently updated the expiry date on the repository's GPG signing key. The old version of the key will expire on &lt;code&gt;2025-03-15&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;Internal Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix wheel building configuration in CI by installing libatomic1. (&lt;a href="https://github.com/element-hq/synapse/issues/18212"&gt;#18212&lt;/a&gt;, &lt;a href="https://github.com/element-hq/synapse/issues/18213"&gt;#18213&lt;/a&gt;)&lt;/li&gt;
