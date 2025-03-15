@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>XPipe Releases</title>
-  <updated>2025-03-15T03:34:10.915197-04:00</updated>
+  <updated>2025-03-15T04:34:14.756424-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -230,7 +230,7 @@ It especially tackles bad application performance when a lot of connections are 
       <name>xpipe-io/xpipe</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Fix connection hierarchy backgrounds not updating probably when expanding them&lt;/li&gt;
+&lt;li&gt;Fix connection hierarchy backgrounds not updating properly when expanding them&lt;/li&gt;
 &lt;li&gt;Fix some issues on macOS when zsh failed to start&lt;/li&gt;
 &lt;li&gt;Fix XPipe not falling back to sh in some cases on macOS when zsh failed to start&lt;/li&gt;
 &lt;li&gt;Fix vscode remote open functionality using wrong app path on macOS&lt;/li&gt;
