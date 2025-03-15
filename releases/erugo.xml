@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Erugo Releases</title>
-  <updated>2025-03-15T02:35:38.293316-04:00</updated>
+  <updated>2025-03-15T03:35:11.290102-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Erugo: Release v0.0.005</title>
     <updated>2025-02-12T17:15:31-05:00</updated>
     <author>
-      <name>DeanWard/erugo</name>
+      <name>ErugoOSS/Erugo</name>
     </author>
     <content>&lt;h2&gt;Latest Release&lt;/h2&gt;</content>
     <link href="https://github.com/ErugoOSS/Erugo/releases/tag/v0.0.005" rel="alternate"/>
@@ -25,7 +25,7 @@
     <title>New release for Erugo: v0.0.007</title>
     <updated>2025-02-28T17:06:05-05:00</updated>
     <author>
-      <name>DeanWard/erugo</name>
+      <name>ErugoOSS/Erugo</name>
     </author>
     <content>&lt;p&gt;This version introduces a brand new theming system which provides more control over the colours of every aspect of erugo. Ships with 7 light and 6 dark themes. The json file for any theme can be downloaded from the admin panel, modified and re-uploaded as a custom theme. &lt;/p&gt;
 &lt;p&gt;I'm planning on creating a theme marketplace where themes can be freely shared, forked, and downloaded. &lt;/p&gt;
@@ -38,7 +38,7 @@
     <title>New release for Erugo: v0.0.008</title>
     <updated>2025-03-02T17:14:46-05:00</updated>
     <author>
-      <name>DeanWard/erugo</name>
+      <name>ErugoOSS/Erugo</name>
     </author>
     <content>&lt;h1&gt;Release v0.0.008: Email Notification System&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/25a04e2c-f141-49f8-9992-7ea7f4946f7a" /&gt;&lt;/p&gt;
@@ -74,7 +74,7 @@
     <title>New release for Erugo: Release v0.0.009: Internationalisation Support</title>
     <updated>2025-03-04T14:20:43-05:00</updated>
     <author>
-      <name>DeanWard/erugo</name>
+      <name>ErugoOSS/Erugo</name>
     </author>
     <content>&lt;h1&gt;Release v0.0.009: Internationalisation Support&lt;/h1&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
@@ -113,7 +113,7 @@
     <title>New release for Erugo: Release v0.0.010: External auth provisional support</title>
     <updated>2025-03-08T14:50:25-05:00</updated>
     <author>
-      <name>DeanWard/erugo</name>
+      <name>ErugoOSS/Erugo</name>
     </author>
     <content>&lt;p&gt;I'm excited to announce Erugo v0.0.010, featuring provisional external authentication provider support! This release allows administrators to configure multiple OAuth and OpenID Connect providers, giving your users more flexible login options while maintaining security.&lt;/p&gt;
 &lt;h2&gt;🔐 New Features&lt;/h2&gt;
