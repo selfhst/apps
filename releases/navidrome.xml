@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-03-15T00:31:26.465428-04:00</updated>
+  <updated>2025-03-15T01:31:16.480840-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -224,8 +224,9 @@ metadata usage and customization.&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;Subsonic.ArtistParticipations&lt;/code&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Subsonic.DefaultReportRealPath&lt;/code&gt; &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Subsonic.LegacyClients&lt;/code&gt;         &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Tags&lt;/code&gt;                     &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tags&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Check the &lt;a href="https://www.navidrome.org/docs/usage/configuration-options/"&gt;Config Options&lt;/a&gt; documentation to learn more.&lt;/p&gt;
 &lt;h3&gt;Deprecated/Changed configuration options:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ScanSchedule&lt;/code&gt; was renamed to &lt;code&gt;Scanner.Schedule&lt;/code&gt;&lt;/li&gt;
