@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Authelia Releases</title>
-  <updated>2025-03-16T07:30:30.287724-04:00</updated>
+  <updated>2025-03-16T08:30:30.157047-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,19 @@
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/authelia/authelia/compare/v4.38.19...v4.39.0"&gt;4.39.0&lt;/a&gt; (2025-03-16)&lt;/h1&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Please see the &lt;a href="https://www.authelia.com/blog/4.39-release-notes/"&gt;Authelia Blog: 4.39 Release Notes&lt;/a&gt; for human readable summaries of the changes. It's important to note some critical changes have occurred to OpenID Connect 1.0 specifically the ID Tokens, and both the official Authelia container, and Systemd units have been heavily changed.&lt;/p&gt;
+&lt;p&gt;Please see the &lt;a href="https://www.authelia.com/blog/4.39-release-notes/"&gt;Authelia Blog: 4.39 Release Notes&lt;/a&gt; for human readable summaries of the changes. It's important to note some critical changes have occurred in this release that warrant some user attention. &lt;/p&gt;
+&lt;p&gt;Specific critical changes which are detailed in the &lt;a href="https://www.authelia.com/blog/4.39-release-notes/"&gt;Authelia Blog: 4.39 Release Notes&lt;/a&gt; to watch out for:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Changes that will require manual intervention in some scenarios:&lt;ul&gt;
+&lt;li&gt;The default claims for ID Tokens minted by the Authelia OpenID Connect 1.0 Identity Provider have changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Changes that shouldn't require manual intervention but are significant enough to cause issues in some edge cases:&lt;ul&gt;
+&lt;li&gt;The official Authelia container has been heavily changed.&lt;/li&gt;
+&lt;li&gt;The official Systemd Units which are packaged in AUR packages, DEB packages, and the GitHub artifacts archives have been heavily changed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;Detailed Changes&lt;/h2&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
