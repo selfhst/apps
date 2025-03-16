@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-03-16T12:33:25.179238-04:00</updated>
+  <updated>2025-03-16T13:33:13.833645-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,6 +235,7 @@ place.update_column(:lonlat, "SRID=4326;POINT(#{place.longitude} #{place.latitud
 &lt;p&gt;user.tracked_points.update_all('lonlat = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)')
 end
 ```&lt;/p&gt;
+&lt;p&gt;If you have encountered the &lt;code&gt;Caused by PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_points_on_lonlat_timestamp_user_id"&lt;/code&gt; error, there is a potential solution for you: https://github.com/Freika/dawarich/discussions/948#discussioncomment-12516472&lt;/p&gt;
 &lt;p&gt;With any errors, don't hesitate to ask for help in the &lt;a href="https://discord.gg/pHsBjpt5J8"&gt;Discord server&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Added&lt;/h2&gt;
 &lt;ul&gt;
