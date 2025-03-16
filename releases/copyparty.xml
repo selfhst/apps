@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-03-16T18:35:12.218582-04:00</updated>
+  <updated>2025-03-16T19:35:19.572809-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -275,9 +275,9 @@
 &lt;li&gt;&lt;a href="https://github.com/9001/copyparty/releases/tag/v1.14.3"&gt;v1.14.3 (2024-08-30)&lt;/a&gt; fixed a bug that was introduced in v1.13.8 (2024-08-13); this bug could lead to &lt;strong&gt;data loss&lt;/strong&gt; -- see the v1.14.3 release-notes for details&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;NEW: make it a bootable usb flashdrive&lt;/h2&gt;
-&lt;p&gt;get the party going anywhere, anytime, no OS required! &lt;a href="https://a.ocv.me/pub/stuff/edcd001/enterprise-edition/"&gt;download flashdrive image&lt;/a&gt; (also has a demo video)&lt;/p&gt;
+&lt;p&gt;get the party going anywhere, anytime, no OS required! &lt;a href="https://a.ocv.me/pub/stuff/edcd001/enterprise-edition/"&gt;download flashdrive image&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;there is &lt;a href="https://github.com/9001/asm/tree/hovudstraum/p/hub"&gt;source code&lt;/a&gt; and &lt;a href="https://github.com/9001/asm/tree/hovudstraum/p/hub/sm/how2build"&gt;build instructions&lt;/a&gt; too&lt;/li&gt;
+&lt;li&gt;there is a &lt;a href="https://a.ocv.me/pub/stuff/edcd001/enterprise-edition/hub-demo-hq.webm"&gt;low-effort demo video&lt;/a&gt; and &lt;a href="https://github.com/9001/asm/tree/hovudstraum/p/hub"&gt;source code&lt;/a&gt; and &lt;a href="https://github.com/9001/asm/tree/hovudstraum/p/hub/sm/how2build"&gt;build instructions&lt;/a&gt; too&lt;/li&gt;
 &lt;li&gt;please don't take this too seriously&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🧪 new features&lt;/h2&gt;
