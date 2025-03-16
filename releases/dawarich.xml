@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-03-16T13:33:13.833645-04:00</updated>
+  <updated>2025-03-16T14:33:13.234273-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -216,10 +216,12 @@ points = Point.where(import_id: nil).where.not(velocity: [nil, "0"]).where("time
       <name>Freika/dawarich</name>
     </author>
     <content>&lt;p&gt;This release is focused on improving the visits experience.&lt;/p&gt;
-&lt;p&gt;Since previous implementation of visits was not working as expected, this release introduces a new approach. It is recommended to remove all &lt;em&gt;non-confirmed&lt;/em&gt; visits before or after updating to this version.&lt;/p&gt;
-&lt;p&gt;There is a known issue when data migrations are not being run automatically on some systems. If you're experiencing issues when opening map page, trips page or when trying to see visits, try executing the following command in the &lt;a href="https://dawarich.app/docs/FAQ/#how-to-enter-dawarich-console"&gt;Console&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;Short demo:&lt;/p&gt;
+&lt;p&gt;Since previous implementation of visits was not working as expected, this release introduces a new approach. It is recommended to remove all &lt;em&gt;non-confirmed&lt;/em&gt; visits before or after updating to this version. To do that, run this in the Console:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ruby
+Visit.suggested.destroy_all&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Short Visits demo:&lt;/p&gt;
 &lt;p&gt;https://github.com/user-attachments/assets/d459b60d-d819-4351-b569-8e753061fff9&lt;/p&gt;
+&lt;p&gt;There is a known issue when data migrations are not being run automatically on some systems. If you're experiencing issues when opening map page, trips page or when trying to see visits, try executing the following command in the &lt;a href="https://dawarich.app/docs/FAQ/#how-to-enter-dawarich-console"&gt;Console&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;```ruby
 User.includes(:tracked_points, visits: :places).find_each do |user|
   places_to_update = user.places.where(lonlat: nil)&lt;/p&gt;
