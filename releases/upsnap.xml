@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>UpSnap Releases</title>
-  <updated>2025-03-16T10:32:36.854913-04:00</updated>
+  <updated>2025-03-16T11:32:50.633947-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -195,7 +195,7 @@ All device cron expressions must be updated to follow the new &lt;strong&gt;5-6 
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;ce42d060ff51d5caf2d0bf2f7da078a260080088: feat: add &lt;pre&gt; tags for cron explaination (@seriousm4x)&lt;/li&gt;
+&lt;li&gt;ce42d060ff51d5caf2d0bf2f7da078a260080088: feat: add &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tags for cron explaination (@seriousm4x)&lt;/li&gt;
 &lt;li&gt;33c56016f64a6f088128d5c3d7bc2abcee24dcf2: feat: add keyboard shortcut to search bar (@seriousm4x)&lt;/li&gt;
 &lt;li&gt;c2f574426f629f8566e4f9cb520e66c047643526: feat: add more test cases (@seriousm4x)&lt;/li&gt;
 &lt;li&gt;77147f04c1e4ca1098ed140a604a82d06805e298: feat: add search bar (@seriousm4x)&lt;/li&gt;
