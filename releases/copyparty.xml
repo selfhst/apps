@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-03-16T17:35:22.598682-04:00</updated>
+  <updated>2025-03-16T18:35:12.218582-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -312,7 +312,7 @@
 &lt;li&gt;
 &lt;h1&gt;143 print a warning on incorrect character-encoding in textfiles (config-files, logues, readmes etc.) 25974d66&lt;/h1&gt;
 &lt;/li&gt;
-&lt;li&gt;copyparty.exe: update to jinja 3.1.6 (copyparty was &lt;em&gt;not affected&lt;/em&gt; by the vuln in 3.1.5)&lt;/li&gt;
+&lt;li&gt;copyparty.exe: update to jinja 3.1.6 (copyparty was &lt;em&gt;not affected&lt;/em&gt; by the jinja-3.1.5 vuln)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h1&gt;💾 what to download?&lt;/h1&gt;
