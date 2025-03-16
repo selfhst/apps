@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FitTrackee Releases</title>
-  <updated>2025-03-16T15:32:35.542797-04:00</updated>
+  <updated>2025-03-16T16:32:33.990332-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -226,7 +226,7 @@ This release contains database migration (see upgrade instructions in &lt;a href
     <content>&lt;h3&gt;Features and enhancements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/issues/714"&gt;#714&lt;/a&gt; - New sports: Kayaking and Canoeing&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/issues/719"&gt;#719&lt;/a&gt; - Filter workouts according to visibility in workout list&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/pull/719"&gt;PR#719&lt;/a&gt; - Filter workouts according to visibility in workout list&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/issues/722"&gt;#722&lt;/a&gt; - Statistics per day&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bugs Fixed&lt;/h3&gt;
