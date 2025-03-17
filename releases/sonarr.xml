@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sonarr Releases</title>
-  <updated>2025-03-17T14:31:23.375284-04:00</updated>
+  <updated>2025-03-17T15:31:23.298910-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -322,5 +322,17 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.12.2823...v4.0.13.2932&lt;/p&gt;</content>
     <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.13.2932" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Sonarr/Sonarr/releases/tag/v4.0.14.2939</id>
+    <title>New release for Sonarr: 4.0.14.2939</title>
+    <updated>2025-03-17T15:12:37-04:00</updated>
+    <author>
+      <name>Sonarr/Sonarr</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 640e3e5d441b0f363d3b993f36dae3d22691608c --&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Sonarr/Sonarr/compare/v4.0.13.2932...v4.0.14.2939&lt;/p&gt;</content>
+    <link href="https://github.com/Sonarr/Sonarr/releases/tag/v4.0.14.2939" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>theme.park Releases</title>
-  <updated>2025-03-17T14:34:00.251937-04:00</updated>
+  <updated>2025-03-17T15:34:02.881608-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,6 +128,9 @@ Or you can just replace the files in /app/bin/UI/Content/Images/Icons&lt;/p&gt;
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at master --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deprecated docker builds for armv7&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Other Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sonarr, Radarr, Readarr Favicons by @GilbN in https://github.com/themepark-dev/theme.park/pull/650&lt;/li&gt;
