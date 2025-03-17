@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bugsink Releases</title>
-  <updated>2025-03-17T10:35:18.430150-04:00</updated>
+  <updated>2025-03-17T11:35:14.731136-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,5 +114,20 @@ or run the &lt;code&gt;init_tags&lt;/code&gt; command to determine the tags for 
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bugsink/bugsink/releases/tag/1.4.1</id>
+    <title>New release for Bugsink: 1.4.1</title>
+    <updated>2025-03-17T11:04:20-04:00</updated>
+    <author>
+      <name>bugsink/bugsink</name>
+    </author>
+    <content>&lt;h2&gt;1.4.1 (17 March 2025)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Bugfixes on the experimental postgres support, see #21, #61&lt;/li&gt;
+&lt;li&gt;sqlite: per-query timeout configurable&lt;/li&gt;
+&lt;li&gt;Make &lt;code&gt;EMAIL_TIMEOUT&lt;/code&gt; configurable on Docker, fixes #60&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.1" rel="alternate"/>
   </entry>
 </feed>
