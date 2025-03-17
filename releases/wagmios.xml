@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WagmiOS Releases</title>
-  <updated>2025-03-17T00:35:43.178240-04:00</updated>
+  <updated>2025-03-17T01:35:39.108024-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,16 @@
 &lt;li&gt;smaller footprint&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/mentholmike/wagmios/releases/tag/v2.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/mentholmike/wagmios/releases/tag/v2.1.0</id>
+    <title>New release for WagmiOS: Backend Updates ✅</title>
+    <updated>2025-03-17T00:43:33-04:00</updated>
+    <author>
+      <name>mentholmike/wagmios</name>
+    </author>
+    <content>&lt;p&gt;Hello Everyone, &lt;/p&gt;
+&lt;p&gt;I have changed the backend port from 8080 to 5179. Hope it doesn't screw with any containers you have now :) &lt;/p&gt;</content>
+    <link href="https://github.com/mentholmike/wagmios/releases/tag/v2.1.0" rel="alternate"/>
   </entry>
 </feed>
