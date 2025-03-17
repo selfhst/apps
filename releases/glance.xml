@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-03-16T22:33:23.934622-04:00</updated>
+  <updated>2025-03-16T23:33:20.078947-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,12 +93,12 @@
 &lt;li&gt;Improved accessibility of the Docker containers widget (thanks @Lanie-Carmelo)&lt;/li&gt;
 &lt;li&gt;Reduced the contrast of calendar dates to better match the design language of other widgets&lt;/li&gt;
 &lt;li&gt;Added more info to error messages of DNS stats widget when using &lt;code&gt;service: pihole-v6&lt;/code&gt; to help with debugging issues&lt;/li&gt;
-&lt;li&gt;Changed the int type in the Custom API widget to &lt;code&gt;int&lt;/code&gt; from &lt;code&gt;int64&lt;/code&gt; so that you can now perform calculations on the result of the &lt;code&gt;len&lt;/code&gt; function (thanks @titembaatar)&lt;/li&gt;
+&lt;li&gt;Changed the integer type in the Custom API widget to &lt;code&gt;int&lt;/code&gt; from &lt;code&gt;int64&lt;/code&gt; so that you can now perform calculations on the result of the &lt;code&gt;len&lt;/code&gt; function (thanks @titembaatar)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Videos widget with style &lt;code&gt;vertical-list&lt;/code&gt; not opening links in new tab (thanks @aliaghil)&lt;/li&gt;
-&lt;li&gt;DNS stats widget "Top blocked domains" in the UI having an additional triangle on the left on Safari (@lukpep)&lt;/li&gt;
+&lt;li&gt;DNS stats widget "Top blocked domains" in the UI having an additional triangle on the left on Safari (thanks @lukpep)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/glanceapp/glance/releases/tag/v0.7.7" rel="alternate"/>
   </entry>
