@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-03-17T08:34:25.664341-04:00</updated>
+  <updated>2025-03-17T09:34:22.465256-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,7 +134,6 @@
 &lt;li&gt;695143f2722006d1537e0dbf37fc293d0fa18fcb Config UI: keep broken loadpoints editable (#19263)&lt;/li&gt;
 &lt;li&gt;6a4ec7335eb2bec5862a89bf676a21755cf947bf Config UI: persist product name, keep device type (#19808)&lt;/li&gt;
 &lt;li&gt;8bb57b531a724d8b236e738666d828c7bff7a91a Config UI: remove obsolete migrations (BC) (#19417)&lt;/li&gt;
-&lt;li&gt;9a497ed2277979096b2bbb0fba53905916672e92 Fix Lint errors&lt;/li&gt;
 &lt;li&gt;be4d59c92863d470594db1ff12b7f3897997fe49 Forecast: dont show if not configured&lt;/li&gt;
 &lt;li&gt;5ef4b50e1f4246e137529604e30ddb8f06d246cc Forecast: solar adjust details (#19724)&lt;/li&gt;
 &lt;li&gt;aa2fbb933d1cdf4d468f5abe936b5af0ee145253 Fronius Solar API V1: add pv energy (#19192)&lt;/li&gt;
@@ -142,14 +141,7 @@
 &lt;li&gt;aeddad2cd96273bbce6f9b198887734900191365 Hoymiles ahoyDTU: clarify index meaning (#19187)&lt;/li&gt;
 &lt;li&gt;5ed022aa91dfeba6c3c21abbf5a3c433aaf9cd9a LG ESS: add battery control (#19630)&lt;/li&gt;
 &lt;li&gt;19e122be7a2003af372c792cb4ba4815d672a17b Lambda: update energy (#19712)&lt;/li&gt;
-&lt;li&gt;8d3d42b9975a4358dc669bcb8b0a5dfa5bcc3bae Loadpoint: fix reentrant lock&lt;/li&gt;
-&lt;li&gt;3b30b2773affbfcf077a109b7eade9d6ac5fdcf7 Loadpoint: fix reentrant lock&lt;/li&gt;
 &lt;li&gt;f34d2ca65b2143c68b0f72616fe5e51c0e646cd1 MTec: Add active battery control&lt;/li&gt;
-&lt;li&gt;028ec730d1c039d1521c475aeaf6f41a3af7947d Merge pull request #19079 from patrickweh/mtec/add_active_battery_control&lt;/li&gt;
-&lt;li&gt;3a1a9055f125215a1617628a2d48a67130f4b245 Merge pull request #19623 from hameno/master&lt;/li&gt;
-&lt;li&gt;cf843630bba389bf02e5568a92966fc4e8aee7bb Merge pull request #19664 from thecem/patch-5&lt;/li&gt;
-&lt;li&gt;b18b7964a8148eaa2b4e13633c00ce8a2e242504 Merge pull request #19666 from Giermann/patch-4&lt;/li&gt;
-&lt;li&gt;9bdb058cc2dc72c6435394749723671c626b0b7f Merge pull request #19672 from evcc-io/fix/forecast_visible&lt;/li&gt;
 &lt;li&gt;3d8908085836f3525fb24ca5534efecd00bc2ffd OCPP: assume 1p3p support for power (#19735)&lt;/li&gt;
 &lt;li&gt;0f340f807992c9edb31744732ab5b8e02236650d OVMS: add climater (#19796)&lt;/li&gt;
 &lt;li&gt;58888fa1a3776af2263749bde94c197ec4c98c94 Plan UI: Always show price/co2 on hover when known (#19729)&lt;/li&gt;
@@ -159,12 +151,9 @@
 &lt;li&gt;d194ce2783c70f0f4310aa7d0c2ee9d9ecb00f5d Solax: fix deprecated storageunit&lt;/li&gt;
 &lt;li&gt;10c0028a97a6a19804189b11d61c6c9ebc7b77f0 Toyota: fix token refresh (#19766)&lt;/li&gt;
 &lt;li&gt;c541a437596e35391443190b7984c6b72a497fcd UI: reload state on instance restart (#19536)&lt;/li&gt;
-&lt;li&gt;46b3824b1cbebf2f7065e78caa54627be6be9de4 Update lambda-zewotherm.yaml&lt;/li&gt;
 &lt;li&gt;570d09519c2058d9e0fc94e6afcca5ff6b972b51 Warp3: split Smart and Pro models (#19776)&lt;/li&gt;
-&lt;li&gt;6c55057394811e73d92c5586f37a28a3eda71522 modbus id auf 255&lt;/li&gt;
 &lt;li&gt;37ed54ed031e9e9bbd14b9dca1644823f090ea60 mz2mqtt: deprecate (#19821)&lt;/li&gt;
 &lt;li&gt;2dc4727d1e77b99b94aed8eadf538cbba67a572b sungrow-hybrid: refactor hold battery mechanism&lt;/li&gt;
-&lt;li&gt;e023ceaa5d2447c5151180e0c16eab3c2a00a456 wip&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.201.0" rel="alternate"/>
   </entry>
