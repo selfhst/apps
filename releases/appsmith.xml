@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appsmith Releases</title>
-  <updated>2025-03-17T05:32:12.719801-04:00</updated>
+  <updated>2025-03-17T06:32:12.085073-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,7 +147,6 @@
     <content>&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduced the &lt;strong&gt;Organization Administrator&lt;/strong&gt; role for better user management and access control. (#39549)&lt;/li&gt;
-&lt;li&gt;Added infinite scroll functionality in basic tables to efficiently handle large data sets. (#39441)&lt;/li&gt;
 &lt;li&gt;Improved autocomplete functionality to trigger suggestions even outside bindings. (#39446)&lt;/li&gt;
 &lt;li&gt;Added support for a configurable connection pool in the MySQL plugin for better database performance. (#39148)&lt;/li&gt;
 &lt;/ul&gt;
