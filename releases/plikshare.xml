@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2025-03-17T13:34:23.850940-04:00</updated>
+  <updated>2025-03-17T14:34:25.389382-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -33,5 +33,21 @@
 - &lt;strong&gt;[FIX]&lt;/strong&gt; Small entries in zip repos download edge-case (breaking download in some rare scenarios) fixed&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v.1.1.0...v1.1.1&lt;/p&gt;</content>
     <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.2</id>
+    <title>New release for PlikShare: v1.1.2</title>
+    <updated>2025-03-17T14:34:06-04:00</updated>
+    <author>
+      <name>damian-krychowski/plikshare</name>
+    </author>
+    <content>&lt;p&gt;Changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[FIX]&lt;/strong&gt; access key is obfuscated on the list of storages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[FIX]&lt;/strong&gt; when storage is created dashboard cache is invalidated&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[FIX]&lt;/strong&gt; when workspace name is changed workspace cache is invalidated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v1.1.1...v1.1.2&lt;/p&gt;</content>
+    <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.2" rel="alternate"/>
   </entry>
 </feed>
