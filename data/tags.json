@@ -570,6 +570,12 @@
         ]
     },
     {
+        "Tag": "Media Assets",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Media Streaming",
         "Valid Types": [
             "Software",
@@ -708,13 +714,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -971,14 +977,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Companion",
+            "Software"
         ]
     },
     {
