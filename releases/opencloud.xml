@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-03-18T09:36:08.950845-04:00</updated>
+  <updated>2025-03-18T10:36:03.627362-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,5 +161,15 @@ This is the first rolling release (3 week cycle). Please note that although we h
 &lt;li&gt;&lt;strong&gt;Compatible with&lt;/strong&gt;: Windows, Mac, Linux, &lt;strong&gt;Android (soon), iOS (soon),&lt;/strong&gt; and Web.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/opencloud-eu/opencloud/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/opencloud-eu/opencloud/releases/tag/v1.1.0</id>
+    <title>New release for OpenCloud: 1.1.0</title>
+    <updated>2025-03-18T10:10:35-04:00</updated>
+    <author>
+      <name>opencloud-eu/opencloud</name>
+    </author>
+    <content>&lt;h1&gt;Table of Contents&lt;/h1&gt;</content>
+    <link href="https://github.com/opencloud-eu/opencloud/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Infisical Releases</title>
-  <updated>2025-03-18T09:36:00.164351-04:00</updated>
+  <updated>2025-03-18T10:35:54.820014-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,12 +91,13 @@
     <author>
       <name>Infisical/infisical</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Important Notice&lt;/h2&gt;
+&lt;p&gt;Please update to v0.117.1 for SAML CVE patch in node-saml&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(k8s): configmap support by @DanielHougaard in https://github.com/Infisical/infisical/pull/3239&lt;/li&gt;
 &lt;li&gt;Add Humanitec secret sync integration by @carlosmonastyrski in https://github.com/Infisical/infisical/pull/3235&lt;/li&gt;
 &lt;li&gt;Feat/allow share to anyone edition by @carlosmonastyrski in https://github.com/Infisical/infisical/pull/3221&lt;/li&gt;
-&lt;li&gt;Address SAML CVE by @maidul98 in https://github.com/Infisical/infisical/pull/3244&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Infisical/infisical/compare/infisical-cli/v0.36.17...infisical/v0.117.0-postgres&lt;/p&gt;</content>
     <link href="https://github.com/Infisical/infisical/releases/tag/infisical/v0.117.0-postgres" rel="alternate"/>
