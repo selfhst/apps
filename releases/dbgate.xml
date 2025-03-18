@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-03-18T06:34:34.231943-04:00</updated>
+  <updated>2025-03-18T07:34:46.066246-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,5 +74,15 @@
 &lt;li&gt;CHANGED: Upgraded SQLite engine version (better-sqlite3@11.8.1)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.3.0</id>
+    <title>New release for DbGate: v6.3.0</title>
+    <updated>2025-03-18T07:17:55-04:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content/>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.3.0" rel="alternate"/>
   </entry>
 </feed>
