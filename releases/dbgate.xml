@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-03-18T07:34:46.066246-04:00</updated>
+  <updated>2025-03-18T08:34:36.758779-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,17 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;ADDED: Support for libSQL and Turso (Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Native backup and restore database for MySQL and PostgreSQL (Premium)&lt;/li&gt;
+&lt;li&gt;REMOVED: DbGate internal dump export for MySQL (replaced with call of mysqldump)&lt;/li&gt;
+&lt;li&gt;REMOVED: Import SQL dump with internal DbGate capabilities (replaced by calling of mysql and psql utilities)&lt;/li&gt;
+&lt;li&gt;FIXED: Many fixes in stream processing (imoprt/export), especialy for MongoDB&lt;/li&gt;
+&lt;li&gt;ADDED: Indicating progress of import/export tasks, better error reporting&lt;/li&gt;
+&lt;li&gt;CHANGED: #1060 - Changed shortcut for AI assistant&lt;/li&gt;
+&lt;li&gt;ADDED: /health endpoint with diagnostic info&lt;/li&gt;
+&lt;li&gt;FIXED: Linux Appimage crash =&amp;gt; A JavaScript error occurred in the main process #1065 , #1067&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.3.0" rel="alternate"/>
   </entry>
 </feed>
