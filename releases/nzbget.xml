@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NZBGet Releases</title>
-  <updated>2025-03-18T04:35:34.797238-04:00</updated>
+  <updated>2025-03-18T05:35:26.668011-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,7 +175,11 @@
 &lt;/li&gt;
 &lt;li&gt;Fixed application updates on Windows &lt;a href="https://github.com/nzbgetcom/nzbget/pull/528"&gt;#528&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed &lt;code&gt;DirectUnpack&lt;/code&gt; cancellation &lt;a href="https://github.com/nzbgetcom/nzbget/pull/530"&gt;#530&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Due to a bug affecting updates on Windows, direct upgrades from v24.7 to v24.8 are currently unavailable on Windows. To upgrade, please manually install version 24.8. After the manual installation, the updater should start working correctly.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
     <link href="https://github.com/nzbgetcom/nzbget/releases/tag/v24.8" rel="alternate"/>
   </entry>
 </feed>
