@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2025-03-19T08:31:28.933280-04:00</updated>
+  <updated>2025-03-19T09:31:33.550726-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,7 +177,7 @@
     </author>
     <content>&lt;h3&gt;IMPORTANT NOTES&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove NodeJS 18 support. Please upgrade to NodeJS 20 before upgrading PeerTube&lt;/li&gt;
+&lt;li&gt;Remove NodeJS 18 support. Please upgrade to NodeJS 20 (&amp;gt;= 20.9) before upgrading PeerTube&lt;/li&gt;
 &lt;li&gt;Due to a bug in the remote video thumbnail update, we recommend running the &lt;a href="https://docs.joinpeertube.org/maintain/tools#prune-filesystem-object-storage"&gt;prune storage&lt;/a&gt; script to clean up the filesystem&lt;/li&gt;
 &lt;li&gt;Let's encrypt is removing &lt;a href="https://letsencrypt.org/2024/12/05/ending-ocsp/"&gt;OCSP support in 2025&lt;/a&gt;, so remove SSL stapling from your nginx configuration: https://github.com/Chocobozzz/PeerTube/commit/0abaaa8ccbce19deb6fcd09c8bf00d4cf4248505&lt;/li&gt;
 &lt;li&gt;Safari desktop versions &amp;lt; 14 are not supported anymore&lt;/li&gt;
