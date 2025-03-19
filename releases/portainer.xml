@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2025-03-18T22:31:28.223029-04:00</updated>
+  <updated>2025-03-18T23:31:31.088489-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -211,6 +211,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;We are aware of an issue in 2.28.0 for Kubernetes environments with CA-signed TLS certificates configured. A patch release is coming for this issue but we do not recommend users with this configuration update to 2.28.0 at this time.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
