@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Z-Wave JS UI Releases</title>
-  <updated>2025-03-19T04:32:00.393021-04:00</updated>
+  <updated>2025-03-19T05:32:00.524696-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,13 @@
     <author>
       <name>zwave-js/zwave-js-ui</name>
     </author>
-    <content>&lt;h1&gt;&lt;a href="https://github.com/zwave-js/zwave-js-ui/compare/v9.33.1...v10.0.0"&gt;10.0.0&lt;/a&gt; (2025-03-19)&lt;/h1&gt;</content>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/zwave-js/zwave-js-ui/compare/v9.33.1...v10.0.0"&gt;10.0.0&lt;/a&gt; (2025-03-19)&lt;/h1&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feat!: bump zwave-js@15 and fix breaking changes (https://github.com/zwave-js/zwave-js-ui/pull/4136)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Breaking changes ⚠️&lt;/h3&gt;
+&lt;p&gt;Minumum Node.js required version is now &amp;gt;= 20.0&lt;/p&gt;</content>
     <link href="https://github.com/zwave-js/zwave-js-ui/releases/tag/v10.0.0" rel="alternate"/>
   </entry>
 </feed>
