@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tusky Releases</title>
-  <updated>2025-03-19T14:34:15.244262-04:00</updated>
+  <updated>2025-03-19T15:34:21.685385-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,7 @@
     <content>&lt;p&gt;Significant bug fixes
 - Fixes a bug where media previews would flicker when interacting with a post https://github.com/tuskyapp/Tusky/pull/4971
 - Tusky now ignores invalid publishing dates of preview cards that caused some posts not to load https://github.com/tuskyapp/Tusky/pull/4993&lt;/p&gt;
-&lt;p&gt;For changes since v27.3 see &lt;a href="https://github.com/tuskyapp/Tusky/blob/develop/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For changes since v27.2 see &lt;a href="https://github.com/tuskyapp/Tusky/blob/develop/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you like Tusky, consider supporting us on &lt;a href="https://opencollective.com/tusky"&gt;Open Collective&lt;/a&gt;!&lt;/p&gt;</content>
     <link href="https://github.com/tuskyapp/Tusky/releases/tag/v28.0" rel="alternate"/>
   </entry>
