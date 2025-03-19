@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2025-03-19T10:31:33.538581-04:00</updated>
+  <updated>2025-03-19T11:31:25.418412-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -231,7 +231,7 @@
 &lt;ul&gt;
 &lt;li&gt;:tada: Redesign &lt;em&gt;About Platform&lt;/em&gt;, &lt;em&gt;About PeerTube&lt;/em&gt; and &lt;em&gt;About Network&lt;/em&gt; pages :tada:&lt;/li&gt;
 &lt;li&gt;Highlight author host in video miniature using a new dropdown component that explains where the content is coming from&lt;/li&gt;
-&lt;li&gt;Add ability to put video captions in object storage&lt;/li&gt;
+&lt;li&gt;Add ability to put video captions in object storage. Use the &lt;a href="https://docs.joinpeertube.org/maintain/tools#move-video-files-from-filesystem-to-object-storage"&gt;CLI&lt;/a&gt; after the upgrade to move existing captions to object storage&lt;/li&gt;
 &lt;li&gt;Add ability for &lt;a href="https://joinmastodon.org/verification"&gt;Mastodon to verify&lt;/a&gt; PeerTube links&lt;/li&gt;
 &lt;li&gt;Enable viewer protocol V2 for better &lt;a href="https://joinpeertube.org/news/stress-test-2023"&gt;concurrent viewer scalability&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Add ability for admins to set the default player auto play behaviour &lt;a href="https://github.com/Chocobozzz/PeerTube/pull/6788"&gt;#6167&lt;/a&gt;&lt;/li&gt;
