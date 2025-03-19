@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinkBuddy Releases</title>
-  <updated>2025-03-19T02:35:40.219433-04:00</updated>
+  <updated>2025-03-19T03:35:47.559613-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -23,5 +23,19 @@
 &lt;li&gt;Updates expo/react components to latest supported versions and for cross-platform mobile build.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/peterto/LinkBuddy/releases/tag/v1.2.0</id>
+    <title>New release for LinkBuddy: LinkBuddy v1.2.0</title>
+    <updated>2025-03-19T03:23:00-04:00</updated>
+    <author>
+      <name>peterto/LinkBuddy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Updates tagging interface with pull to refresh and lazy loading.&lt;/li&gt;
+&lt;li&gt;Updates bookmark creation with new modal tagging ui that will suggest existing tags or the ability to create a new one from modal.&lt;/li&gt;
+&lt;li&gt;Adds ability to create a new tag in separate screen.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
