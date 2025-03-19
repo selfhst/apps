@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mealie Releases</title>
-  <updated>2025-03-19T05:31:16.369578-04:00</updated>
+  <updated>2025-03-19T06:31:15.343455-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -323,7 +323,7 @@
 &lt;h3&gt;📑 New Ingredient Parser&lt;/h3&gt;
 &lt;p&gt;Mealie now uses a new Ingredient Parser package, making future development easier — especially for adding support for languages beyond English. While some inputs may be interpreted differently, our testing shows that improvements and regressions generally balance out. So overall parsing performance remains the same.&lt;/p&gt;
 &lt;h3&gt;🔍Scraper Improvements&lt;/h3&gt;
-&lt;p&gt;Nutritional data is now extracted directly from our scraper library, including additional information beyond the recipe schema. This improves the accuracy and completeness.&lt;/p&gt;
+&lt;p&gt;Nutritional data is now extracted directly from our scraper library, including additional information beyond the recipe schema. This improves the accuracy and completeness for some sites.&lt;/p&gt;
 &lt;h2&gt;✨ New features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: Migrate from CRF++ to Ingredient Parser (a Python package) @michael-genson (#5061)&lt;/li&gt;
