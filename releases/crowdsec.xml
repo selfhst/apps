@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2025-03-19T06:32:20.802636-04:00</updated>
+  <updated>2025-03-19T07:32:14.749136-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -456,5 +456,84 @@
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.6</id>
+    <title>New release for CrowdSec: v1.6.6</title>
+    <updated>2025-03-18T09:05:01-04:00</updated>
+    <author>
+      <name>crowdsecurity/crowdsec</name>
+    </author>
+    <content>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This release introduces &lt;strong&gt;centralized allowlists&lt;/strong&gt;: you can now manage allowlists directly from LAPI or from the console.
+Those allowlists will applied by LAPI to local decisions, appsec rules and blocklists, no need to deploy specific allowlists to each machine.&lt;/p&gt;
+&lt;p&gt;You can learn more about them &lt;a href="https://doc.crowdsec.net/docs/next/local_api/centralized_allowlists"&gt;in our documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release also deprecates &lt;a href="https://docs.crowdsec.net/docs/next/configuration/crowdsec_configuration/#capi_whitelists_path"&gt;capi_whitelists_path&lt;/a&gt;, and we encourage users to migrate to centralized allowlists as they are more flexible.&lt;/p&gt;
+&lt;p&gt;This release also introduces various improvements:
+ - &lt;a href="https://github.com/FoxIO-LLC/ja4"&gt;JA4H&lt;/a&gt; helper for the appsec to compute hashes for HTTP requests
+ - &lt;a href="https://doc.crowdsec.net/docs/next/configuration/crowdsec_configuration/#ssl_ca_cert"&gt;Custom CA support and mTLS authentication&lt;/a&gt; for PostgreSQL/MySQL
+ - Various fixes&lt;/p&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Parallel hubtest (#3509) @mmetc&lt;/li&gt;
+&lt;li&gt;deprecate capi_whitelists_path (#3504) @blotus&lt;/li&gt;
+&lt;li&gt;Add support for centralized allowlists (#3355) @blotus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;appsec: use CA from client credentials when connecting to LAPI (#3505) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: gocritic/httpNoBody (#3493) @mmetc&lt;/li&gt;
+&lt;li&gt;tests: remove modeline (#3486) @mmetc&lt;/li&gt;
+&lt;li&gt;pkg/cwhub: refact Item.State.(Downloaded | Installed)  (#3476) @mmetc&lt;/li&gt;
+&lt;li&gt;refact: context propagation (apiclient, cticlient...) (#3477) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: use go 1.24 for windows (#3479) @mmetc&lt;/li&gt;
+&lt;li&gt;tests: switch context.Background() -&amp;gt; t.Context() from go 1.24 (#3473) @mmetc&lt;/li&gt;
+&lt;li&gt;refact: avoid use of defer calls in loops (#3466) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: lint docker tests (#3443) @mmetc&lt;/li&gt;
+&lt;li&gt;lint: gocritic/typeDefFirst (ensure type definitions come before methods) (#3404) @mmetc&lt;/li&gt;
+&lt;li&gt;file acquisition: remove redundant logging info (#3468) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: skip unit tests with dynamic build (#3461) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;appsec: support custom CA for lapi (#3503) @mmetc&lt;/li&gt;
+&lt;li&gt;enhancement: Add additional ssl options to db configuration (#3387) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;move ParseQuery to expr helpers, add ExtractQueryParam (#3491) @buixor&lt;/li&gt;
+&lt;li&gt;enable/disable options for console enroll - make alert context a default (#3487) @buixor&lt;/li&gt;
+&lt;li&gt;enhance: add option to disable magic syslog RFC parsers (#3435) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;add JA4H expr helper (#3401) @blotus&lt;/li&gt;
+&lt;li&gt;leaky bucket: reduce log verbosity (#3472) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update appsec test runner (#3518) @mmetc&lt;/li&gt;
+&lt;li&gt;close appsec transactions after processing request (#3515) @blotus&lt;/li&gt;
+&lt;li&gt;opensuse sets OSTYPE to linux (#3514) @blotus&lt;/li&gt;
+&lt;li&gt;do not attempt to set db log level if no db config (#3510) @blotus&lt;/li&gt;
+&lt;li&gt;appsec: less verbose logging for allowlists and headers check (#3498) @blotus&lt;/li&gt;
+&lt;li&gt;enhance: Flags now superceed all log levels (#3496) @LaurenceJJones&lt;/li&gt;
+&lt;li&gt;appsec: handle SendAlert() properly for out of band matches (#3497) @blotus&lt;/li&gt;
+&lt;li&gt;cscli: review/update argument number checking  (#3490) @mmetc&lt;/li&gt;
+&lt;li&gt;crowdsec: allow -t to work if using appsec and allowlists (#3484) @blotus&lt;/li&gt;
+&lt;li&gt;cron: avoid spamming stdout when the hub index is updated (#3485) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: allow non-local symlinks to have a different name than hub items (#3475) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli hub/items: always show action plan; fix --interactive in pipes (#3451) @mmetc&lt;/li&gt;
+&lt;li&gt;silence "cscli hub update" if noop in cron jobs (#3460) @mmetc&lt;/li&gt;
+&lt;li&gt;cscli: don't attempt to download data files when url="" (#3454) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Chore / Deps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use go 1.24.1 (#3501) @mmetc&lt;/li&gt;
+&lt;li&gt;update dependencies: color, go-sqlite3, tail, slack, testify (#3474) @mmetc&lt;/li&gt;
+&lt;li&gt;use go 1.24, enable unencrypted http2 (#3470) @mmetc&lt;/li&gt;
+&lt;li&gt;deps: use ent 0.14.2 (#3259) @mmetc&lt;/li&gt;
+&lt;li&gt;build(deps): bump github.com/golang/glog from 1.2.2 to 1.2.4 (#3431) @&lt;a href="https://github.com/apps/dependabot"&gt;dependabot[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;deps: update gin-jwt (#3430) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Geolite2 notice&lt;/h2&gt;
+&lt;p&gt;This product includes GeoLite2 data created by MaxMind, available from &lt;a href="https://www.maxmind.com"&gt;https://www.maxmind.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.6" rel="alternate"/>
   </entry>
 </feed>
