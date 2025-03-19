@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-03-19T03:33:31.078783-04:00</updated>
+  <updated>2025-03-19T04:33:31.531305-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,17 +112,25 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.6...v0.21.7&lt;/p&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: avoid ClassCastException when parsing flow inputs (#7882) (&lt;a href="https://github.com/kestra-io/kestra/commit/f80bdc290987192f6c38bb21e0bd3983eaa1c1b2"&gt;Florian Hussonnois&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: amend displaying large amount of logs (&lt;a href="https://github.com/kestra-io/kestra/commit/ce94c9ad29a7d35d4514621fd6b2afd9401099fa"&gt;MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;script&lt;/strong&gt;: change centOS docker image because EOL (&lt;a href="https://github.com/kestra-io/kestra/commit/7dd7d4507e69fb3774045e9059e7897ca48d42ef"&gt;nKwiatkowski&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;test&lt;/strong&gt;: backport flacky tests fixed on develop (&lt;a href="https://github.com/kestra-io/kestra/commit/17ed32556ae7e47b12a13e1d791788ce714bd30a"&gt;nKwiatkowski&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Avoid ClassCastException when parsing flow inputs (&lt;a href="https://github.com/kestra-io/kestra/pull/7882"&gt;#7882&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Amend displaying large amount of logs (&lt;a href="https://github.com/kestra-io/kestra/commit/ce94c9ad2"&gt;ce94c9ad2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;script:&lt;/strong&gt; Change centOS docker image because EOL (&lt;a href="https://github.com/kestra-io/kestra/commit/7dd7d4507"&gt;7dd7d4507&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;test:&lt;/strong&gt; Backport flacky tests fixed on develop (&lt;a href="https://github.com/kestra-io/kestra/commit/17ed32556"&gt;17ed32556&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: update the CHANGELOG.MD with details for 0.21.6 (&lt;a href="https://github.com/kestra-io/kestra/commit/f0fcdf4851ebe1d0ee18ba1a4f7bafb4ea968c9b"&gt;MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: update to version 'v0.21.7' (&lt;a href="https://github.com/kestra-io/kestra/commit/54da3fc26875e1d2da6a4d6991857502feb723e4"&gt;nKwiatkowski&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version:&lt;/strong&gt; Update the CHANGELOG.MD with details for 0.21.6 (&lt;a href="https://github.com/kestra-io/kestra/commit/f0fcdf485"&gt;f0fcdf485&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version:&lt;/strong&gt; Update to version 'v0.21.7' (&lt;a href="https://github.com/kestra-io/kestra/commit/54da3fc26"&gt;54da3fc26&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NKwiatkowski &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#110;&amp;#107;&amp;#119;&amp;#105;&amp;#97;&amp;#116;&amp;#107;&amp;#111;&amp;#119;&amp;#115;&amp;#107;&amp;#105;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;"&gt;&amp;#110;&amp;#107;&amp;#119;&amp;#105;&amp;#97;&amp;#116;&amp;#107;&amp;#111;&amp;#119;&amp;#115;&amp;#107;&amp;#105;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MilosPaunovic (&lt;a href="https://github.com/MilosPaunovic"&gt;@MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Florian Hussonnois (&lt;a href="https://github.com/fhussonnois"&gt;@fhussonnois&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.7" rel="alternate"/>
   </entry>

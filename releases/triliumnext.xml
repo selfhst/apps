@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2025-03-19T03:33:32.589857-04:00</updated>
+  <updated>2025-03-19T04:33:33.162806-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -747,7 +747,7 @@ An important bug was detected on this version on macOS: &lt;a href="https://gith
 &lt;h3&gt;💡 Key highlights&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Support for admonitions in text notes and Markdown (info box, warning boxes). See documentation for more info.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/1267"&gt;Signed binaries for macOS (thanks to @perfectra1n for the implementation).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/1267"&gt;Signed binaries for macOS&lt;/a&gt;. Thanks to @perfectra1n for the implementation and certificates.&lt;/li&gt;
 &lt;li&gt;Basic support for right-to-left content has been added. See in-app help (F1) for more information.&lt;/li&gt;
 &lt;li&gt;There are now stricter rules when it comes to importing HTML, where we only allow very few styles (colors, borders, etc.). Should you encounter any issues when importing, try disabling “Safe import” and report any issues you might have.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/1091"&gt;Trilium can now export notes as PDF directly, on the desktop version.&lt;/a&gt;&lt;/li&gt;
