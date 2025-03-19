@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NodeBB Releases</title>
-  <updated>2025-03-19T15:33:39.542815-04:00</updated>
+  <updated>2025-03-19T16:33:39.674283-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -283,35 +283,6 @@
     </author>
     <content>&lt;p&gt;Release build (minor) of NodeBB @ 2025-03-19T18:33:59.309Z&lt;/p&gt;
 &lt;h4&gt;v4.2.0 (2025-03-19)&lt;/h4&gt;
-&lt;h5&gt;Chores&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;update commitlint monorepo to v19.8.0 (#13244) (ee3c0bf4)&lt;/li&gt;
-&lt;li&gt;update dependency lint-staged to v15.5.0 (#13245) (f4fe3f5f)&lt;/li&gt;
-&lt;li&gt;update dependency sass-embedded to v1.86.0 (#13251) (3bb861ae)&lt;/li&gt;
-&lt;li&gt;up widgets (ed57f896)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.1.1 (b2afbb16)&lt;/li&gt;
-&lt;li&gt;update changelog for v4.1.1 (2c3f8561)&lt;/li&gt;
-&lt;li&gt;add missing file to az lang (d7116adc)&lt;/li&gt;
-&lt;li&gt;language labels for az/pl (61d17c95)&lt;/li&gt;
-&lt;li&gt;alphabetize transifex config file languages (b7bb35f8)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.1.0 (36c80850)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.6 (4a52fb2e)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.5 (1792a62b)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.4 (b1125cce)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.3 (2b65c735)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.2 (73fe5fcf)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.1 (a461b758)&lt;/li&gt;
-&lt;li&gt;incrementing version number - v4.0.0 (c1eaee45)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;i18n:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-settings-email (866cd539)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.error (b4dfd7fe)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-settings-chat (2f957655)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.user (78a2c087)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-manage-categories (c3993018)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.admin-manage-categories (efdb416c)&lt;/li&gt;
-&lt;li&gt;fallback strings for new resources: nodebb.category (8314d8ba)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h5&gt;Documentation Changes&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;openapi schema for admin/extend/plugins (f2a16422)&lt;/li&gt;
@@ -351,24 +322,6 @@
 &lt;h1&gt;13224, handle note attributedTo when it is of type object (d9483347)&lt;/h1&gt;
 &lt;/li&gt;
 &lt;li&gt;allow actor assertion of loopback actors depending on ACP setting (73aaa990)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;update dependency mongodb to v6.15.0 (#13253) (1c23d0cf)&lt;/li&gt;
-&lt;li&gt;update dependency pg to v8.14.1 (#13247) (4d6d71d8)&lt;/li&gt;
-&lt;li&gt;update dependency nodebb-widget-essentials to v7.0.36 (#13250) (dbd0fd22)&lt;/li&gt;
-&lt;li&gt;update dependency sass to v1.86.0 (#13252) (a1465268)&lt;/li&gt;
-&lt;li&gt;update dependency esbuild to v0.25.1 (#13243) (ce3bb8b5)&lt;/li&gt;
-&lt;li&gt;update dependency ioredis to v5.6.0 (#13246) (b96f532b)&lt;/li&gt;
-&lt;li&gt;update dependency connect-redis to v8.0.2 (#13242) (e90a8b26)&lt;/li&gt;
-&lt;li&gt;update dependency autoprefixer to v10.4.21 (#13241) (4e69ed56)&lt;/li&gt;
-&lt;li&gt;update dependency pg-cursor to v2.13.1 (#13248) (92727549)&lt;/li&gt;
-&lt;li&gt;update fontsource monorepo to v5.2.5 (#13226) (8ca1d6e6)&lt;/li&gt;
-&lt;li&gt;update dependency mongodb to v6.14.2 (#13229) (b39e4d19)&lt;/li&gt;
-&lt;li&gt;update dependency terser-webpack-plugin to v5.3.14 (#13230) (7b40e210)&lt;/li&gt;
-&lt;li&gt;update dependency mongodb to v6.14.1 (#13225) (a58af228)&lt;/li&gt;
-&lt;li&gt;update dependency tough-cookie to v5.1.2 (#13217) (e19109ad)&lt;/li&gt;
-&lt;li&gt;update dependency mongodb to v6.14.0 (#13214) (ad680d6a)&lt;/li&gt;
-&lt;li&gt;update dependency terser-webpack-plugin to v5.3.12 (#13213) (4c22af8c)&lt;/li&gt;
-&lt;li&gt;update dependency cron to v4.1.0 (#13200) (f56838a3)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;Refactors&lt;/h5&gt;
 &lt;ul&gt;
