@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2025-03-19T01:31:24.538401-04:00</updated>
+  <updated>2025-03-19T02:31:24.850201-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,6 +181,7 @@
 &lt;li&gt;Due to a bug in the remote video thumbnail update, we recommend running the &lt;a href="https://docs.joinpeertube.org/maintain/tools#prune-filesystem-object-storage"&gt;prune storage&lt;/a&gt; script to clean up the filesystem&lt;/li&gt;
 &lt;li&gt;Let's encrypt is removing &lt;a href="https://letsencrypt.org/2024/12/05/ending-ocsp/"&gt;OCSP support in 2025&lt;/a&gt;, so remove SSL stapling from your nginx configuration: https://github.com/Chocobozzz/PeerTube/commit/0abaaa8ccbce19deb6fcd09c8bf00d4cf4248505&lt;/li&gt;
 &lt;li&gt;Safari desktop versions &amp;lt; 14 are not supported anymore&lt;/li&gt;
+&lt;li&gt;If you are using object storage, you will need to create the captions bucket or configure PeerTube to use an existing one &lt;a href="https://github.com/Chocobozzz/PeerTube/blob/develop/config/production.yaml.example#L262"&gt;in the configuration file&lt;/a&gt; or using environment variables if you use Docker (&lt;code&gt;PEERTUBE_OBJECT_STORAGE_CAPTIONS_BUCKET_NAME&lt;/code&gt;, &lt;code&gt;PEERTUBE_OBJECT_STORAGE_CAPTIONS_PREFIX&lt;/code&gt;, &lt;code&gt;PEERTUBE_OBJECT_STORAGE_CAPTIONS_BASE_URL&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Plugins/Themes/Embed API&lt;/h3&gt;
 &lt;ul&gt;
