@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless AI Releases</title>
-  <updated>2025-03-20T04:34:41.128857-04:00</updated>
+  <updated>2025-03-20T05:34:57.446923-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,12 +143,11 @@ Changed the Ollama structured output schema&lt;/p&gt;
   <entry>
     <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.5</id>
     <title>New release for Paperless AI: v2.7.5</title>
-    <updated>2025-03-20T04:20:34-04:00</updated>
+    <updated>2025-03-20T04:45:10-04:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.7.4...v2.7.5&lt;/p&gt;
-&lt;p&gt;Fixed: #438 &lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.7.4...v2.7.5&lt;/p&gt;</content>
     <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.5" rel="alternate"/>
   </entry>
 </feed>
