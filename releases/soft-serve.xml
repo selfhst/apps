@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Soft Serve Releases</title>
-  <updated>2025-03-20T18:35:14.871463-04:00</updated>
+  <updated>2025-03-20T19:35:16.035472-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -251,6 +251,7 @@ Done! You artifacts are now verified!
 &lt;ul&gt;
 &lt;li&gt;f23cdc41db922a8d236e812fb2ffd422f484d858: fix: update go.sum (@aymanbagabas)&lt;/li&gt;
 &lt;li&gt;0956752: log invalid hook input instead of returning error to the client (@aymanbagabas)&lt;/li&gt;
+&lt;li&gt;923844b: pre and post hooks now receive the full input line (@aymanbagabas)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;details&gt;
