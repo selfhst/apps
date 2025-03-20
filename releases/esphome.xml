@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ESPHome Releases</title>
-  <updated>2025-03-20T03:31:53.099630-04:00</updated>
+  <updated>2025-03-20T04:31:50.654170-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -323,7 +323,99 @@
       <name>esphome/esphome</name>
     </author>
     <content>&lt;h2&gt;Full list of changes&lt;/h2&gt;
-&lt;h3&gt;All changes&lt;/h3&gt;</content>
+&lt;h3&gt;New Components&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[ld2450] Add new component &lt;a href="https://github.com/esphome/esphome/pull/5674"&gt;esphome#5674&lt;/a&gt; by @hareeshmu (new-integration)&lt;/li&gt;
+&lt;li&gt;Adding support for chsc6x touch controller &lt;a href="https://github.com/esphome/esphome/pull/8258"&gt;esphome#8258&lt;/a&gt; by @kkosik20 (new-integration)&lt;/li&gt;
+&lt;li&gt;MSA311 and MSA301 accelerometer support &lt;a href="https://github.com/esphome/esphome/pull/6795"&gt;esphome#6795&lt;/a&gt; by @latonita (new-integration)&lt;/li&gt;
+&lt;li&gt;Cover component for Tormatic and Novoferm garage doors &lt;a href="https://github.com/esphome/esphome/pull/5933"&gt;esphome#5933&lt;/a&gt; by @ti-mo (new-integration)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[mlx90393] Fix inverted gain and resolution. Expose temperature_compensation and hallconf. &lt;a href="https://github.com/esphome/esphome/pull/7635"&gt;esphome#7635&lt;/a&gt; by @functionpointer (breaking-change)&lt;/li&gt;
+&lt;li&gt;[touchscreen] Axis swap bugfix &lt;a href="https://github.com/esphome/esphome/pull/8376"&gt;esphome#8376&lt;/a&gt; by @clydebarrow (breaking-change)&lt;/li&gt;
+&lt;li&gt;[cst816] Remove binary sensor &lt;a href="https://github.com/esphome/esphome/pull/8377"&gt;esphome#8377&lt;/a&gt; by @clydebarrow (breaking-change)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Beta Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump mdns library to 1.8.0 &lt;a href="https://github.com/esphome/esphome/pull/8378"&gt;esphome#8378&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;[audio, mixer] Memory and CPU performance improvements &lt;a href="https://github.com/esphome/esphome/pull/8387"&gt;esphome#8387&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;[speaker, resampler, mixer] Make volume and mute getters virtual &lt;a href="https://github.com/esphome/esphome/pull/8391"&gt;esphome#8391&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;[core] add reallocation support to RAMAllocator &lt;a href="https://github.com/esphome/esphome/pull/8390"&gt;esphome#8390&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;[api] add voice assistant announce to the api &lt;a href="https://github.com/esphome/esphome/pull/8395"&gt;esphome#8395&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;Bump aioesphomeapi to 29.6.0 &lt;a href="https://github.com/esphome/esphome/pull/8396"&gt;esphome#8396&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Rework pyproject.toml to make it parseable by dependabot &lt;a href="https://github.com/esphome/esphome/pull/8397"&gt;esphome#8397&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Bump cryptography to 44.0.2 &lt;a href="https://github.com/esphome/esphome/pull/8399"&gt;esphome#8399&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Bump tornado from 6.4 to 6.4.2 &lt;a href="https://github.com/esphome/esphome/pull/8398"&gt;esphome#8398&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;[font] Fix issues with bitmap fonts &lt;a href="https://github.com/esphome/esphome/pull/8407"&gt;esphome#8407&lt;/a&gt; by @clydebarrow&lt;/li&gt;
+&lt;li&gt;Added getters for graphs ymin and ymax &lt;a href="https://github.com/esphome/esphome/pull/8112"&gt;esphome#8112&lt;/a&gt; by @Duckle29&lt;/li&gt;
+&lt;li&gt;[docker] Bump curl, git, openssh-client, libopenjp2-7, nginx-light &lt;a href="https://github.com/esphome/esphome/pull/8419"&gt;esphome#8419&lt;/a&gt; by @kbx81&lt;/li&gt;
+&lt;li&gt;[docker] Bump libfreetype &lt;a href="https://github.com/esphome/esphome/pull/8426"&gt;esphome#8426&lt;/a&gt; by @kbx81&lt;/li&gt;
+&lt;li&gt;[core] Handle mis-typed platform name more cleanly &lt;a href="https://github.com/esphome/esphome/pull/8424"&gt;esphome#8424&lt;/a&gt; by @clydebarrow&lt;/li&gt;
+&lt;li&gt;[audio] Bugfix: fix flac decoding glitches by using esp-audio-libs v1.1.3 &lt;a href="https://github.com/esphome/esphome/pull/8431"&gt;esphome#8431&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;All changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[modbus_controller] Extend tests &lt;a href="https://github.com/esphome/esphome/pull/8245"&gt;esphome#8245&lt;/a&gt; by @kbx81&lt;/li&gt;
+&lt;li&gt;Switch to native arm runners for docker CI &lt;a href="https://github.com/esphome/esphome/pull/8262"&gt;esphome#8262&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Use the process CPU count to determine how many children to create &lt;a href="https://github.com/esphome/esphome/pull/8268"&gt;esphome#8268&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Bump actions/cache from 4.2.0 to 4.2.1 in /.github/actions/restore-python &lt;a href="https://github.com/esphome/esphome/pull/8273"&gt;esphome#8273&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Bump actions/cache from 4.2.0 to 4.2.1 &lt;a href="https://github.com/esphome/esphome/pull/8271"&gt;esphome#8271&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Ruff format for CI &lt;a href="https://github.com/esphome/esphome/pull/8276"&gt;esphome#8276&lt;/a&gt; by @stellar-aria&lt;/li&gt;
+&lt;li&gt;[ld2450] Add new component &lt;a href="https://github.com/esphome/esphome/pull/5674"&gt;esphome#5674&lt;/a&gt; by @hareeshmu (new-integration)&lt;/li&gt;
+&lt;li&gt;Bump docker/build-push-action from 6.13.0 to 6.14.0 in /.github/actions/build-image &lt;a href="https://github.com/esphome/esphome/pull/8281"&gt;esphome#8281&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Finish up transition from black-format to ruff &lt;a href="https://github.com/esphome/esphome/pull/8294"&gt;esphome#8294&lt;/a&gt; by @stellar-aria&lt;/li&gt;
+&lt;li&gt;[core, dashboard] load external component to get get_download_types &lt;a href="https://github.com/esphome/esphome/pull/8139"&gt;esphome#8139&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;[ota] set USE_OTA_VERSION 2 in defines &lt;a href="https://github.com/esphome/esphome/pull/8299"&gt;esphome#8299&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;[socket] add connect method &lt;a href="https://github.com/esphome/esphome/pull/8308"&gt;esphome#8308&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;Bump peter-evans/create-pull-request from 7.0.6 to 7.0.7 &lt;a href="https://github.com/esphome/esphome/pull/8314"&gt;esphome#8314&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Bump actions/upload-artifact from 4.6.0 to 4.6.1 &lt;a href="https://github.com/esphome/esphome/pull/8295"&gt;esphome#8295&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;[api] ensure fair network sharing + prevent lost state changes via deferred publish at high event load &lt;a href="https://github.com/esphome/esphome/pull/7547"&gt;esphome#7547&lt;/a&gt; by @nkinnan&lt;/li&gt;
+&lt;li&gt;ili9xxx: Add support for GC9D01N circle display &lt;a href="https://github.com/esphome/esphome/pull/8302"&gt;esphome#8302&lt;/a&gt; by @rforro&lt;/li&gt;
+&lt;li&gt;web_server: ensure fair network sharing + prevent lost state changes via deferred publish at high event load &lt;a href="https://github.com/esphome/esphome/pull/7538"&gt;esphome#7538&lt;/a&gt; by @nkinnan&lt;/li&gt;
+&lt;li&gt;[i2c] python code style &lt;a href="https://github.com/esphome/esphome/pull/8311"&gt;esphome#8311&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;Adding support for chsc6x touch controller &lt;a href="https://github.com/esphome/esphome/pull/8258"&gt;esphome#8258&lt;/a&gt; by @kkosik20 (new-integration)&lt;/li&gt;
+&lt;li&gt;[core] make upload_program more generic &lt;a href="https://github.com/esphome/esphome/pull/8321"&gt;esphome#8321&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;[i2c] Fix i2c issue on idf 5.3 &lt;a href="https://github.com/esphome/esphome/pull/8283"&gt;esphome#8283&lt;/a&gt; by @swoboda1337&lt;/li&gt;
+&lt;li&gt;[core] SplitDefault unit test &lt;a href="https://github.com/esphome/esphome/pull/8324"&gt;esphome#8324&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;Add option to include vars in remote packages &lt;a href="https://github.com/esphome/esphome/pull/7606"&gt;esphome#7606&lt;/a&gt; by @pszafer&lt;/li&gt;
+&lt;li&gt;[ld2450] Fix for "unknown" sensor states &lt;a href="https://github.com/esphome/esphome/pull/8305"&gt;esphome#8305&lt;/a&gt; by @kbx81&lt;/li&gt;
+&lt;li&gt;Update arduino-heatpumpir and add new protocol for Panasonic AC &lt;a href="https://github.com/esphome/esphome/pull/8309"&gt;esphome#8309&lt;/a&gt; by @barchasse38&lt;/li&gt;
+&lt;li&gt;MSA311 and MSA301 accelerometer support &lt;a href="https://github.com/esphome/esphome/pull/6795"&gt;esphome#6795&lt;/a&gt; by @latonita (new-integration)&lt;/li&gt;
+&lt;li&gt;Include the bluetooth mac address in the device info when proxy is enabled &lt;a href="https://github.com/esphome/esphome/pull/8203"&gt;esphome#8203&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;dashboard: Implement automatic ping fallback &lt;a href="https://github.com/esphome/esphome/pull/8263"&gt;esphome#8263&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;[ld2450] Fix misplaced &lt;code&gt;ifdef&lt;/code&gt; and related logic &lt;a href="https://github.com/esphome/esphome/pull/8335"&gt;esphome#8335&lt;/a&gt; by @kbx81&lt;/li&gt;
+&lt;li&gt;Bump the docker-actions group with 2 updates &lt;a href="https://github.com/esphome/esphome/pull/8330"&gt;esphome#8330&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Bump actions/download-artifact from 4.1.8 to 4.1.9 &lt;a href="https://github.com/esphome/esphome/pull/8331"&gt;esphome#8331&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Bump docker/build-push-action from 6.14.0 to 6.15.0 in /.github/actions/build-image &lt;a href="https://github.com/esphome/esphome/pull/8332"&gt;esphome#8332&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;[mlx90393] Fix inverted gain and resolution. Expose temperature_compensation and hallconf. &lt;a href="https://github.com/esphome/esphome/pull/7635"&gt;esphome#7635&lt;/a&gt; by @functionpointer (breaking-change)&lt;/li&gt;
+&lt;li&gt;[font] Use freetype instead of Pillow for font rendering &lt;a href="https://github.com/esphome/esphome/pull/8300"&gt;esphome#8300&lt;/a&gt; by @clydebarrow&lt;/li&gt;
+&lt;li&gt;Bump actions/cache from 4.2.1 to 4.2.2 &lt;a href="https://github.com/esphome/esphome/pull/8336"&gt;esphome#8336&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;Bump actions/cache from 4.2.1 to 4.2.2 in /.github/actions/restore-python &lt;a href="https://github.com/esphome/esphome/pull/8337"&gt;esphome#8337&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;[zeroconf] Ruff formatting &lt;a href="https://github.com/esphome/esphome/pull/8338"&gt;esphome#8338&lt;/a&gt; by @jesserockz&lt;/li&gt;
+&lt;li&gt;[nrf52, core] unified way how all platforms handle SplitDefault &lt;a href="https://github.com/esphome/esphome/pull/7715"&gt;esphome#7715&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;Cover component for Tormatic and Novoferm garage doors &lt;a href="https://github.com/esphome/esphome/pull/5933"&gt;esphome#5933&lt;/a&gt; by @ti-mo (new-integration)&lt;/li&gt;
+&lt;li&gt;[io_bus] Initial implementation &lt;a href="https://github.com/esphome/esphome/pull/8227"&gt;esphome#8227&lt;/a&gt; by @clydebarrow (new-integration)&lt;/li&gt;
+&lt;li&gt;[tmp1075] fix component for TMP1075N &lt;a href="https://github.com/esphome/esphome/pull/8317"&gt;esphome#8317&lt;/a&gt; by @ssieb&lt;/li&gt;
+&lt;li&gt;Bump docker/setup-qemu-action from 3.5.0 to 3.6.0 in the docker-actions group &lt;a href="https://github.com/esphome/esphome/pull/8346"&gt;esphome#8346&lt;/a&gt; by @dependabot[bot]&lt;/li&gt;
+&lt;li&gt;[dashboard] Rename trash/delete to archive &lt;a href="https://github.com/esphome/esphome/pull/8357"&gt;esphome#8357&lt;/a&gt; by @jesserockz&lt;/li&gt;
+&lt;li&gt;[helpers] Allow RAMAllocator to be told the size of the object manually &lt;a href="https://github.com/esphome/esphome/pull/8356"&gt;esphome#8356&lt;/a&gt; by @jesserockz&lt;/li&gt;
+&lt;li&gt;[ld2450] fix null exception &amp;amp; zone target_count not published &lt;a href="https://github.com/esphome/esphome/pull/8348"&gt;esphome#8348&lt;/a&gt; by @mistic100&lt;/li&gt;
+&lt;li&gt;[bmp085] Fix error in read of pressure &lt;a href="https://github.com/esphome/esphome/pull/8359"&gt;esphome#8359&lt;/a&gt; by @gusdleon&lt;/li&gt;
+&lt;li&gt;[udp] fix clang tidy &lt;a href="https://github.com/esphome/esphome/pull/8351"&gt;esphome#8351&lt;/a&gt; by @tomaszduda23&lt;/li&gt;
+&lt;li&gt;[i2s_audio] Bugfix: Speaker incorrectly delays when sending data &lt;a href="https://github.com/esphome/esphome/pull/8361"&gt;esphome#8361&lt;/a&gt; by @kahrendt&lt;/li&gt;
+&lt;li&gt;Initialise h-bridge switch to requested initial state &lt;a href="https://github.com/esphome/esphome/pull/8363"&gt;esphome#8363&lt;/a&gt; by @AnyOldName3&lt;/li&gt;
+&lt;li&gt;[lvgl] Fix initialisation race condition (Bugfix) &lt;a href="https://github.com/esphome/esphome/pull/8369"&gt;esphome#8369&lt;/a&gt; by @clydebarrow&lt;/li&gt;
+&lt;li&gt;[time] fix recalc_timestamp_local &lt;a href="https://github.com/esphome/esphome/pull/8239"&gt;esphome#8239&lt;/a&gt; by @qraynaud&lt;/li&gt;
+&lt;li&gt;allow touchscreen buttons outside of display dimensions &lt;a href="https://github.com/esphome/esphome/pull/8296"&gt;esphome#8296&lt;/a&gt; by @zendes&lt;/li&gt;
+&lt;li&gt;[touchscreen] Axis swap bugfix &lt;a href="https://github.com/esphome/esphome/pull/8376"&gt;esphome#8376&lt;/a&gt; by @clydebarrow (breaking-change)&lt;/li&gt;
+&lt;li&gt;[cst816] Remove binary sensor &lt;a href="https://github.com/esphome/esphome/pull/8377"&gt;esphome#8377&lt;/a&gt; by @clydebarrow (breaking-change)&lt;/li&gt;
+&lt;li&gt;Revert "[io_bus] Initial implementation" &lt;a href="https://github.com/esphome/esphome/pull/8384"&gt;esphome#8384&lt;/a&gt; by @clydebarrow&lt;/li&gt;
+&lt;li&gt;Bump aioesphomeapi to 29.5.1 &lt;a href="https://github.com/esphome/esphome/pull/8364"&gt;esphome#8364&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;Bump esptool to 4.8.1latest &lt;a href="https://github.com/esphome/esphome/pull/8367"&gt;esphome#8367&lt;/a&gt; by @shvmm&lt;/li&gt;
+&lt;li&gt;Bump zeroconf to 0.146.1 &lt;a href="https://github.com/esphome/esphome/pull/8365"&gt;esphome#8365&lt;/a&gt; by @bdraco&lt;/li&gt;
+&lt;li&gt;mcp2515: Add missing CFG1 assignment to be able to use 50kbps with a 16MHz crystal. &lt;a href="https://github.com/esphome/esphome/pull/8375"&gt;esphome#8375&lt;/a&gt; by @djasper-ha&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/esphome/esphome/releases/tag/2025.3.0" rel="alternate"/>
   </entry>
 </feed>
