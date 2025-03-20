@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>QuickDrop Releases</title>
-  <updated>2025-03-20T14:34:37.346512-04:00</updated>
+  <updated>2025-03-20T15:35:13.397052-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,5 +161,34 @@
 &lt;h1&gt;Or pull the latest tag:&lt;/h1&gt;
 &lt;p&gt;docker pull roastslav/quickdrop:latest&lt;/p&gt;</content>
     <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.0</id>
+    <title>New release for QuickDrop: v1.4.0</title>
+    <updated>2025-03-20T15:21:15-04:00</updated>
+    <author>
+      <name>RoastSlav/quickdrop</name>
+    </author>
+    <content>&lt;p&gt;About Page &amp;amp; System Info&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Quick Overview: Easily see the current version, database info, Java version, and OS details.
+Troubleshooting: Makes reporting issues simpler by showing key environment data.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hide Admin Dashboard Button&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Config Toggle: Decide whether to show or hide the admin dashboard link in the UI.
+Security: Even if hidden, admin routes are still protected by authentication.
+Cleaner Interface: Great for a more minimal, end-user-focused experience.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Custom Number of Uses for Share Links&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Limit Downloads: Specify how many times an unrestricted link can be accessed before it’s disabled.
+Expiration Combo: Combine usage limits with an expiration date for extra control.
+Better Sharing Control: Perfect for distributing files to a specific group.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Optional Encryption: You can manually choose to disable encryption, even if a password is set, for faster or simpler uploads.&lt;/p&gt;
+&lt;p&gt;Bug Fixes &amp;amp; Improvements&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Chunked Upload Stability: Large files now upload more reliably without hitting buffering issues.
+UI/UX Polish: Minor style adjustments for a smoother experience.
+General Maintenance: Under-the-hood enhancements to keep QuickDrop fast and stable.
+&lt;/code&gt;&lt;/pre&gt;</content>
+    <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>

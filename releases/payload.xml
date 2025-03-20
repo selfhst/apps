@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-03-20T14:31:57.858406-04:00</updated>
+  <updated>2025-03-20T15:32:18.182077-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -263,6 +263,14 @@ const nextConfig = {
       <name>payloadcms/payload</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v3.28.1...v3.29.0"&gt;v3.29.0&lt;/a&gt; (2025-03-20)&lt;/h2&gt;
+&lt;h2&gt;Important&lt;/h2&gt;
+&lt;p&gt;This release upgrades the lexical dependency from &lt;code&gt;0.27.1&lt;/code&gt; to &lt;code&gt;0.28.0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you installed lexical manually, update it to &lt;code&gt;0.28.0&lt;/code&gt;. Installing lexical manually is not recommended, as it may break between updates, and our re-exported versions should be used. See the &lt;a href="https://payloadcms.com/docs/rich-text/custom-features"&gt;yellow banner box&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;If you still encounter richtext-lexical errors, do the following, in this order:
+1. Delete &lt;code&gt;node_modules&lt;/code&gt;
+2. Delete your lockfile (e.g. &lt;code&gt;pnpm-lock.json&lt;/code&gt;)
+3. Reinstall your dependencies (e.g. &lt;code&gt;pnpm install&lt;/code&gt;)&lt;/p&gt;
+&lt;hr /&gt;
 &lt;h3&gt;🚀 Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;pass i18n through field label and description functions (&lt;a href="https://github.com/payloadcms/payload/issues/11802"&gt;#11802&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/31211e9"&gt;31211e9&lt;/a&gt;)&lt;/li&gt;
