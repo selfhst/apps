@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PostHog Releases</title>
-  <updated>2025-03-20T05:32:15.173988-04:00</updated>
+  <updated>2025-03-20T06:32:18.307592-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -34,5 +34,30 @@ powershell -ExecutionPolicy Bypass -c "irm https://github.com/PostHog/posthog/re
 | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.2/posthog-cli-x86_64-unknown-linux-gnu.tar.xz"&gt;posthog-cli-x86_64-unknown-linux-gnu.tar.xz&lt;/a&gt; | x64 Linux | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.2/posthog-cli-x86_64-unknown-linux-gnu.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
 | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.2/posthog-cli-x86_64-unknown-linux-musl.tar.xz"&gt;posthog-cli-x86_64-unknown-linux-musl.tar.xz&lt;/a&gt; | x64 MUSL Linux | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.2/posthog-cli-x86_64-unknown-linux-musl.tar.xz.sha256"&gt;checksum&lt;/a&gt; |&lt;/p&gt;</content>
     <link href="https://github.com/PostHog/posthog/releases/tag/posthog-cli-v0.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/PostHog/posthog/releases/tag/posthog-cli-v0.0.3</id>
+    <title>New release for PostHog: posthog-cli-v0.0.3</title>
+    <updated>2025-03-20T05:49:39-04:00</updated>
+    <author>
+      <name>PostHog/posthog</name>
+    </author>
+    <content>&lt;h2&gt;Install posthog-cli 0.0.3&lt;/h2&gt;
+&lt;h3&gt;Install prebuilt binaries via shell script&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-installer.sh | sh&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Install prebuilt binaries via powershell script&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sh
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-installer.ps1 | iex"&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Download posthog-cli 0.0.3&lt;/h2&gt;
+&lt;p&gt;|  File  | Platform | Checksum |
+|--------|----------|----------|
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-aarch64-apple-darwin.tar.xz"&gt;posthog-cli-aarch64-apple-darwin.tar.xz&lt;/a&gt; | Apple Silicon macOS | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-aarch64-apple-darwin.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-apple-darwin.tar.xz"&gt;posthog-cli-x86_64-apple-darwin.tar.xz&lt;/a&gt; | Intel macOS | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-apple-darwin.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-pc-windows-msvc.zip"&gt;posthog-cli-x86_64-pc-windows-msvc.zip&lt;/a&gt; | x64 Windows | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-pc-windows-msvc.zip.sha256"&gt;checksum&lt;/a&gt; |
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-aarch64-unknown-linux-gnu.tar.xz"&gt;posthog-cli-aarch64-unknown-linux-gnu.tar.xz&lt;/a&gt; | ARM64 Linux | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-aarch64-unknown-linux-gnu.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-unknown-linux-gnu.tar.xz"&gt;posthog-cli-x86_64-unknown-linux-gnu.tar.xz&lt;/a&gt; | x64 Linux | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-unknown-linux-gnu.tar.xz.sha256"&gt;checksum&lt;/a&gt; |
+| &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-unknown-linux-musl.tar.xz"&gt;posthog-cli-x86_64-unknown-linux-musl.tar.xz&lt;/a&gt; | x64 MUSL Linux | &lt;a href="https://github.com/PostHog/posthog/releases/download/posthog-cli-v0.0.3/posthog-cli-x86_64-unknown-linux-musl.tar.xz.sha256"&gt;checksum&lt;/a&gt; |&lt;/p&gt;</content>
+    <link href="https://github.com/PostHog/posthog/releases/tag/posthog-cli-v0.0.3" rel="alternate"/>
   </entry>
 </feed>
