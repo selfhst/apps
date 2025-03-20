@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2025-03-19T20:31:30.525102-04:00</updated>
+  <updated>2025-03-19T21:31:28.131597-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -204,6 +204,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When viewing or editing your user profile (via My Account) an error is being thrown. A fix for this will be provided in the next patch release.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
