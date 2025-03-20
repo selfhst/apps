@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Floccus Releases</title>
-  <updated>2025-03-20T11:33:39.901060-04:00</updated>
+  <updated>2025-03-20T12:33:39.666890-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,6 +116,7 @@
 &lt;li&gt;fix(Git): Make sure foreign locks are freed when forceLock is set&lt;/li&gt;
 &lt;li&gt;fix(NextcloudBookmarks): Make sure lock is freed when forceLock is set&lt;/li&gt;
 &lt;li&gt;fix(LocalTabs): Speed up tabs updated callback&lt;/li&gt;
+&lt;li&gt;fix(Orion): Add an exception for Orion's permissions API&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/floccusaddon/floccus/compare/v5.4.4...v5.4.5&lt;/p&gt;</content>
     <link href="https://github.com/floccusaddon/floccus/releases/tag/v5.4.5" rel="alternate"/>
