@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NPMplus Releases</title>
-  <updated>2025-03-20T10:33:34.885728-04:00</updated>
+  <updated>2025-03-20T11:33:24.844071-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,7 +142,7 @@
 &lt;li&gt;fix: fix hosts with new certs go offline&lt;/li&gt;
 &lt;li&gt;fix: used certs function now also works for redirection hosts (streams still to-do)&lt;/li&gt;
 &lt;li&gt;fix: block deletion of used certs, when in use&lt;/li&gt;
-&lt;li&gt;also delete certbot certificates on disk when deleted in UI&lt;/li&gt;
+&lt;li&gt;also delete certbot certificates on disk when deleted in UI (only certbot certs, not custom certs)&lt;/li&gt;
 &lt;li&gt;change: use random default initial password&lt;/li&gt;
 &lt;li&gt;improve: the UI now shows the full certbot error if there is an error&lt;/li&gt;
 &lt;li&gt;improve: error log is now also written to disk, which means that you don't need to mount the docker socket into the crowdsec container anymore&lt;/li&gt;
