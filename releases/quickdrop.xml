@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>QuickDrop Releases</title>
-  <updated>2025-03-21T11:35:00.434201-04:00</updated>
+  <updated>2025-03-21T12:34:54.957447-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,5 +190,15 @@ UI/UX Polish: Minor style adjustments for a smoother experience.
 General Maintenance: Under-the-hood enhancements to keep QuickDrop fast and stable.
 &lt;/code&gt;&lt;/pre&gt;</content>
     <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.1</id>
+    <title>New release for QuickDrop: QuickDrop v1.4.1</title>
+    <updated>2025-03-21T11:50:54-04:00</updated>
+    <author>
+      <name>RoastSlav/quickdrop</name>
+    </author>
+    <content>&lt;p&gt;Fixes a problem with database migration script in previous version.&lt;/p&gt;</content>
+    <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.1" rel="alternate"/>
   </entry>
 </feed>
