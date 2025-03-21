@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2025-03-21T16:34:36.753339-04:00</updated>
+  <updated>2025-03-21T17:34:37.207935-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,17 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v1.1.1...v1.1.2&lt;/p&gt;</content>
     <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.3</id>
+    <title>New release for PlikShare: v1.1.3</title>
+    <updated>2025-03-21T16:54:31-04:00</updated>
+    <author>
+      <name>damian-krychowski/plikshare</name>
+    </author>
+    <content>&lt;p&gt;Changes:
+- &lt;strong&gt;[SECURITY-FIX]&lt;/strong&gt; Antiforgery token mechanism introduced (CSRF attacks prevention)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v1.1.2...v1.1.3&lt;/p&gt;</content>
+    <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.3" rel="alternate"/>
   </entry>
 </feed>
