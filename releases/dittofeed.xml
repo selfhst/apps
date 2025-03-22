@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dittofeed Releases</title>
-  <updated>2025-03-22T18:32:13.776089-04:00</updated>
+  <updated>2025-03-22T19:32:04.759920-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,5 +122,47 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dittofeed/dittofeed/compare/v0.20.0...v0.21.0&lt;/p&gt;</content>
     <link href="https://github.com/dittofeed/dittofeed/releases/tag/v0.21.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dittofeed/dittofeed/releases/tag/v0.22.0</id>
+    <title>New release for Dittofeed: v0.22.0</title>
+    <updated>2025-03-22T18:33:04-04:00</updated>
+    <author>
+      <name>dittofeed/dittofeed</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade image versions to v0.21.0 by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1333&lt;/li&gt;
+&lt;li&gt;Upgrade guide fix for 0.20 to 0.21 by @pkpio in https://github.com/dittofeed/dittofeed/pull/1334&lt;/li&gt;
+&lt;li&gt;v0.20.0 docs fix by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1337&lt;/li&gt;
+&lt;li&gt;allow anonymous users to receive computed properties by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1343&lt;/li&gt;
+&lt;li&gt;add keyed prop vid by @chandlercraig in https://github.com/dittofeed/dittofeed/pull/1344&lt;/li&gt;
+&lt;li&gt;update sdk-web revision by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1345&lt;/li&gt;
+&lt;li&gt;mailing list docs by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1346&lt;/li&gt;
+&lt;li&gt;add new mjml template to docs by @chandlercraig in https://github.com/dittofeed/dittofeed/pull/1347&lt;/li&gt;
+&lt;li&gt;remove escape html from email header by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1348&lt;/li&gt;
+&lt;li&gt;deliveries table auto reload by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1349&lt;/li&gt;
+&lt;li&gt;add broadcasts vid by @chandlercraig in https://github.com/dittofeed/dittofeed/pull/1350&lt;/li&gt;
+&lt;li&gt;users table filters v2 by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1351&lt;/li&gt;
+&lt;li&gt;users table v2 contents by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1352&lt;/li&gt;
+&lt;li&gt;allow users to be filtered by subscription group from api by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1354&lt;/li&gt;
+&lt;li&gt;subscription group users table by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1355&lt;/li&gt;
+&lt;li&gt;document admin deliveries endpoint by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1356&lt;/li&gt;
+&lt;li&gt;add arm support by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1357&lt;/li&gt;
+&lt;li&gt;users table pagination fixes by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1358&lt;/li&gt;
+&lt;li&gt;delete debug log by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1359&lt;/li&gt;
+&lt;li&gt;use lightweight deletes for users delete by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1360&lt;/li&gt;
+&lt;li&gt;allow hidden messages by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1361&lt;/li&gt;
+&lt;li&gt;don't swallow retryable errors in postmark by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1365&lt;/li&gt;
+&lt;li&gt;fix journey definition from state for 0 time values by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1368&lt;/li&gt;
+&lt;li&gt;abstract build for ee by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1369&lt;/li&gt;
+&lt;li&gt;settings segment fix by @maxgurewitz in https://github.com/dittofeed/dittofeed/pull/1370&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@pkpio made their first contribution in https://github.com/dittofeed/dittofeed/pull/1334&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dittofeed/dittofeed/compare/v0.21.0...v0.22.0&lt;/p&gt;</content>
+    <link href="https://github.com/dittofeed/dittofeed/releases/tag/v0.22.0" rel="alternate"/>
   </entry>
 </feed>
