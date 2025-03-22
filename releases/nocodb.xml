@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-03-22T02:30:26.789224-04:00</updated>
+  <updated>2025-03-22T03:30:05.678601-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -459,9 +459,9 @@
     <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/nocodb/nocodb/releases/tag/0.262.3</id>
-    <title>New release for NocoDB: 0.262.3: Bug Fix Release</title>
-    <updated>2025-03-20T08:44:59-04:00</updated>
+    <id>https://github.com/nocodb/nocodb/releases/tag/0.262.4</id>
+    <title>New release for NocoDB: 0.262.4: Bug Fix Release</title>
+    <updated>2025-03-22T02:50:14-04:00</updated>
     <author>
       <name>nocodb/nocodb</name>
     </author>
@@ -524,6 +524,14 @@
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Optimisation of expanded view with Links fields which are SingleSelect &lt;a href="https://github.com/nocodb/nocodb/issues/6270"&gt;#6270&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;🔦 Type: Feature&lt;/strong&gt;][&lt;strong&gt;🍰 Scope : Column&lt;/strong&gt;] [Feature] Multiselect &amp;gt; option auto-populate values from column rows &lt;a href="https://github.com/nocodb/nocodb/issues/1036"&gt;#1036&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;✨ Type: Enhancement&lt;/strong&gt;][&lt;strong&gt;🔦 Type: Feature&lt;/strong&gt;][&lt;strong&gt;👋 For : Community or Good First Issue&lt;/strong&gt;][&lt;strong&gt;🍰 Scope : Column&lt;/strong&gt;] URL columns should accept file:// protocol &lt;a href="https://github.com/nocodb/nocodb/issues/746"&gt;#746&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;🏗️ Status: In Resolution&lt;/strong&gt;] 🐛 Bug: Group by on look up fields fails for this usecase &lt;a href="https://github.com/nocodb/nocodb/issues/10950"&gt;#10950&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: row’s audit log not working &lt;a href="https://github.com/nocodb/nocodb/issues/10948"&gt;#10948&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;Status: Reproducible&lt;/strong&gt;] 🐛 Bug: Search in links field doesn't work anymore &lt;a href="https://github.com/nocodb/nocodb/issues/10940"&gt;#10940&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;Status: Not Reproducible&lt;/strong&gt;] 🐛 Bug: Cmd K not working properly &lt;a href="https://github.com/nocodb/nocodb/issues/10935"&gt;#10935&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Error with paste exceeding rows available &lt;a href="https://github.com/nocodb/nocodb/issues/10934"&gt;#10934&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Page Loading Error &lt;a href="https://github.com/nocodb/nocodb/issues/10916"&gt;#10916&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Share button in views not working properly anymore &lt;a href="https://github.com/nocodb/nocodb/issues/10899"&gt;#10899&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Upload excel issue with arabic character in column name &lt;a href="https://github.com/nocodb/nocodb/issues/10833"&gt;#10833&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -606,13 +614,26 @@
 &lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/10917&lt;/li&gt;
 &lt;li&gt;fix: formula not gettign truncated by @dstala in https://github.com/nocodb/nocodb/pull/10924&lt;/li&gt;
 &lt;li&gt;Nc Fix: Import/Upload data UI changes by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/10883&lt;/li&gt;
-&lt;li&gt;0.262.3 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/10927&lt;/li&gt;
+&lt;li&gt;chore: post-release sync by @github-actions in https://github.com/nocodb/nocodb/pull/10929&lt;/li&gt;
+&lt;li&gt;fix: Misc Fixes by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/10926&lt;/li&gt;
+&lt;li&gt;Update build command in local docker build bash file by @pranavxc in https://github.com/nocodb/nocodb/pull/10931&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/10932&lt;/li&gt;
+&lt;li&gt;fix(nc-gui): don't remove selected text on enter press by @dstala in https://github.com/nocodb/nocodb/pull/10933&lt;/li&gt;
+&lt;li&gt;Nc fix/opts vis by @dstala in https://github.com/nocodb/nocodb/pull/10941&lt;/li&gt;
+&lt;li&gt;fix (nocodb): upsert - typecast pk if number by @pranavxc in https://github.com/nocodb/nocodb/pull/10939&lt;/li&gt;
+&lt;li&gt;fix: where query param syntax by @dstala in https://github.com/nocodb/nocodb/pull/10943&lt;/li&gt;
+&lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/10936&lt;/li&gt;
+&lt;li&gt;refactor: add debounce for list api call to avoid unnecessary api calls by @dstala in https://github.com/nocodb/nocodb/pull/10946&lt;/li&gt;
+&lt;li&gt;Nc fix formula renderer by @dstala in https://github.com/nocodb/nocodb/pull/10944&lt;/li&gt;
+&lt;li&gt;fix: Enable data audit by default and disable only if explicitly disabled using env by @pranavxc in https://github.com/nocodb/nocodb/pull/10951&lt;/li&gt;
+&lt;li&gt;fix: Group by - Formula lookup correction by @pranavxc in https://github.com/nocodb/nocodb/pull/10952&lt;/li&gt;
+&lt;li&gt;0.262.4 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/10955&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@ssweber made their first contribution in https://github.com/nocodb/nocodb/pull/10757&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.262.2...0.262.3&lt;/p&gt;</content>
-    <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.3" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.262.2...0.262.4&lt;/p&gt;</content>
+    <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.4" rel="alternate"/>
   </entry>
 </feed>
