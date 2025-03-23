@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PlikShare Releases</title>
-  <updated>2025-03-23T16:34:22.185363-04:00</updated>
+  <updated>2025-03-23T17:34:27.045798-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,5 +61,18 @@
 - &lt;strong&gt;[SECURITY-FIX]&lt;/strong&gt; Antiforgery token mechanism introduced (CSRF attacks prevention)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v1.1.2...v1.1.3&lt;/p&gt;</content>
     <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.4</id>
+    <title>New release for PlikShare: v1.1.4</title>
+    <updated>2025-03-23T17:05:01-04:00</updated>
+    <author>
+      <name>damian-krychowski/plikshare</name>
+    </author>
+    <content>&lt;p&gt;Changes:
+- &lt;strong&gt;[FEATURE]&lt;/strong&gt; Additional sign-up checkboxes can be configured (required or optional) in the General Settings page
+- &lt;strong&gt;[FIX]&lt;/strong&gt;  Bulk upload works correctly for archives that contain files only (no folders)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damian-krychowski/plikshare/compare/v1.1.3...v1.1.4&lt;/p&gt;</content>
+    <link href="https://github.com/damian-krychowski/plikshare/releases/tag/v1.1.4" rel="alternate"/>
   </entry>
 </feed>
