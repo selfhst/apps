@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-03-23T09:34:26.383734-04:00</updated>
+  <updated>2025-03-23T10:34:11.807772-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,7 +127,12 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;5ab3a06ce4cb31764cee837056ae3c1be8aba8e2 [#889] fix: config: Remote node with auth not working (#890)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[#889] fix: config: Remote node with auth not working by @yottahmd in https://github.com/dagu-org/dagu/pull/890&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.5...v1.16.6&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.6" rel="alternate"/>
   </entry>
 </feed>
