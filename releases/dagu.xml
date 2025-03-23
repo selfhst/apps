@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-03-22T21:33:43.544962-04:00</updated>
+  <updated>2025-03-22T22:33:50.698530-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,6 @@
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;docs: bump python version for docs to 3.11.9 by @Lewiscowles1986 in https://github.com/dagu-org/dagu/pull/865&lt;/li&gt;
-&lt;li&gt;chore: add CHANGELOG.md by @yottahmd in https://github.com/dagu-org/dagu/pull/866&lt;/li&gt;
 &lt;li&gt;fix: snapshot deprecated warning (Fixes #869) by @arky in https://github.com/dagu-org/dagu/pull/870&lt;/li&gt;
 &lt;li&gt;docs: fixed incorrect command syntax in slack notification example by @david-waterworth in https://github.com/dagu-org/dagu/pull/874&lt;/li&gt;
 &lt;li&gt;[#877] ui: fix: base path is not working on web by @yottahmd in https://github.com/dagu-org/dagu/pull/878&lt;/li&gt;
