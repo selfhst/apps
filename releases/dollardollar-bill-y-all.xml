@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DollarDollar Bill Y'all Releases</title>
-  <updated>2025-03-23T14:35:37.493011-04:00</updated>
+  <updated>2025-03-23T15:35:32.758548-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,7 +164,7 @@ Thank you to all contributors and users for making this project possible!&lt;/p&
     <link href="https://github.com/harung1993/dollardollar/releases/tag/v3.3.8" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/harung1993/dollardollar/releases/tag/v4.0</id>
+    <id>https://github.com/harung1993/dollardollar/releases/tag/v4.0.1</id>
     <title>New release for DollarDollar Bill Y'all: V4.0 : Major update and upgrades !! </title>
     <updated>2025-03-22T17:29:07-04:00</updated>
     <author>
@@ -249,6 +249,6 @@ flask db upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;If you like this project and would like to support my work, you can buy me a coffee!! Your support helps me continue creating resources like this one. No pressure at all, and thank you for being here!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://buymeacoffee.com/ccfw6gzz28"&gt;&lt;img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&amp;emoji=&amp;slug=ccfw6gzz28&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.0" rel="alternate"/>
+    <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.0.1" rel="alternate"/>
   </entry>
 </feed>
