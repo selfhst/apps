@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>QuickDrop Releases</title>
-  <updated>2025-03-24T10:36:39.838876-04:00</updated>
+  <updated>2025-03-24T11:34:42.327086-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,7 +183,7 @@ General Maintenance: Under-the-hood enhancements to keep QuickDrop fast and stab
   <entry>
     <id>https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.2</id>
     <title>New release for QuickDrop: v1.4.2</title>
-    <updated>2025-03-23T16:24:01-04:00</updated>
+    <updated>2025-03-24T10:48:08-04:00</updated>
     <author>
       <name>RoastSlav/quickdrop</name>
     </author>
@@ -197,7 +197,9 @@ General Maintenance: Under-the-hood enhancements to keep QuickDrop fast and stab
 &lt;ul&gt;
 &lt;li&gt;@issafram made their first contribution in https://github.com/RoastSlav/quickdrop/pull/32&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/RoastSlav/quickdrop/compare/v1.4.1...v1.4.2&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/RoastSlav/quickdrop/compare/v1.4.1...v1.4.2&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cmd
+docker pull roastslav/quickdrop:v1.4.2&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/RoastSlav/quickdrop/releases/tag/v1.4.2" rel="alternate"/>
   </entry>
 </feed>
