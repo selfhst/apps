@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-03-24T04:30:05.968568-04:00</updated>
+  <updated>2025-03-24T05:30:05.873890-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -459,9 +459,9 @@
     <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/nocodb/nocodb/releases/tag/0.262.4</id>
-    <title>New release for NocoDB: 0.262.4: Bug Fix Release</title>
-    <updated>2025-03-22T02:50:14-04:00</updated>
+    <id>https://github.com/nocodb/nocodb/releases/tag/0.262.5</id>
+    <title>New release for NocoDB: 0.262.5: Bug Fix Release</title>
+    <updated>2025-03-24T05:05:40-04:00</updated>
     <author>
       <name>nocodb/nocodb</name>
     </author>
@@ -532,9 +532,13 @@
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Page Loading Error &lt;a href="https://github.com/nocodb/nocodb/issues/10916"&gt;#10916&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Share button in views not working properly anymore &lt;a href="https://github.com/nocodb/nocodb/issues/10899"&gt;#10899&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Upload excel issue with arabic character in column name &lt;a href="https://github.com/nocodb/nocodb/issues/10833"&gt;#10833&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Unintended filter from related table views applied for linked records &lt;a href="https://github.com/nocodb/nocodb/issues/10962"&gt;#10962&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Search filter is not working on many-to-one relational field &lt;a href="https://github.com/nocodb/nocodb/issues/10949"&gt;#10949&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Release 0.262.2 by @github-actions in https://github.com/nocodb/nocodb/pull/10791&lt;/li&gt;
+&lt;li&gt;chore: post-release sync by @github-actions in https://github.com/nocodb/nocodb/pull/10792&lt;/li&gt;
 &lt;li&gt;fix: ws user invite notification is not shown in ui by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/10789&lt;/li&gt;
 &lt;li&gt;fix: query filter with parser by @fendy3002 in https://github.com/nocodb/nocodb/pull/10796&lt;/li&gt;
 &lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/10793&lt;/li&gt;
@@ -614,6 +618,8 @@
 &lt;li&gt;New Crowdin updates by @o1lab in https://github.com/nocodb/nocodb/pull/10917&lt;/li&gt;
 &lt;li&gt;fix: formula not gettign truncated by @dstala in https://github.com/nocodb/nocodb/pull/10924&lt;/li&gt;
 &lt;li&gt;Nc Fix: Import/Upload data UI changes by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/10883&lt;/li&gt;
+&lt;li&gt;Release 0.262.3 by @github-actions in https://github.com/nocodb/nocodb/pull/10928&lt;/li&gt;
+&lt;li&gt;0.262.3 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/10927&lt;/li&gt;
 &lt;li&gt;chore: post-release sync by @github-actions in https://github.com/nocodb/nocodb/pull/10929&lt;/li&gt;
 &lt;li&gt;fix: Misc Fixes by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/10926&lt;/li&gt;
 &lt;li&gt;Update build command in local docker build bash file by @pranavxc in https://github.com/nocodb/nocodb/pull/10931&lt;/li&gt;
@@ -628,12 +634,17 @@
 &lt;li&gt;fix: Enable data audit by default and disable only if explicitly disabled using env by @pranavxc in https://github.com/nocodb/nocodb/pull/10951&lt;/li&gt;
 &lt;li&gt;fix: Group by - Formula lookup correction by @pranavxc in https://github.com/nocodb/nocodb/pull/10952&lt;/li&gt;
 &lt;li&gt;0.262.4 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/10955&lt;/li&gt;
+&lt;li&gt;Release 0.262.4 by @github-actions in https://github.com/nocodb/nocodb/pull/10956&lt;/li&gt;
+&lt;li&gt;fix: Do permission check only after loading the base roles by @pranavxc in https://github.com/nocodb/nocodb/pull/10960&lt;/li&gt;
+&lt;li&gt;chore: post-release sync by @github-actions in https://github.com/nocodb/nocodb/pull/10957&lt;/li&gt;
+&lt;li&gt;Nc fix/10962 unintended filter from related table view by @dstala in https://github.com/nocodb/nocodb/pull/10964&lt;/li&gt;
+&lt;li&gt;0.262.5 Pre-release by @github-actions in https://github.com/nocodb/nocodb/pull/10965&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@ssweber made their first contribution in https://github.com/nocodb/nocodb/pull/10757&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.262.2...0.262.4&lt;/p&gt;</content>
-    <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.262.2...0.262.5&lt;/p&gt;</content>
+    <link href="https://github.com/nocodb/nocodb/releases/tag/0.262.5" rel="alternate"/>
   </entry>
 </feed>

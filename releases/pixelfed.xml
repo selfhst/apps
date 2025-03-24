@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pixelfed Releases</title>
-  <updated>2025-03-24T04:31:09.336602-04:00</updated>
+  <updated>2025-03-24T05:31:05.501077-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,9 @@
     <author>
       <name>pixelfed/pixelfed</name>
     </author>
-    <content>&lt;h3&gt;Added&lt;/h3&gt;
+    <content>&lt;h2&gt;PHP 8.3+&lt;/h2&gt;
+&lt;p&gt;Pixelfed now requires PHP 8.3+&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add app register email verify resends (&lt;a href="https://github.com/pixelfed/pixelfed/commit/dbd1e17"&gt;dbd1e17&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Add AVIF support (&lt;a href="https://github.com/pixelfed/pixelfed/commit/7ddbe0c47"&gt;7ddbe0c47&lt;/a&gt;)&lt;/li&gt;
