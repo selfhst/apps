@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manyfold Releases</title>
-  <updated>2025-03-24T06:32:12.517866-04:00</updated>
+  <updated>2025-03-24T07:32:15.627757-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,7 @@
     <author>
       <name>manyfold3d/manyfold</name>
     </author>
-    <content>&lt;p&gt;This release sees the first proper API endpoints for public models, creators and collections. It's a pretty standard JSON-LD REST API, and should be considered version zero; it will definitely change over time, but we're excited to see what can be done with it! Full documentation is at /api on every instance (including https://try.manyfold.app/api), and is linked in the site footer. &lt;/p&gt;
+    <content>&lt;p&gt;This release sees the first proper API endpoints for public models, creators and collections. It's a pretty standard JSON-LD REST API, and should be considered version zero; it will definitely change over time, but we're excited to see what can be done with it! Full documentation is at &lt;code&gt;/api&lt;/code&gt; on every instance (including on &lt;a href="https://try.manyfold.app/api"&gt;Try Manyfold&lt;/a&gt;), and is linked in the site footer. &lt;/p&gt;
 &lt;p&gt;Authenticated access tokens for accessing private data will be coming soon, followed by being able to edit data and upload content.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;✨ New Features ✨&lt;/h3&gt;
