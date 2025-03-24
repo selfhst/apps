@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-03-24T13:33:14.363215-04:00</updated>
+  <updated>2025-03-24T14:33:14.168733-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,11 +111,10 @@
       <name>moghtech/komodo</name>
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;This release moves the image locations under the &lt;code&gt;moghtech&lt;/code&gt; organization, and updates the image names for increased clarity.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/moghtech/komodo-core:1.17.0&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ghcr.io/moghtech/komodo-periphery:1.17.0&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2&gt;🚨 BREAKING - New image names&lt;/h2&gt;
+&lt;p&gt;This release moves the image locations under the &lt;code&gt;moghtech&lt;/code&gt; organization, and updates the image names for increased clarity.
+  - &lt;code&gt;ghcr.io/moghtech/komodo-core:1.17.0&lt;/code&gt;
+  - &lt;code&gt;ghcr.io/moghtech/komodo-periphery:1.17.0&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;🚨 BREAKING - &lt;code&gt;\&lt;/code&gt; in Resource Sync TOML&lt;/h2&gt;
 &lt;p&gt;Previously, the use of backslash (&lt;code&gt;\&lt;/code&gt;) &lt;strong&gt;had to be escaped&lt;/strong&gt; (change to &lt;code&gt;\\&lt;/code&gt;) inside &lt;strong&gt;triple quoted blocks&lt;/strong&gt; in Resource Sync TOML. &lt;strong&gt;Now it doesn't&lt;/strong&gt;, which brings it in line with what you see in the UI. This also fixes &lt;code&gt;CommitSync&lt;/code&gt; when used with Resources with config containing &lt;code&gt;\&lt;/code&gt; re #247.&lt;/p&gt;
 &lt;p&gt;If you have sync files using the escaped &lt;code&gt;\\&lt;/code&gt;, you can update them in your repo. You can also use the &lt;code&gt;Commit Sync&lt;/code&gt; action to fix the files automatically (the pending change will be picked up on the Sync page).&lt;/p&gt;

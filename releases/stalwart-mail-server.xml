@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2025-03-24T13:31:22.077971-04:00</updated>
+  <updated>2025-03-24T14:31:18.013805-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,10 @@
 &lt;li&gt;Allow TLS name mismatch as per RFC7671 Section 5.1.&lt;/li&gt;
 &lt;li&gt;Try with implicit MX when no MX records are found.&lt;/li&gt;
 &lt;li&gt;SQL &lt;code&gt;secrets&lt;/code&gt; directory query.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/mail-server/attestations/5794258"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/mail-server/releases/tag/v0.11.7" rel="alternate"/>
   </entry>
 </feed>
