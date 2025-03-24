@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VictoriaMetrics Releases</title>
-  <updated>2025-03-24T11:32:39.333259-04:00</updated>
+  <updated>2025-03-24T12:32:32.582659-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,6 +130,7 @@
 &lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: properly compare rules &lt;code&gt;group.checksum&lt;/code&gt; and statically define &lt;code&gt;group.id&lt;/code&gt; at creation time. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/pull/8540"&gt;this PR&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmalert/"&gt;vmalert&lt;/a&gt;: fix memory leak during rule group updates on reload. Bug was introduced in &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.112.0"&gt;v1.112.0&lt;/a&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8532"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/vmgateway"&gt;vmgateway&lt;/a&gt;: fix the &lt;code&gt;vmgateway_ratelimit_refresh_duration_seconds&lt;/code&gt; value, before it did not account for the actual time spent refreshing limits.&lt;/li&gt;
+&lt;li&gt;BUGFIX: &lt;a href="https://docs.victoriametrics.com/single-server-victoriametrics/"&gt;vmsingle&lt;/a&gt;, &lt;code&gt;vmselect&lt;/code&gt; in &lt;a href="https://docs.victoriametrics.com/cluster-victoriametrics/"&gt;VictoriaMetrics cluster&lt;/a&gt;: prevent panic in case &lt;a href="https://docs.victoriametrics.com/metricsql/#subqueries"&gt;subquery&lt;/a&gt; step value exceeds max allowed value. Previously, the following query would lead to panic &lt;code&gt;rate(sum(up)[11i:922335359011637780i])&lt;/code&gt;. See &lt;a href="https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8447"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.114.0" rel="alternate"/>
   </entry>
