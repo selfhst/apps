@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-03-25T10:31:08.074547-04:00</updated>
+  <updated>2025-03-25T11:31:02.031032-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -515,7 +515,7 @@ https://www.youtube.com/watch?v=ooWLS7BUERE
 &lt;h3&gt;Web timeline improvements&lt;/h3&gt;
 &lt;p&gt;The timeline has been “virtually” rewritten to be significantly faster while using much less memory. Scrolling, scrubbing, and resizing the window are all snappier than ever. The web experience on a mobile device has also been improved with more responsive scrubbing and smaller thumbnails to fit more assets on the screen.&lt;/p&gt;
 &lt;h3&gt;ROCm and RKNPU acceleration for machine learning&lt;/h3&gt;
-&lt;p&gt;Machine learning can now be configured to use AMD GPUs and Rockchip NPUs, making Smart Search and Face Detection jobs much faster than on the CPU. See the &lt;a href="https://v1.130.archive.immich.app/docs/features/ml-hardware-acceleration/"&gt;documentation&lt;/a&gt; on how to set it up!&lt;/p&gt;
+&lt;p&gt;Machine learning can now be configured to use AMD GPUs and Rockchip NPUs, making Smart Search and Face Detection jobs much faster than on the CPU. See the &lt;a href="https://v1.130.0.archive.immich.app/docs/features/ml-hardware-acceleration/"&gt;documentation&lt;/a&gt; on how to set it up!&lt;/p&gt;
 &lt;p&gt;Note: the ROCm image is massive at over 30GiB uncompressed, so please make sure you have enough disk space for it.&lt;/p&gt;
 &lt;h3&gt;Remember the text search option.&lt;/h3&gt;
 &lt;p&gt;The search input now remembers and displays the last choice from the three available text search modes: context, file name, and description. 

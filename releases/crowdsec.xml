@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CrowdSec Releases</title>
-  <updated>2025-03-25T10:32:29.878137-04:00</updated>
+  <updated>2025-03-25T11:32:17.876687-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -450,5 +450,42 @@ Those allowlists will applied by LAPI to local decisions, appsec rules and block
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.8</id>
+    <title>New release for CrowdSec: v1.6.8</title>
+    <updated>2025-03-25T09:33:10-04:00</updated>
+    <author>
+      <name>crowdsecurity/crowdsec</name>
+    </author>
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;build(deps): bump github.com/golang-jwt/jwt/v4 from 4.5.1 to 4.5.2 (#3531) @&lt;a href="https://github.com/apps/dependabot"&gt;dependabot[bot]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CI: enable linter "noctx" (#3528) @mmetc&lt;/li&gt;
+&lt;li&gt;CI: enable linter "containedctx" (#3529) @mmetc&lt;/li&gt;
+&lt;li&gt;only warn about capi_whitelists_path being deprecated if actually in use (#3535) @blotus&lt;/li&gt;
+&lt;li&gt;CI: pin hub branch during functional tests (#3526) @mmetc&lt;/li&gt;
+&lt;li&gt;empty back-merge from release branch (#3527) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;explicit message for malformed data URL in local items (#3537) @mmetc&lt;/li&gt;
+&lt;li&gt;Migration script from debian/ubuntu package 1.4.6 (#3420) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Allowlists: fix range check in LAPI endpoint (#3538) @blotus&lt;/li&gt;
+&lt;li&gt;revert ActionPlan info/warning to StandardLogger (#3536) @mmetc&lt;/li&gt;
+&lt;li&gt;fix #3532 "reload causes crashing process" (#3534) @mmetc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Chore / Deps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use replace for coraza instead of renaming the entire package (#3530) @blotus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Geolite2 notice&lt;/h2&gt;
+&lt;p&gt;This product includes GeoLite2 data created by MaxMind, available from &lt;a href="https://www.maxmind.com"&gt;https://www.maxmind.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Take a look at the &lt;a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec"&gt;installation instructions&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://github.com/crowdsecurity/crowdsec/releases/tag/v1.6.8" rel="alternate"/>
   </entry>
 </feed>
