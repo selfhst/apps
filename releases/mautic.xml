@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-03-25T04:31:10.157102-04:00</updated>
+  <updated>2025-03-25T05:31:12.046795-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -520,6 +520,10 @@ SHA1(5.2.3-update.zip)= c2fe088c20a2f74ed95110e3a9c0059fa4bdc642&lt;/p&gt;</cont
 &lt;ul&gt;
 &lt;li&gt;DPMMA-3033 Correct focus item script response codes and fix undefined Focus.iframe by @patrykgruszka in https://github.com/mautic/mautic/pull/14521&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;🍇 GrapesJS Builder&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Give dynamic content ckeditor the correct options in it's toolbar by @mallezie in https://github.com/mautic/mautic/pull/14639&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;🔔 Notifications&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix wording and encoding issue in notifications by @npracht in https://github.com/mautic/mautic/pull/14711&lt;/li&gt;
@@ -539,6 +543,7 @@ SHA1(5.2.3-update.zip)= c2fe088c20a2f74ed95110e3a9c0059fa4bdc642&lt;/p&gt;</cont
 &lt;li&gt;Fixed #14559 When deleting a theme the confirmation modal is not readable by @VishnuGurrapu in https://github.com/mautic/mautic/pull/14619&lt;/li&gt;
 &lt;li&gt;Fix: Fix contact preview lookup on email not performing a lookup by @driskell in https://github.com/mautic/mautic/pull/14648&lt;/li&gt;
 &lt;li&gt;Fix space between toggle and campaign name  by @kuzmany in https://github.com/mautic/mautic/pull/14677&lt;/li&gt;
+&lt;li&gt;Fix #12795: Missing class on Points &amp;gt; Manage Group menu by @SaraCRM in https://github.com/mautic/mautic/pull/14750&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;💖 New Contributors&lt;/h2&gt;
 &lt;ul&gt;
