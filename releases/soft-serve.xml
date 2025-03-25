@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Soft Serve Releases</title>
-  <updated>2025-03-25T17:35:22.950767-04:00</updated>
+  <updated>2025-03-25T18:35:22.834862-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -248,7 +248,9 @@ Done! You artifacts are now verified!
     <author>
       <name>charmbracelet/soft-serve</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release fixes an issue with Wish Bubbletea middleware taking over Git SSH requests and causing them to fail. See https://github.com/charmbracelet/soft-serve/issues/683 for more details.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/charmbracelet/soft-serve/compare/v0.8.4...v0.8.5&lt;/p&gt;
 &lt;hr /&gt;
 &lt;details&gt;
 &lt;summary&gt;Verifying the artifacts&lt;/summary&gt;
