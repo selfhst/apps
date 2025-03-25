@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-03-25T18:35:21.821442-04:00</updated>
+  <updated>2025-03-25T19:35:24.779274-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -413,10 +413,16 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;@directus/app&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Added Visual Editor Beta (&lt;a href="https://github.com/directus/directus/pull/24758"&gt;#24758&lt;/a&gt; by @formfcw)&lt;/li&gt;
+&lt;li&gt;After creating a new content version, it will become the current selected version (&lt;a href="https://github.com/directus/directus/pull/24606"&gt;#24606&lt;/a&gt; by @robluton)&lt;/li&gt;
+&lt;li&gt;Added Version support to field rules. This allows conditional rules based on an item's version (&lt;a href="https://github.com/directus/directus/pull/24646"&gt;#24646&lt;/a&gt; by @robluton)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/api&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Added Visual Editor Beta (&lt;a href="https://github.com/directus/directus/pull/24758"&gt;#24758&lt;/a&gt; by @formfcw)&lt;/li&gt;
 &lt;li&gt;Added the ability to map OAuth claim groups to Directus roles (&lt;a href="https://github.com/directus/directus/pull/24558"&gt;#24558&lt;/a&gt; by @daanh432)&lt;/li&gt;
 &lt;li&gt;Added &lt;code&gt;omitKey&lt;/code&gt; option to &lt;code&gt;getConfigFromEnv&lt;/code&gt; (&lt;a href="https://github.com/directus/directus/pull/24826"&gt;#24826&lt;/a&gt; by @jacobcons)&lt;/li&gt;
+&lt;li&gt;Added support for relational dynamic variables in filters (&lt;a href="https://github.com/directus/directus/pull/24635"&gt;#24635&lt;/a&gt; by @Nitwel)&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;files.upload&lt;/code&gt; event for resumable uploads (&lt;a href="https://github.com/directus/directus/pull/24771"&gt;#24771&lt;/a&gt; by @br41nslug)&lt;/li&gt;
+&lt;li&gt;Fix missing _some,_none in GQL (&lt;a href="https://github.com/directus/directus/pull/24644"&gt;#24644&lt;/a&gt; by @Nitwel)&lt;/li&gt;
+&lt;li&gt;Added QUERYSTRING_MAX_PARSE_DEPTH configuration variable (&lt;a href="https://github.com/directus/directus/pull/24833"&gt;#24833&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/system-data&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Added Visual Editor Beta (&lt;a href="https://github.com/directus/directus/pull/24758"&gt;#24758&lt;/a&gt; by @formfcw)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/types&lt;/strong&gt;&lt;/li&gt;
@@ -438,8 +444,6 @@
 &lt;li&gt;Fixed Block Editor Interface clearing field values unintentionally when updating an item. (&lt;a href="https://github.com/directus/directus/pull/24839"&gt;#24839&lt;/a&gt; by @connorwinston)&lt;/li&gt;
 &lt;li&gt;Updated translation key input field overflow (&lt;a href="https://github.com/directus/directus/pull/24769"&gt;#24769&lt;/a&gt; by @ngluunhatson)&lt;/li&gt;
 &lt;li&gt;Fixed re-linking new pointer references to existing links (&lt;a href="https://github.com/directus/directus/pull/24790"&gt;#24790&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
-&lt;li&gt;After creating a new content version, it will become the current selected version (&lt;a href="https://github.com/directus/directus/pull/24606"&gt;#24606&lt;/a&gt; by @robluton)&lt;/li&gt;
-&lt;li&gt;Added Version support to field rules. This allows conditional rules based on an item's version (&lt;a href="https://github.com/directus/directus/pull/24646"&gt;#24646&lt;/a&gt; by @robluton)&lt;/li&gt;
 &lt;li&gt;Fixed the appearance of the code interface when an enclosing group is made visible by a condition (&lt;a href="https://github.com/directus/directus/pull/24834"&gt;#24834&lt;/a&gt; by @robluton)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/api&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Updated dependencies (&lt;a href="https://github.com/directus/directus/pull/24722"&gt;#24722&lt;/a&gt; by @renovate)&lt;/li&gt;
@@ -453,13 +457,9 @@
 &lt;li&gt;Improved error handling for &lt;code&gt;/utils/hash/verify&lt;/code&gt; endpoint (&lt;a href="https://github.com/directus/directus/pull/24788"&gt;#24788&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Fix keys being optional on writes (&lt;a href="https://github.com/directus/directus/pull/24555"&gt;#24555&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Fixed singleton type for oas spec (&lt;a href="https://github.com/directus/directus/pull/24768"&gt;#24768&lt;/a&gt; by @Nitwel)&lt;/li&gt;
-&lt;li&gt;Added support for relational dynamic variables in filters (&lt;a href="https://github.com/directus/directus/pull/24635"&gt;#24635&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Added error logging for invalid &lt;code&gt;PUBLIC_URL&lt;/code&gt; on SSO redirection (&lt;a href="https://github.com/directus/directus/pull/24836"&gt;#24836&lt;/a&gt; by @licitdev)&lt;/li&gt;
-&lt;li&gt;Added &lt;code&gt;files.upload&lt;/code&gt; event for resumable uploads (&lt;a href="https://github.com/directus/directus/pull/24771"&gt;#24771&lt;/a&gt; by @br41nslug)&lt;/li&gt;
 &lt;li&gt;Added id_filter_operators to GQL (&lt;a href="https://github.com/directus/directus/pull/24757"&gt;#24757&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Fix insertion of keys in o2m relation (&lt;a href="https://github.com/directus/directus/pull/24609"&gt;#24609&lt;/a&gt; by @Nitwel)&lt;/li&gt;
-&lt;li&gt;Fix missing _some,_none in GQL (&lt;a href="https://github.com/directus/directus/pull/24644"&gt;#24644&lt;/a&gt; by @Nitwel)&lt;/li&gt;
-&lt;li&gt;Added QUERYSTRING_MAX_PARSE_DEPTH configuration variable (&lt;a href="https://github.com/directus/directus/pull/24833"&gt;#24833&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Improved validation checks for &lt;code&gt;createOne&lt;/code&gt; in the collections service (&lt;a href="https://github.com/directus/directus/pull/24960"&gt;#24960&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/components&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Updated dependencies (&lt;a href="https://github.com/directus/directus/pull/24722"&gt;#24722&lt;/a&gt; by @renovate)&lt;/li&gt;

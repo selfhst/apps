@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DollarDollar Bill Y'all Releases</title>
-  <updated>2025-03-25T18:35:34.603212-04:00</updated>
+  <updated>2025-03-25T19:35:37.951233-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,6 +245,30 @@ flask db upgrade&lt;/code&gt;&lt;/p&gt;
       <name>harung1993/dollardollar</name>
     </author>
     <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release v4.2&lt;/h1&gt;
+&lt;h3&gt;Migration Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: This update requires running &lt;code&gt;flask db migrate&lt;/code&gt; and &lt;code&gt;flask db upgrade&lt;/code&gt; commands before restarting the application. Failure to run these migrations will break the application.
+If this dont work , do the following&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;`
+1. Remove the existing Alembic version information:&lt;/p&gt;
+&lt;p&gt;postgresql://postgres:postgres@db:5432/dollardollar -c "DROP TABLE IF EXISTS alembic_version;"&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Remove existing migration folder:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;rm -rf /app/migrations&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initialize migrations:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;flask db init&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create the first migration:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;flask db migrate -m "Initial migration"&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apply the migration:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;flask db upgrade`&lt;/p&gt;
 &lt;h2&gt;💎 New Features&lt;/h2&gt;
 &lt;h3&gt;SimpleFin Integration Improvements&lt;/h3&gt;
 &lt;ul&gt;
@@ -300,75 +324,7 @@ flask db upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Added advanced options for manual account syncing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;📋 Technical Details&lt;/h2&gt;
-&lt;p&gt;This release includes significant changes to the transaction handling system and introduces a new recurring detection algorithm. Database migrations will run automatically on first launch after update.&lt;/p&gt;
-&lt;h3&gt;Migration Notes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The update will automatically create an "Other" category for users who don't have one&lt;/li&gt;
-&lt;li&gt;Existing recurring transactions will be preserved&lt;/li&gt;
-&lt;li&gt;No manual action is needed for data migration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;💎 New Features&lt;/h2&gt;
-&lt;h3&gt;SimpleFin Integration Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added option to edit account details before importing from SimpleFin&lt;/li&gt;
-&lt;li&gt;Customizable account names and types during import process&lt;/li&gt;
-&lt;li&gt;Enhanced error handling for SimpleFin connection issues&lt;/li&gt;
-&lt;li&gt;Improved synchronization scheduling with background processing&lt;/li&gt;
-&lt;li&gt;Better handling of transfer detection between imported accounts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Recurring Transaction Detection&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added intelligent recurring transaction detection system that automatically identifies patterns in your spending&lt;/li&gt;
-&lt;li&gt;New UI for reviewing potential recurring expenses and converting them to scheduled payments&lt;/li&gt;
-&lt;li&gt;Ability to ignore false positives in detection to improve future suggestions&lt;/li&gt;
-&lt;li&gt;Background detection runs on login and can be triggered manually&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Category Management Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Improved category deletion workflow with automatic reassignment to "Other" category&lt;/li&gt;
-&lt;li&gt;Recursive subcategory deletion when removing parent categories&lt;/li&gt;
-&lt;li&gt;Fixed issue where deleting categories could orphan transactions&lt;/li&gt;
-&lt;li&gt;Better error handling for system categories (now protected from deletion)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🔧 Transaction Updates &amp;amp; Fixes&lt;/h2&gt;
-&lt;h3&gt;Transaction Form Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Enhanced transaction form with more intuitive split management&lt;/li&gt;
-&lt;li&gt;Added support for different currencies in transactions&lt;/li&gt;
-&lt;li&gt;Improved personal/shared expense toggle workflow&lt;/li&gt;
-&lt;li&gt;Better validation for split values to ensure they match total expense amount&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;UI Enhancements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;New dashboard card showing asset vs debt trends&lt;/li&gt;
-&lt;li&gt;Added transaction type indicators (expense, income, transfer)&lt;/li&gt;
-&lt;li&gt;Fixed visual glitches in dark mode forms&lt;/li&gt;
-&lt;li&gt;Improved mobile responsiveness for transaction history&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Bugfixes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed issue where category reassignment failed during category deletion&lt;/li&gt;
-&lt;li&gt;Corrected calculation of split transactions when using percentages&lt;/li&gt;
-&lt;li&gt;Fixed bug where transaction date was incorrectly formatted in some browsers&lt;/li&gt;
-&lt;li&gt;Resolved issues with recurring expense generation on month boundaries&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🧰 Other Improvements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Performance optimizations for large transaction histories&lt;/li&gt;
-&lt;li&gt;Enhanced security for sensitive user financial data&lt;/li&gt;
-&lt;li&gt;Updated dependencies to latest versions&lt;/li&gt;
-&lt;li&gt;Code refactoring for better maintainability&lt;/li&gt;
-&lt;li&gt;Improved account management interface with better visibility of sync status&lt;/li&gt;
-&lt;li&gt;Added advanced options for manual account syncing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📋 Technical Details&lt;/h2&gt;
-&lt;p&gt;This release includes significant changes to the transaction handling system and introduces a new recurring detection algorithm. Database migrations will run automatically on first launch after update.&lt;/p&gt;
-&lt;h3&gt;Migration Notes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The update will automatically create an "Other" category for users who don't have one&lt;/li&gt;
-&lt;li&gt;Existing recurring transactions will be preserved&lt;/li&gt;
-&lt;li&gt;No manual action is needed for data migration&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;p&gt;This release includes significant changes to the transaction handling system and introduces a new recurring detection algorithm. Database migrations will run automatically on first launch after update.&lt;/p&gt;</content>
     <link href="https://github.com/harung1993/dollardollar/releases/tag/4.0.2" rel="alternate"/>
   </entry>
 </feed>
