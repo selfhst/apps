@@ -748,6 +748,12 @@
         ]
     },
     {
+        "Tag": "QR Codes",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "RSS",
         "Valid Types": [
             "Software",
