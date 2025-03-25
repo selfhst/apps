@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fedilab Releases</title>
-  <updated>2025-03-25T11:34:15.957522-04:00</updated>
+  <updated>2025-03-25T12:34:11.762844-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,5 +65,29 @@
 - Fix a crash for long threads
 - Fix a crash due to some messages (happened in different timelines)&lt;/p&gt;</content>
     <link href="https://codeberg.org/tom79/Fedilab/releases/tag/3.30.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/tom79/Fedilab/releases/tag/3.31.0</id>
+    <title>New release for Fedilab: 3.31.0</title>
+    <updated>2025-03-25T16:14:08+00:00</updated>
+    <author>
+      <name>tom79/Fedilab</name>
+    </author>
+    <content>&lt;p&gt;Added:
+- Pinned Trending Timeline (can be hidden in Manage Timelines)
+- Add a fallback to the default translator
+- New Pixelfed entry in Settings to disable fullscreen for media
+- Add tooltips for tabs in profiles&lt;/p&gt;
+&lt;p&gt;Changed:
+- Increase touch area of reply buttons
+- Show a dialog after settings export&lt;/p&gt;
+&lt;p&gt;Fixed:
+- Fix media description not updated when there are several
+- Only a part of DeepL translations are shown
+- Fix Lingva truncated translations
+- Fix a crash when fetching remote profiles
+- Fix a crash with animated emoji
+- Fix a crash when displaying Home cache charts&lt;/p&gt;</content>
+    <link href="https://codeberg.org/tom79/Fedilab/releases/tag/3.31.0" rel="alternate"/>
   </entry>
 </feed>
