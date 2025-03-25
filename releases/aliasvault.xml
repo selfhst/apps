@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-03-25T08:35:12.056907-04:00</updated>
+  <updated>2025-03-25T09:35:54.608716-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -172,7 +172,7 @@
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Customizable password generator pattern&lt;/strong&gt;: added the option to customize the random password generator pattern (length, lowercase, uppercase, special characters, ambiguous characters) globally or per credential. The browser extension respects this configuration too and applies it accordingly when generating new aliases.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customizable password generator pattern&lt;/strong&gt;: added the option to customize the random password generator pattern (length, lowercase, uppercase, special characters, ambiguous characters) globally or per credential. The browser extension respects this configuration and applies it accordingly when generating new aliases.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Improved browser extension autofill&lt;/strong&gt;: improved autofill behavior in the browser extension for websites that previously rejected autofilled passwords.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Quality-of-life improvements&lt;/strong&gt;: enhanced admin dashboard analytics, improved server-side email claim management to reject emails for disabled aliases.&lt;/li&gt;
 &lt;/ol&gt;
