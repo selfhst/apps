@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Multi-Scrobbler Releases</title>
-  <updated>2025-03-24T21:33:44.678935-04:00</updated>
+  <updated>2025-03-24T22:33:47.445975-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -208,14 +208,15 @@
       <name>FoxxMD/multi-scrobbler</name>
     </author>
     <content>&lt;h1&gt;What's New?&lt;/h1&gt;
-&lt;p&gt;So many new Sources! Additionally, &lt;a href="https://github.com/FoxxMD/multi-scrobbler/pull/256"&gt;many improvements&lt;/a&gt; to resuming scrobbles from long-lived Sources have made their way into this release. Users who keep their players open for long periods should see less false positive scrobbles.&lt;/p&gt;
+&lt;p&gt;So many new Sources! With this release Multi-Scrobbler now supports 20+ Sources!&lt;/p&gt;
+&lt;p&gt;Additionally, &lt;a href="https://github.com/FoxxMD/multi-scrobbler/pull/256"&gt;many improvements&lt;/a&gt; to resuming scrobbles from long-lived Sources have made their way into this release. Users who keep their players open for long periods should see less false positive scrobbles.&lt;/p&gt;
 &lt;h2&gt;Listenbrainz and Last.fm "Scrobble Endpoint" Sources&lt;/h2&gt;
-&lt;p&gt;Multi-scrobbler can now "pretend" to be a custom Listenbrainz or Last.fm server so that your apps that support scrobbling to custom endpoints for these services can now use Multi-scrobbler instead. See Source configuration for &lt;strong&gt;Listenbrainz (Endpoint)&lt;/strong&gt; and &lt;strong&gt;Last.fm (Endpoint)&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2&gt;Azuracast Source&lt;/h2&gt;
-&lt;p&gt;Monitor an &lt;a href="https://www.azuracast.com/"&gt;Azuracast&lt;/a&gt; radio station and scrobble tracks when it is live, has X number of listeners, or &lt;strong&gt;manually&lt;/strong&gt; from the UI.&lt;/p&gt;
-&lt;h2&gt;Icecast Source&lt;/h2&gt;
-&lt;p&gt;Monitor an &lt;a href="https://icecast.org/"&gt;Icecast&lt;/a&gt; or Shoutcast radio station and scrobble tracks automatically or manually from the UI.&lt;/p&gt;
-&lt;h2&gt;Yamaha MusicCast&lt;/h2&gt;
+&lt;p&gt;Multi-scrobbler can now "pretend" to be a custom Listenbrainz or Last.fm server so that your apps that support scrobbling to custom endpoints for these services can now use Multi-scrobbler instead. See Source configuration for &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#listenbrainz-endpoint"&gt;&lt;strong&gt;Listenbrainz (Endpoint)&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#lastfm-endpoint"&gt;&lt;strong&gt;Last.fm (Endpoint)&lt;/strong&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#azuracast"&gt;Azuracast Source&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Monitor an &lt;a href="https://www.azuracast.com/"&gt;Azuracast&lt;/a&gt; radio station and scrobble tracks when it is live, has X number of listeners, or &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#should-scrobble-behavior"&gt;&lt;strong&gt;manually&lt;/strong&gt;&lt;/a&gt; from the UI.&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#icecast"&gt;Icecast Source&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Monitor an &lt;a href="https://icecast.org/"&gt;Icecast&lt;/a&gt; or Shoutcast radio station and scrobble tracks automatically or &lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#should-scrobble-behavior"&gt;manually&lt;/a&gt; from the UI.&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://foxxmd.github.io/multi-scrobbler/docs/configuration/#yamaha-musiccast"&gt;Yamaha MusicCast&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Scrobble from Yamaha receiver/devices that support the &lt;a href="https://usa.yamaha.com/products/contents/audio_visual/musiccast/index.html"&gt;MusicCast&lt;/a&gt; service. Currently supports any music played from USB/Network/CD inputs.&lt;/p&gt;
 &lt;h1&gt;Changelog Highlights&lt;/h1&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
