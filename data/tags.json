@@ -44,6 +44,12 @@
         ]
     },
     {
+        "Tag": "Ambient Sounds",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Analytics",
         "Valid Types": [
             "Software"
@@ -541,6 +547,12 @@
     },
     {
         "Tag": "Logs",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
+        "Tag": "Maintenance",
         "Valid Types": [
             "Software"
         ]
