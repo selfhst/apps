@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-03-26T15:35:07.000752-04:00</updated>
+  <updated>2025-03-26T16:35:04.601602-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -457,5 +457,76 @@ This is the first rolling release (3 week cycle). Please note that although we h
 &lt;li&gt;Bump go-git to 5.13.0 (CVE-2025-21613) [&lt;a href="https://github.com/opencloud-eu/reva/pull/19"&gt;#19&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/opencloud-eu/opencloud/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.0</id>
+    <title>New release for OpenCloud: 2.0.0</title>
+    <updated>2025-03-26T15:53:00-04:00</updated>
+    <author>
+      <name>opencloud-eu/opencloud</name>
+    </author>
+    <content>&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.0"&gt;2.0.0&lt;/a&gt; - 2025-03-26&lt;/h2&gt;
+&lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
+&lt;p&gt;@JammingBen, @ScharfViktor, @aduffeck, @amrita-shrestha, @butonic, @dragonchaser, @dragotin, @individual-it, @kulmann, @micbar, @prashant-gurung899, @rhafer&lt;/p&gt;
+&lt;h3&gt;💥 Breaking changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[posix] change storage users default to posixfs [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/237"&gt;#237&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump reva to 2.29.1 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/501"&gt;#501&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;remove workaround for translation formatting [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/491"&gt;#491&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;[full-ci] fix(collaboration): hide SaveAs and ExportAs buttons in web office [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/471"&gt;#471&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix: add missing debug docker [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/481"&gt;#481&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Downgrade nats.go to 1.39.1 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/479"&gt;#479&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix cli driver initialization for "posix"  [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/459"&gt;#459&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Do not cache when there was an error gathering the data [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/462"&gt;#462&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix(storage-users): 'uploads sessions' command crash [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/446"&gt;#446&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix: org name in multiarch dev build [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/431"&gt;#431&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix local setup [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/440"&gt;#440&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📈 Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[full-ci] chore(web): update web to v2.1.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/497"&gt;#497&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Bump reva [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/474"&gt;#474&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Bump reva to pull in the latest fixes [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/451"&gt;#451&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Switch to jsoncs3 backend for app tokens and enable service by default [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/433"&gt;#433&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Completely remove "edition" from capabilities [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/434"&gt;#434&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;feat: add post logout redirect uris for mobile clients [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/411"&gt;#411&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;chore: bump version to v1.1.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/422"&gt;#422&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✅ Tests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[full-ci] add one more TUS test to expected to fail file [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/489"&gt;#489&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;[full-ci]Remove mtime 500 issue from expected failure [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/467"&gt;#467&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;add auth app to ocm test setup [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/472"&gt;#472&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;use opencloudeu/cs3api-validator in CI [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/469"&gt;#469&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix(test): Run app-auth test with jsoncs3 backend [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/460"&gt;#460&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Always run CLI tests with the decomposed storage driver [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/435"&gt;#435&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Disable the 'exclude' patterns on the path conditional for now [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/439"&gt;#439&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;run CS3 API tests in CI [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/415"&gt;#415&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;fix: fix path exclusion glob patterns [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/427"&gt;#427&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Cleanup woodpecker [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/430"&gt;#430&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;enable main API test suite to run in CI [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/419"&gt;#419&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Run wopi tests in CI [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/416"&gt;#416&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;cliCommands&lt;/code&gt; tests pipeline in CI [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/413"&gt;#413&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📚 Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;docs(idp): Document how to add custom OIDC clients [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/476"&gt;#476&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Clean invalid documentation links [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/466"&gt;#466&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📦️ Dependencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;build(deps): bump github.com/grpc-ecosystem/grpc-gateway/v2 from 2.26.1 to 2.26.3 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/480"&gt;#480&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;chore: update alpine to 3.21 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/483"&gt;#483&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;build(deps): bump github.com/nats-io/nats.go from 1.39.1 to 1.40.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/464"&gt;#464&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;build(deps): bump github.com/spf13/afero from 1.12.0 to 1.14.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/436"&gt;#436&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;build(deps): bump github.com/KimMachineGun/automemlimit from 0.7.0 to 0.7.1 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/437"&gt;#437&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;build(deps): bump golang.org/x/image from 0.24.0 to 0.25.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/426"&gt;#426&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;build(deps): bump go.opentelemetry.io/contrib/zpages from 0.57.0 to 0.60.0 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/425"&gt;#425&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.0" rel="alternate"/>
   </entry>
 </feed>
