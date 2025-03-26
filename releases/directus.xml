@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-03-25T19:35:24.779274-04:00</updated>
+  <updated>2025-03-25T20:35:16.648477-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -423,6 +423,8 @@
 &lt;li&gt;Added &lt;code&gt;files.upload&lt;/code&gt; event for resumable uploads (&lt;a href="https://github.com/directus/directus/pull/24771"&gt;#24771&lt;/a&gt; by @br41nslug)&lt;/li&gt;
 &lt;li&gt;Fix missing _some,_none in GQL (&lt;a href="https://github.com/directus/directus/pull/24644"&gt;#24644&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Added QUERYSTRING_MAX_PARSE_DEPTH configuration variable (&lt;a href="https://github.com/directus/directus/pull/24833"&gt;#24833&lt;/a&gt; by @Nitwel)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@directus/env&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Added QUERYSTRING_MAX_PARSE_DEPTH configuration variable (&lt;a href="https://github.com/directus/directus/pull/24833"&gt;#24833&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/system-data&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Added Visual Editor Beta (&lt;a href="https://github.com/directus/directus/pull/24758"&gt;#24758&lt;/a&gt; by @formfcw)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/types&lt;/strong&gt;&lt;/li&gt;
@@ -473,7 +475,6 @@
 &lt;li&gt;Updated dependencies (&lt;a href="https://github.com/directus/directus/pull/24722"&gt;#24722&lt;/a&gt; by @renovate)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/env&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Updated dependencies (&lt;a href="https://github.com/directus/directus/pull/24722"&gt;#24722&lt;/a&gt; by @renovate)&lt;/li&gt;
-&lt;li&gt;Added QUERYSTRING_MAX_PARSE_DEPTH configuration variable (&lt;a href="https://github.com/directus/directus/pull/24833"&gt;#24833&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/errors&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Updated dependencies (&lt;a href="https://github.com/directus/directus/pull/24722"&gt;#24722&lt;/a&gt; by @renovate)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/extensions-registry&lt;/strong&gt;&lt;/li&gt;
