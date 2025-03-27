@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-03-26T19:32:57.162021-04:00</updated>
+  <updated>2025-03-26T20:32:49.502516-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -200,7 +200,7 @@
 &lt;p&gt;```html&lt;/p&gt;
 &lt;p&gt;{{ .JSON.String "foo" | findMatch "\\d+" }}&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
-&lt;p&gt;The pattern is a regular expression, although note that backslashes need to be escaped, so &lt;code&gt;\d&lt;/code&gt; in a normal regular expression wold be &lt;code&gt;\\d&lt;/code&gt; here.&lt;/p&gt;
+&lt;p&gt;The pattern is a regular expression, although note that backslashes need to be escaped, so &lt;code&gt;\d&lt;/code&gt; in a normal regular expression would be &lt;code&gt;\\d&lt;/code&gt; here.&lt;/p&gt;
 &lt;p&gt;```html&lt;/p&gt;
 &lt;p&gt;123456&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;

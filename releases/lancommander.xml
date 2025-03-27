@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LANCommander Releases</title>
-  <updated>2025-03-26T19:32:48.300088-04:00</updated>
+  <updated>2025-03-26T20:32:40.340608-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,7 +151,11 @@
 &lt;h2&gt;Nightlies&lt;/h2&gt;
 &lt;p&gt;Nightly builds of both the launcher and server are now being hosted on GitHub under &lt;a href="https://github.com/LANCommander/LANCommander/actions/workflows/LANCommander.Nightly.yml"&gt;action runs&lt;/a&gt;. Docker builds are also being pushed to &lt;a href="https://github.com/LANCommander/LANCommander/pkgs/container/lancommander"&gt;GitHub Packages&lt;/a&gt;. As all nightlies go, these are unstable builds and may not work as expected.&lt;/p&gt;
 &lt;h2&gt;Breaking Changes&lt;/h2&gt;
-&lt;p&gt;The mounting paths for the Docker container have changed in v1.1.5. Directories that were in &lt;code&gt;/config&lt;/code&gt; now live at &lt;code&gt;/app&lt;/code&gt;. Please update your bindings accordingly.&lt;/p&gt;
+&lt;p&gt;The mounting paths for the
+ Docker container have changed in v1.1.5. Directories that were in &lt;code&gt;/config&lt;/code&gt; now live at &lt;code&gt;/app/config&lt;/code&gt;. Please update your bindings accordingly.&lt;/p&gt;
+&lt;h2&gt;WinGet Packages&lt;/h2&gt;
+&lt;p&gt;LANCommander is now available to install via WinGet! These packages are included in our CI, so releases will get automatically pushed to the public Microsoft source.
+&lt;img alt="WindowsTerminal_lyR1c4jvrs" src="https://github.com/user-attachments/assets/f1e14dee-a79d-4dc3-b6dc-70488ee095c4" /&gt;&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@simonmarklar made their first contribution in https://github.com/LANCommander/LANCommander/pull/192&lt;/li&gt;
