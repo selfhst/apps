@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-03-27T08:33:17.899724-04:00</updated>
+  <updated>2025-03-27T09:33:26.847494-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,23 +140,28 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Features&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.8...v0.21.9&lt;/p&gt;
+&lt;h3&gt;🚀 Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;*&lt;/strong&gt;: add new methods findAllAsync for the backup (&lt;a href="https://github.com/kestra-io/kestra/commit/e557ec45f5fbbf886a075c3ef63c729bb3b5317c"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;*:&lt;/strong&gt; Add new methods findAllAsync for the backup (&lt;a href="https://github.com/kestra-io/kestra/commit/e557ec45f"&gt;e557ec45f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core, jdbc:&lt;/strong&gt; DashboardRepository.findAll() (&lt;a href="https://github.com/kestra-io/kestra/commit/0bf60bd5f"&gt;0bf60bd5f&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;cli&lt;/strong&gt;: make worker args available through static KestraContext (&lt;a href="https://github.com/kestra-io/kestra/commit/c71366ad4da7ba1ec4d831585992a055eae972e8"&gt;Florian Hussonnois&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;jdbc&lt;/strong&gt;: add missing FETCH_SIZE constant (&lt;a href="https://github.com/kestra-io/kestra/commit/560f63865713e9a478eb2f347f32a85e629aeaae"&gt;Florian Hussonnois&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cli:&lt;/strong&gt; Make worker args available through static KestraContext (&lt;a href="https://github.com/kestra-io/kestra/commit/c71366ad4"&gt;c71366ad4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jdbc:&lt;/strong&gt; Add missing FETCH_SIZE constant (&lt;a href="https://github.com/kestra-io/kestra/commit/560f63865"&gt;560f63865&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: update the CHANGELOG.MD with details for 0.21.8 (&lt;a href="https://github.com/kestra-io/kestra/commit/ed1bbb94444227b121dc1c2b90ad1fd814af5bde"&gt;MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;upgrade to version 'v0.21.9' (&lt;a href="https://github.com/kestra-io/kestra/commit/df31d9cc4a93dd9acb6b9192b7f141d6d5f0f811"&gt;Florian Hussonnois&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version:&lt;/strong&gt; Update the CHANGELOG.MD with details for 0.21.8 (&lt;a href="https://github.com/kestra-io/kestra/commit/ed1bbb944"&gt;ed1bbb944&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Upgrade to version 'v0.21.9' (&lt;a href="https://github.com/kestra-io/kestra/commit/df31d9cc4"&gt;df31d9cc4&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Commits&lt;/h2&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;0bf60bd: feat(core, jdbc): DashboardRepository.findAll() (Loïc Mathieu)&lt;/li&gt;
+&lt;li&gt;Florian Hussonnois (&lt;a href="https://github.com/fhussonnois"&gt;@fhussonnois&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Loïc Mathieu (&lt;a href="https://github.com/loicmathieu"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;MilosPaunovic (&lt;a href="https://github.com/MilosPaunovic"&gt;@MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.9" rel="alternate"/>
   </entry>
