@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-03-27T05:33:25.007861-04:00</updated>
+  <updated>2025-03-27T06:33:21.226542-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,7 +154,7 @@
 &lt;p&gt;You can also access the response as you would on the main request:&lt;/p&gt;
 &lt;p&gt;```html
 {{ $andAnotherOne := .Subrequest "and-another-one" }}&lt;/p&gt;
-&lt;p&gt;{{ $anotherOne.Response.StatusCode }}&lt;/p&gt;
+&lt;p&gt;{{ $andAnotherOne.Response.StatusCode }}&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
 &lt;p&gt;(thanks @ralphocdol)&lt;/p&gt;
 &lt;h3&gt;New functions&lt;/h3&gt;
