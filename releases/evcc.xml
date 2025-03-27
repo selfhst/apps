@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-03-27T04:34:47.191214-04:00</updated>
+  <updated>2025-03-27T05:34:33.837764-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -137,12 +137,19 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.202.1</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.202.1</title>
     <updated>2025-03-27T04:24:55-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;36e8dce048b0ecac0b8a9270d90cd88f8abc5d46 Circuit: add retry (#20151)&lt;/li&gt;
+&lt;li&gt;2f62a1cd68093b77352f1aa34764c5c7dafe7135 Config UI: added heating devices to chargers in ui (#20125)&lt;/li&gt;
+&lt;li&gt;aeb3aba168acfaccbf8c79339b2b9e78b6a5f896 Plugins: filter nan values (#20137)&lt;/li&gt;
+&lt;li&gt;0ea32cc82aaf8896548ec487b3d8379273472e0a Sessions: for integrated devices use loadpoint name instead of guest vehicle (#20129)&lt;/li&gt;
+&lt;li&gt;a431b15d109703a471abde69aac1831f0a6e1851 sungrow-hybrid: fix maxchargepower (#20144)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.202.1" rel="alternate"/>
   </entry>
 </feed>
