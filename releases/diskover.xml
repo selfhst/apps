@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Diskover Releases</title>
-  <updated>2025-03-27T14:35:01.933701-04:00</updated>
+  <updated>2025-03-27T15:34:54.148591-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@ see &lt;a href="https://docs.diskoverdata.com/diskover_changelogs/"&gt;changelog
   <entry>
     <id>https://github.com/diskoverdata/diskover-community/releases/tag/v2.3.0</id>
     <title>New release for Diskover: diskover ce v2.3.0</title>
-    <updated>2024-09-05T22:36:54-04:00</updated>
+    <updated>2025-03-27T14:41:53-04:00</updated>
     <author>
       <name>diskoverdata/diskover-community</name>
     </author>
