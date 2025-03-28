@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-03-28T13:30:54.807138-04:00</updated>
+  <updated>2025-03-28T14:30:54.958193-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -347,7 +347,7 @@
 &lt;li&gt;fix(web): prevent combo box dropdowns from staying open when clicking on labels by @Snowknight26 in https://github.com/immich-app/immich/pull/17119&lt;/li&gt;
 &lt;li&gt;fix(server): check asset against multiple import paths by @etnoy in https://github.com/immich-app/immich/pull/17128&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.130.1...&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/immich-app/immich/compare/v1.130.1...v1.130.2&lt;/p&gt;</content>
     <link href="https://github.com/immich-app/immich/releases/tag/v1.130.2" rel="alternate"/>
   </entry>
   <entry>
