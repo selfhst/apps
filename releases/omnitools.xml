@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OmniTools Releases</title>
-  <updated>2025-03-28T04:39:25.994228-04:00</updated>
+  <updated>2025-03-28T11:35:37.163688-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,92 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/iib0011/omni-tools/commits/v0.1.0&lt;/p&gt;</content>
     <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/iib0011/omni-tools/releases/tag/v0.2.0</id>
+    <title>New release for OmniTools: v0.2.0</title>
+    <updated>2025-03-28T08:50:46-04:00</updated>
+    <author>
+      <name>iib0011/omni-tools</name>
+    </author>
+    <content>&lt;h2&gt;Docker images&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:0.2.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's New ?&lt;/h2&gt;
+&lt;h3&gt;🖼️ PNG Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Change PNG Opacity&lt;/li&gt;
+&lt;li&gt;Crop&lt;/li&gt;
+&lt;li&gt;Remove Background from PNG with AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📄 PDF Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Split PDF&lt;/li&gt;
+&lt;li&gt;Rotate PDF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✍️ Text Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove duplicate lines&lt;/li&gt;
+&lt;li&gt;Text Replacer&lt;/li&gt;
+&lt;li&gt;Repeat text&lt;/li&gt;
+&lt;li&gt;Truncate text&lt;/li&gt;
+&lt;li&gt;Reverse&lt;/li&gt;
+&lt;li&gt;Randomize case&lt;/li&gt;
+&lt;li&gt;Uppercase&lt;/li&gt;
+&lt;li&gt;Extract substring&lt;/li&gt;
+&lt;li&gt;Create palindrome&lt;/li&gt;
+&lt;li&gt;Palindrome&lt;/li&gt;
+&lt;li&gt;Quote&lt;/li&gt;
+&lt;li&gt;Rotate&lt;/li&gt;
+&lt;li&gt;Rot13&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🎥 Video Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Trim Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📂 JSON Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate JSON&lt;/li&gt;
+&lt;li&gt;Minify JSON&lt;/li&gt;
+&lt;li&gt;Stringify JSON&lt;/li&gt;
+&lt;li&gt;Convert JSON to XML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📋 List Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrap&lt;/li&gt;
+&lt;li&gt;Truncate&lt;/li&gt;
+&lt;li&gt;Duplicate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📊 CSV Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert CSV to JSON&lt;/li&gt;
+&lt;li&gt;Convert CSV to XML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔢 Number Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Generate Arithmetic Sequence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⏳ Time Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert Days to Hours&lt;/li&gt;
+&lt;li&gt;Convert Hours to Days&lt;/li&gt;
+&lt;li&gt;Convert Seconds to Time&lt;/li&gt;
+&lt;li&gt;Convert Time to Seconds&lt;/li&gt;
+&lt;li&gt;Calculate days between dates&lt;/li&gt;
+&lt;li&gt;Truncate Clock Time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@EugSh1 made their first contribution in https://github.com/iib0011/omni-tools/pull/33&lt;/li&gt;
+&lt;li&gt;@TheLukasHenry made their first contribution in https://github.com/iib0011/omni-tools/pull/41&lt;/li&gt;
+&lt;li&gt;@ady-cf made their first contribution in https://github.com/iib0011/omni-tools/pull/44&lt;/li&gt;
+&lt;li&gt;@EpicureanHeron made their first contribution in https://github.com/iib0011/omni-tools/pull/52&lt;/li&gt;
+&lt;li&gt;@ARRY7686 made their first contribution in https://github.com/iib0011/omni-tools/pull/53&lt;/li&gt;
+&lt;li&gt;@lfsjesus made their first contribution in https://github.com/iib0011/omni-tools/pull/58&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/iib0011/omni-tools/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
