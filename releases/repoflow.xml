@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RepoFlow Releases</title>
-  <updated>2025-03-27T19:35:40.138610-04:00</updated>
+  <updated>2025-03-27T20:35:32.687799-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,6 +93,90 @@
 &lt;li&gt;Adding more debug statements for troubleshooting issues. Must set LOG_LEVEL to debug.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/StarFleetCPTN/GoMFT/releases/tag/v0.1.18" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/StarFleetCPTN/GoMFT/releases/tag/v.0.2.3</id>
+    <title>New release for GoMFT: Release v.0.2.3</title>
+    <updated>2025-03-27T19:54:49-04:00</updated>
+    <author>
+      <name>StarFleetCPTN/GoMFT</name>
+    </author>
+    <content>&lt;h1&gt;GoMFT Release Notes&lt;/h1&gt;
+&lt;h2&gt;Release Notes - v0.2.3&lt;/h2&gt;
+&lt;h2&gt;🚀 Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Static File Handling&lt;/strong&gt;: Improved how static files are served with proper content types and caching headers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed UI Issues&lt;/strong&gt;: Resolved issues with CSS and JavaScript loading in Docker containers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build System Improvements&lt;/strong&gt;: Enhanced build process for both local and Docker builds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 Technical Changes&lt;/h2&gt;
+&lt;h3&gt;Static File Handling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added proper content type detection for different file types (JS, CSS, images, fonts)&lt;/li&gt;
+&lt;li&gt;Implemented caching headers for static assets&lt;/li&gt;
+&lt;li&gt;Separated static file handling from general file serving&lt;/li&gt;
+&lt;li&gt;Fixed issues with embedded files in Docker builds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Build System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated Dockerfile to properly handle frontend asset building&lt;/li&gt;
+&lt;li&gt;Added Node.js build steps to GitHub Actions workflows&lt;/li&gt;
+&lt;li&gt;Improved asset embedding in Go binary&lt;/li&gt;
+&lt;li&gt;Ensured consistent build process across all environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CI/CD Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Node.js setup and build steps to DockerHub workflow&lt;/li&gt;
+&lt;li&gt;Added Node.js setup and build steps to GitHub Container Registry workflow&lt;/li&gt;
+&lt;li&gt;Added verification steps for built assets&lt;/li&gt;
+&lt;li&gt;Improved build caching for faster deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔍 Technical Details&lt;/h2&gt;
+&lt;h3&gt;Static File Changes&lt;/h3&gt;
+&lt;p&gt;```go
+// Added proper content type handling
+func setContentType(c *gin.Context, path string) {
+    switch {
+    case strings.HasSuffix(path, ".js"):
+        c.Header("Content-Type", "application/javascript")
+    case strings.HasSuffix(path, ".css"):
+        c.Header("Content-Type", "text/css")
+    // ... other types ...
+    }
+}&lt;/p&gt;
+&lt;p&gt;// Added caching headers
+func setCacheHeaders(c *gin.Context, path string) {
+    if strings.HasSuffix(path, ".js") || strings.HasSuffix(path, ".css") {
+        c.Header("Cache-Control", "public, max-age=31536000")
+    }
+    // ... other rules ...
+}
+```&lt;/p&gt;
+&lt;h2&gt;📝 Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Local builds continue to work as before, just run &lt;code&gt;node build.js&lt;/code&gt; before &lt;code&gt;go build&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Docker builds now handle asset building automatically&lt;/li&gt;
+&lt;li&gt;CI/CD pipelines automatically build and verify frontend assets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔄 Migration&lt;/h2&gt;
+&lt;p&gt;No migration steps required. The changes are backward compatible and will take effect automatically after updating.&lt;/p&gt;
+&lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed FTP issue where port was not being added to config&lt;/li&gt;
+&lt;li&gt;Fixed FTP/SFTP issue where default ports were not working correctly&lt;/li&gt;
+&lt;li&gt;Fixed Webdav config error caused by form fields&lt;/li&gt;
+&lt;li&gt;Fixed UI styling issues in Docker containers&lt;/li&gt;
+&lt;li&gt;Fixed content type issues with static files&lt;/li&gt;
+&lt;li&gt;Fixed caching headers for static assets&lt;/li&gt;
+&lt;li&gt;Fixed asset embedding in Docker builds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📦 Dependencies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Node.js v20&lt;/li&gt;
+&lt;li&gt;Go 1.24&lt;/li&gt;
+&lt;li&gt;Alpine 3.19 (Docker base image)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/StarFleetCPTN/GoMFT/releases/tag/v.0.2.3" rel="alternate"/>
   </entry>
   <entry>
     <id>https://github.com/StarFleetCPTN/GoMFT/releases/tag/v0.2.0</id>
@@ -195,89 +279,5 @@
 &lt;li&gt;Database migrations will run automatically when the application starts.&lt;/li&gt;
 &lt;/ol&gt;</content>
     <link href="https://github.com/StarFleetCPTN/GoMFT/releases/tag/v0.2.1" rel="alternate"/>
-  </entry>
-  <entry>
-    <id>https://github.com/StarFleetCPTN/GoMFT/releases/tag/v0.2.2</id>
-    <title>New release for GoMFT: Release v0.2.2</title>
-    <updated>2025-03-27T19:32:19-04:00</updated>
-    <author>
-      <name>StarFleetCPTN/GoMFT</name>
-    </author>
-    <content>&lt;h1&gt;GoMFT Release Notes&lt;/h1&gt;
-&lt;h2&gt;Release Notes - v0.2.2&lt;/h2&gt;
-&lt;h2&gt;🚀 Improvements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Enhanced Static File Handling&lt;/strong&gt;: Improved how static files are served with proper content types and caching headers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fixed UI Issues&lt;/strong&gt;: Resolved issues with CSS and JavaScript loading in Docker containers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Build System Improvements&lt;/strong&gt;: Enhanced build process for both local and Docker builds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🔧 Technical Changes&lt;/h2&gt;
-&lt;h3&gt;Static File Handling&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added proper content type detection for different file types (JS, CSS, images, fonts)&lt;/li&gt;
-&lt;li&gt;Implemented caching headers for static assets&lt;/li&gt;
-&lt;li&gt;Separated static file handling from general file serving&lt;/li&gt;
-&lt;li&gt;Fixed issues with embedded files in Docker builds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Build System&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Updated Dockerfile to properly handle frontend asset building&lt;/li&gt;
-&lt;li&gt;Added Node.js build steps to GitHub Actions workflows&lt;/li&gt;
-&lt;li&gt;Improved asset embedding in Go binary&lt;/li&gt;
-&lt;li&gt;Ensured consistent build process across all environments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;CI/CD Improvements&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added Node.js setup and build steps to DockerHub workflow&lt;/li&gt;
-&lt;li&gt;Added Node.js setup and build steps to GitHub Container Registry workflow&lt;/li&gt;
-&lt;li&gt;Added verification steps for built assets&lt;/li&gt;
-&lt;li&gt;Improved build caching for faster deployments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🔍 Technical Details&lt;/h2&gt;
-&lt;h3&gt;Static File Changes&lt;/h3&gt;
-&lt;p&gt;```go
-// Added proper content type handling
-func setContentType(c *gin.Context, path string) {
-    switch {
-    case strings.HasSuffix(path, ".js"):
-        c.Header("Content-Type", "application/javascript")
-    case strings.HasSuffix(path, ".css"):
-        c.Header("Content-Type", "text/css")
-    // ... other types ...
-    }
-}&lt;/p&gt;
-&lt;p&gt;// Added caching headers
-func setCacheHeaders(c *gin.Context, path string) {
-    if strings.HasSuffix(path, ".js") || strings.HasSuffix(path, ".css") {
-        c.Header("Cache-Control", "public, max-age=31536000")
-    }
-    // ... other rules ...
-}
-```&lt;/p&gt;
-&lt;h2&gt;📝 Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Local builds continue to work as before, just run &lt;code&gt;node build.js&lt;/code&gt; before &lt;code&gt;go build&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Docker builds now handle asset building automatically&lt;/li&gt;
-&lt;li&gt;CI/CD pipelines automatically build and verify frontend assets&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🔄 Migration&lt;/h2&gt;
-&lt;p&gt;No migration steps required. The changes are backward compatible and will take effect automatically after updating.&lt;/p&gt;
-&lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed FTP issue where port was not being added to config&lt;/li&gt;
-&lt;li&gt;Fixed FTP/SFTP issue where default ports were not working correctly&lt;/li&gt;
-&lt;li&gt;Fixed Webdav config error caused by form fields&lt;/li&gt;
-&lt;li&gt;Fixed UI styling issues in Docker containers&lt;/li&gt;
-&lt;li&gt;Fixed content type issues with static files&lt;/li&gt;
-&lt;li&gt;Fixed caching headers for static assets&lt;/li&gt;
-&lt;li&gt;Fixed asset embedding in Docker builds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;📦 Dependencies&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Node.js v20&lt;/li&gt;
-&lt;li&gt;Go 1.24&lt;/li&gt;
-&lt;li&gt;Alpine 3.19 (Docker base image)&lt;/li&gt;
-&lt;/ul&gt;</content>
-    <link href="https://github.com/StarFleetCPTN/GoMFT/releases/tag/v0.2.2" rel="alternate"/>
   </entry>
 </feed>
