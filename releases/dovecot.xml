@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dovecot Releases</title>
-  <updated>2025-03-28T08:30:42.053370-04:00</updated>
+  <updated>2025-03-28T09:30:44.219029-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,5 +119,95 @@ New 2.4 packages &lt;strong&gt;are not&lt;/strong&gt; compatible with old 2.3 co
 &lt;li&gt;Many bugs have been fixed.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dovecot/core/releases/tag/2.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dovecot/core/releases/tag/2.4.1</id>
+    <title>New release for Dovecot: Dovecot v2.4.1</title>
+    <updated>2025-03-28T08:36:18-04:00</updated>
+    <author>
+      <name>dovecot/core</name>
+    </author>
+    <content>&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;You can install pre-built binaries from https://repo.dovecot.org&lt;/p&gt;
+&lt;p&gt;Docker images can be found at https://hub.docker.com/r/dovecot/dovecot&lt;/p&gt;
+&lt;p&gt;Please review https://doc.dovecot.org/2.4.1/installation/upgrade/2.3-to-2.4.html and https://doc.dovecot.org/2.4.1/installation/installation.html.&lt;/p&gt;
+&lt;h1&gt;Important&lt;/h1&gt;
+&lt;p&gt;We have changed the signing key for 2.4 going forward, releases are signed with &lt;code&gt;EF0882079FD4ED32BF8B23B2A1B09EF84EDC5219&lt;/code&gt;, which can be found at https://repo.dovecot.org/DOVECOT-REPO-GPG-2.4 and is signed with the previous key.&lt;/p&gt;
+&lt;p&gt;The old key has been renamed to https://repo.dovecot.org/DOVECOT-REPO-GPG-2.3.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+New 2.4 packages &lt;strong&gt;are not&lt;/strong&gt; compatible with old 2.3 configuration, please carefully review https://doc.dovecot.org/2.4.1/installation/upgrade/2.3-to-2.4.html before installing the new packages. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We are happy to provide experimental arm64 support in the form of a Docker image. There are now three kinds of images, latest, latest-dev and latest-root. &lt;/p&gt;
+&lt;p&gt;The latest docker image is now ran rootless, with UID 1000 as vmail. Please take this into consideration when upgrading. The latest-root image still runs as root. Latest 2.3 image can be used with tag 2.3-latest still. &lt;/p&gt;
+&lt;h1&gt;Changes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;auth: Change unix_listener/auth-userdb/group = $SET:default_internal_group
+  This change needs dovecot_config_version=2.4.1.&lt;/li&gt;
+&lt;li&gt;auth: lua - Remove support for single string result.&lt;/li&gt;
+&lt;li&gt;imap: Unconditionally advertise SPECIAL-USE capability.&lt;/li&gt;
+&lt;li&gt;lib-dcrypt: Install dcrypt_openssl.so into dovecot modules directory.&lt;/li&gt;
+&lt;li&gt;lib-master: For glibc, default MALLOC_MMAP_THRESHOLD_=131072.&lt;/li&gt;
+&lt;li&gt;lib-storage: Change default mail_cache_fields to:
+  hdr.date hdr.subject hdr.from hdr.sender hdr.reply-to hdr.to
+  hdr.cc hdr.bcc hdr.in-reply-to hdr.message-id
+  date.received size.virtual imap.bodystructure mime.parts hdr.references
+  hdr.importance hdr.x-priority hdr.x-open-xchange-share-url
+  pop3.uidl pop3.order. This change needs dovecot_config_version=2.4.1.&lt;/li&gt;
+&lt;li&gt;lib-var-expand: Use moduledir instead of pkglibdir for crypt.&lt;/li&gt;
+&lt;li&gt;lmtp: Change the default lmtp_user_concurrency_limit to 10.
+  This change needs dovecot_config_version=2.4.1.&lt;/li&gt;
+&lt;li&gt;lmtp: Change the default service_restart_request_count to 1.
+  This change needs dovecot_config_version=2.4.1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;New features and additions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;auth: Allow configuring passdb/userdb sql to use auth-workers.&lt;/li&gt;
+&lt;li&gt;config: Add default group @mailbox_defaults = english.&lt;/li&gt;
+&lt;li&gt;config: Improve "Unknown setting" error with more details and
+  suggestions.&lt;/li&gt;
+&lt;li&gt;doveconf: Add -U parameter to ignore unknown settings in config file.&lt;/li&gt;
+&lt;li&gt;fts-flatcurve: Support lock files in VOLATILEDIR.&lt;/li&gt;
+&lt;li&gt;imap-acl: Add support for the IMAP LIST-MYRIGHTS capability (RFC 8440).&lt;/li&gt;
+&lt;li&gt;imap-client: Support ANONYMOUS authentication.&lt;/li&gt;
+&lt;li&gt;imap: Implement support for the REPLACE capability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Bug fixes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;auth: ldap - Passdb fields were ignored with
+  passdb_ldap_bind_userdn=yes.&lt;/li&gt;
+&lt;li&gt;auth: lua - Fix error result handling in lua passdb/userdb.&lt;/li&gt;
+&lt;li&gt;auth: oauth2 - When building oauth2 failure reply, memory would leak.&lt;/li&gt;
+&lt;li&gt;config: local_name handling would work wrong with multiple names and
+  wildcards.&lt;/li&gt;
+&lt;li&gt;fts-flatcurve: A potential crash could occur when searching virtual
+  mailboxes.
+  Fixes: Panic: file fts-search.c: line 87 (level_scores_add_vuids):
+  assertion failed: (array_count(&amp;amp;vuids_arr) == array_count(&amp;amp;br-&amp;gt;scores))&lt;/li&gt;
+&lt;li&gt;fts-flatcurve: Maybe queries were done wrong.&lt;/li&gt;
+&lt;li&gt;fts-flatcurve: Non-selectable mailboxes were not ignored when doing
+  optimize/rescan.&lt;/li&gt;
+&lt;li&gt;fts-flatcurve: Signal 11 crash could happen with fts rescan.&lt;/li&gt;
+&lt;li&gt;fts: Fix crash caused by event object lifecycle mishandling.&lt;/li&gt;
+&lt;li&gt;imap-hibernate: Client counters would get reset on unhibernation,
+  affecting imap_logout_format variables.&lt;/li&gt;
+&lt;li&gt;imap: Crash would occur with Maildir when trying to send INPROGRESS
+  during mailbox syncing.&lt;/li&gt;
+&lt;li&gt;ldap: Dovecot could not be compiled without LDAP.&lt;/li&gt;
+&lt;li&gt;lib-dcrypt: Output stream encryption can cause assert crash if
+  attempting to encrypt over 64 GiB of data with GCM. This is still not
+  supported with GCM, but it fails better.&lt;/li&gt;
+&lt;li&gt;lib-http: HTTP client context memory usage was increasing.&lt;/li&gt;
+&lt;li&gt;lib-http: Pipeline corruption could happen after 100 Continue response.&lt;/li&gt;
+&lt;li&gt;lib-settings: Variable expansion initialization could crash with
+  Panic: file settings.c: line 1560 (settings_var_expand_init_add):
+  assertion failed: (I_MAX(num_tables, num_provs) == num_ctx)&lt;/li&gt;
+&lt;li&gt;lib-smtp: Pipelining initial SASL response after AUTH was broken.&lt;/li&gt;
+&lt;li&gt;lib-var-expand: If filter failed, memory leak would occur.&lt;/li&gt;
+&lt;li&gt;lib-var-expand: Older bison versions did not have error symbol for
+  handling causing unexpected behaviour on the parser on error conditions.&lt;/li&gt;
+&lt;li&gt;quota: Quota calculations had minor bugs causing small errors.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dovecot/core/releases/tag/2.4.1" rel="alternate"/>
   </entry>
 </feed>
