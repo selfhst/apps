@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tirreno Releases</title>
-  <updated>2025-03-28T11:35:02.224050-04:00</updated>
+  <updated>2025-03-28T12:35:06.137612-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,5 +60,17 @@ After receiving the report, we confirmed receipt and immediately reproduced the 
 &lt;p&gt;Tirreno is announcing version v0.9.3.&lt;/p&gt;
 &lt;p&gt;This update improves visualization of the 'events' graph by introducing user correlation vs. events for the selected time period, makes countries on maps clickable, improves sensor security by enforcing UTF-8 encoding, and includes some minor fixes.&lt;/p&gt;</content>
     <link href="https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.4</id>
+    <title>New release for Tirreno: v0.9.4</title>
+    <updated>2025-03-28T12:04:45-04:00</updated>
+    <author>
+      <name>TirrenoTechnologies/tirreno</name>
+    </author>
+    <content>&lt;p&gt;Release song: https://youtu.be/Mz19M4a4560&lt;/p&gt;
+&lt;p&gt;tirreno is announcing version v0.9.4.&lt;/p&gt;
+&lt;p&gt;This update introduces new interface features, including search filters, an alert events graph, and active rule codes. It also improves the load performance of single entity pages and controls the limits of user sessions.&lt;/p&gt;</content>
+    <link href="https://github.com/TirrenoTechnologies/tirreno/releases/tag/v0.9.4" rel="alternate"/>
   </entry>
 </feed>
