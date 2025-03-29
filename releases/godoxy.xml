@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-03-29T04:30:27.504538-04:00</updated>
+  <updated>2025-03-29T05:30:26.371029-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,7 @@
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.10" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0-agent-workflow</id>
+    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0</id>
     <title>New release for GoDoxy: v0.10.0</title>
     <updated>2025-03-28T21:04:24-04:00</updated>
     <author>
@@ -148,6 +148,6 @@
 &lt;li&gt;general performance improvements and reduced memory usage&lt;/li&gt;
 &lt;li&gt;dependencies upgraded&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0-agent-workflow" rel="alternate"/>
+    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0" rel="alternate"/>
   </entry>
 </feed>
