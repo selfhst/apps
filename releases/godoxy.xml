@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-03-29T03:30:25.812093-04:00</updated>
+  <updated>2025-03-29T04:30:27.504538-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,7 @@
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.10" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0-1</id>
+    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0-agent-workflow</id>
     <title>New release for GoDoxy: v0.10.0</title>
     <updated>2025-03-28T21:04:24-04:00</updated>
     <author>
@@ -141,13 +141,13 @@
 &lt;li&gt;api: GoDoxy now generates a random JWT secret if not present (2f24a1db41009bb9f1ed9be33763b2ba4024cbbc)&lt;/li&gt;
 &lt;li&gt;CI/CD: improved GitHub workflow and Dockerfile (39381a17de703c7a603de3ed677633ad4e9d6e43) (9006049d33b6adf28a24a05176f2fa053be46399)&lt;/li&gt;
 &lt;li&gt;security: validate route config to disallow proxying to GoDoxy itself (c8935102c33c306e5ac6c1a2472544fd3bff0015)&lt;/li&gt;
-&lt;li&gt;security: sanitize path and URL from user input (f3840d56af3ffe96d65d3fdc03d779a762d3afe2) (17ef5cb9a529c1fe2c5fbcea1cecbbb614dd2648)&lt;/li&gt;
+&lt;li&gt;security: sanitize path and URL from user input and other sources (f3840d56af3ffe96d65d3fdc03d779a762d3afe2) (17ef5cb9a529c1fe2c5fbcea1cecbbb614dd2648)&lt;/li&gt;
 &lt;li&gt;misc: use HTTP 308 (Permanent Redirect) instead of 301 (Moved Permanently) for &lt;code&gt;redirectHTTP&lt;/code&gt; middleware (821e4a225aff62614301cb6a1c95496ff4721279)&lt;/li&gt;
 &lt;li&gt;misc: removed &lt;code&gt;forwardAuth&lt;/code&gt; middleware&lt;/li&gt;
 &lt;li&gt;misc: removed some Prometheus metrics (subject to drop Prometheus support entirely) (366c89164f07fc323c734966c473ff138fea743d)&lt;/li&gt;
 &lt;li&gt;general performance improvements and reduced memory usage&lt;/li&gt;
 &lt;li&gt;dependencies upgraded&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0-1" rel="alternate"/>
+    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0-agent-workflow" rel="alternate"/>
   </entry>
 </feed>
