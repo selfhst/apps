@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meelo Releases</title>
-  <updated>2025-03-29T15:34:51.760662-04:00</updated>
+  <updated>2025-03-29T16:34:48.272090-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,6 +176,7 @@
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
+&lt;p&gt;Introducing Synced Lyrics, named discs and advanced filtering&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Exciting New Features 🎉&lt;/h3&gt;
 &lt;ul&gt;
