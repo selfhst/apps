@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-03-28T21:30:47.951840-04:00</updated>
+  <updated>2025-03-28T22:30:47.988328-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,7 @@
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.9.10" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0</id>
+    <id>https://github.com/yusing/godoxy/releases/tag/v0.10.0-1</id>
     <title>New release for GoDoxy: v0.10.0</title>
     <updated>2025-03-28T21:04:24-04:00</updated>
     <author>
@@ -143,11 +143,11 @@
 &lt;li&gt;security: validate route config to disallow proxying to GoDoxy itself (c8935102c33c306e5ac6c1a2472544fd3bff0015)&lt;/li&gt;
 &lt;li&gt;security: sanitize path and URL from user input (f3840d56af3ffe96d65d3fdc03d779a762d3afe2) (17ef5cb9a529c1fe2c5fbcea1cecbbb614dd2648)&lt;/li&gt;
 &lt;li&gt;misc: use HTTP 308 (Permanent Redirect) instead of 301 (Moved Permanently) for &lt;code&gt;redirectHTTP&lt;/code&gt; middleware (821e4a225aff62614301cb6a1c95496ff4721279)&lt;/li&gt;
-&lt;li&gt;misc: deprecated &lt;code&gt;forwardAuth&lt;/code&gt; middleware&lt;/li&gt;
+&lt;li&gt;misc: removed &lt;code&gt;forwardAuth&lt;/code&gt; middleware&lt;/li&gt;
 &lt;li&gt;misc: removed some Prometheus metrics (subject to drop Prometheus support entirely) (366c89164f07fc323c734966c473ff138fea743d)&lt;/li&gt;
 &lt;li&gt;general performance improvements and reduced memory usage&lt;/li&gt;
 &lt;li&gt;dependencies upgraded&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0" rel="alternate"/>
+    <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.0-1" rel="alternate"/>
   </entry>
 </feed>
