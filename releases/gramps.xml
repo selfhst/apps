@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gramps Releases</title>
-  <updated>2025-03-30T15:33:41.562807-04:00</updated>
+  <updated>2025-03-30T16:33:37.273172-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -223,9 +223,10 @@ fdff248c2c96e5a64c937abd2c1c6b10303ab16c32914dbc44c698c352eccf54  Gramps-Intel-5
 &lt;li&gt;Package Gramps-6.0.0-rc2 for macOS.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;SHA256SUMS&lt;br /&gt;
-37a0f80ca536850dc458730f349c77045ee7b7243c2b9b635a46bee38469b057  gramps-6.0.0.tar.gz&lt;br /&gt;
-e3b0b602d01d891c47da657fd7e71787677e6d3101a625848b067dc2124e73e2  GrampsAIO-6.0.0--1_win64.exe&lt;br /&gt;
-31d4e43ac898ebd10f4d215a55dd42b4cf1082e97223821680681419ba01144e  gramps_6.0.0-1_all.ubuntu-24.10.deb  &lt;/p&gt;</content>
+&lt;code&gt;37a0f80ca536850dc458730f349c77045ee7b7243c2b9b635a46bee38469b057  gramps-6.0.0.tar.gz  
+e3b0b602d01d891c47da657fd7e71787677e6d3101a625848b067dc2124e73e2  GrampsAIO-6.0.0--1_win64.exe  
+457a4bd5923509933c6a489de2a9a7f630f62f6d214c7c43d77ece93f165c08a  Gramps-Arm-6.0.0-2.dmg
+5d97df7382d227d1c6ff4bde20cb7ba5110d9fdfb3ff92ae0728ccf656fb630b  Gramps-Intel-6.0.0-2.dmg&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/gramps-project/gramps/releases/tag/v6.0.0" rel="alternate"/>
   </entry>
 </feed>
