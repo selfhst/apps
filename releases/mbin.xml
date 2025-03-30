@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2025-03-30T14:32:49.432617-04:00</updated>
+  <updated>2025-03-30T15:32:53.096107-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -425,8 +425,34 @@ This version is focused on bug fixes and improvements rather than new features. 
       <name>MbinOrg/mbin</name>
     </author>
     <content>&lt;p&gt;I know, it has been a while. However, we are happy to release v1.8.1!&lt;/p&gt;
-&lt;p&gt;Mainly a lot of bug fixes / improvements. Composer package dependency updates. Documentation and language improvements (we also got Catalan now fully translated, thanks!). Feel free to upgrade to PHP v8.4 as well.&lt;/p&gt;
+&lt;p&gt;Mainly a lot of bug fixes / improvements. Composer package dependency updates. Lot of &lt;a href="https://docs.joinmbin.org/"&gt;documentation&lt;/a&gt; and language improvements (we also got Catalan now fully translated, thanks!).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feel free to upgrade to PHP v8.4 as well.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A noticeable fronted difference to point out is that we now put thumbnails in a lightbox by default. Although this can be changed by the end-user at: ⚙ Settings -&amp;gt; Under "Threads" section -&amp;gt; "Thread thumbnails opens full screen" option.&lt;/p&gt;
+&lt;p&gt;Comparison to previous stable version v1.8.0:&lt;/p&gt;
+&lt;p&gt;| DB migrations            | New ENV vars            | Admin guide changes      | Suggest cache clearing  | New dependencies        |
+| :----------------------: | :---------------------: | :----------------------: | :---------------------: | :---------------------: |
+|  :x:  |  :x: |  :ballot_box_with_check: | :ballot_box_with_check: | :x: |&lt;/p&gt;
+&lt;h2&gt;Upgrade Instructions&lt;/h2&gt;
+&lt;h4&gt;For Docker&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Get the official image or checkout the code and build it locally&lt;/li&gt;
+&lt;li&gt;Stop all containers &lt;code&gt;docker compose down&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start all containers &lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;execute the command to remove the default domain from entries that are not local: &lt;code&gt;docker compose exec php php bin/console mbin:update:local-domain&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;For Bare Metal&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to your repo &lt;code&gt;cd /var/www/mbin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.8.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run the update script: &lt;code&gt;bash bin/post-upgrade&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;exit&lt;/code&gt; so we are back at the root user (or put a sudo in front of &lt;strong&gt;every&lt;/strong&gt; command)&lt;/li&gt;
+&lt;li&gt;flush your redis db by running &lt;code&gt;redis-cli&lt;/code&gt;, type in &lt;code&gt;AUTH [YOUR PASSWORD]&lt;/code&gt; and then &lt;code&gt;FLUSHDB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;clear your opcache by reloading php fpm &lt;code&gt;systemctl restart php8.4-fpm&lt;/code&gt; (or for PHP 8.3: &lt;code&gt;systemctl restart php8.3-fpm&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Restart the messengers: &lt;code&gt;supervisorctl restart messenger:*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt; again&lt;/li&gt;
+&lt;li&gt;Run the command to remove the default domain from entries that are not local: &lt;code&gt;php bin/console mbin:update:local-domain&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve Markdown inline twig rendering by @BentiGorlich in https://github.com/MbinOrg/mbin/pull/1446&lt;/li&gt;
