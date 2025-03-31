@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-03-31T03:35:38.426575-04:00</updated>
+  <updated>2025-03-31T04:35:37.630291-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,13 @@
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Key changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added initial Docker Compose support for service deployment. The same Compose can be used for developing locally and deploying to your cluster.&lt;/li&gt;
+&lt;li&gt;New &lt;a href="https://uncloud.wistia.com/medias/k47uwt9uau"&gt;demo screencast&lt;/a&gt;: Deploy a highly available web app with automatic HTTPS across cloud VMs and on-premises in just a couple minutes.&lt;/li&gt;
+&lt;li&gt;Completely revamped how service and container specifications are stored, enabling proper implementation of the service 'scale' command and selective container recreation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;bd8bcbd2f94fa8eb805c6e219dd63798889bb57e Merge pull request #40 from cedws/userguide&lt;/li&gt;
 &lt;li&gt;fff17dbb6009c61e36626e338a36f8b7a308b3ac add VHS tape script for the terminal demo&lt;/li&gt;
