@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DollarDollar Bill Y'all Releases</title>
-  <updated>2025-03-31T08:35:45.505483-04:00</updated>
+  <updated>2025-03-31T09:35:47.359161-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -318,7 +318,7 @@ If this dont work , do the following&lt;/li&gt;
     <link href="https://github.com/harung1993/dollardollar/releases/tag/4.0.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/harung1993/dollardollar/releases/tag/v4.1.0</id>
+    <id>https://github.com/harung1993/dollardollar/releases/tag/4.1.2</id>
     <title>New release for DollarDollar Bill Y'all: v4.1.0</title>
     <updated>2025-03-30T12:44:39-04:00</updated>
     <author>
@@ -378,6 +378,6 @@ If this dont work , do the following&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Feedback&lt;/h3&gt;
 &lt;p&gt;We welcome your feedback and suggestions! Please report any issues on our issue tracker.&lt;/p&gt;</content>
-    <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.1.0" rel="alternate"/>
+    <link href="https://github.com/harung1993/dollardollar/releases/tag/4.1.2" rel="alternate"/>
   </entry>
 </feed>
