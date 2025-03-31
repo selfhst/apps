@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Grist Releases</title>
-  <updated>2025-03-31T09:31:54.498714-04:00</updated>
+  <updated>2025-03-31T10:31:54.431645-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,7 @@
 &lt;li&gt;SAML requests initiated by an Identity Provider now work. For example, this allows you to use a SAML configuration to directly log in to Grist from the Your Apps dashboard in Google Workspace.&lt;/li&gt;
 &lt;li&gt;SQLite has support for more robust connections that reduce the possibility of database corruption. New &lt;code&gt;GRIST_SQLITE_MODE=wal&lt;/code&gt; or &lt;code&gt;GRIST_SQLITE_MODE=sync&lt;/code&gt; environment variables are now available to reduce this risk.&lt;/li&gt;
 &lt;li&gt;When using PostgreSQL for the home database, a recurring source of trouble has been slowness caused by its just-in-time compiler. Grist now unconditionally disables JIT compilation, removing the need for self-hosters to disable it themselves.&lt;/li&gt;
-&lt;li&gt;For enterprise self-hosters, the Grist Admin panel has acquired extra controls for managing users, documents, workspaces, and organisations.&lt;/li&gt;
+&lt;li&gt;For Grist Enterprise self-hosters, the Grist Admin panel has acquired extra controls for managing users, documents, workspaces, and organisations.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
