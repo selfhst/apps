@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-03-31T04:33:07.062328-04:00</updated>
+  <updated>2025-03-31T05:33:05.081536-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -338,7 +338,130 @@ The user's preferred language will be passed to the provider as the &lt;code&gt;
     <author>
       <name>logto-io/logto</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;&lt;img alt="logto-changelog-2025-03-31" src="https://github.com/user-attachments/assets/dada7218-0e67-4edd-86fe-3dabcf00c41d" /&gt;&lt;/p&gt;
+&lt;h2&gt;Support multiple sign-up identifiers&lt;/h2&gt;
+&lt;p&gt;Logto now supports configuring multiple required identifiers for user registration. This enhancement extends the previous single-identifier limitation, enabling a more comprehensive sign-up process.&lt;/p&gt;
+&lt;h3&gt;Sign-in experience schema&lt;/h3&gt;
+&lt;p&gt;Introduces a new optional field, &lt;code&gt;secondaryIdentifiers&lt;/code&gt;, to the sign-in experience sign-up settings. This enhancement allows developers to specify multiple required user identifiers during the user sign-up process. Available options include &lt;code&gt;email&lt;/code&gt;, &lt;code&gt;phone&lt;/code&gt;, &lt;code&gt;username&lt;/code&gt; and &lt;code&gt;emailOrPhone&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The difference between &lt;code&gt;signUp.identifiers&lt;/code&gt;and new &lt;code&gt;signUp.secondaryIdentifiers&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;h4&gt;Primary identifiers (&lt;code&gt;signUp.identifiers&lt;/code&gt;):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintains backward compatibility with existing sign-in experience settings&lt;/li&gt;
+&lt;li&gt;Represents the initial registration form&lt;/li&gt;
+&lt;li&gt;User can only sign-up with the specified type of sign-up identifier.&lt;/li&gt;
+&lt;li&gt;Special case: &lt;code&gt;[email, phone]&lt;/code&gt; allows either email OR phone registration, treated as a single requirement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Secondary identifiers (&lt;code&gt;signUp.secondaryIdentifiers&lt;/code&gt;):&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Optional&lt;/li&gt;
+&lt;li&gt;New field introduced for multi-identifier support&lt;/li&gt;
+&lt;li&gt;Collects additional required identifiers after primary registration&lt;/li&gt;
+&lt;li&gt;Uses AND logic: all configured identifiers are mandatory&lt;/li&gt;
+&lt;li&gt;Supports &lt;code&gt;emailOrPhone&lt;/code&gt; type: requires either email OR phone, treated as a single requirement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;h4&gt;Example 1: Username with Required Email and Phone&lt;/h4&gt;
+&lt;p&gt;Primary: &lt;code&gt;username&lt;/code&gt;&lt;br /&gt;
+Secondary: 'email&lt;code&gt;and&lt;/code&gt;phone`&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "identifiers": ["username"],
+  "secondaryIdentifiers": [
+    {
+      "type": "email",
+      "verify": true
+    },
+    {
+      "type": "phone",
+      "verify": true
+    }
+  ],
+  "verify": true,
+  "password": true
+}&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Example 2: Username with Either Email or Phone&lt;/h4&gt;
+&lt;p&gt;Primary: &lt;code&gt;username&lt;/code&gt;&lt;br /&gt;
+Secondary: &lt;code&gt;emailOrPhone&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "identifiers": ["username"],
+  "secondaryIdentifiers": [
+    {
+      "type": "emailOrPhone",
+      "verify": true
+    }
+  ],
+  "verify": true,
+  "password": true
+}&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Example 3: Email/Phone with Required Username&lt;/h4&gt;
+&lt;p&gt;Primary: &lt;code&gt;email&lt;/code&gt; OR &lt;code&gt;phone&lt;/code&gt;
+Secondary: &lt;code&gt;username&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{
+  "identifiers": ["email", "phone"],
+  "secondaryIdentifiers": [
+    {
+      "type": "username",
+      "verify": true
+    }
+  ],
+  "verify": true,
+  "password": false
+}&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Console updates&lt;/h3&gt;
+&lt;p&gt;Enhanced Sign-up Configuration UI:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced a multi-selector interface replacing the previous single-identifier selector&lt;/li&gt;
+&lt;li&gt;Added drag-and-drop functionality for prioritizing identifiers&lt;/li&gt;
+&lt;li&gt;The first identifier in the list serves as the primary identifier (&lt;code&gt;signUp.identifiers&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Subsequent identifiers are stored as secondary identifiers (&lt;code&gt;signUp.secondaryIdentifiers&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;image src="https://github.com/user-attachments/assets/8fb90f21-9c7c-412d-9e8c-e4ee191ca8a8" width=500 /&gt;&lt;/p&gt;
+&lt;h2&gt;Remove some of the sign-in experience settings restrictions for better flexibility&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The password requirement is now optional when using &lt;code&gt;username&lt;/code&gt; as a sign-up identifier.  Please note, when configuring &lt;code&gt;username&lt;/code&gt; as the sole sign-up identifier with password disabled, users will be unable to authenticate after registration. Ensure at least one of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable password requirement at sign-up&lt;/li&gt;
+&lt;li&gt;Configure additional sign-up identifiers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Removed the constraint requiring sign-up identifiers to be enabled as sign-in methods. We have fully decoupled the sign-up identifier settings from the sign-in methods. Developers can now require as many user identifiers as needed during the sign-up process without impacting the sign-in process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Removed the requirement for password verification across all sign-in methods when password is enabled for sign-up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;CLI updates&lt;/h2&gt;
+&lt;h3&gt;@logto/translate&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve the OpenAI prompt to better support i18n plural form suffixes&lt;/li&gt;
+&lt;li&gt;make method &lt;code&gt;isLanguageTag&lt;/code&gt; case-insensitive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Language tag case inconsistency was causing translation mismatches across packages:
+     - &lt;code&gt;@logto/phrases&lt;/code&gt; and &lt;code&gt;@logto/phrases-experience&lt;/code&gt;: using lowercase tags (e.g., &lt;code&gt;pt-br&lt;/code&gt;, &lt;code&gt;zh-cn&lt;/code&gt;)
+     - &lt;code&gt;@logto/language-kit&lt;/code&gt;: using mixed-case tags (e.g., &lt;code&gt;pt-BR&lt;/code&gt;, &lt;code&gt;zh-CN&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;Updated &lt;code&gt;isLanguageTag&lt;/code&gt; function in language kit to be case-insensitive, ensuring:
+     - Consistent language tag matching regardless of case
+     - Proper detection of all language tags by translate CLI tool
+     - Fixed missing translations due to case mismatches&lt;/p&gt;
+&lt;h2&gt;Logto integrations updates&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;WordPress integration guide&lt;/strong&gt;: Added out-of-box WordPress plugin integration documentation to Logto console&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Azure AD social connector enhancement&lt;/strong&gt;: Added OAuth &lt;code&gt;scopes&lt;/code&gt; field to &lt;code&gt;@logto/connector-azuread&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Enables customization of requested user permissions&lt;/li&gt;
+&lt;li&gt;Provides greater flexibility in access control&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OIDC SSO connector authentication bug fixes&lt;/strong&gt;: Removed &lt;code&gt;client_id&lt;/code&gt; from token request body&lt;/li&gt;
+&lt;li&gt;Resolves compatibility issues with OIDC providers like Okta&lt;/li&gt;
+&lt;li&gt;Eliminates redundant client authentication method&lt;ul&gt;
+&lt;li&gt;Before: &lt;code&gt;client_id&lt;/code&gt; included in both request body and authentication header&lt;/li&gt;
+&lt;li&gt;After: Uses authentication header only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;This OIDC SSO connector update improves compatibility with providers that enforce strict client authentication methods. By removing the redundant &lt;code&gt;client_id&lt;/code&gt; from the request body while maintaining the authentication header, we ensure consistent behavior across different OIDC providers.&lt;/li&gt;
+&lt;/ol&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.26.0" rel="alternate"/>
   </entry>
 </feed>
