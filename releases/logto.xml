@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-03-31T05:33:05.081536-04:00</updated>
+  <updated>2025-03-31T06:33:05.845548-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -348,7 +348,7 @@ The user's preferred language will be passed to the provider as the &lt;code&gt;
 &lt;ul&gt;
 &lt;li&gt;Maintains backward compatibility with existing sign-in experience settings&lt;/li&gt;
 &lt;li&gt;Represents the initial registration form&lt;/li&gt;
-&lt;li&gt;User can only sign-up with the specified type of sign-up identifier.&lt;/li&gt;
+&lt;li&gt;Uses OR logic: Only one type of identifier will be collected&lt;/li&gt;
 &lt;li&gt;Special case: &lt;code&gt;[email, phone]&lt;/code&gt; allows either email OR phone registration, treated as a single requirement.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Secondary identifiers (&lt;code&gt;signUp.secondaryIdentifiers&lt;/code&gt;):&lt;/h4&gt;
