@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kometa Releases</title>
-  <updated>2025-03-31T18:31:26.831455-04:00</updated>
+  <updated>2025-03-31T19:31:26.448762-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -230,19 +230,22 @@ Fixes #2354 by updating version of tmdbapi dependency
 Added Start Time, Finished and Run Time to Summary of run.
 Fixed an issue where custom repositories would not work correctly if the URL did not end in a trailing &lt;code&gt;/&lt;/code&gt; character.
 Kometa will now check for &lt;code&gt;.yaml&lt;/code&gt; extension in filenames if &lt;code&gt;.yml&lt;/code&gt; is not found and vice-versa
-Log files will now follow the naming convention of &lt;code&gt;kometa.log&lt;/code&gt;, &lt;code&gt;kometa-1.log&lt;/code&gt; (previous run), &lt;code&gt;kometa-2.log (2 runs ago) etc.
-Kometa will no longer automatically sync playlists to all users if you do not specify who you want to sync them to. Only the server admin will receive playlists unless otherwise specified using&lt;/code&gt;sync_to_users&lt;code&gt;or&lt;/code&gt;playlist_sync_to_users&lt;code&gt;Fixes #2385&lt;/code&gt;tmdb_person&lt;code&gt;would pass an integer if the name started with an integer (i.e.&lt;/code&gt;50 Cent&lt;code&gt;would pass&lt;/code&gt;50&lt;code&gt;which resolved to&lt;/code&gt;Catherine Deneuve&lt;code&gt;)
-Fixes an issue where&lt;/code&gt;show_missing&lt;code&gt;would display missing movies against show libraries (closes #2351)
+Log files will now follow the naming convention of &lt;code&gt;kometa.log&lt;/code&gt;, &lt;code&gt;kometa-1.log&lt;/code&gt; (previous run), &lt;code&gt;kometa-2.log&lt;/code&gt; (2 runs ago) etc.
+Kometa will no longer automatically sync playlists to all users if you do not specify who you want to sync them to. Only the server admin will receive playlists unless otherwise specified using &lt;code&gt;sync_to_users&lt;/code&gt; or &lt;code&gt;playlist_sync_to_users&lt;/code&gt;
+Fixes #2385 &lt;code&gt;tmdb_person&lt;/code&gt; would pass an integer if the name started with an integer (i.e. &lt;code&gt;50 Cent&lt;/code&gt; would pass &lt;code&gt;50&lt;/code&gt; which resolved to &lt;code&gt;Catherine Deneuve&lt;/code&gt;)
+Fixes an issue where &lt;code&gt;show_missing&lt;/code&gt; would display missing movies against show libraries (closes #2351)
 Fixed an OMDb API issue where API key would intermittently be treated as invalid
 Fixed an issue where Kometa would try to upload and cache images larger than Plex allows (10mb is the upper limit)
-Fixes an issue where&lt;/code&gt;use_subtitles&lt;code&gt;would ignore&lt;/code&gt;flag_alignment: left&lt;code&gt;Fixed typo&lt;/code&gt;radarr_tag_list&lt;code&gt;instead of&lt;/code&gt;radarr_taglist&lt;code&gt;in&lt;/code&gt;builder&lt;code&gt;module causing&lt;/code&gt;Collection Error: radarr_taglist attribute is blank&lt;code&gt;Fixed NoneError when using a blank&lt;/code&gt;radarr_taglist&lt;code&gt;or&lt;/code&gt;sonarr_taglist&lt;code&gt;.
+Fixes an issue where &lt;code&gt;use_subtitles&lt;/code&gt; would ignore &lt;code&gt;flag_alignment: left&lt;/code&gt;
+Fixed typo &lt;code&gt;radarr_tag_list&lt;/code&gt; instead of &lt;code&gt;radarr_taglist&lt;/code&gt; in &lt;code&gt;builder&lt;/code&gt; module causing &lt;code&gt;Collection Error: radarr_taglist attribute is blank&lt;/code&gt;
+Fixed NoneError when using a blank &lt;code&gt;radarr_taglist&lt;/code&gt; or &lt;code&gt;sonarr_taglist&lt;/code&gt;.
 Fixes an issue with boolean filter matching.
 Fixes an issue where the decade default collection names were incorrect.
 Fixes the playlist default to automatically work with a supplied list.
 Remove an unnecessary request to Plex while processing overlays.
 Fixes issue with ICheckMovies parsing.
 Fixes issue with Letterboxd parsing.
-Fixes issue with the&lt;/code&gt;mojo_domestic` BoxOfficeMojo Builder.
+Fixes issue with the &lt;code&gt;mojo_domestic&lt;/code&gt; BoxOfficeMojo Builder.
 Fixes an issue updating Trakt User Ratings when the show doesn't exist on TVDb.
 Fixes #2560 count display issue&lt;/p&gt;</content>
     <link href="https://github.com/Kometa-Team/Kometa/releases/tag/v2.2.0" rel="alternate"/>
