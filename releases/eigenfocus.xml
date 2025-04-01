@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-03-31T19:35:16.598196-04:00</updated>
+  <updated>2025-03-31T20:35:21.251147-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,5 +139,41 @@
 &lt;h1&gt;Pro Edition - Join the Waitlist&lt;/h1&gt;
 &lt;p&gt;Visit &lt;a href="https://eigenfocus.com/?utm_source=github-release#plans"&gt;https://eigenfocus.com&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v0.9.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.0.0-free</id>
+    <title>New release for Eigenfocus: Eigenfocus V1.0 - Manage your projects, time and focus on the present without losing the long term vision</title>
+    <updated>2025-03-31T19:55:43-04:00</updated>
+    <author>
+      <name>Eigenfocus/eigenfocus</name>
+    </author>
+    <content>&lt;p&gt;We're proud to announce Version 1 of Eigenfocus.&lt;/p&gt;
+&lt;p&gt;This update brings the final pillar of our vision: focus. &lt;/p&gt;
+&lt;p&gt;Here are the highlights:&lt;/p&gt;
+&lt;h1&gt;Focus Space&lt;/h1&gt;
+&lt;p&gt;A distraction-free environment to stay focused with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Immersive Ambient Sounds&lt;/strong&gt; – Customize your workspace with relaxing sounds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timers / Alarms&lt;/strong&gt; – Structure your work sessions with built-in timers. Use it for Pomodoro sessions, breaks, remember to drink water or stretch (he have cool alarms sounds too).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="focus-space" src="https://github.com/user-attachments/assets/6afd4b3e-a53b-4164-b277-bb1871245fa5" /&gt;&lt;/p&gt;
+&lt;h1&gt;Improvements on project and issues management&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project and issue archive and removal&lt;/strong&gt; – Keep your workspace clean and organized.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Templates&lt;/strong&gt; – Get started faster with our collection of project templates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Markdown Editor&lt;/strong&gt; – Easier to write your texts and allows us to implement more advanced features in the future.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Entry CSV Export&lt;/strong&gt; – Easily track and share your work hours.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More details and screenshots on the &lt;a href="https://eigenfocus.com/blog/articles/eigenfocus-manage-projects-time-and-focus-like-never-before?utm_source=github&amp;amp;utm_content=v1-release"&gt;Eigenfocus Blog&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Thank you&lt;/h1&gt;
+&lt;p&gt;This release lays the foundation for our vision of a flexible tool that fits your needs and helps you to complete your projects in a healthy and sustainable way.&lt;/p&gt;
+&lt;p&gt;Thank you all for your support and feedbacks. 😎👍&lt;/p&gt;
+&lt;h1&gt;Next steps&lt;/h1&gt;
+&lt;p&gt;A lot of work have been done and a lot of new features will come in the future for both of our editions Free and PRO. &lt;/p&gt;
+&lt;p&gt;Speaking about our PRO Edition: the cloud version and self hosted version will be released in the next weeks! With multiple visualizations, grid view, issue types, multiple users and permissions and more.&lt;/p&gt;
+&lt;p&gt;So, if you have more complex needs, bigger projects or teams, check out our PRO Edition!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://eigenfocus.com/features?utm_source=github&amp;amp;utm_content=v1-release#pro-features"&gt;Click here&lt;/a&gt; to know more and subscribe to the waitlist&lt;/p&gt;
+&lt;p&gt;&lt;img width="1377" alt="eigenfocus-multiple-views-matrix" src="https://github.com/user-attachments/assets/f71aef20-a67b-493e-a1ce-bf0e0267e11e" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.0.0-free" rel="alternate"/>
   </entry>
 </feed>
