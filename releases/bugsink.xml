@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bugsink Releases</title>
-  <updated>2025-04-01T14:34:49.466411-04:00</updated>
+  <updated>2025-04-01T15:34:55.160778-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,5 +129,22 @@ or run the &lt;code&gt;init_tags&lt;/code&gt; command to determine the tags for 
 &lt;li&gt;Make &lt;code&gt;EMAIL_TIMEOUT&lt;/code&gt; configurable on Docker, fixes #60&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bugsink/bugsink/releases/tag/1.4.2</id>
+    <title>New release for Bugsink: 1.4.2</title>
+    <updated>2025-04-01T14:45:23-04:00</updated>
+    <author>
+      <name>bugsink/bugsink</name>
+    </author>
+    <content>&lt;h2&gt;1.4.2 (1 April 2025)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;deduce_allowed_hosts&lt;/code&gt;: allow for localhost, see #46&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;retention_max_event_count&lt;/code&gt;: in project settings form&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;issue.stored_event_count&lt;/code&gt;: fix (it was incorrectly calculated). Running the migrations will
+    automatically fix the existing values too.&lt;/li&gt;
+&lt;li&gt;Fix user tag deduction (user tags were not correctly calculated from the event data)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.2" rel="alternate"/>
   </entry>
 </feed>
