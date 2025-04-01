@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-04-01T07:35:04.595291-04:00</updated>
+  <updated>2025-04-01T08:35:08.907222-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,7 +173,10 @@
 &lt;p&gt;Speaking about our PRO Edition: the cloud version and self hosted version will be released in the next weeks! With multiple visualizations, grid view, issue types, multiple users and permissions and more.&lt;/p&gt;
 &lt;p&gt;So, if you have more complex needs, bigger projects or teams, check out our PRO Edition!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://eigenfocus.com/features?utm_source=github&amp;amp;utm_content=v1-release#pro-features"&gt;Click here&lt;/a&gt; to know more and subscribe to the waitlist&lt;/p&gt;
-&lt;p&gt;&lt;img width="1377" alt="eigenfocus-multiple-views-matrix" src="https://github.com/user-attachments/assets/f71aef20-a67b-493e-a1ce-bf0e0267e11e" /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img width="1377" alt="eigenfocus-multiple-views-matrix" src="https://github.com/user-attachments/assets/f71aef20-a67b-493e-a1ce-bf0e0267e11e" /&gt;&lt;/p&gt;
+&lt;h1&gt;Migration steps&lt;/h1&gt;
+&lt;h2&gt;Only for 0.7.0 or older&lt;/h2&gt;
+&lt;p&gt;If you're coming from a version older than 0.7.0 you first need run our latest 0.9.0 in order to migrate some database files and then upgrade to 1.0.0.&lt;/p&gt;</content>
     <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.0.0-free" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-04-01T07:33:01.533491-04:00</updated>
+  <updated>2025-04-01T08:33:04.785688-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,7 +112,50 @@
 &lt;h2&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;upgrade to v0.22.0 (&lt;a href="https://github.com/kestra-io/kestra/commit/c5f2901f7f69595c0194ce089bc1cfe3a8b0e20e"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;h3&gt;EE: Default tenant deprecation&lt;/h3&gt;
+&lt;p&gt;Multi-tenancy was introduced in Kestra 0.13. For backward compatibility with older versions (≤0.12), you could use the concept of a default tenant, which imitated the multitenancy feature with the so-called “null”-tenant. One and a half years later, in Kestra 0.22, we are deprecating the default tenant functionality and plan to remove it in the future. We will provide a detailed migration guide for all customers who still use the default tenant. Until then, you can continue using &lt;code&gt;defaultTenant&lt;/code&gt; by setting the corresponding configuration flag to &lt;code&gt;true&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+kestra:
+  tenants:
+    enabled: true
+    defaultTenant: true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Note that in Kestra 0.22 and higher, &lt;code&gt;defaultTenant&lt;/code&gt; is NOT enabled by default, so you must explicitly set that configuration option to &lt;code&gt;true&lt;/code&gt; to keep using the default tenant.&lt;/p&gt;
+&lt;p&gt;Also, keep in mind that prior to Kestra 0.22, &lt;code&gt;tenants.enabled&lt;/code&gt; was by default set to &lt;code&gt;false&lt;/code&gt; and now they are enabled.&lt;/p&gt;
+&lt;h3&gt;EE: Azure log exporter&lt;/h3&gt;
+&lt;p&gt;The log exporter plugin for Azure &lt;code&gt;io.kestra.plugin.ee.azure.LogExporter&lt;/code&gt;, introduced in Kestra 0.21, got split into two &lt;code&gt;io.kestra.plugin.ee.azure.monitor.LogExporter&lt;/code&gt; and &lt;code&gt;io.kestra.plugin.ee.azure.storage.LogExporter&lt;/code&gt; to reflect that you can now export your log to Azure either using Azure Monitor or using Azure Blob Storage.&lt;/p&gt;
+&lt;h3&gt;EE: Enterprise Edition API changes&lt;/h3&gt;
+&lt;p&gt;Before Kestra 0.22, the Service Account name had to be globally unique within the instance. As a result, attempting to create a Service Account &lt;code&gt;cicd&lt;/code&gt; in a &lt;code&gt;dev&lt;/code&gt; tenant would raise an error &lt;code&gt;"Username already exists"&lt;/code&gt; if your &lt;code&gt;prod&lt;/code&gt; tenant also has a Service Account with the name &lt;code&gt;cicd&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;To support multiple service accounts with the same name, we’ve renamed the &lt;code&gt;username&lt;/code&gt; property to &lt;code&gt;name&lt;/code&gt; in the JSON payload for the following REST API endpoint: &lt;code&gt;POST /api/v1{/tenant}/users/service-accounts{/id}&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;EE: Too many failed login attempts now lock the account&lt;/h3&gt;
+&lt;p&gt;To improve the security of your Enterprise Edition instance, we now automatically lock user accounts after a &lt;code&gt;threshold&lt;/code&gt; number of failed login attempts made within &lt;code&gt;monitoring-window&lt;/code&gt;. Both, the number of failed attempts, the monitoring window to track consecutive number of failed attempts and (soon) the duration of how long the user remains locked are configurable.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+security:
+  login:
+    failed-attempts:
+      threshold: 10
+      monitoring-window: PT15M    # period to count failed attempts
+      # lockout-duration: PT24H      # period the account remains locked — will be added in the next release&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Note that this change is only relevant for users who leverage LDAP or basic authentication (not relevant for SSO-users). Superadmin can unlock the user manually by resetting their password from the user's detail page.&lt;/p&gt;
+&lt;h3&gt;Change to &lt;code&gt;readinessProbe&lt;/code&gt; and &lt;code&gt;livenessProbe&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Before &lt;a href="https://github.com/kestra-io/helm-charts/pull/62/files"&gt;this PR&lt;/a&gt;, both probes pointed to &lt;code&gt;/health&lt;/code&gt;. This caused Kubernetes to restart the pod when an external component was unavailable. To resolve this, we updated the value file to configure the liveness and readiness probes to use the health paths recommended by Micronaut:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Liveness probe now points to &lt;code&gt;/health/liveness&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Readiness probe now points to &lt;code&gt;/health/readiness&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Plugins using the &lt;code&gt;version&lt;/code&gt; property&lt;/h3&gt;
+&lt;p&gt;With the introduction of plugin versioning, we reserve the &lt;code&gt;version&lt;/code&gt; keyword for internal use, allowing us to specify the Kestra plugin version. As a result, we’ve renamed the &lt;code&gt;version&lt;/code&gt; property for a few plugins that already used it, incl. the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.elasticsearch.Get&lt;/code&gt; → renamed as &lt;code&gt;docVersion&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.opensearch.Get&lt;/code&gt; → renamed as &lt;code&gt;docVersion&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.mqtt.RealtimeTrigger&lt;/code&gt; → renamed as &lt;code&gt;mqttVersion&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.mqtt.Trigger&lt;/code&gt; → renamed as &lt;code&gt;mqttVersion&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;io.kestra.plugin.serdes.parquet.IonToParquet&lt;/code&gt; → renamed as &lt;code&gt;parquetVersion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that your &lt;strong&gt;custom plugins&lt;/strong&gt; will need an equivalent approach of renaming any plugin that uses the &lt;code&gt;version&lt;/code&gt; property, as this is now a core property reserved for plugin management. If any of your custom plugins rely on a &lt;code&gt;version&lt;/code&gt; property, they won't compile anymore unless you rename that property to a different name.&lt;/p&gt;
+&lt;h3&gt;Change in the default value for the &lt;code&gt;kv()&lt;/code&gt; function&lt;/h3&gt;
+&lt;p&gt;Before Kestra 0.22, the &lt;code&gt;kv()&lt;/code&gt; function had the property &lt;code&gt;errorOnMissing&lt;/code&gt; set to &lt;code&gt;false&lt;/code&gt; by default. We changed it to be &lt;code&gt;true&lt;/code&gt; by default. If you want to keep the previous behavior of returning &lt;code&gt;null&lt;/code&gt; without an error when attempting to fetch non-existing KV-pairs, use the syntax &lt;code&gt;"{{ kv('NON_EXISTING_KV_PAIR', errorOnMissing=false) }}"&lt;/code&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.22.0" rel="alternate"/>
   </entry>
 </feed>
