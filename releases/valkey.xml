@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Valkey Releases</title>
-  <updated>2025-04-01T04:32:29.333170-04:00</updated>
+  <updated>2025-04-01T05:32:32.040476-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,58 +142,54 @@ apply as soon as possible.&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/valkey-io/valkey/releases/tag/8.1.0</id>
-    <title>New release for Valkey: Valkey GA release 8.1.0</title>
+    <title>New release for Valkey: 8.1.0</title>
     <updated>2025-03-31T11:46:26-04:00</updated>
     <author>
       <name>valkey-io/valkey</name>
     </author>
     <content>&lt;h1&gt;Valkey 8.1 release notes&lt;/h1&gt;
-&lt;hr /&gt;
 &lt;p&gt;Upgrade urgency levels:
 LOW:      No need to upgrade unless there are new features you want to use.
 MODERATE: Program an upgrade of the server, but it's not urgent.
 HIGH:     There is a critical bug that may affect a subset of users. Upgrade!
 CRITICAL: There is a critical bug affecting MOST USERS. Upgrade ASAP.
 SECURITY: There are security fixes in the release.&lt;/p&gt;
-&lt;hr /&gt;
 &lt;h1&gt;Valkey 8.1.0 GA  -  Released Mon 31 March 2025&lt;/h1&gt;
 &lt;p&gt;Upgrade urgency LOW: This is the first release of Valkey 8.1, 
 a minor version update designed to further enhance performance, reliability, observability and usability
 over Valkey 8.0 for all Valkey installations. This release is fully compatible with all previous Valkey releases 
 as well as Redis OSS 7.2.4.&lt;/p&gt;
-&lt;h1&gt;Behavior Changes&lt;/h1&gt;
+&lt;h2&gt;Behavior Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hide input buffer data from being logged on protocol error when hide-user-data-from-log is enabled (#1889)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Bug fixes&lt;/h1&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix a bug in VM_GetCurrentUserName which leads to engine crash when no valid username provided (#1885)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;================================================================================
-Valkey 8.1.0 RC2  -  Released Thu 20 March 2025
-================================================================================
-Upgrade urgency LOW: This is the second release candidate of Valkey 8.1, with several bug fixes, 
+&lt;h1&gt;Valkey 8.1.0 RC2  -  Released Thu 20 March 2025&lt;/h1&gt;
+&lt;p&gt;Upgrade urgency LOW: This is the second release candidate of Valkey 8.1, with several bug fixes, 
 control on manual-failover timeout and expended module API to reduce module executed commands overhead.&lt;/p&gt;
-&lt;h1&gt;Performance/Efficiency Improvements - Core&lt;/h1&gt;
+&lt;h2&gt;Performance/Efficiency Improvements - Core&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Optimize bitcount command by using x86 SIMD instructions (#1741)&lt;/li&gt;
 &lt;li&gt;Embed hash value in hash data type entries to reduce memory footprint (#1579)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Cluster modifications&lt;/h1&gt;
+&lt;h2&gt;Cluster modifications&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add cluster-manual-failover-timeout configuration to control the timeout for manual failover (#1690)&lt;/li&gt;
 &lt;li&gt;Improve error message reporting when invalid port is provided for cluster meet command. (#1686)&lt;/li&gt;
 &lt;li&gt;broadcast epoch ASAP when configEpoch changed (#1813)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Module Improvements&lt;/h1&gt;
+&lt;h2&gt;Module Improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add new module API flag to bypass command validation in order to reduce processing overhead (#1357)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Behavior Changes&lt;/h1&gt;
+&lt;h2&gt;Behavior Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Enable TCP_NODELAY for engine initiated cluster and replication connections (#1763)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Bug Fixes&lt;/h1&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix &lt;code&gt;ACL LOAD&lt;/code&gt; crash on a connected replica node (#1842)&lt;/li&gt;
 &lt;li&gt;Fix bug where no tracking-redir-broken is issued when the redirect client is in the process of getting closed. (#1823)&lt;/li&gt;
@@ -206,30 +202,28 @@ control on manual-failover timeout and expended module API to reduce module exec
 &lt;li&gt;Avoid setting TCP/TLS specific options for UNIX Domain Socket connections (#1706)&lt;/li&gt;
 &lt;li&gt;Fix a bug in the valkey-cli which would incorrectly render commands with text output in multi/exec (#1782)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Build and Packaging changes&lt;/h1&gt;
+&lt;h2&gt;Build and Packaging changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Check both arm64 and aarch64 for ARM based system architecture during CMake builds (#1829)&lt;/li&gt;
 &lt;li&gt;Cleanup lua object files on make distclean (#1812)&lt;/li&gt;
 &lt;li&gt;Fixed build error with CMake when using clang v19 (#1806)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;================================================================================
-Valkey 8.1.0 RC1  -  Released Thu 11 Feb 2025
-================================================================================
-Upgrade urgency LOW: This is the first release candidate of Valkey 8.1, with
+&lt;h1&gt;Valkey 8.1.0 RC1  -  Released Thu 11 Feb 2025&lt;/h1&gt;
+&lt;p&gt;Upgrade urgency LOW: This is the first release candidate of Valkey 8.1, with
 performance improvements, extended observability and cluster improvements and different bug fixes. 
 It includes a new implementation of the Valkey dictionary which is more memory and cache efficient, 
 better performance for encryption in transit, reduced replication overhead by offloading work to I/O threads,
 faster failover support in cluster mode, major improvements to the active defrag process to reduce the impact on command processing,
 different API changes for improved usability and ability to track large requests and replies. 
 Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
-&lt;h1&gt;API and Interface changes&lt;/h1&gt;
+&lt;h2&gt;API and Interface changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduce cancel argument to bgsave command (#757)&lt;/li&gt;
 &lt;li&gt;Add conditional update support to the &lt;code&gt;SET&lt;/code&gt; command using &lt;code&gt;IFEQ&lt;/code&gt; argument (#1324)&lt;/li&gt;
 &lt;li&gt;Add more filters to &lt;code&gt;CLIENT LIST&lt;/code&gt; (#1401)&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;availability_zone&lt;/code&gt; to the HELLO response (#1487)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Observability and Monitoring changes&lt;/h1&gt;
+&lt;h2&gt;Observability and Monitoring changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Extend &lt;code&gt;LATENCY LATEST&lt;/code&gt; to add sum / cnt stats (#1570)&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;paused_actions&lt;/code&gt; and &lt;code&gt;paused_timeout_milliseconds&lt;/code&gt; for &lt;code&gt;INFO CLIENTS&lt;/code&gt; (#1519)&lt;/li&gt;
@@ -240,7 +234,7 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;Add new flag in &lt;code&gt;CLIENT LIST&lt;/code&gt; for import-source client (#1398)&lt;/li&gt;
 &lt;li&gt;Show client capabilities in &lt;code&gt;CLIENT LIST&lt;/code&gt; / &lt;code&gt;CLIENT INFO&lt;/code&gt; (#1698)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Performance/Efficiency Improvements - Core&lt;/h1&gt;
+&lt;h2&gt;Performance/Efficiency Improvements - Core&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduce a new memory efficient hash table to store keys (#1186)&lt;/li&gt;
 &lt;li&gt;Accelerate hash table iterator with prefetching (#1501)&lt;/li&gt;
@@ -267,7 +261,7 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;Offload reading the replication stream to IO threads (#1449)&lt;/li&gt;
 &lt;li&gt;Skip CRC checksumming during diskless full sync with TLS enabled. (#1479)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;New/Modified configurations&lt;/h1&gt;
+&lt;h2&gt;New/Modified configurations&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Deprecate &lt;code&gt;io-threads-do-reads&lt;/code&gt;, which has no effect since io threads will now always do reads. (#1138)&lt;/li&gt;
 &lt;li&gt;Introduce &lt;code&gt;import-mode&lt;/code&gt; config to avoid expiration and eviction during data syncing (#1185)&lt;/li&gt;
@@ -277,20 +271,20 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;Introducing &lt;code&gt;active-defrag-cycle-us&lt;/code&gt; for more fine-grinned control of memory defragmentation run time (#1242) &lt;/li&gt;
 &lt;li&gt;Introduce new configurations to control the new &lt;code&gt;COMMANDLOG&lt;/code&gt; reporting thresholds (#1294)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Build and Packaging changes&lt;/h1&gt;
+&lt;h2&gt;Build and Packaging changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Introduce CMake build system for valkey (#1196)&lt;/li&gt;
 &lt;li&gt;RDMA builtin support (#1209)&lt;/li&gt;
 &lt;li&gt;Fix Valkey binary build workflow, version support changes. (#1429)&lt;/li&gt;
 &lt;li&gt;Remove Valkey specific changes in jemalloc source code (#1266)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Module Improvements&lt;/h1&gt;
+&lt;h2&gt;Module Improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add API UpdateRuntimeArgs for updating the module arguments during runtime (#1041)&lt;/li&gt;
 &lt;li&gt;Add support for MustObeyClient Module API (#1582)&lt;/li&gt;
 &lt;li&gt;Adds support for scripting engines as Valkey modules (#1277, #1497)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Cluster improvements&lt;/h1&gt;
+&lt;h2&gt;Cluster improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Do election in order based on failed primary rank to avoid voting conflicts (#1018)&lt;/li&gt;
 &lt;li&gt;Make replica &lt;code&gt;CLUSTER RESET&lt;/code&gt; flush async based on &lt;code&gt;lazyfree-lazy-user-flush&lt;/code&gt; (#1190)&lt;/li&gt;
@@ -300,7 +294,7 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;Manual failover vote is not limited by two times the node timeout (#1305)&lt;/li&gt;
 &lt;li&gt;Automatic failover vote is not limited by two times the node timeout (#1356)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Behavior Changes&lt;/h1&gt;
+&lt;h2&gt;Behavior Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Streams use an additional 8 bytes to track their internal size (#688)&lt;/li&gt;
 &lt;li&gt;Take hz into account in activerehashing to avoid CPU spikes (#977)&lt;/li&gt;
@@ -310,7 +304,7 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;Allow &lt;code&gt;MEMORY MALLOC-STATS&lt;/code&gt; and &lt;code&gt;MEMORY PURGE&lt;/code&gt; during loading phase (#1317)&lt;/li&gt;
 &lt;li&gt;Use &lt;code&gt;DEEPBIND&lt;/code&gt; flag when loading external modules in order to avoid symbol conflicts (#1703)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Logging and Tooling Improvements&lt;/h1&gt;
+&lt;h2&gt;Logging and Tooling Improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove the restriction that cli --cluster create requires at least 3 primary nodes (#1075)&lt;/li&gt;
 &lt;li&gt;Add short client info log to CLUSTER MEET / FORGET / RESET commands (#1249)&lt;/li&gt;
@@ -318,7 +312,7 @@ Valkey now supports new new check-and-set feature for native STRINGs.&lt;/p&gt;
 &lt;li&gt;valkey-cli will now re-select previously selected database after reconnect (#1694)&lt;/li&gt;
 &lt;li&gt;valkey-cli will now auto-exit from subscribed mode when there are no more active subscriptions (#1432)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Bug Fixes&lt;/h1&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Mark the node as FAIL when the node is marked as NOADDR and broadcast the FAIL (#1191)&lt;/li&gt;
 &lt;li&gt;[Bug Fix] Optimize RDB Load Performance and Fix Cluster Mode Resizing (#1199)&lt;/li&gt;
