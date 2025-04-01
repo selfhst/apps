@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-03-31T22:33:04.083112-04:00</updated>
+  <updated>2025-03-31T23:33:05.863049-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -418,7 +418,8 @@ Secondary: &lt;code&gt;username&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Subsequent identifiers are stored as secondary identifiers (&lt;code&gt;signUp.secondaryIdentifiers&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;image src="https://github.com/user-attachments/assets/8fb90f21-9c7c-412d-9e8c-e4ee191ca8a8" width=500 /&gt;&lt;/p&gt;
-&lt;h2&gt;Remove some of the sign-in experience settings restrictions for better flexibility&lt;/h2&gt;
+&lt;h2&gt;Enhanced sign-in experience configuration&lt;/h2&gt;
+&lt;p&gt;We've relaxed several configuration constraints to give you more flexibility in customizing your authentication flows.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The password requirement is now optional when using &lt;code&gt;username&lt;/code&gt; as a sign-up identifier.  Please note, when configuring &lt;code&gt;username&lt;/code&gt; as the sole sign-up identifier with password disabled, users will be unable to authenticate after registration. Ensure at least one of the following:&lt;/p&gt;
@@ -434,6 +435,14 @@ Secondary: &lt;code&gt;username&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Removed the requirement for password verification across all sign-in methods when password is enabled for sign-up.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2&gt;Experience package migration&lt;/h2&gt;
+&lt;p&gt;In this release, we have transitioned the user sign-in experience from the legacy &lt;code&gt;@logto/experience-legacy&lt;/code&gt; package to the latest &lt;code&gt;@logto/experience package&lt;/code&gt;. This change fully adopts our new Experience API, enhancing the underlying architecture while maintaining the same user experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The sign-in experience front-end  now uses the &lt;code&gt;@logto/experience&lt;/code&gt; package by default.&lt;/li&gt;
+&lt;li&gt;Fully adopts our new Experience API for improved performance and maintainability&lt;/li&gt;
+&lt;li&gt;Maintains complete feature parity with no visible changes to end-users&lt;/li&gt;
+&lt;li&gt;Legacy Interaction API and &lt;code&gt;@logto/experience-legacy&lt;/code&gt; will be deprecated in future releases.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;CLI updates&lt;/h2&gt;
 &lt;h3&gt;@logto/translate&lt;/h3&gt;
 &lt;ul&gt;
