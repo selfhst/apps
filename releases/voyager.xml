@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-04-01T19:33:34.976132-04:00</updated>
+  <updated>2025-04-01T20:33:43.833661-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,9 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;h2&gt;✨ Changes&lt;/h2&gt;
+&lt;p&gt;The big change of this release is that new Android users will now default to the Android theme.&lt;/p&gt;
+&lt;p&gt;Otherwise, a lot of fixes. Enjoy!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: calculate vote ratio dynamically&lt;/li&gt;
 &lt;li&gt;PR: #1921&lt;/li&gt;
