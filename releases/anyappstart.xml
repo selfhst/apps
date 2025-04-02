@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AnyAppStart Releases</title>
-  <updated>2025-04-02T06:35:11.384256-04:00</updated>
+  <updated>2025-04-02T07:35:12.248230-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,5 +80,26 @@
 &lt;li&gt;Set &lt;code&gt;NODEPATH&lt;/code&gt; with &lt;code&gt;-n&lt;/code&gt; option&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/aceberg/AnyAppStart/releases/tag/0.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aceberg/AnyAppStart/releases/tag/0.1.4</id>
+    <title>New release for AnyAppStart: 0.1.4</title>
+    <updated>2025-04-02T07:14:51-04:00</updated>
+    <author>
+      <name>aceberg/AnyAppStart</name>
+    </author>
+    <content>&lt;h2&gt;[0.1.4] - 2025-04-02&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;User defined command &lt;a href="https://github.com/aceberg/AnyAppStart/issues/2"&gt;#2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Variable &lt;code&gt;$ITEMNAME&lt;/code&gt; now can be used in &lt;code&gt;SSH&lt;/code&gt; too&lt;/li&gt;
+&lt;li&gt;Vite config update&lt;/li&gt;
+&lt;li&gt;Optimized Docker build&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Alpine goreleaser binary&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/aceberg/AnyAppStart/releases/tag/0.1.4" rel="alternate"/>
   </entry>
 </feed>
