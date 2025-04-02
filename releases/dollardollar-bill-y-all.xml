@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DollarDollar Bill Y'all Releases</title>
-  <updated>2025-04-01T20:35:14.257134-04:00</updated>
+  <updated>2025-04-01T21:35:39.984857-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -229,12 +229,12 @@ flask db upgrade&lt;/code&gt;&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/harung1993/dollardollar/releases/tag/4.0.2</id>
-    <title>New release for DollarDollar Bill Y'all: Bug fixez and Recurring detection - v4.2</title>
+    <title>New release for DollarDollar Bill Y'all: Bug fixez and Recurring detection - v4.1</title>
     <updated>2025-03-25T17:59:21-04:00</updated>
     <author>
       <name>harung1993/dollardollar</name>
     </author>
-    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release v4.2&lt;/h1&gt;
+    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release v4.1&lt;/h1&gt;
 &lt;h3&gt;Migration Notes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: This update requires running &lt;code&gt;flask db migrate&lt;/code&gt; and &lt;code&gt;flask db upgrade&lt;/code&gt; commands before restarting the application. Failure to run these migrations will break the application.
@@ -319,13 +319,13 @@ If this dont work , do the following&lt;/li&gt;
   </entry>
   <entry>
     <id>https://github.com/harung1993/dollardollar/releases/tag/4.1.2</id>
-    <title>New release for DollarDollar Bill Y'all: v4.1.0</title>
+    <title>New release for DollarDollar Bill Y'all: v4.1.2</title>
     <updated>2025-03-30T12:44:39-04:00</updated>
     <author>
       <name>harung1993/dollardollar</name>
     </author>
-    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release Notes v4.1.0&lt;/h1&gt;
-&lt;h2&gt;What's New in v4.1.0&lt;/h2&gt;
+    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release Notes v4.1.2&lt;/h1&gt;
+&lt;h2&gt;What's New in v4.1.2&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Recurring Updates&lt;/strong&gt;: Enhanced auto-detection for recurring transactions&lt;/li&gt;
