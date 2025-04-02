@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-04-02T02:32:58.163936-04:00</updated>
+  <updated>2025-04-02T03:33:22.763037-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,19 +68,26 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.9...v0.21.10&lt;/p&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: let filter dropdown fit width of the content (&lt;a href="https://github.com/kestra-io/kestra/commit/0c2f0ddc1b6d57047ba04d2beef8069cc528f8c0"&gt;Ludovic DEHON&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: HttpClient log the URL even if it's a secret (&lt;a href="https://github.com/kestra-io/kestra/commit/da15fff78194a751bbe63c1b7d23091825d642f9"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;kafka runner&lt;/strong&gt;: #2709 filter child forEach tasks before merging th… (#8095) (&lt;a href="https://github.com/kestra-io/kestra/commit/8e335ce1c351ded403742da7f5252f282e6177a5"&gt;Nicolas K.&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Let filter dropdown fit width of the content (&lt;a href="https://github.com/kestra-io/kestra/commit/0c2f0ddc1"&gt;0c2f0ddc1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; HttpClient log the URL even if it's a secret (&lt;a href="https://github.com/kestra-io/kestra/commit/da15fff78"&gt;da15fff78&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;kafka runner:&lt;/strong&gt; #2709 filter child forEach tasks before merging th… (&lt;a href="https://github.com/kestra-io/kestra/pull/8095"&gt;#8095&lt;/a&gt;, &lt;a href="https://github.com/kestra-io/kestra/issues/2709"&gt;#2709&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;upgrade to version 'v0.21.10' (&lt;a href="https://github.com/kestra-io/kestra/commit/1cff398fcaeb55600fa0563f3e935384f2801d6b"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;*:&lt;/strong&gt; Update the CHANGELOG.MD with details for 0.21.9 (&lt;a href="https://github.com/kestra-io/kestra/commit/724a9e2"&gt;724a9e2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Upgrade to version 'v0.21.10' (&lt;a href="https://github.com/kestra-io/kestra/commit/1cff398fc"&gt;1cff398fc&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Commits&lt;/h2&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;724a9e2: Update the CHANGELOG.MD with details for 0.21.9 (MilosPaunovic)&lt;/li&gt;
+&lt;li&gt;YannC &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#121;&amp;#99;&amp;#111;&amp;#111;&amp;#114;&amp;#110;&amp;#97;&amp;#101;&amp;#114;&amp;#116;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;"&gt;&amp;#121;&amp;#99;&amp;#111;&amp;#111;&amp;#114;&amp;#110;&amp;#97;&amp;#101;&amp;#114;&amp;#116;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nicolas K. &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#110;&amp;#107;&amp;#95;&amp;#109;&amp;#105;&amp;#107;&amp;#109;&amp;#97;&amp;#107;&amp;#64;&amp;#104;&amp;#111;&amp;#116;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#110;&amp;#107;&amp;#95;&amp;#109;&amp;#105;&amp;#107;&amp;#109;&amp;#97;&amp;#107;&amp;#64;&amp;#104;&amp;#111;&amp;#116;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Loïc Mathieu (&lt;a href="https://github.com/loicmathieu"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ludovic DEHON (&lt;a href="https://github.com/tchiotludo"&gt;@tchiotludo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;MilosPaunovic (&lt;a href="https://github.com/MilosPaunovic"&gt;@MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.10" rel="alternate"/>
   </entry>
@@ -91,10 +98,17 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Chores&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.10...v0.21.11&lt;/p&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;deps&lt;/strong&gt;: add bouncycastle:bcpkix-jdk18on to platform (&lt;a href="https://github.com/kestra-io/kestra/commit/5cd10062ee7ad5f64d8dd08d84bba421eacade3b"&gt;Roman Acevedo&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;upgrade to v0.21.11 (&lt;a href="https://github.com/kestra-io/kestra/commit/33358ca1b33abe39046235d21c38c074183d8da6"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps&lt;/strong&gt;: add bouncycastle:bcpkix-jdk18on to platform (&lt;a href="https://github.com/kestra-io/kestra/commit/5cd10062ee7ad5f64d8dd08d84bba421eacade3b"&gt;5cd1006&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Upgrade to v0.21.11 (&lt;a href="https://github.com/kestra-io/kestra/commit/33358ca1b"&gt;33358ca1b&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Loïc Mathieu (&lt;a href="https://github.com/loicmathieu"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Roman Acevedo (&lt;a href="https://github.com/AcevedoR"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.11" rel="alternate"/>
   </entry>

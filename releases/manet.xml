@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manet Releases</title>
-  <updated>2025-04-02T02:33:26.639794-04:00</updated>
+  <updated>2025-04-02T03:33:52.093461-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for LunaSea: v10.2.2</title>
     <updated>2022-12-22T12:50:13-05:00</updated>
     <author>
-      <name>JagandeepBrar/lunasea</name>
+      <name>jagandeepbrar/lunasea</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;This release adds support for official .deb and .tar.gz builds for Linux releases!&lt;/p&gt;
@@ -46,7 +46,7 @@
     <title>New release for LunaSea: v10.2.3</title>
     <updated>2023-03-22T10:47:01-04:00</updated>
     <author>
-      <name>JagandeepBrar/lunasea</name>
+      <name>jagandeepbrar/lunasea</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;This release adds the ability to open Tautulli library items directly in Plex and more details about activity streams.&lt;/p&gt;
@@ -72,7 +72,7 @@
     <title>New release for LunaSea: v10.2.4</title>
     <updated>2023-04-09T18:40:54-04:00</updated>
     <author>
-      <name>JagandeepBrar/lunasea</name>
+      <name>jagandeepbrar/lunasea</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;This update fixes some small underlying issues with network image caching and text rendering. To further improve scrolling performance of large lists of content (especially on lower-end devices), the horizontal fading edge of scrollable text has been removed.&lt;/p&gt;
@@ -102,7 +102,7 @@
     <title>New release for LunaSea: v10.2.5</title>
     <updated>2023-07-03T16:00:29-04:00</updated>
     <author>
-      <name>JagandeepBrar/lunasea</name>
+      <name>jagandeepbrar/lunasea</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;This releases adds support for multi-select actions on Sonarr episodes and fixes an issue preventing users from selecting a new active profile when triggering a download via search.&lt;/p&gt;
@@ -126,7 +126,7 @@
     <title>New release for LunaSea: v10.2.6</title>
     <updated>2023-10-04T23:25:11-04:00</updated>
     <author>
-      <name>JagandeepBrar/lunasea</name>
+      <name>jagandeepbrar/lunasea</name>
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;This update fixes some small issues with Sonarr, including correctly sorting the missing content list in descending order and support for season posters when using Sonarr v4.&lt;/p&gt;
