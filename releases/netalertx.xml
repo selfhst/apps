@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2025-04-02T16:31:23.158842-04:00</updated>
+  <updated>2025-04-02T17:31:24.834843-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -299,7 +299,8 @@
     <author>
       <name>jokob-sk/NetAlertX</name>
     </author>
-    <content>&lt;p&gt;Hey y'all 👋 &lt;/p&gt;
+    <content>&lt;h1&gt;1036 [bug] :bug:  &lt;a href="https://github.com/jokob-sk/NetAlertX/issues/1036"&gt;There is a bug where a new workflow is not executed until you switch the Trigger type&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Hey y'all 👋 &lt;/p&gt;
 &lt;p&gt;You, your setup, your use cases... are different from mine and everyone's else's. I also don't like implementing really narrow features, that help only a handful of users. &lt;/p&gt;
 &lt;p&gt;So I thought, well, how about I let YOU to change the application behavior?&lt;/p&gt;
 &lt;p&gt;Here come 🔀 &lt;a href="https://jokob-sk.github.io/NetAlertX/WORKFLOWS/"&gt;Workflow Automations&lt;/a&gt; 🥳 &lt;/p&gt;
