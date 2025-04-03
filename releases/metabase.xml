@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-04-03T17:31:29.342357-04:00</updated>
+  <updated>2025-04-03T18:31:33.579997-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -317,8 +317,6 @@ JAR download: https://downloads.metabase.com/enterprise/v1.54.1.x/metabase.jar&l
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Simplified data picker for embedding (#54489)&lt;/li&gt;
-&lt;li&gt;New multi-stage filter picker when viewing a visualization (#55052)&lt;/li&gt;
-&lt;li&gt;Better native query editor (CodeMirror) (#50249)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -331,6 +329,8 @@ JAR download: https://downloads.metabase.com/enterprise/v1.54.1.x/metabase.jar&l
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow text-like filters on MongoDB UUID fields (#55792)&lt;/li&gt;
+&lt;li&gt;New multi-stage filter picker when viewing a visualization (#55052)&lt;/li&gt;
+&lt;li&gt;Better native query editor (CodeMirror) (#50249)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Alerts&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
