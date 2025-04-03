@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2025-04-02T21:32:50.409773-04:00</updated>
+  <updated>2025-04-02T22:32:47.438627-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -373,7 +373,7 @@ b9c6c353757446c4bbfb97c22a1e4b79  ./ampache-7.4.0_all_php8.2_client.zip&lt;/p&gt
 &lt;li&gt;Update &lt;code&gt;public/.htaccess.dist&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Only audit NPM production modules&lt;/li&gt;
 &lt;li&gt;Move prettyphoto into lib/modules. (Dead project marked as Malware by NPM)&lt;/li&gt;
-&lt;li&gt;After updating Album and Artist object tags only update conts for affected Artists&lt;/li&gt;
+&lt;li&gt;After updating Album and Artist object tags only update counts for affected Artists&lt;/li&gt;
 &lt;li&gt;Restore gather art on website Add actions&lt;/li&gt;
 &lt;li&gt;Don't collect garbage continually when doing a large verify action&lt;/li&gt;
 &lt;li&gt;Update individual counts for Artists after changes&lt;/li&gt;
@@ -388,7 +388,7 @@ b9c6c353757446c4bbfb97c22a1e4b79  ./ampache-7.4.0_all_php8.2_client.zip&lt;/p&gt
 &lt;li&gt;Jplayer&lt;/li&gt;
 &lt;li&gt;Repeat the current song if you press previous and there isn't a loop situation&lt;/li&gt;
 &lt;li&gt;webplayer&lt;/li&gt;
-&lt;li&gt;Rearrange the buttons to make them aling better with different config&lt;/li&gt;
+&lt;li&gt;Rearrange the buttons to make them align better with different config&lt;/li&gt;
 &lt;li&gt;Only show the slideshow button if you have a slideshow plugin enabled. (flickr)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
@@ -413,7 +413,7 @@ b9c6c353757446c4bbfb97c22a1e4b79  ./ampache-7.4.0_all_php8.2_client.zip&lt;/p&gt
 &lt;li&gt;SQL error looking up License name&lt;/li&gt;
 &lt;li&gt;Fix up RSS to generate valid feeds again&lt;/li&gt;
 &lt;li&gt;Only insert additional metadata for scalar values&lt;/li&gt;
-&lt;li&gt;Silently faile on Metadata insert. (Fix up your tags)&lt;/li&gt;
+&lt;li&gt;Silently fail on Metadata insert. (Fix up your tags)&lt;/li&gt;
 &lt;li&gt;Plugin&lt;/li&gt;
 &lt;li&gt;Discogs: Fix up searching for releases without a master release&lt;/li&gt;
 &lt;/ul&gt;
