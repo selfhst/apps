@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Willow Releases</title>
-  <updated>2025-04-03T07:32:16.534584-04:00</updated>
+  <updated>2025-04-03T08:32:01.335228-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Willow: 0.2.1</title>
     <updated>2023-10-30T12:42:46-04:00</updated>
     <author>
-      <name>toverainc/willow</name>
+      <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;The Willow team is proud to present Willow 0.2.1. Changes since 0.2.0:
 * fix crash when doing WAS locate if Willow is muted during boot
@@ -27,7 +27,7 @@
     <title>New release for Willow: 0.2.2</title>
     <updated>2023-11-28T13:12:09-05:00</updated>
     <author>
-      <name>toverainc/willow</name>
+      <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;The Willow team is proud to present Willow 0.2.2. Changes since 0.2.1:&lt;/p&gt;
 &lt;p&gt;Fix:
@@ -39,7 +39,7 @@
     <title>New release for Willow: 0.2.3</title>
     <updated>2023-12-21T14:17:24-05:00</updated>
     <author>
-      <name>toverainc/willow</name>
+      <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;The Willow team is proud to present Willow 0.2.3. Changes since 0.2.2:&lt;/p&gt;
 &lt;ul&gt;
@@ -56,7 +56,7 @@
     <title>New release for Willow: 0.3.0</title>
     <updated>2024-01-02T18:57:24-05:00</updated>
     <author>
-      <name>toverainc/willow</name>
+      <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;The Willow team is proud to present Willow 0.3.0. Changes since 0.2.1:&lt;/p&gt;
 &lt;ul&gt;
@@ -86,7 +86,7 @@
     <title>New release for Willow: 0.3.1</title>
     <updated>2024-01-19T08:47:22-05:00</updated>
     <author>
-      <name>toverainc/willow</name>
+      <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;The Willow team is proud to present Willow 0.3.1. Changes since 0.3.0:
 * Fix crash on missing wakeword #359
