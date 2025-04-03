@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CTFreak Releases</title>
-  <updated>2025-04-03T12:32:36.212662-04:00</updated>
+  <updated>2025-04-03T13:32:35.482593-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -168,17 +168,7 @@
 &lt;li&gt;@Nezz made their first contribution in https://github.com/music-assistant/server/pull/2051&lt;/li&gt;
 &lt;li&gt;@Dvad made their first contribution in https://github.com/music-assistant/server/pull/2052&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.4...v2.5.0&lt;/p&gt;
-&lt;h3&gt;Frontend 2.14.8&lt;/h3&gt;
-&lt;h2&gt;🧰 Maintenance&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h1&gt;949 - Minor grammar tweaks (@OzGav)&lt;/h1&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;⬆️ Dependencies&lt;/h2&gt;
-&lt;h3&gt;Server&lt;/h3&gt;
-&lt;h3&gt;Frontend&lt;/h3&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.4...v2.5.0&lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.5.0" rel="alternate"/>
   </entry>
 </feed>
