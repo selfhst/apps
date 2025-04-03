@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homarr iFrames Releases</title>
-  <updated>2025-04-02T19:33:34.634437-04:00</updated>
+  <updated>2025-04-02T20:34:08.540898-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,6 +97,9 @@
 &lt;li&gt;The regex is provided using the environment variable &lt;code&gt;ALARMS_REGEX&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;The alarms iframe query argument &lt;code&gt;regex_include&lt;/code&gt; can have the values &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt; (&lt;code&gt;true&lt;/code&gt; by default). If &lt;code&gt;true&lt;/code&gt; shows only alarms that match the regex. If &lt;code&gt;false&lt;/code&gt; only alarms that don't match the regex.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1&gt;Brazil Cinemark iframe&lt;/h1&gt;
+&lt;p&gt;It shows the movie cover in the cards background instead of that static popcorn image.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/aafe4a96-8b48-471d-8046-a189492e4137" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/diogovalentte/homarr-iframes/compare/v1.11.0...v1.12.0&lt;/p&gt;</content>
     <link href="https://github.com/diogovalentte/homarr-iframes/releases/tag/v1.12.0" rel="alternate"/>
   </entry>
