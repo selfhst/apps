@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-04T04:35:55.848350-04:00</updated>
+  <updated>2025-04-04T05:35:52.144466-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -31,5 +31,29 @@
 &lt;li&gt;No data is uploaded to external servers.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.0.1</id>
+    <title>New release for Mazanoke: </title>
+    <updated>2025-04-04T05:20:45-04:00</updated>
+    <author>
+      <name>civilblur/mazanoke</name>
+    </author>
+    <content>&lt;p&gt;Thank you all for your support and engagement! In just a week, we've reached nearly 400 stars and over 1000 Docker pulls! I'm happy to see that there are people enjoying using MAZANOKE, and I hope you'll continue to enjoy using it.&lt;/p&gt;
+&lt;p&gt;In case you've missed it, the official instance is now up at: &lt;a href="https://mazanoke.com"&gt;MAZANOKE.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhancements&lt;/strong&gt;
+- Upload multiple files simultaneously
+    - Images are processed one at a time to prevent excessive browser resource usage.
+- Download all optimized images as a zip.
+    - Files over 1GB are split into multiple zip files.
+    - Large downloads may take time, depending on hardware and browser.
+- Option to clear all optimized images from the "Images" section.
+- Convert GIF and SVG → PNG.
+    - GIF-to-GIF optimization is not supported.
+    - SVG optimization is not planned.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- Fixed issue where thumbnails displayed at full resolution, degrading performance for large batches.
+- Non-supported file types are now rejected.&lt;/p&gt;</content>
+    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
