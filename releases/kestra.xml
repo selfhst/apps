@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-04-04T02:32:48.180953-04:00</updated>
+  <updated>2025-04-04T03:33:14.614564-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -848,32 +848,42 @@ security:
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Features&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.22.0...v0.22.1&lt;/p&gt;
+&lt;h3&gt;🚀 Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;add afterExecution to basic.md (#8126) (&lt;a href="https://github.com/kestra-io/kestra/commit/0833e800d3cf9daf00bf93fd4791e56a6ebfc00f"&gt;Shruti Mantri&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Add afterExecution to basic.md (&lt;a href="https://github.com/kestra-io/kestra/pull/8126"&gt;#8126&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;cli&lt;/strong&gt;: prevent FlowUpdatesCommand to crash due to plugin loader (&lt;a href="https://github.com/kestra-io/kestra/commit/3ce2cdaeb915d98debfb635215d8604abbc869c2"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: use a stable flow logger name (&lt;a href="https://github.com/kestra-io/kestra/commit/7cfbb91e7bb666d4f76da9018ff35c0bf411e7e1"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: mask secrets on log attributes (&lt;a href="https://github.com/kestra-io/kestra/commit/94dcba1262363de107064ff602ff6d31661f91ac"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ui&lt;/strong&gt;: keep fetching if filtered kvs &amp;amp; secrets have no elements after fetch (&lt;a href="https://github.com/kestra-io/kestra/commit/5757b576e908b4e883462246500dbe45909e15d3"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;gradle&lt;/strong&gt;: Windows selfrun.bat (&lt;a href="https://github.com/kestra-io/kestra/commit/9cb51ba0eedb1fc6d894de5c699708b72924380d"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;jdbc&lt;/strong&gt;: possible deadlock on service instance (&lt;a href="https://github.com/kestra-io/kestra/commit/6ead4e63cdfbe413d77c0b7577d3279d173af29b"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;cli&lt;/strong&gt;: fix NPE for commands not requiring plugins (#8212) (&lt;a href="https://github.com/kestra-io/kestra/commit/8ccab1d6df5ea25dd07d866d6835decaa0280aae"&gt;Florian Hussonnois&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: be tolerant of decryption issue (&lt;a href="https://github.com/kestra-io/kestra/commit/38f68dae5b1397f6af711341ac1e70cdc8cba41b"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;jdbc&lt;/strong&gt;: #8219 unquoted timestamp field breaking query (#8222) (&lt;a href="https://github.com/kestra-io/kestra/commit/f9c47b232433f309c5b9d1b0c02a08864657189b"&gt;Nicolas K.&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Use a stable flow logger name (&lt;a href="https://github.com/kestra-io/kestra/commit/7cfbb91e7"&gt;7cfbb91e7&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; HttpClient log the URL even if it's a secret" (&lt;a href="https://github.com/kestra-io/kestra/commit/ae223c8d7"&gt;ae223c8d7&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Mask secrets on log attributes (&lt;a href="https://github.com/kestra-io/kestra/commit/94dcba126"&gt;94dcba126&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; Keep fetching if filtered kvs &amp;amp; secrets have no elements after fetch (&lt;a href="https://github.com/kestra-io/kestra/commit/5757b576e"&gt;5757b576e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gradle:&lt;/strong&gt; Windows selfrun.bat (&lt;a href="https://github.com/kestra-io/kestra/commit/9cb51ba0e"&gt;9cb51ba0e&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jdbc:&lt;/strong&gt; Possible deadlock on service instance (&lt;a href="https://github.com/kestra-io/kestra/commit/6ead4e63c"&gt;6ead4e63c&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cli:&lt;/strong&gt; Fix NPE for commands not requiring plugins (&lt;a href="https://github.com/kestra-io/kestra/pull/8212"&gt;#8212&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt; Be tolerant of decryption issue (&lt;a href="https://github.com/kestra-io/kestra/commit/38f68dae5"&gt;38f68dae5&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jdbc:&lt;/strong&gt; #8219 unquoted timestamp field breaking query (&lt;a href="https://github.com/kestra-io/kestra/pull/8222"&gt;#8222&lt;/a&gt;, &lt;a href="https://github.com/kestra-io/kestra/issues/8219"&gt;#8219&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: update the CHANGELOG.MD with details for 0.22.0 (&lt;a href="https://github.com/kestra-io/kestra/commit/b78748ebfbde143018d277c18fdb19cac2870117"&gt;MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ci&lt;/strong&gt;: modify publish docker to align on EE (&lt;a href="https://github.com/kestra-io/kestra/commit/fedbffbdf5d20695a85c4faeac22b80fbe905ad5"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ci&lt;/strong&gt;: align plugins handle for docker publish on EE CI (&lt;a href="https://github.com/kestra-io/kestra/commit/632c5836da94654668ae81caae99928f4621fda0"&gt;YannC&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;upgrade to 0.22.1 (&lt;a href="https://github.com/kestra-io/kestra/commit/9857930da1b1df1a51c0cdcb0547c1ae2a244404"&gt;Loïc Mathieu&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Commits&lt;/h2&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;version:&lt;/strong&gt; Update the CHANGELOG.MD with details for 0.22.0 (&lt;a href="https://github.com/kestra-io/kestra/commit/b78748ebf"&gt;b78748ebf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ci:&lt;/strong&gt; Modify publish docker to align on EE (&lt;a href="https://github.com/kestra-io/kestra/commit/fedbffbdf"&gt;fedbffbdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ci:&lt;/strong&gt; Align plugins handle for docker publish on EE CI (&lt;a href="https://github.com/kestra-io/kestra/commit/632c5836d"&gt;632c5836d&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;ae223c8: Revert "fix(core): HttpClient log the URL even if it's a secret" (Loïc Mathieu)&lt;/li&gt;
+&lt;li&gt;Upgrade to 0.22.1 (&lt;a href="https://github.com/kestra-io/kestra/commit/9857930da"&gt;9857930da&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Loïc Mathieu (&lt;a href="https://github.com/loicmathieu"&gt;@loicmathieu&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Nicolas K. &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#110;&amp;#107;&amp;#95;&amp;#109;&amp;#105;&amp;#107;&amp;#109;&amp;#97;&amp;#107;&amp;#64;&amp;#104;&amp;#111;&amp;#116;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#110;&amp;#107;&amp;#95;&amp;#109;&amp;#105;&amp;#107;&amp;#109;&amp;#97;&amp;#107;&amp;#64;&amp;#104;&amp;#111;&amp;#116;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YannC &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#121;&amp;#99;&amp;#111;&amp;#111;&amp;#114;&amp;#110;&amp;#97;&amp;#101;&amp;#114;&amp;#116;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;"&gt;&amp;#121;&amp;#99;&amp;#111;&amp;#111;&amp;#114;&amp;#110;&amp;#97;&amp;#101;&amp;#114;&amp;#116;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Florian Hussonnois (&lt;a href="https://github.com/fhussonnois"&gt;@fhussonnois&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Shruti Mantri &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#115;&amp;#104;&amp;#114;&amp;#117;&amp;#116;&amp;#105;&amp;#49;&amp;#56;&amp;#49;&amp;#48;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#115;&amp;#104;&amp;#114;&amp;#117;&amp;#116;&amp;#105;&amp;#49;&amp;#56;&amp;#49;&amp;#48;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MilosPaunovic (&lt;a href="https://github.com/MilosPaunovic"&gt;@MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Brian.mulier (&lt;a href="https://github.com/brian-mulier-p"&gt;@brian-mulier-p&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.22.1" rel="alternate"/>
   </entry>
