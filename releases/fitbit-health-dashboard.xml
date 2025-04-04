@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fitbit Health Dashboard Releases</title>
-  <updated>2025-04-04T09:30:26.653785-04:00</updated>
+  <updated>2025-04-04T10:30:27.372655-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,7 +49,30 @@
     <author>
       <name>arpanghosh8453/public-fitbit-projects</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for &lt;strong&gt;GPS data&lt;/strong&gt; visualization (requires updated Grafana supporting Geomap plugin) for the recorded activity. This GPS data visual is better than the default Fitbit app as it shows the detailed route colored by your Heart rate values and you can also see the speed from the thickness of the trace line. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/a5ed318d-27cc-41cf-a872-423babba872b" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Support for fetching &lt;strong&gt;BMI&lt;/strong&gt; and &lt;strong&gt;Weight data&lt;/strong&gt; (the weight data is recorded as Pounds in the database - converted to Kg in Grafana Visual) - These data types require manual logging and you will not have these measurements if you have no records for the fetched period of data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upgraded visual for Heart Rate data colored by threshold - switched to time series from bar chart &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/2109ff21-a418-431a-a2a8-3a5040f5888b" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;removal of deprecated panels&lt;/li&gt;
+&lt;li&gt;Added last sync time visual for quick glance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/3f5fe03b-63a0-4f58-b14a-4a81531be08e" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Upgraded visual for device battery level colored by threshold&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/9ec9dfa0-3c40-4418-8635-4955d5c1acfc" /&gt;&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: add most feature of influx v1 to the influx v2 by @Belphemur in https://github.com/arpanghosh8453/public-fitbit-projects/pull/13&lt;/li&gt;
 &lt;li&gt;Update actions/checkout to v4 and replace docker-compose with docker compose by @Niggggggo in https://github.com/arpanghosh8453/public-fitbit-projects/pull/21&lt;/li&gt;
