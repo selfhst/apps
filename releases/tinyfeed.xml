@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>tinyfeed Releases</title>
-  <updated>2025-04-04T08:34:52.481685-04:00</updated>
+  <updated>2025-04-04T09:34:45.088743-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,6 +92,7 @@
 &lt;li&gt;New option &lt;code&gt;--per-feed-limit&lt;/code&gt; to set the maximum number of article to display per feed &lt;/li&gt;
 &lt;li&gt;New recipe to deploy tinyfeed using github-actions and github-page&lt;/li&gt;
 &lt;li&gt;Add  "Last Updated on {Date}" at the bottom of the page  (by @ebrahimHakimuddin )&lt;/li&gt;
+&lt;li&gt;Automatically remove duplicates feeds &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixed:&lt;/h2&gt;
 &lt;ul&gt;

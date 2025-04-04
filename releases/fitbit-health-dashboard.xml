@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fitbit Health Dashboard Releases</title>
-  <updated>2025-04-04T08:30:24.890674-04:00</updated>
+  <updated>2025-04-04T09:30:26.653785-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -41,5 +41,29 @@
     </author>
     <content>&lt;p&gt;Fixed server-user time zone conflict issue ( #10 )&lt;/p&gt;</content>
     <link href="https://github.com/arpanghosh8453/public-fitbit-projects/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arpanghosh8453/public-fitbit-projects/releases/tag/v1.1.0</id>
+    <title>New release for Fitbit Health Dashboard: v1.1.0</title>
+    <updated>2025-04-04T09:26:53-04:00</updated>
+    <author>
+      <name>arpanghosh8453/public-fitbit-projects</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: add most feature of influx v1 to the influx v2 by @Belphemur in https://github.com/arpanghosh8453/public-fitbit-projects/pull/13&lt;/li&gt;
+&lt;li&gt;Update actions/checkout to v4 and replace docker-compose with docker compose by @Niggggggo in https://github.com/arpanghosh8453/public-fitbit-projects/pull/21&lt;/li&gt;
+&lt;li&gt;fix: use bucket var by @sam-don in https://github.com/arpanghosh8453/public-fitbit-projects/pull/33&lt;/li&gt;
+&lt;li&gt;Add other fields from GPS data by @dipanghosh in https://github.com/arpanghosh8453/public-fitbit-projects/pull/37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Belphemur made their first contribution in https://github.com/arpanghosh8453/public-fitbit-projects/pull/13&lt;/li&gt;
+&lt;li&gt;@Niggggggo made their first contribution in https://github.com/arpanghosh8453/public-fitbit-projects/pull/21&lt;/li&gt;
+&lt;li&gt;@sam-don made their first contribution in https://github.com/arpanghosh8453/public-fitbit-projects/pull/33&lt;/li&gt;
+&lt;li&gt;@dipanghosh made their first contribution in https://github.com/arpanghosh8453/public-fitbit-projects/pull/37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/public-fitbit-projects/compare/v1.0.1...v1.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/arpanghosh8453/public-fitbit-projects/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
