@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CommaFeed Releases</title>
-  <updated>2025-04-04T15:32:40.600711-04:00</updated>
+  <updated>2025-04-04T16:32:44.399776-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,10 +74,10 @@
       <name>Athou/commafeed</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Add Shift+J/Shift+K keyboard shortcuts to navigate to the next/previous feed or category with unread entries (#1746)&lt;/li&gt;
+&lt;li&gt;Add Shift+J/Shift+K keyboard shortcuts to navigate to the next/previous feed or category with unread entries (#1558)&lt;/li&gt;
 &lt;li&gt;Add the referrer "no-referrer" meta to index.html (#1724)&lt;/li&gt;
 &lt;li&gt;Load custom JS code when the app is done loading (#1724)&lt;/li&gt;
-&lt;li&gt;Correctly handle feeds that return an unmodified Last-Modified header but a different ETag header (#1730)&lt;/li&gt;
+&lt;li&gt;Correctly handle feeds that return an unmodified Last-Modified header but a different ETag header (#1746)&lt;/li&gt;
 &lt;li&gt;Restore gzip compression of responses that was accidentaly disabled since 5.0.0&lt;/li&gt;
 &lt;li&gt;Fix tooltips not showing up in mobile view&lt;/li&gt;
 &lt;li&gt;Fix the bookmarklet generator on the About page&lt;/li&gt;
