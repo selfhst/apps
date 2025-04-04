@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>dash. Releases</title>
-  <updated>2025-04-04T14:34:05.940190-04:00</updated>
+  <updated>2025-04-04T15:34:01.263812-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -43,5 +43,24 @@
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/MauriceNino/dashdot/compare/v5.9.1...v5.9.2"&gt;5.9.2&lt;/a&gt; (2025-03-19)&lt;/h2&gt;</content>
     <link href="https://github.com/MauriceNino/dashdot/releases/tag/v5.9.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MauriceNino/dashdot/releases/tag/v6.0.0</id>
+    <title>New release for dash.: v6.0.0</title>
+    <updated>2025-04-04T14:57:52-04:00</updated>
+    <author>
+      <name>MauriceNino/dashdot</name>
+    </author>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/MauriceNino/dashdot/compare/v5.9.2...v6.0.0"&gt;6.0.0&lt;/a&gt; (2025-04-04)&lt;/h1&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;flip bytes and bit in the static speedtest file (&lt;a href="https://github.com/MauriceNino/dashdot/commit/a1971306eb13538fdceb8817f6c832f275169d3a"&gt;a197130&lt;/a&gt;), closes &lt;a href="https://github.com/MauriceNino/dashdot/issues/1091"&gt;#1091&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;os distro/version not reporting correctly (&lt;a href="https://github.com/MauriceNino/dashdot/commit/30f616736eaf0beae71ff78bcd0a17a48b589d06"&gt;30f6167&lt;/a&gt;), closes &lt;a href="https://github.com/MauriceNino/dashdot/issues/1168"&gt;#1168&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The unit in the speedtest-file was flipped. This has been fixed and therefore needs to be manually flipped by the users to match the correct unit&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/MauriceNino/dashdot/releases/tag/v6.0.0" rel="alternate"/>
   </entry>
 </feed>
