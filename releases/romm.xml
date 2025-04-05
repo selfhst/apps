@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-04-05T11:31:09.340639-04:00</updated>
+  <updated>2025-04-05T12:31:05.056163-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -283,6 +283,10 @@ Failure to do so could &lt;strong&gt;leave your instance in a broken state!&lt;/
     </author>
     <content>&lt;p&gt;Hey everyone! If you're a fan of the EmulatorJS player (aren't we all?), you're going to love this update. We've completely rebuild the save and save state integration, overhauling the UI and changing the mechanism to save and load both.&lt;/p&gt;
 &lt;h3&gt;Save and state UI and emulation overhaul&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We &lt;strong&gt;strongly recommend&lt;/strong&gt; clearing the IndexDB browser cache after upgrading, either manually or by using the new &lt;code&gt;Clear EmulatorJS Cache&lt;/code&gt; button at the bottom of the emulatorjs player setup page.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;We've completely rebuild the save and save state integration, overhauling the UI and changing the mechanism to save and load both. We've also updated the behaviour of EmulatorJS in regards to how it interacts with saves and states. Here's a summary of the changes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Save State&lt;/code&gt; will &lt;strong&gt;always create a new state&lt;/strong&gt; and send it to the server&lt;/li&gt;
@@ -324,18 +328,18 @@ Failure to do so could &lt;strong&gt;leave your instance in a broken state!&lt;/
 &lt;/ul&gt;
 &lt;h3&gt;Dependency updates&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Bump cryptography from 44.0.0 to 44.0.1 by&lt;/li&gt;
-&lt;li&gt;Bump cronstrue from 2.55.0 to 2.57.0 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump typescript-eslint from 8.26.0 to 8.28.0 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump nanoid from 5.1.3 to 5.1.4 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump axios from 1.8.1 to 1.8.4 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump eslint from 9.22.0 to 9.23.0 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump vue-i18n from 11.1.1 to 11.1.2 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump vuetify from 3.7.11 to 3.7.18 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump @types/node from 22.13.8 to 22.13.14 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump vite from 6.2.0 to 6.2.5 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump @types/semver from 7.5.8 to 7.7.0 in /frontend by&lt;/li&gt;
-&lt;li&gt;Bump md-editor-v3 from 5.3.2 to 5.4.5 in /frontend by&lt;/li&gt;
+&lt;li&gt;Bump cryptography from 44.0.0 to 44.0.1&lt;/li&gt;
+&lt;li&gt;Bump cronstrue from 2.55.0 to 2.57.0 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump typescript-eslint from 8.26.0 to 8.28.0 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump nanoid from 5.1.3 to 5.1.4 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump axios from 1.8.1 to 1.8.4 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump eslint from 9.22.0 to 9.23.0 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump vue-i18n from 11.1.1 to 11.1.2 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump vuetify from 3.7.11 to 3.7.18 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump @types/node from 22.13.8 to 22.13.14 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump vite from 6.2.0 to 6.2.5 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump @types/semver from 7.5.8 to 7.7.0 in /frontend&lt;/li&gt;
+&lt;li&gt;Bump md-editor-v3 from 5.3.2 to 5.4.5 in /frontend&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rommapp/romm/compare/3.8.1...3.8.2&lt;/p&gt;</content>
     <link href="https://github.com/rommapp/romm/releases/tag/3.8.2" rel="alternate"/>
