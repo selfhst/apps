@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Leantime Releases</title>
-  <updated>2025-04-05T12:30:38.820530-04:00</updated>
+  <updated>2025-04-05T13:30:39.077124-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -479,7 +479,6 @@
 &lt;li&gt;e9cd17225 task: version bump&lt;/li&gt;
 &lt;li&gt;9ac0946b5 task: fix code style&lt;/li&gt;
 &lt;li&gt;51fbe0eb6 fix: wrong identifier used when pulling and checking plugins failing validation.&lt;/li&gt;
-&lt;li&gt;e07bc667e [Changelog CI] Add Changelog for Version 3.4.9&lt;/li&gt;
 &lt;li&gt;4efc164f7 build(deps): bump @babel/helpers from 7.25.6 to 7.26.10&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Contributors&lt;/h3&gt;
