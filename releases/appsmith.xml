@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Appsmith Releases</title>
-  <updated>2025-04-05T04:32:01.534842-04:00</updated>
+  <updated>2025-04-05T05:32:01.115269-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,6 @@
 &lt;/ul&gt;
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Premium Integrations Handling&lt;/strong&gt;: Resolved issues related to premium integrations using release and license flags. (#39982)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Login Domain Redirection&lt;/strong&gt;: Fixed an issue that was blocking redirection to the application from login domains. (#40017)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;STARTTLS Handling&lt;/strong&gt;: Updated SMTP code to disable STARTTLS if credentials are not provided. (#40005)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Datasource API&lt;/strong&gt;: Fixed issues related to Datasource API split. (#39917)&lt;/li&gt;
