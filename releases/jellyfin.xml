@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyfin Releases</title>
-  <updated>2025-04-05T15:30:33.585087-04:00</updated>
+  <updated>2025-04-05T16:30:34.325105-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -167,10 +167,7 @@
 &lt;li&gt;Fix 4K filtering when grouping movies into collections [PR #13594], by @theguymadmax&lt;/li&gt;
 &lt;li&gt;Remove empty ParentIndexNumber workaround [PR #13611], by @Shadowghost&lt;/li&gt;
 &lt;li&gt;Update dependency z440.atl.core to 6.20.0 [PR #13845], by @Shadowghost&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h1&gt;🛑 ✋ ⛔ 🚫&lt;/h1&gt;
-&lt;p&gt;This release is still building. &lt;strong&gt;Please do not attempt upgrades until this section is removed.&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/jellyfin/jellyfin/releases/tag/v10.10.7" rel="alternate"/>
   </entry>
 </feed>
