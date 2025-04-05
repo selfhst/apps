@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenSign Releases</title>
-  <updated>2025-04-05T00:32:12.343008-04:00</updated>
+  <updated>2025-04-05T01:31:57.916116-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -180,7 +180,7 @@
 &lt;li&gt;Center align sidebar icons &lt;/li&gt;
 &lt;li&gt;Update dependencies&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/OpenSignLabs/OpenSign-Enterprise/compare/v2.14.0...v2.15.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/OpenSignLabs/OpenSign/compare/v2.14.0...v2.15.0&lt;/p&gt;</content>
     <link href="https://github.com/OpenSignLabs/OpenSign/releases/tag/v2.15.0" rel="alternate"/>
   </entry>
 </feed>
