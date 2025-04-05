@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wger Releases</title>
-  <updated>2025-04-05T14:31:31.172840-04:00</updated>
+  <updated>2025-04-05T15:31:32.552130-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -675,6 +675,7 @@
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 2.3 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;See also https://github.com/wger-project/react/releases/tag/2.3&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Axes behind reverse proxy by @bbkz in https://github.com/wger-project/wger/pull/1521&lt;/li&gt;
