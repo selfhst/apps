@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-04-05T17:34:58.727857-04:00</updated>
+  <updated>2025-04-05T18:34:55.980105-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,20 +173,12 @@
       <name>arabcoders/watchstate</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;608473f1 backend:create when renaming user make sure to update it early to propgate for the rest of the code by arabcoders&lt;/li&gt;
-&lt;li&gt;6d8dfd4b in backend:create, cast user names to string, sometimes we get intgers by arabcoders&lt;/li&gt;
+&lt;li&gt;608473f1 backend:create when renaming user make sure to update it early to propagate for the rest of the code by arabcoders&lt;/li&gt;
+&lt;li&gt;6d8dfd4b in backend:create, cast user names to string, sometimes we get integers by arabcoders&lt;/li&gt;
 &lt;li&gt;eece04ce minor fixes by arabcoders&lt;/li&gt;
 &lt;li&gt;23f96575 Fixed FAQ formatting by arabcoders&lt;/li&gt;
 &lt;li&gt;45017b24 update mapper.yaml spec by arabcoders&lt;/li&gt;
 &lt;li&gt;ad2f7b38 Mostly WebUI changes to make easier to filter stuff by arabcoders&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;semi self-plug for YTPTube project. by @arabcoders in https://github.com/arabcoders/watchstate/pull/623&lt;/li&gt;
-&lt;li&gt;Support jellyfin &amp;amp; Emby boxSets by @arabcoders in https://github.com/arabcoders/watchstate/pull/626&lt;/li&gt;
-&lt;li&gt;Minor WebUI design update to include random background by @arabcoders in https://github.com/arabcoders/watchstate/pull/630&lt;/li&gt;
-&lt;li&gt;QoL improvements by @arabcoders in https://github.com/arabcoders/watchstate/pull/633&lt;/li&gt;
-&lt;li&gt;Update mapper.yaml spec by @arabcoders in https://github.com/arabcoders/watchstate/pull/635&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250307-200d6a48...master-20250405-ef0c91a8&lt;/p&gt;</content>
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250405-ef0c91a8" rel="alternate"/>
