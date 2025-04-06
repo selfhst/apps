@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-04-06T15:32:59.806005-04:00</updated>
+  <updated>2025-04-06T16:32:55.594253-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,7 +179,7 @@ end
       <name>Freika/dawarich</name>
     </author>
     <content>&lt;p&gt;⚠️ This release includes a breaking change. ⚠️&lt;/p&gt;
-&lt;p&gt;Make sure to add &lt;code&gt;dawarich_storage&lt;/code&gt; volume to your &lt;code&gt;docker-compose.yml&lt;/code&gt; file. Example:&lt;/p&gt;
+&lt;p&gt;Make sure to add &lt;code&gt;dawarich_storage&lt;/code&gt; volume and &lt;code&gt;SELF_HOSTED: "true"&lt;/code&gt; to your &lt;code&gt;docker-compose.yml&lt;/code&gt; file. Example:&lt;/p&gt;
 &lt;p&gt;```diff
 ...&lt;/p&gt;
 &lt;p&gt;dawarich_app:
@@ -188,7 +188,10 @@ end
     volumes:
       - dawarich_public:/var/app/public
       - dawarich_watched:/var/app/tmp/imports/watched
-+     - dawarich_storage:/var/app/storage&lt;/p&gt;
++     - dawarich_storage:/var/app/storage
+...
+    environment:
++     SELF_HOSTED: "true"&lt;/p&gt;
 &lt;p&gt;...&lt;/p&gt;
 &lt;p&gt;dawarich_sidekiq:
     image: freikin/dawarich:latest
@@ -196,7 +199,10 @@ end
     volumes:
       - dawarich_public:/var/app/public
       - dawarich_watched:/var/app/tmp/imports/watched
-+     - dawarich_storage:/var/app/storage&lt;/p&gt;
++     - dawarich_storage:/var/app/storage
+...
+    environment:
++     SELF_HOSTED: "true"&lt;/p&gt;
 &lt;p&gt;volumes:
   dawarich_db_data:
   dawarich_shared:
