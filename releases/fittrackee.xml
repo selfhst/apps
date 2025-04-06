@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FitTrackee Releases</title>
-  <updated>2025-04-06T12:32:18.247780-04:00</updated>
+  <updated>2025-04-06T13:32:13.132115-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -228,12 +228,9 @@ This release contains database migration (see upgrade instructions in &lt;a href
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/issues/751"&gt;#751&lt;/a&gt; - Time in Analysis is not correct in overlay modal&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/issues/753"&gt;#753&lt;/a&gt; - the checkbox "start elevation axis at zero" has no effect&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/pull/757"&gt;PR#757&lt;/a&gt; - Fix tasks queue running on Python 3.13&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-&lt;strong&gt;Note:&lt;/strong&gt; It is now possible to use Dramatiq CLI directly to run task queue workers, see &lt;a href="https://docs.fittrackee.org/en/installation.html"&gt;documentation&lt;/a&gt;.
-A new environment (&lt;code&gt;DRAMATIQ_LOG&lt;/code&gt;) variable has also been added.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/pull/757"&gt;PR#757&lt;/a&gt; - Fix tasks queue running on Python 3.13
+  &lt;strong&gt;Note:&lt;/strong&gt; It is now possible to use Dramatiq CLI directly to run task queue workers, see &lt;a href="https://docs.fittrackee.org/en/installation.html"&gt;documentation&lt;/a&gt;.
+  A new environment (&lt;code&gt;DRAMATIQ_LOG&lt;/code&gt;) variable has also been added.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/pull/760"&gt;PR#760&lt;/a&gt; - Fix docker files&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/SamR1/FitTrackee/commit/1f8ca78b82e3b0d91c176a3628bcffeae99e306b"&gt;1f8ca78&lt;/a&gt; - delete all temporary files when exporting user data export&lt;/li&gt;
 &lt;/ul&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2025-04-06T12:34:09.982073-04:00</updated>
+  <updated>2025-04-06T13:34:07.119280-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,7 +138,7 @@ This update also includes a few minor bug fixes.&lt;/p&gt;
   <entry>
     <id>https://github.com/DonutWare/Fladder/releases/tag/v0.6.2</id>
     <title>New release for Fladder: v0.6.2</title>
-    <updated>2025-04-06T12:11:01-04:00</updated>
+    <updated>2025-04-06T13:26:00-04:00</updated>
     <author>
       <name>DonutWare/Fladder</name>
     </author>
@@ -156,6 +156,7 @@ Other small bugfixes&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bugfixes 🐞&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;fix(Desktop/Web): Mouse not hiding and controls not appearing (web) by @PartyDonut in https://github.com/DonutWare/Fladder/pull/307&lt;/li&gt;
 &lt;li&gt;fix: Windows media controls by @PartyDonut in https://github.com/DonutWare/Fladder/pull/297&lt;/li&gt;
 &lt;li&gt;fix: Show any enabled libraries in home screen by @PartyDonut in https://github.com/DonutWare/Fladder/pull/300&lt;/li&gt;
 &lt;/ul&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pangolin Releases</title>
-  <updated>2025-04-06T12:34:41.432799-04:00</updated>
+  <updated>2025-04-06T13:34:38.872963-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,5 +105,41 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;h2&gt;New Create Site Wizard&lt;/h2&gt;
 &lt;p&gt;&lt;img width="1571" alt="SCR-20250321-tcvl" src="https://github.com/user-attachments/assets/9d812b8f-966e-4803-a79f-26f8aa2ff79e" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/fosrl/pangolin/releases/tag/1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fosrl/pangolin/releases/tag/1.2.0</id>
+    <title>New release for Pangolin: 1.2.0</title>
+    <updated>2025-04-06T13:32:21-04:00</updated>
+    <author>
+      <name>fosrl/pangolin</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pass share link access token in headers for authenticated access&lt;/li&gt;
+&lt;li&gt;Shorten and prettify share links&lt;ul&gt;
+&lt;li&gt;Old share links will still work (&lt;code&gt;?token=&lt;/code&gt; format will eventually is deprecated and will eventually be removed in favor of new link format)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add resource visibility toggle on resources table&lt;/li&gt;
+&lt;li&gt;Use global table search for all tables to search across multiple columns&lt;/li&gt;
+&lt;li&gt;Fix updating admin user email creating new user in system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/fosrl/pangolin/compare/1.1.0...1.2.0&lt;/p&gt;
+&lt;h2&gt;How to Update&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+Always back up your config app-data before updating. This will allow you to easily roll back if the update breaks your configuration. You will not be able to easily downgrade otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://docs.fossorial.io/Getting%20Started/how-to-update"&gt;View documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5.2k Stars in 90 Days&lt;/h2&gt;
+&lt;p&gt;April 5th (yesterday) marked 90 days from the initial release and announcement of the Pangolin project. In that time the repository has earned more than 5.2k stars! Thank you to everyone for the support and sharing the project!&lt;/p&gt;
+&lt;h2&gt;Access Token in Headers&lt;/h2&gt;
+&lt;p&gt;When you generate a share link, you have the option to pass the underlying access token in headers. If a valid access token is passed in each request from the client, fully authenticated requests are made through the proxy. Similarly, you can pass the access token in a query param on each request.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+This feature requires a Badger (Traefik middleware) plugin version of at least &lt;code&gt;v1.1.0&lt;/code&gt;. Our auto-migration script will attempt to update this for you.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img width="630" alt="SCR-20250406-kfzt" src="https://github.com/user-attachments/assets/06fbd82c-9dd0-4604-a5b2-71d50e86ea6f" /&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/fosrl/pangolin/releases/tag/1.2.0" rel="alternate"/>
   </entry>
 </feed>
