@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-04-07T05:32:46.234083-04:00</updated>
+  <updated>2025-04-07T06:32:42.558974-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -237,6 +237,7 @@ Big imports might take a while to migrate, so be patient.&lt;/p&gt;
 &lt;li&gt;Deleting an import now correctly recalculates stats.&lt;/li&gt;
 &lt;li&gt;Datetime across the app is now being displayed in human readable format, i.e 26 Dec 2024, 13:49. Hover over the datetime to see the ISO 8601 timestamp.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;💙 This release is supported by Steven B., James Manolios, chenrik, aldumil, derpderpington, Chippie, dint, jhalpern, Lex Fradski, Schlufo, cyberswan.at, craftyklaus, JMyrng, Andre, hogenf, naraxius, Lemur, Embrace, martin4861 and Jonah B. on &lt;a href="https://www.patreon.com/freika"&gt;Patreon&lt;/a&gt; 💙&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Feature/bucket import export by @Freika in https://github.com/Freika/dawarich/pull/980&lt;/li&gt;
