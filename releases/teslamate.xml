@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TeslaMate Releases</title>
-  <updated>2025-04-07T08:33:55.993297-04:00</updated>
+  <updated>2025-04-07T09:34:21.781265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -47,7 +47,7 @@
       <name>teslamate-org/teslamate</name>
     </author>
     <content>&lt;p&gt;As always, lots of improvements. The focus has been on performance improvements, especially on slow HW like Raspberry Pi 3B+. We achieved 240x speed improvements in several dashboards :rocket: And we welcomed @swiffer to the TeslaMate-Org team :wave: And much, much more. Enjoy it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Regarding PostgreSQL 17:&lt;/strong&gt; TeslaMate uses PostgreSQL as database, this is an external dependency and needs to be updated by yourself. Although TeslaMate currently runs fine with PostgreSQL 12+ we strongly recommend upgrading to the latest supported version. We recommend that you do this as follows:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regarding PostgreSQL 17:&lt;/strong&gt; TeslaMate uses PostgreSQL as database, this is an external dependency and needs to be updated by yourself. Although TeslaMate currently runs fine with PostgreSQL 14+ we strongly recommend upgrading to the latest supported version. We recommend that you do this as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://docs.teslamate.org/docs/maintenance/backup_restore#backup"&gt;Backup your data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.teslamate.org/docs/upgrading"&gt;Upgrade TeslaMate to this version&lt;/a&gt;&lt;/li&gt;
