@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-04-07T15:30:25.918612-04:00</updated>
+  <updated>2025-04-07T16:30:28.122300-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,8 +135,33 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Enhancements   * Add a config option to block "expensive" pages for anonymous users (#34024) (#34071)   * Also check default ssh-cert location for host (#34099) (#34100) (#34116) * BUGFIXES   * Fix discord webhook 400 status code when description limit is exceeded (#34084) (#34124)   * Get changed files based on merge base when checking &lt;code&gt;pull_request&lt;/code&gt; actions trigger (#34106) (#34120)   * Fix invalid version in RPM package path (#34112) (#34115)   * Return default avatar url when user id is zero rather than updating database (#34094) (#34095)   * Add additional ReplaceAll in pathsep to cater for different pathsep (#34061) (#34070)   * Try to fix check-attr bug (#34029) (#34033)   * Git client will follow 301 but 307 (#34005) (#34010)   * Fix block expensive for 1.23 (#34127)   * Fix markdown frontmatter rendering (#34102) (#34107)   * Add new CLI flags to set name and scopes when creating a user with access token (#34080) (#34103)   * Do not show 500 error when default branch doesn't exist (#34096) (#34097)   * Hide activity contributors, recent commits and code frequrency left tabs if there is no code permission (#34053) (#34065)   * Simplify emoji rendering (#34048) (#34049)   * Adjust the layout of the toolbar on the Issues/Projects page (#33667) (#34047)   * Pull request updates will also trigger code owners review requests (#33744) (#34045)   * Fix org repo creation being limited by user limits (#34030) (#34044)   * Fix git client accessing renamed repo (#34034) (#34043)   * Fix the issue with error message logging for the &lt;code&gt;check-attr&lt;/code&gt; command on Windows OS. (#34035) (#34036)   * Polyfill WeakRef (#34025) (#34028)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;SECURITY&lt;/li&gt;
+&lt;li&gt;Compile with Go 1.23.8&lt;/li&gt;
+&lt;li&gt;Enhancements&lt;/li&gt;
+&lt;li&gt;Add a config option to block "expensive" pages for anonymous users (#34024) (#34071)&lt;/li&gt;
+&lt;li&gt;Also check default ssh-cert location for host (#34099) (#34100) (#34116)&lt;/li&gt;
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;li&gt;Fix discord webhook 400 status code when description limit is exceeded (#34084) (#34124)&lt;/li&gt;
+&lt;li&gt;Get changed files based on merge base when checking &lt;code&gt;pull_request&lt;/code&gt; actions trigger (#34106) (#34120)&lt;/li&gt;
+&lt;li&gt;Fix invalid version in RPM package path (#34112) (#34115)&lt;/li&gt;
+&lt;li&gt;Return default avatar url when user id is zero rather than updating database (#34094) (#34095)&lt;/li&gt;
+&lt;li&gt;Add additional ReplaceAll in pathsep to cater for different pathsep (#34061) (#34070)&lt;/li&gt;
+&lt;li&gt;Try to fix check-attr bug (#34029) (#34033)&lt;/li&gt;
+&lt;li&gt;Git client will follow 301 but 307 (#34005) (#34010)&lt;/li&gt;
+&lt;li&gt;Fix block expensive for 1.23 (#34127)&lt;/li&gt;
+&lt;li&gt;Fix markdown frontmatter rendering (#34102) (#34107)&lt;/li&gt;
+&lt;li&gt;Add new CLI flags to set name and scopes when creating a user with access token (#34080) (#34103)&lt;/li&gt;
+&lt;li&gt;Do not show 500 error when default branch doesn't exist (#34096) (#34097)&lt;/li&gt;
+&lt;li&gt;Hide activity contributors, recent commits and code frequrency left tabs if there is no code permission (#34053) (#34065)&lt;/li&gt;
+&lt;li&gt;Simplify emoji rendering (#34048) (#34049)&lt;/li&gt;
+&lt;li&gt;Adjust the layout of the toolbar on the Issues/Projects page (#33667) (#34047)&lt;/li&gt;
+&lt;li&gt;Pull request updates will also trigger code owners review requests (#33744) (#34045)&lt;/li&gt;
+&lt;li&gt;Fix org repo creation being limited by user limits (#34030) (#34044)&lt;/li&gt;
+&lt;li&gt;Fix git client accessing renamed repo (#34034) (#34043)&lt;/li&gt;
+&lt;li&gt;Fix the issue with error message logging for the &lt;code&gt;check-attr&lt;/code&gt; command on Windows OS. (#34035) (#34036)&lt;/li&gt;
+&lt;li&gt;Polyfill WeakRef (#34025) (#34028)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.23.7" rel="alternate"/>
   </entry>
 </feed>
