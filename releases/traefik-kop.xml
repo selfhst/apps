@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>traefik-kop Releases</title>
-  <updated>2025-04-07T12:34:22.385009-04:00</updated>
+  <updated>2025-04-07T13:34:14.400887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,7 +75,11 @@
     <author>
       <name>jittering/traefik-kop</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;</content>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix port detection when publishing to ephemeral ports (&lt;a href="https://github.com/jittering/traefik-kop/pull/48"&gt;#48, thanks @Flamefork&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/jittering/traefik-kop/releases/tag/v0.16" rel="alternate"/>
   </entry>
 </feed>

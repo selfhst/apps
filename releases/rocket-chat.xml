@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-04-07T12:31:10.592364-04:00</updated>
+  <updated>2025-04-07T13:31:08.432407-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -420,7 +420,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;The latest Rocket.Chat update introduces several enhancements focused on accessibility, localization, and integration. Notable changes include replacing &lt;code&gt;rc-scrollbars&lt;/code&gt; with &lt;code&gt;overlayscrollbars&lt;/code&gt; to improve right-to-left (RTL) language support and visual accessibility. Default avatars now support Unicode characters, and Norwegian language variant names have been standardized across platforms to streamline translation. New features include Outlook Calendar Presence Sync, enabling automatic status updates during meetings; OpenAPI support for enhanced API compatibility; a new &lt;code&gt;/v1/audit.settings&lt;/code&gt; endpoint for audit tracking; and improved app extensibility with new hooks in the Apps-Engine. Additionally, the department setup now includes a Unit field to specify business units.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;This release addresses numerous bugs to improve stability and user experience. Key fixes include reliable video call reconnections, corrected status display for closed chats, and restoration of consistent behavior in role synchronization and room events. Jitsi recording now works across platforms, bad word filters support double-byte characters, and UI elements such as the Add Topic button and login detection behavior have been corrected. Performance and memory usage have been optimized, particularly in the web client and SDK, and several Livechat, OAuth, WebDAV, and two-factor authentication issues have been resolved to ensure smoother operations and accurate role and message handling.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Details&lt;/h2&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.13.1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;MongoDB: &lt;code&gt;5.0, 6.0, 7.0&lt;/code&gt;&lt;/li&gt;
