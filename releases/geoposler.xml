@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Geoposler Releases</title>
-  <updated>2025-04-07T06:34:30.403816-04:00</updated>
+  <updated>2025-04-07T07:34:41.568725-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,5 +52,19 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/garanda21/geoposler/compare/v0.1.1...v0.1.2&lt;/p&gt;</content>
     <link href="https://github.com/garanda21/geoposler/releases/tag/v0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/garanda21/geoposler/releases/tag/v0.1.3</id>
+    <title>New release for Geoposler: v0.1.3</title>
+    <updated>2025-04-07T07:20:23-04:00</updated>
+    <author>
+      <name>garanda21/geoposler</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New version by @garanda21 in https://github.com/garanda21/geoposler/pull/9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/garanda21/geoposler/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
+    <link href="https://github.com/garanda21/geoposler/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>

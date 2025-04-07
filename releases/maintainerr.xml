@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-04-07T06:32:29.084857-04:00</updated>
+  <updated>2025-04-07T07:32:35.579489-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,6 +81,7 @@
       <name>jorenn92/Maintainerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/jorenn92/Maintainerr/compare/v2.12.0...v2.13.0"&gt;2.13.0&lt;/a&gt; (2025-04-01)&lt;/h1&gt;
+&lt;p&gt;This release removes the &lt;code&gt;Contains (Partial list match)&lt;/code&gt; action for values that do not return a &lt;code&gt;[list]&lt;/code&gt;, as it did not work correctly. &lt;code&gt;Contains (Exact list match)&lt;/code&gt; provides the same logic in this instance so you should update any rules to use this instead.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow checking show status when mediaType=season (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1649"&gt;#1649&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/832c440ba1a1e37a2a0b4cf5f40234250cdc624b"&gt;832c440&lt;/a&gt;)&lt;/li&gt;
