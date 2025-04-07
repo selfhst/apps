@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DollarDollar Bill Y'all Releases</title>
-  <updated>2025-04-07T17:35:03.422608-04:00</updated>
+  <updated>2025-04-07T18:35:01.622310-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -302,14 +302,14 @@ If the standard migration commands don't work, follow these steps:&lt;/li&gt;
     <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.1.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/harung1993/dollardollar/releases/tag/v4.1.5</id>
-    <title>New release for DollarDollar Bill Y'all: v4.1.5</title>
+    <id>https://github.com/harung1993/dollardollar/releases/tag/v4.2</id>
+    <title>New release for DollarDollar Bill Y'all: v4.2</title>
     <updated>2025-04-07T17:32:07-04:00</updated>
     <author>
       <name>harung1993/dollardollar</name>
     </author>
-    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release Notes v4.1.5&lt;/h1&gt;
-&lt;h2&gt;What's New in v4.1.5&lt;/h2&gt;
+    <content>&lt;h1&gt;Dollar Dollar Bill Y'all - Release Notes v4.2&lt;/h1&gt;
+&lt;h2&gt;What's New in v4.2&lt;/h2&gt;
 &lt;h2&gt;Demo Service&lt;/h2&gt;
 &lt;p&gt;Try out the latest features of Dollar Dollar Bill Y'all at our live demo: https://ddby.finforward.xyz/&lt;/p&gt;
 &lt;ul&gt;
@@ -360,6 +360,6 @@ If the standard migration commands don't work, follow these steps:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Feedback&lt;/h2&gt;
 &lt;p&gt;We welcome your feedback and suggestions! Please report any issues on our issue tracker.&lt;/p&gt;</content>
-    <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.1.5" rel="alternate"/>
+    <link href="https://github.com/harung1993/dollardollar/releases/tag/v4.2" rel="alternate"/>
   </entry>
 </feed>
