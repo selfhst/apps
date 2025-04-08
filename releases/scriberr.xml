@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Scriberr Releases</title>
-  <updated>2025-04-08T10:34:46.774736-04:00</updated>
+  <updated>2025-04-08T11:34:38.344280-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,5 +72,96 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rishikanthc/Scriberr/compare/0.2.1...0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/rishikanthc/Scriberr/releases/tag/0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rishikanthc/Scriberr/releases/tag/v0.4.0</id>
+    <title>New release for Scriberr: Release v0.4.0</title>
+    <updated>2025-04-08T11:30:34-04:00</updated>
+    <author>
+      <name>rishikanthc/Scriberr</name>
+    </author>
+    <content>&lt;h2&gt;Scriberr 0.4.0 Release&lt;/h2&gt;
+&lt;p&gt;This PR merges the release/0.4.0 branch into main, bringing several major enhancements and stability improvements to the core application.&lt;/p&gt;
+&lt;h3&gt;🎙️ Speaker Diarization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added full speaker diarization support using PyAnnote's speaker-diarization-3.1 model&lt;/li&gt;
+&lt;li&gt;Enhanced word-level speaker labeling with improved accuracy&lt;/li&gt;
+&lt;li&gt;Implemented HuggingFace token integration for model access&lt;/li&gt;
+&lt;li&gt;Built-in fallback mechanisms when diarization encounters issues&lt;/li&gt;
+&lt;li&gt;User-friendly speaker label editing in the UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔐 Authentication &amp;amp; Environment Variables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved authentication system with token refresh and proper expiry handling&lt;/li&gt;
+&lt;li&gt;Better runtime environment variable management&lt;/li&gt;
+&lt;li&gt;Streamlined setup process with API key validation&lt;/li&gt;
+&lt;li&gt;Enhanced error handling and user feedback during configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🖥️ UI Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated AudioPlayer component with improved controls and visualization&lt;/li&gt;
+&lt;li&gt;Better markdown rendering for summaries&lt;/li&gt;
+&lt;li&gt;Support for "thinking" sections in LLM responses&lt;/li&gt;
+&lt;li&gt;Enhanced mobile responsiveness across all components&lt;/li&gt;
+&lt;li&gt;Improved file management interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐳 Docker &amp;amp; Deployment Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added optimized CUDA 12.8 support for GPU acceleration&lt;/li&gt;
+&lt;li&gt;Renamed and reorganized Docker workflow files for clarity&lt;/li&gt;
+&lt;li&gt;Improved hardware detection and dependency installation&lt;/li&gt;
+&lt;li&gt;Enhanced GitHub workflow automation for releases and versioning&lt;/li&gt;
+&lt;li&gt;Better ARM64 architecture support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💾 Other Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhanced batch size configuration for Whisper model&lt;/li&gt;
+&lt;li&gt;Improved GPU memory management for more efficient transcription&lt;/li&gt;
+&lt;li&gt;Added fallback for GPUs without efficient float16 support&lt;/li&gt;
+&lt;li&gt;Enhanced title generation with improved system prompts&lt;/li&gt;
+&lt;li&gt;Better error logging throughout the application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Testing&lt;/h2&gt;
+&lt;p&gt;This release has undergone extensive testing in the following areas:
+- Speaker diarization with various audio files and speaker counts
+- Authentication flows and environment configuration
+- UI rendering on different devices and screen sizes
+- Docker deployment on both CPU and GPU environments
+- Performance optimization for large audio files&lt;/p&gt;
+&lt;p&gt;🤖 Assisted By [Claude Code](https://claude.ai/code&lt;/p&gt;
+&lt;h2&gt;Shortened Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: enhance Docker setup and transcription features by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/47&lt;/li&gt;
+&lt;li&gt;Optimize Docker setup and improve transcription handling by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/49&lt;/li&gt;
+&lt;li&gt;GPU Support, Docker Updates, Tailwindcss revert, Tailwindcss fix after revert, Readme update by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/52&lt;/li&gt;
+&lt;li&gt;Update GitHub Actions workflow for Docker image builds by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/59&lt;/li&gt;
+&lt;li&gt;Update GPU configuration, Docker setup, Fixed Arm64 build error by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/60&lt;/li&gt;
+&lt;li&gt;Improvement/update GitHub workflows by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/64&lt;/li&gt;
+&lt;li&gt;feat: Update Dockerfiles and move dependency installations to deployment by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/63&lt;/li&gt;
+&lt;li&gt;Docker update workflow updates by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/65&lt;/li&gt;
+&lt;li&gt;Rename Docker workflow files to reflect CUDA context by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/67&lt;/li&gt;
+&lt;li&gt;Feature: Handle thinking field support and fix markdown rendering by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/72&lt;/li&gt;
+&lt;li&gt;Revert "Feature: Handle thinking field support and fix markdown rendering" by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/73&lt;/li&gt;
+&lt;li&gt;fix: improve authentication with token refresh and expiry handling by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/70&lt;/li&gt;
+&lt;li&gt;feat: enhance audio quality for playback by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/71&lt;/li&gt;
+&lt;li&gt;Fix runtime environment handling and speaker diarization by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/75&lt;/li&gt;
+&lt;li&gt;feat: Add batch size configuration for Whisper model and improve diarization logging by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/76&lt;/li&gt;
+&lt;li&gt;fix: Update batch size handling for transcription and improve documentation on GPU memory issues by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/77&lt;/li&gt;
+&lt;li&gt;Fix/diarization process by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/79&lt;/li&gt;
+&lt;li&gt;Merging of nightly to 0.4.0 by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/80&lt;/li&gt;
+&lt;li&gt;Fix/diarization process by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/81&lt;/li&gt;
+&lt;li&gt;fix: Diarization fix by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/82&lt;/li&gt;
+&lt;li&gt;feat: Update GitHub workflows for automated releases and versioning by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/88&lt;/li&gt;
+&lt;li&gt;fix: Add fallback from float16 to float32 for GPUs without efficient float16 support by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/89&lt;/li&gt;
+&lt;li&gt;fix: Improve CUDA memory management for diarization by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/90&lt;/li&gt;
+&lt;li&gt;fix: UI enhancements by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/91&lt;/li&gt;
+&lt;li&gt;Update release/0.4.0 with latest nightly changes by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/92&lt;/li&gt;
+&lt;li&gt;Release version 0.4.0 to main by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/93&lt;/li&gt;
+&lt;li&gt;Merge nightly branch into release/0.4.0 by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/94&lt;/li&gt;
+&lt;li&gt;Release version 0.4.0 to main  by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/95&lt;/li&gt;
+&lt;li&gt;Update README.md by @SpirusNox in https://github.com/rishikanthc/Scriberr/pull/97&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rishikanthc/Scriberr/compare/0.3.0...v0.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/rishikanthc/Scriberr/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>
