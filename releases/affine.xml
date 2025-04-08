@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2025-04-07T22:31:55.230633-04:00</updated>
+  <updated>2025-04-07T23:31:54.664329-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,7 +133,7 @@ node --import ./scripts/register.js ./dist/data/index.js import-config ./path/to
 &lt;p&gt;Importing by command line requires a reboot.
 We will provide an import/export GUI on admin panel in 0.22, which will not require reboot.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The old way to config AFFiNE instances by affine.js now is deprecated and will not take effect anymore. Some of the Environment Variables may still work, check the &lt;code&gt;@environment&lt;/code&gt; annotation in schema.&lt;/p&gt;
+&lt;p&gt;The old way to config AFFiNE instances by &lt;code&gt;affine.js&lt;/code&gt; now is deprecated and will not take effect anymore. Some of the Environment Variables may still work, check the &lt;code&gt;@environment&lt;/code&gt; annotation in schema.&lt;/p&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;p&gt;● Meta info for blocks
 ● Notification
