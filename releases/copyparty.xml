@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-04-09T12:35:08.233167-04:00</updated>
+  <updated>2025-04-09T13:35:35.929489-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -281,7 +281,8 @@
 &lt;/li&gt;
 &lt;li&gt;block &lt;code&gt;GoogleOther&lt;/code&gt; (another recalcitrant bot) from zip-downloads c2034f7b&lt;/li&gt;
 &lt;li&gt;rephrase &lt;code&gt;-j0&lt;/code&gt; warning on windows to also mention that Microsoft Defender will freak out c0becc64&lt;/li&gt;
-&lt;li&gt;update &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/CONTRIBUTING.md"&gt;contributing.md&lt;/a&gt; with a section regarding LLM/AI-written code&lt;/li&gt;
+&lt;li&gt;update &lt;a href="https://github.com/9001/copyparty/blob/hovudstraum/CONTRIBUTING.md"&gt;contributing.md&lt;/a&gt; with a section regarding LLM/AI-written code cec3bee0&lt;/li&gt;
+&lt;li&gt;the &lt;a href="https://ocv.me/copyparty/helptext.html"&gt;helptext&lt;/a&gt; will also be uploaded to each github release from now on, &lt;a href="https://github.com/9001/copyparty/releases/latest/download/helptext.html"&gt;permalink&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;add review from ixbt forums b383c08c&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
