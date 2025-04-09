@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-04-09T18:31:19.024775-04:00</updated>
+  <updated>2025-04-09T19:31:18.930563-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -372,12 +372,7 @@
 &lt;li&gt;Fix: Run migration lock as the correct user @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9604"&gt;#9604&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: Adds a warning to the user if their secret file includes a trailing newline @stumpylog (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9601"&gt;#9601&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: correct download filename in 2.15.0 @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9599"&gt;#9599&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Documentation: update crowdin links @nathanaelhoun (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9595"&gt;#9595&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: dont exclude matching check for scheduled workflows @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9594"&gt;#9594&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Documentation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Documentation: update crowdin links @nathanaelhoun (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9595"&gt;#9595&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Maintenance&lt;/h3&gt;
 &lt;ul&gt;
@@ -390,8 +385,10 @@
 &lt;/ul&gt;
 &lt;h3&gt;All App Changes&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;2 changes&lt;/summary&gt;
+&lt;summary&gt;4 changes&lt;/summary&gt;
 
+- Fix: Run migration lock as the correct user @stumpylog ([#9604](https://github.com/paperless-ngx/paperless-ngx/pull/9604))
+- Fix: Adds a warning to the user if their secret file includes a trailing newline @stumpylog ([#9601](https://github.com/paperless-ngx/paperless-ngx/pull/9601))
 - Fix: correct download filename in 2.15.0 @shamoon ([#9599](https://github.com/paperless-ngx/paperless-ngx/pull/9599))
 - Fix: dont exclude matching check for scheduled workflows @shamoon ([#9594](https://github.com/paperless-ngx/paperless-ngx/pull/9594))
 &lt;/details&gt;</content>
