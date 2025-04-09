@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-04-09T05:34:36.356830-04:00</updated>
+  <updated>2025-04-09T06:34:26.341325-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,15 @@
     </author>
     <content/>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.3.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.3.3</id>
+    <title>New release for DbGate: v6.3.3</title>
+    <updated>2025-04-09T06:32:24-04:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content/>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.3.3" rel="alternate"/>
   </entry>
 </feed>

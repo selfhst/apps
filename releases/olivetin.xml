@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OliveTin Releases</title>
-  <updated>2025-04-09T05:31:22.050922-04:00</updated>
+  <updated>2025-04-09T06:31:23.494190-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,9 +185,12 @@
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;ba29325c15cbf18941ee05113cf09b3d3140f448 feature: #543 Rate limits are now per action-entity instead of per action&lt;/li&gt;
-&lt;li&gt;2fcc0a63a04568ee60134b7d9b933608040b3fac feature: #543 Rate limits are now per action-entity instead of per action (#557)&lt;/li&gt;
-&lt;li&gt;db28e8915bc8bf3e917f49832f434d19e5b390a9 feature: Include kubernetes-client (#559)&lt;/li&gt;
+&lt;li&gt;2fcc0a63a04568ee60134b7d9b933608040b3fac feat: #543 Rate limits are now per action-entity instead of per action (#557) thanks @okglove&lt;/li&gt;
+&lt;li&gt;db28e8915bc8bf3e917f49832f434d19e5b390a9 feat: Include kubernetes-client (#559)&lt;/li&gt;
+&lt;li&gt;182548e0dcb51eba96803c07df024d06dccb00d2 feat: add syntax for interpolating environment variables into config file (#548)&lt;/li&gt;
+&lt;li&gt;8865331da2a1f1472cdf03c3c4d26d375e34be65 feat: enable JWT auth from a header (#547)&lt;/li&gt;
+&lt;li&gt;ec1f974f6709fc0cda91d87202e34983c12381dc feat: links to argument forms (#551)&lt;/li&gt;
+&lt;li&gt;b742bd89c4d82b4cd8a4ecd889492f86eac3a3a4 feat: support multiple user groups (#555) thanks @iamnoah &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Others&lt;/h3&gt;
 &lt;ul&gt;
@@ -205,12 +208,8 @@
 &lt;li&gt;fa44e958d807edaefe72b86b51fff3e54097b5dc chore: Big dependency update (#553)&lt;/li&gt;
 &lt;li&gt;88f639d29f12ef0bd0c8b383c3fd0cf24e4f6b2a chore: Cleanup executor shell passing (#556)&lt;/li&gt;
 &lt;li&gt;2981fc4c1f0d437d859e6782f6d9eb0113d65232 doc: Point pull request template to contributors guide (#549)&lt;/li&gt;
-&lt;li&gt;182548e0dcb51eba96803c07df024d06dccb00d2 feat: add syntax for interpolating environment variables into config file (#548)&lt;/li&gt;
-&lt;li&gt;8865331da2a1f1472cdf03c3c4d26d375e34be65 feat: enable JWT auth from a header (#547)&lt;/li&gt;
-&lt;li&gt;ec1f974f6709fc0cda91d87202e34983c12381dc feat: links to argument forms (#551)&lt;/li&gt;
-&lt;li&gt;b742bd89c4d82b4cd8a4ecd889492f86eac3a3a4 feat: support multiple user groups (#555)&lt;/li&gt;
 &lt;li&gt;4ccfd0f99392e60b0dfddf314a1450edb7f93b0a fix: 404 in docs for "big error messages" (#558)&lt;/li&gt;
-&lt;li&gt;c3097e40db3b9411e9f79da1e1756c613cdc0f0e fix: reloading config after k8s configmap replacement (#552)&lt;/li&gt;
+&lt;li&gt;c3097e40db3b9411e9f79da1e1756c613cdc0f0e fix: reloading config after k8s configmap replacement (#552) thanks @davidqnz &lt;/li&gt;
 &lt;li&gt;1164e5fae213855631e8ab3c09523c26e5424305 working directory for buf&lt;/li&gt;
 &lt;li&gt;fd3c6087f0ed1c9f931280ee0a5f351bea23dafe working directory for buf&lt;/li&gt;
 &lt;/ul&gt;
