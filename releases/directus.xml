@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-04-10T11:35:10.361778-04:00</updated>
+  <updated>2025-04-10T12:35:06.286011-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -212,6 +212,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;@directus/api&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Fixed filter hook altered payload not passed to action hook on &lt;code&gt;create&lt;/code&gt; (&lt;a href="https://github.com/directus/directus/pull/24812"&gt;#24812&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
+&lt;li&gt;GraphQL primary key field types have changed from &lt;code&gt;String&lt;/code&gt; to &lt;code&gt;ID&lt;/code&gt; (&lt;a href="https://github.com/directus/directus/pull/24757"&gt;#24757&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;✨ New Features &amp;amp; Improvements&lt;/h3&gt;
 &lt;ul&gt;
