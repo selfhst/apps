@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Music Assistant Releases</title>
-  <updated>2025-04-10T07:32:37.981720-04:00</updated>
+  <updated>2025-04-10T08:32:41.596631-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,5 +119,87 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.4.4...v2.5.0&lt;/p&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.5.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.5.1</id>
+    <title>New release for Music Assistant: 2.5.1</title>
+    <updated>2025-04-10T07:41:11-04:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;h2&gt;What’s Changed&lt;/h2&gt;
+&lt;h3&gt;Server 2.5.1&lt;/h3&gt;
+&lt;h2&gt;🐛 Bugfixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;2121 - Fix cast players not available at startup (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2120 - Various minor bugfixes and enhancements (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2117 - fix: snapcast delete client (@SantiagoSotoC)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2116 - Various small bugfixes and enhancements (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2106 - Audible: inverse of the supported content type rule (@ztripez)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2107 - Fix usage of album loudness during playback (@cpaulik)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2103 - Snapcast fix external server stream (@SantiagoSotoC)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2105 - Several small fixes for playback and enqueuing (@marcelveldt)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2102 - Bluesound provider: use ip_address not address (@bmatheny)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🧰 Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;2122 - Round loudness measurements to two digits (@cpaulik)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2118 - Tidal: Various playlist and mix changes (@jozefKruszynski)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2119 - frontend-2.14.9 (@music-assistant-machine)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2100 - Make Zeroconf only bind to the default interface (@altserg)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2115 - Enhancement: gPodder - optional handling of delete action (@fmunkes)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;2108 - Also use previous track to work out if an album is playing (@cpaulik)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Frontend 2.14.9&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h1&gt;959 - Lokalise translations update (@&lt;a href="https://github.com/apps/github-actions"&gt;github-actions[bot]&lt;/a&gt;)&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⬆️ Dependencies&lt;/h2&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;h3&gt;Frontend&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;7 changes&lt;/summary&gt;
+
+- #952 - Chore(deps-dev): Bump eslint-plugin-prettier from 5.2.5 to 5.2.6 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #953 - Chore(deps-dev): Bump vite from 6.2.3 to 6.2.5 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #954 - Chore(deps): Bump vue-i18n from 11.1.2 to 11.1.3 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #955 - Chore(deps-dev): Bump vite-plugin-vuetify from 2.1.0 to 2.1.1 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #956 - Chore(deps-dev): Bump sass from 1.86.0 to 1.86.3 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #957 - Chore(deps-dev): Bump @types/node from 22.13.14 to 22.14.0 (@[dependabot[bot]](https://github.com/apps/dependabot))
+- #950 - Chore(deps-dev): Bump typescript from 5.8.2 to 5.8.3 (@[dependabot[bot]](https://github.com/apps/dependabot))
+&lt;/details&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.5.1" rel="alternate"/>
   </entry>
 </feed>
