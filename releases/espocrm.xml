@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EspoCRM Releases</title>
-  <updated>2025-04-10T03:34:12.462208-04:00</updated>
+  <updated>2025-04-10T04:34:21.589534-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,7 +37,10 @@
     <author>
       <name>espocrm/espocrm</name>
     </author>
-    <content>&lt;p&gt;Issues: https://github.com/espocrm/espocrm/milestone/209?closed=1&lt;/p&gt;</content>
+    <content>&lt;p&gt;Issues: https://github.com/espocrm/espocrm/milestone/209?closed=1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2025-32385 fixed – Unrestricted Embedding in Iframe dashlet.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/espocrm/espocrm/releases/tag/9.0.5" rel="alternate"/>
   </entry>
   <entry>
