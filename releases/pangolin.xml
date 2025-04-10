@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pangolin Releases</title>
-  <updated>2025-04-10T14:34:34.879927-04:00</updated>
+  <updated>2025-04-10T15:34:36.282798-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,7 +117,7 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;ul&gt;
 &lt;li&gt;Pass share link access token in headers for authenticated access&lt;/li&gt;
 &lt;li&gt;Shorten and prettify share links&lt;ul&gt;
-&lt;li&gt;Old share links will still work (&lt;code&gt;?token=&lt;/code&gt; format will eventually is deprecated and will eventually be removed in favor of new link format)&lt;/li&gt;
+&lt;li&gt;Old share links will still work (&lt;code&gt;?token=&lt;/code&gt; format eventually is deprecated and will eventually be removed in favor of new link format)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Add resource visibility toggle on resources table&lt;/li&gt;
