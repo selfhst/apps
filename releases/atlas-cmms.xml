@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Atlas CMMS Releases</title>
-  <updated>2025-04-09T19:35:34.644828-04:00</updated>
+  <updated>2025-04-09T20:35:29.492651-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,28 @@
 &lt;li&gt;📑 Create and track service requests.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Grashjs/cmms/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Grashjs/cmms/releases/tag/v1.1.0</id>
+    <title>New release for Atlas CMMS: v1.1.0</title>
+    <updated>2025-04-09T20:24:06-04:00</updated>
+    <author>
+      <name>Grashjs/cmms</name>
+    </author>
+    <content>&lt;p&gt;🚀 &lt;strong&gt;Release 1.1.0: Enhanced User Experience and Streamlined Management&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This release focuses on improving the overall user experience and streamlining various management aspects of Atlas CMMS.  We've made significant enhancements to user roles and permissions, asset management, file handling, and internationalization, along with important bug fixes.&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;Key Features and Improvements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simplified User Management:&lt;/strong&gt;  Default super admin user creation and automatic login on signup if invited. It simplifies initial setup and improves user onboarding.  Changes to other user passwords and allowed organization admins provide more control over user access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Asset Management:&lt;/strong&gt; New asset statuses and the ability to change asset status directly from work orders offer greater flexibility in managing assets.  Bug fixes related to asset model patching and longitude/latitude data types ensure data accuracy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved File Handling:&lt;/strong&gt;  Updated &lt;code&gt;FileController&lt;/code&gt; now uses DTOs for better data handling and a more robust API.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expanded Language Support:&lt;/strong&gt; Added German and Polish translations, along with improvements to existing translations, make Atlas CMMS accessible to a wider audience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile App Enhancements:&lt;/strong&gt; Custom server URL configuration and a new location navigation button in work order details improve the mobile experience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker Improvements:&lt;/strong&gt;  Updated Dockerfile increases memory limit and handles legacy peer dependencies, while Docker Compose fixes enhance deployment stability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security and Bug Fixes:&lt;/strong&gt; Addressed issues with stale schedules, work order notifications, missing profile pictures, and various other bug fixes improve system reliability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⬆️ &lt;strong&gt;Upgrade Notice:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are using environment variables, please download the new &lt;code&gt;.env.example&lt;/code&gt; file, rename it to &lt;code&gt;.env&lt;/code&gt;, and configure the updated variables.  Also, ensure you have the latest &lt;code&gt;docker-compose.yml&lt;/code&gt; file.  See the updated README for details.&lt;/p&gt;</content>
+    <link href="https://github.com/Grashjs/cmms/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
