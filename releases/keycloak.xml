@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-04-11T04:30:58.491466-04:00</updated>
+  <updated>2025-04-11T05:31:00.161309-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -221,7 +221,37 @@
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38409"&gt;#38409&lt;/a&gt; Upgrade to Quarkus 3.15.4 &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38764"&gt;#38764&lt;/a&gt; OTel: Unable to disable sampling at runtime; tracing-sampler-ratio validation prevents setting 0.0 &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/36482"&gt;#36482&lt;/a&gt; The root cause of error is suppressed in KC 26 at building &lt;code&gt;dependencies&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37792"&gt;#37792&lt;/a&gt; Save Button Not Enabled When Switching OTP Type from "Time Based" to "Counter Based" &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/37869"&gt;#37869&lt;/a&gt; ConditionalOtpFormAuthenticator fails to set CONFIGURE_TOTP required action for LDAP read-only users &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38041"&gt;#38041&lt;/a&gt; [Keycloak CI] - WebAuthn tests &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38063"&gt;#38063&lt;/a&gt; Issue in clearing offline sessions internally using ClearExpiredUserSessions Scheduled task &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38152"&gt;#38152&lt;/a&gt; Broken guides link on reverseproxy page &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38353"&gt;#38353&lt;/a&gt; Keycloak email message ID contains the local host name or IP address &lt;code&gt;core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38454"&gt;#38454&lt;/a&gt; Keycloak account console is missing the Keycloak logo &lt;code&gt;account/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38576"&gt;#38576&lt;/a&gt; Define a max expiration window for Signed JWT client authentication &lt;code&gt;oidc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38607"&gt;#38607&lt;/a&gt; Recaptcha secret key configuration lost when migrating from 24.0.5 to 26.1.4 &lt;code&gt;authentication&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/38740"&gt;#38740&lt;/a&gt; OTelHttpClientFactory not configured properly when tracing enabled &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.1.5" rel="alternate"/>
   </entry>
 </feed>
