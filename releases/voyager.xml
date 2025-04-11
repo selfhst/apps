@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-04-10T22:33:42.563897-04:00</updated>
+  <updated>2025-04-10T23:33:44.539778-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -187,7 +187,7 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;h2&gt;✨ Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: misc modal bg colors&lt;/li&gt;
 &lt;li&gt;PR: #1956&lt;/li&gt;
