@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-04-11T09:31:01.059902-04:00</updated>
+  <updated>2025-04-11T10:31:00.704461-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -211,7 +211,7 @@
 &lt;li&gt;Added ability to change the type of a notice in the editor by @xYouLL in https://github.com/outline/outline/pull/8533&lt;/li&gt;
 &lt;li&gt;Improvements to keyboard navigation in find and replace popover in https://github.com/outline/outline/pull/8560&lt;/li&gt;
 &lt;li&gt;PWA dock icon is now badged when notifications are available in https://github.com/outline/outline/pull/8580&lt;/li&gt;
-&lt;li&gt;Restored the abilility to search documents in the link toolbar (Removed in v0.82.0) in https://github.com/outline/outline/pull/8581&lt;/li&gt;
+&lt;li&gt;Restored the ability to search documents in the link toolbar (Removed in v0.82.0) in https://github.com/outline/outline/pull/8581&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Search in document&lt;/code&gt; was added to the command menu in https://github.com/outline/outline/pull/8596&lt;/li&gt;
 &lt;li&gt;The default order for comments is now &lt;code&gt;Order in doc&lt;/code&gt; in https://github.com/outline/outline/pull/8597&lt;/li&gt;
 &lt;li&gt;Inline code can now be formatted with bold, italic, and links in https://github.com/outline/outline/pull/8625&lt;/li&gt;
