@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-04-11T15:30:59.922981-04:00</updated>
+  <updated>2025-04-11T16:30:54.916030-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -216,8 +216,8 @@
 &lt;li&gt;The default order for comments is now &lt;code&gt;Order in doc&lt;/code&gt; in https://github.com/outline/outline/pull/8597&lt;/li&gt;
 &lt;li&gt;Inline code can now be formatted with bold, italic, and links in https://github.com/outline/outline/pull/8625&lt;/li&gt;
 &lt;li&gt;TOC is now repositioned for printing in https://github.com/outline/outline/pull/8600&lt;/li&gt;
-&lt;li&gt;It's now possible to make the first item in a list any block item in https://github.com/outline/outline/pull/8632&lt;/li&gt;
-&lt;li&gt;Mentions of the current are now highlighted in https://github.com/outline/outline/pull/8718&lt;/li&gt;
+&lt;li&gt;It's now possible to make the first item in a list any block item (previously it had to be a paragraph) in https://github.com/outline/outline/pull/8632&lt;/li&gt;
+&lt;li&gt;@Mentions of the logged in user are now highlighted in https://github.com/outline/outline/pull/8718&lt;/li&gt;
 &lt;li&gt;Allow middle click by @josiah-roberts in https://github.com/outline/outline/pull/8725&lt;/li&gt;
 &lt;li&gt;Added a &lt;code&gt;No access to doc&lt;/code&gt; screen in https://github.com/outline/outline/pull/8702&lt;/li&gt;
 &lt;li&gt;Added &lt;code&gt;XML&lt;/code&gt; as code formatting option in https://github.com/outline/outline/pull/8767&lt;/li&gt;
