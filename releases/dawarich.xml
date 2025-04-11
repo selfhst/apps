@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-04-11T17:32:39.132985-04:00</updated>
+  <updated>2025-04-11T18:32:39.760115-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -210,6 +210,9 @@ end
   dawarich_watched:
 + dawarich_storage:
 ```&lt;/p&gt;
+&lt;p&gt;On Unraid, if you're experiencing 401 error, in the &lt;a href="https://dawarich.app/docs/FAQ/#how-to-enter-dawarich-console"&gt;console&lt;/a&gt; run the following:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ruby
+User.find_each { _1.update(status: :active, active_until: 100.years.from_now) }&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;In this release we're changing the way import files are being stored. Previously, they were being stored in the &lt;code&gt;raw_data&lt;/code&gt; column of the &lt;code&gt;imports&lt;/code&gt; table. Now, they are being attached to the import record. All new imports will be using the new storage, to migrate existing imports, you can use the &lt;code&gt;rake imports:migrate_to_new_storage&lt;/code&gt; task. Run it in the container shell.&lt;/p&gt;
 &lt;p&gt;This is an optional task, that will not affect your points or other data.
 Big imports might take a while to migrate, so be patient.&lt;/p&gt;

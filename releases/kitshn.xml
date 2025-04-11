@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kitshn Releases</title>
-  <updated>2025-04-11T17:34:13.683243-04:00</updated>
+  <updated>2025-04-11T18:34:12.601330-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,5 +67,33 @@ I will now focus on working on compatibility with &lt;strong&gt;Tandoor v2&lt;/s
 &lt;li&gt;chore(commonMain/api): marked v1.5.34 as compatible&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/aimok04/kitshn/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aimok04/kitshn/releases/tag/v1.1.0</id>
+    <title>New release for Kitshn: v1.1.0</title>
+    <updated>2025-04-11T18:04:21-04:00</updated>
+    <author>
+      <name>aimok04/kitshn</name>
+    </author>
+    <content>&lt;p&gt;Hey ✌️
+Welp, &lt;strong&gt;kitshn v1.0.0&lt;/strong&gt; wasn't the &lt;strong&gt;final release&lt;/strong&gt; compatible with &lt;strong&gt;Tandoor v1&lt;/strong&gt; after all.&lt;/p&gt;
+&lt;p&gt;This release just adds some &lt;strong&gt;general improvements&lt;/strong&gt; and a &lt;strong&gt;beta info dialog&lt;/strong&gt; when connecting to a &lt;strong&gt;Tandoor v2 instance&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;🇮🇹 &lt;strong&gt;Italian&lt;/strong&gt; has been added on &lt;strong&gt;&lt;a href="https://hosted.weblate.org/projects/kitshn"&gt;Weblate&lt;/a&gt;&lt;/strong&gt; (by @KindaArtsy).&lt;/li&gt;
+&lt;li&gt;Improved &lt;strong&gt;timer detection&lt;/strong&gt; with support for &lt;strong&gt;hours&lt;/strong&gt; (#167).&lt;/li&gt;
+&lt;li&gt;Implemented &lt;strong&gt;beta info dialog&lt;/strong&gt; when connecting to a &lt;strong&gt;Tandoor v2 instance&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/5af3b21d-6860-4f76-b568-eeec00fe0f0a" width="300" /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(commonMain): implemented outdated client alert when connecting to Tandoor v2 instance&lt;/li&gt;
+&lt;li&gt;feat(commonMain): improved timer detection to support hours and multiple languages (resolved #167)&lt;/li&gt;
+&lt;li&gt;feat(commonMain): added Ko-Fi link in Settings for android and jvm&lt;/li&gt;
+&lt;li&gt;fix(commonMain): FocusRequester is not initialized issue&lt;/li&gt;
+&lt;li&gt;l10n(Italian): added translation using Weblate&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/aimok04/kitshn/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
