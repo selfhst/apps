@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-04-11T05:31:20.644434-04:00</updated>
+  <updated>2025-04-11T06:30:57.995088-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -230,7 +230,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;fix: copy pasting the content from some medium into outline does not get the images in https://github.com/outline/outline/pull/8472&lt;/li&gt;
+&lt;li&gt;fix: copy pasting the content from Medium articles does not get the images in https://github.com/outline/outline/pull/8472&lt;/li&gt;
 &lt;li&gt;fix: Set sidebar context for archive section in https://github.com/outline/outline/pull/8485&lt;/li&gt;
 &lt;li&gt;fix: Update local storage when creating/deleting pins in https://github.com/outline/outline/pull/8504&lt;/li&gt;
 &lt;li&gt;fix: Prevent last user/group with collection manage permission being removed in https://github.com/outline/outline/pull/8499&lt;/li&gt;

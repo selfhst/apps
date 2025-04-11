@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-04-11T05:31:11.501125-04:00</updated>
+  <updated>2025-04-11T06:30:49.284471-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -559,7 +559,7 @@ import { SentrySpanProcessor, SentryPropagator } from "@sentry/opentelemetry-nod
     <content>&lt;!-- 
 ![image](https://github.com/user-attachments/assets/a7827bd6-a5c5-4361-9bac-bdb23ac7e24d)
 
-# v2.6.0
+# v2.6.0: Authentication improvements
 
 This release enhances security and improves overall application performance.
 
@@ -815,15 +815,15 @@ p50: 849 -&amp;gt; 537ms&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/medusajs/medusa/releases/tag/v2.6.1</id>
-    <title>New release for Medusa: v2.6.1</title>
+    <title>New release for Medusa: v2.6.1: Improved Scheduled Jobs</title>
     <updated>2025-03-10T11:47:34-04:00</updated>
     <author>
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
-![image](https://github.com/user-attachments/assets/b944ba77-180c-4126-beaa-d75267c5e7a8)
+![image](https://github.com/user-attachments/assets/67f63051-07ca-46ca-8cee-03b75c57f755)
 
-# v2.6.1
+# v2.6.1: Improve Scheduled Jobs execution
 
 CMS_BREAK --&gt;
 
@@ -874,12 +874,21 @@ CMS_BREAK --&gt;
   </entry>
   <entry>
     <id>https://github.com/medusajs/medusa/releases/tag/v2.7.0</id>
-    <title>New release for Medusa: v2.7.0</title>
+    <title>New release for Medusa: v2.7.0: Save payment methods, improved links, and performance improvements</title>
     <updated>2025-04-11T04:53:37-04:00</updated>
     <author>
       <name>medusajs/medusa</name>
     </author>
-    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+    <content>&lt;!-- 
+![image](https://github.com/user-attachments/assets/a7827bd6-a5c5-4361-9bac-bdb23ac7e24d)
+
+# v2.7.0: Save payment methods, improved links, and performance improvements
+
+This release comes with extended payment method capabilities, improved links, and significant performance improvements.
+
+CMS_BREAK --&gt;
+
+&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;h3&gt;Support multiple payment account holders for customers&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!WARNING]&lt;br /&gt;
