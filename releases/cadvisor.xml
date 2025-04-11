@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>cAdvisor Releases</title>
-  <updated>2025-04-11T14:34:21.168940-04:00</updated>
+  <updated>2025-04-11T15:34:43.120174-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,18 @@ SHA256 (./cadvisor-v0.49.2-linux-arm64) = 5b852edb911cfe3df7448b03ccbdc6538b6ff0
 &lt;li&gt;@SuperQ made their first contribution in https://github.com/google/cadvisor/pull/3645&lt;/li&gt;
 &lt;li&gt;@xinau made their first contribution in https://github.com/google/cadvisor/pull/3649&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/google/cadvisor/compare/v0.51.0...v0.52.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/google/cadvisor/compare/v0.51.0...v0.52.0&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gcr.io/cadvisor/cadvisor:v0.52.0
+Architecture Specific Container Images:
+gcr.io/cadvisor/cadvisor-arm:v0.52.0
+gcr.io/cadvisor/cadvisor-arm64:v0.52.0
+gcr.io/cadvisor/cadvisor-s390x:v0.52.0
+gcr.io/cadvisor/cadvisor-amd64:v0.52.0
+Binaries:
+SHA256 (./cadvisor-v0.52.0-linux-arm64) = 37cd032cf8e4057be4bb6f0e2446eeaa4558ffbe40293fac026d4a4837c6d8f9
+SHA256 (./cadvisor-v0.52.0-linux-amd64) = 8a241bfc58c823a976bd688994445fb66af22a2bb995e450997fcf351d4b27e9
+SHA256 (./cadvisor-v0.52.0-linux-arm) = c05d2042f9529c34d072e528fc1c1e1d517a6b290086498aa3b4466f8683b5b7
+SHA256 (./cadvisor-v0.52.0-linux-s390x) = 466be4f71ccb66c3814737cbe0d3051705d39baf412c40f7192e40ebd2eace34&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/google/cadvisor/releases/tag/v0.52.0" rel="alternate"/>
   </entry>
   <entry>
