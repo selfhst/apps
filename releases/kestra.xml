@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-04-11T03:33:11.695870-04:00</updated>
+  <updated>2025-04-11T04:33:11.957061-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,17 +74,24 @@
     <author>
       <name>kestra-io/kestra</name>
     </author>
-    <content>&lt;h2&gt;Features&lt;/h2&gt;
+    <content>&lt;h2&gt;👉 Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kestra-io/kestra/compare/v0.21.12...v0.21.13&lt;/p&gt;
+&lt;h3&gt;🚀 Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Unit Tests&lt;/strong&gt;: add assertj dependency (&lt;a href="https://github.com/kestra-io/kestra/commit/d55246ae57b5cba3494e15c51cdbf714377f132c"&gt;nKwiatkowski&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unit Tests:&lt;/strong&gt; Add assertj dependency (&lt;a href="https://github.com/kestra-io/kestra/commit/d55246ae5"&gt;d55246ae5&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Chores&lt;/h2&gt;
+&lt;h3&gt;🩹 Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;upgrade to v0.21.13 (&lt;a href="https://github.com/kestra-io/kestra/commit/1c6c13ea0edf6503ee532bf5e078bd4bf6cb7a9f"&gt;brian.mulier&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;core:&lt;/strong&gt;  Prevent failing execution in case of duplicate label upon inheritance (&lt;a href="https://github.com/kestra-io/kestra/commit/2e001a694"&gt;2e001a694&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Commits&lt;/h2&gt;
+&lt;h3&gt;🏡 Chore&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;2e001a6: fix(core)!: prevent failing execution in case of duplicate label upon inheritance (brian.mulier)&lt;/li&gt;
+&lt;li&gt;Upgrade to v0.21.13 (&lt;a href="https://github.com/kestra-io/kestra/commit/1c6c13ea0"&gt;1c6c13ea0&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;❤️ Contributors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Brian.mulier (&lt;a href="https://github.com/brian-mulier-p"&gt;@brian-mulier-p&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;NKwiatkowski &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#110;&amp;#107;&amp;#119;&amp;#105;&amp;#97;&amp;#116;&amp;#107;&amp;#111;&amp;#119;&amp;#115;&amp;#107;&amp;#105;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;"&gt;&amp;#110;&amp;#107;&amp;#119;&amp;#105;&amp;#97;&amp;#116;&amp;#107;&amp;#111;&amp;#119;&amp;#115;&amp;#107;&amp;#105;&amp;#64;&amp;#107;&amp;#101;&amp;#115;&amp;#116;&amp;#114;&amp;#97;&amp;#46;&amp;#105;&amp;#111;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.21.13" rel="alternate"/>
   </entry>
