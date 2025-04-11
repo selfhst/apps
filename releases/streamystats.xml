@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Streamystats Releases</title>
-  <updated>2025-04-11T16:35:15.791138-04:00</updated>
+  <updated>2025-04-11T17:35:16.891366-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,5 +71,28 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/fredrikburmester/streamystats/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/fredrikburmester/streamystats/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/fredrikburmester/streamystats/releases/tag/v1.2.0</id>
+    <title>New release for Streamystats: v1.2.0</title>
+    <updated>2025-04-11T16:40:23-04:00</updated>
+    <author>
+      <name>fredrikburmester/streamystats</name>
+    </author>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: new library select dropdown in library items table&lt;/li&gt;
+&lt;li&gt;fix: history is now properly scoped for each user (admin can still see all history)&lt;/li&gt;
+&lt;li&gt;feat: history tables are now properly paginated&lt;/li&gt;
+&lt;li&gt;fix: try to sanitize names to avoid db errors (we still have some work to do on import errors)&lt;/li&gt;
+&lt;li&gt;fix: active sessions no longer changing order on each update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Future plans:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only sync data from certain libraries feature&lt;/li&gt;
+&lt;li&gt;Better import stability&lt;/li&gt;
+&lt;li&gt;Improve graphs&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/fredrikburmester/streamystats/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
