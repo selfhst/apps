@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-11T19:35:12.037663-04:00</updated>
+  <updated>2025-04-11T20:35:09.458990-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -42,7 +42,7 @@
     <content>&lt;p&gt;Thank you all for your support and engagement! In just a week, we've reached nearly 400 stars and over 1000 Docker pulls! I'm happy to see that there are people enjoying using MAZANOKE, and I hope you'll continue to enjoy using it.&lt;/p&gt;
 &lt;p&gt;In case you've missed it, the official instance is now up at: &lt;a href="https://mazanoke.com"&gt;MAZANOKE.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Enhancements&lt;/strong&gt;
-- Upload multiple files simultaneously
+- Upload multiple files simultaneously (https://github.com/civilblur/mazanoke/issues/2)
     - Images are processed one at a time to prevent excessive browser resource usage.
 - Download all optimized images as a zip.
     - Files over 1GB are split into multiple zip files.
