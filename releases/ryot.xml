@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-04-13T08:31:30.251240-04:00</updated>
+  <updated>2025-04-13T09:31:28.890270-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,16 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Collection details page now has a recommendations tab&lt;/li&gt;
+&lt;li&gt;Allow users to change measurement units on an exercise level&lt;/li&gt;
+&lt;li&gt;Move the exercise details to a separate modal to save on real estate in the workout logging&lt;/li&gt;
+&lt;li&gt;A boolean type for collection extra information [PRO]&lt;/li&gt;
+&lt;li&gt;A trending section has been added to the dashboard&lt;/li&gt;
+&lt;li&gt;Send notifications when item is removed from monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/75cc549827240214309c1ff1632e1b1b5969c645"&gt;75cc5498&lt;/a&gt; - fix(frontend): handle onboarding tour edge cases&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/b55d46e361af21b1c84ee2900f8e384a44891aa2"&gt;b55d46e3&lt;/a&gt; - Override user unit system on an active workout (#1344)&lt;/li&gt;
