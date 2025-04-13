@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HedgeDoc Releases</title>
-  <updated>2025-04-13T07:30:30.958314-04:00</updated>
+  <updated>2025-04-13T08:30:50.647006-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,7 @@ See: https://docs.hedgedoc.org/configuration/#saml-login &lt;code&gt;CMD_SAML_AT
     </author>
     <content>&lt;h3&gt;Security fixes&lt;/h3&gt;
 &lt;p&gt;This release fixes a security issue of a possible XSS exploit which can be planted via a malicous SVG file upload.&lt;/p&gt;
-&lt;p&gt;See &lt;a href="https://github.com/hedgedoc/hedgedoc/security/advisories/GHSA-3983-rrqh-mvx5"&gt;GHSA-3983-rrqh-mvx5&lt;/a&gt; for more details&lt;/p&gt;
+&lt;p&gt;See &lt;a href="https://github.com/hedgedoc/hedgedoc/security/advisories/GHSA-3983-rrqh-mvx5"&gt;CVE-2025-32391&lt;/a&gt; for more details&lt;/p&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add config options &lt;code&gt;CMD_SAML_WANT_ASSERTIONS_SIGNED&lt;/code&gt; and &lt;code&gt;CMD_SAML_WANT_AUTHN_RESPONSE_SIGNED&lt;/code&gt; for SAML auth, since
