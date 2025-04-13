@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-04-13T14:33:13.572949-04:00</updated>
+  <updated>2025-04-13T15:33:17.777741-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,14 +88,13 @@ The &lt;code&gt;SQLITE_DB_PATH&lt;/code&gt; and &lt;code&gt;POSTGRES_CONNECTION_
 &lt;ul&gt;
 &lt;li&gt;global audit log (&lt;a href="https://github.com/pocket-id/pocket-id/issues/320"&gt;#320&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/b65e693e12be2e7e4cb75a74d6fd43bacb3f6a94"&gt;b65e693&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;implement token introspection (&lt;a href="https://github.com/pocket-id/pocket-id/issues/405"&gt;#405&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/7e5d16be9bdfccfa113924547e313886681d11bb"&gt;7e5d16b&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;modernize ui (&lt;a href="https://github.com/pocket-id/pocket-id/issues/381"&gt;#381&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/9881a1df9efe32608ab116db71c0e4f66dae171c"&gt;9881a1d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;onboarding:&lt;/strong&gt; Added button when you don't have a passkey added. (&lt;a href="https://github.com/pocket-id/pocket-id/issues/426"&gt;#426&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/72061ba4278a007437cee3a205c3076d58bde644"&gt;72061ba&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;modernize settings UI (&lt;a href="https://github.com/pocket-id/pocket-id/issues/381"&gt;#381&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/9881a1df9efe32608ab116db71c0e4f66dae171c"&gt;9881a1d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;onboarding:&lt;/strong&gt; added button when you don't have a passkey added (&lt;a href="https://github.com/pocket-id/pocket-id/issues/426"&gt;#426&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/72061ba4278a007437cee3a205c3076d58bde644"&gt;72061ba&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;add missing rollback for LDAP sync (&lt;a href="https://github.com/pocket-id/pocket-id/commit/658a9ca6dd8d2304ff3639a000bab02e91ff68a6"&gt;658a9ca&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;create reusable default profile pictures (&lt;a href="https://github.com/pocket-id/pocket-id/issues/406"&gt;#406&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/734c6813eaef166235ae801747e3652d17ae0e2a"&gt;734c681&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;ensure file descriptors are closed + other bugs (&lt;a href="https://github.com/pocket-id/pocket-id/issues/413"&gt;#413&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/2f7646105e26423f47cbe49dae97e40c4a01a025"&gt;2f76461&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ensure file descriptors are closed (&lt;a href="https://github.com/pocket-id/pocket-id/issues/413"&gt;#413&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/2f7646105e26423f47cbe49dae97e40c4a01a025"&gt;2f76461&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;ensure indexes on audit_logs table (&lt;a href="https://github.com/pocket-id/pocket-id/issues/415"&gt;#415&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/9e88926283a7a663bfc7fd4f4aa16bd02f614176"&gt;9e88926&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;ignore profile picture cache after profile picture gets updated (&lt;a href="https://github.com/pocket-id/pocket-id/commit/4ba68938dd2a631c633fcb65d8c35cb039d3f59c"&gt;4ba6893&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;improve LDAP error handling (&lt;a href="https://github.com/pocket-id/pocket-id/issues/425"&gt;#425&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/796bc7ed3453839b1dc8d846b71fe9fac9a2d646"&gt;796bc7e&lt;/a&gt;)&lt;/li&gt;
@@ -105,7 +104,13 @@ The &lt;code&gt;SQLITE_DB_PATH&lt;/code&gt; and &lt;code&gt;POSTGRES_CONNECTION_
 &lt;h3&gt;Performance Improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;run async operations in parallel in server load functions (&lt;a href="https://github.com/pocket-id/pocket-id/commit/17626295964244c5582806bd0f413da2c799d5ad"&gt;1762629&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h3&gt;Contributors&lt;/h3&gt;
+&lt;p&gt;Big thanks to:
+- @kmendell 
+- @ItalyPaleAle 
+- @aksdb 
+- @arne&lt;/p&gt;</content>
     <link href="https://github.com/pocket-id/pocket-id/releases/tag/v0.46.0" rel="alternate"/>
   </entry>
 </feed>
