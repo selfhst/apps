@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2025-04-14T08:33:40.388569-04:00</updated>
+  <updated>2025-04-14T09:33:12.051941-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -204,8 +204,7 @@ curl \
     <author>
       <name>meilisearch/meilisearch</name>
     </author>
-    <content>&lt;h1&gt;v1.14.0 release changelogs&lt;/h1&gt;
-&lt;p&gt;Meilisearch v1.14 gives more granular control over which parts of filters you can disable for indexing performance optimization. This release also includes composite embedders, which can improve embedding generation during search and indexing, and a new route to retrieve multiple documents by their IDs.&lt;/p&gt;
+    <content>&lt;p&gt;Meilisearch v1.14 gives more granular control over which parts of filters you can disable for indexing performance optimization. This release also includes composite embedders, which can improve embedding generation during search and indexing, and a new route to retrieve multiple documents by their IDs.&lt;/p&gt;
 &lt;p&gt;🧰 All official Meilisearch integrations (including SDKs, clients, and other tools) are compatible with this Meilisearch release. Integration deployment happens between 4 to 48 hours after a new version becomes available.&lt;/p&gt;
 &lt;p&gt;Some SDKs might not include all new features. Consult the project repository for detailed information. Is a feature you need missing from your chosen SDK? Create an issue letting us know you need it, or, for open-source karma points, open a PR implementing it (we'll love you for that ❤️).&lt;/p&gt;
 &lt;h1&gt;New features and updates 🔥&lt;/h1&gt;

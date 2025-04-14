@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maybe Releases</title>
-  <updated>2025-04-14T08:31:10.278815-04:00</updated>
+  <updated>2025-04-14T09:30:48.007821-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -180,7 +180,10 @@
     <author>
       <name>maybe-finance/maybe</name>
     </author>
-    <content>&lt;h2&gt;Dark mode + AI Chat is here!&lt;/h2&gt;
+    <content>&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;p&gt;We are now using Sidekiq + Redis for background jobs.  To update your self hosted instance, you will need to follow the upgrade guide outlined here:&lt;/p&gt;
+&lt;p&gt;https://github.com/maybe-finance/maybe/pull/2004&lt;/p&gt;
+&lt;h2&gt;Dark mode + AI Chat is here!&lt;/h2&gt;
 &lt;p&gt;We've got some &lt;em&gt;huge&lt;/em&gt; updates for this release:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add your OpenAI API key to enable contextually aware AI chats.  Please read &lt;a href="https://github.com/maybe-finance/maybe/wiki/AI-and-your-financial-data"&gt;AI and your financial data&lt;/a&gt; to learn more about this feature and how we're handling data between your finances and OpenAI (&lt;strong&gt;it's 100% optional and disabled by default!&lt;/strong&gt;)&lt;/li&gt;
