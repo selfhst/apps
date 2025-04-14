@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AdGuard Home Releases</title>
-  <updated>2025-04-14T11:31:44.985534-04:00</updated>
+  <updated>2025-04-14T12:31:44.353429-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,7 @@ Luckily, we are developers and not philosophers, so let’s state some facts and
     <author>
       <name>AdguardTeam/AdGuardHome</name>
     </author>
-    <content>&lt;p&gt;If you are reading through these release notes, you must be a true power user of AdGuard Home, as this update isn’t the most flashy one. There are no exciting new features, but there are patches to Go vulnerabilities, UI and docker updates, and a couple of bugfixes.&lt;/p&gt;
+    <content>&lt;p&gt;If you are reading through these release notes, you must be a true power user of AdGuard Home, as this update isn’t the flashiest one. There are no exciting new features, but there are patches to Go vulnerabilities, UI and docker updates, and a couple of bugfixes.&lt;/p&gt;
 &lt;h2&gt;Full changelog&lt;/h2&gt;
 &lt;p&gt;See also the &lt;a href="https://github.com/AdguardTeam/AdGuardHome/milestone/95?closed=1"&gt;v0.107.60 GitHub milestone&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Security&lt;/h3&gt;
