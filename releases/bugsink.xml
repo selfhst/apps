@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bugsink Releases</title>
-  <updated>2025-04-14T09:34:42.517132-04:00</updated>
+  <updated>2025-04-14T10:34:46.152581-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -146,5 +146,32 @@ or run the &lt;code&gt;init_tags&lt;/code&gt; command to determine the tags for 
 &lt;li&gt;Fix user tag deduction (user tags were not correctly calculated from the event data)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/bugsink/bugsink/releases/tag/1.4.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bugsink/bugsink/releases/tag/1.5.0</id>
+    <title>New release for Bugsink: 1.5.0</title>
+    <updated>2025-04-14T09:56:56-04:00</updated>
+    <author>
+      <name>bugsink/bugsink</name>
+    </author>
+    <content>&lt;h2&gt;1.5.0 (14 April 2025)&lt;/h2&gt;
+&lt;p&gt;Bugsink 1.5.0 introduces preliminary support for sourcemaps.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;preliminary&lt;/em&gt; because only the following combination (all must apply) of features works:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uploading "manually", using &lt;code&gt;sentry-cli&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;sourcemaps &amp;amp; sources are related using &lt;code&gt;debug-id&lt;/code&gt;, which must be injected by &lt;code&gt;sentry-cli&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tested with the followin &lt;code&gt;sentry-cli&lt;/code&gt; invocation:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;uglifyjs captureException.js   -o captureException.min.js   --source-map url=captureException.min.js.map,includeSources
+sentry-cli sourcemaps inject captureException.min.js captureException.min.js.map
+SENTRY_AUTH_TOKEN=a sentry-cli --url https://YOURBUGSINK/ sourcemaps --org bugsinkhasnoorgs --project=ignoredalso upload .&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Implemented with 3 endpoints Bugsink-side:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;upload-chunks GET tells the CLI what our capabilities are&lt;/li&gt;
+&lt;li&gt;upload-chunks POST allows the CLI to upload the files (the CLI bundles everything first, and adds a manifest)&lt;/li&gt;
+&lt;li&gt;assemble-artifact: unpack that thing and put it in the right location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/bugsink/bugsink/issues/19#issuecomment-2796304379"&gt;This comment contains a longer overview of the current state&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bugsink/bugsink/releases/tag/1.5.0" rel="alternate"/>
   </entry>
 </feed>
