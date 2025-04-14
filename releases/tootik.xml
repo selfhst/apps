@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tootik Releases</title>
-  <updated>2025-04-14T10:33:56.350981-04:00</updated>
+  <updated>2025-04-14T11:33:57.891281-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,7 +121,7 @@
 &lt;h2&gt;Bug Fixes, Performance and Maintenance&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;/communities&lt;/code&gt; is now much faster on an instance with many known &lt;code&gt;Group&lt;/code&gt; actors but few local ones&lt;/li&gt;
-&lt;li&gt;Graph (like poll results) are more BiDi-friendly now: keys appear on separate lines if in Arabic or Hebrew&lt;/li&gt;
+&lt;li&gt;Graphs (like poll results) are more BiDi-friendly now: keys appear on separate lines if in Arabic or Hebrew&lt;/li&gt;
 &lt;li&gt;Dependency and Go updates&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dimkr/tootik/releases/tag/0.15.6" rel="alternate"/>
