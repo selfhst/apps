@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-04-14T03:34:27.705877-04:00</updated>
+  <updated>2025-04-14T04:34:27.470515-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,12 +158,17 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.203.1</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.203.1</title>
     <updated>2025-04-14T03:23:02-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;af9f15f68b27286be9b56525beb2a6c7679f37b4 Fronius-GEN24: add 1 phase grid meter (#20574)&lt;/li&gt;
+&lt;li&gt;ad9e230e2a3c3084ab27e83d4afe5cea5255b7b3 Templates: fix quoting comset&lt;/li&gt;
+&lt;li&gt;5eed5023cb76f7d0238c7cbdb0a4bbcdee1160f9 sunspec-inverter: complete values for 1 phase meter (#20568)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.203.1" rel="alternate"/>
   </entry>
 </feed>
