@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plausible Releases</title>
-  <updated>2025-04-14T01:31:24.071033-04:00</updated>
+  <updated>2025-04-14T02:31:25.089224-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -251,7 +251,7 @@ $ docker compose up -d&lt;/code&gt;&lt;/p&gt;
       <name>plausible/analytics</name>
     </author>
     <content>&lt;p&gt;This release contains a patch for the migration procedure (fixes https://github.com/plausible/analytics/issues/5319).
-Functionally it is equivalent of https://github.com/plausible/analytics/releases/edit/v3.0.0&lt;/p&gt;
+Functionally it is equivalent of https://github.com/plausible/analytics/releases/v3.0.0&lt;/p&gt;
 &lt;h2&gt;Upgrade&lt;/h2&gt;
 &lt;p&gt;Update the image used for &lt;code&gt;plausible&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;sub&gt;&lt;kbd&gt;compose.yml&lt;/kbd&gt;&lt;/sub&gt;
