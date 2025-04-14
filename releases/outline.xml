@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-04-14T16:31:00.354784-04:00</updated>
+  <updated>2025-04-14T17:30:56.028016-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,7 +201,11 @@
     <author>
       <name>outline/outline</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Migrations in this release will enable the &lt;code&gt;pg_trgm&lt;/code&gt; database extension (&lt;a href="https://github.com/outline/outline/pull/8454/files"&gt;ref&lt;/a&gt;). If your database user does not have permission to enable extensions then this will need to be done by an admin user ahead of updating.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A completely rebuilt &lt;a href="https://docs.getoutline.com/s/hosting/doc/notion-2v6g7WY3l3"&gt;Notion importer&lt;/a&gt; in https://github.com/outline/outline/pull/8710&lt;/li&gt;
