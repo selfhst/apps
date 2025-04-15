@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-04-15T16:31:38.793396-04:00</updated>
+  <updated>2025-04-15T17:31:38.653612-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,7 +175,7 @@
   </entry>
   <entry>
     <id>https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v0.45.6</id>
-    <title>New release for Stirling PDF: v0.45.6 Bug fixes for sign and pipelines</title>
+    <title>New release for Stirling PDF: 0.45.6 Bug fixes for sign and pipelines</title>
     <updated>2025-04-15T10:16:52-04:00</updated>
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
