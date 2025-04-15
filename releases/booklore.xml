@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-04-14T23:34:56.021515-04:00</updated>
+  <updated>2025-04-15T00:35:14.187879-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,9 +82,9 @@
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.40" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.41</id>
-    <title>New release for BookLore: Release v0.0.41</title>
-    <updated>2025-04-14T22:42:06-04:00</updated>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.42</id>
+    <title>New release for BookLore: Release v0.0.42</title>
+    <updated>2025-04-15T00:16:31-04:00</updated>
     <author>
       <name>adityachandelgit/BookLore</name>
     </author>
@@ -94,6 +94,6 @@
 &lt;li&gt;Implement multi-file uploader (#92) by @adityachandelgit&lt;/li&gt;
 &lt;li&gt;Add checkbox to enable or disable automatic book match search on open… (#91) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.41" rel="alternate"/>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.0.42" rel="alternate"/>
   </entry>
 </feed>
