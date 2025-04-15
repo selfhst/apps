@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PeerTube Releases</title>
-  <updated>2025-04-15T03:31:23.997835-04:00</updated>
+  <updated>2025-04-15T04:31:22.655763-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -274,8 +274,15 @@
       <name>Chocobozzz/PeerTube</name>
     </author>
     <content>&lt;h3&gt;SECURITY&lt;/h3&gt;
+&lt;p&gt;This release fixes important vulnerabilities of &lt;strong&gt;&lt;code&gt;PeerTube &amp;lt;= 7.1.0&lt;/code&gt;&lt;/strong&gt;, discovered by Ori Hollander of the JFrog Vulnerability Research team. Many thanks to them!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;This version fixes important vulnerabilities, that will be detailed on Tuesday, April 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High severity&lt;/strong&gt; Fix DoS and blind SSRF on ActivityPub playlist creation &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-activitypub-playlist-creation-blind-ssrf-dos/"&gt;CVE-2025-32948&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High severity&lt;/strong&gt; Prevent infinite loop DoS when crawling ActivityPub data &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-activitypub-crawl-dos/"&gt;CVE-2025-32947&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medium severity&lt;/strong&gt; Prevent an attacker from adding playlists to a another user's channel using the ActivityPub &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-arbitrary-playlist-creation-activitypub/"&gt;CVE-2025-32946&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medium severity&lt;/strong&gt; Prevent an attacker from adding playlists to a another user's channel using the REST API &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-arbitrary-playlist-creation-rest/"&gt;CVE-2025-32945&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medium severity&lt;/strong&gt; Add protection against &lt;a href="https://en.wikipedia.org/wiki/Zip_bomb"&gt;ZIP bomb&lt;/a&gt; on user import &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-archive-resource-exhaustion/"&gt;CVE-2025-32949&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medium severity&lt;/strong&gt; Prevent crash on user import with a ZIP containg an illegal filename &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-archive-persistent-dos/"&gt;CVE-2025-32944&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Low severity&lt;/strong&gt; Do not leak private HLS playlists (&lt;code&gt;.m3u8&lt;/code&gt; files) &lt;a href="https://research.jfrog.com/vulnerabilities/peertube-hls-path-traversal/"&gt;CVE-2025-32943&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
