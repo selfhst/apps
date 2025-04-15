@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-04-14T22:33:34.129640-04:00</updated>
+  <updated>2025-04-14T23:33:29.004523-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,9 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;p&gt;This release fixes a few bugs and regressions. There is one notable feature to user onboarding: the community list, when empty (user hasn't subscribed or favorited a community) will provide information to get started.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/1a69e40f-461f-4de4-9eb6-9463296e7562" width="250"&gt;&lt;/p&gt;
+&lt;h2&gt;✨ Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: disable scroll restoration&lt;/li&gt;
 &lt;li&gt;PR: #1957&lt;/li&gt;
