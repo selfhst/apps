@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-04-14T19:33:01.228208-04:00</updated>
+  <updated>2025-04-14T20:32:55.875426-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -232,6 +232,7 @@ environment:
 &lt;ul&gt;
 &lt;li&gt;If using &lt;code&gt;PERIPHERY_ALLOWED_IPS&lt;/code&gt;, you may have to update the allowed IP to the IPv6 translation:
 &lt;code&gt;12.34.56.70  -&amp;gt;  ::ffff:12.34.56.78&lt;/code&gt; (prefix the IP with &lt;code&gt;::ffff:&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;If its another issue, you can go back to previous bind behavior by setting &lt;code&gt;PERIPHERY_BIND_IP&lt;/code&gt; to &lt;code&gt;0.0.0.0&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;General&lt;/h3&gt;
 &lt;ul&gt;
@@ -245,8 +246,12 @@ environment:
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Build&lt;/strong&gt;:&lt;/li&gt;
 &lt;li&gt;Adds UI Defined / Files on Server option for Build, treating the Dockerfile the way the Stack treats compose file.&lt;/li&gt;
-&lt;li&gt;Can view / edit the Dockerfile from Komodo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: Add &lt;code&gt;GetDockerContainersSummary&lt;/code&gt; endpoint by @alexshore in #386&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can now &lt;strong&gt;view / edit the Dockerfile from Komodo&lt;/strong&gt;, and store it in TOML as well re #371 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Server&lt;/strong&gt;: Add &lt;code&gt;GetDockerContainersSummary&lt;/code&gt; endpoint by @alexshore in #386&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Alerter&lt;/strong&gt;: Interpolate variables / secrets into Slack and Discord Alerter urls&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Alerter&lt;/strong&gt;: Support Ntfy Alerter natively by @GFXSpeed in #404 &lt;/li&gt;
 &lt;/ul&gt;
