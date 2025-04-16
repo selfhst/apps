@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ExpenseOwl Releases</title>
-  <updated>2025-04-15T19:35:39.955388-04:00</updated>
+  <updated>2025-04-15T20:35:45.087463-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,7 +71,11 @@
     <author>
       <name>Tanq16/ExpenseOwl</name>
     </author>
-    <content>&lt;p&gt;Release v3.17&lt;/p&gt;</content>
+    <content>&lt;p&gt;This release brings one of the most requested feature : Data import&lt;/p&gt;
+&lt;p&gt;ExpenseOwl now allows import of data in CSV or JSON. CSV is the recommended way of importing.&lt;/p&gt;
+&lt;p&gt;Data import is non-destructive, i.e., existing data is not removed or deduplicated. This is by design because ExpenseOwl's tracking depends on expense IDs, which are UUIDs. All other data can be common and unique so there is no usual algorithmic way to deduplicate.&lt;/p&gt;
+&lt;p&gt;Import feature works with just about any software's import, as long as the required categories (name, category, amount, date) are present in the file. The column names are case-insensitive and categories are also collated in a case-insensitive manner.&lt;/p&gt;
+&lt;p&gt;Thanks for giving ExpenseOwl a spin!&lt;/p&gt;</content>
     <link href="https://github.com/Tanq16/ExpenseOwl/releases/tag/v3.17" rel="alternate"/>
   </entry>
 </feed>
