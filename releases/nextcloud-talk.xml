@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nextcloud Talk Releases</title>
-  <updated>2025-04-16T06:35:45.654808-04:00</updated>
+  <updated>2025-04-16T07:36:19.169115-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -195,11 +195,14 @@
 &lt;/ul&gt;
 &lt;h2&gt;Fixed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fix(calls): Do not reset previous connected users after resuming in a call &lt;a href="https://github.com/nextcloud/spreed/issues/14735"&gt;#14735&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;fix(sidebar): Show tooltips when Talk is in the sidebar &lt;a href="https://github.com/nextcloud/spreed/issues/14697"&gt;#14697&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;fix(guests): Fix style and labels on public share page as a guest &lt;a href="https://github.com/nextcloud/spreed/issues/14720"&gt;#14720&lt;/a&gt; &lt;a href="https://github.com/nextcloud/spreed/issues/14726"&gt;#14726&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;fix(calls): Skip password verification for guests that are reconnecting to the call &lt;a href="https://github.com/nextcloud/spreed/pull/14787"&gt;#14787&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;fix(calls): Fix leaving call if a signaling message is received while reconnecting &lt;a href="https://github.com/nextcloud/spreed/pull/14788"&gt;#14788&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix: Improve performance of conversation list &lt;a href="https://github.com/nextcloud/spreed/issues/14810"&gt;#14810&lt;/a&gt; &lt;a href="https://github.com/nextcloud/spreed/issues/14830"&gt;#14830&lt;/a&gt; &lt;a href="https://github.com/nextcloud/spreed/issues/14834"&gt;#14834&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix: Improve performance when rendering system messages &lt;a href="https://github.com/nextcloud/spreed/issues/14816"&gt;#14816&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(guests): Allow guests to reload the page without re-entering the password &lt;a href="https://github.com/nextcloud/spreed/issues/14785"&gt;#14785&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(federation): Fix calls when federated server receive messages in wrong order &lt;a href="https://github.com/nextcloud/spreed/pull/14769"&gt;#14769&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(calls): Fix call after resuming connection &lt;a href="https://github.com/nextcloud/spreed/pull/14736"&gt;#14736&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(calls): Fix wrongly showing "Missed call" in one-to-one conversations &lt;a href="https://github.com/nextcloud/spreed/pull/14832"&gt;#14832&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(workflows): Adjust workflow registration to new mechanism &lt;a href="https://github.com/nextcloud/spreed/pull/14823"&gt;#14823&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix(polls): Hide intermediate results from anonymous polls &lt;a href="https://github.com/nextcloud/spreed/issues/14723"&gt;#14723&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;details&gt;

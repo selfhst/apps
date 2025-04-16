@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-04-16T06:32:51.221784-04:00</updated>
+  <updated>2025-04-16T07:32:56.090599-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,6 +98,8 @@
       <name>jorenn92/Maintainerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/jorenn92/Maintainerr/compare/v2.13.1...v2.14.0"&gt;2.14.0&lt;/a&gt; (2025-04-15)&lt;/h1&gt;
+&lt;h3&gt;Docker tag change for the development version&lt;/h3&gt;
+&lt;p&gt;If you're using the &lt;code&gt;jorenn92/maintainerr:develop&lt;/code&gt; Docker tag for the development version, you will need to update it to &lt;code&gt;jorenn92/maintainerr:main&lt;/code&gt; to keep getting updates. If you're using &lt;code&gt;ghcr.io/jorenn92/maintainerr:main&lt;/code&gt; then no change is required as this already targets main.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Ensure signals are passed down to the apps (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1680"&gt;#1680&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/702fc17feeae9dcc40b625c0710b9478158a182f"&gt;702fc17&lt;/a&gt;)&lt;/li&gt;
