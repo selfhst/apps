@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2025-04-16T11:35:39.811885-04:00</updated>
+  <updated>2025-04-16T12:33:33.643316-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -236,7 +236,7 @@ curl \
       }
     ]
 }&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;For more details about this feature, please refer to its &lt;a href="https://meilisearch.notion.site/API-usage-Settings-to-opt-out-indexing-features-filterableAttributes-1764b06b651f80aba8bdf359b2df3ca8"&gt;public usage page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For more details about this feature, please refer to &lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attribute-object"&gt;the dedicated documentation page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Done by @ManyTheFish in &lt;a href="https://github.com/meilisearch/meilisearch/pull/5254"&gt;#5254&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Composite embedders&lt;/h2&gt;
 &lt;p&gt;This feature allows using different embedders at search and indexing time. This can be useful when optimizing AI-powered search performance. For example, you may prefer to use:
