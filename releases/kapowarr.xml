@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kapowarr Releases</title>
-  <updated>2025-04-16T10:31:00.365520-04:00</updated>
+  <updated>2025-04-16T11:31:01.615546-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,5 +163,41 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.1.0...V1.1.1&lt;/p&gt;</content>
     <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Casvt/Kapowarr/releases/tag/V1.2.0</id>
+    <title>New release for Kapowarr: V1.2.0</title>
+    <updated>2025-04-16T10:55:28-04:00</updated>
+    <author>
+      <name>Casvt/Kapowarr</name>
+    </author>
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Support for multiple concurrent direct downloads (#200)&lt;/li&gt;
+&lt;li&gt;Next download starts while current download is importing&lt;/li&gt;
+&lt;li&gt;Support for reordering the downloads in the queue (#233)&lt;/li&gt;
+&lt;li&gt;Instant cancellation of downloads&lt;/li&gt;
+&lt;li&gt;Added support for multiple credentials per source&lt;/li&gt;
+&lt;li&gt;Added support for Pixeldrain account credentials (#214)&lt;/li&gt;
+&lt;li&gt;Add support for downloading Mega folders (#213)&lt;/li&gt;
+&lt;li&gt;Added failed torrent timeout setting (#211)&lt;/li&gt;
+&lt;li&gt;Added "Monitor New Issues" per-volume setting&lt;/li&gt;
+&lt;li&gt;Added ability to apply monitoring scheme at any point&lt;/li&gt;
+&lt;li&gt;Improved concurrency support and speed of file scanning &lt;/li&gt;
+&lt;li&gt;Added ability to search for CV IDs in library (just like when adding a volume)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Forced downloads are renamed (#232)&lt;/li&gt;
+&lt;li&gt;Name files without issue title if the title messes up the matching algorithm&lt;/li&gt;
+&lt;li&gt;Fixed fetching posters with more than 1000 volumes&lt;/li&gt;
+&lt;li&gt;Fixed renaming a root folder using Kapowarr&lt;/li&gt;
+&lt;li&gt;Root folder is created if it doesn't exist anymore&lt;/li&gt;
+&lt;li&gt;Support for renaming root folder to parent or child of current folder&lt;/li&gt;
+&lt;li&gt;Improved conversion/extraction settings' names and descriptions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Casvt/Kapowarr/compare/V1.1.1...V1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/Casvt/Kapowarr/releases/tag/V1.2.0" rel="alternate"/>
   </entry>
 </feed>
