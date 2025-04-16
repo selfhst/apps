@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CryptPad Releases</title>
-  <updated>2025-04-16T12:32:39.992726-04:00</updated>
+  <updated>2025-04-16T13:32:37.441276-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -354,6 +354,12 @@ npm run install:components&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;With this release we introduce &lt;code&gt;www/common/worker.bundle.min.js&lt;/code&gt; which contains all code for the  Shared Worker (thread common to all your CryptPad tabs) in a single built and minified file. &lt;/p&gt;
 &lt;p&gt;You can build this file yourself with &lt;code&gt;npm run api&lt;/code&gt; before restarting the server.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You must install the dev dependencies from npm if you want to build this command (don't use the &lt;code&gt;--production&lt;/code&gt; flag)&lt;/p&gt;
+&lt;h3&gt;(Optional) Update the SSO plugin&lt;/h3&gt;
+&lt;p&gt;We released a new update of the &lt;a href="https://github.com/cryptpad/sso/releases/tag/0.2.0"&gt;SSO plugin&lt;/a&gt;, settings can now be managed from the admin panel user interface.&lt;/p&gt;
+&lt;p&gt;If you are using the plugin, update it by following the instructions below:
+&lt;code&gt;cd lib/plugins/sso
+git fetch --depth 1 origin tag 0.2.0
+git checkout 0.2.0&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Contributors&lt;/h2&gt;
 &lt;p&gt;Community: @jfly, @nisbet-hubbard&lt;/p&gt;
 &lt;p&gt;Alumni: @ansuz&lt;/p&gt;

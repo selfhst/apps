@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EspoCRM Releases</title>
-  <updated>2025-04-16T12:34:36.509391-04:00</updated>
+  <updated>2025-04-16T13:34:33.786985-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -50,7 +50,10 @@
     <author>
       <name>espocrm/espocrm</name>
     </author>
-    <content>&lt;p&gt;Issues: https://github.com/espocrm/espocrm/milestone/212?closed=1&lt;/p&gt;</content>
+    <content>&lt;p&gt;Issues: https://github.com/espocrm/espocrm/milestone/212?closed=1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2025-32789 fixed.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/espocrm/espocrm/releases/tag/9.0.7" rel="alternate"/>
   </entry>
   <entry>
