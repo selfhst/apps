@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-17T13:35:27.583782-04:00</updated>
+  <updated>2025-04-17T14:35:50.862997-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,7 +113,7 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - Using option "Limit dimensions" caused processing of HEIC image to stop.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Known issues&lt;/strong&gt;
 - Minimum value for "Limit dimensions" when using HEIC images is 50px. This will be fixed in a future release.
-- HEIC conversion seems to only work on MacOS at the moment. &lt;/p&gt;
+- HEIC conversion seems to only work on macOS at the moment. &lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt; (&lt;a href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0"&gt;see full release notes&lt;/a&gt;)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -140,7 +140,7 @@ Starting from the next release, if you are running on old cache, you’ll see a 
     <content>&lt;p&gt;These hotfixes address issues introduced in the &lt;code&gt;v1.1.0&lt;/code&gt; release and later.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
 - Proper support for HEIC file conversion, now working on Windows and Ubuntu (and other Linux distros). https://github.com/civilblur/mazanoke/issues/4 https://github.com/civilblur/mazanoke/issues/18 
-  - This address the issue from &lt;code&gt;v1.1.2&lt;/code&gt; where HEIC compression was only possible on MacOS.
+  - This addresses the issue from &lt;code&gt;v1.1.2&lt;/code&gt; where HEIC compression only worked on macOS.
 - Uploading the same file via "Browse" would only process the first file.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt; (&lt;a href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0"&gt;see full release notes&lt;/a&gt;)&lt;/p&gt;
