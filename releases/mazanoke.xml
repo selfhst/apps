@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-17T06:35:14.993423-04:00</updated>
+  <updated>2025-04-17T07:35:17.306097-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -55,5 +55,48 @@
 - Fixed issue where thumbnails displayed at full resolution, degrading performance for large batches.
 - Non-supported file types are now rejected.&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.1.0</id>
+    <title>New release for Mazanoke: </title>
+    <updated>2025-04-17T06:41:09-04:00</updated>
+    <author>
+      <name>civilblur/mazanoke</name>
+    </author>
+    <content>&lt;p&gt;I'm delighted to present some much-requested and quality-of-life features in this release, including support for HEIC file conversion!&lt;/p&gt;
+&lt;p&gt;The support from the community has been incredibly encouraging, and with over 4600 docker pulls, the project is now humbly making its way toward a 500 stars milestone.&lt;/p&gt;
+&lt;p&gt;I'd also like to take this opportunity to thank &lt;a href="https://github.com/jghaanstra"&gt;@jghaanstra&lt;/a&gt; for being the first to support the project with a donation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+After installing this update, please clear page cache and refresh the page.
+Starting from the next release, if you are running on old cache, you’ll see a notice to refresh the page.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Highlights&lt;/strong&gt;
+- Support conversion from &lt;code&gt;HEIC&lt;/code&gt;(&lt;code&gt;HEIF&lt;/code&gt;), &lt;code&gt;AVIF&lt;/code&gt; → &lt;code&gt;JPG&lt;/code&gt;, &lt;code&gt;PNG&lt;/code&gt;, &lt;code&gt;WebP&lt;/code&gt;. https://github.com/civilblur/mazanoke/issues/4
+- Paste image/files from clipboard to start optimization (on desktop). https://github.com/civilblur/mazanoke/issues/10
+  - Firefox-based browsers only process one file from the clipboard due to a limitation.
+- When setting a file size limit, you can switch between units MB and KB. https://github.com/civilblur/mazanoke/issues/8
+- Remember last-used settings.
+  - Stored locally in the browser, restored them when revisiting the app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhancements&lt;/strong&gt;
+- Added button to install MAZANOKE as a web app, opposed to needing to use the browser interface.
+  - &lt;a href="https://github.com/civilblur/mazanoke/blob/main/docs/install-web-app.md"&gt;View more details on how to install web apps.&lt;/a&gt;
+- Display update notice to refresh the page when the app is running an old version. 
+  - For docker deployments, the app version number is available at the bottom of the page.
+  - As stated in the "Note" at the top, these changes won't apply until you do a full refresh of the page.
+- Optimized image file sizes below 1MB are shown in KB, e.g. "42KB" instead of "0.042MB".
+- Number fields increments with more appropriate steps.
+- Form validation improved to prevent inserting values exceeding what is supported by the app.
+- Set default quality level to 80%, previously set to 90%. https://github.com/civilblur/mazanoke/issues/13
+- Docker support for ARM 64bit. (Please report back any issue in https://github.com/civilblur/mazanoke/issues/17)
+- Major codebase refactoring for maintainability.
+- Minor UI updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- The counter for the "Images" section did not properly reset after deleting all images. https://github.com/civilblur/mazanoke/issues/14
+- The quality slider bar and thumb elements could go out of sync when a non-number value was inserted into the number field https://github.com/civilblur/mazanoke/commit/b2a5b7f4309bb94781c1420e6f879fd229ebaf91
+- The script (JSZip) for downloading all images was not cached for offline usage. https://github.com/civilblur/mazanoke/commit/a28fc59ad1fda110a9a6b364d3b62224a195fecc
+- Image dimensions could shrink when using "Limit file size" option, even if "Keep original dimensions" option was selected. https://github.com/civilblur/mazanoke/commit/a63f508fdc252d99e7c968436e891e837d8b63e4
+- In rare occasions, the input fields would be invisible during the start of page load. https://github.com/civilblur/mazanoke/commit/45664e5137c1250be436a915510e898743b97b4f&lt;/p&gt;</content>
+    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
