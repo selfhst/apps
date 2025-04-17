@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2025-04-17T16:32:55.207213-04:00</updated>
+  <updated>2025-04-17T17:32:55.517442-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -424,6 +424,7 @@ This version is focused on bug fixes and improvements rather than new features. 
     <content>&lt;p&gt;This release is a bit earlier than usual, but we created this new release because of &lt;a href="https://docs.joinmbin.org/admin/installation/docker"&gt;our new Docker setup&lt;/a&gt; 🚢.&lt;/p&gt;
 &lt;p&gt;For bare metal deployments have &lt;strong&gt;no&lt;/strong&gt; backwards incompatible changes. So upgrading is easy for bare metal.&lt;/p&gt;
 &lt;p&gt;However, if you were running the &lt;strong&gt;Docker setup&lt;/strong&gt; before, this release is important to you. Take note and follow the upgrade instructions carefully for Docker!&lt;/p&gt;
+&lt;p&gt;And.. we fixed some bugs as well :)&lt;/p&gt;
 &lt;p&gt;Comparison to previous stable version v1.8.1 (Docker related mainly):&lt;/p&gt;
 &lt;p&gt;| DB migrations            | New ENV vars            | Admin guide changes      | Suggest cache clearing  | New dependencies        |
 | :----------------------: | :---------------------: | :----------------------: | :---------------------: | :---------------------: |
