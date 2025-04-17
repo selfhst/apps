@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2025-04-17T17:32:55.517442-04:00</updated>
+  <updated>2025-04-17T18:32:52.561661-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -431,6 +431,7 @@ This version is focused on bug fixes and improvements rather than new features. 
 |  :x:  | :ballot_box_with_check: |  :ballot_box_with_check: | :ballot_box_with_check: | :ballot_box_with_check: |&lt;/p&gt;
 &lt;h2&gt;Upgrade Instructions&lt;/h2&gt;
 &lt;h3&gt;For Docker&lt;/h3&gt;
+&lt;h4&gt;Changes to Docker setup&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/MbinOrg/mbin/blob/main/.env.example_docker"&gt;Additional &lt;code&gt;.env&lt;/code&gt; variables&lt;/a&gt; are now required in the new Docker setup. Mainly these two variable names:&lt;/li&gt;
 &lt;/ul&gt;
@@ -445,26 +446,64 @@ This version is focused on bug fixes and improvements rather than new features. 
 &lt;li&gt;Meaning the published Docker image is now also changed!&lt;/li&gt;
 &lt;li&gt;Updated &lt;a href="https://github.com/MbinOrg/mbin/blob/main/compose.yaml"&gt;composer.yaml&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Updated &lt;code&gt;compose.override.yaml&lt;/code&gt;, see also: https://docs.joinmbin.org/admin/installation/docker#docker-image-preparation&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker/storage&lt;/code&gt; is moved to just: &lt;code&gt;storage/&lt;/code&gt;  (including OAuth keys) on the root.&lt;/li&gt;
+&lt;li&gt;And the &lt;code&gt;.env&lt;/code&gt; and &lt;code&gt;compose.*&lt;/code&gt; files are also moved to the root directory.&lt;/li&gt;
 &lt;li&gt;There is no &lt;code&gt;www&lt;/code&gt; service anymore&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;db&lt;/code&gt; container service is renamed to &lt;code&gt;postgres&lt;/code&gt; service. So update your &lt;code&gt;.env&lt;/code&gt; accordingly as well to use postgres has the name in &lt;code&gt;DATABASE_URL&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Moved from Redis to Valkey, so the new service name is now also called &lt;code&gt;valkey&lt;/code&gt; instead of &lt;code&gt;redis&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;PostgreSQL is updated in Docker to use PostgreSQL v17 by default now.&lt;/li&gt;
-&lt;li&gt;The new Docker setup (with &lt;a href="https://frankenphp.dev/"&gt;frankenphp&lt;/a&gt; and Caddy) can now be used directly as your main reverse proxy (including TLS certificate). NO need for Nginx anymore.&lt;/li&gt;
+&lt;li&gt;Include a Valkey config with recommended default.&lt;/li&gt;
+&lt;li&gt;The default PostgresSQL version has been bumped to &lt;code&gt;17&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The new Docker setup (with &lt;a href="https://frankenphp.dev/"&gt;frankenphp&lt;/a&gt; and Caddy) can now be used directly as your main reverse proxy (including TLS certificate for HTTPS). NO need for Nginx anymore.&lt;/li&gt;
+&lt;li&gt;RabbitMQ now correctly persists data.&lt;/li&gt;
+&lt;li&gt;All containers are now set up to work with non-root users.&lt;/li&gt;
+&lt;li&gt;There's a new bash script (&lt;code&gt;./docker/setup.sh&lt;/code&gt;) that automates the setup of the docker environment.&lt;/li&gt;
+&lt;li&gt;The default user for all services has changed from &lt;code&gt;kbin&lt;/code&gt; to &lt;code&gt;mbin&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Automatically enable the S3 FS adapter when an &lt;code&gt;S3_KEY&lt;/code&gt; is provided.&lt;/li&gt;
+&lt;li&gt;Enable permanent image redirect responses (&lt;code&gt;301&lt;/code&gt; status code) by default.&lt;/li&gt;
+&lt;li&gt;Includes a development server, making contributing / development much easier.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;Migration Guide&lt;/h4&gt;
+&lt;p&gt;Use these steps to migrate from the old Docker setup to this one. The big thing to keep in mind is that all your server data is now in one of three locations: &lt;code&gt;.env&lt;/code&gt;, &lt;code&gt;compose.override.yaml&lt;/code&gt;, and &lt;code&gt;storage/&lt;/code&gt;. So, all server data will be going under here from now on.&lt;/p&gt;
+&lt;p&gt;Additionally, this new setup &lt;strong&gt;does not require a reverse proxy&lt;/strong&gt; (and actually recommends not using one), as the PHP server it's using comes with &lt;strong&gt;built-in HTTPS support&lt;/strong&gt; via Let's Encrypt and Caddy. You will need to ensure ports &lt;code&gt;80&lt;/code&gt; and &lt;code&gt;443&lt;/code&gt; are directly exposed and available on your server in order for this migration guide to work.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Keep your old Mbin directory for now; just create a new one by cloning Mbin again (&lt;code&gt;git clone https://github.com/MbinOrg/mbin.git&lt;/code&gt;)! I'll reference &lt;code&gt;old&lt;/code&gt; as your old Mbin directory and &lt;code&gt;new&lt;/code&gt; as your new one.&lt;/li&gt;
+&lt;li&gt;Run the auto setup script in &lt;code&gt;new&lt;/code&gt; (with this docker branch of course): &lt;code&gt;./docker/setup.sh prod DOMAINHERE&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;docker compose down&lt;/code&gt; in &lt;code&gt;old/docker&lt;/code&gt; if you haven't already.&lt;/li&gt;
+&lt;li&gt;Copy your Postgres database from &lt;code&gt;old/docker/storage/postgres&lt;/code&gt; to &lt;code&gt;new/storage/postgres&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Copy your media files from &lt;code&gt;old/docker/storage/media&lt;/code&gt; to &lt;code&gt;new/storage/media&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Copy your OAuth keys from &lt;code&gt;old/config/oauth2&lt;/code&gt; to &lt;code&gt;new/storage/oauth&lt;/code&gt; (both &lt;code&gt;private.pem&lt;/code&gt; and &lt;code&gt;public.pem&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Open &lt;code&gt;old/docker/.env&lt;/code&gt; and &lt;code&gt;new/.env&lt;/code&gt; side by side so you can copy values from the old &lt;code&gt;.env&lt;/code&gt; file to the new one as needed.&lt;/li&gt;
+&lt;li&gt;You'll want to copy over most &lt;code&gt;.env&lt;/code&gt; values, including &lt;code&gt;KBIN_*&lt;/code&gt;, &lt;code&gt;MBIN_*&lt;/code&gt;, &lt;code&gt;MAX_IMAGE_BYTES&lt;/code&gt;, &lt;code&gt;HCAPTCHA_*&lt;/code&gt;, &lt;code&gt;S3_*&lt;/code&gt;, the SSO fields, &lt;code&gt;EXIF_*&lt;/code&gt;, &lt;code&gt;APP_SECRET&lt;/code&gt;, &lt;code&gt;POSTGRES_*&lt;/code&gt;, &lt;code&gt;MAILER_DSN&lt;/code&gt;, &lt;code&gt;MERCURE_JWT_SECRET&lt;/code&gt;, &lt;code&gt;OAUTH_PASSPHRASE&lt;/code&gt;, and &lt;code&gt;OAUTH_ENCRYPTION_KEY&lt;/code&gt;. Everything else, you can leave alone; feel free to ask if you have any questions about this.&lt;/li&gt;
+&lt;li&gt;Now that non-root containers are supported, you'll have to update the permissions of the files in &lt;code&gt;new/storage/&lt;/code&gt; to match &lt;code&gt;MBIN_USER&lt;/code&gt; in &lt;code&gt;.env&lt;/code&gt;. Run &lt;code&gt;chown -R 1000:1000 new/storage/&lt;/code&gt; if your &lt;code&gt;MBIN_USER&lt;/code&gt; is &lt;code&gt;1000:1000&lt;/code&gt;. Running the new setup under root has not been tested yet, but you will likely not need to change any file permissions if you were running as root previously.&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;new/compose.override.yaml&lt;/code&gt;, uncomment the section that enables you to build the Docker image locally.&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;new&lt;/code&gt;, run &lt;code&gt;docker compose up -d&lt;/code&gt; to build and start the Docker containers.&lt;/li&gt;
+&lt;li&gt;If all goes well, then you should be able to access your Mbin instance from your domain!&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;And of course finally :&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Get the official image from ghrc.io (v1.8.2 is the first version that delivers this new docker setup) or checkout the code and build it locally by &lt;a href="https://docs.joinmbin.org/admin/installation/docker#build-your-own-image"&gt;overriding the &lt;code&gt;pull_policy&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Stop all containers &lt;code&gt;docker compose down&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Start all containers &lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h4&gt;Quick Start Guide&lt;/h4&gt;
+&lt;p&gt;Use these steps to install Mbin on a new server. It is assumed that docker is already installed and set up.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone Mbin and change directories: &lt;code&gt;git clone https://github.com/MbinOrg/mbin.git &amp;amp;&amp;amp; cd mbin&lt;/code&gt; (make sure to switch to this docker branch).&lt;/li&gt;
+&lt;li&gt;Run the auto setup script: &lt;code&gt;./docker/setup.sh prod DOMAINHERE&lt;/code&gt; (use &lt;code&gt;localhost&lt;/code&gt; for the domain if you want to test locally).&lt;/li&gt;
+&lt;li&gt;Optionally configure SMTP, hCaptcha, S3, and/or SSO in &lt;code&gt;.env&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;docker build -t mbin -f docker/Dockerfile .&lt;/code&gt; to build the Docker image.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;docker compose up -d&lt;/code&gt; to start the Docker containers.&lt;/li&gt;
+&lt;li&gt;Assuming your DNS and firewall (ports &lt;code&gt;80&lt;/code&gt; and &lt;code&gt;443&lt;/code&gt; allowed) are correctly configured, then you should be able to access your new Mbin instance from your domain (or &lt;a href="https://localhost/"&gt;https://localhost_&lt;/a&gt; if you used &lt;code&gt;localhost&lt;/code&gt;)!&lt;/li&gt;
+&lt;li&gt;Don't forget to follow the &lt;a href="https://docs.joinmbin.org/admin/running-mbin/first_setup"&gt;Mbin first setup&lt;/a&gt; instructions!&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;For Bare Metal&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Login as the mbin/kbin user: &lt;code&gt;su mbin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Go to your repo &lt;code&gt;cd /var/www/mbin&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.8.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get the new release: &lt;code&gt;git fetch &amp;amp;&amp;amp; git checkout v1.8.2&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Run the update script: &lt;code&gt;bash bin/post-upgrade&lt;/code&gt;. &lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;exit&lt;/code&gt; so we are back at the root user (or put a &lt;code&gt;sudo&lt;/code&gt; in front of &lt;strong&gt;every&lt;/strong&gt; command)&lt;/li&gt;
-&lt;li&gt;Clear your OPcache by reloading php fpm &lt;code&gt;systemctl restart php8.3-fpm&lt;/code&gt; (or restart &lt;code&gt;php8.2-fpm&lt;/code&gt; in case of PHP 8.2)&lt;/li&gt;
+&lt;li&gt;Clear your OPcache by reloading php fpm &lt;code&gt;systemctl restart php8.4-fpm&lt;/code&gt; (or restart &lt;code&gt;php8.2-fpm&lt;/code&gt; in case of PHP 8.2)&lt;/li&gt;
 &lt;li&gt;Optional: Flush your Redis DB by running &lt;code&gt;redis-cli&lt;/code&gt;, type in &lt;code&gt;AUTH [YOUR PASSWORD]&lt;/code&gt; and then &lt;code&gt;FLUSHDB&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Restart the messengers: &lt;code&gt;supervisorctl restart messenger:*&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
