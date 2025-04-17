@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-17T08:35:16.848241-04:00</updated>
+  <updated>2025-04-17T09:35:27.035569-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,17 +100,20 @@ Starting from the next release, if you are running on old cache, you’ll see a 
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.1.1</id>
+    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.1.2</id>
     <title>New release for Mazanoke: </title>
-    <updated>2025-04-17T08:16:18-04:00</updated>
+    <updated>2025-04-17T08:46:00-04:00</updated>
     <author>
       <name>civilblur/mazanoke</name>
     </author>
     <content>&lt;p&gt;Quick fix and some temporary bandaids for HEIC images not being processed. &lt;/p&gt;
+&lt;p&gt;The previous &lt;code&gt;v1.1.1&lt;/code&gt; was removed due to improper handling of the HEIC decoding process.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
-- HEIC files were rejected and not selectable in file browser. https://github.com/civilblur/mazanoke/issues/18&lt;/p&gt;
+- HEIC files were rejected and not selectable in file browser. https://github.com/civilblur/mazanoke/issues/18
+- Using option "Limit dimensions" caused processing of HEIC image to stop.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Known issues&lt;/strong&gt;
-- "Limit dimensions" options currently doesn't affect HEIC images.&lt;/p&gt;
+- Minimum value for "Limit dimensions" when using HEIC images is 50px. This will be fixed in the next release.
+- HEIC conversion seems to only work on MacOS at the moment. &lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -125,6 +128,6 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - When setting a file size limit, you can switch between units MB and KB. https://github.com/civilblur/mazanoke/issues/8
 - Remember last-used settings.
   - Stored locally in the browser, restored them when revisiting the app.&lt;/p&gt;</content>
-    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.1" rel="alternate"/>
+    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.2" rel="alternate"/>
   </entry>
 </feed>

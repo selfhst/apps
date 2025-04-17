@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-04-17T08:31:58.862749-04:00</updated>
+  <updated>2025-04-17T09:31:59.574283-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,6 +132,7 @@
 &lt;li&gt;Fixed a bug where Undo didn't work in the row detail page&lt;/li&gt;
 &lt;li&gt;Fixed an issue where blocks didn't grow when the grid got bigger&lt;/li&gt;
 &lt;li&gt;Fixed several bugs related to AI writers&lt;/li&gt;
+&lt;li&gt;Fixed an issue where creating a new item in a select field collapsed manually resized columns in a grid&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Mobile&lt;/h3&gt;
 &lt;h4&gt;New Features&lt;/h4&gt;
@@ -141,7 +142,7 @@
 &lt;h4&gt;Bug Fixes&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue where the slash menu sometimes failed to display&lt;/li&gt;
-&lt;li&gt;Updated the mention page block to handle page selection with more context.&lt;/li&gt;
+&lt;li&gt;Updated the mention page block to handle page selection with more context&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.8.9" rel="alternate"/>
   </entry>
