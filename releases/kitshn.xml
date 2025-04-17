@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kitshn Releases</title>
-  <updated>2025-04-17T11:34:22.115306-04:00</updated>
+  <updated>2025-04-17T13:34:28.635086-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,5 +95,38 @@ Welp, &lt;strong&gt;kitshn v1.0.0&lt;/strong&gt; wasn't the &lt;strong&gt;final 
 &lt;li&gt;l10n(Italian): added translation using Weblate&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/aimok04/kitshn/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/aimok04/kitshn/releases/tag/v1.2.0</id>
+    <title>New release for Kitshn: v1.2.0</title>
+    <updated>2025-04-17T12:28:41-04:00</updated>
+    <author>
+      <name>aimok04/kitshn</name>
+    </author>
+    <content>&lt;p&gt;Hey ✌️
+This release adds &lt;strong&gt;some changes&lt;/strong&gt; from the &lt;strong&gt;beta&lt;/strong&gt; that I decided to &lt;strong&gt;implement for v1&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Implemented &lt;strong&gt;fractional servings&lt;/strong&gt; for &lt;strong&gt;meal plans&lt;/strong&gt; (#168).&lt;/li&gt;
+&lt;li&gt;Added support to display &lt;strong&gt;hours&lt;/strong&gt; in duration chips (#173).&lt;/li&gt;
+&lt;li&gt;Implemented &lt;strong&gt;shortcuts&lt;/strong&gt; for &lt;em&gt;meal plan, shopping, shopping mode&lt;/em&gt; and &lt;em&gt;books&lt;/em&gt; on Android (#164).&lt;/li&gt;
+&lt;li&gt;Fixed &lt;strong&gt;food name&lt;/strong&gt; cell width being &lt;strong&gt;too low&lt;/strong&gt; in some scenarios (#166).&lt;/li&gt;
+&lt;li&gt;Fixed &lt;strong&gt;ingredients&lt;/strong&gt; appearing as &lt;strong&gt;duplicates&lt;/strong&gt; when unchecking items in &lt;strong&gt;ingredient allocation dialog&lt;/strong&gt; (#174).&lt;/li&gt;
+&lt;li&gt;🇳🇱 &lt;strong&gt;Dutch&lt;/strong&gt; has been brought &lt;strong&gt;up to date&lt;/strong&gt; on &lt;strong&gt;&lt;a href="https://hosted.weblate.org/projects/kitshn"&gt;Weblate&lt;/a&gt;&lt;/strong&gt; (by @jstrvr).&lt;/li&gt;
+&lt;li&gt;🇫🇷 &lt;strong&gt;French&lt;/strong&gt; has been brought &lt;strong&gt;up to date&lt;/strong&gt; on &lt;strong&gt;&lt;a href="https://hosted.weblate.org/projects/kitshn"&gt;Weblate&lt;/a&gt;&lt;/strong&gt; (by @letroll).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(commonMain/recipes): added unified formatDuration method and support for displaying hours (#173)&lt;/li&gt;
+&lt;li&gt;feat(androidMain/shortcuts): added meal plan, shopping, shopping mode and books shortcuts (resolved #164)&lt;/li&gt;
+&lt;li&gt;feat(androidMain/shortcuts): modernized icon of new instance shortcut&lt;/li&gt;
+&lt;li&gt;feat(androidMain/acra): modernized icons in AcraCrashReportDialog&lt;/li&gt;
+&lt;li&gt;feat(commonMain/mealplan): implemented fractional servings (resolved #168)&lt;/li&gt;
+&lt;li&gt;fix(commonMain/recipes): keep food cell in ingredients table bigger (#166)&lt;/li&gt;
+&lt;li&gt;fix(commonMain/recipes): duplicate ingredients when unchecking item in RecipeIngredientAllocationDialog (#174)&lt;/li&gt;
+&lt;li&gt;l10n(French): translated using Weblate&lt;/li&gt;
+&lt;li&gt;l10n(Dutch): translated using Weblate&lt;/li&gt;
+&lt;li&gt;l10n(German): translated using Weblate&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/aimok04/kitshn/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
