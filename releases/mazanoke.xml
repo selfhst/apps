@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-17T07:35:17.306097-04:00</updated>
+  <updated>2025-04-17T08:35:16.848241-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,5 +98,33 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - Image dimensions could shrink when using "Limit file size" option, even if "Keep original dimensions" option was selected. https://github.com/civilblur/mazanoke/commit/a63f508fdc252d99e7c968436e891e837d8b63e4
 - In rare occasions, the input fields would be invisible during the start of page load. https://github.com/civilblur/mazanoke/commit/45664e5137c1250be436a915510e898743b97b4f&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.1.1</id>
+    <title>New release for Mazanoke: </title>
+    <updated>2025-04-17T08:16:18-04:00</updated>
+    <author>
+      <name>civilblur/mazanoke</name>
+    </author>
+    <content>&lt;p&gt;Quick fix and some temporary bandaids for HEIC images not being processed. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- HEIC files were rejected and not selectable in file browser. https://github.com/civilblur/mazanoke/issues/18&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Known issues&lt;/strong&gt;
+- "Limit dimensions" options currently doesn't affect HEIC images.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+After installing this update, please clear page cache and refresh the page.
+Starting from the next release, if you are running on old cache, you’ll see a notice to refresh the page.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Highlights&lt;/strong&gt;
+- Support conversion from &lt;code&gt;HEIC&lt;/code&gt;(&lt;code&gt;HEIF&lt;/code&gt;), &lt;code&gt;AVIF&lt;/code&gt; → &lt;code&gt;JPG&lt;/code&gt;, &lt;code&gt;PNG&lt;/code&gt;, &lt;code&gt;WebP&lt;/code&gt;. https://github.com/civilblur/mazanoke/issues/4
+- Paste image/files from clipboard to start optimization (on desktop). https://github.com/civilblur/mazanoke/issues/10
+  - Firefox-based browsers only process one file from the clipboard due to a limitation.
+- When setting a file size limit, you can switch between units MB and KB. https://github.com/civilblur/mazanoke/issues/8
+- Remember last-used settings.
+  - Stored locally in the browser, restored them when revisiting the app.&lt;/p&gt;</content>
+    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
