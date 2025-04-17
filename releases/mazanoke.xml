@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-17T10:35:31.439258-04:00</updated>
+  <updated>2025-04-17T11:35:21.560698-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,10 +112,10 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - HEIC files were rejected and not selectable in file browser. https://github.com/civilblur/mazanoke/issues/18
 - Using option "Limit dimensions" caused processing of HEIC image to stop.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Known issues&lt;/strong&gt;
-- Minimum value for "Limit dimensions" when using HEIC images is 50px. This will be fixed in the next release.
+- Minimum value for "Limit dimensions" when using HEIC images is 50px. This will be fixed in a future release.
 - HEIC conversion seems to only work on MacOS at the moment. &lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt; (&lt;a href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0"&gt;see full release notes&lt;/a&gt;)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 After installing this update, please clear page cache and refresh the page.
@@ -129,5 +129,33 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - Remember last-used settings.
   - Stored locally in the browser, restored them when revisiting the app.&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/civilblur/mazanoke/releases/tag/v1.1.3</id>
+    <title>New release for Mazanoke: </title>
+    <updated>2025-04-17T11:29:33-04:00</updated>
+    <author>
+      <name>civilblur/mazanoke</name>
+    </author>
+    <content>&lt;p&gt;These hotfixes address issues introduced in the &lt;code&gt;v1.1.0&lt;/code&gt; release and later.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- Proper support for HEIC file conversion, now working on Windows and Ubuntu (and other Linux distros). https://github.com/civilblur/mazanoke/issues/4 https://github.com/civilblur/mazanoke/issues/18 
+  - This address the issue from &lt;code&gt;v1.1.2&lt;/code&gt; where HEIC compression was only possible on MacOS.
+- Uploading the same file via "Browse" would only process the first file.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;From &lt;code&gt;v1.1.0&lt;/code&gt; (&lt;a href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.0"&gt;see full release notes&lt;/a&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+After installing this update, please clear page cache and refresh the page.
+Starting from the next release, if you are running on old cache, you’ll see a notice to refresh the page.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Highlights&lt;/strong&gt;
+- Support conversion from &lt;code&gt;HEIC&lt;/code&gt;(&lt;code&gt;HEIF&lt;/code&gt;), &lt;code&gt;AVIF&lt;/code&gt; → &lt;code&gt;JPG&lt;/code&gt;, &lt;code&gt;PNG&lt;/code&gt;, &lt;code&gt;WebP&lt;/code&gt;. https://github.com/civilblur/mazanoke/issues/4
+- Paste image/files from clipboard to start optimization (on desktop). https://github.com/civilblur/mazanoke/issues/10
+  - Firefox-based browsers only process one file from the clipboard due to a limitation.
+- When setting a file size limit, you can switch between units MB and KB. https://github.com/civilblur/mazanoke/issues/8
+- Remember last-used settings.
+  - Stored locally in the browser, restored them when revisiting the app.&lt;/p&gt;</content>
+    <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.3" rel="alternate"/>
   </entry>
 </feed>
