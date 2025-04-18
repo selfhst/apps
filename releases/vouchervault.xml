@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-04-18T05:34:01.194181-04:00</updated>
+  <updated>2025-04-18T06:33:54.226185-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,7 @@ The switch is necessary, as Clearbit's free logo API will be deprecated at the e
 
 ### Bug Fixes
 
-* **deps:** bump duango and celery-beat ([34a96ce](https://github.com/l4rm4nd/VoucherVault/commit/34a96ce2247da64cc85856d196b87ebdb552a02f))
+* **deps:** bump django and celery-beat ([34a96ce](https://github.com/l4rm4nd/VoucherVault/commit/34a96ce2247da64cc85856d196b87ebdb552a02f))
 &lt;/details&gt;</content>
     <link href="https://github.com/l4rm4nd/VoucherVault/releases/tag/v1.13.2" rel="alternate"/>
   </entry>

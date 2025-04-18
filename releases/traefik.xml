@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2025-04-18T05:31:57.658850-04:00</updated>
+  <updated>2025-04-18T06:31:53.954824-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,18 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v3.3.6&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Since &lt;code&gt;v3.3.6&lt;/code&gt;, the incoming request path is now cleaned before being used to match the router rules and sent to the backends. Any &lt;code&gt;/../&lt;/code&gt;, &lt;code&gt;/./&lt;/code&gt; or duplicate slash segments in the request path is interpreted and/or collapsed.&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href="https://doc.traefik.io/traefik/v3.3/migration/v3/#request-path-sanitization"&gt;migration guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[k8s/gatewayapi]&lt;/strong&gt; Fix Kubernetes Gateway statusAddress documentation (&lt;a href="https://github.com/traefik/traefik/pull/11663"&gt;#11663&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- &lt;strong&gt;[tracing]&lt;/strong&gt; Document how to pass multiple Headers on tracing with CLI (&lt;a href="https://github.com/traefik/traefik/pull/11665"&gt;#11665&lt;/a&gt; by &lt;a href="https://github.com/mloiseleur"&gt;mloiseleur&lt;/a&gt;)
+- Fix typos on what is Traefik docs page (&lt;a href="https://github.com/traefik/traefik/pull/11685"&gt;#11685&lt;/a&gt; by &lt;a href="https://github.com/matthewCmatt"&gt;matthewCmatt&lt;/a&gt;)
+- Update Welcome Page (&lt;a href="https://github.com/traefik/traefik/pull/11615"&gt;#11615&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+- Merge branch v2.11 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11703"&gt;#11703&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)
+- Merge branch v2.11 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11696"&gt;#11696&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Merge branch v2.11 into v3.3 (&lt;a href="https://github.com/traefik/traefik/pull/11694"&gt;#11694&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.3.6" rel="alternate"/>
   </entry>
 </feed>
