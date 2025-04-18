@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InfluxDB Releases</title>
-  <updated>2025-04-18T08:32:08.345218-04:00</updated>
+  <updated>2025-04-18T09:32:07.546180-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,10 +143,6 @@
 &lt;p&gt;Learn more via our full &lt;a href="https://docs.influxdata.com/influxdb3/core/release-notes/"&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Updates&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Catalog limits for databases, tables, and columns are now configurable&lt;ul&gt;
-&lt;li&gt;Use new &lt;code&gt;serve&lt;/code&gt; options: &lt;code&gt;--num-datbase-limit&lt;/code&gt;, &lt;code&gt;--num-table-limit&lt;/code&gt;, and &lt;code&gt;--num-columns-per-table-limit&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;TLS CA can now be set with an environment variable: &lt;code&gt;INFLUXDB3_TLS_CA&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Other general performance improvements&lt;/li&gt;
 &lt;/ul&gt;
