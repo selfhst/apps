@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Read You Releases</title>
-  <updated>2025-04-19T09:33:37.783630-04:00</updated>
+  <updated>2025-04-19T10:33:36.937186-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,11 @@
     <author>
       <name>Ashinch/ReadYou</name>
     </author>
-    <content>&lt;h2&gt;Notable changes&lt;/h2&gt;
+    <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;App could crash on devices under Android 14, to workaround this issue, please go to Settings - Color &amp;amp; style - Reading page and set the Content renderer to &lt;strong&gt;WebView&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Notable changes&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Improve the stability and performance of feed syncing&lt;/li&gt;
 &lt;li&gt;Support specifying a client certificate for mTLS auth&lt;/li&gt;
