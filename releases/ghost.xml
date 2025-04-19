@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2025-04-19T02:30:47.516205-04:00</updated>
+  <updated>2025-04-19T03:30:46.093876-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,10 +70,8 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;✨Added more social accounts to staff profiles (#22948) - Hannah Wolfe&lt;/li&gt;
-&lt;li&gt;✨Enabled staff device verification by default (#22946) - Hannah Wolfe&lt;/li&gt;
-&lt;li&gt;🎨 Updated Source to v1.5.0 - Ghost CI&lt;/li&gt;
-&lt;li&gt;🎨 Updated Casper to v5.9.0 - Ghost CI&lt;/li&gt;
+&lt;li&gt;✨ Added more social accounts to staff profiles (#22948) - Hannah Wolfe&lt;/li&gt;
+&lt;li&gt;✨ Enabled staff device verification by default (#22946) - Hannah Wolfe&lt;/li&gt;
 &lt;li&gt;🎨 Updated Source to v1.5.0 - added social links - Hannah Wolfe&lt;/li&gt;
 &lt;li&gt;🎨 Updated Casper to v5.9.0 - added social links - Hannah Wolfe&lt;/li&gt;
 &lt;/ul&gt;
