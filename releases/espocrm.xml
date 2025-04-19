@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EspoCRM Releases</title>
-  <updated>2025-04-19T04:34:24.370495-04:00</updated>
+  <updated>2025-04-19T05:34:25.484026-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -63,9 +63,7 @@
     <author>
       <name>espocrm/espocrm</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;CVE-2025-32390 fixed.&lt;/li&gt;
-&lt;/ul&gt;</content>
+    <content/>
     <link href="https://github.com/espocrm/espocrm/releases/tag/9.0.8" rel="alternate"/>
   </entry>
 </feed>
