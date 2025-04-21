@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Streamystats Releases</title>
-  <updated>2025-04-21T15:36:34.928663-04:00</updated>
+  <updated>2025-04-21T16:35:37.209037-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -211,71 +211,20 @@
 &lt;p&gt;Big new features are &lt;strong&gt;Jellystat&lt;/strong&gt; and &lt;strong&gt;Playback Reporting Plugin&lt;/strong&gt; import functions, and a &lt;strong&gt;Streamystats backup and restore&lt;/strong&gt; function! Other fixes include better error handling during sync. &lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;active sessions (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/a6d95c3c328eea12b1ed33fdc9118cc843b449b0"&gt;a6d95c3&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;activities log + series/movies split in dashboard statistics (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/db15983476a14dfdfa51a74cdc83abdc55052cf8"&gt;db15983&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;activity log (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/9904dd2f5dc303612cd3669b6e7a205f042f1a29"&gt;9904dd2&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;add release please (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/b40fdaad038c4cf296c15cd2f9815b5f87b01362"&gt;b40fdaa&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;added item watch statistics (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/165259c492e54984bf2fba566a01d636a4f4fbc5"&gt;165259c&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;arm build (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/4e626bb1bb88d2d20f808dc9c70181e081a8ba5a"&gt;4e626bb&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;arm build (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/7f2bd5ec8941078266acce564d6db9092d70ca44"&gt;7f2bd5e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;delete add server as admin (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/33c7a363991e788bdb49149723490b8300e5e9be"&gt;33c7a36&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;images (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/0480bee9dbf5a616c1ae4b7af33b337d046d35fb"&gt;0480bee&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;import data from jellystat (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/f0c39d50707310216e11a293a5a1879ab9747a6e"&gt;f0c39d5&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;import/export/backup session data from Streamystats (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/63ec9a37cb3d0e191da636f07e059b3be7847286"&gt;63ec9a3&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;item specific statistics + api endpoint for items (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/da5361d8271f3fc708d6eb2d17f6ad82bfa7ec4a"&gt;da5361d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;item specific statistics + api endpoint for items (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/26d75842821f39c7f3019ff8a82840a12640769e"&gt;26d7584&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;library stats (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/f1efa1da23e6296672d574228cb1339cb0424f26"&gt;f1efa1d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;more stats (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/3b3946b2f8ab64d33cfef854c400cc06ad3fdd83"&gt;3b3946b&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;most watched items (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/b8a2f31a6f726dbf36ef03d508bd95f6d68ee7b6"&gt;b8a2f31&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;movie/episode split for dashboard stats (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/167dc327c7773c59fe0d0cb91bc1186d37bbbae2"&gt;167dc32&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;personal stats including spider graph for genres (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/da8a66411814d0e698f20ddf1db590d8a3d1b45c"&gt;da8a664&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;playback reporting plugin import data (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/0f9489199ff2890e4296f522b289d82fef2d52ca"&gt;0f94891&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;playback reporting plugin import data (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/f72ff9a201fc708af30dcbf71714df3f1303dd4a"&gt;f72ff9a&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;posters (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/79e4acc2ea19724403fa1ebbf698a79471f2e66a"&gt;79e4acc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;pre-work for eventual tautulli import (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/7b4c946f240d25c31714a4e36e44c5276960e0ea"&gt;7b4c946&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;remove playback reporting plugin dep and use sessions instead (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/dbc43b37dba680481eca578c703cb0470606b8f6"&gt;dbc43b3&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;show active sessions on dashboard (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/fd7c4f8ea5bbedc81d8654154c823173a198fddb"&gt;fd7c4f8&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;specify libraries included on libraries page (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/d63b72cf9255b90e4f78098e1c46383441090019"&gt;d63b72c&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;total watch time for series in history table (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/95bbd3a1ca68f1e3f0a0c25692d40715b356eec3"&gt;95bbd3a&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;user longest streak (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/d3caff0de2ea1676eaa67e8be82c623097bb7f6d"&gt;d3caff0&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;watch time per hour (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/61c9903c2471ae2a7c6963090d8ec0ac051d7d96"&gt;61c9903&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;watch time per hour &lt;/li&gt;
+&lt;li&gt;jellystat import&lt;/li&gt;
+&lt;li&gt;playback reporting plugin import&lt;/li&gt;
+&lt;li&gt;streamystats backup and import settings&lt;/li&gt;
+&lt;li&gt;new version available toast&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;allow nil name by re-naming to "Untitled Item" (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/dc2a8e3c0fa544acf10a227dc2e88cbc4f318c2f"&gt;dc2a8e3&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;better docker image and entrypoint for the server (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/3668560cf83d8a97d6365f7ab701c152e07bf19b"&gt;3668560&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;better sync and cleanup (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/229be4e607975483baca238db197af0a25503306"&gt;229be4e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;convert all string fields to text to prevent truncation errors (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/ebdd46d0d675c86a3cbcf383599fd620eafcca9e"&gt;ebdd46d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;correct ids mapping from jellystat (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/b55bea911dfe41cde40551d100804332bc3591b7"&gt;b55bea9&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;create user if login before user sync (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/32c6fd996dc839842dd571adc2d3a2d522c61994"&gt;32c6fd9&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;delete and ignore duplicate playback session entries (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/1a2f9451626e9f21175fa9804b54e17d2c6e86c1"&gt;1a2f945&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;docs (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/00a9bc5ec781dcf1ded779b5b32333430f541191"&gt;00a9bc5&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;don't update version (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/c002e264d8fdc0a2faf743b1305f1704319d0125"&gt;c002e26&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;filter by type (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/24ff6308a8ef04b36540fdd4890c79071dfe2f3f"&gt;24ff630&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;handle large item requests + don't truncate text (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/4e054bc1a1986905ec6c81635422fb77f4742793"&gt;4e054bc&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;history table pagination and user scoped data (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/e184d0ed924c626fb36b0cd8e7f310fc9ba4ba30"&gt;e184d0e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;import error (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/801d168bd5829a4c0d778dfd3a36c32ad00d6fbb"&gt;801d168&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;improve jellyfin sync import by handling errors better (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/e6bc3390762b600a96881f213d6b11cc0b836f85"&gt;e6bc339&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;improve jellyfin sync reliability and error handling (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/93c35cd0e3e4cbf1eef9ffc3185c77f4eb6917ce"&gt;93c35cd&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;improve user watch streak calculation reliability (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/e62c6371e06f7e95126e25b0c4e1b0b23157fe32"&gt;e62c637&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;include season item statistics (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/118a48443084c0a8e903a97c5f30cac308256774"&gt;118a484&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;include tools version (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/174f6f72d4090744b1f297aadf425fc4235e6308"&gt;174f6f7&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Prevent duplicate item conflicts during DB batch operations (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/bda533a78d3129271153623dc63d5f836b3c64df"&gt;bda533a&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;redirect to login (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/cda9a1e581744c9af691cdecbc66d9e762a2568c"&gt;cda9a1e&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;remove old users and undefined error (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/642ea33877948b11815cf452fb7d5097230bc4ca"&gt;642ea33&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;remove references to playback activities (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/5a74bdd9c1cc5245afac881e116ac2ff658635fc"&gt;5a74bdd&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;remove references to playback_activity (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/a4583633ab5d42167590bf6b31154f2794e17de2"&gt;a458363&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;run full sync on server create (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/58b80c85753c53ad0a6636c13b3896cb3de0afc5"&gt;58b80c8&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;sanitize name and ensure name is never null (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/01729b44f1fe953aaa0ac37160dc2dd0c4d0047b"&gt;01729b4&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;skip folders (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/fc4c2e0e62d0095a889cddb8a331c8220ac0e15b"&gt;fc4c2e0&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;specify on (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/d62afdd038bebb85ceb5fe41f0db458bf809840b"&gt;d62afdd&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;specify on (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/e2b4d696ffef47589c0a0f329a0409851da56e38"&gt;e2b4d69&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;start full sync when server starts (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/5344abe8c2b993bd2dc9fe61c2ff307f5e335dd5"&gt;5344abe&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;text longer than 255chars (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/334ddc6db68e60ae3013af9a85466f3312ae4d95"&gt;334ddc6&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;unused code (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/baf100445e362ebc2b989941261617bdbda408f9"&gt;baf1004&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;version (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/92a0e9648368e3450203e9d0f5f873a4b9b6f1fe"&gt;92a0e96&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;working (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/1f9523bf1048481c77cfef2e3ba95a0f8550b9a2"&gt;1f9523b&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;working (&lt;a href="https://github.com/fredrikburmester/streamystats/commit/54f8f2a278bf8618604b3cd325883cfb46b37fd5"&gt;54f8f2a&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/fredrikburmester/streamystats/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
