@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Formbricks Releases</title>
-  <updated>2025-04-21T05:34:21.933866-04:00</updated>
+  <updated>2025-04-21T06:34:16.185996-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
   <entry>
     <id>https://github.com/formbricks/formbricks/releases/tag/v3.8.4</id>
     <title>New release for Formbricks: v3.8.4</title>
-    <updated>2025-04-18T05:26:13-04:00</updated>
+    <updated>2025-04-21T05:57:14-04:00</updated>
     <author>
       <name>formbricks/formbricks</name>
     </author>
@@ -143,6 +143,10 @@
 &lt;li&gt;fix: adds no-cache header when debug mode is ON by @pandeymangg in https://github.com/formbricks/formbricks/pull/5405&lt;/li&gt;
 &lt;li&gt;fix: managers should not be allowed to create api keys by @Dhruwang in https://github.com/formbricks/formbricks/pull/5409&lt;/li&gt;
 &lt;li&gt;fix: iOS SDK memory leaks by @victorvhs017 in https://github.com/formbricks/formbricks/pull/5388&lt;/li&gt;
+&lt;li&gt;fix: smaller fixes and tweaks by @pandeymangg in https://github.com/formbricks/formbricks/pull/5417&lt;/li&gt;
+&lt;li&gt;chore: removes formbricks_encryption_key-environment-variable by @gupta-piyush19 in https://github.com/formbricks/formbricks/pull/5426&lt;/li&gt;
+&lt;li&gt;fix: Address SonarQube code smells by @vaxi87 in https://github.com/formbricks/formbricks/pull/5416&lt;/li&gt;
+&lt;li&gt;fix: docker build error because of deprecated Github cache by @mattinannt in https://github.com/formbricks/formbricks/pull/5428&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;

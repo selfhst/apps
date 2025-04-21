@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Worklenz Releases</title>
-  <updated>2025-04-21T05:32:57.826098-04:00</updated>
+  <updated>2025-04-21T06:32:55.322475-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -62,5 +62,52 @@
     </author>
     <content/>
     <link href="https://github.com/Worklenz/worklenz/releases/tag/angular-version-legacy" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Worklenz/worklenz/releases/tag/v2.0.0</id>
+    <title>New release for Worklenz: v2.0.0</title>
+    <updated>2025-04-21T05:43:04-04:00</updated>
+    <author>
+      <name>Worklenz/worklenz</name>
+    </author>
+    <content>&lt;h3&gt;Worklenz 2.0 Release Notes&lt;/h3&gt;
+&lt;p&gt;We are excited to introduce Worklenz 2.0, packed with new features and improvements to enhance your productivity. Here’s what’s new:&lt;/p&gt;
+&lt;h4&gt;Framework Overhaul&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Angular to React&lt;/strong&gt;: Worklenz has been completely rewritten from Angular to React, utilizing Ant Design and Redux Toolkit for a more robust and scalable architecture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Redesigned Kanban Board&lt;/strong&gt;: A completely revamped design for a smoother and more intuitive task management experience.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Columns&lt;/strong&gt;: Flexibly rearrange columns to tailor your workspace to your specific needs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark Mode&lt;/strong&gt;: A new dark theme option to reduce eye strain and improve focus during extended work sessions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Language Support&lt;/strong&gt;: Added support for Portuguese and Spanish, with German and Italian coming soon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Improvements&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhanced performance for faster load times and smoother interactions.&lt;/li&gt;
+&lt;li&gt;Bug fixes and stability improvements to ensure a seamless user experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;How to Get Started&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Access the Worklenz 2.0 here.&lt;/li&gt;
+&lt;li&gt;Explore the new features and provide your feedback to help us refine the final release.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We value your input and look forward to your feedback. Let’s make Worklenz 2.0 the best version yet!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Changelog&lt;/h3&gt;
+&lt;h4&gt;Version 2.0&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New&lt;/strong&gt;: Framework overhaul from Angular to React, using Ant Design and Redux Toolkit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New&lt;/strong&gt;: Redesigned Kanban Board for improved task management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New&lt;/strong&gt;: Custom Columns to personalize your workspace.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New&lt;/strong&gt;: Dark Mode for reduced eye strain.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New&lt;/strong&gt;: Language support for Portuguese and Spanish.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved&lt;/strong&gt;: Performance enhancements for faster load times.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed&lt;/strong&gt;: Various bug fixes and stability improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Feel free to dive in and let us know what you think! Your feedback is crucial in making Worklenz 2.0 even better.&lt;/p&gt;</content>
+    <link href="https://github.com/Worklenz/worklenz/releases/tag/v2.0.0" rel="alternate"/>
   </entry>
 </feed>
