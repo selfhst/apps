@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-04-21T16:30:50.864999-04:00</updated>
+  <updated>2025-04-21T17:30:49.769738-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,7 +143,11 @@
     <author>
       <name>yusing/godoxy</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OIDC: Simplified code and partially fixed #82&lt;/li&gt;
+&lt;li&gt;Dependencies upgraded &lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.10.1" rel="alternate"/>
   </entry>
 </feed>
