@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-04-20T22:35:09.611143-04:00</updated>
+  <updated>2025-04-20T23:35:03.544037-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,7 +110,19 @@
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Release: Merge develop into master for the release v0.2.0 (#156) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Merge Develop into Master – Release v0.2.0 by @adityachandelgit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🚀 Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement similar books recommendation using metadata similarity (#145) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Transition book metadata center from dynamic dialog to routed view (#146) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Display other books from the same series on the metadata viewer page (#151) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Add toggle to enable/disable book recommendations (#152) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Move book similarity recommendation logic to scheduled background job by @adityachandelgit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix similar books not getting updated (#153) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
