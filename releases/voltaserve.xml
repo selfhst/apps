@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voltaserve Releases</title>
-  <updated>2025-04-21T12:31:48.580101-04:00</updated>
+  <updated>2025-04-21T13:31:45.894491-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -384,5 +384,24 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kouprlabs/voltaserve/compare/v3.0.1...v3.0.2&lt;/p&gt;</content>
     <link href="https://github.com/kouprlabs/voltaserve/releases/tag/v3.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kouprlabs/voltaserve/releases/tag/v3.1.0</id>
+    <title>New release for Voltaserve: v3.1.0</title>
+    <updated>2025-04-21T13:19:20-04:00</updated>
+    <author>
+      <name>kouprlabs/voltaserve</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(misc): support for Apple ecosystem by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/586&lt;/li&gt;
+&lt;li&gt;ci(misc): Docker latest tag points to latest release by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/585&lt;/li&gt;
+&lt;li&gt;feat(idp): simultaneous auth strategies by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/591&lt;/li&gt;
+&lt;li&gt;fix(idp): simultaneous auth strategies by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/592&lt;/li&gt;
+&lt;li&gt;fix(ui): Mosaic permission check by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/593&lt;/li&gt;
+&lt;li&gt;feat(misc): integrate Murph by @bouassaba in https://github.com/kouprlabs/voltaserve/pull/594&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/kouprlabs/voltaserve/compare/v3.0.2...v3.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/kouprlabs/voltaserve/releases/tag/v3.1.0" rel="alternate"/>
   </entry>
 </feed>

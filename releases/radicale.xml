@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Radicale Releases</title>
-  <updated>2025-04-21T12:31:33.504553-04:00</updated>
+  <updated>2025-04-21T13:31:30.706454-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,6 +134,10 @@
 &lt;ul&gt;
 &lt;li&gt;Fix: auth/htpasswd related to detection and use of bcrypt&lt;/li&gt;
 &lt;li&gt;Fix: location of lock file for in case of dedicated cache folder is activated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Adjustments&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjust: [auth] ldap: use _ldap_user_attr as string&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;RPMs for Enterprise Linux and Fedora: https://koji.fedoraproject.org/koji/packageinfo?packageID=16893
 (sine 3.5.0 with new sub-packages for bundled "InfCloud")&lt;/p&gt;
