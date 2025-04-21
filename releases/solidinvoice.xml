@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SolidInvoice Releases</title>
-  <updated>2025-04-21T10:35:49.087152-04:00</updated>
+  <updated>2025-04-21T11:35:46.567669-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,7 +119,7 @@
   <entry>
     <id>https://github.com/SolidInvoice/SolidInvoice/releases/tag/2.3.0</id>
     <title>New release for SolidInvoice: Release 2.3.0</title>
-    <updated>2025-04-21T09:20:22-04:00</updated>
+    <updated>2025-04-21T11:06:10-04:00</updated>
     <author>
       <name>SolidInvoice/SolidInvoice</name>
     </author>
