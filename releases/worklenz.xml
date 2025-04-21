@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Worklenz Releases</title>
-  <updated>2025-04-20T21:32:31.896617-04:00</updated>
+  <updated>2025-04-20T22:32:26.904933-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,5 +52,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Worklenz/worklenz/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/Worklenz/worklenz/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Worklenz/worklenz/releases/tag/angular-version-legacy</id>
+    <title>New release for Worklenz: worklenz-angular-version-v1.0.1</title>
+    <updated>2025-04-20T22:28:55-04:00</updated>
+    <author>
+      <name>Worklenz/worklenz</name>
+    </author>
+    <content/>
+    <link href="https://github.com/Worklenz/worklenz/releases/tag/angular-version-legacy" rel="alternate"/>
   </entry>
 </feed>
