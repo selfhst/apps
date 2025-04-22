@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-04-22T03:31:04.286932-04:00</updated>
+  <updated>2025-04-22T04:31:04.923360-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -382,7 +382,7 @@ user storage provider.&lt;/p&gt;
 &lt;div class="sect2"&gt;
 &lt;h3 id="_token_based_authentication_for_smtp_xoauth2"&gt;Token based authentication for SMTP (XOAUTH2)&lt;/h3&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;The Keycloak outgoing link:Configuring email for a realm[SMTP mail configuration] now supports token authentication (XOAUTH2).
+&lt;p&gt;The Keycloak outgoing &lt;a href="https://www.keycloak.org/docs/26.2.0/server_admin/#_email"&gt;SMTP mail configuration&lt;/a&gt; now supports token authentication (XOAUTH2).
 Many service providers (Microsoft, Google) are moving towards SMTP OAuth authentication and end the support for basic authentication.
 The token is gathered using Client Credentials Grant.&lt;/p&gt;
 &lt;/div&gt;
