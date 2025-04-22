@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-04-22T18:35:52.637216-04:00</updated>
+  <updated>2025-04-22T19:35:29.123539-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,17 +141,31 @@ This is the first release with Web UI support!&lt;/p&gt;
     <author>
       <name>openbao/openbao</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!TIP]
+This release has WebUI support!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;BUG FIXES&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;fc60d38efdba5f9ba8388eb6e347044de11f4930: Backport core deps (#1252) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;630d250252ccc771ca968f72d1e8b8fee6fa9069: Do not encode empty subproblems in ACME (#1236) (#1248) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;3ea230458f55f7bfeca577a49013cbcbe42a1142: Fix name of org-level maintainers team (#1237) (#1249) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;db2b1944ca088d73dbcbe314b2a08be5f7b85809: Fix vault/diagnose test failure (#1221) (#1247) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;af6a785b3a156b1c343d7c1ab391ee685c052331: Fix vulns (#1126) (#1245) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;91733be3109e5a5000b750939e5748433c78cfcf: Release v2.2.1 (#1255) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;f5cc129b176c93391891b2e9050f901b05ff874a: Return quoted string when -output-curl-string flag is passed #1038 (#1238) (#1250) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;17b7feff3896fb4dd21c2845f019d1a504371052: build: update Go version and dependencies (#1209) (#1246) (@cipherboy)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;cli: Return a quoted string URL when -output-curl-string flag is passed in [&lt;a href="https://github.com/openbao/openbao/pull/1038"&gt;GH-1038&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;openbao: update modules and checksums to address vulnerabilities [&lt;a href="https://github.com/openbao/openbao/pull/1126"&gt;GH-1126&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;secrets/pki: Remove null value for subproblems encoding, fixing compatibility with certain ACME clients like certbot. [&lt;a href="https://github.com/openbao/openbao/pull/1236"&gt;GH-1236&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;&lt;summary&gt;&lt;h2&gt;What's Changed over v2.2.0&lt;/h2&gt;&lt;/summary&gt;
+
+* fc60d38efdba5f9ba8388eb6e347044de11f4930: Backport core deps (#1252) (@cipherboy)
+* 630d250252ccc771ca968f72d1e8b8fee6fa9069: Do not encode empty subproblems in ACME (#1236) (#1248) (@cipherboy)
+* 3ea230458f55f7bfeca577a49013cbcbe42a1142: Fix name of org-level maintainers team (#1237) (#1249) (@cipherboy)
+* db2b1944ca088d73dbcbe314b2a08be5f7b85809: Fix vault/diagnose test failure (#1221) (#1247) (@cipherboy)
+* af6a785b3a156b1c343d7c1ab391ee685c052331: Fix vulns (#1126) (#1245) (@cipherboy)
+* 91733be3109e5a5000b750939e5748433c78cfcf: Release v2.2.1 (#1255) (@cipherboy)
+* f5cc129b176c93391891b2e9050f901b05ff874a: Return quoted string when -output-curl-string flag is passed #1038 (#1238) (#1250) (@cipherboy)
+* 17b7feff3896fb4dd21c2845f019d1a504371052: build: update Go version and dependencies (#1209) (#1246) (@cipherboy)
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Release notes&lt;/strong&gt;: https://openbao.org/docs/release-notes/2-2-0/#221
+&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/openbao/openbao/compare/v2.2.0...v2.2.1&lt;/p&gt;</content>
     <link href="https://github.com/openbao/openbao/releases/tag/v2.2.1" rel="alternate"/>
   </entry>
 </feed>
