@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-04-23T13:30:57.072336-04:00</updated>
+  <updated>2025-04-23T14:30:59.980531-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,6 +177,10 @@
     </author>
     <content>&lt;h1&gt;v1.132.0&lt;/h1&gt;
 &lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+We are now using Valkey's image for the Redis service in the default docker-compose.yml template. This is not a required change. If you wish to use it, you can download the &lt;code&gt;docker-compose.yml&lt;/code&gt; file at the bottom of the release notes and replace the redis image with the new one.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Welcome to version &lt;code&gt;v1.132.0&lt;/code&gt; of Immich. &lt;/p&gt;
 &lt;p&gt;This release marks an exciting milestone, inching one step closer to the stable release. The server no longer relies on TypeORM (database object-relational mapping); from this point forward, we utilize our own schema and migration management tool, integrated with Kysely. Related, the mobile app will also begin to use a new database, SQLite. Over the next few releases, we plan to roll out a new, efficient sync implementation using SQLite, which should improve startup time and reduce jankiness, especially when working with large media collections. &lt;/p&gt;
 &lt;p&gt;In addition to the two milestones mentioned above, this release also features new enhancements, bug fixes, and other notable additions. Please see the highlights below.&lt;/p&gt;
