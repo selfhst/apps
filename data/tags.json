@@ -2,8 +2,8 @@
     {
         "Tag": "*arr",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -77,8 +77,8 @@
     {
         "Tag": "Artificial Intelligence",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -131,15 +131,15 @@
     {
         "Tag": "Budgeting",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
         "Tag": "CalDAV/CarDAV",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -279,8 +279,8 @@
     {
         "Tag": "Docker",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -888,8 +888,8 @@
     {
         "Tag": "Server Management",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -932,8 +932,8 @@
     {
         "Tag": "Statistics",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -1000,8 +1000,8 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Companion",
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -1093,8 +1093,8 @@
     {
         "Tag": "Videos",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
@@ -1130,8 +1130,8 @@
     {
         "Tag": "Web Analytics",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
