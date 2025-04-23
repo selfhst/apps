@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-04-23T10:31:25.378107-04:00</updated>
+  <updated>2025-04-23T11:31:25.021177-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -47,6 +47,10 @@
       <name>paperless-ngx/paperless-ngx</name>
     </author>
     <content>&lt;h2&gt;paperless-ngx 2.15.0&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+Paperless-ngx v2.15.0 introduces a &lt;a href="#9218"&gt;new webserver&lt;/a&gt; to Paperless-ngx, which should be completely seamless for most users but may require updating systemd services (updated versions included in the release archive) in bare-metal installations or if you have customized the no-longer used gunicorn configuration file.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Enhancement: allow webUI first account signup @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9500"&gt;#9500&lt;/a&gt;)&lt;/li&gt;
