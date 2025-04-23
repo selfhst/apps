@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2025-04-22T20:31:26.966772-04:00</updated>
+  <updated>2025-04-22T21:31:25.759189-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,7 @@
 &lt;li&gt;It's not possible to add Podman environments via socket, when running a Portainer server on Docker (and vice versa)&lt;/li&gt;
 &lt;li&gt;Support for only CentOS 9, Podman 5 rootful&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New in this Release:&lt;/h2&gt;
+&lt;h2&gt;Changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue on the namespace creation view when fetching services from an empty namespace&lt;/li&gt;
 &lt;li&gt;Resolved the following CVEs:&lt;ul&gt;
