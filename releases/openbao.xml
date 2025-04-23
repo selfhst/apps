@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-04-23T06:35:46.925109-04:00</updated>
+  <updated>2025-04-23T07:42:45.594967-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,13 +154,13 @@ This release has WebUI support!&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;&lt;h2&gt;What's Changed over v2.2.0&lt;/h2&gt;&lt;/summary&gt;
 
 * fc60d38efdba5f9ba8388eb6e347044de11f4930: Backport core deps (#1252) (@cipherboy)
-* 630d250252ccc771ca968f72d1e8b8fee6fa9069: Do not encode empty subproblems in ACME (#1236) (#1248) (@cipherboy)
-* 3ea230458f55f7bfeca577a49013cbcbe42a1142: Fix name of org-level maintainers team (#1237) (#1249) (@cipherboy)
-* db2b1944ca088d73dbcbe314b2a08be5f7b85809: Fix vault/diagnose test failure (#1221) (#1247) (@cipherboy)
-* af6a785b3a156b1c343d7c1ab391ee685c052331: Fix vulns (#1126) (#1245) (@cipherboy)
+* 630d250252ccc771ca968f72d1e8b8fee6fa9069: Do not encode empty subproblems in ACME (backport of #1236 by @cipherboy) (#1248) (backported by @cipherboy)
+* 3ea230458f55f7bfeca577a49013cbcbe42a1142: Fix name of org-level maintainers team (backport of #1237 by @cipherboy) (#1249) (backported by @cipherboy)
+* db2b1944ca088d73dbcbe314b2a08be5f7b85809: Fix vault/diagnose test failure (backport of #1221 by @cipherboy and @driif) (#1247) (backported by @cipherboy)
+* af6a785b3a156b1c343d7c1ab391ee685c052331: Fix vulns (backport of #1126 by @suprjinx) (#1245) (backported by @cipherboy)
 * 91733be3109e5a5000b750939e5748433c78cfcf: Release v2.2.1 (#1255) (@cipherboy)
-* f5cc129b176c93391891b2e9050f901b05ff874a: Return quoted string when -output-curl-string flag is passed #1038 (#1238) (#1250) (@cipherboy)
-* 17b7feff3896fb4dd21c2845f019d1a504371052: build: update Go version and dependencies (#1209) (#1246) (@cipherboy)
+* f5cc129b176c93391891b2e9050f901b05ff874a: Return quoted string when -output-curl-string flag is passed #1038 (backport of #1238 by @sudhanvaghebbale) (#1250) (backported by @cipherboy)
+* 17b7feff3896fb4dd21c2845f019d1a504371052: build: update Go version and dependencies (backport of #1209 by @driif) (#1246) (backported by @cipherboy)
 
 &lt;/details&gt;
 
