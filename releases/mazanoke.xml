@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-04-23T14:36:20.135168-04:00</updated>
+  <updated>2025-04-23T15:36:00.706097-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,7 +152,7 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 - Improper handling of reading image mime type, that could potentially have caused edge cases.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;
 - Add basic overview of the project structure. (&lt;a href="https://github.com/civilblur/mazanoke/blob/42073ebee290b354d5be6ece3e4df0435a290458/docs/project-structure.md"&gt;Project Structure&lt;/a&gt;)
-- Add dependencies upgrade guide.(&lt;a href="https://github.com/civilblur/mazanoke/blob/42073ebee290b354d5be6ece3e4df0435a290458/docs/updating-dependencies.md"&gt;Updating Dependencies&lt;/a&gt;)&lt;/p&gt;</content>
+- Add dependencies upgrade guide. (&lt;a href="https://github.com/civilblur/mazanoke/blob/42073ebee290b354d5be6ece3e4df0435a290458/docs/updating-dependencies.md"&gt;Updating Dependencies&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/civilblur/mazanoke/releases/tag/v1.1.4" rel="alternate"/>
   </entry>
 </feed>
