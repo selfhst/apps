@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FluidCalendar Releases</title>
-  <updated>2025-04-24T13:35:36.147930-04:00</updated>
+  <updated>2025-04-24T14:35:32.873131-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,137 +185,44 @@
   </entry>
   <entry>
     <id>https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.4.0</id>
-    <title>New release for FluidCalendar: v1.4.0 – Major UI/UX, Calendar Sync, and Performance Improvements</title>
+    <title>New release for FluidCalendar: v1.4.0 – Task Management &amp; Calendar Sync Improvements</title>
     <updated>2025-04-24T12:20:17-04:00</updated>
     <author>
       <name>dotnetfactory/fluid-calendar</name>
     </author>
-    <content>&lt;p&gt;🚀 This release brings powerful improvements to UI, calendar &amp;amp; task sync, project management features, and overall performance. It also introduces a new Focus Mode, enhanced project mapping, and robust security updates.&lt;/p&gt;
-&lt;h3&gt;🎨 UI/UX Improvements&lt;/h3&gt;
+    <content>&lt;p&gt;🎉 This release brings improvements to task management, better calendar sync reliability, and enhanced user experience with date handling.&lt;/p&gt;
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Enhanced dark mode with improved color schemes and feedback&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Customizable task list (columns, reordering, resizing)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visual indicators for recurring &amp;amp; synced tasks&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Simplified all-day event time selection&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;New Focus Mode with full-screen and minimalist UI&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Updated navigation and layout styling&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Added visual indicators in task list view to easily identify externally synced tasks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;🔄 Calendar &amp;amp; Task Sync&lt;/h3&gt;
+&lt;h3&gt;🔄 Improvements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Bidirectional Outlook task sync&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Support for recurring tasks with “rolling single instance”&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Auto-scheduling performance boost (~59s → 1.26s for 46 tasks)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Enhanced integration with Google Calendar &amp;amp; Outlook&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed deletion issues with Google Calendar events&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Improved recurring task sync for Outlook&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🏗️ Infrastructure &amp;amp; Performance&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;BullMQ and Redis setup for background jobs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;New job processors for calendar sync, email, and reminders&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Email rate limiting: 2 emails/sec&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Token management &amp;amp; database caching enhancements&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;📊 Project Management&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Introduced project views &amp;amp; task organization&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Project sync strategies &amp;amp; schema updates&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🔒 Security &amp;amp; Auth&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Improved NextAuth config, token storage &amp;amp; refresh logic&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Access control middleware + secured Redis&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🛠️ Developer Experience&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Prettier config with import sorting + Tailwind plugins&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ESLint rules update &amp;amp; dev docs overhaul&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Better error handling and updated dependencies&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Management&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Improved "upcoming" task detection - tasks are now marked as upcoming only when scheduled for tomorrow or later&lt;/li&gt;
+&lt;li&gt;Enhanced date formatting consistency for future tasks in task views&lt;/li&gt;
+&lt;li&gt;Prevented auto-scheduling from affecting tasks that are already in progress&lt;/li&gt;
+&lt;li&gt;Added new &lt;code&gt;isFutureDate&lt;/code&gt; utility function for better date handling&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed overdue task checks and timezone bugs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Improved calendar sync stability&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Resolved linter &amp;amp; TypeScript errors&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calendar Integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Fixed Google Calendar event deletion authentication issue&lt;/li&gt;
+&lt;li&gt;Resolved Outlook recurring task synchronization problems&lt;/li&gt;
+&lt;li&gt;Fixed Caldav feed integration when dealing with integer syncTokens&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI Enhancements&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Improved all-day event creation by simplifying the UI - removed time selection when "All day" is checked&lt;/li&gt;
+&lt;li&gt;Fixed task overdue detection to properly handle today's tasks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;📚 Documentation&lt;/h3&gt;
+&lt;h3&gt;🔧 Technical Details&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Setup guides for Google/Outlook Calendar&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Docker setup and open source vs SaaS comparison&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Contributor guidelines and sync script docs&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Added userId parameter validation for Google Calendar operations&lt;/li&gt;
+&lt;li&gt;Enhanced date utility functions for more accurate future date detection&lt;/li&gt;
+&lt;li&gt;Improved task scheduling logic to respect task progress status&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;📦 Dependencies&lt;/h3&gt;
+&lt;h3&gt;📝 Notes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Next.js: 15.2.4&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;react-day-picker: 9.6.7&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Added: Prettier &amp;amp; related plugins&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Updated: Babel helpers &amp;amp; core packages&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;This release includes several improvements to external calendar synchronization - users may notice more reliable sync behavior&lt;/li&gt;
+&lt;li&gt;Task management workflows have been refined for better handling of in-progress and future tasks&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dotnetfactory/fluid-calendar/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
