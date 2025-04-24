@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Garmin Grafana Releases</title>
-  <updated>2025-04-24T07:36:04.644579-04:00</updated>
+  <updated>2025-04-24T08:36:18.462359-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -46,5 +46,40 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/garmin-grafana/compare/v0.0.1-beta...v0.0.1&lt;/p&gt;</content>
     <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.2</id>
+    <title>New release for Garmin Grafana: v0.0.2</title>
+    <updated>2025-04-24T07:39:39-04:00</updated>
+    <author>
+      <name>arpanghosh8453/garmin-grafana</name>
+    </author>
+    <content>&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for Influxdb and Victoriametrics were added (Experimental)&lt;/li&gt;
+&lt;li&gt;Documented additional ENV variables on Docker Compose and README&lt;/li&gt;
+&lt;li&gt;Fixed a critical Error on Sleep data fetching Thanks to @arturgoms (#43)&lt;/li&gt;
+&lt;li&gt;Introduced TimeZone variable on Grafana panel to ensure correct daily grouping (closing #34 and #48)&lt;/li&gt;
+&lt;li&gt;Grafana now automatically installs heatmap plugins (thanks to @yvkszk for #28)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix some typos by @j-bs in https://github.com/arpanghosh8453/garmin-grafana/pull/35&lt;/li&gt;
+&lt;li&gt;fix: support Chinese account close #42 by @yihong0618 in https://github.com/arpanghosh8453/garmin-grafana/pull/44&lt;/li&gt;
+&lt;li&gt;added USER_TIMEZONE ENV variable in docker compose example.yml by @suskozaver in https://github.com/arpanghosh8453/garmin-grafana/pull/41&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@j-bs made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/35&lt;/li&gt;
+&lt;li&gt;@yihong0618 made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/44&lt;/li&gt;
+&lt;li&gt;@suskozaver made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/41&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/garmin-grafana/compare/v0.0.1...v0.0.2&lt;/p&gt;
+&lt;h2&gt;Love this project?&lt;/h2&gt;
+&lt;p&gt;If you find this project helpful, please consider:&lt;/p&gt;
+&lt;p&gt;⭐ Starring this repository to show your support and spread the news!&lt;/p&gt;
+&lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.2" rel="alternate"/>
   </entry>
 </feed>
