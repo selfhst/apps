@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OmniTools Releases</title>
-  <updated>2025-04-23T20:35:21.017484-04:00</updated>
+  <updated>2025-04-23T21:35:27.072573-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,5 +155,68 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/iib0011/omni-tools/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/iib0011/omni-tools/releases/tag/v0.3.0</id>
+    <title>New release for OmniTools: v0.3.0</title>
+    <updated>2025-04-23T21:01:35-04:00</updated>
+    <author>
+      <name>iib0011/omni-tools</name>
+    </author>
+    <content>&lt;h2&gt;Docker images&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:0.3.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's New ?&lt;/h2&gt;
+&lt;h3&gt;UI improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dark theme&lt;/li&gt;
+&lt;li&gt;Button to go back from tool categories&lt;/li&gt;
+&lt;li&gt;Improve responsiveness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Image Tools (Moved from PNG tools - made it general)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Resize Image&lt;/li&gt;
+&lt;li&gt;Compress Image&lt;/li&gt;
+&lt;li&gt;Remove Background from Image&lt;/li&gt;
+&lt;li&gt;Crop Image&lt;/li&gt;
+&lt;li&gt;Change Image Opacity&lt;/li&gt;
+&lt;li&gt;Change Colors in Image&lt;/li&gt;
+&lt;li&gt;Create Transparent PNG&lt;/li&gt;
+&lt;li&gt;Image to Text (OCR)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;PDF Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Compress PDF&lt;/li&gt;
+&lt;li&gt;Protect PDF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CSV Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert CSV Rows to Columns&lt;/li&gt;
+&lt;li&gt;Convert CSV to TSV&lt;/li&gt;
+&lt;li&gt;Swap CSV Columns&lt;/li&gt;
+&lt;li&gt;CSV to YAML&lt;/li&gt;
+&lt;li&gt;Change CSV Separator&lt;/li&gt;
+&lt;li&gt;Find Incomplete CSV Records&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Video Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rotate Video&lt;/li&gt;
+&lt;li&gt;Compress Video&lt;/li&gt;
+&lt;li&gt;Loop Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Number &amp;amp; Calculation Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ohm's Law Calculator&lt;/li&gt;
+&lt;li&gt;Round Trip Voltage Drop in Cable&lt;/li&gt;
+&lt;li&gt;Area of a Sphere&lt;/li&gt;
+&lt;li&gt;Volume of a Sphere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other Utilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Escape JSON&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
