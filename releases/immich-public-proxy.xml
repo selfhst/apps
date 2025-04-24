@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2025-04-24T16:34:33.093884-04:00</updated>
+  <updated>2025-04-24T17:34:26.801819-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,8 +73,10 @@
     <author>
       <name>alangrainger/immich-public-proxy</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;Fix issue from Immich 1.132+ which removed album assets from the shared link #87 &lt;/li&gt;
+    <content>&lt;h2&gt;Important update&lt;/h2&gt;
+&lt;p&gt;It is critical to install this version if you're using Immich 1.132+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix issue from Immich 1.132+ which &lt;a href="https://github.com/immich-app/immich/pull/17207"&gt;removed album assets&lt;/a&gt; from the shared link #87 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.10.0" rel="alternate"/>
   </entry>
