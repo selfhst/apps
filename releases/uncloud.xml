@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-04-25T04:35:39.674249-04:00</updated>
+  <updated>2025-04-25T05:35:44.144375-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,57 @@
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Extended Docker Compose support:&lt;/strong&gt; 🎉 Added support for deploying services from Docker Compose files with volumes, environment variables, resource limits, and more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New volume management:&lt;/strong&gt; Create, list, inspect, and remove volumes across your cluster with the new &lt;code&gt;volume&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context management:&lt;/strong&gt; Switch between different cluster contexts using the new &lt;code&gt;ctx&lt;/code&gt; command.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved resource control:&lt;/strong&gt; Specify CPU, memory, and environment variables for containers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Configuration format changed from TOML to YAML&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--cluster&lt;/code&gt; flag renamed to &lt;code&gt;--context&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Revised machine placement system using &lt;code&gt;--machine&lt;/code&gt; flag instead of machine filters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Features and improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume management:&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Full volume lifecycle management with &lt;code&gt;uc volume create/ls/inspect/rm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Support for volume scheduling across machines based on service constraints&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automatic volume creation for services that need them&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Compose support:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Deploy services from Docker Compose files with &lt;code&gt;uc deploy&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Support for volume, bind, and tmpfs mounts&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Environment variables and resource constraints&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Context management:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Switch between multiple cluster contexts with &lt;code&gt;uc ctx&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Manage multiple clusters with &lt;code&gt;uc ctx ls&lt;/code&gt; and &lt;code&gt;uc ctx use&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Container improvements:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU and memory limits with &lt;code&gt;--cpu&lt;/code&gt; and &lt;code&gt;--memory&lt;/code&gt; flags&lt;/li&gt;
+&lt;li&gt;Environment variables via &lt;code&gt;-e&lt;/code&gt; flag&lt;/li&gt;
+&lt;li&gt;Container user via &lt;code&gt;-u&lt;/code&gt; flag&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Log driver configuration&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Machine management:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Support for selecting specific uncloud version during initialising (&lt;code&gt;machine init&lt;/code&gt;) or adding (&lt;code&gt;machine add&lt;/code&gt;) a new machine to the cluster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;948201cb6fe419e3ee3d67a58f66d2e3e7aef184 add VolumeScheduler with one flaky test&lt;/li&gt;
 &lt;li&gt;df4ab40e12249a8cbcbb95d3fec41af32e6a763e chore(volumes): add client methods for volume management, e2e test&lt;/li&gt;
