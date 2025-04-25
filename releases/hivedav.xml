@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>HiveDAV Releases</title>
-  <updated>2025-04-25T14:32:57.099017-04:00</updated>
+  <updated>2025-04-25T15:32:57.348692-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,5 +201,16 @@
 - #950 - Chore(deps-dev): Bump typescript from 5.8.2 to 5.8.3 (@[dependabot[bot]](https://github.com/apps/dependabot))
 &lt;/details&gt;</content>
     <link href="https://github.com/music-assistant/server/releases/tag/2.5.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/music-assistant/server/releases/tag/2.5.2</id>
+    <title>New release for Music Assistant: 2.5.2</title>
+    <updated>2025-04-25T15:16:49-04:00</updated>
+    <author>
+      <name>music-assistant/server</name>
+    </author>
+    <content>&lt;p&gt;Various bugfixes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/music-assistant/server/compare/2.5.1...2.5.2&lt;/p&gt;</content>
+    <link href="https://github.com/music-assistant/server/releases/tag/2.5.2" rel="alternate"/>
   </entry>
 </feed>
