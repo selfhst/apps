@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2025-04-25T08:31:28.649209-04:00</updated>
+  <updated>2025-04-25T09:31:28.556898-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,7 @@
     <author>
       <name>photoprism/photoprism</name>
     </author>
-    <content>&lt;p&gt;This &lt;a href="https://docs.photoprism.app/release-notes/#april-25-2025"&gt;release&lt;/a&gt; includes a long list of enhancements and new features, many of them contributed by our community. Most notably, &lt;a href="https://github.com/photoprism/photoprism/issues/4778"&gt;performance has been significantly improved&lt;/a&gt; in &lt;a href="https://github.com/photoprism/photoprism/pull/4323"&gt;many areas&lt;/a&gt;, we have added &lt;a href="https://github.com/photoprism/photoprism/issues/4812"&gt;a collapsible info sidebar&lt;/a&gt; to the fullscreen viewer, it is possible to &lt;a href="https://github.com/photoprism/photoprism/issues/383"&gt;choose a specific picture as album cover&lt;/a&gt;, and you can &lt;a href="https://github.com/photoprism/photoprism/issues/1090"&gt;configure computer vision tasks&lt;/a&gt; like image classification to &lt;a href="https://github.com/photoprism/photoprism/issues/1090#issuecomment-2800728541"&gt;use an external service&lt;/a&gt; for &lt;a href="https://github.com/photoprism/photoprism/issues/98"&gt;improved scalability&lt;/a&gt; and &lt;a href="https://github.com/photoprism/photoprism/issues/127"&gt;customization&lt;/a&gt;. A big thank you to everyone who &lt;a href="https://docs.photoprism.app/developer-guide/"&gt;submitted pull requests&lt;/a&gt;, &lt;a href="https://docs.photoprism.app/developer-guide/translations-weblate/"&gt;improved translations&lt;/a&gt;, or &lt;a href="https://github.com/photoprism/photoprism/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplease-test"&gt;helped with testing&lt;/a&gt;! 💖&lt;/p&gt;
+    <content>&lt;p&gt;This &lt;a href="https://docs.photoprism.app/release-notes/#april-25-2025"&gt;release&lt;/a&gt; includes a long list of enhancements and new features, many of them contributed by our community. Most notably, &lt;a href="https://github.com/photoprism/photoprism/issues/4778"&gt;performance has been significantly improved&lt;/a&gt; in &lt;a href="https://github.com/photoprism/photoprism/pull/4323"&gt;many areas&lt;/a&gt;, we have added &lt;a href="https://github.com/photoprism/photoprism/issues/4812"&gt;a collapsible info sidebar&lt;/a&gt; to the fullscreen viewer, it is possible to &lt;a href="https://github.com/photoprism/photoprism/issues/383"&gt;choose a specific picture as album cover&lt;/a&gt;, and you can &lt;a href="https://github.com/photoprism/photoprism/issues/1090"&gt;configure computer vision tasks&lt;/a&gt; like image classification to &lt;a href="https://github.com/photoprism/photoprism/issues/1090#issuecomment-2800728541"&gt;use an external service&lt;/a&gt; for &lt;a href="https://github.com/photoprism/photoprism/issues/98"&gt;scalability&lt;/a&gt; and &lt;a href="https://github.com/photoprism/photoprism/issues/127"&gt;customization&lt;/a&gt;. A big THANK YOU to everyone who &lt;a href="https://docs.photoprism.app/developer-guide/"&gt;submitted pull requests&lt;/a&gt;, &lt;a href="https://docs.photoprism.app/developer-guide/translations-weblate/"&gt;improved translations&lt;/a&gt;, or &lt;a href="https://github.com/photoprism/photoprism/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplease-test"&gt;helped with testing&lt;/a&gt;! 💖&lt;/p&gt;
 &lt;h4&gt;Important Changes&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;To take advantage of the &lt;a href="https://github.com/photoprism/photoprism/issues/222"&gt;performance improvements in TensorFlow 2&lt;/a&gt;, users of &lt;a href="https://docs.photoprism.app/getting-started/docker-compose/"&gt;our Docker images&lt;/a&gt; can set the &lt;a href="https://docs.photoprism.app/getting-started/config-options/#docker-image"&gt;&lt;code&gt;PHOTOPRISM_INIT&lt;/code&gt;&lt;/a&gt; variable to &lt;code&gt;"tensorflow"&lt;/code&gt;. This will automatically detect, download, and &lt;a href="https://github.com/photoprism/photoprism/blob/develop/scripts/dist/install-tensorflow.sh"&gt;install a version of TensorFlow&lt;/a&gt; optimized for your CPU.&lt;/li&gt;
@@ -183,7 +183,7 @@
 &lt;h4&gt;Screenshots&lt;/h4&gt;
 &lt;h5&gt;New Viewer Sidebar&lt;/h5&gt;
 &lt;p&gt;&lt;img alt="yoda-foundtain" src="https://github.com/user-attachments/assets/c322de0b-6cc2-41c6-a741-ab10c5def270" /&gt;&lt;/p&gt;
-&lt;h5&gt;New Viewer Action Menu&lt;/h5&gt;
+&lt;h5&gt;Viewer Action Menu&lt;/h5&gt;
 &lt;p&gt;&lt;img alt="viewer-menu" src="https://github.com/user-attachments/assets/c595c0c4-5366-44e9-9280-df5a0e849469" /&gt;&lt;/p&gt;
 &lt;h5&gt;Improved World Map with 3D Buildings&lt;/h5&gt;
 &lt;p&gt;&lt;img alt="improved-maps" src="https://github.com/user-attachments/assets/e77d948f-c3a7-4664-909e-28bd99d29257" /&gt;&lt;/p&gt;
