@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-04-25T02:34:23.070647-04:00</updated>
+  <updated>2025-04-25T03:34:24.951520-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,12 +156,25 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.203.3</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.203.3</title>
     <updated>2025-04-25T02:29:28-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2a403daa9067ab63986cd9daa9ddb41bc7e668a3 Akkudoktor: deprecate as unreliable&lt;/li&gt;
+&lt;li&gt;17a3a0d834ffe245eb84628b59a64b7be79d77ad Battery Settings UI: improve readability (#20793)&lt;/li&gt;
+&lt;li&gt;ef0a12d9a446aef4b3adf7757d6ca2407f72583c Config UI: Modbus Comset 8N2, i18n (#20830)&lt;/li&gt;
+&lt;li&gt;956480f9cb2fa424aa862cc8084fc60f38724c00 Config UI: allow setting priority=0 (#20795)&lt;/li&gt;
+&lt;li&gt;0260c63cf4df15af9c24dad330066719ba8a6d43 Easee: revert wait for essential state during boot (#20646) (#20822)&lt;/li&gt;
+&lt;li&gt;c35a62cd9425486aa59a4e9058a4f806f8c3551b Shelly: prefer meter over switch for measurements (#20835)&lt;/li&gt;
+&lt;li&gt;c96df5ac25a4bdf236e78a04f066aa5a542e79f6 Shelly: use TotalIn for sml totalenergy (#20826)&lt;/li&gt;
+&lt;li&gt;bacf49fd12473fe56bbf86c70cfbb3e9eb978f5c Shelly: use methods instead of models (#20802)&lt;/li&gt;
+&lt;li&gt;3c131e4783052a29904380c1cf915b48293a3a91 Sunspec: add 1p meter (#20797)&lt;/li&gt;
+&lt;li&gt;8fb8efb16b77bb29cd19c361c830bd0b63a4d4d7 Tibber: pass more descriptive user agent when connecting (#20841)&lt;/li&gt;
+&lt;li&gt;3c3ab44594dc53e971bb7749f562e52e122ea3d9 devcontainer: fix conflicting go versions on setup (#20825)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.203.3" rel="alternate"/>
   </entry>
 </feed>
