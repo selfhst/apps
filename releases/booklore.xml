@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-04-25T01:35:33.010968-04:00</updated>
+  <updated>2025-04-25T02:35:36.758667-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,9 +122,6 @@
       <name>adityachandelgit/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Merge Develop into Master for Release v0.4.0 (#212) by @adityachandelgit&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Support configurable file/folder naming pattern for uploaded files (#210) by @adityachandelgit&lt;/li&gt;

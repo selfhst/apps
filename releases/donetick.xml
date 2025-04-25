@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-04-25T01:34:39.448072-04:00</updated>
+  <updated>2025-04-25T02:34:41.422878-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,9 +102,9 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h4&gt;Task in a sentence :&lt;/h4&gt;
-&lt;p&gt;This release introduces Task in sentence. which is advance task input parsing, automatically extracting key details like Priority (e.g., P1, Urgent), Due Date (e.g., tomorrow, Monday), Frequency (e.g., daily, weekly), and Labels (e.g., #work).the input field now features dynamic highlighting, visually distinguishing these elements&lt;/p&gt;
+&lt;p&gt;This release introduces Task in a sentence. which is advanced task input parsing, automatically extracting key details like Priority (e.g., P1, Urgent), Due Date (e.g., tomorrow, Monday), Frequency (e.g., daily, weekly), and Labels (e.g., #work).the input field now features dynamic highlighting, visually distinguishing these elements&lt;/p&gt;
 &lt;h4&gt;Initial support for Offline mode:&lt;/h4&gt;
-&lt;p&gt;allows users to access and manage their tasks without an internet connection. and view and work with cached version.  This feature is particularly useful for users who may not always have reliable internet access, ensuring that they can continue to use the application. this feature is still in its early stages. the goal to mainly provide view only (althoug&lt;/p&gt;
+&lt;p&gt;allows users to access and manage their tasks without an internet connection. and view and work with cached version.  This feature is particularly useful for users who may not always have reliable internet access, ensuring that they can continue to use the application. this feature is still in its early stages. the goal is to mainly provide a view only&lt;/p&gt;
 &lt;p&gt;h some actions are available and will be queued for later execution when the connection is restored).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;fix previously hardcoded email address by @Alone2 in https://github.com/donetick/donetick/pull/149&lt;/li&gt;
@@ -118,7 +118,7 @@
 &lt;li&gt;@stefan-matic made their first contribution in https://github.com/donetick/donetick/pull/181&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img alt="chrome-capture-2025-4-24" src="https://github.com/user-attachments/assets/ffc29aca-4281-4804-bce5-9aa64bbc6cc0" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.1.38...v0.1.40&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/donetick/donetick/compare/v0.1.38...v0.1.43&lt;/p&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.1.43" rel="alternate"/>
   </entry>
 </feed>
