@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Supersonic Releases</title>
-  <updated>2025-04-25T12:33:59.705863-04:00</updated>
+  <updated>2025-04-25T13:33:59.099537-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,7 +132,8 @@ Thanks @Mister-Digital for German translation, @tkymmm for Japanese translation,
     <author>
       <name>dweymouth/supersonic</name>
     </author>
-    <content>&lt;h3&gt;Added&lt;/h3&gt;
+    <content>&lt;h2&gt;0.15.2&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Improvements across a few translations&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/dweymouth/supersonic/issues/605"&gt;#605&lt;/a&gt; BPM column added to tracklist&lt;/li&gt;
@@ -147,7 +148,14 @@ Thanks @Mister-Digital for German translation, @tkymmm for Japanese translation,
 &lt;li&gt;Regression: Peak meter was broken since 0.15.0&lt;/li&gt;
 &lt;li&gt;Playlist descriptions and track comments with newlines could overflow on top of other UI elements&lt;/li&gt;
 &lt;li&gt;Remember scroll position when navigating the history back to an album or playlist page&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@dacampsss made their first contribution in https://github.com/dweymouth/supersonic/pull/596&lt;/li&gt;
+&lt;li&gt;@RensOliemans made their first contribution in https://github.com/dweymouth/supersonic/pull/599&lt;/li&gt;
+&lt;li&gt;@kofzhanganguo made their first contribution in https://github.com/dweymouth/supersonic/pull/610&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dweymouth/supersonic/compare/v0.15.1...v0.15.2&lt;/p&gt;</content>
     <link href="https://github.com/dweymouth/supersonic/releases/tag/v0.15.2" rel="alternate"/>
   </entry>
 </feed>
