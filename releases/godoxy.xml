@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-04-25T05:30:52.848359-04:00</updated>
+  <updated>2025-04-25T06:30:51.062118-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,7 +145,7 @@
 &lt;ul&gt;
 &lt;li&gt;Remove prometheus support, planning to add HTTP statistics to WebUI&lt;/li&gt;
 &lt;li&gt;No longer needs &lt;code&gt;GODOXY_OIDC_REDIRECT_URL&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;More verbose logging (showing each routes being created / removed) for easier debugging&lt;/li&gt;
+&lt;li&gt;More verbose-ish logging (showing each routes being created / removed) for easier debugging&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yusing/godoxy/compare/v0.10.2...v0.11.0&lt;/p&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.11.0" rel="alternate"/>
