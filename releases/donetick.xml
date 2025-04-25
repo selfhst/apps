@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-04-24T21:34:33.424082-04:00</updated>
+  <updated>2025-04-24T22:34:39.551692-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,9 +94,9 @@
     <link href="https://github.com/donetick/donetick/releases/tag/v0.1.38" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/donetick/donetick/releases/tag/v0.1.40</id>
-    <title>New release for Donetick: v0.1.40</title>
-    <updated>2025-04-24T20:55:46-04:00</updated>
+    <id>https://github.com/donetick/donetick/releases/tag/v0.1.43</id>
+    <title>New release for Donetick: v0.1.43</title>
+    <updated>2025-04-24T22:16:44-04:00</updated>
     <author>
       <name>donetick/donetick</name>
     </author>
@@ -104,6 +104,6 @@
 &lt;ul&gt;
 &lt;li&gt;036ed77362ca751b168b617c75b5924b4c93025b Merge branch 'main' of https://github.com/donetick/donetick&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/donetick/donetick/releases/tag/v0.1.40" rel="alternate"/>
+    <link href="https://github.com/donetick/donetick/releases/tag/v0.1.43" rel="alternate"/>
   </entry>
 </feed>
