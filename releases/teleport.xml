@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2025-04-24T23:32:40.540125-04:00</updated>
+  <updated>2025-04-25T00:32:51.164740-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,6 +84,10 @@
       <name>gravitational/teleport</name>
     </author>
     <content>&lt;h2&gt;Description&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!CAUTION]
+Do not upgrade to this version. Introduces a breaking change that is fixed in 16.5.5&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;User Kind is now correctly reported for Bots in the app.session.start audit log event. &lt;a href="https://github.com/gravitational/teleport/pull/54242"&gt;#54242&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fix issue that prevent Kubernetes agents from connecting to GKE control plane using the new DNS-based access mechanism. &lt;a href="https://github.com/gravitational/teleport/pull/54217"&gt;#54217&lt;/a&gt;&lt;/li&gt;
@@ -91,20 +95,7 @@
 &lt;li&gt;Reduce log spam in discovery service error messaging. &lt;a href="https://github.com/gravitational/teleport/pull/54150"&gt;#54150&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The web UI now shows role descriptions in the roles table. &lt;a href="https://github.com/gravitational/teleport/pull/54136"&gt;#54136&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Leaf cluster joining attempts that conflict with an existing cluster registered with the root now generate an error instead of failing silently. &lt;a href="https://github.com/gravitational/teleport/pull/54133"&gt;#54133&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Download&lt;/h2&gt;
-&lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
-&lt;h2&gt;Plugins&lt;/h2&gt;
-&lt;p&gt;Download the current release of Teleport plugins from the links below.
-* Slack &lt;a href="https://cdn.teleport.dev/teleport-access-slack-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-slack-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt; 
-* Mattermost &lt;a href="https://cdn.teleport.dev/teleport-access-mattermost-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-mattermost-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;
-* Discord &lt;a href="https://cdn.teleport.dev/teleport-access-discord-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-discord-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;
-* Terraform Provider &lt;a href="https://cdn.teleport.dev/terraform-provider-teleport-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/terraform-provider-teleport-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/terraform-provider-teleport-v16.5.4-darwin-amd64-bin.tar.gz"&gt;macOS amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/terraform-provider-teleport-v16.5.4-darwin-arm64-bin.tar.gz"&gt;macOS arm64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/terraform-provider-teleport-v16.5.4-darwin-universal-bin.tar.gz"&gt;macOS universal&lt;/a&gt;
-* Event Handler &lt;a href="https://cdn.teleport.dev/teleport-event-handler-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-event-handler-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-event-handler-v16.5.4-darwin-amd64-bin.tar.gz"&gt;macOS amd64&lt;/a&gt;
-* PagerDuty &lt;a href="https://cdn.teleport.dev/teleport-access-pagerduty-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-pagerduty-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;
-* Jira &lt;a href="https://cdn.teleport.dev/teleport-access-jira-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-jira-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;
-* Email &lt;a href="https://cdn.teleport.dev/teleport-access-email-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-email-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;
-* Microsoft Teams &lt;a href="https://cdn.teleport.dev/teleport-access-msteams-v16.5.4-linux-amd64-bin.tar.gz"&gt;Linux amd64&lt;/a&gt; | &lt;a href="https://cdn.teleport.dev/teleport-access-msteams-v16.5.4-linux-arm64-bin.tar.gz"&gt;Linux arm64&lt;/a&gt;&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/gravitational/teleport/releases/tag/v16.5.4" rel="alternate"/>
   </entry>
   <entry>
