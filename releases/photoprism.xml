@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2025-04-25T09:31:28.556898-04:00</updated>
+  <updated>2025-04-25T10:31:27.720649-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,7 +149,7 @@
 &lt;h4&gt;What's new?&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;AI: &lt;a href="https://github.com/photoprism/photoprism/issues/222"&gt;Upgraded Google TensorFlow from v1.15.2 to v2.18.0&lt;/a&gt; by @raystlin&lt;/li&gt;
-&lt;li&gt;AI: &lt;a href="https://github.com/photoprism/photoprism/issues/1090"&gt;Vision API allows remote use of other instances and models&lt;/a&gt; by @lastzero&lt;/li&gt;
+&lt;li&gt;AI: &lt;a href="https://github.com/photoprism/photoprism/issues/1090"&gt;Vision API allows remote use of other instances and models&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;UX: &lt;a href="https://github.com/photoprism/photoprism/issues/4778"&gt;Reduced frontend bundle size by 54% for faster loading&lt;/a&gt; by @AsikNasik&lt;/li&gt;
 &lt;li&gt;UX: &lt;a href="https://github.com/photoprism/photoprism/pull/4323"&gt;Asynchronous updates improve backend responsiveness&lt;/a&gt; by @tschechniker&lt;/li&gt;
 &lt;li&gt;UX: &lt;a href="https://github.com/photoprism/photoprism/pull/3623"&gt;Arrow keys can be used to navigate in the Edit dialog&lt;/a&gt; by @tomplast&lt;/li&gt;
