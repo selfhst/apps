@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PhotoPrism Releases</title>
-  <updated>2025-04-26T03:31:23.853143-04:00</updated>
+  <updated>2025-04-26T04:31:27.298293-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,7 +177,7 @@
 &lt;li&gt;Config: &lt;a href="https://github.com/photoprism/photoprism/pull/2302"&gt;Passwords and secrets can be read from files&lt;/a&gt; by @petertrr&lt;/li&gt;
 &lt;li&gt;Setup: &lt;a href="https://github.com/photoprism/photoprism/issues/4051"&gt;Improved inline documentation in compose.yaml examples&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Docker: &lt;a href="https://github.com/photoprism/photoprism/issues/4953"&gt;Upgraded Ubuntu 25.04 (Plucky Puffin) base image includes FFmpeg v7.1.1, Darktable v5.0.1, RawTherapee v5.11, ExifTool v13.10&lt;/a&gt;, and &lt;a href="https://github.com/strukturag/libheif/releases/tag/v1.19.7"&gt;libheif v1.19.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Security: &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.24.2"&gt;Go has been upgraded to v1.24.2, which includes fixes and improvements&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Security: &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.24.2"&gt;Go has been updated to v1.24.2, which includes fixes and improvements&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;Translations: &lt;a href="https://docs.photoprism.app/developer-guide/translations-weblate/"&gt;Updated Arabic, French, and German&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Screenshots&lt;/h4&gt;
