@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-04-26T17:31:35.266975-04:00</updated>
+  <updated>2025-04-26T18:31:29.172278-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -278,7 +278,7 @@ If you were testing an Alpha or Beta release of &lt;code&gt;3.9.0&lt;/code&gt;, 
 &lt;h2&gt;Major changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Pagination: The ROMs API endpoint now supports pagination, which improves performance and reduces load times for large collections. Search also happens on the server side, which allows you to search and filter across all platforms. https://github.com/rommapp/romm/pull/1732&lt;/li&gt;
-&lt;li&gt;Better UX: 100+ micro-improvements to the app for easier navigation, editing and management of games https://github.com/rommapp/romm/pull/1804&lt;/li&gt;
+&lt;li&gt;Better UX: 50+ micro-improvements to the app for easier navigation, editing and management of games https://github.com/rommapp/romm/pull/1804&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
