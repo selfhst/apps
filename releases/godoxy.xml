@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-04-25T23:30:51.162926-04:00</updated>
+  <updated>2025-04-26T00:30:57.058771-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,7 +19,7 @@
     </author>
     <content>&lt;h2&gt;New features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ACL: connection level IP blocking&lt;/li&gt;
+&lt;li&gt;ACL/WAF: connection level IP blocking&lt;/li&gt;
 &lt;li&gt;IP/CIDR blocking&lt;/li&gt;
 &lt;li&gt;Geo-location blocking (ISO Country Code / Time Zone) &lt;strong&gt;(Maxmind account required)&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;ACL logging&lt;/li&gt;
