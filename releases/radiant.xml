@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Radiant Releases</title>
-  <updated>2025-04-26T02:34:05.652774-04:00</updated>
+  <updated>2025-04-26T03:33:59.557341-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Pixelix: Pixelix v4.0.0</title>
     <updated>2025-03-03T17:26:41-05:00</updated>
     <author>
-      <name>daniebeler/pixelix</name>
+      <name>ghostbyte-dev/pixelix</name>
     </author>
     <content>&lt;h1&gt;Release Notes&lt;/h1&gt;
 &lt;h2&gt;🎨 UI/UX Improvements&lt;/h2&gt;
@@ -37,7 +37,7 @@
     <title>New release for Pixelix: Pixelix v4.0.1</title>
     <updated>2025-03-03T18:39:29-05:00</updated>
     <author>
-      <name>daniebeler/pixelix</name>
+      <name>ghostbyte-dev/pixelix</name>
     </author>
     <content>&lt;h1&gt;Bug Fix&lt;/h1&gt;
 &lt;p&gt;Fix link to repost and more settings.&lt;/p&gt;
@@ -49,7 +49,7 @@
     <title>New release for Pixelix: Pixelix v4.0.2</title>
     <updated>2025-03-04T09:29:11-05:00</updated>
     <author>
-      <name>daniebeler/pixelix</name>
+      <name>ghostbyte-dev/pixelix</name>
     </author>
     <content>&lt;p&gt;Critical Bug fix:
 - Fix crash on app start for devices below android 12
@@ -61,7 +61,7 @@
     <title>New release for Pixelix: Pixelix v4.0.3</title>
     <updated>2025-03-04T14:36:41-05:00</updated>
     <author>
-      <name>daniebeler/pixelix</name>
+      <name>ghostbyte-dev/pixelix</name>
     </author>
     <content>&lt;p&gt;Bug Fix&lt;/p&gt;</content>
     <link href="https://github.com/ghostbyte-dev/pixelix/releases/tag/v4.0.3" rel="alternate"/>
@@ -71,7 +71,7 @@
     <title>New release for Pixelix: Pixelix v4.1.0</title>
     <updated>2025-04-10T14:30:06-04:00</updated>
     <author>
-      <name>daniebeler/pixelix</name>
+      <name>ghostbyte-dev/pixelix</name>
     </author>
     <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
 &lt;ul&gt;
