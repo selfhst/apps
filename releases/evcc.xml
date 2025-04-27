@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-04-27T10:34:28.378601-04:00</updated>
+  <updated>2025-04-27T11:36:35.671726-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -162,12 +162,22 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.203.4</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.203.4</title>
     <updated>2025-04-27T10:32:09-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2eb6d31c2a0211a755d1785f24e816e076081926 Green Grid Compass: fix type (#20904)&lt;/li&gt;
+&lt;li&gt;7cd94aa18716ac39b395dc7ef68b7100ae04f0e9 KEBA: Add KeContact P40 models (#20860)&lt;/li&gt;
+&lt;li&gt;153b1b61b0638f429d103d423e383bee19cfe309 Loadpoint: allow fine-grained battery boost (#19385)&lt;/li&gt;
+&lt;li&gt;142a3a5210a7dc3f7de533d2614c2be3f134c7ec Modbus: use 10s timeout&lt;/li&gt;
+&lt;li&gt;832012ef150ead8a5b535bbd28c075d29c5cfd33 Planner: add precondition phase before departure (#20431)&lt;/li&gt;
+&lt;li&gt;4d6bf165a7363939e6b4121bdea8052d64fb2100 Shelly: re-enable PM Mini Gen3 (#20855)&lt;/li&gt;
+&lt;li&gt;dab056190e0658828c58365e389936f5b7feb645 Tibber: increase websocket read timeout (#20895)&lt;/li&gt;
+&lt;li&gt;43637af30d9b9faee605a0066d052c6f1a9a92ef Vestel: add RFID support (#20858)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.203.4" rel="alternate"/>
   </entry>
 </feed>
