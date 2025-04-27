@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Karakeep Releases</title>
-  <updated>2025-04-27T15:32:29.300138-04:00</updated>
+  <updated>2025-04-27T16:32:24.953466-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -350,7 +350,7 @@ This release introduces a new generic rule engine that allows you to define arbi
 If you're using the old "firefox" extension, you MUST migrate to the new one manually otherwise you won't be getting future updates.&lt;/p&gt;
 &lt;h3&gt;And more!&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;gpt-4.1 is the new default text model&lt;/strong&gt;: The default OpenAI text model changed to the new 4.1-mini. It's slightly more expensive than 4o-mini, but is supposed to be much smarter. The image model remains as 4o-mini as 4.1-mini is more expensive for images.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gpt-4.1-mini is the new default text model&lt;/strong&gt;: The default OpenAI text model changed to the new 4.1-mini. It's slightly more expensive than 4o-mini, but is supposed to be much smarter. The image model remains as 4o-mini as 4.1-mini is more expensive for images.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;New Search &amp;amp; Smart list Qualifiers&lt;/strong&gt;:&lt;ul&gt;
 &lt;li&gt;New “age:” search qualifier to show bookmarks older or newer than a given duration (by @brandonw3612).&lt;/li&gt;
 &lt;li&gt;New "feed:" search qualifier to find bookmarks imported from certain RSS feeds.&lt;/li&gt;
