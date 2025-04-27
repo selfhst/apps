@@ -744,7 +744,8 @@
     {
         "Tag": "Podcasts",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
@@ -845,7 +846,8 @@
     {
         "Tag": "SSH",
         "Valid Types": [
-            "Companion"
+            "Companion",
+            "Software"
         ]
     },
     {
