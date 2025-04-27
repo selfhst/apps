@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-04-27T06:33:07.230229-04:00</updated>
+  <updated>2025-04-27T07:33:07.581400-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -540,7 +540,7 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;7dbcedaa1: move password encyption to separate worker thread&lt;/li&gt;
 &lt;li&gt;cfedfb306: clean up legacy Experience package&lt;/li&gt;
 &lt;li&gt;752d406bd: support string-typed boolean claims in OIDC connector&lt;/li&gt;
-&lt;li&gt;59c398442: add Ukranian translation to Experience (credit @HighError)&lt;/li&gt;
+&lt;li&gt;59c398442: add Ukrainian translation to Experience (credit @HighError)&lt;/li&gt;
 &lt;li&gt;ba7621005: convert Windows absolute paths to file URLs for dynamic imports (credit @jtmaveryk)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Security updates and vulnerability fixes&lt;/h2&gt;
