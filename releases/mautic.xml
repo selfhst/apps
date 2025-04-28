@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-04-28T11:31:16.048406-04:00</updated>
+  <updated>2025-04-28T12:31:11.721779-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -548,20 +548,36 @@ SHA1(6.0.0-update.zip)= bf45b8c27613d538335c1c46a1d34cd1b1a1f69e&lt;/p&gt;</cont
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 5.2.5 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;🐛 Bugs&lt;/h3&gt;
+&lt;h2&gt;🐛 Bugs&lt;/h2&gt;
+&lt;h3&gt;📋 Forms&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;Fix "social login" field in Form. by @biozshock in https://github.com/mautic/mautic/pull/14919&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📊 Reports&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix broken report email sending and scheduling by @biozshock in https://github.com/mautic/mautic/pull/14932&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💌 Email&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DPMMA-3090 Fix sortable list after removing element by @patrykgruszka in https://github.com/mautic/mautic/pull/14866&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🎨 User Experience / User Interface&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix Editing your user throws fatal error if the user you created changes its email. #14882 by @pelbox in https://github.com/mautic/mautic/pull/14884&lt;/li&gt;
 &lt;li&gt;Fix #14379: Provided options in multiselect fields consolidate users, segments, etc. with same name by @1792826181 in https://github.com/mautic/mautic/pull/14794&lt;/li&gt;
 &lt;li&gt;Fixing company links by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/14797&lt;/li&gt;
 &lt;li&gt;DPMMA-1850 Fix boolean Field default value by @patrykgruszka in https://github.com/mautic/mautic/pull/14805&lt;/li&gt;
-&lt;li&gt;DPMMA-3090 Fix sortable list after removing element by @patrykgruszka in https://github.com/mautic/mautic/pull/14866&lt;/li&gt;
 &lt;li&gt;Removing a link from a tooltip that was showing HTML markup by @npracht in https://github.com/mautic/mautic/pull/14891&lt;/li&gt;
-&lt;li&gt;Fix broken translation caused by double quotes in tooltip by @npracht in https://github.com/mautic/mautic/pull/14908&lt;/li&gt;
-&lt;li&gt;Making campaign actions stats work with manual removal by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/14809&lt;/li&gt;
-&lt;li&gt;Fix "social login" field in Form. by @biozshock in https://github.com/mautic/mautic/pull/14919&lt;/li&gt;
-&lt;li&gt;Fix broken report email sending and scheduling by @biozshock in https://github.com/mautic/mautic/pull/14932&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🚀 Campaigns&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;DPMMA-2876 Fix duplicate emails to contact in campaign using A/B tests by @patrykgruszka in https://github.com/mautic/mautic/pull/14838&lt;/li&gt;
-&lt;li&gt;Fix Editing your user throws fatal error if the user you created changes its email. #14882 by @pelbox in https://github.com/mautic/mautic/pull/14884&lt;/li&gt;
 &lt;li&gt;Restore "No change" option for boolean fields in Campaign Update Contact/Company action by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/14888&lt;/li&gt;
+&lt;li&gt;Making campaign actions stats work with manual removal by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/14809&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🗣️ Translations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix broken translation caused by double quotes in tooltip by @npracht in https://github.com/mautic/mautic/pull/14908&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-04-28T11:36:17.711386-04:00</updated>
+  <updated>2025-04-28T12:36:09.600261-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,7 +74,7 @@
 &lt;p&gt;Fixed duplication instance issues &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Removed enabled/disabled redundant toggle from all apps (Sonarr was good)&lt;/li&gt;
-&lt;li&gt;Reducded password requirements from 10 to 8 characters&lt;/li&gt;
+&lt;li&gt;Reduced password requirements from 10 to 8 characters&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/plexguide/Huntarr.io/compare/6.0.1...6.0.2&lt;/p&gt;</content>
     <link href="https://github.com/plexguide/Huntarr.io/releases/tag/6.0.2" rel="alternate"/>
