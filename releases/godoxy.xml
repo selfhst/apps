@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-04-27T23:30:52.402267-04:00</updated>
+  <updated>2025-04-28T00:30:59.030883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,7 @@
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.11.5" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/yusing/godoxy/releases/tag/v0.11.6</id>
+    <id>https://github.com/yusing/godoxy/releases/tag/v0.11.6-buildfix</id>
     <title>New release for GoDoxy: v0.11.6</title>
     <updated>2025-04-27T23:27:27-04:00</updated>
     <author>
@@ -98,6 +98,6 @@
 &lt;li&gt;Proxmox LXC idlesleep feature (27409abc246d36be3c9721a4e88075e92a80dbc3)&lt;/li&gt;
 &lt;li&gt;OIDC: token refresh not working when receiving multiple requests at a time from the same session (c5fd21552eb96af4358358f2f992e2993780adc1)&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/yusing/godoxy/releases/tag/v0.11.6" rel="alternate"/>
+    <link href="https://github.com/yusing/godoxy/releases/tag/v0.11.6-buildfix" rel="alternate"/>
   </entry>
 </feed>
