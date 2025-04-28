@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-04-28T04:34:31.315875-04:00</updated>
+  <updated>2025-04-28T05:34:32.367791-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,6 +86,7 @@ This release supports item duplication from the item view pane&lt;/p&gt;
 &lt;p&gt;[!TIP]
 You can now control the CSP directive &lt;code&gt;frame-ancestors&lt;/code&gt; via the environment variable &lt;code&gt;CSP_FRAME_ANCESTORS&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;For example to allow remote sources to allow VoucherVault being loaded via iframe.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;X-Frame-Options&lt;/code&gt; header is considered depreacted and was removed.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
