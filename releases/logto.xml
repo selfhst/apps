@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-04-27T20:33:05.967094-04:00</updated>
+  <updated>2025-04-27T21:33:04.853673-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -533,7 +533,7 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;https://yourapp.com/landing-page?token=YHwbXSXxQfL02IoxFqr1hGvkB13uTqcd&amp;amp;email=user@example.com&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Refer to &lt;a href="https://docs.logto.io/end-user-flows/one-time-token"&gt;documentation&lt;/a&gt; for more details.&lt;/p&gt;
 &lt;h2&gt;Bump node to v22&lt;/h2&gt;
-&lt;p&gt;We've updated Node.js to v22.14 and above for better performance and security.&lt;/p&gt;
+&lt;p&gt;We've updated Node.js to v22 and above for better performance and security.&lt;/p&gt;
 &lt;h2&gt;Improvements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;f41938257: respond 404 for non-existing paths in &lt;code&gt;/assets&lt;/code&gt;&lt;/li&gt;

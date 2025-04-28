@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Beszel Releases</title>
-  <updated>2025-04-27T20:34:05.604960-04:00</updated>
+  <updated>2025-04-27T21:34:03.375771-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -162,7 +162,7 @@ The Windows agent is experimental and &lt;a href="https://go.dev/doc/faq#virus"&
 &lt;li&gt;Homebrew and Scoop packages for easier installation on macOS and Windows.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;SENSORS&lt;/code&gt; env var now supports wildcards and can be used as a blacklist (#650).&lt;/li&gt;
 &lt;li&gt;Filter sensors in temperature graph (#430).&lt;/li&gt;
-&lt;li&gt;Working Microsoft Teams notifications (thanks @serverleader).&lt;/li&gt;
+&lt;li&gt;Working Microsoft Teams notifications (&lt;a href="https://beszel.dev/guide/notifications/teams"&gt;docs here&lt;/a&gt;, thanks @serverleader).&lt;/li&gt;
 &lt;li&gt;Support for Lark notifications.&lt;/li&gt;
 &lt;li&gt;Agent OpenBSD release by @vaygr in https://github.com/henrygd/beszel/pull/726&lt;/li&gt;
 &lt;/ul&gt;
