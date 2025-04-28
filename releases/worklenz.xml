@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Worklenz Releases</title>
-  <updated>2025-04-28T07:33:02.473055-04:00</updated>
+  <updated>2025-04-28T08:33:13.239124-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,5 +109,25 @@
 &lt;hr /&gt;
 &lt;p&gt;Feel free to dive in and let us know what you think! Your feedback is crucial in making Worklenz 2.0 even better.&lt;/p&gt;</content>
     <link href="https://github.com/Worklenz/worklenz/releases/tag/v2.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Worklenz/worklenz/releases/tag/v2.0.1</id>
+    <title>New release for Worklenz: v2.0.1</title>
+    <updated>2025-04-28T07:54:26-04:00</updated>
+    <author>
+      <name>Worklenz/worklenz</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update README.md and scripts for improved setup and service management by @chamikaJ in https://github.com/Worklenz/worklenz/pull/79&lt;/li&gt;
+&lt;li&gt;Enhance WebSocket support and update environment configuration by @chamikaJ in https://github.com/Worklenz/worklenz/pull/87&lt;/li&gt;
+&lt;li&gt;Remove legacy environment files and update Docker configuration for e… by @chamikaJ in https://github.com/Worklenz/worklenz/pull/88&lt;/li&gt;
+&lt;li&gt;Enhance environment configuration for frontend and CORS support by @chamikaJ in https://github.com/Worklenz/worklenz/pull/89&lt;/li&gt;
+&lt;li&gt;Refactor frontend service configuration in docker-compose.yml by @chamikaJ in https://github.com/Worklenz/worklenz/pull/90&lt;/li&gt;
+&lt;li&gt;Refactor start.sh script creation in Dockerfile by @chamikaJ in https://github.com/Worklenz/worklenz/pull/91&lt;/li&gt;
+&lt;li&gt;Enhance backend API with health check endpoint and update environment… by @chamikaJ in https://github.com/Worklenz/worklenz/pull/92&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Worklenz/worklenz/compare/v2.0.0...v2.0.1&lt;/p&gt;</content>
+    <link href="https://github.com/Worklenz/worklenz/releases/tag/v2.0.1" rel="alternate"/>
   </entry>
 </feed>
