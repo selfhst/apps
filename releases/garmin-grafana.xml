@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Garmin Grafana Releases</title>
-  <updated>2025-04-29T06:36:12.045787-04:00</updated>
+  <updated>2025-04-29T07:36:23.170567-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,5 +81,45 @@
 &lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.3</id>
+    <title>New release for Garmin Grafana: v0.0.3</title>
+    <updated>2025-04-29T07:19:34-04:00</updated>
+    <author>
+      <name>arpanghosh8453/garmin-grafana</name>
+    </author>
+    <content>&lt;h2&gt;What's New?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated Readme with more extensive documentations. &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/arpanghosh8453/garmin-grafana/blob/main/easy-install.sh"&gt;Easy install script&lt;/a&gt; and single command installation - making it accessible to all Garmin users, irrespective of their technical skill set&lt;/li&gt;
+&lt;li&gt;Using UV instead of pip with &lt;code&gt;requirements.txt&lt;/code&gt; (deprecated method) for the dependency resolution and container building, providing more precise control over this process. The package versions are now pinned (check &lt;code&gt;uv.lock&lt;/code&gt; file) with SHA hash to ensure the project's environment consistency over time irrespective of updates on dependency packages thanks to the contribution of @Yatekii in #53 &lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;cadence&lt;/code&gt; panel to dashboard - there are many other metrics like power etc you can add on your own if you have them. &lt;code&gt;race prediction&lt;/code&gt; panel and &lt;code&gt;VO2 max&lt;/code&gt; panel is also now available in the latest release of the dashboard JSON. &lt;/li&gt;
+&lt;li&gt;Added device battery level panel (requires additional setup and configurations) &lt;/li&gt;
+&lt;li&gt;Fixed a bug on missing activities #30 &lt;/li&gt;
+&lt;li&gt;Added versioning and tagging for container release (you can use now use specific version like &lt;code&gt;thisisarpanghosh/garmin-fetch-data:v0.0.3&lt;/code&gt; or &lt;code&gt;ghcr.io/arpanghosh8453/garmin-fetch-data:v0.0.3&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Added new ghcr docker image (as docker hub is rate limited) at &lt;code&gt;ghcr.io/arpanghosh8453/garmin-fetch-data:latest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;doc: fix some typos by @yihong0618 in https://github.com/arpanghosh8453/garmin-grafana/pull/51&lt;/li&gt;
+&lt;li&gt;Use uv &amp;amp; pyproject instead of deprecated requirements.txt by @Yatekii in https://github.com/arpanghosh8453/garmin-grafana/pull/53&lt;/li&gt;
+&lt;li&gt;fix: better easy install by @yihong0618 in https://github.com/arpanghosh8453/garmin-grafana/pull/59&lt;/li&gt;
+&lt;li&gt;Updates to the readme file by @robbiedoesdata in https://github.com/arpanghosh8453/garmin-grafana/pull/58&lt;/li&gt;
+&lt;li&gt;s/martin/matin by @matin in https://github.com/arpanghosh8453/garmin-grafana/pull/64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Yatekii made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/53&lt;/li&gt;
+&lt;li&gt;@robbiedoesdata made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/58&lt;/li&gt;
+&lt;li&gt;@matin made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/garmin-grafana/compare/v0.0.2...v0.0.3&lt;/p&gt;
+&lt;h2&gt;Love this project?&lt;/h2&gt;
+&lt;p&gt;If you find this project helpful, please consider:&lt;/p&gt;
+&lt;p&gt;⭐ Starring this repository to show your support and spread the news!&lt;/p&gt;
+&lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.3" rel="alternate"/>
   </entry>
 </feed>
