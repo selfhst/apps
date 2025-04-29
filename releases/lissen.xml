@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lissen Releases</title>
-  <updated>2025-04-29T18:34:57.894137-04:00</updated>
+  <updated>2025-04-29T19:34:43.189726-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,17 +66,13 @@
     <link href="https://github.com/GrakovNe/lissen-android/releases/tag/1.4.4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/GrakovNe/lissen-android/releases/tag/1.4.5</id>
-    <title>New release for Lissen: 1.4.5</title>
-    <updated>2025-04-29T17:47:42-04:00</updated>
+    <id>https://github.com/GrakovNe/lissen-android/releases/tag/1.4.7</id>
+    <title>New release for Lissen: 1.4.7</title>
+    <updated>2025-04-29T19:10:10-04:00</updated>
     <author>
       <name>GrakovNe/lissen-android</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;feature/174-smart-rewind by @GrakovNe in https://github.com/GrakovNe/lissen-android/pull/189&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GrakovNe/lissen-android/compare/1.4.4...1.4.5&lt;/p&gt;</content>
-    <link href="https://github.com/GrakovNe/lissen-android/releases/tag/1.4.5" rel="alternate"/>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GrakovNe/lissen-android/compare/1.4.5...1.4.7&lt;/p&gt;</content>
+    <link href="https://github.com/GrakovNe/lissen-android/releases/tag/1.4.7" rel="alternate"/>
   </entry>
 </feed>
