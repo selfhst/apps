@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-04-29T04:51:26.637902-04:00</updated>
+  <updated>2025-04-29T05:35:44.842583-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,7 +177,7 @@
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
 &lt;h2&gt;What's New&lt;/h2&gt;
-&lt;p&gt;This is a minor patch release that introduces support for Proton Pass in the import wizard. It also includes quality-of-life improvements to the browser extension, enhancing autofill functionality and increasing compatibility with more websites. Furthermore some small UI tweaks and dependency updates.&lt;/p&gt;
+&lt;p&gt;This is a minor patch release that introduces support for &lt;code&gt;Proton Pass&lt;/code&gt; in the import wizard. It also includes quality-of-life improvements to the browser extension, enhancing autofill functionality and increasing compatibility with more websites. Furthermore some small UI tweaks and dependency updates.&lt;/p&gt;
 &lt;h2&gt;Full Changelog&lt;/h2&gt;
 &lt;h3&gt;🚀 New Features&lt;/h3&gt;
 &lt;ul&gt;
