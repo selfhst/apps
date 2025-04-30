@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-04-30T03:34:21.392238-04:00</updated>
+  <updated>2025-04-30T04:34:26.227987-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -78,5 +78,35 @@
 &lt;li&gt;ADDED: Line Wrap for JSON viewer #768&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.3.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dbgate/dbgate/releases/tag/v6.4.0</id>
+    <title>New release for DbGate: v6.4.0</title>
+    <updated>2025-04-30T04:03:02-04:00</updated>
+    <author>
+      <name>dbgate/dbgate</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;ADDED: DuckDB support&lt;/li&gt;
+&lt;li&gt;ADDED: Data deployer (Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Compare data between JSON lines file in archive and database table&lt;/li&gt;
+&lt;li&gt;CHANGED: Data Duplicator =&amp;gt; Data Replicator (suitable for update, create and delete data, much more customizable)&lt;/li&gt;
+&lt;li&gt;REMOVED: Data duplicator GUI (replaced with Data Deployer)&lt;/li&gt;
+&lt;li&gt;ADDED: Exporting to ZIP file&lt;/li&gt;
+&lt;li&gt;ADDED: Download SQL and SQLite files&lt;/li&gt;
+&lt;li&gt;ADDED: Upload SQLite files&lt;/li&gt;
+&lt;li&gt;ADDED: Upload archive as ZIP folder (Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Compress, uncompress archive folder (Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Export connections and settings #357&lt;/li&gt;
+&lt;li&gt;ADDED: Filtering by MongoDB ObjectId works now also without ObjectId(...) wrapper&lt;/li&gt;
+&lt;li&gt;ADDED: Split queries using blank lines #1089&lt;/li&gt;
+&lt;li&gt;FIXED: JSON-to-Grid only works if there is no newline #1085&lt;/li&gt;
+&lt;li&gt;CHANGED: When running multiple commands in script, stop execution after first error #1070&lt;/li&gt;
+&lt;li&gt;FIXED: Selection rectangle remains visible after closing JSONB edit cell value form #1031&lt;/li&gt;
+&lt;li&gt;FIXED: Diplaying numeric FK column with right alignement #1021&lt;/li&gt;
+&lt;li&gt;ADDED: Additional arguments for MySQL and PostgreSQL backup #1092&lt;/li&gt;
+&lt;li&gt;CHANGED: Amazon and Azure instalations are not auto-upgraded by default&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/dbgate/dbgate/releases/tag/v6.4.0" rel="alternate"/>
   </entry>
 </feed>
