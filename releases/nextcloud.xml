@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nextcloud Releases</title>
-  <updated>2025-04-30T15:30:29.765121-04:00</updated>
+  <updated>2025-04-30T16:30:29.497785-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -213,7 +213,9 @@
     <author>
       <name>nextcloud/server</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;Last release of 29 :warning: 
+29 is now EOL&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[stable29] fix(security): Update code signing revocation list by @nextcloud-command in https://github.com/nextcloud/server/pull/52112&lt;/li&gt;
 &lt;li&gt;[stable29] fix(dav): Really only run the chunk cleanup once by @backportbot in https://github.com/nextcloud/server/pull/52052&lt;/li&gt;
