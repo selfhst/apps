@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kener Releases</title>
-  <updated>2025-04-30T09:35:22.405569-04:00</updated>
+  <updated>2025-04-30T10:35:23.707373-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,12 +66,13 @@
   </entry>
   <entry>
     <id>https://github.com/rajnandan1/kener/releases/tag/3.2.14</id>
-    <title>New release for Kener: </title>
-    <updated>2025-04-29T22:08:55-04:00</updated>
+    <title>New release for Kener: 3.2.14</title>
+    <updated>2025-04-30T10:04:37-04:00</updated>
     <author>
       <name>rajnandan1/kener</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;3.2.14&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: Polish translation by @lolen in https://github.com/rajnandan1/kener/pull/386&lt;/li&gt;
 &lt;li&gt;Fix SMTP_SECURE environment variable always being truthy when set by @myned in https://github.com/rajnandan1/kener/pull/392&lt;/li&gt;
@@ -79,6 +80,8 @@
 &lt;li&gt;feat: add CRUD api for monitors by @jensvandenreyt in https://github.com/rajnandan1/kener/pull/384&lt;/li&gt;
 &lt;li&gt;Allow users to modify monitors data by @mcorbin in https://github.com/rajnandan1/kener/pull/380&lt;/li&gt;
 &lt;li&gt;Event subscription by @rajnandan1 in https://github.com/rajnandan1/kener/pull/385&lt;/li&gt;
+&lt;li&gt;Updating Gamedig to 5.3.0 + fix build app. by @ToxykAuBleu in https://github.com/rajnandan1/kener/pull/397&lt;/li&gt;
+&lt;li&gt;Fixing app failed to start with docker &amp;amp; kubernetes. by @ToxykAuBleu in https://github.com/rajnandan1/kener/pull/400&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
@@ -88,7 +91,7 @@
 &lt;li&gt;@jensvandenreyt made their first contribution in https://github.com/rajnandan1/kener/pull/384&lt;/li&gt;
 &lt;li&gt;@mcorbin made their first contribution in https://github.com/rajnandan1/kener/pull/380&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://kener.ing/docs/changelogs&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rajnandan1/kener/compare/3.2.13...3.2.14&lt;/p&gt;</content>
     <link href="https://github.com/rajnandan1/kener/releases/tag/3.2.14" rel="alternate"/>
   </entry>
 </feed>

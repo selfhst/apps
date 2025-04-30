@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2025-04-30T09:31:40.072632-04:00</updated>
+  <updated>2025-04-30T10:31:46.255676-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -414,7 +414,8 @@
 &lt;p&gt;The GitHub release build is independently reproduced by:
 | Verifier | Signature | PGP key to verify | 
 | ------- | --------- | ----------------- |
-| SimpleX Chat team | &lt;a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.3/_sha256sums.asc"&gt;_sha256sums.asc&lt;/a&gt; | &lt;a href="https://keys.openpgp.org/search?q=chat%40simplex.chat"&gt;FB44AF81A45BDE327319797C85107E357D4A17FC&lt;/a&gt; |&lt;/p&gt;
+| SimpleX Chat team | &lt;a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.3/_sha256sums.asc"&gt;_sha256sums.asc&lt;/a&gt; | &lt;a href="https://keys.openpgp.org/search?q=chat%40simplex.chat"&gt;FB44AF81A45BDE327319797C85107E357D4A17FC&lt;/a&gt; |
+| &lt;a href="https://runonflux.io"&gt;Flux team&lt;/a&gt; | &lt;a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.3/_sha256sums_flux.asc"&gt;_sha256sums_flux.asc&lt;/a&gt; | &lt;a href="https://keys.openpgp.org/search?q=security%40runonflux.io"&gt;F3244FFC7207DB2CAA355DF506139DA3A0B13EC1&lt;/a&gt; |&lt;/p&gt;
 &lt;p&gt;Huge thanks to Flux for providing their servers via the app!&lt;/p&gt;
 &lt;p&gt;Commits:
 - docs: correction to command
