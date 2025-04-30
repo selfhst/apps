@@ -469,6 +469,12 @@
         ]
     },
     {
+        "Tag": "Icons",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Identity Management",
         "Valid Types": [
             "Software"
@@ -726,13 +732,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
@@ -996,14 +1002,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Software",
+            "Companion"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
