@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CoreControl Releases</title>
-  <updated>2025-04-30T13:36:07.319081-04:00</updated>
+  <updated>2025-04-30T14:36:01.822679-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,7 +118,7 @@ This is the last beta version before the first stable version. From a developmen
       <name>crocofied/CoreControl</name>
     </author>
     <content>&lt;p&gt;&lt;strong&gt;[🐛] - Bug Fixes&lt;/strong&gt;
-- Possible Fix for startup errors on ARM architectures #66 #67 
+- Fix for startup errors on ARM architectures #66 #67 
 - i18n fix for notification descriptions&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/crocofied/CoreControl/compare/v1.0.0...v1.0.1&lt;/p&gt;
 &lt;blockquote&gt;

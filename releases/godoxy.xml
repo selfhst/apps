@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-04-30T13:30:52.233863-04:00</updated>
+  <updated>2025-04-30T14:30:51.910341-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,7 @@
       PORT: ${GODOXY_FRONTEND_PORT:-3000}
     labels:
       proxy.aliases: ${GODOXY_FRONTEND_ALIASES:-godoxy}
-      proxy.godoxy.port: ${GODOXY_FRONTEND_PORT:-3000}
+      proxy.#1.port: ${GODOXY_FRONTEND_PORT:-3000}
   app:
     image: ghcr.io/yusing/godoxy:${TAG:-latest}
     container_name: godoxy
