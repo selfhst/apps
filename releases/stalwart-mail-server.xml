@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2025-04-30T06:31:41.262011-04:00</updated>
+  <updated>2025-04-30T07:31:44.803356-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,7 +124,10 @@
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow undiscovered UIDs to be used in &lt;code&gt;COPY&lt;/code&gt;/&lt;code&gt;MOVE&lt;/code&gt; operations (#1201).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/mail-server/attestations/6653161"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/mail-server/releases/tag/v0.11.8" rel="alternate"/>
   </entry>
 </feed>
