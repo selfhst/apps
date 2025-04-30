@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-04-30T04:32:39.351031-04:00</updated>
+  <updated>2025-04-30T05:32:43.017096-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,5 +116,56 @@
 &lt;li&gt;Fix: 非ログインでタイムラインのストリームに接続した際、表示にログイン必須のノートが流れる場合がある問題を修正&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.4.1</id>
+    <title>New release for Misskey: 2025.4.1</title>
+    <updated>2025-04-30T05:01:45-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: bull-boardに代わるジョブキューの管理ツールが実装されました&lt;/li&gt;
+&lt;li&gt;Feat: アップロード可能な最大ファイルサイズをロールごとに設定可能に&lt;ul&gt;
+&lt;li&gt;デフォルトで10MBになっています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enhance: チャットの新規メッセージをプッシュ通知するように&lt;/li&gt;
+&lt;li&gt;Enhance: サーバーブロックの対象になっているサーバーについて、当該サーバーのユーザーや既知投稿を見えないように&lt;/li&gt;
+&lt;li&gt;Enhance: 依存関係の更新&lt;/li&gt;
+&lt;li&gt;Enhance: 翻訳の更新&lt;/li&gt;
+&lt;li&gt;Fix: セキュリティに関する修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: チャットウィジェットを追加&lt;/li&gt;
+&lt;li&gt;Feat: デッキにチャットカラムを追加&lt;/li&gt;
+&lt;li&gt;Feat: タイトルバーを表示できるように&lt;/li&gt;
+&lt;li&gt;Enhance: Unicode絵文字をslugから入力する際に&lt;code&gt;:ok:&lt;/code&gt;のように最後の&lt;code&gt;:&lt;/code&gt;を入力したあとにUnicode絵文字に変換できるように&lt;/li&gt;
+&lt;li&gt;Enhance: コントロールパネルでジョブキューをクリアできるように&lt;/li&gt;
+&lt;li&gt;Enhance: テーマでページヘッダーの色を変更できるように&lt;/li&gt;
+&lt;li&gt;Enhance: スワイプでのタブ切り替えを強化&lt;/li&gt;
+&lt;li&gt;Enhance: デザインのブラッシュアップ&lt;/li&gt;
+&lt;li&gt;Fix: ログアウトした際に処理が終了しない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 自動バックアップが設定されている環境でログアウト直前に設定をバックアップするように&lt;/li&gt;
+&lt;li&gt;Fix: フォルダを開いた状態でメニューからアップロードしてもルートフォルダにアップロードされる問題を修正 #15836&lt;/li&gt;
+&lt;li&gt;Fix: タイムラインのスクロール位置を記憶するように修正&lt;/li&gt;
+&lt;li&gt;Fix: ノートの直後のノートを表示する機能で表示が逆順になっていた問題を修正 #15841&lt;/li&gt;
+&lt;li&gt;Fix: アカウントの移行時にアンテナのフィルターのユーザが更新されない問題を修正 #15843&lt;/li&gt;
+&lt;li&gt;Fix: タイムラインでノートが重複して表示されることがあるのを修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: ジョブキューの成功/失敗したジョブも一定数・一定期間保存するようにし、後から問題を調査することを容易に&lt;/li&gt;
+&lt;li&gt;Enhance: フォローしているユーザーならフォロワー限定投稿のノートでもアンテナで検知できるように&lt;br /&gt;
+    (Cherry-picked from https://github.com/yojo-art/cherrypick/pull/568 and https://github.com/team-shahu/misskey/pull/38)&lt;/li&gt;
+&lt;li&gt;Enhance: ユーザーごとにノートの表示が高速化するように&lt;/li&gt;
+&lt;li&gt;Fix: システムアカウントの名前がサーバー名と同期されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 大文字を含むユーザの URL で照会された場合に 404 エラーを返す問題 #15813&lt;/li&gt;
+&lt;li&gt;Fix: リードレプリカ設定時にレコードの追加・更新・削除を伴うクエリを発行した際はmasterノードで実行されるように調整( #10897 )&lt;/li&gt;
+&lt;li&gt;Fix: ファイルアップロード時の挙動を一部調整(#15895)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.4.1" rel="alternate"/>
   </entry>
 </feed>
