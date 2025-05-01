@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-05-01T03:31:10.555377-04:00</updated>
+  <updated>2025-05-01T04:31:13.232411-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -493,7 +493,7 @@ p50: 849 -&amp;gt; 537ms&lt;/p&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
-![image](https://github.com/user-attachments/assets/67f63051-07ca-46ca-8cee-03b75c57f755)
+![image](https://gh-release-images.s3.eu-north-1.amazonaws.com/2.6.1.png)
 
 # v2.6.1: Improve Scheduled Jobs execution
 
@@ -552,7 +552,7 @@ CMS_BREAK --&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
-![image](https://github.com/user-attachments/assets/1bea26b6-5a1e-4757-8005-b5a5a2a2e443)
+![image](https://gh-release-images.s3.eu-north-1.amazonaws.com/2.7.0.png)
 
 # v2.7.0: Save payment methods, improved links, and performance improvements
 
@@ -961,7 +961,7 @@ import { StepResponse } from "@medusajs/workflows-sdk";&lt;/p&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
-![2 7 1](https://github.com/user-attachments/assets/460d6951-9520-489e-b92a-ca5984b2d4d5)
+![2 7 1](https://gh-release-images.s3.eu-north-1.amazonaws.com/2.7.1.png)
 
 # v2.7.1: Strengthened workflow engine
 
