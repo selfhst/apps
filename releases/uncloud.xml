@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-05-01T00:35:37.467298-04:00</updated>
+  <updated>2025-05-01T01:35:40.616664-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,7 +235,34 @@
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release introduces embedded DNS service for internal service discovery, Compose profiles support, and several improvements for CLI and machine daemon.&lt;/p&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;h3&gt;Embedded DNS service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Runs on each machine's IP (10.210.X.1) and handles &lt;code&gt;.internal&lt;/code&gt; domain.&lt;/li&gt;
+&lt;li&gt;Automatically configured for all service containers and used for service discovery (resolves &lt;code&gt;service-name&lt;/code&gt; and &lt;code&gt;service-name.internal&lt;/code&gt; to IP addresses of the &lt;code&gt;service-name&lt;/code&gt; service containers).&lt;/li&gt;
+&lt;li&gt;Transparently forwards non-&lt;code&gt;.internal&lt;/code&gt; queries to upstream DNS servers.&lt;/li&gt;
+&lt;li&gt;Can be used as the main nameserver on the machine to simplify service troubleshooting from the host shell. K8s, don't be jealous!&lt;/li&gt;
+&lt;li&gt;Fast failure during &lt;code&gt;machine init/add&lt;/code&gt; if DNS port is already in use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Compose profiles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for Compose profiles via &lt;code&gt;-p/--profile&lt;/code&gt; flag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;CLI enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Display version information for &lt;code&gt;uc&lt;/code&gt; and &lt;code&gt;uncloudd&lt;/code&gt; binaries with &lt;code&gt;--version&lt;/code&gt; flag.&lt;/li&gt;
+&lt;li&gt;Made all confirmation forms accessible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed Caddy proxy to only route to healthy containers.&lt;/li&gt;
+&lt;li&gt;Fixed panic in &lt;code&gt;ctx&lt;/code&gt; command when Uncloud config contains only one context. Thanks to @tonyo for reporting.&lt;/li&gt;
+&lt;li&gt;Fixed loss of message from child loggers (created with &lt;code&gt;slog.With&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;Thanks to @cedws for contributing the Compose profiles and CLI &lt;code&gt;--version&lt;/code&gt; features!&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ef57b62625dae11631d62b6c1ee53b85124682de Merge pull request #50 from cedws/version&lt;/li&gt;
 &lt;li&gt;7861d56dffe524980400702a7fb982e59a960750 Merge pull request #54 from cedws/profiles&lt;/li&gt;
