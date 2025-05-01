@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Garmin Grafana Releases</title>
-  <updated>2025-05-01T04:36:01.400617-04:00</updated>
+  <updated>2025-05-01T05:36:02.212555-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,5 +121,42 @@
 &lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.0.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.1.0</id>
+    <title>New release for Garmin Grafana: v0.1.0</title>
+    <updated>2025-05-01T04:58:06-04:00</updated>
+    <author>
+      <name>arpanghosh8453/garmin-grafana</name>
+    </author>
+    <content>&lt;h2&gt;❗Breaking Changes❗&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The ENV variable &lt;code&gt;FETCH_ADVANCED_TRAINING_DATA&lt;/code&gt; is deprecated. It is replaced by &lt;code&gt;FETCH_SELECTION&lt;/code&gt;, which offers more granular control over what data you would like to fetch. Default value is set to &lt;code&gt;daily_avg,sleep,steps,heartrate,stress,breathing,hrv,vo2,activity,race_prediction,body_composition&lt;/code&gt; and you can add one or more from the following &lt;code&gt;training_readiness,hill_score,endurance_score,blood_pressure,hydration&lt;/code&gt; in the &lt;code&gt;compose.yml&lt;/code&gt; file . This provides additional control what data you want to pull/re-fetch during bulk historic data update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's New?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New &lt;code&gt;Month at a glance&lt;/code&gt; panels in the dashboard - Visualize your monthly stats at a glance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1ef05a30-034a-4bf3-b66f-018e885e587b" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &lt;strong&gt;Hydration&lt;/strong&gt; and &lt;strong&gt;Blood Pressure&lt;/strong&gt; data fetching support. &lt;/li&gt;
+&lt;li&gt;Moved source script into a modular structure - supporting &lt;code&gt;NixPackage&lt;/code&gt; builds thanks to @aciceri&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ci:  Do not run GitHub actions on fork by @yihong0618 in https://github.com/arpanghosh8453/garmin-grafana/pull/67&lt;/li&gt;
+&lt;li&gt;Move source into a proper module in the &lt;code&gt;src&lt;/code&gt; directory and create script by @aciceri in https://github.com/arpanghosh8453/garmin-grafana/pull/70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@aciceri made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/garmin-grafana/compare/v0.0.3...v0.1.0&lt;/p&gt;
+&lt;h2&gt;Love this project?&lt;/h2&gt;
+&lt;p&gt;If you find this project helpful, please consider:&lt;/p&gt;
+&lt;p&gt;⭐ Starring this repository to show your support and spread the news!&lt;/p&gt;
+&lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.1.0" rel="alternate"/>
   </entry>
 </feed>
