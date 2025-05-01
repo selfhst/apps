@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-05-01T12:35:33.822585-04:00</updated>
+  <updated>2025-05-01T13:35:43.199173-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,7 +245,6 @@
 &lt;li&gt;Updated samlify to v2.9.1 (&lt;a href="https://github.com/directus/directus/pull/25008"&gt;#25008&lt;/a&gt; by @br41nslug)&lt;/li&gt;
 &lt;li&gt;Fixed &lt;code&gt;condition&lt;/code&gt; operation filters not properly parsed (&lt;a href="https://github.com/directus/directus/pull/25015"&gt;#25015&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
 &lt;li&gt;Improved testing for applyQuery (&lt;a href="https://github.com/directus/directus/pull/25022"&gt;#25022&lt;/a&gt; by @Nitwel)&lt;/li&gt;
-&lt;li&gt;Removed displaying trigger options in flow logs. (&lt;a href="https://github.com/directus/directus/pull/25116"&gt;#25116&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Refactored &lt;code&gt;applyQuery&lt;/code&gt; to improve code organization and maintainability (&lt;a href="https://github.com/directus/directus/pull/25004"&gt;#25004&lt;/a&gt; by @Nitwel)&lt;/li&gt;
 &lt;li&gt;Fixed &lt;code&gt;filename_download&lt;/code&gt; not respected on upload (&lt;a href="https://github.com/directus/directus/pull/25062"&gt;#25062&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
 &lt;li&gt;Ensured &lt;code&gt;one_deselect_action&lt;/code&gt; updates bypass &lt;code&gt;QUERY_LIMIT_DEFAULT&lt;/code&gt; restrictions (&lt;a href="https://github.com/directus/directus/pull/25087"&gt;#25087&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
