@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pangolin Releases</title>
-  <updated>2025-05-02T15:35:13.010672-04:00</updated>
+  <updated>2025-05-02T16:35:01.067810-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -193,6 +193,7 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;p&gt;&lt;a href="https://docs.fossorial.io/Getting%20Started/how-to-update"&gt;View documentation&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;OAuth2/OIDC (External Identity Providers)&lt;/h2&gt;
 &lt;p&gt;We’re excited to share that Pangolin now supports external identity providers. You can integrate any identity provider that supports OAuth2/OIDC. We plan to expand with native support for other platforms over time, as well as continue to bolster and add new authentication and access control tooling. See more in our &lt;a href="https://docs.fossorial.io/Pangolin/Identity%20Providers/configuring-identity-providers"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adding external identity providers for SSO is NOT a paid feature and is available for free.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;Refreshed UI&lt;/h2&gt;
 &lt;p&gt;Alongside that, we’ve also launched a refreshed UI. This new layout is more maintainable, expandable, and aligned with the long-term direction of the project. Importantly, it still maintains a largely consistent user experience. We will continue shipping enhancements on top of this foundation. See screenshots and more here on &lt;a href="https://github.com/fosrl/pangolin"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img width="2399" alt="hero" src="https://github.com/user-attachments/assets/5b65ac91-984d-4db9-a821-83e584ce0b12" /&gt;&lt;/p&gt;
@@ -200,7 +201,6 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;p&gt;The Professional Edition is for businesses and individuals that want to use Pangolin in a commercial environment and require access to licensed components and extra dedicated support.&lt;/p&gt;
 &lt;p&gt;Pangolin will always be free and open source but some features geared more to businesses will be covered under a different paid license than the AGPL3 in order to allow us to grow Pangolin.&lt;/p&gt;
 &lt;p&gt;The free and open source version will always be available and be our primary focus as we continue to add more features. We will also continue to develop the Professional Edition and add features mainly geared toward businesses. This will help us to sustainably develop the platform.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This is very much a learning experience for us. We will adjust course if needed.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you have already purchased a Supporter Key and wish to also purchase a Professional Edition license please reach out to us at &lt;a href="mailto:numbat@fossorial.io"&gt;numbat@fossorial.io&lt;/a&gt;. We can provide you with a discount code for a free first month of the Professional Edition subscription!&lt;/p&gt;</content>
     <link href="https://github.com/fosrl/pangolin/releases/tag/1.3.0" rel="alternate"/>
   </entry>
