@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-05-02T10:33:04.616700-04:00</updated>
+  <updated>2025-05-02T11:33:09.095557-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,11 +177,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;eventstore:&lt;/strong&gt; add instance position index (&lt;a href="https://github.com/zitadel/zitadel/issues/9837"&gt;#9837&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/5e48ee2c1549f3d5790f3910fa47dbddb9e964c3"&gt;5e48ee2&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;improve scalability of session api (&lt;a href="https://github.com/zitadel/zitadel/issues/9635"&gt;#9635&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/817670f1f7246f2ba37eb50745ac25d37f655c2b"&gt;817670f&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;for v3&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/zitadel/zitadel/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
