@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-05-01T19:34:17.274072-04:00</updated>
+  <updated>2025-05-01T20:34:15.404583-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,12 +117,10 @@
 &lt;li&gt;[#905] DAG visualization updates by @yottahmd in https://github.com/dagu-org/dagu/pull/906&lt;/li&gt;
 &lt;li&gt;added support for custom exit codes on retry #792 by @kriyanshii in https://github.com/dagu-org/dagu/pull/902&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Special thanks&lt;/h2&gt;
-&lt;p&gt;Huge shout-out to @kriyanshii  for multiple awesome contributions recently! &lt;/p&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;✨ Retry on Custom Exit Codes: Finer control over task retries. You can specify which exit codes trigger a retry (Resolves #792).&lt;/li&gt;
-&lt;li&gt;✨ Diagram Zoom: Zoom in/out now supported for navigating large DAGs easily (Resolves #774)&lt;/li&gt;
-&lt;li&gt;✨ Build Fix: Resolved a key issue preventing the frontend (make build-ui) from building (Fixes #901).&lt;/li&gt;
+&lt;li&gt;✨ Diagram Zoom: Zoom in/out now supported for navigating large DAGs easily (Resolves #774).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.7...v1.16.8&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.8" rel="alternate"/>
