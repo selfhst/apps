@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tipi Releases</title>
-  <updated>2025-05-02T16:32:14.233589-04:00</updated>
+  <updated>2025-05-02T17:32:15.002121-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,5 +98,17 @@
     </author>
     <content>&lt;p&gt;&lt;strong&gt;v4.0.1&lt;/strong&gt;&lt;/p&gt;</content>
     <link href="https://github.com/runtipi/runtipi/releases/tag/v4.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/runtipi/runtipi/releases/tag/v4.0.2</id>
+    <title>New release for Tipi: v4.0.2</title>
+    <updated>2025-05-01T12:10:58-04:00</updated>
+    <author>
+      <name>runtipi/runtipi</name>
+    </author>
+    <content>&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;
+- Fixed duplicate health check start policy preventing stack to start&lt;/p&gt;</content>
+    <link href="https://github.com/runtipi/runtipi/releases/tag/v4.0.2" rel="alternate"/>
   </entry>
 </feed>
