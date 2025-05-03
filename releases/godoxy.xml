@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-03T17:30:50.991865-04:00</updated>
+  <updated>2025-05-03T18:30:51.641296-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -188,6 +188,10 @@
       maxmind:
         account_id: 123456
         icense_key: aaaa-bbbb-cccc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Notifications&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ntfy.style&lt;/code&gt; is now &lt;code&gt;format&lt;/code&gt;: valid values are &lt;code&gt;markdown&lt;/code&gt; (default) and &lt;code&gt;plain&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New&lt;/h2&gt;
 &lt;ul&gt;
