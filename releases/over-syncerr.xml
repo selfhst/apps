@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Overr-Syncerr Releases</title>
-  <updated>2025-05-03T07:35:27.611870-04:00</updated>
+  <updated>2025-05-03T08:35:31.632823-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -137,7 +137,7 @@ SONARR_TRACK_DELAY_SECONDS: 12 #Delay (in seconds) before triggering audio and s
 &lt;ul&gt;
 &lt;li&gt;Support for Plex webhook for applying audio &amp;amp; subtitle tracks (&lt;strong&gt;TV only&lt;/strong&gt;): Go to Plex -&amp;gt; Settings -&amp;gt; Webhooks -&amp;gt; add Overr-Syncerr URL&lt;/li&gt;
 &lt;li&gt;Improved logging: removed redundant and excessive logging; you can now see an estimate of how long it will take for chunks to be translated (&lt;strong&gt;GPT&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Improved translations: better translations based on user locale (Overseerr/Jellyseerr) when reporting an issue&lt;/li&gt;
+&lt;li&gt;Improved messaging: better messaging based on user locale (Overseerr/Jellyseerr) when reporting an issue&lt;/li&gt;
 &lt;li&gt;Plex host and token are now optional: if you're using Jellyfin instead of Plex and want to &lt;strong&gt;only&lt;/strong&gt; manage subtitles, you can comment out both variables ( #25 )&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/gssariev/overr-syncerr/releases/tag/v1.0.6.5" rel="alternate"/>
