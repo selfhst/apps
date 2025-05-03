@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-03T09:36:02.811299-04:00</updated>
+  <updated>2025-05-03T10:36:03.192925-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,7 +84,7 @@
 &lt;li&gt;[Sonarr] Removed Season [Solo] mode as it provided no beneifit&lt;/li&gt;
 &lt;li&gt;Changed Buttons of Logs and Settings to Drops Downs to finally make more mobile friendly&lt;/li&gt;
 &lt;li&gt;Fully mobile friendly compared to prior design&lt;/li&gt;
-&lt;li&gt;Changed Whisparr to support v3 only (Eros API)&lt;/li&gt;
+&lt;li&gt;Changed Whisparr to support v2 &lt;/li&gt;
 &lt;li&gt;Added History Mode&lt;/li&gt;
 &lt;li&gt;Debug Mode work properly&lt;/li&gt;
 &lt;li&gt;Moved Advanced Settings for each app to one Advanced Settings under settings&lt;/li&gt;
