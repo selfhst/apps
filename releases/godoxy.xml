@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-03T14:30:49.989915-04:00</updated>
+  <updated>2025-05-03T15:30:51.999571-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -241,6 +241,12 @@
 &lt;li&gt;Enforce HTTPS redirection to fix occasional "missing oauth state" error&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Roadmap&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Homepage widgets (qbittorrent, sonarr, radarr)&lt;/li&gt;
+&lt;li&gt;[ ] OIDC Bypass rules&lt;/li&gt;
+&lt;li&gt;[ ] Global OIDC &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.12.0" rel="alternate"/>
   </entry>
