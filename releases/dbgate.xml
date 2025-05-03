@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-05-03T13:34:15.512600-04:00</updated>
+  <updated>2025-05-03T14:34:13.948929-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,7 +95,10 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;FIXED: Fixed Linux AppImage problems with connection SQLite&lt;/li&gt;
+&lt;li&gt;ADDED: Posibility to create database in MySQL backup #1103&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.4.1" rel="alternate"/>
   </entry>
 </feed>
