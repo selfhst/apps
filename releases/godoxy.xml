@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-04T08:30:52.743599-04:00</updated>
+  <updated>2025-05-04T09:30:51.470937-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -168,7 +168,7 @@
     providers:
       maxmind:
         account_id: 123456
-        icense_key: aaaa-bbbb-cccc&lt;/code&gt;&lt;/li&gt;
+        license_key: aaaa-bbbb-cccc&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Notifications&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ntfy.style&lt;/code&gt; is now &lt;code&gt;format&lt;/code&gt;: valid values are &lt;code&gt;markdown&lt;/code&gt; (default) and &lt;code&gt;plain&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;format&lt;/code&gt; also applies to gotify now&lt;/li&gt;
@@ -250,6 +250,7 @@
 - &lt;code&gt;site_key&lt;/code&gt;: hCaptcha site key
 - &lt;code&gt;secret_key&lt;/code&gt;: hCaptcha secret key
 - &lt;code&gt;session_expiry&lt;/code&gt; (default: &lt;code&gt;24h&lt;/code&gt;): session expiry&lt;/p&gt;
+&lt;p&gt;Signup for hCaptcha: &lt;a href="https://dashboard.hcaptcha.com/signup?type=pro"&gt;https://dashboard.hcaptcha.com/signup?type=pro&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;p&gt;"Timeout waiting for maxmind db" on shutdown&lt;/p&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.12.2" rel="alternate"/>
