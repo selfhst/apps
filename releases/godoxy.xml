@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-03T21:30:50.252265-04:00</updated>
+  <updated>2025-05-03T22:30:50.326893-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,6 +190,7 @@
         icense_key: aaaa-bbbb-cccc&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Notifications&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;ntfy.style&lt;/code&gt; is now &lt;code&gt;format&lt;/code&gt;: valid values are &lt;code&gt;markdown&lt;/code&gt; (default) and &lt;code&gt;plain&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;format&lt;/code&gt; also applies to gotify now&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -217,6 +218,7 @@
 &lt;li&gt;WebUI&lt;ul&gt;
 &lt;li&gt;Better categorize config file items in UI config editor&lt;/li&gt;
 &lt;li&gt;Icon searcher UI update&lt;/li&gt;
+&lt;li&gt;Better default icon and category detection&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Access log&lt;ul&gt;
@@ -248,6 +250,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;Roadmap&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;[ ] Robot blocking with Captcha&lt;/li&gt;
 &lt;li&gt;[ ] Homepage widgets (qbittorrent, sonarr, radarr)&lt;/li&gt;
 &lt;li&gt;[ ] OIDC Bypass rules&lt;/li&gt;
 &lt;li&gt;[ ] Global OIDC &lt;/li&gt;
