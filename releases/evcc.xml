@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-05-04T03:34:11.115088-04:00</updated>
+  <updated>2025-05-04T04:34:21.605384-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,6 +22,7 @@
 &lt;ul&gt;
 &lt;li&gt;5fd22d44fa87391287133d343571d6e81523d9c6 Modbus: simplify TCP error handling (#20338)&lt;/li&gt;
 &lt;li&gt;986772d525fe89f14040a4bd2cab3fe9dcdbf4d1 Http: add  pluggable authentication and token (#20066)&lt;/li&gt;
+&lt;li&gt;https://github.com/evcc-io/evcc/commit/48d84356e916e902838bf31711b626a891e1444f Tariffs: rename price to value (https://github.com/evcc-io/evcc/pull/19182)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
