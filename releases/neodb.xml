@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2025-05-04T16:33:10.169959-04:00</updated>
+  <updated>2025-05-04T17:33:13.367132-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,7 @@ removed legacy .xlsx export&lt;/p&gt;</content>
 &lt;ul&gt;
 &lt;li&gt;Reworked single post page, logged in web users can now see protected and private posts.&lt;/li&gt;
 &lt;li&gt;Fixed cert compatibility with cloudflare sites - https://bugzilla.mozilla.org/show_bug.cgi?id=1957701&lt;/li&gt;
-&lt;li&gt;Added support for translating comment/review/post&lt;/li&gt;
+&lt;li&gt;Added support for translating comment/review/post, via DeepL or LibreTranslate&lt;/li&gt;
 &lt;li&gt;Guest user can change device-based settings without login&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.6.5" rel="alternate"/>
