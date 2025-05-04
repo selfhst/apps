@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Toutui Releases</title>
-  <updated>2025-05-04T17:35:23.015619-04:00</updated>
+  <updated>2025-05-04T18:35:12.774747-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -18,10 +18,6 @@
       <name>AlbanDAVID/Toutui</name>
     </author>
     <content>&lt;p&gt;TEST RELEASE (DO NOT INSTALL)&lt;/p&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[hello_toutui] Merge with user config file peacefully by @dougy147 in https://github.com/AlbanDAVID/Toutui/pull/24&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/AlbanDAVID/Toutui/compare/v0.3.5-beta...v0.3.6-beta&lt;/p&gt;</content>
     <link href="https://github.com/AlbanDAVID/Toutui/releases/tag/v0.3.6-beta" rel="alternate"/>
   </entry>
