@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-05-05T18:35:14.281555-04:00</updated>
+  <updated>2025-05-05T19:35:21.024747-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,7 +153,7 @@
   </entry>
   <entry>
     <id>https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.1.0-free</id>
-    <title>New release for Eigenfocus: Due dates, issue comments, colored labels, and more awesomeness - v1.1.0</title>
+    <title>New release for Eigenfocus: Issue due dates, comments, colored labels and more awesomeness - v1.1.0</title>
     <updated>2025-05-05T12:09:09-04:00</updated>
     <author>
       <name>Eigenfocus/eigenfocus</name>
