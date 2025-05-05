@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2025-05-05T06:30:51.959355-04:00</updated>
+  <updated>2025-05-05T07:30:50.744973-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,7 @@
 &lt;li&gt;🐛 Fixed charset handling in search and updated flexsearch to 0.8 (#22874) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🐛 Fixed shared preview links not respecting selected member segment (#23083) - Kevin Ansfield&lt;/li&gt;
 &lt;li&gt;🐛 Fixed UI rendering blank spaced member names (#23019) - Ronald Langeveld&lt;/li&gt;
-&lt;li&gt;✅Added new tests for email encoding related to i18n (#23145) - Cathy Sarisky&lt;/li&gt;
+&lt;li&gt;✅ Added new tests for email encoding related to i18n (#23145) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🌐 Added i18n support for comment sorting options (#23070) - Sebastian Schröder&lt;/li&gt;
 &lt;li&gt;🌐 Updated Polish translation for Comments, Ghost, Newsletter, Portal (#22876) - Tenshimitsu&lt;/li&gt;
 &lt;li&gt;🌐 Updated Vietnamese translations for Newsletter + Ghost (#22959) - Duy&lt;/li&gt;
