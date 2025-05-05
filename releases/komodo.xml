@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-05-04T23:33:18.184510-04:00</updated>
+  <updated>2025-05-05T00:33:34.837420-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,6 +161,7 @@
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
 &lt;p&gt;🚨 This release &lt;strong&gt;removes support for the ServerTemplate resource&lt;/strong&gt;. It was an interesting experiment, but ultimately I feel cloud server creation is outside of the scope of Komodo, it wasn't a very refined flow, and is better accomplished using other IAC tools such as OpenTofu.&lt;/p&gt;
 &lt;p&gt;🚨 Container exec is now enabled even if &lt;code&gt;disable_terminals = true&lt;/code&gt;. This allows users to still use container exec while disabling general terminals. If you don't want to allow container exec, you now have to use &lt;code&gt;disable_container_exec&lt;/code&gt; in &lt;code&gt;periphery.config.toml&lt;/code&gt; (Env: &lt;code&gt;PERIPHERY_DISABLE_CONTAINER_EXEC=true&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;🚨 &lt;code&gt;ssl_enabled&lt;/code&gt; in &lt;code&gt;periphery.config.toml&lt;/code&gt; (Env: &lt;code&gt;PERIPHERY_SSL_ENABLED&lt;/code&gt;) now &lt;strong&gt;defaults to true&lt;/strong&gt;. You should update your server address to use https if you haven't yet.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Websocket&lt;/strong&gt;: Add &lt;code&gt;disable_websocket_reconnect = true&lt;/code&gt; to &lt;code&gt;core.config.toml&lt;/code&gt; (Env: &lt;code&gt;KOMODO_DISABLE_WEBSOCKET_RECONNECT=true&lt;/code&gt;) if your websocket is causing issues. You can still click the connected indicator in the topbar to manually trigger reconnect. The reconnect logic has also improved to make sure reconnect attempts only happen every 5s, so you might want to try it out before disabling reconnect. Re #368.&lt;/p&gt;
