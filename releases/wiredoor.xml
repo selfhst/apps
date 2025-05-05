@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wiredoor Releases</title>
-  <updated>2025-05-05T10:36:27.392539-04:00</updated>
+  <updated>2025-05-05T11:36:21.758022-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,5 +73,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wiredoor/wiredoor/compare/v1.0.0...v1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wiredoor/wiredoor/releases/tag/v1.0.2</id>
+    <title>New release for Wiredoor: v1.0.2</title>
+    <updated>2025-05-05T11:13:53-04:00</updated>
+    <author>
+      <name>wiredoor/wiredoor</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: add full support to websockets by @dmesad in https://github.com/wiredoor/wiredoor/pull/27&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wiredoor/wiredoor/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
+    <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
