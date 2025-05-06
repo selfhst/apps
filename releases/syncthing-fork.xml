@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-05-06T15:35:29.566479-04:00</updated>
+  <updated>2025-05-06T16:35:25.198677-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,10 +81,12 @@
     <author>
       <name>Catfriend1/syncthing-android</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;Upgrade notes:
+The backup folder location UI preference on the settings screen is now relative to the internal storage root. Before, it was interpreted relative to the "(int-stor)/backups" folder. Please review that setting if you upgrade from a previous release.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;Update SyncthingNative to v1.29.5
 Build using CI&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Catfriend1/syncthing-android/compare/v1.29.4.1...v1.29.5.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Catfriend1/syncthing-android/compare/v1.29.4.0...v1.29.5.0&lt;/p&gt;</content>
     <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.5.0" rel="alternate"/>
   </entry>
   <entry>
