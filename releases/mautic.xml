@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-05-06T09:31:16.704851-04:00</updated>
+  <updated>2025-05-06T10:31:21.235570-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -444,7 +444,7 @@ SHA1(6.0.0-update.zip)= bf45b8c27613d538335c1c46a1d34cd1b1a1f69e&lt;/p&gt;</cont
       <name>mautic/mautic</name>
     </author>
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 5.2.5 --&gt;
-
+&lt;h2&gt;Announcing Mautic 5.2.5: Alcyone Edition&lt;/h2&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h2&gt;🐛 Bugs&lt;/h2&gt;
 &lt;h3&gt;📋 Forms&lt;/h3&gt;
