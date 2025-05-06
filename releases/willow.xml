@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Willow Releases</title>
-  <updated>2025-05-06T11:32:27.600620-04:00</updated>
+  <updated>2025-05-06T12:32:31.184504-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,6 +90,28 @@
       <name>HeyWillow/willow</name>
     </author>
     <content>&lt;p&gt;This release is dedicated to the memory of Kristian Kielhofner, the founder of Willow, who sadly passed away last year. His passion and vision laid the foundation for this project.&lt;/p&gt;
+&lt;p&gt;The project would also like to thank @nikito for his work on the &lt;a href="https://github.com/HeyWillow/willow-application-server-ui"&gt;WAS UI&lt;/a&gt;, and @ciaranj for &lt;a href="https://github.com/ciaranj/ha_willow_integration"&gt;his Home Assistant integration&lt;/a&gt;, which adds area awareness to Willow. The integration currently requires running the WAS main branch. Container images built from the main branch can be used with this tag: ghcr.io/heywillow/willow-application-server:main.&lt;/p&gt;
+&lt;h2&gt;Release Highlights&lt;/h2&gt;
+&lt;h3&gt;New features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;802.11k/v support&lt;/li&gt;
+&lt;li&gt;Chacha20-Poly1305 support&lt;/li&gt;
+&lt;li&gt;TLS 1.3 support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LVGL scrolling bug (#227)&lt;/li&gt;
+&lt;li&gt;Restart ESP Audio on crash (#428)&lt;/li&gt;
+&lt;li&gt;Home Assistant WebSocket auth (#368)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Espressif component updates:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bump ESP-IDF from 5.1.1 to 5.3.3&lt;/li&gt;
+&lt;li&gt;Bump ESP-ADF from 2.6+ to 2.7&lt;/li&gt;
+&lt;li&gt;Bump ESP-DSP from 1.4.7 to 1.4.12&lt;/li&gt;
+&lt;li&gt;Bump ESP-SR from 1.6.0+ to 1.9.5&lt;/li&gt;
+&lt;li&gt;Bump LVGL from 8.3.9 to 8.4.0&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;sdkconfig: build for ESP32-S3-Box-3 by default by @stintel in https://github.com/HeyWillow/willow/pull/366&lt;/li&gt;
