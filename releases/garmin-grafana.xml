@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Garmin Grafana Releases</title>
-  <updated>2025-05-06T12:36:22.356188-04:00</updated>
+  <updated>2025-05-06T13:36:05.810359-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,5 +158,52 @@
 &lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.2.0</id>
+    <title>New release for Garmin Grafana: v0.2.0</title>
+    <updated>2025-05-06T13:26:02-04:00</updated>
+    <author>
+      <name>arpanghosh8453/garmin-grafana</name>
+    </author>
+    <content>&lt;h2&gt;What's New?&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;Data exporter script for LLM integration :&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Now you can export your health data with the &lt;a href="https://github.com/arpanghosh8453/garmin-grafana#export-data-to-csv-files"&gt;provided exporter script&lt;/a&gt; from your local InfluxDB database as simple CSV files (https://github.com/arpanghosh8453/garmin-grafana/commit/13f7c28e395a8c80e1fee2326c677201853adfaa) that you can analyze with your custom Python code (if you are adeveloper and want to have some fun) or simply feed to a &lt;strong&gt;local/cloud LLM model (such as Lamma or ChatGPT)&lt;/strong&gt; for analysis and get insights from there - essentially allowing you to chat about your performance and health stats in the context of the provided exported data. Over time the model becomes aware of your past performance and can give you more personalized recommendations/suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Dashboard time durations changed to HH:MM:SS format&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The new Grafana dashboard replaces the difficult to read x.yz hours into hh:mm:ss format - which is more intuitive and easy to read at a glance. (#54)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Feature improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added VO2 max for Cycling - You can find this new field under the measurement &lt;code&gt;VO2&lt;/code&gt; (#84)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug fixes - ❗Breaking change ❗&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed Endurance Score value fetching from weekly average to daily (#86). This change deprecates the old fields &lt;code&gt;EnduranceScoreAvg&lt;/code&gt; and &lt;code&gt;EnduranceScoreMax&lt;/code&gt; replacing it with field &lt;code&gt;EnduranceScore&lt;/code&gt; under the measurement &lt;code&gt;EnduranceScore&lt;/code&gt;. You should change your custom panels to reflect the same if you are monitoring your Endurance Score. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix typo by @heiderich in https://github.com/arpanghosh8453/garmin-grafana/pull/73&lt;/li&gt;
+&lt;li&gt;Fix typo in README.md by @runtingt in https://github.com/arpanghosh8453/garmin-grafana/pull/75&lt;/li&gt;
+&lt;li&gt;Update Garmin-Grafana-Dashboard.json by @brusilva84 in https://github.com/arpanghosh8453/garmin-grafana/pull/82&lt;/li&gt;
+&lt;li&gt;spelling issues and formatting adjustments. by @dipanghosh in https://github.com/arpanghosh8453/garmin-grafana/pull/83&lt;/li&gt;
+&lt;li&gt;Update Garmin-Grafana-Dashboard.json by @brusilva84 in https://github.com/arpanghosh8453/garmin-grafana/pull/87&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@heiderich made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/73&lt;/li&gt;
+&lt;li&gt;@runtingt made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/75&lt;/li&gt;
+&lt;li&gt;@brusilva84 made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/82&lt;/li&gt;
+&lt;li&gt;@dipanghosh made their first contribution in https://github.com/arpanghosh8453/garmin-grafana/pull/83&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arpanghosh8453/garmin-grafana/compare/v0.1.0...v0.2.0&lt;/p&gt;
+&lt;h2&gt;Love this project?&lt;/h2&gt;
+&lt;p&gt;If you find this project helpful, please consider:&lt;/p&gt;
+&lt;p&gt;⭐ Starring this repository to show your support and spread the news!&lt;/p&gt;
+&lt;p&gt;☕ &lt;a href="https://ko-fi.com/A0A84F3DP"&gt;Buying me a coffee&lt;/a&gt; if you'd like to contribute to its maintenance and future development.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ko-fi.com/A0A84F3DP"&gt;&lt;img alt="ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/arpanghosh8453/garmin-grafana/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
