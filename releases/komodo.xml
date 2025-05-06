@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-05-06T13:33:29.965526-04:00</updated>
+  <updated>2025-05-06T14:33:42.999403-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -173,11 +173,9 @@
 &lt;li&gt;Lots of people didn't see the previous rename function until it was pointed out, hopefully this makes it easier to figure out.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Server&lt;/strong&gt;: Terminals can now be started using your &lt;strong&gt;shell of choice&lt;/strong&gt; (before it was always &lt;code&gt;bash&lt;/code&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: Implemented the &lt;code&gt;execute_terminal&lt;/code&gt; api to send command to your Terminals over HTTP call. See below for details.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stack&lt;/strong&gt;: Add the &lt;code&gt;BatchPullStack&lt;/code&gt; execution for use in Actions / Procedures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: Terminals can now be started using your &lt;strong&gt;shell of choice&lt;/strong&gt; (before it was always &lt;code&gt;bash&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server&lt;/strong&gt;: Implemented the &lt;code&gt;execute_terminal&lt;/code&gt; api to send command to your Terminals over HTTP call. See below for details.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Execute Terminal&lt;/h2&gt;
 &lt;p&gt;One use case I had in mind for terminals is to have an easy way to handle a simple system update task, say running &lt;code&gt;sudo apt upgrade -y&lt;/code&gt;, on a schedule. To do this, I needed a way to interact with terminals from an Action. Now you can do this using &lt;code&gt;komodo.execute_terminal&lt;/code&gt;. For example, a simple Action to update all your servers and consolidate / save the logs:&lt;/p&gt;
