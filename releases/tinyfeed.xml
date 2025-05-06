@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>tinyfeed Releases</title>
-  <updated>2025-05-06T01:34:55.107540-04:00</updated>
+  <updated>2025-05-06T02:35:05.802995-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,7 @@
 &lt;h2&gt;🔒 Security&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Commit pinning in GitHub Actions: action now reference full commit hashesto reduce supply chain risks.&lt;/li&gt;
-&lt;li&gt;A vulnerability disclosure policy is now in place to facilitate reporting and define a responsible scope.&lt;/li&gt;
+&lt;li&gt;A vulnerability disclosure policy is now in place to define a responsible scope and facilitate reporting.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🐛 Fixes&lt;/h2&gt;
 &lt;ul&gt;
