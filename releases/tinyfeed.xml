@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>tinyfeed Releases</title>
-  <updated>2025-05-06T00:35:09.817768-04:00</updated>
+  <updated>2025-05-06T01:34:55.107540-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,11 +111,11 @@
 &lt;h2&gt;🔒 Security&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Commit pinning in GitHub Actions: action now reference full commit hashesto reduce supply chain risks.&lt;/li&gt;
-&lt;li&gt;Security policy added: A disclosure policy is now in place to facilitate reporting an issue and encure a responsible scope is defined&lt;/li&gt;
+&lt;li&gt;A vulnerability disclosure policy is now in place to facilitate reporting and define a responsible scope.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🐛 Fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Resolved a nil pointer dereference when running with the --quiet flag. (fix: nil pointer dereference)&lt;/li&gt;
+&lt;li&gt;Resolved a nil pointer dereference when running with the --quiet flag. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🧹 Miscellaneous&lt;/h2&gt;
 &lt;ul&gt;
