@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wiredoor Releases</title>
-  <updated>2025-05-06T23:36:04.229150-04:00</updated>
+  <updated>2025-05-07T00:36:16.680586-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,5 +87,17 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wiredoor/wiredoor/compare/v1.0.1...v1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wiredoor/wiredoor/releases/tag/v1.1.0</id>
+    <title>New release for Wiredoor: v1.1.0</title>
+    <updated>2025-05-06T23:40:51-04:00</updated>
+    <author>
+      <name>wiredoor/wiredoor</name>
+    </author>
+    <content>&lt;h1&gt;New Feature: OAuth2 Proxy Authentication Support&lt;/h1&gt;
+&lt;p&gt;This release introduces &lt;strong&gt;built-in support for OAuth2 Proxy&lt;/strong&gt;, allowing you to secure any service exposed through Wiredoor with authentication via providers like &lt;strong&gt;Google&lt;/strong&gt;, &lt;strong&gt;GitHub&lt;/strong&gt;, &lt;strong&gt;Authentik&lt;/strong&gt;, or any OIDC-compliant service.&lt;/p&gt;
+&lt;p&gt;Read the &lt;a href="https://www.wiredoor.net/docs/usage"&gt;Usage Guide&lt;/a&gt; to learn more.&lt;/p&gt;</content>
+    <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
