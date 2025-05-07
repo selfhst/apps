@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Atlas CMMS Releases</title>
-  <updated>2025-05-07T07:35:48.735413-04:00</updated>
+  <updated>2025-05-07T08:36:05.964425-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,5 +72,24 @@
 &lt;p&gt;⬆️ &lt;strong&gt;Upgrade Notice:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you are using environment variables, please download the new &lt;code&gt;.env.example&lt;/code&gt; file, rename it to &lt;code&gt;.env&lt;/code&gt;, and configure the updated variables.  Also, ensure you have the latest &lt;code&gt;docker-compose.yml&lt;/code&gt; file.  See the updated README for details.&lt;/p&gt;</content>
     <link href="https://github.com/Grashjs/cmms/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Grashjs/cmms/releases/tag/v1.2.0</id>
+    <title>New release for Atlas CMMS: v1.2.0</title>
+    <updated>2025-05-07T07:53:44-04:00</updated>
+    <author>
+      <name>Grashjs/cmms</name>
+    </author>
+    <content>&lt;h2&gt;Release Notes - Version 1.2.0&lt;/h2&gt;
+&lt;p&gt;🚀 This release is packed with improvements and new features!&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;SSO Integration&lt;/strong&gt;:  SSO is now supported, allowing users to sign in with Google or Microsoft.&lt;/p&gt;
+&lt;p&gt;🌐 &lt;strong&gt;Internationalization&lt;/strong&gt;:  Added support for Arabic translations.&lt;/p&gt;
+&lt;p&gt;🗂️ &lt;strong&gt;Asset Management&lt;/strong&gt;: Improved asset selection with hierarchical views in mobile and web.&lt;/p&gt;
+&lt;p&gt;💪 &lt;strong&gt;Performance Boost&lt;/strong&gt;: Enhanced pagination and sorting for faster data retrieval across the application. Caching has been implemented for analytics endpoints.&lt;/p&gt;
+&lt;p&gt;🐛 &lt;strong&gt;Bug Fixes&lt;/strong&gt;: Resolved issues with checklist task order, guest request page errors, and infinite loops.&lt;/p&gt;
+&lt;p&gt;💰 &lt;strong&gt;Precision&lt;/strong&gt;: Refactored cost and quantity data types to double for increased precision.&lt;/p&gt;
+&lt;p&gt;📧 &lt;strong&gt;Notifications&lt;/strong&gt;: Enhanced email update settings and user enabled status checks.&lt;/p&gt;
+&lt;p&gt;💾 &lt;strong&gt;Backup&lt;/strong&gt;: Added backup and restore features&lt;/p&gt;</content>
+    <link href="https://github.com/Grashjs/cmms/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
