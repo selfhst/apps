@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-05-06T22:32:32.799394-04:00</updated>
+  <updated>2025-05-06T23:32:35.072022-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -167,5 +167,45 @@
 &lt;li&gt;Fix: ファイルアップロード時の挙動を一部調整(#15895)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.4.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.5.0</id>
+    <title>New release for Misskey: 2025.5.0</title>
+    <updated>2025-05-06T22:46:40-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DockerのNode.jsが22.15.0に更新されました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: マウスで中ボタンドラッグによりタイムラインを引っ張って更新できるように&lt;/li&gt;
+&lt;li&gt;アクセシビリティ設定からオフにすることもできます&lt;/li&gt;
+&lt;li&gt;Enhance: タイムラインのパフォーマンスを向上&lt;/li&gt;
+&lt;li&gt;Enhance: バックアップされた設定のプロファイルを削除できるように&lt;/li&gt;
+&lt;li&gt;Fix: 一部のブラウザでアコーディオンメニューのアニメーションが動作しない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ダイアログのお知らせが画面からはみ出ることがある問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ユーザーポップアップでエラーが生じてもインジケーターが表示され続けてしまう問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: 凍結されたユーザのノートが各種タイムラインで表示されないように &lt;code&gt;#15775&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Enhance: 連合先のソフトウェア及びバージョン名により配信停止を行えるように &lt;code&gt;#15727&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Enhance: 2025.4.1 で追加されたインデックスの再生成をノートの追加しながら行えるようになりました。 &lt;code&gt;#15915&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MISSKEY_MIGRATION_CREATE_INDEX_CONCURRENTLY&lt;/code&gt; 環境変数を &lt;code&gt;1&lt;/code&gt; にセットしていると、巨大なテーブルの既存のカラムに関するインデックス再生成が&lt;code&gt;CREATE INDEX CONCURRENTLY&lt;/code&gt;を使用するようになりました。&lt;/li&gt;
+&lt;li&gt;複数のサーバープロセスをクラスタリングしているサーバーにおいて、一部のプロセスが起動している状態でこのオプションを有効にしてマイグレーションすることにより、ダウンタイムを削減することができます。&lt;/li&gt;
+&lt;li&gt;ただし、このオプションを有効にする場合、インデックスの作成にかかる時間が倍~3倍以上になることがあります。&lt;/li&gt;
+&lt;li&gt;また、大きなインスタンスである場合にはインデックスの作成に失敗し、複数回再試行する必要がある可能性があります。&lt;/li&gt;
+&lt;li&gt;Fix: チャンネルのフォロー一覧の結果が一部正しくないのを修正 (#12175)&lt;/li&gt;
+&lt;li&gt;Fix: ファイルをアップロードした際にファイル名が常に untitled になる問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ファイルのアップロードに失敗することがある問題を修正&lt;/li&gt;
+&lt;li&gt;投稿フォーム上で画像のクロップを行うと、&lt;code&gt;Invalid Param.&lt;/code&gt;エラーでノートが投稿出来なくなる問題も解決されます。&lt;ul&gt;
+&lt;li&gt;この事象によって既にノートが投稿出来ない状態になっている場合は、投稿フォーム右上のメニューから、下書きデータの「リセット」を行ってください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.5.0" rel="alternate"/>
   </entry>
 </feed>
