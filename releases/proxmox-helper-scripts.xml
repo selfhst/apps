@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Proxmox Helper-Scripts Releases</title>
-  <updated>2025-05-08T02:35:08.870678-04:00</updated>
+  <updated>2025-05-08T03:35:18.856229-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,7 +132,7 @@
   <entry>
     <id>https://github.com/community-scripts/ProxmoxVE/releases/tag/2025-05-07</id>
     <title>New release for Proxmox Helper-Scripts: 2025-05-07</title>
-    <updated>2025-05-07T20:24:16-04:00</updated>
+    <updated>2025-05-08T03:17:02-04:00</updated>
     <author>
       <name>community-scripts/ProxmoxVE</name>
     </author>
@@ -146,6 +146,21 @@
 &lt;h4&gt;🐞 Bug Fixes&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;SuwayomiServer: Bump Java to v21, code formating &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/3987"&gt;#3987&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;✨ New Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature: get correct next VMID &lt;a href="https://github.com/MickLesk"&gt;@MickLesk&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/4292"&gt;#4292&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌐 Website&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4&gt;📝 Script Information&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenWebUI: Update docs link &lt;a href="https://github.com/tremor021"&gt;@tremor021&lt;/a&gt; (&lt;a href="https://github.com/community-scripts/ProxmoxVE/pull/4298"&gt;#4298&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>

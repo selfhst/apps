@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-05-08T02:33:11.343396-04:00</updated>
+  <updated>2025-05-08T03:33:14.986946-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -108,12 +108,13 @@
   </entry>
   <entry>
     <id>https://github.com/activepieces/activepieces/releases/tag/0.52.5</id>
-    <title>New release for Activepieces: 0.52.5</title>
+    <title>New release for Activepieces: 0.52.5 (If you use embedding skip this)</title>
     <updated>2025-05-07T23:42:05-04:00</updated>
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;h2&gt;🐞 Bug Fixes&lt;/h2&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: This will break navigation for "/runs" route in the embedding SDK we will address a fix for this in the next release&lt;/p&gt;
+&lt;h2&gt;🐞 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix: array contains in postgres (#7620) @abuaboud&lt;/li&gt;
 &lt;/ul&gt;
