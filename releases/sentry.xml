@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sentry Releases</title>
-  <updated>2025-05-08T17:32:54.373304-04:00</updated>
+  <updated>2025-05-08T18:32:48.316955-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,7 +197,7 @@ https://blog.sentry.io/code-mappings-and-why-they-matter/&lt;/p&gt;
     </author>
     <content>&lt;h3&gt;Automate Code Mappings &amp;amp; In-App Stack Trace Rules for Java projects (ongoing)&lt;/h3&gt;
 &lt;p&gt;Currently, we ask developers to set up their Java code mappings manually (because the SDK cannot determine it):
-https://docs.sentry.io/platforms/java/source-context/&amp;#35;setting-up-code-mappings&lt;/p&gt;
+https://docs.sentry.io/platforms/java/source-context/#setting-up-code-mappings&lt;/p&gt;
 &lt;p&gt;Unfortunately, many stack traces do not contain in-app frames, thus, many Sentry features are not available (e.g. SCM linking, suspect commit).&lt;/p&gt;
 &lt;p&gt;This tracks using the code mappings derivation system to automatically add the code mappings and stack trace rules to mark in-app frames as such.&lt;/p&gt;
 &lt;p&gt;This will automatically enable the following Sentry features :
