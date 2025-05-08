@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2025-05-08T13:33:50.846099-04:00</updated>
+  <updated>2025-05-08T14:33:53.167695-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,6 +156,8 @@ Try out the ImmichFrame demo &lt;a href="https://demo.immichframe.online"&gt;her
       <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;h1&gt;📦 ImmichFrame Release v1.0.25.0 – March 08, 2025&lt;/h1&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;The new documentation page is now live, visit &lt;a href="https://immichframe.online"&gt;immichframe.online&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.25.0 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
@@ -163,27 +165,24 @@ Try out the ImmichFrame demo &lt;a href="https://demo.immichframe.online"&gt;her
 &lt;ul&gt;
 &lt;li&gt;Feat: ASCII-Art by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/321&lt;/li&gt;
 &lt;li&gt;Feat: Rework Backend, decouple by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/317&lt;/li&gt;
-&lt;li&gt;ImageFill by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/333&lt;/li&gt;
+&lt;li&gt;Feat: ImageFill by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/333&lt;/li&gt;
 &lt;li&gt;Feat: Fetch asset metadata for images without people by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/339&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;⚡ Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;fix: Add text shadow to weather data display by @enumura1 in https://github.com/immichFrame/ImmichFrame/pull/323&lt;/li&gt;
+&lt;li&gt;Fix: Add text shadow to weather data display by @enumura1 in https://github.com/immichFrame/ImmichFrame/pull/323&lt;/li&gt;
 &lt;li&gt;Fix: Description for memory assets (x years ago) by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/338&lt;/li&gt;
+&lt;li&gt;Fix: Logo flickering by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/342&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;📓 Documentation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;doc: Basic documentation Page by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/325&lt;/li&gt;
-&lt;li&gt;Update documentation and index page by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/331&lt;/li&gt;
-&lt;li&gt;Update README and link to new documentation by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/332&lt;/li&gt;
+&lt;li&gt;Docs: Basic documentation Page by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/325&lt;/li&gt;
+&lt;li&gt;Docs: Update documentation and index page by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/331&lt;/li&gt;
+&lt;li&gt;Docs: Update README and link to new documentation by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/332&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🔨 Maintenance&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;chore: Image component code cleanup by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/334&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;🚀 Other changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix: Logo flickering by @3rob3 in https://github.com/immichFrame/ImmichFrame/pull/342&lt;/li&gt;
+&lt;li&gt;Chore: Image component code cleanup by @JW-CH in https://github.com/immichFrame/ImmichFrame/pull/334&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
