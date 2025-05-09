@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pingvin Share Releases</title>
-  <updated>2025-05-09T02:32:32.644778-04:00</updated>
+  <updated>2025-05-09T03:32:29.802005-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,7 @@
 &lt;li&gt;health check for containers with reverse proxy disabled (&lt;a href="https://github.com/stonith404/pingvin-share/issues/816"&gt;#816&lt;/a&gt; by @marvinruder)&lt;/li&gt;
 &lt;li&gt;OIDC configuration from YAML configuration file doesn't get loaded (&lt;a href="https://github.com/stonith404/pingvin-share/commit/48a6ceb3b4b4dfc0407dc6f9ee2e07cca1829cef"&gt;48a6ceb&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;spelling mistake and add clarity in email template (&lt;a href="https://github.com/stonith404/pingvin-share/issues/824"&gt;#824&lt;/a&gt; by @bunnypranav)&lt;/li&gt;
-&lt;li&gt;use sandbox CSP for file previews (&lt;a href="https://github.com/stonith404/pingvin-share/commit/1864951bdbf573431e795109224a45545b86b54d"&gt;1864951&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use sandbox CSP for file previews (&lt;a href="https://github.com/stonith404/pingvin-share/commit/1864951bdbf573431e795109224a45545b86b54d"&gt;1864951&lt;/a&gt; Thanks to Myo)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/stonith404/pingvin-share/releases/tag/v1.12.0" rel="alternate"/>
   </entry>
