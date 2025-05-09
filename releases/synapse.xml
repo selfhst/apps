@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Synapse Releases</title>
-  <updated>2025-05-09T10:31:40.347063-04:00</updated>
+  <updated>2025-05-09T11:31:41.859806-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,13 +201,13 @@
 &lt;h3&gt;Internal Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Revert the slow background update introduced by &lt;a href="https://github.com/element-hq/synapse/issues/18068"&gt;#18068&lt;/a&gt; in v1.128.0. (&lt;a href="https://github.com/element-hq/synapse/issues/18372"&gt;#18372&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Revert "Add total event, unencrypted message, and e2ee event counts to stats reporting", added in v1.129.0rc1. (&lt;a href="https://github.com/element-hq/synapse/issues/18373"&gt;#18373&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Revert "Add &lt;code&gt;total_event_count&lt;/code&gt;, &lt;code&gt;total_message_count&lt;/code&gt;, and &lt;code&gt;total_e2ee_event_count&lt;/code&gt; fields to the homeserver usage statistics.", added in v1.129.0rc1. (&lt;a href="https://github.com/element-hq/synapse/issues/18373"&gt;#18373&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Synapse 1.129.0rc1 (2025-04-15)&lt;/h1&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add &lt;code&gt;passthrough_authorization_parameters&lt;/code&gt; in OIDC configuration to allow passing parameters to the authorization grant URL. (&lt;a href="https://github.com/element-hq/synapse/issues/18232"&gt;#18232&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Add &lt;code&gt;total_event_count&lt;/code&gt;, &lt;code&gt;total_message_count&lt;/code&gt;, and &lt;code&gt;total_e2ee_event_count&lt;/code&gt; fields to the homeserver usage statistics. (&lt;a href="https://github.com/element-hq/synapse/issues/18260"&gt;#18260&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;~~Add &lt;code&gt;total_event_count&lt;/code&gt;, &lt;code&gt;total_message_count&lt;/code&gt;, and &lt;code&gt;total_e2ee_event_count&lt;/code&gt; fields to the homeserver usage statistics. (&lt;a href="https://github.com/element-hq/synapse/issues/18260"&gt;#18260&lt;/a&gt;)~~ This was reverted in 1.129.0rc2.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bugfixes&lt;/h3&gt;
 &lt;ul&gt;
