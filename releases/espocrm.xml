@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>EspoCRM Releases</title>
-  <updated>2025-05-10T03:34:38.366090-04:00</updated>
+  <updated>2025-05-10T04:34:33.301815-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,7 +71,7 @@
 &lt;li&gt;Target list categories https://github.com/espocrm/espocrm/issues/3274&lt;/li&gt;
 &lt;li&gt;Image modal full screen view https://github.com/espocrm/espocrm/issues/3275&lt;/li&gt;
 &lt;li&gt;Detail and list view refresh on header title click https://github.com/espocrm/espocrm/issues/3284&lt;/li&gt;
-&lt;li&gt;Preferences parameter to make page content width wider https://github.com/espocrm/espocrm/issues/3284&lt;/li&gt;
+&lt;li&gt;Preferences parameter to make page content width wider https://github.com/espocrm/espocrm/issues/3290&lt;/li&gt;
 &lt;li&gt;Campaign: Informational Email type https://github.com/espocrm/espocrm/issues/3296&lt;/li&gt;
 &lt;li&gt;Knowledge base: Full-text search https://github.com/espocrm/espocrm/issues/3316&lt;/li&gt;
 &lt;li&gt;Collapsible quick create and edit modals https://github.com/espocrm/espocrm/issues/3320&lt;/li&gt;
