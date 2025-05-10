@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tube Archivist Releases</title>
-  <updated>2025-05-10T13:31:40.327691-04:00</updated>
+  <updated>2025-05-10T14:31:39.291857-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,6 +245,7 @@ Example: &lt;code&gt;TA_HOST=http://tubearchivist.local:8000&lt;/code&gt;&lt;/p&
 &lt;li&gt;Fixed redis connection error message&lt;/li&gt;
 &lt;li&gt;Fixed backend messages notification list type&lt;/li&gt;
 &lt;li&gt;Fixed playlist sort, by @MerlinScheurer &lt;/li&gt;
+&lt;li&gt;Fix URL params in embed player, by @masonjames, #907&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/tubearchivist/tubearchivist/releases/tag/v0.5.1" rel="alternate"/>
   </entry>
