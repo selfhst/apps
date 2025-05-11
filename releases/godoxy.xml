@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-11T05:30:51.516824-04:00</updated>
+  <updated>2025-05-11T06:30:49.935098-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -172,11 +172,20 @@
 &lt;p&gt;Web UI&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Drag and drop&lt;/strong&gt; to reorder apps in groups.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Drag and drop&lt;/strong&gt; to reorder apps or move to another category.&lt;/p&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/c1513314-1aca-49ca-aea2-e0c705d9a7af&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;Refined app hover tooltips: better layout and health checks details.&lt;/li&gt;
-&lt;li&gt;Refined "Proxies" page: groups providers into tabs.&lt;/li&gt;
-&lt;li&gt;Add option to display status bubbles on the left of the app icons, and now it is the default.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Refined app hover tooltips: better layout and health checks details.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1670f6e4-6564-4767-be41-86dd3bfba265" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Refined "Proxies" page: groups providers into tabs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/095b981b-bb00-4f41-885b-cff339c3a9e3" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add option to display status bubbles on the left of the app icons, and now it is the default.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;Better docker container logs page navigation with URL fragment &lt;code&gt;#&amp;lt;container-id&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Fixed an issue where context menu was not closed after opening "Edit App" dialog.&lt;/li&gt;
 &lt;li&gt;
@@ -207,10 +216,10 @@ entrypoint:
 &lt;p&gt;Add alternative logical AND operator &lt;code&gt;&amp;amp;&lt;/code&gt; for rules&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yaml
   entrypoint:
-  middlewares:
-    - use: oidc
-      bypass:
-        - route immich &amp;amp; path /api/v1/*&lt;/code&gt;&lt;/p&gt;
+    middlewares:
+      - use: oidc
+        bypass:
+          - route immich &amp;amp; path /api/v1/*&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Docker&lt;/p&gt;
