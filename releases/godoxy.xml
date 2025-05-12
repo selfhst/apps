@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-12T01:30:49.843665-04:00</updated>
+  <updated>2025-05-12T02:30:50.458062-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -187,9 +187,8 @@
 &lt;p&gt;Add option to display status bubbles on the left of the app icons, and now it is the default.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Better docker container logs page navigation with URL fragment &lt;code&gt;#&amp;lt;container-id&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Fixed an issue where context menu was not closed after opening "Edit App" dialog.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fixed "invalid oauth state" error after OIDC login.&lt;/p&gt;
+&lt;p&gt;Fixed an issue where context menu was not closed after opening "Edit App" dialog.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Middleware bypass rules (shared syntax with &lt;a href="https://docs.godoxy.dev/Rule-Based-Routing"&gt;Rule based routing&lt;/a&gt;)&lt;/p&gt;
