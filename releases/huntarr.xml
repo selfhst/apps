@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-12T08:41:49.795944-04:00</updated>
+  <updated>2025-05-12T10:36:10.404649-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,6 +116,9 @@
     <content>&lt;p&gt;Resolves:&lt;/p&gt;
 &lt;p&gt;https://github.com/plexguide/Huntarr.io/issues/398 about log spam and did some additional stuff&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If users put a / at the end of the url or any special characters, a script removes it and saves the proper address to prevent issues (usually with sonarr)&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;moved to debug (the 30 second intervals)
 &lt;img alt="image" src="https://github.com/user-attachments/assets/d12b9dc9-7f58-4247-b9c3-d30fc6983685" /&gt;&lt;/p&gt;

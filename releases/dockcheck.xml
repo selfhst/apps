@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockcheck Releases</title>
-  <updated>2025-05-12T08:36:04.351684-04:00</updated>
+  <updated>2025-05-12T10:30:42.536848-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -111,7 +111,7 @@ shopt -s failglob&lt;/code&gt;
   <entry>
     <id>https://github.com/mag37/dockcheck/releases/tag/v0.6.4</id>
     <title>New release for Dockcheck: v0.6.4</title>
-    <updated>2025-05-11T15:02:24-04:00</updated>
+    <updated>2025-05-12T10:02:36-04:00</updated>
     <author>
       <name>mag37/dockcheck</name>
     </author>
