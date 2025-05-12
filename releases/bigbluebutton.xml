@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BigBlueButton Releases</title>
-  <updated>2025-05-12T11:32:45.948450-04:00</updated>
+  <updated>2025-05-12T12:32:40.333567-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -293,6 +293,7 @@ Quick poll now optionally includes a preview step. Raise hand was added to disab
     </author>
     <content>&lt;p&gt;The main focus of this iteration are improvements to the breakout rooms, external video (youtube) share and presentation conversion.
 LiveKit support has been improved and some whiteboard edge cases have been handled.&lt;/p&gt;
+&lt;p&gt;Note: Some BigBlueButton plugins now support other languages. If you are seeing things like "pickRandomUserPlugin.actionsButtonDropdown.label.pickUser" instead of the label, check for a newer tag/version of the plugin on github. We welcome translation contributions to the plugins as we are propagating the translation support.&lt;/p&gt;
 &lt;p&gt;Below is a list of the pull requests in this iteration, grouped by component.&lt;/p&gt;
 &lt;p&gt;Link to installation command / instructions/ schedule / planned features : https://docs.bigbluebutton.org/3.0/new-features&lt;/p&gt;
 &lt;p&gt;Big THANK YOU to all community members who helped for this release - both through sending pull requests and through reporting bugs or requesting enhancements! :confetti_ball:&lt;/p&gt;
