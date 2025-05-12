@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Authelia Releases</title>
-  <updated>2025-05-12T03:30:30.968962-04:00</updated>
+  <updated>2025-05-12T04:30:30.977933-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,6 +134,7 @@
       <name>authelia/authelia</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/authelia/authelia/compare/v4.39.1...v4.39.2"&gt;4.39.2&lt;/a&gt; (2025-05-10)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; This release inadvertently removed the legacy OpenID Connect 1.0 endpoints which have not been documented in the last 3 years either at the discovery document or on the website. While these changes were technically unintentional right at this moment they were going to be hard removed at some point before we graduated OpenID Connect 1.0 out of a experimental/beta state, as such we're going to leave them as is. Users should refer to &lt;a href="https://www.authelia.com/integration/openid-connect/introduction/#discoverable-endpoints"&gt;our documentation&lt;/a&gt; as well as their instances &lt;a href="https://www.authelia.com/integration/openid-connect/introduction/#well-known-discovery-endpoints"&gt;discovery endpoints&lt;/a&gt; to obtain the correct URLs.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;commands:&lt;/strong&gt; incorrect flag mapping (&lt;a href="https://github.com/authelia/authelia/issues/9292"&gt;#9292&lt;/a&gt;) (&lt;a href="https://github.com/authelia/authelia/commit/6b358ef5b201672fedc433d26cc004cd50ee4535"&gt;6b358ef&lt;/a&gt;)&lt;/li&gt;
