@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Photos Releases</title>
-  <updated>2025-05-10T07:32:49.354306-04:00</updated>
+  <updated>2025-05-12T08:38:29.556876-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -195,40 +195,42 @@
       <name>ente-io/ente</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;This release focuses on bug fixes, performance improvements, and updated translations for the mobile app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhancements:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[mob] Refactor &amp;amp; remove unused methods by @ua741 in https://github.com/ente-io/ente/pull/5648&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5669&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix build failing due to translation error by @ashilkn in https://github.com/ente-io/ente/pull/5674&lt;/li&gt;
-&lt;li&gt;[mob][photos] Remove setting audio session category (iOS) by @ashilkn in https://github.com/ente-io/ente/pull/5673&lt;/li&gt;
-&lt;li&gt;[mob][photos] Log whether resource intensive features are enabled by @ashilkn in https://github.com/ente-io/ente/pull/5678&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix wakelock bugs by @ashilkn in https://github.com/ente-io/ente/pull/5691&lt;/li&gt;
-&lt;li&gt;[mob][photos] Update dark mode app icon following iOS design docs to make it look consistent with other iOS app icons by @ashilkn in https://github.com/ente-io/ente/pull/5701&lt;/li&gt;
-&lt;li&gt;[mob][photos] Video editor improvements by @ashilkn in https://github.com/ente-io/ente/pull/5709&lt;/li&gt;
-&lt;li&gt;[mob][Auth] Release v4.3.5 by @ashilkn in https://github.com/ente-io/ente/pull/5717&lt;/li&gt;
-&lt;li&gt;[mob] Enable gradual rollout for resumable upload by @ua741 in https://github.com/ente-io/ente/pull/5718&lt;/li&gt;
-&lt;li&gt;[mob] streaming hot fixes by @prateekmedia in https://github.com/ente-io/ente/pull/5724&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5738&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5744&lt;/li&gt;
-&lt;li&gt;[mob] Setup readable string for Norwegian by @vishnukvmd in https://github.com/ente-io/ente/pull/5745&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fixes 'Not person' null response by @laurenspriem in https://github.com/ente-io/ente/pull/5747&lt;/li&gt;
-&lt;li&gt;[mob] Hide ref promo banner for non-ente instance by @ua741 in https://github.com/ente-io/ente/pull/5740&lt;/li&gt;
-&lt;li&gt;[mob] Surface storage utilisation for pending sync section by @ua741 in https://github.com/ente-io/ente/pull/5754&lt;/li&gt;
-&lt;li&gt;[mob] Fix Splash screens stuck issues during dev with iOS simulator by @ua741 in https://github.com/ente-io/ente/pull/5763&lt;/li&gt;
-&lt;li&gt;[mob] Fix: Add missing check for widget mount by @ua741 in https://github.com/ente-io/ente/pull/5764&lt;/li&gt;
-&lt;li&gt;[mob] re-encode audio ffmpeg &amp;amp; update backup status screen by @prateekmedia in https://github.com/ente-io/ente/pull/5769&lt;/li&gt;
-&lt;li&gt;[mob][photos] Faces queue by @laurenspriem in https://github.com/ente-io/ente/pull/5767&lt;/li&gt;
-&lt;li&gt;[mob] update backup failed dialog by @prateekmedia in https://github.com/ente-io/ente/pull/5780&lt;/li&gt;
-&lt;li&gt;[mob][photos] Deletion fixes by @laurenspriem in https://github.com/ente-io/ente/pull/5792&lt;/li&gt;
-&lt;li&gt;[mobile] New translations by @github-actions in https://github.com/ente-io/ente/pull/5799&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix memories update regression by @laurenspriem in https://github.com/ente-io/ente/pull/5807&lt;/li&gt;
-&lt;li&gt;Face thumbnail logging by @laurenspriem in https://github.com/ente-io/ente/pull/5808&lt;/li&gt;
-&lt;li&gt;[mob] Bump version v1.0.7 by @ua741 in https://github.com/ente-io/ente/pull/5810&lt;/li&gt;
-&lt;li&gt;[mob] fix ffmpeg-kit android compilation by @prateekmedia in https://github.com/ente-io/ente/pull/5813&lt;/li&gt;
-&lt;li&gt;[mob][photos] Fix share to Ente by @laurenspriem in https://github.com/ente-io/ente/pull/5821&lt;/li&gt;
-&lt;li&gt;[mob] Bump version v1.0.8+1038 by @prateekmedia in https://github.com/ente-io/ente/pull/5817&lt;/li&gt;
-&lt;li&gt;[mob] Bump version v1.0.9 by @prateekmedia in https://github.com/ente-io/ente/pull/5834&lt;/li&gt;
-&lt;li&gt;[mob] Navigate to BackupSettings when tapping "Waiting for network" status by @ua741 in https://github.com/ente-io/ente/pull/5835&lt;/li&gt;
-&lt;li&gt;[mob] remove NativeAdapter to support big file upload by @prateekmedia in https://github.com/ente-io/ente/pull/5843&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Video Editor:&lt;/strong&gt; Includes improvements to the video editor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resumable Upload:&lt;/strong&gt; Enabled gradual rollout for resumable upload functionality.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Streaming:&lt;/strong&gt; Includes performance improvements for streaming.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backup Status Screen:&lt;/strong&gt; Updated the backup status screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pending Sync:&lt;/strong&gt; Surface storage utilization information for the pending sync section.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audio Re-encoding:&lt;/strong&gt; Re-encodes audio using FFmpeg.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Faces Queue:&lt;/strong&gt; Implemented a queue for face processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Upload:&lt;/strong&gt; Improve upload experience for large files over flaky networks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Build Error:&lt;/strong&gt; Fixed a build failure caused by a translation error.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Audio Session (iOS):&lt;/strong&gt; Removed the setting of the audio session category on iOS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Wakelock:&lt;/strong&gt; Addressed and fixed wakelock-related bugs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - "Not person" Response:&lt;/strong&gt; Fixed an issue with a null response for "Not person" identification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Memories Update:&lt;/strong&gt; Fixed a regression in the update process for memories.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photos - Share to Ente:&lt;/strong&gt; Resolved an issue when sharing content to Ente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Splash Screen (iOS Simulator):&lt;/strong&gt; Fixed an issue where splash screens could get stuck during development with the iOS simulator.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Widget Mount Check:&lt;/strong&gt; Added a missing check for widget mounting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FFmpeg-kit (Android):&lt;/strong&gt; Fixed an Android compilation issue with &lt;code&gt;ffmpeg-kit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Refactoring:&lt;/strong&gt; Refactored code and removed unused methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Translations:&lt;/strong&gt; Included new translations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Norwegian String:&lt;/strong&gt; Setup a readable string for Norwegian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource Intensive Features Logging:&lt;/strong&gt; Added logging to track whether resource-intensive features are enabled.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark Mode App Icon (iOS):&lt;/strong&gt; Updated the dark mode app icon to align with iOS design guidelines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backup Failed Dialog:&lt;/strong&gt; Updated the appearance of the backup failed dialog.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Face Thumbnail Logging:&lt;/strong&gt; Added logging for face thumbnails.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Navigation to Backup Settings:&lt;/strong&gt; The "Waiting for network" status now navigates to the Backup Settings screen when tapped.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Version Updates:&lt;/strong&gt; Minor version bumps (v1.0.7, v1.0.8+1038).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Ente Instance Banner:&lt;/strong&gt; Hid the referral promo banner for non-Ente instance users.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ente-io/ente/compare/photos-v1.0.4...photos-v1.0.10&lt;/p&gt;</content>
     <link href="https://github.com/ente-io/ente/releases/tag/photos-v1.0.10" rel="alternate"/>

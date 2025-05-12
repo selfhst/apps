@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-05-10T07:35:15.700898-04:00</updated>
+  <updated>2025-05-12T08:41:01.983181-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,7 +96,6 @@ We are preparing for GPG signed release artifacts.&lt;/p&gt;
 Update SyncthingNative to v1.29.6&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;APK version v1.29.5.0 by @Catfriend1 in https://github.com/Catfriend1/syncthing-android/pull/1372&lt;/li&gt;
 &lt;li&gt;Update README.md by @Catfriend1 in https://github.com/Catfriend1/syncthing-android/pull/1373&lt;/li&gt;
 &lt;li&gt;importConfig: Ignore outdated user pref (fixes #1375) by @Catfriend1 in https://github.com/Catfriend1/syncthing-android/pull/1376&lt;/li&gt;
 &lt;li&gt;Bump the dagger group with 2 updates by @dependabot in https://github.com/Catfriend1/syncthing-android/pull/1370&lt;/li&gt;
