@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-05-13T07:31:13.484666-04:00</updated>
+  <updated>2025-05-13T08:31:16.654066-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1023,6 +1023,7 @@ import BrandModule from "../modules/brand";&lt;/p&gt;
       }
     },
   });&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An important trade-off in the index module&lt;/strong&gt; is the need to avoid the performance cost of &lt;code&gt;COUNT(*)&lt;/code&gt; queries, which can be an incredibly high cost for very large data sets. Instead, we use Postgres’ internal query planner to compute an estimated count of the result set. For very small data sets, this estimate can be very inaccurate, but for larger ones it should provide a reasonable estimate. The trade-off allows us to achieve very fast response times making it ideal for user-facing search and browsing experiences. As noted earlier, the tool is still experimental, and we plan to continue iterating and improving it over time.&lt;/p&gt;
 &lt;h3&gt;Custom Tax Providers&lt;/h3&gt;
 &lt;p&gt;This release introduces full support for custom Tax Providers by making these key changes:
 - Load custom Tax Providers in the Tax Module
