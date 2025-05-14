@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2025-05-13T15:30:37.802157-04:00</updated>
+  <updated>2025-05-14T05:39:38.556734-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,56 +130,64 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.3.0 (2025-05-13)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.3/4.3.0.html"&gt;Chevereto 4.3.0&lt;/a&gt; (2025-05-13)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added API dashboard settings page&lt;/li&gt;
-&lt;li&gt;Added application-level categories cache&lt;/li&gt;
-&lt;li&gt;Added application-level guest listing cache&lt;/li&gt;
-&lt;li&gt;Added application-level pages cache&lt;/li&gt;
-&lt;li&gt;Added application-level settings cache&lt;/li&gt;
-&lt;li&gt;Added application-level top tags cache&lt;/li&gt;
-&lt;li&gt;Added application-level user albums cache&lt;/li&gt;
-&lt;li&gt;Added application-level variables cache&lt;/li&gt;
-&lt;li&gt;Added cache-flush command&lt;/li&gt;
-&lt;li&gt;Added cache-view command&lt;/li&gt;
-&lt;li&gt;Added CHEVERETO_ENABLE_API_USER&lt;/li&gt;
-&lt;li&gt;Added CHEVERETO_MAX_LISTING_ITEMS_PER_PAGE limit&lt;/li&gt;
-&lt;li&gt;Added CHEVERETO_MAX_TAGS limit&lt;/li&gt;
-&lt;li&gt;Added chunked uploads&lt;/li&gt;
-&lt;li&gt;Added circles for user avatars&lt;/li&gt;
-&lt;li&gt;Added configurable API availability&lt;/li&gt;
-&lt;li&gt;Added connect URL display for each login provider&lt;/li&gt;
-&lt;li&gt;Added customizable semantics for file concerns&lt;/li&gt;
-&lt;li&gt;Added customizable semantics for tag concerns&lt;/li&gt;
-&lt;li&gt;Added customizable semantics for video concerns&lt;/li&gt;
-&lt;li&gt;Added explicit instructions to "Something went wrong" message&lt;/li&gt;
-&lt;li&gt;Added lossless JPEG auto-orientation using ExifTran&lt;/li&gt;
-&lt;li&gt;Added lossless metadata removal using ExifTool&lt;/li&gt;
-&lt;li&gt;Added more database composite indexes&lt;/li&gt;
-&lt;li&gt;Added option to disable user color palette selection&lt;/li&gt;
-&lt;li&gt;Added restricted password reset after repeated failures&lt;/li&gt;
-&lt;li&gt;Added restricted two-factor access after repeated failures&lt;/li&gt;
-&lt;li&gt;Added support for Cloudflare Turnstile captcha&lt;/li&gt;
-&lt;li&gt;Added support for GoPro 360 photos&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting EXIF read for Sony cameras&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting private sub-albums&lt;/li&gt;
-&lt;li&gt;Fixed bug in upload queue handler&lt;/li&gt;
-&lt;li&gt;Fixed bug on upgrading.php&lt;/li&gt;
-&lt;li&gt;Improved Dashboard settings menu sort display&lt;/li&gt;
-&lt;li&gt;Improved database schema integer types&lt;/li&gt;
-&lt;li&gt;Improved listing database queries&lt;/li&gt;
-&lt;li&gt;Improved search engine (boolean matching)&lt;/li&gt;
-&lt;li&gt;Improved stats query handling&lt;/li&gt;
-&lt;li&gt;Improved user albums query&lt;/li&gt;
-&lt;li&gt;Removed guest upload session binding&lt;/li&gt;
-&lt;li&gt;Removed maximum upload limit imposed by php.ini&lt;/li&gt;
-&lt;li&gt;Removed sendmail for Docker servicing&lt;/li&gt;
-&lt;li&gt;Removed support for ModerateContent&lt;/li&gt;
-&lt;li&gt;Removed unused dependencies and files&lt;/li&gt;
-&lt;li&gt;Renamed "Asset storage" to "Site storage"&lt;/li&gt;
-&lt;li&gt;Renamed "External storage" to "Upload storage"&lt;/li&gt;
-&lt;li&gt;Renamed app/bin/legacy to app/bin/cli&lt;/li&gt;
-&lt;li&gt;Updated file checksum algo to xxh64&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78737"&gt;Added API dashboard settings page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78652"&gt;Added application-level categories cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78660"&gt;Added application-level guest listing cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78664"&gt;Added application-level pages cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78698"&gt;Added application-level RequestLog cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78529"&gt;Added application-level settings cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78654"&gt;Added application-level top tags cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78679"&gt;Added application-level user albums cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78662"&gt;Added application-level variables cache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78713"&gt;Added cache-flush command&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78773"&gt;Added cache-view command&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78736"&gt;Added CHEVERETO_ENABLE_API_USER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78735"&gt;Added CHEVERETO_MAX_LISTING_ITEMS_PER_PAGE limit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78734"&gt;Added CHEVERETO_MAX_TAGS limit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78622"&gt;Added chunked uploads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78518"&gt;Added circles for user avatars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78526"&gt;Added connect URL display for each login provider&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78438"&gt;Added customizable semantics for file concerns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78437"&gt;Added customizable semantics for tag concerns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78435"&gt;Added customizable semantics for video concerns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78575"&gt;Added explicit instructions to "Something went wrong" message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78600"&gt;Added lossless JPEG auto-orientation using ExifTran&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78559"&gt;Added lossless metadata removal using ExifTool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78688"&gt;Added more database composite indexes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78521"&gt;Added option to disable user color palette selection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78684"&gt;Added restricted password reset after repeated failures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78685"&gt;Added restricted two-factor access after repeated failures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78432"&gt;Added support for Cloudflare Turnstile captcha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78553"&gt;Added support for GoPro 360 photos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78586"&gt;Fixed bug affecting EXIF read for Sony cameras&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78590"&gt;Fixed bug affecting private sub-albums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78767"&gt;Fixed bug affecting user listings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78700"&gt;Fixed bug in upload queue handler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78539"&gt;Fixed bug on upgrading.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78765"&gt;Improved Dashboard settings menu sort display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78650"&gt;Improved database schema integer types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78668"&gt;Improved listing database queries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78728"&gt;Improved pages load system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78701"&gt;Improved pixel-perfect listing gap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78763"&gt;Improved search engine (boolean matching)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78733"&gt;Improved stats query handling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78672"&gt;Improved user albums query&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78678"&gt;Removed guest upload session binding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78646"&gt;Removed maximum upload limit imposed by php.ini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78592"&gt;Removed sendmail for Docker servicing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78594"&gt;Removed support for ModerateContent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78719"&gt;Removed unused dependencies and files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78669"&gt;Renamed "Asset storage" to "Site storage"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78670"&gt;Renamed "External storage" to "Upload storage"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78720"&gt;Renamed app/bin/legacy to app/bin/cli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/post-78711"&gt;Updated file checksum algo to xxh64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0.16012/"&gt;Chevereto V4.3.0 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/"&gt;Chevereto V4.3.0 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.3.0" rel="alternate"/>
   </entry>

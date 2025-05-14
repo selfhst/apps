@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wiredoor Releases</title>
-  <updated>2025-05-13T15:35:51.852247-04:00</updated>
+  <updated>2025-05-14T05:45:21.388213-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,5 +99,22 @@
 &lt;p&gt;This release introduces &lt;strong&gt;built-in support for OAuth2 Proxy&lt;/strong&gt;, allowing you to secure any service exposed through Wiredoor with authentication via providers like &lt;strong&gt;Google&lt;/strong&gt;, &lt;strong&gt;GitHub&lt;/strong&gt;, &lt;strong&gt;Authentik&lt;/strong&gt;, or any OIDC-compliant service.&lt;/p&gt;
 &lt;p&gt;Read the &lt;a href="https://www.wiredoor.net/docs/usage"&gt;Usage Guide&lt;/a&gt; to learn more.&lt;/p&gt;</content>
     <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wiredoor/wiredoor/releases/tag/v1.1.1</id>
+    <title>New release for Wiredoor: v1.1.1</title>
+    <updated>2025-05-13T19:37:32-04:00</updated>
+    <author>
+      <name>wiredoor/wiredoor</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: add x_auth headers if certain variables defined by @dmesad in https://github.com/wiredoor/wiredoor/pull/31&lt;/li&gt;
+&lt;li&gt;fix: resolve bug removing emails from oauth config by @dmesad in https://github.com/wiredoor/wiredoor/pull/34&lt;/li&gt;
+&lt;li&gt;fix: change service_port_unique index by @dmesad in https://github.com/wiredoor/wiredoor/pull/36&lt;/li&gt;
+&lt;li&gt;fix: allow update wiredoor service from local node by @dmesad in https://github.com/wiredoor/wiredoor/pull/38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wiredoor/wiredoor/compare/v1.1.0...v1.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/wiredoor/wiredoor/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>

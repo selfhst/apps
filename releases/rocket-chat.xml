@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-05-13T15:31:28.979372-04:00</updated>
+  <updated>2025-05-14T05:40:36.419841-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -424,7 +424,15 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;New features include LDAP sync support for federated users and comprehensive event logging for all user setting changes, with a one-year retention for auditability. Apps can now respond to department removal or disablement events to avoid service interruptions. The Security screen was enhanced with better guidance for two-factor authentication setup. A redesigned global header was released under feature preview with improved accessibility. UI enhancements included simplifying room headers, contextual navigation buttons, and clearer announcement banner behavior. Custom LDAP variable manipulation was introduced, allowing advanced string operations. Icons for Video Calls and VOIP were updated for better clarity. Additionally, departments can now be linked to units during creation or updates, and live agents can temporarily hide the "Contact Unknown" banner to minimize disruption.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Numerous bugs were addressed, including correcting federated users' display names and resolving Engagement Dashboard loading issues in versions 7.4.1 and 7.5. Improvements were made to Contact Center date filters, Engagement Panel timezone displays, and webhook user updates. Calendar presence syncing now works reliably on desktop apps, and VoIP call reconnection issues with FreeSWITCH were resolved. Webhook posting and private team behavior were aligned with access controls. Authentication methods now correctly enforce user limits. Issues with Poll Plus voting, livechat custom field updates, canned response editing crashes, and unnecessary inquiry updates were also fixed. Livechat department visibility for monitors, chat limit hierarchy, Business Hours toggling, agent search input handling, and simultaneous chat assignment algorithms were corrected to ensure consistent and expected system behavior.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.13.1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Deno: &lt;code&gt;1.43.5&lt;/code&gt;&lt;/li&gt;

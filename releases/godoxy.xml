@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-13T15:30:50.532873-04:00</updated>
+  <updated>2025-05-14T05:39:53.055590-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -208,6 +208,8 @@ entrypoint:
     <content>&lt;h2&gt;Changes &amp;amp; Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed #110 error parsing acl.allow / acl.deny&lt;/li&gt;
+&lt;li&gt;Fixed #110 incorrect maxmind not configured error&lt;/li&gt;
+&lt;li&gt;Fixed incorrect config loading behavior&lt;/li&gt;
 &lt;li&gt;Improved error formatting&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.13.2" rel="alternate"/>
