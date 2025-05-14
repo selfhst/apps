@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dribdat Releases</title>
-  <updated>2025-05-14T07:35:27.377861-04:00</updated>
+  <updated>2025-05-14T08:35:12.720162-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,46 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dribdat/dribdat/compare/v0.8.8...v0.8.9&lt;/p&gt;</content>
     <link href="https://codeberg.org/dribdat/dribdat/releases/tag/v0.8.9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/dribdat/dribdat/releases/tag/v0.9.0</id>
+    <title>New release for Dribdat: v0.9.0</title>
+    <updated>2025-05-12T21:19:09+00:00</updated>
+    <author>
+      <name>dribdat/dribdat</name>
+    </author>
+    <content>&lt;p&gt;This release adds a slide render mode, so that presentations you create (or generate) in the hackathon tool can be embedded externally. An issue preventing Categories at global level being displayed has been addressed. Further UI refinements to address accessibility and layout, improving navigation flow across projects/logs. Infrastructure improvements include out-of-the-box &lt;a href="https://codeberg.org/dribdat/backboard"&gt;Backboard&lt;/a&gt; integration, updated Data Package source URLs, and refreshed Python/JS dependencies. Documentation and contributor workflows clarified. We have moved deployment tools into the &lt;code&gt;/scripts&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;🌐 Try it at &lt;a href="https://demo.dribdat.cc/"&gt;demo.dribdat.cc&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;🏀 Download from &lt;a href="https://hub.docker.com/r/dribdat/dribdat/tags"&gt;Docker Hub&lt;/a&gt;, &lt;a href="https://github.com/dribdat/dribdat/releases"&gt;GitHub&lt;/a&gt; or &lt;a href="https://codeberg.org/dribdat/dribdat"&gt;Codeberg&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;💚 Thanks to the &lt;a href="https://farminghackdays.bb.dribdat.cc"&gt;Open Farming Hackdays&lt;/a&gt;, &lt;a href="https://app.hack4socialgood.ch"&gt;Hack4SocialGood 2025&lt;/a&gt; and &lt;a href="https://hack.opendata.ch/event/72"&gt;Smart Regio Lab Lenzburg&lt;/a&gt; for the many suggestions and practical support of this release.&lt;/p&gt;
+&lt;p&gt;👁️‍🗨️ Please leave us your feedback in the &lt;a href="https://github.com/orgs/dribdat/discussions"&gt;Discussion area&lt;/a&gt;!&lt;/p&gt;
+&lt;h1&gt;Improvements&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/dribdat/dribdat/pulls/4"&gt;Slides render mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Global categories are now shown again in tabs and API for every event.&lt;/li&gt;
+&lt;li&gt;Adds CORS to the embed URL, because we often want to embed the slides elsewhere.&lt;/li&gt;
+&lt;li&gt;Moves the various shell and deployment scripts into the &lt;code&gt;/scripts&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;Makes the Contributor Code an uppercase filename.&lt;/li&gt;
+&lt;li&gt;Activation screen as workaround for unusable login code.&lt;/li&gt;
+&lt;li&gt;Makes the navigation bar easier to use in dark mode.&lt;/li&gt;
+&lt;li&gt;Minor code refactoring (linting) of the user models.&lt;/li&gt;
+&lt;li&gt;Coincides with the latest update of &lt;a href="https://github.com/dribdat/backboard"&gt;Backboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Set Project header image to the image used in the latest Drib - unless users upload another image directly.&lt;/li&gt;
+&lt;li&gt;If a &lt;code&gt;BACKBOARD_URL&lt;/code&gt; parameter is set, show a button with auto-configuration of &lt;a href="https://codeberg.org/Dribdat/Backboard"&gt;Backboard&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Data Package format updated - source URL is now the local server.&lt;/li&gt;
+&lt;li&gt;Captcha more visible, fails message improved.&lt;/li&gt;
+&lt;li&gt;Dark mode navigation bar rendering fixed.&lt;/li&gt;
+&lt;li&gt;E-mail max length issue in login fixed.&lt;/li&gt;
+&lt;li&gt;Authentication code linted for readability &amp;amp; refactoring.&lt;/li&gt;
+&lt;li&gt;Redundant SYNCED messages no longer shown in the log.&lt;/li&gt;
+&lt;li&gt;Project navigation improved in Post and Log.&lt;/li&gt;
+&lt;li&gt;Default styles improved for Bootswatch compatibility.&lt;/li&gt;
+&lt;li&gt;About page and search controls tweaked.&lt;/li&gt;
+&lt;li&gt;Freshens up the Python and JS libraries.&lt;/li&gt;
+&lt;li&gt;Code coverage up to 70%.&lt;/li&gt;
+&lt;li&gt;Footer links revised.&lt;/li&gt;
+&lt;li&gt;README updated.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://codeberg.org/dribdat/dribdat/releases/tag/v0.9.0" rel="alternate"/>
   </entry>
 </feed>
