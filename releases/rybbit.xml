@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rybbit Releases</title>
-  <updated>2025-05-14T17:36:19.982820-04:00</updated>
+  <updated>2025-05-14T18:36:05.047573-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,5 +84,36 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rybbit-io/rybbit/compare/v0.1.3...v0.1.4&lt;/p&gt;</content>
     <link href="https://github.com/rybbit-io/rybbit/releases/tag/v0.1.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rybbit-io/rybbit/releases/tag/v0.2.0</id>
+    <title>New release for Rybbit: v0.2.0</title>
+    <updated>2025-05-14T18:28:21-04:00</updated>
+    <author>
+      <name>rybbit-io/rybbit</name>
+    </author>
+    <content>&lt;h2&gt;Key Features&lt;/h2&gt;
+&lt;h3&gt;Last 24 Hours Filter&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/da38b4d0-155c-4460-845e-52756360d5e7" /&gt;&lt;/p&gt;
+&lt;h3&gt;Smaller time buckets to multi-day views&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1f1dca62-c0ae-4bae-9e5d-42284446fd93" /&gt;&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(client): Use version from &lt;code&gt;package.json&lt;/code&gt; file by @LWJerri in https://github.com/rybbit-io/rybbit/pull/212&lt;/li&gt;
+&lt;li&gt;fix(client): Solve issues with small activity calendar on mobile screens by @LWJerri in https://github.com/rybbit-io/rybbit/pull/215&lt;/li&gt;
+&lt;li&gt;chore(client): Add &lt;code&gt;Back to Users&lt;/code&gt; button by @LWJerri in https://github.com/rybbit-io/rybbit/pull/214&lt;/li&gt;
+&lt;li&gt;feat: Implement past-24-hours mode for analytics by @goldflag in https://github.com/rybbit-io/rybbit/pull/210&lt;/li&gt;
+&lt;li&gt;fix(mockdata): Generate actual lock file by @LWJerri in https://github.com/rybbit-io/rybbit/pull/211&lt;/li&gt;
+&lt;li&gt;Add Framer integration by @ECuiDev in https://github.com/rybbit-io/rybbit/pull/220&lt;/li&gt;
+&lt;li&gt;Add Shopify integration by @ECuiDev in https://github.com/rybbit-io/rybbit/pull/221&lt;/li&gt;
+&lt;li&gt;Add Webflow integration by @ECuiDev in https://github.com/rybbit-io/rybbit/pull/222&lt;/li&gt;
+&lt;li&gt;Add WordPress integration by @ECuiDev in https://github.com/rybbit-io/rybbit/pull/223&lt;/li&gt;
+&lt;li&gt;ref!: Bump packages versions &amp;amp; Actualize codebase regards packages updates by @LWJerri in https://github.com/rybbit-io/rybbit/pull/217&lt;/li&gt;
+&lt;li&gt;Ratelimits for cloud by @goldflag in https://github.com/rybbit-io/rybbit/pull/248&lt;/li&gt;
+&lt;li&gt;standardize limit by @goldflag in https://github.com/rybbit-io/rybbit/pull/249&lt;/li&gt;
+&lt;li&gt;improve performance of site cards list by @goldflag in https://github.com/rybbit-io/rybbit/pull/251&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rybbit-io/rybbit/compare/v0.1.4...v0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/rybbit-io/rybbit/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
