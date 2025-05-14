@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2025-05-14T09:30:39.025528-04:00</updated>
+  <updated>2025-05-14T10:30:39.073180-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -186,8 +186,9 @@
 &lt;/ul&gt;
 &lt;h2&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0.16012/"&gt;Chevereto V4.3.0 Release&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/"&gt;Chevereto V4.3.0 Announcement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2025/05/13/chevereto-4-3/"&gt;Chevereto 4.3.0 (Entrador)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0.16012/"&gt;Chevereto v4.3.0 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-0-announcement.15905/"&gt;Chevereto v4.3.0 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.3.0" rel="alternate"/>
   </entry>

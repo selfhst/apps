@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-05-14T09:34:26.046925-04:00</updated>
+  <updated>2025-05-14T10:34:34.076705-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,8 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;This is mainly bugfix release. But it brings huge optiomalization of working with big Redis databases.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;ADDED: Source label to docker container #1105 &lt;/li&gt;
 &lt;li&gt;FIXED: DbGate restart needed to take effect after trigger is created/deleted on mariadb #1112&lt;/li&gt;
 &lt;li&gt;ADDED: View PostgreSQL query console output #1108&lt;/li&gt;

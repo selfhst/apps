@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PortNote Releases</title>
-  <updated>2025-05-14T09:36:24.440266-04:00</updated>
+  <updated>2025-05-14T10:36:30.039416-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -43,5 +43,27 @@ With the new update, the docker compose has also changed considerably by adding 
 &lt;p&gt;To update, simply pull the latest docker images.&lt;/p&gt;
 &lt;/blockquote&gt;</content>
     <link href="https://github.com/crocofied/PortNote/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/crocofied/PortNote/releases/tag/v1.2.0</id>
+    <title>New release for PortNote: v1.2.0</title>
+    <updated>2025-05-14T10:05:47-04:00</updated>
+    <author>
+      <name>crocofied/PortNote</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;[⭐] New Features&lt;/strong&gt;
+- &lt;strong&gt;Foldable Servers:&lt;/strong&gt; You can now collapse servers to hide their ports. #2 
+- &lt;strong&gt;Highlighted Ports:&lt;/strong&gt; When hovering over a port, it is now highlighted for better visibility on wide monitors. The layout has also been adjusted to display two ports per line. #3 
+- &lt;strong&gt;Server Sorting:&lt;/strong&gt; Servers and VMs can now be sorted alphabetically or by IP. #13 
+- &lt;strong&gt;Port Hyperlinks:&lt;/strong&gt; Clicking on a port now opens the IP and port in a new tab. #15 
+- &lt;strong&gt;Improved Accessibility:&lt;/strong&gt; Enhanced screen reader support. #9 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[🐛] Bug Fixes&lt;/strong&gt;
+- &lt;strong&gt;Docker Compose Fix:&lt;/strong&gt; PortNote and PortNote-agent now wait for the database to start, preventing errors during initial launch. #8 
+- &lt;strong&gt;Port Cleanup:&lt;/strong&gt; Removing a server or VM now also deletes its associated ports from the database. #21 &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/crocofied/PortNote/compare/v1.1.0...v1.2.0&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To update, simply pull the latest docker images.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+    <link href="https://github.com/crocofied/PortNote/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
