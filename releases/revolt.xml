@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Revolt Releases</title>
-  <updated>2025-05-14T06:34:28.312262-04:00</updated>
+  <updated>2025-05-14T07:34:33.822887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,9 +120,13 @@
     <content>&lt;p&gt;Fixes:
 - Enable Authifier migration for sessions
 - Allow graceful failures in message broker daemon&lt;/p&gt;
-&lt;p&gt;Hot fixes (use &lt;code&gt;20250513-2&lt;/code&gt;):
+&lt;h2&gt;Errata&lt;/h2&gt;
+&lt;p&gt;Hot fixes in &lt;code&gt;20250513-2&lt;/code&gt;:
 - pushd: Don't try to mount two loggers on boot
 - config: Provide default value for pushd sentry endpoint&lt;/p&gt;
+&lt;p&gt;Hot fixes in &lt;code&gt;20250514-1&lt;/code&gt;:
+- authifier: migration should not use transactions
+- database: more verbose logging for acks&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/revoltchat/backend/compare/20250510-1...20250513-1&lt;/p&gt;</content>
     <link href="https://github.com/revoltchat/backend/releases/tag/20250513-1" rel="alternate"/>
   </entry>
