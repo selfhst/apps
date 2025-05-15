@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-05-15T17:35:46.965526-04:00</updated>
+  <updated>2025-05-15T18:35:43.805018-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -18,9 +18,6 @@
       <name>adityachandelgit/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Merge Develop into Master for the Release (#259) by @adityachandelgit&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement OIDC authentication (#258) by @adityachandelgit&lt;/li&gt;
@@ -43,7 +40,6 @@
 &lt;h2&gt;📖 Documentation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Merge Develop into Master for the Release (#265) by @adityachandelgit&lt;/li&gt;
-&lt;li&gt;Merge Develop into Master for the Release (#263) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.6.1" rel="alternate"/>
   </entry>
