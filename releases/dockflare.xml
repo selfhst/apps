@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DockFlare Releases</title>
-  <updated>2025-05-15T16:36:20.454175-04:00</updated>
+  <updated>2025-05-15T17:36:18.566033-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,5 +136,66 @@ Previously, if you were running DockFlare on several hosts, each managing its ow
 *   &lt;strong&gt;Reduced Context Switching:&lt;/strong&gt; No need to log into or expose multiple DockFlare instances just to check on different tunnels.&lt;/p&gt;
 &lt;p&gt;I believe these additions will make managing and understanding your Cloudflare Tunnel setup with DockFlare, especially in distributed environments, significantly more powerful and intuitive!&lt;/p&gt;</content>
     <link href="https://github.com/ChrispyBacon-dev/DockFlare/releases/tag/v1.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ChrispyBacon-dev/DockFlare/releases/tag/v1.6</id>
+    <title>New release for DockFlare: DockFlare v1.6 - UI Power-Up &amp; Styling Overhaul! 🎉</title>
+    <updated>2025-05-15T17:31:02-04:00</updated>
+    <author>
+      <name>ChrispyBacon-dev/DockFlare</name>
+    </author>
+    <content>&lt;h2&gt;DockFlare v1.6 - UI Power-Up &amp;amp; Styling Overhaul! 🎉&lt;/h2&gt;
+&lt;p&gt;This release marks a significant step forward for DockFlare, introducing highly-requested &lt;strong&gt;UI-driven management for Cloudflare Access Policies&lt;/strong&gt; and a &lt;strong&gt;major visual refresh with DaisyUI&lt;/strong&gt; for a more modern and consistent user experience!&lt;/p&gt;
+&lt;p&gt;Managing access to your services is now more flexible than ever. While Docker labels remain perfect for defining the initial state of your services and their Access Policies, you can now dynamically adjust these policies directly from the DockFlare Web UI. These UI changes are &lt;strong&gt;persistent&lt;/strong&gt;, overriding container labels and surviving restarts of both DockFlare and your application containers. Worried about losing your label-defined setup? A new "Revert to Labels" option ensures you can always go back to your declarative configuration.&lt;/p&gt;
+&lt;h3&gt;✨ Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🚀 UI-Driven Access Policy Management:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Override Labels:&lt;/strong&gt; Directly edit Access Policies (None, Bypass, Authenticate by Email, Default TLD) for any managed service via the new "Manage Policy" dropdown in the Web UI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persistent Changes:&lt;/strong&gt; UI-set Access Policies are saved in &lt;code&gt;state.json&lt;/code&gt; and take precedence over container labels, even after restarts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"Revert to Labels" Button:&lt;/strong&gt; Easily switch a service's Access Policy back to be controlled by its Docker labels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;"UI Override" Badge:&lt;/strong&gt; Clearly indicates in the UI when an Access Policy is managed by the UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;💅 Major UI Refresh with DaisyUI:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;The entire Web UI has been restyled using DaisyUI components, providing a cleaner, more modern, and themeable interface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theme Selector:&lt;/strong&gt; Choose from a wide variety of pre-built DaisyUI themes (light, dark, cupcake, synthwave, and many more!) to personalize your DockFlare dashboard. Your preference is saved locally.&lt;/li&gt;
+&lt;li&gt;Improved consistency for buttons, alerts, badges, tables, and forms.&lt;/li&gt;
+&lt;li&gt;Enhanced readability and usability across the dashboard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Table Layout:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;The "Managed Ingress Rules" table columns have been reordered for better workflow: Status, Hostname, Service Target, Container, Access Policy, Manage Policy, Expires At (UTC), Actions.&lt;/li&gt;
+&lt;li&gt;Dropdowns in the table now attempt to position themselves intelligently to avoid being clipped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Under-the-Hood Refinements:&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Refactored core logic for handling Access Policies to support the new UI override system.&lt;/li&gt;
+&lt;li&gt;Ensured &lt;code&gt;process_container_start&lt;/code&gt; and the reconciliation loop (&lt;code&gt;_run_reconciliation&lt;/code&gt;) correctly respect the &lt;code&gt;access_policy_ui_override&lt;/code&gt; flag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Key Changes &amp;amp; Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feature:&lt;/strong&gt; Implemented state persistence for UI-overridden Access Policies (&lt;code&gt;access_policy_ui_override&lt;/code&gt; flag in &lt;code&gt;state.json&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature:&lt;/strong&gt; Added new Flask route (&lt;code&gt;/revert_access_policy_to_labels&lt;/code&gt;) and backend logic for reverting UI policies to label-defined configurations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Replaced custom policy edit popup with a DaisyUI dropdown component, improving usability and solving previous overflow issues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Integrated DaisyUI for most UI elements including cards, buttons, alerts, badges, tables, and form inputs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Added a multi-theme selector.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Reordered columns in the "Managed Ingress Rules" table for better information flow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Improved display for "Pending Label Sync" status.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build:&lt;/strong&gt; Migrated to a multi-stage Docker build process to compile Tailwind CSS and DaisyUI styles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fix:&lt;/strong&gt; Addressed various minor display and styling inconsistencies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docs:&lt;/strong&gt; README and Wiki updated&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⚙️ For Users Updating&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Your existing &lt;code&gt;state.json&lt;/code&gt; file will be automatically updated to include the new &lt;code&gt;access_policy_ui_override&lt;/code&gt; field (defaulting to &lt;code&gt;false&lt;/code&gt; for existing rules not yet touched by the new UI).&lt;/li&gt;
+&lt;li&gt;After updating, if you wish to manage an Access Policy via the UI, simply edit it using the new "Manage Policy" dropdown. This will automatically set the UI override.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🙏 Thanks&lt;/h3&gt;
+&lt;p&gt;Thank you for using DockFlare! I hope these new features improve your experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Docker Image:&lt;/strong&gt; &lt;code&gt;alplat/dockflare:stable&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;I'm excited for you to try out these new capabilities! As always, please report any issues or provide feedback on GitHub.&lt;/p&gt;</content>
+    <link href="https://github.com/ChrispyBacon-dev/DockFlare/releases/tag/v1.6" rel="alternate"/>
   </entry>
 </feed>
