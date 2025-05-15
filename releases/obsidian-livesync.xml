@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obsidian LiveSync Releases</title>
-  <updated>2025-05-14T21:33:01.565041-04:00</updated>
+  <updated>2025-05-14T22:32:55.443493-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,14 +142,14 @@ environments where proxy servers can unpredictably alter or block communications
 &lt;p&gt;Replies to Issues will be a little delayed, but I will make sure to do so!&lt;/p&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Automatic display-language changing according to the Obsidian language setting.&lt;/li&gt;
+&lt;li&gt;Automatic display-language changing according to the Obsidian language setting. (#630)&lt;/li&gt;
 &lt;li&gt;We will be asked on the migration or first startup.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note: Please revert to the default language if you report any issues.&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Not all messages are translated yet. We welcome your contribution!&lt;/li&gt;
-&lt;li&gt;Now we can limit files to be synchronised even in the hidden files.&lt;/li&gt;
-&lt;li&gt;"Use Request API to avoid &lt;code&gt;inevitable&lt;/code&gt; CORS problem" has been implemented.&lt;/li&gt;
+&lt;li&gt;Now we can limit files to be synchronised even in the hidden files. (#631)&lt;/li&gt;
+&lt;li&gt;"Use Request API to avoid &lt;code&gt;inevitable&lt;/code&gt; CORS problem" has been implemented. (#632) (#508) etc...&lt;/li&gt;
 &lt;li&gt;Less secure, please use it only if you are sure that you are in the trusted environment and be able to ignore the CORS. No &lt;code&gt;Web viewer&lt;/code&gt; or similar tools are recommended. (To avoid the origin forged attack). If you are able to configure the server setting, always that is recommended.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Show status icon instead of file warnings banner&lt;/code&gt; has been implemented.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Show status icon instead of file warnings banner&lt;/code&gt; has been implemented. (#634)&lt;/li&gt;
 &lt;li&gt;If enabled, the ⛔ icon will be shown inside the status instead of the file warnings banner. No details will be shown.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Improved&lt;/h3&gt;
@@ -158,8 +158,8 @@ environments where proxy servers can unpredictably alter or block communications
 &lt;/ul&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;No longer unexpected files will be gathered during hidden file sync.&lt;/li&gt;
-&lt;li&gt;No longer broken &lt;code&gt;\n&lt;/code&gt; and new-line characters during the bucket synchronisation.&lt;/li&gt;
+&lt;li&gt;No longer unexpected files will be gathered during hidden file sync. &lt;/li&gt;
+&lt;li&gt;No longer broken &lt;code&gt;\n&lt;/code&gt; and new-line characters during the bucket synchronisation. (#639)&lt;/li&gt;
 &lt;li&gt;We can purge the remote bucket again if we using MinIO instead of AWS S3 or Cloudflare R2.&lt;/li&gt;
 &lt;li&gt;Purging the remote bucket is now more reliable.&lt;/li&gt;
 &lt;li&gt;100 files are purged at a time.&lt;/li&gt;
