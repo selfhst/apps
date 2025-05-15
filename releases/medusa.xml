@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-05-15T09:31:14.753662-04:00</updated>
+  <updated>2025-05-15T10:31:16.756100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -705,7 +705,9 @@ Adding it to your Medusa config:
 And finally, adding a feature flag to enable it:
 &lt;code&gt;// .env
 MEDUSA_FF_INDEX_ENGINE=true&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The next time you start your server, we will apply migrations and ingest data into the index engine. &lt;/p&gt;
+&lt;p&gt;Then, apply the migrations to create the related tables:
+&lt;code&gt;npx medusa db:migrate&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The next time you start your server, we will ingest data into the index engine. &lt;/p&gt;
 &lt;p&gt;In this first iteration, we only ingest the following core entities:
 - Products
 - Product Variants
@@ -715,7 +717,7 @@ MEDUSA_FF_INDEX_ENGINE=true&lt;/code&gt;&lt;/p&gt;
 &lt;code&gt;ts
   const { data: products = [], metadata } = await query.index({
     entity: "product",
-    fields: ["id", "title"],
+    fields: ["id", "name"],
   });&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;In addition to ingesting a few select resources from the core, we have added support for ingesting data from custom modules through link definitions. For example, say you want to introduce a Brand on Products and filter your Products by it.&lt;/p&gt;
 &lt;p&gt;Assuming you have added a Brand module, you create a link as follows:
@@ -746,7 +748,7 @@ import BrandModule from "../modules/brand";&lt;/p&gt;
   },
   {
     linkable: BrandModule.linkable.brand,
-    filterable: ["id", "title"]
+    filterable: ["id", "name"]
   }
 );
 ```&lt;/p&gt;
