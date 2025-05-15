@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless AI Releases</title>
-  <updated>2025-05-15T13:35:02.946357-04:00</updated>
+  <updated>2025-05-15T14:35:05.545413-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,9 +130,9 @@ Changed the Ollama structured output schema&lt;/p&gt;
     <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.7</id>
-    <title>New release for Paperless AI: v2.7.7</title>
-    <updated>2025-05-15T02:10:00-04:00</updated>
+    <id>https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.8</id>
+    <title>New release for Paperless AI: v2.7.8</title>
+    <updated>2025-05-15T14:04:54-04:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
     </author>
@@ -140,12 +140,14 @@ Changed the Ollama structured output schema&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add a configurable token limitation and response size by @habitoti in https://github.com/clusterzx/paperless-ai/pull/496&lt;/li&gt;
 &lt;li&gt;Exactly compute the new content size according to given token limit by @habitoti in https://github.com/clusterzx/paperless-ai/pull/498&lt;/li&gt;
+&lt;li&gt;Fix wrong model reference for Azure Playground by @habitoti in https://github.com/clusterzx/paperless-ai/pull/511&lt;/li&gt;
+&lt;li&gt;Fix small mistakes of PR #496 and #498 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@habitoti made their first contribution in https://github.com/clusterzx/paperless-ai/pull/496&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.7.6...v2.7.7&lt;/p&gt;</content>
-    <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.7" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/clusterzx/paperless-ai/compare/v2.7.6...v2.7.8&lt;/p&gt;</content>
+    <link href="https://github.com/clusterzx/paperless-ai/releases/tag/v2.7.8" rel="alternate"/>
   </entry>
 </feed>
