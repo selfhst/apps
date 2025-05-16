@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-05-16T14:34:44.829980-04:00</updated>
+  <updated>2025-05-16T15:34:44.810242-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,18 +136,31 @@
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250515-1dcde8cf" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250516-b8875541</id>
-    <title>New release for WatchState: master-20250516-b8875541</title>
-    <updated>2025-05-16T02:52:44-04:00</updated>
+    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250516-2b8af698</id>
+    <title>New release for WatchState: master-20250516-2b8af698</title>
+    <updated>2025-05-16T14:55:11-04:00</updated>
     <author>
       <name>arabcoders/watchstate</name>
     </author>
     <content>&lt;ul&gt;
+&lt;li&gt;9d9294b0 update to fix plex check pin request flow. by arabcoders&lt;/li&gt;
+&lt;li&gt;f73675de Reverted changes to plex ValidateToken by arabcoders&lt;/li&gt;
+&lt;li&gt;cd6bd635 Finalize Plex OAuth flow in Backend add. by arabcoders&lt;/li&gt;
+&lt;li&gt;7c20a238 initial work to support plex oauth flow by arabcoders&lt;/li&gt;
+&lt;li&gt;fc903856 Refactor Plex headers handling by arabcoders&lt;/li&gt;
 &lt;li&gt;157bcd45 With multi-user support, it doesn't make sense to log spam webhooks with invalid user ID, so we use Debug level instead and option to increase the level via debug_trace additional option by arabcoders&lt;/li&gt;
 &lt;li&gt;66405cab Fix #670, tautulli will send lastViewedAt regardless if the item is marked as watched or not. by arabcoders&lt;/li&gt;
 &lt;li&gt;1272d996 minor typo fixes by arabcoders&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250513-57580fbc...master-20250516-b8875541&lt;/p&gt;</content>
-    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250516-b8875541" rel="alternate"/>
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add conditions to Tautulli webhooks by @Splinter7914 in https://github.com/arabcoders/watchstate/pull/665&lt;/li&gt;
+&lt;li&gt;Migrate to user/pass auth by @arabcoders in https://github.com/arabcoders/watchstate/pull/666&lt;/li&gt;
+&lt;li&gt;Use auth system instead of api key for WebUI by @arabcoders in https://github.com/arabcoders/watchstate/pull/667&lt;/li&gt;
+&lt;li&gt;Fix Tautulli progress tracking by @arabcoders in https://github.com/arabcoders/watchstate/pull/671&lt;/li&gt;
+&lt;li&gt;Finalize Plex OAuth flow in Backend add. by @arabcoders in https://github.com/arabcoders/watchstate/pull/672&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250513-57580fbc...master-20250516-2b8af698&lt;/p&gt;</content>
+    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250516-2b8af698" rel="alternate"/>
   </entry>
 </feed>
