@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Glance Releases</title>
-  <updated>2025-05-16T12:33:22.854175-04:00</updated>
+  <updated>2025-05-16T13:33:24.313525-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -46,7 +46,7 @@
     <author>
       <name>glanceapp/glance</name>
     </author>
-    <content>&lt;p&gt;Another big update is here! This one includes authentication, a theme switcher, new customization options, a to-do widget and lots of improvements to existing widgets. Before we get to details of all that...&lt;/p&gt;
+    <content>&lt;p&gt;Another big update is here! This one includes authentication, a theme picker, new customization options, a to-do widget and lots of improvements to existing widgets. Before we get to details of all that...&lt;/p&gt;
 &lt;h2&gt;Feedback wanted&lt;/h2&gt;
 &lt;p&gt;Deciding what features to add to a project like this is no easy task. Most self-hosted services focus on doing one thing and adding features around that thing, but with a personal dashboard/feed aggregator you can practically display &lt;em&gt;anything&lt;/em&gt;, so how do you decide what does and doesn't belong? So far I've been prioritizing feature requests with a high number of upvotes and those I believe fit with the vision of the project, although admittedly Glance has deviated quite a bit from its initial purpose.&lt;/p&gt;
 &lt;p&gt;As with almost all communities, a minority of people are very vocal about their wants and needs, while the majority are just riding along. Rather than guessing what the community as a whole would benefit from the most moving forward, I thought I could just ask through a short survey.&lt;/p&gt;
@@ -59,7 +59,7 @@
 &lt;li&gt;&lt;a href="#g-rh-3"&gt;New features&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#g-rh-4"&gt;Nested config includes and new include syntax&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#g-rh-5"&gt;Using Docker secrets within the config&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#g-rh-6"&gt;Theme switcher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#g-rh-6"&gt;Theme picker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#g-rh-7"&gt;Authentication&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#g-rh-8"&gt;To-do widget&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#g-rh-9"&gt;Hiding widget titles&lt;/a&gt;&lt;/li&gt;
@@ -122,7 +122,7 @@ token: ${secret:github_token} # Reads the contents of /run/secrets/github_token
 token: ${GITHUB_TOKEN} # Environment variable&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;(thanks @gomeology)&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a id="g-rh-6"&gt;&lt;/a&gt; Theme switcher&lt;/h3&gt;
+&lt;h3&gt;&lt;a id="g-rh-6"&gt;&lt;/a&gt; Theme picker&lt;/h3&gt;
 &lt;p&gt;You can now define multiple theme presets and switch between them in the UI, no more config changes needed to change the theme!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="theme-switcher-preview" src="https://github.com/user-attachments/assets/f26760e2-013a-480f-8559-6420e298fe94" /&gt;&lt;/p&gt;
 &lt;details&gt;
