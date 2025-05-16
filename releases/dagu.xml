@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-05-16T10:34:43.091907-04:00</updated>
+  <updated>2025-05-16T11:34:26.439615-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,10 +99,16 @@
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release includes a minor fix to the Docker image.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;c4bc4ee075c4a0f197387cf6782f426a559f7c83 chore: Fix docker image (#943)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: Fix the &lt;code&gt;sudoers&lt;/code&gt; issue in the docker image by @yottahmd in https://github.com/dagu-org/dagu/pull/943&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.9...v1.16.10&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.10" rel="alternate"/>
   </entry>
 </feed>

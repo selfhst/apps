@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CheckCle Releases</title>
-  <updated>2025-05-16T10:36:39.583325-04:00</updated>
+  <updated>2025-05-16T11:36:21.970838-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -29,5 +29,33 @@
 &lt;p&gt;💡 We’d love to hear from you!
 If you have any suggestions, feedback, or feature requests, feel free to open an issue or submit a pull request. Your input helps improve the project and bring new features to life!&lt;/p&gt;</content>
     <link href="https://github.com/operacle/checkcle/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/operacle/checkcle/releases/tag/v1.1.0</id>
+    <title>New release for CheckCle: 🚀 Checkcle v1.1.0 – SSL Domain Monitoring &amp; Email Enhancements</title>
+    <updated>2025-05-16T11:35:02-04:00</updated>
+    <author>
+      <name>operacle/checkcle</name>
+    </author>
+    <content>&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/3e398cee-f21e-4165-8f19-7efeadcd3b75" /&gt;&lt;/p&gt;
+&lt;p&gt;✨ New Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SSL Certificate Monitoring:&lt;/strong&gt; ✨ Introduced a new module to monitor SSL certificates, providing real-time insights and alerts for certificate expirations and issues (Also implemented for the Telegram notification of SSL Warning &amp;amp; Expiry Threshold)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email Request Changes:&lt;/strong&gt; ✨ Implemented a feature allowing users to request changes to their email addresses, enhancing account management flexibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Add Quick Tips Dialog&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI:&lt;/strong&gt; Add icon to link for the related information in header&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🛠 Improvements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; fix to correct API base URL at runtime without hardcoding the domain or port. Now it works under any custom domain via reverse proxy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Optimizations:&lt;/strong&gt; Improved backend processing speeds, reducing latency in data retrieval and display.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Updated&lt;/strong&gt; for Docker Run Command&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Updated&lt;/strong&gt; for user's active/inactive status from the backend in the profile details.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upgraded&lt;/strong&gt; the pocketbase version V0.28.1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Codebase Refactoring&lt;/strong&gt;: Cleaned and organized code for better maintainability and scalability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Official Website:&lt;/strong&gt; https://checkcle.io&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Official Live Demo Link:&lt;/strong&gt; https://demo.checkcle.io&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/operacle/checkcle/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
