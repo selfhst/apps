@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Invidious Releases</title>
-  <updated>2025-05-17T18:30:42.046758-04:00</updated>
+  <updated>2025-05-17T19:30:41.265575-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -233,7 +233,7 @@ When disabled, the video starts loading only when the "play" button is pressed.&
       <name>iv-org/invidious</name>
     </author>
     <content>&lt;p&gt;Small release with quick workaround fix for issue #4251 (Nil assertion failed).&lt;/p&gt;
-&lt;p&gt;PR: https://github.com/iv-org/invidious/issues/5263&lt;/p&gt;</content>
+&lt;p&gt;PR: https://github.com/iv-org/invidious/issues/5262&lt;/p&gt;</content>
     <link href="https://github.com/iv-org/invidious/releases/tag/v2.20250504.0" rel="alternate"/>
   </entry>
   <entry>
