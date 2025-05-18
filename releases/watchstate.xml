@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-05-18T18:34:54.558661-04:00</updated>
+  <updated>2025-05-18T19:34:52.511087-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -121,21 +121,18 @@
     <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250516-2b8af698" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250518-8cbb5012</id>
-    <title>New release for WatchState: master-20250518-8cbb5012</title>
-    <updated>2025-05-18T11:23:30-04:00</updated>
+    <id>https://github.com/arabcoders/watchstate/releases/tag/master-20250518-1458e597</id>
+    <title>New release for WatchState: master-20250518-1458e597</title>
+    <updated>2025-05-18T19:17:23-04:00</updated>
     <author>
       <name>arabcoders/watchstate</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;48cca385 Added back X_REQUEST_ID, frankenphp doesn't include it by default. by arabcoders&lt;/li&gt;
-&lt;li&gt;31225e41 correctly dispaly short hash in changelog page. by arabcoders&lt;/li&gt;
-&lt;li&gt;25ae310e Fix version display in containers. by arabcoders&lt;/li&gt;
-&lt;li&gt;56d1836f don't show /v1/api/system/healthcheck/ in access log. by arabcoders&lt;/li&gt;
-&lt;li&gt;9e7f85d7 Remove Caddy&amp;amp;php-fpm and use frankenphp as both http and php runner. by arabcoders&lt;/li&gt;
-&lt;li&gt;770f3b83 Remove mapper is in metadata only mode as it's really meaningless and expected. by arabcoders&lt;/li&gt;
+&lt;li&gt;d00c4b3e re-order frankenphp to be before copying the app. by arabcoders&lt;/li&gt;
+&lt;li&gt;ef8e54ad remove unused mbstring configuration and disable  assertions in production by arabcoders&lt;/li&gt;
+&lt;li&gt;c9178897 update backend add/edit page to be more re-activate, added new option for plex backends, to mark user as guest. by arabcoders&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250513-57580fbc...master-20250518-8cbb5012&lt;/p&gt;</content>
-    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250518-8cbb5012" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/master-20250513-57580fbc...master-20250518-1458e597&lt;/p&gt;</content>
+    <link href="https://github.com/arabcoders/watchstate/releases/tag/master-20250518-1458e597" rel="alternate"/>
   </entry>
 </feed>
