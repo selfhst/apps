@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pastefy Releases</title>
-  <updated>2025-05-18T14:35:56.126828-04:00</updated>
+  <updated>2025-05-18T15:36:00.930625-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,7 +53,7 @@
   <entry>
     <id>https://github.com/interaapps/pastefy/releases/tag/7.1.0</id>
     <title>New release for Pastefy: 7.1.0</title>
-    <updated>2025-05-18T14:26:55-04:00</updated>
+    <updated>2025-05-18T15:00:12-04:00</updated>
     <author>
       <name>interaapps/pastefy</name>
     </author>
