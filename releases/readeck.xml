@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Readeck Releases</title>
-  <updated>2025-05-18T17:32:21.779314-04:00</updated>
+  <updated>2025-05-18T18:32:24.687231-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -13,7 +13,7 @@
   <entry>
     <id>https://codeberg.org/readeck/readeck/releases/tag/0.17.0</id>
     <title>New release for Readeck: 0.17.0</title>
-    <updated>2025-01-15T06:10:36+00:00</updated>
+    <updated>2025-01-15T07:10:36+01:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>
@@ -48,7 +48,7 @@
   <entry>
     <id>https://codeberg.org/readeck/readeck/releases/tag/0.17.1</id>
     <title>New release for Readeck: 0.17.1</title>
-    <updated>2025-01-15T19:13:33+00:00</updated>
+    <updated>2025-01-15T20:13:33+01:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>
@@ -85,7 +85,7 @@
   <entry>
     <id>https://codeberg.org/readeck/readeck/releases/tag/0.18.0</id>
     <title>New release for Readeck: 0.18.0</title>
-    <updated>2025-04-12T08:55:32+00:00</updated>
+    <updated>2025-04-12T10:55:32+02:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>
@@ -135,7 +135,7 @@
   <entry>
     <id>https://codeberg.org/readeck/readeck/releases/tag/0.18.1</id>
     <title>New release for Readeck: 0.18.1</title>
-    <updated>2025-04-30T17:44:46+00:00</updated>
+    <updated>2025-04-30T19:44:46+02:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>
@@ -158,7 +158,7 @@
   <entry>
     <id>https://codeberg.org/readeck/readeck/releases/tag/0.18.2</id>
     <title>New release for Readeck: 0.18.2</title>
-    <updated>2025-05-07T19:22:22+00:00</updated>
+    <updated>2025-05-07T21:22:22+02:00</updated>
     <author>
       <name>readeck/readeck</name>
     </author>

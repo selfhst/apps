@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-18T17:36:23.266080-04:00</updated>
+  <updated>2025-05-18T18:36:14.529743-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,9 +100,10 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Now deploys installers for MAC (ARM/Intel) - Look Below!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Warning&lt;/em&gt;&lt;/strong&gt; for current Docker users, upgrading to V7 may wipe your configs (from v6 prior) due to the rewrite of variable paths over hard-coded paths&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Warning&lt;/em&gt;&lt;/strong&gt; for current Docker users, upgrading to V7 WILL wipe your configs (from v6 prior) due to the rewrite of variable paths over hard-coded paths. &lt;em&gt;If you go back to any v6, your settings will come back.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;v7 stages huntarr to be installable for Windows and linux OSes in the future (not ready yet)&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;v7 stages huntarr to be installable for Windows and linux OSes in the future (not ready yet)&lt;/p&gt;
+&lt;p&gt;For anyone using Watchtower, this is why I stopped using it in 2015, so you are not surprised. Had plex botch my libraries before from automatic upgrades.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Dev by @Admin9705 in https://github.com/plexguide/Huntarr.io/pull/456&lt;/p&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mitra Releases</title>
-  <updated>2025-05-18T17:34:13.499226-04:00</updated>
+  <updated>2025-05-18T18:34:06.424917-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -13,7 +13,7 @@
   <entry>
     <id>https://codeberg.org/silverpill/mitra/releases/tag/v4.1.0</id>
     <title>New release for Mitra: v4.1.0</title>
-    <updated>2025-04-26T13:28:52+00:00</updated>
+    <updated>2025-04-26T15:28:52+02:00</updated>
     <author>
       <name>silverpill/mitra</name>
     </author>
@@ -40,7 +40,7 @@
   <entry>
     <id>https://codeberg.org/silverpill/mitra/releases/tag/v4.1.1</id>
     <title>New release for Mitra: v4.1.1</title>
-    <updated>2025-04-27T20:57:18+00:00</updated>
+    <updated>2025-04-27T22:57:18+02:00</updated>
     <author>
       <name>silverpill/mitra</name>
     </author>
@@ -63,7 +63,7 @@
   <entry>
     <id>https://codeberg.org/silverpill/mitra/releases/tag/v4.2.0</id>
     <title>New release for Mitra: v4.2.0</title>
-    <updated>2025-05-06T18:26:11+00:00</updated>
+    <updated>2025-05-06T20:26:11+02:00</updated>
     <author>
       <name>silverpill/mitra</name>
     </author>
@@ -107,7 +107,7 @@
   <entry>
     <id>https://codeberg.org/silverpill/mitra/releases/tag/v4.2.1</id>
     <title>New release for Mitra: v4.2.1</title>
-    <updated>2025-05-08T12:47:21+00:00</updated>
+    <updated>2025-05-08T14:47:21+02:00</updated>
     <author>
       <name>silverpill/mitra</name>
     </author>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://codeberg.org/silverpill/mitra/releases/tag/v4.3.0</id>
     <title>New release for Mitra: v4.3.0</title>
-    <updated>2025-05-18T20:53:04+00:00</updated>
+    <updated>2025-05-18T22:53:04+02:00</updated>
     <author>
       <name>silverpill/mitra</name>
     </author>
