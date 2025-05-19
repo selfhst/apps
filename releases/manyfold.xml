@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Manyfold Releases</title>
-  <updated>2025-05-19T07:32:40.363763-04:00</updated>
+  <updated>2025-05-19T08:34:53.504806-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,7 +156,7 @@
 &lt;h3&gt;Faster page loading&lt;/h3&gt;
 &lt;p&gt;Next, we've got some new client-side technology that enables the live updates; using &lt;a href="https://hotwired.dev"&gt;Hotwire&lt;/a&gt;, using your instance should now feel much faster, and act more like a client-side app. That also means that you'll see updates to models live as they happen; if you rescan, or upload some files, they'll appear in the page without you having to reload.&lt;/p&gt;
 &lt;h3&gt;New "original" rendering mode&lt;/h3&gt;
-&lt;p&gt;Manyfold is seeing use not just in 3D printing, but in the game development world, and in that case, showing an untextured model isn't really right. Our new "original" rendering mode uses the textures and materials from the file itself, so complex formats like glTF, FBX, and more, will show the model as it really should look, while falling back to the usual preferences for models that don't have any of that stuff. This also comes with indexing of .bin files for glTF, and preview rendering for DRACO, FBX, Collada DAE, and 3DS.&lt;/p&gt;
+&lt;p&gt;Manyfold is seeing use not just in 3D printing, but in the game development world, and in that case, showing an untextured model isn't really right. Our new "original" rendering mode uses the textures and materials from the file itself, so complex formats like glTF, FBX, and more, will show the model as it really should look, while falling back to the usual preferences for models that don't have any of that stuff. This also comes with indexing of .bin files for glTF, and preview rendering for DRACO, FBX, and 3DS.&lt;/p&gt;
 &lt;h3&gt;GCODE previews&lt;/h3&gt;
 &lt;p&gt;Rest assured we've not forgotten about print though; we've also added rendering for GCode files!&lt;/p&gt;
 &lt;h3&gt;Better search&lt;/h3&gt;

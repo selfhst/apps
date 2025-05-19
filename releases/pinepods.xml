@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PinePods Releases</title>
-  <updated>2025-05-19T07:35:10.883414-04:00</updated>
+  <updated>2025-05-19T08:37:37.486672-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -168,8 +168,7 @@
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;As always, thank you for using PinePods! Your feedback and support are what drive this project forward. If you encounter any new issues or have feature suggestions, don’t hesitate to open an issue or drop a note.&lt;/p&gt;
-&lt;p&gt;Enjoy the update and happy listening 🎧🚀&lt;/p&gt;
-&lt;h2&gt;NOTE: Don't pull this update yet as the docker image is currently building&lt;/h2&gt;</content>
+&lt;p&gt;Enjoy the update and happy listening 🎧🚀&lt;/p&gt;</content>
     <link href="https://github.com/madeofpendletonwool/PinePods/releases/tag/0.7.8" rel="alternate"/>
   </entry>
 </feed>
