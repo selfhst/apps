@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Open WebUI Releases</title>
-  <updated>2025-05-18T21:35:32.834371-04:00</updated>
+  <updated>2025-05-18T22:35:25.442412-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -207,7 +207,23 @@
 &lt;li&gt;🫰 &lt;strong&gt;Model List State Fixes&lt;/strong&gt;: Resolved issues where model status toggles in the workspace page might inadvertently switch or confuse state, making the management of active/inactive models more dependable.&lt;/li&gt;
 &lt;li&gt;✍️ &lt;strong&gt;Admin Signup Logic&lt;/strong&gt;: Admin self-signup experience and validation flow is smoother and more robust.&lt;/li&gt;
 &lt;li&gt;🔁 &lt;strong&gt;Signout Redirect Flow Improved&lt;/strong&gt;: Logging out now redirects more reliably, reducing confusion and making session management seamless.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]&lt;br /&gt;
+&lt;strong&gt;Looking for an &lt;a href="https://docs.openwebui.com/enterprise"&gt;Enterprise Plan&lt;/a&gt;?&lt;/strong&gt; – &lt;strong&gt;&lt;a href="mailto:sales@openwebui.com"&gt;Speak with Our Sales Team Today!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Get &lt;strong&gt;enhanced capabilities&lt;/strong&gt;, including &lt;strong&gt;custom theming and branding&lt;/strong&gt;, &lt;strong&gt;Service Level Agreement (SLA) support&lt;/strong&gt;, &lt;strong&gt;Long-Term Support (LTS) versions&lt;/strong&gt;, and &lt;strong&gt;more!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;👏 Massive thanks to our incredible contributors for their hard work and dedication to making this release possible:
+@kiettrinhgg, @hgaiser, @Lutherwaves, @tts-yo-nagase, @tanerim, @hwzhuhao, @Classic298, @tremlin, @loitragg, @Choyeyeong, @mini-777, @Ithanil, @hary777, @Davixk, @aleixdorca, @silentoplayz, @uryukikutani, @athoik, @cableman, @phpia, @TiancongLx, @dongfangzan&lt;/p&gt;
+&lt;h2&gt;Sponsors 🙌&lt;/h2&gt;
+&lt;p&gt;🚀 We'd like to extend a heartfelt thank you to our amazing sponsors for their generous support (Note: We've excluded private sponsors from this list. If you'd like to get featured here, feel free to reach out to us!)&lt;/p&gt;
+&lt;h4&gt;Emerald&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;n8n&lt;/strong&gt; &lt;a href="https://n8n.io/" target="_blank"&gt;
+        &lt;img src="https://docs.openwebui.com/sponsors/banners/n8n-banner.png" alt="n8n" style="width: 8rem; height: 8rem; border-radius: .75rem;" /&gt;
+      &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;@agency-agency, @roosi-gmbh, @Unsupervisedcom, @feddersen-group, @SRKConsulting, @mushmax, @rndmcnlly, @icanbwell, @blogic-cz, @Krambu-Travis, @GenieDev101,  @PortlandKyGuy, @CubicleGangster, @GitDatamind, @TOWaB, @TheZigGroup, @Classic298, @comet-ml, @chAyubTahir&lt;/p&gt;</content>
     <link href="https://github.com/open-webui/open-webui/releases/tag/v0.6.10" rel="alternate"/>
   </entry>
 </feed>
