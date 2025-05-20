@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-05-20T10:32:57.777152-04:00</updated>
+  <updated>2025-05-20T11:33:13.242112-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -287,7 +287,10 @@ Early access users of &lt;strong&gt;Coder Desktop&lt;/strong&gt; will see their 
 &lt;li&gt;Add API key scope to restrict access to user data (#17692, 1bacd8) (@ThomasK33)&lt;/li&gt;
 &lt;li&gt;Agent: Add devcontainer autostart support (#17076, 7d4b3c863) (@mafredri)&lt;/li&gt;
 &lt;li&gt;Agent: Implement recreate for devcontainers (#17308, 25fb34cab) (@mafredri)&lt;/li&gt;
-&lt;li&gt;Agent: Add devcontainers list endpoint (#17389, 00b5f5673) (@mafredri)&lt;/li&gt;
+&lt;li&gt;Agent: Add devcontainers list endpoint (#17389, 00b5f5673) (@mafredri)&lt;blockquote&gt;
+&lt;p&gt;Early Access: &lt;strong&gt;Devcontainer integration for workspaces&lt;/strong&gt; – Coder now automatically detects, starts, and connects to devcontainers defined in your project’s devcontainer.json, enabling seamless IDE access to both the parent workspace and its devcontainers. &lt;a href="https://coder.com/docs/admin/templates/extending-templates/devcontainers"&gt;Learn more&lt;/a&gt;. General Availability planned later this year.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
 &lt;li&gt;Agent: Add file watcher and dirty status (#17573, 268a50c19) (@mafredri)&lt;/li&gt;
 &lt;li&gt;CLI: Push dynamically generated templates with version name (#17114, 0eec78d71) (@michaelvp411)&lt;/li&gt;
 &lt;li&gt;CLI: Add &lt;code&gt;coder exp mcp&lt;/code&gt; command  (#17066, 057cbd4d8) (@johnstcn)&lt;/li&gt;
