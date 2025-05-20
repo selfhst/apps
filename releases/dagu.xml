@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-05-20T08:34:48.919557-04:00</updated>
+  <updated>2025-05-20T09:34:36.550112-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,10 +100,17 @@
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release includes a minor bug fix addressing &lt;a href="https://github.com/dagu-org/dagu/issues/946"&gt;#946&lt;/a&gt;, where the scheduler did not pass the custom config file path to DAG executions.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;7a7ddbfcbd3e41ab4d44e466ae0c28061c55e130 [#946] fix: scheduler does not pass config file to DAG executions (#947)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: add &lt;code&gt;--version&lt;/code&gt; and &lt;code&gt;--install-dir&lt;/code&gt; options to &lt;code&gt;installer.sh&lt;/code&gt; by @yottahmd in https://github.com/dagu-org/dagu/pull/944&lt;/li&gt;
+&lt;li&gt;[#946] fix: scheduler does not pass config file to DAG executions by @yottahmd in https://github.com/dagu-org/dagu/pull/947&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.16.10...v1.16.11&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.16.11" rel="alternate"/>
   </entry>
 </feed>
