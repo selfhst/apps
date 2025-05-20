@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Mail Server Releases</title>
-  <updated>2025-05-20T05:31:48.081748-04:00</updated>
+  <updated>2025-05-20T06:31:47.685195-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Stalwart Mail Server: v0.11.3</title>
     <updated>2025-01-17T16:07:35-05:00</updated>
     <author>
-      <name>stalwartlabs/mail-server</name>
+      <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;p&gt;Same as 0.11.2, fixes a build issue with Docker images.&lt;/p&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.11.3" rel="alternate"/>
@@ -25,7 +25,7 @@
     <title>New release for Stalwart Mail Server: v0.11.4</title>
     <updated>2025-01-29T09:37:44-05:00</updated>
     <author>
-      <name>stalwartlabs/mail-server</name>
+      <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.11.4] - 2025-01-29&lt;/h2&gt;
 &lt;p&gt;To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then upgrade to the latest web-admin.&lt;/p&gt;
@@ -56,7 +56,7 @@
     <title>New release for Stalwart Mail Server: v0.11.5</title>
     <updated>2025-02-01T07:31:42-05:00</updated>
     <author>
-      <name>stalwartlabs/mail-server</name>
+      <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.11.5] - 2025-02-01&lt;/h2&gt;
 &lt;p&gt;To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then upgrade to the latest web-admin.&lt;/p&gt;
@@ -81,7 +81,7 @@
     <title>New release for Stalwart Mail Server: v0.11.7</title>
     <updated>2025-03-24T12:59:51-04:00</updated>
     <author>
-      <name>stalwartlabs/mail-server</name>
+      <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.11.7] - 2025-03-24&lt;/h2&gt;
 &lt;p&gt;To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then upgrade to the latest web-admin.&lt;/p&gt;
@@ -115,7 +115,7 @@
     <title>New release for Stalwart Mail Server: v0.11.8</title>
     <updated>2025-04-30T05:57:10-04:00</updated>
     <author>
-      <name>stalwartlabs/mail-server</name>
+      <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.11.8] - 2025-04-30&lt;/h2&gt;
 &lt;p&gt;To upgrade replace the &lt;code&gt;stalwart-mail&lt;/code&gt; binary and then upgrade to the latest web-admin.&lt;/p&gt;
