@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-05-20T00:31:34.422274-04:00</updated>
+  <updated>2025-05-20T01:31:26.148623-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -116,20 +116,16 @@
 &lt;ul&gt;
 &lt;li&gt;Enhancement: support negative offset in scheduled workflows &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9746"&gt;#9746&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Enhancement: support heic images &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9771"&gt;#9771&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: use patch instead of put for frontend document changes &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9744"&gt;#9744&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Chore: replace secretary with GHA &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9723"&gt;#9723&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Enhancement: use patch instead of put for frontend document changes &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; ([#9744](https://github.com/paperless-ngx/paperless-ngx/pull/&lt;/li&gt;
 &lt;li&gt;Fixhancement: automatically disable email verification if no smtp setup &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9949"&gt;#9949&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: support negative offset in scheduled workflows &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9746"&gt;#9746&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixhancement: better handle removed social apps in profile &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9876"&gt;#9876&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Enhancement: add barcode frontend config &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9742"&gt;#9742&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: support heic images &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9771"&gt;#9771&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Enhancement: support allauth disable unknown account emails &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9743"&gt;#9743&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixhancement: tag plus button should add tag to doc &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9762"&gt;#9762&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixhancement: check more permissions for status consumer messages &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9804"&gt;#9804&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixhancement: tag plus button should add tag to doc &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9762"&gt;#9762&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: include subpath in drf-spectacular settings if set &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9738"&gt;#9738&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: handle created change with api version increment, use created only on frontend, deprecate created_date &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9962"&gt;#9962&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fix: ignore logo file from sanity checker &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9946"&gt;#9946&lt;/a&gt;)&lt;/li&gt;
