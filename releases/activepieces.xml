@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-05-20T14:33:30.678299-04:00</updated>
+  <updated>2025-05-20T15:33:25.788726-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,7 +154,6 @@
     <content>&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: piece translation (#7738) @AbdulTheActivePiecer&lt;/li&gt;
-&lt;li&gt;feat: translate pieces (#7635) @AbdulTheActivePiecer&lt;/li&gt;
 &lt;li&gt;feat: agent piece (#7718) @Gamal72&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🧩 Pieces&lt;/h2&gt;

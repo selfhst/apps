@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Habitica Releases</title>
-  <updated>2025-05-20T14:35:26.414040-04:00</updated>
+  <updated>2025-05-20T15:35:13.162069-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,13 +73,14 @@
   </entry>
   <entry>
     <id>https://github.com/HabitRPG/habitica/releases/tag/v5.36.4</id>
-    <title>New release for Habitica: v5.36.4 Logging Fix</title>
+    <title>New release for Habitica: v5.36.4 Logging Fix and June Content</title>
     <updated>2025-05-19T18:28:11-04:00</updated>
     <author>
       <name>HabitRPG/habitica</name>
     </author>
     <content>&lt;h2&gt;API&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Content: New items and cosmetics for June 2025 (@CuriousMagpie)&lt;/li&gt;
 &lt;li&gt;Chore: Locale files updated (@weblate contributors)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Client&lt;/h2&gt;
