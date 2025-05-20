@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-20T09:36:29.311143-04:00</updated>
+  <updated>2025-05-20T10:36:34.940912-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,7 +83,7 @@
       <name>plexguide/Huntarr.io</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;p&gt;I am proud to announce Huntarr now installs on Windows and also installs as a service! Took me 3 tries over the last 3 weeks, probably spending about 30 hours the windows portion alone (keep in mind you can now install for mac also)&lt;/p&gt;
+&lt;p&gt;I am proud to announce Huntarr now installs on Windows and also installs as a service! Took me 4 tries over the last 3 weeks, probably spending about 30 hours the windows portion alone (keep in mind you can now install for mac also)&lt;/p&gt;
 &lt;p&gt;Pending quick build issue... will repost.&lt;/p&gt;
 &lt;p&gt;&lt;img width="495" alt="image" src="https://github.com/user-attachments/assets/0d668635-3544-4ff8-bac0-7a7e75314491" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img width="501" alt="image" src="https://github.com/user-attachments/assets/49fcbd01-37ae-4df0-b183-a3e00117c6eb" /&gt;&lt;/p&gt;
@@ -101,7 +101,7 @@
       <name>plexguide/Huntarr.io</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;p&gt;I am proud to announce Huntarr now installs on Windows and also installs as a service! Took me 3 tries over the last 3 weeks, probably spending about 30 hours the windows portion alone (keep in mind you can now install for mac also) &lt;/p&gt;
+&lt;p&gt;I am proud to announce Huntarr now installs on Windows and also installs as a service! Took me 4 tries over the last 3 weeks, probably spending about 30 hours the windows portion alone (keep in mind you can now install for mac also) &lt;/p&gt;
 &lt;p&gt;7.0.7+ now names provides the windows installer a better name when publishing&lt;/p&gt;
 &lt;p&gt;Pending quick build issue... will repost.&lt;/p&gt;
 &lt;p&gt;&lt;img width="495" alt="image" src="https://github.com/user-attachments/assets/0d668635-3544-4ff8-bac0-7a7e75314491" /&gt;&lt;/p&gt;
