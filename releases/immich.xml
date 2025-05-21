@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-05-21T17:30:59.604460-04:00</updated>
+  <updated>2025-05-21T18:30:59.643710-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -365,7 +365,7 @@ Note: after switching to VectorChord, you should not downgrade Immich below 1.13
 &lt;p&gt;Please don’t hesitate to contact us here on GitHub or &lt;a href="https://discord.immich.app/"&gt;Discord&lt;/a&gt; if you encounter migration issues.&lt;/p&gt;
 &lt;h2&gt;VectorChord FAQ&lt;/h2&gt;
 &lt;h3&gt;I have a separate PostgreSQL instance shared with multiple services. How can I switch to VectorChord?&lt;/h3&gt;
-&lt;p&gt;Please see &lt;a href="https://main.preview.immich.app/docs/administration/postgres-standalone#migrating-to-vectorchord"&gt;https://immich.app/docs/administration/postgres-standalone#migrating-to-vectorchord&lt;/a&gt; for migration instructions. The migration path will be different depending on whether you’re currently using pgvecto.rs or pgvector, as well as whether Immich has superuser DB permissions.&lt;/p&gt;
+&lt;p&gt;Please see &lt;a href="https://immich.app/docs/administration/postgres-standalone#migrating-to-vectorchord"&gt;https://immich.app/docs/administration/postgres-standalone#migrating-to-vectorchord&lt;/a&gt; for migration instructions. The migration path will be different depending on whether you’re currently using pgvecto.rs or pgvector, as well as whether Immich has superuser DB permissions.&lt;/p&gt;
 &lt;h3&gt;What will happen if I upgrade Immich to 1.133.0 without changing the DB image?&lt;/h3&gt;
 &lt;p&gt;Immich will auto-detect the vector extension available in the DB and continue to work without manual intervention. However, we will drop support for pgvecto.rs in a later release, so please switch at your convenience.&lt;/p&gt;
 &lt;h3&gt;I’m using a different deployment method than Docker Compose. How should I migrate?&lt;/h3&gt;
