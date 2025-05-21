@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cypht Releases</title>
-  <updated>2025-05-21T05:36:13.458971-04:00</updated>
+  <updated>2025-05-21T06:36:23.250317-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,8 @@
 &lt;li&gt;fix(backend): address potential security exploits in request parameters by @mercihabam in https://github.com/cypht-org/cypht/pull/1514&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;We greatly appreciate @4rdr’s efforts in identifying and reporting security concerns in this security release. Thank you for your collaboration and commitment to security!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/cypht-org/cypht/compare/v2.4.0...v2.4.2&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/cypht-org/cypht/compare/v2.4.0...v2.4.2&lt;/p&gt;
+&lt;p&gt;Version 2.4.1 was briefly released but then deleted, which is why it goes from 2.4.0 to 2.4.2&lt;/p&gt;</content>
     <link href="https://github.com/cypht-org/cypht/releases/tag/v2.4.2" rel="alternate"/>
   </entry>
 </feed>

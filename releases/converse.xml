@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Converse Releases</title>
-  <updated>2025-05-21T05:33:12.533972-04:00</updated>
+  <updated>2025-05-21T06:33:21.905256-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -250,9 +250,11 @@
 &lt;li&gt;New "getOccupantActionButtons" hook, so that plugins can add actions on MUC occupants.&lt;/li&gt;
 &lt;li&gt;Update the "Add MUC" modal to add validation and to allow specifying only the MUC name and not the whole address.&lt;/li&gt;
 &lt;li&gt;MUC occupants badges: displays short labels, with full label as title.&lt;/li&gt;
-&lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#show-background"&gt;stanza_timeout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#stanza-timeout"&gt;stanza_timeout&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#lazy-load-vcards"&gt;lazy_load_vcards&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#enable-roster-versioning"&gt;enable_roster_versioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#rtl-langs"&gt;rtl_langs&lt;/a&gt; for specifying languages for which
+  Converse's UI should be shown in right-to-left order.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Default config changes&lt;/h3&gt;
 &lt;ul&gt;
@@ -280,8 +282,6 @@
 &lt;li&gt;The deprecated API method &lt;code&gt;api.settings.update&lt;/code&gt; has been removed. Use
   &lt;code&gt;api.settings.extend&lt;/code&gt; instead.&lt;/li&gt;
 &lt;li&gt;Removed the &lt;code&gt;default_state&lt;/code&gt; config option.&lt;/li&gt;
-&lt;li&gt;New config option &lt;a href="https://conversejs.org/docs/html/configuration.html#rtl-langs"&gt;rtl_langs&lt;/a&gt; for specifying languages for which
-  Converse's UI should be shown in right-to-left order.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/conversejs/converse.js/releases/tag/v11.0.0" rel="alternate"/>
   </entry>
