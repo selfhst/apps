@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Converse Releases</title>
-  <updated>2025-05-21T06:33:21.905256-04:00</updated>
+  <updated>2025-05-21T07:33:32.347301-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,7 +80,9 @@
     <author>
       <name>conversejs/converse.js</name>
     </author>
-    <content>&lt;h3&gt;Github Issues&lt;/h3&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Desktop version of Converse can be downloaded here:
+https://github.com/conversejs/converse-desktop/releases&lt;/p&gt;
+&lt;h3&gt;Github Issues&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;h1&gt;122: Set horizontal layout direction based on the language&lt;/h1&gt;
