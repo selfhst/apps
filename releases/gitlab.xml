@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-05-21T13:30:52.253735-04:00</updated>
+  <updated>2025-05-21T14:30:52.328554-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -776,8 +776,8 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="17 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=17&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2394 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2394&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="16 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=16&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2393 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2393&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[Improved pod status visualizations in the dashboard for Kubernetes](https://docs.gitlab.com/ci/environments/kubernetes_dashboard)&lt;/summary&gt;
 
 &gt; You can use the dashboard for Kubernetes to monitor your deployed applications. Until now, pods with container errors like `CrashLoopBackOff` or `ImagePullBackOff` were displayed with a "Pending" or "Running" status, which makes it difficult to identify problematic deployments without using `kubectl`. 
@@ -940,15 +940,6 @@
 &gt; With our new [fine-grained permissions for job tokens](https://docs.gitlab.com/ee/ci/jobs/fine_grained_permissions.html) beta feature, you can now precisely control which specific resources a job token can access within a project. This allows you to implement the principle of least privilege in your CI/CD workflows, granting only the minimal access necessary for each job to complete its tasks.
 &gt; 
 &gt; We're actively seeking community feedback on this feature. If you have questions, want to share your implementation experience, or would like to engage directly with our team about potential improvements, please visit our [feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/519575).
-
-&lt;/details&gt;
-
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/security_risk_management/"&gt;Security risk management&lt;/a&gt;&lt;/h5&gt;
-&lt;details&gt;&lt;summary&gt;[Configure Jira issues from vulnerabilities using the Jira integration API](https://docs.gitlab.com/api/project_integrations/#jira-issues)&lt;/summary&gt;
-
-&gt; Previously, you had to configure the integration to [create Jira issues from vulnerabilities](https://docs.gitlab.com/integration/jira/configure/#create-a-jira-issue-for-a-vulnerability) from the **Project settings** page.
-&gt; 
-&gt; You can now configure this integration from the project integrations API, which allows you to automate the setup.
 
 &lt;/details&gt;
 
