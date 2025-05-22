@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2025-05-22T17:33:46.177499-04:00</updated>
+  <updated>2025-05-22T18:34:12.557972-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,6 +161,10 @@
       <name>immichFrame/ImmichFrame</name>
     </author>
     <content>&lt;h1&gt;📦 ImmichFrame Release v1.0.26.0 – May 22, 2025&lt;/h1&gt;
+&lt;h3&gt;More information overlay&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/f612d835-b1e0-455f-bbc4-b820fac49b37" /&gt;&lt;/p&gt;
+&lt;h3&gt;Assetinfo icons and album names&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1a080567-2f59-4c75-b0d1-13407b5b4391" /&gt;&lt;/p&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at v1.0.26.0 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
