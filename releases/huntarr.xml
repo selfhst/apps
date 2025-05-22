@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-22T07:36:16.912511-04:00</updated>
+  <updated>2025-05-22T08:36:28.550706-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,26 +80,13 @@
     <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.1.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/plexguide/Huntarr.io/releases/tag/7.1.1</id>
-    <title>New release for Huntarr: 7.1.1</title>
-    <updated>2025-05-21T22:55:48-04:00</updated>
+    <id>https://github.com/plexguide/Huntarr.io/releases/tag/7.1.2</id>
+    <title>New release for Huntarr: 7.1.2</title>
+    <updated>2025-05-22T07:38:28-04:00</updated>
     <author>
       <name>plexguide/Huntarr.io</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Rounded corners for Resources on the Front Page.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Label notification as not working yet&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;update by @Admin9705 in https://github.com/plexguide/Huntarr.io/pull/478&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;catch up by @Admin9705 in https://github.com/plexguide/Huntarr.io/pull/489&lt;/li&gt;
-&lt;li&gt;Dev by @Admin9705 in https://github.com/plexguide/Huntarr.io/pull/492&lt;/li&gt;
-&lt;li&gt;Dev by @Admin9705 in https://github.com/plexguide/Huntarr.io/pull/493&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/plexguide/Huntarr.io/compare/7.0.8...7.1.1&lt;/p&gt;</content>
-    <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.1.1" rel="alternate"/>
+    <content>&lt;p&gt;Fixes missing radarr from 7.1.1&lt;/p&gt;</content>
+    <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.1.2" rel="alternate"/>
   </entry>
 </feed>
