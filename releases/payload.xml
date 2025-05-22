@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-05-22T12:32:17.589671-04:00</updated>
+  <updated>2025-05-22T13:32:20.561716-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,8 +176,12 @@
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v3.38.0...v3.39.0"&gt;v3.39.0&lt;/a&gt; (2025-05-22)&lt;/h2&gt;
 &lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;p&gt;📁 Folders (&lt;a href="https://github.com/payloadcms/payload/issues/10030"&gt;#10030&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/00667fa"&gt;00667fa&lt;/a&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Folders allow you to organize your documents in a more manageable way. Now you can enable folders on a per-collection basis and from there start adding folders from within the admin panel (or via the API). Once you have folders enabled you can then start organizing. You can create folders and store documents across multiple collection types and then view them either in the collection "By Folder" or in the global "Browse by Folder" view.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;https://github.com/user-attachments/assets/da1e0dec-abc7-4e5c-9241-3a733b2bfa0c&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;📁 folders (&lt;a href="https://github.com/payloadcms/payload/issues/10030"&gt;#10030&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/00667fa"&gt;00667fa&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;show fields inside groups as separate columns in the list view (&lt;a href="https://github.com/payloadcms/payload/issues/7355"&gt;#7355&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/2a41d3f"&gt;2a41d3f&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;plugin-form-builder:&lt;/strong&gt; add new date field (&lt;a href="https://github.com/payloadcms/payload/issues/12416"&gt;#12416&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/4dfb2d2"&gt;4dfb2d2&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;richtext-lexical:&lt;/strong&gt; add TextStateFeature (allows applying styles such as color and background color to text) (&lt;a href="https://github.com/payloadcms/payload/issues/9667"&gt;#9667&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/fc83823"&gt;fc83823&lt;/a&gt;)&lt;/li&gt;
