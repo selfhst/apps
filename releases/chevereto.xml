@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2025-05-22T09:30:40.177677-04:00</updated>
+  <updated>2025-05-22T10:30:39.935731-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,13 +154,19 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.3.3 (2025-05-22)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.3/4.3.3.html"&gt;Chevereto 4.3.3&lt;/a&gt; (2025-05-22)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added configurable cache stampede protection&lt;/li&gt;
-&lt;li&gt;Added open_basedir section to /dashboard&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting binary conflicts with open_basedir restrictions&lt;/li&gt;
-&lt;li&gt;Fixed bug affecting close button on modal boxes&lt;/li&gt;
-&lt;li&gt;Improved binary detection display at /dashboard&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/post-78882"&gt;Added configurable cache stampede protection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/post-78883"&gt;Added open_basedir section to /dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/post-78884"&gt;Fixed bug affecting binary conflicts with open_basedir restrictions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/post-78885"&gt;Fixed bug affecting close button on modal boxes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/post-78886"&gt;Improved binary detection display at /dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2025/05/13/chevereto-4-3/"&gt;Chevereto 4.3 (Entrador)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3.16041/"&gt;Chevereto v4.3.3 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-3-announcement.16040/"&gt;Chevereto v4.3.3 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.3.3" rel="alternate"/>
   </entry>
