@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NeoDB Releases</title>
-  <updated>2025-05-22T16:33:26.510959-04:00</updated>
+  <updated>2025-05-22T17:33:20.350564-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,7 +68,7 @@ fixed an issue when receiving remote report&lt;/p&gt;</content>
   <entry>
     <id>https://github.com/neodb-social/neodb/releases/tag/0.11.7.2</id>
     <title>New release for NeoDB: 0.11.7.2</title>
-    <updated>2025-05-22T15:54:55-04:00</updated>
+    <updated>2025-05-22T16:39:12-04:00</updated>
     <author>
       <name>neodb-social/neodb</name>
     </author>
@@ -76,7 +76,8 @@ fixed an issue when receiving remote report&lt;/p&gt;</content>
 &lt;ul&gt;
 &lt;li&gt;Notifications marked as seen will not disappear from apps &lt;/li&gt;
 &lt;li&gt;Deprecated legacy social data models (it was not in use for a few months, this is to delete it from database)&lt;/li&gt;
-&lt;li&gt;fix DeepL to pt translation &lt;/li&gt;
+&lt;li&gt;fix DeepL to pt translation&lt;/li&gt;
+&lt;li&gt;added confirmation before boost a post&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/neodb-social/neodb/releases/tag/0.11.7.2" rel="alternate"/>
   </entry>
