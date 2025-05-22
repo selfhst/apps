@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-05-22T04:31:03.078913-04:00</updated>
+  <updated>2025-05-22T05:30:59.177181-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -316,7 +316,7 @@ Please update your Authelia config with the following property
 &lt;/ol&gt;
 &lt;p&gt;We are migrating off the deprecated pgvecto.rs database extension to its successor &lt;a href="https://github.com/tensorchord/VectorChord"&gt;VectorChord&lt;/a&gt;, which comes with performance improvements in almost all aspects. This change is a major milestone we want to perform prior to the stable release.&lt;/p&gt;
 &lt;p&gt;Before making any other changes, please &lt;a href="https://immich.app/docs/administration/backup-and-restore"&gt;back up your database&lt;/a&gt;. While every effort has been made to make this migration as smooth as possible, there’s always a chance that something can go wrong.&lt;/p&gt;
-&lt;p&gt;After making a backup, please modify your &lt;code&gt;docker-compose.yml&lt;/code&gt; file with the following information, adjusting the pg major version and pgvecto.rs version if you changed them from the default. &lt;/p&gt;
+&lt;p&gt;After making a backup, please modify your &lt;code&gt;docker-compose.yml&lt;/code&gt; file with the following information, adjusting the pg major version and pgvecto.rs version if you changed them from the default. For example, if the previous image is &lt;code&gt;docker.io/tensorchord/pgvecto-rs:pg16-v0.3.0&lt;/code&gt;, the new image should be &lt;code&gt;ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.3.0&lt;/code&gt; instead of the image specified in the diff.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;```diff
   [...] &lt;/p&gt;
