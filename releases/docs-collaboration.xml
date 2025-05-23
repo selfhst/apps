@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docs Releases</title>
-  <updated>2025-05-23T07:36:10.102305-04:00</updated>
+  <updated>2025-05-23T08:36:07.054673-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,7 +158,7 @@ We provided a css example in the pull request, you can check it &lt;a href="http
       <name>suitenumerique/docs</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;✨Doc has a fresh new design with a more generic approach.&lt;/h3&gt;
+&lt;h3&gt;✨Docs has a fresh new design with a more generic approach.&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/d95e385c-d6f4-4faf-b3af-26f025504e8b" /&gt;&lt;/p&gt;
 &lt;h3&gt;⚙️ The footer is now configurable!&lt;/h3&gt;
 &lt;p&gt;See how to do here: https://github.com/suitenumerique/docs/blob/main/docs/theming.md#footer-configuration-&lt;/p&gt;
