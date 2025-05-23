@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-05-23T05:33:55.729627-04:00</updated>
+  <updated>2025-05-23T06:34:15.503866-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -241,12 +241,12 @@ offline_mode:
   number_of_assets: 500
   max_size: 50mb
   expiration_hours: 24&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Read the offline mode &lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#offline-mode"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read the offline mode &lt;a href="https://docs.immichkiosk.app/configuration/offline-mode/"&gt;docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Fully Kiosk Browser support&lt;/h2&gt;
 &lt;p&gt;If you use the &lt;a href="https://www.fully-kiosk.com/"&gt;Fully Kiosk Browser &lt;/a&gt; to display Kiosk on a Android device and you have the pro version. You can set the new &lt;code&gt;sleep_dim_screen&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; to dim the screen when in sleep mode.&lt;/p&gt;
 &lt;p&gt;https://github.com/user-attachments/assets/697e8f54-1d04-43d7-a4ce-dc54e1b1e4a1&lt;/p&gt;
-&lt;p&gt;Read the sleep mode &lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#sleep-mode"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read the sleep mode &lt;a href="https://docs.immichkiosk.app/configuration/sleep-mode/"&gt;docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Update to splitview layout&lt;/h2&gt;
 &lt;p&gt;When using &lt;code&gt;layout=splitview&lt;/code&gt;, Kiosk will now automatically switch to &lt;code&gt;layout=splitview-landscape&lt;/code&gt; if the device or browser is in portrait orientation.&lt;/p&gt;
@@ -258,7 +258,7 @@ offline_mode:
 &lt;h2&gt;&lt;code&gt;require_all_people&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;The "Require all people" feature allows you to filter images to only
 show those where all specified people are present together in the same photo.&lt;/p&gt;
-&lt;p&gt;Read the require all people &lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#require-all-people"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read the require all people &lt;a href="https://docs.immichkiosk.app/configuration/people/#require-all-people"&gt;docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Asset owner&lt;/h2&gt;
 &lt;p&gt;Added &lt;code&gt;show_owner&lt;/code&gt; which displays the asset owner. Thanks to @koostamas for adding this.&lt;/p&gt;
@@ -278,7 +278,7 @@ a light html page that auto reloads itself using &lt;code&gt;refresh&lt;/code&gt
 &lt;p&gt;Immich Kiosk now supports iframe integration, allowing you to embed custom content directly into your Kiosk display.&lt;/p&gt;
 &lt;h3&gt;Why it's useful:&lt;/h3&gt;
 &lt;p&gt;This feature is perfect for users who want to enhance their Kiosk with additional content—such as local weather dashboards, calendars, or custom informational pages. For example, you can embed a local HTML file showing your smart home stats or a remote webpage with real-time updates.&lt;/p&gt;
-&lt;p&gt;Read the iframe &lt;a href="https://github.com/damongolding/immich-kiosk?tab=readme-ov-file#iframe"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read the iframe &lt;a href="https://docs.immichkiosk.app/configuration/iframe"&gt;docs&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;mute/unmute button&lt;/h2&gt;
 &lt;p&gt;&lt;img width="73" alt="Screenshot 2025-05-20 at 10 19 37 am" src="https://github.com/user-attachments/assets/6f6845e4-06d0-40b8-ae6f-30fefca89008" /&gt;&lt;/p&gt;
