@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ELEMENT.FM Releases</title>
-  <updated>2025-05-23T13:36:13.137012-04:00</updated>
+  <updated>2025-05-23T14:36:08.082174-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,15 @@
     </author>
     <content>&lt;p&gt;Release 0.0.4&lt;/p&gt;</content>
     <link href="https://gitlab.com/elementfm/docs/-/releases/0.0.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://gitlab.com/elementfm/docs/-/releases/0.0.5</id>
+    <title>New release for ELEMENT.FM: 0.0.5</title>
+    <updated>2025-05-23T18:09:47+00:00</updated>
+    <author>
+      <name>elementfm/docs</name>
+    </author>
+    <content>&lt;p&gt;Release 0.0.5&lt;/p&gt;</content>
+    <link href="https://gitlab.com/elementfm/docs/-/releases/0.0.5" rel="alternate"/>
   </entry>
 </feed>
