@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Livebook Releases</title>
-  <updated>2025-05-22T19:36:03.934500-04:00</updated>
+  <updated>2025-05-22T20:36:03.987325-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -73,16 +73,6 @@
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
-    <title>New release for Livebook: nightly</title>
-    <updated>2024-10-25T07:31:23-04:00</updated>
-    <author>
-      <name>livebook-dev/livebook</name>
-    </author>
-    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
-    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://github.com/livebook-dev/livebook/releases/tag/v0.16.1</id>
     <title>New release for Livebook: v0.16.1</title>
     <updated>2025-05-21T07:43:15-04:00</updated>
@@ -94,5 +84,15 @@
 &lt;li&gt;Fly runtime and FLAME workers failing to start due to missing epmd&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
+    <title>New release for Livebook: nightly</title>
+    <updated>2024-10-25T07:31:23-04:00</updated>
+    <author>
+      <name>livebook-dev/livebook</name>
+    </author>
+    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
+    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
   </entry>
 </feed>
