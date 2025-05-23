@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-05-23T10:33:01.882634-04:00</updated>
+  <updated>2025-05-23T11:33:14.506271-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,9 +100,15 @@
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add notification support (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1381"&gt;#1381&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/d729fbf2056d0ecaa15966548601bd5abc7aeef0"&gt;d729fbf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Notification agents are configured under Settings -&amp;gt; Notifications. Once configured, you can select notification agents within your rules.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Please note that this is a beta feature. We have not extensively tested every available agent type. Feedback welcomed!&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Improve Tautulli settings UX (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1621"&gt;#1621&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/3a9721fab2dcf1834a8f10edd3bcfad4be1e7d87"&gt;3a9721f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Settings have been combined into a single URL field.&lt;/li&gt;
+&lt;li&gt;You can now remove the configuration by emptying the URL field.&lt;/li&gt;
+&lt;li&gt;Test before saving like Radarr &amp;amp; Sonarr. The remaining service pages will get the same treatment in future releases.&lt;/li&gt;
 &lt;li&gt;Log unhandledRejection &amp;amp; uncaughtException (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1733"&gt;#1733&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/139cd5b2da1d9eea1acf6b1bb9b13f21d8adaf2f"&gt;139cd5b&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Retry failed Plex API requests (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1775"&gt;#1775&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/d3769ebf5566eb3fe9c07e7429bcac77f02ee78f"&gt;d3769eb&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;We have seen users receiving intermittent errors from the Plex API which can cause a number of issues. This change should hopefully alleviate some of those.&lt;/li&gt;
 &lt;li&gt;Update rule creation UI/UX &amp;amp; toasts (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1696"&gt;#1696&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/6c34075d3f94b01f97bbfe81605bcf4dc5e08e6b"&gt;6c34075&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;YAML Importer Modal additions (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1754"&gt;#1754&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/66db26eb0c22881930ef5fb58768e23b5fb087e2"&gt;66db26e&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
@@ -114,7 +120,9 @@
 &lt;li&gt;Remove floating promises (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1776"&gt;#1776&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/cd3c3b38ca42463edafebc33ae22282bdb88b24c"&gt;cd3c3b3&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Test media targeting the wrong rule group (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1728"&gt;#1728&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/42165b5141d9a9cb4c71e622ac3b1660ec1dc518"&gt;42165b5&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Unparsable log lines breaking the logs page (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1772"&gt;#1772&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/87eee65586285be7b19b057b667f6348920fc29b"&gt;87eee65&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h3&gt;Development Version Note&lt;/h3&gt;
+&lt;p&gt;If you're using the &lt;code&gt;jorenn92/maintainerr:develop&lt;/code&gt; Docker tag for the development version, you will need to update it to &lt;code&gt;jorenn92/maintainerr:main&lt;/code&gt; to keep getting updates. If you're using &lt;code&gt;ghcr.io/jorenn92/maintainerr:main&lt;/code&gt; then no change is required.&lt;/p&gt;</content>
     <link href="https://github.com/jorenn92/Maintainerr/releases/tag/v2.15.0" rel="alternate"/>
   </entry>
 </feed>
