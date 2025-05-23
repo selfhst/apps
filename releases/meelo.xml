@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meelo Releases</title>
-  <updated>2025-05-23T09:35:35.204416-04:00</updated>
+  <updated>2025-05-23T10:35:30.077292-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,6 +184,7 @@
     <content>&lt;!-- Release notes generated using configuration in .github/release.yml at main --&gt;
 
 &lt;p&gt;Scrobbling support, record labels and more!&lt;/p&gt;
+&lt;p&gt;To setup the scrobbling feature, &lt;a href="https://github.com/Arthi-chaud/Meelo/wiki/Setup:-Scrobblers-(Optional)"&gt;take a look at the wiki&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Exciting New Features 🎉&lt;/h3&gt;
 &lt;ul&gt;
