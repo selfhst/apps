@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wizarr Releases</title>
-  <updated>2025-05-22T21:31:56.064796-04:00</updated>
+  <updated>2025-05-22T22:31:58.606409-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -315,9 +315,9 @@
     <link href="https://github.com/wizarrrr/wizarr/releases/tag/v4.2.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/wizarrrr/wizarr/releases/tag/2025.5.c</id>
+    <id>https://github.com/wizarrrr/wizarr/releases/tag/2025.5.d</id>
     <title>New release for Wizarr: 2025.5</title>
-    <updated>2025-05-22T21:12:12-04:00</updated>
+    <updated>2025-05-22T21:38:52-04:00</updated>
     <author>
       <name>wizarrrr/wizarr</name>
     </author>
@@ -397,6 +397,6 @@ You will need to re-connect your Plex Server, however your old database will be 
 &lt;p&gt;&lt;strong&gt;Thank you for upgrading to 2025.5!&lt;/strong&gt;&lt;br /&gt;
 We’ve overhauled Wizarr from the ground up—please report any issues on GitHub.&lt;br /&gt;
 Enjoy the smoother UI, robust CI/CD pipeline, and extensible architecture!  &lt;/p&gt;</content>
-    <link href="https://github.com/wizarrrr/wizarr/releases/tag/2025.5.c" rel="alternate"/>
+    <link href="https://github.com/wizarrrr/wizarr/releases/tag/2025.5.d" rel="alternate"/>
   </entry>
 </feed>
