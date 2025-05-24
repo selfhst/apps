@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-05-24T17:32:56.445169-04:00</updated>
+  <updated>2025-05-24T18:33:00.767305-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,6 +97,9 @@
       <name>jorenn92/Maintainerr</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/jorenn92/Maintainerr/compare/v2.14.0...v2.15.0"&gt;2.15.0&lt;/a&gt; (2025-05-23)&lt;/h1&gt;
+&lt;h3&gt;New Docker tags (major and major.minor)&lt;/h3&gt;
+&lt;p&gt;We're now pushing &lt;code&gt;major&lt;/code&gt; and &lt;code&gt;major.minor&lt;/code&gt; tags to Docker registries in addition to &lt;code&gt;latest&lt;/code&gt; &amp;amp; &lt;code&gt;major.minor.patch&lt;/code&gt; that we already push.&lt;/p&gt;
+&lt;p&gt;If you're targeting &lt;code&gt;latest&lt;/code&gt; (the default if none specified) AND have some mechanism for automatic Docker container updates, we &lt;strong&gt;highly&lt;/strong&gt; recommend you target a major tag instead. At the moment this is &lt;code&gt;2&lt;/code&gt;, meaning your target image should look like &lt;code&gt;jorenn92/maintainerr:2&lt;/code&gt; or &lt;code&gt;ghcr.io/jorenn92/maintainerr:2&lt;/code&gt;. This could save you some headache if a new major release's breaking changes affect your installation. We rarely introduce breaking changes and do intend to keep it that way. That is to say, you wouldn't have to update the tag that often to stay on the latest release.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add notification support (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1381"&gt;#1381&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/d729fbf2056d0ecaa15966548601bd5abc7aeef0"&gt;d729fbf&lt;/a&gt;)&lt;/li&gt;
