@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-25T08:30:51.708481-04:00</updated>
+  <updated>2025-05-25T09:30:54.165675-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -211,7 +211,7 @@ entrypoint:
 &lt;h3&gt;Improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Autocert: allow specifying custom acme directory url (experimental)&lt;/li&gt;
-&lt;li&gt;WebUI: App tooptip no longer show up when right-click menu if opende&lt;/li&gt;
+&lt;li&gt;WebUI: App tooltip no longer show up when right-click menu if opened&lt;/li&gt;
 &lt;li&gt;General: Improved memory and object lifecycle management&lt;/li&gt;
 &lt;li&gt;OIDC: restore old behavior - when user is allowed, &lt;code&gt;allowed_group&lt;/code&gt; won't be checked, and vice-versa&lt;/li&gt;
 &lt;/ul&gt;
