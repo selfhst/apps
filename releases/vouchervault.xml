@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VoucherVault Releases</title>
-  <updated>2025-05-25T18:34:21.462306-04:00</updated>
+  <updated>2025-05-25T19:34:06.973888-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,7 +67,7 @@
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!TIP]
-This release adjusts the Celery concurrency to reduce memory usage&lt;/p&gt;
+This release adjusts the Celery concurrency to reduce memory usage from 450 MB to 250 MB. It makes VoucherVault more lightweight.&lt;/p&gt;
 &lt;p&gt;Two new environment variables &lt;code&gt;CELERY_WORKER_CONCURRENCY&lt;/code&gt; and &lt;code&gt;CELERY_WORKER_PREFETCH_MULTIPLIER&lt;/code&gt; are available. Both set to the value &lt;code&gt;1&lt;/code&gt; as default.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;

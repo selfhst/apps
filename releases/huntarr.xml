@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-05-25T18:36:17.108864-04:00</updated>
+  <updated>2025-05-25T19:35:59.791740-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,17 +60,15 @@
     <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.3.12" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/plexguide/Huntarr.io/releases/tag/7.3.13</id>
-    <title>New release for Huntarr: 7.3.13</title>
-    <updated>2025-05-25T15:08:14-04:00</updated>
+    <id>https://github.com/plexguide/Huntarr.io/releases/tag/7.3.14</id>
+    <title>New release for Huntarr: 7.3.14</title>
+    <updated>2025-05-25T19:09:22-04:00</updated>
     <author>
       <name>plexguide/Huntarr.io</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;Subpath reverse proxy fix from a pull request&lt;/li&gt;
-&lt;li&gt;Massive update to docs&lt;/li&gt;
-&lt;li&gt;Massive update to readme&lt;/li&gt;
+&lt;li&gt;Undid subpath fixed that borked timers&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.3.13" rel="alternate"/>
+    <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.3.14" rel="alternate"/>
   </entry>
 </feed>
