@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Radarr Releases</title>
-  <updated>2025-05-26T08:31:34.042535-04:00</updated>
+  <updated>2025-05-26T09:31:35.229789-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -296,6 +296,7 @@ This list of changes was [auto generated](https://dev.azure.com/Radarr/961c82cf-
 &lt;li&gt;5af61b59001fb47120a29e215f4876d14c7d46d9 New: Ignore volumes containing &lt;code&gt;.timemachine&lt;/code&gt; from Disk Space&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details&gt;&lt;summary&gt;&lt;b&gt;See More&lt;/b&gt;&lt;/summary&gt;
+
 * a10759c7e983ae71980a61f0049d0fa332476872 Treat HTTP 410 response for failed download similarly to HTTP 404
 * ac2d92007e1654d82cd576296406981f331e0066 New: Don't allow remote path to start with space
 * 09cfdc3fa2c85b66120b37ff51c3942dd935d84e Increase maximum backup restoration size to 5GB
