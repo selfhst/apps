@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-05-26T02:33:20.319752-04:00</updated>
+  <updated>2025-05-26T03:34:10.008419-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -182,7 +182,7 @@
   </entry>
   <entry>
     <id>https://github.com/activepieces/activepieces/releases/tag/0.57.0</id>
-    <title>New release for Activepieces: 0.57.0</title>
+    <title>New release for Activepieces: 0.57.0 (Please skip to 0.57.1 if you are running EE edition)</title>
     <updated>2025-05-23T07:05:34-04:00</updated>
     <author>
       <name>activepieces/activepieces</name>
