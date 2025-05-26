@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2025-05-26T16:31:57.102694-04:00</updated>
+  <updated>2025-05-26T17:31:52.936365-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,7 @@
     <content>&lt;h2&gt;Highlights&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Removal of boringcrypto support - since go1.24.x, you can now just use GOFIPS environment variable on the same binary.&lt;/li&gt;
-&lt;li&gt;UI Console is now deprecated and moved to &lt;a href="https://github.com/minio/object-browser"&gt;object-browser&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Embedded UI Console is now deprecated and moved to &lt;a href="https://github.com/minio/object-browser"&gt;object-browser&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
