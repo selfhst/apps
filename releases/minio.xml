@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2025-05-26T12:31:58.031598-04:00</updated>
+  <updated>2025-05-26T13:31:54.558131-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,12 +114,17 @@
   </entry>
   <entry>
     <id>https://github.com/minio/minio/releases/tag/RELEASE.2025-05-24T17-08-30Z</id>
-    <title>New release for Minio: Bugfix Release</title>
+    <title>New release for Minio: Breaking Release</title>
     <updated>2025-05-24T17:42:19-04:00</updated>
     <author>
       <name>minio/minio</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Removal of boringcrypto support - since go1.24.x, you can now just use GOFIPS environment variable on the same binary.&lt;/li&gt;
+&lt;li&gt;UI Console is now deprecated and moved to &lt;a href="https://github.com/minio/object-browser"&gt;object-browser&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Correct spelling by @shtripat in https://github.com/minio/minio/pull/21225&lt;/li&gt;
 &lt;li&gt;update &lt;code&gt;minio/kms-go/kms&lt;/code&gt; SDK by @aead in https://github.com/minio/minio/pull/21233&lt;/li&gt;
