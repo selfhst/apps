@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-05-26T07:36:32.772284-04:00</updated>
+  <updated>2025-05-26T08:36:30.107864-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,11 +69,11 @@
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;h2&gt;📦 Uncategorized&lt;/h2&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fix: Solve AI to add tags, cannot use custom prompts&lt;/li&gt;
-&lt;li&gt;PR: #645&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;feat &amp;amp; fix by @blinko-space in https://github.com/blinkospace/blinko/pull/693&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/blinkospace/blinko/compare/1.0.0...1.0.1&lt;/p&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.0.1" rel="alternate"/>
   </entry>
 </feed>
