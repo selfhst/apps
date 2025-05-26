@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2025-05-26T18:32:46.482081-04:00</updated>
+  <updated>2025-05-26T19:32:44.212725-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -396,21 +396,21 @@ a05e3ea566049572402ae7614568507a  ./ampache-7.4.2_client.zip&lt;/p&gt;
     </author>
     <content>&lt;h1&gt;7.5.0&lt;/h1&gt;
 &lt;p&gt;php8.4
-4167ccc6f8e3435bc753657bf5d93e9c  ./ampache-7.5.0_all_php8.4.zip
-984aad1075e706cb349e6672b264cdcc  ./ampache-7.5.0_all_php8.4_squashed.zip
-a98072803a9685cfda874c8620bda80f  ./ampache-7.5.0_all_php8.4_client.zip&lt;/p&gt;
+fbd1d86451a60f404227d829e496b1cf  ./ampache-7.5.0_all_php8.4.zip
+fe058d195dda24982b33751c3302d0fa  ./ampache-7.5.0_all_php8.4_squashed.zip
+45af921619d2053dd76f841c2fa07f1f  ./ampache-7.5.0_all_php8.4_client.zip&lt;/p&gt;
 &lt;p&gt;php8.3
-eeb8053044acc7e3731115878224d0e8  ./ampache-7.5.0_all_php8.3.zip
-50263a559f0893c8e2ab0577c03d6d20  ./ampache-7.5.0_all_php8.3_squashed.zip
-f799ad29cd0c6e96c466d3bc592c842d  ./ampache-7.5.0_all_php8.3_client.zip&lt;/p&gt;
+6cfdeded0641fd888ff6e448286795b7  ./ampache-7.5.0_all_php8.3.zip
+cfc2ee1cd41af72fd0c6f49fd8d0ba66  ./ampache-7.5.0_all_php8.3_squashed.zip
+d1242449178f633255233c66c314ef94  ./ampache-7.5.0_all_php8.3_client.zip&lt;/p&gt;
 &lt;p&gt;php8.2
-a1f576beef647a7f2a5453f309dbb571  ./ampache-7.5.0_all_php8.2.zip
-c29444081984b7aa024401df83669f93  ./ampache-7.5.0_all_php8.2_squashed.zip
-46d1f57bc4eb3c1ef9c4cef43d6e0d0e  ./ampache-7.5.0_all_php8.2_client.zip&lt;/p&gt;
+dc511c53f92fac27f9bdead28dceb016  ./ampache-7.5.0_all_php8.2.zip
+16fe3d2d71b106f6cea7a8312f633a79  ./ampache-7.5.0_all_php8.2_squashed.zip
+7eea6468a27e3f75d6347abeefb0b0c6  ./ampache-7.5.0_all_php8.2_client.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; Code only release. (Requires composer and npm install)
-541e6e168969eedd6dcfe5dca9e8a63c  ./ampache-7.5.0_public.zip
-73e07071e9f14ede189afe5da05735ef  ./ampache-7.5.0_squashed.zip
-520ed13805c7f1b334f56d3ffdbc9a2b  ./ampache-7.5.0_client.zip&lt;/p&gt;
+b54498d3cb1ced6089641c9796b90d22  ./ampache-7.5.0_public.zip
+2725e3b677ac7083d776f08b5a506170  ./ampache-7.5.0_squashed.zip
+84bf454c430704db49a6acac29e201a3  ./ampache-7.5.0_client.zip&lt;/p&gt;
 &lt;h2&gt;Zip Version information&lt;/h2&gt;
 &lt;p&gt;If you aren't familiar which the project make sure you know &lt;a href="https://github.com/ampache/ampache/wiki/which-zip"&gt;which zip&lt;/a&gt; you need to download.&lt;/p&gt;
 &lt;h2&gt;Ampache 7.5.0&lt;/h2&gt;
