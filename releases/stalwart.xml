@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-05-26T15:31:43.786526-04:00</updated>
+  <updated>2025-05-26T16:31:43.640230-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,10 @@
 &lt;li&gt;Migration tool to generate the correct next id (#1561).&lt;/li&gt;
 &lt;li&gt;Failed to parse setting dav.lock.max-timeout (closes #1559).&lt;/li&gt;
 &lt;li&gt;Failed to build OpenTelemetry span exporter: no http client specified (#1571).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/7266055"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.12.1" rel="alternate"/>
   </entry>
 </feed>
