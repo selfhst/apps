@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-05-26T11:31:25.384054-04:00</updated>
+  <updated>2025-05-26T12:31:26.195928-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,6 +201,10 @@ Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in
       <name>paperless-ngx/paperless-ngx</name>
     </author>
     <content>&lt;h2&gt;paperless-ngx 2.16.2&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in a future Paperless-ngx version. Users may want to upgrade now, see https://docs.paperless-ngx.com/administration/#database-upgrades&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix: accept datetime for created @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/10021"&gt;#10021&lt;/a&gt;)&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-05-26T11:31:43.808556-04:00</updated>
+  <updated>2025-05-26T12:31:44.489347-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,7 +128,7 @@
       <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.12.0] - 2025-05-26&lt;/h2&gt;
-&lt;p&gt;This version includes &lt;strong&gt;breaking changes&lt;/strong&gt; to the database layout and requires a migration. Please read the &lt;a href="UPGRADING.md"&gt;UPGRADING.md&lt;/a&gt; file for more information on how to upgrade from previous versions.&lt;/p&gt;
+&lt;p&gt;This version includes &lt;strong&gt;breaking changes&lt;/strong&gt; to the database layout and requires a migration. Please read the &lt;a href="https://github.com/stalwartlabs/stalwart/blob/main/UPGRADING.md"&gt;UPGRADING.md&lt;/a&gt; file for more information on how to upgrade from previous versions.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://stalw.art/docs/collaboration/overview"&gt;Collaboration&lt;/a&gt; features including &lt;a href="https://stalw.art/docs/http/calendar/"&gt;Calendars over CalDAV&lt;/a&gt;, &lt;a href="https://stalw.art/docs/http/contact/"&gt;Contacts over CardDAV&lt;/a&gt; and &lt;a href="https://stalw.art/docs/http/file-storage/"&gt;File Storage over WebDAV&lt;/a&gt;.&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CheckCle Releases</title>
-  <updated>2025-05-26T11:36:30.473543-04:00</updated>
+  <updated>2025-05-26T12:36:21.377422-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,5 +57,91 @@ If you have any suggestions, feedback, or feature requests, feel free to open an
 &lt;li&gt;&lt;strong&gt;Official Live Demo Link:&lt;/strong&gt; https://demo.checkcle.io&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/operacle/checkcle/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/operacle/checkcle/releases/tag/v1.2.0</id>
+    <title>New release for CheckCle: 🚀 Checkcle v1.2.0 – New Maintenance and incident features; apply hotfixes</title>
+    <updated>2025-05-26T11:44:24-04:00</updated>
+    <author>
+      <name>operacle/checkcle</name>
+    </author>
+    <content>&lt;p&gt;Release Date: May 26, 2025&lt;/p&gt;
+&lt;p&gt;&lt;img alt="maintenance-dahboard" src="https://pub-4a4062303020445f8f289a2fee84f9e8.r2.dev/images/maintenance-dahboard.png" /&gt;&lt;/p&gt;
+&lt;p&gt;What's New ✨ (Features)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scheduled Maintenance Module:&lt;/strong&gt; Complete maintenance window management system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Create, edit, and delete maintenance windows&lt;/li&gt;
+&lt;li&gt;Status tracking (Scheduled, In Progress, Completed, Cancelled)&lt;/li&gt;
+&lt;li&gt;Affected services management&lt;/li&gt;
+&lt;li&gt;Timeline and duration planning&lt;/li&gt;
+&lt;li&gt;Automatic status updates based on scheduled times&lt;/li&gt;
+&lt;li&gt;Notification system for maintenance events&lt;/li&gt;
+&lt;li&gt;PDF export functionality for maintenance reports&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Incident Management Module:&lt;/strong&gt; Comprehensive incident tracking system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Create, edit, and delete incidents&lt;/li&gt;
+&lt;li&gt;Priority levels (Low, Medium, High, Critical)&lt;/li&gt;
+&lt;li&gt;Impact analysis and affected systems tracking&lt;/li&gt;
+&lt;li&gt;Assignment to team members&lt;/li&gt;
+&lt;li&gt;Status progression (Open, Investigating, Resolved, Closed)&lt;/li&gt;
+&lt;li&gt;Timeline tracking and resolution documentation&lt;/li&gt;
+&lt;li&gt;PDF export for incident reports&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;System Settings Panel:&lt;/strong&gt; Centralized system configuration&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Application name and URL configuration&lt;/li&gt;
+&lt;li&gt;Sender information settings&lt;/li&gt;
+&lt;li&gt;Role-based access control (Super Admin only)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mail Settings Panel:&lt;/strong&gt; SMTP configuration management&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SMTP server configuration (host, port, authentication) &lt;/li&gt;
+&lt;li&gt;TLS/SSL encryption settings&lt;/li&gt;
+&lt;li&gt;Connection testing functionality&lt;/li&gt;
+&lt;li&gt;Email Alerts function for: Login alerts, change email request, user verification confirmation (OTP coming later)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;New Language added: German ([Deutsch] Thanks you for help! @michaelortnerit &lt;/li&gt;
+&lt;li&gt;Clickable Service Table Rows: Service table rows are now clickable, allowing users to navigate directly to service detail dashboards by clicking anywhere on the row&lt;/li&gt;
+&lt;li&gt;Role-Based Access Control: Implemented proper basics permission handling for system settings based on user roles &amp;amp; Multi User Support.&lt;/li&gt;
+&lt;li&gt;Admin vs Superadmin Distinction: Clear separation of access levels between admin and superadmin users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🛠 Improvements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Improved User Experience:&lt;/strong&gt; Users can now access service details more intuitively without having to use the actions menu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Permission Notice for Admins:&lt;/strong&gt; Admin users now see a clean "Permission Notice" message instead of error alerts when accessing restricted settings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSL Certificate Overview Cards:&lt;/strong&gt; Updated SSL &amp;amp; Domain overview cards to match the Uptime Monitoring grid style with consistent gradient backgrounds and visual design&lt;/li&gt;
+&lt;li&gt;You can change email directly without making the email request change (SuperAdmin User)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Console Logging:&lt;/strong&gt; Added debugging logs to track navigation behavior&lt;/li&gt;
+&lt;li&gt;🐳 Docker Update: Improved checkcle Container Setup: We've updated the Docker configuration for the checkcle service to improve maintainability, persistence, and deployment consistency (Persistent data storage mapped to on the host volume)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🐛 Bug Fixes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed HTTP 500 Error: Resolved the 500 status error when saving system and mail settings&lt;/li&gt;
+&lt;li&gt;API Method Compatibility: Updated API calls to use PATCH method with POST fallback for better PocketBase compatibility&lt;/li&gt;
+&lt;li&gt;Error Handling: Improved error handling for settings operations&lt;/li&gt;
+&lt;li&gt;Eliminated False Error Alerts: Fixed issue where admin users were seeing "Error loading settings. HTTP error! status: 500" messages&lt;/li&gt;
+&lt;li&gt;Conditional API Calls: Settings API calls now only execute for superadmin users, preventing unnecessary errors for admin users&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/operacle/checkcle/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>

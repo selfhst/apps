@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Chevereto Releases</title>
-  <updated>2025-05-26T11:30:39.003102-04:00</updated>
+  <updated>2025-05-26T12:30:39.036058-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,11 +152,17 @@
     <author>
       <name>chevereto/chevereto</name>
     </author>
-    <content>&lt;p&gt;Chevereto 4.3.4 (2025-05-26)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;a href="https://releases.chevereto.com/4.X/4.3/4.3.4.html"&gt;Chevereto 4.3.4&lt;/a&gt; (2025-05-26)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added disable_functions detection at /dashboard&lt;/li&gt;
-&lt;li&gt;Fixed layout issue on user profile pages when viewed on large screens&lt;/li&gt;
-&lt;li&gt;Fixed incorrect alignment of the "powered by" footer on large screens&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-4-announcement.16049/post-78912"&gt;Added disable_functions detection at /dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-4-announcement.16049/post-78913"&gt;Fixed layout issue on user profile pages when viewed on large screens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-4-announcement.16049/post-78914"&gt;Fixed incorrect alignment of the "powered by" footer on large screens&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.chevereto.com/2025/05/13/chevereto-4-3/"&gt;Chevereto 4.3 (Entrador)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-4.16050/"&gt;Chevereto v4.3.4 Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chevereto.com/community/threads/chevereto-v4-3-4-announcement.16049/"&gt;Chevereto v4.3.4 Announcement&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/chevereto/chevereto/releases/tag/4.3.4" rel="alternate"/>
   </entry>
