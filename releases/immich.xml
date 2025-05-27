@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-05-27T09:31:01.785280-04:00</updated>
+  <updated>2025-05-27T10:31:04.972602-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -283,7 +283,7 @@ Please update your Authelia config with the following property
 &lt;/ol&gt;
 &lt;p&gt;We are migrating off the deprecated pgvecto.rs database extension to its successor &lt;a href="https://github.com/tensorchord/VectorChord"&gt;VectorChord&lt;/a&gt;, which comes with performance improvements in almost all aspects. This change is a major milestone we want to perform prior to the stable release.&lt;/p&gt;
 &lt;p&gt;Before making any other changes, please &lt;a href="https://immich.app/docs/administration/backup-and-restore"&gt;back up your database&lt;/a&gt;. While every effort has been made to make this migration as smooth as possible, there’s always a chance that something can go wrong.&lt;/p&gt;
-&lt;p&gt;After making a backup, please modify your &lt;code&gt;docker-compose.yml&lt;/code&gt; file with the following information, adjusting the pg major version and pgvecto.rs version if you changed them from the default. For example, if the previous image is &lt;code&gt;docker.io/tensorchord/pgvecto-rs:pg16-v0.3.0&lt;/code&gt;, the new image should be &lt;code&gt;ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.3.0&lt;/code&gt; instead of the image specified in the diff.&lt;/p&gt;
+&lt;p&gt;After making a backup, please modify your &lt;code&gt;docker-compose.yml&lt;/code&gt; file with the following information.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;```diff
   [...] &lt;/p&gt;
@@ -323,6 +323,7 @@ Please update your Authelia config with the following property
 &lt;pre&gt;&lt;code&gt;[...]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;If you deviated from the defaults of pg14 or pgvectors0.2.0, you must adjust the pg major version and pgvecto.rs version. If you are still using the default &lt;code&gt;docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0&lt;/code&gt; image, you can just follow the changes above. For example, if the previous image is &lt;code&gt;docker.io/tensorchord/pgvecto-rs:pg16-v0.3.0&lt;/code&gt;, the new image should be &lt;code&gt;ghcr.io/immich-app/postgres:16-vectorchord0.3.0-pgvectors0.3.0&lt;/code&gt; instead of the image specified in the diff.&lt;/p&gt;
 &lt;p&gt;After making these changes, you can start Immich as normal. Immich will make some changes to the DB during startup, which can take seconds to minutes to finish, depending on hardware and library size. In particular, it’s normal for the server logs to be seemingly stuck at &lt;code&gt;Reindexing clip_index&lt;/code&gt; and &lt;code&gt;Reindexing face_index&lt;/code&gt;for some time if you have over 100k assets in Immich and/or Immich is on a relatively weak server. If you see these logs and there are no errors, just give it time.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!IMPORTANT]

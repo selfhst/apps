@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-05-27T09:36:41.369251-04:00</updated>
+  <updated>2025-05-27T10:36:51.724293-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,14 +64,17 @@
   </entry>
   <entry>
     <id>https://github.com/blinkospace/blinko/releases/tag/1.0.2</id>
-    <title>New release for Blinko: 1.0.2</title>
-    <updated>2025-05-27T09:33:28-04:00</updated>
+    <title>New release for Blinko: Blinko 1.0.2</title>
+    <updated>2025-05-27T09:42:49-04:00</updated>
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;p&gt;{{CHANGELOG}}&lt;/p&gt;
-&lt;h2&gt;All Commits&lt;/h2&gt;
-&lt;p&gt;{{COMMITS}}&lt;/p&gt;</content>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge to main by @blinko-space in https://github.com/blinkospace/blinko/pull/694&lt;/li&gt;
+&lt;li&gt;chore: update templates in app-release.yml and refine workbox configu… by @blinko-space in https://github.com/blinkospace/blinko/pull/695&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/blinkospace/blinko/compare/1.0.1...1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.0.2" rel="alternate"/>
   </entry>
 </feed>
