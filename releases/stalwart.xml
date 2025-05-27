@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-05-27T07:31:47.318360-04:00</updated>
+  <updated>2025-05-27T08:31:49.602911-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,10 @@
 &lt;ul&gt;
 &lt;li&gt;Report list attempts to deserialize empty values (#1562)&lt;/li&gt;
 &lt;li&gt;Refresh expired FoundationDB transactions while retrieving large blobs (#1555).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/7283436"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.12.2" rel="alternate"/>
   </entry>
 </feed>

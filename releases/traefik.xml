@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2025-05-27T07:32:07.133199-04:00</updated>
+  <updated>2025-05-27T08:32:09.976154-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,7 +122,15 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v2.11.25&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Please read the &lt;a href="https://doc.traefik.io/traefik/v2.11/migration/v2/#v21125"&gt;migration guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes:&lt;/strong&gt;
+- &lt;strong&gt;[k8s/ingress]&lt;/strong&gt; Fix panic for ingress with backend resource (&lt;a href="https://github.com/traefik/traefik/pull/11777"&gt;#11777&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- &lt;strong&gt;[server]&lt;/strong&gt; Normalize request path (&lt;a href="https://github.com/traefik/traefik/pull/11768"&gt;#11768&lt;/a&gt; by &lt;a href="https://github.com/kevinpollet"&gt;kevinpollet&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[middleware,k8s]&lt;/strong&gt; Add multi-tenant TLS guidance to the docs (&lt;a href="https://github.com/traefik/traefik/pull/11724"&gt;#11724&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)
+- &lt;strong&gt;[service]&lt;/strong&gt; Add a note about how to disable connection reuse with backends (&lt;a href="https://github.com/traefik/traefik/pull/11716"&gt;#11716&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Fix broken link in documentation (&lt;a href="https://github.com/traefik/traefik/pull/11761"&gt;#11761&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)
+- Change version for path sanitization migration guide (&lt;a href="https://github.com/traefik/traefik/pull/11702"&gt;#11702&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v2.11.25" rel="alternate"/>
   </entry>
 </feed>
