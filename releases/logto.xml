@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-05-26T22:33:08.298501-04:00</updated>
+  <updated>2025-05-26T23:33:05.536852-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -534,14 +534,14 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
       <name>logto-io/logto</name>
     </author>
     <content>&lt;p&gt;&lt;img alt="logto-changelog-2025-05-26" src="https://github.com/user-attachments/assets/e24a1975-90a4-44b7-af57-54471c9c78bc" /&gt;&lt;/p&gt;
-&lt;h2&gt;Email Blocklist Policy&lt;/h2&gt;
+&lt;h2&gt;Email blocklist policy&lt;/h2&gt;
 &lt;p&gt;We have added a new email blocklist settings page to the Logto console under the Security section. This policy allows administrators to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Restrict users from signing up or linking accounts with specific email addresses&lt;/li&gt;
 &lt;li&gt;Manage domain-level email restrictions&lt;/li&gt;
 &lt;li&gt;Control email blocklist policies for all end users&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Phone Number Validation Enhancement&lt;/h2&gt;
+&lt;h2&gt;Phone number validation enhancement&lt;/h2&gt;
 &lt;p&gt;We've improved phone number handling across the platform to ensure more accurate and consistent phone number management:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added robust phone number validation and parsing&lt;/li&gt;
@@ -549,20 +549,20 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Validates phone number format during new user creation&lt;/li&gt;
 &lt;li&gt;Better handling of international phone number formats&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;QQ Social Connector&lt;/h2&gt;
+&lt;h2&gt;QQ social connector&lt;/h2&gt;
 &lt;p&gt;We're excited to introduce our new QQ social connector for web applications, enabling your users to sign in with their QQ accounts.&lt;/p&gt;
 &lt;h2&gt;Improvements&lt;/h2&gt;
-&lt;h3&gt;CAPTCHA Integration&lt;/h3&gt;
+&lt;h3&gt;CAPTCHA integration&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added CAPTCHA box to identifier sign in form&lt;/li&gt;
 &lt;li&gt;Always showing enable CAPTCHA toggle in console (even if no CAPTCHA provider is configured)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Translation Tool&lt;/h3&gt;
+&lt;h3&gt;Translation tool&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Now allows empty files during key syncing for better flexibility&lt;/li&gt;
 &lt;li&gt;Updated to use &lt;code&gt;gpt-4.1&lt;/code&gt; as the default model for improved performance&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;OIDC Connector&lt;/h3&gt;
+&lt;h3&gt;OIDC connector&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Made the &lt;code&gt;userinfo_endpoint&lt;/code&gt; field optional to support providers like Azure AD B2C&lt;/li&gt;
 &lt;li&gt;Enhanced user data extraction from ID tokens when userinfo endpoint is not available&lt;/li&gt;
