@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-05-27T04:33:17.230752-04:00</updated>
+  <updated>2025-05-27T05:33:16.508670-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -548,7 +548,7 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Users can sign in with either format (with or without leading zero)&lt;/li&gt;
 &lt;li&gt;Existing accounts can still use their original phone number format&lt;/li&gt;
 &lt;li&gt;Implemented stricter phone number format validation in database&lt;/li&gt;
-&lt;li&gt;Fixed phone number format inconsistencies (GitHub issue #7371)&lt;/li&gt;
+&lt;li&gt;Fixed phone number format inconsistencies (GitHub issue #7371, thanks for @mrfrase3)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;QQ social connector&lt;/h2&gt;
 &lt;p&gt;We've expanded our social sign-in options by introducing a new QQ social connector specifically designed for web applications, enabling seamless QQ account integration for your users.&lt;/p&gt;
@@ -570,7 +570,7 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added missing CAPTCHA box to identifier sign in form&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/logto-io/logto/compare/v1.26.0...v1.27&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/logto-io/logto/compare/v1.27.0...v1.28&lt;/p&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.28.0" rel="alternate"/>
   </entry>
 </feed>
