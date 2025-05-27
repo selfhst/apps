@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-05-27T17:35:07.077410-04:00</updated>
+  <updated>2025-05-27T18:35:17.369141-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,7 +235,8 @@
 &lt;/ul&gt;
 &lt;h2&gt;🩹 bugfixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;up2k: fix slow file-hashing on recent versions of google chrome e3e51fb8&lt;/li&gt;
+&lt;li&gt;up2k: improve file-hashing speed on recent versions of google chrome e3e51fb8&lt;/li&gt;
+&lt;li&gt;speed increased from 319 to 513 MiB/s by default (but older chrome versions did 748...)&lt;/li&gt;
 &lt;li&gt;read the commit message for the full story, but basically chrome has gotten gradually slower over the past couple versions (starting from v133) and this makes it slightly less bad again&lt;/li&gt;
 &lt;li&gt;hashing speed can be further improved from &lt;code&gt;0.5&lt;/code&gt; to &lt;code&gt;1.1&lt;/code&gt; GiB/s by enabling the &lt;code&gt;[wasm]&lt;/code&gt; option in the &lt;code&gt;[⚙️] settings&lt;/code&gt; tab&lt;ul&gt;
 &lt;li&gt;this option can be made default-enabled with &lt;code&gt;--nosubtle 137&lt;/code&gt; but beware that this increases the chances of running into browser-bugs (foreshadowing...)&lt;/li&gt;
