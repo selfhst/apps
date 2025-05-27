@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-05-27T03:33:27.905414-04:00</updated>
+  <updated>2025-05-27T04:33:17.230752-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -540,28 +540,23 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 - Customize email restrictions through a flexible blocklist system
 - Prevent sign-ups or account linking with specific email addresses or domains
 - Control email subaddressing (e.g., 'user+tag@example.com')&lt;/p&gt;
-&lt;h2&gt;Phone number validation and lookup enhancement&lt;/h2&gt;
-&lt;p&gt;We've implemented a sophisticated phone number validation and normalization system to address various international phone number formats and improve user authentication experience. This update focuses on handling country-specific phone number variations, particularly the leading zero issue that commonly appears in local formats.&lt;/p&gt;
-&lt;p&gt;This enhancement brings:
-- Intelligent phone number normalization:
-  - Properly handles local formats with leading zeros (e.g., +61 (0)2 1234 5678 will be normalized to +61 2 1234 5678)
-  - Ensures consistent storage format while accepting various input formats
-- Improved sign-in experience:
-  - Users can sign in with either format (with or without leading zero)
-  - System automatically matches with the stored number regardless of input format
-- Special handling for legacy users:
-  - For users who created accounts before this update, both formats will work for sign-in
-  - If a user has multiple accounts with different formats of the same number:
-    - Each account remains accessible using its original format
-    - System prioritizes exact matches during lookup to maintain account separation
-- Resolution of phone number format inconsistencies (addressing GitHub issue #7371)&lt;/p&gt;
+&lt;h2&gt;Phone number validation and normalization&lt;/h2&gt;
+&lt;p&gt;We've improved phone number handling to ensure consistent format validation and storage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added proper handling for phone numbers with leading zeros in national format&lt;/li&gt;
+&lt;li&gt;Normalizes numbers like +61 (0)2 1234 5678 to +61 2 1234 5678&lt;/li&gt;
+&lt;li&gt;Users can sign in with either format (with or without leading zero)&lt;/li&gt;
+&lt;li&gt;Existing accounts can still use their original phone number format&lt;/li&gt;
+&lt;li&gt;Implemented stricter phone number format validation in database&lt;/li&gt;
+&lt;li&gt;Fixed phone number format inconsistencies (GitHub issue #7371)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;QQ social connector&lt;/h2&gt;
 &lt;p&gt;We've expanded our social sign-in options by introducing a new QQ social connector specifically designed for web applications, enabling seamless QQ account integration for your users.&lt;/p&gt;
 &lt;h2&gt;OIDC connector&lt;/h2&gt;
 &lt;p&gt;We've updated our OIDC connector configuration to make the &lt;code&gt;userinfo_endpoint&lt;/code&gt; field optional. The system now intelligently handles user data extraction based on available endpoints, providing a more flexible authentication solution while maintaining OIDC specification compliance.&lt;/p&gt;
 &lt;p&gt;This update enables:
 - Seamless integration with Azure AD B2C SSO applications
-- Automatic fallback to id_token claims when userinfo endpoint is unavailable
+- Automatic fallback to &lt;code&gt;id_token&lt;/code&gt; claims when &lt;code&gt;userinfo_endpoint&lt;/code&gt; is unavailable
 - Full compatibility with standard OIDC providers
 - Removal of integration barriers for non-standard OIDC implementations&lt;/p&gt;
 &lt;h2&gt;Improvements&lt;/h2&gt;
