@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-05-27T16:35:18.046964-04:00</updated>
+  <updated>2025-05-27T17:35:07.077410-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -242,7 +242,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;up2k: fix errorhandler for browser-bugs (oom and such) 49c71247&lt;/li&gt;
-&lt;li&gt;because &lt;a href="https://issues.chromium.org/issues/383568268"&gt;chrome-bug 383568268&lt;/a&gt; is about to make a surprise return?!&lt;/li&gt;
+&lt;li&gt;because &lt;a href="https://issues.chromium.org/issues/383568268"&gt;chrome-bug 383568268&lt;/a&gt; is about to make a &lt;a href="https://issues.chromium.org/issues/383568268#comment14"&gt;surprise return?!&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;168 fix uploading into shares if path-based proxying is used 9cb93ae1&lt;/h1&gt;
 &lt;/li&gt;

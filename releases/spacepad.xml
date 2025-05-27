@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Spacepad Releases</title>
-  <updated>2025-05-27T16:36:30.217448-04:00</updated>
+  <updated>2025-05-27T17:36:17.953726-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,20 @@
     </author>
     <content>&lt;p&gt;The first release of Spacepad, the self hosted and cloud hosted meeting room display app.&lt;/p&gt;</content>
     <link href="https://github.com/magweter/spacepad/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/magweter/spacepad/releases/tag/v1.1.0</id>
+    <title>New release for Spacepad: v1.1.0</title>
+    <updated>2025-05-27T16:56:17-04:00</updated>
+    <author>
+      <name>magweter/spacepad</name>
+    </author>
+    <content>&lt;p&gt;Multiple new sources to connect calendars from (as strongly requested) and an upgraded onboarding experience 🤝
+- Added Google personal &amp;amp; workspace integration
+- Added CalDAV integration, tested with Nextcloud
+- Upgraded the onboarding experience
+- Added webhook support for registration and onboarding events
+- Added Sentry monitoring&lt;/p&gt;</content>
+    <link href="https://github.com/magweter/spacepad/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
