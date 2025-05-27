@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-05-27T02:33:11.589029-04:00</updated>
+  <updated>2025-05-27T03:33:27.905414-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -535,37 +535,45 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
     </author>
     <content>&lt;p&gt;&lt;img alt="logto-changelog-2025-05-26" src="https://github.com/user-attachments/assets/e24a1975-90a4-44b7-af57-54471c9c78bc" /&gt;&lt;/p&gt;
 &lt;h2&gt;Email blocklist policy&lt;/h2&gt;
-&lt;p&gt;We have added a new email blocklist settings page to the Logto console under the Security section. This policy allows administrators to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Restrict users from signing up or linking accounts with specific email addresses&lt;/li&gt;
-&lt;li&gt;Manage domain-level email restrictions&lt;/li&gt;
-&lt;li&gt;Control email blocklist policies for all end users&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Phone number validation enhancement&lt;/h2&gt;
-&lt;p&gt;We've improved phone number handling across the platform to ensure more accurate and consistent phone number management:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added robust phone number validation and parsing&lt;/li&gt;
-&lt;li&gt;Ensures correct format when updating existing user's primary phone number&lt;/li&gt;
-&lt;li&gt;Validates phone number format during new user creation&lt;/li&gt;
-&lt;li&gt;Better handling of international phone number formats&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;We've introduced a comprehensive email blocklist policy system with a dedicated settings page in the Logto console's Security section. This new feature provides granular control over which email addresses can be used for sign-up and account linking.&lt;/p&gt;
+&lt;p&gt;With this new policy, you can:
+- Customize email restrictions through a flexible blocklist system
+- Prevent sign-ups or account linking with specific email addresses or domains
+- Control email subaddressing (e.g., 'user+tag@example.com')&lt;/p&gt;
+&lt;h2&gt;Phone number validation and lookup enhancement&lt;/h2&gt;
+&lt;p&gt;We've implemented a sophisticated phone number validation and normalization system to address various international phone number formats and improve user authentication experience. This update focuses on handling country-specific phone number variations, particularly the leading zero issue that commonly appears in local formats.&lt;/p&gt;
+&lt;p&gt;This enhancement brings:
+- Intelligent phone number normalization:
+  - Properly handles local formats with leading zeros (e.g., +61 (0)2 1234 5678 will be normalized to +61 2 1234 5678)
+  - Ensures consistent storage format while accepting various input formats
+- Improved sign-in experience:
+  - Users can sign in with either format (with or without leading zero)
+  - System automatically matches with the stored number regardless of input format
+- Special handling for legacy users:
+  - For users who created accounts before this update, both formats will work for sign-in
+  - If a user has multiple accounts with different formats of the same number:
+    - Each account remains accessible using its original format
+    - System prioritizes exact matches during lookup to maintain account separation
+- Resolution of phone number format inconsistencies (addressing GitHub issue #7371)&lt;/p&gt;
 &lt;h2&gt;QQ social connector&lt;/h2&gt;
-&lt;p&gt;We're excited to introduce our new QQ social connector for web applications, enabling your users to sign in with their QQ accounts.&lt;/p&gt;
+&lt;p&gt;We've expanded our social sign-in options by introducing a new QQ social connector specifically designed for web applications, enabling seamless QQ account integration for your users.&lt;/p&gt;
+&lt;h2&gt;OIDC connector&lt;/h2&gt;
+&lt;p&gt;We've updated our OIDC connector configuration to make the &lt;code&gt;userinfo_endpoint&lt;/code&gt; field optional. The system now intelligently handles user data extraction based on available endpoints, providing a more flexible authentication solution while maintaining OIDC specification compliance.&lt;/p&gt;
+&lt;p&gt;This update enables:
+- Seamless integration with Azure AD B2C SSO applications
+- Automatic fallback to id_token claims when userinfo endpoint is unavailable
+- Full compatibility with standard OIDC providers
+- Removal of integration barriers for non-standard OIDC implementations&lt;/p&gt;
 &lt;h2&gt;Improvements&lt;/h2&gt;
-&lt;h3&gt;CAPTCHA integration&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Added CAPTCHA box to identifier sign in form&lt;/li&gt;
-&lt;li&gt;Always showing enable CAPTCHA toggle in console (even if no CAPTCHA provider is configured)&lt;/li&gt;
+&lt;li&gt;Enhanced translation key synchronization to handle empty files during sync process, eliminating manual intervention needs&lt;/li&gt;
+&lt;li&gt;Upgraded to &lt;code&gt;gpt-4.1&lt;/code&gt; as the default translation model for better cost-efficiency&lt;/li&gt;
+&lt;li&gt;Improved CAPTCHA configuration visibility in console with persistent toggle display&lt;/li&gt;
+&lt;li&gt;Updated CAPTCHA settings navigation to /security/captcha&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Translation tool&lt;/h3&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Now allows empty files during key syncing for better flexibility&lt;/li&gt;
-&lt;li&gt;Updated to use &lt;code&gt;gpt-4.1&lt;/code&gt; as the default model for improved performance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;OIDC connector&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Made the &lt;code&gt;userinfo_endpoint&lt;/code&gt; field optional to support providers like Azure AD B2C&lt;/li&gt;
-&lt;li&gt;Enhanced user data extraction from ID tokens when userinfo endpoint is not available&lt;/li&gt;
+&lt;li&gt;Added missing CAPTCHA box to identifier sign in form&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/logto-io/logto/compare/v1.26.0...v1.27&lt;/p&gt;</content>
     <link href="https://github.com/logto-io/logto/releases/tag/v1.28.0" rel="alternate"/>
