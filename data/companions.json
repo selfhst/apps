@@ -15,14 +15,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 6621.0,
+        "Stars": 6625.0,
         "Stars (Display)": "7k",
         "Latest Commit": "2025-05-18",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Dynamic Filter": "Nextcloud,WebDAV",
         "Platform": "Android,iOS,Browser",
-        "Age": 3278,
+        "Age": 3279,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -48,8 +48,34 @@
         "Tags": "Comics,Manga",
         "Dynamic Filter": "Kavita,Komga",
         "Platform": "Windows,Linux,macOS",
-        "Age": 3776,
+        "Age": 3777,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
+    },
+    {
+        "Id": 1044,
+        "Project": "Syncthing-Fork",
+        "Reference": "syncthing-fork",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://github.com/Catfriend1/syncthing-android",
+        "Repository Link": "https://github.com/Catfriend1/syncthing-android",
+        "Description": "Syncthing wrapper for Android",
+        "License": "MPL-2.0",
+        "Language": "Java",
+        "Icon Source": "Icons",
+        "Icon Override": "syncthing",
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 3715.0,
+        "Stars (Display)": "4k",
+        "Latest Commit": "2025-05-22",
+        "Latest Commit Color": "Green",
+        "Tags": "File Transfer and Sync",
+        "Dynamic Filter": "Syncthing",
+        "Platform": "Android",
+        "Age": 2806,
+        "CreatedAt": "2025-02-09 12:35:22+00:00"
     },
     {
         "Id": 714,
@@ -74,34 +100,8 @@
         "Tags": "Dashboard,Statistics",
         "Dynamic Filter": "Tautulli",
         "Platform": "Android,iOS",
-        "Age": 3490,
+        "Age": 3491,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
-    },
-    {
-        "Id": 1044,
-        "Project": "Syncthing-Fork",
-        "Reference": "syncthing-fork",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://github.com/Catfriend1/syncthing-android",
-        "Repository Link": "https://github.com/Catfriend1/syncthing-android",
-        "Description": "Syncthing wrapper for Android",
-        "License": "MPL-2.0",
-        "Language": "Java",
-        "Icon Source": "Icons",
-        "Icon Override": "syncthing",
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 3700.0,
-        "Stars (Display)": "4k",
-        "Latest Commit": "2025-05-22",
-        "Latest Commit Color": "Green",
-        "Tags": "File Transfer and Sync",
-        "Dynamic Filter": "Syncthing",
-        "Platform": "Android",
-        "Age": 2805,
-        "CreatedAt": "2025-02-09 12:35:22+00:00"
     },
     {
         "Id": 792,
@@ -119,14 +119,14 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 5841.0,
+        "Stars": 5843.0,
         "Stars (Display)": "6k",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Front End",
         "Dynamic Filter": "qBittorrent",
         "Platform": "Server",
-        "Age": 2233,
+        "Age": 2234,
         "CreatedAt": "2024-09-13 23:20:25+00:00"
     },
     {
@@ -145,14 +145,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 7036.0,
+        "Stars": 7039.0,
         "Stars (Display)": "7k",
         "Latest Commit": "2025-05-23",
         "Latest Commit Color": "Green",
         "Tags": "Docker",
         "Dynamic Filter": "Docker",
         "Platform": "Windows,macOS,Linux",
-        "Age": 1845,
+        "Age": 1846,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -178,7 +178,7 @@
         "Tags": "Theme",
         "Dynamic Filter": "",
         "Platform": "Web,Server",
-        "Age": 2478,
+        "Age": 2479,
         "CreatedAt": "2024-09-13 23:31:11+00:00"
     },
     {
@@ -197,14 +197,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 11028.0,
+        "Stars": 11044.0,
         "Stars (Display)": "11k",
         "Latest Commit": "2025-05-19",
         "Latest Commit Color": "Green",
         "Tags": "Android",
         "Dynamic Filter": "",
         "Platform": "Android",
-        "Age": 1019,
+        "Age": 1020,
         "CreatedAt": "2024-09-12 13:19:42+00:00"
     },
     {
@@ -223,14 +223,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 15743.0,
+        "Stars": 15795.0,
         "Stars (Display)": "16k",
-        "Latest Commit": "2025-05-26",
+        "Latest Commit": "2025-05-27",
         "Latest Commit Color": "Green",
         "Tags": "Automation",
         "Dynamic Filter": "Proxmox",
         "Platform": "Server",
-        "Age": 206,
+        "Age": 207,
         "CreatedAt": "2025-02-03 11:09:33+00:00"
     },
     {
@@ -249,14 +249,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 13695.0,
+        "Stars": 13714.0,
         "Stars (Display)": "14k",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Comics,Manga",
         "Dynamic Filter": "Kavita,Komga",
         "Platform": "Android",
-        "Age": 497,
+        "Age": 498,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -282,7 +282,7 @@
         "Tags": "Music Streaming",
         "Dynamic Filter": "",
         "Platform": "Android",
-        "Age": 2549,
+        "Age": 2550,
         "CreatedAt": "2024-11-04 10:17:20+00:00"
     },
     {
@@ -301,14 +301,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 812.0,
-        "Stars (Display)": "812",
+        "Stars": 815.0,
+        "Stars (Display)": "815",
         "Latest Commit": "2025-05-21",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Navidrome,Subsonic",
         "Platform": "iOS",
-        "Age": 2270,
+        "Age": 2271,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -327,14 +327,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 6108.0,
+        "Stars": 6112.0,
         "Stars (Display)": "6k",
         "Latest Commit": "2025-05-16",
         "Latest Commit Color": "Green",
         "Tags": "Server Management",
         "Dynamic Filter": "",
         "Platform": "iOS,macOS,Android,Windows,Linux",
-        "Age": 1351,
+        "Age": 1352,
         "CreatedAt": "2024-10-21 09:45:49+00:00"
     },
     {
@@ -355,12 +355,12 @@
         "Source": "Codeberg",
         "Stars": 205.0,
         "Stars (Display)": "205",
-        "Latest Commit": "2025-05-24",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Messaging",
         "Dynamic Filter": "XMPP",
         "Platform": "Android",
-        "Age": 889,
+        "Age": 890,
         "CreatedAt": "2024-11-05 10:20:24+00:00"
     },
     {
@@ -386,7 +386,7 @@
         "Tags": "Dashboard,Statistics",
         "Dynamic Filter": "Tautulli",
         "Platform": "Server",
-        "Age": 2168,
+        "Age": 2169,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -405,14 +405,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 2694.0,
+        "Stars": 2699.0,
         "Stars (Display)": "3k",
         "Latest Commit": "2025-04-24",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
-        "Age": 1729,
+        "Age": 1730,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -438,7 +438,7 @@
         "Tags": "CalDAV/CarDAV",
         "Dynamic Filter": "sabre/dav",
         "Platform": "Server",
-        "Age": 2036,
+        "Age": 2037,
         "CreatedAt": "2025-01-29 15:32:14+00:00"
     },
     {
@@ -457,14 +457,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 5944.0,
+        "Stars": 5950.0,
         "Stars (Display)": "6k",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "RSS",
         "Dynamic Filter": "RSS",
         "Platform": "Android",
-        "Age": 1182,
+        "Age": 1183,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -490,7 +490,7 @@
         "Tags": "Subtitles",
         "Dynamic Filter": "Plex",
         "Platform": "Server",
-        "Age": 2006,
+        "Age": 2007,
         "CreatedAt": "2025-03-07 11:09:11+00:00"
     },
     {
@@ -516,7 +516,7 @@
         "Tags": "Docker,Server Management",
         "Dynamic Filter": "Docker,Portainer",
         "Platform": "iOS",
-        "Age": 1876,
+        "Age": 1877,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -535,14 +535,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 937.0,
-        "Stars (Display)": "937",
+        "Stars": 938.0,
+        "Stars (Display)": "938",
         "Latest Commit": "2025-05-24",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
-        "Age": 1798,
+        "Age": 1799,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -561,14 +561,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 3130.0,
+        "Stars": 3131.0,
         "Stars (Display)": "3k",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android",
-        "Age": 1458,
+        "Age": 1459,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -587,14 +587,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 2998.0,
+        "Stars": 3001.0,
         "Stars (Display)": "3k",
-        "Latest Commit": "2025-05-25",
+        "Latest Commit": "2025-05-27",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "iOS",
-        "Age": 1473,
+        "Age": 1474,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -613,14 +613,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 641.0,
-        "Stars (Display)": "641",
+        "Stars": 642.0,
+        "Stars (Display)": "642",
         "Latest Commit": "2025-05-13",
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
         "Dynamic Filter": "qBittorrent",
         "Platform": "iOS",
-        "Age": 1755,
+        "Age": 1756,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -639,14 +639,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1611.0,
+        "Stars": 1613.0,
         "Stars (Display)": "2k",
-        "Latest Commit": "2025-05-25",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "Emby,Jellyfin,Plex",
         "Platform": "Server,Windows,macOS,Linux",
-        "Age": 1567,
+        "Age": 1568,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -665,14 +665,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1038.0,
+        "Stars": 1039.0,
         "Stars (Display)": "1k",
         "Latest Commit": "2025-05-10",
         "Latest Commit Color": "Green",
         "Tags": "Automation,Downloads",
         "Dynamic Filter": "qBittorrent",
         "Platform": "Server",
-        "Age": 1556,
+        "Age": 1557,
         "CreatedAt": "2025-01-27 22:33:26+00:00"
     },
     {
@@ -691,14 +691,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 2960.0,
+        "Stars": 2961.0,
         "Stars (Display)": "3k",
         "Latest Commit": "2025-03-23",
         "Latest Commit Color": "Green",
         "Tags": "Front End,Videos",
         "Dynamic Filter": "Invidious",
         "Platform": "iOS,macOS",
-        "Age": 1294,
+        "Age": 1295,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -717,14 +717,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 3879.0,
+        "Stars": 3884.0,
         "Stars (Display)": "4k",
-        "Latest Commit": "2025-05-20",
+        "Latest Commit": "2025-05-27",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Jellyfin,Navidrome",
         "Platform": "Windows,macOS,Linux",
-        "Age": 1036,
+        "Age": 1037,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -743,14 +743,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1884.0,
+        "Stars": 1887.0,
         "Stars (Display)": "2k",
-        "Latest Commit": "2025-05-22",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "CalDAV/CarDAV",
         "Dynamic Filter": "CalDAV,CardDAV,WebDAV",
         "Platform": "Android",
-        "Age": 1296,
+        "Age": 1297,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -769,14 +769,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 215.0,
-        "Stars (Display)": "215",
+        "Stars": 216.0,
+        "Stars (Display)": "216",
         "Latest Commit": "2025-03-06",
         "Latest Commit Color": "Green",
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkding",
         "Platform": "Browser",
-        "Age": 1598,
+        "Age": 1599,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -795,14 +795,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1565.0,
+        "Stars": 1567.0,
         "Stars (Display)": "2k",
         "Latest Commit": "2025-01-31",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Navidrome,Subsonic",
         "Platform": "Android",
-        "Age": 1401,
+        "Age": 1402,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -828,7 +828,7 @@
         "Tags": "Firewall",
         "Dynamic Filter": "OPNsense",
         "Platform": "iOS,Android",
-        "Age": 1499,
+        "Age": 1500,
         "CreatedAt": "2025-04-03 11:42:42+00:00"
     },
     {
@@ -849,12 +849,12 @@
         "Source": "GitHub",
         "Stars": 684.0,
         "Stars (Display)": "684",
-        "Latest Commit": "2025-05-25",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Downloads",
         "Dynamic Filter": "qBittorrent",
         "Platform": "Android",
-        "Age": 1366,
+        "Age": 1367,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -880,7 +880,7 @@
         "Tags": "Music Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android",
-        "Age": 1845,
+        "Age": 1846,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -906,7 +906,7 @@
         "Tags": "Media Streaming",
         "Dynamic Filter": "Emby,Jellyfin,Plex",
         "Platform": "Server",
-        "Age": 1201,
+        "Age": 1202,
         "CreatedAt": "2024-12-04 13:23:03+00:00"
     },
     {
@@ -925,14 +925,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 661.0,
-        "Stars (Display)": "661",
+        "Stars": 662.0,
+        "Stars (Display)": "662",
         "Latest Commit": "2025-05-19",
         "Latest Commit Color": "Green",
         "Tags": "Budgeting",
         "Dynamic Filter": "Firefly III",
         "Platform": "Android,iOS",
-        "Age": 1181,
+        "Age": 1182,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -958,7 +958,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkding",
         "Platform": "Browser",
-        "Age": 1232,
+        "Age": 1233,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -984,7 +984,7 @@
         "Tags": "Meal Planning,Recipes",
         "Dynamic Filter": "Mealie",
         "Platform": "Android",
-        "Age": 1280,
+        "Age": 1281,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1010,7 +1010,7 @@
         "Tags": "Photos",
         "Dynamic Filter": "LibrePhotos",
         "Platform": "Android",
-        "Age": 1126,
+        "Age": 1127,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1029,14 +1029,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1362.0,
+        "Stars": 1363.0,
         "Stars (Display)": "1k",
-        "Latest Commit": "2025-05-18",
+        "Latest Commit": "2025-05-27",
         "Latest Commit Color": "Green",
         "Tags": "Music Streaming",
         "Dynamic Filter": "Jellyfin,Navidrome,Subsonic",
         "Platform": "Windows,macOS,Linux",
-        "Age": 890,
+        "Age": 891,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1062,7 +1062,7 @@
         "Tags": "Ad Block",
         "Dynamic Filter": "Pi-hole",
         "Platform": "Android",
-        "Age": 1087,
+        "Age": 1088,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1088,7 +1088,7 @@
         "Tags": "Docker,Server Management",
         "Dynamic Filter": "Docker,Portainer",
         "Platform": "Android",
-        "Age": 1613,
+        "Age": 1614,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1114,7 +1114,7 @@
         "Tags": "Note-Taking",
         "Dynamic Filter": "Memos",
         "Platform": "Android,iOS",
-        "Age": 957,
+        "Age": 958,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1133,14 +1133,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 382.0,
-        "Stars (Display)": "382",
+        "Stars": 381.0,
+        "Stars (Display)": "381",
         "Latest Commit": "2025-03-23",
         "Latest Commit Color": "Green",
         "Tags": "Ad Block",
         "Dynamic Filter": "AdGuard Home",
         "Platform": "Android",
-        "Age": 973,
+        "Age": 974,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1166,7 +1166,7 @@
         "Tags": "Recipes",
         "Dynamic Filter": "Tandoor Recipes",
         "Platform": "Android,iOS",
-        "Age": 1121,
+        "Age": 1122,
         "CreatedAt": "2024-09-19 09:19:45+00:00"
     },
     {
@@ -1192,7 +1192,7 @@
         "Tags": "Front End,Videos",
         "Dynamic Filter": "Invidious",
         "Platform": "Android",
-        "Age": 842,
+        "Age": 843,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1211,14 +1211,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1039.0,
+        "Stars": 1040.0,
         "Stars (Display)": "1k",
         "Latest Commit": "2025-05-19",
         "Latest Commit Color": "Green",
         "Tags": "*arr",
         "Dynamic Filter": "*arr",
         "Platform": "Server",
-        "Age": 800,
+        "Age": 801,
         "CreatedAt": "2025-02-09 12:32:25+00:00"
     },
     {
@@ -1244,7 +1244,7 @@
         "Tags": "Audiobooks",
         "Dynamic Filter": "AudioBookshelf",
         "Platform": "iOS",
-        "Age": 923,
+        "Age": 924,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1270,7 +1270,7 @@
         "Tags": "Document Management",
         "Dynamic Filter": "Paperless-ngx",
         "Platform": "Android",
-        "Age": 943,
+        "Age": 944,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1289,14 +1289,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 562.0,
-        "Stars (Display)": "562",
+        "Stars": 563.0,
+        "Stars (Display)": "563",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Document Management",
         "Dynamic Filter": "Paperless-ngx",
         "Platform": "iOS",
-        "Age": 831,
+        "Age": 832,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1322,7 +1322,7 @@
         "Tags": "Budgeting",
         "Dynamic Filter": "Firefly III",
         "Platform": "Android",
-        "Age": 813,
+        "Age": 814,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1341,14 +1341,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 633.0,
-        "Stars (Display)": "633",
+        "Stars": 634.0,
+        "Stars (Display)": "634",
         "Latest Commit": "2024-08-09",
         "Latest Commit Color": "Yellow",
         "Tags": "Books,Comics,Manga",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
-        "Age": 941,
+        "Age": 942,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1367,14 +1367,14 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 217.0,
-        "Stars (Display)": "217",
+        "Stars": 218.0,
+        "Stars (Display)": "218",
         "Latest Commit": "2025-05-20",
         "Latest Commit Color": "Green",
         "Tags": "Notifications",
         "Dynamic Filter": "Frigate",
         "Platform": "Server,Linux",
-        "Age": 801,
+        "Age": 802,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1400,7 +1400,7 @@
         "Tags": "*arr,Downloads,Media Streaming",
         "Dynamic Filter": "*arr,Emby,Jellyfin,Plex,qBittorrent",
         "Platform": "Server",
-        "Age": 871,
+        "Age": 872,
         "CreatedAt": "2025-01-06 12:40:04+00:00"
     },
     {
@@ -1426,7 +1426,7 @@
         "Tags": "Bookmarks,Read Later",
         "Dynamic Filter": "Linkding",
         "Platform": "iOS",
-        "Age": 872,
+        "Age": 873,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1445,14 +1445,14 @@
         "Icon Modifier": "Square",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 3001.0,
+        "Stars": 3007.0,
         "Stars (Display)": "3k",
         "Latest Commit": "2025-05-19",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,iOS",
-        "Age": 299,
+        "Age": 300,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1478,7 +1478,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Wallabag",
         "Platform": "Android,iOS,Windows,Linux,Web",
-        "Age": 678,
+        "Age": 679,
         "CreatedAt": "2025-02-19 11:00:11+00:00"
     },
     {
@@ -1497,14 +1497,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 3379.0,
+        "Stars": 3389.0,
         "Stars (Display)": "3k",
         "Latest Commit": "2025-05-22",
         "Latest Commit Color": "Green",
         "Tags": "Artificial Intelligence,Document Management",
         "Dynamic Filter": "Paperless-ngx",
         "Platform": "Server",
-        "Age": 176,
+        "Age": 177,
         "CreatedAt": "2025-01-08 10:48:45+00:00"
     },
     {
@@ -1530,7 +1530,7 @@
         "Tags": "Server Management",
         "Dynamic Filter": "*arr,Jellyfin,Proxmox",
         "Platform": "iOS",
-        "Age": 702,
+        "Age": 703,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1549,14 +1549,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 326.0,
-        "Stars (Display)": "326",
+        "Stars": 327.0,
+        "Stars (Display)": "327",
         "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Backups,Docker",
         "Dynamic Filter": "Docker",
         "Platform": "Server",
-        "Age": 596,
+        "Age": 597,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1575,14 +1575,14 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 956.0,
-        "Stars (Display)": "956",
+        "Stars": 961.0,
+        "Stars (Display)": "961",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Dynamic Filter": "Immich",
         "Platform": "Android,Linux,macOS,Windows",
-        "Age": 498,
+        "Age": 499,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1608,7 +1608,7 @@
         "Tags": "Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "iOS,macOS,Android",
-        "Age": 671,
+        "Age": 672,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1627,15 +1627,41 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 454.0,
-        "Stars (Display)": "454",
-        "Latest Commit": "2025-05-25",
+        "Stars": 456.0,
+        "Stars (Display)": "456",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Dynamic Filter": "Immich",
         "Platform": "Android",
-        "Age": 486,
+        "Age": 487,
         "CreatedAt": "2024-12-29 21:01:19+00:00"
+    },
+    {
+        "Id": 694,
+        "Project": "Plex Prerolls",
+        "Reference": "plex-prerolls",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://github.com/nwithan8/plex-prerolls",
+        "Repository Link": "https://github.com/nwithan8/plex-prerolls",
+        "Description": "Script for automating and managing Plex pre-rolls",
+        "License": "GPL-3.0",
+        "Language": "Python",
+        "Icon Source": "Apps",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 65.0,
+        "Stars (Display)": "65",
+        "Latest Commit": "2025-05-27",
+        "Latest Commit Color": "Green",
+        "Tags": "Media Streaming",
+        "Dynamic Filter": "Plex",
+        "Platform": "Server",
+        "Age": 537,
+        "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
         "Id": 700,
@@ -1653,14 +1679,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 285.0,
-        "Stars (Display)": "285",
-        "Latest Commit": "2025-05-22",
+        "Stars": 287.0,
+        "Stars (Display)": "287",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "*arr",
         "Platform": "iOS",
-        "Age": 500,
+        "Age": 501,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1686,7 +1712,7 @@
         "Tags": "Music,Music Streaming",
         "Dynamic Filter": "Jellyfin,Subsonic",
         "Platform": "Server",
-        "Age": 563,
+        "Age": 564,
         "CreatedAt": "2024-10-21 09:47:48+00:00"
     },
     {
@@ -1705,40 +1731,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 193.0,
-        "Stars (Display)": "193",
+        "Stars": 194.0,
+        "Stars (Display)": "194",
         "Latest Commit": "2025-05-02",
         "Latest Commit Color": "Green",
         "Tags": "Docker",
         "Dynamic Filter": "Docker,Telegram",
         "Platform": "Server",
-        "Age": 510,
-        "CreatedAt": "2024-09-12 14:52:42+00:00"
-    },
-    {
-        "Id": 694,
-        "Project": "Plex Prerolls",
-        "Reference": "plex-prerolls",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://github.com/nwithan8/plex-prerolls",
-        "Repository Link": "https://github.com/nwithan8/plex-prerolls",
-        "Description": "Script for automating and managing Plex pre-rolls",
-        "License": "GPL-3.0",
-        "Language": "Python",
-        "Icon Source": "Apps",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 65.0,
-        "Stars (Display)": "65",
-        "Latest Commit": "2025-04-14",
-        "Latest Commit Color": "Green",
-        "Tags": "Media Streaming",
-        "Dynamic Filter": "Plex",
-        "Platform": "Server",
-        "Age": 536,
+        "Age": 511,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1764,7 +1764,7 @@
         "Tags": "RSS",
         "Dynamic Filter": "Miniflux",
         "Platform": "Browser",
-        "Age": 449,
+        "Age": 450,
         "CreatedAt": "2025-05-13 11:10:22+00:00"
     },
     {
@@ -1790,7 +1790,7 @@
         "Tags": "Budgeting",
         "Dynamic Filter": "Firefly III",
         "Platform": "Linux,Server",
-        "Age": 413,
+        "Age": 414,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1816,7 +1816,7 @@
         "Tags": "URL Shortener",
         "Dynamic Filter": "Shlink",
         "Platform": "Android",
-        "Age": 700,
+        "Age": 701,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1835,14 +1835,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 841.0,
-        "Stars (Display)": "841",
+        "Stars": 844.0,
+        "Stars (Display)": "844",
         "Latest Commit": "2025-05-23",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Dynamic Filter": "Immich",
         "Platform": "Server",
-        "Age": 325,
+        "Age": 326,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1868,7 +1868,7 @@
         "Tags": "Comics",
         "Dynamic Filter": "Komga",
         "Platform": "Android",
-        "Age": 432,
+        "Age": 433,
         "CreatedAt": "2025-03-12 10:17:48+00:00"
     },
     {
@@ -1887,14 +1887,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1008.0,
+        "Stars": 1011.0,
         "Stars (Display)": "1k",
         "Latest Commit": "2025-02-11",
         "Latest Commit Color": "Green",
         "Tags": "Music,Music Streaming",
         "Dynamic Filter": "Jellyfin,Navidrome,Subsonic",
         "Platform": "Windows,macOS,Linux",
-        "Age": 361,
+        "Age": 362,
         "CreatedAt": "2024-11-19 10:28:07+00:00"
     },
     {
@@ -1920,7 +1920,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkding",
         "Platform": "Android,Windows,macOS,Linux",
-        "Age": 460,
+        "Age": 461,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1939,14 +1939,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 1049.0,
+        "Stars": 1052.0,
         "Stars (Display)": "1k",
         "Latest Commit": "2025-05-23",
         "Latest Commit Color": "Green",
         "Tags": "Photos",
         "Dynamic Filter": "Immich",
         "Platform": "Server,Linux",
-        "Age": 282,
+        "Age": 283,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1972,7 +1972,7 @@
         "Tags": "Dashboard",
         "Dynamic Filter": "Homarr",
         "Platform": "Linux,Server",
-        "Age": 413,
+        "Age": 414,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -1991,14 +1991,14 @@
         "Icon Modifier": "Light",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 953.0,
-        "Stars (Display)": "953",
-        "Latest Commit": "2025-05-22",
+        "Stars": 954.0,
+        "Stars (Display)": "954",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Artificial Intelligence,Document Management",
         "Dynamic Filter": "Paperless-ngx",
         "Platform": "Server",
-        "Age": 245,
+        "Age": 246,
         "CreatedAt": "2025-01-14 10:24:21+00:00"
     },
     {
@@ -2017,14 +2017,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 249.0,
-        "Stars (Display)": "249",
+        "Stars": 250.0,
+        "Stars (Display)": "250",
         "Latest Commit": "2025-04-22",
         "Latest Commit Color": "Green",
         "Tags": "Artificial Intelligence,Budgeting",
         "Dynamic Filter": "Actual Budget",
         "Platform": "Server",
-        "Age": 351,
+        "Age": 352,
         "CreatedAt": "2025-01-22 11:17:47+00:00"
     },
     {
@@ -2050,7 +2050,7 @@
         "Tags": "Front End,Media Streaming",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Android,Windows,macOS,Browser",
-        "Age": 254,
+        "Age": 255,
         "CreatedAt": "2024-10-14 10:10:32+00:00"
     },
     {
@@ -2069,14 +2069,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 333.0,
-        "Stars (Display)": "333",
+        "Stars": 334.0,
+        "Stars (Display)": "334",
         "Latest Commit": "2025-05-23",
         "Latest Commit Color": "Green",
         "Tags": "Meal Planning,Recipes",
         "Dynamic Filter": "Tandoor Recipes",
         "Platform": "Android",
-        "Age": 284,
+        "Age": 285,
         "CreatedAt": "2024-12-10 17:28:25+00:00"
     },
     {
@@ -2102,7 +2102,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Grimoire",
         "Platform": "Browser",
-        "Age": 477,
+        "Age": 478,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -2121,41 +2121,15 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 735.0,
-        "Stars (Display)": "735",
+        "Stars": 737.0,
+        "Stars (Display)": "737",
         "Latest Commit": "2025-05-25",
         "Latest Commit Color": "Green",
         "Tags": "Photos,Reverse Proxy",
         "Dynamic Filter": "Immich",
         "Platform": null,
-        "Age": 209,
+        "Age": 210,
         "CreatedAt": "2024-10-30 09:15:16+00:00"
-    },
-    {
-        "Id": 949,
-        "Project": "Buchable",
-        "Reference": "buchable",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://vito0912.github.io/abs_flutter/",
-        "Repository Link": "https://github.com/Vito0912/abs_flutter",
-        "Description": "Cross-platform app for AudioBookshelf",
-        "License": "Custom",
-        "Language": "Dart",
-        "Icon Source": "Apps",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 141.0,
-        "Stars (Display)": "141",
-        "Latest Commit": "2025-05-23",
-        "Latest Commit Color": "Green",
-        "Tags": "Audiobooks",
-        "Dynamic Filter": "AudioBookshelf",
-        "Platform": "Android,iOS,macOS,Windows,Linux,Web",
-        "Age": 295,
-        "CreatedAt": "2024-12-23 10:59:11+00:00"
     },
     {
         "Id": 810,
@@ -2175,13 +2149,39 @@
         "Source": "GitHub",
         "Stars": 32.0,
         "Stars (Display)": "32",
-        "Latest Commit": "2025-05-26",
+        "Latest Commit": "2025-05-27",
         "Latest Commit Color": "Green",
         "Tags": "Media Streaming",
         "Dynamic Filter": "Plex",
         "Platform": "Server",
-        "Age": 309,
+        "Age": 310,
         "CreatedAt": "2024-09-19 13:30:20+00:00"
+    },
+    {
+        "Id": 949,
+        "Project": "Buchable",
+        "Reference": "buchable",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://vito0912.github.io/abs_flutter/",
+        "Repository Link": "https://github.com/Vito0912/abs_flutter",
+        "Description": "Cross-platform app for AudioBookshelf",
+        "License": "Custom",
+        "Language": "Dart",
+        "Icon Source": "Apps",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 142.0,
+        "Stars (Display)": "142",
+        "Latest Commit": "2025-05-23",
+        "Latest Commit Color": "Green",
+        "Tags": "Audiobooks",
+        "Dynamic Filter": "AudioBookshelf",
+        "Platform": "Android,iOS,macOS,Windows,Linux,Web",
+        "Age": 296,
+        "CreatedAt": "2024-12-23 10:59:11+00:00"
     },
     {
         "Id": 1100,
@@ -2206,7 +2206,7 @@
         "Tags": "Scrobble,Tracking",
         "Dynamic Filter": "Plex",
         "Platform": "Server",
-        "Age": 351,
+        "Age": 352,
         "CreatedAt": "2025-03-09 13:50:34+00:00"
     },
     {
@@ -2225,14 +2225,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 327.0,
-        "Stars (Display)": "327",
+        "Stars": 328.0,
+        "Stars (Display)": "328",
         "Latest Commit": "2025-05-22",
         "Latest Commit Color": "Green",
         "Tags": "Music,Music Streaming",
         "Dynamic Filter": "AudioBookshelf",
         "Platform": null,
-        "Age": 250,
+        "Age": 251,
         "CreatedAt": "2024-11-20 10:20:04+00:00"
     },
     {
@@ -2258,7 +2258,7 @@
         "Tags": "Monitoring",
         "Dynamic Filter": "Uptime Kuma",
         "Platform": "iOS",
-        "Age": 362,
+        "Age": 363,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -2284,7 +2284,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkwarden",
         "Platform": "Android",
-        "Age": 262,
+        "Age": 263,
         "CreatedAt": "2024-10-03 10:16:20+00:00"
     },
     {
@@ -2310,7 +2310,7 @@
         "Tags": "Plugin,RSS",
         "Dynamic Filter": "Tiny Tiny RSS",
         "Platform": "Server",
-        "Age": 267,
+        "Age": 268,
         "CreatedAt": "2024-09-14 10:37:01+00:00"
     },
     {
@@ -2329,14 +2329,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 38.0,
-        "Stars (Display)": "38",
+        "Stars": 39.0,
+        "Stars (Display)": "39",
         "Latest Commit": "2024-06-23",
         "Latest Commit Color": "Yellow",
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkding",
         "Platform": "Android",
-        "Age": 469,
+        "Age": 470,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -2355,14 +2355,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 159.0,
-        "Stars (Display)": "159",
+        "Stars": 162.0,
+        "Stars (Display)": "162",
         "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Downloads,Media Streaming,Requests",
         "Dynamic Filter": "*arr,Jellyseerr,Overseerr",
         "Platform": "Server",
-        "Age": 212,
+        "Age": 213,
         "CreatedAt": "2025-01-05 16:55:20+00:00"
     },
     {
@@ -2388,7 +2388,7 @@
         "Tags": "Backups,Password Manager",
         "Dynamic Filter": "Bitwarden,Vaultwarden",
         "Platform": "Server",
-        "Age": 248,
+        "Age": 249,
         "CreatedAt": "2024-11-12 10:31:46+00:00"
     },
     {
@@ -2414,7 +2414,7 @@
         "Tags": "Music Streaming,Notifications",
         "Dynamic Filter": "Jellyfin",
         "Platform": "Server",
-        "Age": 195,
+        "Age": 196,
         "CreatedAt": "2024-11-18 10:49:40+00:00"
     },
     {
@@ -2440,7 +2440,7 @@
         "Tags": "*arr,Requests",
         "Dynamic Filter": "Overseerr",
         "Platform": "Server",
-        "Age": 190,
+        "Age": 191,
         "CreatedAt": "2024-11-18 10:37:00+00:00"
     },
     {
@@ -2466,7 +2466,7 @@
         "Tags": "Backups,Password Manager",
         "Dynamic Filter": "Bitwarden,Vaultwarden",
         "Platform": "Server",
-        "Age": 183,
+        "Age": 184,
         "CreatedAt": "2025-03-09 14:14:51+00:00"
     },
     {
@@ -2492,7 +2492,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkwarden",
         "Platform": "Server",
-        "Age": 257,
+        "Age": 258,
         "CreatedAt": "2024-09-17 09:42:48+00:00"
     },
     {
@@ -2511,14 +2511,14 @@
         "Icon Modifier": null,
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 64.0,
-        "Stars (Display)": "64",
+        "Stars": 63.0,
+        "Stars (Display)": "63",
         "Latest Commit": "2024-11-10",
         "Latest Commit Color": "Yellow",
         "Tags": "Docker,Server Management",
         "Dynamic Filter": "Portainer",
         "Platform": "Android",
-        "Age": 313,
+        "Age": 314,
         "CreatedAt": "2024-09-12 14:52:42+00:00"
     },
     {
@@ -2544,34 +2544,8 @@
         "Tags": "RSS,Theme,Videos",
         "Dynamic Filter": "FreshRSS",
         "Platform": "Server",
-        "Age": 210,
+        "Age": 211,
         "CreatedAt": "2025-02-24 13:40:49+00:00"
-    },
-    {
-        "Id": 915,
-        "Project": "Jellyplist",
-        "Reference": "jellyplist",
-        "Sponsor": null,
-        "Sponsor URL": null,
-        "Website": "https://github.com/kamilkosek/jellyplist",
-        "Repository Link": "https://github.com/kamilkosek/jellyplist",
-        "Description": "Sync Spotify playlists to Jellyfin",
-        "License": "GPL-3.0",
-        "Language": "Python",
-        "Icon Source": "Icons",
-        "Icon Override": null,
-        "Icon Modifier": null,
-        "selfh.st/icons": null,
-        "Source": "GitHub",
-        "Stars": 312.0,
-        "Stars (Display)": "312",
-        "Latest Commit": "2025-02-11",
-        "Latest Commit Color": "Green",
-        "Tags": "Music,Music Streaming",
-        "Dynamic Filter": "Jellyfin",
-        "Platform": "Server",
-        "Age": 185,
-        "CreatedAt": "2024-12-01 12:21:33+00:00"
     },
     {
         "Id": 1039,
@@ -2591,13 +2565,39 @@
         "Source": "GitHub",
         "Stars": 90.0,
         "Stars (Display)": "90",
-        "Latest Commit": "2025-05-21",
+        "Latest Commit": "2025-05-26",
         "Latest Commit Color": "Green",
         "Tags": "Comics",
         "Dynamic Filter": "Komga",
         "Platform": "Server",
-        "Age": 146,
+        "Age": 147,
         "CreatedAt": "2025-02-09 11:50:40+00:00"
+    },
+    {
+        "Id": 915,
+        "Project": "Jellyplist",
+        "Reference": "jellyplist",
+        "Sponsor": null,
+        "Sponsor URL": null,
+        "Website": "https://github.com/kamilkosek/jellyplist",
+        "Repository Link": "https://github.com/kamilkosek/jellyplist",
+        "Description": "Sync Spotify playlists to Jellyfin",
+        "License": "GPL-3.0",
+        "Language": "Python",
+        "Icon Source": "Icons",
+        "Icon Override": null,
+        "Icon Modifier": null,
+        "selfh.st/icons": null,
+        "Source": "GitHub",
+        "Stars": 313.0,
+        "Stars (Display)": "313",
+        "Latest Commit": "2025-02-11",
+        "Latest Commit Color": "Green",
+        "Tags": "Music,Music Streaming",
+        "Dynamic Filter": "Jellyfin",
+        "Platform": "Server",
+        "Age": 186,
+        "CreatedAt": "2024-12-01 12:21:33+00:00"
     },
     {
         "Id": 1088,
@@ -2622,7 +2622,7 @@
         "Tags": "Audiobooks",
         "Dynamic Filter": "AudioBookshelf",
         "Platform": "Linux",
-        "Age": 128,
+        "Age": 129,
         "CreatedAt": "2025-03-03 10:57:14+00:00"
     },
     {
@@ -2648,7 +2648,7 @@
         "Tags": "Recipes",
         "Dynamic Filter": "Mealie",
         "Platform": null,
-        "Age": 200,
+        "Age": 201,
         "CreatedAt": "2024-11-10 11:33:45+00:00"
     },
     {
@@ -2674,7 +2674,7 @@
         "Tags": "Recipes",
         "Dynamic Filter": "Mealie",
         "Platform": "Server",
-        "Age": 110,
+        "Age": 111,
         "CreatedAt": "2025-02-19 11:07:48+00:00"
     },
     {
@@ -2700,7 +2700,7 @@
         "Tags": "Reverse Proxy",
         "Dynamic Filter": "Nginx Proxy Manager",
         "Platform": "iOS,Android",
-        "Age": 141,
+        "Age": 142,
         "CreatedAt": "2025-03-02 12:50:42+00:00"
     },
     {
@@ -2726,7 +2726,7 @@
         "Tags": "Statistics",
         "Dynamic Filter": "Actual Budget",
         "Platform": "Server",
-        "Age": 113,
+        "Age": 114,
         "CreatedAt": "2025-02-05 10:35:30+00:00"
     },
     {
@@ -2745,14 +2745,14 @@
         "Icon Modifier": "Square",
         "selfh.st/icons": null,
         "Source": "GitHub",
-        "Stars": 124.0,
-        "Stars (Display)": "124",
+        "Stars": 125.0,
+        "Stars (Display)": "125",
         "Latest Commit": "2025-05-02",
         "Latest Commit Color": "Green",
         "Tags": "Books",
         "Dynamic Filter": "Calibre-Web",
         "Platform": "Android",
-        "Age": 82,
+        "Age": 83,
         "CreatedAt": "2025-03-17 12:18:09+00:00"
     },
     {
@@ -2778,7 +2778,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Karakeep",
         "Platform": "Server",
-        "Age": 77,
+        "Age": 78,
         "CreatedAt": "2025-03-17 12:14:56+00:00"
     },
     {
@@ -2804,7 +2804,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkding",
         "Platform": "Android,iOS",
-        "Age": 125,
+        "Age": 126,
         "CreatedAt": "2025-02-26 16:45:09+00:00"
     },
     {
@@ -2830,7 +2830,7 @@
         "Tags": "Bookmarks",
         "Dynamic Filter": "Linkwarden",
         "Platform": null,
-        "Age": 229,
+        "Age": 230,
         "CreatedAt": "2024-10-22 12:00:49+00:00"
     },
     {
@@ -2856,7 +2856,7 @@
         "Tags": "Wiki",
         "Dynamic Filter": "Docmost",
         "Platform": "macOS",
-        "Age": 64,
+        "Age": 65,
         "CreatedAt": "2025-03-30 11:05:40+00:00"
     },
     {
@@ -2882,7 +2882,7 @@
         "Tags": "Downloads",
         "Dynamic Filter": "qBittorrent",
         "Platform": "Server",
-        "Age": 24,
+        "Age": 25,
         "CreatedAt": "2025-05-13 09:52:18+00:00"
     },
     {
