@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AdGuard Home Releases</title>
-  <updated>2025-05-27T08:32:16.802498-04:00</updated>
+  <updated>2025-05-27T09:32:15.831843-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,10 +179,7 @@ Luckily, we are developers and not philosophers, so let’s state some facts and
 &lt;p&gt;Validation process for the DNS-over-TLS, DNS-over-QUIC, and HTTPS ports on the &lt;em&gt;Encryption Settings&lt;/em&gt; page.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Searching for persistent clients using an exact match for CIDR in the &lt;code&gt;POST /clients/search HTTP API&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rules with the &lt;code&gt;client&lt;/code&gt; modifier not working (#7708).&lt;/p&gt;
+&lt;p&gt;Searching for persistent clients using an exact match for CIDR in the &lt;code&gt;POST /clients/search&lt;/code&gt; HTTP API.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/AdguardTeam/AdGuardHome/releases/tag/v0.107.62" rel="alternate"/>
