@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wg-easy Releases</title>
-  <updated>2025-05-28T06:32:18.771814-04:00</updated>
+  <updated>2025-05-28T07:32:20.568132-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -56,7 +56,7 @@
     <author>
       <name>wg-easy/wg-easy</name>
     </author>
-    <content>&lt;p&gt;IPv6, CIDR, Docs, CLI &amp;amp; so much more.&lt;/p&gt;
+    <content>&lt;p&gt;UI, IPv6, CIDR, Docs, CLI &amp;amp; so much more.&lt;/p&gt;
 &lt;p&gt;We're super excited to announce v15!
 This update is an entire rewrite to make it even easier to set up your own VPN.&lt;/p&gt;
 &lt;h2&gt;Breaking Changes&lt;/h2&gt;

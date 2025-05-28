@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rallly Releases</title>
-  <updated>2025-05-28T06:30:29.243604-04:00</updated>
+  <updated>2025-05-28T07:30:30.298831-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,6 +94,10 @@
       <name>lukevella/rallly</name>
     </author>
     <content>&lt;p&gt;This major update brings a refreshed user experience, new features for self-hosted instances, and significant improvements under the hood.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]&lt;br /&gt;
+Before upgrading to Rallly v4.0.0, &lt;strong&gt;we strongly recommend backing up your database&lt;/strong&gt;. While we've tested the upgrade process, a backup ensures you can restore your data in case of any unforeseen issues during the migration.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;✨ Key Highlights:&lt;/h2&gt;
 &lt;h3&gt;🎨 Updated User Interface&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Home · 10 46pm · 05-21" src="https://github.com/user-attachments/assets/c0506a42-17ff-49f2-80e4-09e5707c11dd" /&gt;&lt;/p&gt;
