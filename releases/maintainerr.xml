@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maintainerr Releases</title>
-  <updated>2025-05-28T18:33:01.719697-04:00</updated>
+  <updated>2025-05-28T19:32:55.640541-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,7 +127,7 @@
 &lt;li&gt;Request stop of running rules (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1735"&gt;#1735&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/7a08d94f490abbe4bfd68d66ed29a5c35aa5ba10"&gt;7a08d94&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;The Run Rules button now turns into a Stop Rules button whilst the rules are running.&lt;/li&gt;
 &lt;li&gt;Save rule results against collection log (&lt;a href="https://github.com/jorenn92/Maintainerr/issues/1777"&gt;#1777&lt;/a&gt;) (&lt;a href="https://github.com/jorenn92/Maintainerr/commit/f379b39bb8df4009eb0b5cae5374aee904310fe2"&gt;f379b39&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Under the Collections -&amp;gt; Info tab, you can now view the rule evaluation result (what you see in Test Media) for every added &amp;amp; removed media item going forward. Any manual actions will be labelled with (manual) instead:&lt;/li&gt;
+&lt;li&gt;Under the Collections -&amp;gt; Info tab, you can now view the rule evaluation result (what you see in Test Media) for every added &amp;amp; removed media item going forward. Any manual actions will be labelled with (manual) instead of showing the button:&lt;/li&gt;
 &lt;li&gt;&lt;img src="https://github.com/user-attachments/assets/05b989c0-f23a-4597-9817-ae9cc0fb59f5" width="600"/&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jorenn92/Maintainerr/releases/tag/v2.16.0" rel="alternate"/>
