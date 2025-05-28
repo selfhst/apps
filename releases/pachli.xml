@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pachli Releases</title>
-  <updated>2025-05-28T11:34:15.891833-04:00</updated>
+  <updated>2025-05-28T12:34:13.562286-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -196,6 +196,7 @@
 &lt;li&gt;Update Italian translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=mannivuwiki@gmail.com"&gt;Manuel Tassi&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Update Kabyle translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=boffire@users.noreply.hosted.weblate.org"&gt;ButterflyOfFire&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Update Latvian translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=Edgars+Weblate@gaitenis.id.lv"&gt;Edgars Andersons&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Update Lombard translations (E C)&lt;/li&gt;
 &lt;li&gt;Update Polish translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=dakilla@gmail.com"&gt;Łukasz Horodecki&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Update Slovak translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=russssty@users.noreply.hosted.weblate.org"&gt;Russssty&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Update Spanish translations (&lt;a href="https://github.com/pachli/pachli-android/commits?author=jumase@disroot.org"&gt;Juan M Sevilla&lt;/a&gt;)&lt;/li&gt;
