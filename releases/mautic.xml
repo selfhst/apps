@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-05-28T13:31:15.368539-04:00</updated>
+  <updated>2025-05-28T14:31:15.017520-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -409,11 +409,11 @@ SHA1(6.0.1-update.zip)= b8a52fd8d36ef32b277b5a76338f153beb91e6a5&lt;/p&gt;</cont
 &lt;p&gt;This release addresses several security issues. Please update at your earliest convenience after taking a backup and ensuring that it's working.&lt;/p&gt;
 &lt;h3&gt;🔒 Security fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;CVE-2025-5257 - Predictable Page Indexing Might Lead to Sensitive Data Exposure - Reported and fixed by @lenonleite and tested/reviewed by @escopecz and @kuzmany in https://github.com/mautic/mautic/security/advisories/GHSA-cqx4-9vqf-q3m8&lt;/li&gt;
-&lt;li&gt;CVE-2024-47056 - Mautic does not shield .env files from web traffic - Reported by @r3ky, analyzed by @lenonleite fixed by @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-h2wg-v8wg-jhxh&lt;/li&gt;
-&lt;li&gt;CVE-2024-47057 - User name enumeration possible due to response time difference on password reset form - Reported and fixed by @tomekkowalczyk and reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-424x-cxvh-wq9p&lt;/li&gt;
-&lt;li&gt;CVE-2024-47055 - Segment cloning doesn't have a proper permission check - Reported and fixed by @abhisekmazumdar and @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-vph5-ghq3-q782&lt;/li&gt;
-&lt;li&gt;CVE-2025-5256 - Open Redirect vulnerability on user unlock path - Reported and fixed by @tomekkowalczyk, tested/reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-6vx9-9r2g-8373&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-5257"&gt;CVE-2025-5257&lt;/a&gt; - Predictable Page Indexing Might Lead to Sensitive Data Exposure - Reported and fixed by @lenonleite and tested/reviewed by @escopecz and @kuzmany in https://github.com/mautic/mautic/security/advisories/GHSA-cqx4-9vqf-q3m8&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47056"&gt;CVE-2024-47056&lt;/a&gt; - Mautic does not shield .env files from web traffic - Reported by @r3ky, analyzed by @lenonleite fixed by @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-h2wg-v8wg-jhxh&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47047"&gt;CVE-2024-47057&lt;/a&gt; - User name enumeration possible due to response time difference on password reset form - Reported and fixed by @tomekkowalczyk and reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-424x-cxvh-wq9p&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47055"&gt;CVE-2024-47055&lt;/a&gt; - Segment cloning doesn't have a proper permission check - Reported and fixed by @abhisekmazumdar and @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-vph5-ghq3-q782&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-5256"&gt;CVE-2025-5256&lt;/a&gt; - Open Redirect vulnerability on user unlock path - Reported and fixed by @tomekkowalczyk, tested/reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-6vx9-9r2g-8373&lt;/li&gt;
 &lt;li&gt;Phpspreadsheet upgrade by @escopecz in https://github.com/mautic/mautic/pull/15016&lt;/li&gt;
 &lt;li&gt;SQL queries constructed with string concatenation [security] by @levente999 in https://github.com/mautic/mautic/pull/15040&lt;/li&gt;
 &lt;/ul&gt;
@@ -460,11 +460,11 @@ SHA1(5.2.6-update.zip)= 3ffd25c5f77d5016cdb544653469c1f104243dbb&lt;/p&gt;</cont
 &lt;p&gt;This release addresses several security issues. Please update at your earliest convenience after taking a backup and ensuring that it's working.&lt;/p&gt;
 &lt;h3&gt;🔒Security fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;CVE-2025-5257 - Predictable Page Indexing Might Lead to Sensitive Data Exposure - Reported and fixed by @lenonleite and tested/reviewed by @escopecz and @kuzmany in https://github.com/mautic/mautic/security/advisories/GHSA-cqx4-9vqf-q3m8&lt;/li&gt;
-&lt;li&gt;CVE-2024-47056 - Mautic does not shield .env files from web traffic - Reported by @r3ky, analyzed by @lenonleite fixed by @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-h2wg-v8wg-jhxh&lt;/li&gt;
-&lt;li&gt;CVE-2024-47057 - User name enumeration possible due to response time difference on password reset form - Reported and fixed by @tomekkowalczyk and reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-424x-cxvh-wq9p&lt;/li&gt;
-&lt;li&gt;CVE-2024-47055 - Segment cloning doesn't have a proper permission check - Reported and fixed by @abhisekmazumdar and @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-vph5-ghq3-q782&lt;/li&gt;
-&lt;li&gt;CVE-2025-5256 - Open Redirect vulnerability on user unlock path - Reported and fixed by @tomekkowalczyk, tested/reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-6vx9-9r2g-8373&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-5257"&gt;CVE-2025-5257&lt;/a&gt; - Predictable Page Indexing Might Lead to Sensitive Data Exposure - Reported and fixed by @lenonleite and tested/reviewed by @escopecz and @kuzmany in https://github.com/mautic/mautic/security/advisories/GHSA-cqx4-9vqf-q3m8&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47056"&gt;CVE-2024-47056&lt;/a&gt; - Mautic does not shield .env files from web traffic - Reported by @r3ky, analyzed by @lenonleite fixed by @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-h2wg-v8wg-jhxh&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47057"&gt;CVE-2024-47057&lt;/a&gt; - User name enumeration possible due to response time difference on password reset form - Reported and fixed by @tomekkowalczyk and reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-424x-cxvh-wq9p&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2024-47055"&gt;CVE-2024-47055&lt;/a&gt; - Segment cloning doesn't have a proper permission check - Reported and fixed by @abhisekmazumdar and @nick-vanpraet and tested/reviewed by @patrykgruszka in https://github.com/mautic/mautic/security/advisories/GHSA-vph5-ghq3-q782&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-5256"&gt;CVE-2025-5256&lt;/a&gt; - Open Redirect vulnerability on user unlock path - Reported and fixed by @tomekkowalczyk, tested/reviewed by @patrykgruszka and @nick-vanpraet in https://github.com/mautic/mautic/security/advisories/GHSA-6vx9-9r2g-8373&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;🐛 Bugs&lt;/h3&gt;
