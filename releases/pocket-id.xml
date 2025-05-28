@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-05-28T08:33:38.602337-04:00</updated>
+  <updated>2025-05-28T09:33:42.217100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,7 +94,7 @@ This release contains breaking changes and Pocket ID won't work correctly if you
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!NOTE]&lt;br /&gt;
- This version introduces a heartbeat request that gets sent once everyday to the &lt;a href="https://github.com/pocket-id/analytics"&gt;Pocket ID analytics server&lt;/a&gt; to count how many instances of Pocket ID exist. The heartbeat request only contains a random instance ID, the version of Pocket ID and when it was first/last seen. Seeing how many active Pocket ID instances are out there genuinely motivates us to keep developing and maintaining the project. Of course this heartbeat can also be disabled by setting &lt;code&gt;DISABLE_ANALYTICS&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt;. For more information visit the &lt;a href="https://pocket-id.org/docs/configuration/analytics"&gt;docs page&lt;/a&gt;.&lt;/p&gt;
+ This version introduces a heartbeat request that gets sent once everyday to the &lt;a href="https://github.com/pocket-id/analytics"&gt;Pocket ID analytics server&lt;/a&gt; to count how many instances of Pocket ID exist. The heartbeat request only contains a random instance ID, the version of Pocket ID and when it was first/last seen. Seeing how many active Pocket ID instances are out there genuinely motivates us to keep developing and maintaining the project. Of course this heartbeat can also be disabled by setting &lt;code&gt;ANALYTICS_DISABLED&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt;. For more information visit the &lt;a href="https://pocket-id.org/docs/configuration/analytics"&gt;docs page&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;

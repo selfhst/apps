@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-05-28T08:33:23.332445-04:00</updated>
+  <updated>2025-05-28T09:33:26.597868-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -159,17 +159,12 @@
   </entry>
   <entry>
     <id>https://github.com/activepieces/activepieces/releases/tag/0.57.1</id>
-    <title>New release for Activepieces: 0.57.1</title>
+    <title>New release for Activepieces: --0.57.1-- (DO NOT USE)</title>
     <updated>2025-05-23T11:11:07-04:00</updated>
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;h2&gt;🐞 Bug Fixes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;fix: wasn't using platform OAuth2 by default when creating a connection (#7842) @AbdulTheActivePiecer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Thanks ❤️&lt;/h2&gt;
-&lt;p&gt;@AbdulTheActivePiecer and @abuaboud&lt;/p&gt;</content>
+    <content>&lt;h3&gt;&lt;strong&gt;DO NOT UPGRADE TO THIS BORKEN RELEASE&lt;/strong&gt;: It might break any flow with a tables piece in them.&lt;/h3&gt;</content>
     <link href="https://github.com/activepieces/activepieces/releases/tag/0.57.1" rel="alternate"/>
   </entry>
   <entry>
