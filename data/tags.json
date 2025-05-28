@@ -102,6 +102,12 @@
         ]
     },
     {
+        "Tag": "Backend",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Backups",
         "Valid Types": [
             "Software",
@@ -732,13 +738,13 @@
     {
         "Tag": "Platform",
         "Valid Types": [
-            "Software"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Platform",
         "Valid Types": [
-            "ActivityPub"
+            "Software"
         ]
     },
     {
@@ -1002,14 +1008,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Software",
+            "Companion"
         ]
     },
     {
