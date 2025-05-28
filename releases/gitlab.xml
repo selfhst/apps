@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-05-27T19:30:53.273753-04:00</updated>
+  <updated>2025-05-27T20:30:53.567137-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -908,7 +908,7 @@
 &gt; You can now choose to run [Application Security Testing (AST) scanners](https://docs.gitlab.com/ee/user/application_security/detect/) in [merge request (MR) pipelines](https://docs.gitlab.com/ee/ci/pipelines/merge_request_pipelines.html).
 &gt; To minimize the impact to your pipelines, this is as an opt-in behavior you can control.
 &gt; 
-&gt; Previously, the default behavior depended on whether you used the [Stable or Latest CI/CD template edition](https://docs.gitlab.com/ee/user/application_security/detect/roll_out_security_scanning.html#template-editions) to enable a scanner:
+&gt; Previously, the default behavior depended on whether you used the [Stable or Latest CI/CD template edition](https://docs.gitlab.com/user/application_security/detect/security_configuration/#template-editions) to enable a scanner:
 &gt; 
 &gt; - In Stable templates, scan jobs ran in branch pipelines only. MR pipelines weren't supported.
 &gt; - In Latest templates, scan jobs ran in MR pipelines when an MR was open, and ran in branch pipelines if there was no associated MR. You couldn't control this behavior.
