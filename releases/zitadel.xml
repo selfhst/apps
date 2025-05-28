@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-05-28T07:33:06.514756-04:00</updated>
+  <updated>2025-05-28T08:33:10.210664-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,6 +68,7 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.71.10...v2.71.11"&gt;2.71.11&lt;/a&gt; (2025-05-28)&lt;/h2&gt;
+&lt;p&gt;‼️ Warning: please read and follow &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; when you upgrade.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;allow invite codes for users with verified mails (&lt;a href="https://github.com/zitadel/zitadel/issues/9962"&gt;#9962&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/9a5bf9f4ffdf5a0c841daf51bffc148d315b5a92"&gt;9a5bf9f&lt;/a&gt;)&lt;/li&gt;
