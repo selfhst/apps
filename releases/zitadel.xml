@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-05-28T03:34:19.332526-04:00</updated>
+  <updated>2025-05-28T04:33:08.608727-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,7 +68,7 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.65.9...v2.65.10"&gt;2.65.10&lt;/a&gt; (2025-05-27)&lt;/h2&gt;
-&lt;p&gt;‼️ Warning: please read &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; before you upgrade&lt;/p&gt;
+&lt;p&gt;‼️ Warning: please read and follow &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; when you upgrade.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;eventstore:&lt;/strong&gt; use decimal for position (&lt;a href="https://github.com/zitadel/zitadel/issues/9881"&gt;#9881&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/dafde7468dbd2d57773f2eb624a4a6df14e3a8bc"&gt;dafde74&lt;/a&gt;)&lt;/li&gt;
