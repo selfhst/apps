@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wg-easy Releases</title>
-  <updated>2025-05-28T05:32:21.972844-04:00</updated>
+  <updated>2025-05-28T06:32:18.771814-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,5 +48,42 @@
 &lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/268405519?tag=14&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/compare/v13.0.0...v14.0.0&lt;/p&gt;</content>
     <link href="https://github.com/wg-easy/wg-easy/releases/tag/v14.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wg-easy/wg-easy/releases/tag/v15.0.0</id>
+    <title>New release for wg-easy: v15.0.0</title>
+    <updated>2025-05-28T06:29:49-04:00</updated>
+    <author>
+      <name>wg-easy/wg-easy</name>
+    </author>
+    <content>&lt;p&gt;IPv6, CIDR, Docs, CLI &amp;amp; so much more.&lt;/p&gt;
+&lt;p&gt;We're super excited to announce v15!
+This update is an entire rewrite to make it even easier to set up your own VPN.&lt;/p&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;p&gt;As the whole setup has changed, we recommend to start from scratch. And import your existing configs.&lt;/p&gt;
+&lt;h2&gt;Major Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Almost all Environment variables removed&lt;/li&gt;
+&lt;li&gt;New and Improved UI&lt;/li&gt;
+&lt;li&gt;API Basic Authentication&lt;/li&gt;
+&lt;li&gt;Added Docs&lt;/li&gt;
+&lt;li&gt;Incrementing Version -&amp;gt; Semantic Versioning&lt;/li&gt;
+&lt;li&gt;CIDR Support&lt;/li&gt;
+&lt;li&gt;IPv6 Support&lt;/li&gt;
+&lt;li&gt;Changed API Structure&lt;/li&gt;
+&lt;li&gt;SQLite Database&lt;/li&gt;
+&lt;li&gt;Deprecated Dockerless Installations&lt;/li&gt;
+&lt;li&gt;Added Docker Volume Mount (&lt;code&gt;/lib/modules&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Removed ARMv6 support&lt;/li&gt;
+&lt;li&gt;Connections over HTTP require setting the &lt;code&gt;INSECURE&lt;/code&gt; env var&lt;/li&gt;
+&lt;li&gt;Changed license from CC BY-NC-SA 4.0 to AGPL-3.0-only&lt;/li&gt;
+&lt;li&gt;Added 2FA using TOTP&lt;/li&gt;
+&lt;li&gt;Improved mobile support&lt;/li&gt;
+&lt;li&gt;CLI&lt;/li&gt;
+&lt;li&gt;Replaced &lt;code&gt;nightly&lt;/code&gt; with &lt;code&gt;edge&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/425608529?tag=15"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/425608529?tag=15&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/compare/v14.0.0...v15.0.0&lt;/p&gt;</content>
+    <link href="https://github.com/wg-easy/wg-easy/releases/tag/v15.0.0" rel="alternate"/>
   </entry>
 </feed>
