@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-05-28T09:31:28.916510-04:00</updated>
+  <updated>2025-05-28T10:31:40.613422-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,6 +74,8 @@
     </author>
     <content>&lt;h2&gt;paperless-ngx 2.16.0&lt;/h2&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Mariadb users may experience a database migration problem in 2.16.0–2.16.1 and should skip this version and upgrade directly to at least v2.16.2&lt;/p&gt;
 &lt;p&gt;[!WARNING]
 Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in a future Paperless-ngx version. Users may want to upgrade now, see https://docs.paperless-ngx.com/administration/#database-upgrades&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -179,7 +181,7 @@ Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in
     <content>&lt;h2&gt;paperless-ngx 2.16.1&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-This 'hotfix' release fixes date filtering in the recently-released v2.16.0&lt;/p&gt;
+Mariadb users may experience a database migration problem in 2.16.0–2.16.1 and should skip this version and upgrade directly to at least v2.16.2&lt;/p&gt;
 &lt;p&gt;[!WARNING]
 Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in a future Paperless-ngx version. Users may want to upgrade now, see https://docs.paperless-ngx.com/administration/#database-upgrades&lt;/p&gt;
 &lt;/blockquote&gt;
