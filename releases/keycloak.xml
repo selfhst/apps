@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-05-28T04:31:03.464166-04:00</updated>
+  <updated>2025-05-28T05:31:05.179881-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,7 +190,54 @@
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39469"&gt;#39469&lt;/a&gt; Fix Securing Apps links to adapters &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39486"&gt;#39486&lt;/a&gt; Email server credentials can be harvested through host/port manipulation &lt;code&gt;admin/api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39541"&gt;#39541&lt;/a&gt; Fix doc link to FGAP v1 &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39543"&gt;#39543&lt;/a&gt; Apply edits to Operators Guide &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39572"&gt;#39572&lt;/a&gt; Edit Observability Guide &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39590"&gt;#39590&lt;/a&gt; Fix callouts in Operator guide &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39638"&gt;#39638&lt;/a&gt; Sessions from Infinispan should be mapped lazily for the Admin UI &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39651"&gt;#39651&lt;/a&gt; Speed up Infinispan list of all sessions be more eagerly remove old client sessions &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39665"&gt;#39665&lt;/a&gt; When logging in, all client sessions are loaded which is slow &lt;code&gt;oidc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39130"&gt;#39130&lt;/a&gt; Authorization Code Flow Fails Scope Validation After Credential Definition Migration to Realm Level &lt;code&gt;oid4vc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39157"&gt;#39157&lt;/a&gt; [quarkus-next] TestEngine with ID 'junit-jupiter' failed to discover tests &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39264"&gt;#39264&lt;/a&gt; [OID4VCI] Documentation Errors &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39358"&gt;#39358&lt;/a&gt; Aggregated policy: Cannot select policies that do not appear in the drop-down list &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39450"&gt;#39450&lt;/a&gt; quarkus runtime options are treated as buildtime options &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39496"&gt;#39496&lt;/a&gt; [26.2.3/26.1.5] Regression: empty ClientList in UI for Custom UserStorageProvider &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39499"&gt;#39499&lt;/a&gt; UI does not show user's attributes after reentering the Attributes TAB &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39502"&gt;#39502&lt;/a&gt; Refreshed tokens are not persisted for IDP token exchange &lt;code&gt;token-exchange&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39509"&gt;#39509&lt;/a&gt; UI does not show organization's attributes after reentering the Attributes TAB &lt;code&gt;account/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39538"&gt;#39538&lt;/a&gt; Autocomplete in Mapper type of user federation broken &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39540"&gt;#39540&lt;/a&gt; Forms IT tests breaks with Chrome 136.0.7103.59 &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39612"&gt;#39612&lt;/a&gt; Unable to change the OTP hash algorithm &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39614"&gt;#39614&lt;/a&gt; Keycloak not using custom Infinispan config &lt;code&gt;infinispan&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39663"&gt;#39663&lt;/a&gt; Duplicate validation message “Please specify username.” shown on login form &lt;code&gt;login/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39693"&gt;#39693&lt;/a&gt; Clicking on the jump links removes the localization of the UI &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39697"&gt;#39697&lt;/a&gt; Authorization documentation shows the wrong view &lt;code&gt;authorization-services&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39710"&gt;#39710&lt;/a&gt; Recreate update is not scaling down the statefulset to zero &lt;code&gt;operator&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39724"&gt;#39724&lt;/a&gt; Hibernate LazyInitializationException when deleting client with CompositeRoles &lt;code&gt;core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39753"&gt;#39753&lt;/a&gt; POST realm API returns 400 on conflict instead of 409 in version 26.2.4 &lt;code&gt;admin/api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39798"&gt;#39798&lt;/a&gt; Documentation has outdated link to the "latest" branch of quickstarts &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39800"&gt;#39800&lt;/a&gt; [KEYCLOAK CI] - AuroraDB IT - Create EC2 runner instance &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.2.5" rel="alternate"/>
   </entry>
 </feed>
