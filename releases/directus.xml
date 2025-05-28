@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-05-28T15:35:48.195401-04:00</updated>
+  <updated>2025-05-28T16:35:35.773516-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -206,10 +206,10 @@
 &lt;li&gt;Ensured the configured display format is applied to the kanban layout (&lt;a href="https://github.com/directus/directus/pull/24840"&gt;#24840&lt;/a&gt; by @brunoocasali)&lt;/li&gt;
 &lt;li&gt;Enhanced the appearance of the flow trigger buttons in the sidebar by applying their custom colors (&lt;a href="https://github.com/directus/directus/pull/25192"&gt;#25192&lt;/a&gt; by @Mehdi-YC)&lt;/li&gt;
 &lt;li&gt;Enhanced the flow logs with color indications for success and failure, and added a new filter to view only failed logs (&lt;a href="https://github.com/directus/directus/pull/25125"&gt;#25125&lt;/a&gt; by @AfaqJaved)&lt;/li&gt;
-&lt;li&gt;Added new action events for extensions (&lt;a href="https://github.com/directus/directus/pull/25220"&gt;#25220&lt;/a&gt; by @licitdev)&lt;/li&gt;
+&lt;li&gt;Fixed permissions handling in the Files module (&lt;a href="https://github.com/directus/directus/pull/25187"&gt;#25187&lt;/a&gt; by @amosmurmu)&lt;/li&gt;
 &lt;li&gt;Added the ability to toggle a variable input for the _in and _nin filters. (&lt;a href="https://github.com/directus/directus/pull/25245"&gt;#25245&lt;/a&gt; by @formfcw)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;@directus/api&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Added new action events for extensions (&lt;a href="https://github.com/directus/directus/pull/25220"&gt;#25220&lt;/a&gt; by @licitdev)&lt;/li&gt;
+&lt;li&gt;Added new action events for extensions (&lt;a href="https://github.com/directus/directus/pull/25181"&gt;#25181&lt;/a&gt; by @amosmurmu)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🐛 Bug Fixes &amp;amp; Optimizations&lt;/h3&gt;
 &lt;ul&gt;
