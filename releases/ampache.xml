@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2025-05-28T20:32:49.024407-04:00</updated>
+  <updated>2025-05-28T21:32:47.020455-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -279,7 +279,9 @@ a05e3ea566049572402ae7614568507a  ./ampache-7.4.2_client.zip&lt;/p&gt;
     <author>
       <name>ampache/ampache</name>
     </author>
-    <content>&lt;h1&gt;7.5.0&lt;/h1&gt;
+    <content>&lt;h1&gt;7.5.0 (REPLACED WITH 7.5.1)&lt;/h1&gt;
+&lt;p&gt;https://github.com/ampache/ampache/releases/tag/7.5.1&lt;/p&gt;
+&lt;p&gt;Go grab this one instead it has some more immediate good fixes.&lt;/p&gt;
 &lt;p&gt;php8.4
 fbd1d86451a60f404227d829e496b1cf  ./ampache-7.5.0_all_php8.4.zip
 fe058d195dda24982b33751c3302d0fa  ./ampache-7.5.0_all_php8.4_squashed.zip
