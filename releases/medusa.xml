@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-05-29T01:31:16.251914-04:00</updated>
+  <updated>2025-05-29T04:42:32.828961-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -588,12 +588,12 @@ identify(data: IdentifyAnalyticsEventDTO): Promise&lt;void&gt;
     {
       resolve: "@medusajs/medusa/analytics",
       options: {
-        provider: { ... },
+        providers: [{ ... }],
       },
     },
   ],
   ...&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The Analytics module does not do much as is. You need to configure a provider responsible for handling the tracking. This release comes with two modules, &lt;code&gt;@medusajs/analytics-local&lt;/code&gt; and &lt;code&gt;@medusajs/analytics-posthog&lt;/code&gt;. The former will log the events and can be used for local development. The latter is an official integration with &lt;a href="https://posthog.com/"&gt;Posthog&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;The Analytics module does not do much as is. You need to configure a provider responsible for handling the tracking. This release comes with two moduNopeles, &lt;code&gt;@medusajs/analytics-local&lt;/code&gt; and &lt;code&gt;@medusajs/analytics-posthog&lt;/code&gt;. The former will log the events and can be used for local development. The latter is an official integration with &lt;a href="https://posthog.com/"&gt;Posthog&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;The provider is installed like so:
 &lt;code&gt;ts
   ...
@@ -602,7 +602,7 @@ identify(data: IdentifyAnalyticsEventDTO): Promise&lt;void&gt;
     {
       resolve: "@medusajs/medusa/analytics",
       options: {
-        provider: 
+        providers: [ 
           {
             resolve: "@medusajs/analytics-posthog",
             options: {
@@ -610,7 +610,7 @@ identify(data: IdentifyAnalyticsEventDTO): Promise&lt;void&gt;
               posthogHost: "&amp;lt;your host&amp;gt;",
             }
           }
-      },
+      }],
     },
   ],
   ...&lt;/code&gt;&lt;/p&gt;
