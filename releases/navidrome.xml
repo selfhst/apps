@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-05-29T07:31:17.757653-04:00</updated>
+  <updated>2025-05-29T08:31:19.252418-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -385,7 +385,7 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
 &lt;/ul&gt;
 &lt;h3&gt;Scanner and Metadata Improvements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Filesystem Lyrics Support&lt;/strong&gt;: Support for reading lyrics (.lrc) directly from filesystem files - &lt;em&gt;@kgarner7&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/2897"&gt;#2897&lt;/a&gt;, &lt;a href="https://github.com/navidrome/navidrome/pull/3997"&gt;#3997&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filesystem Lyrics Support (only for Subsonic clients)&lt;/strong&gt;: Support for reading lyrics (.lrc) directly from filesystem files - &lt;em&gt;@kgarner7&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/2897"&gt;#2897&lt;/a&gt;, &lt;a href="https://github.com/navidrome/navidrome/pull/3997"&gt;#3997&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Symlink Support&lt;/strong&gt;: New &lt;code&gt;Scanner.FollowSymlinks&lt;/code&gt; option (default &lt;code&gt;true&lt;/code&gt;)to allow disabling symbolic links following - &lt;em&gt;@deluan&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/4061"&gt;#4061&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ISRC Support&lt;/strong&gt;: Added ISRC (International Standard Recording Code) support for OpenSubsonic - &lt;em&gt;@deluan&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/4088"&gt;#4088&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Artist/AlbumArtist Filtering&lt;/strong&gt;: New filter options for media files - &lt;em&gt;@kgarner7&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/4001"&gt;#4001&lt;/a&gt;)&lt;/li&gt;
