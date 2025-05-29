@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-05-29T08:32:30.892920-04:00</updated>
+  <updated>2025-05-29T09:32:32.463113-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -151,7 +151,7 @@
 &lt;h3&gt;Desktop&lt;/h3&gt;
 &lt;h4&gt;New Features&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Meet AppFlowy Workspace AI Search: Quickly find pages by searching titles, keywords, or asking natural-language questions&lt;/li&gt;
+&lt;li&gt;Meet AppFlowy AI Workspace Search: Quickly find pages by searching titles, keywords, or asking natural-language questions&lt;/li&gt;
 &lt;li&gt;AI Overviews: Ask natural questions and receive instant AI-generated summaries with source links, inspired by Google's AI Overviews&lt;/li&gt;
 &lt;li&gt;Revamped Search Panel: A cleaner, smarter interface to help you search faster and more effectively&lt;/li&gt;
 &lt;li&gt;Custom Prompts: Load a database page as the source for your own custom AI prompts&lt;/li&gt;

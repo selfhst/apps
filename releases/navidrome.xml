@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Navidrome Releases</title>
-  <updated>2025-05-29T08:31:19.252418-04:00</updated>
+  <updated>2025-05-29T09:31:20.824778-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -359,8 +359,8 @@ You can &lt;a href="https://github.com/sponsors/deluan"&gt;sponsor&lt;/a&gt;, pa
     <content>&lt;p&gt;We're excited to announce Navidrome v0.56.0, a major release packed with new features, important bug fixes, and significant improvements to the user experience. This release includes &lt;strong&gt;81 commits&lt;/strong&gt; with contributions from our amazing community!&lt;/p&gt;
 &lt;h2&gt;🔒 SECURITY UPDATES&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SQL Injection Prevention&lt;/strong&gt;: Fixed potential SQL injection vulnerability in artist role filtering. CVE will be published soon - &lt;em&gt;@4rdr&lt;/em&gt; / &lt;em&gt;@caiocotts&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transcoding Security&lt;/strong&gt;: Transcoding configuration changes are now restricted to admin users only - &lt;em&gt;@lujiefsi&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/4096"&gt;#4096&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQL Injection Prevention&lt;/strong&gt;: Fixed potential SQL injection vulnerability in artist role filtering. CVE will be published soon - &lt;em&gt;@4rdr&lt;/em&gt; / &lt;em&gt;@caiocotts&lt;/em&gt; &lt;a href="https://github.com/navidrome/navidrome/security/advisories/GHSA-5wgp-vjxm-3x2r"&gt;(Advisory&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transcoding Security&lt;/strong&gt;: Transcoding configuration changes are now restricted to admin users only - &lt;em&gt;@lujiefsi&lt;/em&gt; (&lt;a href="https://github.com/navidrome/navidrome/pull/4096"&gt;#4096&lt;/a&gt;) &lt;a href="https://github.com/navidrome/navidrome/security/advisories/GHSA-f238-rggp-82m3"&gt;(Advisory&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🎉 Major New Features&lt;/h2&gt;
 &lt;h3&gt;Missing Files Management&lt;/h3&gt;
