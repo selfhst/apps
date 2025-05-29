@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-05-29T09:30:53.442118-04:00</updated>
+  <updated>2025-05-29T10:30:53.684114-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,6 +94,7 @@
     <content>&lt;ul&gt;
 &lt;li&gt;Updated OIDC redirect logic, now works without &lt;code&gt;Access-Control-Allow-Origin&lt;/code&gt; set to &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fixed #121 &lt;a href="https://github.com/yusing/godoxy/issues/121"&gt;Routes suddenly being removed on v0.13.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated Proxies page on WebUI for showing more details and better column order&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.13.6" rel="alternate"/>
   </entry>

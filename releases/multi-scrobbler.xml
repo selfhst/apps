@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Multi-Scrobbler Releases</title>
-  <updated>2025-05-29T09:34:34.446241-04:00</updated>
+  <updated>2025-05-29T10:34:38.598787-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -228,7 +228,7 @@
 &lt;p&gt;Flatpak has been a technical burden that has not gotten easier to maintain since its inception. Due to being a tiny percentage of the install base, and a disproportionate developer effort for this percentage, I have decided to drop support for this installation method.&lt;/p&gt;
 &lt;p&gt;You can &lt;a href="https://github.com/FoxxMD/multi-scrobbler/issues/287"&gt;read more about the challenges MS has had with Flathub here.&lt;/a&gt; If anyone is willing to contribute and maintain a flatpak distribution I would be willing to support it again.&lt;/p&gt;
 &lt;h2&gt;Fixes for Plex&lt;/h2&gt;
-&lt;p&gt;Previous refactoring to introduce real-time player emulation has had a few kinks since implementing the new Plex Source, mainly due to some inconsistencies with out Plex reports duration and playback position. This release includes a few fixes that should resolve these bugs and make the Plex Source more stable.&lt;/p&gt;
+&lt;p&gt;Previous refactoring to introduce real-time player emulation has had a few kinks since implementing the new Plex Source, mainly due to some inconsistencies with how Plex reports duration and playback position. This release includes a few fixes that should resolve these bugs and make the Plex Source more stable.&lt;/p&gt;
 &lt;h1&gt;Full Changelog&lt;/h1&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
