@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Sharkey Releases</title>
-  <updated>2025-05-29T05:34:23.494146-04:00</updated>
+  <updated>2025-05-29T06:34:25.845794-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,7 +144,7 @@
   </entry>
   <entry>
     <id>https://activitypub.software/TransFem-org/Sharkey/-/releases/2025.4.2</id>
-    <title>New release for Sharkey: 2024.4.2</title>
+    <title>New release for Sharkey: 2025.4.2</title>
     <updated>2025-05-29T00:32:17+00:00</updated>
     <author>
       <name>TransFem-org/Sharkey</name>
