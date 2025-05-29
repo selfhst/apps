@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logto Releases</title>
-  <updated>2025-05-29T17:33:10.553180-04:00</updated>
+  <updated>2025-05-29T18:33:11.291696-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -551,7 +551,7 @@ POST /api/one-time-tokens&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;Fixed phone number format inconsistencies (GitHub issue #7371, thanks for @mrfrase3)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;QQ social connector&lt;/h2&gt;
-&lt;p&gt;We've expanded our social sign-in options by introducing a new QQ social connector specifically designed for web applications, enabling seamless QQ account integration for your users.&lt;/p&gt;
+&lt;p&gt;We've expanded our social sign-in options by introducing a new QQ social connector specifically designed for web applications, enabling seamless QQ account integration for your users. (Contributed by @yenharvey in #7380)&lt;/p&gt;
 &lt;h2&gt;OIDC connector&lt;/h2&gt;
 &lt;p&gt;We've updated our OIDC connector configuration to make the &lt;code&gt;userinfo_endpoint&lt;/code&gt; field optional. The system now intelligently handles user data extraction based on available endpoints, providing a more flexible authentication solution while maintaining OIDC specification compliance.&lt;/p&gt;
 &lt;p&gt;This update enables:
