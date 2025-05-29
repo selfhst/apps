@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-05-29T06:36:28.138392-04:00</updated>
+  <updated>2025-05-29T07:36:25.821386-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,12 +65,13 @@
   </entry>
   <entry>
     <id>https://github.com/blinkospace/blinko/releases/tag/1.0.3</id>
-    <title>New release for Blinko: 1.0.3</title>
-    <updated>2025-05-29T04:50:30-04:00</updated>
+    <title>New release for Blinko: Blinko 1.0.3</title>
+    <updated>2025-05-29T07:21:39-04:00</updated>
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;p&gt;feat: support TODO note type #698 &lt;/p&gt;</content>
+    <content>&lt;p&gt;Under construction, full changelog will be updated after build completion...
+feat: support TODO note type #698 &lt;/p&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.0.3" rel="alternate"/>
   </entry>
 </feed>
