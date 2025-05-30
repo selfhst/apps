@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-05-30T10:33:20.677404-04:00</updated>
+  <updated>2025-05-30T11:33:23.587159-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,12 +124,13 @@
   </entry>
   <entry>
     <id>https://github.com/activepieces/activepieces/releases/tag/0.57.0</id>
-    <title>New release for Activepieces: 0.57.0 (Please skip to 0.57.1 if you are running EE edition)</title>
+    <title>New release for Activepieces: 0.57.0</title>
     <updated>2025-05-23T07:05:34-04:00</updated>
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Please skip to 0.57.1 if you are running EE edition&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(mcp): add streamable http transport (#7830) @hazemadelkhalel&lt;/li&gt;
 &lt;/ul&gt;
