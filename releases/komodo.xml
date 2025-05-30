@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-05-30T16:33:28.661832-04:00</updated>
+  <updated>2025-05-30T17:33:35.392867-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -193,28 +193,22 @@ const servers = await komodo.read("ListServers", {
 &lt;p&gt;The main purpose of this release is to refine the access control / permissions system in Komodo. In 1.17.5 and before, access to resources was controlled only via access level (&lt;code&gt;Read&lt;/code&gt;, &lt;code&gt;Execute&lt;/code&gt;, &lt;code&gt;Write&lt;/code&gt;). These levels provide access to the associated &lt;code&gt;/read&lt;/code&gt;, &lt;code&gt;/execute&lt;/code&gt;, and &lt;code&gt;/write&lt;/code&gt; methods on resources, and it worked pretty well to provide RBAC.&lt;/p&gt;
 &lt;p&gt;Now with more potentially sensitive features, this is not quite enough to provide granular access control. To address this, &lt;code&gt;specific&lt;/code&gt; permissions have been introduced &lt;em&gt;in addition&lt;/em&gt; to &lt;code&gt;Read&lt;/code&gt;, &lt;code&gt;Execute&lt;/code&gt;, and &lt;code&gt;Write&lt;/code&gt; levels.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Terminal&lt;/code&gt;: User can access the associated resource's terminal.&lt;ul&gt;
-&lt;li&gt;If given on a &lt;code&gt;Server&lt;/code&gt;, this allows server level terminal access.&lt;/li&gt;
-&lt;li&gt;If given on a &lt;code&gt;Stack&lt;/code&gt; or &lt;code&gt;Deployment&lt;/code&gt;, this allows container exec terminal (even without &lt;code&gt;Terminal&lt;/code&gt; on &lt;code&gt;Server&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Attach&lt;/code&gt;: User can "attach" &lt;em&gt;other resources&lt;/em&gt; to the resource.&lt;ul&gt;
-&lt;li&gt;If given on a &lt;code&gt;Server&lt;/code&gt;, allows users to attach &lt;code&gt;Stacks&lt;/code&gt; and &lt;code&gt;Deployments&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;If given on a &lt;code&gt;Builder&lt;/code&gt;, allows users to attach &lt;code&gt;Builds&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;DockerInspect&lt;/code&gt;:  User can "inspect" docker resources (like containers) on the &lt;code&gt;Server&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;Access to this api will expose all container environments on the given server, and can easily lead to secrets being leaked to unintended users if not protected.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;DockerLogs&lt;/code&gt;: User can retrieve docker / docker compose logs on the associated resource.&lt;ul&gt;
-&lt;li&gt;Valid on &lt;code&gt;Server&lt;/code&gt;, &lt;code&gt;Stack&lt;/code&gt;, &lt;code&gt;Deployment&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Logs&lt;/code&gt;&lt;/strong&gt;: User can retrieve docker / docker compose logs on the associated resource.&lt;/li&gt;
+&lt;li&gt;Valid on &lt;code&gt;Server&lt;/code&gt;, &lt;code&gt;Stack&lt;/code&gt;, &lt;code&gt;Deployment&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;For admins wanting this permission by default for all users with read permissions, see below on default user groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Inspect&lt;/code&gt;&lt;/strong&gt;:  User can "inspect" docker containers.&lt;/li&gt;
+&lt;li&gt;Valid on &lt;code&gt;Server&lt;/code&gt;, &lt;code&gt;Stack&lt;/code&gt;, &lt;code&gt;Deployment&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;On Servers&lt;/strong&gt;: Access to this api will expose all container environments on the given server,
+  and can easily lead to secrets being leaked to unintended users if not protected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Terminal&lt;/code&gt;&lt;/strong&gt;: User can access the associated resource's terminal.&lt;/li&gt;
+&lt;li&gt;If given on a &lt;code&gt;Server&lt;/code&gt;, this allows server level terminal access, and all container exec priviledges (Including attached &lt;code&gt;Stacks&lt;/code&gt; / &lt;code&gt;Deployments&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;If given on a &lt;code&gt;Stack&lt;/code&gt; or &lt;code&gt;Deployment&lt;/code&gt;, this allows container exec terminal (even without &lt;code&gt;Terminal&lt;/code&gt; on &lt;code&gt;Server&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Attach&lt;/code&gt;&lt;/strong&gt;: User can "attach" &lt;em&gt;other resources&lt;/em&gt; to the resource.&lt;/li&gt;
+&lt;li&gt;If given on a &lt;code&gt;Server&lt;/code&gt;, allows users to attach &lt;code&gt;Stacks&lt;/code&gt;, &lt;code&gt;Deployments&lt;/code&gt;, &lt;code&gt;Repos&lt;/code&gt;, and &lt;code&gt;Builders&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If given on a &lt;code&gt;Builder&lt;/code&gt;, allows users to attach &lt;code&gt;Builds&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Processes&lt;/code&gt;&lt;/strong&gt;: User can retrieve the full running process list on the &lt;code&gt;Server&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ProcessList&lt;/code&gt;: User can retrieve the full running process list on the &lt;code&gt;Server&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The above &lt;code&gt;specific&lt;/code&gt; permissions are defined in a list alongside their &lt;code&gt;level&lt;/code&gt;. This list is open for future expansion / and the associated implementations may be refined in future releases as well.&lt;/p&gt;
+&lt;p&gt;The above &lt;code&gt;specific&lt;/code&gt; permissions are defined in a list alongside their &lt;code&gt;level&lt;/code&gt;. This list is open for future expansion / and the associated implementations may be refined in future releases as well. The list is also given here: https://komo.do/docs/permissioning#specific-permissions.&lt;/p&gt;
 &lt;h3&gt;&lt;strong&gt;Default User Groups&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Sometimes you will want to set a "baseline" set of permissions that all users will have on the Komodo instance. Previously this could only be done in very barebones way, by setting &lt;code&gt;KOMODO_TRANSPARENT_MODE=true&lt;/code&gt; on the Komodo Core container. This would give all users a base level of "Read" on all resources.&lt;/p&gt;
 &lt;p&gt;In addition to the above permissions features, this release also adds an &lt;code&gt;everyone&lt;/code&gt; mode to User Groups. If you enable this mode on a User Group, then all users will inherit those permissions as a base.&lt;/p&gt;
