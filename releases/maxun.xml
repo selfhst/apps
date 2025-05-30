@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maxun Releases</title>
-  <updated>2025-05-30T05:36:36.114697-04:00</updated>
+  <updated>2025-05-30T06:36:37.887776-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,25 +98,6 @@
 &lt;h2&gt;1. Airtable Integration 📊&lt;/h2&gt;
 &lt;p&gt;Easily connect your robots to Airtable! Watch the video below to know more:&lt;/p&gt;
 &lt;p&gt;http://youtube.com/watch?v=Yf4Ifi2WuJk&lt;/p&gt;
-&lt;details&gt;
-  &lt;summary&gt;DB Migration For Docker Users To Setup Airtable Integration&lt;/summary&gt;
-
-  #### Steps to Manually Add `airtable_base_id` Column 
-
-  Note: This is temporary as we will be automating db migrations
-
-  1. Run the following command inside the root folder of the project to access PostgreSQL:
-     ```sh
-     docker-compose exec postgres psql -U $DB_USER -d $DB_NAME
-     ```
-  2. Inside the `psql` shell, run this SQL command to add the `airtable_base_id` column to the `robot` table:
-     ```sh
-     ALTER TABLE robot ADD COLUMN airtable_base_id TEXT;
-     ```
-  3. Type `\q` to exit the `psql` shell.
-  4. Restart the container `docker-compose up -d`
-&lt;/details&gt;
-
 &lt;h2&gt;2. Improved Browser Performance ⚡&lt;/h2&gt;
 &lt;p&gt;We’ve made significant optimizations to enhance performance:&lt;/p&gt;
 &lt;ul&gt;
