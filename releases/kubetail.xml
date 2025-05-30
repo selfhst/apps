@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kubetail Releases</title>
-  <updated>2025-05-30T12:36:10.987159-04:00</updated>
+  <updated>2025-05-30T13:36:33.259364-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -95,6 +95,7 @@
 &lt;li&gt;Fix workload counts in dashboard sidebar by @christianvmm in https://github.com/kubetail-org/kubetail/pull/278&lt;/li&gt;
 &lt;li&gt;🎣 Fix uninitialized config bug and refactor kubeconfig handling code by @amorey in https://github.com/kubetail-org/kubetail/pull/348&lt;/li&gt;
 &lt;li&gt;🐋  add a workflow to publish kubetail windows binary to winget repository by @victorchrollo14 in https://github.com/kubetail-org/kubetail/pull/335&lt;/li&gt;
+&lt;li&gt;🐋 Add support for KUBECONFIG env var @bavarianbidi @amorey in https://github.com/kubetail-org/kubetail/pull/348&lt;/li&gt;
 &lt;li&gt;🐋 Add support for multiple config files to KubeConfigWatcher by @amorey in https://github.com/kubetail-org/kubetail/pull/351&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
