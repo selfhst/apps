@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-05-30T04:36:31.494985-04:00</updated>
+  <updated>2025-05-30T05:36:33.346668-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -71,12 +71,15 @@ feat: add edit message functionality and share conversation feature, update tran
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;h2&gt;🔄 Other Changes&lt;/h2&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed models url (701)&lt;/li&gt;
+&lt;li&gt;Fixed models url by @robjvan in https://github.com/blinkospace/blinko/pull/701&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;All Commits&lt;/h2&gt;
-&lt;p&gt;8&lt;/p&gt;</content>
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@robjvan made their first contribution in https://github.com/blinkospace/blinko/pull/701&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/blinkospace/blinko/compare/1.0.4...1.0.5&lt;/p&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.0.5" rel="alternate"/>
   </entry>
 </feed>
