@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Read You Releases</title>
-  <updated>2025-05-30T14:34:06.557620-04:00</updated>
+  <updated>2025-05-30T15:33:54.609451-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,8 +131,8 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Pull up to load next feed/group&lt;/li&gt;
-&lt;li&gt;Pull up to mark as read&lt;/li&gt;
+&lt;li&gt;Pull up to load next feed/group in the article list&lt;/li&gt;
+&lt;li&gt;Pull up to mark all items in the list as read&lt;/li&gt;
 &lt;li&gt;Display longer (up to 4 lines) summaries in article list&lt;/li&gt;
 &lt;li&gt;Scroll down to the article you've just read&lt;/li&gt;
 &lt;li&gt;Full webpage content for "Parse Full Content" feeds now will be downloaded &amp;amp; cached during sync&lt;/li&gt;
