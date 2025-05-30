@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-05-30T03:31:47.088366-04:00</updated>
+  <updated>2025-05-30T04:31:46.823646-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,7 +147,10 @@
 &lt;li&gt;Macro references are replaced with their content when writing config file (#1595).&lt;/li&gt;
 &lt;li&gt;Double nested CalDAV and CardDAV property tags (#1591).&lt;/li&gt;
 &lt;li&gt;Allow empty properties in PROPPATCH requests (#1580).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/7394687"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.12.3" rel="alternate"/>
   </entry>
 </feed>
