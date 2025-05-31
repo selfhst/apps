@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ghost Releases</title>
-  <updated>2025-05-31T01:30:51.242324-04:00</updated>
+  <updated>2025-05-31T02:30:50.510456-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,24 +77,10 @@
       <name>TryGhost/Ghost</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;🔒 Escaped HTML in bookmark text fields (#1394) - Sag&lt;/li&gt;
-&lt;li&gt;🔒 Escaped HTML in bookmark fields (#1390) - Sag&lt;/li&gt;
 &lt;li&gt;✨ Added member export perms to backup integration (#23589) - Hannah Wolfe&lt;/li&gt;
 &lt;li&gt;✨ Changed staff token perms to match user auth (#23585) - Hannah Wolfe&lt;/li&gt;
-&lt;li&gt;🎨 Added &lt;code&gt;srcset&lt;/code&gt; to header card &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; element (#1074) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🎨 Improved accessibility of frontend buttons by adding aria-labels (#1070) - Sanne de Vries&lt;/li&gt;
-&lt;li&gt;🎨 Added placeholder formatting to email cards (#989) - Steve Larson&lt;/li&gt;
 &lt;li&gt;🐛 Fix portal interpolation errors. (#23570) - Cathy Sarisky&lt;/li&gt;
 &lt;li&gt;🐛 Fixed preview rendering when member status is not specified (#23529) - Chris Raible&lt;/li&gt;
-&lt;li&gt;🐛 Fixed HTML entities being converted when rendering HTML card content (#1162) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed signup card text color and styles (#1133) - Steve Larson&lt;/li&gt;
-&lt;li&gt;🐛 Fixed callout card not rendering all inline formats (#1135) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed signup card text color with transparent background (#1053) - Steve Larson&lt;/li&gt;
-&lt;li&gt;🐛 Fixed signup card styles with image background (#1052) - Steve Larson&lt;/li&gt;
-&lt;li&gt;🐛 Fixed HTML card missing comment wrapper in rendered output (#1001) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed invalid background color in callout cards breaking rendering + copy/paste (#993) - Kevin Ansfield&lt;/li&gt;
-&lt;li&gt;🐛 Fixed email card rendering placeholders (#959) - Steve Larson&lt;/li&gt;
-&lt;li&gt;🐛 Added sanitation to callout card html renderer. (#803) - Ronald Langeveld&lt;/li&gt;
 &lt;li&gt;🌐 Updated Bulgarian translations for Portal, Ghost, and Signup form (#23515) - Yovko Lambrev&lt;/li&gt;
 &lt;li&gt;🌐 Updated Vietnamese translations for Comments, Ghost, and Portal (#23508) - Hannah Le&lt;/li&gt;
 &lt;/ul&gt;
