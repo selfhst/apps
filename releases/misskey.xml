@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-05-31T08:32:42.833994-04:00</updated>
+  <updated>2025-05-31T09:32:43.660035-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,5 +100,106 @@
 &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.5.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.5.1</id>
+    <title>New release for Misskey: 2025.5.1</title>
+    <updated>2025-05-31T08:37:04-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;設定ファイルの以下の項目がコントロールパネルから設定するようになりました&lt;/li&gt;
+&lt;li&gt;signToActivityPubGet&lt;/li&gt;
+&lt;li&gt;proxyRemoteFiles&lt;/li&gt;
+&lt;li&gt;disallowExternalApRedirect&lt;ul&gt;
+&lt;li&gt;許可しないかどうかではなく、許可するかどうかの設定(allowExternalApRedirect)になりました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: 非ログインでサーバーを閲覧された際に、サーバー内のコンテンツを非公開にすることができるようになりました&lt;/li&gt;
+&lt;li&gt;モデレーションが行き届きにくい不適切なリモートコンテンツなどが、自サーバー経由で図らずもインターネットに公開されてしまうことによるトラブル防止などに役立ちます&lt;/li&gt;
+&lt;li&gt;「全て公開(今までの挙動)」「ローカルのコンテンツだけ公開(=サーバー内で受信されたリモートのコンテンツは公開しない)」「何も公開しない」から選択できます&lt;/li&gt;
+&lt;li&gt;デフォルト値は「ローカルのコンテンツだけ公開」になっています&lt;/li&gt;
+&lt;li&gt;Feat: ロールでアップロード可能なファイル種別を設定可能になりました&lt;ul&gt;
+&lt;li&gt;デフォルトは&lt;strong&gt;テキスト、JSON、画像、動画、音声ファイル&lt;/strong&gt;になっています。zipなど、その他の種別のファイルは含まれていないため、必要に応じて設定を変更してください。&lt;/li&gt;
+&lt;li&gt;場合によってはファイル種別を正しく検出できないことがあります(特にテキストフォーマット)。その場合、ファイル種別は application/octet-stream と見做されます。&lt;ul&gt;
+&lt;li&gt;したがって、それらの種別不明ファイルを許可したい場合は application/octet-stream を指定に追加してください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Feat: プレビュー先がリダイレクトを伴う場合、リダイレクト先のコンテンツを取得しに行くか否かを設定できるように(#16043)&lt;/li&gt;
+&lt;li&gt;Enhance: UIのアイコンデータの読み込みを軽量化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: ドライブのUIが強化されました&lt;/li&gt;
+&lt;li&gt;複数のファイルをまとめて移動できるようになりました&lt;/li&gt;
+&lt;li&gt;Feat: ファイルのアップロードUIが一新されました&lt;/li&gt;
+&lt;li&gt;アップロード前にファイル情報を確認できるようになりました&lt;ul&gt;
+&lt;li&gt;圧縮の品質を選択できるようになりました&lt;/li&gt;
+&lt;li&gt;アップロードに失敗したときに再試行できるようになりました&lt;/li&gt;
+&lt;li&gt;アップロード前に画像のクロッピングを行えるようになりました&lt;/li&gt;
+&lt;li&gt;ファイルサイズのチェックは圧縮後の実際にアップロードされるサイズで行われるようになりました&lt;/li&gt;
+&lt;li&gt;ファイルのアップロードを中断できるようになりました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Feat: サーバー初期設定ウィザードが実装されました&lt;/li&gt;
+&lt;li&gt;簡単なウィザードに従うだけで、サーバーに最適な設定が適用されます&lt;/li&gt;
+&lt;li&gt;Feat: Websocket接続を行わずにMisskeyを利用するNo Websocketモードが実装されました(beta)&lt;/li&gt;
+&lt;li&gt;サーバーのパフォーマンス向上に寄与することが期待されます&lt;ul&gt;
+&lt;li&gt;何らの理由によりWebsocket接続が行えない環境でも快適に利用可能です&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;従来のWebsocket接続を行うモードはリアルタイムモードとして再定義されました&lt;ul&gt;
+&lt;li&gt;チャットなど、一部の機能は引き続き設定に関わらずWebsocket接続が行われます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Feat: 絵文字をミュート可能にする機能&lt;/li&gt;
+&lt;li&gt;絵文字（ユニコードの絵文字・カスタム絵文字）毎にミュートし、不可視化することができるようになりました&lt;/li&gt;
+&lt;li&gt;Feat: モバイルデバイスで折りたたまれたUIの展開表示に全画面ページを使用できるように(実験的)&lt;/li&gt;
+&lt;li&gt;Enhance: 設定の同期をオンにするときに競合したときに値をマージできるように&lt;/li&gt;
+&lt;li&gt;Enhance: メモリ使用量を軽減しました&lt;/li&gt;
+&lt;li&gt;Enhance: 画像の高品質なプレースホルダを無効化してパフォーマンスを向上させるオプションを追加&lt;/li&gt;
+&lt;li&gt;Enhance: 招待されているが参加していないルームを開いたときに、招待を承認するかどうか尋ねるように&lt;/li&gt;
+&lt;li&gt;Enhance: リプライ元にアンケートがあることが表示されるように&lt;/li&gt;
+&lt;li&gt;Enhance: ノートのサーバー情報のデザインを改善・パフォーマンス向上&lt;br /&gt;
+  (Based on https://github.com/taiyme/misskey/pull/198, https://github.com/taiyme/misskey/pull/211, https://github.com/taiyme/misskey/pull/283)&lt;/li&gt;
+&lt;li&gt;Enhance: ユーザー設定でURLプレビューを無効化できるように&lt;/li&gt;
+&lt;li&gt;Enhance: ヒントとコツを追加&lt;/li&gt;
+&lt;li&gt;Enhance: ヒントとコツを再表示できるように&lt;/li&gt;
+&lt;li&gt;Enhance: AiScriptからtoastを表示する関数 &lt;code&gt;Mk:toast&lt;/code&gt; を追加&lt;/li&gt;
+&lt;li&gt;Enhance: シンタックスハイライトのエンジンをJavaScriptベースのものに変更&lt;/li&gt;
+&lt;li&gt;フロントエンドの読み込みサイズを軽量化しました&lt;ul&gt;
+&lt;li&gt;ほとんどの言語のハイライトは問題なく行えますが、互換性の問題により一部の言語が正常にハイライトできなくなる可能性があります。詳しくは https://shiki.style/references/engine-js-compat をご覧ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix: チャットに動画ファイルを送付すると、動画の表示が崩れてしまい視聴出来ない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: アカウント依存かつ初期状態である設定値をサーバー同期しようとした際に正しくコンフリクト検出されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: "時計"ウィジェット(Clock)において、Transparent設定が有効でも、その背景が透過されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 一定時間操作がなかったら動画プレイヤーのコントロールを隠すように&lt;/li&gt;
+&lt;li&gt;Fix: Twitchのクリップがプレイヤーで再生できない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: リストやフォローをエクスポートする際にリプライを含むかどうかの情報を含むように&lt;/li&gt;
+&lt;li&gt;Enhance: チャットルームの最大メンバー数を30人から50人に調整&lt;/li&gt;
+&lt;li&gt;Enhance: ノートのレスポンスにアンケートが添付されているかどうかを示すフラグ&lt;code&gt;hasPoll&lt;/code&gt;を追加&lt;/li&gt;
+&lt;li&gt;Enhance: チャットルームのレスポンスに招待されているかどうかを示すフラグ&lt;code&gt;invitationExists&lt;/code&gt;を追加&lt;/li&gt;
+&lt;li&gt;Enhance: レートリミットの計算方法を調整 (#13997)&lt;/li&gt;
+&lt;li&gt;Enhance: 外部サイトのOGPのキャッシュ期間を調整&lt;/li&gt;
+&lt;li&gt;Fix: チャットルームが削除された場合・チャットルームから抜けた場合に、未読状態が残り続けることがあるのを修正&lt;/li&gt;
+&lt;li&gt;Fix: ユーザ除外アンテナをインポートできない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: アンテナのセンシティブなチャンネルのノートを含むかどうかの情報がエクスポートされない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ミュート対象ユーザーが引用されているノートがRNされたときにミュートを貫通してしまう問題を修正 #16009&lt;/li&gt;
+&lt;li&gt;Fix: 連合モードが「なし」の場合に、生成されるHTML内のactivity jsonへのリンクタグを省略するように&lt;/li&gt;
+&lt;li&gt;Fix: コントロールパネルから招待コードを作成すると作成者の情報が記録されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: コントロールパネルのジョブキューページからPausedなジョブ一覧を閲覧できない問題を修正&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.5.1" rel="alternate"/>
   </entry>
 </feed>
