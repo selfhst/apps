@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swift Paperless Releases</title>
-  <updated>2025-06-01T09:33:56.773346-04:00</updated>
+  <updated>2025-06-01T10:33:57.453781-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -31,5 +31,15 @@
 &lt;li&gt;Compatiblity with Paperless-ngx 2.16.0+ after change to document API&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/paulgessinger/swift-paperless/releases/tag/v1.7.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/paulgessinger/swift-paperless/releases/tag/v1.7.2</id>
+    <title>New release for Swift Paperless: v1.7.2</title>
+    <updated>2025-06-01T09:40:47-04:00</updated>
+    <author>
+      <name>paulgessinger/swift-paperless</name>
+    </author>
+    <content/>
+    <link href="https://github.com/paulgessinger/swift-paperless/releases/tag/v1.7.2" rel="alternate"/>
   </entry>
 </feed>
