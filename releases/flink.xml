@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Flink Releases</title>
-  <updated>2025-06-01T06:35:32.246621-04:00</updated>
+  <updated>2025-06-01T07:35:37.101711-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,12 +100,39 @@
   </entry>
   <entry>
     <id>https://gitlab.com/rtraceio/web/flink/-/releases/2.1.0</id>
-    <title>New release for Flink: 2.1.0</title>
+    <title>New release for Flink: 2.1.0 / Knuckles</title>
     <updated>2025-06-01T10:17:54+00:00</updated>
     <author>
       <name>rtraceio/web/flink</name>
     </author>
-    <content>&lt;p&gt;Automated release for tag 2.1.0&lt;/p&gt;</content>
+    <content>&lt;p&gt;v2.1.0 (Codename: Knuckles) is a big release with a set of new features and lots of added benefits. Took a while to implement them, but now we're ready to launch 🚀&lt;/p&gt;
+&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🔐 Password protected Links&lt;/li&gt;
+&lt;li&gt;🗓️ expiration time for Links (after which a Link is not accessible anymore)&lt;/li&gt;
+&lt;li&gt;🗓️ activation time for Links (Link is not accessible before that point in time)&lt;/li&gt;
+&lt;li&gt;📏 default theme gained the option to change the length of the short link &lt;/li&gt;
+&lt;li&gt;🌐 improvements with Screen Readers (accessibility, ARIA improvements) on the Default-Theme&lt;/li&gt;
+&lt;li&gt;🆔 default theme supports setting &lt;code&gt;preferredId&lt;/code&gt; (you tell Flink which slug it should use)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🧮 native release builds contain checksums now&lt;/li&gt;
+&lt;li&gt;🧮 native release builds for almost all platforms and CPU architectures&lt;/li&gt;
+&lt;li&gt;🪟 win-x64&lt;/li&gt;
+&lt;li&gt;🪟 win-x86&lt;/li&gt;
+&lt;li&gt;🪟 win-arm64&lt;/li&gt;
+&lt;li&gt;🍏 osx-x64&lt;/li&gt;
+&lt;li&gt;🍏 osx-arm64&lt;/li&gt;
+&lt;li&gt;🐧 linux-x64&lt;/li&gt;
+&lt;li&gt;🐧 linux-musl-x64&lt;/li&gt;
+&lt;li&gt;🐧 linux-musl-arm64&lt;/li&gt;
+&lt;li&gt;🐧 linux-arm&lt;/li&gt;
+&lt;li&gt;🐧 linux-arm64&lt;/li&gt;
+&lt;li&gt;🐋 support for ARM Docker Container builds (multi-arch manifests)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="knuckles-smol" src="/uploads/8697cef4626e52eb06ab314509f73a72/knuckles-smol.png" /&gt;&lt;/p&gt;</content>
     <link href="https://gitlab.com/rtraceio/web/flink/-/releases/2.1.0" rel="alternate"/>
   </entry>
 </feed>
