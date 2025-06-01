@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homepage Releases</title>
-  <updated>2025-06-01T14:30:57.789098-04:00</updated>
+  <updated>2025-06-01T15:30:54.565636-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -144,9 +144,9 @@
     <link href="https://github.com/gethomepage/homepage/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/gethomepage/homepage/releases/tag/v1.3.1</id>
-    <title>New release for Homepage: v1.3.1</title>
-    <updated>2025-06-01T12:48:26-04:00</updated>
+    <id>https://github.com/gethomepage/homepage/releases/tag/v1.3.2</id>
+    <title>New release for Homepage: v1.3.2</title>
+    <updated>2025-06-01T15:02:46-04:00</updated>
     <author>
       <name>gethomepage/homepage</name>
     </author>
@@ -155,7 +155,7 @@
 &lt;li&gt;Enhancement: support breaking changes in wg-easy v15 by @shamoon in https://github.com/gethomepage/homepage/pull/5343&lt;/li&gt;
 &lt;li&gt;Fix: make gluetun port_forwarded opt-in by @shamoon in https://github.com/gethomepage/homepage/pull/5345&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v1.3.0...v1.3.1&lt;/p&gt;</content>
-    <link href="https://github.com/gethomepage/homepage/releases/tag/v1.3.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/gethomepage/homepage/compare/v1.3.0...v1.3.2&lt;/p&gt;</content>
+    <link href="https://github.com/gethomepage/homepage/releases/tag/v1.3.2" rel="alternate"/>
   </entry>
 </feed>
