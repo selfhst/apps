@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-06-01T13:33:12.052031-04:00</updated>
+  <updated>2025-06-01T14:33:11.573052-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,8 @@ no1etal, Jon D. and Johnathan D on &lt;a href="https://www.patreon.com/freika"&g
       - dawarich_public:/var/app/public
       - dawarich_watched:/var/app/tmp/imports/watched
       - dawarich_storage:/var/app/storage
-+     - dawarich_db_data:/dawarich_db_data
++     # if you use something like dawarich_db_data_pg_17 due to Pg17 migration, use your existing volume name
++     - dawarich_db_data:/dawarich_db_data 
 ...
     environment:
       ...

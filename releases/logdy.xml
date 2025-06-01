@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Logdy Releases</title>
-  <updated>2025-06-01T13:33:02.903813-04:00</updated>
+  <updated>2025-06-01T14:33:02.432074-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -53,7 +53,7 @@
   <entry>
     <id>https://github.com/logdyhq/logdy-core/releases/tag/v0.17.0</id>
     <title>New release for Logdy: </title>
-    <updated>2025-06-01T05:37:57-04:00</updated>
+    <updated>2025-06-01T14:09:57-04:00</updated>
     <author>
       <name>logdyhq/logdy-core</name>
     </author>
