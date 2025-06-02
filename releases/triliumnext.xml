@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2025-06-02T01:33:21.819410-04:00</updated>
+  <updated>2025-06-02T02:33:23.621808-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -622,7 +622,8 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
 &lt;p&gt;[!CAUTION]
 * The sync version has been increased, so you will have to update both the server (if any) and the desktop client.
 * If you have automatic Docker deployment, you might have to redeploy the container, see https://github.com/orgs/TriliumNext/discussions/2096.
-* &lt;strong&gt;For (advanced) manual setups only:&lt;/strong&gt; Following a tooling change, the main entry point has changed from &lt;code&gt;main.js&lt;/code&gt; to &lt;code&gt;main.cjs&lt;/code&gt;. Same goes for the Electron build.&lt;/p&gt;
+* &lt;strong&gt;For (advanced) manual setups only:&lt;/strong&gt; Following a tooling change, the main entry point has changed from &lt;code&gt;main.js&lt;/code&gt; to &lt;code&gt;main.cjs&lt;/code&gt;. Same goes for the Electron build.
+* There have been reports that Trilium Web Clipper is not compatible with this version. If you make heavy use of it, perhaps wait for the upcoming bugfix version.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]
 If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&gt;
 &lt;ul&gt;
@@ -708,10 +709,6 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
 &lt;li&gt;README improvements by @FliegendeWurst&lt;/li&gt;
 &lt;li&gt;Improved the documentation of text note keyboard shortcuts (including adding missing shortcuts).&lt;/li&gt;
 &lt;li&gt;Improvements to "Packaged version for Linux" by @HersheyStormBottle&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;🌍 Internationalization&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[…]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🛠️ Technical updates&lt;/h2&gt;
 &lt;ul&gt;
