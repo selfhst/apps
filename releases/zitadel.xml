@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zitadel Releases</title>
-  <updated>2025-06-02T05:33:09.398448-04:00</updated>
+  <updated>2025-06-02T06:33:05.943822-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -51,6 +51,7 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.67.14...v2.67.15"&gt;2.67.15&lt;/a&gt; (2025-06-02)&lt;/h2&gt;
+&lt;p&gt;‼️ Warning: please read and follow &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; when you upgrade.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;eventstore:&lt;/strong&gt; use decimal, correct mirror (&lt;a href="https://github.com/zitadel/zitadel/issues/9903"&gt;#9903&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/2221498a082dbb3c155244344237dfa1d560a15e"&gt;2221498&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/9812"&gt;#9812&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9878"&gt;#9878&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9881"&gt;#9881&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9884"&gt;#9884&lt;/a&gt;&lt;/li&gt;
@@ -66,6 +67,7 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.68.10...v2.68.11"&gt;2.68.11&lt;/a&gt; (2025-06-02)&lt;/h2&gt;
+&lt;p&gt;‼️ Warning: please read and follow &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; when you upgrade.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;eventstore:&lt;/strong&gt; use decimal, correct mirror (&lt;a href="https://github.com/zitadel/zitadel/issues/9904"&gt;#9904&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/ed6437dcd8492784f8442a3ad6ddc9147a373da1"&gt;ed6437d&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/9812"&gt;#9812&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9878"&gt;#9878&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9881"&gt;#9881&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9884"&gt;#9884&lt;/a&gt;&lt;/li&gt;
@@ -81,6 +83,7 @@
       <name>zitadel/zitadel</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/zitadel/zitadel/compare/v2.69.10...v2.69.11"&gt;2.69.11&lt;/a&gt; (2025-06-02)&lt;/h2&gt;
+&lt;p&gt;‼️ Warning: please read and follow &lt;a href="https://zitadel.com/docs/support/advisory/a10016"&gt;technical advisory 10016&lt;/a&gt; when you upgrade.&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;eventstore:&lt;/strong&gt; use decimal, correct mirror (&lt;a href="https://github.com/zitadel/zitadel/issues/9907"&gt;#9907&lt;/a&gt;) (&lt;a href="https://github.com/zitadel/zitadel/commit/315f49030b13f22a83943c8c1ec32e7a462685df"&gt;315f490&lt;/a&gt;), closes &lt;a href="https://github.com/zitadel/zitadel/issues/9812"&gt;#9812&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9878"&gt;#9878&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9881"&gt;#9881&lt;/a&gt; &lt;a href="https://github.com/zitadel/zitadel/issues/9884"&gt;#9884&lt;/a&gt;&lt;/li&gt;
