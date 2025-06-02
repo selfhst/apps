@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ezBookkeeping Releases</title>
-  <updated>2025-06-02T04:35:26.259738-04:00</updated>
+  <updated>2025-06-02T05:35:32.399673-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -353,7 +353,7 @@
 &lt;li&gt;Add Italian language (#124, thx @waron97)&lt;/li&gt;
 &lt;li&gt;Add National Bank of Ukraine exchange rates data source (#122, thx @nktlitvinenko)&lt;/li&gt;
 &lt;li&gt;Add transaction calendar in transaction list page&lt;/li&gt;
-&lt;li&gt;Import transaction from Beancount (#56)&lt;/li&gt;
+&lt;li&gt;Import transactions from Beancount (#56)&lt;/li&gt;
 &lt;li&gt;Import transactions from Feidee Mymoney (Elecloud) (#93)&lt;/li&gt;
 &lt;li&gt;Support user custom exchange rates data&lt;/li&gt;
 &lt;li&gt;Set amount format for Delimiter-separated Values (DSV) File&lt;/li&gt;

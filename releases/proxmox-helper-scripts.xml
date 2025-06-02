@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Proxmox Helper-Scripts Releases</title>
-  <updated>2025-06-02T04:35:25.137918-04:00</updated>
+  <updated>2025-06-02T05:35:31.259463-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -159,7 +159,7 @@
   </entry>
   <entry>
     <id>https://github.com/community-scripts/ProxmoxVE/releases/tag/2025-06-01</id>
-    <title>New release for Proxmox Helper-Scripts: 2025-06-01</title>
+    <title>New release for Proxmox Helper-Scripts: 2025-06-01 - Happy Children's Day!</title>
     <updated>2025-06-01T20:26:12-04:00</updated>
     <author>
       <name>community-scripts/ProxmoxVE</name>
