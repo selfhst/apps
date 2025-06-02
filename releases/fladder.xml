@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fladder Releases</title>
-  <updated>2025-06-02T14:34:44.139505-04:00</updated>
+  <updated>2025-06-02T15:34:33.952078-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -179,7 +179,7 @@ Other small bugfixes&lt;/p&gt;
 &lt;li&gt;feat: Add max concurrent downloads to settings by @PartyDonut in https://github.com/DonutWare/Fladder/pull/347&lt;/li&gt;
 &lt;li&gt;feat: Player track remember when not default by @Julien9969 in https://github.com/DonutWare/Fladder/pull/339&lt;/li&gt;
 &lt;li&gt;feat: UI 1.5 and other Improvements by @PartyDonut in https://github.com/DonutWare/Fladder/pull/357&lt;/li&gt;
-&lt;li&gt;feat: HTPC mode startup argument by @PartyDonut in https://github.com/DonutWare/Fladder/pull/358&lt;/li&gt;
+&lt;li&gt;feat: HTPC mode startup argument (-a --htpc) by @PartyDonut in https://github.com/DonutWare/Fladder/pull/358&lt;/li&gt;
 &lt;li&gt;feat: Ask for playback type when media is downloaded by @PartyDonut in https://github.com/DonutWare/Fladder/pull/361&lt;/li&gt;
 &lt;li&gt;feat: Added update notification and download links per platform by @PartyDonut in https://github.com/DonutWare/Fladder/pull/362&lt;/li&gt;
 &lt;/ul&gt;
