@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-06-01T20:32:33.408482-04:00</updated>
+  <updated>2025-06-01T21:32:37.606790-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -201,5 +201,24 @@
 &lt;li&gt;Fix: コントロールパネルのジョブキューページからPausedなジョブ一覧を閲覧できない問題を修正&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.5.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.6.0</id>
+    <title>New release for Misskey: 2025.6.0</title>
+    <updated>2025-06-01T20:58:27-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhance: 非同期的なコンポーネントの読み込み時のハンドリングを強化&lt;/li&gt;
+&lt;li&gt;Fix: リアクションの一部の絵文字が重複して表示されることがある問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: 非利用者に対するユーザー作成コンテンツの公開範囲が全て非公開になっている場合にログインできない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: 非利用者に対するユーザー作成コンテンツの公開範囲が全て非公開になっている場合でもusers/showを許可するように&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.6.0" rel="alternate"/>
   </entry>
 </feed>
