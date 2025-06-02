@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Releases</title>
-  <updated>2025-06-02T07:33:24.930656-04:00</updated>
+  <updated>2025-06-02T08:33:27.951403-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -621,6 +621,7 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!CAUTION]
 * The sync version has been increased, so you will have to update both the server (if any) and the desktop client.
+* If you have a white screen when running the application (seems to mostly happen on Linux), press &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Shift&lt;/kbd&gt;+&lt;kbd&gt;R&lt;/kbd&gt;. For more context, see #2103 .
 * If you have automatic Docker deployment, you might have to redeploy the container, see https://github.com/orgs/TriliumNext/discussions/2096.
 * &lt;strong&gt;For (advanced) manual setups only:&lt;/strong&gt; Following a tooling change, the main entry point has changed from &lt;code&gt;main.js&lt;/code&gt; to &lt;code&gt;main.cjs&lt;/code&gt;. Same goes for the Electron build.
 * There have been reports that Trilium Web Clipper is not compatible with this version. If you make heavy use of it, perhaps wait for the upcoming bugfix version.&lt;/p&gt;
