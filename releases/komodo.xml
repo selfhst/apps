@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-06-02T13:33:45.266895-04:00</updated>
+  <updated>2025-06-02T14:33:42.595586-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -187,7 +187,7 @@ const servers = await komodo.read("ListServers", {
       <name>moghtech/komodo</name>
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
-&lt;p&gt;🚨 This release moves &lt;strong&gt;official support to FerretDB v2&lt;/strong&gt;. Users who deployed v1.17.5 or before using Postgres / Sqlite option are using FerretDB v1 and should &lt;strong&gt;eventually&lt;/strong&gt; migrate using the &lt;a href="https://github.com/moghtech/komodo/blob/main/bin/util/docs/copy-database.md#ferretdb-v2-update-guide"&gt;FerretDB v2 Update Guide&lt;/a&gt;. Note that this is &lt;strong&gt;not a change to Komodo itself&lt;/strong&gt;, only to the list of supported Mongo stand-ins. Users can update to 1.17.6 and continue to use FerretDB v1 if they wish.&lt;/p&gt;
+&lt;p&gt;🚨 This release moves &lt;strong&gt;official support to FerretDB v2&lt;/strong&gt;. Users who deployed v1.17.5 or before using Postgres / Sqlite option are using FerretDB v1 and should &lt;strong&gt;eventually&lt;/strong&gt; migrate using the &lt;a href="https://github.com/moghtech/komodo/blob/main/bin/util/docs/copy-database.md#ferretdb-v2-update-guide"&gt;FerretDB v2 Update Guide&lt;/a&gt;. Note that this is &lt;strong&gt;not a change to Komodo itself&lt;/strong&gt;, only to the list of supported Mongo stand-ins. Users can update to 1.18.0 and continue to use FerretDB v1 if they wish.&lt;/p&gt;
 &lt;p&gt;🚨 Admins managing user permissions may need to modify the user access rules. In particular, &lt;strong&gt;container logs&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;docker inspect&lt;/code&gt;&lt;/strong&gt; on containers, and &lt;strong&gt;terminal access&lt;/strong&gt; are now gated behind additional permissions (for non admin users).&lt;/p&gt;
 &lt;h3&gt;&lt;strong&gt;Specific Permissions&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;The main purpose of this release is to refine the access control / permissions system in Komodo. In 1.17.5 and before, access to resources was controlled only via access level (&lt;code&gt;Read&lt;/code&gt;, &lt;code&gt;Execute&lt;/code&gt;, &lt;code&gt;Write&lt;/code&gt;). These levels provide access to the associated &lt;code&gt;/read&lt;/code&gt;, &lt;code&gt;/execute&lt;/code&gt;, and &lt;code&gt;/write&lt;/code&gt; methods on resources, and it worked pretty well to provide RBAC.&lt;/p&gt;
