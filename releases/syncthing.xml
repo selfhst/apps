@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing Releases</title>
-  <updated>2025-06-02T12:31:49.644288-04:00</updated>
+  <updated>2025-06-02T13:31:49.906419-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,5 +100,53 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syncthing/syncthing/compare/v1.29.5...v1.29.6&lt;/p&gt;</content>
     <link href="https://github.com/syncthing/syncthing/releases/tag/v1.29.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/syncthing/syncthing/releases/tag/v1.29.7</id>
+    <title>New release for Syncthing: v1.29.7</title>
+    <updated>2025-06-02T13:18:36-04:00</updated>
+    <author>
+      <name>syncthing/syncthing</name>
+    </author>
+    <content>&lt;h2&gt;Syncthing 2 is coming&lt;/h2&gt;
+&lt;p&gt;Syncthing version 1.x will soon be replaced by Syncthing version 2.x.
+Version 2 brings a new database format and various cleanups, but remains
+protocol compatible with Syncthing 1.&lt;/p&gt;
+&lt;p&gt;More detailed information about Syncthing 2 can be found in the release
+notes at https://github.com/syncthing/syncthing/releases.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(config): deep copy configuration defaults (fixes #9916) by @hazemKrimi in https://github.com/syncthing/syncthing/pull/10101&lt;/li&gt;
+&lt;li&gt;fix(config): mark audit log options as needing restart (fixes #10099) by @marbens-arch in https://github.com/syncthing/syncthing/pull/10100&lt;/li&gt;
+&lt;li&gt;fix(versioner): fix perms of created folders (fixes #9626) by @ashishbhate in https://github.com/syncthing/syncthing/pull/10105&lt;/li&gt;
+&lt;li&gt;fix(syncthing): ensure both config and data dirs exist at startup (fixes #10126) by @calmh in https://github.com/syncthing/syncthing/pull/10127&lt;/li&gt;
+&lt;li&gt;fix(gui): update &lt;code&gt;uncamel()&lt;/code&gt; to handle strings like 'IDs' (fixes #10128) by @luckman212 in https://github.com/syncthing/syncthing/pull/10131&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(gui): close a modal when pressing ESC after switching modal tabs (fixes #9489) by @hazemKrimi in https://github.com/syncthing/syncthing/pull/10092&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(gui): add Serbian (sr) translation template by @acolomb in https://github.com/syncthing/syncthing/pull/10116&lt;/li&gt;
+&lt;li&gt;build: reactivate golangci-lint by @calmh in https://github.com/syncthing/syncthing/pull/10118&lt;/li&gt;
+&lt;li&gt;chore: move golangci-lint &amp;amp; meta to separate PR-only workflow by @calmh in https://github.com/syncthing/syncthing/pull/10119&lt;/li&gt;
+&lt;li&gt;refactor: use slices.Contains to simplify code by @pullmerge in https://github.com/syncthing/syncthing/pull/10121&lt;/li&gt;
+&lt;li&gt;build: process for automatic release tags by @calmh in https://github.com/syncthing/syncthing/pull/10133&lt;/li&gt;
+&lt;li&gt;refactor: use slices package for sort by @mrclmr in https://github.com/syncthing/syncthing/pull/10132&lt;/li&gt;
+&lt;li&gt;refactor: use slices package for sorting by @mrclmr in https://github.com/syncthing/syncthing/pull/10136&lt;/li&gt;
+&lt;li&gt;docs: general notes about v2 coming by @calmh in https://github.com/syncthing/syncthing/pull/10135&lt;/li&gt;
+&lt;li&gt;build: add labeler workflow for PRs by @calmh in https://github.com/syncthing/syncthing/pull/10143&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@hazemKrimi made their first contribution in https://github.com/syncthing/syncthing/pull/10092&lt;/li&gt;
+&lt;li&gt;@pullmerge made their first contribution in https://github.com/syncthing/syncthing/pull/10121&lt;/li&gt;
+&lt;li&gt;@ashishbhate made their first contribution in https://github.com/syncthing/syncthing/pull/10105&lt;/li&gt;
+&lt;li&gt;@mrclmr made their first contribution in https://github.com/syncthing/syncthing/pull/10132&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syncthing/syncthing/compare/v1.29.6...v1.29.7&lt;/p&gt;</content>
+    <link href="https://github.com/syncthing/syncthing/releases/tag/v1.29.7" rel="alternate"/>
   </entry>
 </feed>
