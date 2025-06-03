@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-06-03T08:31:47.665044-04:00</updated>
+  <updated>2025-06-03T09:31:51.798652-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,7 +160,10 @@
 &lt;li&gt;CardDAV: Strict vCard parsing (#1607).&lt;/li&gt;
 &lt;li&gt;WebDAV: Dead property updates (#1611).&lt;/li&gt;
 &lt;li&gt;WebDAV: Use last change id in &lt;code&gt;CTag&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/7487164"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.12.4" rel="alternate"/>
   </entry>
 </feed>
