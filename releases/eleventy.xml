@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eleventy Releases</title>
-  <updated>2025-06-03T15:32:41.752986-04:00</updated>
+  <updated>2025-06-03T16:32:38.748914-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -492,7 +492,15 @@ const hello = "hi";&lt;/p&gt;
     <author>
       <name>11ty/eleventy</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;h2&gt;Try it out in your project&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;npm install @11ty/eleventy@latest&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Read more about &lt;a href="https://www.11ty.dev/docs/"&gt;getting started with Eleventy&lt;/a&gt; or &lt;a href="https://www.11ty.dev/#why-should-you-use-eleventy"&gt;why you should use Eleventy&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Milestone&lt;/strong&gt;: https://github.com/11ty/eleventy/milestone/48?closed=1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit log&lt;/strong&gt;: https://github.com/11ty/eleventy/compare/v3.1.0...v3.1.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Release notes&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Fix issue with object property order when using Computed Data in a Paginated template #3849&lt;/li&gt;
 &lt;li&gt;Fix issue with absolute paths for virtual templates #3805&lt;/li&gt;
 &lt;li&gt;Fix pagination regression issue when paginating over configuration collections #3808 #3823 #3834 #3825&lt;/li&gt;
@@ -504,9 +512,7 @@ const hello = "hi";&lt;/p&gt;
 &lt;li&gt;Fix issue with global data directory when setting input to a parent directory (e.g. &lt;code&gt;"../"&lt;/code&gt;) #3809&lt;/li&gt;
 &lt;li&gt;Improved error messaging for invalid &lt;code&gt;date&lt;/code&gt; values in Data Cascade #3833&lt;/li&gt;
 &lt;li&gt;Fixes issue with duplicate entries in template dependency graph (and collections) from missing node normalization during subsequent --watch or --serve builds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Milestone&lt;/strong&gt;: https://github.com/11ty/eleventy/milestone/48?closed=1
-&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/11ty/eleventy/compare/v3.1.0...v3.1.1&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/11ty/eleventy/releases/tag/v3.1.1" rel="alternate"/>
   </entry>
 </feed>
