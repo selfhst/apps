@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-06-04T08:32:55.638007-04:00</updated>
+  <updated>2025-06-04T09:32:58.635276-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -289,11 +289,7 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
 &lt;li&gt;Add inline actions into workspaces table (#17636, d9b00e484) (@BrunoQuaresma)&lt;/li&gt;
 &lt;li&gt;Display builtin apps on workspaces table (#17695, 6ac1bd807) (@BrunoQuaresma)&lt;/li&gt;
 &lt;li&gt;Display user apps in the workspaces table (#17744, 1adad418a) (@BrunoQuaresma)&lt;/li&gt;
-&lt;li&gt;Add &lt;code&gt;is_prebuild_claim&lt;/code&gt; to distinguish post-claim provisioning (#17757, af2941bb9) (@dannykopping)&lt;/li&gt;
-&lt;li&gt;Fetch prebuilds metrics state in background (#17792, b2a1de9e2) (@dannykopping)&lt;/li&gt;
 &lt;li&gt;Implement expiration policy logic for prebuilds (#17996, 6f6e73af0) (@ssncferreira)&lt;/li&gt;
-&lt;li&gt;Reinitialize agents when a prebuilt workspace is claimed (#17475, 425ee6fa5) (@SasSwart)&lt;/li&gt;
-&lt;li&gt;Track resource replacements when claiming a prebuilt workspace (#17571, 6e967780c) (@dannykopping)&lt;/li&gt;
 &lt;li&gt;Add hidden &lt;code&gt;CODER_AGENT_IS_SUB_AGENT&lt;/code&gt; flag to &lt;code&gt;coder agent&lt;/code&gt; (#17783, 7f056da08) (@DanielleMaywood)&lt;/li&gt;
 &lt;li&gt;Load terraform modules when using dynamic parameters (#17714, 60762d4c1) (@aslilac)&lt;/li&gt;
 &lt;li&gt;Setup url autofill for dynamic parameters (#17739, d6cb9b49b) (@jaaydenh)&lt;/li&gt;
