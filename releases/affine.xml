@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2025-06-04T05:32:34.902799-04:00</updated>
+  <updated>2025-06-04T06:32:35.386927-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -165,10 +165,19 @@
       <name>toeverything/AFFiNE</name>
     </author>
     <content>&lt;h2&gt;What's New&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/450af39b-7227-4dc5-a681-ddb979e4ae84" /&gt;&lt;/p&gt;
+&lt;p&gt;We've shipped 0.22 🎆&lt;/p&gt;
+&lt;p&gt;With enhanced AI capabilities, more integrated features, and extra optimizations, AFFiNE becomes an even more valuable part of your workflow. Plus, this release brings important user experience improvements and adds some of the most requested features&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;New All Docs &amp;amp; Collection pages&lt;/li&gt;
-&lt;li&gt;Calendar integration&lt;/li&gt;
+&lt;li&gt;Code block &amp;amp; HTML block&lt;/li&gt;
 &lt;li&gt;AI workspace embedding&lt;/li&gt;
+&lt;li&gt;AI search &amp;amp; reason&lt;/li&gt;
+&lt;li&gt;New all doc &amp;amp; collection&lt;/li&gt;
+&lt;li&gt;Embed doc with alias&lt;/li&gt;
+&lt;li&gt;Calendar integrations&lt;/li&gt;
+&lt;li&gt;Database&lt;/li&gt;
+&lt;li&gt;Clipboard blob &amp;amp; loading block&lt;/li&gt;
+&lt;li&gt;Android Test&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.21.6...v0.22.0&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.22.0" rel="alternate"/>
