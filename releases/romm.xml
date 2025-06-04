@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-06-04T14:31:40.094569-04:00</updated>
+  <updated>2025-06-04T15:31:35.605654-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -192,12 +192,16 @@ If you were testing an Alpha or Beta release of &lt;code&gt;3.9.0&lt;/code&gt;, 
     <author>
       <name>rommapp/romm</name>
     </author>
-    <content>&lt;h2&gt;Major changes&lt;/h2&gt;
-&lt;h3&gt;&lt;a href="https://retroachievements.org/"&gt;RetroAchivement&lt;/a&gt;&lt;/h3&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!CAUTION]
+We've discovered a bug in this version with &lt;strong&gt;partial metadata scans&lt;/strong&gt; that may overwrite the cover image for game already in your library. At this time we'd recommend &lt;strong&gt;NOT enabling RetroAchivements&lt;/strong&gt; and &lt;strong&gt;NOT running partial metadata scans&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Major changes&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="https://retroachievements.org/"&gt;RetroAchivements&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Your achievements, right in the app! Integrating with the RA API will allow you to view the achivements you've earned for games played on other devices. See the full release notes for more information. https://github.com/rommapp/romm/pull/1858&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-Set the &lt;code&gt;RETROACHIEVEMENTS_API_KEY&lt;/code&gt; environment variable to the "Web API Key" from your &lt;a href="https://retroachievements.org/settings"&gt;account settings&lt;/a&gt; to enable this feature. A partial metadata scan &lt;strong&gt;must be run after upgrading&lt;/strong&gt; to update the RA IDs for your library.&lt;/p&gt;
+Set the &lt;code&gt;RETROACHIEVEMENTS_API_KEY&lt;/code&gt; environment variable to the "Web API Key" from your &lt;a href="https://retroachievements.org/settings"&gt;account settings&lt;/a&gt; to enable this feature. ~~A partial metadata scan &lt;strong&gt;must be run after upgrading&lt;/strong&gt; to update the RA IDs for your library.~~&lt;/p&gt;
 &lt;p&gt;Earning achievements in RomM with EmulatorJS is &lt;strong&gt;not supported&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;A more accessible app&lt;/h3&gt;
