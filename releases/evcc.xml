@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-06-04T12:34:40.123746-04:00</updated>
+  <updated>2025-06-04T13:34:42.825790-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -199,12 +199,10 @@
 &lt;li&gt;94b1145e39cc5751174fd69be90f5fd831ac2a99 Loadpoint: publish charge voltages also with phase switching (#21510)&lt;/li&gt;
 &lt;li&gt;4d2ba9ba0b93d03072844c4a8377821ba11312c2 Phoenix EM Eth: fix panic&lt;/li&gt;
 &lt;li&gt;6e3e4979f18778ef0d0e36b199ffce6f8a3400aa Renault: fix for incomplete json payload in MY24 wakeupmode (#21562)&lt;/li&gt;
-&lt;li&gt;a4a6c6bb9f2d18fca8bb002075f413c0c8e69558 Revert "wip"&lt;/li&gt;
 &lt;li&gt;931e77fbe3c69c54ec85f9df2eca2104eb2864ba Sessions: add year csv export (#21555)&lt;/li&gt;
 &lt;li&gt;bfdaf49047793dc98a446dedd19a9f0ad9feebca Vestel: decorate RFID based on version (#21519)&lt;/li&gt;
 &lt;li&gt;926921563f8ec66a14b4047e5d8d67d03d99eecd build(deps): bump golangci/golangci-lint-action from 7 to 8 (#21565)&lt;/li&gt;
 &lt;li&gt;b9e7fb126a0b59813c86fb91b76036ee918800c6 server/updater: update to latest gokrazy/updater (needs a context) (#21564)&lt;/li&gt;
-&lt;li&gt;352085621d27ee76130bb9953bf948d9eb4f3132 wip&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.204.1" rel="alternate"/>
   </entry>
