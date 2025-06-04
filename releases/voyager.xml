@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-06-04T10:34:27.705885-04:00</updated>
+  <updated>2025-06-04T11:34:20.873244-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,7 +158,9 @@
 &lt;ul&gt;
 &lt;li&gt;chore: set default instance to lemmy.zip, remove lemm.ee&lt;/li&gt;
 &lt;li&gt;PR: #2034&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://lemm.ee/post/65824884"&gt;Due to lemm.ee shutting down on June 30th, 2025&lt;/a&gt;, if you have an account on lemm.ee, I recommend to export your Account Settings (https://lemm.ee/settings) and create a new account + import settings on lemmy.zip (https://lemmy.zip/settings).&lt;/p&gt;
+&lt;p&gt;(I'm still on vacation; this is a quick hotfix!)&lt;/p&gt;</content>
     <link href="https://github.com/aeharding/voyager/releases/tag/2.35.1" rel="alternate"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-06-04T10:31:37.777117-04:00</updated>
+  <updated>2025-06-04T11:31:36.052342-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -450,7 +450,17 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;The VoIP call widget is now draggable, allowing users to reposition it freely during calls for a smoother experience. API log filtering has been enhanced, enabling refined queries based on log level, timestamp range, and method, while maintaining pagination functionality. Additionally, key reliability issues in the Apps-Engine have been addressed to improve system stability and consistent execution.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Several user experience and system issues have been resolved. Notable fixes include conflict resolution for contacts from different sources, proper categorization of deactivated users, improved handling of corrupted image uploads, accurate search for file descriptions with non-ASCII characters, and correct rendering of special characters in channel descriptions and code blocks. Other improvements cover direct call behavior across devices, token display in air-gapped environments, OTR message edits, OAuth login reliability, and enhanced pruning and upload UI behaviors.&lt;/p&gt;
+&lt;p&gt;#### Known issues
+- During the pruning process, if you select the Prune Files Only option, the client will not delete the messages automatically. A reload is necessary. If this is crucial to you, you should set DISABLE_DB_WATCHERS=false. For more context, see issue https://github.com/RocketChat/Rocket.Chat/pull/35981 and &lt;a href="https://docs.rocket.chat/docs/deployment-environment-variables#optional-environment-variables"&gt;DISABLE_DB_WATCHERS&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.14.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Deno: &lt;code&gt;1.43.5&lt;/code&gt;&lt;/li&gt;
