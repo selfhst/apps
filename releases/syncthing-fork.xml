@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-06-04T19:35:37.106522-04:00</updated>
+  <updated>2025-06-04T20:35:42.813717-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,7 +98,9 @@ The config import and export feature now reads or writes the file "(InternalStor
 - Delete all ".pem", ".xml" files because they contain an outdated and unencrypted config from prior exports.&lt;/p&gt;
 &lt;p&gt;Screenshot:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/1cb552f1-3403-4084-81fd-b272dfa14e33" /&gt;&lt;/p&gt;
-&lt;p&gt;⚡If you'd like to import an old and unencrypted config consisting of multiple files instead of the zip archive, please follow &lt;a href="https://github.com/Catfriend1/syncthing-android?tab=readme-ov-file#switching-from-the-now-deprecated-official-version"&gt;these steps&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;⚡If you'd like to import an old and unencrypted config consisting of multiple files instead of the zip archive, please follow &lt;a href="https://github.com/Catfriend1/syncthing-android?tab=readme-ov-file#switching-from-the-now-deprecated-official-version"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;🤷‍♂️ Problems upgrading? See release notes of &lt;a href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.6.5"&gt;v1.29.6.5&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Catfriend1/syncthing-android/compare/v1.29.7.1...v1.29.7.2&lt;/p&gt;</content>
     <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.7.2" rel="alternate"/>
   </entry>
 </feed>
