@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Parseable Releases</title>
-  <updated>2025-06-05T01:32:40.928608-04:00</updated>
+  <updated>2025-06-05T02:32:43.476448-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,8 +99,8 @@
   </entry>
   <entry>
     <id>https://github.com/parseablehq/parseable/releases/tag/v2.3.2</id>
-    <title>New release for Parseable: Bugfix release v2.3.2</title>
-    <updated>2025-06-03T09:34:23-04:00</updated>
+    <title>New release for Parseable: Bug fix release v2.3.2</title>
+    <updated>2025-06-05T02:25:54-04:00</updated>
     <author>
       <name>parseablehq/parseable</name>
     </author>
@@ -111,6 +111,7 @@
 &lt;li&gt;Helper functions for query by @parmesant in https://github.com/parseablehq/parseable/pull/1330&lt;/li&gt;
 &lt;li&gt;fix: flattening for kinesis by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/1329&lt;/li&gt;
 &lt;li&gt;chore: update release version in cargo toml by @nikhilsinhaparseable in https://github.com/parseablehq/parseable/pull/1333&lt;/li&gt;
+&lt;li&gt;chore: add Docker build to tag release workflow by @nitisht in https://github.com/parseablehq/parseable/pull/1336&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/parseablehq/parseable/compare/v2.3.1...v2.3.2&lt;/p&gt;</content>
     <link href="https://github.com/parseablehq/parseable/releases/tag/v2.3.2" rel="alternate"/>
