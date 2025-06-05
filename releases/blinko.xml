@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-06-05T08:36:35.685837-04:00</updated>
+  <updated>2025-06-05T09:36:42.193677-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,11 +80,48 @@ feat: add edit message functionality and share conversation feature, update tran
   <entry>
     <id>https://github.com/blinkospace/blinko/releases/tag/1.0.7</id>
     <title>New release for Blinko: Blinko 1.0.7</title>
-    <updated>2025-06-05T06:27:37-04:00</updated>
+    <updated>2025-06-05T08:43:03-04:00</updated>
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;p&gt;Under construction, full changelog will be updated after build completion...&lt;/p&gt;</content>
+    <content>&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add AI configuration import feature with multilingual support in translation files https://github.com/blinkospace/blinko/commit/552e8812296a48c7dd601d16695e904f19b12605&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add Tauri process and updater plugins to enhance application functionality https://github.com/blinkospace/blinko/commit/8c7ff53b112ebaabcb16c83cc114aee9a1c2ea45&lt;/li&gt;
+&lt;li&gt;add showOverlay prop to UserAvatarDropdown for hover effect in Sidebar https://github.com/blinkospace/blinko/commit/5e385d88a13f4c2e39315b24c5b4f8e3db587355&lt;/li&gt;
+&lt;li&gt;enhance settings page layout with responsive design for mobile and desktop views https://github.com/blinkospace/blinko/commit/6173bb9c7ea673450353e7bfa225b849f3cdb031&lt;/li&gt;
+&lt;li&gt;conditionally add Tauri updater plugin for non-mobile platforms https://github.com/blinkospace/blinko/commit/ad8a67ad67b8969d3807b145df5a32ee18844bec&lt;/li&gt;
+&lt;li&gt;Update changelog configuration to improve commit type handling and rendering https://github.com/blinkospace/blinko/commit/6ebc5b7887339c40458b5d5225129a5336af7891&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐛 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;correct syntax for server start callback in index.ts https://github.com/blinkospace/blinko/commit/4a1dc748e52286f8dd9d14982849f90697648c2a&lt;/li&gt;
+&lt;li&gt;update sign-in redirect to use dynamic Blinko endpoint https://github.com/blinkospace/blinko/commit/3371829ae47bdbdf2318a18669e59a6832499af6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update version to 1.0.5 https://github.com/blinkospace/blinko/commit/2e4fed56779e9a3ec4ea7c1770f4039f4e7c8542&lt;/li&gt;
+&lt;li&gt;Update version to 1.0.7 https://github.com/blinkospace/blinko/commit/2374b6eae9487e70319aee2b2d36aebe950e8bb1&lt;/li&gt;
+&lt;li&gt;Fix changelog configuration format https://github.com/blinkospace/blinko/commit/5715d8299023ad95d99dc969cc54c021b2cc744f&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔍 Other Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[ci skip] Update version to 1.0.6 https://github.com/blinkospace/blinko/commit/7f66e71cf91a595ab461f3cdca019cf377e4e6e8&lt;/li&gt;
+&lt;li&gt;[ci skip] Update version to 1.0.5 https://github.com/blinkospace/blinko/commit/8be01a601481d5189f975ae1e6b84f67f52f635a&lt;/li&gt;
+&lt;li&gt;[ci skip] Update version to 1.0.6 https://github.com/blinkospace/blinko/commit/a21b5b63f22e75a473e8c93d9b59542ee36d61ef&lt;/li&gt;
+&lt;li&gt;Merge branch 'main' of https://github.com/blinkospace/blinko https://github.com/blinkospace/blinko/commit/f13ce87306d131122080539747137b918598de8a&lt;/li&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/blinkospace/blinko/pull/712"&gt;#712&lt;/a&gt; by &lt;a href="https://github.com/blinko-space"&gt;blinko-space&lt;/a&gt; from blinkospace/bug-fix https://github.com/blinkospace/blinko/commit/4e5e31c830ba3e50f8f07f33c221ad6244ce8f81&lt;/li&gt;
+&lt;li&gt;[ci skip] Update version to 1.0.7 https://github.com/blinkospace/blinko/commit/84540970e8d3dfade90997ee3fa18eebc8a1687d&lt;/li&gt;
+&lt;li&gt;Merge branch 'main' of https://github.com/blinkospace/blinko https://github.com/blinkospace/blinko/commit/a3dd691ed82298c59511ae4192fb5f693ebc0bf7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✨chore&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;update changelog generation process to use new action and fetch all tags https://github.com/blinkospace/blinko/commit/f45e8329a65346d385972c334c69cfa38e2d8670&lt;/li&gt;
+&lt;li&gt;install global prisma packae to enhance dependency management https://github.com/blinkospace/blinko/commit/684af739b14fd30fe94e3c9b84d6b819d5dd798f&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.0.7" rel="alternate"/>
   </entry>
 </feed>
