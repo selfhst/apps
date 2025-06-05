@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-06-05T09:36:32.555503-04:00</updated>
+  <updated>2025-06-05T10:36:29.550574-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,7 @@
       <name>plexguide/Huntarr.io</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;[Hunatrr] Rewrite of time handling. Utilizes set user setting for time.&lt;/li&gt;
+&lt;li&gt;[Huntarr] Rewrite of time handling. Utilizes set user setting for time.&lt;/li&gt;
 &lt;li&gt;[Schedule] Adjust to reflect if user changes time zones&lt;/li&gt;
 &lt;li&gt;[Logs] Adjust to reflect if user changes time zones&lt;/li&gt;
 &lt;li&gt;[Settings] User can set time with state management adjustments&lt;/li&gt;
