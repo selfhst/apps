@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Huntarr Releases</title>
-  <updated>2025-06-05T16:36:20.622539-04:00</updated>
+  <updated>2025-06-05T17:36:13.477009-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,6 +81,7 @@
 &lt;li&gt;[Schedule] Adjust to reflect if user changes time zones&lt;/li&gt;
 &lt;li&gt;[Logs] Adjust to reflect if user changes time zones&lt;/li&gt;
 &lt;li&gt;[Settings] User can set time with state management adjustments&lt;/li&gt;
+&lt;li&gt;[Swappar] Has been REMOVED. Please use Cleanuperr via the info link. Dev is working on a GUI interface soon.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img width="1746" alt="image" src="https://github.com/user-attachments/assets/47d2282b-0d24-47f0-b229-016953a162b4" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/plexguide/Huntarr.io/releases/tag/7.5.7" rel="alternate"/>
