@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing Releases</title>
-  <updated>2025-06-05T12:31:48.597736-04:00</updated>
+  <updated>2025-06-05T13:31:49.576734-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,6 +114,12 @@ Version 2 brings a new database format and various cleanups, but remains
 protocol compatible with Syncthing 1.&lt;/p&gt;
 &lt;p&gt;More detailed information about Syncthing 2 can be found in the release
 notes at https://github.com/syncthing/syncthing/releases.&lt;/p&gt;
+&lt;p&gt;This release is also available as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;APT repository: https://apt.syncthing.net/&lt;/li&gt;
+&lt;li&gt;Docker image: &lt;code&gt;docker.io/syncthing/syncthing:1.29.7&lt;/code&gt; or &lt;code&gt;ghcr.io/syncthing/syncthing:1.29.7&lt;/code&gt;
+  (&lt;code&gt;{docker,ghcr}.io/syncthing/syncthing:1&lt;/code&gt; to follow just the major version)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Fixes&lt;/h3&gt;
 &lt;ul&gt;
