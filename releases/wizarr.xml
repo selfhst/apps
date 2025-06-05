@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wizarr Releases</title>
-  <updated>2025-06-05T18:31:59.236976-04:00</updated>
+  <updated>2025-06-05T19:32:00.260538-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -231,7 +231,11 @@ Enjoy the smoother UI, robust CI/CD pipeline, and extensible architecture!  &lt;
     <author>
       <name>wizarrrr/wizarr</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;h3&gt;Potentially Breaking Changes&lt;/h3&gt;
+&lt;p&gt;Container no longer runs as root. Please make sure to set the folder permissions on your existing app data folders if updating.
+It is also recommended to set a &lt;code&gt;user: &amp;lt;uid&amp;gt;:&amp;lt;gid&amp;gt;&lt;/code&gt; on your Docker installation. &lt;a href="https://docs.wizarr.dev/getting-started/installation"&gt;See installation docs&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;All Changes&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;Fixed Emby Support&lt;/li&gt;
 &lt;li&gt;Added Update Checker Mechanism and Sponsor Carousel &lt;/li&gt;
 &lt;li&gt;Added Live TV Access Options&lt;/li&gt;

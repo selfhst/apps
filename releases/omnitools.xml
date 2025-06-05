@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OmniTools Releases</title>
-  <updated>2025-06-05T18:35:42.750950-04:00</updated>
+  <updated>2025-06-05T19:35:41.510091-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -218,5 +218,56 @@
 &lt;li&gt;Escape JSON&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/iib0011/omni-tools/releases/tag/v0.4.0</id>
+    <title>New release for OmniTools: v0.4.0</title>
+    <updated>2025-06-05T18:39:22-04:00</updated>
+    <author>
+      <name>iib0011/omni-tools</name>
+    </author>
+    <content>&lt;h2&gt;Docker images&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:0.4.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's New?&lt;/h2&gt;
+&lt;h3&gt;📄 PDF Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge PDF&lt;/li&gt;
+&lt;li&gt;PDF to EPUB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📹 Video Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Flip Video&lt;/li&gt;
+&lt;li&gt;Crop Video&lt;/li&gt;
+&lt;li&gt;Change Video Speed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📊 CSV Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert CSV to YAML&lt;/li&gt;
+&lt;li&gt;Change CSV Separator&lt;/li&gt;
+&lt;li&gt;Find Incomplete CSV Records&lt;/li&gt;
+&lt;li&gt;Transpose CSV&lt;/li&gt;
+&lt;li&gt;Insert CSV Columns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔠 String &amp;amp; Text Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Base64 Encode / Decode&lt;/li&gt;
+&lt;li&gt;Text Statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔄 JSON / Data Conversion Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert TSV to JSON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔢 Number &amp;amp; Calculation Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Slackline Tension Calculator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧰 Other Utilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;QR Code Generator&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>
