@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trilium Releases</title>
-  <updated>2025-06-05T02:31:48.618164-04:00</updated>
+  <updated>2025-06-05T03:31:53.892686-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Trilium: v0.62.6 release</title>
     <updated>2024-01-21T18:00:20-05:00</updated>
     <author>
-      <name>zadam/trilium</name>
+      <name>TriliumNext/trilium</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;optimize migration process #4535&lt;/li&gt;
@@ -31,7 +31,7 @@
     <title>New release for Trilium: v0.63.3 release</title>
     <updated>2024-03-03T01:06:58-05:00</updated>
     <author>
-      <name>zadam/trilium</name>
+      <name>TriliumNext/trilium</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;add API method to erase a revision #4662&lt;/li&gt;
@@ -57,7 +57,7 @@
     <title>New release for Trilium: v0.63.5 release</title>
     <updated>2024-03-28T02:20:17-04:00</updated>
     <author>
-      <name>zadam/trilium</name>
+      <name>TriliumNext/trilium</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;fix rendering of math on non-root paths, closes #4713&lt;/li&gt;
@@ -74,7 +74,7 @@
     <title>New release for Trilium: v0.63.6 release</title>
     <updated>2024-05-18T00:25:19-04:00</updated>
     <author>
-      <name>zadam/trilium</name>
+      <name>TriliumNext/trilium</name>
     </author>
     <content>&lt;p&gt;small fixes&lt;/p&gt;</content>
     <link href="https://github.com/TriliumNext/trilium/releases/tag/v0.63.6" rel="alternate"/>
@@ -84,7 +84,7 @@
     <title>New release for Trilium: v0.63.7 release</title>
     <updated>2024-05-30T01:08:00-04:00</updated>
     <author>
-      <name>zadam/trilium</name>
+      <name>TriliumNext/trilium</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;fixed the botched 0.63.6 build (windows binaries are back)&lt;/li&gt;
