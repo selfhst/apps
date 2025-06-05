@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-06-05T05:30:59.743670-04:00</updated>
+  <updated>2025-06-05T06:30:52.936589-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -120,7 +120,7 @@
   postgres:
     condition: service_started
 ```&lt;/p&gt;
-&lt;p&gt;Specifying with labels:&lt;/p&gt;
+&lt;p&gt;Or specifying with labels:&lt;/p&gt;
 &lt;p&gt;```yaml
 labels:
   proxy.depends_on: redis:service_healthy,postgres:service_started&lt;/p&gt;

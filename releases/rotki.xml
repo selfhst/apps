@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rotki Releases</title>
-  <updated>2025-06-05T05:36:08.625699-04:00</updated>
+  <updated>2025-06-05T06:35:55.849287-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -415,6 +415,7 @@ rotki v1.38.4 is yet another emergency patch release containing some improvement
 &lt;h1&gt;Release Highlights&lt;/h1&gt;
 &lt;h2&gt;Onchain transactions&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="onchain_send (1)" src="https://github.com/user-attachments/assets/4c16cae9-6c38-4429-ac55-88191c0165d3" /&gt;&lt;/p&gt;
+&lt;p&gt;(not working on Windows yet due to: https://github.com/rotki/rotki/issues/10087 -- we will fix it asap in 1.39.1 for Windows users)&lt;/p&gt;
 &lt;p&gt;rotki can finally make onchain transactions from within the app! You can connect your wallet to rotki and then from inside rotki send tokens or native tokens (ETH, xDAI) across all supported EVM chains.&lt;/p&gt;
 &lt;p&gt;To see more info on how check the guide: https://docs.rotki.com/usage-guides/onchain.html&lt;/p&gt;
 &lt;p&gt;This is an experimental feature so tell us if you find any problems and we will fix it.&lt;/p&gt;
