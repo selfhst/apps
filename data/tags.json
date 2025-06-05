@@ -283,6 +283,12 @@
         ]
     },
     {
+        "Tag": "Digital Signage",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Docker",
         "Valid Types": [
             "Companion",
