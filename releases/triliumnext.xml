@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>TriliumNext Notes Releases</title>
-  <updated>2025-06-05T10:33:33.447273-04:00</updated>
+  <updated>2025-06-05T11:33:33.226894-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -660,7 +660,7 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
 &lt;/ul&gt;
 &lt;h2&gt;✨ Improvements&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Improved the text editor style, to match the TriliumNext.&lt;/li&gt;
+&lt;li&gt;Improved the text editor style, to match the TriliumNext by @adoriandoran &lt;/li&gt;
 &lt;li&gt;Footnotes work in image captions by @werererer&lt;/li&gt;
 &lt;li&gt;Improvements to text notes (see the in-app help for more details):&lt;ul&gt;
 &lt;li&gt;Bookmarks, similar to HTML anchors.&lt;/li&gt;
@@ -694,7 +694,7 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
 &lt;li&gt;Docker: Rootless &lt;a href="https://github.com/TriliumNext/Notes/pull/1923/files"&gt;Dockerfiles are now available&lt;/a&gt; by @perfectra1n&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/issues/1002"&gt;Text notes: add a way to move up and down text lines via a keyboard shortcut&lt;/a&gt; by @dogfuntom&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/2030"&gt;improve tab scroll UX by switching from instant to smooth behavior&lt;/a&gt; by @SiriusXT&lt;/li&gt;
-&lt;li&gt;Calendar view: display calendar view if &lt;code&gt;#viewType=calendar&lt;/code&gt; is set.&lt;/li&gt;
+&lt;li&gt;Saved search: display calendar view if &lt;code&gt;#viewType=calendar&lt;/code&gt; is set.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/TriliumNext/Notes/pull/2055"&gt;Mind map: add search support&lt;/a&gt; by @SiriusXT&lt;/li&gt;
 &lt;li&gt;Geo map:&lt;ul&gt;
 &lt;li&gt;The name, icon and color of the track note are displayed as the starting point.&lt;/li&gt;
