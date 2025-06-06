@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Headscale Releases</title>
-  <updated>2025-06-06T07:30:54.628175-04:00</updated>
+  <updated>2025-06-06T08:30:54.556330-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -256,7 +256,13 @@ working in v1 and not tested might be broken in v2 (and vice versa).&lt;/p&gt;
     <author>
       <name>juanfont/headscale</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Security fix&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensure nodes are matching both node key and machine key
+  when connecting.
+  &lt;a href="https://github.com/juanfont/headscale/pull/2642"&gt;#2642&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;474ea236d0c6d393dbcf7baa98da240ad20c1b66 Fix &lt;code&gt;/machine/map&lt;/code&gt; endpoint vulnerability (#2642)&lt;/li&gt;
 &lt;/ul&gt;</content>
