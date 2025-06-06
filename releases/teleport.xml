@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2025-06-06T11:32:47.683197-04:00</updated>
+  <updated>2025-06-06T12:32:47.753464-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -195,6 +195,10 @@ Impacted users are recommended to upgrade their auth and proxy servers to the la
 &lt;li&gt;Fix improper redirect URL validation for SSO login which could be taken advantage of in a phishing attack. &lt;a href="https://github.com/gravitational/teleport/pull/55399"&gt;#55399&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This vulnerability affects GitHub SSO users. You can check whether you’re using GitHub SSO either on the Zero Trust Access / Auth Connectors page in Teleport web UI or by running “tctl get connectors” CLI command against your cluster.&lt;/p&gt;
+&lt;h4&gt;[Medium] Unsanitized user input affecting PKINIT (Kerberos)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed users being able to overwrite host files on SQL Server database systems when using Kerberos with PKINIT flow. &lt;a href="https://github.com/gravitational/teleport/pull/55142"&gt;#55142&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Other fixes and improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow the &lt;code&gt;ssh_service.listen_addr&lt;/code&gt; to forcibly be enabled when operating in reverse tunnel mode to provide an optional direct access path to hosts. &lt;a href="https://github.com/gravitational/teleport/pull/54215"&gt;#54215&lt;/a&gt;&lt;/li&gt;
@@ -204,7 +208,6 @@ Impacted users are recommended to upgrade their auth and proxy servers to the la
 &lt;li&gt;UI: Access Request reason prompts configured in Role.spec.options.request_prompt are now displayed in the reason text box, if such a role is assigned to the user. &lt;a href="https://github.com/gravitational/teleport/pull/55173"&gt;#55173&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Okta: Fixed RBAC sync and Access Requests when only App and Group sync is enabled (no Access Lists sync). &lt;a href="https://github.com/gravitational/teleport/pull/55169"&gt;#55169&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed &lt;code&gt;tctl&lt;/code&gt; rendering of timestamps in BotInstance resource YAML. &lt;a href="https://github.com/gravitational/teleport/pull/55163"&gt;#55163&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fix the impact of malicious &lt;code&gt;--db-user&lt;/code&gt; values on PKINIT flow. &lt;a href="https://github.com/gravitational/teleport/pull/55142"&gt;#55142&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fix an issue with Hardware Key Support on Windows where a command would fail if the PIN prompt was not answered within 5 seconds. &lt;a href="https://github.com/gravitational/teleport/pull/55110"&gt;#55110&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fix an issue &amp;#34;Allowed Users&amp;#34; from &amp;#34;tsh db ls&amp;#34; may include irrelevant entities. &lt;a href="https://github.com/gravitational/teleport/pull/55068"&gt;#55068&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Updated Web UI, tsh and Connect SSO login to support SAML &lt;code&gt;http-post&lt;/code&gt; binding authentication method. The feature can be enabled from the SSO connector configuration by adding a new field as &lt;code&gt;preferred_request_binding: http-post&lt;/code&gt;. &lt;a href="https://github.com/gravitational/teleport/pull/55065"&gt;#55065&lt;/a&gt;&lt;/li&gt;
