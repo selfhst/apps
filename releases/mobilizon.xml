@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mobilizon Releases</title>
-  <updated>2025-06-06T12:33:33.020833-04:00</updated>
+  <updated>2025-06-06T13:33:31.133191-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -376,7 +376,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;limitation&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;We are currently not able to use the CI to build and deploy docker container : you have either to use distribution packages or build on container images on your side&lt;/li&gt;
+&lt;li&gt;We are currently not able to use the CI to build and deploy docker container : ~~you have either to use distribution packages or build on container images on your side~~ an &lt;a href="https://hub.docker.com/r/kaihuri/mobilizon/tags"&gt;image&lt;/a&gt; built out of CI/CD has been released.&lt;/li&gt;
 &lt;li&gt;We are currently not able to use the CI to build ARM package : you have to build it locally&lt;/li&gt;
 &lt;li&gt;As per #1578, packages built for older Debian versions may not work ; you can either upgrade to debian12/bookworm or build your release locally.&lt;/li&gt;
 &lt;/ul&gt;
