@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-06-06T14:31:35.975304-04:00</updated>
+  <updated>2025-06-06T15:31:34.815240-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,22 +152,24 @@ If you were testing an Alpha or Beta release of &lt;code&gt;3.9.0&lt;/code&gt;, 
     </author>
     <content>&lt;blockquote&gt;
 &lt;p&gt;[!CAUTION]
-We've discovered a bug in this version with &lt;strong&gt;partial metadata scans&lt;/strong&gt; that may overwrite the cover image for game already in your library. At this time we'd recommend &lt;strong&gt;NOT enabling RetroAchivements&lt;/strong&gt; and &lt;strong&gt;NOT running partial metadata scans&lt;/strong&gt;.&lt;/p&gt;
+This release has critical bugs that have been fixed in &lt;a href="https://github.com/rommapp/romm/releases/3.10.1"&gt;&lt;code&gt;v3.10.1&lt;/code&gt;&lt;/a&gt;, please upgrade directly to that version instead.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Major changes&lt;/h2&gt;
 &lt;h3&gt;&lt;a href="https://retroachievements.org/"&gt;RetroAchivements&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Your achievements, right in the app! Integrating with the RA API will allow you to view the achivements you've earned for games played on other devices. See the full release notes for more information. https://github.com/rommapp/romm/pull/1858&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-Set the &lt;code&gt;RETROACHIEVEMENTS_API_KEY&lt;/code&gt; environment variable to the "Web API Key" from your &lt;a href="https://retroachievements.org/settings"&gt;account settings&lt;/a&gt; to enable this feature. ~~A partial metadata scan &lt;strong&gt;must be run after upgrading&lt;/strong&gt; to update the RA IDs for your library.~~&lt;/p&gt;
+Set the &lt;code&gt;RETROACHIEVEMENTS_API_KEY&lt;/code&gt; environment variable to the "Web API Key" from your &lt;a href="https://retroachievements.org/settings"&gt;account settings&lt;/a&gt; to enable this feature. A partial metadata scan &lt;strong&gt;must be run after upgrading&lt;/strong&gt; to update the RA IDs for your library.&lt;/p&gt;
 &lt;p&gt;Earning achievements in RomM with EmulatorJS is &lt;strong&gt;not supported&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;img width="1222" alt="Screenshot 2025-06-06 at 2 45 53 PM" src="https://github.com/user-attachments/assets/c62f911b-1efa-4823-8ac3-4130b02b7d9f" /&gt;&lt;/p&gt;
 &lt;h3&gt;A more accessible app&lt;/h3&gt;
 &lt;p&gt;We've started a long term effort to improve the accessibility of the web app. This is a work in progress, but you can already use parts of the app with a screen reader. If you have any feedback or suggestions, please open an issue on GitHub. https://github.com/rommapp/romm/pull/1886&lt;/p&gt;
 &lt;h3&gt;Invite links&lt;/h3&gt;
 &lt;p&gt;Generate invite links with a preset role and send them to your users to allow them to signup on their own. This is useful for server owners who want to onboard new users easily but don't have an authentication provider setup (Authelia, Authentik). https://github.com/rommapp/romm/pull/1887&lt;/p&gt;
 &lt;h3&gt;Server stats&lt;/h3&gt;
 &lt;p&gt;View stats about your library in the new admin stats view, like size-per-platform. This is a great way to get insights into your library and see how much space each platform is using. https://github.com/rommapp/romm/pull/1903&lt;/p&gt;
+&lt;p&gt;&lt;img width="1405" alt="Screenshot 2025-06-06 at 2 46 51 PM" src="https://github.com/user-attachments/assets/5b775867-ec87-4556-a9d4-39496746ee67" /&gt;&lt;/p&gt;
 &lt;h2&gt;Minor changes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add "show playable games" filter by @zurdi15 in https://github.com/rommapp/romm/pull/1884&lt;/li&gt;
