@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Zipline Releases</title>
-  <updated>2025-06-06T02:33:21.774116-04:00</updated>
+  <updated>2025-06-06T03:33:23.269974-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,7 +244,7 @@
 &lt;li&gt;fixed passwords being sent in query string&lt;/li&gt;
 &lt;li&gt;fixed video/ogg (and other audio files that can have video streams) mimetype breaking thumbnail gen&lt;/li&gt;
 &lt;li&gt;added small (1-5 seconds, mostly 1) ratelimits for a bunch of POST/PATCH/DELETE methods on the API which should stop users that spam buttons (for some reason) from doing too much stuff&lt;/li&gt;
-&lt;li&gt;updated dependenciesx&lt;/li&gt;
+&lt;li&gt;updated dependencies&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Pulls Merged&lt;/h2&gt;
 &lt;ul&gt;
