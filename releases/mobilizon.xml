@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mobilizon Releases</title>
-  <updated>2025-06-06T08:33:28.743789-04:00</updated>
+  <updated>2025-06-06T09:33:38.530248-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -364,11 +364,11 @@
 &lt;p&gt;Perform backups of database and files before upgrading&lt;/p&gt;
 &lt;h2&gt;security fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fixes #1758 [security] BOPLA on feedToken allows account takeover&lt;/li&gt;
-&lt;li&gt;fixes #1759 [security] BOPLA on conversations expose private discussions &lt;/li&gt;
-&lt;li&gt;fixes #1760 [security] Unauthenticated access to private images &lt;/li&gt;
-&lt;li&gt;fixes #1761 [security] email validation can be bypass&lt;/li&gt;
-&lt;li&gt;fixes #1762 [security] first profile can be created by another user &lt;/li&gt;
+&lt;li&gt;fixes #1758 [security] BOPLA on feedToken allows account takeover ; closed by 6ecab1df1b3add630f22ada8d7790d9e578a23eb and 265803cb26dcc3bc087ba33519847e1bf21568e5&lt;/li&gt;
+&lt;li&gt;fixes #1759 [security] BOPLA on conversations expose private discussions ; 1ad8b268ede2964019d58d97b67064e4c9d72e10&lt;/li&gt;
+&lt;li&gt;fixes #1760 [security] Unauthenticated access to private images ; closed by a50681c9ac80f5d141f67e9bb81290c5545a61f5&lt;/li&gt;
+&lt;li&gt;fixes #1761 [security] email validation can be bypass ; closed by 1b2c55508ee7d4abb56dd2de6bc9e767d127d1e8&lt;/li&gt;
+&lt;li&gt;fixes #1762 [security] first profile can be created by another user ; closed by 8bb6b0b97cd6bd74975b58d9d8295ad5a257307d&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;breaking changes&lt;/h2&gt;
 &lt;ul&gt;
@@ -381,9 +381,12 @@
 &lt;li&gt;As per #1578, packages built for older Debian versions may not work ; you can either upgrade to debian12/bookworm or build your release locally.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Credits&lt;/h2&gt;
+&lt;p&gt;A big thanks to :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A big thanks to Martin Cuddy from Radically Open Security, NLnet sponsored security audit for the findings.&lt;/li&gt;
-&lt;li&gt;A big thanks for @massedil for the fixes&lt;/li&gt;
+&lt;li&gt;Martin Cuddy from Radically Open Security who discovered the issues&lt;/li&gt;
+&lt;li&gt;Radically Open Security team for their time and help after the discovery report (Martin Cuddy, Christian Reitter)&lt;/li&gt;
+&lt;li&gt;NLnet which sponsored security audit&lt;/li&gt;
+&lt;li&gt;@massedil and @setop for the fixes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://framagit.org/kaihuri/mobilizon/-/releases/5.1.4" rel="alternate"/>
   </entry>

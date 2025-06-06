@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2025-06-06T08:33:01.856676-04:00</updated>
+  <updated>2025-06-06T09:33:10.364946-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,147 +149,12 @@ Starting with version &lt;code&gt;v0.26.0&lt;/code&gt;, you must set either &lt;
     <author>
       <name>makeplane/plane</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;⚡ Enhancements&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;fix: package version update by @sriramveeraghanta in https://github.com/makeplane/plane/pull/6665&lt;/li&gt;
-&lt;li&gt;release: v0.25.1 by @sriramveeraghanta in https://github.com/makeplane/plane/pull/6703&lt;/li&gt;
-&lt;li&gt;release: v0.25.2 by @sriramveeraghanta in https://github.com/makeplane/plane/pull/6736&lt;/li&gt;
-&lt;li&gt;release: v0.25.3 by @pushya22 in https://github.com/makeplane/plane/pull/6788&lt;/li&gt;
-&lt;li&gt;release: v0.26.0 by @pushya22 in https://github.com/makeplane/plane/pull/6962&lt;/li&gt;
-&lt;li&gt;[WEB-3967] feat: Optimized module patch endpoint to reduce duplicate db calls by @dheeru0198 in https://github.com/makeplane/plane/pull/6983&lt;/li&gt;
-&lt;li&gt;[WEB-3877] chore: changed the logic to end cycle by @NarayanBavisetti in https://github.com/makeplane/plane/pull/6971&lt;/li&gt;
-&lt;li&gt;[WEB-3945] chore: update workspace onboarding to add default project by @pablohashescobar in https://github.com/makeplane/plane/pull/6964&lt;/li&gt;
-&lt;li&gt;[WEB-3926] chore: removed the duplicated webhook task and updated the webhook task to handle exceptions correctly by @NarayanBavisetti in https://github.com/makeplane/plane/pull/6951&lt;/li&gt;
-&lt;li&gt;[WEB-3751] chore: work item state icon improvement by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/6960&lt;/li&gt;
-&lt;li&gt;[WEB-3968] improvement: added few missing translation keys by @prateekshourya29 in https://github.com/makeplane/plane/pull/6993&lt;/li&gt;
-&lt;li&gt;[WEB-3957] chore: IntakeIssues with iexact 'in-app' changed to 'IN_APP' by @sangeethailango in https://github.com/makeplane/plane/pull/6977&lt;/li&gt;
-&lt;li&gt;[WEB-3838]feat:sub work items sorting by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/6967&lt;/li&gt;
-&lt;li&gt;[WEB-3973] chore: space app state icon size by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/6995&lt;/li&gt;
-&lt;li&gt;[WEB-3560] chore: work item modal code refactor by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/6996&lt;/li&gt;
-&lt;li&gt;[WEB-3958] chore: allow members and admins to create api tokens by @sangeethailango in https://github.com/makeplane/plane/pull/6979&lt;/li&gt;
-&lt;li&gt;[WEB-3991] chore: local dev improvements by @aheckmann in https://github.com/makeplane/plane/pull/6991&lt;/li&gt;
-&lt;li&gt;[WEB-3992] chore: support for x-zip-compressed type by @sangeethailango in https://github.com/makeplane/plane/pull/7001&lt;/li&gt;
-&lt;li&gt;[WEB-3996] fix: attachment icon rendering and added support for rar and zip icons by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7007&lt;/li&gt;
-&lt;li&gt;[WEB-4013]chore: publish login and standardize urls in common settings  by @pablohashescobar in https://github.com/makeplane/plane/pull/7013&lt;/li&gt;
-&lt;li&gt;[WEB-4014] fix: check access when duplicating pages by @pablohashescobar in https://github.com/makeplane/plane/pull/7015&lt;/li&gt;
-&lt;li&gt;[WEB-4013]chore: correct live url by @pablohashescobar in https://github.com/makeplane/plane/pull/7014&lt;/li&gt;
-&lt;li&gt;[WEB-2508] fix: page favorite item title mutation by @aaryan610 in https://github.com/makeplane/plane/pull/7020&lt;/li&gt;
-&lt;li&gt;[WEB-3906] fix: page table of content overlap with the page content by @aaryan610 in https://github.com/makeplane/plane/pull/7018&lt;/li&gt;
-&lt;li&gt;[WEB-3877] fix: changed logic to calculate cycle duration by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7024&lt;/li&gt;
-&lt;li&gt;[WEB-3955] chore: work item parent select modal params by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7021&lt;/li&gt;
-&lt;li&gt;[WEB-4016] updated project and workitem form by @JayashTripathy in https://github.com/makeplane/plane/pull/7019&lt;/li&gt;
-&lt;li&gt;[WEB-3930] chore: change source in-app to IN_APP by @sangeethailango in https://github.com/makeplane/plane/pull/7008&lt;/li&gt;
-&lt;li&gt;[WEB-3942] chore: intake url pattern by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7006&lt;/li&gt;
-&lt;li&gt;[WEB-4052]fix: sub work item copy link by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7036&lt;/li&gt;
-&lt;li&gt;[WEB-4057] chore: updated the logger for bgtasks by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7025&lt;/li&gt;
-&lt;li&gt;[WEB-4028]feat: sub work item filters and grouping by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/6997&lt;/li&gt;
-&lt;li&gt;[WEB-3985] feat: common postcss config and local fonts across all plane applications by @prateekshourya29 in https://github.com/makeplane/plane/pull/6998&lt;/li&gt;
-&lt;li&gt;[WEB-4002] fix: sidebar tab highlight by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7011&lt;/li&gt;
-&lt;li&gt;chore: added external id and source to page model by @henit-chobisa in https://github.com/makeplane/plane/pull/7040&lt;/li&gt;
-&lt;li&gt;[WEB-4051] fix: comment editor list items font size by @aaryan610 in https://github.com/makeplane/plane/pull/7034&lt;/li&gt;
-&lt;li&gt;chore: add disable_auto_set_user flag on base model save method by @Prashant-Surya in https://github.com/makeplane/plane/pull/7041&lt;/li&gt;
-&lt;li&gt;[WEB-3987] chore: project export funtionality enhancement by @sangeethailango in https://github.com/makeplane/plane/pull/7002&lt;/li&gt;
-&lt;li&gt;[WEB-3782] chore: analytics endpoints by @NarayanBavisetti in https://github.com/makeplane/plane/pull/6973&lt;/li&gt;
-&lt;li&gt;[WEB-4008] fix: handle when settings are None by @aheckmann in https://github.com/makeplane/plane/pull/7016&lt;/li&gt;
-&lt;li&gt;[WEB-4074]fix: removed sub-work item filters at nested levels by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7047&lt;/li&gt;
-&lt;li&gt;[WIKI-181] refactor: make file handling generic in editor by @aaryan610 in https://github.com/makeplane/plane/pull/7046&lt;/li&gt;
-&lt;li&gt;[WEB-3523] feat: start of week preference by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7033&lt;/li&gt;
-&lt;li&gt;[WEB-4054] chore: search-issues endpoint code refactoring by @sangeethailango in https://github.com/makeplane/plane/pull/7029&lt;/li&gt;
-&lt;li&gt;[WEB-3978] chore: cmd k search result redirection improvements by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7012&lt;/li&gt;
-&lt;li&gt;[WEB-4051] regression: update font size of comment editor by @aaryan610 in https://github.com/makeplane/plane/pull/7048&lt;/li&gt;
-&lt;li&gt;[WEB-3781] Analytics page enhancements by @JayashTripathy in https://github.com/makeplane/plane/pull/7005&lt;/li&gt;
-&lt;li&gt;[WEB-4080]fix: set sub work items groups to expand by default by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7053&lt;/li&gt;
-&lt;li&gt;fix: update API service startup check to use HTTP request by @mguptahub in https://github.com/makeplane/plane/pull/7054&lt;/li&gt;
-&lt;li&gt;refactor: Enhance backup and restore scripts for container data  by @mguptahub in https://github.com/makeplane/plane/pull/7055&lt;/li&gt;
-&lt;li&gt;[WEB-4088] fix: issue exports when cycles are not present by @pablohashescobar in https://github.com/makeplane/plane/pull/7057&lt;/li&gt;
-&lt;li&gt;[WEB-4092] fix:broken detailed empty state layout by @JayashTripathy in https://github.com/makeplane/plane/pull/7056&lt;/li&gt;
-&lt;li&gt;[WEB-4109] chore: remove analytics duration filter by @aaryan610 in https://github.com/makeplane/plane/pull/7073&lt;/li&gt;
-&lt;li&gt;chore: revamped the analytics for cycle and module in peek view. by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7075&lt;/li&gt;
-&lt;li&gt;[WEB-4041] chore: modal outside click behaviour by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7072&lt;/li&gt;
-&lt;li&gt;[WEB-4104] fix: project loading state by @gakshita in https://github.com/makeplane/plane/pull/7065&lt;/li&gt;
-&lt;li&gt;[WEB-3866] fix: work item attachment activity by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7062&lt;/li&gt;
-&lt;li&gt;[WEB-4056] fix: archived work item validation by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7060&lt;/li&gt;
-&lt;li&gt;[WIKI-181] chore: editor extension storage utility code split by @aaryan610 in https://github.com/makeplane/plane/pull/7071&lt;/li&gt;
-&lt;li&gt;[WEB-4117] refactor: work item widgets code split by @aaryan610 in https://github.com/makeplane/plane/pull/7078&lt;/li&gt;
-&lt;li&gt;[WEB-3461] fix: profile activity rendering issue by @gakshita in https://github.com/makeplane/plane/pull/7059&lt;/li&gt;
-&lt;li&gt;chore: Strict Null Check in Admin app by @sriramveeraghanta in https://github.com/makeplane/plane/pull/7081&lt;/li&gt;
-&lt;li&gt;[SECUR-98] fix: polynomial regular expression used on uncontrolled data by @sriramveeraghanta in https://github.com/makeplane/plane/pull/7083&lt;/li&gt;
-&lt;li&gt;fix: ruff file formatting in api server by @sriramveeraghanta in https://github.com/makeplane/plane/pull/7082&lt;/li&gt;
-&lt;li&gt;[WEB-4122] fix: estimate in project export by @sangeethailango in https://github.com/makeplane/plane/pull/7091&lt;/li&gt;
-&lt;li&gt;chore: add validation fields in users by @pablohashescobar in https://github.com/makeplane/plane/pull/7102&lt;/li&gt;
-&lt;li&gt;[WEB-4154] fix: dropdown container classname by @prateekshourya29 in https://github.com/makeplane/plane/pull/7085&lt;/li&gt;
-&lt;li&gt;[WEB-3155]fix: email notification comments overflow by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7110&lt;/li&gt;
-&lt;li&gt;[WEB-4159] feat: add 'restricted_entity' translation key across multiple languages by @JayashTripathy in https://github.com/makeplane/plane/pull/7106&lt;/li&gt;
-&lt;li&gt;[WEB-4133] chore: optimised the analytics endpoints by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7105&lt;/li&gt;
-&lt;li&gt;[WEB-4146] fix: AI environment variables configuration in GodMode by @prateekshourya29 in https://github.com/makeplane/plane/pull/7104&lt;/li&gt;
-&lt;li&gt;[WEB-4161] fix: eslint config for library config file by @aaryan610 in https://github.com/makeplane/plane/pull/7103&lt;/li&gt;
-&lt;li&gt;[WEB-4145] chore: added validation for project deletion by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7101&lt;/li&gt;
-&lt;li&gt;[WEB-4144] fix: api logger to handle content decode errors by @pablohashescobar in https://github.com/makeplane/plane/pull/7099&lt;/li&gt;
-&lt;li&gt;[WEB-4107] chore: redirect user to the newly created project view after creation by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7098&lt;/li&gt;
-&lt;li&gt;[WEB-4137] chore: restrict SVG file selection by @aaryan610 in https://github.com/makeplane/plane/pull/7095&lt;/li&gt;
-&lt;li&gt;[WEB-4153] chore: extend custom font family in tailwind config by @aaryan610 in https://github.com/makeplane/plane/pull/7093&lt;/li&gt;
-&lt;li&gt;[WEB-4123]feat: language support for sub-work item empty states by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7092&lt;/li&gt;
-&lt;li&gt;[WEB-4098] feat: noindex/nofollow by @aheckmann in https://github.com/makeplane/plane/pull/7088&lt;/li&gt;
-&lt;li&gt;[WEB-4133] Fix analytics release bugs by @JayashTripathy in https://github.com/makeplane/plane/pull/7086&lt;/li&gt;
-&lt;li&gt;[WEB-4115] fix: update issue count status query to handle null values by @JayashTripathy in https://github.com/makeplane/plane/pull/7080&lt;/li&gt;
-&lt;li&gt;[WEB-4118]fix: adjusted sub work item properties for a better visibility by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7079&lt;/li&gt;
-&lt;li&gt;[WEB-4173]fix: fixed layout overflow issue by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7119&lt;/li&gt;
-&lt;li&gt;[WEB-3494] fix: size of created at value by @JayashTripathy in https://github.com/makeplane/plane/pull/7112&lt;/li&gt;
-&lt;li&gt;[WEB-2403] fix: alignment of project states in collapsed view by @JayashTripathy in https://github.com/makeplane/plane/pull/7114&lt;/li&gt;
-&lt;li&gt;[WEB-4160] fix: close the context menu after select by @JayashTripathy in https://github.com/makeplane/plane/pull/7113&lt;/li&gt;
-&lt;li&gt;[WEB-3707] pytest based test suite for apiserver by @dheeru0198 in https://github.com/makeplane/plane/pull/7010&lt;/li&gt;
-&lt;li&gt;chore(deps): bump requests from 2.31.0 to 2.32.2 in /apiserver/requirements in the pip group across 1 directory by @dependabot in https://github.com/makeplane/plane/pull/7120&lt;/li&gt;
-&lt;li&gt;[WEB-4130] fix: cycle charts minor optimizations by @gakshita in https://github.com/makeplane/plane/pull/7123&lt;/li&gt;
-&lt;li&gt;[WEB-4166] chore: projects app sidebar accessibility by @aaryan610 in https://github.com/makeplane/plane/pull/7115&lt;/li&gt;
-&lt;li&gt;[WIKI-181] refactor: file plugins and types by @aaryan610 in https://github.com/makeplane/plane/pull/7074&lt;/li&gt;
-&lt;li&gt;fix: Optimize image uploads in Editor by @aaryan610 in https://github.com/makeplane/plane/pull/7129&lt;/li&gt;
-&lt;li&gt;[WIKI-343] [WIKI-312]  Fix: html characters by @VipinDevelops in https://github.com/makeplane/plane/pull/7049&lt;/li&gt;
-&lt;li&gt;[WIKI-181] refactor: invalid file handling by @aaryan610 in https://github.com/makeplane/plane/pull/7139&lt;/li&gt;
-&lt;li&gt;[WEB-4197] chore: auth forms semantics and accessibility by @aaryan610 in https://github.com/makeplane/plane/pull/7128&lt;/li&gt;
-&lt;li&gt;[WEB-3787] fix: project joining date by @sangeethailango in https://github.com/makeplane/plane/pull/7127&lt;/li&gt;
-&lt;li&gt;[WEB-3863] fix: links error handling by @gakshita in https://github.com/makeplane/plane/pull/7126&lt;/li&gt;
-&lt;li&gt;[WEB-4189] chore: add tailwind &lt;code&gt;container-queries&lt;/code&gt; plugin by @aaryan610 in https://github.com/makeplane/plane/pull/7125&lt;/li&gt;
-&lt;li&gt;[WEB-4172] feat: Crawl work item links for title and favicon by @sriramveeraghanta in https://github.com/makeplane/plane/pull/7117&lt;/li&gt;
-&lt;li&gt;[WEB-3998] feat: settings page revamp by @sangeethailango in https://github.com/makeplane/plane/pull/6959&lt;/li&gt;
-&lt;li&gt;[WEB-4223] fix: remove build process from utils package by @sriramveeraghanta in https://github.com/makeplane/plane/pull/7138&lt;/li&gt;
-&lt;li&gt;[WEB-3964] refactor: permission layer by @prateekshourya29 in https://github.com/makeplane/plane/pull/7094&lt;/li&gt;
-&lt;li&gt;[WIKI-181] chore: asset check endpoint added by @aaryan610 in https://github.com/makeplane/plane/pull/7140&lt;/li&gt;
-&lt;li&gt;[WIKI-399] fix: add favorite action to page header by @aaryan610 in https://github.com/makeplane/plane/pull/7144&lt;/li&gt;
-&lt;li&gt;build: add .venv to .dockerignore by @l2dy in https://github.com/makeplane/plane/pull/7146&lt;/li&gt;
-&lt;li&gt;chore: add select all/deselect all functionality when adding existing work item by @pqhung3007 in https://github.com/makeplane/plane/pull/7045&lt;/li&gt;
-&lt;li&gt;regression: building utils back to run live server by @Palanikannan1437 in https://github.com/makeplane/plane/pull/7149&lt;/li&gt;
-&lt;li&gt;[WEB-3998] fix: minor empty states changes + refactoring by @gakshita in https://github.com/makeplane/plane/pull/7151&lt;/li&gt;
-&lt;li&gt;[WEB-3998]: clean up imports and remove cache decorators in workspace views to avoid stale data on browser cache by @pablohashescobar in https://github.com/makeplane/plane/pull/7150&lt;/li&gt;
-&lt;li&gt;[WEB-4245] improvement: minor enhancements to project members settings page by @prateekshourya29 in https://github.com/makeplane/plane/pull/7153&lt;/li&gt;
-&lt;li&gt;[WIKI-410] chore: editor translation files by @aaryan610 in https://github.com/makeplane/plane/pull/7156&lt;/li&gt;
-&lt;li&gt;[WEB-4182] Fix work item links error messages by @JayashTripathy in https://github.com/makeplane/plane/pull/7122&lt;/li&gt;
-&lt;li&gt;[WEB-4240] chore: bump local db version to 1.3 by @prateekshourya29 in https://github.com/makeplane/plane/pull/7154&lt;/li&gt;
-&lt;li&gt;[WEB-3931] chore: maintenance page ux copy by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7135&lt;/li&gt;
-&lt;li&gt;[WIKI-412] chore: improved rich text editor extensions handling by @aaryan610 in https://github.com/makeplane/plane/pull/7158&lt;/li&gt;
-&lt;li&gt;[WEB-4249] fix: settings header css + cta on error page + project member list by @gakshita in https://github.com/makeplane/plane/pull/7159&lt;/li&gt;
-&lt;li&gt;[WEB-4253] improvement: minor enhancements to billing page by @prateekshourya29 in https://github.com/makeplane/plane/pull/7160&lt;/li&gt;
-&lt;li&gt;[WIKI-412] regression: drop plugin logic by @aaryan610 in https://github.com/makeplane/plane/pull/7161&lt;/li&gt;
-&lt;li&gt;[WEB-4253] improvement: plan card enhancements by @prateekshourya29 in https://github.com/makeplane/plane/pull/7168&lt;/li&gt;
-&lt;li&gt;[INFRA-183] feat: add restore-airgapped script to build workflow by @mguptahub in https://github.com/makeplane/plane/pull/7170&lt;/li&gt;
-&lt;li&gt;[WEB-4249] fix: ensure user details are available in project member details computation by @prateekshourya29 in https://github.com/makeplane/plane/pull/7162&lt;/li&gt;
-&lt;li&gt;[WEB-4256] chore: add og image and update meta tags for social media compatibility by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7165&lt;/li&gt;
-&lt;li&gt;[WEB-4272] fix: remove duplicate CommandPalette instances from settings layouts to prevent modal conflicts by @prateekshourya29 in https://github.com/makeplane/plane/pull/7174&lt;/li&gt;
-&lt;li&gt;[WEB-4273] fix: plans comparison scroll issue by @prateekshourya29 in https://github.com/makeplane/plane/pull/7176&lt;/li&gt;
-&lt;li&gt;[WEB-4274] fix: metadata base url warning by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7175&lt;/li&gt;
-&lt;li&gt;[WEB-4257] chore: user profile setting options updated by @anmolsinghbhatia in https://github.com/makeplane/plane/pull/7166&lt;/li&gt;
-&lt;li&gt;[WEB-4230] refactor: Analytics code refacor, Removal of nivo charts dependencies and translations by @JayashTripathy in https://github.com/makeplane/plane/pull/7131&lt;/li&gt;
-&lt;li&gt;[WEB-4208]chore: refactored work item quick actions by @vamsikrishnamathala in https://github.com/makeplane/plane/pull/7136&lt;/li&gt;
-&lt;li&gt;refactor: unused components, hooks, constants by @aaryan610 in https://github.com/makeplane/plane/pull/7157&lt;/li&gt;
-&lt;li&gt;[WEB 4252] chore: updated the favicon request for work item link by @NarayanBavisetti in https://github.com/makeplane/plane/pull/7173&lt;/li&gt;
-&lt;li&gt;[WIKI-391] chore: handle deactivated user display name in version history by @aaryan610 in https://github.com/makeplane/plane/pull/7171&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;@aheckmann made their first contribution in https://github.com/makeplane/plane/pull/6991&lt;/li&gt;
-&lt;li&gt;@l2dy made their first contribution in https://github.com/makeplane/plane/pull/7146&lt;/li&gt;
-&lt;li&gt;@pqhung3007 made their first contribution in https://github.com/makeplane/plane/pull/7045&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/makeplane/plane/compare/v0.26.0...v0.26.1&lt;/p&gt;</content>
+&lt;li&gt;Updated API service startup checks to use more reliable HTTP requests instead of log monitoring.&lt;/li&gt;
+&lt;li&gt;Improved backup and restore scripts for better containerized data handling.&lt;/li&gt;
+&lt;li&gt;Upgraded Next.js and Django versions for better performance, security, and stability.&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/makeplane/plane/releases/tag/v0.26.1" rel="alternate"/>
   </entry>
 </feed>
