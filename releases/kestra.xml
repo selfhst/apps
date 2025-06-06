@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-06-06T03:33:26.112038-04:00</updated>
+  <updated>2025-06-06T04:33:44.292939-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,7 +97,7 @@
   <entry>
     <id>https://github.com/kestra-io/kestra/releases/tag/v0.22.11</id>
     <title>New release for Kestra: v0.22.11</title>
-    <updated>2025-06-05T11:17:53-04:00</updated>
+    <updated>2025-06-06T04:22:29-04:00</updated>
     <author>
       <name>kestra-io/kestra</name>
     </author>
@@ -113,6 +113,7 @@
 &lt;h2&gt;Chores&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: upgrade version to v0.22.11 (&lt;a href="https://github.com/kestra-io/kestra/commit/ae6b27ae9bf16d2b2221f6f5b1d59f0cd661afbf"&gt;nKwiatkowski&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;trnaslations&lt;/strong&gt;: add missing keys (&lt;a href="https://github.com/kestra-io/kestra/commit/aaf8eb13e25ab6e1db59d5698aa6653ba08755c3"&gt;MilosPaunovic&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Commits&lt;/h2&gt;
 &lt;ul&gt;
