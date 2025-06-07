@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinkBuddy Releases</title>
-  <updated>2025-06-07T11:35:39.822619-04:00</updated>
+  <updated>2025-06-07T12:35:45.194798-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -37,5 +37,19 @@
 &lt;li&gt;Adds ability to create a new tag in separate screen.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/peterto/LinkBuddy/releases/tag/v1.3.0</id>
+    <title>New release for LinkBuddy: LinkBuddy v1.3.0</title>
+    <updated>2025-06-07T11:39:43-04:00</updated>
+    <author>
+      <name>peterto/LinkBuddy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Adds long press gesture for sharing URL.&lt;/li&gt;
+&lt;li&gt;Adds AddLink button on all list screens.&lt;/li&gt;
+&lt;li&gt;Displays tags on each link (only up to what can fit on the screen width) that are also pressable to bring up all links with the specific tag.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
