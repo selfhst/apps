@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Karakeep Releases</title>
-  <updated>2025-06-08T09:32:38.026951-04:00</updated>
+  <updated>2025-06-08T10:32:23.935151-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -299,7 +299,7 @@ If you're using the old "firefox" extension, you MUST migrate to the new one man
 &lt;p&gt;&lt;a href="https://www.buymeacoffee.com/mbassem" target="_blank"&gt;&lt;img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="auto" height="50" &gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;New Features 🚀&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Public Lists are here:&lt;/strong&gt; You can now share your curated lists publicly! (#1511)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Lists are here:&lt;/strong&gt; You can now share your curated lists publicly! (#1511). Example list &lt;a href="https://try.karakeep.app/public/lists/f9ot2k3ogai51gvm3v6k0aoq"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;RSS Feed Generation:&lt;/strong&gt; Create and share RSS feeds directly for your lists (#1507)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Overdue Mobile Improvements&lt;/strong&gt;:&lt;ul&gt;
 &lt;li&gt;Added reader mode/screenshot/archive views to bookmark previews on mobile (pending app release) (#1509) - @digithree&lt;/li&gt;
