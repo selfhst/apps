@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-06-08T18:35:23.880203-04:00</updated>
+  <updated>2025-06-08T19:35:25.076677-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,19 +150,24 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.6" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.8</id>
-    <title>New release for ebook2audiobook: v25.6.8</title>
-    <updated>2025-06-07T20:17:03-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.9</id>
+    <title>New release for ebook2audiobook: v25.6.9</title>
+    <updated>2025-06-08T18:48:26-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;sync by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/806&lt;/li&gt;
-&lt;li&gt;v25.6.8 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/807&lt;/li&gt;
-&lt;li&gt;V25.6.8 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/808&lt;/li&gt;
+&lt;li&gt;added sudachi by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/810&lt;/li&gt;
+&lt;li&gt;V25.6.7 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/811&lt;/li&gt;
+&lt;li&gt;various fixes. by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/812&lt;/li&gt;
+&lt;li&gt;fixed python package requirements to last coqui-tts 0.26.2 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/813&lt;/li&gt;
+&lt;li&gt;V25.6.8 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/814&lt;/li&gt;
+&lt;li&gt;Revert last PR by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/816&lt;/li&gt;
+&lt;li&gt;v25.6.9 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/817&lt;/li&gt;
+&lt;li&gt;V25.6.9 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/818&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.7...v25.6.8&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.8" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.8...v25.6.9&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.9" rel="alternate"/>
   </entry>
 </feed>
