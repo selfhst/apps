@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LinkBuddy Releases</title>
-  <updated>2025-06-08T14:35:28.341056-04:00</updated>
+  <updated>2025-06-08T15:35:31.322491-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -51,5 +51,19 @@
 &lt;li&gt;Displays tags on each link (only up to what can fit on the screen width) that are also pressable to bring up all links with the specific tag.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/peterto/LinkBuddy/releases/tag/v1.3.2</id>
+    <title>New release for LinkBuddy: LinkBuddy v1.3.2</title>
+    <updated>2025-06-08T15:16:14-04:00</updated>
+    <author>
+      <name>peterto/LinkBuddy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Fixes some formatting issues on certain devices, commit &lt;a href="https://github.com/peterto/LinkBuddy/tree/7084b013f8eae3335e6469d977eb4c24be01d8a0"&gt;7084b013f8eae3335e6469d977eb4c24be01d8a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updates header on tag selection from bookmark lists pages to show hashtag selected tag, commit &lt;a href="https://github.com/peterto/LinkBuddy/tree/812d3557f5f5c25076b2e7c2e601109078c6e4d9"&gt;812d3557f5f5c25076b2e7c2e601109078c6e4d9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Removes some placeholder borders that would show when light mode on enabled, commit &lt;a href="https://github.com/peterto/LinkBuddy/tree/30f647f02f5a8c14d73f95d4f047c31ac0fbf109"&gt;30f647f02f5a8c14d73f95d4f047c31ac0fbf109&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/peterto/LinkBuddy/releases/tag/v1.3.2" rel="alternate"/>
   </entry>
 </feed>
