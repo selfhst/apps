@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FerriShare Releases</title>
-  <updated>2025-06-08T06:36:23.084457-04:00</updated>
+  <updated>2025-06-08T07:36:21.019126-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,5 +68,20 @@ However, if possible, one should choose the IVs deterministically, thereby elimi
 After some consideration, I realized that that line in the footer on other people's self-hosted instances might suggest to visitors that I am somehow personally involved or responsible for the operation or maintenance of the instance, which is obviously not the case.&lt;/p&gt;
 &lt;p&gt;To prevent any confusion going forward, that line will only be shown when FerriShare is running in demo mode, as is the case at &lt;a href="https://ferrishare-demo.tobiasm.dev"&gt;ferrishare-demo.tobiasm.dev&lt;/a&gt;. The link to this repository, the version tag, and the Privacy Policy and Legal Notice are unaffected by this change.&lt;/p&gt;</content>
     <link href="https://github.com/TobiasMarschner/ferrishare/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TobiasMarschner/ferrishare/releases/tag/v1.1.2</id>
+    <title>New release for FerriShare: v1.1.2</title>
+    <updated>2025-06-08T06:57:12-04:00</updated>
+    <author>
+      <name>TobiasMarschner/ferrishare</name>
+    </author>
+    <content>&lt;p&gt;Here's what's new:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Allow configuring the file path of the &lt;code&gt;config.toml&lt;/code&gt;&lt;/strong&gt;
+You can now optionally pass a &lt;code&gt;--config-file &amp;lt;FILE&amp;gt;&lt;/code&gt; CLI-flag to the &lt;code&gt;ferrishare&lt;/code&gt; binary to configure a custom location for the application's configuration. This affects both where a configuration will be saved during &lt;code&gt;--init&lt;/code&gt; as well as where it is read during normal startup.&lt;/p&gt;
+&lt;p&gt;Thank you to @jo-m for contributing this feature.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated the project's dependencies to their latest versions with &lt;code&gt;cargo update&lt;/code&gt;&lt;/strong&gt;
+This ensures dependencies don't become stale and any upstream security and bug fixes make their way into FerriShare as well.&lt;/p&gt;</content>
+    <link href="https://github.com/TobiasMarschner/ferrishare/releases/tag/v1.1.2" rel="alternate"/>
   </entry>
 </feed>
