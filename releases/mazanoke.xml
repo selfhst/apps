@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mazanoke Releases</title>
-  <updated>2025-06-09T12:36:12.104947-04:00</updated>
+  <updated>2025-06-09T13:36:01.846198-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,8 +147,8 @@ Starting from the next release, if you are running on old cache, you’ll see a 
 &lt;hr /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-For docker deployments, after updating, you should see a notice on the frontend about refreshing the page. 
-However, the "Refresh" button might not be reliable at the moment, you can instead use &lt;code&gt;ctrl/cmd + shift + r&lt;/code&gt; to clear old cache.
+For docker deployments, after updating, you should see a notice with a "Refresh" button. 
+However, the "Refresh" button might not be reliable at the moment, you can instead use &lt;code&gt;ctrl/cmd + shift + r&lt;/code&gt; to clear old cache. If you're on mobile, you need to clear the cache from the browser settings.
 I will look into a more reliable way for cache busting in a future release.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Highlights&lt;/strong&gt;
