@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2025-06-09T08:32:19.677117-04:00</updated>
+  <updated>2025-06-09T09:32:23.305083-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -191,6 +191,7 @@
 &lt;li&gt;Fixed API documentation for API call &lt;code&gt;/chunk/complete&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fixed rare edge case, where a file with a cancelled deletion was still deleted&lt;/li&gt;
 &lt;li&gt;Filenames can now be base64-encoded in API call &lt;code&gt;/chunk/complete&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added docker-compose file @SemvdH &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Upgrading&lt;/h3&gt;
 &lt;p&gt;If you are upgrading from an older version than v2.0.0, please make sure to read the &lt;a href="https://github.com/Forceu/Gokapi/releases/tag/v2.0.0"&gt;v.2.0.0 upgrade notes&lt;/a&gt; first.&lt;/p&gt;
