@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ServerBox Releases</title>
-  <updated>2025-06-09T06:34:41.486333-04:00</updated>
+  <updated>2025-06-09T07:34:42.384015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,7 +124,9 @@
     <author>
       <name>lollipopkit/flutter_server_box</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;⚠️ Attention&lt;/h2&gt;
+&lt;p&gt;更新此版本前，请注意备份 / Before updating this version, please take a backup&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix github action build linux by @lin-calvin in https://github.com/lollipopkit/flutter_server_box/pull/687&lt;/li&gt;
 &lt;li&gt;chore: &lt;code&gt;Fns&lt;/code&gt; &amp;amp; &lt;code&gt;FnRes&lt;/code&gt; by @No06 in https://github.com/lollipopkit/flutter_server_box/pull/690&lt;/li&gt;
