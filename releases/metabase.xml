@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-06-09T15:31:55.393627-04:00</updated>
+  <updated>2025-06-09T16:31:54.647242-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -311,6 +311,7 @@ JAR download: https://downloads.metabase.com/enterprise/v1.55.1.x/metabase.jar&l
 &lt;li&gt;Drag and drop measures and dimensions and combine series&lt;/li&gt;
 &lt;li&gt;Build funnels from individual pieces&lt;/li&gt;
 &lt;li&gt;..and a lot more!&lt;/li&gt;
+&lt;li&gt;Adjust the number of gridlines on bar and line charts (#56910)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Administration&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
