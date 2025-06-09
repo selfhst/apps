@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-06-09T11:31:58.927228-04:00</updated>
+  <updated>2025-06-09T12:32:02.755575-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -316,7 +316,7 @@ JAR download: https://downloads.metabase.com/enterprise/v1.55.1.x/metabase.jar&l
 &lt;ul&gt;
 &lt;li&gt;Development instances (#56579, #57620, #57553, #57746)&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Set up dev or staging Metabase Cloud instances for a flat fee. Previously this required creating another subscription.&lt;/p&gt;
+&lt;p&gt;Set up dev or staging Metabase instances for a flat fee. Previously this required creating another subscription.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Customizable log levels (#57524, #57205, #57022, #56973, #56772, #57667)&lt;/p&gt;
