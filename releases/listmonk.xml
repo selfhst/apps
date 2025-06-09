@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>listmonk Releases</title>
-  <updated>2025-06-09T13:32:02.959336-04:00</updated>
+  <updated>2025-06-09T14:32:02.295237-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -494,7 +494,7 @@ docker-compose up -d app db
     <author>
       <name>knadh/listmonk</name>
     </author>
-    <content>&lt;p&gt;Skip this release and upgrade to &lt;a href="https://github.com/knadh/listmonk/releases/tag/v5.0.1"&gt;v5.0.1&lt;/a&gt; instead.&lt;/p&gt;
+    <content>&lt;p&gt;Skip this release and upgrade to &lt;a href="https://github.com/knadh/listmonk/releases/tag/v5.0.2"&gt;v5.0.2&lt;/a&gt; instead for multiple fixes (UX bugs and a security fix)&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;3b8a8c23 Add email-builder/dist to .gitignore.&lt;/li&gt;
