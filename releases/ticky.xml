@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ticky Releases</title>
-  <updated>2025-06-09T09:36:52.069442-04:00</updated>
+  <updated>2025-06-09T10:36:53.976475-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -40,5 +40,39 @@
 &lt;p&gt;If you find any bugs, please open an issue.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.0.0...v1.1.0&lt;/p&gt;</content>
     <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dkorecko/Ticky/releases/tag/v1.2.1</id>
+    <title>New release for Ticky: v1.2.1</title>
+    <updated>2025-06-09T10:29:08-04:00</updated>
+    <author>
+      <name>dkorecko/Ticky</name>
+    </author>
+    <content>&lt;p&gt;Hi everyone!👋 I'm excited to announce the latest release for Ticky! This update brings some great new features and important fixes.&lt;/p&gt;
+&lt;p&gt;What's New
+🌙 Dark Mode: By popular demand, Ticky now officially supports dark mode! You can easily enable or disable it via a toggle in the top-right corner of the app. Your preference will be stored, and it defaults to your system settings. I'd love to hear your feedback on this, so please give it a try and let me know what you think.
+🎨 New Logo: You'll now see the Ticky logo proudly displayed in the top-left corner of the web application.
+✅ Sub-task Labels: Sub-tasks now have a label linked directly to their input checkbox, improving accessibility and usability.
+🐳 Docker ARM Builds: For our users on ARM-based systems, we've added official Docker ARM builds, making it easier to deploy Ticky.&lt;/p&gt;
+&lt;p&gt;Bug Fixes and Improvements
+💳 Resolved an error that was occurring with card linking.
+📝 The issue with incomplete titles in membership dialogs has been fixed.
+⚙️ I've also made several code improvements under the hood for better performance and stability.&lt;/p&gt;
+&lt;p&gt;I hope you enjoy these updates! Let me know what you think and if you find any bugs, please open an issue.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Card link error by @dkorecko in https://github.com/dkorecko/Ticky/pull/5&lt;/li&gt;
+&lt;li&gt;feat: Link label to checkbox for subtasks by @dkorecko in https://github.com/dkorecko/Ticky/pull/6&lt;/li&gt;
+&lt;li&gt;feat: Support multi-platform Docker build by @dkorecko in https://github.com/dkorecko/Ticky/pull/7&lt;/li&gt;
+&lt;li&gt;fix: Membership dialogs incomplete title by @dkorecko in https://github.com/dkorecko/Ticky/pull/8&lt;/li&gt;
+&lt;li&gt;refactor: New way of initializing arrays by @dkorecko in https://github.com/dkorecko/Ticky/pull/9&lt;/li&gt;
+&lt;li&gt;feat: Dark mode by @dkorecko in https://github.com/dkorecko/Ticky/pull/10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@dkorecko made their first contribution in https://github.com/dkorecko/Ticky/pull/5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.1.0...v1.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>
