@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ente Auth Releases</title>
-  <updated>2025-06-08T21:33:16.007870-04:00</updated>
+  <updated>2025-06-08T22:33:01.609624-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -189,8 +189,8 @@
 &lt;li&gt;[auth] Add Bitazza icon by @Bl4ckspell7 in https://github.com/ente-io/ente/pull/5866&lt;/li&gt;
 &lt;li&gt;[auth] Auth reorder widgets by @AmanRajSinghMourya in https://github.com/ente-io/ente2&lt;/li&gt;
 &lt;li&gt;[auth] New translations by @github-actions in https://github.com/ente-io/ente/pull/5873&lt;/li&gt;
-&lt;li&gt;[mob] Play streamable video whenever available by @ua741 in https://github.com/ente-io/ente/pull/5877&lt;/li&gt;
-&lt;li&gt;&lt;a href="auth-release"&gt;workflow&lt;/a&gt; separate checksum as &lt;em&gt;-linux &amp;amp; &lt;/em&gt;-apk by @prateekmedia in https://github.com/ente-io/ente/pull/5878   [auth] fix bonify icon by @Bl4ckspell7 in https://github.com/ente-io/ente/pull/5930&lt;/li&gt;
+&lt;li&gt;&lt;a href="auth-release"&gt;workflow&lt;/a&gt; separate checksum as &lt;em&gt;-linux &amp;amp; &lt;/em&gt;-apk by @prateekmedia in https://github.com/ente-io/ente/pull/5878  &lt;/li&gt;
+&lt;li&gt;[auth] fix bonify icon by @Bl4ckspell7 in https://github.com/ente-io/ente/pull/5930&lt;/li&gt;
 &lt;li&gt;[auth][Fix] Add cronetHttpNoPlay flag for playstore builds by @ua741 in https://github.com/ente-io/ente/pull/5932&lt;/li&gt;
 &lt;li&gt;[auth] New translations by @github-actions in https://github.com/ente-io/ente/pull/5963&lt;/li&gt;
 &lt;li&gt;[auth] add Cryptee icon by @UmmItC in https://github.com/ente-io/ente/pull/5959&lt;/li&gt;
