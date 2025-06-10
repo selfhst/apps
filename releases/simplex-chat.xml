@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2025-06-10T16:31:45.654034-04:00</updated>
+  <updated>2025-06-10T17:31:42.021209-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,7 +244,13 @@
     <author>
       <name>simplex-chat/simplex-chat</name>
     </author>
-    <content>&lt;p&gt;Commits:
+    <content>&lt;p&gt;New in v6.3.5:
+- fixes&lt;/p&gt;
+&lt;p&gt;The GitHub release build is independently reproduced by:
+| Verifier | Signature | PGP key to verify | 
+| ------- | --------- | ----------------- |
+| SimpleX Chat team | &lt;a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.5/_sha256sums.asc"&gt;_sha256sums.asc&lt;/a&gt; | &lt;a href="https://keys.openpgp.org/search?q=chat%40simplex.chat"&gt;FB44AF81A45BDE327319797C85107E357D4A17FC&lt;/a&gt; |&lt;/p&gt;
+&lt;p&gt;Commits:
 - flatpak: update metainfo (#5899)
 - ios: fix swipe on iOS 15, fix onboarding layout on iOS 15 and small screens (#5913)
 - ios: fix swipe in members list for iOS 15 (#5914)
