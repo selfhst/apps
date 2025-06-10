@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jellyseerr Releases</title>
-  <updated>2025-06-09T19:32:02.458116-04:00</updated>
+  <updated>2025-06-09T20:31:59.362626-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -182,7 +182,10 @@
 &lt;li&gt;now uses markdown linebreaks instead of relying purely on newlines (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1514"&gt;#1514&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/7d36dc182b462c12a31833ee08e74255d7964c24"&gt;7d36dc1&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ntfy:&lt;/strong&gt; add native ntfy notification support (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1599"&gt;#1599&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/fc4db7fa002acbb31f1fd8d20da019291d8096d8"&gt;fc4db7f&lt;/a&gt;), closes &lt;a href="https://github.com/fallenbagel/jellyseerr/issues/499"&gt;#499&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;requestlist:&lt;/strong&gt; add requests list media type filtering (&lt;a href="https://github.com/fallenbagel/jellyseerr/issues/1511"&gt;#1511&lt;/a&gt;) (&lt;a href="https://github.com/fallenbagel/jellyseerr/commit/e8f1edc0621387921dca73a8c9ad1d15f6b3a847"&gt;e8f1edc&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;This release is also available on:
+- &lt;code&gt;v2.6.0&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/fallenbagel/jellyseerr/releases/tag/v2.6.0" rel="alternate"/>
   </entry>
 </feed>
