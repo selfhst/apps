@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-06-09T22:30:50.020582-04:00</updated>
+  <updated>2025-06-09T23:33:04.205159-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,7 +175,15 @@
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;BREAKING   * Make Gitea always use its internal config, ignore &lt;code&gt;/etc/gitconfig&lt;/code&gt; (#33076)   * Improve log format (#33814)   * Fix markdown render behaviors (#34122)   * Add package version api endpoints (#34173)&lt;/p&gt;
+&lt;p&gt;BREAKING   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make Gitea always use its internal config, ignore &lt;code&gt;/etc/gitconfig&lt;/code&gt; (#33076) &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Improve log format (#33814) &lt;/li&gt;
+&lt;li&gt;Fix markdown render behaviors (#34122) &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add package version api endpoints (#34173)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;FEATURES&lt;/p&gt;
@@ -579,7 +587,8 @@
 &lt;li&gt;Update JS dependencies (#32914)&lt;/li&gt;
 &lt;li&gt;Bump x/net (#32896) (#32900)&lt;/li&gt;
 &lt;li&gt;Only activity tab needs heatmap data loading (#34652)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.24.0" rel="alternate"/>
   </entry>
 </feed>
