@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-06-10T05:30:54.230129-04:00</updated>
+  <updated>2025-06-10T06:30:53.758672-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -167,7 +167,7 @@ services:
 &lt;ul&gt;
 &lt;li&gt;Routes: Incorrect URL for load balanced routes&lt;/li&gt;
 &lt;li&gt;Routes: remove &lt;code&gt;x-&lt;/code&gt; routes on load to prevent from validation and showing up on home page&lt;/li&gt;
-&lt;li&gt;Metrics: occasional divided by zero error on network speed / disk speed calculation&lt;/li&gt;
+&lt;li&gt;Metrics: fixed occasional divided by zero error on network speed / disk speed calculation&lt;/li&gt;
 &lt;li&gt;Security: updated &lt;code&gt;go&lt;/code&gt; from 1.24.3 to 1.24.4&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.14.2" rel="alternate"/>
