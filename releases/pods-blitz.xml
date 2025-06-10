@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pods-Blitz Releases</title>
-  <updated>2025-06-10T01:34:33.371597-04:00</updated>
+  <updated>2025-06-10T02:34:37.582271-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,6 +85,7 @@
 &lt;p&gt;Main changes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Support SRT transcripts&lt;/li&gt;
+&lt;li&gt;Transcripts can be downloaded from the webpage&lt;/li&gt;
 &lt;li&gt;Build statically linked binary&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://codeberg.org/pods-blitz/pods-blitz/releases/tag/v0.8.3" rel="alternate"/>
