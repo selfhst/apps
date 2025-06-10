@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-06-10T13:30:51.838414-04:00</updated>
+  <updated>2025-06-10T14:30:52.326732-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -342,252 +342,261 @@
 &lt;li&gt;
 &lt;p&gt;REFACTORS&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;Remove context from git struct (#33793)&lt;/li&gt;
-&lt;li&gt;Refactor admin/common.ts (#33788)&lt;/li&gt;
-&lt;li&gt;Refactor repo-settings.ts (#33785)&lt;/li&gt;
-&lt;li&gt;Refactor repo-issue.ts (#33784)&lt;/li&gt;
-&lt;li&gt;Small refactor to reduce unnecessary database queries and remove duplicated functions (#33779)&lt;/li&gt;
-&lt;li&gt;Refactor initRepoBranchTagSelector to use new init framework (#33776)&lt;/li&gt;
-&lt;li&gt;Refactor buttons to use new init framework (#33774)&lt;/li&gt;
-&lt;li&gt;Refactor markup and pdf-viewer to use new init framework (#33772)&lt;/li&gt;
-&lt;li&gt;Refactor error system (#33771)&lt;/li&gt;
-&lt;li&gt;Refactor mail code (#33768)&lt;/li&gt;
-&lt;li&gt;Update TypeScript types (#33799)&lt;/li&gt;
-&lt;li&gt;Refactor older tests to use testify (#33140)&lt;/li&gt;
-&lt;li&gt;Move notifywatch to service layer (#33825)&lt;/li&gt;
-&lt;li&gt;Decouple context from repository related structs (#33823)&lt;/li&gt;
-&lt;li&gt;Remove context from mail struct (#33811)&lt;/li&gt;
-&lt;li&gt;Refactor dropdown ellipsis (#34123)&lt;/li&gt;
-&lt;li&gt;Refactor functions to reduce repopath expose (#33892)&lt;/li&gt;
-&lt;li&gt;Refactor repo-diff.ts (#33746)&lt;/li&gt;
-&lt;li&gt;Refactor web route handler (#33488)&lt;/li&gt;
-&lt;li&gt;Refactor user &amp;amp; avatar (#33433)&lt;/li&gt;
-&lt;li&gt;Refactor user package (#33423)&lt;/li&gt;
-&lt;li&gt;Refactor decouple context from migration structs (#33399)&lt;/li&gt;
-&lt;li&gt;Refactor context flash msg and global variables (#33375)&lt;/li&gt;
-&lt;li&gt;Refactor response writer &amp;amp; access logger (#33323)&lt;/li&gt;
-&lt;li&gt;Refactor ref type (#33242)&lt;/li&gt;
-&lt;li&gt;Refactor context repository (#33202)&lt;/li&gt;
-&lt;li&gt;Refactor legacy JS (#33115)&lt;/li&gt;
-&lt;li&gt;Refactor legacy line-number and scroll code (#33094)&lt;/li&gt;
-&lt;li&gt;Refactor env var related code (#33075)&lt;/li&gt;
-&lt;li&gt;Move SetMerged to service layer (#33045)&lt;/li&gt;
-&lt;li&gt;Merge updatecommentattachment functions (#33044)&lt;/li&gt;
-&lt;li&gt;Refactor pull-request compare&amp;amp;create page (#33071)&lt;/li&gt;
-&lt;li&gt;Refactor repo-new.ts (#33070)&lt;/li&gt;
-&lt;li&gt;Refactor pagination (#33037)&lt;/li&gt;
-&lt;li&gt;Refactor tests (#33021)&lt;/li&gt;
-&lt;li&gt;Refactor markup render to fix various path problems (#34114)&lt;/li&gt;
-&lt;li&gt;Refactor Branch struct in package modules/git (#33980)&lt;/li&gt;
-&lt;li&gt;Don't create duplicated functions for code repositories and wiki repositories (#33924)&lt;/li&gt;
-&lt;li&gt;Move git references checking to gitrepo packages to reduce expose of repository path (#33891)&lt;/li&gt;
-&lt;li&gt;Refactor cache-control (#33861)&lt;/li&gt;
-&lt;li&gt;Decouple diff stats query from actual diffing (#33810)&lt;/li&gt;
-&lt;li&gt;Move part of updating protected branch logic to service layer (#33742)&lt;/li&gt;
-&lt;li&gt;Decouple Batch from git.Repository to simplify usage without requiring the creation of a Repository struct. (#34001)&lt;/li&gt;
-&lt;li&gt;Refactor tmpl and blob_excerpt (#32967)&lt;/li&gt;
-&lt;li&gt;Refactor template &amp;amp; test related code (#32938)&lt;/li&gt;
-&lt;li&gt;Refactor db package and remove unnecessary &lt;code&gt;DumpTables&lt;/code&gt; (#32930)&lt;/li&gt;
-&lt;li&gt;Refactor pprof labels and process desc (#32909)&lt;/li&gt;
-&lt;li&gt;Refactor repo-projects.ts (#32892)&lt;/li&gt;
-&lt;li&gt;Refactor getpatch/getdiff functions and remove unnecessary fallback (#32817)&lt;/li&gt;
-&lt;li&gt;Uniform all temporary directories and allow customizing temp path (#32352)&lt;/li&gt;
-&lt;li&gt;Remove context from retry downloader (#33871)&lt;/li&gt;
-&lt;li&gt;Refactor global init code and add more comments (#33755)&lt;/li&gt;
-&lt;li&gt;Remove some unnecessary template helpers (#33069)&lt;/li&gt;
-&lt;li&gt;Move and rename UpdateRepository (#34136)&lt;/li&gt;
-&lt;li&gt;Move hooks function to gitrepo and reduce expose repopath (#33890)&lt;/li&gt;
-&lt;li&gt;Add abstraction layer to delete repository from disk (#33879)&lt;/li&gt;
-&lt;li&gt;Add abstraction layer to check if the repository exists on disk (#33874)&lt;/li&gt;
-&lt;li&gt;Move ParseCommitWithSSHSignature to service layer (#34087)&lt;/li&gt;
-&lt;li&gt;Move duplicated functions (#33977)&lt;/li&gt;
-&lt;li&gt;Extract code to their own functions for push update (#33944)&lt;/li&gt;
-&lt;li&gt;Move gitgraph from modules to services layer (#33527)&lt;/li&gt;
-&lt;li&gt;Move commits signature and verify functions to service layers (#33605)&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;CloseIssue&lt;/code&gt; and &lt;code&gt;ReopenIssue&lt;/code&gt; instead of &lt;code&gt;ChangeStatus&lt;/code&gt; (#32467)&lt;/li&gt;
-&lt;li&gt;Refactor arch route handlers (#32993)&lt;/li&gt;
-&lt;li&gt;Refactor "string truncate" (#32984)&lt;/li&gt;
-&lt;li&gt;Refactor arch route handlers (#32972)&lt;/li&gt;
-&lt;li&gt;Clarify path param naming (#32969)&lt;/li&gt;
-&lt;li&gt;Refactor request context (#32956)&lt;/li&gt;
-&lt;li&gt;Move some errors to their own sub packages (#32880)&lt;/li&gt;
-&lt;li&gt;Move RepoTransfer from models to models/repo sub package (#32506)&lt;/li&gt;
-&lt;li&gt;Move delete deploy keys into service layer (#32201)&lt;/li&gt;
-&lt;li&gt;Refactor webhook events (#33337)&lt;/li&gt;
-&lt;li&gt;Move some Actions related functions from &lt;code&gt;routers&lt;/code&gt; to &lt;code&gt;services&lt;/code&gt; (#33280)&lt;/li&gt;
-&lt;li&gt;Refactor RefName (#33234)&lt;/li&gt;
-&lt;li&gt;Refactor context RefName and RepoAssignment (#33226)&lt;/li&gt;
-&lt;li&gt;Refactor repository transfer (#33211)&lt;/li&gt;
-&lt;li&gt;Refactor error system (#33626)&lt;/li&gt;
-&lt;li&gt;Refactor error system (#33610)&lt;/li&gt;
-&lt;li&gt;Refactor package (routes and error handling, npm peer dependency) (#33111)&lt;/li&gt;
-&lt;li&gt;Use test context in tests and new loop system in benchmarks (#33648)&lt;/li&gt;
-&lt;li&gt;Some small refactors (#33144)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Simplify context ref name (#33267)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;BUGFIXES&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Fix some dropdown problems on the issue sidebar (#34308) #34327&lt;/li&gt;
-&lt;li&gt;Do not return archive download URLs in API if downloads are disabled (#34324) #34338&lt;/li&gt;
-&lt;li&gt;Fix LFS files being editable in web UI (#34356) #34362&lt;/li&gt;
-&lt;li&gt;Fix only text/* being viewable in web UI (#34374) #34378&lt;/li&gt;
-&lt;li&gt;Fix LFS file not stored in LFS when uploaded/edited via API or web UI (#34367)&lt;/li&gt;
-&lt;li&gt;Grey out expired artifact on Artifacts list (#34314) #34404&lt;/li&gt;
-&lt;li&gt;Fix incorrect divergence cache after switching default branch (#34370) #34406&lt;/li&gt;
-&lt;li&gt;Refactor commit message rendering and fix bugs (#34412) #34414&lt;/li&gt;
-&lt;li&gt;Merge and tweak markup editor expander CSS (#34409) #34415&lt;/li&gt;
-&lt;li&gt;Fix GetUsersByEmails (#34423) #34425&lt;/li&gt;
-&lt;li&gt;Only git operations should update last changed of a repository (#34388) #34427&lt;/li&gt;
-&lt;li&gt;Fix comment textarea scroll issue in Firefox (#34438) #34446&lt;/li&gt;
-&lt;li&gt;Fix repo broken check (#34444) #34452&lt;/li&gt;
-&lt;li&gt;Fix remove org user failure on mssql (#34449) #34453&lt;/li&gt;
-&lt;li&gt;Fix Workflow run Not Found page (#34459) #34466&lt;/li&gt;
-&lt;li&gt;When updating comment, if the content is the same, just return and not update the database (#34422) #34464&lt;/li&gt;
-&lt;li&gt;Fix project board view (#34470) #34475&lt;/li&gt;
-&lt;li&gt;Fix get / delete runner to use consistent http 404 and 500 status (#34480) #34488&lt;/li&gt;
-&lt;li&gt;Fix url validation in webhook add/edit API (#34492) #34496&lt;/li&gt;
-&lt;li&gt;Fix edithook api can not update package, status and workflow_job events (#34495) #34499&lt;/li&gt;
-&lt;li&gt;Fix ephemeral runner deletion (#34447) #34513&lt;/li&gt;
-&lt;li&gt;Don't display error log when .git-blame-ignore-revs doesn't exist (#34457)&lt;/li&gt;
-&lt;li&gt;Only allow admins to rename default/protected branches (#33276)&lt;/li&gt;
-&lt;li&gt;Improve "lock conversation" UI (#34207)&lt;/li&gt;
-&lt;li&gt;Fix incorrect file links (#34189)&lt;/li&gt;
-&lt;li&gt;Optimize Overflow Menu (#34183)&lt;/li&gt;
-&lt;li&gt;Check user/org repo limit instead of doer (#34147)&lt;/li&gt;
-&lt;li&gt;Make markdown render match GitHub's behavior (#34129)&lt;/li&gt;
-&lt;li&gt;Fix team permission (#34128)&lt;/li&gt;
-&lt;li&gt;Correctly handle submodule view and avoid throwing 500 error (#34121)&lt;/li&gt;
-&lt;li&gt;Fix users being able bypass limits with repo transfers (#34031)&lt;/li&gt;
-&lt;li&gt;Avoid creating unnecessary temporary cat file sub process (#33942)&lt;/li&gt;
-&lt;li&gt;Refactor organization menu (#33928)&lt;/li&gt;
-&lt;li&gt;Fix various Fomantic UI and htmx problems (#33851)&lt;/li&gt;
-&lt;li&gt;Fix 500 error when error occurred in migration page (#33256)&lt;/li&gt;
-&lt;li&gt;Validate that the tag doesn't exist when creating a tag via the web (#33241)&lt;/li&gt;
-&lt;li&gt;Add missed transaction on setmerged (#33079)&lt;/li&gt;
-&lt;li&gt;Rework create/fork/adopt/generate repository to make sure resources will be cleanup once failed (#31035)&lt;/li&gt;
-&lt;li&gt;Valid email address should only start with alphanumeric (#28174)&lt;/li&gt;
-&lt;li&gt;Fix webhook url (#34186)&lt;/li&gt;
-&lt;li&gt;Fix "toAbsoluteLocaleDate" test when system locale is not en-US (#33939)&lt;/li&gt;
-&lt;li&gt;Fix file name could not be searched if the file was not a text file when using the Bleve indexer (#33959)&lt;/li&gt;
-&lt;li&gt;Fix cannot delete runners via the modal dialog (#33895)&lt;/li&gt;
-&lt;li&gt;Fix unpin hint on the pinned pull requests (#33207)&lt;/li&gt;
-&lt;li&gt;Fix parentCommit invalid memory address or nil pointer dereference. (#33204)&lt;/li&gt;
-&lt;li&gt;Fix comment header padding (#33377)&lt;/li&gt;
-&lt;li&gt;Fix some migration and repo name problems (#33986)&lt;/li&gt;
-&lt;li&gt;Fix various trivial frontend problems (#34263)&lt;/li&gt;
-&lt;li&gt;Fix Set Email Preference dropdown and button placement (#34255)&lt;/li&gt;
-&lt;li&gt;Fix quoted replies incorrectly render user input as part of the quote (#34216)&lt;/li&gt;
-&lt;li&gt;Fix button alignments and remove unnecessary styles (#34206)&lt;/li&gt;
-&lt;li&gt;Restore form inputs on organization create error (#34201)&lt;/li&gt;
-&lt;li&gt;Try to fix ACME (3rd) (#33807)&lt;/li&gt;
-&lt;li&gt;Fix incorrect ref "blob" (#33240)&lt;/li&gt;
-&lt;li&gt;Fix dynamic content loading init problem (#33748)&lt;/li&gt;
-&lt;li&gt;Fix git empty check and HEAD request (#33690)&lt;/li&gt;
-&lt;li&gt;Fix Untranslated Text on Actions Page (#33635)&lt;/li&gt;
-&lt;li&gt;Fix issue label delete incorrect labels webhook payload (#34575)&lt;/li&gt;
-&lt;li&gt;Fix incorrect page navigation with up and down arrow on last item of dashboard repos (#34570)&lt;/li&gt;
-&lt;li&gt;Fix/improve avatar sync from LDAP (#34573)&lt;/li&gt;
-&lt;li&gt;Fix some trivial problems (#34579)&lt;/li&gt;
-&lt;li&gt;Retain issue sort type when a keyword search is introduced (#34559)&lt;/li&gt;
-&lt;li&gt;Always use an empty line to separate the commit message and trailer (#34512)&lt;/li&gt;
-&lt;li&gt;Fix line-button issue after file selection in file tree (#34574)&lt;/li&gt;
-&lt;li&gt;Fix doctor deleting orphaned issues attachments (#34142)&lt;/li&gt;
-&lt;li&gt;Add webhook assigning test and fix possible bug (#34420)&lt;/li&gt;
-&lt;li&gt;Fix possible nil description of pull request when migrating from CodeCommit (#34541)&lt;/li&gt;
-&lt;li&gt;Refactor commit reader (#34542)&lt;/li&gt;
-&lt;li&gt;Fix possible pull request broken when leave the page immediately after clicking the update button #34509&lt;/li&gt;
-&lt;li&gt;Ignore "Close" error when uploading container blob (#34620)&lt;/li&gt;
-&lt;li&gt;Fix missed merge commit sha and time when migrating from codecommit (#34645)&lt;/li&gt;
-&lt;li&gt;Fix GetUsersByEmails (#34643)&lt;/li&gt;
-&lt;li&gt;Misc CSS fixes (#34638)&lt;/li&gt;
-&lt;li&gt;Add codecommit to supported services in api docs (#34626)&lt;/li&gt;
-&lt;li&gt;Validate hex colors when creating/editing labels (#34623)&lt;/li&gt;
-&lt;li&gt;Fix possible pull request broken when leave the page immediately after clicking the update button (#34509)&lt;/li&gt;
-&lt;li&gt;Fix margin issue in markup paragraph rendering (#34599)&lt;/li&gt;
-&lt;li&gt;Fix migration pull request title too long (#34577)&lt;/li&gt;
-&lt;li&gt;Fix footnote jump behavior on the issue page. (#34621)&lt;/li&gt;
-&lt;li&gt;Fix "oras" OCI client compatibility (#34666)&lt;/li&gt;
-&lt;li&gt;Fix last admin check when syncing users (#34649)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fix skip paths check on tag push events in workflows (#34602) #34670&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MISC&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Bump to alpine 3.22 (#34613)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Make pull request and issue history more compact (#34588)&lt;/li&gt;
-&lt;li&gt;Run integration tests against postgres 14 (#34514) #34536&lt;/li&gt;
-&lt;li&gt;Enable addtional linters (#34085)&lt;/li&gt;
-&lt;li&gt;Enable testifylint rules (#34075)&lt;/li&gt;
-&lt;li&gt;Enable staticcheck QFxxxx rules (#34064)&lt;/li&gt;
-&lt;li&gt;Improve Actions test (#32883)&lt;/li&gt;
-&lt;li&gt;Drop fomantic build (#33845)&lt;/li&gt;
-&lt;li&gt;Go1.24 (#33562)&lt;/li&gt;
-&lt;li&gt;Run yamllint with strict mode, fix issue (#33551)&lt;/li&gt;
-&lt;li&gt;Disable cron task to update license (#33486)&lt;/li&gt;
-&lt;li&gt;Optimize makefile help information generation (#33390)&lt;/li&gt;
-&lt;li&gt;Convert github.com/xanzy/go-gitlab into gitlab.com/gitlab-org/api/client-go (#33126)&lt;/li&gt;
-&lt;li&gt;Add missed changelogs (#33649)&lt;/li&gt;
-&lt;li&gt;Update .changelog file to add performance label group (#33472)&lt;/li&gt;
-&lt;li&gt;Add missing POPULATE_SQUASH_COMMENT_WITH_COMMIT_MESSAGES in app.example.ini (#33363)&lt;/li&gt;
-&lt;li&gt;Update README screenshots (#33347)&lt;/li&gt;
-&lt;li&gt;Update unrs-resolver (#34279)&lt;/li&gt;
-&lt;li&gt;Update go&amp;amp;js dependencies (#34262)&lt;/li&gt;
-&lt;li&gt;Optimize the calling code of queryElems (#34235)&lt;/li&gt;
-&lt;li&gt;Update protected_branch.tmpl (#34193)&lt;/li&gt;
-&lt;li&gt;Feat/optimize span svg layout (#34185)&lt;/li&gt;
-&lt;li&gt;Set MERMAID_MAX_SOURCE_CHARACTERS to 50000 (#34152)&lt;/li&gt;
-&lt;li&gt;Update JS and PY deps (#34143)&lt;/li&gt;
-&lt;li&gt;Add Chinese translations for README files (#34132)&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;overflow-wrap: anywhere&lt;/code&gt; to replace &lt;code&gt;word-break: break-all&lt;/code&gt; (#34126)&lt;/li&gt;
-&lt;li&gt;Clarify ownership in password change error messages (#34092)&lt;/li&gt;
-&lt;li&gt;Add toggleClass function in dom.ts (#34063)&lt;/li&gt;
-&lt;li&gt;Update to golangci-lint v2 (#34054)&lt;/li&gt;
-&lt;li&gt;Update Makefile test comments (#34013)&lt;/li&gt;
-&lt;li&gt;Update go mod dependencies (#33988)&lt;/li&gt;
-&lt;li&gt;Use filepath.Join instead of path.Join for file system file operations (#33978)&lt;/li&gt;
-&lt;li&gt;Prepare common tmpl functions in a middleware (#33957)&lt;/li&gt;
-&lt;li&gt;Remove unused or abused styles (#33918)&lt;/li&gt;
-&lt;li&gt;Update JS and PY deps, misc tweaks (#33903)&lt;/li&gt;
-&lt;li&gt;Try to figure out attribute checker problem (#33901)&lt;/li&gt;
-&lt;li&gt;Add lock for a repository pull mirror (#33876)&lt;/li&gt;
-&lt;li&gt;Fine tune push mirror UI (#33866)&lt;/li&gt;
-&lt;li&gt;Improve issue &amp;amp; code search (#33860)&lt;/li&gt;
-&lt;li&gt;Use pullrequestlist instead of []*pullrequest (#33765)&lt;/li&gt;
-&lt;li&gt;Upgrade act to 0.261.4 and actions-proto-go to v0.4.1 (#33760)&lt;/li&gt;
-&lt;li&gt;Align sidebar gears to the right (#33721)&lt;/li&gt;
-&lt;li&gt;Update Go dependencies (skip blevesearch, meilisearch) (#33655)&lt;/li&gt;
-&lt;li&gt;Add migrations and doctor fixes (#33556)&lt;/li&gt;
-&lt;li&gt;Remove "class-name" from svg icon (#33540)&lt;/li&gt;
-&lt;li&gt;Update MAINTAINERS (#33529)&lt;/li&gt;
-&lt;li&gt;Add "No data available" display when list is empty (#33517)&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;git diff-tree&lt;/code&gt; for &lt;code&gt;DiffFileTree&lt;/code&gt; on diff pages (#33514)&lt;/li&gt;
-&lt;li&gt;Give organisation members access to organisation feeds (#33508)&lt;/li&gt;
-&lt;li&gt;Update feishu icon (#33470)&lt;/li&gt;
-&lt;li&gt;Hide/disable unusable UI elements when a repository is archived (#33459)&lt;/li&gt;
-&lt;li&gt;Update &lt;code&gt;@github/text-expander-element&lt;/code&gt; to 2.9.0 (#33435)&lt;/li&gt;
-&lt;li&gt;Do not access GitRepo when a repo is being created (#33380)&lt;/li&gt;
-&lt;li&gt;Fix incorrect ref usages (#33301)&lt;/li&gt;
-&lt;li&gt;Prepare for support performance trace (#33286)&lt;/li&gt;
-&lt;li&gt;Enable Typescript &lt;code&gt;noImplicitThis&lt;/code&gt; (#33250)&lt;/li&gt;
-&lt;li&gt;Remove unused CSS styles and move some styles to proper files (#33217)&lt;/li&gt;
-&lt;li&gt;Add .run to gitignore (#33175)&lt;/li&gt;
-&lt;li&gt;Fix typo in gitea downloader test and add missing codebase in &lt;code&gt;ToGitServiceType&lt;/code&gt; (#33146)&lt;/li&gt;
-&lt;li&gt;Remove extended glob pattern from branch protection UI (#33125)&lt;/li&gt;
-&lt;li&gt;Clean up legacy form CSS styles (#33081)&lt;/li&gt;
-&lt;li&gt;Unset XDG_HOME_CONFIG as gitea manages configuration locations (#33067)&lt;/li&gt;
-&lt;li&gt;Add IntelliJ Gateway's .uuid to gitignore (#33052)&lt;/li&gt;
-&lt;li&gt;User facing messages for AGit errors (#33012)&lt;/li&gt;
-&lt;li&gt;Always show assignees on right (#33006)&lt;/li&gt;
-&lt;li&gt;Fix eslint (#33002)&lt;/li&gt;
-&lt;li&gt;Update JS dependencies (#32914)&lt;/li&gt;
-&lt;li&gt;Bump x/net (#32896) (#32900)&lt;/li&gt;
-&lt;li&gt;Only activity tab needs heatmap data loading (#34652)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;details&gt;
+
+  * Remove context from git struct (#33793)
+  * Refactor admin/common.ts (#33788)
+  * Refactor repo-settings.ts (#33785)
+  * Refactor repo-issue.ts (#33784)
+  * Small refactor to reduce unnecessary database queries and remove duplicated functions (#33779)
+  * Refactor initRepoBranchTagSelector to use new init framework (#33776)
+  * Refactor buttons to use new init framework (#33774)
+  * Refactor markup and pdf-viewer to use new init framework (#33772)
+  * Refactor error system (#33771)
+  * Refactor mail code (#33768)
+  * Update TypeScript types (#33799)
+  * Refactor older tests to use testify (#33140)
+  * Move notifywatch to service layer (#33825)
+  * Decouple context from repository related structs (#33823)
+  * Remove context from mail struct (#33811)
+  * Refactor dropdown ellipsis (#34123)
+  * Refactor functions to reduce repopath expose (#33892)
+  * Refactor repo-diff.ts (#33746)
+  * Refactor web route handler (#33488)
+  * Refactor user &amp; avatar (#33433)
+  * Refactor user package (#33423)
+  * Refactor decouple context from migration structs (#33399)
+  * Refactor context flash msg and global variables (#33375)
+  * Refactor response writer &amp; access logger (#33323)
+  * Refactor ref type (#33242)
+  * Refactor context repository (#33202)
+  * Refactor legacy JS (#33115)
+  * Refactor legacy line-number and scroll code (#33094)
+  * Refactor env var related code (#33075)
+  * Move SetMerged to service layer (#33045)
+  * Merge updatecommentattachment functions (#33044)
+  * Refactor pull-request compare&amp;create page (#33071)
+  * Refactor repo-new.ts (#33070)
+  * Refactor pagination (#33037)
+  * Refactor tests (#33021)
+  * Refactor markup render to fix various path problems (#34114)
+  * Refactor Branch struct in package modules/git (#33980)
+  * Don't create duplicated functions for code repositories and wiki repositories (#33924)
+  * Move git references checking to gitrepo packages to reduce expose of repository path (#33891)
+  * Refactor cache-control (#33861)
+  * Decouple diff stats query from actual diffing (#33810)
+  * Move part of updating protected branch logic to service layer (#33742)
+  * Decouple Batch from git.Repository to simplify usage without requiring the creation of a Repository struct. (#34001)
+  * Refactor tmpl and blob_excerpt (#32967)
+  * Refactor template &amp; test related code (#32938)
+  * Refactor db package and remove unnecessary `DumpTables` (#32930)
+  * Refactor pprof labels and process desc (#32909)
+  * Refactor repo-projects.ts (#32892)
+  * Refactor getpatch/getdiff functions and remove unnecessary fallback (#32817)
+  * Uniform all temporary directories and allow customizing temp path (#32352)
+  * Remove context from retry downloader (#33871)
+  * Refactor global init code and add more comments (#33755)
+  * Remove some unnecessary template helpers (#33069)
+  * Move and rename UpdateRepository (#34136)
+  * Move hooks function to gitrepo and reduce expose repopath (#33890)
+  * Add abstraction layer to delete repository from disk (#33879)
+  * Add abstraction layer to check if the repository exists on disk (#33874)
+  * Move ParseCommitWithSSHSignature to service layer (#34087)
+  * Move duplicated functions (#33977)
+  * Extract code to their own functions for push update (#33944)
+  * Move gitgraph from modules to services layer (#33527)
+  * Move commits signature and verify functions to service layers (#33605)
+  * Use `CloseIssue` and `ReopenIssue` instead of `ChangeStatus` (#32467)
+  * Refactor arch route handlers (#32993)
+  * Refactor "string truncate" (#32984)
+  * Refactor arch route handlers (#32972)
+  * Clarify path param naming (#32969)
+  * Refactor request context (#32956)
+  * Move some errors to their own sub packages (#32880)
+  * Move RepoTransfer from models to models/repo sub package (#32506)
+  * Move delete deploy keys into service layer (#32201)
+  * Refactor webhook events (#33337)
+  * Move some Actions related functions from `routers` to `services` (#33280)
+  * Refactor RefName (#33234)
+  * Refactor context RefName and RepoAssignment (#33226)
+  * Refactor repository transfer (#33211)
+  * Refactor error system (#33626)
+  * Refactor error system (#33610)
+  * Refactor package (routes and error handling, npm peer dependency) (#33111)
+  * Use test context in tests and new loop system in benchmarks (#33648)
+  * Some small refactors (#33144)
+  * Simplify context ref name (#33267)
+
+  &lt;/details&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+
+  * Fix some dropdown problems on the issue sidebar (#34308) #34327
+  * Do not return archive download URLs in API if downloads are disabled (#34324) #34338
+  * Fix LFS files being editable in web UI (#34356) #34362
+  * Fix only text/* being viewable in web UI (#34374) #34378
+  * Fix LFS file not stored in LFS when uploaded/edited via API or web UI (#34367)
+  * Grey out expired artifact on Artifacts list (#34314) #34404
+  * Fix incorrect divergence cache after switching default branch (#34370) #34406
+  * Refactor commit message rendering and fix bugs (#34412) #34414
+  * Merge and tweak markup editor expander CSS (#34409) #34415
+  * Fix GetUsersByEmails (#34423) #34425
+  * Only git operations should update last changed of a repository (#34388) #34427
+  * Fix comment textarea scroll issue in Firefox (#34438) #34446
+  * Fix repo broken check (#34444) #34452
+  * Fix remove org user failure on mssql (#34449) #34453
+  * Fix Workflow run Not Found page (#34459) #34466
+  * When updating comment, if the content is the same, just return and not update the database (#34422) #34464
+  * Fix project board view (#34470) #34475
+  * Fix get / delete runner to use consistent http 404 and 500 status (#34480) #34488
+  * Fix url validation in webhook add/edit API (#34492) #34496
+  * Fix edithook api can not update package, status and workflow_job events (#34495) #34499
+  * Fix ephemeral runner deletion (#34447) #34513
+  * Don't display error log when .git-blame-ignore-revs doesn't exist (#34457)
+  * Only allow admins to rename default/protected branches (#33276)
+  * Improve "lock conversation" UI (#34207)
+  * Fix incorrect file links (#34189)
+  * Optimize Overflow Menu (#34183)
+  * Check user/org repo limit instead of doer (#34147)
+  * Make markdown render match GitHub's behavior (#34129)
+  * Fix team permission (#34128)
+  * Correctly handle submodule view and avoid throwing 500 error (#34121)
+  * Fix users being able bypass limits with repo transfers (#34031)
+  * Avoid creating unnecessary temporary cat file sub process (#33942)
+  * Refactor organization menu (#33928)
+  * Fix various Fomantic UI and htmx problems (#33851)
+  * Fix 500 error when error occurred in migration page (#33256)
+  * Validate that the tag doesn't exist when creating a tag via the web (#33241)
+  * Add missed transaction on setmerged (#33079)
+  * Rework create/fork/adopt/generate repository to make sure resources will be cleanup once failed (#31035)
+  * Valid email address should only start with alphanumeric (#28174)
+  * Fix webhook url (#34186)
+  * Fix "toAbsoluteLocaleDate" test when system locale is not en-US (#33939)
+  * Fix file name could not be searched if the file was not a text file when using the Bleve indexer (#33959)
+  * Fix cannot delete runners via the modal dialog (#33895)
+  * Fix unpin hint on the pinned pull requests (#33207)
+  * Fix parentCommit invalid memory address or nil pointer dereference. (#33204)
+  * Fix comment header padding (#33377)
+  * Fix some migration and repo name problems (#33986)
+  * Fix various trivial frontend problems (#34263)
+  * Fix Set Email Preference dropdown and button placement (#34255)
+  * Fix quoted replies incorrectly render user input as part of the quote (#34216)
+  * Fix button alignments and remove unnecessary styles (#34206)
+  * Restore form inputs on organization create error (#34201)
+  * Try to fix ACME (3rd) (#33807)
+  * Fix incorrect ref "blob" (#33240)
+  * Fix dynamic content loading init problem (#33748)
+  * Fix git empty check and HEAD request (#33690)
+  * Fix Untranslated Text on Actions Page (#33635)
+  * Fix issue label delete incorrect labels webhook payload (#34575)
+  * Fix incorrect page navigation with up and down arrow on last item of dashboard repos (#34570)
+  * Fix/improve avatar sync from LDAP (#34573)
+  * Fix some trivial problems (#34579)
+  * Retain issue sort type when a keyword search is introduced (#34559)
+  * Always use an empty line to separate the commit message and trailer (#34512)
+  * Fix line-button issue after file selection in file tree (#34574)
+  * Fix doctor deleting orphaned issues attachments (#34142)
+  * Add webhook assigning test and fix possible bug (#34420)
+  * Fix possible nil description of pull request when migrating from CodeCommit (#34541)
+  * Refactor commit reader (#34542)
+  * Fix possible pull request broken when leave the page immediately after clicking the update button #34509
+  * Ignore "Close" error when uploading container blob (#34620)
+  * Fix missed merge commit sha and time when migrating from codecommit (#34645)
+  * Fix GetUsersByEmails (#34643)
+  * Misc CSS fixes (#34638)
+  * Add codecommit to supported services in api docs (#34626)
+  * Validate hex colors when creating/editing labels (#34623)
+  * Fix possible pull request broken when leave the page immediately after clicking the update button (#34509)
+  * Fix margin issue in markup paragraph rendering (#34599)
+  * Fix migration pull request title too long (#34577)
+  * Fix footnote jump behavior on the issue page. (#34621)
+  * Fix "oras" OCI client compatibility (#34666)
+  * Fix last admin check when syncing users (#34649)
+  * Fix skip paths check on tag push events in workflows (#34602) #34670
+
+  &lt;/details&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MISC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+
+  * Bump to alpine 3.22 (#34613)
+  * Make pull request and issue history more compact (#34588)
+  * Run integration tests against postgres 14 (#34514) #34536
+  * Enable addtional linters (#34085)
+  * Enable testifylint rules (#34075)
+  * Enable staticcheck QFxxxx rules (#34064)
+  * Improve Actions test (#32883)
+  * Drop fomantic build (#33845)
+  * Go1.24 (#33562)
+  * Run yamllint with strict mode, fix issue (#33551)
+  * Disable cron task to update license (#33486)
+  * Optimize makefile help information generation (#33390)
+  * Convert github.com/xanzy/go-gitlab into gitlab.com/gitlab-org/api/client-go (#33126)
+  * Add missed changelogs (#33649)
+  * Update .changelog file to add performance label group (#33472)
+  * Add missing POPULATE_SQUASH_COMMENT_WITH_COMMIT_MESSAGES in app.example.ini (#33363)
+  * Update README screenshots (#33347)
+  * Update unrs-resolver (#34279)
+  * Update go&amp;js dependencies (#34262)
+  * Optimize the calling code of queryElems (#34235)
+  * Update protected_branch.tmpl (#34193)
+  * Feat/optimize span svg layout (#34185)
+  * Set MERMAID_MAX_SOURCE_CHARACTERS to 50000 (#34152)
+  * Update JS and PY deps (#34143)
+  * Add Chinese translations for README files (#34132)
+  * Use `overflow-wrap: anywhere` to replace `word-break: break-all` (#34126)
+  * Clarify ownership in password change error messages (#34092)
+  * Add toggleClass function in dom.ts (#34063)
+  * Update to golangci-lint v2 (#34054)
+  * Update Makefile test comments (#34013)
+  * Update go mod dependencies (#33988)
+  * Use filepath.Join instead of path.Join for file system file operations (#33978)
+  * Prepare common tmpl functions in a middleware (#33957)
+  * Remove unused or abused styles (#33918)
+  * Update JS and PY deps, misc tweaks (#33903)
+  * Try to figure out attribute checker problem (#33901)
+  * Add lock for a repository pull mirror (#33876)
+  * Fine tune push mirror UI (#33866)
+  * Improve issue &amp; code search (#33860)
+  * Use pullrequestlist instead of []*pullrequest (#33765)
+  * Upgrade act to 0.261.4 and actions-proto-go to v0.4.1 (#33760)
+  * Align sidebar gears to the right (#33721)
+  * Update Go dependencies (skip blevesearch, meilisearch) (#33655)
+  * Add migrations and doctor fixes (#33556)
+  * Remove "class-name" from svg icon (#33540)
+  * Update MAINTAINERS (#33529)
+  * Add "No data available" display when list is empty (#33517)
+  * Use `git diff-tree` for `DiffFileTree` on diff pages (#33514)
+  * Give organisation members access to organisation feeds (#33508)
+  * Update feishu icon (#33470)
+  * Hide/disable unusable UI elements when a repository is archived (#33459)
+  * Update `@github/text-expander-element` to 2.9.0 (#33435)
+  * Do not access GitRepo when a repo is being created (#33380)
+  * Fix incorrect ref usages (#33301)
+  * Prepare for support performance trace (#33286)
+  * Enable Typescript `noImplicitThis` (#33250)
+  * Remove unused CSS styles and move some styles to proper files (#33217)
+  * Add .run to gitignore (#33175)
+  * Fix typo in gitea downloader test and add missing codebase in `ToGitServiceType` (#33146)
+  * Remove extended glob pattern from branch protection UI (#33125)
+  * Clean up legacy form CSS styles (#33081)
+  * Unset XDG_HOME_CONFIG as gitea manages configuration locations (#33067)
+  * Add IntelliJ Gateway's .uuid to gitignore (#33052)
+  * User facing messages for AGit errors (#33012)
+  * Always show assignees on right (#33006)
+  * Fix eslint (#33002)
+  * Update JS dependencies (#32914)
+  * Bump x/net (#32896) (#32900)
+  * Only activity tab needs heatmap data loading (#34652)
+
+  &lt;/details&gt;
+
 &lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.24.0" rel="alternate"/>
   </entry>
