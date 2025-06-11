@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2025-06-11T13:33:46.442675-04:00</updated>
+  <updated>2025-06-11T14:33:52.249736-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -304,7 +304,7 @@ We &lt;a href="https://www.meilisearch.com/docs/guides/ai/getting_started_with_c
 curl -X POST 'http://localhost:7700/chats/my-assistant/settings' \
   -H 'Content-Type: application/json' \
   -d '{
-    "source": "OpenAi",
+    "source": "openAi",
     "apiKey": "sk-abc..."
   }'&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then by using the official OpenAI SDK you'll be able to chat with your indexes.&lt;/p&gt;
