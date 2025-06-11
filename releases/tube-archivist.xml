@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tube Archivist Releases</title>
-  <updated>2025-06-11T00:31:53.441431-04:00</updated>
+  <updated>2025-06-11T01:31:47.610002-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -276,7 +276,8 @@ Example: &lt;code&gt;TA_HOST=http://tubearchivist.local:8000&lt;/code&gt;&lt;/p&
     <content>&lt;h2&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;bump yt-dlp&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Also see the release notes for &lt;a href="https://github.com/tubearchivist/tubearchivist/releases/tag/v0.5.3"&gt;v0.5.3&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/tubearchivist/tubearchivist/releases/tag/v0.5.4" rel="alternate"/>
   </entry>
 </feed>
