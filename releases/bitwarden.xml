@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bitwarden Releases</title>
-  <updated>2025-06-11T07:30:33.780510-04:00</updated>
+  <updated>2025-06-11T08:30:34.268689-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -67,11 +67,9 @@
     <author>
       <name>bitwarden/server</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;Removed feature flags&lt;/li&gt;
-&lt;li&gt;System Administration Portal now lists owners for organizations and service users for managed service providers&lt;/li&gt;
-&lt;li&gt;Deprecated reference event collection&lt;/li&gt;
-&lt;li&gt;Dependency updates, bug-fixes, and small enhancements&lt;/li&gt;
+    <content>&lt;h3&gt;⚠️ Warning&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We've identified a bug with Sends in this release and this version should not be used.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/bitwarden/server/releases/tag/v2025.6.0" rel="alternate"/>
   </entry>
