@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-06-12T05:36:03.407275-04:00</updated>
+  <updated>2025-06-12T06:35:57.347331-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -236,7 +236,46 @@
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release introduces build &amp;amp; push capabilities for Compose deployments, enables &lt;a href="https://caddyserver.com/docs/caddyfile/directives/reverse_proxy#passive-health-checks"&gt;passive health checks&lt;/a&gt; for upstreams in Caddy reverse proxy, minor bug fixes and improvements.&lt;/p&gt;
+&lt;p&gt;We also launched:
+* &lt;a href="https://docs.uncloud.run/"&gt;Uncloud Documentation&lt;/a&gt;
+* &lt;a href="https://discord.gg/eR35KQJhPu"&gt;Discord server&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;New features&lt;/h2&gt;
+&lt;h3&gt;Initial build &amp;amp; push support (still experimenting) ✨&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New &lt;code&gt;uc build&lt;/code&gt; command to build service images from &lt;code&gt;Dockerfile&lt;/code&gt; and &lt;code&gt;build:&lt;/code&gt; configuration in Compose files&lt;/li&gt;
+&lt;li&gt;Integrated build step in &lt;code&gt;uc deploy&lt;/code&gt; automatically builds and pushes an image to the registry specified in &lt;code&gt;image:&lt;/code&gt; before deployment&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;--no-build&lt;/code&gt; flag to skip building when deploying&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Caddy reverse proxy improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enabled &lt;a href="https://caddyserver.com/docs/caddyfile/directives/reverse_proxy#passive-health-checks"&gt;passive health checks&lt;/a&gt; to automatically detect unhealthy upstreams&lt;/li&gt;
+&lt;li&gt;Added automatic retry logic (3 retries) for failed requests to gracefully handle temporary unavailable upstreams&lt;/li&gt;
+&lt;li&gt;Logging enabled by default for better observability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Launched a new documentation website at &lt;a href="https://docs.uncloud.run/"&gt;docs.uncloud.run&lt;/a&gt; with a &lt;a href="https://docs.uncloud.run/category/getting-started"&gt;Getting started&lt;/a&gt; guide.&lt;/li&gt;
+&lt;li&gt;Documentation itself is deployed using Uncloud across multiple machines (dogfooding FTW!) See the &lt;a href="https://github.com/psviderski/uncloud/blob/main/docs/compose.yaml"&gt;&lt;code&gt;compose.yaml&lt;/code&gt;&lt;/a&gt; file if curious.
+&lt;img alt="" src="https://github.com/psviderski/uncloud/blob/main/.github/images/compose-deploy.jpg" /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;User experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Default SSH key path is now set to &lt;code&gt;~/.ssh/id_ed25519&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;m&lt;/code&gt; alias for the &lt;code&gt;machine&lt;/code&gt; command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed Caddy deployment after adding new machine by using cluster client instead of machine client (#65)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Testing &amp;amp; CI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added GitHub Actions workflow for automated Go tests&lt;/li&gt;
+&lt;li&gt;Enhanced e2e tests with build &amp;amp; push verification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;Thanks to @tonyo for the build &amp;amp; push RFC and implementation, test improvements, and the make &lt;code&gt;install-dev&lt;/code&gt; helper!&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;624caf037ba24fbdc22108c2a599a959d51f3e01 chore(docs): init overview page&lt;/li&gt;
 &lt;li&gt;2a0d31cec0a1470b0effa07965cdc5f54270b367 chore: Helper make target to install protobuf/grpc plugins&lt;/li&gt;
