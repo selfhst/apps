@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-06-12T12:35:56.188052-04:00</updated>
+  <updated>2025-06-12T13:36:01.855482-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,7 +117,7 @@
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve metadata quality assessment with new Metadata Match Score and… (#486) by @adityachandelgit&lt;/li&gt;
-&lt;li&gt;Improve metadata quality assessment with new Metadata Match Score and… (#485) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Implement user-configurable sidebar filter sorting (#484) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🛠️ Refactoring &amp;amp; Maintenance&lt;/h2&gt;
 &lt;ul&gt;
