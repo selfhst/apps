@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoBase Releases</title>
-  <updated>2025-06-11T21:34:54.326757-04:00</updated>
+  <updated>2025-06-11T22:34:51.320219-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -192,7 +192,7 @@
     </author>
     <content>&lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[client]&lt;/strong&gt; auto-closing issue when configuring fields in the secondary popup form (&lt;a href="https://github.com/nocobase/nocobase/pull/7042"&gt;#7042&lt;/a&gt;) by @katherinehhh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[client]&lt;/strong&gt; Fix block error issues (&lt;a href="https://github.com/nocobase/nocobase/pull/7048"&gt;#7048&lt;/a&gt;) by @gchust&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/nocobase/nocobase/releases/tag/v1.7.9" rel="alternate"/>
   </entry>
