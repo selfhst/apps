@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dawarich Releases</title>
-  <updated>2025-06-13T17:33:11.817586-04:00</updated>
+  <updated>2025-06-13T18:33:12.049056-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -215,6 +215,7 @@ services:
 &lt;p&gt;&lt;em&gt;yet another, yay!&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Well, we're moving back to Sidekiq and Redis for background jobs and caching. Unfortunately, SolidQueue and SolidCache brought more problems than they solved. Please update your &lt;code&gt;docker-compose.yml&lt;/code&gt; to use Redis and Sidekiq.&lt;/p&gt;
 &lt;p&gt;Before updating, you can remove &lt;code&gt;dawarich_development_queue&lt;/code&gt; database from your postgres. All *.sqlite3 files in &lt;code&gt;dawarich_sqlite_data&lt;/code&gt; volume can be removed as well.&lt;/p&gt;
+&lt;p&gt;PLEASE PAY ATTENTION: now the value in &lt;code&gt;REDIS_URL&lt;/code&gt; doesn't include database name and should be provided with protocol, host and port only: &lt;code&gt;redis://dawarich_redis:6379&lt;/code&gt;. Internally, Dawarich uses databases 0, 1 and 2 by default, these numbers may change in one of the future releases.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;diff
 networks:
   dawarich:
