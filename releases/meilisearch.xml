@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Meilisearch Releases</title>
-  <updated>2025-06-13T12:33:42.859084-04:00</updated>
+  <updated>2025-06-13T13:33:41.660856-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -321,9 +321,8 @@ import OpenAI from 'openai';&lt;/p&gt;
     </author>
     <content>&lt;p&gt;This patch release introduces a major fix and some minor fixes.&lt;/p&gt;
 &lt;h3&gt;Major fix: searchable attributes database bug&lt;/h3&gt;
-&lt;p&gt;Some searchable fields were removed from the searchable databases when the were removed from the &lt;code&gt;filterableAttributes&lt;/code&gt;setting.
-This made them unsearchable despite the fact they were still precised in the &lt;code&gt;searchableAttributes&lt;/code&gt; setting.
-This will no more append in versions &amp;gt;=1.15.2.&lt;/p&gt;
+&lt;p&gt;Some searchable fields were removed from the searchable databases when they were removed from the &lt;code&gt;filterableAttributes&lt;/code&gt; setting.
+This made them unsearchable, although they were still precise in the &lt;code&gt;searchableAttributes&lt;/code&gt; setting.&lt;/p&gt;
 &lt;p&gt;Fixed by @ManyTheFish in https://github.com/meilisearch/meilisearch/pull/5660 &lt;/p&gt;
 &lt;h3&gt;Minor fixes&lt;/h3&gt;
 &lt;ul&gt;
