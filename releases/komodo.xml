@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-06-13T11:33:39.932836-04:00</updated>
+  <updated>2025-06-13T12:33:34.689000-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -174,6 +174,7 @@ const servers = await komodo.read("ListServers", {
 &lt;li&gt;If given on a &lt;code&gt;Stack&lt;/code&gt; or &lt;code&gt;Deployment&lt;/code&gt;, this allows container exec terminal (even without &lt;code&gt;Terminal&lt;/code&gt; on &lt;code&gt;Server&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;Attach&lt;/code&gt;&lt;/strong&gt;: User can "attach" &lt;em&gt;other resources&lt;/em&gt; to the resource.&lt;/li&gt;
 &lt;li&gt;If given on a &lt;code&gt;Server&lt;/code&gt;, allows users to attach &lt;code&gt;Stacks&lt;/code&gt;, &lt;code&gt;Deployments&lt;/code&gt;, &lt;code&gt;Repos&lt;/code&gt;, and &lt;code&gt;Builders&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If given on &lt;code&gt;Build&lt;/code&gt;, allows users to attach the Build to Deployments&lt;/li&gt;
 &lt;li&gt;If given on a &lt;code&gt;Builder&lt;/code&gt;, allows users to attach &lt;code&gt;Builds&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;Processes&lt;/code&gt;&lt;/strong&gt;: User can retrieve the full running process list on the &lt;code&gt;Server&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
