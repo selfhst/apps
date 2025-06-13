@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbAssets Releases</title>
-  <updated>2025-06-12T20:36:37.863059-04:00</updated>
+  <updated>2025-06-12T21:36:36.094155-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,8 +96,8 @@ The thing I'm most excited about is our ability to add components and sub-compon
     <link href="https://github.com/DumbWareio/DumbAssets/releases/tag/v1.0.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DumbWareio/DumbAssets/releases/tag/v1.0.10</id>
-    <title>New release for DumbAssets: v1.0.10 Quantities, Direct Links, Multi Currency, Events Filtering and More!</title>
+    <id>https://github.com/DumbWareio/DumbAssets/releases/tag/v1.0.11</id>
+    <title>New release for DumbAssets: v1.0.11 Quantities, Direct Links, Multi Currency, Events Filtering and More!</title>
     <updated>2025-06-12T16:57:47-04:00</updated>
     <author>
       <name>DumbWareio/DumbAssets</name>
@@ -116,7 +116,7 @@ The thing I'm most excited about is our ability to add components and sub-compon
   &lt;/a&gt;
 &lt;/p&gt;
 
-&lt;p&gt;After pulling and redeploying the latest version, you may need to &lt;code&gt;ctrl/cmd + shift + r&lt;/code&gt; to refresh the cache&lt;/p&gt;
+&lt;p&gt;After pulling and redeploying the latest version, the app should auto refresh the cache for you but if not, you may need to &lt;code&gt;ctrl/cmd + shift + r&lt;/code&gt; to refresh the cache&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add Direct Asset Links by @abiteman in https://github.com/DumbWareio/DumbAssets/pull/62&lt;/li&gt;
@@ -132,13 +132,15 @@ The thing I'm most excited about is our ability to add components and sub-compon
 &lt;li&gt;minor bug fixes: update maintenance event select logic, updated formatCurrency condition, and minor date checks by @gitmotion in https://github.com/DumbWareio/DumbAssets/pull/80&lt;/li&gt;
 &lt;li&gt;v1.0.10 Quantities, Direct Links, Multi Currency, Events Filtering and More! by @abiteman in https://github.com/DumbWareio/DumbAssets/pull/77&lt;/li&gt;
 &lt;li&gt;Update README.md by @vin-im in https://github.com/DumbWareio/DumbAssets/pull/82&lt;/li&gt;
+&lt;li&gt;Hotfix/dashboard active card calc update by @gitmotion in https://github.com/DumbWareio/DumbAssets/pull/85&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@vin-im made their first contribution in https://github.com/DumbWareio/DumbAssets/pull/76&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbAssets/compare/v1.0.0...v1.0.10&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbAssets/compare/v1.0.0...v1.0.10
+&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbAssets/compare/v1.0.10...v1.0.11&lt;/p&gt;
 &lt;p&gt;Stay dumb, friends!&lt;/p&gt;</content>
-    <link href="https://github.com/DumbWareio/DumbAssets/releases/tag/v1.0.10" rel="alternate"/>
+    <link href="https://github.com/DumbWareio/DumbAssets/releases/tag/v1.0.11" rel="alternate"/>
   </entry>
 </feed>
