@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbAssets Releases</title>
-  <updated>2025-06-12T21:36:36.094155-04:00</updated>
+  <updated>2025-06-12T22:36:26.888421-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,6 +133,7 @@ The thing I'm most excited about is our ability to add components and sub-compon
 &lt;li&gt;v1.0.10 Quantities, Direct Links, Multi Currency, Events Filtering and More! by @abiteman in https://github.com/DumbWareio/DumbAssets/pull/77&lt;/li&gt;
 &lt;li&gt;Update README.md by @vin-im in https://github.com/DumbWareio/DumbAssets/pull/82&lt;/li&gt;
 &lt;li&gt;Hotfix/dashboard active card calc update by @gitmotion in https://github.com/DumbWareio/DumbAssets/pull/85&lt;/li&gt;
+&lt;li&gt;Update notes field mapping for export on assets/subassets by @gitmotion in https://github.com/DumbWareio/DumbAssets/pull/86&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
