@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SigNoz Releases</title>
-  <updated>2025-06-13T05:38:35.708886-04:00</updated>
+  <updated>2025-06-13T06:36:46.411452-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,11 @@
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We are removing the normalisation for metrics names and labels, learn more here https://signoz.io/guides/metrics-migration/ and leave any comments here https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;What's Changed&lt;/h1&gt;
 &lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix(license): return the active license even in case of suspended status (#8097) @vikrantgupta25&lt;/li&gt;
@@ -37,7 +41,11 @@
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h2&gt;🚀 Features&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We are removing the normalisation for metrics names and labels, learn more here https://signoz.io/guides/metrics-migration/ and leave any comments here https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: fixed multiple sentry error around dashboards (#8148) @SagarRajput-7&lt;/li&gt;
 &lt;li&gt;Feat/7294 | Updated clickhouse alb queries (#8139) @aniketio-ctrl&lt;/li&gt;
@@ -84,7 +92,11 @@
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We are removing the normalisation for metrics names and labels, learn more here https://signoz.io/guides/metrics-migration/ and leave any comments here https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;What's Changed&lt;/h1&gt;
 &lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix(alertmanager): fix legacy alertmanager injection (#8151) @grandwizard28&lt;/li&gt;
@@ -102,7 +114,11 @@
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We are removing the normalisation for metrics names and labels, learn more here https://signoz.io/guides/metrics-migration/ and leave any comments here https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;What's Changed&lt;/h1&gt;
 &lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix(promql): add missing flag columns in query (#8153) @aniketio-ctrl&lt;/li&gt;
@@ -121,7 +137,11 @@
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h2&gt;🚀 Features&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+We are removing the normalisation for metrics names and labels, learn more here https://signoz.io/guides/metrics-migration/ and leave any comments here https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(statsreporter): report stats on stop (#8187) @grandwizard28&lt;/li&gt;
 &lt;li&gt;feat(statsreporter): build a statsreporter service (#8177) @grandwizard28&lt;/li&gt;
