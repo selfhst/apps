@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2025-06-13T09:32:19.978038-04:00</updated>
+  <updated>2025-06-13T10:32:20.210684-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -127,7 +127,7 @@
 &lt;li&gt;Many other fixes and minor improvements @nilicule &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Upgrading&lt;/h3&gt;
-&lt;p&gt;Upgrade path: &lt;strong&gt;Requires v1.9.6 as base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Upgrade path: &lt;strong&gt;Requires v1.9.6 as base&lt;/strong&gt;, &lt;code&gt;config.json&lt;/code&gt; must be writable&lt;/p&gt;
 &lt;h4&gt;Upgrading when using OAuth2/OIDC authentication:&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;A valid email must now be set for all users in the authentication backend&lt;/li&gt;

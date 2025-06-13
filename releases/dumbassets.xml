@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbAssets Releases</title>
-  <updated>2025-06-13T09:36:43.236036-04:00</updated>
+  <updated>2025-06-13T10:36:48.721735-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,6 +117,7 @@ The thing I'm most excited about is our ability to add components and sub-compon
 &lt;/p&gt;
 
 &lt;p&gt;After pulling and redeploying the latest version, the app should auto refresh the cache for you but if not, you may need to &lt;code&gt;ctrl/cmd + shift + r&lt;/code&gt; to refresh the cache&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.reddit.com/r/selfhosted/comments/1lady3u/dumbassets_v1011_release_quantities_direct_links"&gt;Reddit Post&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add Direct Asset Links by @abiteman in https://github.com/DumbWareio/DumbAssets/pull/62&lt;/li&gt;
