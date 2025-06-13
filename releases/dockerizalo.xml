@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockerizalo Releases</title>
-  <updated>2025-06-13T06:35:41.562668-04:00</updated>
+  <updated>2025-06-13T07:35:36.438171-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,5 +103,38 @@ docker compose pull&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;shell
 docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/undernightcore/dockerizalo/releases/tag/v1.4.0</id>
+    <title>New release for Dockerizalo: v1.4.0</title>
+    <updated>2025-06-13T07:18:59-04:00</updated>
+    <author>
+      <name>undernightcore/dockerizalo</name>
+    </author>
+    <content>&lt;div align="center"&gt;  
+    &lt;img alt="Dockerizalo" height="200px" src="https://github.com/undernightcore/dockerizalo-ui/blob/assets/dockerizalo.png?raw=true"&gt;  
+&lt;/div&gt;
+
+&lt;h1&gt;v1.4.0 - Automatic deployments!&lt;/h1&gt;
+&lt;p&gt;Hey everyone!&lt;/p&gt;
+&lt;p&gt;You can now set up webhooks that automatically &lt;strong&gt;build and deploy your app&lt;/strong&gt; whenever they’re called. It works with any VCS provider — just send a &lt;code&gt;POST&lt;/code&gt; request and you’re good to go!&lt;/p&gt;
+&lt;h2&gt;✨ What's New?&lt;/h2&gt;
+&lt;h3&gt;Triggers!&lt;/h3&gt;
+&lt;p&gt;You can now create deployment triggers for any app.  Head over to the &lt;strong&gt;Triggers&lt;/strong&gt; section, create a new trigger, and copy its unique URL.  Each time that endpoint is called, your app will &lt;strong&gt;automatically start building&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Use it with GitHub push events, or hook it into any system that supports HTTP requests — it’s flexible and easy to integrate!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="create-trigger" src="https://github.com/user-attachments/assets/e1ef0299-7174-424b-b7a3-1b95bc93c936" /&gt;
+&lt;img alt="show-trigger" src="https://github.com/user-attachments/assets/4ed86de0-51da-4de4-9bca-ce1dd2f48bda" /&gt;&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/undernightcore/dockerizalo/compare/v1.3.0...v1.4.0"&gt;Compare v1.3.0 → v1.4.0&lt;/a&gt;  &lt;/p&gt;
+&lt;h2&gt;How to update&lt;/h2&gt;
+&lt;h4&gt;Stop Dockerizalo&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose down&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Pull new images&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose pull&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Start Dockerizalo again&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>
