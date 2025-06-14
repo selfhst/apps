@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-06-14T00:32:00.259334-04:00</updated>
+  <updated>2025-06-14T01:31:58.481020-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -491,7 +491,7 @@ JAR download: https://downloads.metabase.com/enterprise/v1.55.3.x/metabase.jar&l
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix Snowflake syncs sometimes using impersonated roles instead of main connection role (#59400)&lt;/li&gt;
+&lt;li&gt;Sync can unintentionally use role when determining if can sync table (#59499)&lt;/li&gt;
 &lt;li&gt;Fix the stale database cache when we enable or disable uploads for a certain database (#59184)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
