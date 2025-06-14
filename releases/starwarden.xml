@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>StarWarden Releases</title>
-  <updated>2025-06-14T07:34:11.554281-04:00</updated>
+  <updated>2025-06-14T08:34:22.067879-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,5 +57,25 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rtuszik/starwarden/releases/tag/v1.3.0</id>
+    <title>New release for StarWarden: v1.3.0</title>
+    <updated>2025-06-14T08:18:33-04:00</updated>
+    <author>
+      <name>rtuszik/starwarden</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;adds arm docker image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): bump python-dotenv from 1.0.1 to 1.1.0 by @dependabot in https://github.com/rtuszik/starwarden/pull/27&lt;/li&gt;
+&lt;li&gt;chore(deps): bump rich from 13.9.4 to 14.0.0 by @dependabot in https://github.com/rtuszik/starwarden/pull/26&lt;/li&gt;
+&lt;li&gt;chore(deps): bump pygithub from 2.5.0 to 2.6.1 by @dependabot in https://github.com/rtuszik/starwarden/pull/25&lt;/li&gt;
+&lt;li&gt;1.3.0 by @rtuszik in https://github.com/rtuszik/starwarden/pull/29&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
