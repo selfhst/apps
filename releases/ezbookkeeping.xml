@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ezBookkeeping Releases</title>
-  <updated>2025-06-15T10:35:14.033806-04:00</updated>
+  <updated>2025-06-15T11:35:29.502957-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -198,7 +198,7 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;[Features]&lt;/strong&gt;  &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add Vietnamese language (#31, thx @f97)&lt;/li&gt;
+&lt;li&gt;Add Vietnamese language (#31, thanks @f97)&lt;/li&gt;
 &lt;li&gt;Trend analysis supports aggregating amounts by month / quarter / year&lt;/li&gt;
 &lt;li&gt;Add trend analysis in mobile version&lt;/li&gt;
 &lt;li&gt;Statistics analysis supports filtering tags (#20)&lt;/li&gt;
@@ -246,7 +246,7 @@
 &lt;li&gt;Not set destination amount automatically when lack of exchange rates data&lt;/li&gt;
 &lt;li&gt;Fix the failure of creating account with initial balance sometimes&lt;/li&gt;
 &lt;li&gt;Fix the issue that the "all" tab of account with multiple sub accounts are not selected when opening the account list page in desktop version&lt;/li&gt;
-&lt;li&gt;Fix the amount is invalid in some scenes when using dot as the thousands separator (#32, thx @f97)&lt;/li&gt;
+&lt;li&gt;Fix the amount is invalid in some scenes when using dot as the thousands separator (#32, thanks @f97)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
@@ -271,10 +271,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;[Features]&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Add Spanish language (#39, thx @Miguelonlonlon)&lt;/li&gt;
-&lt;li&gt;Add Russian language (#44, thx @artegoser)&lt;/li&gt;
-&lt;li&gt;Add German language (#60, thx @chrgm)&lt;/li&gt;
-&lt;li&gt;Add Japanese language (#83, thx @tkymmm)&lt;/li&gt;
+&lt;li&gt;Add Spanish language (#39, thanks @Miguelonlonlon)&lt;/li&gt;
+&lt;li&gt;Add Russian language (#44, thanks @artegoser)&lt;/li&gt;
+&lt;li&gt;Add German language (#60, thanks @chrgm)&lt;/li&gt;
+&lt;li&gt;Add Japanese language (#83, thanks @tkymmm)&lt;/li&gt;
 &lt;li&gt;Import transaction from custom delimiter-separated values file&lt;/li&gt;
 &lt;li&gt;Import some split transactions from IIF file&lt;/li&gt;
 &lt;li&gt;Convert transaction type in import transaction dialog (#76)&lt;/li&gt;
@@ -321,7 +321,7 @@
 &lt;li&gt;Fix the account list page shows skeleton and account info at the same time when reloading the account list in mobile version&lt;/li&gt;
 &lt;li&gt;Fix wrong size of button icon in Safari in desktop version&lt;/li&gt;
 &lt;li&gt;Fix the popup menu of bottom pagination navigation bar not disappear after page number clicked in desktop version&lt;/li&gt;
-&lt;li&gt;Fix wrong time zone (#41, thx @Miguelonlonlon)&lt;/li&gt;
+&lt;li&gt;Fix wrong time zone (#41, thanks @Miguelonlonlon)&lt;/li&gt;
 &lt;li&gt;Not allow to input or paste when amount input is set to read only or disabled (#36)&lt;/li&gt;
 &lt;li&gt;Fix default parameter value not set for export command line (#80)&lt;/li&gt;
 &lt;li&gt;Fix cannot filter transfer in transaction with transaction tags (#82)&lt;/li&gt;
@@ -349,9 +349,9 @@
 &lt;p&gt;&lt;strong&gt;[Features]&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add Chinese (Traditional) language&lt;/li&gt;
-&lt;li&gt;Add Ukrainian language (#120, thx @nktlitvinenko)&lt;/li&gt;
-&lt;li&gt;Add Italian language (#124, thx @waron97)&lt;/li&gt;
-&lt;li&gt;Add National Bank of Ukraine exchange rates data source (#122, thx @nktlitvinenko)&lt;/li&gt;
+&lt;li&gt;Add Ukrainian language (#120, thanks @nktlitvinenko)&lt;/li&gt;
+&lt;li&gt;Add Italian language (#124, thanks @waron97)&lt;/li&gt;
+&lt;li&gt;Add National Bank of Ukraine exchange rates data source (#122, thanks @nktlitvinenko)&lt;/li&gt;
 &lt;li&gt;Add transaction calendar in transaction list page&lt;/li&gt;
 &lt;li&gt;Import transactions from Beancount (#56)&lt;/li&gt;
 &lt;li&gt;Import transactions from Feidee Mymoney (Elecloud) (#93)&lt;/li&gt;
