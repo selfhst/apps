@@ -24923,5 +24923,30 @@
         "Dynamic Filter": "Gmail,Microsoft Outlook",
         "Age": null,
         "CreatedAt": "2025-04-22 13:42:27+00:00"
-    }
+    },
+{
+  "Id": 1268,
+  "Project": "GoBookmarks",
+  "Reference": "gobookmarks",
+  "Sponsor": null,
+  "Sponsor URL": null,
+  "Website": "https://github.com/arran4/gobookmarks",
+  "Repository Link": "https://github.com/arran4/gobookmarks",
+  "Description": "Landing page with live bookmarks using GitHub as backend",
+  "License": "AGPL-3.0",
+  "Language": "Go",
+  "Icon Source": "None",
+  "Icon Override": null,
+  "Icon Modifier": null,
+  "selfh.st/icons": null,
+  "Source": "GitHub",
+  "Stars": 1.0,
+  "Stars (Display)": "1",
+  "Latest Commit": "2025-06-15",
+  "Latest Commit Color": "Green",
+  "Tags": "Bookmarks,Read Later",
+  "Dynamic Filter": "",
+  "Age": null,
+  "CreatedAt": "2025-06-15 02:13:05+00:00"
+}
 ]
