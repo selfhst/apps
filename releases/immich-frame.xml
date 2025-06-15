@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich-Frame Releases</title>
-  <updated>2025-06-15T15:33:52.687543-04:00</updated>
+  <updated>2025-06-15T16:33:55.185539-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,9 +141,9 @@
     <content>&lt;h1&gt;📦 ImmichFrame Release v1.0.27.0 – June 15, 2025&lt;/h1&gt;
 &lt;p&gt;This release brings powerful new features, quality-of-life improvements, and essential refactorings that make ImmichFrame more flexible and maintainable than ever.&lt;/p&gt;
 &lt;h2&gt;🆕 Highlights&lt;/h2&gt;
-&lt;h3&gt;🔄 Multi-Account Support&lt;/h3&gt;
+&lt;h3&gt;👥 Multi-Account Support&lt;/h3&gt;
 &lt;p&gt;You can now connect multiple Immich accounts! This is ideal for combined libraries from different users.&lt;/p&gt;
-&lt;h3&gt;✋ Pan-Effect&lt;/h3&gt;
+&lt;h3&gt;🎞️ Pan-Effect&lt;/h3&gt;
 &lt;p&gt;Added a pan animation effect to slowly move across images while displaying them – perfect for a more dynamic and lively presentation of static photos.&lt;/p&gt;
 &lt;h3&gt;📊 Progress Bar Settings&lt;/h3&gt;
 &lt;p&gt;Customize the progress indicator to suit your frame's visual style.&lt;/p&gt;
