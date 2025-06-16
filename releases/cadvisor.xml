@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>cAdvisor Releases</title>
-  <updated>2025-06-16T11:35:11.859027-04:00</updated>
+  <updated>2025-06-16T12:35:07.066885-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,7 +128,7 @@ SHA256 (./cadvisor-v0.52.1-linux-amd64) = 37b04a2c2e939966ff8ea17628afda5f3a24ca
   </entry>
   <entry>
     <id>https://github.com/google/cadvisor/releases/tag/v0.53.0</id>
-    <title>New release for cAdvisor: v0.53.0 - first cut to support kubernetes 1.34</title>
+    <title>New release for cAdvisor: cAdvisor v0.53.0</title>
     <updated>2025-06-05T11:02:36-04:00</updated>
     <author>
       <name>google/cadvisor</name>

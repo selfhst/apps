@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless AI Releases</title>
-  <updated>2025-06-16T11:35:18.783661-04:00</updated>
+  <updated>2025-06-16T12:35:14.400001-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -94,7 +94,7 @@ Want to know &lt;em&gt;“When did I receive my electricity contract?”&lt;/em&
   </entry>
   <entry>
     <id>https://github.com/clusterzx/paperless-ai/releases/tag/v3.0.5</id>
-    <title>New release for Paperless AI: v3.0.5</title>
+    <title>New release for Paperless AI: v3.0.5 | Introduce fine-grained restrictions for tags and correspondents</title>
     <updated>2025-06-16T09:25:55-04:00</updated>
     <author>
       <name>clusterzx/paperless-ai</name>
