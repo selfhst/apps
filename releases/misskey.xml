@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-06-16T06:32:51.463317-04:00</updated>
+  <updated>2025-06-16T07:32:44.222363-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,5 +181,18 @@
 &lt;li&gt;翻訳の更新&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.6.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.6.3</id>
+    <title>New release for Misskey: 2025.6.3</title>
+    <updated>2025-06-16T07:13:24-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: キャッシュを削除しないとクライアントが使用できないことがある問題を修正&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.6.3" rel="alternate"/>
   </entry>
 </feed>
