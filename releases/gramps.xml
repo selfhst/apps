@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gramps Releases</title>
-  <updated>2025-06-16T16:34:21.975281-04:00</updated>
+  <updated>2025-06-16T17:34:19.960100-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -245,7 +245,9 @@ e3b0b602d01d891c47da657fd7e71787677e6d3101a625848b067dc2124e73e2  GrampsAIO-6.0.
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;SHA256SUMS&lt;br /&gt;
-645a31184b6de1fe43ff62498dcafe339f1166aec87725c8d463495743c86dc7  gramps-6.0.2.tar.gz  &lt;/p&gt;</content>
+645a31184b6de1fe43ff62498dcafe339f1166aec87725c8d463495743c86dc7  gramps-6.0.2.tar.gz&lt;br /&gt;
+6a9f56944160f67497b1b93b8c13efc443d2ef556b083ec03d3547ef1e24364b  Gramps-Arm-6.0.2-1.dmg
+7934e4127135ab8784270da8434354244c41b48d4ff2d113d756d579b583caa5  Gramps-Intel-6.0.2-1.dmg&lt;/p&gt;</content>
     <link href="https://github.com/gramps-project/gramps/releases/tag/v6.0.2" rel="alternate"/>
   </entry>
 </feed>
