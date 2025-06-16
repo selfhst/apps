@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-06-16T03:33:39.023895-04:00</updated>
+  <updated>2025-06-16T04:33:40.659264-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -293,6 +293,7 @@ users = ["user1", "user2"]&lt;/p&gt;
 &lt;li&gt;This adds a &lt;code&gt;git fetch&lt;/code&gt; call before the branch checkout to make sure all latest remote branches are known, fixing the issue.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;User Group: Allow admin to add &lt;code&gt;Attach&lt;/code&gt; permission to Repo / Build from the UI &lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/moghtech/komodo/releases/tag/v1.18.3" rel="alternate"/>
   </entry>
