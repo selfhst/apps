@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Misskey Releases</title>
-  <updated>2025-06-15T22:32:39.469852-04:00</updated>
+  <updated>2025-06-15T23:32:37.929436-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,5 +169,43 @@
 &lt;li&gt;Fix: 非利用者に対するユーザー作成コンテンツの公開範囲が全て非公開になっている場合でもusers/showを許可するように&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.6.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/misskey-dev/misskey/releases/tag/2025.6.1</id>
+    <title>New release for Misskey: 2025.6.1</title>
+    <updated>2025-06-15T22:33:16-04:00</updated>
+    <author>
+      <name>misskey-dev/misskey</name>
+    </author>
+    <content>&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AiScript Misskey拡張API（Misskey Webプラグイン）の&lt;a href="https://misskey-hub.net/ja/docs/for-developers/plugin/plugin-api-reference/#pluginregister_note_view_interruptorfn"&gt;note_view_interruptor&lt;/a&gt;は不具合の影響により現在一時的に無効化されています。&lt;/li&gt;
+&lt;li&gt;Misskey Web投稿フォームのプレビュー切り替えは「...」メニュー内に配置されました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: 画像にウォーターマークを付与できるようになりました&lt;/li&gt;
+&lt;li&gt;Feat: 画像の加工ができるようになりました(実験的)&lt;/li&gt;
+&lt;li&gt;Enhance: ノートのリアクション一覧で、押せるリアクションを優先して表示できるようにするオプションを追加&lt;/li&gt;
+&lt;li&gt;Enhance: 全てのチャットメッセージを既読にできるように(設定→その他)&lt;/li&gt;
+&lt;li&gt;Enhance: ミュートした絵文字をデバイス間で同期できるように&lt;/li&gt;
+&lt;li&gt;Fix: ドライブファイルの選択が不安定な問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: コントロールパネルのファイル欄などのデザインが崩れている問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ユーザーの検索結果を追加で読み込むことができない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: タッチ操作時にチャートのツールチップが消えなくなる場合がある問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: ウェルカムタイムラインでリアクションが表示されない問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: デッキのタイムラインカラムで新着ノート時のサウンドが再生されない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat: 全てのチャットメッセージを既読にするAPIを追加(chat/read-all)&lt;/li&gt;
+&lt;li&gt;Fix: アカウント削除が正常に行われないことがあった問題を修正&lt;/li&gt;
+&lt;li&gt;Fix: outboxのページネーションが正しく行われない問題を修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Misskey.js&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: misskey-jsの drive/file/create でファイルアップロードができない問題を修正&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/misskey-dev/misskey/releases/tag/2025.6.1" rel="alternate"/>
   </entry>
 </feed>
