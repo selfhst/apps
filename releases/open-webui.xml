@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Open WebUI Releases</title>
-  <updated>2025-06-16T10:35:56.023500-04:00</updated>
+  <updated>2025-06-16T11:35:41.575639-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -265,7 +265,29 @@
 &lt;h3&gt;Removed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;🗑️ &lt;strong&gt;Console Logging Disabled in Production&lt;/strong&gt;: All 'console.log' and 'console.debug' statements are now disabled in production, guaranteeing improved security and cleaner browser logs for end users by removing extraneous technical output.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]&lt;br /&gt;
+&lt;strong&gt;Looking for an &lt;a href="https://docs.openwebui.com/enterprise"&gt;Enterprise Plan&lt;/a&gt;?&lt;/strong&gt; – &lt;strong&gt;&lt;a href="mailto:sales@openwebui.com"&gt;Speak with Our Sales Team Today!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Get &lt;strong&gt;enhanced capabilities&lt;/strong&gt;, including &lt;strong&gt;custom theming and branding&lt;/strong&gt;, &lt;strong&gt;Service Level Agreement (SLA) support&lt;/strong&gt;, &lt;strong&gt;Long-Term Support (LTS) versions&lt;/strong&gt;, and &lt;strong&gt;more!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;👏 Massive thanks to our incredible contributors for their hard work and dedication to making this release possible:
+@SadmL, @Bek85, @vaclcer, @2underscores, @Ithanil, @ayanahye, @qingchunnh, @Kylapaallikko, @silentoplayz, @t-rekttt, @jk-f5, @tcx4c70, @williamgateszhao, @rgaricano, @sreesdas, @Classic298, @jackthgu&lt;/p&gt;
+&lt;h2&gt;Sponsors 🙌&lt;/h2&gt;
+&lt;p&gt;🚀 We'd like to extend a heartfelt thank you to our amazing sponsors for their generous support (Note: We've excluded private sponsors from this list. If you'd like to get featured here, feel free to reach out to us!)&lt;/p&gt;
+&lt;h4&gt;Emerald&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;n8n&lt;/strong&gt; &lt;a href="https://n8n.io/" target="_blank"&gt;
+        &lt;img src="https://docs.openwebui.com/sponsors/banners/n8n-banner.png" alt="n8n" style="width: 8rem; height: 8rem; border-radius: .75rem;" /&gt;
+      &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Warp&lt;/strong&gt; &lt;a href="https://warp.dev/open-webui" target="_blank"&gt;
+        &lt;img src="https://docs.openwebui.com/sponsors/banners/warp-banner.png" alt="warp" style="width: 8rem; height: 8rem; border-radius: .75rem;" /&gt;
+      &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tailscale&lt;/strong&gt; &lt;a href="https://tailscale.com/blog/self-host-a-local-ai-stack/?utm_source=OpenWebUI&amp;utm_medium=paid-ad-placement&amp;utm_campaign=OpenWebUI-Docs" target="_blank"&gt;
+        &lt;img src="https://docs.openwebui.com/sponsors/banners/tailscale-banner.png" alt="tailscale" style="width: 8rem; height: 8rem; border-radius: .75rem;" /&gt;
+      &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;@amd, @agency-agency, @roosi-gmbh, @Unsupervisedcom, @feddersen-group, @SRKConsulting, @Poxel2, @mushmax, @rndmcnlly, @icanbwell, @blogic-cz, @Krambu-Travis, @loitragg, @GenieDev101, @PortlandKyGuy, @CubicleGangster, @GitDatamind, @TOWaB, @TheZigGroup, @Classic298, @comet-ml, @catalyst, @FominVO&lt;/p&gt;</content>
     <link href="https://github.com/open-webui/open-webui/releases/tag/v0.6.15" rel="alternate"/>
   </entry>
 </feed>
