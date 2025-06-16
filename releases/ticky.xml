@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ticky Releases</title>
-  <updated>2025-06-16T12:36:44.107819-04:00</updated>
+  <updated>2025-06-16T13:36:49.118350-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,5 +74,30 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.1.0...v1.2.1&lt;/p&gt;</content>
     <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dkorecko/Ticky/releases/tag/v1.3.0</id>
+    <title>New release for Ticky: v1.3.0</title>
+    <updated>2025-06-16T12:39:56-04:00</updated>
+    <author>
+      <name>dkorecko/Ticky</name>
+    </author>
+    <content>&lt;p&gt;Hey everyone,&lt;/p&gt;
+&lt;p&gt;This release contains numerous fixes and smaller features/improvements. Also, it adds the ability to use a custom name for the database and the username. More can be seen in the docker-compose example in the README. This is not a breaking change as it's backwards compatible.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor: Get rid of delete dialogs code duplication by @dkorecko in https://github.com/dkorecko/Ticky/pull/15&lt;/li&gt;
+&lt;li&gt;feature: Automatically release unstable tag by @dkorecko in https://github.com/dkorecko/Ticky/pull/16&lt;/li&gt;
+&lt;li&gt;feat: Clicking on logo redirect to home by @dkorecko in https://github.com/dkorecko/Ticky/pull/17&lt;/li&gt;
+&lt;li&gt;feat: Added notification for when user settings are updated by @dkorecko in https://github.com/dkorecko/Ticky/pull/18&lt;/li&gt;
+&lt;li&gt;fix: User settings not loading checkbox values upon opening by @dkorecko in https://github.com/dkorecko/Ticky/pull/19&lt;/li&gt;
+&lt;li&gt;feat: Added possibility of having custom DB name and username by @dkorecko in https://github.com/dkorecko/Ticky/pull/20&lt;/li&gt;
+&lt;li&gt;fix: Card would disappear visually when moved to another column and back with no dropping by @dkorecko in https://github.com/dkorecko/Ticky/pull/21&lt;/li&gt;
+&lt;li&gt;fix: Checkbox in light mode kept dark mode style by @dkorecko in https://github.com/dkorecko/Ticky/pull/22&lt;/li&gt;
+&lt;li&gt;style: Improve checkbox design by @dkorecko in https://github.com/dkorecko/Ticky/pull/23&lt;/li&gt;
+&lt;li&gt;fix: Edge case crash when no image/file folder is present by @dkorecko in https://github.com/dkorecko/Ticky/pull/24&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.2.1...v1.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
