@@ -249,7 +249,8 @@
     {
         "Tag": "Deployment",
         "Valid Types": [
-            "Software"
+            "Software",
+            "Companion"
         ]
     },
     {
