@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-06-17T08:32:21.107460-04:00</updated>
+  <updated>2025-06-17T09:32:24.732185-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -362,10 +362,6 @@
 &lt;li&gt;remove outdated &lt;code&gt;buildPath&lt;/code&gt; property (&lt;a href="https://github.com/payloadcms/payload/issues/12741"&gt;#12741&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/38652d7"&gt;38652d7&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;add info about localized/built-in validation error messages (&lt;a href="https://github.com/payloadcms/payload/issues/12718"&gt;#12718&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/96f417b"&gt;96f417b&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;fix invalid code block language (&lt;a href="https://github.com/payloadcms/payload/issues/12734"&gt;#12734&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/ebe7fde"&gt;ebe7fde&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;📝 Templates&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;bump for v3.42.0 (&lt;a href="https://github.com/payloadcms/payload/issues/12732"&gt;#12732&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/192cc97"&gt;192cc97&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;🏡 Chores&lt;/h3&gt;
 &lt;ul&gt;
