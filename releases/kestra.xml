@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-06-17T09:33:33.587792-04:00</updated>
+  <updated>2025-06-17T10:33:38.981426-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,294 +84,896 @@
       <name>kestra-io/kestra</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;h3&gt;📘 Subtasks&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;version&lt;/strong&gt;
-- 691a775 update to version '0.23.0'&lt;/p&gt;
+&lt;h3&gt;📢 Breaking Changes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;#233&lt;/strong&gt;
+- 365d82e 🚨 remove warningOnError behavior (#8321), closes #233 #8321&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cli,core&lt;/strong&gt;
+- 5bec2fa 🚨 change KESTRA_ env prefix by ENV_&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 11a7e68 🚨 make tenant id required (#8460), closes #3601 #5736 #6154 #6947 #7799 #7881 #7885 #7953 #7964 #7983 #8011 #8042 #8105 #8106 #8246 #8258 #8361 #8378 #8379 #8432 #8433 #8435 #8448 #8457 #8458 #8460 #8465 #8484 #8485 #8488 #8490 #8495 #8500 #8501 #8504 #8517 #8523 #8524 #8527 #8528 #8529 #8534 #8537 #8542 #8549 #8550 #8553 #8554 #8560 #8562 #8563 #8568&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docker&lt;/strong&gt;
+- f7fbf23 🚨 remove non-critical dependencies (#8853), closes #8853&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows&lt;/strong&gt;
+- aecf1db 🚨 evaluate flow trigger on PAUSED by default&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugins&lt;/strong&gt;
+- 13d86c4 🚨 kill the Docker container on kill&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;scripts&lt;/strong&gt;
+- 221236e 🚨 update pull policy to IF_NOT_PRESENT (#8169) - &lt;em&gt;in accordance with new Docker Hub pull policy regulation, the default kestra pull policy will change from ALWAYS to IF_NOT_PRESENT&lt;/em&gt;, closes #8169&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- 56fa97b 🚨 remove the SQLServer runner
+- 2475942 🚨 Describe our internal metrics - *the following metrics has been removed:
+- executor.taskrun.next.count
+- executor.workertaskresult.count&lt;/p&gt;
+&lt;p&gt;The metric scheduler.execution.running.duration has been renamed to scheduler.execution.lock.duration*&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- 9016257 🚨 prevent infinite loading loop in Namespace KV Store &amp;amp; Secrets pages if there is none&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
-- b07086f update ui-libs&lt;/p&gt;
+- d6e470d 🚨 update pullPolicy default value to IF_NOT_PRESENT (#8170), closes #8170&lt;/p&gt;
+&lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;1f8e5ad add new methods findAllAsync for the backup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;build&lt;/strong&gt;
+- b2ae2ff fix some sonar alert
+- a7836ca add sonar&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- fdce552 introduce tasksWithState autocompletion (#9485), closes #8350 #9485
+- 3ffa446 implement STARTS_WITH_NAMESPACE_PREFIX filter
+- 82f617b  503 Service Unavailable status in error messages. (#9135), closes #9135
+- 71a8aea move KestraFilter to a Monaco-based implementation (#8915), closes #8915
+- 8ada284 move complex task fields inline in no code editor (#8977), closes #8934 #8977
+- 3de436c improve the ux of no code editor (#8955), closes #8955
+- 7de5002 save individual namespace files from multi panel editor (#8930), closes #8923 #8930
+- 07814ab added SecurityScheme annotation for openapi spec file generation + add some custom Schema name to avoid duplicated name (#8726), closes #8726
+- 734fcbc #3427 add OSS tenant migration scripts (#8798), closes #3427 #8798
+- 74b4252 change selection to tab and remove display of type and tooltip. (#8805), closes #8805
+- ab9551a Embed videos directly on EE-feature teasers. (#8790), closes #8790
+- bbcd377 replace task array option selection design (#8699), closes #8694 #8699
+- 3f1d4f8 enable filter refresh interval to be changed in settings (#8522), closes #8522
+- 2cf6c54 forward execution labels in Flow Trigger
+- fbd989c allow to specify Pause task resume behavior (#8242), closes #8242
+- 85fc489 add a confirmation dialog before leaving the settings page (#8365), closes #8364 #8365
+- 9b8b240 use a fixed-size mask to mask secrets (#8131), closes #8131&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core-ee&lt;/strong&gt;
+- 58a360f #7501 split file log exporter to multiple files (#8138), closes #7501 #8138&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docs&lt;/strong&gt;
+- 7d3bb34 add &lt;code&gt;kestra.environment&lt;/code&gt; and &lt;code&gt;kestra.url&lt;/code&gt; expressions (#8085), closes #8085&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;execution&lt;/strong&gt;
+- 70c1a86 allow to loop until an unlimited duration or iteration count, closes #9152
+- 30b39b2 add an execution kind&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;executions&lt;/strong&gt;
+- e580c35 add filter bar to flow concurrency tab (#9269), closes #5825 #9269
+- 98cfd32 use schedule set input values for backfills  (#7913), closes #7913
+- 097336e Add workerId to each worker task attemps, closes #7799&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flow&lt;/strong&gt;
+- 9bd87d7 allow grouping plugin properties, closes #7199&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows&lt;/strong&gt;
+- 3606a56 add global save functionality (#9262), closes #9262
+- 9063f61 remove JDBC NAMESPACE START_WITH filter specifities
+- c905905 Actions for Flow Navbar (#8838), closes #8838
+- 7467f1f Allow to define an onPause task on the Pause task, closes #3601
+- 34a7316 improve the display of array inputs when running an execution (#7953), closes #6947 #7953
+- 1fb6958 add validation for use of inputs and outputs with '-' in the name (#8379), closes #8379&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iam&lt;/strong&gt;
+- 266c671 introduce user menu into left sidebar (#8602), closes #8602&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jdbc&lt;/strong&gt;
+- e89e598 Improve JDBC queue poll duration selection
+- 2a26c41 avoid using the WorkerTaskResult queue when possible
+- 1e06b9f allow disabling queue cleaning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jdbc-h2,jdbc-mysql,jdbc-postgres&lt;/strong&gt;
+- 8462b17 add an index on queues.key&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;makefile&lt;/strong&gt;
+- a04db65 add pull-plugin script and fixe clone-plugin script (#8283), closes #8283&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;namespaces&lt;/strong&gt;
+- 4b2e502 allow exporting single namespace files from editor sidebar (#8967), closes #8967
+- d755123 Namespace search case insensitivity (#8717), closes #8717&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugin&lt;/strong&gt;
+- 7e590dd add a way to provide additional type of plugins&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugins&lt;/strong&gt;
+- 2aa5b1e add plugins InfluxDB, Jenkins, Ollama, GraphQL
+- 67c2ac8 add allowedResponseCodes on http tasks, closes #8973
+- 3c5975f add InfluxDB, GraphQL plugins
+- 3f9f60d add Go Script plugin
+- d27626f add Langchain4J plugins&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;storage&lt;/strong&gt;
+- 4f8ea9a refactor getPath (#9104), closes #9104&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- d7ca302 add server_type as global metrics tags
+- 15937a6 FlowRepository.findByNamespacePrefixWithSource()
+- 81d7588 add STARTS_WITH_NAMESPACE_PREFIX query filter for by namespace query
+- 6a465c1 monitor and close the Scheduler monitoring loop
+- 6039d10 add metrics for flowable tasks, closes #8341
+- 270b4d4 add metics for concurrency limit, closes #8341
+- ec21ef3 add a metrics for the Executor thread count, closes #8341
+- 88b8885 add metrics to the JDBC queue, closes #8340
+- 1b4efc5 restore the flow queue after tenant migration
+- 770a703 optimize MapUtils for merge
+- 593aad2 don't compute empty task outputs
+- a179f17 don't clone maps when not necessary
+- 0fd8461 use Property.ofValue(T) instead of Property.of(T)
+- 05d296d Property.ofValue &amp;amp; Property.ofExpression
+- 476f34e change the way we concurrently process executor queues
+- df70618 use the FlowMetaStore instead of the FlowRepository inside the Executor
+- 58fcd0a add TestSuite run and assertions
+- a117634 add metrics for Worker Job resubmission, closes #8341
+- e7b72a5 send task and trigger usage metrics
+- 1754f81 add NoopCache
+- 7117ae6 purge empty service  instances, closes #8514
+- fe0a5d2 add metrics to the executor, closes #8341
+- a26fabe add uv to kestra docker image
+- 9beb86b add TestSuite model,taskFixture impl
+- eea47c6 add duration metrics for handle() method
+- e1c4ae2 add index to commonly queried fields in the WHERE conditions of the triggers table
+- 5131399 Allow to describe metrics (#1989), closes #1989&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tenants&lt;/strong&gt;
+- 49bb93b change the tenant migration command name (#9253), closes #9253
+- 7fcafce change the tenant migration command name (#9215), closes #9215&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;test&lt;/strong&gt;
+- 7cc938c allow inline files fixtures and render fixture outputs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tests&lt;/strong&gt;
+- faa77ae add execution url in test result
+- c8e6e5a add tests preview tab in left menu (#9191), closes #9191
+- 021357c validate the Flow exists when create or update Test
+- 2601df3 add a contextual Test badge on Execution topbar
+- 16ea41c add ERROR state and handling, closes #3804
+- d3228b2 add fixtures to results
+- 69037d0 improve empty page
+- fca529a rename testsuite to tests in UI,API&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- b4e334c drag and convert tabs to panels (#9198), closes #9198
+- c1240d7 allow to close a tab with mouse middle click like in a navigator/ide (#9434), closes #9434
+- d7a4204 make trigger conditions in no-code a form (#8859), closes #8859
+- a213a90 treat the pluginsdefaults as a section (#8731), closes #8731
+- fdcea57 add version property to Frontend API call (#8650), closes #8650
+- 897abdd Add search in internal docs (#8458), closes #8458
+- 4729430 ability to hide secret value when typing in secrets
+- 959737f introduce patched version of monaco-yaml &amp;amp; yaml-language-server to have better autocompletion
+- ebcb0bd add plugin icons to auto-completions + make autocompletion work upon writing full package
+- 8a73edd improve styling of saved filter searches (#8040), closes #8040&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;variables&lt;/strong&gt;
+- 5a3a54f add missing functions to editor autocompletion (#8245), closes #7733 #8245&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;webserver&lt;/strong&gt;
+- 2c766a5 move oneOf to anyOf in JsonSchemaGenerator to have better autocompletion&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- 9f2162c feat(): add Kestra plugin in the list
+- 59f2674 improved new custom dashboard (#9120), closes #9120
+- 28417f0 replace daily charts by customized charts (#9081), closes #9081
+- aae752f add a new method "taskWithState" that leverage on the property &lt;code&gt;tasks&lt;/code&gt; (#8907), closes #5653 #8907
+- 2c53a21 Performance optimization for handle() method: Filter out executions with non-null next_execution_date in the query method, start a separate scheduled thread for scanning, reporting metrics and logging
+- 2c58e97 allow multiple nocode (#8532), closes #8532
+- fa5a391 synchronize task edition with editor (#8433), closes #8433
+- 433a332 use TaskTasks.vue to show subtask (#8332), closes #8332
+- c35352e Deprecated BOOLEAN input for new BOOL input with no undefined state (#8257), closes #8225 #8257
+- c14462f add afterExecution to basic.md (#8126), closes #8126
+- 61170e6 add example for HasRetryAttempt condition (#8133), closes #8133
+- 12eb836 feat(): add new crudeventtype "account_locked" (#8103), closes #8103&lt;/p&gt;
+&lt;h3&gt;📘 Others&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;build&lt;/strong&gt;
+- c25c60d remove add jmh-benchmarks gradle.properties to gitignore
+- d13a4e7 gradle runStandalone
+- 08f5ad2 add Postgres stat extension&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ci&lt;/strong&gt;
+- 4def8c5 Implement JReleaser for GitHub Release (#8231), closes #8231
+- 94811d4 align plugins handle for docker publish on EE CI
+- b716648 modify publish docker to align on EE
+- 675aa66 pass plugin version to docker workflow
+- 323527d lower build-artifacts workflow so github release can use it&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cli,jdbc-postgres&lt;/strong&gt;
+- 318f2b7 fix some compilation warnings&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 8980c23 add an extra storage key constant for maintenance mode (#9310), closes #9310
+- 23499a6 remove sort buttons in no code if the block type is plugin defaults (#9265), closes #9217 #9265
+- 24c4eeb remove margin from blueprints if used in combined view (#9264), closes #8503 #9264
+- 8c0c50b keep the property name in no code in monospace font (#9216), closes #9213 #9216
+- f55d2e2 localize to languages other than english (#9197), closes #9197
+- 7cefbac localize to languages other than english (#9023), closes #9023
+- 4a5cd1d make sure id property is required for sla block (#9022), closes #9022
+- c30abf4 localize to languages other than english (#9011), closes #9011
+- 09318b7 amend labels of task anyof component radio buttons (#9005), closes #9005
+- 069159f add sla block to no code editor (#9004), closes #7081 #9004
+- 96b4813 localize to languages other than english (#8999), closes #8999
+- 4b7d90f add retry block to no code editor (#8996), closes #7031 #8996
+- eb4de05 localize to languages other than english (#8964), closes #8964
+- 5994ffa localize to languages other than english (#8961), closes #8961
+- 625478c add keyboard shortcuts icon to flow editor tab (#8925), closes #8925
+- 15759b8 localize to languages other than english (#8864), closes #8864
+- bdd0c67 add group for deprecated properties in the no code editor (#8863), closes #7207 #8863
+- a51e4e2 localize to languages other than english (#8861), closes #8861
+- 84a6d09 fix import (#8845), closes #8845
+- 3d0c630 remove console warning due to deprecated property (#8819), closes #8819
+- cf206e0 properly handle topology action clicks while using multi panel editor (#8705), closes #7804 #8275 #8705
+- faa6f8f localize to languages other than english (#8690), closes #8690
+- 0c93bc6 retry flaky test triggerPaused()
+- 8cccd37 localize to languages other than english (#8656), closes #8656
+- d7a3e24 update keyboard shortcut for triggering the autocompletion (#8618), closes #8617 #8618
+- 51c5229 localize to languages other than english (#8641), closes #8641
+- f3250c0 localize to languages other than english (#8635), closes #8635
+- 3d4ebf5 localize to languages other than english (#8611), closes #8611
+- c0ba183 localize to languages other than english (#8576), closes #8576
+- e0723a9 localize to languages other than english (#8568), closes #8568
+- dc5acbc localize to languages other than english (#8554), closes #8554
+- 6baeba8 localize to languages other than english (#8528), closes #8528
+- 5e7bc96 refactor  component to composition API  structure and with some styling (#8504), closes #8504
+- 636f0f6 localize to languages other than english (#8485), closes #8485
+- 1488cac localize to languages other than english (#8391), closes #8391
+- 030d948 remove un-used attribute in FlowWithWorkerTrigger&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;dashboards&lt;/strong&gt;
+- 9f03840 improve date format in dashboard table cells (#9150), closes #9150
+- e93ef87 load more dashboards at once (#9127), closes #9127
+- a990155 use displayName property for table headers, if existing (#9129), closes #9129
+- 38a0c7a make sure save button is disabled again on successful action (#9131), closes #9131
+- ba793a0 remove text transformation in chart legend creation (#9130), closes #9130
+- 525717a multiple ux improvements of dashboards (#9111), closes #9038 #9057 #9111&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;deps&lt;/strong&gt;
+- f90f6b8 bump vitest to 3.2.3
+- 36d79e6 splitpanes types
+- c4d9a33 splitpanes types
+- 5c33907 remove @types/splitpanes and add a manual module for it + fix vue version
+- 341f10a regular dependency update (#8895), closes #8895
+- c517985 regular dependency update (#8774), closes #8774
+- 5248e95 regular dependency update (#8687), closes #8687
+- a9a2765 regular dependency update (#8599), closes #8599
+- ebd957f update gradle version
+- 54b8ff9 regular dependency update (#8484), closes #8484
+- b7861a1 regular dependency update (#8415), closes #8415
+- 9a67466 upgrade micronaut-platform to 4.8.0 (#8232), closes #8232
+- 47309a0 regular dependency update (#8310), closes #8310
+- 14f4449 Upgrade Guava to 33.4.5-jre (#8005), closes #8005
+- dfea86f update pebble to 3.2.4
+- 800970a add bouncycastle:bcpkix-jdk18on to platform
+- 660fcd7 regular dependency update (#8070), closes #8070&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;execution&lt;/strong&gt;
+- 4bc7f72 update display names for executions. (#8527), closes #8527&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows&lt;/strong&gt;
+- 63e9bf2 take default namespace into account on flow creation (#9110), closes #9109 #9110
+- e616aa5 remove unnecessary section about keyboard shortcuts from flow basic documentation (#8745), closes #7065 #8745
+- bc09676 make flow validation a bit less aggressive (#8700), closes #8700
+- 77da3fd improve the blueprints view within the flow editing panels (#7983), closes #7881 #7983&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugins&lt;/strong&gt;
+- 32358c7 hide deprecated plugins from plugin select options (#8744), closes #7205 #8744&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;secrets&lt;/strong&gt;
+- a037210 allow deletion of all tags, including the last one (#9187), closes #9187
+- afe267e make the key field disabled on secret editing (#9185), closes #9185&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- a0ee309 JdbcQueue code refactoring
+- b0f93e1 skip sleep in the JdbcQueue when at max poll size
+- 3639abb improve performance of IdUtils.fromParts()
+- 2d5d4b7 mask Caffeine metrics log
+- fcc1fcb rename FlowExecutorInterface to FlowMetaStoreInterface
+- ee444be prepare TestSuite ui
+- 8b5f333 add warn log when emit logQueue failed (#8432), closes #8432
+- 4ec2a5d don't emit two time a workertaskresult for RUNNING&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;test&lt;/strong&gt;
+- 5574013 add module for jmh benchmarks&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tests&lt;/strong&gt;
+- ded5a93 add tests icon to tests list view&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;translations&lt;/strong&gt;
+- 0f45c00 localize to languages other than English (#8120), closes #8120
+- b86177f uniform translation keys with entrerprise edition
+- 154f145 localize to languages other than English (#8071), closes #8071&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;triggers&lt;/strong&gt;
+- b55032b remove column cron from triggers listing and sort out trigger details dialog (#9212), closes #8605 #9212
+- 61dcb85 swap the backfill button on triggers page with the one form flow triggers (#8624), closes #8606 #8624&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- c7b448a improvement to drilldown for Default and Custom Charts. (#7885), closes #7885
+- f795416 Improve the display of Resume/Kill executions (#8227), closes #8227
+- b177a1f Add a trigger from Triggers tab (#7754), closes #7754
+- c24fcfd Add a trigger from Triggers tab (#7754), closes #7754
+- 22424c6 improve the filter label colors on hover (#8141), closes #8141
+- 5fdf2f3 amend scrollbar issue on the no code editor fields (#8216), closes #8216
+- 152d96f remove reorder buttons when there's only one value in no code arrays (#8266), closes #8266
+- 65ab695 pass prop to maximize the height of namespace file editor (#8278), closes #8278
+- 1310e59 amend the sizing of editor panels (#8277), closes #8277
+- 42d8005 show blueprint &lt;code&gt;id&lt;/code&gt; field in case of missing title (#8154), closes #8154
+- 41e2dac add padlock icon to secrets menu item (#8129), closes #8129
+- 0fa8386 amend file tree context menu link colors (#8123), closes #8123
+- b1c5037 handle editor blueprint loading problem (#8113), closes #8113
+- 0299e0d Hide duration switch on empty flow dashboard (#8083), closes #8083
+- 4ef3600 pass custom height property to execution output debug editors (#8100), closes #8100
+- 366df0f include labels of saved search filter on page reload (#8099), closes #8099
+- 0f01699 make app &amp;amp; dashboard editors re-sizable (#8096), closes #8096
+- 945f59a improve saved search filtering functionality (#8073), closes #8073&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;version&lt;/strong&gt;
+- 691a775 update to version '0.23.0'
+- 2b578f0 update to version '0.23.0-rc5-SNAPSHOT'
+- 9e51b10 update to version '0.23.0-rc3-SNAPSHOT'
+- 4cddc70 update to version '0.23.0-rc2-SNAPSHOT'
+- 4a1cf98 bump to version '0.23.0-rc1-SNAPSHOT'
+- 8de568e update snapshot version 'v0.24.0-SNAPSHOT'.
+- 29eb0eb update to version 'v0.23.0-rc0-SNAPSHOT'.
+- a1db7b5 update @kestra-io/ui-libs to version 0.0.203 for finally block (#9246), closes #9246
+- 5205cf2 update  the ui-libs version (#9184), closes #9184&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;webserver&lt;/strong&gt;
+- 8af4f19 amend copy&amp;amp;pasted description (#8346), closes #8346&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- b07086f update ui-libs
+- 4873bf4 upgrade storybook (#9326), closes #9326
+- 204bf7f add script to update gradle kestraVersion prop on plugins
+- 2a9a926 the code is now in ui-libs delete the duplicate yaml-utils test (#8799), closes #8799
+- 21dc831 attempt to fix flaky tests (#8537), closes #8537
+- eb15099 remove console.log drop
+- fc8732f use @Nullable from Jakarata annotations
+- 9d43795 add a rule to prevent angle brackets cast in TS
+- d68ffa3 disable tests that are too flaky
+- ea7c709 upgrade to version 'v0.23.0-SNAPSHOT'&lt;/p&gt;
 &lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;assertions&lt;/strong&gt;
+- 22131f8 fix assertions grammar (#9173), closes #9173&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;build&lt;/strong&gt;
+- bfc8556 fix deve-tool release-plugins script
+- 99a6d75 exclude jmh-benchmark module
+- 12affd4 amend Node Gradle to reflect changes (#7970), closes #7970
+- 451de81 fix gradle property for release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ci&lt;/strong&gt;
+- 9504bba put back bump helm chart and remove if condition
+- 159c937 checkout actions from main branch
+- 55b9088 modify actions order
+- 601d1a0 Correctly pass all the secrets through all workflows
+- ccb871a fix workflow gradle-release
+- 059323a nocode translate (#8988), closes #8988
+- 3d1a3d0 use the right GitHub token for test report&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cli&lt;/strong&gt;
+- c2dc1c0 properly install all plugins depending on kestra distribution
+- a48fd02 fix NPE for commands not requiring plugins (#8212), closes #8212
+- bfdc48b prevent FlowUpdatesCommand to crash due to plugin loader
+- b314fc3 properly register plugins uninstall cmd
+- b8c55ba make worker args available through static KestraContext&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;container&lt;/strong&gt;
+- c64f15a update tab container classes for better layout handling. (#8456), closes #8456&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;controls&lt;/strong&gt;
+- b779aa1 adjust bottom position of contorls in multiPanelsEditor (#8465), closes #8465&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- de4ec49 yaml utils migration
+- d261de0 robots.txt was not served, closes #9015
+- 02cac65 filters was triggering endless refresh, closes #9508
+- a028a61 avoid infinite load upon route redirect (#9480), closes #9479 #9480
+- 023a77a properly map labels filters from query (#9480), closes #9324 #9480
+- bfee04b prevent incompatible timeRange &amp;amp; start/endDate filters + prevent multiple scope filters (#9480), closes #9240 #9480
+- ac37ae6 use Min annotation instead of Positive (#9432), closes #9380 #9432
+- 97992d9 handle properly dot in nested keys &amp;amp; commas in quoted filter values (#9410), closes #9410
+- cc72336 avoid adding invalid keys from query parameters to filter  (#9383), closes #9364 #9383
+- 65503b7 add DefaultFilterLanguage as default in KestraFilter, closes #9365
+- 876b8cb avoid crashing in case of taskrun having too large value (#9359), closes #9312 #9359
+- 4dbeaf8 larger debounce for filter
+- f98e783 handle whitespaces in label key and value
+- 71dac0f smarter autocomplete order in editor
+- 3077d0a additional plugins are now properly shown in plugin docs (#9329), closes #9329
+- f069985 update background for plugin-doc in EE Apps  and  alert-info block styling in plugin doc. (#9323), closes #9323
+- cfa239a improve theme handling in Monaco editor (#9294), closes #9294
+- e163d91 rename NAMESPACE_PREFIX comparator to PREFIX
+- 1c1bc18 if task array has enum options, show select box instead of input (#9270), closes #9208 #9255 #9270
+- 282cd76 restore theme colors from Monaco editor
+- ea0c3b9 remove text filter for dashboards
+- 43ad5aa regex is not yet supported for text so we remove it for now
+- 83c6333 change naming from STARTS_WITH_NAMESPACE_PREFIX to NAMESPACE_PREFIX
+- 786be66 remove REGEX filter for text search
+- e237344 update save button disabled logic. (#9267), closes #9267
+- 7f67721 avoid adding incomplete key.{subKey} as text filter, closes #9243
+- fc7df18 prevent monaco suggestion widget to update its position (#9164), closes #9116 #9164
+- 76d068f same position in center for all modals (#9247), closes #9247
+- ac19b4a properly parse IN &amp;amp; NOT_IN values for Dashboards
+- 3511a8f skip empty values from filters in query
+- 30bf32a better relevance on filter syntax highlighting + IN working, closes #9214
+- 4d73138 restoreUrl is now scoped to route tab, closes #9235
+- fa96ca1 Valid correctly conditions in triggers (#9228), closes #9228
+- c0f66f6 amend positioning of the default tour elements (#9202), closes #9172 #9202
+- e3285b1 add red highlighter upon using wrong comparator for a key in filters, closes #9090 #9097
+- 87f4143 handle text filter properly for dashboards
+- c439d08 implement STARTS_WITH_NAMESPACE_PREFIX global filter using REGEX
+- f797f87 fixed eslint not to apply to tests
+- 3484074 handle no code inputs type change (#9166), closes #9101 #9166
+- 630e4fd repair audit logs type filter, closes #9091
+- c6bc44c better filter comparator detection
+- e29840d amend padding on the global error notification container (#9161), closes #9161
+- d8f8cb6 definition now expands from properties. (#9160), closes #9160
+- f93ecbf update regex to correctly render the alert for embedded docs. (#9151), closes #9151
+- 124fcbf switch filter colors on main theme change (#9140), closes #9119 #9140
+- 6e6d4e4 avoid sending date filters to flow list API call, closes #9132
+- 31a96fe properly filter Namespace executions
+- dd52bc1 text search without needing "text" key prefix, closes #9105
+- b2cfe1d properly remap q parameter to text in filter bar
+- 858f379 avoid sort, page &amp;amp; size from interfering with filter widget
+- 30adaca log level is not a multi-value filter, closes #9087
+- 961608f remove namespace &amp;amp; flowId keys on Flow -&amp;gt; Executions page filter
+- f585264 avoid red-coloured key in filters
+- 81a94ec bring back radio styles. (#9112), closes #9112
+- 6e0516f prevent cursor in code editor from jumping to top (#9095), closes #9013 #9095
+- 7047b60 amend keyboard save shortcut for both flow and namespace files (#9030), closes #9030
+- 9e84b12 support REGEX filtering
+- 7297221 add REGEX filtering on namespace field in JDBC
+- 37c001a avoid overriding sort, size and page from new filtering
+- a12a6cc filtering was not working with pagination, closes #9027
+- ba2179e avoid red-coloured filter keywords, closes #9024
+- 1a5b1f2 wrong childFilter naming
+- 9a759e2 avoid undefined due to scope filter addition, closes #9024
+- 997d71f scope is a single value filter
+- 79ee64a handle AND by spaces in filters (#9046), closes #9046
+- f380501 properly show custom dashboard card titles (#9035), closes #9035
+- 217fbcd update flow &amp;amp; namespace overview dashboard filters (#9034), closes #9033 #9034
+- cbc250b amend plugin page problems due to npe (#9031), closes #9031
+- c537914 use new color tokens for panes and editor. (#9020), closes #9020
+- c8f58f8 properly check if property is nullish (#9019), closes #9019
+- 81da94d avoid inserting empty tasks in flow (#9016), closes #9016
+- 3ad1327 full width for wrapper containing properties. (#9003), closes #9003
+- ee5c39c remove placeholder on input (#8984), closes #8984
+- eff58d9 few tweaks to align the placeholder and ui as per design. (#8980), closes #8980
+- 06635cd navigating back to plugins home. (#8972), closes #8972
+- 29c3bd7 tenant migration scripts now update keys, closes #3807 #8925
+- 246892a amend autocompletion in multi panel yaml flow editor (#8956), closes #8796 #8956
+- 2c94461 prevent multiple tabs for adding tasks to create duplicate entries (#8916), closes #8781 #8916 #8926
+- dc8095b filter the inputs with no id field to prevent breaking of panel (#8944), closes #8932 #8944
+- 769cc28 make sure that complex tasks are properly rendered for both inputs and sections (#8902), closes #8902
+- b5aaa6f cleanup LogService to always prefix with tenant
+- 1ee60c1 avoid multiple rendering in ForEachItem (#8906), closes #8905 #8906
+- 14d6ad5 filter deprecated properties from optional ones in no code editor (#8896), closes #8896
+- fb4b1c8 fix misc APIs with main tenants
+- e3c4f0e fix rooting to main tenant for configs endpoint
+- 0723565 center last step in tour and add Finish animation (#8862), closes #8862
+- 8e8bf8e tweak product tour flow listing (#8860), closes #8366 #8860
+- 9cdc3c5 make sure that complex tasks are properly rendered (#8848), closes #8119 #8848
+- c9a277d properly handle input creation/updating via no code editor (#8787), closes #8787
+- bc0f24f fixes change in theme aligned with selection in setttings. (#8815), closes #8815
+- f6b7dbd flaky test ExecutionServiceTest.replayEachSeq or replayEachSeq2
+- e7129b1 check for schema existence on no code input editing (#8775), closes #8775
+- c898da3 make no code breadcrumb clickable only in legacy mode (#8776), closes #8776
+- 6156af2 showing properties of any-of tasks (#8748), closes #8748
+- 5e4253e some logs can emits null message
+- 2792fa4 allow scalar-to-string concatenation in typed task property
+- e0af7e8 flaky test RunContextLoggerText.logs()
+- 722d94b introduce back the proper translation key (#8639), closes #8639
+- e47816c amend the problem with translation key (#3577) (#8638), closes #3577 #8638
+- a9f0cae Doc search is more relevant (#8601), closes #6329 #8601
+- bf41fb4 remove tutorial flows from anonymous report
+- 2943e10 safely access section and identifier query params (#8542), closes #8542
+- 10e882a change incorrectly used search parameter (#8534), closes #8534
+- 729cf56 failing DocumentationGeneratorTest.returnDoc()
+- 7957b9d fix indexer metric description (#8500), closes #8500
+- e73f15a bring back documentation on some plugins (#8354), closes #8265 #8354
+- 32b4a9e handle parsing error when reading flows from repository
+- 1aa37d5 duration defaults are rendered as duration string instead of timestamp, closes #3742
+- 840f010 fix NPE when generating flow graph
+- 6fee99a add &lt;code&gt;additionalProperties=false&lt;/code&gt; to tasks to have a warning if there is unknown properties
+- 0b64da5 default namespace in namespace file
+- f43f8c2 be tolerant of decryption issue
+- 58ae507 mask secrets on log attributes, closes #3282
+- d14deac add a meaningful log for flow that can inject defaults
+- 0632052 use a stable flow logger name
+- 49b647e add missing docker plugin subgroup icon
+- 0a298ca allow dash in plugin version qualifier
+- d2d2635 namespace service now properly detects namespaces with flows inside
+- f14b638 compilation issue
+- 89c7620 avoid flow validation error on plugin alias duplicates
+- 5642a53 properly fix the issue with MapUtils.flattenToNestedMap
+- d5a2f44 HttpClient log the URL even if it's a secret, closes #8092
+- 0794b2b flatten map should not throw an exception
+- 0becaa0 charset should not be taken from, closes #8072&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;dashboard&lt;/strong&gt;
+- 5c62457 make refresh button works (#9238), closes #7083 #9238
+- 3bc75ef Properly cast log level column in Dashboards, closes #8128
+- 387eb9b simplify naming for ratio (#9041), closes #9041&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;dashboards&lt;/strong&gt;
+- f10b289 include pagination parameters in default dashboard tables (#9251), closes #9250 #9251
+- 8265f6d use namespace parameter for next execution table to be able to build links (#9195), closes #9188 #9195
+- f6095ce amend line chart values &amp;amp; bar chart stacks sorting (#9158), closes #6603 #9158
+- e150384 change default dashboard yaml to include filtering in progress states (#9146), closes #9125 #9146
+- ff2df65 properly replace namespace and flow variables in flow dashboard yaml (#9145), closes #9145
+- e00d1ca show proper value in dashboard table, flow column (#9142), closes #9142
+- 345a633 amend line chart values &amp;amp; bar chart stacks sorting (#9141), closes #6603 #9141&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;deps&lt;/strong&gt;
+- 3d26205 fixed storybook router version to UI one&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docs&lt;/strong&gt;
+- 9adf3a5 improve PublishMetrics example and basic.md KV doc (#8427), closes #8427
+- 4865843 add titles and examples to Dashboard chart types (#8233), closes #8233
+- dd80a91 remove note about Podman rootless (#8259), closes #8259
+- d95b650 add title, description, and example to Dashboard chart data (#8220), closes #8220
+- efe0c6e update task type in example to updated name&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;editor&lt;/strong&gt;
+- e287964 check isFlow when displaying NoCode in legacy editor (#8645), closes #8645&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;executions&lt;/strong&gt;
+- 20c229a inclusive validation of start and end date
+- 2900607 properly guard against the npe error (#9147), closes #9147
+- 0523c04 by-query not working with new filters (#9058), closes #9058
+- 925169c avoid to stop following execution too early leading to UI display shifting from actual state (#8718), closes #8718
+- aae1315 amend storybook tests for inputs form (#8608), closes #8608
+- 475a961 fix execution failure due to UnsupportedOperationException (#8563), closes #8563
+- 3105ddc unqueing execution must remove the execution queued, closes #8448&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;executor&lt;/strong&gt;
+- 91f958b delete WorkerJobRunning for any terminated task (#9493), closes #9493&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;filters&lt;/strong&gt;
+- 88fa884 change label filtering to 'and' instead of 'or' (#8661), closes #8489 #8661
+- 2996c88 corrected the namespace contains filter (#8653), closes #8498 #8653
+- dd29e75 allows to filter using &lt;code&gt;is not&lt;/code&gt; for relative date filter (#8659), closes #8494 #8659
+- 79a6fbb use correct key for timeRange when using multiple filters (#8657), closes #8498 #8657&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flow&lt;/strong&gt;
+- 4bd3a50 update flow revision restoration (#9311), closes #9311
+- 36900cb diff shows as per revision number (#9080), closes #9080
+- 1576051 re-enable NotEmpty constraint on property tasks for Sequential
+- 846e20a enhance error handling when injecting plugin defaults, closes #7894
+- b97347d handle parsing error when reading flows from repository, closes #7894&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows&lt;/strong&gt;
+- f3b7592 #9319 error when puase with timeout trigger an execution (#9334), closes #9319 #9334
+- a632c5e bulk actions for Flows with new Filter
+- e46d4ed adjust plugin doc to match the specified plugin version
+- df5419f ForEach concurrency should not be over the number of values, closes #8614
+- 01110c5 fix regression on flow validation (#8600), closes #8600
+- fc452af properly load blueprints in multi panel view (#8524), closes #8523 #8524
+- 9cb7cd6 properly check average duration for dashboard graphs (#8457), closes #8435 #8457&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows,executions&lt;/strong&gt;
+- 066a5f0 filtering QUERY NOT_EQUALS was not handled in jdbc&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;gradle&lt;/strong&gt;
+- 30ab030 Windows selfrun.bat&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jdbc&lt;/strong&gt;
+- 03f9aa8 add service_id index on service_instance table
+- 1a12195 conflict on migration numbers
+- 5a24567 #8219 unquoted timestamp field breaking query (#8222), closes #8219 #8222
+- c4aa6c1 possible deadlock on service instance&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;kafka runner&lt;/strong&gt;
+- 7421f1e #2709 filter child forEach tasks before merging th… (#8095), closes #2709 #8095&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;logs&lt;/strong&gt;
+- d3c29fc Use correct property for filtering logs in kafka (#8812), closes #8812&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;namespaces&lt;/strong&gt;
+- f2f0e29 properly load flows when changing namespace (#9393), closes #9352 #9393
+- 95011e0 reload namespace once the id parameter changes (#9372), closes #9372
+- 9b12079 use the right route param to get namespace files (#8747), closes #8747
+- 13d02ee namespaceFiles with same name are wrongly overwritten (#8562), closes #8562&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;naming&lt;/strong&gt;
+- 2f8a590 name action file in the same way as name to avoid double display and confusion (#8634), closes #8634&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;nocode&lt;/strong&gt;
+- 3c7ca60 reorder subtasks (#8976), closes #8976&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugins&lt;/strong&gt;
+- 938590f check whether plugin registry support versioning (#9122), closes #9122
+- e3a8c1c resolve subtypes in low code editor (#8957), closes #8903 #8957
+- a5df187 remove "DYNAMIC" log from browser console
+- 87d1627 ForEach must be displayed as a sequential
+- 1a7ccb9 show back if property is dynamic (#8846), closes #8846
+- 2043c81 add back metrics to plugin docs (#8826), closes #8792 #8826
+- 5a78cdd type and type-defining properties are now readonly (#8820), closes #8818 #8820
+- 59e631f properly handle POSIX permissions for Docker task runner&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;revision&lt;/strong&gt;
+- cb6a6bf restore side-by-side view in revision history after flow edit (#8439), closes #8439&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;sanitycheck&lt;/strong&gt;
+- 1c9016b update flows id and namespace&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;secrets&lt;/strong&gt;
+- 5145cf0 display all namespaces (#9248), closes #9248&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;server&lt;/strong&gt;
+- 4b228c9 port changed during the redirection when no tenant id in uri (#8854), closes #8854&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- dace30d compilation issue
+- 1e0950f import flow should set the tenantId
+- bf18f67 don't set execution to queued twice
+- 6c7a8be use the correct config name for resonse cache
+- 3e21e69 wait for grace period before reemitting tasks for terminated_forced workers, closes #8334
+- 6630cf0 remove required props in definitions that have a default
+- 1a4bb04 rename flyway migrations
+- 84310e8 force a state after kill (#8937), closes #8936 #8937
+- caf701a remove main tenant from api/v1/configs
+- c942187 use a concurrent list to possibly fix the flaky test
+- eede188 handle storage version in storage interface factory
+- 75ff7d8 use the minPollInterval when the last poll is beyond all interval
+- e6e9803 avoid catching JVM fatal error on Worker
+- 5237bcc subflow validation can fail when typing
+- 2571f73 load OpenTelemetry lib in the app classloader
+- 8746f2b change default config values for liveness
+- d58898f restrict the JdbcConcurrencyLimitService to the JDBC runner&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;tasks&lt;/strong&gt;
 - ee12c88 sleep example are a full one&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;test&lt;/strong&gt;
+- 59a6c99 mockTaskRun should be public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tests&lt;/strong&gt;
+- 84e4c62 test editor was showing previous shown plugin doc
+- 4041ebf add tenant id to log repository tests (#9100), closes #9100
+- f90e22a improve test robustness by avoiding spinning a new thread for receive timeout
+- e3fa5b7 assertions with numbers
+- 2b015f8 flaky test ExecutionServiceTest.deleteExecutionKeepLogs()&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;triggers&lt;/strong&gt;
+- 2a27f03 update link color in triggers (#9257), closes #9257
+- 712a375 bulk actions for Triggers with new Filter
+- 1c294cf show the url instead of open. (#9244), closes #9244
+- 1c9f9af amend broken filtering on triggers tab (#8553), closes #8529 #8553
+- e19056c inject default later inside the Scheduler&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- 712d6da make file panel appear beside main panel in namespace (#9546), closes #9546
+- c286348 make array and KV Pairs work in nocode
+- a293a37 nocode API calls on EE needs tenant (#9527), closes #9527
+- 06505ad snafu on duplicate input pair (#9514), closes #9514
+- cb31ef6 [nocode] make dag tasks work (#9506), closes #9506
+- c320323 nocode updating inputs from yaml (#9430), closes #9430
+- a190cdd add datepicker to nocode string field (#9351), closes #9351
+- 0678f7c rename namespace field (#9492), closes #9492
+- f39ba5c prevent cursor change in Editor component when modelValue is updated from outside (#9371), closes #9371
+- 561380c restore add button as a button
+- 68b4867 make download and preview visible for text ouputs (#8348), closes #8348
+- cb7f99d variables should work with duplicated keys (#9425), closes #9425
+- 11de42c nocode - open onPause in a new tab (#9366), closes #9366
+- f2dac28 clear selection of retry form radio buttons  (#9268), closes #9268
+- 0ac8819 allow key of sub-tasks to be other than tasks (#9333), closes #9333
+- 7c8419b Better duplicate key management in the pair component (#9431), closes #9220 #9431 #9491
+- 3756f01 base the required prop on the requiredProperties list (#9433), closes #9377 #9433
+- 317621e allows even embed table to be sorted (#9261), closes #9230 #9261
+- a51f4f2 nocode - add clear selected button for anyof (#9136), closes #9136
+- 5260726 namespace tab didn't use the pluginDefault translation
+- f7c2cbe improve padding and font sizes on Blueprints tab in Editor (#9002), closes #8950 #9002
+- 1785809 clicking on edit/delete in topology opens a nocode (#8993), closes #8993
+- 57bafd1 show proper no results (#8870), closes #8870
+- f293f9d nocode should allow to delete on click on bin (#8712), closes #8712
+- cbf1a98 update basePath to include 'main' tenant in api urls (#8856), closes #8856
+- dbb7761 legacy editor iew no-code does not need creatintask flag (#8742), closes #8742
+- 7262ebe nocode save /close button is now smaller (#8713), closes #8713
+- cf91ca2 update breadcrumb click behavior in legacy (#8709), closes #8709
+- 3fdd976 conditionally render icon based on save mode (#8636), closes #8636
+- 3e23456 update storybook editor tests with provided keys (#8550), closes #8550
+- 0ec8bd4 set isCreating to false when opening flow edit mode (#8549), closes #8549
+- 00cf786 open link in markdown in other tab. (#8258), closes #8258
+- 3c68ff5 remove parts of filter using backspace (#8105), closes #8105
+- efe8368 amend Absolute date filter's looks (#8501), closes #8501
+- a21cff4 save existing flow after making changes (#8378), closes #8378
+- ad9f693 restart trigger position for backfill column (#8246), closes #8246
+- b947c23 full view height for single task logs (#8042), closes #8042
+- eb13dce use creating=true instead of identifier=new (#8443), closes #8443
+- 7bc60a1 add new property in filters (#8444), closes #8444
+- e74e7ff correct path for namespace files on namespace page, closes #8140
+- 4170615 navigation between flow editor and tabs - blank screen (#8392), closes #8392
+- 0bd0175 command array should display properly in no-code (#8349), closes #8349
+- 999406a uniform scrollbar across UI (#7758), closes #7758
+- 935ff94 make sure that dropping tab places it into right place (#8315), closes #8315
+- 725e5e5 allow tab button to take effect while using editor
+- 21c0c86 amend namespace files creation &amp;amp; editing problems (#8279), closes #8279
+- 65a2043 bump ui-libs to 0.0.168
+- ce47b4e bump ui-libs to 0.0.167
+- 2c1b6ff exclude additional files from UI coverage report
+- 9b819f6 avoid jsx confusion on cast that prevent Storybook from running
+- a81c0a5 move bunch of utils to typescript
+- 78066fe remove all warnings from MonacoEditor.vue
+- c70abcb auto-resize suggest window to fit tasks, closes #5823
+- cc08338 better autocompletion relevance, closes #7709
+- cfbffad search bars are properly working in secrets &amp;amp; KV pages, closes #8110
+- fe396c4 global secret page design
+- 0830e11 repair tenant translation
+- 4d7f6b2 add routeContext where it was missing
+- fd1b4d5 properly detect yaml to inject json schema into MonacoEditor, closes #8090&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui-ee&lt;/strong&gt;
+- e6b2f1f keep fetching if filtered kvs &amp;amp; secrets have no elements after fetch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;webserver&lt;/strong&gt;
+- 09943a1 set ids parameters as body instead of queryvalue (#8438), closes #8438
+- 955c6b7 handle out-of-bounds (&amp;gt;) namespaces fetch
+- 5e87655 first eval without masking secret function to error in case of missing secret, closes #8094&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- fcc5fa2 package-lock
+- 1966ac6 cleanup empty metadata to fix variable creation (#9529), closes #9529
+- f295724 small tweaks on tabs (#9520), closes #9520
+- efac714 properly detect condition fields (#9353), closes #9353
+- b58d9e1 initialize array fields without any value (#9367), closes #9367
+- b2d1c84 fix(): display correctly doc/chart preview when editing custom dashboard, closes #9411
+- 7e4a030 fix(): add mising checkout in workflow github release
+- ca10215 langchain4j with wrong repo name in .plugins
+- c787ce3 only load default values when changing type (#9272), closes #9272
+- c3d5811 now correctly handles State filter for executions (#9223), closes #9223
+- ba5d7e4 restore namespace and id when emptying while editing (#9138), closes #9138
+- 80061e3 don't use a endDate when not asked (#9056), closes #9037 #9056
+- a12d5b3 setup anyof forms for taskRunner retry and others (#9049), closes #9049
+- 69ff5a2 color of Failed status (#9042), closes #9042
+- f81125e avoid the Kestra Instance to be indexed (#9018), closes #9015 #9018
+- 1cc7b3e avoid diving by 0 with the KPI chart
+- 2f8a844 save namespace files when clicking ctrl-S (#8994), closes #8994
+- 8a36ddd update topology when no-code changes (#8822), closes #8822
+- 2518025 restore multipanle bottom of panels (#8823), closes #8823
+- dff9fec allow retry edition in no-code (#8770), closes #8770
+- c11af3f make settings menu proper links (#8710), closes #8710
+- 1c23e31 redirect to edit when saving new flow (#8560), closes #8560
+- 31fd030 make monaco composition API (#8320), closes #8320
+- 504ff28 add missing indices for service instance table
+- 0629579 [#8282] - Fixed issue with Devcontainer not running on arm64 architecture (#8285), closes #8282 #8285
+- 7d7340b remove the big plus when dragging
+- cc5a1c9 remove props warning in flow editor
+- 56b903b repair docs home page
+- 92ee3f7 correct version migration for H2 sql file
+- fdcc07b fix(): allows namespace to be search by in filter
+- 9a7fb64 make flowWarnings show to unlock saving (#8157), closes #8115 #8157
+- 45bddb8 task array needed better typings (#8158), closes #8117 #8158
+- de2d923 doc and deprecated field was not showing for dynamic non-string properties (#8006), closes #8006
+- 491fb54 fix(): add missing command to flow subcommand&lt;/p&gt;
+&lt;h3&gt;🏭 Tests&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;cli&lt;/strong&gt;
+- 598582f add return code and YAML-output tests for ConfigPropertiesCommand (#8827), closes #8827&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;controller&lt;/strong&gt;
+- 8821705 add logs to understand why the test fail (#8858), closes #8858&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 14210f1 fix breaking change in local flow repository (#8517), closes #8517
+- b706dec make storybook tests pass with less warnings (#8382), closes #8382&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugins&lt;/strong&gt;
+- 5fd9c21 add code coverage to plugin command CLI (#8829), closes #8829&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;server&lt;/strong&gt;
+- 09d9103 fix time range unit test (#8802), closes #8802&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;storage&lt;/strong&gt;
+- 457e482 remove null tenant in test suit (#9139), closes #9139
+- 5f0910b remove all null tenant test (#9054), closes #9054&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- 21d6e0f rework concurrency paused tests so they actually test t… (#8339), closes #8339
+- 70dbe6a fix flaky runner test by adding sleep in subtask (#8329), closes #8329&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- 5cfb6aa ignore unhandled canceled promises in storybook (#8394), closes #8394
+- ab666bf  failing test for autocompletiona after contributor's PR&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- 228359c avoid FileChangedEventListenerTest being flaky (#8810), closes #8810&lt;/p&gt;
+&lt;h3&gt;🔄️ Changes&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 2d36646 remove unnecessary import (#9245), closes #9245
+- 87fe3ab rename the type in random retry (#8998), closes #8998
+- d66ee28 simplify header badge component usage (#8963), closes #8963
+- c98911c regroup Test and Beta badges with same component
+- b8fb39c remove obsolete node script (#8773), closes #8773
+- f24734f pass the dynamic concurrency schema to no code editor (#8488), closes #8488
+- 534b7f4 changes to improve openapi spec
+- 7b1ee4a prevent inheriting unused attributes in components (#8419), closes #8419
+- 38a9ebc replace deprecated vue flow options parameter (#8417), closes #7804 #8417&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;deps&lt;/strong&gt;
+- 171272a revert monaco-yaml upgrade due to patch on previous version (#8797), closes #8797
+- 6642df4 revert monaco-yaml upgrade due to patch on previous version (#8791), closes #8791&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flows&lt;/strong&gt;
+- c8376da remove old FlowRepositoryInterface.find method not used anymore&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;namespaces&lt;/strong&gt;
+- 2cab9de remove the unused &lt;code&gt;maximize&lt;/code&gt; property (#8380), closes #8380&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;plugin&lt;/strong&gt;
+- a14518b add dedicated service to parse tasks log line&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;system&lt;/strong&gt;
+- d92015c centralize filters legacy mapping in controllers (#9183), closes #9183&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ui&lt;/strong&gt;
+- 59589b1 uniform the namespace components for &lt;code&gt;oss&lt;/code&gt; and &lt;code&gt;ee&lt;/code&gt; versions (#8256), closes #8256&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- e25e70d load nocode root form from server schema (#9327), closes #9327
+- 3fe4556 remove the theme and chartColor from schemes (#7296), closes #7296
+- 4a0d449 remove nocode components registration from global scope (#9211), closes #9211
+- 8ceee4c migrate plugin.core flowable tasks to dynamic proeprties (#8313), closes #8313
+- 8f29a72 add GenericFlow to support un-typed flow deserialization
+- 1bba3e4 migrate plugin condition to dynamic properties (#6907), closes #6907
+- c69ac99 remove dead code from monacoeditor (#8088), closes #8088&lt;/p&gt;
+&lt;h3&gt;🛠  Build&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;ci&lt;/strong&gt;
+- 8656e85 fix setversion workflow not making tag push trigger main
+- 0101f53 require translations to be done (#9014), closes #9014&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 63ec5ca update commit message and description for translation-related pull requests (#8358), closes #8358&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;deps&lt;/strong&gt;
+- c7986ec bump org.testcontainers:testcontainers to 1.21.1
+- 9ff2df6 bump com.github.oshi:oshi-core from 6.8.1 to 6.8.2
+- f46234a bump org.postgresql:postgresql from 42.7.5 to 42.7.6
+- 97b23a2 bump org.testcontainers:junit-jupiter from 1.21.0 to 1.21.1
+- cbe3274 bump software.amazon.awssdk:bom from 2.31.45 to 2.31.50
+- 55fb234 bump me.champeau.jmh from 0.7.2 to 0.7.3
+- 6b00ab2 bump com.google.cloud:libraries-bom from 26.60.0 to 26.61.0
+- e4ec427 bump posthog-js from 1.245.0 to 1.245.1 in /ui (#8900), closes #8900
+- 174e3f8 bump org.sonarqube from 6.1.0.5360 to 6.2.0.5505
+- ba5890f bump io.micrometer:micrometer-core from 1.14.6 to 1.15.0
+- 1186a8d bump software.amazon.awssdk.crt:aws-crt
+- cc95c4a bump software.amazon.awssdk:bom from 2.31.40 to 2.31.45
+- 232194d bump com.github.docker-java:docker-java from 3.5.0 to 3.5.1
+- 625e783 bump com.google.cloud:libraries-bom from 26.59.0 to 26.60.0
+- c8c649c bump net.thisptr:jackson-jq from 1.2.0 to 1.3.0
+- 2c1ea4e bump software.amazon.awssdk:bom from 2.31.35 to 2.31.40
+- 5e08c7d bump software.amazon.awssdk.crt:aws-crt
+- 5759495 bump software.amazon.awssdk:bom from 2.31.30 to 2.31.35
+- 1bd8984 bump org.testcontainers:testcontainers
+- c565b3b bump org.jsoup:jsoup from 1.19.1 to 1.20.1
+- 5ce8763 bump org.jooq:jooq from 3.20.3 to 3.20.4
+- d52974d bump com.azure:azure-sdk-bom from 1.2.33 to 1.2.34
+- c9296b6 bump com.microsoft.playwright:playwright
+- 6f24e31 bump opensearchRestVersion from 2.19.1 to 2.19.2
+- 90180cc bump org.fusesource.jansi:jansi from 2.4.1 to 2.4.2
+- ce6770c bump jacksonVersion from 2.18.3 to 2.19.0
+- 04f32ab bump org.wiremock:wiremock-jetty12 from 3.12.1 to 3.13.0
+- d9ab998 bump software.amazon.awssdk:bom from 2.31.25 to 2.31.30
+- a06421d bump co.elastic.logging:logback-ecs-encoder
+- de6fcab bump org.opensearch.client:opensearch-java
+- b2f68a7 bump com.github.oshi:oshi-core from 6.8.0 to 6.8.1
+- 01cb30f bump software.amazon.awssdk:bom from 2.31.21 to 2.31.25
+- d2cda63 bump flyingSaucerVersion from 9.11.6 to 9.12.0
+- f89187d bump io.micronaut.platform:micronaut-platform
+- 8e4fe89 bump com.google.guava:guava from 33.4.7-jre to 33.4.8-jre
+- cfae13c bump io.micrometer:micrometer-core from 1.14.5 to 1.14.6
+- 6190f87 bump com.google.guava:guava from 33.4.6-jre to 33.4.7-jre
+- b98a0a7 bump commons-io:commons-io from 2.18.0 to 2.19.0
+- 3da2dc6 bump flyingSaucerVersion from 9.11.5 to 9.11.6
+- 6feb027 bump org.aspectj:aspectjweaver from 1.9.23 to 1.9.24
+- 83d6095 bump software.amazon.awssdk:bom from 2.31.16 to 2.31.21
+- 444e3d2 bump software.amazon.awssdk.crt:aws-crt
+- ae7bb88 bump com.google.guava:guava from 33.4.0-jre to 33.4.6-jre
+- 73e3fd0 bump software.amazon.awssdk:bom from 2.31.11 to 2.31.16
+- 0665b52 bump org.owasp.dependencycheck from 12.1.0 to 12.1.1
+- 781f9dc bump com.google.cloud:libraries-bom from 26.58.0 to 26.59.0
+- 92e4570 bump org.jooq:jooq from 3.20.2 to 3.20.3
+- f717063 bump org.sonarqube from 6.0.1.5171 to 6.1.0.5360
+- 881b009 bump flyingSaucerVersion from 9.11.4 to 9.11.5
+- ab81871 bump software.amazon.awssdk:bom from 2.31.6 to 2.31.11
+- addd76f bump com.azure:azure-sdk-bom from 1.2.32 to 1.2.33
+- 6be939c bump software.amazon.awssdk.crt:aws-crt
+- 4ea876d bump com.google.cloud:libraries-bom from 26.57.0 to 26.58.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;deps-dev&lt;/strong&gt;
+- ec7bf52 bump vite in /ui in the npm_and_yarn group (#8362), closes #8362&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tests&lt;/strong&gt;
+- 0f7360a replace workspaces with proper storybook config + working aliases&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- 3865f90 moved helm update trigger on EE side
+- b5cc011 influxdb and graphql not available yet
+- 86f0b23 update release-plugin script to set kestra version for plugins
+- 2c411a2 use storybook test addon to get coverage (#8316), closes #8316
+- c08213b remove some odd arguments to frontend checkout
+- 3df9d49 fix setversion-tag and devtools&lt;/p&gt;
+&lt;h3&gt;📝 Documentation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;core&lt;/strong&gt;
+- 41d660e update plugin titles and descriptions (#8390), closes #8390&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;core-pause&lt;/strong&gt;
+- 1ff2e03 update pauseDuration properties, titles, descriptions (#8495), closes #8495&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;dashboard&lt;/strong&gt;
+- 7c0435f fix indentations in examples and add KPI (#9203), closes #9193 #9203&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docker&lt;/strong&gt;
+- ffdebf3 update title and description of docker kill grace period property (#8733), closes #8733&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;flow-trigger&lt;/strong&gt;
+- 10ce92c add note about no Pebble in conditions&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;http&lt;/strong&gt;
+- 5293176 update SSL options property with note
+- 9b72ce5 add mention to check for plugins before using HTTP&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;global&lt;/strong&gt;
+- 581d5e4 clarify log level on the log task (#9277), closes #9277&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;d7fc689 fix storybook tests&lt;/li&gt;
+&lt;li&gt;5064687 fix(core)*: make sure tour always opens with code &amp;amp; topology tabs visible (#9513), closes #9513&lt;/li&gt;
+&lt;li&gt;9aa605e Feat/rework compatibility layer (#9490), closes #4062 #9490&lt;/li&gt;
+&lt;li&gt;bc81e01 fix(core)*: properly display chart colors for logs (#9429), closes #9429&lt;/li&gt;
+&lt;li&gt;316d897 &lt;strong&gt;core&lt;/strong&gt;: add storybook on executions filters (#9354), closes #9354&lt;/li&gt;
+&lt;li&gt;f544bc9 fix(system)*: don't include yourself as def in the JSONSchema&lt;/li&gt;
+&lt;li&gt;979b271 fix(system)*: correctly resolve additional plugin subtypes so autocompletion work&lt;/li&gt;
+&lt;li&gt;cd9fdcd &lt;strong&gt;system&lt;/strong&gt;: make restartForEachItem test more deterministic&lt;/li&gt;
+&lt;li&gt;8846da5 fixed spacing in demo apps page (#9021), closes #9021&lt;/li&gt;
+&lt;li&gt;ea40226 Replace the default dashboard with custom dashboard (#8769), closes #3739 #8769&lt;/li&gt;
+&lt;li&gt;ca652a1 fix(plugins)*: ForEach executes task in the wrong order when no concurrency limit, closes #8904&lt;/li&gt;
+&lt;li&gt;a73c45a change label color to white (#8850), closes #8850&lt;/li&gt;
+&lt;li&gt;05e3483 &lt;strong&gt;fix&lt;/strong&gt;: change namespace hover to white (#8842), closes #8842&lt;/li&gt;
+&lt;li&gt;a856654 Update core/src/main/java/io/kestra/core/schedulers/AbstractScheduler.java&lt;/li&gt;
+&lt;li&gt;a8e826a fix(system)*: reset the trigger into the KafkaScheduler instead of the ExecutorMain&lt;/li&gt;
+&lt;li&gt;79242f9 &lt;strong&gt;executions&lt;/strong&gt;: remove flakiness on some tests around sleep&lt;/li&gt;
+&lt;li&gt;2bfdca3 Translations from en.json (#8734), closes #8734&lt;/li&gt;
+&lt;li&gt;5c060b5 fix(plugins)*: don't cache the &lt;code&gt;condition&lt;/code&gt; property inside the If task, closes #8697&lt;/li&gt;
+&lt;li&gt;f980a68 fix(namespaces)*: send proper parameter for namespace on file creation/update (#8706), closes #8706&lt;/li&gt;
+&lt;li&gt;02723aa fix(dashboards)*: SQL errors on logs data chart, closes #8128&lt;/li&gt;
+&lt;li&gt;4e60202 feat(system)*: decrease defaut JDBC queue poll size&lt;/li&gt;
+&lt;li&gt;c5b7c5d chore(triggers)*: properly handle switches for triggers disabled from within flow source (#8106), closes #5736 #8011 #8106&lt;/li&gt;
+&lt;li&gt;b1a48c1 Add examples with expression and trimmed values (#6154), closes #6154&lt;/li&gt;
+&lt;li&gt;728a6a3 &lt;strong&gt;basic.md&lt;/strong&gt;: add link to configuration for kestra property variables (#8490), closes #8490&lt;/li&gt;
+&lt;li&gt;d14ff78 fix(execution)*: decode and hide nested inputs of type SECRET, closes #7964&lt;/li&gt;
+&lt;li&gt;1506d68 &lt;strong&gt;system&lt;/strong&gt;: bump sleep-short sleep time to 10s&lt;/li&gt;
+&lt;li&gt;bf4310e &lt;strong&gt;system&lt;/strong&gt;: try with different task id&lt;/li&gt;
+&lt;li&gt;b4106af &lt;strong&gt;system&lt;/strong&gt;: debug flaky error of shouldPauseExecutionByQueryRunningFlows&lt;/li&gt;
+&lt;li&gt;1974fd1 &lt;strong&gt;system&lt;/strong&gt;: debug flaky error of shouldPauseExecutionByQueryRunningFlows&lt;/li&gt;
+&lt;li&gt;ce3eea7 &lt;strong&gt;webserver&lt;/strong&gt;: fix flaky test which could query previous tests tasks&lt;/li&gt;
+&lt;li&gt;724058a Feat/storage outputs (#8361), closes #8361&lt;/li&gt;
+&lt;li&gt;d454d13 &lt;strong&gt;system&lt;/strong&gt;: isolate SchedulerScheduleTest tests with tenantId&lt;/li&gt;
+&lt;li&gt;8b6af7a chore(core)*: make sure that notifications with large message text are closeable (#8431), closes #8352 #8431&lt;/li&gt;
+&lt;li&gt;c069b2f chore(core)*: deboucing task validation from no code editor (#8418), closes #7073 #8418&lt;/li&gt;
+&lt;li&gt;954d64e fix(core)*:  allow horizontal scrolling of tabs in multi panel view (#8414), closes #8270 #8414&lt;/li&gt;
+&lt;li&gt;f61ba36 feat(core)*: allow moving of entire panels (#8377), closes #8272 #8377&lt;/li&gt;
+&lt;li&gt;b75730a chore(dashboards)*: amend hover color of table top buttons on dashboard (#8388), closes #8376 #8388&lt;/li&gt;
+&lt;li&gt;ceac4d3 feat(core)*: implement redirection to flow creation page on skipping tutorial (#8333), closes #8326 #8333&lt;/li&gt;
+&lt;li&gt;752405a fix(flows)*: amend text color problem in no code editor on firefox (#8367), closes #8327 #8367&lt;/li&gt;
+&lt;li&gt;860c1b2 feat(core)*: allow closing all tabs at once in a single panel (#8360), closes #8273 #8360&lt;/li&gt;
+&lt;li&gt;f871fa8 chore(translations)*: localize to languages other than english (#8353), closes #8353&lt;/li&gt;
+&lt;li&gt;c202875 feat(core)*: introduce a dropdown menu for each panel (#8351), closes #8272 #8273 #8351&lt;/li&gt;
+&lt;li&gt;92c082e chore(flows)*: hide horizontal scroll on editor based inputs (#8347), closes #8347&lt;/li&gt;
+&lt;li&gt;e6937c4 feat(core)*: close code tab if file is deleted (#8331), closes #8271 #8331&lt;/li&gt;
+&lt;li&gt;ab2fea6 &lt;strong&gt;Core&lt;/strong&gt;: task example indentation error&lt;/li&gt;
+&lt;li&gt;fd46673 &lt;strong&gt;Devcontainer&lt;/strong&gt;: link instructions to contributing guide&lt;/li&gt;
+&lt;li&gt;938b3cc fix storybook multipanel test&lt;/li&gt;
+&lt;li&gt;5285bea feat(Unit Tests) #8171 convert hamcrest to assertj (#8276), closes #8171 #8276&lt;/li&gt;
+&lt;li&gt;69193c6 Revert "fix(core): add &lt;code&gt;additionalProperties=false&lt;/code&gt; to tasks to have a warning if there is unknown properties"&lt;/li&gt;
+&lt;li&gt;fce7ec1 &lt;strong&gt;core&lt;/strong&gt;: flaky allow failure for each item test (#8228), closes #8228&lt;/li&gt;
+&lt;li&gt;774a4ef Feat(): ci changes (#8217), closes #4964 #8136 #8217&lt;/li&gt;
+&lt;li&gt;71110cc Revert "fix(core): HttpClient log the URL even if it's a secret"&lt;/li&gt;
+&lt;li&gt;259b5b5 Revert "fix(core): require condition in Flow trigger (#7494)", closes #7494&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Contributors&lt;/h2&gt;
 &lt;p&gt;We'd like to thank the following people for their contributions:
-Bart Ledoux, Ludovic DEHON, github-actions[bot]&lt;/p&gt;
-&lt;h2&gt;Breaking Changes&lt;/h2&gt;
-&lt;h3&gt;All editions: LoopUntil task changed default values for &lt;code&gt;checkFrequency&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;The default behavior of the &lt;code&gt;LoopUntil&lt;/code&gt; core task &lt;a href="https://github.com/kestra-io/kestra/issues/9152#issuecomment-2929847060"&gt;has changed&lt;/a&gt; as follows:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;json
-{ "maxIterations": null, "maxDuration": null, "interval": "PT1M" }&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Previously, &lt;code&gt;LoopUntil&lt;/code&gt; capped executions at 100 iterations and 1 hour duration (&lt;code&gt;maxIterations: 100&lt;/code&gt;, &lt;code&gt;maxDuration: PT1H&lt;/code&gt;, &lt;code&gt;interval: PT1S&lt;/code&gt;). This was intended to prevent runaway loops from impacting instance stability, especially with frequent (1s) intervals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What’s changed&lt;/strong&gt;:
-* The default configuration no longer enforces arbitrary limits on iterations and duration.
-* The new default uses a 1-minute interval (&lt;code&gt;PT1M&lt;/code&gt;), which greatly reduces the risk of instance performance issues, even with no iteration or duration limits.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Backward compatibility&lt;/strong&gt;: If you want to &lt;strong&gt;retain the previous default limits&lt;/strong&gt; to prevent potentially long-running loops, add the following to your global plugin defaults:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yaml
-pluginDefaults:
-  - forced: true
-    type: io.kestra.plugin.core.flow.LoopUntil
-    values:
-      checkFrequency:
-        maxIterations: 100
-        maxDuration: PT1H
-        interval: PT1S&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Adding that plugin default restores the earlier behavior and prevents any breaking change for your existing flows.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: Tenant is now required; &lt;code&gt;defaultTenant&lt;/code&gt; (null tenant) is no longer supported&lt;/h3&gt;
-&lt;p&gt;Kestra now requires a tenant context in both OSS and Enterprise versions. The previous &lt;code&gt;defaultTenant&lt;/code&gt; (null tenant) is no longer supported.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;OSS:&lt;/strong&gt;
-* A fixed tenant named &lt;code&gt;main&lt;/code&gt; is always used.
-* All API URIs now include the tenant: &lt;code&gt;/api/v1/...&lt;/code&gt; → &lt;code&gt;/api/v1/main/...&lt;/code&gt;.
-* There is a temporary routing layer to map legacy endpoints, but this will be removed in a future release.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt;
-* Tenants must be created and configured explicitly.
-* &lt;code&gt;kestra.ee.tenants.enabled&lt;/code&gt; and &lt;code&gt;kestra.ee.tenants.defaultTenant&lt;/code&gt; configuration properties have been removed.
-* Set &lt;code&gt;kestra.ee.tenants.fallbackTenant&lt;/code&gt; in your configuration to route non-tenant API calls (API endpoints won't be rerouted, but we inject the fallback tenant ID into the request header)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Migration:&lt;/strong&gt;
-A &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;Migration guide and scripts&lt;/a&gt; are provided to update your database and storage paths to the new tenant model.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Who needs to migrate?&lt;/strong&gt;
-All OSS users will need to run the migration. Additionally, the migration command is required for all EE customers who used to have the &lt;code&gt;defaultTenant&lt;/code&gt; enabled:
-&lt;code&gt;yaml
-kestra:
-   tenants:
-      defaultTenant: true&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;And those who didn't have tenants enabled:
-&lt;code&gt;yaml
-kestra:
-   tenants:
-      defaultTenant: false
-      enabled: false&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Again, the above configuration properties are removed in 0.23, so you no longer have to worry about them, provided that you run the migration command described below after upgrading to 0.23.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Migration command (OSS):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;kestra migrate default-tenant [--dry-run]&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Migration command (Enterprise &amp;amp; Cloud):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;kestra migrate default-tenant --tenant-id=your_tenant_id --tenant-name="Your Tenant Name" [--dry-run]&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;For internal storage migration steps, refer to the full &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;Migration Guide documentation&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: Internal storage path change to fix double slash (S3/GCS)&lt;/h3&gt;
-&lt;p&gt;For users of S3 or GCS as internal storage, Kestra now removes the leading root slash in all storage paths. Storage keys now have a single slash separator, not a double slash. This helps display internal storage objects &lt;a href="https://github.com/kestra-io/kestra/issues/3933"&gt;in various cloud storage interfaces&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Before 0.23:&lt;/strong&gt; &lt;code&gt;gs://bucket//company/team/_files/test.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;After 0.23:&lt;/strong&gt;  &lt;code&gt;gs://bucket/company/team/_files/test.txt&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Required Action:&lt;/strong&gt;
-Run the &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;migration scripts&lt;/a&gt; for your storage provider to update object paths. If not done, Kestra will not be able to access files with the old path structure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example (GCS):&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;```bash&lt;/p&gt;
-&lt;h1&gt;!/bin/bash&lt;/h1&gt;
-&lt;p&gt;BUCKET="gs://mybucket"&lt;/p&gt;
-&lt;p&gt;echo "Starting GCS root slash cleanup on bucket $BUCKET"&lt;/p&gt;
-&lt;h1&gt;List all objects starting with /&lt;/h1&gt;
-&lt;p&gt;gsutil ls "$BUCKET/**" | grep "$BUCKET//" | while read -r full_path; do
-    # Extract just the key (remove bucket prefix)
-    key="${full_path#${BUCKET}/}"&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Skip folder markers (if any)
-if [[ "$key" == */ ]]; then
-    echo "Skipping folder marker: $key"
-    continue
-fi
-
-# Remove leading slash
-clean_key="${key#/}"
-
-echo "Copying $BUCKET/$key → $BUCKET/$clean_key"
-
-# Copy to clean location
-gsutil cp "$BUCKET/$key" "$BUCKET/$clean_key"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;done&lt;/p&gt;
-&lt;p&gt;echo "Cleanup finished!"
-```&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example (S3):&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;```bash&lt;/p&gt;
-&lt;h1&gt;!/bin/bash&lt;/h1&gt;
-&lt;p&gt;BUCKET="mybucket"&lt;/p&gt;
-&lt;p&gt;aws s3 ls s3://$BUCKET --recursive | awk '{print $4}' | grep '^/' | grep -v '/$' | while read -r key; do
-    # Strip the leading slash
-    clean_key="${key#/}"&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;echo "Copying s3://$BUCKET/$key → s3://$BUCKET/$clean_key"
-
-# Copy to new key without leading slash
-aws s3 cp "s3://$BUCKET/$key" "s3://$BUCKET/$clean_key"
-
-# Optional: Delete original after copy succeeds
-# aws s3 rm "s3://$BUCKET/$key"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;done&lt;/p&gt;
-&lt;p&gt;echo "Migration finished!"
-```&lt;/p&gt;
-&lt;p&gt;See the &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;full migration guide&lt;/a&gt; for local, MinIO, Azure, and other storage types, which also must be migrated due to the multitenancy requirement (see the section above).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: The &lt;code&gt;BOOLEAN&lt;/code&gt;-type input is deprecated in favor of &lt;code&gt;BOOL&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;The Java-style &lt;code&gt;BOOLEAN&lt;/code&gt; input, which used 3 options (true, false, or not defined), caused too much confusion and bugs, so it's now deprecated in favor of &lt;code&gt;BOOL&lt;/code&gt; input, which is a toggle (can only be &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;). Read more: https://github.com/kestra-io/kestra/issues/8225.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: Default environment variable prefix changed from &lt;code&gt;KESTRA_&lt;/code&gt; to &lt;code&gt;ENV_&lt;/code&gt; for security&lt;/h3&gt;
-&lt;p&gt;Kestra &lt;a href="https://github.com/kestra-io/kestra-ee/issues/3131"&gt;previously defaulted&lt;/a&gt; to autoloading environment variables with the prefix &lt;code&gt;KESTRA_&lt;/code&gt; into flows. This posed a security risk, as Micronaut allows overriding configuration using environment variables and translates non-alphanumeric characters (such as &lt;code&gt;:&lt;/code&gt; in &lt;code&gt;kestra:storage:type&lt;/code&gt;) into underscores, producing env vars like &lt;code&gt;KESTRA_STORAGE_TYPE&lt;/code&gt;. If a sensitive value (e.g., a storage password) was provided via an environment variable starting with &lt;code&gt;KESTRA_&lt;/code&gt;, it would be available in all flows, increasing the risk of secret exposure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Change:&lt;/strong&gt;
-* The default prefix for autoloaded environment variables is now &lt;code&gt;ENV_&lt;/code&gt; (instead of &lt;code&gt;KESTRA_&lt;/code&gt;).
-* Any variable you want to expose in flows must now start with &lt;code&gt;ENV_&lt;/code&gt; by default (unless you configure a custom prefix).
-* The &lt;code&gt;KESTRA_CONFIGURATION&lt;/code&gt; env var still uses &lt;code&gt;KESTRA_&lt;/code&gt; as the configuration key (unchanged).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How to use:&lt;/strong&gt;
-In your Docker Compose or environment configuration, set environment variables using the &lt;code&gt;ENV_&lt;/code&gt; prefix rather than the &lt;code&gt;KESTRA_&lt;/code&gt; prefix:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yaml
-kestra:
-  image: kestra/kestra:latest
-  environment:
-    ENV_MY_VARIABLE: extra variable value
-    ENV_NEW_VARIABLE: new variable value
-    KESTRA_CONFIGURATION:
-      kestra:
-        variables:
-          env-vars-prefix: "ENV_" # this is now the default as of v0.23&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;You can reference these in your flows as &lt;code&gt;{{ envs.MY_VARIABLE }}&lt;/code&gt; and &lt;code&gt;{{ envs.NEW_VARIABLE }}&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;To use a custom prefix e.g. &lt;code&gt;PROD_&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yaml
-kestra:
-  image: kestra/kestra:latest
-  environment:
-    PROD_MY_VARIABLE: extra variable value
-    KESTRA_CONFIGURATION:
-      kestra:
-        variables:
-          env-vars-prefix: "PROD_"&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Then use &lt;code&gt;{{ envs.MY_VARIABLE }}&lt;/code&gt; in flows.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Action required:&lt;/strong&gt;
-* Review and update any existing environment variables that used the &lt;code&gt;KESTRA_&lt;/code&gt; prefix for flow variables and make sure that you now use &lt;code&gt;ENV_&lt;/code&gt; or your custom prefix.
-* No changes are needed for configuration properties that use &lt;code&gt;KESTRA_CONFIGURATION&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;For more details, check the &lt;a href="https://kestra.io/docs/configuration#environment-variables-prefix"&gt;Environment Variables Prefix documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: The default &lt;code&gt;pullPolicy&lt;/code&gt; for Docker-based tasks changed&lt;/h3&gt;
-&lt;p&gt;Due to the new &lt;a href="https://docs.docker.com/docker-hub/usage/pulls/"&gt;Docker Hub pull usage and limits&lt;/a&gt;, all the Docker-based Kestra tasks will have their default &lt;code&gt;pullPolicy&lt;/code&gt; updated from &lt;code&gt;ALWAYS&lt;/code&gt; to &lt;code&gt;IF_NOT_PRESENT&lt;/code&gt; to avoid any pull limit issue (PR https://github.com/kestra-io/plugin-scripts/issues/230).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: Flow trigger now also reacts to PAUSED state by default&lt;/h3&gt;
-&lt;p&gt;Next to the terminated states, the Flow trigger now also reacts to the PAUSED state to make it easier to respond to paused workflow, e.g. to send alerts to the right stakeholders to manually approve and resume paused workflow executions.&lt;/p&gt;
-&lt;p&gt;Using the following flow with a Flow trigger as example:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yaml
-id: react_to_states
-namespace: company
-tasks:
-  - id: hello
-     ...
-triggers:
-  - id: mytrigger
-    type: io.kestra.plugin.core.trigger.Flow
-    preconditions:
-      id: flow
-      flows:
-        - namespace: company&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Before 0.23, this flow would be triggered for each terminated execution in the &lt;code&gt;company&lt;/code&gt; namespace.&lt;/li&gt;
-&lt;li&gt;From 0.23 on, this flow will be triggered for each &lt;strong&gt;terminated&lt;/strong&gt; and &lt;code&gt;PAUSED&lt;/code&gt; execution in the &lt;code&gt;company&lt;/code&gt; namespace.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: Python script tasks now use official &lt;code&gt;python:3-13-slim&lt;/code&gt; image&lt;/h3&gt;
-&lt;p&gt;To make it easier to get started, we used a custom &lt;code&gt;ghcr.io/kestra-io/kestrapy:latest&lt;/code&gt; image in the past to contain &lt;code&gt;kestra&lt;/code&gt; and &lt;code&gt;amazon-ion&lt;/code&gt; pip packages. The script tasks now use the official &lt;code&gt;python:3-13-slim&lt;/code&gt; image by default. If you want to maintain the previous behavior, simply add those using the new &lt;code&gt;dependencies&lt;/code&gt; property and they will be installed at runtime (and cached):&lt;/p&gt;
-&lt;p&gt;```yaml
-id: python_demo
-namespace: company.team&lt;/p&gt;
-&lt;p&gt;tasks:
-  - id: python
-    type: io.kestra.plugin.scripts.python.Script
-    dependencies:
-      - kestra
-      - amazon-ion
-      - requests
-    script: |
-      from kestra import Kestra
-      import requests&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  response = requests.get('https://kestra.io')
-  print(response.status_code)
-
-  Kestra.outputs({'status': response.status_code, 'text': response.text})
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;```&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: No more WARNING state on script tasks when ERROR logs are present&lt;/h3&gt;
-&lt;p&gt;We no longer set the task-run state to &lt;code&gt;Warning&lt;/code&gt; if the script task emits some ERROR or WARNING logs and the &lt;code&gt;warningOnStdErr&lt;/code&gt; &lt;a href="https://github.com/kestra-io/plugin-scripts/issues/233"&gt;property is deprecated&lt;/a&gt;. Script tasks will now always report &lt;strong&gt;SUCCESS&lt;/strong&gt; state if the Docker container exits with code 0, and &lt;strong&gt;FAILED&lt;/strong&gt; state for any non-zero exit code — ERROR or WARNING logs no longer influence the task run state.&lt;/p&gt;
-&lt;p&gt;Example flow:&lt;/p&gt;
-&lt;p&gt;```yaml
-id: loguru
-namespace: company.team&lt;/p&gt;
-&lt;p&gt;inputs:
-  - id: nr_logs
-    type: INT
-    defaults: 100&lt;/p&gt;
-&lt;p&gt;tasks:
-  - id: reproducer
-    type: io.kestra.plugin.scripts.python.Script
-    taskRunner:
-      type: io.kestra.plugin.scripts.runner.docker.Docker
-    containerImage: ghcr.io/kestra-io/pydata:latest
-    script: |
-      from loguru import logger
-      from faker import Faker
-      import time
-      import sys&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  logger.remove()
-  logger.add(sys.stdout, level="DEBUG")
-  logger.add(sys.stderr, level="DEBUG")
-
-  def generate_logs(fake, num_logs):
-      logger.error("Starting to generate log messages")
-      for _ in range(num_logs):
-          log_message = fake.sentence()
-          logger.warning(log_message)
-          time.sleep(0.01)
-      logger.warning("Finished generating log messages")
-
-  if __name__ == "__main__":
-      faker_ = Faker()
-      generate_logs(faker_, int("{{ inputs.nr_logs }}"))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;```&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Before this change, the flow would end in &lt;/em&gt;&lt;em&gt;WARNING&lt;/em&gt;&lt;em&gt;; now it ends in &lt;/em&gt;&lt;em&gt;SUCCESS&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;All editions: &lt;code&gt;autocommit&lt;/code&gt; property removed from JDBC Query and Queries tasks&lt;/h3&gt;
-&lt;p&gt;The &lt;code&gt;autocommit&lt;/code&gt; property &lt;a href="https://github.com/kestra-io/plugin-jdbc/issues/550"&gt;has been removed&lt;/a&gt; from both the &lt;code&gt;Query&lt;/code&gt; and &lt;code&gt;Queries&lt;/code&gt; tasks in the JDBC plugin.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reason for change:&lt;/strong&gt;
-* The &lt;code&gt;Query&lt;/code&gt; task executes a single statement and does not support multi-step transactions; autocommit is not relevant.
-* The &lt;code&gt;Queries&lt;/code&gt; task processes all contained queries within a single transaction by default; autocommit has no effect.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
-* The &lt;code&gt;autocommit&lt;/code&gt; property is no longer configurable in either task.
-* &lt;strong&gt;You must remove any usage of the &lt;code&gt;autocommit&lt;/code&gt; property&lt;/strong&gt; in your existing flows, as using it will raise an error.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;EE and Cloud: manual user refresh is required to migrate Superadmin property&lt;/h3&gt;
-&lt;p&gt;The handling of Superadmin users in Kestra Cloud and Enterprise Edition has changed. Previously, the Superadmin status was determined by the user type (&lt;code&gt;SUPER_ADMIN&lt;/code&gt;). In version 0.23, this is now managed through a dedicated property (&lt;code&gt;isSuperAdmin&lt;/code&gt;). This change enables new use cases such as assigning a Superadmin permission to a Service Account as well as sending an invite with Superadmin permissions, but it also impacts user role detection for existing users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Required action:&lt;/strong&gt;
-All EE customers &lt;strong&gt;must&lt;/strong&gt; run the following CLI command after upgrading to 0.23:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sh
-kestra auths users refresh&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;This command migrates and refreshes user data to correctly assign Superadmin status under the new property-based model.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
-* Existing Enterprise and Cloud users with the type &lt;code&gt;SUPER_ADMIN&lt;/code&gt; will &lt;strong&gt;not&lt;/strong&gt; automatically have the new &lt;code&gt;isSuperAdmin&lt;/code&gt; property set unless you run the migration command after upgrading to 0.23.
-* This may result in users unexpectedly losing Superadmin privileges. If you see this happening, run &lt;code&gt;kestra auths users refresh&lt;/code&gt; from the CLI.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;EE: SQL Server backend is no longer supported&lt;/h3&gt;
-&lt;p&gt;We dropped support for the SQL Server backend. &lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;code&gt;{tenant}&lt;/code&gt; removed from Superadmin tenant management API routes (EE only)&lt;/h3&gt;
-&lt;p&gt;The &lt;code&gt;{tenant}&lt;/code&gt; parameter has been removed from several API routes related to tenant management in Enterprise Edition. This change affects only EE users who interact with these endpoints programmatically (i.e., via direct API calls).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reason for change:&lt;/strong&gt;
-* These routes are relevant only to Superadmin users, who can see and manage all tenants.
-* The &lt;code&gt;{tenant}&lt;/code&gt; path parameter was unnecessary and led to confusion, as all access control is based on the authenticated user's privileges (i.e. their tenant access), not the path.
-* The endpoints now reflect the actual access model: actions depend on the Superadmin context, not on a specified &lt;code&gt;{tenant}&lt;/code&gt; in the path.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Changed endpoints:&lt;/strong&gt;
-* &lt;code&gt;/api/v1/{tenant}/clusters&lt;/code&gt; → &lt;code&gt;/api/v1/clusters&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants&lt;/code&gt; → &lt;code&gt;/api/v1/tenants&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/bindings/&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/bindings/&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/group&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/group&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/invitations&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/invitations&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/namespaces&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/namespaces&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/roles&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/roles&lt;/code&gt;
-* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/users/&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/users/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
-* If you are using these endpoints programmatically, update your API clients to remove the &lt;code&gt;{tenant}&lt;/code&gt; path segment.
-* Access remains limited to Superadmin users only.&lt;/p&gt;</content>
+AJ Emerich, AbdurRahman2004, Anna Geller, Bala Aparna, Bart Ledoux, Barthélémy Ledoux, Daniel Rivas, Dhinakaran T, Dhivya G, Florian Hussonnois, Frank Tianyu Zeng, François Delbrayelle, GitHub, GitHub Action, Hashim Khalifa, Karuna Tata, Kelvin Yim, Loïc Mathieu, Ludovic DEHON, Malaydewangan09, Mathieu Gabelle, MilosPaunovic, Miloš Paunović, Nicolas K., Piyush Bhaskar, Roman Acevedo, Satvik Kushwaha, Sayed Murtadha Ahmed, Shruti Mantri, Tanvir Ahmed, Will Russell, YannC, YannC., ben8t, brian-mulier-p, brian.mulier, dhinakaranst, gluttonweb, lwyang, nKwiatkowski, rajatsingh23, weibo1, yuri, 杨利伟&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.23.0" rel="alternate"/>
   </entry>
 </feed>
