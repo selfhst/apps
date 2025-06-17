@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-06-17T10:33:38.981426-04:00</updated>
+  <updated>2025-06-17T11:33:44.631803-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,7 +84,7 @@
       <name>kestra-io/kestra</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;h3&gt;📢 Breaking Changes&lt;/h3&gt;
+&lt;h3&gt;📢 Breaking Changes Commits&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;#233&lt;/strong&gt;
 - 365d82e 🚨 remove warningOnError behavior (#8321), closes #233 #8321&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;cli,core&lt;/strong&gt;
@@ -973,7 +973,284 @@
 &lt;/ul&gt;
 &lt;h2&gt;Contributors&lt;/h2&gt;
 &lt;p&gt;We'd like to thank the following people for their contributions:
-AJ Emerich, AbdurRahman2004, Anna Geller, Bala Aparna, Bart Ledoux, Barthélémy Ledoux, Daniel Rivas, Dhinakaran T, Dhivya G, Florian Hussonnois, Frank Tianyu Zeng, François Delbrayelle, GitHub, GitHub Action, Hashim Khalifa, Karuna Tata, Kelvin Yim, Loïc Mathieu, Ludovic DEHON, Malaydewangan09, Mathieu Gabelle, MilosPaunovic, Miloš Paunović, Nicolas K., Piyush Bhaskar, Roman Acevedo, Satvik Kushwaha, Sayed Murtadha Ahmed, Shruti Mantri, Tanvir Ahmed, Will Russell, YannC, YannC., ben8t, brian-mulier-p, brian.mulier, dhinakaranst, gluttonweb, lwyang, nKwiatkowski, rajatsingh23, weibo1, yuri, 杨利伟&lt;/p&gt;</content>
+AJ Emerich, AbdurRahman2004, Anna Geller, Bala Aparna, Bart Ledoux, Barthélémy Ledoux, Daniel Rivas, Dhinakaran T, Dhivya G, Florian Hussonnois, Frank Tianyu Zeng, François Delbrayelle, GitHub, GitHub Action, Hashim Khalifa, Karuna Tata, Kelvin Yim, Loïc Mathieu, Ludovic DEHON, Malaydewangan09, Mathieu Gabelle, MilosPaunovic, Miloš Paunović, Nicolas K., Piyush Bhaskar, Roman Acevedo, Satvik Kushwaha, Sayed Murtadha Ahmed, Shruti Mantri, Tanvir Ahmed, Will Russell, YannC, YannC., ben8t, brian-mulier-p, brian.mulier, dhinakaranst, gluttonweb, lwyang, nKwiatkowski, rajatsingh23, weibo1, yuri, 杨利伟&lt;/p&gt;
+&lt;h2&gt;Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;All editions: LoopUntil task changed default values for &lt;code&gt;checkFrequency&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;The default behavior of the &lt;code&gt;LoopUntil&lt;/code&gt; core task &lt;a href="https://github.com/kestra-io/kestra/issues/9152#issuecomment-2929847060"&gt;has changed&lt;/a&gt; as follows:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;json
+{ "maxIterations": null, "maxDuration": null, "interval": "PT1M" }&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Previously, &lt;code&gt;LoopUntil&lt;/code&gt; capped executions at 100 iterations and 1 hour duration (&lt;code&gt;maxIterations: 100&lt;/code&gt;, &lt;code&gt;maxDuration: PT1H&lt;/code&gt;, &lt;code&gt;interval: PT1S&lt;/code&gt;). This was intended to prevent runaway loops from impacting instance stability, especially with frequent (1s) intervals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What’s changed&lt;/strong&gt;:
+* The default configuration no longer enforces arbitrary limits on iterations and duration.
+* The new default uses a 1-minute interval (&lt;code&gt;PT1M&lt;/code&gt;), which greatly reduces the risk of instance performance issues, even with no iteration or duration limits.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Backward compatibility&lt;/strong&gt;: If you want to &lt;strong&gt;retain the previous default limits&lt;/strong&gt; to prevent potentially long-running loops, add the following to your global plugin defaults:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+pluginDefaults:
+  - forced: true
+    type: io.kestra.plugin.core.flow.LoopUntil
+    values:
+      checkFrequency:
+        maxIterations: 100
+        maxDuration: PT1H
+        interval: PT1S&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Adding that plugin default restores the earlier behavior and prevents any breaking change for your existing flows.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: Tenant is now required; &lt;code&gt;defaultTenant&lt;/code&gt; (null tenant) is no longer supported&lt;/h3&gt;
+&lt;p&gt;Kestra now requires a tenant context in both OSS and Enterprise versions. The previous &lt;code&gt;defaultTenant&lt;/code&gt; (null tenant) is no longer supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OSS:&lt;/strong&gt;
+* A fixed tenant named &lt;code&gt;main&lt;/code&gt; is always used.
+* All API URIs now include the tenant: &lt;code&gt;/api/v1/...&lt;/code&gt; → &lt;code&gt;/api/v1/main/...&lt;/code&gt;.
+* There is a temporary routing layer to map legacy endpoints, but this will be removed in a future release.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt;
+* Tenants must be created and configured explicitly.
+* &lt;code&gt;kestra.ee.tenants.enabled&lt;/code&gt; and &lt;code&gt;kestra.ee.tenants.defaultTenant&lt;/code&gt; configuration properties have been removed.
+* Set &lt;code&gt;kestra.ee.tenants.fallbackTenant&lt;/code&gt; in your configuration to route non-tenant API calls (API endpoints won't be rerouted, but we inject the fallback tenant ID into the request header)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Migration:&lt;/strong&gt;
+A &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;Migration guide and scripts&lt;/a&gt; are provided to update your database and storage paths to the new tenant model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who needs to migrate?&lt;/strong&gt;
+All OSS users will need to run the migration. Additionally, the migration command is required for all EE customers who used to have the &lt;code&gt;defaultTenant&lt;/code&gt; enabled:
+&lt;code&gt;yaml
+kestra:
+   tenants:
+      defaultTenant: true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And those who didn't have tenants enabled:
+&lt;code&gt;yaml
+kestra:
+   tenants:
+      defaultTenant: false
+      enabled: false&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Again, the above configuration properties are removed in 0.23, so you no longer have to worry about them, provided that you run the migration command described below after upgrading to 0.23.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Migration command (OSS):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;kestra migrate default-tenant [--dry-run]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Migration command (Enterprise &amp;amp; Cloud):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;kestra migrate default-tenant --tenant-id=your_tenant_id --tenant-name="Your Tenant Name" [--dry-run]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For internal storage migration steps, refer to the full &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;Migration Guide documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: Internal storage path change to fix double slash (S3/GCS)&lt;/h3&gt;
+&lt;p&gt;For users of S3 or GCS as internal storage, Kestra now removes the leading root slash in all storage paths. Storage keys now have a single slash separator, not a double slash. This helps display internal storage objects &lt;a href="https://github.com/kestra-io/kestra/issues/3933"&gt;in various cloud storage interfaces&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Before 0.23:&lt;/strong&gt; &lt;code&gt;gs://bucket//company/team/_files/test.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;After 0.23:&lt;/strong&gt;  &lt;code&gt;gs://bucket/company/team/_files/test.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Required Action:&lt;/strong&gt;
+Run the &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;migration scripts&lt;/a&gt; for your storage provider to update object paths. If not done, Kestra will not be able to access files with the old path structure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example (GCS):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;p&gt;BUCKET="gs://mybucket"&lt;/p&gt;
+&lt;p&gt;echo "Starting GCS root slash cleanup on bucket $BUCKET"&lt;/p&gt;
+&lt;h1&gt;List all objects starting with /&lt;/h1&gt;
+&lt;p&gt;gsutil ls "$BUCKET/**" | grep "$BUCKET//" | while read -r full_path; do
+    # Extract just the key (remove bucket prefix)
+    key="${full_path#${BUCKET}/}"&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Skip folder markers (if any)
+if [[ "$key" == */ ]]; then
+    echo "Skipping folder marker: $key"
+    continue
+fi
+
+# Remove leading slash
+clean_key="${key#/}"
+
+echo "Copying $BUCKET/$key → $BUCKET/$clean_key"
+
+# Copy to clean location
+gsutil cp "$BUCKET/$key" "$BUCKET/$clean_key"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;done&lt;/p&gt;
+&lt;p&gt;echo "Cleanup finished!"
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example (S3):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;p&gt;BUCKET="mybucket"&lt;/p&gt;
+&lt;p&gt;aws s3 ls s3://$BUCKET --recursive | awk '{print $4}' | grep '^/' | grep -v '/$' | while read -r key; do
+    # Strip the leading slash
+    clean_key="${key#/}"&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo "Copying s3://$BUCKET/$key → s3://$BUCKET/$clean_key"
+
+# Copy to new key without leading slash
+aws s3 cp "s3://$BUCKET/$key" "s3://$BUCKET/$clean_key"
+
+# Optional: Delete original after copy succeeds
+# aws s3 rm "s3://$BUCKET/$key"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;done&lt;/p&gt;
+&lt;p&gt;echo "Migration finished!"
+```&lt;/p&gt;
+&lt;p&gt;See the &lt;a href="https://kestra.io/docs/migration-guide/0.23.0"&gt;full migration guide&lt;/a&gt; for local, MinIO, Azure, and other storage types, which also must be migrated due to the multitenancy requirement (see the section above).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: The &lt;code&gt;BOOLEAN&lt;/code&gt;-type input is deprecated in favor of &lt;code&gt;BOOL&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;The Java-style &lt;code&gt;BOOLEAN&lt;/code&gt; input, which used 3 options (true, false, or not defined), caused too much confusion and bugs, so it's now deprecated in favor of &lt;code&gt;BOOL&lt;/code&gt; input, which is a toggle (can only be &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;). Read more: https://github.com/kestra-io/kestra/issues/8225.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: Default environment variable prefix changed from &lt;code&gt;KESTRA_&lt;/code&gt; to &lt;code&gt;ENV_&lt;/code&gt; for security&lt;/h3&gt;
+&lt;p&gt;Kestra &lt;a href="https://github.com/kestra-io/kestra-ee/issues/3131"&gt;previously defaulted&lt;/a&gt; to autoloading environment variables with the prefix &lt;code&gt;KESTRA_&lt;/code&gt; into flows. This posed a security risk, as Micronaut allows overriding configuration using environment variables and translates non-alphanumeric characters (such as &lt;code&gt;:&lt;/code&gt; in &lt;code&gt;kestra:storage:type&lt;/code&gt;) into underscores, producing env vars like &lt;code&gt;KESTRA_STORAGE_TYPE&lt;/code&gt;. If a sensitive value (e.g., a storage password) was provided via an environment variable starting with &lt;code&gt;KESTRA_&lt;/code&gt;, it would be available in all flows, increasing the risk of secret exposure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Change:&lt;/strong&gt;
+* The default prefix for autoloaded environment variables is now &lt;code&gt;ENV_&lt;/code&gt; (instead of &lt;code&gt;KESTRA_&lt;/code&gt;).
+* Any variable you want to expose in flows must now start with &lt;code&gt;ENV_&lt;/code&gt; by default (unless you configure a custom prefix).
+* The &lt;code&gt;KESTRA_CONFIGURATION&lt;/code&gt; env var still uses &lt;code&gt;KESTRA_&lt;/code&gt; as the configuration key (unchanged).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to use:&lt;/strong&gt;
+In your Docker Compose or environment configuration, set environment variables using the &lt;code&gt;ENV_&lt;/code&gt; prefix rather than the &lt;code&gt;KESTRA_&lt;/code&gt; prefix:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+kestra:
+  image: kestra/kestra:latest
+  environment:
+    ENV_MY_VARIABLE: extra variable value
+    ENV_NEW_VARIABLE: new variable value
+    KESTRA_CONFIGURATION:
+      kestra:
+        variables:
+          env-vars-prefix: "ENV_" # this is now the default as of v0.23&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can reference these in your flows as &lt;code&gt;{{ envs.MY_VARIABLE }}&lt;/code&gt; and &lt;code&gt;{{ envs.NEW_VARIABLE }}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;To use a custom prefix e.g. &lt;code&gt;PROD_&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+kestra:
+  image: kestra/kestra:latest
+  environment:
+    PROD_MY_VARIABLE: extra variable value
+    KESTRA_CONFIGURATION:
+      kestra:
+        variables:
+          env-vars-prefix: "PROD_"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then use &lt;code&gt;{{ envs.MY_VARIABLE }}&lt;/code&gt; in flows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Action required:&lt;/strong&gt;
+* Review and update any existing environment variables that used the &lt;code&gt;KESTRA_&lt;/code&gt; prefix for flow variables and make sure that you now use &lt;code&gt;ENV_&lt;/code&gt; or your custom prefix.
+* No changes are needed for configuration properties that use &lt;code&gt;KESTRA_CONFIGURATION&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For more details, check the &lt;a href="https://kestra.io/docs/configuration#environment-variables-prefix"&gt;Environment Variables Prefix documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: The default &lt;code&gt;pullPolicy&lt;/code&gt; for Docker-based tasks changed&lt;/h3&gt;
+&lt;p&gt;Due to the new &lt;a href="https://docs.docker.com/docker-hub/usage/pulls/"&gt;Docker Hub pull usage and limits&lt;/a&gt;, all the Docker-based Kestra tasks will have their default &lt;code&gt;pullPolicy&lt;/code&gt; updated from &lt;code&gt;ALWAYS&lt;/code&gt; to &lt;code&gt;IF_NOT_PRESENT&lt;/code&gt; to avoid any pull limit issue (PR https://github.com/kestra-io/plugin-scripts/issues/230).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: Flow trigger now also reacts to PAUSED state by default&lt;/h3&gt;
+&lt;p&gt;Next to the terminated states, the Flow trigger now also reacts to the PAUSED state to make it easier to respond to paused workflow, e.g. to send alerts to the right stakeholders to manually approve and resume paused workflow executions.&lt;/p&gt;
+&lt;p&gt;Using the following flow with a Flow trigger as example:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+id: react_to_states
+namespace: company
+tasks:
+  - id: hello
+     ...
+triggers:
+  - id: mytrigger
+    type: io.kestra.plugin.core.trigger.Flow
+    preconditions:
+      id: flow
+      flows:
+        - namespace: company&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Before 0.23, this flow would be triggered for each terminated execution in the &lt;code&gt;company&lt;/code&gt; namespace.&lt;/li&gt;
+&lt;li&gt;From 0.23 on, this flow will be triggered for each &lt;strong&gt;terminated&lt;/strong&gt; and &lt;code&gt;PAUSED&lt;/code&gt; execution in the &lt;code&gt;company&lt;/code&gt; namespace.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: Python script tasks now use official &lt;code&gt;python:3-13-slim&lt;/code&gt; image&lt;/h3&gt;
+&lt;p&gt;To make it easier to get started, we used a custom &lt;code&gt;ghcr.io/kestra-io/kestrapy:latest&lt;/code&gt; image in the past to contain &lt;code&gt;kestra&lt;/code&gt; and &lt;code&gt;amazon-ion&lt;/code&gt; pip packages. The script tasks now use the official &lt;code&gt;python:3-13-slim&lt;/code&gt; image by default. If you want to maintain the previous behavior, simply add those using the new &lt;code&gt;dependencies&lt;/code&gt; property and they will be installed at runtime (and cached):&lt;/p&gt;
+&lt;p&gt;```yaml
+id: python_demo
+namespace: company.team&lt;/p&gt;
+&lt;p&gt;tasks:
+  - id: python
+    type: io.kestra.plugin.scripts.python.Script
+    dependencies:
+      - kestra
+      - amazon-ion
+      - requests
+    script: |
+      from kestra import Kestra
+      import requests&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  response = requests.get('https://kestra.io')
+  print(response.status_code)
+
+  Kestra.outputs({'status': response.status_code, 'text': response.text})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: No more WARNING state on script tasks when ERROR logs are present&lt;/h3&gt;
+&lt;p&gt;We no longer set the task-run state to &lt;code&gt;Warning&lt;/code&gt; if the script task emits some ERROR or WARNING logs and the &lt;code&gt;warningOnStdErr&lt;/code&gt; &lt;a href="https://github.com/kestra-io/plugin-scripts/issues/233"&gt;property is deprecated&lt;/a&gt;. Script tasks will now always report &lt;strong&gt;SUCCESS&lt;/strong&gt; state if the Docker container exits with code 0, and &lt;strong&gt;FAILED&lt;/strong&gt; state for any non-zero exit code — ERROR or WARNING logs no longer influence the task run state.&lt;/p&gt;
+&lt;p&gt;Example flow:&lt;/p&gt;
+&lt;p&gt;```yaml
+id: loguru
+namespace: company.team&lt;/p&gt;
+&lt;p&gt;inputs:
+  - id: nr_logs
+    type: INT
+    defaults: 100&lt;/p&gt;
+&lt;p&gt;tasks:
+  - id: reproducer
+    type: io.kestra.plugin.scripts.python.Script
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+    containerImage: ghcr.io/kestra-io/pydata:latest
+    script: |
+      from loguru import logger
+      from faker import Faker
+      import time
+      import sys&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  logger.remove()
+  logger.add(sys.stdout, level="DEBUG")
+  logger.add(sys.stderr, level="DEBUG")
+
+  def generate_logs(fake, num_logs):
+      logger.error("Starting to generate log messages")
+      for _ in range(num_logs):
+          log_message = fake.sentence()
+          logger.warning(log_message)
+          time.sleep(0.01)
+      logger.warning("Finished generating log messages")
+
+  if __name__ == "__main__":
+      faker_ = Faker()
+      generate_logs(faker_, int("{{ inputs.nr_logs }}"))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Before this change, the flow would end in &lt;/em&gt;&lt;em&gt;WARNING&lt;/em&gt;&lt;em&gt;; now it ends in &lt;/em&gt;&lt;em&gt;SUCCESS&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All editions: &lt;code&gt;autocommit&lt;/code&gt; property removed from JDBC Query and Queries tasks&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;autocommit&lt;/code&gt; property &lt;a href="https://github.com/kestra-io/plugin-jdbc/issues/550"&gt;has been removed&lt;/a&gt; from both the &lt;code&gt;Query&lt;/code&gt; and &lt;code&gt;Queries&lt;/code&gt; tasks in the JDBC plugin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reason for change:&lt;/strong&gt;
+* The &lt;code&gt;Query&lt;/code&gt; task executes a single statement and does not support multi-step transactions; autocommit is not relevant.
+* The &lt;code&gt;Queries&lt;/code&gt; task processes all contained queries within a single transaction by default; autocommit has no effect.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
+* The &lt;code&gt;autocommit&lt;/code&gt; property is no longer configurable in either task.
+* &lt;strong&gt;You must remove any usage of the &lt;code&gt;autocommit&lt;/code&gt; property&lt;/strong&gt; in your existing flows, as using it will raise an error.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE and Cloud: manual user refresh is required to migrate Superadmin property&lt;/h3&gt;
+&lt;p&gt;The handling of Superadmin users in Kestra Cloud and Enterprise Edition has changed. Previously, the Superadmin status was determined by the user type (&lt;code&gt;SUPER_ADMIN&lt;/code&gt;). In version 0.23, this is now managed through a dedicated property (&lt;code&gt;isSuperAdmin&lt;/code&gt;). This change enables new use cases such as assigning a Superadmin permission to a Service Account as well as sending an invite with Superadmin permissions, but it also impacts user role detection for existing users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required action:&lt;/strong&gt;
+All EE customers &lt;strong&gt;must&lt;/strong&gt; run the following CLI command after upgrading to 0.23:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sh
+kestra auths users refresh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This command migrates and refreshes user data to correctly assign Superadmin status under the new property-based model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
+* Existing Enterprise and Cloud users with the type &lt;code&gt;SUPER_ADMIN&lt;/code&gt; will &lt;strong&gt;not&lt;/strong&gt; automatically have the new &lt;code&gt;isSuperAdmin&lt;/code&gt; property set unless you run the migration command after upgrading to 0.23.
+* This may result in users unexpectedly losing Superadmin privileges. If you see this happening, run &lt;code&gt;kestra auths users refresh&lt;/code&gt; from the CLI.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;EE: SQL Server backend is no longer supported&lt;/h3&gt;
+&lt;p&gt;We dropped support for the SQL Server backend. &lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;&lt;code&gt;{tenant}&lt;/code&gt; removed from Superadmin tenant management API routes (EE only)&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;{tenant}&lt;/code&gt; parameter has been removed from several API routes related to tenant management in Enterprise Edition. This change affects only EE users who interact with these endpoints programmatically (i.e., via direct API calls).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reason for change:&lt;/strong&gt;
+* These routes are relevant only to Superadmin users, who can see and manage all tenants.
+* The &lt;code&gt;{tenant}&lt;/code&gt; path parameter was unnecessary and led to confusion, as all access control is based on the authenticated user's privileges (i.e. their tenant access), not the path.
+* The endpoints now reflect the actual access model: actions depend on the Superadmin context, not on a specified &lt;code&gt;{tenant}&lt;/code&gt; in the path.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Changed endpoints:&lt;/strong&gt;
+* &lt;code&gt;/api/v1/{tenant}/clusters&lt;/code&gt; → &lt;code&gt;/api/v1/clusters&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants&lt;/code&gt; → &lt;code&gt;/api/v1/tenants&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/bindings/&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/bindings/&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/group&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/group&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/invitations&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/invitations&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/namespaces&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/namespaces&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/roles&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/roles&lt;/code&gt;
+* &lt;code&gt;/api/v1/{tenant}/tenants/{resourceTenant}/users/&lt;/code&gt; → &lt;code&gt;/api/v1/tenants/{resourceTenant}/users/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;
+* If you are using these endpoints programmatically, update your API clients to remove the &lt;code&gt;{tenant}&lt;/code&gt; path segment.
+* Access remains limited to Superadmin users only.&lt;/p&gt;</content>
     <link href="https://github.com/kestra-io/kestra/releases/tag/v0.23.0" rel="alternate"/>
   </entry>
 </feed>
