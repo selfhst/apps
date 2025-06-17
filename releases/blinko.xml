@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-06-17T01:36:26.199491-04:00</updated>
+  <updated>2025-06-17T02:36:39.915959-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,7 +136,20 @@
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;p&gt;Under construction, full changelog will be updated after build completion...&lt;/p&gt;</content>
+    <content>&lt;h3&gt;🐛 Bugfixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chinese interface translation error, "Agent" should be "to-do" related issue: #715 https://github.com/blinkospace/blinko/commit/a63a3a514319236be829e6f9c12b996adf28f148&lt;/li&gt;
+&lt;li&gt;The state of oauth is too weak. https://github.com/blinkospace/blinko/commit/c01503936c8d77ef07e0620c34d836664d83817d&lt;/li&gt;
+&lt;li&gt;service worker interferes with oauth callback https://github.com/blinkospace/blinko/commit/0bac5d5ab448e3a8be880d05c0e431c8a31141cb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔍 Other Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[ci skip] Update version to 1.1.0 https://github.com/blinkospace/blinko/commit/ff752bc3225f04d3672973501f664714db228299&lt;/li&gt;
+&lt;li&gt;fix translation Dutch/NL: Todo https://github.com/blinkospace/blinko/commit/6168fa8359f9814c5e2d0ea9b8a36578b71da765&lt;/li&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/blinkospace/blinko/pull/728"&gt;#728&lt;/a&gt; by &lt;a href="https://github.com/IvanLi-CN"&gt;IvanLi-CN&lt;/a&gt; from IvanLi-CN/fix-the-state-of-oauth-is-too-weak https://github.com/blinkospace/blinko/commit/76b7703a46f736ba330cf886dd5ca5840d2fdbb6&lt;/li&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/blinkospace/blinko/pull/727"&gt;#727&lt;/a&gt; by &lt;a href="https://github.com/bjornclauw"&gt;bjornclauw&lt;/a&gt; from bjornclauw/main https://github.com/blinkospace/blinko/commit/7aac90bfacb075c01b3fa6156f07a60d38f9b6b2&lt;/li&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/blinkospace/blinko/pull/725"&gt;#725&lt;/a&gt; by &lt;a href="https://github.com/jhao0413"&gt;jhao0413&lt;/a&gt; from jhao0413/main https://github.com/blinkospace/blinko/commit/3eee3f7951c7d3d28f7afeec8af531f73ce01963&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.1.1" rel="alternate"/>
   </entry>
 </feed>
