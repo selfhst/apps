@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-06-17T22:38:01.347470-04:00</updated>
+  <updated>2025-06-17T23:35:43.496850-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,23 +106,24 @@
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.25.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.25.1</id>
-    <title>New release for BookLore: Release v0.25.1</title>
-    <updated>2025-06-17T14:15:51-04:00</updated>
+    <id>https://github.com/adityachandelgit/BookLore/releases/tag/v0.25.2</id>
+    <title>New release for BookLore: Release v0.25.2</title>
+    <updated>2025-06-17T22:51:25-04:00</updated>
     <author>
       <name>adityachandelgit/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Ignore hidden files (starting with .) while scanning library files (#525) by @adityachandelgit&lt;/li&gt;
 &lt;li&gt;Fix: Resolved Hibernate constraint violation caused by duplicate cate… (#520) by @adityachandelgit&lt;/li&gt;
 &lt;li&gt;Fix: Thumbnail not updating in metadata picker (#518) by @adityachandelgit&lt;/li&gt;
 &lt;li&gt;Fix: Restrict metadata backup/restore to EPUB files only (#516) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;📖 Documentation&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Merge Develop into Master for Release (#522) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Merge Develop into Master for Release (#526) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.25.1" rel="alternate"/>
+    <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.25.2" rel="alternate"/>
   </entry>
 </feed>
