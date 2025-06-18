@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syft Releases</title>
-  <updated>2025-06-18T15:34:07.605949-04:00</updated>
+  <updated>2025-06-18T16:34:06.681667-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,8 @@
 &lt;li&gt;In versions 1.25.0 and later, graalvm-native-image-cataloger adds 3-6 hours to Syft [&lt;a href="https://github.com/anchore/syft/issues/3942"&gt;#3942&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3944"&gt;#3944&lt;/a&gt; @kzantow]&lt;/li&gt;
 &lt;li&gt;Syft incorrectly reports multiple APKs as parents of symlinked files [&lt;a href="https://github.com/anchore/syft/issues/3847"&gt;#3847&lt;/a&gt; &lt;a href="https://github.com/anchore/syft/pull/3923"&gt;#3923&lt;/a&gt; @luhring]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/anchore/syft/compare/v1.26.1...v1.27.0"&gt;(Full Changelog)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/anchore/syft/compare/v1.26.1...v1.27.0"&gt;(Full Changelog)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A HUGE thank you to @rezmoss for his help identifying and solving an issue causing excessive time and memory consumption with large numbers of symlinks! ❤️ &lt;/p&gt;</content>
     <link href="https://github.com/anchore/syft/releases/tag/v1.27.0" rel="alternate"/>
   </entry>
   <entry>
