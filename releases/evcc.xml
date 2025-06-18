@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-06-18T04:34:39.100144-04:00</updated>
+  <updated>2025-06-18T05:34:43.369245-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -175,12 +175,35 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.204.3</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.204.3</title>
     <updated>2025-06-18T04:31:58-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;c5596faaf66e8a6c95ca6d1d5a2a0aca3f03363c Add Daheimladen Pro (#21893)&lt;/li&gt;
+&lt;li&gt;05008e8b3a95efcc2b9d0d00e12228170ca80af8 Add SGready charger with boost relay (#21820)&lt;/li&gt;
+&lt;li&gt;e90e70e1bec5c67c46beca284b15ff48b5e09c2f Amber: update docs to clarify required settings (#21809)&lt;/li&gt;
+&lt;li&gt;7c8b9f588e9854dc5c450768454811beeff0df4f Autel: clarify firmware version (#21872)&lt;/li&gt;
+&lt;li&gt;cf99834c7c8ad0bd1bf098b6644451c0f47221e3 Config UI: filter parameters by usage (#21821)&lt;/li&gt;
+&lt;li&gt;7a5474efe985e1c989a02631b863df2b487c6aa0 Daheimladen: fix currents&lt;/li&gt;
+&lt;li&gt;b73a513ba19ba22f1c91df236736ec615cebbeb1 Docs: consistent charger/meter naming (#21721)&lt;/li&gt;
+&lt;li&gt;a04a0cd8c5aedb88a10cc627b833d73de4a498f5 Docs: introduce product identifier (#21670)&lt;/li&gt;
+&lt;li&gt;747d32def30d49e0e1052c5b556ec2a0896100f1 Fronius: support Solar API v1 changes (#21651)&lt;/li&gt;
+&lt;li&gt;c65f1acd5af92be0da7417e2e7d9ee48e51c379a Loadpoint: publish vehicleTitle again (#21720)&lt;/li&gt;
+&lt;li&gt;7f6eb33e7b838698994b401a2ca118f1810bcf7c Phoenix: fix EM/EV-ETH measurand scaling (#21739)&lt;/li&gt;
+&lt;li&gt;08a5e9600a474decbd1a6dd8a6e374395a78a6d2 Phoenix: fix measurement scaling (#21726)&lt;/li&gt;
+&lt;li&gt;98e6296eaa7f1eaa5b9bced058a1de4a6467cfbe Plugins: add valid plugin (#21759)&lt;/li&gt;
+&lt;li&gt;d1d2375fa25c3043aed95fbcee425651e476d782 Plugins: return non-ignorable invalid error&lt;/li&gt;
+&lt;li&gt;51ef2e7ac8727ec563e9ba933eb48d60bb75ea49 Site: remove cuircuit and maxGridSupplyWhileBatteyCharging (BC) (#21838)&lt;/li&gt;
+&lt;li&gt;0f4e7c75d8e1d0ed4724f5437f22ee9f02e2a4a2 SmartEnergy: disable tests&lt;/li&gt;
+&lt;li&gt;9b734fbf0ee5629219b3a2ea5db7336ce16ecc3d UI: select divider compatibility (#21784)&lt;/li&gt;
+&lt;li&gt;9761c0d345060e649895ae55b4ec19a3c1404de6 Zaptec: decorate phase switching (#21744)&lt;/li&gt;
+&lt;li&gt;36b603620310d2ba0b706c38b5340a2415d3a956 fix: on demand plant id generation (#21873)&lt;/li&gt;
+&lt;li&gt;f12905519d3246761309ca7d8d26b32b42efac74 ioBroker.bmw: make vin mandatory (#21755)&lt;/li&gt;
+&lt;li&gt;665d9198f1299a907a06a2e9880dd9e8de814b9c iobroker.bmw: fix ui description (#21716)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.204.3" rel="alternate"/>
   </entry>
 </feed>
