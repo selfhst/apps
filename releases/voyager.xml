@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-06-18T01:34:16.984755-04:00</updated>
+  <updated>2025-06-18T02:34:15.565773-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,7 +142,10 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;h2&gt;🚀 Features&lt;/h2&gt;
+    <content>&lt;p&gt;This release improves Piefed compatibility. Things like "Open in Voyager" from Piefed instances, sharing content via piefed instances, and linking to Piefed content in-app.&lt;/p&gt;
+&lt;p&gt;Please note, this is only improving edge cases when using Voyager with your Lemmy account to view Piefed content. Stay tuned for Voyager connecting directly to Piefed instances!&lt;/p&gt;
+&lt;p&gt;(This release also adds support for lemmyverse.link to stay in app instead of opening the browser.)&lt;/p&gt;
+&lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: lemmyverse.link support&lt;/li&gt;
 &lt;li&gt;PR: #2031&lt;/li&gt;
