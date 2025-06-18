@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless-ngx Releases</title>
-  <updated>2025-06-18T09:31:32.081626-04:00</updated>
+  <updated>2025-06-18T10:31:32.734005-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,18 +49,20 @@
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 Mariadb users may experience a database migration problem in 2.16.0–2.16.1 and should skip this version and upgrade directly to at least v2.16.2&lt;/p&gt;
+&lt;p&gt;[!NOTE]
+If you upgraded from v2.15 or earlier, your scheduled workflows with offsets may now behave differently. Offset signs are now inverted from prior versions.&lt;/p&gt;
 &lt;p&gt;[!WARNING]
 Django 5.2 removed support for PostgreSQL 13 and thus support will be removed in a future Paperless-ngx version. Users may want to upgrade now, see https://docs.paperless-ngx.com/administration/#database-upgrades&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Breaking Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[BREAKING] Change: treat created as date not datetime @shamoon (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9793"&gt;#9793&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;[BREAKING] Enhancement: support negative offset in scheduled workflows &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9746"&gt;#9746&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features / Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Enhancement: support negative offset in scheduled workflows &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9746"&gt;#9746&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Enhancement: support heic images &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9771"&gt;#9771&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Enhancement: use patch instead of put for frontend document changes &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; ([#9744](https://github.com/paperless-ngx/paperless-ngx/pull/&lt;/li&gt;
+&lt;li&gt;Enhancement: use patch instead of put for frontend document changes &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9744"&gt;#9744&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixhancement: automatically disable email verification if no smtp setup &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9949"&gt;#9949&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Fixhancement: better handle removed social apps in profile &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9876"&gt;#9876&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Enhancement: add barcode frontend config &lt;a href="https://github.com/shamoon"&gt;@shamoon&lt;/a&gt; (&lt;a href="https://github.com/paperless-ngx/paperless-ngx/pull/9742"&gt;#9742&lt;/a&gt;)&lt;/li&gt;
