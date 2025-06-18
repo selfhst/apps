@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MediaCMS Releases</title>
-  <updated>2025-06-18T06:31:15.154655-04:00</updated>
+  <updated>2025-06-18T07:31:16.803590-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,10 +61,10 @@
     <author>
       <name>mediacms-io/mediacms</name>
     </author>
-    <content>&lt;p&gt;This work is being sponsored by &lt;a href="https://www.deic.dk/en"&gt;DeiC | Danish e-Infrastructure Consortium&lt;/a&gt;&lt;/p&gt;
+    <content>&lt;p&gt;Blog post: https://medium.com/@MediaCMS.io/mediacms-v6-launches-with-video-trimmer-role-based-access-built-for-education-4e0c5993a015&lt;/p&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;video trimmer support with advanced capabilities that can replace video, save as new or create segments&lt;/li&gt;
+&lt;li&gt;video trimmer s`upport with advanced capabilities that can replace video, save as new or create segments&lt;/li&gt;
 &lt;li&gt;rounded corners are configurable, by default &lt;code&gt;USE_ROUNDED_CORNERS = True&lt;/code&gt; but can be set to False&lt;/li&gt;
 &lt;li&gt;edit media page is broken to two parts: metadata and publish&lt;/li&gt;
 &lt;li&gt;publish media page now shows as read only the fields that cannot be modified due to permissions&lt;/li&gt;
@@ -83,7 +83,8 @@
     <author>
       <name>mediacms-io/mediacms</name>
     </author>
-    <content>&lt;h2&gt;Fixes&lt;/h2&gt;
+    <content>&lt;p&gt;Blog post: https://medium.com/@MediaCMS.io/mediacms-v6-launches-with-video-trimmer-role-based-access-built-for-education-4e0c5993a015&lt;/p&gt;
+&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;fix single server install dependencies issue - https://github.com/mediacms-io/mediacms/pull/1296&lt;/li&gt;
 &lt;/ul&gt;</content>

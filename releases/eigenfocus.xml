@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-06-18T06:35:39.974026-04:00</updated>
+  <updated>2025-06-18T07:35:44.051883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,15 +157,17 @@
 - See when an issue was finished inside the issue detail
 - Filter issues by finished state using the list view&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Global issue URL&lt;/strong&gt;
-- Added a "Global ID" button at the top of the issue detail
-- You can click on it to copy the issue link
+- Added a "Global ID" button at the top of the issue detail. You can click on it to copy the issue link
 - Use this link to share with someone or to reference it in another issue description&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Temporarily storing issue description&lt;/strong&gt;
 Have you ever started writing something and just closed the issue without saving it? Well... now your draft is preserved.&lt;/p&gt;
 &lt;p&gt;We're temporarily storing the changes in your browser and showing a warning when you have unsaved changes.&lt;/p&gt;
-&lt;p&gt;If you have any feedback or ideas, you can reach us at hi@eigenfocus.com &lt;/p&gt;
-&lt;p&gt;Thank you for using Eigenfocus! 🎉&lt;/p&gt;
-&lt;h1&gt;Screenshots&lt;/h1&gt;
+&lt;h1&gt;We are on Product Hunt&lt;/h1&gt;
+&lt;p&gt;If you’ve been enjoying Eigenfocus, we’d be really grateful if give us an upvote on Product Hunt!&lt;/p&gt;
+&lt;p&gt;It only takes a second and helps us reach more indie founders, developers and teams who could benefit from Eigenfocus!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.producthunt.com/products/eigenfocus-self-hosted-cloud"&gt;­👉 Vote on Eigenfocus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks 🙏.&lt;/p&gt;
+&lt;h3&gt;Screenshots&lt;/h3&gt;
 &lt;div align="center"&gt;
 &lt;img src="https://github.com/user-attachments/assets/7d5cf61c-41ce-4e37-a9e0-adfd1f17759d" width="60%"/&gt;
 &lt;img src="https://github.com/user-attachments/assets/5b401e7e-5b3b-4974-a57e-411af8ea4196" width="60%"/&gt;
@@ -173,12 +175,9 @@ Have you ever started writing something and just closed the issue without saving
 &lt;img src="https://github.com/user-attachments/assets/864e88b7-ed30-4809-bde7-3b7c3630ba53" width="60%"/&gt;
 &lt;/div&gt;
 
-&lt;h1&gt;Eigenfocus PRO - GRID &amp;amp; Multiple Views Updates&lt;/h1&gt;
-&lt;p&gt;The GRID is officially released together with a lot of updates for handling multiple views and filters.&lt;/p&gt;
-&lt;p&gt;Check the blog post: https://eigenfocus.com/blog/articles/eigenfocus-pro-new-release-grid-view-ui-enhancements
-See all features here: https://eigenfocus.com/features&lt;/p&gt;
-&lt;p&gt;Here's a screenshot of our GRID View
-&lt;img alt="image" src="https://github.com/user-attachments/assets/0ed3c456-ac59-415f-afa6-a708a21839b9" /&gt;&lt;/p&gt;</content>
+&lt;h1&gt;P.S. Don’t forget to upvote. It's quick and helps us a lot!&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.producthunt.com/products/eigenfocus-self-hosted-cloud"&gt;­👉 Vote on Eigenfocus&lt;/a&gt;
+­&lt;/p&gt;</content>
     <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.2.0-free" rel="alternate"/>
   </entry>
 </feed>

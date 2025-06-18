@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-06-18T06:34:41.111349-04:00</updated>
+  <updated>2025-06-18T07:34:43.900722-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -180,7 +180,11 @@
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Breaking changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;51ef2e7ac8727ec563e9ba933eb48d60bb75ea49 Site: remove cuircuit and maxGridSupplyWhileBatteyCharging (BC) (#21838)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;c5596faaf66e8a6c95ca6d1d5a2a0aca3f03363c Add Daheimladen Pro (#21893)&lt;/li&gt;
 &lt;li&gt;05008e8b3a95efcc2b9d0d00e12228170ca80af8 Add SGready charger with boost relay (#21820)&lt;/li&gt;
@@ -196,7 +200,6 @@
 &lt;li&gt;08a5e9600a474decbd1a6dd8a6e374395a78a6d2 Phoenix: fix measurement scaling (#21726)&lt;/li&gt;
 &lt;li&gt;98e6296eaa7f1eaa5b9bced058a1de4a6467cfbe Plugins: add valid plugin (#21759)&lt;/li&gt;
 &lt;li&gt;d1d2375fa25c3043aed95fbcee425651e476d782 Plugins: return non-ignorable invalid error&lt;/li&gt;
-&lt;li&gt;51ef2e7ac8727ec563e9ba933eb48d60bb75ea49 Site: remove cuircuit and maxGridSupplyWhileBatteyCharging (BC) (#21838)&lt;/li&gt;
 &lt;li&gt;0f4e7c75d8e1d0ed4724f5437f22ee9f02e2a4a2 SmartEnergy: disable tests&lt;/li&gt;
 &lt;li&gt;9b734fbf0ee5629219b3a2ea5db7336ce16ecc3d UI: select divider compatibility (#21784)&lt;/li&gt;
 &lt;li&gt;9761c0d345060e649895ae55b4ec19a3c1404de6 Zaptec: decorate phase switching (#21744)&lt;/li&gt;
