@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MediaCMS Releases</title>
-  <updated>2025-06-18T05:31:17.761945-04:00</updated>
+  <updated>2025-06-18T06:31:15.154655-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -38,8 +38,7 @@
 &lt;li&gt;Introduces an Identity Provider apps for better organizing different options in the admin. This gives the ability to provide a mapping based on attributes from the identity provider response, such as groups in MediaCMS, or roles. This also introduces a new login form and urls that can be specified. - https://github.com/mediacms-io/mediacms/pull/1243&lt;/li&gt;
 &lt;li&gt;Adds jazzmin theme (https://django-jazzmin.readthedocs.io/) for Django admin - https://github.com/mediacms-io/mediacms/pull/1243&lt;/li&gt;
 &lt;li&gt;Performs reordering in admin fields, mostly through seperate app admin_customizations - https://github.com/mediacms-io/mediacms/pull/1243&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This work is being sponsored by &lt;a href="https://www.deic.dk/en"&gt;DeiC | Danish e-Infrastructure Consortium&lt;/a&gt;&lt;/p&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/mediacms-io/mediacms/releases/tag/v5.0.0" rel="alternate"/>
   </entry>
   <entry>
