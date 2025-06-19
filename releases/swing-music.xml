@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Swing Music Releases</title>
-  <updated>2025-06-19T04:36:14.608329-04:00</updated>
+  <updated>2025-06-19T05:36:09.311780-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,7 +83,7 @@ MacOS builds are unsigned meaning you will get the "Apple could not verify “sw
 &lt;li&gt;Bug fix: Errors restoring user data backups&lt;/li&gt;
 &lt;li&gt;New: Backup and restore now available for collections&lt;/li&gt;
 &lt;li&gt;Rework: artist name split ignore list (join default list and user provided list).
-  &lt;strong&gt;TIP&lt;/strong&gt;: You can create a &lt;code&gt;artist_split_ignore.txt&lt;/code&gt; at the root of your project containing artist names separated by new lines to ignore artists.&lt;/li&gt;
+  &lt;strong&gt;TIP&lt;/strong&gt;: You can create a &lt;code&gt;artist_split_ignore.txt&lt;/code&gt; at the root of your config folder containing artist names separated by new lines to ignore artists.&lt;/li&gt;
 &lt;li&gt;Rework: Album and artist color extraction to use multiprocessing.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Have fun guys!&lt;/p&gt;
