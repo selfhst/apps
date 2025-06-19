@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Paperless GPT Releases</title>
-  <updated>2025-06-19T09:35:21.770158-04:00</updated>
+  <updated>2025-06-19T10:35:16.719034-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -246,7 +246,6 @@ environment:
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;h4&gt;🔮 Mistral OCR Integration with Advanced PDF Processing&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Added Mistral OCR provider&lt;/strong&gt; - Paperless-GPT now supports Mistral AI's dedicated OCR service for high-quality document text extraction&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Extended PDF processing support&lt;/strong&gt; - Mistral OCR now joins Google Document AI in supporting all processing modes: &lt;code&gt;image&lt;/code&gt;, &lt;code&gt;pdf&lt;/code&gt;, and &lt;code&gt;whole_pdf&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cost-effective OCR&lt;/strong&gt; - Purpose-built OCR endpoint optimized for document processing with competitive pricing&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Markdown-formatted output&lt;/strong&gt; - Returns well-structured markdown text that preserves document formatting and layout&lt;/li&gt;
