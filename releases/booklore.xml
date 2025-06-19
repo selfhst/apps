@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-06-19T14:36:09.757908-04:00</updated>
+  <updated>2025-06-19T15:36:05.194454-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,11 +114,7 @@
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;This release brings some great quality-of-life improvements I’m excited to share.&lt;/p&gt;
-&lt;p&gt;Metadata updates are now fully reactive and real-time. When you trigger a fetch, updates stream in immediately, no need to refresh or guess if anything changed.&lt;/p&gt;
-&lt;p&gt;You can now edit metadata for multiple books, either in bulk or individually in a streamlined interface. It’s a lot more efficient and gives you precise control over your library.&lt;/p&gt;
-&lt;p&gt;Also, original cover images are now embedded directly into EPUBs to ensure consistent display across all readers.&lt;/p&gt;
-&lt;p&gt;Hope these updates make your library management smoother and more enjoyable!&lt;/p&gt;
+&lt;p&gt;This release brings some great quality-of-life improvements I’m excited to share. Metadata updates are now fully reactive and real-time. When you trigger a fetch, updates stream in immediately, no need to refresh or guess if anything changed. You can now edit metadata for multiple books, either in bulk or individually in a streamlined interface. It’s a lot more efficient and gives you precise control over your library. Also, original cover images are now embedded directly into EPUBs to ensure consistent display across all readers. Hope these updates make your library management smoother and more enjoyable!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;

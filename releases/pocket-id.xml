@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pocket ID Releases</title>
-  <updated>2025-06-19T14:33:50.160611-04:00</updated>
+  <updated>2025-06-19T15:33:48.295337-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,8 +104,8 @@
     </author>
     <content>&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;allow setting unix socket mode (&lt;a href="https://github.com/pocket-id/pocket-id/issues/661"&gt;#661&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/7677a3de2c923c11a58bc8c4d1b2121d403a1504"&gt;7677a3d&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;auto-focus on the login buttons (&lt;a href="https://github.com/pocket-id/pocket-id/issues/647"&gt;#647&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/d6795300b158b85dd9feadd561b6ecd891f5db0d"&gt;d679530&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;allow setting unix socket mode (&lt;a href="https://github.com/pocket-id/pocket-id/issues/661"&gt;#661&lt;/a&gt; by @CnTeng) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/7677a3de2c923c11a58bc8c4d1b2121d403a1504"&gt;7677a3d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;auto-focus on the login buttons (&lt;a href="https://github.com/pocket-id/pocket-id/issues/647"&gt;#647&lt;/a&gt; By @ItalyPaleAle) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/d6795300b158b85dd9feadd561b6ecd891f5db0d"&gt;d679530&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;configurable local ipv6 ranges for audit log (&lt;a href="https://github.com/pocket-id/pocket-id/issues/657"&gt;#657&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/d5485238b8fd4cc566af00eae2b17d69a119f991"&gt;d548523&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;location filter for global audit log (&lt;a href="https://github.com/pocket-id/pocket-id/issues/662"&gt;#662&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/ac5a121f664b8127d0faf30c0f93432f30e7f33a"&gt;ac5a121&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;ui accent colors (&lt;a href="https://github.com/pocket-id/pocket-id/issues/643"&gt;#643&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/883877adec6fc3e65bd5a705499449959b894fb5"&gt;883877a&lt;/a&gt;)&lt;/li&gt;
@@ -116,8 +116,7 @@
 &lt;li&gt;allow images with uppercase file extension (&lt;a href="https://github.com/pocket-id/pocket-id/commit/1bcb50edc335886dd722a4c69960c48cc3cd1687"&gt;1bcb50e&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;center oidc client images if they are smaller than the box (&lt;a href="https://github.com/pocket-id/pocket-id/commit/946c534b0877a074a6b658060f9af27e4061397c"&gt;946c534&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;explicitly cache images to prevent unexpected behavior (&lt;a href="https://github.com/pocket-id/pocket-id/commit/2e5d2687982186c12e530492292d49895cb6043a"&gt;2e5d268&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;reduce duration of animations on login and signin page (&lt;a href="https://github.com/pocket-id/pocket-id/issues/648"&gt;#648&lt;/a&gt;) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/d77044882d5a41da22df1c0099c1eb1f20bcbc5b"&gt;d770448&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;use inline style for dynamic background image URL instead of Tailwind class (&lt;a href="https://github.com/pocket-id/pocket-id/commit/bef77ac8dca2b98b6732677aaafbc28f79d00487"&gt;bef77ac&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;reduce duration of animations on login and signin page (&lt;a href="https://github.com/pocket-id/pocket-id/issues/648"&gt;#648&lt;/a&gt; By @ItalyPaleAle) (&lt;a href="https://github.com/pocket-id/pocket-id/commit/d77044882d5a41da22df1c0099c1eb1f20bcbc5b"&gt;d770448&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/pocket-id/pocket-id/releases/tag/v1.4.0" rel="alternate"/>
   </entry>

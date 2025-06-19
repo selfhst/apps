@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FreeScout Releases</title>
-  <updated>2025-06-19T14:36:47.986527-04:00</updated>
+  <updated>2025-06-19T15:36:42.239141-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,8 +89,7 @@
     <author>
       <name>freescout-help-desk/freescout</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;&lt;a href="https://freescout.net/freescout-ios-app-help-needed/"&gt;FreeScout iOS App (Help Needed)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Added&lt;/strong&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Added&lt;/strong&gt;
 * Add &lt;code&gt;__h()&lt;/code&gt; function.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Fixed&lt;/strong&gt;
 * Fixed saving profiles by support agents.
