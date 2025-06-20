@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LocalAI Releases</title>
-  <updated>2025-06-20T12:36:08.681474-04:00</updated>
+  <updated>2025-06-20T13:36:05.808312-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1496,7 +1496,7 @@ Llama.cpp upgrades also includes:
 &lt;li&gt;@zeevick10 made their first contribution in https://github.com/mudler/LocalAI/pull/5648&lt;/li&gt;
 &lt;li&gt;@maximevtush made their first contribution in https://github.com/mudler/LocalAI/pull/5658&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mudler/LocalAI/compare/v2.29.0...v3.0.0-alpha1&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mudler/LocalAI/compare/v2.29.0...v3.0.0&lt;/p&gt;</content>
     <link href="https://github.com/mudler/LocalAI/releases/tag/v3.0.0" rel="alternate"/>
   </entry>
 </feed>
