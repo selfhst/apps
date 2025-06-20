@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MyBibliotheca Releases</title>
-  <updated>2025-06-20T10:36:48.006615-04:00</updated>
+  <updated>2025-06-20T11:36:49.467752-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,13 +66,17 @@
     <link href="https://github.com/pickles4evaaaa/mybibliotheca/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/pickles4evaaaa/mybibliotheca/releases/tag/v1.1.0</id>
-    <title>New release for MyBibliotheca: V1.1.0 Bibliotheca</title>
+    <id>https://github.com/pickles4evaaaa/mybibliotheca/releases/tag/v1.1.1</id>
+    <title>New release for MyBibliotheca: V1.1.1 MyBibliotheca</title>
     <updated>2025-06-16T13:55:27-04:00</updated>
     <author>
       <name>pickles4evaaaa/mybibliotheca</name>
     </author>
-    <content>&lt;p&gt;Wow! We have been making a lot of changes. First of all, thank you to those who have contributed code as well as awesome ideas and feedback. This whole thing is new to me and I feel like we have hit the ground running!&lt;/p&gt;
+    <content>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:
+&lt;em&gt;A name change and social icon footer was added to this realease, but only to the Docker tage (1.1.1)
+Use image '&lt;strong&gt;pickles4evaaaa/mybibliotheca:1.1.1&lt;/strong&gt;' to apply these changes.
+The source code will remain without the name or footer social icon changes.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Wow! We have been making a lot of changes. First of all, thank you to those who have contributed code as well as awesome ideas and feedback. This whole thing is new to me and I feel like we have hit the ground running!&lt;/p&gt;
 &lt;p&gt;Version 1.1.0 is the biggest release yet, and there are a ton of changes. I promise I will get better at logging them more effectively. For now, keep an eye on the commits. Below are some of the major changes that have been made! &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Missing database columns are auto-added for new changes in this update. It is highly advised that you BACK UP YOUR DATABASE. We have added a handy little button in the footer of the project to download 'books.db'&lt;/li&gt;
@@ -84,6 +88,6 @@
 &lt;h3&gt;Help Wanted&lt;/h3&gt;
 &lt;p&gt;I am asking for help with getting official documentation #4  going for Bibliotheca. Please reach out to me if you are interested in tackling this. &lt;/p&gt;
 &lt;p&gt;Again, thanks to all who have submitted pull requests, comments, feedback, and bug reports. This project has been so much fun, and I look forward to seeing where it goes from here!! &lt;/p&gt;</content>
-    <link href="https://github.com/pickles4evaaaa/mybibliotheca/releases/tag/v1.1.0" rel="alternate"/>
+    <link href="https://github.com/pickles4evaaaa/mybibliotheca/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
