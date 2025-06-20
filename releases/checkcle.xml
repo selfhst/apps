@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CheckCle Releases</title>
-  <updated>2025-06-20T09:36:38.717111-04:00</updated>
+  <updated>2025-06-20T10:36:32.725693-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,5 +143,62 @@ If you have any suggestions, feedback, or feature requests, feel free to open an
 &lt;li&gt;Conditional API Calls: Settings API calls now only execute for superadmin users, preventing unnecessary errors for admin users&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/operacle/checkcle/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/operacle/checkcle/releases/tag/v1.3.0</id>
+    <title>New release for CheckCle: 🚀 Checkcle v1.3.0 - Uptime Monitoring Features Are Fully Operational</title>
+    <updated>2025-06-20T10:26:45-04:00</updated>
+    <author>
+      <name>operacle/checkcle</name>
+    </author>
+    <content>&lt;p&gt;Release Date: May 26, 2025
+&lt;img alt="Screenshot 2025-06-20 at 9 04 29 PM" src="https://github.com/user-attachments/assets/e29031da-0561-457c-bec1-e85f1f73e9ed" /&gt;&lt;/p&gt;
+&lt;p&gt;What's New ✨ (Features)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Go Implementation Architecture:&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project consists of 3 main Go services:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Service Operation Microservice - Uptime monitoring operations&lt;/li&gt;
+&lt;li&gt;Distributed Regional Check Agent - Regional network testing&lt;/li&gt;
+&lt;li&gt;Server Monitoring Agent - System metrics collection with gRPC support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Service Types Supported:&lt;/strong&gt; All Uptime Monitoring Features Are Fully Operational&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP/HTTPS - Web service monitoring with SSL support&lt;/li&gt;
+&lt;li&gt;ICMP Ping - Network connectivity testing&lt;/li&gt;
+&lt;li&gt;DNS Resolution - Domain name resolution testing (A, AAAA, MX, TXT records)&lt;/li&gt;
+&lt;li&gt;TCP Connectivity - Port connectivity testing&lt;/li&gt;
+&lt;li&gt;SSL Certificate Monitoring - Certificate expiration and validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Main React Application Updated&lt;/strong&gt; &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Added a "Check Interval" field to the SSL certificate create/edit forms.&lt;/li&gt;
+&lt;li&gt;Implemented functionality to update the &lt;code&gt;check_at&lt;/code&gt; field with the current time when the "Check" button is clicked.&lt;/li&gt;
+&lt;li&gt;Add error message and details columns: Adds error_message and details columns to the Incident History table in the service detail page.&lt;/li&gt;
+&lt;li&gt;Expand Uptime service form dialog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🐛 Bug Fixes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix Real-time response time charts: Fix: Separate up/down graph areas
+Separate the up and down areas in the response time history graph to improve clarity and correct the display of the down graph. &lt;/li&gt;
+&lt;li&gt;Fix email test setting functionality&lt;/li&gt;
+&lt;li&gt;Fix: Uptime history timestamp and service ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</content>
+    <link href="https://github.com/operacle/checkcle/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
