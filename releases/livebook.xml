@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Livebook Releases</title>
-  <updated>2025-06-19T19:36:29.631709-04:00</updated>
+  <updated>2025-06-19T20:36:36.689188-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -72,16 +72,6 @@
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
-    <title>New release for Livebook: nightly</title>
-    <updated>2024-10-25T07:31:23-04:00</updated>
-    <author>
-      <name>livebook-dev/livebook</name>
-    </author>
-    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
-    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://github.com/livebook-dev/livebook/releases/tag/v0.16.3</id>
     <title>New release for Livebook: v0.16.3</title>
     <updated>2025-06-17T15:54:35-04:00</updated>
@@ -97,5 +87,15 @@
 &lt;li&gt;Updated Docker images to use CUDA 12.8 and include NCCL (&lt;a href="https://github.com/livebook-dev/livebook/pull/3018"&gt;#3018&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
+    <title>New release for Livebook: nightly</title>
+    <updated>2024-10-25T07:31:23-04:00</updated>
+    <author>
+      <name>livebook-dev/livebook</name>
+    </author>
+    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
+    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
   </entry>
 </feed>
