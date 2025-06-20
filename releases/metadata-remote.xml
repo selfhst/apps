@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metadata Remote Releases</title>
-  <updated>2025-06-20T04:36:53.874417-04:00</updated>
+  <updated>2025-06-20T05:37:09.858843-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,11 @@
     <author>
       <name>wow-signal-dev/metadata-remote</name>
     </author>
-    <content>&lt;h2&gt;🎉 First Official Release&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Known Issue&lt;/strong&gt;: This version has a critical bug with large metadata fields. Please use &lt;a href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.0.1"&gt;v1.0.1&lt;/a&gt; instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🎉 First Official Release&lt;/h2&gt;
 &lt;p&gt;Thanks to your inspiring adoption and excellent suggestions, I'm excited to announce the first official release of Metadata Remote (mdrm)!&lt;/p&gt;
 &lt;h3&gt;✨ Key Features&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Audio Format Support&lt;/strong&gt;
@@ -70,5 +74,20 @@ wget https://raw.githubusercontent.com/wow-signal-dev/metadata-remote/main/docke
 &lt;p&gt;docker-compose up -d
 ```&lt;/p&gt;</content>
     <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.0.1</id>
+    <title>New release for Metadata Remote: v1.0.1 - Critical Bug Fix</title>
+    <updated>2025-06-20T04:40:07-04:00</updated>
+    <author>
+      <name>wow-signal-dev/metadata-remote</name>
+    </author>
+    <content>&lt;h2&gt;🐛 Bug Fix&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed "Argument list too long" error when files contain large metadata fields (e.g., Traktor DJ data)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⚠️ Important&lt;/h2&gt;
+&lt;p&gt;Users who downloaded v1.0.0 may encounter errors with files containing large metadata. Please update to this version.&lt;/p&gt;</content>
+    <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
