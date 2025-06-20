@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-06-20T03:35:26.709868-04:00</updated>
+  <updated>2025-06-20T04:34:31.146297-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,10 +145,12 @@ Docker image  – fixes for asset paths &amp;amp; storage volumes | 🐳 @jhuang
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This is a minor change release that includes the fix for the output capturing issue in the HTTP executor, as reported in #1040 (thanks to @nightly-brew).&lt;/p&gt;
+&lt;h2&gt;All changes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;c38b4c757612c2e73a6c6b595c83589284af161a fix: HTTP executor output not written to stdout (#1042)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;fix: HTTP executor output not written to stdout by @yottahmd in https://github.com/dagu-org/dagu/pull/1042&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.17.1...v1.17.2&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.17.2" rel="alternate"/>
   </entry>
 </feed>
