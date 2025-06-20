@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-06-20T17:30:51.632643-04:00</updated>
+  <updated>2025-06-20T18:30:51.691511-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -572,9 +572,15 @@
     <author>
       <name>go-gitea/gitea</name>
     </author>
-    <content>&lt;ul&gt;
-&lt;li&gt;BUGFIXES   * Fix container range bug (#34795) (#34796)   * Upgrade chi to v5.2.2 (#34798) (#34799) * BUILD   * Bump poetry feature to new url for dev container (#34787) (#34790)&lt;/li&gt;
-&lt;/ul&gt;</content>
+    <content>&lt;p&gt;This is a quick release to resolve docker images push bug&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIXES   &lt;/li&gt;
+&lt;li&gt;Fix container range bug (#34795) (#34796)   &lt;/li&gt;
+&lt;li&gt;Upgrade chi to v5.2.2 (#34798) (#34799) &lt;/li&gt;
+&lt;li&gt;BUILD   &lt;/li&gt;
+&lt;li&gt;Bump poetry feature to new url for dev container (#34787) (#34790)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.24.2" rel="alternate"/>
   </entry>
 </feed>
