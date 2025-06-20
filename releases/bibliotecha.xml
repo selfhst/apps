@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Bibliotheca Releases</title>
-  <updated>2025-06-20T02:51:16.401858-04:00</updated>
+  <updated>2025-06-20T03:37:43.200439-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for Bibliotheca: v1.0.0</title>
     <updated>2025-06-11T09:47:33-04:00</updated>
     <author>
-      <name>pickles4evaaaa/bibliotheca</name>
+      <name>pickles4evaaaa/mybibliotheca</name>
     </author>
     <content>&lt;p&gt;Initial release&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/pickles4evaaaa/bibliotheca/commits/v1.0.0&lt;/p&gt;</content>
@@ -26,7 +26,7 @@
     <title>New release for Bibliotheca: Docker! </title>
     <updated>2025-06-11T17:14:39-04:00</updated>
     <author>
-      <name>pickles4evaaaa/bibliotheca</name>
+      <name>pickles4evaaaa/mybibliotheca</name>
     </author>
     <content>&lt;p&gt;Many changes in this release, and I am still getting around to keeping things tidy. For now, please keep an eye on the commit notes for the most accurate changes. &lt;/p&gt;
 &lt;p&gt;Most of the work today was spent on the following two items:&lt;/p&gt;
@@ -53,7 +53,7 @@
     <title>New release for Bibliotheca: </title>
     <updated>2025-06-12T12:56:46-04:00</updated>
     <author>
-      <name>pickles4evaaaa/bibliotheca</name>
+      <name>pickles4evaaaa/mybibliotheca</name>
     </author>
     <content>&lt;p&gt;📦 Release Notes
 ✅ Minor Changes&lt;/p&gt;
@@ -70,7 +70,7 @@
     <title>New release for Bibliotheca: V1.1.0 Bibliotheca</title>
     <updated>2025-06-16T13:55:27-04:00</updated>
     <author>
-      <name>pickles4evaaaa/bibliotheca</name>
+      <name>pickles4evaaaa/mybibliotheca</name>
     </author>
     <content>&lt;p&gt;Wow! We have been making a lot of changes. First of all, thank you to those who have contributed code as well as awesome ideas and feedback. This whole thing is new to me and I feel like we have hit the ground running!&lt;/p&gt;
 &lt;p&gt;Version 1.1.0 is the biggest release yet, and there are a ton of changes. I promise I will get better at logging them more effectively. For now, keep an eye on the commits. Below are some of the major changes that have been made! &lt;/p&gt;
