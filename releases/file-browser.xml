@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-06-20T11:30:47.353217-04:00</updated>
+  <updated>2025-06-20T12:30:48.444277-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,6 +131,7 @@
 &lt;li&gt;Rename &lt;code&gt;database.db&lt;/code&gt; to &lt;code&gt;filebrowser.db&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Rename &lt;code&gt;.filebrowser.json&lt;/code&gt; to &lt;code&gt;settings.json&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Put them in the same directory locally, let's say &lt;code&gt;/app/filebrowser/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change the permissions of both files: &lt;code&gt;sudo chown 1000:1000 /app/filebrowser/filebrowser.db /app/filebrowser/settings.json&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Mount with the flags &lt;code&gt;-v /app/filebrowser:/database -v /app/filebrowser:/config&lt;/code&gt; - you can also choose to put them in separate directories, but it is not needed.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For more details, check the documentation: https://github.com/filebrowser/filebrowser/blob/v2.33.0/docs/installation.md#docker.&lt;/p&gt;
