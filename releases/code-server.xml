@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>code-server Releases</title>
-  <updated>2025-06-20T16:30:41.852848-04:00</updated>
+  <updated>2025-06-20T17:30:39.104177-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,7 @@
     <link href="https://github.com/coder/code-server/releases/tag/v4.100.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/coder/code-server/releases/tag/4.101.0</id>
+    <id>https://github.com/coder/code-server/releases/tag/v4.101.0</id>
     <title>New release for code-server: 4.101.0</title>
     <updated>2025-06-20T16:21:50-04:00</updated>
     <author>
@@ -92,6 +92,6 @@
 &lt;ul&gt;
 &lt;li&gt;Update to Code 1.101.0.&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/coder/code-server/releases/tag/4.101.0" rel="alternate"/>
+    <link href="https://github.com/coder/code-server/releases/tag/v4.101.0" rel="alternate"/>
   </entry>
 </feed>

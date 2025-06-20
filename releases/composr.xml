@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Composr Releases</title>
-  <updated>2025-06-20T16:36:29.883266-04:00</updated>
+  <updated>2025-06-20T17:36:27.821283-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,5 +113,52 @@ docker run -d \
 &lt;li&gt;Modern web interface with dark/light themes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Vansmak/composr/releases/tag/v1.7.5" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Vansmak/composr/releases/tag/v1.7.6</id>
+    <title>New release for Composr: Composr v1.7.6</title>
+    <updated>2025-06-20T17:23:53-04:00</updated>
+    <author>
+      <name>Vansmak/composr</name>
+    </author>
+    <content>&lt;p&gt;📋 Found CHANGELOG.md - extracting release notes...
+✅ Using changelog entries for v1.7.6&lt;/p&gt;
+&lt;h2&gt;Composr v1.7.6&lt;/h2&gt;
+&lt;p&gt;🚀 &lt;strong&gt;Container Management Platform&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fixed critical bug where container labels were lost during backup/restore&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;All original container labels (watchtower, traefik, custom, etc.) are now preserved&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐳 Docker Images&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;docker pull vansmak/composr:1.7.6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker pull vansmak/composr:latest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Supported Platforms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;linux/amd64&lt;/li&gt;
+&lt;li&gt;linux/arm64  &lt;/li&gt;
+&lt;li&gt;linux/arm/v7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📦 Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;bash
+docker run -d \
+  --name composr \
+  -p 5003:5003 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /path/to/docker/projects:/app/projects \
+  -v /path/to/config/composr:/app/data \
+  vansmak/composr:1.7.6&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;✨ Core Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-host Docker container management&lt;/li&gt;
+&lt;li&gt;Real-time container monitoring and control&lt;/li&gt;
+&lt;li&gt;Docker Compose file editor with syntax highlighting&lt;/li&gt;
+&lt;li&gt;Environment file management&lt;/li&gt;
+&lt;li&gt;Image management across multiple hosts&lt;/li&gt;
+&lt;li&gt;Backup and restore functionality&lt;/li&gt;
+&lt;li&gt;Modern web interface with dark/light themes&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/Vansmak/composr/releases/tag/v1.7.6" rel="alternate"/>
   </entry>
 </feed>
