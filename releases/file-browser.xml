@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-06-21T02:30:47.098293-04:00</updated>
+  <updated>2025-06-21T03:30:47.745727-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,19 +119,18 @@
       <name>filebrowser/filebrowser</name>
     </author>
     <content>&lt;h2&gt;Docker Image Updates&lt;/h2&gt;
-&lt;p&gt;The volumes of the Alpine Docker images have been updated to align with the s6-overlay images. This is important for users using the &lt;code&gt;filebrowser/filebrowser:latest&lt;/code&gt;. In addition, the default user running inside Docker is no longer &lt;code&gt;root&lt;/code&gt;, in order to avoid further security issues.&lt;/p&gt;
-&lt;p&gt;You now need to mount the directories containing the settings and the database, and not the files themselves. This allows File Browser to automatically initialize all necessary database and settings without the user's intervention, and avoids the issue where Docker creates a directory when we're expecting a file (see  &lt;a href="https://github.com/filebrowser/filebrowser/issues/3719"&gt;#3719&lt;/a&gt; for example).&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!WARNING]&lt;/p&gt;
-&lt;p&gt;For now, the Docker image has a workaround to make sure that current installations work as intended. If you changed the entrypoint, command, or flags of the &lt;code&gt;filebrowser&lt;/code&gt; command in your Docker installation, there's no guarantee that it'll work. The workaround will be removed in future versions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Assuming you have a &lt;code&gt;database.db&lt;/code&gt; and &lt;code&gt;.filebrowser.json&lt;/code&gt; files, do the following:&lt;/p&gt;
+&lt;p&gt;Two breaking changes have been done to the Alpine Docker images in order to address issues have been having for some time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User&lt;/strong&gt;: File Browser no longer runs as &lt;code&gt;root&lt;/code&gt;, but as user with PID 1000 and GID 1000 by default. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volumes&lt;/strong&gt;: The volumes with the database and configuration are now aligned with the s6-overlay images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Assuming you have a &lt;code&gt;database.db&lt;/code&gt;, a &lt;code&gt;.filebrowser.json&lt;/code&gt; and the data in &lt;code&gt;/data&lt;/code&gt;, do the following:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Change the path of &lt;code&gt;database&lt;/code&gt; in &lt;code&gt;.filebrowser.json&lt;/code&gt; to &lt;code&gt;/database/filebrowser.db&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Rename &lt;code&gt;database.db&lt;/code&gt; to &lt;code&gt;filebrowser.db&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Rename &lt;code&gt;.filebrowser.json&lt;/code&gt; to &lt;code&gt;settings.json&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Put them in the same directory locally, let's say &lt;code&gt;/app/filebrowser/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Change the permissions of both files: &lt;code&gt;sudo chown 1000:1000 /app/filebrowser/filebrowser.db /app/filebrowser/settings.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change the permissions of both files: &lt;code&gt;sudo chown 1000:1000 /app/filebrowser/filebrowser.db /app/filebrowser/settings.json /data&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Mount with the flags &lt;code&gt;-v /app/filebrowser:/database -v /app/filebrowser:/config&lt;/code&gt; - you can also choose to put them in separate directories, but it is not needed.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For more details, check the documentation: https://github.com/filebrowser/filebrowser/blob/v2.33.0/docs/installation.md#docker.&lt;/p&gt;
