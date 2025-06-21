@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ticky Releases</title>
-  <updated>2025-06-21T07:36:39.243636-04:00</updated>
+  <updated>2025-06-21T08:36:42.620124-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -99,5 +99,29 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.2.1...v1.3.0&lt;/p&gt;</content>
     <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dkorecko/Ticky/releases/tag/v1.4.0</id>
+    <title>New release for Ticky: v1.4.0</title>
+    <updated>2025-06-21T08:14:06-04:00</updated>
+    <author>
+      <name>dkorecko/Ticky</name>
+    </author>
+    <content>&lt;p&gt;Hey everyone,&lt;/p&gt;
+&lt;p&gt;This release adds the ability to snooze cards (and unsnooze them in the board settings), fixes for the color schemes, improved the way deadlines and reminders are displayed, added ability to set that on each card you create you will be auto-assigned and fixes other issues.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat: Snooze cards by @dkorecko in https://github.com/dkorecko/Ticky/pull/27&lt;/li&gt;
+&lt;li&gt;fix: Color scheme incorrectly set by @dkorecko in https://github.com/dkorecko/Ticky/pull/28&lt;/li&gt;
+&lt;li&gt;fix: Improved time display for deadlines, reminders and snoozing by @dkorecko in https://github.com/dkorecko/Ticky/pull/29&lt;/li&gt;
+&lt;li&gt;fix: Deadline wrong color by @dkorecko in https://github.com/dkorecko/Ticky/pull/30&lt;/li&gt;
+&lt;li&gt;refactor: Remove At from Activities as not needed by @dkorecko in https://github.com/dkorecko/Ticky/pull/31&lt;/li&gt;
+&lt;li&gt;feat: Option to self-assign automatically by @dkorecko in https://github.com/dkorecko/Ticky/pull/32&lt;/li&gt;
+&lt;li&gt;fix: Invalid password after creating user by @dkorecko in https://github.com/dkorecko/Ticky/pull/33&lt;/li&gt;
+&lt;li&gt;feat: Navigate home after changing new credentials by @dkorecko in https://github.com/dkorecko/Ticky/pull/34&lt;/li&gt;
+&lt;li&gt;fix: Added auth checks everywhere they were missing by @dkorecko in https://github.com/dkorecko/Ticky/pull/35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dkorecko/Ticky/compare/v1.3.0...v1.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/dkorecko/Ticky/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>
