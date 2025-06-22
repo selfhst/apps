@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-06-22T10:36:32.636828-04:00</updated>
+  <updated>2025-06-22T11:36:37.761420-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -88,7 +88,14 @@
     <author>
       <name>arabcoders/ytptube</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve tasks page for mass operations. by @arabcoders in https://github.com/arabcoders/ytptube/pull/306&lt;/li&gt;
+&lt;li&gt;Make it possible to view local item info by @arabcoders in https://github.com/arabcoders/ytptube/pull/308&lt;/li&gt;
+&lt;li&gt;minor design update for index page. by @arabcoders in https://github.com/arabcoders/ytptube/pull/309&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
 &lt;li&gt;47484c2 make datastore.get key optional. by arabcoders&lt;/li&gt;
 &lt;li&gt;c4b8bf5 Fix sio disconnect event by arabcoders&lt;/li&gt;
 &lt;li&gt;e02fedf Improve tasks page for mass operations. by arabcoders&lt;/li&gt;
@@ -102,7 +109,8 @@
 &lt;li&gt;a188c20 packages update by arabcoders&lt;/li&gt;
 &lt;li&gt;a2f5c77 minor design update for index page. by arabcoders&lt;/li&gt;
 &lt;li&gt;de4b88e Merge pull request #309 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/ytptube/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
     <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>
