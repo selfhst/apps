@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Workout.cool Releases</title>
-  <updated>2025-06-22T11:36:40.551344-04:00</updated>
+  <updated>2025-06-22T12:36:48.494184-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,5 +82,32 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Snouzy/workout-cool/compare/v1.2.0...v1.2.1&lt;/p&gt;</content>
     <link href="https://github.com/Snouzy/workout-cool/releases/tag/v1.2.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Snouzy/workout-cool/releases/tag/v1.2.2</id>
+    <title>New release for Workout.cool: v1.2.2</title>
+    <updated>2025-06-22T11:56:40-04:00</updated>
+    <author>
+      <name>Snouzy/workout-cool</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(workout-session): add auto-scroll functionality to current exercise and improve timer positioning for better user experience by @Snouzy in https://github.com/Snouzy/workout-cool/pull/57&lt;/li&gt;
+&lt;li&gt;feat(locales): add Spanish language support by including translations and updating locale handling  by @Snouzy in https://github.com/Snouzy/workout-cool/pull/58&lt;/li&gt;
+&lt;li&gt;feat(locales): add Chinese language support by including translations and updating locale handling by @lulucatdev in https://github.com/Snouzy/workout-cool/pull/61&lt;/li&gt;
+&lt;li&gt;chore/drag n drop performances by @Snouzy in https://github.com/Snouzy/workout-cool/pull/63&lt;/li&gt;
+&lt;li&gt;feat/detect locale by @Snouzy in https://github.com/Snouzy/workout-cool/pull/64&lt;/li&gt;
+&lt;li&gt;chore(auth): remove Facebook Pixel integration reliquat by @Snouzy in https://github.com/Snouzy/workout-cool/pull/65&lt;/li&gt;
+&lt;li&gt;refactor/muscle selection easier by @Snouzy in https://github.com/Snouzy/workout-cool/pull/67&lt;/li&gt;
+&lt;li&gt;feat: migrate from Resend to Nodemailer by @Norris1z in https://github.com/Snouzy/workout-cool/pull/60&lt;/li&gt;
+&lt;li&gt;feat/add donation modal by @Snouzy in https://github.com/Snouzy/workout-cool/pull/68&lt;/li&gt;
+&lt;li&gt;feat/seo by @Snouzy in https://github.com/Snouzy/workout-cool/pull/69&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@lulucatdev made their first contribution in https://github.com/Snouzy/workout-cool/pull/61&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Snouzy/workout-cool/compare/v1.2.1...v1.2.2&lt;/p&gt;</content>
+    <link href="https://github.com/Snouzy/workout-cool/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>
