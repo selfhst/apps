@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-06-23T10:36:38.931325-04:00</updated>
+  <updated>2025-06-23T11:36:25.141971-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,6 +109,9 @@
       <name>adityachandelgit/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This release adds some awesome new features that take Booklore’s library management to the next level. You can now track your reading progress with Read Status, filter books based on what you’ve read, and rate them using your own personal rating system. Managing multiple books is easier than ever with Shift+Click selection and a new Select All option for bulk actions. Admins can now delete books directly from the UI, a long-requested feature that’s now fully permission-controlled. These updates are designed to give you more control, better organization, and a smoother, more personalized experience.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Add Read Status tracking and filtering support (#553) by @adityachandelgit&lt;/li&gt;
