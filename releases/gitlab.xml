@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-06-23T06:30:51.961537-04:00</updated>
+  <updated>2025-06-23T07:30:54.237027-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -407,7 +407,7 @@
 
 &lt;details&gt;&lt;summary&gt;[All auto-disabled webhooks now automatically re-enable](https://docs.gitlab.com/user/project/integrations/webhooks/#auto-disabled-webhooks): &lt;code&gt;Webhooks&lt;/code&gt;&lt;/summary&gt;
 
-&gt; With this release, webhooks that return `4xx` errors are now automatically re-enabled. All errors (`4xx`, `5xx`, or server errors) are treated the same way, allowing for more predictable behavior and easier troubleshooting. This change was announced in [this blog post](https://about.gitlab.com/blog/2024/11/14/gitlab-webhooks-get-smarter-with-self-healing-capabilities/).
+&gt; With this release, webhooks that return `4xx` errors are now automatically re-enabled. All errors (`4xx`, `5xx`, or server errors) are treated the same way, allowing for more predictable behavior and easier troubleshooting. This change was announced in [this blog post](https://about.gitlab.com/blog/gitlab-webhooks-get-smarter-with-self-healing-capabilities/).
 &gt; 
 &gt; Failing webhooks are temporarily disabled for one minute, extending to a maximum of 24 hours. After a webhook fails 40 consecutive times, it now becomes permanently disabled.
 &gt; 
