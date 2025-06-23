@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ToolJet Releases</title>
-  <updated>2025-06-22T22:32:21.501803-04:00</updated>
+  <updated>2025-06-22T23:32:20.654143-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -32,5 +32,32 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.14.0...v3.15.0&lt;/p&gt;</content>
     <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.15.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ToolJet/ToolJet/releases/tag/v3.15.1</id>
+    <title>New release for ToolJet: v3.15.1</title>
+    <updated>2025-06-22T23:29:41-04:00</updated>
+    <author>
+      <name>ToolJet/ToolJet</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhanced workflow permission system (Phase 2) by @kriks7iitk in https://github.com/ToolJet/ToolJet/pull/12869&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🛠️ Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolved database migration issues by @rohanlahori in https://github.com/ToolJet/ToolJet/pull/13053&lt;/li&gt;
+&lt;li&gt;Fixed incorrect imports in plugin scripts by @gsmithun4 in https://github.com/ToolJet/ToolJet/pull/13055&lt;/li&gt;
+&lt;li&gt;Hide modules tab in the editor interface by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13051&lt;/li&gt;
+&lt;li&gt;Deprecated static local data sources by @gsmithun4 in https://github.com/ToolJet/ToolJet/pull/12687&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧪 Specs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for cloud plugin scripts by @adishM98 in https://github.com/ToolJet/ToolJet/pull/12995&lt;/li&gt;
+&lt;li&gt;Implemented automated merging for submodule PRs when base PR merges to main by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13057&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.15.0...v3.15.1&lt;/p&gt;</content>
+    <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.15.1" rel="alternate"/>
   </entry>
 </feed>
