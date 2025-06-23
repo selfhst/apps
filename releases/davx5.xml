@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DAVx⁵ Releases</title>
-  <updated>2025-06-23T09:34:18.298923-04:00</updated>
+  <updated>2025-06-23T10:34:13.678933-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -170,7 +170,11 @@
     <author>
       <name>bitfireAT/davx5-ose</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="grafik" src="https://github.com/user-attachments/assets/142546da-e088-43f5-801a-8be982585f29" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="grafik" src="https://github.com/user-attachments/assets/7e749b0b-3dcd-4d11-b0b0-9471ae04acd1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video content&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Announcment video: https://www.youtube.com/watch?v=3TWb5U6pPYg
+YT Shorts version: https://www.youtube.com/shorts/fWhaLgcrcvI
+Tutorial for Nextcloud: https://www.youtube.com/watch?v=Ppvt1TS8VVA&lt;/p&gt;
 &lt;h1&gt;What is Push and why do I need it?&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;TLDR;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Get updates for your contacts/events/tasks/notes instantly on your mobile device instead of polling the server in regular intervals like once an hour.&lt;/strong&gt;&lt;/p&gt;
@@ -183,14 +187,14 @@
 &lt;h3&gt;More Details&lt;/h3&gt;
 &lt;p&gt;WebDAV Push is a very new addition to the WebDAV ecosystem and extends the WebDAV Standard with the ability to make synchronization in near-realtime. So if a file on the WebDAV server is added, changed or deleted you will receive this instantly also on your mobile devices via DAVx5. &lt;/p&gt;
 &lt;p&gt;This is especially useful for Contacts, Events and Tasks all of which DAVx5 offers synchronization for. Whenever a resource on the server changes (be it from directly changing it or if the change is being made from another device) you should get this update within a few seconds depending on network and server speed.&lt;/p&gt;
-&lt;h3&gt;How-to-use in 3 steps:&lt;/h3&gt;
+&lt;h3&gt;How-to-use in 5 steps:&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Install and activate the servers WebDAV Push extension (for example the dav_push app on your Nextcloud App center - minimal version 0.0.3)&lt;/li&gt;
 &lt;li&gt;If you add a new account continue with step 3. If already have an existing DAVx5 account:&lt;/li&gt;
 &lt;li&gt;reload the resources list in the CalDAV/CardDAV tabs to receive the new information that the server supports WebDAV Push and check in the details view of a collection if you see either a "Server announces Push support" or "Subscribed message with a date".&lt;/li&gt;
 &lt;li&gt;If you add a fresh DAVx5 account the capability of Push will be detected during setup. &lt;/li&gt;
 &lt;li&gt;Choose or Change the Push distributor in the DAVx5 settings at the very bottom.&lt;/li&gt;
-&lt;li&gt;To test it add an event, contact or task in Nextcloud and open your respective Contacts or Calendars app&lt;/li&gt;
+&lt;li&gt;To test it add an event, contact or task on the server side and open your respective Contacts / Calendars / Tasks app on Android. You should get the change within 5-60 seconds (depending on network speed)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h5&gt;Resources for server developers:&lt;/h5&gt;
 &lt;p&gt;In order to provide your users with the ability to real-time sync data from your server you need to implement the WebDAV Push draft [1]. Although it is still a draft this solution already is working in the public. You can see an implementation for example on Nextcloud where this is being solved via an app plugin that can be activated upon a users wish.&lt;/p&gt;
@@ -199,7 +203,8 @@
 &lt;p&gt;[3] Unified Push 3: https://unifiedpush.org/ and https://codeberg.org/UnifiedPush&lt;/p&gt;
 &lt;!-- Release notes generated using configuration in .github/release.yml at v4.5-ose --&gt;
 
-&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What's Changed since 4.4.11&lt;/h2&gt;
 &lt;h3&gt;New features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add app password hint under password field by @sunkup in https://github.com/bitfireAT/davx5-ose/pull/1507&lt;/li&gt;
