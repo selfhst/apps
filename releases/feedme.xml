@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FeedMe Releases</title>
-  <updated>2025-06-24T12:39:35.757952-04:00</updated>
+  <updated>2025-06-24T13:33:57.555593-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -64,5 +64,107 @@
 &lt;li&gt;Previously the background was always 16:9 and was padded, now it will fill 4:3&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.2.0</id>
+    <title>New release for ErsatzTV: v25.2.0</title>
+    <updated>2025-06-24T13:06:31-04:00</updated>
+    <author>
+      <name>ErsatzTV/ErsatzTV</name>
+    </author>
+    <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;linux-musl-x64&lt;/code&gt; artifact for users running Alpine x64&lt;/li&gt;
+&lt;li&gt;Add API endpoint to empty trash (POST to &lt;code&gt;/api/maintenance/empty_trash&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;curl -XPOST -d '' http://localhost:8409/api/maintenance/empty_trash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add remote IP and user agent to HTTP request logging&lt;/li&gt;
+&lt;li&gt;Add environment variables to allow ETV to run UI and streaming on separate ports&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ETV_STREAMING_PORT&lt;/code&gt;: port used for streaming requests, defaults to 8409&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ETV_UI_PORT&lt;/code&gt;: port used for admin UI, defaults to 8409&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publish docker images to ghcr.io (&lt;code&gt;ghcr.io/ersatztv/ersatztv&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Add new option &lt;code&gt;Fixed Start Time Behavior&lt;/code&gt; to Schedules and Schedule Items&lt;/li&gt;
+&lt;li&gt;Schedules can set a default behavior for all items&lt;/li&gt;
+&lt;li&gt;Schedule items can override this default behavior&lt;/li&gt;
+&lt;li&gt;Possible values are:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Strict&lt;/code&gt;: Always wait for the exact start time, even if that means waiting (adding unscheduled time) until the next day&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Flexible&lt;/code&gt;: Start scheduling immediately (do not wait) if waiting (adding unscheduled time) would go into the next day&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;As an example, if the current scheduling time is 6:02 AM and the next schedule item has a fixed start time of 6:00 AM&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Strict&lt;/code&gt; will add nearly 24h (23:58) of unscheduled time so that it can start exactly at 6:00 AM the next day&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Flexible&lt;/code&gt; will NOT add unscheduled time, and will schedule its item at 6:02 AM (which may also affect the scheduling of later items)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add basic HDR transcoding support&lt;/li&gt;
+&lt;li&gt;VAAPI may use hardware-accelerated tone mapping (when opencl accel is also available)&lt;/li&gt;
+&lt;li&gt;NVIDIA may use hardware-accelerated tone mapping (when vulkan accel and libplacebo filter are also available)&lt;/li&gt;
+&lt;li&gt;QSV may use hardware-accelerated tone mapping (when hardware decoding is used)&lt;/li&gt;
+&lt;li&gt;In all other cases, HDR content will use a software pipeline&lt;/li&gt;
+&lt;li&gt;The tonemap algorithm can be configured in the ffmpeg profile&lt;/li&gt;
+&lt;li&gt;Use hardware-accelerated padding with VAAPI&lt;/li&gt;
+&lt;li&gt;Add environment variable &lt;code&gt;ETV_DISABLE_VULKAN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Any non-empty value will disable use of Vulkan acceleration and force software tonemapping&lt;/li&gt;
+&lt;li&gt;This may be needed with misbehaving NVIDIA drivers on Windows&lt;/li&gt;
+&lt;li&gt;Add health check error when invalid VAAPI device and VAAPI driver combination is used in an active ffmpeg profile&lt;/li&gt;
+&lt;li&gt;This makes it obvious when hardware acceleration will not work as configured&lt;/li&gt;
+&lt;li&gt;Add button in schedule editor to clone schedule item&lt;/li&gt;
+&lt;li&gt;Allow YAML playout sequence definitions to reference other sequences&lt;/li&gt;
+&lt;li&gt;Cycles will be detected and logged, and sequences with cycles will prevent the playout from building&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;repeat&lt;/code&gt; property to YAML sequence instruction&lt;/li&gt;
+&lt;li&gt;This tells the playout builder how many times this sequence should repeat&lt;/li&gt;
+&lt;li&gt;Omitting this value is the same as setting it to &lt;code&gt;1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;collection&lt;/code&gt; (name) to search index for manual collections created within ETV&lt;/li&gt;
+&lt;li&gt;Collections synchronized from media servers are still indexed as &lt;code&gt;tag&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Allow searching by &lt;code&gt;smart_collection&lt;/code&gt; (name)&lt;/li&gt;
+&lt;li&gt;Quotes are &lt;em&gt;always&lt;/em&gt; required when using this feature&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;smart_collection:"one" NOT smart_collection:"two"&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cycles will be detected and logged, and searches with cycles will not work as expected&lt;/li&gt;
+&lt;li&gt;Add all &lt;code&gt;ETV_*&lt;/code&gt; environment variables to Troubleshooting &amp;gt; General info&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;External Logo URL&lt;/code&gt; field to channel editor&lt;/li&gt;
+&lt;li&gt;Using external (public) logos should fix channel logo display for clients that don't proxy artwork (such as Plex)&lt;/li&gt;
+&lt;li&gt;Users who have customized the XMLTV channel template &lt;code&gt;channel.sbntxt&lt;/code&gt; will need to update their templates again&lt;ul&gt;
+&lt;li&gt;This is because the templates require different logic for external URLs vs ETV-hosted URLs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start to make UI minimally responsive (functional on smaller screens)&lt;/li&gt;
+&lt;li&gt;Change how ETV determines which address to use for Plex connections&lt;/li&gt;
+&lt;li&gt;The active Plex connection (address) will only be cached for 30 seconds&lt;/li&gt;
+&lt;li&gt;When the connection is no longer cached, a ping will be sent to the last used address for Plex (the last address that had a successful ping)&lt;/li&gt;
+&lt;li&gt;If the ping is successful, the address will be cached for another 30 seconds&lt;/li&gt;
+&lt;li&gt;If the ping is not successful, all addresses will be checked again, and the first address to return a successful ping will be cached for 30 seconds&lt;/li&gt;
+&lt;li&gt;Remove requirement to have Jellyfin admin user; user id is no longer required on requests to latest Jellyfin server&lt;/li&gt;
+&lt;li&gt;Upgrade bundled ffmpeg on Windows from 6.1 to 7.1.1&lt;/li&gt;
+&lt;li&gt;Upgrade VAAPI docker image Ubuntu base from 22 to 24; bundled ffmpeg from 6.1 to 7.1.1&lt;/li&gt;
+&lt;li&gt;Upgrade NVIDIA docker image Ubuntu base from 20 to 24; bundled ffmpeg from 6.1 to 7.1.1&lt;/li&gt;
+&lt;li&gt;Upgrade base, arm, arm64 docker images bundled ffmpeg from 6.1 to 7.1.1&lt;/li&gt;
+&lt;li&gt;Unify all hardware acceleration methods in base docker images (&lt;code&gt;latest&lt;/code&gt; and &lt;code&gt;develop&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;VAAPI, QSV and NVIDIA are now all supported in the base docker image&lt;/li&gt;
+&lt;li&gt;Other docker image tags are deprecated and will receive no new updates after the next release&lt;/li&gt;
+&lt;li&gt;A health check has been added to notify users (on &lt;code&gt;-vaapi&lt;/code&gt; or &lt;code&gt;-nvidia&lt;/code&gt; tags) of this change&lt;/li&gt;
+&lt;li&gt;Schedule items editor: show currently selected row using background color instead of font weight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix error message about synchronizing Plex collections from a Plex server that has zero collections&lt;/li&gt;
+&lt;li&gt;Fix navigation after form submission when using &lt;code&gt;ETV_BASE_URL&lt;/code&gt; environment variable&lt;/li&gt;
+&lt;li&gt;Fix UI crashes when channel numbers contain a period &lt;code&gt;.&lt;/code&gt; in locales that have a different decimal separator (e.g. &lt;code&gt;,&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Fix playout detail table to only reload once when resetting a playout&lt;/li&gt;
+&lt;li&gt;Fix date formatting in playout detail table on reload (will now respect browser's &lt;code&gt;Accept-Language&lt;/code&gt; header)&lt;/li&gt;
+&lt;li&gt;Use cache busting to avoid UI errors after upgrading the MudBlazor library&lt;/li&gt;
+&lt;li&gt;Fix multi-variant playlist to report more accurate &lt;code&gt;BANDWIDTH&lt;/code&gt; value based on ffmpeg profile&lt;/li&gt;
+&lt;li&gt;Fix detecting NVIDIA capabilities on Blackwell GPUs&lt;/li&gt;
+&lt;li&gt;Fix decoder selection in NVIDIA pipeline&lt;/li&gt;
+&lt;li&gt;Prevent playback order &lt;code&gt;Shuffle In Order&lt;/code&gt; from being used with &lt;code&gt;Fill With Group Mode&lt;/code&gt; as they are incompatible&lt;/li&gt;
+&lt;li&gt;Fix XMLTV items not grouping properly (guide mode: &lt;code&gt;Filler&lt;/code&gt;) due to post-roll filler&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.2.0" rel="alternate"/>
   </entry>
 </feed>
