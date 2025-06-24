@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VaulTLS Releases</title>
-  <updated>2025-06-24T13:37:04.444002-04:00</updated>
+  <updated>2025-06-24T14:36:57.159001-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,7 +76,7 @@
   <entry>
     <id>https://github.com/7ritn/VaulTLS/releases/tag/v0.6.1</id>
     <title>New release for VaulTLS: v0.6.1</title>
-    <updated>2025-06-24T13:12:19-04:00</updated>
+    <updated>2025-06-24T14:04:58-04:00</updated>
     <author>
       <name>7ritn/VaulTLS</name>
     </author>
