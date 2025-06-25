@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-06-25T15:35:49.112245-04:00</updated>
+  <updated>2025-06-25T16:36:08.870967-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -290,7 +290,6 @@ The new usage is &lt;code&gt;sdk.login({ email, password })&lt;/code&gt; or &lt;
 &lt;li&gt;Ensured to revert changes on error after drag &amp;amp; drop in kanban and calendar layout (&lt;a href="https://github.com/directus/directus/pull/25329"&gt;#25329&lt;/a&gt; by @formfcw)&lt;/li&gt;
 &lt;li&gt;Prevented table column widths from having null values (&lt;a href="https://github.com/directus/directus/pull/25298"&gt;#25298&lt;/a&gt; by @robluton)&lt;/li&gt;
 &lt;li&gt;Ensured that the redirection to the collection view after editing an item takes the bookmark query into account (&lt;a href="https://github.com/directus/directus/pull/25327"&gt;#25327&lt;/a&gt; by @formfcw)&lt;/li&gt;
-&lt;li&gt;Adjusted columns for 60/40 split on license banner (&lt;a href="https://github.com/directus/directus/pull/25319"&gt;#25319&lt;/a&gt; by @AlexGaillard)&lt;/li&gt;
 &lt;li&gt;Allowed selecting custom collections for &lt;code&gt;items.sort&lt;/code&gt; action hook (&lt;a href="https://github.com/directus/directus/pull/25340"&gt;#25340&lt;/a&gt; by @ComfortablyCoding)&lt;/li&gt;
 &lt;li&gt;Improved nested folder rendering performance (&lt;a href="https://github.com/directus/directus/pull/25276"&gt;#25276&lt;/a&gt; by @AlexGaillard)&lt;/li&gt;
 &lt;li&gt;Fixed the “Save as Copy” action for files (&lt;a href="https://github.com/directus/directus/pull/25351"&gt;#25351&lt;/a&gt; by @Nitwel)&lt;/li&gt;
