@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-06-25T02:34:42.808861-04:00</updated>
+  <updated>2025-06-25T03:34:47.353969-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,14 +166,38 @@
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;26cd971fb0855386e4ba49f2e4a27d82588ad9c5 Add Compleo Solo/Duo (#22013)&lt;/li&gt;
-&lt;li&gt;c5fe5b5241d9e5ccd9e6d1ab6b27b5ddaf251117 Heatpump: reset session energy when status off (#22032)&lt;/li&gt;
-&lt;li&gt;4bf47a3e63a7d4dc2ac5aa8a7d3dc97d8f03031f LG ESS Home 8: fix version check for battery (#22029)&lt;/li&gt;
-&lt;li&gt;93e87b5a54e0f89a5cf6b1d6e498f02999c6401e Renault Twingo: add to min current hint for 3p (#22031)&lt;/li&gt;
-&lt;li&gt;2cad067baf6815b8c5eb2aae55edf41ec69fb1a2 SGReady: reset session energy when status off (#22014)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;Daheimladen: fix phase values by @andig in https://github.com/evcc-io/evcc/pull/21907&lt;/li&gt;
+&lt;li&gt;Daheimladen: add mA current control by @andig in https://github.com/evcc-io/evcc/pull/21908&lt;/li&gt;
+&lt;li&gt;Sax: fix battery control by @juergen-weber in https://github.com/evcc-io/evcc/pull/21888&lt;/li&gt;
+&lt;li&gt;Keba Modbus: fix failsafe mode and enabled detection by @andig in https://github.com/evcc-io/evcc/pull/21849&lt;/li&gt;
+&lt;li&gt;Phoenix EM-ETH: fix currents by @andig in https://github.com/evcc-io/evcc/pull/21913&lt;/li&gt;
+&lt;li&gt;Translations update from Hosted Weblate by @weblate in https://github.com/evcc-io/evcc/pull/21730&lt;/li&gt;
+&lt;li&gt;Varta: add battery control by @zoomy01 in https://github.com/evcc-io/evcc/pull/21841&lt;/li&gt;
+&lt;li&gt;Add explicit demo mode by @guido4096 in https://github.com/evcc-io/evcc/pull/21848&lt;/li&gt;
+&lt;li&gt;Config UI: custom charger meter title by @naltatis in https://github.com/evcc-io/evcc/pull/21954&lt;/li&gt;
+&lt;li&gt;Establish stricter sqlite file permissions by @naltatis in https://github.com/evcc-io/evcc/pull/21947&lt;/li&gt;
+&lt;li&gt;Sofar: Updated documentation with detailed external link for connection details by @cschlipf in https://github.com/evcc-io/evcc/pull/21932&lt;/li&gt;
+&lt;li&gt;Add SunSpec meters for chargers by @marcelGoerentz in https://github.com/evcc-io/evcc/pull/21977&lt;/li&gt;
+&lt;li&gt;Site: fix accumulated pv energy persistence by @andig in https://github.com/evcc-io/evcc/pull/21993&lt;/li&gt;
+&lt;li&gt;Config UI: fix user-defined vehicle title/icon not displayed by @andig in https://github.com/evcc-io/evcc/pull/21956&lt;/li&gt;
+&lt;li&gt;Delta: fix reason disconnect by @premultiply in https://github.com/evcc-io/evcc/pull/21996&lt;/li&gt;
+&lt;li&gt;Fix for #21991 by @juergen-weber in https://github.com/evcc-io/evcc/pull/22000&lt;/li&gt;
+&lt;li&gt;UI: fix en fallback locale by @naltatis in https://github.com/evcc-io/evcc/pull/22003&lt;/li&gt;
+&lt;li&gt;Translations update from Hosted Weblate by @weblate in https://github.com/evcc-io/evcc/pull/21953&lt;/li&gt;
+&lt;li&gt;Add Compleo Solo/Duo by @andig in https://github.com/evcc-io/evcc/pull/22013&lt;/li&gt;
+&lt;li&gt;SGReady: reset session energy when status off by @andig in https://github.com/evcc-io/evcc/pull/22014&lt;/li&gt;
+&lt;li&gt;Add Twingo to min current hint for 3p. by @savus4 in https://github.com/evcc-io/evcc/pull/22031&lt;/li&gt;
+&lt;li&gt;Heatpump: reset session energy when status off by @andig in https://github.com/evcc-io/evcc/pull/22032&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@juergen-weber made their first contribution in https://github.com/evcc-io/evcc/pull/21888&lt;/li&gt;
+&lt;li&gt;@zoomy01 made their first contribution in https://github.com/evcc-io/evcc/pull/21841&lt;/li&gt;
+&lt;li&gt;@savus4 made their first contribution in https://github.com/evcc-io/evcc/pull/22031&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/evcc-io/evcc/compare/0.204.3...0.204.5&lt;/p&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.204.5" rel="alternate"/>
   </entry>
 </feed>
