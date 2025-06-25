@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-06-25T16:36:25.909527-04:00</updated>
+  <updated>2025-06-25T17:36:30.218078-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,10 +139,99 @@ This release has WebUI support!&lt;/p&gt;
     <author>
       <name>openbao/openbao</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+OpenBao v2.3.0 is unreleased due to a bug in Illumos builds. Illumos has been
+removed from v2.3.1 as a result, &lt;a href="https://github.com/openbao/openbao/issues/711"&gt;per policy&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;SECURITY&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;e3cdbbde8eb48fb7ae92b1d34afb63012e805233: Bump to v2.3.1 - Drop Illumos support per policy in #711 (#1503) (@cipherboy)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;core/sys: Add listener parameter (&lt;code&gt;disable_unauthed_rekey_endpoints&lt;/code&gt;, default: &lt;code&gt;false&lt;/code&gt;) to optionally disable unauthenticated rekey operations (to &lt;code&gt;sys/rekey/*&lt;/code&gt; and &lt;code&gt;sys/rekey-recovery-key/*&lt;/code&gt;) for a listener. This will be set to true in a future release; see the &lt;a href="https://openbao.org/docs/deprecation/unauthed-rekey/"&gt;deprecation notice&lt;/a&gt; for more information. Auditing is now enabled for these endpoints as well. CVE-2025-52894. Upstream HCSEC-2025-11 / CVE-2025-4656.&lt;/li&gt;
+&lt;li&gt;sdk/framework: prevent additional information disclosure on invalid request. CVE-2025-52893. [&lt;a href="https://github.com/openbao/openbao/pull/1495"&gt;GH-1495&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;CHANGES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;packaging/systemd: Do not set LimitNOFILE, allowing Go to automatically manage this value on behalf of the server. See also https://github.com/golang/go/issues/46279. [&lt;a href="https://github.com/openbao/openbao/pull/1179"&gt;GH-1179&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;storage/postgresql: Support empty connection URLs to use standard component-wise variables [&lt;a href="https://github.com/openbao/openbao/pull/1297"&gt;GH-1297&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;packaging: Support for Illumos removed due to broken builds [&lt;a href="https://github.com/openbao/openbao/pull/1503"&gt;GH-1503&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;FEATURES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;KMIP Auto-Unseal&lt;/strong&gt;: Add support for automatic unsealing of OpenBao using a KMIP protocol. [&lt;a href="https://github.com/openbao/openbao/pull/1144"&gt;GH-1144&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Namespaces UI Support&lt;/strong&gt;: Added namespace UI support, including namespace picker and namespace management pages. [&lt;a href="https://github.com/openbao/openbao/pull/1406"&gt;GH-1406&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Namespaces&lt;/strong&gt;: Support for tenant isolation using namespaces, application API compatible with upstream's implementation.&lt;/li&gt;
+&lt;li&gt;Create, read, update, delete a hierarchical directory of namespaces&lt;/li&gt;
+&lt;li&gt;Manage isolated per-namespace secrets engines, auth methods, tokens, policies and more&lt;/li&gt;
+&lt;li&gt;Migrate (remount) secrets engines and auth methods between namespaces&lt;/li&gt;
+&lt;li&gt;Lock and unlock namespaces&lt;/li&gt;
+&lt;li&gt;Route requests to namespaces via path (&lt;code&gt;/my-namespace/secrets&lt;/code&gt;) or &lt;code&gt;X-Vault-Namespace&lt;/code&gt; header (or both!)&lt;/li&gt;
+&lt;li&gt;CLI support via the &lt;code&gt;bao namespace&lt;/code&gt; family of commands and the &lt;code&gt;-namespace&lt;/code&gt; flag. [&lt;a href="https://github.com/openbao/openbao/pull/1165"&gt;GH-1165&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Add ARM64 HSM builds and Alpine-based HSM container images [&lt;a href="https://github.com/openbao/openbao/pull/1427"&gt;GH-1427&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Support &lt;strong&gt;Common Expression Language (CEL) in PKI&lt;/strong&gt;. CEL allows role authors to create flexible, dynamic certificate policies with complex, custom validation support and arbitrary control over the final certificate object. [&lt;a href="https://github.com/openbao/openbao/pull/794"&gt;GH-794&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;auth/jwt: Add support for Common Expression Language (CEL) login roles. CEL allows role authors to create flexible, dynamic policies with complex, custom claim validation support and arbitrary templating of &lt;code&gt;logical.Auth&lt;/code&gt; data. [&lt;a href="https://github.com/openbao/openbao/pull/869"&gt;GH-869&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ssh: Support multiple certificate issuers in SSH secret engine mounts, enabling safer rotation of SSH CA key material [&lt;a href="https://github.com/openbao/openbao/pull/880"&gt;GH-880&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;IMPROVEMENTS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When using auto-unseal via KMS, KMS-specific configuration information (non-sensitive) is now logged at server startup. [&lt;a href="https://github.com/openbao/openbao/pull/1346"&gt;GH-1346&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;approle: Use transactions for read + write operations [&lt;a href="https://github.com/openbao/openbao/pull/992"&gt;GH-992&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;auth/jwt: Support lazy resolution of oidc_discovery_url or jwks_url when skip_jwks_validation=true is specified on auth/jwt/config; OIDC status is now reported on reading the configuration. [&lt;a href="https://github.com/openbao/openbao/pull/1306"&gt;GH-1306&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/identity: add unsafe_cross_namespace_identity to give compatibility with Vault Enterprise's cross-namespace group membership. [&lt;a href="https://github.com/openbao/openbao/pull/1432"&gt;GH-1432&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/policies: Add check-and-set support for modifying policies, allowing for protection against concurrent modifications. [&lt;a href="https://github.com/openbao/openbao/pull/1162"&gt;GH-1162&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/policies: Add endpoint to allow detailed listing of policies [&lt;a href="https://github.com/openbao/openbao/pull/1224"&gt;GH-1224&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/policies: Allow setting expiration on policies and component paths, removing policies or preventing usage of path rules after expiration. [&lt;a href="https://github.com/openbao/openbao/pull/1142"&gt;GH-1142&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core: Support pagination and transactions in ClearView, CollectKeys, and ScanView, improving secret disable memory consumption and request consistency. [&lt;a href="https://github.com/openbao/openbao/pull/1102"&gt;GH-1102&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;database/valkey: Revive Redis plugin as Valkey, the OSI-licensed fork of Redis [&lt;a href="https://github.com/openbao/openbao/pull/1019"&gt;GH-1019&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;database: Use transactions for read-then-write methods in the database package [&lt;a href="https://github.com/openbao/openbao/pull/995"&gt;GH-995&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;pki: add not_after_bound and not_before_bound role parameters to safely limit issuance duration [&lt;a href="https://github.com/openbao/openbao/pull/1172"&gt;GH-1172&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;ssh: Use transactions for read-then-write or multiple write methods in the ssh package [&lt;a href="https://github.com/openbao/openbao/pull/989"&gt;GH-989&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;storage/postgresql: support retrying database connection on startup to gracefully handle service ordering issues [&lt;a href="https://github.com/openbao/openbao/pull/1280"&gt;GH-1280&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;DEPRECATIONS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Configuration of PKCS#11 auto-unseal using the duplicate and undocumented &lt;code&gt;module&lt;/code&gt;, &lt;code&gt;token&lt;/code&gt; and &lt;code&gt;key&lt;/code&gt; options is now deprecated. Use the documented alternative options &lt;code&gt;lib&lt;/code&gt;, &lt;code&gt;token_label&lt;/code&gt; and &lt;code&gt;key_label&lt;/code&gt; instead, respectively. (&lt;a href="https://github.com/openbao/go-kms-wrapping/pull/33#discussion_r2112177962"&gt;More details&lt;/a&gt;) [&lt;a href="https://github.com/openbao/openbao/pull/1385"&gt;GH-1385&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;BUG FIXES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;api: Stop marshaling nil interface data and adding it as a request body on an api.Request [&lt;a href="https://github.com/openbao/openbao/pull/1315"&gt;GH-1315&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/identity: load namespace entities, groups into MemDB preventing them from disappearing on restart. [&lt;a href="https://github.com/openbao/openbao/pull/1432"&gt;GH-1432&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;oidc: add some buffer time after calling oidcPeriodicFunc in test, to prevent flakiness [&lt;a href="https://github.com/openbao/openbao/pull/1178"&gt;GH-1178&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;pki: addresses a timing issue revealed in pki Backend_RevokePlusTidy test [&lt;a href="https://github.com/openbao/openbao/pull/1139"&gt;GH-1139&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;sealing/pkcs11: OpenBao now correctly finalizes the PKCS#11 library on shutdown (https://github.com/openbao/go-kms-wrapping/pull/32).
+This is unlikely to have caused many real-world issues so far. [&lt;a href="https://github.com/openbao/openbao/pull/1349"&gt;GH-1349&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;secrets/kv: Fix panic on detailed metadata list when results include a directory. [&lt;a href="https://github.com/openbao/openbao/pull/1388"&gt;GH-1388&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;storage/postgresql: Remove redundant PermitPool enforced by db.SetMaxOpenConns(...). [&lt;a href="https://github.com/openbao/openbao/pull/1299"&gt;GH-1299&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;storage/postgresql: skip table creation automatically on PostgreSQL replicas [&lt;a href="https://github.com/openbao/openbao/pull/1478"&gt;GH-1478&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;vault: addresses a timing issue revealed in OIDC_PeriodicFunc test [&lt;a href="https://github.com/openbao/openbao/pull/1129"&gt;GH-1129&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;vault: fixes a timing issue in OIDC_PeriodicFunc test [&lt;a href="https://github.com/openbao/openbao/pull/1100"&gt;GH-1100&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+
+&lt;summary&gt;&lt;h2&gt; What's Changed over Beta &lt;/h2&gt;&lt;/summary&gt;
+
+* Deprecation notice for undocumented duplicate PKCS#11 seal options (#… by @cipherboy in https://github.com/openbao/openbao/pull/1481
+* CEL for Certificate Issuance Policy (#794) by @cipherboy in https://github.com/openbao/openbao/pull/1482
+* Fix detailed metadata on list results (#1388) by @cipherboy in https://github.com/openbao/openbao/pull/1483
+* Fix flaky PostgreSQL backend connection test (#1368) by @cipherboy in https://github.com/openbao/openbao/pull/1485
+* HSM: Add arm64 builds &amp; Alpine containers (#1427) by @cipherboy in https://github.com/openbao/openbao/pull/1486
+* Fix changelog entries (#1440) by @cipherboy in https://github.com/openbao/openbao/pull/1487
+* Point goreleaser and container image contacts to new OpenSSF domain (… by @cipherboy in https://github.com/openbao/openbao/pull/1489
+* Backport go-viper/mapstructure/v2 move by @cipherboy in https://github.com/openbao/openbao/pull/1488
+* Go dependency bumps to fix vulnerabilities in dependencies by @cipherboy in https://github.com/openbao/openbao/pull/1492
+* Fix identity store resolution (#1432) by @cipherboy in https://github.com/openbao/openbao/pull/1491
+* Namespaces UI support (#1406) by @cipherboy in https://github.com/openbao/openbao/pull/1484
+* Fix PostgreSQL table creation on replica (#1478) by @satoqz in https://github.com/openbao/openbao/pull/1494
+* Add changelog entry for sdk/framework vulnerability by @cipherboy in https://github.com/openbao/openbao/pull/1497
+* Allow disabling unauthenticated rekey by @cipherboy in https://github.com/openbao/openbao/pull/1498
+* Minor improvements to CEL for PKI  (#1390) by @cipherboy in https://github.com/openbao/openbao/pull/1499
+* Bump API to v2.3.1 in core, sdk by @cipherboy in https://github.com/openbao/openbao/pull/1500
+* Bump sdk to v2.3.1, add changelog to v2.3.0 by @cipherboy in https://github.com/openbao/openbao/pull/1501
+* Bump to v2.3.1 - Drop Illumos support per policy in #711 by @cipherboy in https://github.com/openbao/openbao/pull/1503
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Release notes&lt;/strong&gt;: https://openbao.org/docs/release-notes/2-3-0/#v231
+&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/openbao/openbao/compare/v2.2.0...v2.3.1&lt;/p&gt;</content>
     <link href="https://github.com/openbao/openbao/releases/tag/v2.3.1" rel="alternate"/>
   </entry>
 </feed>
