@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FeedMe Releases</title>
-  <updated>2025-06-24T19:34:02.905096-04:00</updated>
+  <updated>2025-06-24T20:33:48.216593-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,8 +119,8 @@
 &lt;li&gt;Add &lt;code&gt;collection&lt;/code&gt; (name) to search index for manual collections created within ETV&lt;/li&gt;
 &lt;li&gt;Collections synchronized from media servers are still indexed as &lt;code&gt;tag&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Allow searching by &lt;code&gt;smart_collection&lt;/code&gt; (name)&lt;/li&gt;
-&lt;li&gt;Quotes are &lt;em&gt;always&lt;/em&gt; required when using this feature&lt;ul&gt;
-&lt;li&gt;e.g. &lt;code&gt;smart_collection:"one" NOT smart_collection:"two"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Quotes are &lt;em&gt;always&lt;/em&gt; required around each collection name when using this feature&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;smart_collection:"one" OR smart_collection:"two"&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Cycles will be detected and logged, and searches with cycles will not work as expected&lt;/li&gt;
