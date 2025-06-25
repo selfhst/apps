@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Komodo Releases</title>
-  <updated>2025-06-25T11:33:54.613051-04:00</updated>
+  <updated>2025-06-25T12:33:48.104903-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -226,6 +226,7 @@ users = ["user1", "user2"]&lt;/p&gt;
     </author>
     <content>&lt;h1&gt;Changelog&lt;/h1&gt;
 &lt;p&gt;This release includes support for two repeatedly requested features.&lt;/p&gt;
+&lt;p&gt;There are also changes to the Periphery agent, remember to update both Core and Periphery to 1.18.4 so everything works correctly.&lt;/p&gt;
 &lt;h2&gt;Template support&lt;/h2&gt;
 &lt;p&gt;Resources can now be &lt;strong&gt;marked as templates&lt;/strong&gt;, and they will be suggested as a the starting point when creating a new resource. You can control the inclusion of templates in the tables, and you can control the template inclusion behavior in the ListResources apis. The behavior is similar to the Gitea repo templates feature. This allows you to configure multiple "defaults" to use as starting points when creating more Resources like Stacks, satisfying requests such as #579.&lt;/p&gt;
 &lt;h2&gt;Container port display / link&lt;/h2&gt;
