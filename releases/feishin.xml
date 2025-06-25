@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Feishin Releases</title>
-  <updated>2025-06-25T13:34:07.353163-04:00</updated>
+  <updated>2025-06-25T14:33:57.637436-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,6 +145,7 @@
       <name>jeffvli/feishin</name>
     </author>
     <content>&lt;p&gt;Quick hotfix release to address some issues from 0.15.0.&lt;/p&gt;
+&lt;p&gt;Given the amount of internal changes in v0.15.0 and v0.15.1, please open an issue for any bugs you see as soon as possible!&lt;/p&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Emphasize links on the &lt;code&gt;Get Info&lt;/code&gt; modal&lt;/li&gt;
