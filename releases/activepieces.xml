@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-06-25T07:33:31.183371-04:00</updated>
+  <updated>2025-06-25T08:33:27.983915-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -156,9 +156,9 @@
     <link href="https://github.com/activepieces/activepieces/releases/tag/0.63.1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/activepieces/activepieces/releases/tag/0.64.0</id>
-    <title>New release for Activepieces: 0.64.0</title>
-    <updated>2025-06-24T15:40:27-04:00</updated>
+    <id>https://github.com/activepieces/activepieces/releases/tag/0.64.1</id>
+    <title>New release for Activepieces: 0.64.1</title>
+    <updated>2025-06-25T08:11:22-04:00</updated>
     <author>
       <name>activepieces/activepieces</name>
     </author>
@@ -185,6 +185,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;🐞 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;fix: Move Platform Plan Migration to enterprise only for 0.64.0 (#8163) @huzky-v&lt;/li&gt;
 &lt;li&gt;fix: correct token expiration time unit in managed authentication (#8159) @cjwooo&lt;/li&gt;
 &lt;li&gt;feat: remove project ids from connections (#8149) @abuaboud&lt;/li&gt;
 &lt;li&gt;fix: revert include_usage in openai stream (#8134) @amrdb&lt;/li&gt;
@@ -194,6 +195,7 @@
 &lt;li&gt;fix: filter pieces on embedding (#8091) @abuaboud&lt;/li&gt;
 &lt;li&gt;fix: avoid key validation &amp;amp; verify runs (#8090) @abuaboud&lt;/li&gt;
 &lt;li&gt;fix: remove unique constraint on issue (#8087) @abuaboud&lt;/li&gt;
+&lt;li&gt;feat: revamp colors &amp;amp; style activepieces (#8162) @abuaboud&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;🎨 Enhancements &amp;amp; Polish&lt;/h2&gt;
 &lt;ul&gt;
@@ -226,6 +228,6 @@
 &lt;/ul&gt;
 &lt;h2&gt;Thanks ❤️&lt;/h2&gt;
 &lt;p&gt;@AbdulTheActivePiecer, @Ani-4x, @AnkitSharmaOnGithub, @Jeremie-Preault, @Vitalini, @abdulrahmanmajid, @abuaboud, @allcontributors, @allcontributors[bot], @amrdb, @bhaviksingla1403, @cjwooo, @geekyme, @hazemadelkhalel, @jadhavharshh, @kishanprmr, @onyedikachi-david and @snyk-bot&lt;/p&gt;</content>
-    <link href="https://github.com/activepieces/activepieces/releases/tag/0.64.0" rel="alternate"/>
+    <link href="https://github.com/activepieces/activepieces/releases/tag/0.64.1" rel="alternate"/>
   </entry>
 </feed>
