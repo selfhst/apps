@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LogForge Releases</title>
-  <updated>2025-06-25T17:37:07.751406-04:00</updated>
+  <updated>2025-06-25T18:36:34.705555-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -118,5 +118,25 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://log-forge.github.io/logforgeweb/#premium"&gt;Explore Premium Feature&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/log-forge/logforge/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/log-forge/logforge/releases/tag/v1.0.1</id>
+    <title>New release for LogForge: Persistency + general improvements</title>
+    <updated>2025-06-25T17:43:14-04:00</updated>
+    <author>
+      <name>log-forge/logforge</name>
+    </author>
+    <content>&lt;h3&gt;Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;terminal enhancements&lt;/li&gt;
+&lt;li&gt;persistency for settings&lt;/li&gt;
+&lt;li&gt;revamp of notifications UI (Quality/ease of life changes),&lt;/li&gt;
+&lt;li&gt;added additional support for many popular notification channels&lt;/li&gt;
+&lt;li&gt;significant reduction in overall size&lt;/li&gt;
+&lt;li&gt;fixed parsing for ANSI code in logs&lt;/li&gt;
+&lt;li&gt;implemented more robust parsing for datetime&lt;/li&gt;
+&lt;li&gt;Calendar to query logs along timeline now works&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/log-forge/logforge/releases/tag/v1.0.1" rel="alternate"/>
   </entry>
 </feed>
