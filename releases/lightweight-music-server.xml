@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lightweight Music Server Releases</title>
-  <updated>2025-06-25T04:31:08.851290-04:00</updated>
+  <updated>2025-06-25T05:31:09.300758-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,13 +97,17 @@
     <content>&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;
 * Now handling disc artworks, displayed in the UI and primarily reported for tracks. #604&lt;br /&gt;
   All artwork associations are now made during the scan process: you must rescan your libraries after this upgrade.
-* UI: artist artworks are now displayed as circles.
-* Added a scanner option to use album artwork if no artist artwork is found. #639 
-* Subsonic API: reports original release year for albums. #672
-* Added more details to error reports. #676
-* Added a quick database integrity check during startup (errors are output in logs).&lt;br /&gt;
+  Example:
+&lt;img alt="image" src="https://github.com/user-attachments/assets/be46f09a-42f8-4e84-9538-4e60e13fec20" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UI: artist artworks are now displayed as circles.&lt;/li&gt;
+&lt;li&gt;Added a scanner option to use album artwork if no artist artwork is found. #639 &lt;/li&gt;
+&lt;li&gt;Subsonic API: reports original release year for albums. #672&lt;/li&gt;
+&lt;li&gt;Added more details to error reports. #676&lt;/li&gt;
+&lt;li&gt;Added a quick database integrity check during startup (errors are output in logs).&lt;br /&gt;
   This can be configured in &lt;code&gt;lms.conf&lt;/code&gt; with the &lt;code&gt;db-integrity-check&lt;/code&gt; option, using values:&lt;br /&gt;
-&lt;code&gt;"none"&lt;/code&gt;, &lt;code&gt;"quick"&lt;/code&gt; (default), or &lt;code&gt;"full"&lt;/code&gt; (slower, but also checks for key constraint errors). #679 &lt;/p&gt;
+&lt;code&gt;"none"&lt;/code&gt;, &lt;code&gt;"quick"&lt;/code&gt; (default), or &lt;code&gt;"full"&lt;/code&gt; (slower, but also checks for key constraint errors). #679 &lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Bugfixes&lt;/strong&gt;
 * Subsonic API: changed return code from 41 to 42 when a token is used.&lt;/p&gt;</content>
     <link href="https://github.com/epoupon/lms/releases/tag/v3.67.0" rel="alternate"/>
