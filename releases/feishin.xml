@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Feishin Releases</title>
-  <updated>2025-06-26T06:34:17.739494-04:00</updated>
+  <updated>2025-06-26T07:34:00.541277-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -167,7 +167,8 @@
 &lt;li&gt;Fixed lyrics in the fullscreen player breaking in the middle of words (#969)&lt;/li&gt;
 &lt;li&gt;Fixed the styling of the main image in the fullscreen player&lt;/li&gt;
 &lt;li&gt;Fixed the position of the expanded image in the sidebar when using &lt;code&gt;Windows&lt;/code&gt; and &lt;code&gt;macOS&lt;/code&gt; window bars&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/jeffvli/feishin/compare/v0.15.1...v0.16.0&lt;/p&gt;</content>
     <link href="https://github.com/jeffvli/feishin/releases/tag/v0.16.0" rel="alternate"/>
   </entry>
 </feed>

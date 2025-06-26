@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gokapi Releases</title>
-  <updated>2025-06-26T06:32:31.772470-04:00</updated>
+  <updated>2025-06-26T07:32:22.048569-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -43,29 +43,11 @@
     <author>
       <name>Forceu/Gokapi</name>
     </author>
-    <content>&lt;h2&gt;1.9.5&lt;/h2&gt;
-&lt;h3&gt;Changelog&lt;/h3&gt;
+    <content>&lt;h3&gt;Changelog&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed a crash caused by an incorrectly upgraded database version #215, #216&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;1.9.3&lt;/h2&gt;
-&lt;h3&gt;Changelog&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed editing of API permissions or existing files not working, when using external authentication #210 &lt;/li&gt;
-&lt;li&gt;Fixed not showing an error message if file is larger than allowed file size #213&lt;/li&gt;
-&lt;li&gt;Upload defaults are now saved locally instead of server-side #196&lt;/li&gt;
-&lt;li&gt;Internal API key is now used for all API actions on the GUI&lt;/li&gt;
-&lt;li&gt;Added API endpoint &lt;code&gt;/auth/delete&lt;/code&gt; to delete API key&lt;/li&gt;
-&lt;li&gt;Added parameter in &lt;code&gt;/auth/create&lt;/code&gt; to include basic permissions&lt;/li&gt;
-&lt;li&gt;Added warning in docker container, if data or config volume are not mounted&lt;/li&gt;
-&lt;li&gt;Minor changes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Breaking Changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;API:&lt;/strong&gt; Session authentication has been removed, an API key is now required&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;API:&lt;/strong&gt; When not adding a parameter for maximum downloads or expiry, the default values of 1 download or 14 days are used instead of previous used values for calls &lt;code&gt;/files/add&lt;/code&gt; and &lt;code&gt;/chunk/complete&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.9.3...v1.9.5&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v1.9.4...v1.9.5&lt;/p&gt;</content>
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v1.9.5" rel="alternate"/>
   </entry>
   <entry>
@@ -195,7 +177,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Upgrading&lt;/h3&gt;
 &lt;p&gt;If you are upgrading from an older version than v2.0.0, please make sure to read the &lt;a href="https://github.com/Forceu/Gokapi/releases/tag/v2.0.0"&gt;v.2.0.0 upgrade notes&lt;/a&gt; first.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v2.0.0..v2.0.1&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Forceu/Gokapi/compare/v2.0.0...v2.0.1&lt;/p&gt;</content>
     <link href="https://github.com/Forceu/Gokapi/releases/tag/v2.0.1" rel="alternate"/>
   </entry>
 </feed>
