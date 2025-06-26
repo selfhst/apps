@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-06-25T19:35:56.101265-04:00</updated>
+  <updated>2025-06-25T20:36:04.909345-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -209,21 +209,21 @@ This is unlikely to have caused many real-world issues so far. [&lt;a href="http
 
 &lt;summary&gt;&lt;h2&gt; What's Changed over Beta &lt;/h2&gt;&lt;/summary&gt;
 
-* Deprecation notice for undocumented duplicate PKCS#11 seal options (#… by @cipherboy in https://github.com/openbao/openbao/pull/1481
-* CEL for Certificate Issuance Policy (#794) by @cipherboy in https://github.com/openbao/openbao/pull/1482
-* Fix detailed metadata on list results (#1388) by @cipherboy in https://github.com/openbao/openbao/pull/1483
-* Fix flaky PostgreSQL backend connection test (#1368) by @cipherboy in https://github.com/openbao/openbao/pull/1485
-* HSM: Add arm64 builds &amp; Alpine containers (#1427) by @cipherboy in https://github.com/openbao/openbao/pull/1486
-* Fix changelog entries (#1440) by @cipherboy in https://github.com/openbao/openbao/pull/1487
-* Point goreleaser and container image contacts to new OpenSSF domain (… by @cipherboy in https://github.com/openbao/openbao/pull/1489
-* Backport go-viper/mapstructure/v2 move by @cipherboy in https://github.com/openbao/openbao/pull/1488
-* Go dependency bumps to fix vulnerabilities in dependencies by @cipherboy in https://github.com/openbao/openbao/pull/1492
-* Fix identity store resolution (#1432) by @cipherboy in https://github.com/openbao/openbao/pull/1491
-* Namespaces UI support (#1406) by @cipherboy in https://github.com/openbao/openbao/pull/1484
-* Fix PostgreSQL table creation on replica (#1478) by @satoqz in https://github.com/openbao/openbao/pull/1494
+* Deprecation notice for undocumented duplicate PKCS#11 seal options (#1385 by @satoqz) backported by @cipherboy in https://github.com/openbao/openbao/pull/1481
+* CEL for Certificate Issuance Policy (#794 by @fatima2003) backported by @cipherboy in https://github.com/openbao/openbao/pull/1482
+* Fix detailed metadata on list results (#1388 by @cipherboy) backported by @cipherboy in https://github.com/openbao/openbao/pull/1483
+* Fix flaky PostgreSQL backend connection test (#1368 by @satoqz) backported by @cipherboy in https://github.com/openbao/openbao/pull/1485
+* HSM: Add arm64 builds &amp; Alpine containers (#1427 by @satoqz) backported by @cipherboy in https://github.com/openbao/openbao/pull/1486
+* Fix changelog entries (#1440 by @cipherboy) backported by @cipherboy in https://github.com/openbao/openbao/pull/1487
+* Point goreleaser and container image contacts to new OpenSSF domain (#1415 by @karras) backported by @cipherboy in https://github.com/openbao/openbao/pull/1489
+* Backport go-viper/mapstructure/v2 move (#1459 by @mikelolasagasti and @KrzysztofKornalewski-Reply and #1480 by @cipherboy) backported by @cipherboy in https://github.com/openbao/openbao/pull/1488
+* Go dependency bumps to fix vulnerabilities in dependencies (#1435 by @satoqz, #1434 by @wslabosz-reply, #1457 by @cipherboy) backported by @cipherboy in https://github.com/openbao/openbao/pull/1492
+* Fix identity store resolution (#1432 by @cipherboy) by @cipherboy in https://github.com/openbao/openbao/pull/1491
+* Namespaces UI support (#1406 by @driif) by @cipherboy in https://github.com/openbao/openbao/pull/1484
+* Fix PostgreSQL table creation on replica (#1478 by @cipherboy) by @satoqz in https://github.com/openbao/openbao/pull/1494
 * Add changelog entry for sdk/framework vulnerability by @cipherboy in https://github.com/openbao/openbao/pull/1497
 * Allow disabling unauthenticated rekey by @cipherboy in https://github.com/openbao/openbao/pull/1498
-* Minor improvements to CEL for PKI  (#1390) by @cipherboy in https://github.com/openbao/openbao/pull/1499
+* Minor improvements to CEL for PKI  (#1390 by @cipherboy) by @cipherboy in https://github.com/openbao/openbao/pull/1499
 * Bump API to v2.3.1 in core, sdk by @cipherboy in https://github.com/openbao/openbao/pull/1500
 * Bump sdk to v2.3.1, add changelog to v2.3.0 by @cipherboy in https://github.com/openbao/openbao/pull/1501
 * Bump to v2.3.1 - Drop Illumos support per policy in #711 by @cipherboy in https://github.com/openbao/openbao/pull/1503
