@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-06-26T13:31:41.273819-04:00</updated>
+  <updated>2025-06-26T14:31:37.727092-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,7 +141,13 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
+&lt;p&gt;• &lt;strong&gt;Improved user management&lt;/strong&gt; - Add user reset functionality with better documentation
+• &lt;strong&gt;Enhanced imports&lt;/strong&gt; - Allow importing from Trakt public lists 
+• &lt;strong&gt;Performance optimizations&lt;/strong&gt; - Significant improvements across the application with smaller TypeScript and Rust files
+• &lt;strong&gt;Better UI/UX&lt;/strong&gt; - Improved layout with zIndex properties and actual hyperlinks for display items
+• &lt;strong&gt;Streamlined codebase&lt;/strong&gt; - Refactored code organization for better maintainability&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/f7998d4ee97a9101ff4a124186b4aa528444c6ea"&gt;f7998d4e&lt;/a&gt; - Add zIndex property to Indicator component for improved layout&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/5599de7385354c171aaf65a7e82aedef5cea2e72"&gt;5599de73&lt;/a&gt; - Smaller typescript files (#1423)&lt;/li&gt;
