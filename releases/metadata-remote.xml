@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metadata Remote Releases</title>
-  <updated>2025-06-26T18:36:51.015468-04:00</updated>
+  <updated>2025-06-26T19:36:51.290438-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,5 +89,22 @@ wget https://raw.githubusercontent.com/wow-signal-dev/metadata-remote/main/docke
 &lt;h2&gt;⚠️ Important&lt;/h2&gt;
 &lt;p&gt;Users who downloaded v1.0.0 may encounter errors with files containing large metadata. Please update to this version.&lt;/p&gt;</content>
     <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.0</id>
+    <title>New release for Metadata Remote: v1.1.0</title>
+    <updated>2025-06-26T19:23:32-04:00</updated>
+    <author>
+      <name>wow-signal-dev/metadata-remote</name>
+    </author>
+    <content>&lt;p&gt;Release v1.1.0: Significant new features and support&lt;/p&gt;
+&lt;p&gt;(1) Added full support for OGG and OPUS file formats.
+(2) Added support for 'Composer' metadata field.
+(3) File filtering and sorting capability added for both folder and file panes.
+(4) Additional sorting options added: Name, Date Modified, File Size.
+(5) PGUP/PGDN functionality added for better keyboard navigation.
+(6) GUI rendered more compact by reducing padding.
+(7) Entire codebase refactored into modular architecture.&lt;/p&gt;</content>
+    <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
