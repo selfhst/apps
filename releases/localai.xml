@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LocalAI Releases</title>
-  <updated>2025-06-26T15:36:14.819520-04:00</updated>
+  <updated>2025-06-26T16:36:18.428518-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1185,7 +1185,7 @@ Llama.cpp upgrades also includes:
   <entry>
     <id>https://github.com/mudler/LocalAI/releases/tag/v3.1.0</id>
     <title>New release for LocalAI: v3.1.0</title>
-    <updated>2025-06-26T15:34:19-04:00</updated>
+    <updated>2025-06-26T16:14:10-04:00</updated>
     <author>
       <name>mudler/LocalAI</name>
     </author>
@@ -1197,10 +1197,12 @@ Llama.cpp upgrades also includes:
 &lt;/h1&gt;
 
 &lt;h1&gt;🚀 Highlights&lt;/h1&gt;
-&lt;h2&gt;🎛 Backend Gallery Now Smarter&lt;/h2&gt;
-&lt;p&gt;We’ve introduced meta-packages to the backend gallery!
-These packages automatically install the most suitable backend depending on the GPU detected in your system — saving time, reducing errors, and ensuring you get the right setup out of the box. These will be added as soon as the 3.1.0 images are going to be published, stay tuned!&lt;/p&gt;
-&lt;p&gt;For instance, you will be able to install &lt;code&gt;vllm&lt;/code&gt; just by installing the &lt;code&gt;vllm&lt;/code&gt; backend in the gallery ( no need to select anymore the correct GPU version)&lt;/p&gt;
+&lt;h2&gt;Support for Gemma 3n!&lt;/h2&gt;
+&lt;p&gt;Gemma 3n has been released and it's now available in LocalAI (currently only for text generation, install it with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;local-ai run gemma-3n-e2b-it&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;local-ai run gemma-3n-e4b-it&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;⚠️ Breaking Changes&lt;/h2&gt;
 &lt;p&gt;Several important changes that reduce image size, simplify the ecosystem, and pave the way for a leaner LocalAI core:&lt;/p&gt;
 &lt;h3&gt;🧰 Container Image Changes&lt;/h3&gt;
@@ -1220,6 +1222,10 @@ These packages automatically install the most suitable backend depending on the 
 &lt;li&gt;&lt;code&gt;gpu-nvidia-cuda11&lt;/code&gt; and &lt;code&gt;gpu-nvidia-cuda12&lt;/code&gt; (previously &lt;code&gt;cublas-cuda11&lt;/code&gt;, &lt;code&gt;cublas-cuda12&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;gpu-intel-f16&lt;/code&gt; and &lt;code&gt;gpu-intel-f32&lt;/code&gt; (previously &lt;code&gt;sycl-f16&lt;/code&gt;, &lt;code&gt;sycl-f32&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Meta packages in backend galleries&lt;/h2&gt;
+&lt;p&gt;We’ve introduced meta-packages to the backend gallery!
+These packages automatically install the most suitable backend depending on the GPU detected in your system — saving time, reducing errors, and ensuring you get the right setup out of the box. These will be added as soon as the 3.1.0 images are going to be published, stay tuned!&lt;/p&gt;
+&lt;p&gt;For instance, you will be able to install &lt;code&gt;vllm&lt;/code&gt; just by installing the &lt;code&gt;vllm&lt;/code&gt; backend in the gallery ( no need to select anymore the correct GPU version)&lt;/p&gt;
 &lt;h2&gt;The Complete Local Stack for Privacy-First AI&lt;/h2&gt;
 &lt;p&gt;With LocalAGI rejoining LocalAI alongside LocalRecall, our ecosystem provides a complete, open-source stack for private, secure, and intelligent AI operations:&lt;/p&gt;
 &lt;table&gt;
@@ -1262,7 +1268,7 @@ These packages automatically install the most suitable backend depending on the 
 &lt;/table&gt;
 
 &lt;h2&gt;Join the Movement! ❤️&lt;/h2&gt;
-&lt;p&gt;A massive &lt;strong&gt;THANK YOU&lt;/strong&gt; to our incredible community and our sponsors! LocalAI has over &lt;strong&gt;33,300 stars&lt;/strong&gt;, and LocalAGI has already rocketed past &lt;strong&gt;750+ stars&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;A massive &lt;strong&gt;THANK YOU&lt;/strong&gt; to our incredible community and our sponsors! LocalAI has over &lt;strong&gt;33,500 stars&lt;/strong&gt;, and LocalAGI has already rocketed past &lt;strong&gt;800+ stars&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;As a reminder, LocalAI is real FOSS (Free and Open Source Software) and its sibling projects are community-driven and not backed by VCs or a company. We rely on contributors donating their spare time and our sponsors to provide us the hardware! If you love open-source, privacy-first AI, please consider starring the repos, contributing code, reporting bugs, or spreading the word!&lt;/p&gt;
 &lt;p&gt;👉 &lt;strong&gt;Check out the reborn LocalAGI v2 today:&lt;/strong&gt; &lt;a href="https://github.com/mudler/LocalAGI"&gt;https://github.com/mudler/LocalAGI&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Full changelog :point_down:&lt;/h2&gt;
@@ -1273,13 +1279,14 @@ These packages automatically install the most suitable backend depending on the 
 &lt;/summary&gt;
 
 
-
 ## What's Changed
 ### Breaking Changes 🛠
 * chore(ci): :warning: fix latest tag by using docker meta action by @mudler in https://github.com/mudler/LocalAI/pull/5722
 * feat: :warning:  reduce images size and stop bundling sources by @mudler in https://github.com/mudler/LocalAI/pull/5721
 ### Bug fixes :bug:
 * fix(backends gallery): delete dangling dirs if installation failed by @mudler in https://github.com/mudler/LocalAI/pull/5729
+### Exciting New Features 🎉
+* feat(backend gallery): add meta packages by @mudler in https://github.com/mudler/LocalAI/pull/5696
 ### 🧠 Models
 * chore(model gallery): add qwen3-the-josiefied-omega-directive-22b-uncensored-abliterated-i1 by @mudler in https://github.com/mudler/LocalAI/pull/5704
 * chore(model gallery): add menlo_jan-nano by @mudler in https://github.com/mudler/LocalAI/pull/5705
@@ -1308,13 +1315,13 @@ These packages automatically install the most suitable backend depending on the 
 * chore: :arrow_up: Update ggml-org/llama.cpp to `2bf9d539dd158345e3a3b096e16474af535265b4` by @localai-bot in https://github.com/mudler/LocalAI/pull/5724
 * chore: :arrow_up: Update ggml-org/whisper.cpp to `4daf7050ca2bf17f5166f45ac6da651c4e33f293` by @localai-bot in https://github.com/mudler/LocalAI/pull/5725
 * Revert "chore: :arrow_up: Update leejet/stable-diffusion.cpp to `10c6501bd05a697e014f1bee3a84e5664290c489`" by @mudler in https://github.com/mudler/LocalAI/pull/5727
+* chore: :arrow_up: Update ggml-org/llama.cpp to `8846aace4934ad29651ea61b8c7e3f6b0556e3d2` by @localai-bot in https://github.com/mudler/LocalAI/pull/5734
+* chore: :arrow_up: Update ggml-org/whisper.cpp to `32cf4e2aba799aff069011f37ca025401433cf9f` by @localai-bot in https://github.com/mudler/LocalAI/pull/5733
 ### Other Changes
 * docs: :arrow_up: update docs version mudler/LocalAI by @localai-bot in https://github.com/mudler/LocalAI/pull/5690
 * chore(ci): try to optimize disk space when tagging latest by @mudler in https://github.com/mudler/LocalAI/pull/5695
 * chore(ci): add stale bot by @mudler in https://github.com/mudler/LocalAI/pull/5700
 * Docs: Fix typos by @kilavvy in https://github.com/mudler/LocalAI/pull/5709
-* feat(backend gallery): add meta packages by @mudler in https://github.com/mudler/LocalAI/pull/5696
-
 &lt;/details&gt;
 
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mudler/LocalAI/compare/v3.0.0...v3.1.0&lt;/p&gt;</content>

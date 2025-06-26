@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-06-26T15:35:38.879811-04:00</updated>
+  <updated>2025-06-26T16:35:40.217253-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -31,7 +31,8 @@
     <author>
       <name>Catfriend1/syncthing-android</name>
     </author>
-    <content>&lt;p&gt;What's Changed:
+    <content>&lt;p&gt;&lt;strong&gt;Checkpoint release - Use this if migrating from the deprecated "syncthing-android" to this app.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;What's Changed:
 - Improve log file share by file provider (fixes #1454) (#1459)&lt;/p&gt;
 &lt;p&gt;Problems upgrading? See release notes of &lt;a href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.6.5"&gt;v1.29.6.5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Catfriend1/syncthing-android/compare/v1.29.7.0...v1.29.7.1&lt;/p&gt;</content>
