@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Eigenfocus Releases</title>
-  <updated>2025-06-26T10:36:02.900625-04:00</updated>
+  <updated>2025-06-26T11:35:56.841688-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -162,10 +162,7 @@
 &lt;p&gt;&lt;strong&gt;Temporarily storing issue description&lt;/strong&gt;
 Have you ever started writing something and just closed the issue without saving it? Well... now your draft is preserved.&lt;/p&gt;
 &lt;p&gt;We're temporarily storing the changes in your browser and showing a warning when you have unsaved changes.&lt;/p&gt;
-&lt;h1&gt;We are on Product Hunt&lt;/h1&gt;
-&lt;p&gt;If you’ve been enjoying Eigenfocus, we’d be really grateful if give us an upvote on Product Hunt!&lt;/p&gt;
-&lt;p&gt;It only takes a second and helps us reach more indie founders, developers and teams who could benefit from Eigenfocus!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.producthunt.com/products/eigenfocus-self-hosted-cloud"&gt;­👉 Vote on Eigenfocus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you’ve been enjoying Eigenfocus, don't forget to recommend it to your friends :)&lt;/p&gt;
 &lt;p&gt;Thanks 🙏.&lt;/p&gt;
 &lt;h3&gt;Screenshots&lt;/h3&gt;
 &lt;div align="center"&gt;
@@ -173,11 +170,7 @@ Have you ever started writing something and just closed the issue without saving
 &lt;img src="https://github.com/user-attachments/assets/5b401e7e-5b3b-4974-a57e-411af8ea4196" width="60%"/&gt;
 &lt;img src="https://github.com/user-attachments/assets/c47518f6-f111-4fb3-bc9b-1cbbc8d04483" width="60%"/&gt;
 &lt;img src="https://github.com/user-attachments/assets/864e88b7-ed30-4809-bde7-3b7c3630ba53" width="60%"/&gt;
-&lt;/div&gt;
-
-&lt;h1&gt;P.S. Don’t forget to upvote. It's quick and helps us a lot!&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.producthunt.com/products/eigenfocus-self-hosted-cloud"&gt;­👉 Vote on Eigenfocus&lt;/a&gt;
-­&lt;/p&gt;</content>
+&lt;/div&gt;</content>
     <link href="https://github.com/Eigenfocus/eigenfocus/releases/tag/v1.2.0-free" rel="alternate"/>
   </entry>
 </feed>
