@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Kiosk Releases</title>
-  <updated>2025-06-26T07:34:04.603229-04:00</updated>
+  <updated>2025-06-26T08:34:06.802713-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,13 +166,38 @@ The endpont also now supports &lt;a href="https://docs.immichkiosk.app/configura
   <entry>
     <id>https://github.com/damongolding/immich-kiosk/releases/tag/v0.21.5</id>
     <title>New release for Immich Kiosk: v0.21.5</title>
-    <updated>2025-06-22T04:56:27-04:00</updated>
+    <updated>2025-06-26T07:58:27-04:00</updated>
     <author>
       <name>damongolding/immich-kiosk</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at task/release --&gt;
-
-&lt;p&gt;Binary creation fix (PRE RELEASE)&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="" src="https://immich-kiosk.vercel.app/api/banner?v=0.21.5" /&gt;&lt;/p&gt;
+&lt;h2&gt;Menu position&lt;/h2&gt;
+&lt;p&gt;Added &lt;code&gt;menu_position&lt;/code&gt; to allow users to move the menu to the bottom of the screen.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.immichkiosk.app/configuration/ui/#menu-position"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Progress bar position&lt;/h2&gt;
+&lt;p&gt;Added &lt;code&gt;progress_position&lt;/code&gt; to allow users to move the progress bar to the bottom of the screen. Useful when displaying Kiosk on a frame due the the viewing angle. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.immichkiosk.app/configuration/behavior/#progress-position"&gt;docs&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Output config for debug&lt;/h2&gt;
+&lt;p&gt;Enabling either &lt;code&gt;KIOSK_DEBUG&lt;/code&gt; or &lt;code&gt;KIOSK_DEBUG_VERBOSE&lt;/code&gt; enables the &lt;code&gt;/config&lt;/code&gt; endpoint which outputs the users config (with sensitive info redacted) as yaml. Useful for debugging and submitting issues.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;🚀 New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature/menu position by @damongolding in https://github.com/damongolding/immich-kiosk/pull/458&lt;/li&gt;
+&lt;li&gt;Feature/add config output by @damongolding in https://github.com/damongolding/immich-kiosk/pull/459&lt;/li&gt;
+&lt;li&gt;Feature/cache headers by @damongolding in https://github.com/damongolding/immich-kiosk/pull/460&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;⚡ Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix/hide button (archive) by @damongolding in https://github.com/damongolding/immich-kiosk/pull/457&lt;/li&gt;
+&lt;li&gt;Fix/last x days by @damongolding in https://github.com/damongolding/immich-kiosk/pull/463&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔨 Maintenance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chore/deps by @damongolding in https://github.com/damongolding/immich-kiosk/pull/461&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/damongolding/immich-kiosk/compare/v0.21.4...v0.21.5&lt;/p&gt;</content>
     <link href="https://github.com/damongolding/immich-kiosk/releases/tag/v0.21.5" rel="alternate"/>
   </entry>

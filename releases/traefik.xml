@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Traefik Releases</title>
-  <updated>2025-06-26T07:32:08.150709-04:00</updated>
+  <updated>2025-06-26T08:32:10.935592-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,7 +123,20 @@
     <author>
       <name>traefik/traefik</name>
     </author>
-    <content>&lt;p&gt;v3.4.2&lt;/p&gt;</content>
+    <content>&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;
+- &lt;strong&gt;[acme]&lt;/strong&gt; Add a note to certificatesDuration (&lt;a href="https://github.com/traefik/traefik/pull/11808"&gt;#11808&lt;/a&gt; by &lt;a href="https://github.com/sMteX"&gt;sMteX&lt;/a&gt;)
+- &lt;strong&gt;[docker,k8s]&lt;/strong&gt; Update Getting started Section with New Docker and Kubernetes Tutorial (&lt;a href="https://github.com/traefik/traefik/pull/11714"&gt;#11714&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)
+- &lt;strong&gt;[docker]&lt;/strong&gt; Remove obsolete version field in compose files (&lt;a href="https://github.com/traefik/traefik/pull/11798"&gt;#11798&lt;/a&gt; by &lt;a href="https://github.com/thomas-mauran"&gt;thomas-mauran&lt;/a&gt;)
+- &lt;strong&gt;[k8s]&lt;/strong&gt; Add a note about Ingress Backend Resource support (&lt;a href="https://github.com/traefik/traefik/pull/11785"&gt;#11785&lt;/a&gt; by &lt;a href="https://github.com/edysli"&gt;edysli&lt;/a&gt;)
+- &lt;strong&gt;[logs,metrics,tracing,accesslogs]&lt;/strong&gt; Update the EntryPoints Documentation (&lt;a href="https://github.com/traefik/traefik/pull/11856"&gt;#11856&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)
+- &lt;strong&gt;[logs,metrics,tracing,accesslogs]&lt;/strong&gt; Add New Observe Guides to the Documentation (&lt;a href="https://github.com/traefik/traefik/pull/11828"&gt;#11828&lt;/a&gt; by &lt;a href="https://github.com/sheddy-traefik"&gt;sheddy-traefik&lt;/a&gt;)
+- &lt;strong&gt;[middleware]&lt;/strong&gt; Remove conflicting information from the CircuitBreaker documentation. (&lt;a href="https://github.com/traefik/traefik/pull/11835"&gt;#11835&lt;/a&gt; by &lt;a href="https://github.com/adk-swisstopo"&gt;adk-swisstopo&lt;/a&gt;)
+- &lt;strong&gt;[service]&lt;/strong&gt; Clarify mirroring service default percent value (&lt;a href="https://github.com/traefik/traefik/pull/11804"&gt;#11804&lt;/a&gt; by &lt;a href="https://github.com/Alexy-vda"&gt;Alexy-vda&lt;/a&gt;)
+- &lt;strong&gt;[websocket]&lt;/strong&gt; Add WebSocket guide (&lt;a href="https://github.com/traefik/traefik/pull/11623"&gt;#11623&lt;/a&gt; by &lt;a href="https://github.com/NX211"&gt;NX211&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Misc:&lt;/strong&gt;
+- Merge branch v2.11 into v3.4 (&lt;a href="https://github.com/traefik/traefik/pull/11859"&gt;#11859&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Merge branch v2.11 into v3.4 (&lt;a href="https://github.com/traefik/traefik/pull/11831"&gt;#11831&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)
+- Merge branch v2.11 into v3.4 (&lt;a href="https://github.com/traefik/traefik/pull/11810"&gt;#11810&lt;/a&gt; by &lt;a href="https://github.com/rtribotte"&gt;rtribotte&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/traefik/traefik/releases/tag/v3.4.2" rel="alternate"/>
   </entry>
 </feed>
