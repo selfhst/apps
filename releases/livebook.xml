@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Livebook Releases</title>
-  <updated>2025-06-26T19:36:26.843353-04:00</updated>
+  <updated>2025-06-26T20:38:43.078778-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -60,16 +60,6 @@
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.3" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
-    <title>New release for Livebook: nightly</title>
-    <updated>2024-10-25T07:31:23-04:00</updated>
-    <author>
-      <name>livebook-dev/livebook</name>
-    </author>
-    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
-    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
-  </entry>
-  <entry>
     <id>https://github.com/livebook-dev/livebook/releases/tag/v0.16.4</id>
     <title>New release for Livebook: v0.16.4</title>
     <updated>2025-06-20T06:19:46-04:00</updated>
@@ -82,5 +72,15 @@
 &lt;li&gt;Embedding livebook inside iframe with LIVEBOOK_WITHIN_IFRAME (&lt;a href="https://github.com/livebook-dev/livebook/pull/3024"&gt;#3024&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/livebook-dev/livebook/releases/tag/v0.16.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/livebook-dev/livebook/releases/tag/nightly</id>
+    <title>New release for Livebook: nightly</title>
+    <updated>2024-10-25T07:31:23-04:00</updated>
+    <author>
+      <name>livebook-dev/livebook</name>
+    </author>
+    <content>&lt;p&gt;Automated nightly release.&lt;/p&gt;</content>
+    <link href="https://github.com/livebook-dev/livebook/releases/tag/nightly" rel="alternate"/>
   </entry>
 </feed>
