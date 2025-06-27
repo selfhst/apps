@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GitLab Releases</title>
-  <updated>2025-06-27T15:30:52.603713-04:00</updated>
+  <updated>2025-06-27T16:30:53.296527-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -857,20 +857,11 @@
     <author>
       <name>gitlab-org/gitlab-foss</name>
     </author>
-    <content>&lt;p&gt;&lt;img alt="9 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=9&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
-&lt;img alt="2402 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2402&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="8 new features" src="https://img.shields.io/static/v1?color=108548&amp;amp;label=new+features&amp;amp;labelColor=525252&amp;amp;message=8&amp;amp;style=for-the-badge" title="New features added in this release" /&gt;
+&lt;img alt="2401 total badges" src="https://img.shields.io/static/v1?color=1F75CB&amp;amp;label=total+features&amp;amp;labelColor=525252&amp;amp;message=2401&amp;amp;style=for-the-badge" title="Total features" /&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;[New `accessLevels` argument for `projectMembers` in GraphQL API](https://docs.gitlab.com/api/graphql/reference/#projectprojectmembers): &lt;code&gt;Groups &amp; Projects&lt;/code&gt;&lt;/summary&gt;
 
 &gt; We're excited to announce the addition of the `accessLevels` argument to the `projectMembers` field in our GraphQL API. Use this argument to filter project members by access level directly from an API call. Previously, you had to fetch an entire list of project members and apply filters locally, which added significant computational overhead. Now, analyzing project permissions and generating ownership graphs is faster and more resource-efficient. This enhancement is particularly valuable to organizations managing large-scale deployments with complex permission structures.
-
-&lt;/details&gt;
-
-&lt;h5&gt;&lt;a href="https://about.gitlab.com/stages-devops-lifecycle/plan/"&gt;Plan&lt;/a&gt;&lt;/h5&gt;
-&lt;details&gt;&lt;summary&gt;[Epic support for GitLab Query Language views Beta](https://docs.gitlab.com/user/glql/fields/#epic): &lt;code&gt;Wiki&lt;/code&gt;, &lt;code&gt;Team Planning&lt;/code&gt;&lt;/summary&gt;
-
-&gt; We've made a significant improvement to GitLab Query Language (GLQL) views. You can now use epic as a type in your queries to search for epics across groups, and query by parent epic!
-&gt; 
-&gt; This is a huge step forward for our planning and tracking capabilities, making it easier than ever to query and organize at the epic level.
 
 &lt;/details&gt;
 
