@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Payload Releases</title>
-  <updated>2025-06-27T17:32:17.661603-04:00</updated>
+  <updated>2025-06-27T18:32:19.766163-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -372,6 +372,21 @@
       <name>payloadcms/payload</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/payloadcms/payload/compare/v3.43.0...v3.44.0"&gt;v3.44.0&lt;/a&gt; (2025-06-27)&lt;/h2&gt;
+&lt;h3&gt;🚨 Notice 🚨&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;If your project uses the local auth strategy with &lt;code&gt;db-postgres&lt;/code&gt; or &lt;code&gt;db-sqlite&lt;/code&gt;, a migration is required.&lt;/strong&gt; This is due to a new security feature (enabled by default) that stores a unique auth session identifier in the database.&lt;/p&gt;
+&lt;p&gt;To opt out and continue using the previous behavior, you can disable the feature by setting &lt;code&gt;auth.useSessions: false&lt;/code&gt; in your users collection config.&lt;/p&gt;
+&lt;p&gt;For example: &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ts
+// payload.config.ts
+collections: [
+  {
+    slug: 'users',
+    auth: {
+      useSessions: false,
+    },
+    fields: [],
+  },
+],&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;🚀 Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;auth sessions (&lt;a href="https://github.com/payloadcms/payload/issues/12483"&gt;#12483&lt;/a&gt;) (&lt;a href="https://github.com/payloadcms/payload/commit/26d709d"&gt;26d709d&lt;/a&gt;)&lt;/li&gt;
