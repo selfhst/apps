@@ -548,6 +548,12 @@
         ]
     },
     {
+        "Tag": "Learning",
+        "Valid Types": [
+            "Software"
+        ]
+    },
+    {
         "Tag": "Live Streaming",
         "Valid Types": [
             "Software"
@@ -1015,14 +1021,14 @@
     {
         "Tag": "Theme",
         "Valid Types": [
-            "ActivityPub"
+            "Software",
+            "Companion"
         ]
     },
     {
         "Tag": "Theme",
         "Valid Types": [
-            "Software",
-            "Companion"
+            "ActivityPub"
         ]
     },
     {
