@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-06-27T08:35:42.169393-04:00</updated>
+  <updated>2025-06-27T09:35:51.337973-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,19 +104,26 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.16" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.25</id>
-    <title>New release for ebook2audiobook: v25.6.25</title>
-    <updated>2025-06-24T22:46:52-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.27</id>
+    <title>New release for ebook2audiobook: v25.6.27</title>
+    <updated>2025-06-27T09:02:03-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;sync by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/856&lt;/li&gt;
-&lt;li&gt;Fixed headless tts_engine by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/859&lt;/li&gt;
-&lt;li&gt;V25.6.25 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/860&lt;/li&gt;
+&lt;li&gt;Fixed VERSION by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/861&lt;/li&gt;
+&lt;li&gt;V25.6.25 fixed version by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/862&lt;/li&gt;
+&lt;li&gt;backporting previous tts_engine params for headless by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/863&lt;/li&gt;
+&lt;li&gt;V25.6.25 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/864&lt;/li&gt;
+&lt;li&gt;fixed transformers, bark and sample_rate by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/866&lt;/li&gt;
+&lt;li&gt;v25.6.25 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/868&lt;/li&gt;
+&lt;li&gt;V25.6.25 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/867&lt;/li&gt;
+&lt;li&gt;Update docker-build+test.yml to new named by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/857&lt;/li&gt;
+&lt;li&gt;v25.6.27 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/873&lt;/li&gt;
+&lt;li&gt;V25.6.27 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/874&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.24...v25.6.25&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.25" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.25...v25.6.27&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.27" rel="alternate"/>
   </entry>
 </feed>
