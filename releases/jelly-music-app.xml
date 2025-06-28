@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jelly Music App Releases</title>
-  <updated>2025-06-28T16:36:47.928785-04:00</updated>
+  <updated>2025-06-28T17:36:41.932154-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,5 +44,50 @@
 @melisa-abuin: Filter state changes and sorting enhancements&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/08ee642c81a570fd1ba591480fce0103f23f534f...777fb899038aaa392d10a816d263dafa970f41a6&lt;/p&gt;</content>
     <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Stannnnn/jelly-app/releases/tag/v0.3.0</id>
+    <title>New release for Jelly Music App: v0.3.0</title>
+    <updated>2025-06-28T17:30:08-04:00</updated>
+    <author>
+      <name>Stannnnn/jelly-app</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Lyrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing a new way to enjoy your favorite songs, with a spectacular UI showing perfectly timed lyrics that appear line-by-line as you listen. Lyrics that aren't synchronized are still displayed as a normal list.&lt;/li&gt;
+&lt;li&gt;Access to lyrics appears elegantly once available, tucked in the sidenav next to settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Crossfade&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Smoothly transition between tracks for a seamless and immersive listening experience. Crossfade is now available in Settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Queue&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Queue page has been vastly improved &amp;amp; revamped, it is now in a stable state.&lt;/li&gt;
+&lt;li&gt;Added drag-and-drop functionality to effortlessly reorder tracks, works effortlessly on both Desktop and Mobile alike.&lt;/li&gt;
+&lt;li&gt;Lots of bug fixes and improvements for a more reliable queue management experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Docker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing a new Docker image for easier setup and deployment, more info can be found in the &lt;a href="https://github.com/Stannnnn/jelly-app?tab=readme-ov-file#docker"&gt;README&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enhancements &amp;amp; Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instant Mix&lt;/strong&gt; is now available as a standalone page.&lt;/li&gt;
+&lt;li&gt;Dedicated &lt;strong&gt;Album Artists&lt;/strong&gt; page.&lt;/li&gt;
+&lt;li&gt;Added new 'name' filter to sorting options.&lt;/li&gt;
+&lt;li&gt;Enhanced favorites page with more granular filtering for a personalized browsing experience.&lt;/li&gt;
+&lt;li&gt;Completely reworked shuffle functionality, new and improved&lt;/li&gt;
+&lt;li&gt;Better error handling&lt;/li&gt;
+&lt;li&gt;Many general bugfixes, improvements, optimizations and overall UI polish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to @seijihariki for implementing the lyrics functionality and helping with docker support&lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@Dissem made their first contribution in https://github.com/Stannnnn/jelly-app/pull/14 - improving docker support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
