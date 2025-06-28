@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Koel Releases</title>
-  <updated>2025-06-28T12:36:22.630828-04:00</updated>
+  <updated>2025-06-28T13:36:23.243295-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -103,7 +103,7 @@ Since Laravel 11 requires PHP &amp;gt;= 8.2, make sure your PHP version meets th
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;The most important change in this version is a complete revamp of genres. Previously, genres were stored as part of the &lt;code&gt;songs&lt;/code&gt; table (and an attribute of the &lt;code&gt;Song&lt;/code&gt; model). This version upgrades genres to be a first-class citizen of the system, with their own table and entity.&lt;/p&gt;
-&lt;p&gt;The second important change is the switch from yarn to pnpm as the FE package manager. Koel'd been using yarn since day 1, but it yarn (at least the Classic) has become obsolete and fallen behind other package managers like pnpm. Fortunately, the switch is as simple as installing pnpm and replacing all &lt;code&gt;yarn&lt;/code&gt; commands with their &lt;code&gt;pnpm&lt;/code&gt; counterpart.&lt;/p&gt;
+&lt;p&gt;The second important change is the switch from yarn to pnpm as the FE package manager. Koel'd been using yarn since day 1, but yarn (at least the Classic version) has become obsolete and fallen behind other package managers like pnpm. Fortunately, the switch is as simple as installing pnpm and replacing all &lt;code&gt;yarn&lt;/code&gt; commands with their &lt;code&gt;pnpm&lt;/code&gt; counterpart.&lt;/p&gt;
 &lt;p&gt;Other changes include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;chore: use getRouteKeyName instead of custom model binding by @phanan in https://github.com/koel/koel/pull/1970&lt;/li&gt;
