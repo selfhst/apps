@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Minio Releases</title>
-  <updated>2025-06-28T13:32:00.951970-04:00</updated>
+  <updated>2025-06-28T14:32:00.951828-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,6 +106,7 @@
 &lt;li&gt;Removal of boringcrypto support - since go1.24.x, you can now simply use the GOFIPS environment variable on the same binary.&lt;/li&gt;
 &lt;li&gt;Embedded UI Console is now deprecated and moved to &lt;a href="https://github.com/minio/object-browser"&gt;object-browser&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;External IDP logins via LDAP/OIDC are removed as well; these are now available as part of the AiStor Product.&lt;/li&gt;
+&lt;li&gt;STS APIs continue to work if someone wishes to build UI in front.&lt;/li&gt;
 &lt;li&gt;For all paying customers, we recommend that if you are planning to upgrade, you should upgrade to &lt;a href="https://min.io/download?view=aistor-custom"&gt;AiStor&lt;/a&gt;. &lt;/li&gt;
 &lt;li&gt;Open a &lt;a href="https://subnet.min.io"&gt;SUBNET&lt;/a&gt; issue so that we can guide you further on the AiStor migration.&lt;/li&gt;
 &lt;li&gt;AiStor binaries are backwards compatible, so you can upgrade your existing open source deployment to AiStor seamlessly.&lt;/li&gt;
