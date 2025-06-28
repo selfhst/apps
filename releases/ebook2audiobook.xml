@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-06-27T21:35:31.525751-04:00</updated>
+  <updated>2025-06-27T22:35:36.720077-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,9 +104,9 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.16" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.27</id>
-    <title>New release for ebook2audiobook: v25.6.27</title>
-    <updated>2025-06-27T09:02:03-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.28</id>
+    <title>New release for ebook2audiobook: v25.6.28</title>
+    <updated>2025-06-27T22:14:33-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
@@ -123,7 +123,7 @@
 &lt;li&gt;v25.6.27 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/873&lt;/li&gt;
 &lt;li&gt;V25.6.27 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/874&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.25...v25.6.27&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.27" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.6.25...v25.6.28&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.6.28" rel="alternate"/>
   </entry>
 </feed>
