@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-06-27T22:31:37.176553-04:00</updated>
+  <updated>2025-06-27T23:31:37.957418-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,12 +141,43 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;Updates in this release&lt;/h2&gt;
-&lt;p&gt;• &lt;strong&gt;Improved user management&lt;/strong&gt; - Add user reset functionality with better documentation
-• &lt;strong&gt;Enhanced imports&lt;/strong&gt; - Allow importing from Trakt public lists 
-• &lt;strong&gt;Performance optimizations&lt;/strong&gt; - Significant improvements across the application with smaller TypeScript and Rust files
-• &lt;strong&gt;Better UI/UX&lt;/strong&gt; - Improved layout with zIndex properties and actual hyperlinks for display items
-• &lt;strong&gt;Streamlined codebase&lt;/strong&gt; - Refactored code organization for better maintainability&lt;/p&gt;
+    <content>&lt;h2&gt;🚨 Important Notice: Default Access Tokens Removal&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Starting with the next major release (expected within 30 days), Ryot will no longer include default access tokens for external services.&lt;/strong&gt; This change affects &lt;strong&gt;self-hosted instances only&lt;/strong&gt; - cloud users are unaffected. The services affected are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MyAnimeList&lt;/strong&gt; - Default client ID will be removed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trakt&lt;/strong&gt; - Default client ID will be removed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TMDB&lt;/strong&gt; - Default access token will be removed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Why this change?&lt;/h3&gt;
+&lt;p&gt;As Ryot's popularity has grown with many self-hosted instances now in use, the shared default API keys are hitting rate limits and the volume of API requests is exceeding the free tiers of these service providers, causing errors. To ensure a better experience for everyone, users will need to obtain their own API credentials.&lt;/p&gt;
+&lt;h3&gt;What you need to do&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;If you are running a self-hosted instance&lt;/strong&gt;, please obtain your own API credentials before the next release by following these guides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MyAnimeList&lt;/strong&gt;: &lt;a href="https://docs.ryot.io/guides/myanimelist"&gt;docs.ryot.io/guides/myanimelist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trakt&lt;/strong&gt;: &lt;a href="https://docs.ryot.io/guides/trakt"&gt;docs.ryot.io/guides/trakt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TMDB&lt;/strong&gt;: &lt;a href="https://docs.ryot.io/guides/movies-and-shows"&gt;docs.ryot.io/guides/movies-and-shows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These guides provide step-by-step instructions for creating free developer accounts and obtaining your personal API keys.&lt;/p&gt;
+&lt;h3&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;Once you have your credentials, add them to your environment variables:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;MyAnimeList&lt;/h1&gt;
+&lt;p&gt;ANIME_AND_MANGA_MAL_CLIENT_ID=your_mal_client_id&lt;/p&gt;
+&lt;h1&gt;Trakt&lt;/h1&gt;
+&lt;p&gt;SERVER_IMPORTER_TRAKT_CLIENT_ID=your_trakt_client_id&lt;/p&gt;
+&lt;h1&gt;TMDB&lt;/h1&gt;
+&lt;p&gt;MOVIES_AND_SHOWS_TMDB_ACCESS_TOKEN=your_tmdb_access_token
+```&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Updates in this release&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Improved user management&lt;/strong&gt; - Add user reset functionality with better documentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced imports&lt;/strong&gt; - Allow importing from Trakt public lists&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance optimizations&lt;/strong&gt; - Significant improvements across the application with smaller TypeScript and Rust files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better UI/UX&lt;/strong&gt; - Improved layout with zIndex properties and actual hyperlinks for display items&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Streamlined codebase&lt;/strong&gt; - Refactored code organization for better maintainability&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bug fixes&lt;/strong&gt; - Long standing issue of duplicate people in the database&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/f7998d4ee97a9101ff4a124186b4aa528444c6ea"&gt;f7998d4e&lt;/a&gt; - Add zIndex property to Indicator component for improved layout&lt;/li&gt;
@@ -157,7 +188,7 @@
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/7af40548f84983bb00c963ecb097a89d81f5b75d"&gt;7af40548&lt;/a&gt; - Performance improvements (#1417)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/3a0730e54aecafdce36789ee6a9bb9c6aeb634f7"&gt;3a0730e5&lt;/a&gt; - New metadata progress update flow (#1377)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/b306db5affccad45eb97400b32cc9679cecd64b9"&gt;b306db5a&lt;/a&gt; - Improve access link handling and user metadata sorting (#1411)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/c62097c8eea24f7cdc0c6a1136d5d7bc85dc75c6"&gt;c62097c8&lt;/a&gt; - Make diaplay items to actual hyperlinks (#1408)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/c62097c8eea24f7cdc0c6a1136d5d7bc85dc75c6"&gt;c62097c8&lt;/a&gt; - Make display items to actual hyperlinks (#1408)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/4fde489c6b7ecff4ae62c21bc3d6e38da74c6450"&gt;4fde489c&lt;/a&gt; - Refactor average rating calculation for user clarity and performance (#1406)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/113330c109e45b680c426ba2b50de07574c3a27d"&gt;113330c1&lt;/a&gt; - Smaller rust crates (#1402)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/b8f2fba4670cae05ff9af853dd4c60de3e7b8b18"&gt;b8f2fba4&lt;/a&gt; - Merge pull request #1400 from IgnisDa:IgnisDa/issue1397&lt;/li&gt;
@@ -175,7 +206,7 @@
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/6ab8f8438ab876334e39a3b7312a2111c387b6e5"&gt;6ab8f843&lt;/a&gt; - refactor(dependent): streamline entity collection handling in add_entity_to_collection function&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/41b8b2f880a65447a6540152718cb39d289e3e5e"&gt;41b8b2f8&lt;/a&gt; - Support tickets (#1396)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/4df8de81cc989f9a6b3940818578988ad3bff661"&gt;4df8de81&lt;/a&gt; - ci: update GitHub Actions workflow to use the latest version of the cargo-install-action and update the revision for cross tool installation&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/fa86253c935f1bac1b6307a6b9b8cd4319a736bd"&gt;fa86253c&lt;/a&gt; - Podcast updation strategy (#1395)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/fa86253c935f1bac1b6307a6b9b8cd4319a736bd"&gt;fa86253c&lt;/a&gt; - Podcast update strategy (#1395)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/49360ec3900ce92f3ad173732bd27c4982ad7569"&gt;49360ec3&lt;/a&gt; - Allow empty passwords for Jellyfin (#1394)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/0cd36a53811fc496089ec715e169f10ace545e65"&gt;0cd36a53&lt;/a&gt; - fix(config): use correct hours format for infrequent cron jobs&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/f0f258c7c96d454187f6875a82a22efe6320c59f"&gt;f0f258c7&lt;/a&gt; - Change schedule for infrequent cron jobs (#1393)&lt;/li&gt;
