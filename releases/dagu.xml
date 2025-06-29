@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-06-29T08:34:23.976733-04:00</updated>
+  <updated>2025-06-29T09:34:30.813979-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -164,7 +164,47 @@ Docker image  – fixes for asset paths &amp;amp; storage volumes | 🐳 @jhuang
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;</content>
+    <content>&lt;h3&gt;New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows Support (beta)&lt;/strong&gt;: Initial Windows compatibility with PowerShell and cmd.exe (#1066) by @pdoronila &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactive DAG Selection&lt;/strong&gt;: Run &lt;code&gt;dagu start&lt;/code&gt; without arguments to select DAGs interactively (#1074)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenTelemetry Support&lt;/strong&gt;: Added distributed tracing with W3C trace context propagation (#1068)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI&lt;/strong&gt;: Fixed 'f' key triggering fullscreen mode while editing DAGs (#1075)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSH Executor&lt;/strong&gt;: Fixed handling of &lt;code&gt;||&lt;/code&gt; and &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; operators in command parsing (#1067)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON Schema&lt;/strong&gt;: Corrected DAG JSON schema for schedule field (#1071)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheduler&lt;/strong&gt;: Fixed scheduler discarding queued items when scheduled by &lt;code&gt;enqueue&lt;/code&gt; (#1070)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Base DAG&lt;/strong&gt;: Fixed parameter parsing issue in base DAG loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Contributors&lt;/h3&gt;
+&lt;p&gt;Thanks to our contributors for this release:&lt;/p&gt;
+&lt;p&gt;| Contribution | Author |
+|--------------|--------|
+| Initial Windows support - PowerShell/cmd.exe compatibility | &lt;a href="https://github.com/pdoronila"&gt;@pdoronila&lt;/a&gt; |
+| Scheduler refactoring for improved maintainability | &lt;a href="https://github.com/thefishhat"&gt;@thefishhat&lt;/a&gt; |
+| Interactive DAG selection feature request | &lt;a href="https://github.com/yottahmd"&gt;@yottahmd&lt;/a&gt; |
+| OpenTelemetry distributed tracing feature request | &lt;a href="https://github.com/jeremydelattre59"&gt;@jeremydelattre59&lt;/a&gt; |
+| SSH executor &lt;code&gt;||&lt;/code&gt; operator bug report | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
+| 'f' key interference in DAG editor bug report | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
+| Log cleanup feature request | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
+| Scheduler queue bug report | Jochen |&lt;/p&gt;
+&lt;h2&gt;All Changes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(scheduler): refactor code and logic by @thefishhat in https://github.com/dagu-org/dagu/pull/1062&lt;/li&gt;
+&lt;li&gt;fix: handle || and &amp;amp;&amp;amp; operators correctly in SSH executor command parsing by @yottahmd in https://github.com/dagu-org/dagu/pull/1067&lt;/li&gt;
+&lt;li&gt;feat: initial windows support by @pdoronila in https://github.com/dagu-org/dagu/pull/1066&lt;/li&gt;
+&lt;li&gt;feat: add OpenTelemetry distributed tracing support by @yottahmd in https://github.com/dagu-org/dagu/pull/1068&lt;/li&gt;
+&lt;li&gt;fix: correct DAG JSON schema for schedule field by @yottahmd in https://github.com/dagu-org/dagu/pull/1071&lt;/li&gt;
+&lt;li&gt;feat: add interactive DAG selection and migrate progress display to Bubble Tea TUI by @yottahmd in https://github.com/dagu-org/dagu/pull/1074&lt;/li&gt;
+&lt;li&gt;fix: prevent 'f' key from interfering with DAG editing by @yottahmd in https://github.com/dagu-org/dagu/pull/1075&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@pdoronila made their first contribution in https://github.com/dagu-org/dagu/pull/1066&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.17.3...v1.17.4&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.17.4" rel="alternate"/>
   </entry>
 </feed>
