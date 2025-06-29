@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-06-29T09:34:30.813979-04:00</updated>
+  <updated>2025-06-29T10:34:35.959248-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -186,7 +186,7 @@ Docker image  – fixes for asset paths &amp;amp; storage volumes | 🐳 @jhuang
 | Scheduler refactoring for improved maintainability | &lt;a href="https://github.com/thefishhat"&gt;@thefishhat&lt;/a&gt; |
 | Interactive DAG selection feature request | &lt;a href="https://github.com/yottahmd"&gt;@yottahmd&lt;/a&gt; |
 | OpenTelemetry distributed tracing feature request | &lt;a href="https://github.com/jeremydelattre59"&gt;@jeremydelattre59&lt;/a&gt; |
-| SSH executor &lt;code&gt;||&lt;/code&gt; operator bug report | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
+| SSH executor double pipe operator bug report | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
 | 'f' key interference in DAG editor bug report | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
 | Log cleanup feature request | &lt;a href="https://github.com/NebulaCoding1029"&gt;@NebulaCoding1029&lt;/a&gt; |
 | Scheduler queue bug report | Jochen |&lt;/p&gt;
