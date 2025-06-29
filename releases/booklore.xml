@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-06-28T19:35:49.932437-04:00</updated>
+  <updated>2025-06-28T20:35:52.409708-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,7 +131,7 @@
 &lt;h2&gt;🐛 Bug Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Resolve data consistency and selection issues in PrimeNG p-table (#601) by @adityachandelgit&lt;/li&gt;
-&lt;li&gt;fix: clear selected books after assigning to a shelf (#590) by @adityachandelgit&lt;/li&gt;
+&lt;li&gt;Clear selected books after assigning to a shelf (#590) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;📖 Documentation&lt;/h2&gt;
 &lt;ul&gt;
