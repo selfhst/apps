@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-06-30T08:31:16.189824-04:00</updated>
+  <updated>2025-06-30T09:31:17.560573-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -187,38 +187,71 @@ SHA1(6.0.2-update.zip)= 138a798979749ec50c24eeebdebfd0c15d7c8b9c&lt;/p&gt;</cont
     <author>
       <name>mautic/mautic</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at 5.2.7 --&gt;
-
+    <content>&lt;h2&gt;Announcing Mautic 5.2.7: Taygeta Edition&lt;/h2&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;✨ Features and enhancements&lt;/h3&gt;
+&lt;h3&gt;🐛 Bugs&lt;/h3&gt;
+&lt;h4&gt;🧑🏻‍💻 API&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix API bulk edit processing same contact multiple times (https://github.com/mautic/mautic/issues/12817) by @biozshock in https://github.com/mautic/mautic/pull/14928&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;📂 Assets&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: Unable to upload assets with non-default file extensions (https://github.com/mautic/mautic/issues/14725) by @andersonjeccel in https://github.com/mautic/mautic/pull/15111&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🚀 Campaigns&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;DPMMA-1020 Fix search email with special characters in campaign action by @patrykgruszka in https://github.com/mautic/mautic/pull/10306&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🛠️ Configuration&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix bug with Analytics script form not escaping special characters (https://github.com/mautic/mautic/issues/13355) by @putzwasser in https://github.com/mautic/mautic/pull/13859&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;👤 Contacts&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix custom field duplication when cloning contacts by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14780&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🤖 Devops&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix development environment database connection issues by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/15067&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🔄 Dynamic content&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix dynamic content token replacement for external plugins by @biozshock in https://github.com/mautic/mautic/pull/14599&lt;/li&gt;
+&lt;li&gt;Fix dynamic content blocks showing multiple editors (https://github.com/mautic/mautic/issues/14288) by @LordRembo in https://github.com/mautic/mautic/pull/14925&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;🐛 Bugs&lt;/h3&gt;
+&lt;h4&gt;💌 Email&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Improve grammar for unhide by @RCheesley in https://github.com/mautic/mautic/pull/13835&lt;/li&gt;
-&lt;li&gt;Fix critical error in segment details by @Frettyl in https://github.com/mautic/mautic/pull/13862&lt;/li&gt;
-&lt;li&gt;[UI] fix CSS flexbox broken in campaign insert clone view by @andersonjeccel in https://github.com/mautic/mautic/pull/13878&lt;/li&gt;
-&lt;li&gt;DPMMA-1020 Fix search email with special characters in campaign action by @patrykgruszka in https://github.com/mautic/mautic/pull/10306&lt;/li&gt;
-&lt;li&gt;fix: focus item published by @andersonjeccel in https://github.com/mautic/mautic/pull/13944&lt;/li&gt;
-&lt;li&gt;fix [DPMMA-2661] mapped field form 5.1 by @tomekkowalczyk in https://github.com/mautic/mautic/pull/13938&lt;/li&gt;
-&lt;li&gt;FIX: Removes onConfigSave which invokes htmlspecialchars and escapes tracking script by @putzwasser in https://github.com/mautic/mautic/pull/13859&lt;/li&gt;
-&lt;li&gt;Fix API bulk edit processing same contact multiple times by @biozshock in https://github.com/mautic/mautic/pull/14928&lt;/li&gt;
 &lt;li&gt;Fix email errors when contact data is missing by @abhisekmazumdar in https://github.com/mautic/mautic/pull/15026&lt;/li&gt;
-&lt;li&gt;Fix development environment database connection issues by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/15067&lt;/li&gt;
-&lt;li&gt;Fix form fields not loading when custom properties are defined by @david-gap in https://github.com/mautic/mautic/pull/14048&lt;/li&gt;
-&lt;li&gt;Fix locale dropdown values being reversed in forms by @biozshock in https://github.com/mautic/mautic/pull/15096&lt;/li&gt;
-&lt;li&gt;Fix custom field duplication when cloning contacts by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14780&lt;/li&gt;
-&lt;li&gt;Fix: Unable to upload assets with non-default file extensions by @andersonjeccel in https://github.com/mautic/mautic/pull/15111&lt;/li&gt;
-&lt;li&gt;Fix email builder permissions for users with "view own" access by @abhisekmazumdar in https://github.com/mautic/mautic/pull/14890&lt;/li&gt;
-&lt;li&gt;Fix dynamic content blocks showing multiple editors [mautic 5] by @LordRembo in https://github.com/mautic/mautic/pull/14925&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;h4&gt;📋 Forms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix bug with form edit API endpoint by @tomekkowalczyk in https://github.com/mautic/mautic/pull/13938&lt;/li&gt;
+&lt;li&gt;Fix locale dropdown values being reversed in forms (https://github.com/mautic/mautic/issues/12851) by @biozshock in https://github.com/mautic/mautic/pull/15096&lt;/li&gt;
+&lt;li&gt;Fix form fields not loading when custom properties are defined (https://github.com/mautic/mautic/issues/13542) by @david-gap in https://github.com/mautic/mautic/pull/14048&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🌍 Segments&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix critical error in segment details by @Frettyl in https://github.com/mautic/mautic/pull/13862&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;👥 Users and roles&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix email builder permissions for users with "view own" access by @abhisekmazumdar in https://github.com/mautic/mautic/pull/14890&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;🎨 UX/UI&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve grammar for unhide in themes by @RCheesley in https://github.com/mautic/mautic/pull/13835&lt;/li&gt;
+&lt;li&gt;Fix display of insert cloned event in campaigns (https://github.com/mautic/mautic/issues/13857) by @andersonjeccel in https://github.com/mautic/mautic/pull/13878&lt;/li&gt;
+&lt;li&gt;Show status of focus item in the user interface by @andersonjeccel in https://github.com/mautic/mautic/pull/13944&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💖 New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@Frettyl made their first contribution in https://github.com/mautic/mautic/pull/13862&lt;/li&gt;
 &lt;li&gt;@david-gap made their first contribution in https://github.com/mautic/mautic/pull/14048&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mautic/mautic/compare/5.2.6...5.2.7&lt;/p&gt;</content>
+&lt;h2&gt;🪵 Full Changelog&lt;/h2&gt;
+&lt;p&gt;https://github.com/mautic/mautic/compare/5.2.6...5.2.7&lt;/p&gt;
+&lt;p&gt;SHA1(5.2.7.zip)= sha256:91e8476d340b68722c58a576e9e7ff7534df10ab39b02e5c58797b139960de85
+SHA1(5.2.7-update.zip)= sha256:583d7209b134dfaa9645760f61e74f3b711b88d95d577726a81cf54f23eab77f&lt;/p&gt;</content>
     <link href="https://github.com/mautic/mautic/releases/tag/5.2.7" rel="alternate"/>
   </entry>
 </feed>
