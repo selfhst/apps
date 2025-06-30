@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2025-06-30T17:31:32.378620-04:00</updated>
+  <updated>2025-06-30T19:31:32.694279-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -220,8 +220,6 @@ However, if you're on an older version, please &lt;strong&gt;upgrade to &lt;code
 &lt;hr /&gt;
 &lt;p&gt;Big thanks to @johnwang16 for the reverse proxy fixes, and to everyone who submitted translations so quickly — @GitSpoon, @mapi68, @Maksim2005UA, @yunyi35 🙏&lt;/p&gt;
 &lt;p&gt;Hope you find the new features useful! As always, happy to hear your feedback here or on Discord.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Let me know if you'd like a shorter or more technical version too!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="img" src="https://i.imgur.com/0AfCVvf.png" /&gt;&lt;/p&gt;
 &lt;h2&gt;💔 Breaking changes&lt;/h2&gt;
 &lt;blockquote&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metadata Remote Releases</title>
-  <updated>2025-06-30T17:37:19.315310-04:00</updated>
+  <updated>2025-06-30T19:36:55.339784-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,5 +106,42 @@ wget https://raw.githubusercontent.com/wow-signal-dev/metadata-remote/main/docke
 (6) GUI rendered more compact by reducing padding.
 (7) Entire codebase refactored into modular architecture.&lt;/p&gt;</content>
     <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.1</id>
+    <title>New release for Metadata Remote: v1.1.1 - Enhanced Metadata Handling &amp; Keyboard Navigation</title>
+    <updated>2025-06-30T18:22:16-04:00</updated>
+    <author>
+      <name>wow-signal-dev/metadata-remote</name>
+    </author>
+    <content>&lt;h2&gt;What's New in v1.1.1&lt;/h2&gt;
+&lt;p&gt;This release brings significant improvements to metadata handling and user interface interactions.&lt;/p&gt;
+&lt;h3&gt;Key Improvements&lt;/h3&gt;
+&lt;p&gt;#### Enhanced Metadata Operations
+  - &lt;strong&gt;Fixed&lt;/strong&gt;: Large album art uploads to OGG/OPUS files no longer fail
+  - &lt;strong&gt;Improved&lt;/strong&gt;: Faster metadata operations with direct file manipulation
+  - &lt;strong&gt;Added&lt;/strong&gt;: Better Unicode support for international metadata&lt;/p&gt;
+&lt;p&gt;#### Comprehensive Keyboard Navigation
+  - Full keyboard support across all interface elements
+  - Complete keyboard accessibility in metadata editing pane
+  - Streamlined navigation for power users&lt;/p&gt;
+&lt;p&gt;#### User Interface Refinements
+  - Improved visual feedback for user actions
+  - Smoother workflow transitions
+  - Better overall user experience&lt;/p&gt;
+&lt;h3&gt;Technical Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated Mutagen library as primary metadata handler&lt;/li&gt;
+&lt;li&gt;FFmpeg now serves as fallback for unsupported formats&lt;/li&gt;
+&lt;li&gt;Added proper license attribution for third-party libraries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Docker Images&lt;/h3&gt;
+&lt;p&gt;Multi-architecture images are available:
+- &lt;code&gt;ghcr.io/wow-signal-dev/metadata-remote:v1.1.1&lt;/code&gt;
+- &lt;code&gt;ghcr.io/wow-signal-dev/metadata-remote:latest&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Supported architectures: &lt;code&gt;linux/amd64&lt;/code&gt;, &lt;code&gt;linux/arm64&lt;/code&gt;, &lt;code&gt;linux/arm/v7&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Acknowledgments&lt;/h3&gt;
+&lt;p&gt;Thanks to the Mutagen project for their excellent Python multimedia tagging library.&lt;/p&gt;</content>
+    <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.1" rel="alternate"/>
   </entry>
 </feed>
