@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rybbit Releases</title>
-  <updated>2025-06-30T01:36:29.897745-04:00</updated>
+  <updated>2025-06-30T02:36:40.758105-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,7 +136,8 @@
     <author>
       <name>rybbit-io/rybbit</name>
     </author>
-    <content>&lt;h2&gt;Key Features&lt;/h2&gt;
+    <content>&lt;p&gt;You may have to run &lt;code&gt;git stash&lt;/code&gt; before running the &lt;code&gt;./update&lt;/code&gt; script since I made some changes to it.&lt;/p&gt;
+&lt;h2&gt;Key Features&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Session Replay
