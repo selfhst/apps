@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Note Mark Releases</title>
-  <updated>2025-06-30T11:31:26.405367-04:00</updated>
+  <updated>2025-06-30T12:31:28.689467-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,7 +105,7 @@
     <author>
       <name>enchant97/note-mark</name>
     </author>
-    <content>&lt;p&gt;OIDC should now work on Authelia.&lt;/p&gt;
+    <content>&lt;p&gt;OIDC should now work on Authelia (with signed JWT Access Tokens enabled).&lt;/p&gt;
 &lt;h2&gt;Changes&lt;/h2&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
