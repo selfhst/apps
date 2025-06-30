@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Directus Releases</title>
-  <updated>2025-06-30T12:36:16.473432-04:00</updated>
+  <updated>2025-06-30T13:35:55.849423-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -249,12 +249,21 @@ The new usage is &lt;code&gt;sdk.login({ email, password })&lt;/code&gt; or &lt;
   </entry>
   <entry>
     <id>https://github.com/directus/directus/releases/tag/v11.9.1</id>
-    <title>New release for Directus: None</title>
+    <title>New release for Directus: </title>
     <updated>2025-06-30T12:36:14-04:00</updated>
     <author>
       <name>directus/directus</name>
     </author>
-    <content>&lt;p&gt;Directus v11.9.1&lt;/p&gt;</content>
+    <content>&lt;h3&gt;🐛 Bug Fixes &amp;amp; Optimizations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;@directus/app&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a bug that was preventing the file interface menu from appearing in the drawer (&lt;a href="https://github.com/directus/directus/pull/25374"&gt;#25374&lt;/a&gt; by @formfcw)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📦 Published Versions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@directus/app@13.11.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@directus/api@28.0.1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/directus/directus/releases/tag/v11.9.1" rel="alternate"/>
   </entry>
 </feed>
