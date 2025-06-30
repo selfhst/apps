@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ezBookkeeping Releases</title>
-  <updated>2025-06-30T07:35:42.387849-04:00</updated>
+  <updated>2025-06-30T08:35:42.313470-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -135,7 +135,7 @@
 &lt;li&gt;Support transaction pictures&lt;/li&gt;
 &lt;li&gt;Save transaction draft automatically&lt;/li&gt;
 &lt;li&gt;Add import transaction tool (#10)&lt;/li&gt;
-&lt;li&gt;Import transactions from ezbookkeeping export file (csv/tsv)&lt;/li&gt;
+&lt;li&gt;Import transactions from ezBookkeeping export file (csv/tsv)&lt;/li&gt;
 &lt;li&gt;Import transactions from Open Financial Exchange (OFX) File / Quicken Financial Exchange (QFX) File&lt;/li&gt;
 &lt;li&gt;Import transactions from Quicken Interchange Format (QIF) file&lt;/li&gt;
 &lt;li&gt;Import transactions from Intuit Interchange Format (IIF) File&lt;/li&gt;
