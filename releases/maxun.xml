@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Maxun Releases</title>
-  <updated>2025-06-30T10:37:09.453735-04:00</updated>
+  <updated>2025-06-30T11:37:05.464127-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -199,7 +199,7 @@ This feature allows you to:
   </entry>
   <entry>
     <id>https://github.com/getmaxun/maxun/releases/tag/v0.0.17</id>
-    <title>New release for Maxun: 🚀 Maxun v0.0.17 - New Recorder + MCP Server 🚀</title>
+    <title>New release for Maxun: 🚀 Maxun v0.0.17 | New Recorder + MCP Server 🚀</title>
     <updated>2025-06-24T08:31:37-04:00</updated>
     <author>
       <name>getmaxun/maxun</name>
