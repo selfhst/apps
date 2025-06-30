@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Voyager Releases</title>
-  <updated>2025-06-29T20:34:13.062811-04:00</updated>
+  <updated>2025-06-29T21:34:44.229527-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -130,8 +130,7 @@
     <author>
       <name>aeharding/voyager</name>
     </author>
-    <content>&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/4b2aed51-1ba1-4474-8391-d5250afb1179" width="50" align="middle"&gt;
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+    <content>&lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/399b4f14-7eee-432e-9d29-37d38737cde6" /&gt;&lt;/p&gt;
 &lt;p&gt;This release adds experimental support for Piefed! https://join.piefed.social&lt;/p&gt;
 &lt;p&gt;Piefed is an alternative to Lemmy. Because Piefed and Lemmy both communicate with each other through Activitypub, you can view and interact with the same content regardless!&lt;/p&gt;
 &lt;p&gt;Please let me know if you encounter any issues, particularly regressions, because this release is a significant refactor of how Voyager communicates with Lemmy (and Piefed, and...)&lt;/p&gt;
