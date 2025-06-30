@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Blinko Releases</title>
-  <updated>2025-06-29T21:37:00.890156-04:00</updated>
+  <updated>2025-06-29T22:36:21.597072-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,7 +141,21 @@
     <author>
       <name>blinkospace/blinko</name>
     </author>
-    <content>&lt;p&gt;Under construction, full changelog will be updated after build completion...&lt;/p&gt;</content>
+    <content>&lt;h3&gt;✨ New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add deployment selection and API key validation for Azure OpenAI integration https://github.com/blinkospace/blinko/commit/150c14646121a265c794cfbfe560da0b35084644&lt;/li&gt;
+&lt;li&gt;Add deployment selection and API key configuration prompts in multiple languages https://github.com/blinkospace/blinko/commit/f526a82aafba601e38a3ebc326786fc9b5b726f2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update version to 1.1.1 https://github.com/blinkospace/blinko/commit/2a7616a06742888a12727ad7390610caacdcb871&lt;/li&gt;
+&lt;li&gt;Update version to 1.1.2 https://github.com/blinkospace/blinko/commit/950ff4a05d78daf0fc73387a9885233a93526a27&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔍 Other Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[ci skip] Update version to 1.1.1 https://github.com/blinkospace/blinko/commit/2fb329fbe9ea578ab8e61c3177c1257eafed7234&lt;/li&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/blinkospace/blinko/pull/739"&gt;#739&lt;/a&gt; by &lt;a href="https://github.com/tungwinsgame"&gt;tungwinsgame&lt;/a&gt; from tungwinsgame/feature/azure-openai-enchancement https://github.com/blinkospace/blinko/commit/b54acf64ee7f13ac60adadbce064aa1cc938a9c2&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/blinkospace/blinko/releases/tag/1.1.2" rel="alternate"/>
   </entry>
 </feed>
