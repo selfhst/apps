@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>VueTorrent Releases</title>
-  <updated>2025-06-30T02:34:23.065519-04:00</updated>
+  <updated>2025-06-30T03:34:37.506409-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,7 @@
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;dev:&lt;/strong&gt; Update linter config (&lt;a href="https://github.com/VueTorrent/VueTorrent/issues/2356"&gt;#2356&lt;/a&gt;) (&lt;a href="https://github.com/VueTorrent/VueTorrent/commit/236c9c7d8c87b1e3fea53b7222b85d10cd549b6e"&gt;236c9c7&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Some minor code changes has been introduced, bugs may happen. Please report them ASAP if you encounter some.&lt;/li&gt;
+&lt;li&gt;Some minor code changes has been introduced in the codebase, bugs may happen. Please report them ASAP if you encounter some.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;search:&lt;/strong&gt; Handle accents while searching (&lt;a href="https://github.com/VueTorrent/VueTorrent/issues/2357"&gt;#2357&lt;/a&gt;) (&lt;a href="https://github.com/VueTorrent/VueTorrent/commit/6686c212b0c2716ab522e72337e171c7d709e02b"&gt;6686c21&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
