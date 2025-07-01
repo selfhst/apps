@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-07-01T05:31:26.092282-04:00</updated>
+  <updated>2025-07-01T06:31:15.677804-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -212,60 +212,30 @@ SHA1(5.2.7-update.zip)= sha256:583d7209b134dfaa9645760f61e74f3b711b88d95d577726a
     </author>
     <content>&lt;p&gt;## Announcing Mautic 6.0.3&lt;/p&gt;
 &lt;p&gt;## What's Changed&lt;/p&gt;
-&lt;p&gt;### ✨ Features and Enhancements&lt;/p&gt;
-&lt;p&gt;#### 🔄 Dynamic Content
-  * Fix dynamic content token replacement for external plugins by @biozshock in https://github.com/mautic/mautic/pull/14599&lt;/p&gt;
 &lt;p&gt;### 🐛 Bugs&lt;/p&gt;
-&lt;p&gt;#### 🧑🏻‍💻 API
-  * Fix API bulk edit processing same contact multiple times by @biozshock in https://github.com/mautic/mautic/pull/14928&lt;/p&gt;
-&lt;p&gt;#### 📂 Assets
-  * Fix: Unable to upload assets with non-default file extensions by @andersonjeccel in https://github.com/mautic/mautic/pull/15111&lt;/p&gt;
 &lt;p&gt;#### 🚀 Campaigns
-  * DPMMA-1020 Fix search email with special characters in campaign action by @patrykgruszka in https://github.com/mautic/mautic/pull/10306
   * Fix campaign source widget text overflow handling by @kuzmany in https://github.com/mautic/mautic/pull/15055&lt;/p&gt;
-&lt;p&gt;#### 🛠️ Configuration
-  * FIX: Removes onConfigSave which invokes htmlspecialchars and escapes tracking script by @putzwasser in https://github.com/mautic/mautic/pull/13859&lt;/p&gt;
 &lt;p&gt;#### 👤 Contacts
-  * Fix custom field duplication when cloning contacts by @Hugo-Prossaird in https://github.com/mautic/mautic/pull/14780
   * Fix refetchEntity call timing after Lead instance check by @kuzmany in https://github.com/mautic/mautic/pull/15051
   * Fix error when saving contacts without points available by @npracht in https://github.com/mautic/mautic/pull/14714
   * Fix: Pagination is now working on the Audit Log tab of a contact by @driskell in https://github.com/mautic/mautic/pull/15086&lt;/p&gt;
-&lt;p&gt;#### 🤖 DevOps
-  * Fix development environment database connection issues by @JonasLudwig1998 in https://github.com/mautic/mautic/pull/15067&lt;/p&gt;
-&lt;p&gt;#### 🔄 Dynamic Content
-  * Fix dynamic content blocks showing multiple editors [mautic 5] by @LordRembo in https://github.com/mautic/mautic/pull/14925&lt;/p&gt;
 &lt;p&gt;#### 💌 Email
-  * Fix email errors when contact data is missing by @abhisekmazumdar in https://github.com/mautic/mautic/pull/15026
-  * Fix email builder permissions for users with "view own" access by @abhisekmazumdar in https://github.com/mautic/mautic/pull/14890
   * Fix memory issues when sending large email batches by @kuzmany in https://github.com/mautic/mautic/pull/15121
   * Fix email preview not showing contact field tokens by @lenonleite in https://github.com/mautic/mautic/pull/15128
   * Add email name and subject maxlength validation by @kuzmany in https://github.com/mautic/mautic/pull/15147&lt;/p&gt;
 &lt;p&gt;#### 📋 Forms
-  * fix [DPMMA-2661] mapped field form 5.1 by @tomekkowalczyk in https://github.com/mautic/mautic/pull/13938
-  * Fix form fields not loading when custom properties are defined by @david-gap in https://github.com/mautic/mautic/pull/14048
-  * Fix locale dropdown values being reversed in forms by @biozshock in https://github.com/mautic/mautic/pull/15096
   * Fix JavaScript focus item rendering issue in forms by @EnableServices in https://github.com/mautic/mautic/pull/15126&lt;/p&gt;
 &lt;p&gt;#### 🔌 Plugins
   * Fix Device tracking service not found error by @escopecz in https://github.com/mautic/mautic/pull/15102
   * Fix plugin SSO authentication response processing when user is authenticated by @biozshock in https://github.com/mautic/mautic/pull/15020&lt;/p&gt;
-&lt;p&gt;#### 📱 Push Notifications
-  * Fix push notification callback handling when push_id is empty by @thisismzm in https://github.com/mautic/mautic/pull/14480&lt;/p&gt;
 &lt;p&gt;#### 📊 Reports
   * Fix report scheduled emails not being sent with proper options by @biozshock in https://github.com/mautic/mautic/pull/15052
   * DPMMA-3148 Fix tag usage page crash when reports have empty tag filters by @patrykgruszka in https://github.com/mautic/mautic/pull/15134&lt;/p&gt;
-&lt;p&gt;#### 🌍 Segments
-  * Fix critical error in segment details by @Frettyl in https://github.com/mautic/mautic/pull/13862&lt;/p&gt;
-&lt;p&gt;#### 🎨 UX/UI
-  * Improve grammar for unhide by @RCheesley in https://github.com/mautic/mautic/pull/13835
-  * [UI] fix CSS flexbox broken in campaign insert clone view by @andersonjeccel in https://github.com/mautic/mautic/pull/13878
-  * fix: focus item published by @andersonjeccel in https://github.com/mautic/mautic/pull/13944&lt;/p&gt;
 &lt;p&gt;## 💖 New Contributors
-  * @Frettyl made their first contribution in https://github.com/mautic/mautic/pull/13862
-  * @david-gap made their first contribution in https://github.com/mautic/mautic/pull/14048
-  * @thisismzm made their first contribution in https://github.com/mautic/mautic/pull/14480
   * @EnableServices made their first contribution in https://github.com/mautic/mautic/pull/15126&lt;/p&gt;
 &lt;p&gt;## 🪵 Full Changelog
   https://github.com/mautic/mautic/compare/6.0.2...6.0.3&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All bug fixes from &lt;a href="https://github.com/mautic/mautic/releases/tag/5.2.7"&gt;Mautic 5.2.7&lt;/a&gt; were also included in this release&lt;/p&gt;
 &lt;p&gt;SHA1(6.0.3.zip)= 7178d0dbadd9345b59723b397c28b52384fe1f03
   SHA1(6.0.3-update.zip)= cc4f44498642b486d8709b2307a84fd49c9f6f8d&lt;/p&gt;</content>
     <link href="https://github.com/mautic/mautic/releases/tag/6.0.3" rel="alternate"/>
