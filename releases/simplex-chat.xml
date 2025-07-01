@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SimpleX Chat Releases</title>
-  <updated>2025-07-01T15:31:47.766571-04:00</updated>
+  <updated>2025-07-01T16:31:47.599828-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -218,6 +218,10 @@
     </author>
     <content>&lt;p&gt;New in v6.3.7:
 - fix changing the user profile of the invitation link.&lt;/p&gt;
+&lt;p&gt;The GitHub release build is independently reproduced by:
+| Verifier | Signature | PGP key to verify | 
+| ------- | --------- | ----------------- |
+| SimpleX Chat team | &lt;a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.7/_sha256sums.asc"&gt;_sha256sums.asc&lt;/a&gt; | &lt;a href="https://keys.openpgp.org/search?q=chat%40simplex.chat"&gt;FB44AF81A45BDE327319797C85107E357D4A17FC&lt;/a&gt; |&lt;/p&gt;
 &lt;p&gt;Commits:
 - core: fix change connection user (#5992)
 - core: 6.3.7.0

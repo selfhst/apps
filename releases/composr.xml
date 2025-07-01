@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Composr Releases</title>
-  <updated>2025-07-01T15:36:38.562003-04:00</updated>
+  <updated>2025-07-01T16:36:42.966778-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,5 +160,109 @@ docker run -d \
 &lt;li&gt;Modern web interface with dark/light themes&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Vansmak/composr/releases/tag/v1.7.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Vansmak/composr/releases/tag/v1.7.7</id>
+    <title>New release for Composr: Composr v1.7.7</title>
+    <updated>2025-07-01T16:03:09-04:00</updated>
+    <author>
+      <name>Vansmak/composr</name>
+    </author>
+    <content>&lt;p&gt;📋 Found CHANGELOG.md - extracting release notes...
+✅ Using changelog entries for v1.7.7&lt;/p&gt;
+&lt;h2&gt;Composr v1.7.7&lt;/h2&gt;
+&lt;p&gt;🚀 &lt;strong&gt;Container Management Platform&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🎯 Smart Health Indicators&lt;/strong&gt;: Intelligent container health assessment system&lt;/li&gt;
+&lt;li&gt;Real-time health evaluation based on container status, uptime, and resource usage&lt;/li&gt;
+&lt;li&gt;Visual health indicators with color-coded status (green=healthy, yellow=warning, red=error)&lt;/li&gt;
+&lt;li&gt;Smart warning detection for recently restarted containers (&amp;lt; 5 minutes uptime)&lt;/li&gt;
+&lt;li&gt;Health tooltips showing specific issues and recommendations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📊 Persistent Operation Results&lt;/strong&gt;: Enhanced operation feedback system&lt;/li&gt;
+&lt;li&gt;Detailed operation result modals showing actual docker-compose command output&lt;/li&gt;
+&lt;li&gt;Persistent error messages that stay visible until manually dismissed&lt;/li&gt;
+&lt;li&gt;Success messages with auto-close after 10 seconds&lt;/li&gt;
+&lt;li&gt;Full command output display for debugging deployment failures&lt;/li&gt;
+&lt;li&gt;Network error handling with detailed error information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔒 Scroll Position Preservation&lt;/strong&gt;: Automatic scroll position retention&lt;/li&gt;
+&lt;li&gt;Container list maintains scroll position after refresh operations&lt;/li&gt;
+&lt;li&gt;No more jumping back to top after container actions or page updates&lt;/li&gt;
+&lt;li&gt;Improved user experience for large container lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Container Status Display&lt;/strong&gt;: Replaced basic status badges with health-aware color coding&lt;/li&gt;
+&lt;li&gt;Container status text now changes color based on health level&lt;/li&gt;
+&lt;li&gt;Removed separate health column for cleaner table layout&lt;/li&gt;
+&lt;li&gt;Unified health indication across both card and table views&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Card Layout Redesign&lt;/strong&gt;: Modernized container card appearance and organization&lt;/li&gt;
+&lt;li&gt;4-row compact layout: Name → Host/Status/Uptime/More → Ports → Actions&lt;/li&gt;
+&lt;li&gt;Reduced card height (240px → 120px) for better screen utilization&lt;/li&gt;
+&lt;li&gt;Modern gradient backgrounds with improved hover effects&lt;/li&gt;
+&lt;li&gt;Better content organization with proper spacing and alignment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Table Structure Optimization&lt;/strong&gt;: Streamlined table columns for better usability&lt;/li&gt;
+&lt;li&gt;Consolidated health and status into single color-coded status column&lt;/li&gt;
+&lt;li&gt;Improved column alignment and responsive design&lt;/li&gt;
+&lt;li&gt;Fixed group header colspan to match new column structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operation Feedback&lt;/strong&gt;: Replaced generic "success/failed" messages with actual command output&lt;/li&gt;
+&lt;li&gt;Users now see real docker-compose errors instead of "operation failed"&lt;/li&gt;
+&lt;li&gt;Full deployment logs visible for troubleshooting&lt;/li&gt;
+&lt;li&gt;Network errors properly captured and displayed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Card View Consistency&lt;/strong&gt;: Fixed container card sizing and layout inconsistencies&lt;/li&gt;
+&lt;li&gt;All cards now maintain uniform height regardless of content&lt;/li&gt;
+&lt;li&gt;Proper content overflow handling for long port lists&lt;/li&gt;
+&lt;li&gt;Consistent button placement and spacing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Health Indicator Integration&lt;/strong&gt;: Seamless health status across all views&lt;/li&gt;
+&lt;li&gt;Card view health dots properly positioned in top-right corner&lt;/li&gt;
+&lt;li&gt;Table view health coloring applied consistently&lt;/li&gt;
+&lt;li&gt;Health assessment working for both grouped and ungrouped views&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page Navigation&lt;/strong&gt;: Fixed scroll position jumping to top after container operations&lt;/li&gt;
+&lt;li&gt;Maintains user's current scroll position during refresh operations&lt;/li&gt;
+&lt;li&gt;Better UX for managing large numbers of containers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Technical&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Health Assessment Engine&lt;/strong&gt;: Comprehensive container health evaluation system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operation Result Modal&lt;/strong&gt;: New modal system for displaying command outputs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scroll Management&lt;/strong&gt;: Intelligent scroll position preservation system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Optimization&lt;/strong&gt;: Streamlined styling with improved responsiveness&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Handling&lt;/strong&gt;: Enhanced error capture and display throughout the application
+This release significantly improves user experience by providing clear visual feedback about container health, detailed information when operations fail, and seamless navigation that maintains user context during operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐳 Docker Images&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;docker pull vansmak/composr:1.7.7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker pull vansmak/composr:latest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Supported Platforms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;linux/amd64&lt;/li&gt;
+&lt;li&gt;linux/arm64  &lt;/li&gt;
+&lt;li&gt;linux/arm/v7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;📦 Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;bash
+docker run -d \
+  --name composr \
+  -p 5003:5003 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /path/to/docker/projects:/app/projects \
+  -v /path/to/config/composr:/app/data \
+  vansmak/composr:1.7.7&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;✨ Core Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-host Docker container management&lt;/li&gt;
+&lt;li&gt;Real-time container monitoring and control&lt;/li&gt;
+&lt;li&gt;Docker Compose file editor with syntax highlighting&lt;/li&gt;
+&lt;li&gt;Environment file management&lt;/li&gt;
+&lt;li&gt;Image management across multiple hosts&lt;/li&gt;
+&lt;li&gt;Backup and restore functionality&lt;/li&gt;
+&lt;li&gt;Modern web interface with dark/light themes&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/Vansmak/composr/releases/tag/v1.7.7" rel="alternate"/>
   </entry>
 </feed>
