@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbPad Releases</title>
-  <updated>2025-07-01T00:35:21.220667-04:00</updated>
+  <updated>2025-07-01T01:35:31.830069-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,7 +77,7 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;v1.0.1 - Query Param support, enhance markdown previews with new styles, mirror markdown preview styles for print, new setting, service worker versioning by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/61
-- added new service worker versioning with cache busting (still requires clearing cache for the new change but should auto reload moving forward)
+- Add new service worker versioning with cache busting (still requires clearing cache for the new change but should auto reload moving forward)
 - Query Param support for direct notepad selection
   - with browser history navigation for back and forward functionality &amp;amp; &lt;code&gt;new&lt;/code&gt; copy link button
   - unique notepad naming appending &lt;code&gt;-1, -2, -3&lt;/code&gt; respectively to notepad names

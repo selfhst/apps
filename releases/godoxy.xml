@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoDoxy Releases</title>
-  <updated>2025-07-01T00:30:56.505113-04:00</updated>
+  <updated>2025-07-01T01:30:53.768765-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -128,8 +128,11 @@
     <author>
       <name>yusing/godoxy</name>
     </author>
-    <content>&lt;h3&gt;Updated icon data URL for selfh.st to fix&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;failed to update icons error="invalid character '&amp;lt;' looking for beginning of value"&lt;/code&gt;&lt;/p&gt;</content>
+    <content>&lt;h2&gt;Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated icon data URL for selfh.st to fix: &lt;code&gt;failed to update icons error="invalid character '&amp;lt;' looking for beginning of value"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fixed UI config editor not in sync with YAML editor&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/yusing/godoxy/releases/tag/v0.15.3" rel="alternate"/>
   </entry>
 </feed>
