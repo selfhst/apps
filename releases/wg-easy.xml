@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>wg-easy Releases</title>
-  <updated>2025-07-01T02:32:28.333543-04:00</updated>
+  <updated>2025-07-01T03:32:43.220622-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,5 +85,41 @@ This update is an entire rewrite to make it even easier to set up your own VPN.&
 &lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/429410685?tag=14"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/429410685?tag=14&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/compare/v13.0.0...v14.0.0&lt;/p&gt;</content>
     <link href="https://github.com/wg-easy/wg-easy/releases/tag/v14.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wg-easy/wg-easy/releases/tag/v15.1.0</id>
+    <title>New release for wg-easy: v15.1.0</title>
+    <updated>2025-07-01T02:56:43-04:00</updated>
+    <author>
+      <name>wg-easy/wg-easy</name>
+    </author>
+    <content>&lt;p&gt;Added option to disable IPv6 and new languages&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Ukrainian language by @Loudhot in https://github.com/wg-easy/wg-easy/pull/1906&lt;/li&gt;
+&lt;li&gt;Add French language by @3zmana in https://github.com/wg-easy/wg-easy/pull/1924&lt;/li&gt;
+&lt;li&gt;docs for caddy example by @whilenot-dev in https://github.com/wg-easy/wg-easy/pull/1939&lt;/li&gt;
+&lt;li&gt;Add german translations by @Cameo007 in https://github.com/wg-easy/wg-easy/pull/1889&lt;/li&gt;
+&lt;li&gt;feat: Add Traditional Chinese (zh-HK) i18n Support by @rayyamhk in https://github.com/wg-easy/wg-easy/pull/1988&lt;/li&gt;
+&lt;li&gt;Add Chinese Simplified by @yhl452493373 in https://github.com/wg-easy/wg-easy/pull/1990&lt;/li&gt;
+&lt;li&gt;Updated container launch commands by @kiruxaspb in https://github.com/wg-easy/wg-easy/pull/1989&lt;/li&gt;
+&lt;li&gt;Add option to disable ipv6 by @kaaax0815 in https://github.com/wg-easy/wg-easy/pull/1951&lt;/li&gt;
+&lt;li&gt;update screenshot by @kaaax0815 in 962bfa2&lt;/li&gt;
+&lt;li&gt;add docs on how to add/update translation by @kaaax0815 in be26db6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@3zmana made their first contribution in https://github.com/wg-easy/wg-easy/pull/1924&lt;/li&gt;
+&lt;li&gt;@whilenot-dev made their first contribution in https://github.com/wg-easy/wg-easy/pull/1939&lt;/li&gt;
+&lt;li&gt;@Cameo007 made their first contribution in https://github.com/wg-easy/wg-easy/pull/1889&lt;/li&gt;
+&lt;li&gt;@rayyamhk made their first contribution in https://github.com/wg-easy/wg-easy/pull/1988&lt;/li&gt;
+&lt;li&gt;@kiruxaspb made their first contribution in https://github.com/wg-easy/wg-easy/pull/1989&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Docs&lt;/h2&gt;
+&lt;p&gt;See &lt;a href="https://wg-easy.github.io/wg-easy/v15.1/advanced/config/optional-config/"&gt;https://wg-easy.github.io/wg-easy/v15.1/advanced/config/optional-config/&lt;/a&gt; on how to disable IPv6&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;See: &lt;a href="https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/450840263?tag=15"&gt;https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy/450840263?tag=15&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/wg-easy/wg-easy/compare/v15.0.0...v15.1.0&lt;/p&gt;</content>
+    <link href="https://github.com/wg-easy/wg-easy/releases/tag/v15.1.0" rel="alternate"/>
   </entry>
 </feed>
