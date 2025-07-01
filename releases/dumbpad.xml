@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbPad Releases</title>
-  <updated>2025-07-01T10:35:45.866516-04:00</updated>
+  <updated>2025-07-01T11:35:40.252767-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,10 +92,10 @@
 - New setting to disable auto expand details sections for print previews &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
-New service worker changes should autobust and reload your cache for you but it that doesn't work
+New service worker changes should auto bust and reload your cache for you but it that doesn't work
 Make sure to clear your browser cache and reload to reflect the new changes
 Dev console &amp;gt; Application &amp;gt; Storage &amp;gt; Clear site data
-After the new cache has been applied, new changes will be applied whenever there is a new change&lt;/p&gt;
+After the new cache has been applied, new versions will auto bust and reload your cache for you moving forward&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbPad/compare/v1.0.0...v.1.0.1
 PR: 
