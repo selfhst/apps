@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing Releases</title>
-  <updated>2025-07-01T06:31:50.611273-04:00</updated>
+  <updated>2025-07-01T07:31:52.482520-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -122,5 +122,47 @@ notes at https://github.com/syncthing/syncthing/releases.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syncthing/syncthing/compare/v1.29.6...v1.29.7&lt;/p&gt;</content>
     <link href="https://github.com/syncthing/syncthing/releases/tag/v1.29.7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/syncthing/syncthing/releases/tag/v1.30.0</id>
+    <title>New release for Syncthing: v1.30.0</title>
+    <updated>2025-07-01T07:29:11-04:00</updated>
+    <author>
+      <name>syncthing/syncthing</name>
+    </author>
+    <content>&lt;h2&gt;Syncthing 2 is coming&lt;/h2&gt;
+&lt;p&gt;Syncthing version 1.x will soon be replaced by Syncthing version 2.x.
+Version 2 brings a new database format and various cleanups, but remains
+protocol compatible with Syncthing 1.&lt;/p&gt;
+&lt;p&gt;More detailed information about Syncthing 2 can be found in the release
+notes at https://github.com/syncthing/syncthing/releases.&lt;/p&gt;
+&lt;p&gt;This release is also available as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;APT repository: https://apt.syncthing.net/&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Docker image: &lt;code&gt;docker.io/syncthing/syncthing:1.30.0&lt;/code&gt; or &lt;code&gt;ghcr.io/syncthing/syncthing:1.30.0&lt;/code&gt;
+  (&lt;code&gt;{docker,ghcr}.io/syncthing/syncthing:1&lt;/code&gt; to follow just the major version)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(protocol): avoid deadlock with concurrent connection start and close by @calmh in https://github.com/syncthing/syncthing/pull/10140&lt;/li&gt;
+&lt;li&gt;fix(syncthing): avoid writing panic log to nil fd by @ardevd in https://github.com/syncthing/syncthing/pull/10154&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(config): expose folder and device info as metrics (fixes #9519) by @calmh in https://github.com/syncthing/syncthing/pull/10148&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;build: properly propagate build tags to Debian build by @calmh in https://github.com/syncthing/syncthing/pull/10144&lt;/li&gt;
+&lt;li&gt;chore(protocol): don't start connection routines a second time by @imsodin in https://github.com/syncthing/syncthing/pull/10146&lt;/li&gt;
+&lt;li&gt;chore(protocol): only allow enc. password changes on cluster config by @imsodin in https://github.com/syncthing/syncthing/pull/10145&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/syncthing/syncthing/compare/v1.29.7...v1.30.0&lt;/p&gt;</content>
+    <link href="https://github.com/syncthing/syncthing/releases/tag/v1.30.0" rel="alternate"/>
   </entry>
 </feed>
