@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pulsarr Releases</title>
-  <updated>2025-07-01T14:37:03.135086-04:00</updated>
+  <updated>2025-07-01T15:36:56.476682-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -190,7 +190,7 @@
 &lt;h3&gt;Complete UI/UX Overhaul&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Interface Redesign&lt;/strong&gt; with Tailwind v4 migration&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;New Sidebar&lt;/strong&gt; with team selection and user avatars&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Sidebar&lt;/strong&gt; &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5 New Utility Pages&lt;/strong&gt;: Delete Sync, User Tags, Public Notifications, Plex Sessions, Approval/Quota Settings&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Enhanced Mobile Experience&lt;/strong&gt; with comprehensive responsive fixes&lt;/li&gt;
 &lt;/ul&gt;
