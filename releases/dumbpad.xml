@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbPad Releases</title>
-  <updated>2025-06-30T21:35:36.149950-04:00</updated>
+  <updated>2025-06-30T22:35:29.388787-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,11 +76,6 @@
       <name>DumbWareio/DumbPad</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-Make sure to clear your browser cache and reload to reflect the new changes
-Dev console &amp;gt; Application &amp;gt; Storage &amp;gt; Clear site data&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;p&gt;v1.0.1 - Query Param support, enhance markdown previews with new styles, mirror markdown preview styles for print, new setting, service worker versioning by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/61
 - added new service worker versioning with cache busting (still requires clearing cache for the new change but should auto reload moving forward)
 - Query Param support for direct notepad selection
@@ -95,15 +90,25 @@ Dev console &amp;gt; Application &amp;gt; Storage &amp;gt; Clear site data&lt;/p
   - print now mirrors style of markdown preview accurately
   - auto expands expandable details section for print previews
 - New setting to disable auto expand details sections for print previews &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+New service worker changes should autobust and reload your cache for you but it that doesn't work
+Make sure to clear your browser cache and reload to reflect the new changes
+Dev console &amp;gt; Application &amp;gt; Storage &amp;gt; Clear site data
+After the new cache has been applied, new changes will be applied whenever there is a new change&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbPad/compare/v1.0.0...v.1.0.1
+PR: 
+- https://github.com/DumbWareio/DumbPad/pull/61
+- https://github.com/DumbWareio/DumbPad/pull/62&lt;/p&gt;
 &lt;h2&gt;Previews&lt;/h2&gt;
 &lt;p&gt;| Feature | Description | Preview |
 |---|---|---|
-| Query Params with History | Query parameters are now used for browser back and forward functionality, improving navigation. | &lt;img alt="query-params" src="https://github.com/user-attachments/assets/dccd1e61-3914-471b-8a24-4f07df0a6c5c" /&gt; |
+| Query Params with History | Query parameters are now used for browser back and forward functionality, improving navigation. now with new copy link button! | &lt;img alt="query-params" src="https://github.com/user-attachments/assets/dccd1e61-3914-471b-8a24-4f07df0a6c5c" /&gt; |
 | Print Preview (Light/Dark Mode) | The print preview accurately reflects the light/dark mode and styling of the notepad in Markdown. | &lt;img alt="print-preview-light" src="https://github.com/user-attachments/assets/ff0216db-af66-477a-bf12-093a747ab957" /&gt; &lt;img alt="print-preview-dark" src="https://github.com/user-attachments/assets/98a91f7c-b4c7-4358-a56a-3b5fee3e6abb" /&gt; |
 | Print Preview Defaults to Expand Collapsed Sections | Print preview now defaults to expanding collapsed sections in Markdown. A new setting is available to disable this behavior. | &lt;img alt="setting-disable-expand" src="https://github.com/user-attachments/assets/89c87514-0903-4b75-ba12-73a54bc73ab0" /&gt; |
-| New Markdown Stylings | Added new Markdown stylings for alerts, details/collapse sections, and tables, along with revamped spacing. | &lt;img alt="markdown-preview1" src="https://github.com/user-attachments/assets/a17093ea-c357-454f-b0d3-c6f6491c1fce" /&gt; &lt;img alt="markdown-preview2" src="https://github.com/user-attachments/assets/e06141e6-82d6-48cb-953f-e1cbc60a1dfd" /&gt; |&lt;/p&gt;
-&lt;p&gt;PR: https://github.com/DumbWareio/DumbPad/pull/61
-&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbPad/compare/v1.0.0...v.1.0.1&lt;/p&gt;</content>
+| New Markdown Stylings | Added new Markdown stylings for alerts, details/collapse sections, and tables, codeblocks with copy button, along with revamped spacing. | &lt;img alt="markdown-preview1" src="https://github.com/user-attachments/assets/a17093ea-c357-454f-b0d3-c6f6491c1fce" /&gt; &lt;img alt="markdown-preview2" src="https://github.com/user-attachments/assets/e06141e6-82d6-48cb-953f-e1cbc60a1dfd" /&gt; |&lt;/p&gt;
+&lt;p&gt;Thanks and stay dumb! 🚀&lt;/p&gt;</content>
     <link href="https://github.com/DumbWareio/DumbPad/releases/tag/v.1.0.1" rel="alternate"/>
   </entry>
 </feed>
