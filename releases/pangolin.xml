@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pangolin Releases</title>
-  <updated>2025-07-01T23:35:20.319388-04:00</updated>
+  <updated>2025-07-02T00:35:13.728025-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -132,6 +132,8 @@ Always back up your config app-data before updating. This will allow you to easi
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/fosrl/pangolin/compare/1.5.1...1.6.0&lt;/p&gt;
 &lt;h2&gt;How to Update&lt;/h2&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+For PostgresSQL users coming from version &amp;lt; 1.6.0, please upgrade directly to &amp;gt;=1.6.2, as there is a broken migration script in this version.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]
 Always back up your config app-data before updating. This will allow you to easily roll back if the update breaks your configuration. You will not be able to easily downgrade otherwise.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -166,6 +168,8 @@ We are looking for people to help us manage and review translations. If you're i
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/fosrl/pangolin/compare/1.6.0...1.6.1&lt;/p&gt;
 &lt;h2&gt;How to Update&lt;/h2&gt;
 &lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+For PostgresSQL users coming from version &amp;lt; 1.6.0, please upgrade directly to &amp;gt;=1.6.2, as there is a broken migration script in this version.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]
 Always back up your config app-data before updating. This will allow you to easily roll back if the update breaks your configuration. You will not be able to easily downgrade otherwise.&lt;/p&gt;
 &lt;/blockquote&gt;
