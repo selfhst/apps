@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLogr Releases</title>
-  <updated>2025-07-02T14:33:32.987047-04:00</updated>
+  <updated>2025-07-02T15:33:28.268568-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,5 +150,63 @@ This release comes with various fixes but most noticeably an overhaul of how dep
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Mozzo1000/booklogr/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
     <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Mozzo1000/booklogr/releases/tag/v.1.4.0</id>
+    <title>New release for BookLogr: v.1.4.0</title>
+    <updated>2025-07-02T15:00:59-04:00</updated>
+    <author>
+      <name>Mozzo1000/booklogr</name>
+    </author>
+    <content>&lt;p&gt;Release 1.4.0 🎉&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+The &lt;code&gt;auth-server&lt;/code&gt;container has been removed. If updating from 1.3.0 you will need to create a new user and change &lt;code&gt;owner_id&lt;/code&gt; in all relevant rows in tables &lt;code&gt;books&lt;/code&gt;, &lt;code&gt;user_settings&lt;/code&gt;, and &lt;code&gt;profiles&lt;/code&gt;.
+The authentication data is now stored in the same database as the rest of the software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;| Dark mode| Update reading progress by percentage | 
+| :----------------------------: | :----------------------------: |
+| &lt;img alt="dark_mode_showcase_booklogr" src="https://github.com/user-attachments/assets/67fc31c3-14a2-4c46-b749-13a772f25342" /&gt; | &lt;img alt="booklogr_percentage" src="https://github.com/user-attachments/assets/06e44ddb-4888-46d7-9631-bcd1a300400c" /&gt; |&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The search bar now displays a close button on smaller screens.&lt;/li&gt;
+&lt;li&gt;The web interface now includes the ability to edit the total number of pages through the newly added 'Edit Book' option.&lt;/li&gt;
+&lt;li&gt;A loading spinner is now shown while waiting for the export file to finish processing.&lt;/li&gt;
+&lt;li&gt;Books can now be imported from BookLogrs own CSV format or Goodreads.&lt;/li&gt;
+&lt;li&gt;Reading progress can now be entered as a percentage in addition to page number.&lt;/li&gt;
+&lt;li&gt;Added pagination support when retrieving books from the api.&lt;/li&gt;
+&lt;li&gt;Web interface now includes pagination controls on the library page for easier navigation.&lt;/li&gt;
+&lt;li&gt;Dark mode.&lt;/li&gt;
+&lt;li&gt;The version number is now displayed in the footer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Total pages are now correctly filled in automatically when adding book to list.&lt;/li&gt;
+&lt;li&gt;Book descriptions are now being saved properly.&lt;/li&gt;
+&lt;li&gt;Pages now include slight padding on the right side for smaller screens.&lt;/li&gt;
+&lt;li&gt;Public profiles are now accessible even when no notes are present.&lt;/li&gt;
+&lt;li&gt;Resolved issue where "NaN" appeared when both the current page and total pages were set to 0 on the book card. #27&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Background tasks now run as a separate thread within the API.&lt;/li&gt;
+&lt;li&gt;Authentication endpoints have been moved under the &lt;code&gt;/api&lt;/code&gt; namespace.&lt;/li&gt;
+&lt;li&gt;The "Add to List" button on the book page now allows users to update progress and change which reading list the book belongs to. It also detects if a book is already in a list and adjusts its behavior accordingly.&lt;/li&gt;
+&lt;li&gt;When updating progress, the previous page number is now displayed instead of being left blank.&lt;/li&gt;
+&lt;li&gt;Exported files are now generated using UTF-8 encoding.&lt;/li&gt;
+&lt;li&gt;The welcome screen now appears on both the home screen and the profile page if no profile was previously created&lt;/li&gt;
+&lt;li&gt;The provided example &lt;code&gt;.env&lt;/code&gt; file now works out of the box with the included &lt;code&gt;docker-compose&lt;/code&gt; setup, as the &lt;code&gt;DATABASE_URL&lt;/code&gt; has been updated to point to the database container instead of localhost.&lt;/li&gt;
+&lt;li&gt;Search results now display the authors name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;auth-server&lt;/code&gt; has been completely removed as a dependency.&lt;/li&gt;
+&lt;li&gt;The Docker image for background workers has been removed.&lt;/li&gt;
+&lt;li&gt;Removed the ESC icon from the search bar in the navbar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Mozzo1000/booklogr/compare/v1.3.0...v.1.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/Mozzo1000/booklogr/releases/tag/v.1.4.0" rel="alternate"/>
   </entry>
 </feed>
