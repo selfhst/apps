@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mautic Releases</title>
-  <updated>2025-07-02T03:31:18.073531-04:00</updated>
+  <updated>2025-07-02T04:31:18.297866-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -210,7 +210,7 @@ SHA1(5.2.7-update.zip)= sha256:583d7209b134dfaa9645760f61e74f3b711b88d95d577726a
     <author>
       <name>mautic/mautic</name>
     </author>
-    <content>&lt;p&gt;## Announcing Mautic 6.0.3&lt;/p&gt;
+    <content>&lt;p&gt;## Announcing Mautic 6.0.3: Bellatrix Edition&lt;/p&gt;
 &lt;p&gt;## What's Changed&lt;/p&gt;
 &lt;p&gt;### 🐛 Bugs&lt;/p&gt;
 &lt;p&gt;#### 🚀 Campaigns
