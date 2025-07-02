@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2025-07-02T10:33:06.053658-04:00</updated>
+  <updated>2025-07-02T11:33:02.033160-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -277,6 +277,8 @@ Impacted users are recommended to upgrade their auth and proxy servers to the la
 * Okta: Fixed disabling user sync in the existing plugin while bidirectional sync is enabled (the default). &lt;a href="https://github.com/gravitational/teleport.e/pull/6669"&gt;#6669&lt;/a&gt;
 * Okta: Fixed syncing back RBAC changes to Okta for legacy App and Group only sync configuration where Access List sync is disabled. &lt;a href="https://github.com/gravitational/teleport.e/pull/6634"&gt;#6634&lt;/a&gt;
 * Added support for viewing and exploring "active" bot instances via the web UI. &lt;a href="https://github.com/gravitational/teleport.e/pull/6612"&gt;#6612&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Warning&lt;/h2&gt;
+&lt;p&gt;v17.5.3 includes a bug which breaks Machine &amp;amp; Workload Identity-based joining in the Teleport Terraform Provider. If you rely on this functionality, use the v17.5.2 version of the Terraform provider until v17.5.4 is released.&lt;/p&gt;
 &lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;Download the current and previous releases of Teleport at https://goteleport.com/download.&lt;/p&gt;
 &lt;h2&gt;Plugins&lt;/h2&gt;
