@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-07-02T15:30:49.060187-04:00</updated>
+  <updated>2025-07-02T16:30:48.867859-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,6 +112,8 @@
 - &lt;code&gt;favicon-32x32.png&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;The following icons have been added:
 - &lt;code&gt;favicon.svg&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Docker Symlinks Removed&lt;/h2&gt;
+&lt;p&gt;Please refer to https://github.com/filebrowser/filebrowser/releases/tag/v2.33.0 for the updates made to the Docker image, and upgrade accordingly. &lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;0c34b79a9937b970f2259e37d1f33bab2bddbfab chore(release): 2.36.0&lt;/li&gt;
