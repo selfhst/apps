@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lab Dash Releases</title>
-  <updated>2025-07-02T04:36:47.959781-04:00</updated>
+  <updated>2025-07-02T05:36:56.947643-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,7 +91,10 @@
     <author>
       <name>AnthonyGress/lab-dash</name>
     </author>
-    <content>&lt;p&gt;Release v1.2.2&lt;/p&gt;</content>
+    <content>&lt;ul&gt;
+&lt;li&gt;fix an issue with group layouts&lt;/li&gt;
+&lt;li&gt;fix an issue with groups removing items when editing group layout&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/AnthonyGress/lab-dash/releases/tag/v1.2.2" rel="alternate"/>
   </entry>
 </feed>

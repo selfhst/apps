@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Portainer Releases</title>
-  <updated>2025-07-02T04:31:38.566176-04:00</updated>
+  <updated>2025-07-02T05:31:38.072266-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -18,6 +18,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Users with Portainer deployed behind a reverse proxy may encounter "Origin invalid" issues under some configurations. We recommend updating to 2.27.9 which provides a workaround to this issue.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
@@ -48,6 +51,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Users with Portainer deployed behind a reverse proxy may encounter "Origin invalid" issues under some configurations. A workaround for this issue is provided in 2.27.9 LTS and a fix for the STS release stream is in progress.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
@@ -73,6 +79,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Users with Portainer deployed behind a reverse proxy may encounter "Origin invalid" issues under some configurations. We recommend updating to 2.27.9 which provides a workaround to this issue.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
@@ -100,6 +109,9 @@
       <name>portainer/portainer</name>
     </author>
     <content>&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Users with Portainer deployed behind a reverse proxy may encounter "Origin invalid" issues under some configurations. A workaround for this issue is provided in 2.27.9 LTS and a fix for the STS release stream is in progress.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Known issues with Podman support&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Podman environments aren't supported by auto-onboarding script&lt;/li&gt;
