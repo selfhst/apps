@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-07-02T13:33:01.469656-04:00</updated>
+  <updated>2025-07-02T14:33:02.933840-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -169,11 +169,10 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
     <author>
       <name>coder/coder</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://coder.com/docs/install/releases"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
+    <content>&lt;blockquote&gt;
+&lt;h2&gt;Stable (since July 1, 2025)&lt;/h2&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Chores&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Revert breaking changes relating to WorkspaceOwnerName (#18304, b906c16b3)&lt;/li&gt;
@@ -194,11 +193,10 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
     <author>
       <name>coder/coder</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-This is a mainline Coder release. We advise enterprise customers without a staging environment to install our &lt;a href="https://github.com/coder/coder/releases/latest"&gt;latest stable release&lt;/a&gt; while we refine this version. Learn more about our &lt;a href="https://coder.com/docs/install/releases"&gt;Release Schedule&lt;/a&gt;.&lt;/p&gt;
+    <content>&lt;blockquote&gt;
+&lt;h2&gt;Stable (since July 1, 2025)&lt;/h2&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;h3&gt;Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Stop tearing down non-TTY processes on SSH session end (#18677, 75e7a9359) (@spikecurtis)&lt;blockquote&gt;
