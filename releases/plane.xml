@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2025-07-02T08:33:18.889381-04:00</updated>
+  <updated>2025-07-02T09:33:24.267570-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -140,7 +140,7 @@ Starting with version &lt;code&gt;v0.26.0&lt;/code&gt;, you must set either &lt;
     <content>&lt;h3&gt;July 1, 2025 · v0.27.0&lt;/h3&gt;
 &lt;h2&gt;📊 Analytics 2.0&lt;/h2&gt;
 &lt;p&gt;We've completely revamped our analytics experience from the ground up! Analytics 2.0 brings powerful data insights with a redesigned interface and enhanced capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://docs.plane.so/core-concepts/analytics"&gt;[📖 Learn more](https://docs.plane.so/core-concepts/analytics)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.plane.so/core-concepts/analytics"&gt;📖 Learn more&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/2d9af7a6-5fda-4bd5-87ca-7c89474b1b08" /&gt;&lt;/p&gt;
 &lt;h2&gt;🧭 Revamped breadcrumbs&lt;/h2&gt;
 &lt;p&gt;We've completely redesigned the breadcrumb navigation system to be more than just a simple path indicator. Instead of static text showing your path, breadcrumbs now serve as navigation hubs. Whether you're deep in project pages or browsing through different sections, you can quickly pivot to related content or go back to any level in the hierarchy with rich context about what's available at each step.&lt;/p&gt;
