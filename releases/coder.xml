@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Coder Releases</title>
-  <updated>2025-07-03T12:33:00.519703-04:00</updated>
+  <updated>2025-07-03T13:32:57.985503-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,6 +30,10 @@ This is a mainline Coder release. We advise enterprise customers without a stagi
 &lt;/li&gt;
 &lt;li&gt;Omit &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;avatar_url&lt;/code&gt; and &lt;code&gt;last_seen_at&lt;/code&gt; from responses when empty (#18005, 94c129c03) (@BrunoQuaresma)&lt;/li&gt;
 &lt;li&gt;Update WorkspaceOwnerName to use user.name instead of user.username to reduce UI confusion (#18025, d63417b54) (@BrunoQuaresma)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;SECURITY CHANGES&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Both Coder v2.23 and Coder v2.24 now handle OIDC refresh tokens (#17878). If users are being logged out of OIDC after short intervals (e.g. 1 hour), ensure you &lt;a href="https://coder.com/docs/admin/users/oidc-auth/refresh-tokens"&gt;have properly configured OIDC refresh tokens&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
@@ -220,6 +224,10 @@ Previously, a workspace &lt;code&gt;update&lt;/code&gt; would triggger a &lt;cod
 &lt;p&gt;This only impacts the flow for our new devcontainer integration, and existing users will not see changes to behavior.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;SECURITY CHANGES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Both Coder v2.23 and Coder v2.24 now handle OIDC refresh tokens (#17878). If users are being logged out of OIDC after short intervals (e.g. 1 hour), ensure you &lt;a href="https://coder.com/docs/admin/users/oidc-auth/refresh-tokens"&gt;have properly configured OIDC refresh tokens&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;p&gt;We'll be exploring the details of major features included in this release in our first &lt;a href="https://launch.coder.com/"&gt;product launch event&lt;/a&gt; next week. Subscribe using &lt;a href="https://launch.coder.com/"&gt;this link&lt;/a&gt; to learn more.&lt;/p&gt;
