@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>StarWarden Releases</title>
-  <updated>2025-07-04T07:34:40.865157-04:00</updated>
+  <updated>2025-07-04T08:34:35.242906-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,5 +77,45 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
     <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/rtuszik/starwarden/releases/tag/v1.4.0</id>
+    <title>New release for StarWarden: v1.4.0</title>
+    <updated>2025-07-04T08:31:07-04:00</updated>
+    <author>
+      <name>rtuszik/starwarden</name>
+    </author>
+    <content>&lt;h1&gt;Starwarden v1.4.0 - Major Refactor &amp;amp; Notifications&lt;/h1&gt;
+&lt;p&gt;This release transforms Starwarden from a single script into a properly modularized Python package and adds comprehensive notification support.&lt;/p&gt;
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Apprise Notifications&lt;/strong&gt;
+- Added Apprise-based notifications with &lt;code&gt;APPRISE_URLS&lt;/code&gt; environment variable (Partially addresses issue #23)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modular Architecture&lt;/strong&gt;
+- Refactored monolithic &lt;code&gt;starwarden.py&lt;/code&gt; into a proper Python package
+- Clean separation across &lt;code&gt;main&lt;/code&gt;, &lt;code&gt;config&lt;/code&gt;, &lt;code&gt;github_api&lt;/code&gt;, &lt;code&gt;linkwarden_api&lt;/code&gt;, &lt;code&gt;tui&lt;/code&gt;, and &lt;code&gt;utils&lt;/code&gt; modules&lt;/p&gt;
+&lt;h2&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Improved Logging&lt;/strong&gt;
+- Centralized logging with RichHandler for console output and RotatingFileHandler for file management
+- Standardized log messages across all modules&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better Error Handling&lt;/strong&gt;
+- Improved handling of existing link exceptions in Linkwarden 409 responses (Closes issue #34)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Docker Improvements&lt;/strong&gt;
+- Added &lt;code&gt;DOCKERIZED&lt;/code&gt; flag for container-aware behavior
+- Proper environment variable exposure in Dockerfile&lt;/p&gt;
+&lt;h2&gt;Build &amp;amp; Dependencies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added apprise==1.9.3 for notification support&lt;/li&gt;
+&lt;li&gt;Updated requests and python-dotenv to latest versions&lt;/li&gt;
+&lt;li&gt;Simplified entrypoint that delegates to new modular structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated README with APPRISE_URLS configuration guide&lt;/li&gt;
+&lt;li&gt;Revised installation and usage instructions for new package structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Your existing configuration will continue to work. Add &lt;code&gt;APPRISE_URLS&lt;/code&gt; environment variable if you want notifications. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rtuszik/starwarden/compare/v1.3.0...v1.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/rtuszik/starwarden/releases/tag/v1.4.0" rel="alternate"/>
   </entry>
 </feed>
