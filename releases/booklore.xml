@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-07-04T16:38:19.402598-04:00</updated>
+  <updated>2025-07-04T17:36:02.828351-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,8 +129,12 @@
 &lt;/ul&gt;
 &lt;h2&gt;📖 Documentation&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Merge Develop into Master for release (#646) by @adityachandelgit&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;Merge Develop into Master for release (#646) by @adityachandelgit &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📸 Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;img width="1734" alt="Screenshot 2025-07-04 at 2 39 48 PM" src="https://github.com/user-attachments/assets/46999ce7-e2fb-48d1-adf4-3a8e765417fc" /&gt;
+&lt;img width="1734" alt="Screenshot 2025-07-04 at 2 38 33 PM" src="https://github.com/user-attachments/assets/2fc01372-82f6-4d68-b83d-7e54215c2859" /&gt;
+&lt;img width="1734" alt="Screenshot 2025-07-04 at 2 41 12 PM" src="https://github.com/user-attachments/assets/4080a797-a0d2-469a-8d16-2712241be656" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.31.0" rel="alternate"/>
   </entry>
 </feed>
