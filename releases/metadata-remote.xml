@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metadata Remote Releases</title>
-  <updated>2025-07-04T15:37:03.254084-04:00</updated>
+  <updated>2025-07-04T16:39:09.325265-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,5 +143,22 @@ wget https://raw.githubusercontent.com/wow-signal-dev/metadata-remote/main/docke
 &lt;h3&gt;Acknowledgments&lt;/h3&gt;
 &lt;p&gt;Thanks to the Mutagen project for their excellent Python multimedia tagging library.&lt;/p&gt;</content>
     <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.2</id>
+    <title>New release for Metadata Remote: v1.1.2 - Fix Python module import error</title>
+    <updated>2025-07-04T15:40:22-04:00</updated>
+    <author>
+      <name>wow-signal-dev/metadata-remote</name>
+    </author>
+    <content>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed "ModuleNotFoundError: No module named 'flask'" error that prevented the container from starting in some environments&lt;/li&gt;
+&lt;li&gt;Made Python module path explicit for consistent behavior across all Docker environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Technical Details&lt;/h3&gt;
+&lt;p&gt;The issue occurred because the image relied on Python's automatic user site-packages detection, which behaves inconsistently across different systems. This release explicitly sets the PYTHONPATH environment variable to ensure reliability.&lt;/p&gt;
+&lt;p&gt;If you experienced startup crashes with v1.1.0 or v1.1.1, this update resolves the issue.&lt;/p&gt;</content>
+    <link href="https://github.com/wow-signal-dev/metadata-remote/releases/tag/v1.1.2" rel="alternate"/>
   </entry>
 </feed>
