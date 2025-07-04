@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2025-07-04T02:32:52.625557-04:00</updated>
+  <updated>2025-07-04T03:32:55.339658-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -269,16 +269,16 @@ metadata:
 spec:
   allow:
     kubernetes_groups:
-    - &amp;amp;#39;{{internal.kubernetes_groups}}&amp;amp;#39;
+    - '{{internal.kubernetes_groups}}'
     kubernetes_labels:
-      &amp;amp;#39;*&amp;amp;#39;: &amp;amp;#39;*&amp;amp;#39;
+      '*': '*'
     kubernetes_resources:
     - api_group: stable.example.com
       kind: crontabs
-      name: &amp;amp;#39;*&amp;amp;#39;
-      namespace: &amp;amp;#39;*&amp;amp;#39;
+      name: '*'
+      namespace: '*'
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
   deny: {}
 version: v8&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Converting a v7 Role to a v8 Role. Note the addition of the now required
@@ -291,19 +291,19 @@ metadata:
 spec:
   allow:
     kubernetes_groups:
-    - &amp;amp;#39;{{internal.kubernetes_groups}}&amp;amp;#39;
+    - '{{internal.kubernetes_groups}}'
     kubernetes_labels:
-      &amp;amp;#39;*&amp;amp;#39;: &amp;amp;#39;*&amp;amp;#39;
+      '*': '*'
     kubernetes_resources:
     - kind: deployment
-      name: &amp;amp;#39;*&amp;amp;#39;
+      name: '*'
       namespace: default
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
     - kind: persistentvolume
-      name: &amp;amp;#39;*&amp;amp;#39;
+      name: '*'
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
   deny: {}
 version: v7&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yaml
@@ -313,21 +313,21 @@ metadata:
 spec:
   allow:
     kubernetes_groups:
-    - &amp;amp;#39;{{internal.kubernetes_groups}}&amp;amp;#39;
+    - '{{internal.kubernetes_groups}}'
     kubernetes_labels:
-      &amp;amp;#39;*&amp;amp;#39;: &amp;amp;#39;*&amp;amp;#39;
+      '*': '*'
     kubernetes_resources:
     - api_group: apps
       kind: deployments
-      name: &amp;amp;#39;*&amp;amp;#39;
+      name: '*'
       namespace: default
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
-    - api_group: &amp;amp;#39;&amp;amp;#39;
+      - '*'
+    - api_group: ''
       kind: persistentvolumes
-      name: &amp;amp;#39;*&amp;amp;#39;
+      name: '*'
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
   deny: {}
 version: v8&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Granting access to all items within a namespace. Note that in v8 there are two
@@ -340,14 +340,14 @@ metadata:
 spec:
   allow:
     kubernetes_groups:
-    - &amp;amp;#39;{{internal.kubernetes_groups}}&amp;amp;#39;
+    - '{{internal.kubernetes_groups}}'
     kubernetes_labels:
-      &amp;amp;#39;*&amp;amp;#39;: &amp;amp;#39;*&amp;amp;#39;
+      '*': '*'
     kubernetes_resources:
     - kind: namespace
       name: default
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
   deny: {}
 version: v7&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yaml
@@ -357,21 +357,21 @@ metadata:
 spec:
   allow:
     kubernetes_groups:
-    - &amp;amp;#39;{{internal.kubernetes_groups}}&amp;amp;#39;
+    - '{{internal.kubernetes_groups}}'
     kubernetes_labels:
-      &amp;amp;#39;*&amp;amp;#39;: &amp;amp;#39;*&amp;amp;#39;
+      '*': '*'
     kubernetes_resources:
-    - api_group: &amp;amp;#39;&amp;amp;#39;
+    - api_group: ''
       kind: namespaces
       name: default
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
-    - api_group: &amp;amp;#39;*&amp;amp;#39;
-      kind: &amp;amp;#39;*&amp;amp;#39;
-      name: &amp;amp;#39;*&amp;amp;#39;
+      - '*'
+    - api_group: '*'
+      kind: '*'
+      name: '*'
       namespace: default
       verbs:
-      - &amp;amp;#39;*&amp;amp;#39;
+      - '*'
   deny: {}
 version: v8&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;For more information, refer to the &lt;a href="docs/pages/enroll-resources/kubernetes-access/controls.mdx#kubernetes_resources"&gt;docs&lt;/a&gt;.&lt;/p&gt;
@@ -397,14 +397,14 @@ the Kubernetes Operator.&lt;/p&gt;
 &lt;p&gt;This might change the default options of role where not every option was
 explicitly set. For example:&lt;/p&gt;
 &lt;p&gt;```hcl
-resource &amp;#34;teleport_role&amp;#34; &amp;#34;one-option-set&amp;#34; {
-  version = &amp;#34;v7&amp;#34;
+resource "teleport_role" "one-option-set" {
+  version = "v7"
   metadata = {
-    name        = &amp;#34;one-option-set&amp;#34;
+    name        = "one-option-set"
   }&lt;/p&gt;
 &lt;p&gt;spec = {
     options = {
-      max_session_ttl = &amp;#34;7m&amp;#34;
+      max_session_ttl = "7m"
       # other boolean options were wrongly set to false by default
     }
   }
@@ -415,14 +415,14 @@ or setting every role option in your Terraform code.&lt;/p&gt;
 &lt;p&gt;After updating the Terraform provider to v18, &lt;code&gt;terraform plan&lt;/code&gt; will display the
 role option differences, please review it and check that the default changes are
 acceptable. If they are not, you must set the options to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Here&amp;#39;s a plan example for the code above:&lt;/p&gt;
+&lt;p&gt;Here's a plan example for the code above:&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
 &lt;h1&gt;teleport_role.one-option-set will be updated in-place&lt;/h1&gt;
-&lt;p&gt;~ resource &amp;#34;teleport_role&amp;#34; &amp;#34;one-option-set&amp;#34; {
-      id       = &amp;#34;one-option-set&amp;#34;
+&lt;p&gt;~ resource "teleport_role" "one-option-set" {
+      id       = "one-option-set"
     ~ spec     = {
         ~ options = {
-            - cert_format               = &amp;#34;standard&amp;#34; -&amp;gt; null
+            - cert_format               = "standard" -&amp;gt; null
             - create_host_user          = false -&amp;gt; null
             ~ desktop_clipboard         = false -&amp;gt; true
             ~ desktop_directory_sharing = false -&amp;gt; true
@@ -461,7 +461,7 @@ directly instead of storing their JSON-encoded representation. In addition to
 performance gains, this new storage mechanism will also improve compatibility
 between older agents and newer versions of resources.&lt;/p&gt;
 &lt;h4&gt;Windows desktop discovery enhancements&lt;/h4&gt;
-&lt;p&gt;Teleport&amp;#39;s LDAP-based discovery mechanism for Windows desktops now supports:&lt;/p&gt;
+&lt;p&gt;Teleport's LDAP-based discovery mechanism for Windows desktops now supports:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a configurable discovery interval&lt;/li&gt;
 &lt;li&gt;custom RDP ports&lt;/li&gt;
@@ -472,14 +472,14 @@ between older agents and newer versions of resources.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;diff
 windows_desktop_service:
   enabled: yes
-&amp;amp;#43;  discovery_interval: 10m # optional, defaults to 5 minutes
++  discovery_interval: 10m # optional, defaults to 5 minutes
 -  discovery:
--    base_dn: &amp;amp;#39;*&amp;amp;#39;
+-    base_dn: '*'
 -    label_attributes: [ department ]
-&amp;amp;#43;  discovery_configs:
-&amp;amp;#43;    - base_dn: &amp;amp;#39;*&amp;amp;#39;
-&amp;amp;#43;      label_attributes: [ department ]
-&amp;amp;#43;      rdp_port: 9989 # optional, defaults to 3389&lt;/code&gt;&lt;/p&gt;
++  discovery_configs:
++    - base_dn: '*'
++      label_attributes: [ department ]
++      rdp_port: 9989 # optional, defaults to 3389&lt;/code&gt;&lt;/p&gt;
 &lt;h4&gt;Faster user lookups on domain-joined Windows workstations&lt;/h4&gt;
 &lt;p&gt;Teleport 18 is built with Go 1.24, which includes an optimized user lookup
 implementation. As a result, the
