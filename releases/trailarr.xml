@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trailarr Releases</title>
-  <updated>2025-07-04T04:33:58.097847-04:00</updated>
+  <updated>2025-07-04T05:33:53.257386-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -139,7 +139,7 @@
   <entry>
     <id>https://github.com/nandyalu/trailarr/releases/tag/v0.4.0</id>
     <title>New release for Trailarr: v0.4.0 Release - Added Profiles</title>
-    <updated>2025-07-04T03:45:05-04:00</updated>
+    <updated>2025-07-04T04:46:54-04:00</updated>
     <author>
       <name>nandyalu/trailarr</name>
     </author>
