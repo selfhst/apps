@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-07-04T09:31:28.814663-04:00</updated>
+  <updated>2025-07-04T10:31:30.264203-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -284,8 +284,7 @@ Migrations in this release will enable the &lt;code&gt;pg_trgm&lt;/code&gt; data
     <content>&lt;p&gt;&lt;img width="938" alt="image" src="https://github.com/user-attachments/assets/1545516f-8cb2-4df8-8fea-f8ad65ae49ff" /&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;Installation screen&lt;/h3&gt;
-&lt;p&gt;We added a new screen when installing Outline for the first time which allows setting up a workspace in the database with email
-before setting up any SSO providers. This should provide an easier onboarding experience for new users.&lt;/p&gt;
+&lt;p&gt;We added a new screen when installing Outline for the first time which allows setting up a workspace in the database with email before setting up any SSO providers. This should provide an easier onboarding experience for new users.&lt;/p&gt;
 &lt;h3&gt;Editor improvements&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Tables now have the ability to merge and split cells across rows and columns, use this to create more complex layouts.&lt;/li&gt;
@@ -307,7 +306,6 @@ before setting up any SSO providers. This should provide an easier onboarding ex
 &lt;li&gt;Add &lt;code&gt;attachments.list&lt;/code&gt; API endpoint in https://github.com/outline/outline/pull/9259&lt;/li&gt;
 &lt;li&gt;Add warning to user on large documents in https://github.com/outline/outline/pull/9282&lt;/li&gt;
 &lt;li&gt;Add workspace description setting in https://github.com/outline/outline/pull/9345&lt;/li&gt;
-&lt;li&gt;Add order parameter to addDocumentToStructure function in https://github.com/outline/outline/pull/9342&lt;/li&gt;
 &lt;li&gt;Add option to show modified timestamp on publicly shared docs in https://github.com/outline/outline/pull/9347&lt;/li&gt;
 &lt;li&gt;Add support for individual database environment variables in https://github.com/outline/outline/pull/9344&lt;/li&gt;
 &lt;li&gt;API: &lt;code&gt;allowIndexing&lt;/code&gt; and &lt;code&gt;showLastUpdated&lt;/code&gt; can now be set in &lt;code&gt;shares.create&lt;/code&gt; in https://github.com/outline/outline/pull/9476&lt;/li&gt;
