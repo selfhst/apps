@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-07-04T12:37:06.200877-04:00</updated>
+  <updated>2025-07-04T13:37:02.339485-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,6 @@
     <content>&lt;ul&gt;
 &lt;li&gt;27476a3 wait until config is loaded to check for default preset. Fix #320 by arabcoders&lt;/li&gt;
 &lt;li&gt;a5812a7 Download selected as archive when downloading multiple files. Implements #321, Update #310 by arabcoders&lt;/li&gt;
-&lt;li&gt;b3bd02a Merge pull request #322 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.2.1" rel="alternate"/>
   </entry>

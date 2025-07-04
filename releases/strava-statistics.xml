@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Statistics for Strava Releases</title>
-  <updated>2025-07-04T12:37:08.612153-04:00</updated>
+  <updated>2025-07-04T13:37:04.817224-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -92,7 +92,7 @@ The most noteworthy feature is the virtual workout assistant: https://statistics
     <author>
       <name>robiningelbrecht/statistics-for-strava</name>
     </author>
-    <content>&lt;p&gt;💻 This release should fix the memory issues for users that have a log of segments and segment efforts.&lt;/p&gt;
+    <content>&lt;p&gt;💻 This release should fix the memory issues for users that have a lot of segments and segment efforts.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ISSUE #814: Re-arrange components on activity detail page by @robiningelbrecht in https://github.com/robiningelbrecht/statistics-for-strava/pull/815&lt;/li&gt;
