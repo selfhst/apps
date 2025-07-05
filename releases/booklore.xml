@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-07-05T12:35:58.727571-04:00</updated>
+  <updated>2025-07-05T13:35:52.912925-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,10 +134,10 @@
 &lt;li&gt;Fix Transaction Deadlock During Library Re-Scan Due to Duplicates (#647) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;📸 Screenshots&lt;/h2&gt;
-&lt;p&gt;&lt;img width="1740" alt="Screenshot 2025-07-04 at 7 58 05 PM" src="https://github.com/user-attachments/assets/e363c294-82e9-4ab2-b95a-9f7de80ae74a" /&gt;
+&lt;p&gt;&lt;img width="1740" alt="462700270-e363c294-82e9-4ab2-b95a-9f7de80ae74a (1)" src="https://github.com/user-attachments/assets/cda354f3-4e11-4af1-88f7-86d751e107bf" /&gt;
 &lt;img width="1734" alt="462639036-46999ce7-e2fb-48d1-adf4-3a8e765417fc (1)" src="https://github.com/user-attachments/assets/d56f3f78-20c5-43c5-bdb2-84283cc9521c" /&gt;
-&lt;img width="1734" alt="Screenshot 2025-07-04 at 2 38 33 PM" src="https://github.com/user-attachments/assets/2fc01372-82f6-4d68-b83d-7e54215c2859" /&gt;
-&lt;img width="1734" alt="Screenshot 2025-07-04 at 2 41 12 PM" src="https://github.com/user-attachments/assets/4080a797-a0d2-469a-8d16-2712241be656" /&gt;&lt;/p&gt;</content>
+&lt;img width="1734" alt="462639319-2fc01372-82f6-4d68-b83d-7e54215c2859 (1)" src="https://github.com/user-attachments/assets/5252c601-79b6-40dd-9b9a-ae9bf79db61b" /&gt;
+&lt;img width="1740" alt="Screenshot 2025-07-05 at 11 32 26 AM" src="https://github.com/user-attachments/assets/a92861e1-7a0a-4f07-9033-a36c67aea6a2" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.32.0" rel="alternate"/>
   </entry>
 </feed>
