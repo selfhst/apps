@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockman Releases</title>
-  <updated>2025-07-05T00:36:49.628365-04:00</updated>
+  <updated>2025-07-05T01:37:00.486809-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,5 +54,27 @@
 &lt;li&gt;improved table loader (&lt;a href="https://github.com/RA341/dockman/commit/40dabdca4726609ee6877c69ba0da31c4fa83eab"&gt;40dabdc&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RA341/dockman/releases/tag/v1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RA341/dockman/releases/tag/v1.1.0</id>
+    <title>New release for Dockman: v1.1.0</title>
+    <updated>2025-07-05T01:30:14-04:00</updated>
+    <author>
+      <name>RA341/dockman</name>
+    </author>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/RA341/dockman/compare/v1.0.2...v1.1.0"&gt;1.1.0&lt;/a&gt; (2025-07-05)&lt;/h1&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;infinite git list refresh (&lt;a href="https://github.com/RA341/dockman/commit/1a76d163622967c6eb2c8ea9464062cf33b2080b"&gt;1a76d16&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;switched to a hybrid frontend/backend sort for better ux (&lt;a href="https://github.com/RA341/dockman/commit/9fad0f00c6ef6c3c34ee7efb6906404d567f6a0f"&gt;9fad0f0&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added file sync (&lt;a href="https://github.com/RA341/dockman/commit/14c17763802c870532cab6f01bb566ad2ef802a3"&gt;14c1776&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;added individual container controls (&lt;a href="https://github.com/RA341/dockman/commit/70495411c05ad933d016f6c6e3dddec20c47aaad"&gt;7049541&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;finalized multi-docker host support (&lt;a href="https://github.com/RA341/dockman/commit/aa71a943a66df09aeabab9c5b2dbc0b4f1a32bab"&gt;aa71a94&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;setting auth user/pass (&lt;a href="https://github.com/RA341/dockman/commit/a26e3fbc97d3be9db37d675dd7ff97f7d95aa95f"&gt;a26e3fb&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RA341/dockman/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
