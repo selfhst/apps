@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockman Releases</title>
-  <updated>2025-07-05T11:36:59.706119-04:00</updated>
+  <updated>2025-07-05T12:36:59.600198-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,7 +66,7 @@
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;infinite git list refresh (&lt;a href="https://github.com/RA341/dockman/commit/1a76d163622967c6eb2c8ea9464062cf33b2080b"&gt;1a76d16&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;switched to a hybrid frontend/backend sort for better ux (&lt;a href="https://github.com/RA341/dockman/commit/9fad0f00c6ef6c3c34ee7efb6906404d567f6a0f"&gt;9fad0f0&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;fix container stats (&lt;a href="https://github.com/RA341/dockman/commit/9fad0f00c6ef6c3c34ee7efb6906404d567f6a0f"&gt;9fad0f0&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
