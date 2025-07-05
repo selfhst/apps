@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Spacepad Releases</title>
-  <updated>2025-07-05T14:36:36.296340-04:00</updated>
+  <updated>2025-07-05T15:36:41.160887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -44,5 +44,27 @@
     </author>
     <content>&lt;p&gt;This release includes several bugfixes, documentation updates and added error handling.&lt;/p&gt;</content>
     <link href="https://github.com/magweter/spacepad/releases/tag/v1.1.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/magweter/spacepad/releases/tag/v1.2.0</id>
+    <title>New release for Spacepad: v1.2.0</title>
+    <updated>2025-07-05T14:44:36-04:00</updated>
+    <author>
+      <name>magweter/spacepad</name>
+    </author>
+    <content>&lt;p&gt;This release includes several new functionalities and improvements for self hosting.&lt;/p&gt;
+&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved security measures for self hosting (allow specific domains, disable email login)&lt;/li&gt;
+&lt;li&gt;A bunch of stability improvements and bugfixes&lt;/li&gt;
+&lt;li&gt;Licensing is no longer manual, but now built in to the product&lt;/li&gt;
+&lt;li&gt;Added the ability to disconnect accounts&lt;/li&gt;
+&lt;li&gt;Improved the onboarding and dashboard UI &amp;amp; UX&lt;/li&gt;
+&lt;li&gt;Expanded the self hosted setup documentation&lt;/li&gt;
+&lt;li&gt;Updated the readme&lt;/li&gt;
+&lt;li&gt;Laravel &amp;amp; PHP updated to latest version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: https://github.com/magweter/spacepad/compare/v1.1.1...v1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/magweter/spacepad/releases/tag/v1.2.0" rel="alternate"/>
   </entry>
 </feed>
