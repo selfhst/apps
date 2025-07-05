@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>qBitController Releases</title>
-  <updated>2025-07-05T02:34:05.101340-04:00</updated>
+  <updated>2025-07-05T03:34:03.108179-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for qBitController: qBitController v0.8.4</title>
     <updated>2024-01-07T09:46:12-05:00</updated>
     <author>
-      <name>qBitController/qBitController</name>
+      <name>Bartuzen/qBitController</name>
     </author>
     <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
@@ -29,7 +29,7 @@
     <title>New release for qBitController: qBitController v0.8.5</title>
     <updated>2024-02-24T06:44:31-05:00</updated>
     <author>
-      <name>qBitController/qBitController</name>
+      <name>Bartuzen/qBitController</name>
     </author>
     <content>&lt;h2&gt;Additions&lt;/h2&gt;
 &lt;ul&gt;
@@ -53,7 +53,7 @@
     <title>New release for qBitController: qBitController v1.0.0</title>
     <updated>2024-09-12T10:48:11-04:00</updated>
     <author>
-      <name>qBitController/qBitController</name>
+      <name>Bartuzen/qBitController</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Updated to Material Design 3 and added Material You support&lt;/li&gt;
@@ -74,7 +74,7 @@
     <title>New release for qBitController: qBitController v1.1.0</title>
     <updated>2024-10-03T18:14:45-04:00</updated>
     <author>
-      <name>qBitController/qBitController</name>
+      <name>Bartuzen/qBitController</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Added option to set default torrent status filter&lt;/li&gt;
@@ -91,7 +91,7 @@
     <title>New release for qBitController: qBitController v1.1.1</title>
     <updated>2025-02-09T02:49:27-05:00</updated>
     <author>
-      <name>qBitController/qBitController</name>
+      <name>Bartuzen/qBitController</name>
     </author>
     <content>&lt;ul&gt;
 &lt;li&gt;Made changes to notification system&lt;/li&gt;
