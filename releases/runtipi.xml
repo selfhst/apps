@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Runtipi Releases</title>
-  <updated>2025-07-05T10:32:25.151007-04:00</updated>
+  <updated>2025-07-05T11:32:26.623031-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,7 +133,7 @@
 &lt;h2&gt;How to update&lt;/h2&gt;
 &lt;p&gt;From the root folder of your runtipi install&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;./runtipi-cli update v4.2.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./runtipi-cli update v4.3.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can also set an &lt;a href="https://runtipi.io/docs/guides/auto-update-with-cron"&gt;auto update cron&lt;/a&gt; for future updates&lt;/p&gt;
 &lt;p&gt;If you are coming from version 3 or lower please follow the &lt;a href="https://runtipi.io/docs/reference/breaking-updates#update-from-3xx-to-400"&gt;migration guide&lt;/a&gt;&lt;/p&gt;
