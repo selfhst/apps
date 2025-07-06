@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Homebox Releases</title>
-  <updated>2025-07-06T12:31:00.448120-04:00</updated>
+  <updated>2025-07-06T13:30:56.738222-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -129,7 +129,7 @@ This update changes how attachments are stored. Previously the files where store
 As always we highly recommend keeping backups of your database and stored attachments, however we especially recommend it for this update.&lt;/p&gt;
 &lt;p&gt;This update modified how attachments are stored, and in addition also change the hashing algorithm used for passwords to Argon2id. While we test our code as much as possible it's still possible we made a mistake, and any losses may be permanent without a backup. &lt;/p&gt;
 &lt;p&gt;[!WARNING]
-If you have a custom data path specified for attachments please read the &lt;a href="https://homebox.software/en/configure/storage.html"&gt;updated documentation&lt;/a&gt; to ensure that attachments still work.&lt;/p&gt;
+If you have a custom data path specified for attachments please read the &lt;a href="https://homebox.software/en/configure/storage.html"&gt;updated documentation&lt;/a&gt; to ensure that attachments still work. Please also note that the &lt;code&gt;--storage-data&lt;/code&gt; option has been replaced by &lt;code&gt;--storage-conn-string&lt;/code&gt; and &lt;code&gt;--storage-prefix-path&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Please also note that if you wish to switch to one of the new blob storage providers you will need to upload your existing attachments first to the bucket of your choice.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]&lt;br /&gt;
 We now support thumbnails! Your existing attachments will not automatically be updated to use thumbnails, to generate thumbnails go to the "Tools" section and select the generate thumbnails button.&lt;/p&gt;

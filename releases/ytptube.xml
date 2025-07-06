@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-07-06T12:36:58.178835-04:00</updated>
+  <updated>2025-07-06T13:36:48.709790-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -74,17 +74,27 @@
     <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.2.1" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/arabcoders/ytptube/releases/tag/v0.2.2</id>
-    <title>New release for YTPTube: v0.2.2</title>
-    <updated>2025-07-06T12:29:51-04:00</updated>
+    <id>https://github.com/arabcoders/ytptube/releases/tag/v0.2.3</id>
+    <title>New release for YTPTube: v0.2.3</title>
+    <updated>2025-07-06T12:42:31-04:00</updated>
     <author>
       <name>arabcoders/ytptube</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;PR to support webview by @arabcoders in https://github.com/arabcoders/ytptube/pull/323&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/ytptube/compare/v0.2.1...v0.2.2&lt;/p&gt;</content>
-    <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.2.2" rel="alternate"/>
+    <content>&lt;ul&gt;
+&lt;li&gt;3219517 do not show merge commits when updating github release. by @arabcoders&lt;/li&gt;
+&lt;li&gt;4849301 fix incorrect test display. by @arabcoders&lt;/li&gt;
+&lt;li&gt;a448fc4 cast file to string for mimetype by @arabcoders&lt;/li&gt;
+&lt;li&gt;eb440df minor fixes for running on windows. by @arabcoders&lt;/li&gt;
+&lt;li&gt;f8bbcc4 removed no longer used file for native build by @arabcoders&lt;/li&gt;
+&lt;li&gt;24de1fc more changes for native builds by @arabcoders&lt;/li&gt;
+&lt;li&gt;4d194fe update app.spec to include all uv packages. by @arabcoders&lt;/li&gt;
+&lt;li&gt;e36552e wip by @arabcoders&lt;/li&gt;
+&lt;li&gt;ef2094f finalize changes for native apps. by @arabcoders&lt;/li&gt;
+&lt;li&gt;8674b7c turn off console for prod builds by @arabcoders&lt;/li&gt;
+&lt;li&gt;860fb81 support running in linux qt webview by @arabcoders&lt;/li&gt;
+&lt;li&gt;9ef8f47 add notice about webview wrappers by @arabcoders&lt;/li&gt;
+&lt;li&gt;8081eb6 fix release updater by @arabcoders&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.2.3" rel="alternate"/>
   </entry>
 </feed>
