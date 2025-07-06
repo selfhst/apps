@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Yamtrack Releases</title>
-  <updated>2025-07-06T15:32:01.471665-04:00</updated>
+  <updated>2025-07-06T16:32:01.018663-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,8 +87,7 @@
     <author>
       <name>FuzzyGrim/Yamtrack</name>
     </author>
-    <content>&lt;h2&gt;Features&lt;/h2&gt;
-&lt;h2&gt;Fixes&lt;/h2&gt;
+    <content>&lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed media objects without start date not appearing in timeline #625 (https://github.com/FuzzyGrim/Yamtrack/commit/389c885fd734a2d8ef5dd5b37ad270448dccdf0a)&lt;/li&gt;
 &lt;li&gt;Fixed order of media objects in timeline #625 (https://github.com/FuzzyGrim/Yamtrack/commit/36c55e197d52fac9797d8659a50dba36bf5c69ee)&lt;/li&gt;
