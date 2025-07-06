@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-07-06T06:30:47.783418-04:00</updated>
+  <updated>2025-07-06T07:30:48.181766-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -102,7 +102,9 @@
     <author>
       <name>filebrowser/filebrowser</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Docker Image Updates&lt;/h2&gt;
+&lt;p&gt;The Docker image has been updated recently, with breaking changes. Read the release notes from &lt;a href="https://github.com/filebrowser/filebrowser/releases/tag/v2.33.0"&gt;v2.33.0&lt;/a&gt; to learn how to upgrade.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;200b9a6c260e688a33d6b6f65f31f81a4e2a2278 chore(release): 2.36.3&lt;/li&gt;
 &lt;li&gt;3645b578cddb9fc8f25a00e0153fb600ad1b9266 fix: log error if branding file exists but cannot be loaded&lt;/li&gt;
