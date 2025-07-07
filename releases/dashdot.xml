@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>dash. Releases</title>
-  <updated>2025-07-07T11:35:47.650552-04:00</updated>
+  <updated>2025-07-07T12:35:26.510780-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -62,5 +62,20 @@
 &lt;li&gt;The unit in the speedtest-file was flipped. This has been fixed and therefore needs to be manually flipped by the users to match the correct unit&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/MauriceNino/dashdot/releases/tag/v6.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MauriceNino/dashdot/releases/tag/v6.1.0</id>
+    <title>New release for dash.: v6.1.0</title>
+    <updated>2025-07-07T12:28:06-04:00</updated>
+    <author>
+      <name>MauriceNino/dashdot</name>
+    </author>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/MauriceNino/dashdot/compare/v6.0.0...v6.1.0"&gt;6.1.0&lt;/a&gt; (2025-07-07)&lt;/h1&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add GPU filter by brand name (&lt;a href="https://github.com/MauriceNino/dashdot/issues/1212"&gt;#1212&lt;/a&gt;) (&lt;a href="https://github.com/MauriceNino/dashdot/commit/082ef5d0fe3c3ef0d26d4ca0eedc3a0dc3cad1ab"&gt;082ef5d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add meta color-scheme to document (&lt;a href="https://github.com/MauriceNino/dashdot/commit/3d6f8f51a54c4a790aee310aab78f8faaad77f78"&gt;3d6f8f5&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/MauriceNino/dashdot/releases/tag/v6.1.0" rel="alternate"/>
   </entry>
 </feed>
