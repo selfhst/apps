@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Unregistry Releases</title>
-  <updated>2025-07-07T16:37:03.050168-04:00</updated>
+  <updated>2025-07-07T17:36:49.840521-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,5 +84,40 @@ I hope you'll love it! ❤️ &lt;/p&gt;
 &lt;li&gt;a551e775e0e900d5c99bb7fc6478f6f694b0c6ce readme: remove duplicate bullet in requirements&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/psviderski/unregistry/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/psviderski/unregistry/releases/tag/v0.1.2</id>
+    <title>New release for Unregistry: v0.1.2</title>
+    <updated>2025-07-07T16:55:02-04:00</updated>
+    <author>
+      <name>psviderski/unregistry</name>
+    </author>
+    <content>&lt;p&gt;A housekeeping patch release without actual functional changes.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4306c47e49b7f1b7942aa2dc48b947bdbc92a6ed chore: Add .editorconfig&lt;/li&gt;
+&lt;li&gt;c4bf40468c76aa69ef1f59d0634bd39b98fc19d5 chore: Rename release script&lt;/li&gt;
+&lt;li&gt;8ab51ee41ed8cfcfa357596448e47c001c93ed98 chore: load env vars from .env by mise&lt;/li&gt;
+&lt;li&gt;22be4eb813f33b2bd2fc65b3fc18dff2faea831d fix: Add missing dummy file&lt;/li&gt;
+&lt;li&gt;336495bb60edfdbd555a2ce88a739003220b40e6 fix: Replace sed with perl (hehe) for compatibility&lt;/li&gt;
+&lt;li&gt;7714dc4ef3b12e82aff528b86b35dfe9b1cde037 readme: correct the Save/Load approach (#26)&lt;/li&gt;
+&lt;li&gt;0ec314861de28a8fbc44211058c58a8ab89b4bad release: Bump version to 0.1.2&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/psviderski/unregistry/releases/tag/v0.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/psviderski/unregistry/releases/tag/v0.1.3</id>
+    <title>New release for Unregistry: v0.1.3</title>
+    <updated>2025-07-07T17:08:25-04:00</updated>
+    <author>
+      <name>psviderski/unregistry</name>
+    </author>
+    <content>&lt;p&gt;A corrective release to fix the Homebrew release process.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;d3c3f35ca57d7fede9feaeac4f1e8cba795dc3c3 fix: Homebrew tap repository owner&lt;/li&gt;
+&lt;li&gt;9245dcf8196ef506e750b5117a9ff9e6a51df79b release: Bump version to 0.1.3&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/psviderski/unregistry/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>
