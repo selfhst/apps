@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Specifically Clementines Releases</title>
-  <updated>2025-07-07T09:31:51.205141-04:00</updated>
+  <updated>2025-07-07T10:31:53.193298-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,9 @@
 &lt;li&gt;Fix security issue in password reset process&lt;/li&gt;
 &lt;li&gt;Content security policy fixes&lt;/li&gt;
 &lt;li&gt;Frontend web server correctly loading env-config.js to default DEFAULT_API_URL&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Please note, due to some underlying issues in Capacitor and Ionic, I am unable to support anything earlier than API level 33 (Android 13). Android 13 will work, however.&lt;/p&gt;
+&lt;p&gt;If you are using anything earlier, I would advise not updating.&lt;/p&gt;</content>
     <link href="https://github.com/davideshay/groceries/releases/tag/v1.1.7" rel="alternate"/>
   </entry>
 </feed>
