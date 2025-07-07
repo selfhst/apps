@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Unregistry Releases</title>
-  <updated>2025-07-07T17:36:49.840521-04:00</updated>
+  <updated>2025-07-07T18:36:52.509306-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -113,6 +113,13 @@ I hope you'll love it! ❤️ &lt;/p&gt;
       <name>psviderski/unregistry</name>
     </author>
     <content>&lt;p&gt;A corrective release to fix the Homebrew release process.&lt;/p&gt;
+&lt;h2&gt;Breaking&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Homebrew installation method: &lt;code&gt;docker-pussh&lt;/code&gt; executable is now distributed as a cask, not a formula. The switch was made mostly because &lt;code&gt;goreleaser&lt;/code&gt; no longer officially supports Homebrew formulae. To avoid errors when upgrading &lt;code&gt;docker-pussh&lt;/code&gt;, it is recommended to remove and then install it from scratch:
+    &lt;code&gt;brew uninstall psviderski/tap/docker-pussh
+    brew tap psviderski/tap
+    brew install psviderski/tap/docker-pussh&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;d3c3f35ca57d7fede9feaeac4f1e8cba795dc3c3 fix: Homebrew tap repository owner&lt;/li&gt;
