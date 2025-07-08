@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Hugo Releases</title>
-  <updated>2025-07-08T10:31:01.507996-04:00</updated>
+  <updated>2025-07-08T11:31:01.584045-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -114,7 +114,11 @@
     <author>
       <name>gohugoio/hugo</name>
     </author>
-    <content>&lt;h2&gt;Note&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+There's some minor breaking changes in this release. Please &lt;a href="https://discourse.gohugo.io/t/breaking-changes-in-v0-148-0/55257"&gt;read this&lt;/a&gt; thread for more information.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Note&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix some uglyURLs issues for home, section and taxonomy kind (note) b8ba33ca9 @bep #4428 #7497 &lt;/li&gt;
 &lt;li&gt;Fix branch paths when OutputFormat.Path is configured (note) f967212b7 @bep #13829 &lt;/li&gt;
