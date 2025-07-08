@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YAMLResume Releases</title>
-  <updated>2025-07-08T05:37:02.052800-04:00</updated>
+  <updated>2025-07-08T06:37:08.885695-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -45,5 +45,44 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yamlresume/yamlresume/compare/v0.4.1...v0.4.2&lt;/p&gt;</content>
     <link href="https://github.com/yamlresume/yamlresume/releases/tag/v0.4.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/yamlresume/yamlresume/releases/tag/v0.5.0</id>
+    <title>New release for YAMLResume: v0.5.0</title>
+    <updated>2025-07-08T05:59:06-04:00</updated>
+    <author>
+      <name>yamlresume/yamlresume</name>
+    </author>
+    <content>&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add &lt;code&gt;--no-validate&lt;/code&gt; flag to build command (&lt;a href="https://github.com/yamlresume/yamlresume/commit/4fc0ec2474b5725c6c138a44c6e4c64410d842f6"&gt;4fc0ec2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add metadata for content schemas (&lt;a href="https://github.com/yamlresume/yamlresume/commit/b16a200014b0bc0296a9185d87e8da3912f10ff4"&gt;b16a200&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add metadata for layout schemas (&lt;a href="https://github.com/yamlresume/yamlresume/commit/59edb595147b6ff809b4490ea5cd66355b0c255f"&gt;59edb59&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add metadata to primitive schemas (&lt;a href="https://github.com/yamlresume/yamlresume/commit/2a711dfd021f52ffc09de69bb6dd38a017086ae3"&gt;2a711df&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add resume schema (&lt;a href="https://github.com/yamlresume/yamlresume/commit/4336dfa86c4a2f1220a98496161d64bd0acc7f82"&gt;4336dfa&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add validate command (&lt;a href="https://github.com/yamlresume/yamlresume/commit/931fddd85fa2f062ec6225f0c915dc758a26b776"&gt;931fddd&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;add yaml-language-server schema to sample resume (&lt;a href="https://github.com/yamlresume/yamlresume/commit/e574220ef8636b81f36697b0e5b56519760456ef"&gt;e574220&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;making optional field nullish (&lt;a href="https://github.com/yamlresume/yamlresume/commit/8eb4d8d484b69ce9a18f5b5d305784348e847e98"&gt;8eb4d8d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;move fontspec config to layout.latex object (&lt;a href="https://github.com/yamlresume/yamlresume/commit/a27f00995370a772c64e04ae1eeae222ba585f52"&gt;a27f009&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;new zod schema for resume content (&lt;a href="https://github.com/yamlresume/yamlresume/commit/fa9f3dd1471649b3d2305b8a1f47a0dae406dbdd"&gt;fa9f3dd&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;new zod schema for resume layout (&lt;a href="https://github.com/yamlresume/yamlresume/commit/7cd04df7e25433ab6417dff5d6034abbe69f1d6c"&gt;7cd04df&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;sunset underline mark node in AST (&lt;a href="https://github.com/yamlresume/yamlresume/commit/3a329be550e77df1f5aac8d0c819908c64a1f20f"&gt;3a329be&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix typo 'scalibility' to 'scalability' in fixtures (&lt;a href="https://github.com/yamlresume/yamlresume/commit/6db8ec6b1967c0e5ae25463352c9ee8999c62aad"&gt;6db8ec6&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;regenerate assets after fixing typos in resume.yml (&lt;a href="https://github.com/yamlresume/yamlresume/commit/b6399c406181bebd846f16d8973e22aaf0808a4a"&gt;b6399c4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;revise option schema error message (&lt;a href="https://github.com/yamlresume/yamlresume/commit/1007a8c5006c21943a7fc73febdecef1a16f82c9"&gt;1007a8c&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: fix typo 'scalibility' to 'scalability' in fixtures by @JaanJah in https://github.com/yamlresume/yamlresume/pull/33&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@JaanJah made their first contribution in https://github.com/yamlresume/yamlresume/pull/33&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yamlresume/yamlresume/compare/v0.4.2...v0.5.0&lt;/p&gt;</content>
+    <link href="https://github.com/yamlresume/yamlresume/releases/tag/v0.5.0" rel="alternate"/>
   </entry>
 </feed>
