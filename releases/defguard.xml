@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DefGuard Releases</title>
-  <updated>2025-07-08T04:33:28.824665-04:00</updated>
+  <updated>2025-07-08T05:33:27.156711-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,7 +93,7 @@ https://docs.defguard.net/admin-and-features/features-and-configuration/activity
 &lt;p&gt;Activity Log Streaming
 https://docs.defguard.net/enterprise/all-enteprise-features/activity-log-streaming&lt;/p&gt;
 &lt;p&gt;Terraform AWS deployment https://docs.defguard.net/admin-and-features/setting-up-your-instance/terraform&lt;/p&gt;
-&lt;p&gt;Dual-stack VPN support &lt;a href="https://github.com/DefGuard/defguard/issues/1000"&gt;#1000&lt;/a&gt;    &lt;/p&gt;
+&lt;p&gt;Multiple VPN networks support (IPv4 and IPv6) &lt;a href="https://github.com/DefGuard/defguard/issues/1000"&gt;#1000&lt;/a&gt;    &lt;/p&gt;
 &lt;h3&gt;🐞Bugfixes and improvements 🐛&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add CI security audits by @j-chmielewski in https://github.com/DefGuard/defguard/pull/1159&lt;/li&gt;
