@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockerizalo Releases</title>
-  <updated>2025-07-08T08:35:54.324375-04:00</updated>
+  <updated>2025-07-08T09:35:59.018104-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,5 +136,42 @@ docker compose pull&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;shell
 docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
     <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/undernightcore/dockerizalo/releases/tag/v1.5.0</id>
+    <title>New release for Dockerizalo: v1.5.0</title>
+    <updated>2025-07-08T09:24:24-04:00</updated>
+    <author>
+      <name>undernightcore/dockerizalo</name>
+    </author>
+    <content>&lt;div align="center"&gt;  
+    &lt;img alt="Dockerizalo" height="200px" src="https://github.com/undernightcore/dockerizalo-ui/blob/assets/dockerizalo.png?raw=true"&gt;  
+&lt;/div&gt;
+
+&lt;h1&gt;v1.5.0&lt;/h1&gt;
+&lt;p&gt;Hey everyone!&lt;/p&gt;
+&lt;p&gt;This might not be a &lt;em&gt;huge&lt;/em&gt; release, but it brings a couple of nice quality-of-life improvements.&lt;/p&gt;
+&lt;h2&gt;✨ What's New?&lt;/h2&gt;
+&lt;h3&gt;Pagination in Logs&lt;/h3&gt;
+&lt;p&gt;Previously, all logs were captured from the moment the app started. While this wasn't an issue for apps with minimal logging, it often caused problems—such as crashes—for log-heavy apps like APIs that ran for extended periods.&lt;/p&gt;
+&lt;p&gt;Now, logs are automatically paginated and limited to prevent this. Don’t worry—they’re still in real time, so you won’t miss any new logs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="logs" src="https://github.com/user-attachments/assets/7f77e41a-1442-4abf-a257-eecc1f9033dc" /&gt;&lt;/p&gt;
+&lt;h3&gt;Retention Policies&lt;/h3&gt;
+&lt;p&gt;You can now configure how many images you want to keep for each app from the settings page. The default is 3. So, when you build a new version of your app, Dockerizalo will automatically keep only the last &lt;em&gt;n&lt;/em&gt; images in storage.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="retention" src="https://github.com/user-attachments/assets/43021d23-3826-4376-b030-d1bac2065442" /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Also, a big thank you to everyone for the amazing support Dockerizalo has received. I never imagined one of my projects would come so close to hitting &lt;strong&gt;500 stars&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/undernightcore/dockerizalo/compare/v1.4.0...v1.5.0"&gt;Compare v1.4.0 → v1.5.0&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How to update&lt;/h2&gt;
+&lt;h4&gt;Stop Dockerizalo&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose down&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Pull new images&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose pull&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Start Dockerizalo again&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker compose up -d&lt;/code&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/undernightcore/dockerizalo/releases/tag/v1.5.0" rel="alternate"/>
   </entry>
 </feed>
