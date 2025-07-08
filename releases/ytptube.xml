@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-07-08T15:37:01.211984-04:00</updated>
+  <updated>2025-07-08T16:36:52.975411-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,11 +89,14 @@
     <author>
       <name>arabcoders/ytptube</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Added the ability to add items in paused state by @arabcoders in https://github.com/arabcoders/ytptube/pull/333&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/ytptube/compare/v0.2.4...v0.2.5&lt;/p&gt;</content>
+    <content>&lt;ul&gt;
+&lt;li&gt;ed77a59 clean up language usage. by @arabcoders&lt;/li&gt;
+&lt;li&gt;e7dad28 change default opacity  to 0.95 by @arabcoders&lt;/li&gt;
+&lt;li&gt;61cbd4a update default.vue to use ts by @arabcoders&lt;/li&gt;
+&lt;li&gt;1239643 minor update to store fields by @arabcoders&lt;/li&gt;
+&lt;li&gt;9ff9735 Added the ability to add item in paused state by @arabcoders&lt;/li&gt;
+&lt;li&gt;543d713 update external packages by @arabcoders&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.2.5" rel="alternate"/>
   </entry>
 </feed>
