@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2025-07-07T21:32:52.025467-04:00</updated>
+  <updated>2025-07-07T22:32:50.057490-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -340,7 +340,9 @@ API3&lt;/li&gt;
     <author>
       <name>ampache/ampache</name>
     </author>
-    <content>&lt;h1&gt;7.6.1&lt;/h1&gt;
+    <content>&lt;h1&gt;7.6.1 (REPLACED WITH 7.6.2)&lt;/h1&gt;
+&lt;p&gt;https://github.com/ampache/ampache/releases/tag/7.6.2&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;REMOVED&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;php8.4
 bf540b5117d77aba89bd5f925d885487  ./ampache-7.6.1_all_php8.4.zip
 fc26ef3f841a8ac6b33a5c76636a82ed  ./ampache-7.6.1_all_php8.4_squashed.zip
