@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ampache Releases</title>
-  <updated>2025-07-07T22:32:50.057490-04:00</updated>
+  <updated>2025-07-07T23:33:04.806249-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -340,25 +340,24 @@ API3&lt;/li&gt;
     <author>
       <name>ampache/ampache</name>
     </author>
-    <content>&lt;h1&gt;7.6.1 (REPLACED WITH 7.6.2)&lt;/h1&gt;
-&lt;p&gt;https://github.com/ampache/ampache/releases/tag/7.6.2&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;REMOVED&lt;/strong&gt;&lt;/p&gt;
+    <content>&lt;h1&gt;7.6.1&lt;/h1&gt;
+&lt;p&gt;Zip files have been updated with a fixed SQL installer and the original zips have been removed&lt;/p&gt;
 &lt;p&gt;php8.4
-bf540b5117d77aba89bd5f925d885487  ./ampache-7.6.1_all_php8.4.zip
-fc26ef3f841a8ac6b33a5c76636a82ed  ./ampache-7.6.1_all_php8.4_squashed.zip
-c6b34fe867d398f30c5d3573d526cf12  ./ampache-7.6.1_all_php8.4_client.zip&lt;/p&gt;
+ff35bcdbedc21e95689502f8560bc8bd  ./ampache-7.6.1_all_php8.4.zip
+3a3fce9636c95064a75d970d9b4a0cc8  ./ampache-7.6.1_all_php8.4_squashed.zip
+37439c6bf4252d2162a7cd31b7d907f3  ./ampache-7.6.1_all_php8.4_client.zip&lt;/p&gt;
 &lt;p&gt;php8.3
-4194cccf0ecc2d56177b8473079a53ef  ./ampache-7.6.1_all_php8.3.zip
-3fe3ee21a0d7fffe3610407e0184f901  ./ampache-7.6.1_all_php8.3_squashed.zip
-9acb66ee54926a0e4a8da120c77a9449  ./ampache-7.6.1_all_php8.3_client.zip&lt;/p&gt;
+924941544755bdd6c6d352774ea2073f  ./ampache-7.6.1_all_php8.3.zip
+813b50b2fe6af1bc380d216c5c81936d  ./ampache-7.6.1_all_php8.3_squashed.zip
+d82bc03d746402ca45541ffc3a0faa03  ./ampache-7.6.1_all_php8.3_client.zip&lt;/p&gt;
 &lt;p&gt;php8.2
-8b3902c39fd2185b841b4765bc29edac  ./ampache-7.6.1_all_php8.2.zip
-e61574c0714caed2c39c9c55411cf982  ./ampache-7.6.1_all_php8.2_squashed.zip
-bdbf5e90f09246df873bd6ee64aab3a9  ./ampache-7.6.1_all_php8.2_client.zip&lt;/p&gt;
+614863a0a53c6de65ea972ab06eac03b  ./ampache-7.6.1_all_php8.2.zip
+96d012267d6070864b37b50379d422f9  ./ampache-7.6.1_all_php8.2_squashed.zip
+9b4238f9108538d180d75d0238596413  ./ampache-7.6.1_all_php8.2_client.zip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNSUPPORTED&lt;/strong&gt; Code only release. (Requires composer and npm install)
-0710ad568d559a6d02f729e847d39ed7  ./ampache-7.6.1_public.zip
-8979959459b56a52cfdf65576baa53e0  ./ampache-7.6.1_squashed.zip
-c6aa4411de0b640b8728f989cb6dedcd  ./ampache-7.6.1_client.zip&lt;/p&gt;
+242f9e872dd12a264d0e058e4d89e5bb  ./ampache-7.6.1_public.zip
+96cc73041820895f3fb398aaa2235cf2  ./ampache-7.6.1_squashed.zip
+73856db14b9fc803a886584126982779  ./ampache-7.6.1_client.zip&lt;/p&gt;
 &lt;h2&gt;Zip Version information&lt;/h2&gt;
 &lt;p&gt;If you aren't familiar which the project make sure you know &lt;a href="https://github.com/ampache/ampache/wiki/which-zip"&gt;which zip&lt;/a&gt; you need to download.&lt;/p&gt;
 &lt;h2&gt;Ampache 7.6.1&lt;/h2&gt;
