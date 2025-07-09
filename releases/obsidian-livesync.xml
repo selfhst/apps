@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Obsidian LiveSync Releases</title>
-  <updated>2025-07-09T08:33:20.902810-04:00</updated>
+  <updated>2025-07-09T09:33:19.334664-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -181,6 +181,10 @@ Now, I have implemented Rabin-Karp Content-Defined Chunking. I have just impress
 &lt;ul&gt;
 &lt;li&gt;Never-ending &lt;code&gt;ObsidianLiveSyncSettingTab.ts&lt;/code&gt; has finally been separated into each pane's file.&lt;/li&gt;
 &lt;li&gt;Some commented-out code has been removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Acknowledgement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Jun Murakami, Shun Ishiguro, and Yoshihiro Oyama. 2012. Implementation and Evaluation of a Cache Deduplication Mechanism with Content-Defined Chunking. In &lt;em&gt;IPSJ SIG Technical Report&lt;/em&gt;, Vol.2012-ARC-202, No.4. Information Processing Society of Japan, 1-7.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/vrtmrz/obsidian-livesync/releases/tag/0.24.30" rel="alternate"/>
   </entry>

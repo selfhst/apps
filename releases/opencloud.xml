@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-07-09T08:36:04.979976-04:00</updated>
+  <updated>2025-07-09T09:36:05.644841-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,7 +97,18 @@
     <author>
       <name>opencloud-eu/opencloud</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.3.0"&gt;2.3.0&lt;/a&gt; - 2025-05-19&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+This is a rolling release. Learn here about the &lt;a href="https://docs.opencloud.eu/docs/admin/resources/lifecycle#release-types"&gt;release types and lifecycle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Releasenotes OpenCloud 2.3.0&lt;/h1&gt;
+&lt;h2&gt;🔗 Configurable Logo Link on Login Page&lt;/h2&gt;
+&lt;p&gt;You can now configure a &lt;strong&gt;custom URL&lt;/strong&gt; for the logo on the login page.&lt;/p&gt;
+&lt;p&gt;This allows you to redirect users to your organisations website, support portal, or any other destination when they click the logo.&lt;/p&gt;
+&lt;h2&gt;🚅 Important Performance Improvement: Reduced CPU Load&lt;/h2&gt;
+&lt;p&gt;Thanks to this &lt;a href="https://github.com/opencloud-eu/opencloud/issues/716"&gt;bug report&lt;/a&gt; we’ve made several improvements to the &lt;strong&gt;&lt;code&gt;activitylog&lt;/code&gt; service&lt;/strong&gt; to significantly reduce its impact on system performance in &lt;a href="https://github.com/opencloud-eu/opencloud/pull/842"&gt;842&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.3.0"&gt;2.3.0&lt;/a&gt; - 2025-05-19&lt;/h2&gt;
 &lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
 &lt;p&gt;@AlexAndBear, @ScharfViktor, @aduffeck, @butonic, @micbar, @rhafer&lt;/p&gt;
 &lt;h3&gt;✨ Features&lt;/h3&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SigNoz Releases</title>
-  <updated>2025-07-09T08:37:01.750736-04:00</updated>
+  <updated>2025-07-09T09:37:04.031557-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,6 +93,10 @@ We are removing the normalisation for metrics names and labels, learn more here 
       <name>SigNoz/signoz</name>
     </author>
     <content>&lt;h2&gt;🚀 Features&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Metrics names and labels normalization has been removed in this release. Going forward, you will see non-normalized metrics only. This is not a concern if you are a new user. If you are an existing user, you need to take steps to migrate the SQLite data that contains the dashboards and alerts, and ClickHouse data if you want to convert the old data retained for longer periods. Detailed steps are mentioned here: https://signoz.io/docs/operate/migration/upgrade-0.88. Leave any comments here: https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(telemetry): remove telemetry (#8326) @grandwizard28&lt;/li&gt;
 &lt;li&gt;fix: added network call on search in explorercolumnsrenderer with debounce (#8325) @sawhil&lt;/li&gt;
@@ -201,6 +205,10 @@ We are removing the normalisation for metrics names and labels, learn more here 
       <name>SigNoz/signoz</name>
     </author>
     <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Metrics names and labels normalization has been removed in this release. Going forward, you will see non-normalized metrics only. This is not a concern if you are a new user. If you are an existing user, you need to take steps to migrate the SQLite data that contains the dashboards and alerts, and ClickHouse data if you want to convert the old data retained for longer periods. Detailed steps are mentioned here: https://signoz.io/docs/operate/migration/upgrade-0.88. Leave any comments here: https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: trace to logs custom empty state UI (#8381) @ahmadshaheer&lt;/li&gt;
@@ -236,6 +244,10 @@ We are removing the normalisation for metrics names and labels, learn more here 
       <name>SigNoz/signoz</name>
     </author>
     <content>&lt;h1&gt;What's Changed&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Metrics names and labels normalization has been removed in this release. Going forward, you will see non-normalized metrics only. This is not a concern if you are a new user. If you are an existing user, you need to take steps to migrate the SQLite data that contains the dashboards and alerts, and ClickHouse data if you want to convert the old data retained for longer periods. Detailed steps are mentioned here: https://signoz.io/docs/operate/migration/upgrade-0.88. Leave any comments here: https://github.com/SigNoz/signoz/issues/5975&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat(sqlschema): add sqlschema (#8384) @grandwizard28&lt;/li&gt;
