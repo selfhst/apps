@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2025-07-09T04:31:18.427725-04:00</updated>
+  <updated>2025-07-09T05:31:15.550422-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -327,10 +327,14 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
 :warning: Rolling updates from versions earlier than Mastodon 4.3 are not supported\
 :warning: Import jobs from Mastodon versions earlier than Mastodon 4.2 are not supported\
 :warning: ImageMagick is being deprecated and may be removed in a future version\
+ℹ️ The new experimental Fediverse Auxiliary Service Providers feature requires a new &lt;code&gt;fasp&lt;/code&gt; sidekiq queue\
 ℹ️ Requires streaming server restart\
 ℹ️ Requires database migrations&lt;/p&gt;
 &lt;p&gt;For more information, view the complete release notes and scroll down to the upgrade instructions section.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;For a user-focused highlight of these changes, see https://blog.joinmastodon.org/2025/07/mastodon-4.4/
+For changes of particular interest to application developers, see https://blog.joinmastodon.org/2025/07/mastodon-4-4-for-devs/
+For a more detailed run-down on the changes, keep reading below!&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Add “Followers you know” widget to user profiles and hover cards&lt;/strong&gt; (#34652, #34678, #34681, #34697, #34699, #34769, #34774 and #34914 by @diondiondion)&lt;/li&gt;
@@ -647,6 +651,9 @@ As always, make sure you have backups of the database before performing any upgr
 &lt;h3&gt;Ongoing import jobs from Mastodon 4.1 and earlier&lt;/h3&gt;
 &lt;p&gt;The feature to import follows, bookmarks, lists, mutes and blocks was entirely rewritten in Mastodon 4.2, leading to two different implementations co-existing in Mastodon 4.2 and 4.3 to ensure a smooth upgrade.&lt;/p&gt;
 &lt;p&gt;Mastodon 4.4 removes the old implementation, so jobs started on 4.1 or earlier will not be able to proceed on Mastodon 4.4 and later. Therefore, if updating from an earlier version of Mastodon, we recommend running Mastodon 4.2 or 4.3 long enough for any pending &lt;code&gt;ImportWorker&lt;/code&gt; or &lt;code&gt;Import::RelationshipWorker&lt;/code&gt; job to finish. This should only be a matter of minutes, and should not be a concern if you are updating from Mastodon 4.2 or 4.3.&lt;/p&gt;
+&lt;h3&gt;Fediverse Auxiliary Service Providers and &lt;code&gt;fasp&lt;/code&gt; Sidekiq queue&lt;/h3&gt;
+&lt;p&gt;This release introduces a new experimental feature allowing the use of auxiliary service providers.&lt;/p&gt;
+&lt;p&gt;This feature uses a new &lt;code&gt;fasp&lt;/code&gt; Sidekiq queue, and while it is not required if you don't use this feature, we recommend reviewing your Sidekiq configuration to make sure at least one Sidekiq process handles the &lt;code&gt;fasp&lt;/code&gt; queue.&lt;/p&gt;
 &lt;h3&gt;Update steps&lt;/h3&gt;
 &lt;p&gt;The following instructions are for updating from 4.3.9.&lt;/p&gt;
 &lt;p&gt;If you are upgrading directly from an earlier release, please carefully read the upgrade notes for the skipped releases as well, as they often require extra steps such as database migrations. If you are upgrading from a pre-4.3 version, please fully update to Mastodon 4.3 first or stop all Mastodon processes before updating, and please have a look at the “Ongoing import jobs from Mastodon 4.1 and earlier” section if you are updating from a pre-4.2 version.&lt;/p&gt;
