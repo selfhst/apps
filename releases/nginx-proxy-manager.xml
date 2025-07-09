@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nginx Proxy Manager Releases</title>
-  <updated>2025-07-09T02:31:27.124640-04:00</updated>
+  <updated>2025-07-09T03:31:23.141930-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -141,8 +141,8 @@
     <link href="https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.12.4" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.14.5</id>
-    <title>New release for Nginx Proxy Manager: v2.14.5</title>
+    <id>https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.12.5</id>
+    <title>New release for Nginx Proxy Manager: v2.12.5</title>
     <updated>2025-07-09T00:41:02-04:00</updated>
     <author>
       <name>NginxProxyManager/nginx-proxy-manager</name>
@@ -170,6 +170,6 @@ If you currently use a &lt;code&gt;S6_STAGE2_HOOK&lt;/code&gt; environment varia
 &lt;li&gt;&lt;a href="https://hub.docker.com/layers/jc21/nginx-proxy-manager/2/images/sha256-971e6eaf71419d26d65b17bca8bca803439520de33f4b129a4f8f52341d6e04d"&gt;jc21/nginx-proxy-manager:2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hub.docker.com/layers/jc21/nginx-proxy-manager/2.12.4/images/sha256-971e6eaf71419d26d65b17bca8bca803439520de33f4b129a4f8f52341d6e04d"&gt;jc21/nginx-proxy-manager:2.12.5&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-    <link href="https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.14.5" rel="alternate"/>
+    <link href="https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.12.5" rel="alternate"/>
   </entry>
 </feed>
