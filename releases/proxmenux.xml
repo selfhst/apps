@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ProxMenux Releases</title>
-  <updated>2025-07-09T15:37:03.500373-04:00</updated>
+  <updated>2025-07-09T16:36:56.071371-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,85 @@
 &lt;p&gt;Thank you for using &lt;strong&gt;ProxMenux&lt;/strong&gt;!&lt;br /&gt;
 Feel free to report issues or suggest improvements — all contributions are welcome 🙌&lt;/p&gt;</content>
     <link href="https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.3</id>
+    <title>New release for ProxMenux: </title>
+    <updated>2025-07-09T16:01:50-04:00</updated>
+    <author>
+      <name>MacRimi/ProxMenux</name>
+    </author>
+    <content>&lt;h1&gt;&lt;img src="https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo.png" alt="ProxMenux logo" width="40"/&gt;  ProxMenux v1.1.3&lt;/h1&gt;
+&lt;p&gt;This version introduces a major internal update to the way &lt;strong&gt;ProxMenux&lt;/strong&gt; is installed and executed, paving the way for &lt;strong&gt;modularity&lt;/strong&gt;, &lt;strong&gt;performance&lt;/strong&gt;, and &lt;strong&gt;user choice&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you're upgrading from v1.1.2, make sure to read the changes to the installer — now you can choose between a full or lightweight version depending on your needs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🔧 Main changes in v1.1.3&lt;/h2&gt;
+&lt;h3&gt;🆕 New installer modes&lt;/h3&gt;
+&lt;p&gt;ProxMenux now offers &lt;strong&gt;two installation modes&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Lite version (no translations)&lt;/strong&gt;  &lt;/li&gt;
+&lt;li&gt;Minimal installation  &lt;/li&gt;
+&lt;li&gt;No dependencies beyond &lt;code&gt;dialog&lt;/code&gt; and &lt;code&gt;jq&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Does not modify your system beyond ProxMenux directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Full version (with translations)&lt;/strong&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Runs in a virtual environment  &lt;/li&gt;
+&lt;li&gt;Allows selecting a language interface during installation  &lt;/li&gt;
+&lt;li&gt;Default option for full multilingual support&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Installer Menu" src="https://macrimi.github.io/ProxMenux/install/install.png" /&gt;&lt;/p&gt;
+&lt;p&gt;If you're upgrading and switching from full to lite mode, &lt;strong&gt;the previous version will be automatically removed&lt;/strong&gt; to avoid conflicts.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;✨ New features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Automated Post-Installation Script&lt;/strong&gt;&lt;br /&gt;
+  Performs essential setup tasks like APT upgrades, kernel/network tuning, log optimizations, and even Log2RAM if SSD is detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;New Menus&lt;/strong&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;System Utilities Installer  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network Repair and Configuration Tool&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;New Log2RAM integration&lt;/strong&gt;&lt;br /&gt;
+  Automatically configured in the minimal setup when SSD/NVMe is detected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;🛠 Improvements &amp;amp; Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved logic in post-install and VM creation menus&lt;/li&gt;
+&lt;li&gt;UUP dump script: custom temp directory support + safer cleanup&lt;br /&gt;
+  (&lt;a href="https://github.com/MacRimi/ProxMenux/issues/17"&gt;#17&lt;/a&gt;, &lt;a href="https://github.com/MacRimi/ProxMenux/issues/11"&gt;#11&lt;/a&gt;)  &lt;/li&gt;
+&lt;li&gt;XFS support in disk passthrough for LXC containers — thanks &lt;a href="https://github.com/antroxin"&gt;@antroxin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IOMMU fix for ZFS-based installs (&lt;a href="https://github.com/MacRimi/ProxMenux/issues/15"&gt;#15&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Tool installer rewritten to verify commands after install — thanks &lt;a href="https://github.com/DST73"&gt;@DST73&lt;/a&gt; (&lt;a href="https://github.com/MacRimi/ProxMenux/issues/18"&gt;#18&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;📦 Project structure&lt;/h2&gt;
+&lt;p&gt;ProxMenux is organized into interactive menus for managing and customizing a Proxmox VE server:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Settings post-install Proxmox&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Help and Info Commands&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware: GPUs and Coral-TPU&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create VM from template or script&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disk and Storage Manager&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proxmox VE Helper Scripts&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Management&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilities and Tools&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;Thank you for using &lt;strong&gt;ProxMenux&lt;/strong&gt;!&lt;br /&gt;
+Please report any bugs or suggestions — your feedback helps improve the project for everyone 🙌&lt;/p&gt;</content>
+    <link href="https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.3" rel="alternate"/>
   </entry>
 </feed>
