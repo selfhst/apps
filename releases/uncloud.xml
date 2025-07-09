@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-07-09T00:35:50.175743-04:00</updated>
+  <updated>2025-07-09T01:36:03.517232-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -210,7 +210,64 @@
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h1&gt;Uncloud 0.9.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This release includes critical Docker 28.2.0+ compatibility fixes, sets better defaults for container logging, and includes minor housekeeping improvements.&lt;/p&gt;
+&lt;h2&gt;Upgrade to 0.9.0&lt;/h2&gt;
+&lt;h3&gt;Uncloud CLI locally&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud CLI (&lt;code&gt;uc&lt;/code&gt;) locally:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Homebrew (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;brew upgrade uncloud&lt;/p&gt;
+&lt;h1&gt;Install script (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;curl -fsS https://get.uncloud.run/install.sh | sh
+```&lt;/p&gt;
+&lt;h3&gt;Machine daemon&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud daemon on your machines, run the following commands on each machine:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;AMD64&lt;/h1&gt;
+&lt;p&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.9.0/uncloudd_linux_amd64.tar.gz&lt;/p&gt;
+&lt;h1&gt;ARM64&lt;/h1&gt;
+&lt;h1&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.9.0/uncloudd_linux_arm64.tar.gz&lt;/h1&gt;
+&lt;p&gt;tar -xf uncloudd.tar.gz
+sudo install uncloudd /usr/local/bin/uncloudd
+rm uncloudd uncloudd.tar.gz
+sudo systemctl restart uncloud
+```&lt;/p&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;h3&gt;Docker 28.2.0+ compatibility&lt;/h3&gt;
+&lt;p&gt;Fixed connectivity between containers across machines with Docker 28.2.0 and later versions. The fix only works for &lt;strong&gt;new&lt;/strong&gt; clusters and &lt;strong&gt;new&lt;/strong&gt; machines added to existing clusters.&lt;/p&gt;
+&lt;p&gt;Starting with Docker 28.2.0 (https://github.com/moby/moby/pull/49832), Docker networks must explicitly specify from which host interfaces they allow &lt;a href="https://docs.docker.com/engine/network/packet-filtering-firewalls/#direct-routing"&gt;direct routing&lt;/a&gt; to their containers. This is done by specifying the &lt;code&gt;com.docker.network.bridge.trusted_host_interfaces&lt;/code&gt; option when creating the network. We now create the &lt;code&gt;uncloud&lt;/code&gt; Docker network with &lt;code&gt;com.docker.network.bridge.trusted_host_interfaces=uncloud&lt;/code&gt; option to allow the WireGuard mesh network (&lt;code&gt;uncloud&lt;/code&gt; interface) to route traffic to uncloud-managed containers.&lt;/p&gt;
+&lt;p&gt;If you &lt;strong&gt;upgraded Docker to 28.2.0 or a later version on an existing machine&lt;/strong&gt;, you need to manually recreate the &lt;code&gt;uncloud&lt;/code&gt; Docker network with the &lt;code&gt;com.docker.network.bridge.trusted_host_interfaces=uncloud&lt;/code&gt; option on it to fix cross-machine communication. We prepared the &lt;a href="https://github.com/psviderski/uncloud/blob/main/scripts/migrate_docker_28.2.0.sh"&gt;migration script&lt;/a&gt; that will do that for you.
+&lt;strong&gt;⚠️ Note:&lt;/strong&gt; the migration process may cause temporary service disruption. Download and run it on your machines:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;curl -O https://raw.githubusercontent.com/psviderski/uncloud/refs/heads/main/scripts/migrate_docker_28.2.0.sh
+chmod +x migrate_docker_28.2.0.sh
+sudo ./migrate_docker_28.2.0.sh
+rm migrate_docker_28.2.0.sh&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;New features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The default log driver for all service containers is set to &lt;a href="https://docs.docker.com/engine/logging/drivers/local/"&gt;&lt;code&gt;local&lt;/code&gt;&lt;/a&gt;, which preserves 100MB of log messages per container and uses automatic compression to reduce the size on disk. There is no longer a need to manually specify the log driver limits to prevent logs from filling up the disk space. Contributed by @zasdaym.&lt;/li&gt;
+&lt;li&gt;Added unofficial &lt;a href="https://github.com/dariogriffo/uncloud-debian/"&gt;Debian package repository&lt;/a&gt; maintained by @dariogriffo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Uncloud-managed volumes are labeled with &lt;code&gt;uncloud.managed&lt;/code&gt; to make it easier to identify and manage them.&lt;/li&gt;
+&lt;li&gt;Anonymous volumes are now properly cleaned up when removing service containers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Developer Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Protobuf compiler and Go plugins are now managed through &lt;a href="https://mise.jdx.dev/"&gt;&lt;code&gt;mise&lt;/code&gt;&lt;/a&gt;, using consistent versions across all development environments.&lt;/li&gt;
+&lt;li&gt;Added CI checks for protobuf generation on multiple platforms.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;.editorconfig&lt;/code&gt; for consistent code formatting across different editors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;Special thanks to our contributors for this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;@dariogriffo - Debian package repository&lt;/li&gt;
+&lt;li&gt;@tonyo - Multiple improvements including &lt;code&gt;.editorconfig&lt;/code&gt; and build fixes&lt;/li&gt;
+&lt;li&gt;@krishna-santosh - Documentation fixes&lt;/li&gt;
+&lt;li&gt;@zasdaym - Default log driver implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;f75afa0cec969cee44dae6310f5122bf85c79aa8 Merge branch 'pasha/machine-rm'&lt;/li&gt;
 &lt;li&gt;638f32095931f0d0d420fff5be64f05ebab541a2 build: Install protobuf tools via mise (#77)&lt;/li&gt;
@@ -219,18 +276,21 @@
 &lt;li&gt;e3e39dde327b5f9e4bb0685ea2128d43e68b3fbd chore: create FUNDING.yml&lt;/li&gt;
 &lt;li&gt;0f38b128fa51711f4ea9e990cd2b8ccdcddf2ada chore: fail 'machine rm' as not fully implemented&lt;/li&gt;
 &lt;li&gt;a73cbfd691c05081f35d210dbf13b24050e4750e chore: hide incomplete machine rm command from help output&lt;/li&gt;
-&lt;li&gt;2b4da1e6fefe75b43721321c01ae42cbf1b97b22 chore: remove anonymous volumes created by service containers when removing them&lt;/li&gt;
+&lt;li&gt;2b4da1e6fefe75b43721321c01ae42cbf1b97b22 chore: remove anonymous volumes created by service containers when removing
+  them&lt;/li&gt;
 &lt;li&gt;4c77fe2cfd474ea5eb0d09c07ec03f05ad71c9cf chore: tidy up&lt;/li&gt;
 &lt;li&gt;5c8beb8bd35bdc8ad4e8a839c8cd7162ea88a718 chore: tidy up go.mod, remove toolchain&lt;/li&gt;
 &lt;li&gt;44549c00fda1b7d6b414ea7841729b3bb91ced98 feat: Label new volumes as managed by uncloud (#79)&lt;/li&gt;
 &lt;li&gt;535b91fe523f5479238f5f56c25feacb2b0695ac feat: add stub for Reset method in machine API&lt;/li&gt;
-&lt;li&gt;59b96cc01f7d0050c00c06030ad4035f7e6e241c feat: init 'machine rm' command that outputs service containers that will be removed&lt;/li&gt;
+&lt;li&gt;59b96cc01f7d0050c00c06030ad4035f7e6e241c feat: init 'machine rm' command that outputs service containers that will be
+  removed&lt;/li&gt;
 &lt;li&gt;be8b4f079faaed6f7edb92ffc02198a5df2fde7c feat: remove containers on machine before removing it&lt;/li&gt;
 &lt;li&gt;1abadaef505d55e4417bf6190a785cb05f7bc1ba feat: set default log driver for service containers to 'local' (#83)&lt;/li&gt;
 &lt;li&gt;3b1ce42dd7e2e813e9cdc3f2825f912f0368777a fix(docs): add missing word to complete the sentence (#82)&lt;/li&gt;
 &lt;li&gt;26f34df3e64554c3a6900671e5c417549e7c90c8 fix: Improve output for build operations&lt;/li&gt;
 &lt;li&gt;89fb9efcfac89afa72238c5f1fe1387986a5167c fix: Use GITHUB_TOKEN to increase the rate limit for mise action&lt;/li&gt;
-&lt;li&gt;55773e92ce93992805dc57271a64d8fbf5d21d15 fix: allow direct routing from WireGuard mesh to containers for Docker 28.2.0+&lt;/li&gt;
+&lt;li&gt;55773e92ce93992805dc57271a64d8fbf5d21d15 fix: allow direct routing from WireGuard mesh to containers for Docker
+  28.2.0+&lt;/li&gt;
 &lt;li&gt;3b89af4a11e1194c850c281f97131f7be0870c11 fix: e2e compose build test on macOS with Docker Desktop&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/psviderski/uncloud/releases/tag/v0.9.0" rel="alternate"/>
