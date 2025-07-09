@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Metabase Releases</title>
-  <updated>2025-07-08T19:31:59.230071-04:00</updated>
+  <updated>2025-07-08T20:31:58.266523-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -251,7 +251,7 @@ JAR download: https://downloads.metabase.com/v0.55.7.x/metabase.jar&lt;/p&gt;
 &lt;p&gt;Docker image: &lt;a href="https://hub.docker.com/r/metabase/metabase-enterprise/tags"&gt;&lt;code&gt;metabase/metabase-enterprise:v1.55.7.x&lt;/code&gt;&lt;/a&gt;
 JAR download: https://downloads.metabase.com/enterprise/v1.55.7.x/metabase.jar&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;h3&gt;Embedded analytics SDk changelog&lt;/h3&gt;
+&lt;h3&gt;Embedded analytics SDK changelog&lt;/h3&gt;
 &lt;p&gt;See &lt;a href="https://www.metabase.com/docs/latest/embedding/sdk/introduction#changelog"&gt;SDK changelog&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt;&lt;/p&gt;
