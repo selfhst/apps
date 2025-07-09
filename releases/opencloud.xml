@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-07-09T09:36:05.644841-04:00</updated>
+  <updated>2025-07-09T10:36:16.221038-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -172,7 +172,38 @@ This is a rolling release. Learn here about the &lt;a href="https://docs.openclo
     <author>
       <name>opencloud-eu/opencloud</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.0.0"&gt;3.0.0&lt;/a&gt; - 2025-06-10&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+This is a rolling release. Learn here about the &lt;a href="https://docs.opencloud.eu/docs/admin/resources/lifecycle#release-types"&gt;release types and lifecycle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Releasenotes OpenCloud 3.0.0&lt;/h1&gt;
+&lt;p&gt;Listing a Space took too long when it included many users.&lt;br /&gt;
+To improve performance in this scenario, the drive root permissions are &lt;strong&gt;no longer expanded automatically&lt;/strong&gt; (&lt;a href="https://github.com/opencloud-eu/opencloud/issues/485"&gt;#485&lt;/a&gt;).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ This change modifies the API behavior. In accordance with &lt;strong&gt;Semantic Versioning&lt;/strong&gt;, we have incremented the &lt;a href="https://docs.opencloud.eu/docs/admin/resources/lifecycle"&gt;&lt;strong&gt;major version number&lt;/strong&gt;&lt;/a&gt;. No manual migrationsteps are neccesary.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;🖼️ Add Profile Photo&lt;/h2&gt;
+&lt;p&gt;Users can now &lt;strong&gt;upload a profile photo&lt;/strong&gt; to personalize their account. The profile image will be displayed in the user interface wherever user avatars are shown such as the top bar and user lists enhancing recognition and adding a more personal touch.&lt;/p&gt;
+&lt;h2&gt;😌 Accessibility Improvement: Required Mark for Text Input Fields&lt;/h2&gt;
+&lt;p&gt;The text input component now includes a proper &lt;strong&gt;"required" mark&lt;/strong&gt; for accessibility (a11y). This improves compliance with &lt;strong&gt;WCAG 2.1&lt;/strong&gt; and overall form usability.&lt;/p&gt;
+&lt;h2&gt;🗑️ Delete Files Directly from Viewer or Editor&lt;/h2&gt;
+&lt;p&gt;You can now &lt;strong&gt;delete files directly from within an editor or viewer&lt;/strong&gt;, without having to return to the file list. The delete option is available in the topbar context menu, the right sidebar action panel or the preview controls bar. Thanks to &lt;a href="https://github.com/fwinn"&gt;fwinn&lt;/a&gt; for proposing this improvement.&lt;/p&gt;
+&lt;h2&gt;📆 Calendar Integration URL Now Visible in Account Settings&lt;/h2&gt;
+&lt;p&gt;Users can now easily find their &lt;strong&gt;personal CalDAV calendar URL&lt;/strong&gt; directly in the Web UI.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New &lt;strong&gt;"Calendar" panel&lt;/strong&gt; in the account settings (visible only if CalDAV is enabled by the server).&lt;/li&gt;
+&lt;li&gt;Includes:&lt;/li&gt;
+&lt;li&gt;CalDAV &lt;strong&gt;URL&lt;/strong&gt; (copyable)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Username&lt;/strong&gt; (copyable)&lt;/li&gt;
+&lt;li&gt;Password info: use an &lt;strong&gt;app token&lt;/strong&gt; for authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This makes it easier to connect your OpenCloud calendar to third-party apps like &lt;strong&gt;Apple Calendar&lt;/strong&gt; or &lt;strong&gt;Thunderbird&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;🖼️ Croping of Space Images&lt;/h2&gt;
+&lt;p&gt;Space managers can now &lt;strong&gt;select the visible area&lt;/strong&gt; of a space image in a &lt;strong&gt;16:9 aspect ratio&lt;/strong&gt;. When uploading a space image, a &lt;strong&gt;crop tool&lt;/strong&gt; lets you define the exact area shown in the space overview and details. Cropping is also completely controllable via keyboard.&lt;/p&gt;
+&lt;h2&gt;🎨 Improved Design of the Account Page&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Account Page&lt;/strong&gt; has been redesigned to offer a clearer structure and better usability.&lt;/p&gt;
+&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.0.0"&gt;3.0.0&lt;/a&gt; - 2025-06-10&lt;/h2&gt;
 &lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
 &lt;p&gt;@AlexAndBear, @ScharfViktor, @VuiMuich, @aduffeck, @butonic, @fschade, @kulmann, @micbar, @prashant-gurung899, @rhafer&lt;/p&gt;
 &lt;h3&gt;💥 Breaking changes&lt;/h3&gt;
@@ -263,7 +294,33 @@ This is a rolling release. Learn here about the &lt;a href="https://docs.openclo
     <author>
       <name>opencloud-eu/opencloud</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.1.0"&gt;3.1.0&lt;/a&gt; - 2025-06-30&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+This is a rolling release. Learn here about the &lt;a href="https://docs.opencloud.eu/docs/admin/resources/lifecycle#release-types"&gt;release types and lifecycle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Releasenotes OpenCloud 3.1.0&lt;/h1&gt;
+&lt;h2&gt;📄 Collabora: New “Export As” and “Save As” Options&lt;/h2&gt;
+&lt;p&gt;Working in Collabora just got more powerful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;📝 Save As&lt;/strong&gt; You can now save a &lt;strong&gt;copy of the current file&lt;/strong&gt; directly from within Collabora.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;📤 Export As&lt;/strong&gt; Export your currently edited document into another format (e.g. PDF) — no extra tools needed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These improvements let you convert and copy documents &lt;strong&gt;without ever leaving the editor&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;🖱️ Simplified "Open" Context Menu for Files&lt;/h2&gt;
+&lt;p&gt;The file context menu has been redesigned for a cleaner and more intuitive experience. A single &lt;strong&gt;"Open"&lt;/strong&gt; entry replaces multiple "Open with..." options. This feature is fully accessible with keyboards.&lt;/p&gt;
+&lt;h2&gt;📝 Extended File Format Support in Text Editor&lt;/h2&gt;
+&lt;p&gt;The text editor now supports a wider range of text-based file formats:
+- &lt;strong&gt;Markup &amp;amp; Web&lt;/strong&gt;: &lt;code&gt;.html&lt;/code&gt;, &lt;code&gt;.css&lt;/code&gt;, &lt;code&gt;.scss&lt;/code&gt;, &lt;code&gt;.sass&lt;/code&gt;, &lt;code&gt;.less&lt;/code&gt;&lt;br /&gt;
+- &lt;strong&gt;Scripts &amp;amp; Code&lt;/strong&gt;: &lt;code&gt;.c&lt;/code&gt;, &lt;code&gt;.cpp&lt;/code&gt;, &lt;code&gt;.java&lt;/code&gt;, &lt;code&gt;.sh&lt;/code&gt;, &lt;code&gt;.bat&lt;/code&gt;, &lt;code&gt;.asm&lt;/code&gt;, &lt;code&gt;.ts&lt;/code&gt;, &lt;code&gt;.tsx&lt;/code&gt;, &lt;code&gt;.jsx&lt;/code&gt;, &lt;code&gt;.vue&lt;/code&gt;&lt;br /&gt;
+- &lt;strong&gt;Config &amp;amp; Environment&lt;/strong&gt;: &lt;code&gt;.yml&lt;/code&gt;, &lt;code&gt;.yaml&lt;/code&gt;, &lt;code&gt;.toml&lt;/code&gt;, &lt;code&gt;.ini&lt;/code&gt;, &lt;code&gt;.conf&lt;/code&gt;, &lt;code&gt;.env&lt;/code&gt;&lt;br /&gt;
+- &lt;strong&gt;Structured Data&lt;/strong&gt;: &lt;code&gt;.csv&lt;/code&gt;, &lt;code&gt;.tsv&lt;/code&gt;, &lt;code&gt;.xml&lt;/code&gt;&lt;br /&gt;
+- &lt;strong&gt;Other Text Formats&lt;/strong&gt;: &lt;code&gt;.log&lt;/code&gt;, &lt;code&gt;.rtf&lt;/code&gt;, &lt;code&gt;.ics&lt;/code&gt;, &lt;code&gt;.dockerfile&lt;/code&gt;, &lt;code&gt;.makefile&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.1.0"&gt;3.1.0&lt;/a&gt; - 2025-06-30&lt;/h2&gt;
 &lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
 &lt;p&gt;@06kellyjac, @AlexAndBear, @Leander-Wendt, @ScharfViktor, @aduffeck, @fschade, @individual-it, @kulmann, @rhafer&lt;/p&gt;
 &lt;h3&gt;✨ Features&lt;/h3&gt;
