@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-07-09T12:30:48.161430-04:00</updated>
+  <updated>2025-07-09T13:30:48.792566-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -97,7 +97,9 @@
     <author>
       <name>filebrowser/filebrowser</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Docker Image Updates&lt;/h2&gt;
+&lt;p&gt;The Docker image has been updated recently, with breaking changes. Read the release notes from &lt;a href="https://github.com/filebrowser/filebrowser/releases/tag/v2.33.0"&gt;v2.33.0&lt;/a&gt; to learn how to upgrade.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;0614dcd89b4da02af7d36cdc4a830c29e20b190c chore(release): 2.37.0&lt;/li&gt;
 &lt;li&gt;fcb248a5feb7b7404ca5923aae17f6d3f8d3cc96 fix: long file name overlap&lt;/li&gt;

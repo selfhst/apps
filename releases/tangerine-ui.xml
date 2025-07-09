@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tangerine UI Releases</title>
-  <updated>2025-07-09T12:35:21.118510-04:00</updated>
+  <updated>2025-07-09T13:34:20.238826-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,7 +123,7 @@ Here's a follow-up release with some small fixes:&lt;/p&gt;
     <author>
       <name>nileane/TangerineUI-for-Mastodon</name>
     </author>
-    <content>&lt;p&gt;This is a small follow-up to &lt;a href="https://github.com/nileane/TangerineUI-for-Mastodon/releases/tag/v2.4"&gt;v2.4&lt;/a&gt;, with a handful of small fixes:&lt;/p&gt;
+    <content>&lt;p&gt;This is a follow-up to &lt;a href="https://github.com/nileane/TangerineUI-for-Mastodon/releases/tag/v2.4"&gt;v2.4&lt;/a&gt;, with a handful of small fixes:&lt;/p&gt;
 &lt;p&gt;🔨 &lt;strong&gt;Fixed&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove unwanted background around avatar above the compose form&lt;/li&gt;
