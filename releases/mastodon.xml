@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2025-07-09T11:31:18.247800-04:00</updated>
+  <updated>2025-07-09T12:31:30.718728-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,6 +244,10 @@ If you run into such an issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--
 For changes of particular interest to application developers, see https://blog.joinmastodon.org/2025/07/mastodon-4-4-for-devs/
 For a more detailed run-down on the changes, see the Changelog section below!&lt;/p&gt;
 &lt;h2&gt;Upgrade overview&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!TIP]
+A &lt;a href="https://github.com/mastodon/mastodon/releases/tag/v4.4.1"&gt;hotfix release&lt;/a&gt; is available for this branch, please update directly to it.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;This release contains upgrade notes that deviate from the norm:&lt;/p&gt;
 &lt;p&gt;:warning: The minimum supported version for Redis has been bumped to 6.2\
 :warning: The minimum supported version for PostgreSQL has been bumped to 13\
