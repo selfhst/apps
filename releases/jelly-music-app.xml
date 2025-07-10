@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jelly Music App Releases</title>
-  <updated>2025-07-10T17:37:05.498745-04:00</updated>
+  <updated>2025-07-10T18:36:49.654616-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,5 +124,19 @@
 &lt;p&gt;Thanks to @seijihariki for helping with the dedicated desktop apps, arm support for docker images and automated deployments!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/v0.3.0...v0.4.0&lt;/p&gt;</content>
     <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Stannnnn/jelly-app/releases/tag/v0.4.1</id>
+    <title>New release for Jelly Music App: v0.4.1</title>
+    <updated>2025-07-10T18:20:27-04:00</updated>
+    <author>
+      <name>Stannnnn/jelly-app</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;p&gt;Small but needed hotfix:
+* Now Playing thumbnail crops instead of stretches fix by @seijihariki in https://github.com/Stannnnn/jelly-app/pull/29
+* Dropdown on mobile and touch devices should now work on Now Playing page, layout bug fix.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/v0.4.0...v0.4.1&lt;/p&gt;</content>
+    <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.4.1" rel="alternate"/>
   </entry>
 </feed>
