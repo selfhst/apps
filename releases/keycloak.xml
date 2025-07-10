@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-07-10T03:31:07.325025-04:00</updated>
+  <updated>2025-07-10T04:31:06.682042-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -700,7 +700,33 @@ This can reduce the service&amp;#8217;s downtime even further, as downtime is on
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40851"&gt;#40851&lt;/a&gt; Upgrade to Infinispan 15.0.16.Final &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40962"&gt;#40962&lt;/a&gt; Update limitations of the preview feature rolling updates for patch releases &lt;code&gt;infinispan&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/35932"&gt;#35932&lt;/a&gt; Importing a realm takes more than 1 minute when multiple others exist. &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40368"&gt;#40368&lt;/a&gt; NPE during loading user groups with concurrent deletion &lt;code&gt;storage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40713"&gt;#40713&lt;/a&gt; Unable to configure TLS reloading in Keycloak version 26.2.0 or later &lt;code&gt;account/api&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40838"&gt;#40838&lt;/a&gt; Mark options for additional datasources as preview &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40890"&gt;#40890&lt;/a&gt; Keycloak Operator 26.3.0 fails to update to 26.3.0 &lt;code&gt;operator&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40930"&gt;#40930&lt;/a&gt; Docs: server_development/topics/themes.adoc &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40954"&gt;#40954&lt;/a&gt; Keycloak 26.3.0 Regression: Failed to login if web-authn is disabled &lt;code&gt;core&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.3.1" rel="alternate"/>
   </entry>
 </feed>
