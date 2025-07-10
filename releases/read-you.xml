@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Read You Releases</title>
-  <updated>2025-07-10T15:34:12.049471-04:00</updated>
+  <updated>2025-07-10T16:34:10.889147-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,7 +157,6 @@
 &lt;/ol&gt;
 &lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Native Components renderer now supports system smart actions (e.g., translate, web search) for text selection&lt;/li&gt;
 &lt;li&gt;Full screen image viewer is now edge-to-edge with transparent system bars&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Notable Changes&lt;/h3&gt;

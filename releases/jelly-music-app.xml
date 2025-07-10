@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jelly Music App Releases</title>
-  <updated>2025-07-10T15:37:00.473269-04:00</updated>
+  <updated>2025-07-10T16:36:58.522757-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,5 +89,40 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/v0.2.0...v0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Stannnnn/jelly-app/releases/tag/v0.4.0</id>
+    <title>New release for Jelly Music App: v0.4.0</title>
+    <updated>2025-07-10T15:56:19-04:00</updated>
+    <author>
+      <name>Stannnnn/jelly-app</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Now Playing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A dedicated playback page with an improved look and feel for individual tracks.&lt;/li&gt;
+&lt;li&gt;Features a new lyrics page, optimized for desktop and mobile devices.&lt;/li&gt;
+&lt;li&gt;Enhanced playback experience for mobile and touch devices.&lt;/li&gt;
+&lt;li&gt;Available in the bottom-right corner, next to the track duration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Desktop Apps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Desktop applications, built with Tauri for native-like performance, are now available for Linux, macOS, and Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Instant Mix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Now available with a new look, similar to how playlists are displayed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enhancements &amp;amp; Fixes.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added standalone desktop apps #6.&lt;/li&gt;
+&lt;li&gt;Fix safe-area spacing for mobile and touch devices #23.&lt;/li&gt;
+&lt;li&gt;Docker ARM support #24.&lt;/li&gt;
+&lt;li&gt;Progress bar is now draggable/swipeable on iOS.&lt;/li&gt;
+&lt;li&gt;General bugfixes &amp;amp; improvements, focusing on accessibility and more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to @seijihariki for helping with the dedicated desktop apps, arm support for docker images and automated deployments!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Stannnnn/jelly-app/compare/v0.3.0...v0.4.0&lt;/p&gt;</content>
+    <link href="https://github.com/Stannnnn/jelly-app/releases/tag/v0.4.0" rel="alternate"/>
   </entry>
 </feed>
