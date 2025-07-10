@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DockSTARTer Releases</title>
-  <updated>2025-07-09T23:35:06.182688-04:00</updated>
+  <updated>2025-07-10T00:35:06.397490-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,35 @@
     </author>
     <content/>
     <link href="https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.09.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.1</id>
+    <title>New release for DockSTARTer: v2025.07.10.1</title>
+    <updated>2025-07-09T23:35:43-04:00</updated>
+    <author>
+      <name>GhostWriters/DockSTARTer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make &lt;code&gt;ds -u&lt;/code&gt; skip updating if no update is needed. by @CLHatch in https://github.com/GhostWriters/DockSTARTer/pull/1958&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;${APPLICATION_NAME}&lt;/code&gt; instead of &lt;code&gt;DockSTARTer&lt;/code&gt; by @CLHatch in https://github.com/GhostWriters/DockSTARTer/pull/1959&lt;/li&gt;
+&lt;li&gt;Add theming to all backtitle elements by @CLHatch in https://github.com/GhostWriters/DockSTARTer/pull/1960&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GhostWriters/DockSTARTer/compare/v2025.07.09.1...v2025.07.10.1&lt;/p&gt;</content>
+    <link href="https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.2</id>
+    <title>New release for DockSTARTer: v2025.07.10.2</title>
+    <updated>2025-07-09T23:58:34-04:00</updated>
+    <author>
+      <name>GhostWriters/DockSTARTer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix backtitle not showing for dialog box example. by @CLHatch in https://github.com/GhostWriters/DockSTARTer/pull/1961&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GhostWriters/DockSTARTer/compare/v2025.07.10.1...v2025.07.10.2&lt;/p&gt;</content>
+    <link href="https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.2" rel="alternate"/>
   </entry>
 </feed>
