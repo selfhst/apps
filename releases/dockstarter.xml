@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DockSTARTer Releases</title>
-  <updated>2025-07-10T11:35:27.635073-04:00</updated>
+  <updated>2025-07-10T12:35:17.951323-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -49,5 +49,19 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GhostWriters/DockSTARTer/compare/v2025.07.10.1...v2025.07.10.2&lt;/p&gt;</content>
     <link href="https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.3</id>
+    <title>New release for DockSTARTer: v2025.07.10.3</title>
+    <updated>2025-07-10T11:40:40-04:00</updated>
+    <author>
+      <name>GhostWriters/DockSTARTer</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow optional mounting of storage folders per app by @CLHatch in https://github.com/GhostWriters/DockSTARTer/pull/1962&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/GhostWriters/DockSTARTer/compare/v2025.07.10.2...v2025.07.10.3&lt;/p&gt;</content>
+    <link href="https://github.com/GhostWriters/DockSTARTer/releases/tag/v2025.07.10.3" rel="alternate"/>
   </entry>
 </feed>
