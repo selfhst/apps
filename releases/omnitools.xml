@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OmniTools Releases</title>
-  <updated>2025-07-10T16:36:01.533155-04:00</updated>
+  <updated>2025-07-10T17:36:08.635432-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -269,5 +269,56 @@
 &lt;li&gt;QR Code Generator&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.4.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/iib0011/omni-tools/releases/tag/v0.5.0</id>
+    <title>New release for OmniTools: v0.5.0</title>
+    <updated>2025-07-10T16:42:58-04:00</updated>
+    <author>
+      <name>iib0011/omni-tools</name>
+    </author>
+    <content>&lt;h1&gt;Docker Images&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:latest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;iib0011/omni-tools:0.5.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;What's New?&lt;/h1&gt;
+&lt;h2&gt;🖼️ Image Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Image Editor (crop, rotate, add filters, watermark, annotate and more)&lt;/li&gt;
+&lt;li&gt;Rotate Image&lt;/li&gt;
+&lt;li&gt;Convert Images to JPG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📄 PDF Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF Editor (add text, images, signature, checkboxes)&lt;/li&gt;
+&lt;li&gt;PDF to PNG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🎥 Video Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Video to GIF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔊 Audio Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract Audio&lt;/li&gt;
+&lt;li&gt;Change Speed&lt;/li&gt;
+&lt;li&gt;Trim Audio&lt;/li&gt;
+&lt;li&gt;Merge Audio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⏱️ Time Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Crontab Explainer&lt;/li&gt;
+&lt;li&gt;Check Leap Years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔠 String &amp;amp; Text Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Text Censor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🧾 XML Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;XML Beautifier&lt;/li&gt;
+&lt;li&gt;XML Validator&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/iib0011/omni-tools/releases/tag/v0.5.0" rel="alternate"/>
   </entry>
 </feed>
