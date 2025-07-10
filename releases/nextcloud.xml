@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Nextcloud Releases</title>
-  <updated>2025-07-10T09:30:27.816533-04:00</updated>
+  <updated>2025-07-10T10:30:28.335710-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -149,7 +149,7 @@
     <author>
       <name>nextcloud/server</name>
     </author>
-    <content/>
+    <content>&lt;p&gt;https://github.com/nextcloud-releases/server/releases/tag/v31.0.7&lt;/p&gt;</content>
     <link href="https://github.com/nextcloud/server/releases/tag/v31.0.7" rel="alternate"/>
   </entry>
 </feed>

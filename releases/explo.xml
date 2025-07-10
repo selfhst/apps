@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Explo Releases</title>
-  <updated>2025-07-10T09:35:16.419453-04:00</updated>
+  <updated>2025-07-10T10:35:24.616637-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,7 +87,7 @@
       <name>LumePart/Explo</name>
     </author>
     <content>&lt;h2&gt;v0.10.2 CHANGELOG&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;PS!&lt;/strong&gt; When using MPD and slskd, download migration is now required (Explo doesn't search tracks from &lt;code&gt;SLSKD_DIR&lt;/code&gt; anymore)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS!&lt;/strong&gt; When using MPD with slskd, download migration is now required (Explo doesn't search tracks from &lt;code&gt;SLSKD_DIR&lt;/code&gt; anymore)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[FEATURE]&lt;/strong&gt; Migrate slskd downloads to the main download directory&lt;br /&gt;
 - Requires &lt;code&gt;MIGRATE_DOWNLOADS=true&lt;/code&gt; in &lt;code&gt;.env&lt;/code&gt;&lt;br /&gt;
 - &lt;code&gt;SLSKD_DIR&lt;/code&gt; must be set for binary versions of Explo&lt;br /&gt;
