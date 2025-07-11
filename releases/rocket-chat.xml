@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Rocket.Chat Releases</title>
-  <updated>2025-07-11T00:31:44.674840-04:00</updated>
+  <updated>2025-07-11T01:31:41.674913-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -241,7 +241,17 @@
     <author>
       <name>RocketChat/Rocket.Chat</name>
     </author>
-    <content>&lt;h3&gt;Engine versions&lt;/h3&gt;
+    <content>&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;p&gt;This release brings key enhancements to the Livechat experience and core system upgrades. The Livechat widget now includes fallback logic to automatically assign the first available agent when no department or default agent is selected. The &lt;code&gt;setTheme&lt;/code&gt; API has been extended to allow hiding the “Expand chat” button, with an additional appearance setting to control this by default. Rocket.Chat has also upgraded to TypeScript 5.8, ensuring better compatibility with Node 22, improved type checks, and faster build performance. Personal access tokens now require a name to be created, adding more accountability. Additionally, user-to-Exchange server mapping is now supported based on email domains, allowing seamless multi-site integration from desktop app version 4.7.0 onward.&lt;/p&gt;
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;p&gt;Numerous bugs have been addressed to improve stability and consistency. Issues with deployment fingerprint notifications, duplicate font-size tags, and missing schema properties for department endpoints have been resolved. Enhancements to agent availability now fully respect the &lt;code&gt;Livechat_enabled_when_agent_idle&lt;/code&gt; setting. Problems related to agent removal, limited department listings, and missing data in the Livechat popout window were also fixed. Several webhook and API-related bugs were corrected, including session trigger logic, HTML entity rendering, and message content display in notifications. Additional fixes ensure E2E quotes respect nesting limits, enforce message length limits via webhooks, and improve file search accuracy. UI reliability was enhanced by fixing Contextual Bar reload issues and reinforcing multi-step workflow behavior. Finally, the update improves error handling for the presence service during interruptions.&lt;/p&gt;
+&lt;h3&gt;Known Issues&lt;/h3&gt;
+&lt;p&gt;During the pruning process, if you select the Prune Files Only option, the client will not delete the messages automatically. A reload is necessary. If this is crucial to you, you should set DISABLE_DB_WATCHERS=false. For more context, see issue &lt;a href="https://github.com/RocketChat/Rocket.Chat/pull/35981"&gt;#35981&lt;/a&gt; and the &lt;a href="https://docs.rocket.chat/docs/deployment-environment-variables#optional-environment-variables"&gt;DISABLE_DB_WATCHERS&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For further details, check out the &lt;a href="https://docs.rocket.chat/docs/rocketchat-release-notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Engine versions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Node: &lt;code&gt;22.14.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Deno: &lt;code&gt;1.43.5&lt;/code&gt;&lt;/li&gt;
