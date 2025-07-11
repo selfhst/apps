@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PinePods Releases</title>
-  <updated>2025-07-10T19:35:14.431533-04:00</updated>
+  <updated>2025-07-10T20:35:06.573864-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -183,8 +183,7 @@
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;@MaienM made their first contribution in https://github.com/madeofpendletonwool/PinePods/pull/545 - Thanks so much!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Desktop release are on their way. Tauri made some configuration changes recently so I need to update automation jobs to build them.&lt;/h1&gt;</content>
+&lt;/ul&gt;</content>
     <link href="https://github.com/madeofpendletonwool/PinePods/releases/tag/0.7.9" rel="alternate"/>
   </entry>
 </feed>
