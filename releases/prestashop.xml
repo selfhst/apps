@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PrestaShop Releases</title>
-  <updated>2025-07-12T14:37:30.690011-04:00</updated>
+  <updated>2025-07-12T15:39:11.802649-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -352,6 +352,8 @@
 &lt;p&gt;This release marks a major step forward for merchants, developers, and integrators.&lt;/p&gt;
 &lt;p&gt;👉 Explore the details on the Build blog: https://build.prestashop-project.org/news/2025/prestashop-9-0-available/&lt;/p&gt;
 &lt;p&gt;It includes multiple bug fixes and improvements in addition to all the changes that were already released in &lt;a href="https://github.com/PrestaShop/PrestaShop/releases/tag/9.0.0-beta.1"&gt;PrestaShop 9.0.0 Beta 1&lt;/a&gt; and &lt;a href="https://github.com/PrestaShop/PrestaShop/releases/tag/9.0.0-rc.1"&gt;PrestaShop 9.0.0 RC 1&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Download PrestaShop&lt;/h2&gt;
+&lt;p&gt;👉 Follow the download on the release note: https://build.prestashop-project.org/news/2025/prestashop-9-0-available/#download-prestashop-9 &lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;details&gt;
 &lt;summary&gt;Click here to read the changes since RC 1&lt;/summary&gt;
