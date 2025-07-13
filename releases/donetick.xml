@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-07-13T09:35:15.401307-04:00</updated>
+  <updated>2025-07-13T10:34:55.769532-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,7 +150,7 @@ Enhanced GetCircleUsers method to include user images.&lt;/p&gt;
     <content>&lt;h1&gt;Donetick v0.1.105&lt;/h1&gt;
 &lt;h2&gt;What changed&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;
-- Easy Swipes for Quick Actions: Now, you can swipe on tasks to quickly start, pause, edit, or delete them. This makes managing your tasks on the go much faster 
+- Easy Swipes for Quick Actions: Now, you can swipe on tasks to quickly start, pause, edit, or delete them and reveal more actions
 - Improved NavBar component with better padding, sticky positioning, and responsive layout( been a problem with the iOS and Android app, should be fixed now!)
 - Things and Labels, and History got a UI improvement to match the overall design of donetick&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keyboard Shortcut&lt;/strong&gt; 
