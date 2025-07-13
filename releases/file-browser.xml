@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>File Browser Releases</title>
-  <updated>2025-07-13T03:30:50.716080-04:00</updated>
+  <updated>2025-07-13T04:30:48.401410-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -91,7 +91,9 @@
     <author>
       <name>filebrowser/filebrowser</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Docker Image Updates&lt;/h2&gt;
+&lt;p&gt;The Docker image has been updated recently, with breaking changes. Read the release notes from &lt;a href="https://github.com/filebrowser/filebrowser/releases/tag/v2.33.0"&gt;v2.33.0&lt;/a&gt; to learn how to upgrade.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;e6ffb653740e37118d1882edb8d71ebe6663fece chore(release): 2.39.0&lt;/li&gt;
 &lt;li&gt;5c5942d99514b433e09d90624bbe58992eab6be2 build: lightweight busybox-based container build (#5285)&lt;/li&gt;
