@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-07-13T12:35:20.475625-04:00</updated>
+  <updated>2025-07-13T13:35:11.827079-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,11 +90,10 @@
     <author>
       <name>arabcoders/watchstate</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Re-implemented a way to disable matching via episodes GUIDs. by @arabcoders in https://github.com/arabcoders/watchstate/pull/698&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/watchstate/compare/v0.1.2...v0.1.3&lt;/p&gt;</content>
+    <content>&lt;ul&gt;
+&lt;li&gt;45d61a1 Re-implemented a way to disable matching via episodes GUIDs. by arabcoders&lt;/li&gt;
+&lt;li&gt;51305d7 Merge pull request #698 from arabcoders/dev by Abdulmohsen&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/arabcoders/watchstate/releases/tag/v0.1.3" rel="alternate"/>
   </entry>
 </feed>
