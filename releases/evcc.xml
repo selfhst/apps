@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-07-13T08:34:51.682306-04:00</updated>
+  <updated>2025-07-13T09:34:54.023181-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -142,12 +142,52 @@
   </entry>
   <entry>
     <id>https://github.com/evcc-io/evcc/releases/tag/0.205.0</id>
-    <title>New release for evcc: </title>
+    <title>New release for evcc: 0.205.0</title>
     <updated>2025-07-13T08:27:31-04:00</updated>
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Notice&lt;/h2&gt;
+&lt;p&gt;During the next release cycle, starting with the upcoming nightly version, the evcc API will change. See https://github.com/evcc-io/evcc/pull/22299 for details.&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;0a0cc8d83e1a33eca3e6107102675642dd93bb17 Add AI support via model context protocol api (#22121)&lt;/li&gt;
+&lt;li&gt;b6ff1cad928f00db5f2e9f452dc280786388089d Add TeslaFi vehicle (#22245)&lt;/li&gt;
+&lt;li&gt;6ba804b106ed2a9afbaedad7a18fe616514ce1b1 Add demo solar forecast template (#21971)&lt;/li&gt;
+&lt;li&gt;42ed7da2e9f3ea86fd5bc55692b88684fbbe21ea Add smart feed-in priority (#21813)&lt;/li&gt;
+&lt;li&gt;6d32c898c306ffc829a28ae8aaaf40b7a5053d77 Battery grid charge non experimental (#22090)&lt;/li&gt;
+&lt;li&gt;f3b60644e8cfbebaac66df60620e00a9a30d7dcf Config UI: add heating support (#22177)&lt;/li&gt;
+&lt;li&gt;581592f03b856fa9d93d76fd22bf06e1f8ec0bf6 Config UI: general settings wrap (#22276)&lt;/li&gt;
+&lt;li&gt;d287a1b404a4f953a4e57b29801640f728de32c3 Daheimladen: clarify models&lt;/li&gt;
+&lt;li&gt;baadab28ff3a09234e6a4021a684741a67176abb EM2GO: fix charging state, add comments for returned status code (#22174)&lt;/li&gt;
+&lt;li&gt;6765079a7a4422c339ba52e812c77b0d991e4f1d EVSE DIN: add mA control (#22055)&lt;/li&gt;
+&lt;li&gt;581b06f9a8f49323755b18667b8988e33744bf6d EVSE DIN: fix link to documentation (#22102)&lt;/li&gt;
+&lt;li&gt;1924458f4cca3aae831f39b1cc662b14c6d69ad0 Easee: chore - remove dead code and outdated comments (#22214)&lt;/li&gt;
+&lt;li&gt;01ae7394139fa6e2de03b0bb2ca6f1a7af4977df Easee: use provided context (#22111)&lt;/li&gt;
+&lt;li&gt;7cbaf2bd59c6cb950b5986ab943b309feed8fa02 Etrel: map charger status 0 (#22227)&lt;/li&gt;
+&lt;li&gt;d1a13662327ff1b1e072948dead0251d0250d535 Fix Carwings: upgrade to latest commit with new API URL (#22207)&lt;/li&gt;
+&lt;li&gt;d91690e463ec90fdcac2cde371b97123085d155e Heating: add daily session reset (#22068)&lt;/li&gt;
+&lt;li&gt;8f3280593a3c9580ff0c68aeaf11f866a7250b7f Heating: remove session workarounds (#22069)&lt;/li&gt;
+&lt;li&gt;346c162357f70eb8e5cb482cf3b7c3ef7578a775 KEBA: clarify description for variants (#22220)&lt;/li&gt;
+&lt;li&gt;c83dbfdea73a238f85731583b909a86eaccf1f0b LG ESS: Battery Control: Rework Firmware Check (#22189)&lt;/li&gt;
+&lt;li&gt;72b64d038df0ed0b5ef49176e5f02625494acc27 Lambda: support for excess energy specified in negative numbers (#21972)&lt;/li&gt;
+&lt;li&gt;62a14a675638a3926b333792c72a47b8c174dc36 Loadpoint: fix current decimals (#22335)&lt;/li&gt;
+&lt;li&gt;57f59ca703cb4e875730321ff55ab8c33bf77a73 Loadpoint: reset energy metrics when creating session (#22126)&lt;/li&gt;
+&lt;li&gt;a2b8c1cbc2b6a195a91dfc52f2a29ff571119cff Loadpoint: reset fake charge rater when interrupting session (#22293)&lt;/li&gt;
+&lt;li&gt;04f48d7be4d77ec04a0e4135ce595a1d79fbfd4e Mcp: limit tool names to 64 characters for Claude Code&lt;/li&gt;
+&lt;li&gt;d379dd9d195e60a2f7dd24b9f911c5885483e580 Mercedes: fix unexpected status: 418 (I'm a teapot) (#22284)&lt;/li&gt;
+&lt;li&gt;8047238a3d4c4cf0bfaf4a5e7c83a52ede00e76b MyPV: fix status mapping (#21983)&lt;/li&gt;
+&lt;li&gt;dbbb096a98e94e342e4188104019711574b3d36d Open-Meteo: use instant irradiance and UTC timestamps (#22225)&lt;/li&gt;
+&lt;li&gt;694eb96b5faa1ba39be732dca08570492b226fd6 Sessions: fix loadpoint selection (#22117)&lt;/li&gt;
+&lt;li&gt;8e0121334460bff9f20e3935ab092d0e47face7d Shelly 3EM: add Gen.1 hint (#22043)&lt;/li&gt;
+&lt;li&gt;0bac9d1d0f141bf4d2e53a598bf753a854efc28a Sofar: Template doc: Markdown syntax (#21999)&lt;/li&gt;
+&lt;li&gt;4d1856833a0447f24a635fcf2f94b32759e0fea9 TeslaFi: use a more reliable way of detecting connected cable (#22270)&lt;/li&gt;
+&lt;li&gt;92f46b16d4f178bb71fcf4ceda56bf8cf6028ff2 Teslalogger: add limitsoc, correct default port (#22142)&lt;/li&gt;
+&lt;li&gt;ab5fbf3fd38548f95211b619c0dc4dc16c839526 UI: fix telemetry status (#22184)&lt;/li&gt;
+&lt;li&gt;f016a1f26942d446b9cc9a06aef2e0310650716d Volvo: add odometer (BC) (#22124)&lt;/li&gt;
+&lt;li&gt;b872dbf23dbfdf07132ac3d595a7491cb2f2776e Volvo: fix connected api (#22078)&lt;/li&gt;
+&lt;li&gt;1be58587b967e0803aeb532c6bd1a1991973ef2a cli: add heartbeat option to charger/meter (#22170)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/evcc-io/evcc/releases/tag/0.205.0" rel="alternate"/>
   </entry>
 </feed>

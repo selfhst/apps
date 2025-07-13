@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lunalytics Releases</title>
-  <updated>2025-07-13T08:36:24.045175-04:00</updated>
+  <updated>2025-07-13T09:36:31.876883-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -28,5 +28,19 @@
 &lt;li&gt;Escape telegram message for Markdown (https://github.com/KSJaay/Lunalytics/pull/116)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/KSJaay/Lunalytics/releases/tag/0.9.7" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KSJaay/Lunalytics/releases/tag/0.9.9</id>
+    <title>New release for Lunalytics: 0.9.9 - </title>
+    <updated>2025-07-13T09:25:26-04:00</updated>
+    <author>
+      <name>KSJaay/Lunalytics</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0.9.9&lt;/strong&gt; - Fixes issues with incident message updates not working (Commit: https://github.com/KSJaay/Lunalytics/commit/c3fa21b94c7093776ebe270483657bf70b14b21f)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0.9.8&lt;/strong&gt; - Adds new useFetch hook to utilise Loading screen (PR: https://github.com/KSJaay/Lunalytics/pull/118)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/KSJaay/Lunalytics/releases/tag/0.9.9" rel="alternate"/>
   </entry>
 </feed>
