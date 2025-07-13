@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Subtrackr Releases</title>
-  <updated>2025-07-13T13:37:11.884990-04:00</updated>
+  <updated>2025-07-13T14:37:09.563438-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,5 +86,50 @@ services:
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bscott/subtrackr/commits/v0.1.0&lt;/p&gt;</content>
     <link href="https://github.com/bscott/subtrackr/releases/tag/v0.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bscott/subtrackr/releases/tag/v0.2.0</id>
+    <title>New release for Subtrackr: v0.2.0: Logo Integration and Visualization Improvements</title>
+    <updated>2025-07-13T14:18:18-04:00</updated>
+    <author>
+      <name>bscott/subtrackr</name>
+    </author>
+    <content>&lt;h2&gt;🎨 What's New in v0.2.0&lt;/h2&gt;
+&lt;h3&gt;Logo Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Brand new SVG logo&lt;/strong&gt; now appears in the header across all pages&lt;/li&gt;
+&lt;li&gt;Replaced text-based "SubTrackr" with professional logo design&lt;/li&gt;
+&lt;li&gt;Improved visual consistency and brand recognition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to thank Ethan at &lt;a href="https://selfh.st/"&gt;Selfh.st Newsletter&lt;/a&gt; for cleaning up the SVG logo 🤟🏾 
+Speaking of which, were now listed in &lt;a href="https://selfh.st/apps/?search=subtrackr"&gt;Apps on Selfh.st!&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;📊 Spending Visualization Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fixed spending by category charts&lt;/strong&gt; that were previously showing as grey bars&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proportional bar charts&lt;/strong&gt; now accurately represent spending amounts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced color coding&lt;/strong&gt; with reliable blue progress bars&lt;/li&gt;
+&lt;li&gt;Better visual feedback for subscription spending breakdown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🏗️ Infrastructure Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Created proper static assets directory structure (&lt;code&gt;web/static/images/&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Improved template rendering with explicit CSS styling&lt;/li&gt;
+&lt;li&gt;Streamlined Cost Analysis section for better layout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 Technical Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Moved logo from &lt;code&gt;assets/&lt;/code&gt; to &lt;code&gt;web/static/images/logo.svg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fixed Go template math calculations for percentage-based bar widths&lt;/li&gt;
+&lt;li&gt;Replaced Tailwind CSS classes with inline styles for better browser compatibility&lt;/li&gt;
+&lt;li&gt;Updated all page templates (dashboard, subscriptions, analytics, settings)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📸 Screenshots&lt;/h2&gt;
+&lt;p&gt;The spending by category visualization now properly shows:
+- Entertainment spending as proportional blue bars
+- Productivity spending with accurate width calculations&lt;br /&gt;
+- Clean, professional visual design&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bscott/subtrackr/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/bscott/subtrackr/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
