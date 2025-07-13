@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-07-13T11:34:47.963944-04:00</updated>
+  <updated>2025-07-13T12:34:58.951429-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,10 +147,10 @@
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content>&lt;h2&gt;Notice&lt;/h2&gt;
-&lt;p&gt;During the next release cycle, starting with the upcoming nightly version, the evcc API will change. See https://github.com/evcc-io/evcc/pull/22299 for details.&lt;/p&gt;
-&lt;h2&gt;New and noteworthy&lt;/h2&gt;
+    <content>&lt;h2&gt;New and noteworthy&lt;/h2&gt;
 &lt;p&gt;evcc now allows LLMs like Claude or Gemini to interact using the Model Context Protocol api. See #22121 for details.&lt;/p&gt;
+&lt;h2&gt;Breaking change pre-announcement&lt;/h2&gt;
+&lt;p&gt;During the next release cycle, starting with the upcoming nightly version, the evcc REST API response will change. See https://github.com/evcc-io/evcc/pull/22299 for details.&lt;/p&gt;
 &lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;0a0cc8d83e1a33eca3e6107102675642dd93bb17 Add AI support via model context protocol api (#22121)&lt;/li&gt;
