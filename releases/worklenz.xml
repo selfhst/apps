@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Worklenz Releases</title>
-  <updated>2025-07-13T02:33:22.099949-04:00</updated>
+  <updated>2025-07-13T03:33:11.674995-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -68,6 +68,10 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Added right click context menu to task list&lt;/li&gt;
+&lt;li&gt;Added new modals to manage statuses and phases&lt;/li&gt;
+&lt;li&gt;Added a task progress bar when tasks are grouped by priority and phase&lt;/li&gt;
+&lt;li&gt;Added borders to task rows for better clarity.&lt;/li&gt;
 &lt;li&gt;Generate random passwords in update-docker-env.sh by @gdevenyi in https://github.com/Worklenz/worklenz/pull/142&lt;/li&gt;
 &lt;li&gt;increase the memory limit to prevent crashing during build time. by @MRNafisiA in https://github.com/Worklenz/worklenz/pull/105&lt;/li&gt;
 &lt;li&gt;fix: change DB_PASSWORD to static value  by @kithmina1999 in https://github.com/Worklenz/worklenz/pull/148&lt;/li&gt;
