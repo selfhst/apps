@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-07-14T15:36:23.498501-04:00</updated>
+  <updated>2025-07-14T16:36:14.853921-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -143,6 +143,12 @@
       <name>adityachandelgit/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
+&lt;p&gt;This release brings a major upgrade to the metadata editing workflow in Booklore. Previously, bulk metadata refresh was a blind operation, you’d hit refresh and hope for the best. Now, you’re in control.&lt;/p&gt;
+&lt;p&gt;With the new interactive metadata review system, you can:
+ - Preview fetched metadata before applying it to your books.
+ - Accept, reject, or modify the metadata for each book individually.
+ - Track progress in real time via the updated notification widget.&lt;/p&gt;
+&lt;p&gt;No more guesswork, just smarter, cleaner, and more reliable metadata updates.&lt;/p&gt;
 &lt;h2&gt;🚀 New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement interactive metadata review for batch updates, with progress tracking and a unified notification system (#702) by @adityachandelgit&lt;/li&gt;
@@ -163,7 +169,13 @@
 &lt;h2&gt;📖 Documentation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Merge Develop into Master for release (#715) by @adityachandelgit&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h2&gt;📸 Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;img width="1737" height="1002" alt="Screenshot 2025-07-14 at 1 11 23 PM-min" src="https://github.com/user-attachments/assets/f8650f40-c8e9-4830-994b-22bc3d98f52d" /&gt;
+&lt;img width="1737" height="1002" alt="Screenshot 2025-07-14 at 1 18 27 PM-min" src="https://github.com/user-attachments/assets/ea87f692-c1bb-4c1a-90de-d73f7af8418f" /&gt;
+&lt;img width="1737" height="1002" alt="Screenshot 2025-07-14 at 1 20 02 PM-min" src="https://github.com/user-attachments/assets/7d4a166b-ca27-4149-a3e8-dd2945950b2b" /&gt;
+&lt;img width="1737" height="1002" alt="Screenshot 2025-07-14 at 1 20 24 PM-min" src="https://github.com/user-attachments/assets/5a5c35c4-0472-4556-b315-a1c2d860f851" /&gt;
+&lt;img width="1737" height="1002" alt="Screenshot 2025-07-14 at 1 25 34 PM-min" src="https://github.com/user-attachments/assets/50d00731-691e-4fc9-bb3d-93a922001125" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.33.0" rel="alternate"/>
   </entry>
 </feed>
