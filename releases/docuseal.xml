@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DocuSeal Releases</title>
-  <updated>2025-07-14T07:30:46.066005-04:00</updated>
+  <updated>2025-07-14T08:30:45.234508-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -69,7 +69,8 @@ https://www.docuseal.com/docs/api#create-a-submission-from-html &lt;/p&gt;</cont
     <author>
       <name>docusealco/docuseal</name>
     </author>
-    <content>&lt;p&gt;🛠 Adjust font size scaling on small screens
+    <content>&lt;p&gt;🆕 Request Email 2FA via shared links
+🛠 Adjust font size scaling on small screens
 🛠 Remove Github and Upgrade buttons from the dashboard
 🛠 Make it not possible to upload a PDF in the image field&lt;/p&gt;</content>
     <link href="https://github.com/docusealco/docuseal/releases/tag/2.0.7" rel="alternate"/>
