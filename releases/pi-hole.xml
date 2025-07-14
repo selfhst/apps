@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pi-hole Releases</title>
-  <updated>2025-07-14T14:32:25.194987-04:00</updated>
+  <updated>2025-07-14T15:32:19.838409-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -134,15 +134,15 @@
 &lt;h4 class="wp-block-heading"&gt;Fixes&lt;/h4&gt;
 
 &lt;ul class="wp-block-list"&gt;
-&lt;li&gt;Prevent gravity from failing due to an empty shell variable. &lt;a href="http://Exit installation if FTL binary can not be downloaded. #6191"&gt;#6191&lt;/a&gt;&lt;br&gt;This fixes a case where calls to &lt;code&gt;pihole -g&lt;/code&gt; failed during list downloads. &lt;/li&gt;
+&lt;li&gt;Prevent gravity from failing due to an empty shell variable. &lt;a href="https://github.com/pi-hole/pi-hole/pull/6191"&gt;#6191&lt;/a&gt;&lt;br&gt;This fixes a case where calls to &lt;code&gt;pihole -g&lt;/code&gt; failed during list downloads. &lt;/li&gt;
 
 
 
-&lt;li&gt;Require privileged status (root or sudo) for all user calls to &lt;code&gt;pihole&lt;/code&gt;. &lt;a href="http://Exit installation if FTL binary can not be downloaded. #6312"&gt;#6312&lt;/a&gt;&lt;br&gt;This fixes cases where users are unable to change or update the admin password. &lt;/li&gt;
+&lt;li&gt;Require privileged status (root or sudo) for all user calls to &lt;code&gt;pihole&lt;/code&gt;. &lt;a href="https://github.com/pi-hole/pi-hole/pull/6312"&gt;#6312&lt;/a&gt;&lt;br&gt;This fixes cases where users are unable to change or update the admin password. &lt;/li&gt;
 
 
 
-&lt;li&gt;Exit installation if FTL binary can not be downloaded. &lt;a href="http://Exit installation if FTL binary can not be downloaded. #6316"&gt;#6316&lt;/a&gt;&lt;br&gt;Abort update if FTL branch does not exist. &lt;a href="http://Exit installation if FTL binary can not be downloaded. #6329"&gt;#6329&lt;/a&gt; &lt;br&gt;These
+&lt;li&gt;Exit installation if FTL binary can not be downloaded. &lt;a href="https://github.com/pi-hole/pi-hole/pull/6316"&gt;#6316&lt;/a&gt;&lt;br&gt;Abort update if FTL branch does not exist. &lt;a href="https://github.com/pi-hole/pi-hole/pull/6329"&gt;#6329&lt;/a&gt; &lt;br&gt;These
  fix cases where the installation did not fully complete or an update 
 left the installation with mismatched binary and repository versions. 
 Both fixes contributed by @MichaIng&lt;/li&gt;
