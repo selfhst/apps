@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2025-07-15T11:31:26.506660-04:00</updated>
+  <updated>2025-07-15T12:31:23.679568-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -117,7 +117,11 @@
     <author>
       <name>netbirdio/netbird</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;This version introduces support for relaying disconnection indications from the relay server. With this change, relayed disconnects are detected early, and the clients should start renegotiation. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This change requires a relay update to support new clients fully; otherwise, they will retry connections to old relays and fallback to Coturn-based relay connections.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[client] avoid parsing NB_NETSTACK_SKIP_PROXY if empty by @iisteev in https://github.com/netbirdio/netbird/pull/4145&lt;/li&gt;
 &lt;li&gt;[client, relay-server] Feature/relay notification by @pappz in https://github.com/netbirdio/netbird/pull/4083&lt;/li&gt;
