@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-07-15T08:31:52.131965-04:00</updated>
+  <updated>2025-07-15T09:31:55.206416-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,7 +161,10 @@
 &lt;li&gt;IMAP: Fix issue creating subfolders under INBOX for group shared folder (#1817).&lt;/li&gt;
 &lt;li&gt;IMAP: Custom Name for Shared Folders ignored (#1620).&lt;/li&gt;
 &lt;li&gt;LDAP: &lt;code&gt;local&lt;/code&gt; placeholder should return username when its not an email address (#1784).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/8720980"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.13.0" rel="alternate"/>
   </entry>
 </feed>
