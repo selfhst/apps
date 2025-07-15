@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-07-15T02:30:56.266378-04:00</updated>
+  <updated>2025-07-15T03:30:54.347315-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -554,8 +554,37 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;BUGFIXES   * Fix form property assignment edge case (#35073) (#35078)   * Improve submodule relative path handling (#35056) (#35075)   * Fix incorrect comment diff hunk parsing, fix github asset ID nil panic (#35046) (#35055)   * Fix updating user visibility (#35036) (#35044)   * Support base64-encoded agit push options (#35037) (#35041)   * Make submodule link work with relative path (#35034) (#35038)   * Fix bug when displaying git user avatar in commits list (#35006)   * Fix API response for swagger spec (#35029)   * Start automerge check again after the conflict check and the schedule (#34988) (#35002)   * Fix the response format for actions/workflows (#35009) (#35016)   * Fix repo settings and protocol log problems (#35012) (#35013)   * Fix project images scroll (#34971) (#34972)   * Mark old reviews as stale on agit pr updates (#34933) (#34965)   * Fix git graph page (#34948) (#34949)   * Don't send trigger for a pending review's comment create/update/delete (#34928) (#34939)   * Fix some log and UI problems (#34863) (#34868)   * Fix archive API (#34853) (#34857)   * Ignore force pushes for changed files in a PR review (#34837) (#34843)   * Fix SSH LFS timeout (#34838) (#34842)   * Fix team permissions (#34827) (#34836)   * Fix job status aggregation logic (#34823) (#34835)   * Fix issue filter (#34914) (#34915)   * Fix typo in pull request merge warning message text (#34899) (#34903)   * Support the open-icon of folder (#34168) (#34896)   * Optimize flex layout of release attachment area (#34885) (#34886)   * Fix the issue of abnormal interface when there is no issue-item on the project page (#34791) (#34880)   * Skip updating timestamp when sync branch (#34875)   * Fix required contexts and commit status matching bug (#34815) (#34829)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;li&gt;Fix form property assignment edge case (#35073) (#35078)&lt;/li&gt;
+&lt;li&gt;Improve submodule relative path handling (#35056) (#35075)&lt;/li&gt;
+&lt;li&gt;Fix incorrect comment diff hunk parsing, fix github asset ID nil panic (#35046) (#35055)&lt;/li&gt;
+&lt;li&gt;Fix updating user visibility (#35036) (#35044)&lt;/li&gt;
+&lt;li&gt;Support base64-encoded agit push options (#35037) (#35041)&lt;/li&gt;
+&lt;li&gt;Make submodule link work with relative path (#35034) (#35038)&lt;/li&gt;
+&lt;li&gt;Fix bug when displaying git user avatar in commits list (#35006)&lt;/li&gt;
+&lt;li&gt;Fix API response for swagger spec (#35029)&lt;/li&gt;
+&lt;li&gt;Start automerge check again after the conflict check and the schedule (#34988) (#35002)&lt;/li&gt;
+&lt;li&gt;Fix the response format for actions/workflows (#35009) (#35016)&lt;/li&gt;
+&lt;li&gt;Fix repo settings and protocol log problems (#35012) (#35013)&lt;/li&gt;
+&lt;li&gt;Fix project images scroll (#34971) (#34972)&lt;/li&gt;
+&lt;li&gt;Mark old reviews as stale on agit pr updates (#34933) (#34965)&lt;/li&gt;
+&lt;li&gt;Fix git graph page (#34948) (#34949)&lt;/li&gt;
+&lt;li&gt;Don't send trigger for a pending review's comment create/update/delete (#34928) (#34939)&lt;/li&gt;
+&lt;li&gt;Fix some log and UI problems (#34863) (#34868)&lt;/li&gt;
+&lt;li&gt;Fix archive API (#34853) (#34857)&lt;/li&gt;
+&lt;li&gt;Ignore force pushes for changed files in a PR review (#34837) (#34843)&lt;/li&gt;
+&lt;li&gt;Fix SSH LFS timeout (#34838) (#34842)&lt;/li&gt;
+&lt;li&gt;Fix team permissions (#34827) (#34836)&lt;/li&gt;
+&lt;li&gt;Fix job status aggregation logic (#34823) (#34835)&lt;/li&gt;
+&lt;li&gt;Fix issue filter (#34914) (#34915)&lt;/li&gt;
+&lt;li&gt;Fix typo in pull request merge warning message text (#34899) (#34903)&lt;/li&gt;
+&lt;li&gt;Support the open-icon of folder (#34168) (#34896)&lt;/li&gt;
+&lt;li&gt;Optimize flex layout of release attachment area (#34885) (#34886)&lt;/li&gt;
+&lt;li&gt;Fix the issue of abnormal interface when there is no issue-item on the project page (#34791) (#34880)&lt;/li&gt;
+&lt;li&gt;Skip updating timestamp when sync branch (#34875)&lt;/li&gt;
+&lt;li&gt;Fix required contexts and commit status matching bug (#34815) (#34829)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.24.3" rel="alternate"/>
   </entry>
 </feed>
