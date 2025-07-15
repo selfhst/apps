@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docs Releases</title>
-  <updated>2025-07-15T15:36:21.990072-04:00</updated>
+  <updated>2025-07-15T16:36:17.868467-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -176,11 +176,11 @@ We provided a css example in the pull request, you can check it &lt;a href="http
       <name>suitenumerique/docs</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;h3&gt;✨Docs begins a new chapter with the launch of multipages!&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/user-attachments/assets/10af6e98-56db-4afd-b485-2766495659d5"&gt;Multi Pages - Docs.webm&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;✨Docs begins a new chapter with the launch of Sub-docs!&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/user-attachments/assets/75c54c22-ef88-402b-a549-ad42ac62cd04"&gt;subdocs-demo.webm&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;✨(frontend) multi-pages by @PanchoutNathan #701&lt;/li&gt;
+&lt;li&gt;✨(frontend) Sub-docs by @PanchoutNathan #701&lt;/li&gt;
 &lt;li&gt;✨(frontend) Duplicate a doc by @AntoLC #1078&lt;/li&gt;
 &lt;li&gt;✨Ask for access by @AntoLC #1081&lt;/li&gt;
 &lt;li&gt;✨(frontend) add customization for translations by @rvveber #857&lt;/li&gt;
