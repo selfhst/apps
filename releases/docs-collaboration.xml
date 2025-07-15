@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Docs Releases</title>
-  <updated>2025-07-15T14:36:48.880839-04:00</updated>
+  <updated>2025-07-15T15:36:21.990072-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -204,6 +204,7 @@ We provided a css example in the pull request, you can check it &lt;a href="http
 &lt;li&gt;🧑‍💻(docker) handle frontend development images with docker compose by @lunika  #1033&lt;/li&gt;
 &lt;li&gt;🧑‍💻(docker) add y-provider config to development environment by @emersion #1057&lt;/li&gt;
 &lt;li&gt;⚡️(frontend) optimize document fetch error handling by @lebaudantoine #1089&lt;/li&gt;
+&lt;li&gt;⬆️(dependencies) update BlockNotejs to v0.33: new toggle block type  #1127 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
@@ -227,6 +228,9 @@ We provided a css example in the pull request, you can check it &lt;a href="http
 &lt;li&gt;@StephanMeijer made their first contribution in https://github.com/suitenumerique/docs/pull/1104&lt;/li&gt;
 &lt;li&gt;@soyouzpanda made their first contribution in https://github.com/suitenumerique/docs/pull/912&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;Thanks :pray:&lt;/h2&gt;
+&lt;p&gt;A huge thanks to &lt;a href="https://incubateur.anct.gouv.fr/"&gt;Incubateur des Territoires (ANCT :fr:)&lt;/a&gt; who financed the new &lt;a href="https://www.blocknotejs.org/examples/custom-schema/toggleable-blocks"&gt;toggle block type&lt;/a&gt; in &lt;a href="https://github.com/TypeCellOS/BlockNote"&gt;BlockNote&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/user-attachments/assets/716b783e-859f-4ad4-8166-9d96c9bbc007"&gt;Toggle Block Demo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/suitenumerique/docs/compare/v3.3.0...v3.4.0&lt;/p&gt;</content>
     <link href="https://github.com/suitenumerique/docs/releases/tag/v3.4.0" rel="alternate"/>
   </entry>

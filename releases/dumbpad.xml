@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DumbPad Releases</title>
-  <updated>2025-07-15T14:36:13.626680-04:00</updated>
+  <updated>2025-07-15T15:35:45.407361-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -110,5 +110,45 @@ PR:
 | New Markdown Stylings | Added new Markdown stylings for alerts, details/collapse sections, and tables, codeblocks with copy button, along with revamped spacing. | &lt;img alt="markdown-preview1" src="https://github.com/user-attachments/assets/a17093ea-c357-454f-b0d3-c6f6491c1fce" /&gt; &lt;img alt="markdown-preview2" src="https://github.com/user-attachments/assets/e06141e6-82d6-48cb-953f-e1cbc60a1dfd" /&gt; |&lt;/p&gt;
 &lt;p&gt;Thanks and stay dumb! 🚀&lt;/p&gt;</content>
     <link href="https://github.com/DumbWareio/DumbPad/releases/tag/v.1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/DumbWareio/DumbPad/releases/tag/v1.0.4</id>
+    <title>New release for DumbPad: v1.0.4 - An even better editor experience</title>
+    <updated>2025-07-15T15:13:10-04:00</updated>
+    <author>
+      <name>DumbWareio/DumbPad</name>
+    </author>
+    <content>&lt;div align=center&gt;
+  &lt;img width="274" alt="image" src="https://github.com/user-attachments/assets/ea89d815-3dc6-46b3-99a3-edafb7231872" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;| Feature/Fix | Description | Preview |
+|--------|--------|--------|
+| &lt;code&gt;New&lt;/code&gt; Code Syntax Highlighting | Highlight code syntax in markdown preview mode with copy code language labels with support for ~180 languages from &lt;code&gt;highlightjs&lt;/code&gt; | &lt;div align=center&gt;&lt;img width="50%" src="https://github.com/user-attachments/assets/41cca285-3d94-4694-9310-6ee4d616dd94" /&gt; &lt;/div&gt;|
+| &lt;code&gt;New&lt;/code&gt; Split Preview | View live edits in markdown side-by-side your editor with resize handle (mobile-friendly) | &lt;div align=center&gt;&lt;img width="50%" alt="split-preview" src="https://github.com/user-attachments/assets/a0f4b559-f1b7-4b1b-abe6-5289d5d8d494" /&gt; &lt;/div&gt;|
+| &lt;code&gt;New&lt;/code&gt; Default View Setting | Select between editor, split, or full as your default view (client-side setting) | &lt;div align=center&gt;&lt;img width="50%" alt="image" src="https://github.com/user-attachments/assets/ccc2b41c-a817-4367-b661-e96f05490566" /&gt; &lt;/div&gt;|
+| &lt;code&gt;New&lt;/code&gt; Notepad names used a filenames | &lt;code&gt;/data&lt;/code&gt; folder will now use notepad names as filenames with unique filename for better experience from terminal | &lt;div align=center&gt;&lt;img src="https://github.com/user-attachments/assets/bd2aa120-73f1-4487-a3d7-ac9de5eeea4c" /&gt; |&lt;/div&gt; 
+| &lt;code&gt;Fix&lt;/code&gt; Undo/Redo history | Refactor undo/redo history to session stack per client per notepad for better independent tracking | &lt;div align=center&gt;&lt;img width=50% src="https://github.com/user-attachments/assets/6b94d620-1be9-484e-936b-b7f2eefbaf68" /&gt; &lt;/div&gt;|
+| &lt;code&gt;Fix&lt;/code&gt; Better tab indent/deindent handling | Tabbing should now correctly work in editor | &lt;div align=center&gt;&lt;img width=50% src="https://github.com/user-attachments/assets/51b9343f-2167-4f88-8e9e-d66ee46edbd8" /&gt; &lt;/div&gt;|&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Feat/add code syntax highlighting by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/65&lt;/li&gt;
+&lt;li&gt;Suggestion by @mguilherme https://github.com/DumbWareio/DumbPad/issues/64&lt;/li&gt;
+&lt;li&gt;use notepad names for filenames by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/67&lt;/li&gt;
+&lt;li&gt;Suggestion by @halon314 https://github.com/DumbWareio/DumbPad/issues/66&lt;/li&gt;
+&lt;li&gt;Feat/add split preview by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/68&lt;/li&gt;
+&lt;li&gt;Fix preview styles on light/dark toggle and marked-alerts fix by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/70&lt;/li&gt;
+&lt;li&gt;v1.0.4 - Add support for code syntax highlighting, notepadnames for filenames, &amp;amp; 3-way toggle for split preview  by @gitmotion in https://github.com/DumbWareio/DumbPad/pull/69&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DumbWareio/DumbPad/compare/v.1.0.1...v1.0.4&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Service worker should auto bust and reload your cache for you but it that doesn't work
+Make sure to clear your browser cache and reload to reflect the new changes
+Dev console &amp;gt; Application &amp;gt; Storage &amp;gt; Clear site data
+After the new cache has been applied, new versions will auto bust and reload your cache for you moving forward&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Stay dumb friends!&lt;/p&gt;</content>
+    <link href="https://github.com/DumbWareio/DumbPad/releases/tag/v1.0.4" rel="alternate"/>
   </entry>
 </feed>
