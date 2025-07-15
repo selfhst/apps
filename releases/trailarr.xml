@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trailarr Releases</title>
-  <updated>2025-07-15T10:34:13.285209-04:00</updated>
+  <updated>2025-07-15T11:34:02.091194-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -185,7 +185,7 @@
 &lt;ul&gt;
 &lt;li&gt;All Scheduled Tasks are now async.&lt;/li&gt;
 &lt;li&gt;Normalized database defaults for alembic migrations and added &lt;code&gt;ONDELETE&lt;/code&gt; relationships.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;glightox&lt;/code&gt; version used in devcontainer has been corrected.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;glightbox&lt;/code&gt; version used in devcontainer has been corrected.&lt;/li&gt;
 &lt;li&gt;Separated SQLModel base for AppLogs and App models.&lt;/li&gt;
 &lt;li&gt;Corrected openapi path used in Docs from generator script.&lt;/li&gt;
 &lt;li&gt;Setup some &lt;code&gt;PRAGMA&lt;/code&gt; options on database engine to make relationships work and improve performance.&lt;/li&gt;
