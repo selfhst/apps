@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-07-15T09:31:55.206416-04:00</updated>
+  <updated>2025-07-15T10:31:58.499232-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,7 +138,6 @@
       <name>stalwartlabs/stalwart</name>
     </author>
     <content>&lt;h2&gt;[0.13.0] - 2025-07-15&lt;/h2&gt;
-&lt;h2&gt;⚠️⚠️⚠️ WORK IN PROGRESS - DO NOT UPGRADE UNTIL THE LAST RELEASE IS CHANGED TO 0.13.0 ⚠️⚠️⚠️&lt;/h2&gt;
 &lt;p&gt;If you are upgrading from v0.11.x or v0.12.x, this version includes &lt;strong&gt;breaking changes&lt;/strong&gt; to the message queue and MTA configuration. Please read the &lt;a href="https://github.com/stalwartlabs/stalwart/blob/main/UPGRADING.md"&gt;UPGRADING.md&lt;/a&gt; file for more information on how to upgrade from previous versions.&lt;/p&gt;
 &lt;h2&gt;Added&lt;/h2&gt;
 &lt;ul&gt;
