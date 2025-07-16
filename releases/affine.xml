@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2025-07-15T21:32:33.456657-04:00</updated>
+  <updated>2025-07-15T22:32:35.407394-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,10 @@
     <author>
       <name>toeverything/AFFiNE</name>
     </author>
-    <content>&lt;h3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;🚀 Features&lt;/h3&gt;
+    <content>&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
+&lt;h4&gt;The old image name &lt;code&gt;ghcr.io/toeverything/affine-graphql:stable&lt;/code&gt; is deprecated&lt;/h4&gt;
+&lt;p&gt;use &lt;code&gt;ghcr.io/toeverything/affine:stable&lt;/code&gt; or &lt;code&gt;ghcr.io/toeverything/affine-graphql:0.23.0&lt;/code&gt; to a specific version&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;🚀 Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;:&lt;/li&gt;
 &lt;li&gt;Adjust the layout, style, and structure of the AI chat input &amp;nbsp;-&amp;nbsp; by @CatsJuice in https://github.com/toeverything/AFFiNE/issues/12828 &lt;a href="https://github.com/toeverything/AFFiNE/commit/2366c1aba6"&gt;&lt;samp&gt;(2366c)&lt;/samp&gt;&lt;/a&gt;&lt;/li&gt;
