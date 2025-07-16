@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Richy Releases</title>
-  <updated>2025-07-16T13:34:18.245583-04:00</updated>
+  <updated>2025-07-16T14:33:58.531549-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -32,5 +32,36 @@
 &lt;li&gt;Fixed assets charts in terms of not mixing different currenc&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://gitlab.com/imn1/richy/-/releases/1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://gitlab.com/imn1/richy/-/releases/1.1.0</id>
+    <title>New release for Richy: 1.1.0</title>
+    <updated>2025-07-16T17:54:04+00:00</updated>
+    <author>
+      <name>imn1/richy</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Added: basic drawdown and ATHs statistic + chart #123&lt;/li&gt;
+&lt;li&gt;Updated: Node.js 15 -&amp;gt; 22&lt;/li&gt;
+&lt;li&gt;Added: typos check&lt;/li&gt;
+&lt;li&gt;Added: year low/high meter (item detail page)&lt;/li&gt;
+&lt;li&gt;Fixed: dividend transactions recalculation for transaction tree with branches&lt;/li&gt;
+&lt;li&gt;Added: transaction graph for shares and ETFs #30&lt;/li&gt;
+&lt;li&gt;Added: parent transaction info to transaction detail page&lt;/li&gt;
+&lt;li&gt;Updated: performance table - record order reversed.&lt;/li&gt;
+&lt;li&gt;Updated: The Eye - each item type has it's own implementation now (and menu item).&lt;/li&gt;
+&lt;li&gt;Added: historical data (3 month) view page added for items &lt;/li&gt;
+&lt;li&gt;Fixed: cache refreshing (ATH, drawdowns)&lt;/li&gt;
+&lt;li&gt;Updated: ditch "docker" prefix for compose files.&lt;/li&gt;
+&lt;li&gt;Updated: dependencies + python to 3.13&lt;/li&gt;
+&lt;li&gt;Removed: trends&lt;/li&gt;
+&lt;li&gt;Fixed: sign-out process.&lt;/li&gt;
+&lt;li&gt;Fixed: ETF holdings fetching&lt;/li&gt;
+&lt;li&gt;Updated: massive performance boost across the whole app&lt;/li&gt;
+&lt;li&gt;Added: closing transaction shortcut&lt;/li&gt;
+&lt;li&gt;Updated: price upserts - now in bulks&lt;/li&gt;
+&lt;li&gt;Added: item discontinued flag (in admin only)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://gitlab.com/imn1/richy/-/releases/1.1.0" rel="alternate"/>
   </entry>
 </feed>
