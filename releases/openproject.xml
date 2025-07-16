@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenProject Releases</title>
-  <updated>2025-07-16T09:36:50.640324-04:00</updated>
+  <updated>2025-07-16T10:36:56.136401-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -443,7 +443,7 @@ At the end, you will find a complete list of all changes and bug fixes.&lt;/p&gt
 &lt;p&gt;We released &lt;a href="https://community.openproject.org/versions/2196"&gt;OpenProject 16.2.0&lt;/a&gt;. The release contains several bug fixes and we recommend updating to the newest version. In these Release Notes, we will give an overview of important feature changes and important technical changes. At the end, you will find a complete list of all changes and bug fixes. &lt;/p&gt;
 &lt;h2&gt;Important feature changes&lt;/h2&gt;
 &lt;p&gt;Take a look at our release video showing the most important features introduced in OpenProject 16.2.0:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Release video of OpenProject 16.2" src="https://openproject-docs.s3.eu-central-1.amazonaws.com/videos/OpenProject_16_2_release.mp4" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://openproject-docs.s3.eu-central-1.amazonaws.com/videos/OpenProject_16_2_release.mp4"&gt;Release video of OpenProject 16.2&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;New header and sidebar with improved navigation and design&lt;/h3&gt;
 &lt;p&gt;OpenProject 16.2 introduces a redesigned header and sidebar that make navigating your projects noticeably easier. The sidebar toggle (hamburger icon) has moved inside the sidebar itself, the default sidebar color in light mode is now lighter and more modern, and the search and create buttons have been repositioned in the top bar for a more intuitive workflow. Together, these changes create a cleaner, more focused interface that helps you find what you need faster and align with the user interface used in &lt;a href="https://www.openproject.org/opendesk/"&gt;openDesk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="OpenProject Home page with the new header and sidebar navigation and design" src="https://raw.githubusercontent.com/opf/openproject/release/16.2/docs/release-notes/16-2-0/openproject-16-2-design-updates.png" /&gt;&lt;/p&gt;
