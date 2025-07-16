@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Activepieces Releases</title>
-  <updated>2025-07-16T05:33:44.779715-04:00</updated>
+  <updated>2025-07-16T06:33:37.424331-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -222,7 +222,9 @@
     <author>
       <name>activepieces/activepieces</name>
     </author>
-    <content>&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
+    <content>&lt;h2&gt;Note For Embedding Users:&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;embedding.dashboard.hideSidebar&lt;/code&gt; used to hide the navbar above the flows table in the dashboard now it relies on &lt;code&gt;embedding.dashboard.hideFlowsPageNavbar&lt;/code&gt;, please upgrade your SDK version to 0.6.0.&lt;/p&gt;
+&lt;h2&gt;✨ Exciting New Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: ai credits usage table (#8360) @amrdb&lt;/li&gt;
 &lt;li&gt;feat: introduce piece selector tabs (#8312) @AbdulTheActivePiecer&lt;/li&gt;
@@ -251,7 +253,7 @@
 &lt;li&gt;feat: improve email journey (#8304) @Louai-Zokerburg&lt;/li&gt;
 &lt;li&gt;feat: group mcp tools by piece name (#8362) @hazemadelkhalel&lt;/li&gt;
 &lt;li&gt;chore: add better categorization under AI and Agents tab in the piece selector (#8364) @AbdulTheActivePiecer&lt;/li&gt;
-&lt;li&gt;feat: added new flag for hiding flows table navbar (#8289) @AbdulTheActivePiecer&lt;/li&gt;
+&lt;li&gt;feat: added new flag for hiding flows table navbar in the sdk (#8289) @AbdulTheActivePiecer&lt;/li&gt;
 &lt;li&gt;refactor: merge license key with billing (#8359) @Louai-Zokerburg&lt;/li&gt;
 &lt;li&gt;feat: handle project locking (#8301) @Louai-Zokerburg&lt;/li&gt;
 &lt;li&gt;chore: add explore tab content (#8317) @AbdulTheActivePiecer&lt;/li&gt;
