@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-07-15T22:35:48.539805-04:00</updated>
+  <updated>2025-07-15T23:35:43.805634-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,19 +75,20 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.12</id>
-    <title>New release for ebook2audiobook: v25.7.12</title>
-    <updated>2025-07-12T21:24:40-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.16</id>
+    <title>New release for ebook2audiobook: v25.7.16</title>
+    <updated>2025-07-15T23:08:02-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;sync by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/907&lt;/li&gt;
-&lt;li&gt;v25.7.12 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/908&lt;/li&gt;
-&lt;li&gt;V25.7.12 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/916&lt;/li&gt;
+&lt;li&gt;Created a mp4 chapter extractor progr work via cmd by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/914&lt;/li&gt;
+&lt;li&gt;Add guide for changing/updating E2A Version by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/925&lt;/li&gt;
+&lt;li&gt;v25.7.16 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/928&lt;/li&gt;
+&lt;li&gt;V25.7.16 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/929&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.7.7...v25.7.12&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.12" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.7.12...v25.7.16&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.16" rel="alternate"/>
   </entry>
 </feed>
