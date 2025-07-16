@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-07-16T04:36:22.918825-04:00</updated>
+  <updated>2025-07-16T05:36:23.677697-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -317,23 +317,12 @@ This is a rolling release. Learn here about the &lt;a href="https://docs.openclo
     <author>
       <name>opencloud-eu/opencloud</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.4"&gt;2.0.4&lt;/a&gt; - 2025-07-16&lt;/h2&gt;
+    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.4"&gt;2.0.4&lt;/a&gt; - 2025-07-11&lt;/h2&gt;
 &lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
-&lt;p&gt;@JammingBen, @ScharfViktor, @fschade, @micbar&lt;/p&gt;
+&lt;p&gt;@micbar&lt;/p&gt;
 &lt;h3&gt;🐛 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[Backport] fix: build_args is now an object [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/1213"&gt;#1213&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;fix(decomposeds3): enable async-uploads by default (#686) [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/694"&gt;#694&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;fix(antivirus | backport): introduce a default max scan size for the full example deployment [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/620"&gt;#620&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;[full-ci] chore(web): bump web to v2.1.1 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/638"&gt;#638&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;📦️ Dependencies&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;[full-ci] Reva bump 2.29.4 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/1202"&gt;#1202&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;chore: prepare release, bump version [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/731"&gt;#731&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Port #567 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/689"&gt;#689&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;chore: bump reva to v2.29.2 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/681"&gt;#681&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;build(deps): bump github.com/nats-io/nats-server/v2 [&lt;a href="https://github.com/opencloud-eu/opencloud/pull/683"&gt;#683&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/opencloud-eu/opencloud/releases/tag/v2.0.4" rel="alternate"/>
   </entry>
