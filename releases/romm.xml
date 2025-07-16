@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-07-16T08:31:49.179712-04:00</updated>
+  <updated>2025-07-16T09:31:46.934392-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -184,10 +184,7 @@ Set the &lt;code&gt;RETROACHIEVEMENTS_API_KEY&lt;/code&gt; environment variable 
     <author>
       <name>rommapp/romm</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[HOTFIX] Fix downloading saves from asset endpoint by @gantoine in https://github.com/rommapp/romm/pull/2086&lt;/li&gt;
-&lt;/ul&gt;
+    <content>&lt;p&gt;TBA...&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/rommapp/romm/compare/3.10.2...3.10.3&lt;/p&gt;</content>
     <link href="https://github.com/rommapp/romm/releases/tag/3.10.3" rel="alternate"/>
   </entry>

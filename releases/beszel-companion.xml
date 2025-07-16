@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Beszel Companion Releases</title>
-  <updated>2025-07-16T08:37:37.105194-04:00</updated>
+  <updated>2025-07-16T09:37:30.014003-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,7 +138,9 @@
 &lt;h4&gt;Network Compatibility&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Improved Local &amp;amp; VPN Access: Added support for connecting to hubs over local networks and VPNs (like Tailscale) using non-secure HTTP addresses.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;This version has already been updated on the App Store. You can download it directly from your iPhone:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/beszel/id6747600765"&gt;&lt;img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1712361600" alt="Download on the App Store" style="border-radius: 13px; width: 200px; height: 66px;"&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/Loriage/Beszel-Swift-App/releases/tag/v1.4.2" rel="alternate"/>
   </entry>
 </feed>
