@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-07-16T18:36:04.238720-04:00</updated>
+  <updated>2025-07-16T19:35:40.142135-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -28,5 +28,53 @@
 * Slide out the menu &amp;gt; Import and Export &amp;gt; Import config&lt;/p&gt;
 &lt;p&gt;If you still face problems, check out issue https://github.com/Catfriend1/syncthing-android/issues/4 .&lt;/p&gt;</content>
     <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.7.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.7.2</id>
+    <title>New release for Syncthing-Fork: Syncthing-Fork v1.29.7.2</title>
+    <updated>2025-07-16T18:39:11-04:00</updated>
+    <author>
+      <name>Catfriend1/syncthing-android</name>
+    </author>
+    <content>&lt;p&gt;⚠️ Breaking change:
+The config import and export feature now reads or writes the file "(InternalStorage)/backups/syncthing/config.zip". This file can be encrypted by a user-defined password to protect sensitive parts of your Syncthing configuration like, for example, device trust and which data you share with other devices. The change makes it harder for a bad actor to gain unauthorized access to your files using stolen config exports.&lt;/p&gt;
+&lt;p&gt;ℹ️ Action required:
+- Please go to "Settings - Import and Export"
+- Set an individual password, be sure to remember it
+- Click "Export Configuration" and confirm
+- Open your file manager, e.g. Material Files
+- Browse to "(InternalStorage)/backups/syncthing"
+- Delete all ".pem", ".xml" files because they contain an outdated and unencrypted config from prior exports.&lt;/p&gt;
+&lt;p&gt;Screenshot:
+&lt;img width="394" height="594" alt="image" src="https://github.com/user-attachments/assets/019a498c-8f23-4303-be18-d1c9b73554a4" /&gt;&lt;/p&gt;
+&lt;p&gt;⚡If you'd like to import an old and unencrypted config consisting of multiple files instead of the zip archive, please follow &lt;a href="https://github.com/Catfriend1/syncthing-android?tab=readme-ov-file#switching-from-the-now-deprecated-official-version"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;🤷‍♂️ Problems upgrading? Please see release notes of v1.29.7.1 .&lt;/p&gt;</content>
+    <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.29.7.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Catfriend1/syncthing-android/releases/tag/v1.30.0.1</id>
+    <title>New release for Syncthing-Fork: Syncthing-Fork v1.30.0.1</title>
+    <updated>2025-07-16T18:43:12-04:00</updated>
+    <author>
+      <name>Catfriend1/syncthing-android</name>
+    </author>
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at release --&gt;
+
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix crash referring to libsyncthingnative.so&lt;/li&gt;
+&lt;li&gt;Fix duplicate .nomedia and DO_NOT_DELETE.txt files created if folder is readded&lt;/li&gt;
+&lt;li&gt;Fix executorService crash while exiting the app is in progress&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Move wiki to repo folder /wiki, add actions builds for branch "fdroid"&lt;/li&gt;
+&lt;li&gt;F-Droid builds: Use correct go version from Dockerfile&lt;/li&gt;
+&lt;li&gt;Fix install_minimum_android_sdk_prerequisites.py&lt;/li&gt;
+&lt;li&gt;model/Folder: maxConcurrentWrites = 0&lt;/li&gt;
+&lt;li&gt;Update SyncthingNative to v1.30.0&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.30.0.1" rel="alternate"/>
   </entry>
 </feed>
