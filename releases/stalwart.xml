@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-07-16T11:31:57.366969-04:00</updated>
+  <updated>2025-07-16T12:31:50.276634-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -161,7 +161,10 @@
 &lt;li&gt;MTA: &lt;code&gt;mta-sts&lt;/code&gt; setting parsing issue (#1830).&lt;/li&gt;
 &lt;li&gt;JMAP: &lt;code&gt;sortOrder&lt;/code&gt; should not be null (#1831).&lt;/li&gt;
 &lt;li&gt;Allow invalid TOML when parsing database settings (#1822).&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/8766469"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.13.1" rel="alternate"/>
   </entry>
 </feed>
