@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2025-07-17T09:32:38.688245-04:00</updated>
+  <updated>2025-07-17T10:32:35.740391-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,20 @@
 &lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to 5516ea0c&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/5516ea0c-ls232" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/c0088954-ls233</id>
+    <title>New release for Webtop: c0088954-ls233</title>
+    <updated>2025-07-17T10:19:08-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;CI Report:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;https://ci-tests.linuxserver.io/linuxserver/webtop/c0088954-ls233/index.html&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rebase all images to Selkies, drop openbox and icewm, bump Alpine to 3.22, bump Fedora to 42.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to c0088954&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/c0088954-ls233" rel="alternate"/>
   </entry>
 </feed>
