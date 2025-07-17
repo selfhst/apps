@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Spacepad Releases</title>
-  <updated>2025-07-17T15:37:02.524077-04:00</updated>
+  <updated>2025-07-17T16:37:01.930751-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,5 +66,71 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: https://github.com/magweter/spacepad/compare/v1.1.1...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/magweter/spacepad/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/magweter/spacepad/releases/tag/v1.3.0</id>
+    <title>New release for Spacepad: v1.3.0</title>
+    <updated>2025-07-17T15:52:10-04:00</updated>
+    <author>
+      <name>magweter/spacepad</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature/booking by @magweter in https://github.com/magweter/spacepad/pull/29&lt;/li&gt;
+&lt;li&gt;Release v1.3.0 by @magweter in https://github.com/magweter/spacepad/pull/31&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Upgrading your self hosted instance might require checking the upgrade guide, in order to prevent running into problems with missing database tables. This is fixed in the new docker-compose.yml. To upgrade, please follow &lt;a href="https://github.com/magweter/spacepad/blob/main/docs/UPGRADE_GUIDE.md"&gt;the following instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Introduced display-specific settings for check-in, booking, and calendar features, configurable via a new settings page (Pro users).&lt;/li&gt;
+&lt;li&gt;Implemented room booking, event cancellation, and check-in functionality with corresponding UI and API endpoints.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added support for multi-platform Docker builds (AMD64 and ARM64).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enhancements&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Improved dashboard layout, localization, and interactive elements.&lt;/li&gt;
+&lt;li&gt;Extended translations for new booking and check-in features.&lt;/li&gt;
+&lt;li&gt;Updated display and event models to support new status and settings fields.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Refined navigation and persistent display selection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed toast notification spacing and improved error handling for API responses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Added detailed project and upgrade guides.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated roadmap and added a dedicated Claude guidance file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chores&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated dependencies and Docker/database configurations for improved reliability and compatibility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tests&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added comprehensive tests for display settings and API behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Introduced new API endpoints and database tables for events and display settings.&lt;/li&gt;
+&lt;li&gt;Added new Laravel models, observers, resources, and console commands for event and settings management.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/magweter/spacepad/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/magweter/spacepad/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>
