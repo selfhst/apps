@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LogForge Releases</title>
-  <updated>2025-07-18T00:37:02.899987-04:00</updated>
+  <updated>2025-07-18T01:37:02.973046-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -138,5 +138,50 @@
 &lt;li&gt;Calendar to query logs along timeline now works&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/log-forge/logforge/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/log-forge/logforge/releases/tag/v1.0.2</id>
+    <title>New release for LogForge: GROUPING, Toggle Container monitoring status and Alert interval control</title>
+    <updated>2025-07-18T01:28:40-04:00</updated>
+    <author>
+      <name>log-forge/logforge</name>
+    </author>
+    <content>&lt;h1&gt;🚀 LogForge v1.0.2&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Release date:&lt;/strong&gt; 2025-07-18&lt;/p&gt;
+&lt;h2&gt;What’s New&lt;/h2&gt;
+&lt;h3&gt;🆕 Grouping Functionality&lt;/h3&gt;
+&lt;p&gt;Easily organize and view containers by group for faster navigation and streamlined monitoring.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="2025-07-1801-20-26-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4fcd8b3d-27af-4006-8ea4-a98a6bf14df4" /&gt;&lt;/p&gt;
+&lt;h3&gt;⏱️ Customizable Interval Checks&lt;/h3&gt;
+&lt;p&gt;Control how often LogForge checks your containers. Now supports:&lt;br /&gt;
+- 10 seconds&lt;br /&gt;
+- 30 seconds&lt;br /&gt;
+- 1 minute&lt;br /&gt;
+- 5 minutes&lt;br /&gt;
+- 10 minutes&lt;br /&gt;
+- 30 minutes&lt;/p&gt;
+&lt;p&gt;Default is set to 30 secs.&lt;/p&gt;
+&lt;h3&gt;🔀 Toggle Container Monitoring&lt;/h3&gt;
+&lt;p&gt;You can now choose which containers are actively monitored directly from the dashboard. Disable monitoring for any container at any time. &lt;/p&gt;
+&lt;p&gt;Default is to not monitor a container on startup.&lt;/p&gt;
+&lt;h3&gt;🟢 Seamless Data Migration&lt;/h3&gt;
+&lt;p&gt;Moving to the latest version? All your existing data and settings will migrate automatically—no manual steps required.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;💡 Upgrade Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Existing LogForge users: Update your stack and all your settings and alert/logs will be preserved.&lt;/li&gt;
+&lt;li&gt;As always, report any issues via &lt;a href="https://github.com/log-forge/logforge/issues"&gt;GitHub Issues&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🛠️ Full Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added container grouping for improved organization&lt;/li&gt;
+&lt;li&gt;Added monitoring interval controls (10s, 30s, 1m, 5m, 10m, 30m)&lt;/li&gt;
+&lt;li&gt;Added per-container monitoring toggle&lt;/li&gt;
+&lt;li&gt;Implemented seamless, automatic data migration for all upgrades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Try it out now — feedback and PRs welcome!&lt;/strong&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/log-forge/logforge/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
