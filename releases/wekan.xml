@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WeKan Releases</title>
-  <updated>2025-07-18T07:32:26.267689-04:00</updated>
+  <updated>2025-07-18T08:32:29.406462-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -241,6 +241,8 @@ push Docker image yet to quay.io .&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://github.com/wekan/wekan/pull/5826"&gt;Fix: Correct return type in API documentation for Custom Fields&lt;/a&gt;.
   Thanks to Atry.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/wekan/wekan/commit/69ce79a7b9e86b60482d42455701b58ae9926c69"&gt;Fixed Snap local build script&lt;/a&gt;.
+  Thanks to xet7.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wekan/wekan/commit/f894f9ef6d8bad47260d0b648f18c36a5b208517"&gt;Fixed building Docker image. Pushed new Docker image to Docker Hub, Quay and GitHub&lt;/a&gt;.
   Thanks to xet7.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks to above GitHub users for their contributions and translators for their translations.&lt;/p&gt;</content>
