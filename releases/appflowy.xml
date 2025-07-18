@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AppFlowy Releases</title>
-  <updated>2025-07-17T20:32:33.212411-04:00</updated>
+  <updated>2025-07-17T21:32:33.387820-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -150,7 +150,7 @@
 &lt;h3&gt;Desktop&lt;/h3&gt;
 &lt;h4&gt;New Features&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Vault Workspace: A new workspace type, private and offline. AI runs locally with no data transfer&lt;/li&gt;
+&lt;li&gt;Vault Workspace: A new workspace type, private and offline. AI runs locally with no data transfer. Supports switching embedding models, chatting with files (PDF, Markdown, TXT). Includes RAG search with AI-generated overviews. &lt;/li&gt;
 &lt;li&gt;Revamped color pickers in documents: Expanded palette with support for custom colors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Mobile&lt;/h3&gt;
@@ -158,7 +158,10 @@
 &lt;ul&gt;
 &lt;li&gt;iOS In‑App Sign‑In: Sign in directly within the iOS app&lt;/li&gt;
 &lt;li&gt;New colors: Improved text and background color options&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;p&gt;Bug Fixes
+- Add a network connection indicator 
+- Fix sync bugs and issues with WebSocket connections.&lt;/p&gt;</content>
     <link href="https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.9.5" rel="alternate"/>
   </entry>
 </feed>
