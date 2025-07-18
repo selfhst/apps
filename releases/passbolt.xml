@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Passbolt Releases</title>
-  <updated>2025-07-18T08:33:06.668738-04:00</updated>
+  <updated>2025-07-18T09:33:08.022197-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -154,7 +154,7 @@ For a complete list of changes, consult the changelog.&lt;/p&gt;
     <author>
       <name>passbolt/passbolt_api</name>
     </author>
-    <content>&lt;p&gt;Release song: &lt;a href="https//www.youtube.com/watch?v=-GxmblM_jss"&gt;https//www.youtube.com/watch?v=-GxmblM_jss&lt;/a&gt;&lt;/p&gt;
+    <content>&lt;p&gt;Release song: &lt;a href="https://www.youtube.com/watch?v=-GxmblM_jss"&gt;https//www.youtube.com/watch?v=-GxmblM_jss&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Passbolt v5.3.2 is a security release designed to strengthen the security posture of your organization. It introduces a
 clipboard flushing feature and addresses issues related to encrypted metadata.&lt;/p&gt;
 &lt;p&gt;The new clipboard flush timer lets you copy secrets just long enough to use them; clipboard data is automatically cleared
