@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Note Mark Releases</title>
-  <updated>2025-07-18T15:31:28.065013-04:00</updated>
+  <updated>2025-07-18T16:31:26.701739-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -78,6 +78,8 @@
 &lt;li&gt;Header &lt;code&gt;X-Frame-Options DENY&lt;/code&gt; is now set by app&lt;/li&gt;
 &lt;li&gt;The &lt;code&gt;latest&lt;/code&gt; tag is now deprecated&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2&gt;New Split Screen View&lt;/h2&gt;
+&lt;p&gt;&lt;img width="1280" height="720" alt="note-mark-splitscreen" src="https://github.com/user-attachments/assets/7628f186-ff4c-486e-9ecf-30f74ff48d09" /&gt;&lt;/p&gt;
 &lt;h2&gt;Changes&lt;/h2&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
