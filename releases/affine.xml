@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2025-07-18T02:32:35.746763-04:00</updated>
+  <updated>2025-07-18T03:32:48.821208-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -283,5 +283,51 @@
 &lt;/ul&gt;
 &lt;h5&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/toeverything/AFFiNE/compare/v0.22.4...canary"&gt;View changes on GitHub&lt;/a&gt;&lt;/h5&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.23.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.23.1</id>
+    <title>New release for AFFiNE: 0.23.1</title>
+    <updated>2025-07-18T03:25:42-04:00</updated>
+    <author>
+      <name>toeverything/AFFiNE</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor(core): extract ai-chat-panel-title component by @akumatus in https://github.com/toeverything/AFFiNE/pull/13209&lt;/li&gt;
+&lt;li&gt;fix(core): electron storage sync by @pengx17 in https://github.com/toeverything/AFFiNE/pull/13213&lt;/li&gt;
+&lt;li&gt;fix(core): error when delete tags by @EYHN in https://github.com/toeverything/AFFiNE/pull/13207&lt;/li&gt;
+&lt;li&gt;fix(core): sidebar ai layout by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13215&lt;/li&gt;
+&lt;li&gt;feat(core): notification entry for mobile by @L-Sun in https://github.com/toeverything/AFFiNE/pull/13214&lt;/li&gt;
+&lt;li&gt;feat(core): open doc in semantic and keyword result by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13217&lt;/li&gt;
+&lt;li&gt;feat(server): skip embedding for deprecated doc ids &amp;amp; empty docs by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13211&lt;/li&gt;
+&lt;li&gt;fix(core): the down arrow may show when showLinkedDoc not configured by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13220&lt;/li&gt;
+&lt;li&gt;feat(server): clear semantic search metadata by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13197&lt;/li&gt;
+&lt;li&gt;feat(core): support lazy load for ai session history by @akumatus in https://github.com/toeverything/AFFiNE/pull/13221&lt;/li&gt;
+&lt;li&gt;feat(server): cleanup trashed doc's embedding by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13201&lt;/li&gt;
+&lt;li&gt;fix(core): prevent reload pinned chat infinitely by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13226&lt;/li&gt;
+&lt;li&gt;fix(server): delay send mail if retry many times by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13225&lt;/li&gt;
+&lt;li&gt;feat(core): optimize artifact preview loading by @pengx17 in https://github.com/toeverything/AFFiNE/pull/13224&lt;/li&gt;
+&lt;li&gt;fix(core): demo workspace by @forehalo in https://github.com/toeverything/AFFiNE/pull/13234&lt;/li&gt;
+&lt;li&gt;feat(electron): add global context menu by @EYHN in https://github.com/toeverything/AFFiNE/pull/13218&lt;/li&gt;
+&lt;li&gt;feat(core): add context menu for navigation and explorer by @EYHN in https://github.com/toeverything/AFFiNE/pull/13216&lt;/li&gt;
+&lt;li&gt;fix(core): apply insert in same position not refresh by @yoyoyohamapi in https://github.com/toeverything/AFFiNE/pull/13210&lt;/li&gt;
+&lt;li&gt;feat(core): highlight active session in history by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13212&lt;/li&gt;
+&lt;li&gt;fix(core): css var for apply delete diff by @yoyoyohamapi in https://github.com/toeverything/AFFiNE/pull/13235&lt;/li&gt;
+&lt;li&gt;fix(core): optimize settings dialog's left sidebar scroll style by @cuikaipeng in https://github.com/toeverything/AFFiNE/pull/13237&lt;/li&gt;
+&lt;li&gt;feat(core): add a two-step confirm page to create new journal by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13240&lt;/li&gt;
+&lt;li&gt;fix(editor): at-menu boundary in chat pannel by @L-Sun in https://github.com/toeverything/AFFiNE/pull/13241&lt;/li&gt;
+&lt;li&gt;chore(editor): add table and callout entries for mobile by @L-Sun in https://github.com/toeverything/AFFiNE/pull/13245&lt;/li&gt;
+&lt;li&gt;feat(core): add flag for two-step journal conformation by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13246&lt;/li&gt;
+&lt;li&gt;fix(core): comment action button bg color by @pengx17 in https://github.com/toeverything/AFFiNE/pull/13250&lt;/li&gt;
+&lt;li&gt;fix(core): hide intelligence entrance when ai is disabled by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13251&lt;/li&gt;
+&lt;li&gt;fix(core): ai apply ui opt by @yoyoyohamapi in https://github.com/toeverything/AFFiNE/pull/13238&lt;/li&gt;
+&lt;li&gt;feat(server): improve transcript by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13253&lt;/li&gt;
+&lt;li&gt;feat(core): server version check for selfhost login by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13247&lt;/li&gt;
+&lt;li&gt;fix(component): mobile menu bottom padding not work by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13249&lt;/li&gt;
+&lt;li&gt;feat(core): add ai draft service by @akumatus in https://github.com/toeverything/AFFiNE/pull/13252&lt;/li&gt;
+&lt;li&gt;fix(core): share page should have basename correctly set by @pengx17 in https://github.com/toeverything/AFFiNE/pull/13256&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.23.0...v0.23.1&lt;/p&gt;</content>
+    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.23.1" rel="alternate"/>
   </entry>
 </feed>
