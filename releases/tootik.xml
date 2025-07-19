@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tootik Releases</title>
-  <updated>2025-07-19T05:34:43.755459-04:00</updated>
+  <updated>2025-07-19T06:34:46.573117-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -112,7 +112,29 @@
     <author>
       <name>dimkr/tootik</name>
     </author>
-    <content/>
+    <content>&lt;h2&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Replies are now accompanied by context&lt;/li&gt;
+&lt;li&gt;First post in thread&lt;/li&gt;
+&lt;li&gt;Replies directly above currently viewed reply (up to &lt;code&gt;PostContextDepth-1&lt;/code&gt; replies, default is 4)&lt;/li&gt;
+&lt;li&gt;Support for  &lt;a href="https://codeberg.org/fediverse/fep/src/branch/main/fep/044f/fep-044f.md"&gt;FEP-044f&lt;/a&gt; quote posts&lt;/li&gt;
+&lt;li&gt;Without support for interaction policies and approval: all public posts can be quoted&lt;/li&gt;
+&lt;li&gt;Support for the &lt;a href="https://datatracker.ietf.org/doc/rfc9421/"&gt;RFC9421&lt;/a&gt; standard for HTTP signatures&lt;/li&gt;
+&lt;li&gt;With both RSA and Ed25519&lt;/li&gt;
+&lt;li&gt;With automatic discovery of other servers that support this; see &lt;a href="https://github.com/dimkr/tootik/blob/0.18.0/FEDERATION.md#http-signatures"&gt;FEDERATION.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Removed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;View thread&lt;/code&gt;, when viewing a reply: it's not useful anymore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug Fixes, Performance and Maintenance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Faster deletion of old data&lt;/li&gt;
+&lt;li&gt;More efficient string operations in some places and fixes for &lt;code&gt;gopls&lt;/code&gt; hints&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;staticcheck&lt;/code&gt; no longer runs in CI&lt;/li&gt;
+&lt;li&gt;Fix for &lt;code&gt;actions/missing-workflow-permissions&lt;/code&gt; alerts&lt;/li&gt;
+&lt;li&gt;Dependency and Go updates&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dimkr/tootik/releases/tag/0.18.0" rel="alternate"/>
   </entry>
 </feed>
