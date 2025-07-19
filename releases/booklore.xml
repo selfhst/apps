@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-07-19T18:36:18.901776-04:00</updated>
+  <updated>2025-07-19T19:36:12.658234-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,6 +158,7 @@
 &lt;li&gt;📂 Just drop your files into a special folder: Bookdrop monitors it in real time.&lt;/li&gt;
 &lt;li&gt;⚙️ Automatic processing begins instantly: Metadata is fetched, covers are generated, and books are queued for your review.&lt;/li&gt;
 &lt;li&gt;🔔 Live notifications keep you informed of every step, from detection to completion.&lt;/li&gt;
+&lt;li&gt;📖 More into at: https://github.com/adityachandelgit/BookLore?tab=readme-ov-file#-bookdrop-folder-auto-import-files-new&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Whether you’re syncing from a cloud drive, downloading from a browser, or moving files locally, Bookdrop turns a manual chore into a smart, seamless workflow.&lt;/p&gt;
 &lt;h2&gt;🚀 New Features&lt;/h2&gt;
@@ -178,11 +179,11 @@
 &lt;li&gt;Adds Upload Status Label and Instructions for Book Uploads (#741) by @adityachandelgit&lt;/li&gt;
 &lt;li&gt;Improve metadata editor layout (#739) by @adityachandelgit&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;📖 Screenshots&lt;/h2&gt;
-&lt;p&gt;&lt;img width="891" height="696" alt="Screenshot 2025-07-18 at 7 11 55 PM" src="https://github.com/user-attachments/assets/9d93351e-1831-4ea0-a78b-74adc4ae2b89" /&gt;
-&lt;img width="696" height="402" alt="Screenshot 2025-07-19 at 3 55 31 PM" src="https://github.com/user-attachments/assets/d275607e-7497-4b55-8d63-cae842b35197" /&gt;
-&lt;img width="575" height="332" alt="Screenshot 2025-07-19 at 4 02 56 PM" src="https://github.com/user-attachments/assets/47423b66-2f9c-4797-be13-8ae890a3baec" /&gt;
-&lt;img width="574" height="331" alt="Screenshot 2025-07-19 at 3 55 56 PM" src="https://github.com/user-attachments/assets/482208ee-5dd8-4e62-81b4-b57dab78c3f3" /&gt;&lt;/p&gt;</content>
+&lt;h2&gt;📸 Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;img width=800  alt="175296470417262133" src="https://github.com/user-attachments/assets/4fa83419-94b3-4f12-9497-50ff7fa97dea" /&gt;
+&lt;img  width=800 alt="Screenshot 2025-07-19 at 3 55 31 PM" src="https://github.com/user-attachments/assets/8b2a7ad1-e2bf-4ac9-b6e1-6c60a4b6f798" /&gt;
+&lt;img width=800  alt="Screenshot 2025-07-19 at 3 55 56 PM" src="https://github.com/user-attachments/assets/26e331ee-b0ad-4854-a7ba-605e3d2c75e1" /&gt;
+&lt;img width=800  alt="Screenshot 2025-07-19 at 4 02 56 PM" src="https://github.com/user-attachments/assets/f0d65cd7-8840-4cfa-aec7-4a4ae93c7e8e" /&gt;&lt;/p&gt;</content>
     <link href="https://github.com/adityachandelgit/BookLore/releases/tag/v0.34.0" rel="alternate"/>
   </entry>
 </feed>
