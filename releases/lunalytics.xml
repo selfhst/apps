@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lunalytics Releases</title>
-  <updated>2025-07-19T17:36:31.323225-04:00</updated>
+  <updated>2025-07-19T18:36:30.518060-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -31,7 +31,7 @@
   </entry>
   <entry>
     <id>https://github.com/KSJaay/Lunalytics/releases/tag/0.9.9</id>
-    <title>New release for Lunalytics: 0.9.9 - </title>
+    <title>New release for Lunalytics: 0.9.9 - Fixes issues with incident messages</title>
     <updated>2025-07-13T09:25:26-04:00</updated>
     <author>
       <name>KSJaay/Lunalytics</name>
@@ -42,5 +42,18 @@
 &lt;li&gt;&lt;strong&gt;0.9.8&lt;/strong&gt; - Adds new useFetch hook to utilise Loading screen (PR: https://github.com/KSJaay/Lunalytics/pull/118)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/KSJaay/Lunalytics/releases/tag/0.9.9" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/KSJaay/Lunalytics/releases/tag/0.9.10</id>
+    <title>New release for Lunalytics: 0.9.10 - Fixes various bugs with monitors, and status pages</title>
+    <updated>2025-07-19T17:41:51-04:00</updated>
+    <author>
+      <name>KSJaay/Lunalytics</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;0.9.10 - Bug fixes with monitors, caching and status pages (https://github.com/KSJaay/Lunalytics/pull/129)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/KSJaay/Lunalytics/releases/tag/0.9.10" rel="alternate"/>
   </entry>
 </feed>
