@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trilium Notes Releases</title>
-  <updated>2025-07-20T16:33:35.803764-04:00</updated>
+  <updated>2025-07-20T17:33:37.280166-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -345,11 +345,12 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
   <entry>
     <id>https://github.com/TriliumNext/Trilium/releases/tag/v0.97.0</id>
     <title>New release for Trilium Notes: v0.97.0</title>
-    <updated>2025-07-20T15:16:37-04:00</updated>
+    <updated>2025-07-20T17:24:49-04:00</updated>
     <author>
       <name>TriliumNext/Trilium</name>
     </author>
-    <content>&lt;blockquote&gt;
+    <content>&lt;h1&gt;v0.97.0&lt;/h1&gt;
+&lt;blockquote&gt;
 &lt;p&gt;[!CAUTION]
 &lt;strong&gt;Important Security Update&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This release addresses a security vulnerability that could make password-based attacks against your Trilium instance more feasible. We strongly recommend upgrading to this version as soon as possible, especially if your Trilium server is accessible over a network.&lt;/p&gt;
