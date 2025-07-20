@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>RomM Releases</title>
-  <updated>2025-07-20T18:31:38.654983-04:00</updated>
+  <updated>2025-07-20T19:31:39.632666-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -153,7 +153,7 @@ https://github.com/rommapp/romm/security/advisories/GHSA-fx9g-xw4j-jwc3&lt;/p&gt
   </entry>
   <entry>
     <id>https://github.com/rommapp/romm/releases/tag/4.0.0</id>
-    <title>New release for RomM: v4.0.0</title>
+    <title>New release for RomM: v4.0.0: Hashed Edition</title>
     <updated>2025-07-20T18:19:16-04:00</updated>
     <author>
       <name>rommapp/romm</name>
