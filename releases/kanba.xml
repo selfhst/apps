@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kanba Releases</title>
-  <updated>2025-07-20T15:37:18.118417-04:00</updated>
+  <updated>2025-07-20T16:37:10.937442-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -61,5 +61,15 @@ React + Next.js + Tailwind CSS + Supabase&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Uaghazade1/kanba/compare/1.0.1...1.0.2&lt;/p&gt;</content>
     <link href="https://github.com/Uaghazade1/kanba/releases/tag/1.0.2" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Uaghazade1/kanba/releases/tag/1.0.3</id>
+    <title>New release for Kanba: Added Public Share Link to Projects</title>
+    <updated>2025-07-20T16:08:06-04:00</updated>
+    <author>
+      <name>Uaghazade1/kanba</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Uaghazade1/kanba/compare/1.0.2...1.0.3&lt;/p&gt;</content>
+    <link href="https://github.com/Uaghazade1/kanba/releases/tag/1.0.3" rel="alternate"/>
   </entry>
 </feed>
