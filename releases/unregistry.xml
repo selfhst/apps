@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Unregistry Releases</title>
-  <updated>2025-07-21T13:37:30.025999-04:00</updated>
+  <updated>2025-07-21T14:37:19.601203-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -126,5 +126,36 @@ I hope you'll love it! ❤️ &lt;/p&gt;
 &lt;li&gt;9245dcf8196ef506e750b5117a9ff9e6a51df79b release: Bump version to 0.1.3&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/psviderski/unregistry/releases/tag/v0.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/psviderski/unregistry/releases/tag/v0.2.0</id>
+    <title>New release for Unregistry: v0.2.0</title>
+    <updated>2025-07-21T13:54:16-04:00</updated>
+    <author>
+      <name>psviderski/unregistry</name>
+    </author>
+    <content>&lt;p&gt;This release includes several hardening and linting improvements to the shell plugin, along with two notable functional changes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Support for ports in image names (#21, thanks @JonathanMbt!)&lt;/li&gt;
+&lt;li&gt;Support for additional containerd locations (#30, thanks @yuzhichang!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;63c2ebf8de1926bd52ebaca75e7da0320131c9be Fixed incorrect containerd sock path on OpenSUSE (#30)&lt;/li&gt;
+&lt;li&gt;f01890cd994294574c0525b69d9fba73163026f3 Revert "feat: Cleanup on INT and TERM signals"&lt;/li&gt;
+&lt;li&gt;a4c8350d8040a9a4b39262dd475c94d98c58871d chore(plugin): Enable more shellcheck checks&lt;/li&gt;
+&lt;li&gt;87958a0c2335c25d832f7d43a1448a352266b689 chore(shellcheck): Enforce "require-double-brackets" rule&lt;/li&gt;
+&lt;li&gt;9aa39fbd4956a2c42688a3c15f5cf2e12816cee6 chore(shellcheck): Enforce "require-variable-braces" rule&lt;/li&gt;
+&lt;li&gt;9e27c787661087766b5c0ca63e0956b3af010ed2 chore: Fix all shellcheck warnings for files in scripts/&lt;/li&gt;
+&lt;li&gt;b2e86d14b1b98d728bf5dab24654fad4aa173585 cleanup(plugin): Do not retry on unknown errors&lt;/li&gt;
+&lt;li&gt;9633089a88a547bf1ba8f08420c9f0e8f077d8f9 feat(plugin): Pin image version&lt;/li&gt;
+&lt;li&gt;d6e80b946797877ebd8946ee8daf0f75238c106e feat(plugin): Pin unregistry image version to script version&lt;/li&gt;
+&lt;li&gt;2b32816a2fc539be3f3eb4f70b865aa9663919e5 feat: Cleanup on INT and TERM signals&lt;/li&gt;
+&lt;li&gt;87791ceabe644e6aac0e74cc71c8fafbd5a67af9 feat: Run goreleaser as part of the version bumping script&lt;/li&gt;
+&lt;li&gt;7b59d9f7aa5f55e6df0bfccb48973490d3fbe067 feat: add support to private registries (#21)&lt;/li&gt;
+&lt;li&gt;da2720eaa899313a6767985daa84552bf5f9b057 fix(plugin): Use correct and slightly randomized remote image name&lt;/li&gt;
+&lt;li&gt;c7dbf39b0e753ec6dcdad79a0688cc32ff8e0492 fix: Exclude release commits from changelog&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/psviderski/unregistry/releases/tag/v0.2.0" rel="alternate"/>
   </entry>
 </feed>
