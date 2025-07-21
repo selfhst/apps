@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YAMLResume Releases</title>
-  <updated>2025-07-21T06:37:45.771306-04:00</updated>
+  <updated>2025-07-21T07:37:31.456255-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,5 +115,27 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yamlresume/yamlresume/compare/v0.5.0...v0.5.1&lt;/p&gt;</content>
     <link href="https://github.com/yamlresume/yamlresume/releases/tag/v0.5.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/yamlresume/yamlresume/releases/tag/v0.6.0</id>
+    <title>New release for YAMLResume: v0.6.0</title>
+    <updated>2025-07-21T07:03:11-04:00</updated>
+    <author>
+      <name>yamlresume/yamlresume</name>
+    </author>
+    <content>&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;add docs link to sample resume preamble (&lt;a href="https://github.com/yamlresume/yamlresume/commit/07de6d4f75f55dc7d705c50b994b96ee29c2d6aa"&gt;07de6d4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;aliasing sections with new titles (&lt;a href="https://github.com/yamlresume/yamlresume/commit/e9b955bb5df1edd3ba6f94590c88cfa6b86036ff"&gt;e9b955b&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;support section reordering (&lt;a href="https://github.com/yamlresume/yamlresume/commit/4841635b50d61da3ad836f104b545d8ac0d6b3c4"&gt;4841635&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;tolerate invalid date and fallback to string (&lt;a href="https://github.com/yamlresume/yamlresume/commit/8c72cb3d68d84543525576472acf02eaf3ebc936"&gt;8c72cb3&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;missing the end dot in option schema message (&lt;a href="https://github.com/yamlresume/yamlresume/commit/1e26c3b4c0f9f272b65ed242d1718897e902bb79"&gt;1e26c3b&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;typo in name schema example (&lt;a href="https://github.com/yamlresume/yamlresume/commit/ba4ae639f63f65062ad16860708e83fb92bdffdc"&gt;ba4ae63&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/yamlresume/yamlresume/compare/v0.5.1...v0.6.0&lt;/p&gt;</content>
+    <link href="https://github.com/yamlresume/yamlresume/releases/tag/v0.6.0" rel="alternate"/>
   </entry>
 </feed>
