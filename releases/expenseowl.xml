@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ExpenseOwl Releases</title>
-  <updated>2025-07-20T21:36:28.192679-04:00</updated>
+  <updated>2025-07-20T22:36:35.286247-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -80,6 +80,7 @@
 &lt;li&gt;Choice of Postgres as backend data store&lt;/li&gt;
 &lt;li&gt;More currencies and behaviors (decimal use and &lt;code&gt;,&lt;/code&gt; vs. &lt;code&gt;.&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;PS: this is a breaking change, so if you used v3.2 previously, just export expenses, and reimport with "Import from ExpenseOwl v3.2-" button on the new image.&lt;/p&gt;
 &lt;p&gt;Thanks to the community for 1k stars. And special thanks to @Synt3x @Esteban-Bermudez and @ConnorMilligan for a discussions, issues, and pull requests for some of the work that went into the refactor.&lt;/p&gt;</content>
     <link href="https://github.com/Tanq16/ExpenseOwl/releases/tag/v4.0" rel="alternate"/>
   </entry>
