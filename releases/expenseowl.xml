@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ExpenseOwl Releases</title>
-  <updated>2025-07-20T19:36:27.818905-04:00</updated>
+  <updated>2025-07-20T20:36:27.061278-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -66,7 +66,7 @@
   <entry>
     <id>https://github.com/Tanq16/ExpenseOwl/releases/tag/v4.0</id>
     <title>New release for ExpenseOwl: Release v4.0</title>
-    <updated>2025-07-20T19:13:43-04:00</updated>
+    <updated>2025-07-20T19:50:14-04:00</updated>
     <author>
       <name>Tanq16/ExpenseOwl</name>
     </author>
@@ -76,7 +76,7 @@
 &lt;li&gt;Optional expense tags for more characterization&lt;/li&gt;
 &lt;li&gt;Mildly improved UI elements&lt;/li&gt;
 &lt;li&gt;-ve expenses, and +ve income/gains&lt;/li&gt;
-&lt;li&gt;smart import from any CSV&lt;/li&gt;
+&lt;li&gt;Smart import from any CSV&lt;/li&gt;
 &lt;li&gt;Choice of Postgres as backend data store&lt;/li&gt;
 &lt;li&gt;More currencies and behaviors (decimal use and &lt;code&gt;,&lt;/code&gt; vs. &lt;code&gt;.&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
