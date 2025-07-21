@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Phylum Releases</title>
-  <updated>2025-07-21T17:37:22.207583-04:00</updated>
+  <updated>2025-07-21T18:37:27.723048-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,26 @@
     </author>
     <content>&lt;p&gt;Welcome to the first alpha release of Phylum!&lt;/p&gt;</content>
     <link href="https://codeberg.org/shroff/phylum/releases/tag/releases/v0.4" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/shroff/phylum/releases/tag/releases/v0.5</id>
+    <title>New release for Phylum: releases/v0.5</title>
+    <updated>2025-07-21T23:34:51+02:00</updated>
+    <author>
+      <name>shroff/phylum</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;Server&lt;/strong&gt;
+- Add support for revokable scoped API Keys
+- Hash keys and tokens before storing in DB
+- PKCE challenge support for OIDC logins (Thanks @gbw)
+- Fix WebDAV access with uuid root
+- DB schema improvements
+- Magic link login
+- Simpler default password requirements&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Client&lt;/strong&gt;
+- Edit User Display Name
+- Change Password
+- Better Login UI&lt;/p&gt;</content>
+    <link href="https://codeberg.org/shroff/phylum/releases/tag/releases/v0.5" rel="alternate"/>
   </entry>
 </feed>
