@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenCloud Releases</title>
-  <updated>2025-07-22T05:36:39.409670-04:00</updated>
+  <updated>2025-07-22T06:36:24.531565-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -258,7 +258,21 @@ This is a rolling release. Learn here about the &lt;a href="https://docs.openclo
     <author>
       <name>opencloud-eu/opencloud</name>
     </author>
-    <content>&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.2.0"&gt;3.2.0&lt;/a&gt; - 2025-07-21&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+This is a rolling release. Learn here about the &lt;a href="https://docs.opencloud.eu/docs/admin/resources/lifecycle#release-types"&gt;release types and lifecycle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Releasenotes OpenCloud 3.2.0&lt;/h1&gt;
+&lt;h2&gt;🖱️ New action "empty trash"&lt;/h2&gt;
+&lt;p&gt;A new "Empty Trash" option is now available in the context menu of the trash overview. This action allows user to empty the trash of a selected space without navigating into it. This improvement streamlines the cleanup process for users managing multiple spaces.&lt;/p&gt;
+&lt;h2&gt;📝 Add fillstate for deleted files in trash overview page&lt;/h2&gt;
+&lt;p&gt;The view feature "Show empty trash bins" has been added to the trash overview page. This allows users easily filter and focus on trash bins that still contain deleted files. This enhancement provides a cleaner and more targeted trash management experience.&lt;/p&gt;
+&lt;h2&gt;Improvement&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Consistent entity names in continuous text&lt;/strong&gt; -  Entity names in continuous text are now used consistently without quotes, improving overall readability and alignment with style guidelines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Changelog&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="https://github.com/opencloud-eu/opencloud/releases/tag/v3.2.0"&gt;3.2.0&lt;/a&gt; - 2025-07-21&lt;/h2&gt;
 &lt;h3&gt;❤️ Thanks to all contributors! ❤️&lt;/h3&gt;
 &lt;p&gt;@AlexAndBear, @JammingBen, @ScharfViktor, @Svanvith, @aduffeck, @butonic, @dragonchaser, @fschade, @individual-it, @jnweiger, @micbar, @rhafer&lt;/p&gt;
 &lt;h3&gt;✨ Features&lt;/h3&gt;
