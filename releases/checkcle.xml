@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>CheckCle Releases</title>
-  <updated>2025-07-22T11:37:14.530831-04:00</updated>
+  <updated>2025-07-22T12:37:25.062108-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -200,5 +200,45 @@ Separate the up and down areas in the response time history graph to improve cla
 &lt;/ul&gt;
 &lt;/blockquote&gt;</content>
     <link href="https://github.com/operacle/checkcle/releases/tag/v1.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/operacle/checkcle/releases/tag/v1.4</id>
+    <title>New release for CheckCle: 🚀 CheckCle v1.4.0 - Distributed Monitoring, Server Agents, and Health Heatmaps</title>
+    <updated>2025-07-22T12:04:33-04:00</updated>
+    <author>
+      <name>operacle/checkcle</name>
+    </author>
+    <content>&lt;p&gt;Release Date: Jul 22, 2025
+&lt;img width="1619" height="968" alt="image" src="https://github.com/user-attachments/assets/fc5d2999-18c8-491e-9de6-3fb3c738957f" /&gt;&lt;/p&gt;
+&lt;h1&gt;What's Changed&lt;/h1&gt;
+&lt;p&gt;🚀 Features 
+* Introduced new feature server monitoring with real-time metrics. Includes a one-click install command for easy deployment.
+* Distributed Monitoring Support: Uptime checks can now be distributed across multiple regional agents.
+* Multiple agent selection supported for each uptime service.
+* Docker Monitoring Dashboard:  Monitor your Docker containers directly from CheckCle.
+* Health Heatmap:  Visualize uptime performance and outages over time with a new heatmap view in the monitoring detail dashboard.
+* Pagination for Uptime Monitoring Table: Enhanced scalability with paginated service views.
+* Multiple Notification Targets: Easily assign multiple notification methods per service.
+* Japanese Translation: Thanks to @gnworks for contributing Japanese language support https://github.com/operacle/checkcle/pull/66
+* Updated Incident Management Overview Cards linear-gradient by @lyker189 in https://github.com/operacle/checkcle/pull/73&lt;/p&gt;
+&lt;p&gt;🔧 Improvements
+* Improved Uptime Response History Chart: Smoother, more accurate rendering with better data aggregation.
+* Data Refactor by Source: Monitoring data is now grouped and displayed by source for easier visibility and filtering.
+* Documentation Update: README and CONTRIBUTING docs split into separate files per language for better organization.&lt;/p&gt;
+&lt;p&gt;🛠 Fixes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increased SSL Display Limit: SSL monitoring now displays up to 200 records reliably.&lt;/li&gt;
+&lt;li&gt;High-Volume Uptime Monitoring Support: Fixed issues when monitoring over 50 uptime services simultaneously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ Automation
+* Automated script added for deploying the monitoring agent.
+* One-click deploy script available for distributed regional agents and server monitoring setup.&lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@gnsworks made their first contribution in https://github.com/operacle/checkcle/pull/66&lt;/li&gt;
+&lt;li&gt;@lyker189 made their first contribution in https://github.com/operacle/checkcle/pull/73&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🙌  Special thanks to the community contributors and users for your feedback, support, and translations.&lt;/p&gt;</content>
+    <link href="https://github.com/operacle/checkcle/releases/tag/v1.4" rel="alternate"/>
   </entry>
 </feed>
