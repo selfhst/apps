@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AFFiNE Releases</title>
-  <updated>2025-07-21T22:32:40.059870-04:00</updated>
+  <updated>2025-07-21T23:32:39.229671-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -329,5 +329,28 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.23.0...v0.23.1&lt;/p&gt;</content>
     <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.23.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/toeverything/AFFiNE/releases/tag/v0.23.2</id>
+    <title>New release for AFFiNE: 0.23.2</title>
+    <updated>2025-07-21T22:46:36-04:00</updated>
+    <author>
+      <name>toeverything/AFFiNE</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(server): add compatibility for ios client by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13263&lt;/li&gt;
+&lt;li&gt;feat: ai now working again by @Lakr233 in https://github.com/toeverything/AFFiNE/pull/13196&lt;/li&gt;
+&lt;li&gt;fix(core): code-edit param maybe json string by @yoyoyohamapi in https://github.com/toeverything/AFFiNE/pull/13278&lt;/li&gt;
+&lt;li&gt;feat(mobile): add two step confirmation for mobile journal by @CatsJuice in https://github.com/toeverything/AFFiNE/pull/13266&lt;/li&gt;
+&lt;li&gt;fix(core): allow mobile connect selfhost without https by @EYHN in https://github.com/toeverything/AFFiNE/pull/13279&lt;/li&gt;
+&lt;li&gt;chore(server): relax list session permission by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13268&lt;/li&gt;
+&lt;li&gt;feat(ios): ai button feature flag by @EYHN in https://github.com/toeverything/AFFiNE/pull/13280&lt;/li&gt;
+&lt;li&gt;feat(core): enable two step journal by default by @EYHN in https://github.com/toeverything/AFFiNE/pull/13283&lt;/li&gt;
+&lt;li&gt;refactor(core): align markdown conversion logic by @yoyoyohamapi in https://github.com/toeverything/AFFiNE/pull/13254&lt;/li&gt;
+&lt;li&gt;fix(server): exclude outdated doc id style in embedding count by @darkskygit in https://github.com/toeverything/AFFiNE/pull/13269&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/toeverything/AFFiNE/compare/v0.23.1...v0.23.2&lt;/p&gt;</content>
+    <link href="https://github.com/toeverything/AFFiNE/releases/tag/v0.23.2" rel="alternate"/>
   </entry>
 </feed>
