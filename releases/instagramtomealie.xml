@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InstagramToMealie Releases</title>
-  <updated>2025-07-22T04:35:18.552455-04:00</updated>
+  <updated>2025-07-22T05:35:34.045817-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -48,5 +48,24 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/JoTec2002/InstagramToMealie/compare/v1.1.0...v1.2.0&lt;/p&gt;</content>
     <link href="https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.3.0</id>
+    <title>New release for InstagramToMealie: v1.3.0</title>
+    <updated>2025-07-22T04:36:22-04:00</updated>
+    <author>
+      <name>JoTec2002/InstagramToMealie</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;support share links by @bradysalz in https://github.com/JoTec2002/InstagramToMealie/pull/11&lt;/li&gt;
+&lt;li&gt;Update Dependencies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;@bradysalz made their first contribution in https://github.com/JoTec2002/InstagramToMealie/pull/11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/JoTec2002/InstagramToMealie/compare/v1.2.0...v1.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/JoTec2002/InstagramToMealie/releases/tag/v1.3.0" rel="alternate"/>
   </entry>
 </feed>

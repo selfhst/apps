@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Requestly Releases</title>
-  <updated>2025-07-22T04:33:17.930474-04:00</updated>
+  <updated>2025-07-22T05:33:30.179154-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -109,9 +109,12 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;&lt;img width="1200" height="675" alt="Thumbnail (3)" src="https://github.com/user-attachments/assets/77af604b-d20c-4183-9244-565c5a5ad7ec" /&gt;&lt;/p&gt;
-&lt;h3&gt;:rocket: Improvements&lt;/h3&gt;
+&lt;h3&gt;:rocket: New&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Added automation support for rule creation, streamlining repetitive tasks.&lt;/li&gt;
+&lt;li&gt;You can now use Requestly rules to intercept and modify network requests in Selenium and other headless automation tools, making it easier to test, debug, and fine-tune your automated workflows. &lt;a href="https://docs.requestly.com/guides/intercepting-and-modifying-network-requests-in-web-automation-frameworks-like-selenium-and-playwright"&gt;Learn more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🛠️ Improvements&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;Enabled email notifications for shared list imports, keeping users better informed.&lt;/li&gt;
 &lt;li&gt;Enhanced the environment selector dropdown UI. Users can now also deselect an environment—something that wasn't possible before.&lt;/li&gt;
 &lt;/ul&gt;

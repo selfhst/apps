@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Statistics for Strava Releases</title>
-  <updated>2025-07-22T04:37:28.642066-04:00</updated>
+  <updated>2025-07-22T05:37:52.150821-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -89,7 +89,7 @@
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/robiningelbrecht/statistics-for-strava/releases/tag/v3.0.0"&gt;v3.0.0&lt;/a&gt; - 2025-07-22&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;🚀 Our AI agent "Mark" is now available via the UI as well. You can enable this by setting &lt;code&gt;enableUI: false&lt;/code&gt; in your config.yaml file&lt;/li&gt;
+&lt;li&gt;🚀 Our AI agent "Mark" is now available via the UI as well. You can enable this by setting &lt;code&gt;enableUI: true&lt;/code&gt; in your config.yaml file&lt;/li&gt;
 &lt;li&gt;⚠️ Native scheduling has been removed from the SFS image. &lt;a href="https://statistics-for-strava-docs.robiningelbrecht.be/#/getting-started/scheduling"&gt;Check the docs&lt;/a&gt; for alternatives.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
