@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Unregistry Releases</title>
-  <updated>2025-07-22T02:37:17.502168-04:00</updated>
+  <updated>2025-07-22T03:37:36.863469-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -157,5 +157,19 @@ I hope you'll love it! ❤️ &lt;/p&gt;
 &lt;li&gt;c7dbf39b0e753ec6dcdad79a0688cc32ff8e0492 fix: Exclude release commits from changelog&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/psviderski/unregistry/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/psviderski/unregistry/releases/tag/v0.2.1</id>
+    <title>New release for Unregistry: v0.2.1</title>
+    <updated>2025-07-22T02:59:31-04:00</updated>
+    <author>
+      <name>psviderski/unregistry</name>
+    </author>
+    <content>&lt;p&gt;Temporarily revert https://github.com/psviderski/unregistry/pull/21 that &lt;a href="https://github.com/psviderski/unregistry/pull/21#issuecomment-3086119926"&gt;breaks&lt;/a&gt; &lt;code&gt;docker-pussh&lt;/code&gt; on macOS. &lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bb0f5afbc2a72062d49214e89e486d424b1c00bf fix: temporarily revert the handling of images with :port&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/psviderski/unregistry/releases/tag/v0.2.1" rel="alternate"/>
   </entry>
 </feed>
