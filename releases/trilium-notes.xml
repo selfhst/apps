@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trilium Notes Releases</title>
-  <updated>2025-07-22T00:33:40.411200-04:00</updated>
+  <updated>2025-07-22T01:33:46.461271-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -323,8 +323,7 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
     <author>
       <name>TriliumNext/Trilium</name>
     </author>
-    <content>&lt;h1&gt;v0.97.1&lt;/h1&gt;
-&lt;blockquote&gt;
+    <content>&lt;blockquote&gt;
 &lt;p&gt;[!TIP]
 This release is functionally identical to v0.97.0, but it fixes the version number not being correctly set in the release, causing some issues with the cache.&lt;/p&gt;
 &lt;p&gt;[!CAUTION]
