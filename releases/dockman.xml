@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockman Releases</title>
-  <updated>2025-07-23T13:37:32.054335-04:00</updated>
+  <updated>2025-07-23T14:37:32.173015-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -76,5 +76,90 @@
 &lt;li&gt;setting auth user/pass (&lt;a href="https://github.com/RA341/dockman/commit/a26e3fbc97d3be9db37d675dd7ff97f7d95aa95f"&gt;a26e3fb&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/RA341/dockman/releases/tag/v1.1.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/RA341/dockman/releases/tag/v2.0.0</id>
+    <title>New release for Dockman: v2.0.0</title>
+    <updated>2025-07-23T14:16:06-04:00</updated>
+    <author>
+      <name>RA341/dockman</name>
+    </author>
+    <content>&lt;h1&gt;&lt;a href="https://github.com/RA341/dockman/compare/v1.1.0...v2.0.0"&gt;2.0.0&lt;/a&gt; (2025-07-23)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge pull request &lt;a href="https://github.com/RA341/dockman/issues/39"&gt;#39&lt;/a&gt; from RA341/main (&lt;a href="https://github.com/RA341/dockman/commit/f7f4c0c9fc958385a6c5d673fd7cf8d93a0c4bae"&gt;f7f4c0c&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
+&lt;h4&gt;Multihost Configuration Migration&lt;/h4&gt;
+&lt;p&gt;This change only affects people using multihost. If you are not using multihost, no change is necessary.&lt;/p&gt;
+&lt;p&gt;Updated Docker Compose Configuration&lt;/p&gt;
+&lt;p&gt;```yaml&lt;/p&gt;
+&lt;h1&gt;docker compose sample&lt;/h1&gt;
+&lt;p&gt;services:
+  dockman:
+    container_name: dockman
+    image: ghcr.io/ra341/dockman:latest
+    environment:
+      - DOCKMAN_COMPOSE_ROOT=/path/to/stacks
+    volumes:
+      # these mounts can be now removed
+      # - ./config/ssh:/app/config/ssh
+      # - ./hosts.yaml:/app/config/hosts.yaml&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  # 4️⃣ NEW: Mount config directory for database storage
+  # DO NOT store this in dockman compose root
+  - /path/to/dockman/config:/config
+ports:
+  - "8866:8866"
+restart: always
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;Migration Steps&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Stop your current dockman container&lt;/strong&gt;
+   &lt;code&gt;bash
+   docker compose down&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Update your docker-compose.yml&lt;/strong&gt; with the new config volume mount (see example above)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remove your old host.yaml file&lt;/strong&gt; (it's no longer needed)
+   &lt;code&gt;bash
+   rm /path/to/your/host.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start dockman with the new configuration&lt;/strong&gt;
+   &lt;code&gt;bash
+   docker compose up -d&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reconfigure your multihost settings&lt;/strong&gt; through the UI instead of the YAML file&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Breaking Changes&lt;/h4&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Important Notes:&lt;/strong&gt;
+- Your existing SSH keys will not be automatically migrated
+- You'll need to re-add your remote hosts through the web UI
+- Host configurations from host.yaml will need to be manually recreated
+- Make sure to backup any important SSH keys before migrating&lt;/p&gt;
+&lt;h4&gt;What's Improved&lt;/h4&gt;
+&lt;p&gt;✅ &lt;strong&gt;Benefits of this change:&lt;/strong&gt;
+- Simplified configuration management
+- All settings managed through the web interface
+- Better persistence with database storage
+- No more manual YAML file editing&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;improved multi-host config and management (&lt;a href="https://github.com/RA341/dockman/commit/3ea713ae59c34f09040279bd252a66c318c5b1d1"&gt;3ea713a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;new version/changelog tracker (&lt;a href="https://github.com/RA341/dockman/commit/05fa5bf6b4b3a7b2aa3f9fc39687032d5c7f6e3f"&gt;05fa5bf&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;empty hosts on first login (&lt;a href="https://github.com/RA341/dockman/commit/0bd35c9e26b465118719db7be22366c1ff49fc76"&gt;0bd35c9&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;infinite refresh on git list fail (&lt;a href="https://github.com/RA341/dockman/commit/43c16cf8fcbcef7d13b70249c2b8bc922ec24287"&gt;43c16cf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;page switch to empty page on host switch (&lt;a href="https://github.com/RA341/dockman/commit/d0a7ca35137ab2ae13551b5db7d94d9cf130ff37"&gt;d0a7ca3&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;table and layout issues (&lt;a href="https://github.com/RA341/dockman/commit/a1ba85f98e041528e7ebd61ff2ee6bb9bdedd6e5"&gt;a1ba85f&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/RA341/dockman/releases/tag/v2.0.0" rel="alternate"/>
   </entry>
 </feed>
