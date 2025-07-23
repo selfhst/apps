@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-07-23T06:31:10.196212-04:00</updated>
+  <updated>2025-07-23T07:31:10.140623-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -703,7 +703,7 @@ This can reduce the service&amp;#8217;s downtime even further, as downtime is on
     <content>&lt;div&gt;
 
 &lt;h2&gt;Upgrading&lt;/h2&gt;
-&lt;p&gt;Before upgrading refer to &lt;a href="file:/home/runner/work/keycloak-rel/keycloak-rel/target/web/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="https://www.keycloak.org/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
 
 &lt;h2&gt;All resolved issues&lt;/h2&gt;
 
