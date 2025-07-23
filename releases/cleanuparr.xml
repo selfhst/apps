@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Cleanuparr Releases</title>
-  <updated>2025-07-23T14:36:24.477746-04:00</updated>
+  <updated>2025-07-23T15:36:55.346530-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,7 +81,7 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Try #1 to fix memory leak by @Flaminel in https://github.com/Cleanuparr/Cleanuparr/pull/241&lt;/li&gt;
+&lt;li&gt;Try 1 to fix memory leak by @Flaminel in https://github.com/Cleanuparr/Cleanuparr/pull/241&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Cleanuparr/Cleanuparr/compare/v2.0.14...v2.0.15&lt;/p&gt;</content>
     <link href="https://github.com/Cleanuparr/Cleanuparr/releases/tag/v2.0.15" rel="alternate"/>
