@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mastodon Releases</title>
-  <updated>2025-07-23T11:31:21.129992-04:00</updated>
+  <updated>2025-07-23T12:31:20.331199-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -652,6 +652,7 @@ The &lt;code&gt;charlock_holmes&lt;/code&gt; gem may fail to build on some syste
 If you run into this issue, try &lt;code&gt;BUNDLE_BUILD__CHARLOCK_HOLMES="--with-cxxflags=-std=c++17" bundle install&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol&gt;
+&lt;li&gt;Install dependencies with &lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Precompile the assets: &lt;code&gt;RAILS_ENV=production bundle exec rails assets:precompile&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Restart all Mastodon processes.&lt;/li&gt;
 &lt;/ol&gt;
