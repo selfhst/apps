@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-07-22T22:35:56.892308-04:00</updated>
+  <updated>2025-07-22T23:35:57.348047-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -75,25 +75,24 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.7" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.21</id>
-    <title>New release for ebook2audiobook: v25.7.21</title>
-    <updated>2025-07-22T06:35:38-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.22</id>
+    <title>New release for ebook2audiobook: v25.7.22</title>
+    <updated>2025-07-22T23:33:00-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;v25.7.20+ by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/957&lt;/li&gt;
-&lt;li&gt;V25.7.20+ by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/958&lt;/li&gt;
-&lt;li&gt;Add Awkwafina Sample files by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/959&lt;/li&gt;
-&lt;li&gt;V25.7.21 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/960&lt;/li&gt;
-&lt;li&gt;sync branches by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/961&lt;/li&gt;
-&lt;li&gt;v25.7.21 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/968&lt;/li&gt;
-&lt;li&gt;V25.7.21 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/969&lt;/li&gt;
-&lt;li&gt;Add set -e at beginning of ebook2audiobook.sh by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/970&lt;/li&gt;
-&lt;li&gt;V25.7.21 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/973&lt;/li&gt;
+&lt;li&gt;Fix two voices fine-tune + add extra voice samples by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/962&lt;/li&gt;
+&lt;li&gt;v25.7.22 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/977&lt;/li&gt;
+&lt;li&gt;Super Duper Workflow Optomization stuff very good by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/979&lt;/li&gt;
+&lt;li&gt;V25.7.22 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/978&lt;/li&gt;
+&lt;li&gt;Rename Docker Build Workflow name by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/980&lt;/li&gt;
+&lt;li&gt;V25 by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/981&lt;/li&gt;
+&lt;li&gt;Made update hugginface-space triggered by Docker Build completing by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/982&lt;/li&gt;
+&lt;li&gt;Made update hugginface-space triggered by Docker Build completing by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/983&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.7.20...v25.7.21&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.21" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.7.21...v25.7.22&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.22" rel="alternate"/>
   </entry>
 </feed>
