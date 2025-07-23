@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pulsarr Releases</title>
-  <updated>2025-07-23T17:37:10.775240-04:00</updated>
+  <updated>2025-07-23T18:37:09.565058-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -133,8 +133,65 @@
       <name>jamcalli/Pulsarr</name>
     </author>
     <content>&lt;h2&gt;Changes&lt;/h2&gt;
+&lt;h2&gt;🎬 TMDB Integration &amp;amp; Enhanced Media Metadata&lt;/h2&gt;
+&lt;h2&gt;⚠️ Important Notice for Developers&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;TMDB API Key Required&lt;/strong&gt;: Users building the application themselves will need to obtain and provide their own TMDB API key. See the &lt;a href="https://docs.pulsarr.dev/development/environment-variables#tmdb-api-configuration"&gt;TMDB API Configuration&lt;/a&gt;  for setup instructions. This does not affect users using the prebuilt Docker images.&lt;/p&gt;
+&lt;h2&gt;📚 Documentation Updates&lt;/h2&gt;
+&lt;h3&gt;API Documentation&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Feature/content info tmdb (#380) @jamcalli&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New TMDB API Documentation&lt;/strong&gt; with comprehensive endpoint coverage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Updated API Sidebar&lt;/strong&gt; with TMDB section integration&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-Generated OpenAPI Specs&lt;/strong&gt; for all TMDB endpoints&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environment Variables Guide&lt;/strong&gt; for TMDB API key configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🚀 New Features&lt;/h2&gt;
+&lt;h3&gt;TMDB Metadata Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rich Media Metadata Display&lt;/strong&gt; with backdrop images, detailed ratings, and comprehensive movie/TV information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Region Selection&lt;/strong&gt; with searchable dropdown for localized watch providers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Data Refresh&lt;/strong&gt; without page reloads when changing regions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Source Ratings&lt;/strong&gt; combining TMDB, IMDb, Metacritic, Rotten Tomatoes, and Trakt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enhanced User Interface&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Context-Aware Buttons&lt;/strong&gt; displaying "Movie Info" or "Show Info" based on content type&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Visual Design&lt;/strong&gt; with backdrop overlays, larger posters, and rating icons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regional Watch Provider Data&lt;/strong&gt; with streaming availability by location&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comprehensive Content Details&lt;/strong&gt; including budget, revenue, studios, seasons, and episodes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔧 Technical Improvements&lt;/h2&gt;
+&lt;h3&gt;Backend Services&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TMDB Service Integration&lt;/strong&gt; with Bearer token authentication&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database Configuration&lt;/strong&gt; for region preferences and API keys&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Handling &amp;amp; Fallbacks&lt;/strong&gt; for robust API interactions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TypeScript Schemas&lt;/strong&gt; with proper validation and nullable field handling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Build &amp;amp; Deployment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docker Build Integration&lt;/strong&gt; with GitHub Actions API key injection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environment Variable Mapping&lt;/strong&gt; from uppercase secrets to camelCase format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database Migration&lt;/strong&gt; for TMDB region configuration storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Code Quality&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proper TypeScript Types&lt;/strong&gt; replacing any/unknown with specific interfaces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linter Compliance&lt;/strong&gt; with dependency array optimizations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Path Alias Usage&lt;/strong&gt; consistent with project conventions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nullable Field Handling&lt;/strong&gt; for API compatibility improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📊 Impact Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;36 files changed&lt;/strong&gt; with 5,975 insertions, 58 deletions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1,400+ lines&lt;/strong&gt; of TMDB-specific functionality&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced metadata display&lt;/strong&gt; improving user experience&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regional customization&lt;/strong&gt; for global audience support&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Seamless integration&lt;/strong&gt; with existing approval workflow&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feature/content info tmdb (#380) @jamcalli&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;Feature/content info tmdb (#378) @jamcalli&lt;/li&gt;
 &lt;li&gt;📝 Add docstrings to &lt;code&gt;feature/content-info-tmdb&lt;/code&gt; (#379) @coderabbitai&lt;/li&gt;
 &lt;li&gt;Add ElfHosted blurb with affiliate links ;) (#374) @funkypenguin&lt;/li&gt;
