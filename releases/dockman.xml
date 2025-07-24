@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockman Releases</title>
-  <updated>2025-07-24T11:37:57.150567-04:00</updated>
+  <updated>2025-07-24T12:37:24.785935-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,13 +85,10 @@
       <name>RA341/dockman</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/RA341/dockman/compare/v1.1.0...v2.0.0"&gt;2.0.0&lt;/a&gt; (2025-07-23)&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Merge pull request &lt;a href="https://github.com/RA341/dockman/issues/39"&gt;#39&lt;/a&gt; from RA341/main (&lt;a href="https://github.com/RA341/dockman/commit/f7f4c0c9fc958385a6c5d673fd7cf8d93a0c4bae"&gt;f7f4c0c&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3&gt;BREAKING CHANGES&lt;/h3&gt;
-&lt;h4&gt;Multihost Configuration Migration&lt;/h4&gt;
-&lt;p&gt;This change only affects people using multihost. If you are not using multihost, no change is necessary.&lt;/p&gt;
-&lt;p&gt;Updated Docker Compose Configuration&lt;/p&gt;
+&lt;p&gt;Version 2 introduces a new configuration database for Dockman that will store all application-related data going forward.
+Required Action for V2+ Users:&lt;/p&gt;
+&lt;p&gt;All users upgrading to V2 or later must add the following mount to their Docker Compose configuration:&lt;/p&gt;
 &lt;p&gt;```yaml&lt;/p&gt;
 &lt;h1&gt;docker compose sample&lt;/h1&gt;
 &lt;p&gt;services:
@@ -101,12 +98,13 @@
     environment:
       - DOCKMAN_COMPOSE_ROOT=/path/to/stacks
     volumes:
-      # these mounts can be now removed
+      # these mounts can now be removed
       # - ./config/ssh:/app/config/ssh
       # - ./hosts.yaml:/app/config/hosts.yaml&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  # 4️⃣ NEW: Mount config directory for database storage
   # DO NOT store this in dockman compose root
-  - /path/to/dockman/config:/config
+
+  - /path/to/dockman/config:/config # &amp;lt;--- add this line
 ports:
   - "8866:8866"
 restart: always
@@ -139,15 +137,19 @@ restart: always
 &lt;h4&gt;Breaking Changes&lt;/h4&gt;
 &lt;p&gt;⚠️ &lt;strong&gt;Important Notes:&lt;/strong&gt;
 - Your existing SSH keys will not be automatically migrated
-- You'll need to re-add your remote hosts through the web UI
-- Host configurations from host.yaml will need to be manually recreated
-- Make sure to backup any important SSH keys before migrating&lt;/p&gt;
+- You'll need to re-add your remote hosts through the web UI&lt;/p&gt;
 &lt;h4&gt;What's Improved&lt;/h4&gt;
-&lt;p&gt;✅ &lt;strong&gt;Benefits of this change:&lt;/strong&gt;
-- Simplified configuration management
-- All settings managed through the web interface
-- Better persistence with database storage
-- No more manual YAML file editing&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplified configuration management&lt;/li&gt;
+&lt;li&gt;All settings managed through the web interface&lt;/li&gt;
+&lt;li&gt;Better persistence with database storage&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No more manual YAML file editing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Merge pull request &lt;a href="https://github.com/RA341/dockman/issues/39"&gt;#39&lt;/a&gt; from RA341/main (&lt;a href="https://github.com/RA341/dockman/commit/f7f4c0c9fc958385a6c5d673fd7cf8d93a0c4bae"&gt;f7f4c0c&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;improved multi-host config and management (&lt;a href="https://github.com/RA341/dockman/commit/3ea713ae59c34f09040279bd252a66c318c5b1d1"&gt;3ea713a&lt;/a&gt;)&lt;/li&gt;

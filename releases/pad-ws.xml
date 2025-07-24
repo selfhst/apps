@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>pad.ws Releases</title>
-  <updated>2025-07-24T11:37:32.972832-04:00</updated>
+  <updated>2025-07-24T12:36:59.388942-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for pad.ws: v0.1.0</title>
     <updated>2025-05-28T00:53:33-04:00</updated>
     <author>
-      <name>pad-ws/pad.ws</name>
+      <name>coderamp-labs/pad.ws</name>
     </author>
     <content>&lt;h1&gt;🚀 Real-time Collaboration is Here!&lt;/h1&gt;
 &lt;p&gt;You can now work together with others on the same whiteboard in real-time, just like Figma or Miro.&lt;/p&gt;
