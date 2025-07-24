@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Photofield Releases</title>
-  <updated>2025-07-24T17:31:32.207567-04:00</updated>
+  <updated>2025-07-24T18:31:31.327191-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,7 +160,7 @@ if any of them come in handy or have issues :)&lt;/p&gt;
   </entry>
   <entry>
     <id>https://github.com/SmilyOrg/photofield/releases/tag/v0.19.0</id>
-    <title>New release for Photofield: v0.19.0 - 2025-07-24 - Lotsa bug fixes and performance improvements</title>
+    <title>New release for Photofield: v0.19.0 - Lotsa bug fixes and performance improvements</title>
     <updated>2025-07-24T15:47:26-04:00</updated>
     <author>
       <name>SmilyOrg/photofield</name>
