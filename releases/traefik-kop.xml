@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>traefik-kop Releases</title>
-  <updated>2025-07-24T15:35:20.159449-04:00</updated>
+  <updated>2025-07-24T16:35:28.010441-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -77,8 +77,15 @@
       <name>jittering/traefik-kop</name>
     </author>
     <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;h3&gt;New Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;2aed81d3b7bd45ddbc30b84811af5d04867c709b Merge pull request #59 from jittering/feature/merge-lbs&lt;/li&gt;
+&lt;li&gt;Support for setting a TTL on Redis keys &lt;a href="https://github.com/jittering/traefik-kop/pull/58"&gt;#58&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support for merging load balancers across multiple nodes managed by &lt;code&gt;traefik-kop&lt;/code&gt; &lt;a href="https://github.com/jittering/traefik-kop/pull/59"&gt;#59&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow outbound IP detection to fail &lt;a href="https://github.com/jittering/traefik-kop/pull/56"&gt;#56&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Normalize container labels &lt;a href="https://github.com/jittering/traefik-kop/pull/57"&gt;#56&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/jittering/traefik-kop/releases/tag/v0.17" rel="alternate"/>
   </entry>
