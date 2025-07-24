@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lowcoder Releases</title>
-  <updated>2025-07-24T10:38:07.509055-04:00</updated>
+  <updated>2025-07-24T11:38:04.634782-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -308,7 +308,7 @@ Moreover, v2.7.2 is a candidate for a stable Docker image tag. We will decide in
   <entry>
     <id>https://github.com/lowcoder-org/lowcoder/releases/tag/2.7.3</id>
     <title>New release for Lowcoder: Houston</title>
-    <updated>2025-07-24T04:54:50-04:00</updated>
+    <updated>2025-07-24T11:23:23-04:00</updated>
     <author>
       <name>lowcoder-org/lowcoder</name>
     </author>

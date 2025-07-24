@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-07-24T10:32:02.666516-04:00</updated>
+  <updated>2025-07-24T11:31:56.845232-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -393,7 +393,7 @@ Previously, users not using &lt;code&gt;DISABLE_ADDITIONAL_FEATURES=false&lt;/co
   </entry>
   <entry>
     <id>https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v1.1.0</id>
-    <title>New release for Stirling PDF: 1.1.0 Lots of bug fixex, security updates and minor UI changes!</title>
+    <title>New release for Stirling PDF: 1.1.0 Lots of bug fixes, security updates and minor UI changes!</title>
     <updated>2025-07-24T10:08:58-04:00</updated>
     <author>
       <name>Stirling-Tools/Stirling-PDF</name>
