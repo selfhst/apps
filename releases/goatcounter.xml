@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>GoatCounter Releases</title>
-  <updated>2025-07-24T13:36:57.526001-04:00</updated>
+  <updated>2025-07-24T14:36:48.274133-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,7 +158,7 @@
       <name>arp242/goatcounter</name>
     </author>
     <content>&lt;p&gt;This release changes a number of default values. In most cases this shouldn't break anything, but be sure to read the section.&lt;/p&gt;
-&lt;p&gt;This release requires Go 1.21.&lt;/p&gt;
+&lt;p&gt;Compiling GoatCounter requires Go 1.21 or newer.&lt;/p&gt;
 &lt;h3&gt;Changes in defaults&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;The default values for the &lt;code&gt;-listen&lt;/code&gt; and &lt;code&gt;-tls&lt;/code&gt; flags have changed from &lt;code&gt;-listen=:443 -tls=tls,rdr,acme&lt;/code&gt; to &lt;code&gt;-listen=:8080 -tls=none&lt;/code&gt;.&lt;/li&gt;
