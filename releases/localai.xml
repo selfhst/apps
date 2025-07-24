@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LocalAI Releases</title>
-  <updated>2025-07-24T16:36:49.755234-04:00</updated>
+  <updated>2025-07-24T17:36:37.603600-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -879,6 +879,8 @@ These packages automatically install the most suitable backend depending on the 
 &lt;li&gt;🗣️ Enhanced Realtime Audio: We've added speech started and stopped events for more interactive applications and OpenAI-compatible support for the input_audio field in the chat API.&lt;/li&gt;
 &lt;li&gt;🧠 Massive Model Expansion: The gallery has been updated with over 50 new models, including the latest from &lt;code&gt;Qwen3&lt;/code&gt;, &lt;code&gt;Gemma&lt;/code&gt;, &lt;code&gt;Mistral&lt;/code&gt;, &lt;code&gt;Nemotron&lt;/code&gt;, and more!&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: CI is in the process of building all the backends for this release and will be available soon - if you hit any issue, please try in a few, thanks for understanding!
+&lt;strong&gt;Note&lt;/strong&gt;: Some parts of the documentation and the installation scripts (that download the release binaries) have to yet be adapted to the latest changes and/or might not reflect the current state&lt;/p&gt;
 &lt;h2&gt;A New Modular Architecture 🧩&lt;/h2&gt;
 &lt;p&gt;The biggest change in v3.2.0 is the complete separation of inference backends from the core LocalAI binary. Backends like llama.cpp, whisper.cpp, piper, and stablediffusion-ggml are no longer bundled in.&lt;/p&gt;
 &lt;p&gt;This fundamental shift makes LocalAI:&lt;/p&gt;
@@ -888,7 +890,6 @@ These packages automatically install the most suitable backend depending on the 
 &lt;li&gt;Easier to Maintain: A cleaner, more streamlined codebase for faster development.&lt;/li&gt;
 &lt;li&gt;Easier to Customize: you can build your own backends and install them in your LocalAI instances.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: CI is in the process of building all the backends for this release and will be available soon - if you hit any issue, please try in a few, thanks for understanding!&lt;/p&gt;
 &lt;h2&gt;Smart, Automatic Backend Installation 🤖&lt;/h2&gt;
 &lt;p&gt;To make the new modular system seamless, LocalAI now features automatic backend installation.&lt;/p&gt;
 &lt;p&gt;When you install a model from the gallery (or a YAML file), LocalAI intelligently detects the required backend and your system's capabilities, then downloads the correct version for you. Whether you're running on a standard CPU, an NVIDIA GPU, an AMD GPU, or an Intel GPU, LocalAI handles it automatically.&lt;/p&gt;
@@ -922,16 +923,7 @@ These packages automatically install the most suitable backend depending on the 
 &lt;/ul&gt;
 &lt;h2&gt;🚨 Important Note for Upgrading&lt;/h2&gt;
 &lt;p&gt;Due to the new modular architecture, if you have existing models installed with a version prior to 3.2.0, they might not have a specific backend assigned.&lt;/p&gt;
-&lt;p&gt;After upgrading, you may need to install the required backend manually for these models to work. You can do this easily from the WebUI or via the CLI: local-ai backends install &lt;backend_name&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;LocalAI binary size and container images has reduced even more!&lt;/li&gt;
-&lt;li&gt;All backends are now outside of the main binary, and available in the backend gallery&lt;/li&gt;
-&lt;li&gt;You can now update backend images everytime you want and be on par with backend releases without have to upgrade LocalAI&lt;/li&gt;
-&lt;li&gt;Simplified LocalAI building process&lt;/li&gt;
-&lt;li&gt;When installing models, if the backend is missing LocalAI will identify the platform and automatically download the necessary backend to run the model. You can override LocalAI Automatic detection by setting &lt;code&gt;LOCALAI_FORCE_META_BACKEND_CAPABILITY=default&lt;/code&gt; to default to cpu, or &lt;code&gt;LOCALAI_FORCE_META_BACKEND_CAPABILITY=nvidia&lt;/code&gt; for nvidia GPUs, or &lt;code&gt;LOCALAI_FORCE_META_BACKEND_CAPABILITY=amd&lt;/code&gt; or &lt;code&gt;LOCALAI_FORCE_META_BACKEND_CAPABILITY=intel&lt;/code&gt; for intel GPUs.&lt;/li&gt;
-&lt;li&gt;Bugfixes: few minor bugfixes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you have already models installed which are not refering to a specific backend, you might have to install the backend manually from the WebUI or from the CLI with &lt;code&gt;local-ai backends install &amp;lt;backend&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;After upgrading, you may need to install the required backend manually for these models to work. You can do this easily from the WebUI or via the CLI: &lt;code&gt;local-ai backends install &amp;lt;backend_name&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;The Complete Local Stack for Privacy-First AI&lt;/h2&gt;
 &lt;table&gt;
   &lt;tr&gt;
