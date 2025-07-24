@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Keycloak Releases</title>
-  <updated>2025-07-24T06:31:09.097319-04:00</updated>
+  <updated>2025-07-24T07:31:08.608966-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -673,7 +673,49 @@ This can reduce the service&amp;#8217;s downtime even further, as downtime is on
     <author>
       <name>keycloak/keycloak</name>
     </author>
-    <content/>
+    <content>&lt;div&gt;
+
+&lt;h2&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;Before upgrading refer to &lt;a href="https://www.keycloak.org/docs/latest/upgrading/#migration-changes"&gt;the migration guide&lt;/a&gt; for a complete list of changes.&lt;/p&gt;
+
+&lt;h2&gt;All resolved issues&lt;/h2&gt;
+
+
+&lt;h3&gt;New features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40237"&gt;#40237&lt;/a&gt; Add option "Requires short state parameter" to OIDC IDP &lt;code&gt;authentication&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40970"&gt;#40970&lt;/a&gt; Run clustering compatibility tests on release/x.y branches &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41034"&gt;#41034&lt;/a&gt; Improve logging for client sessions load &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41257"&gt;#41257&lt;/a&gt; Upgrade to Infinispan 15.0.18.Final &lt;code&gt;infinispan&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bugs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39091"&gt;#39091&lt;/a&gt; Flaky test: org.keycloak.testsuite.cluster.JGroupsCertificateRotationClusterTest#testCoordinatorHasScheduleTask &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39634"&gt;#39634&lt;/a&gt; Update MariaDB connector to 3.5.3 &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/39854"&gt;#39854&lt;/a&gt; Flaky test: org.keycloak.testsuite.cluster.PermissionTicketInvalidationClusterTest#crudWithFailover &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40553"&gt;#40553&lt;/a&gt; Upgrade org.postgresql:postgresql to version 42.7.7 to address CVE-2025-49146 &lt;code&gt;dependencies&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40736"&gt;#40736&lt;/a&gt; CVE-2025-49574 - Exposure of Resource to Wrong Sphere vulnerability in io.vertx:vertx-core &lt;code&gt;dependencies&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40782"&gt;#40782&lt;/a&gt; Flaky test: org.keycloak.testsuite.cluster.RealmInvalidationClusterTest#crudWithFailover &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40784"&gt;#40784&lt;/a&gt; Default jdbc-ping cluster setup for distributed caches fails in Oracle &lt;code&gt;infinispan&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40977"&gt;#40977&lt;/a&gt; Loglevel recorded from build phase &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40980"&gt;#40980&lt;/a&gt; Can't update security-admin-console via admin UI with volatile sessions &lt;code&gt;infinispan&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/40995"&gt;#40995&lt;/a&gt; LDAP /  ModelException: At least one condition should be provided to OR query &lt;code&gt;core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41018"&gt;#41018&lt;/a&gt; Flaky test: org.keycloak.testsuite.cluster.ClientInvalidationClusterTest#crudWithFailover &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41038"&gt;#41038&lt;/a&gt; FIPS errors in CI &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41082"&gt;#41082&lt;/a&gt; Multiple primary key defined when attempting to upgrade after 26.3.0 &lt;code&gt;core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41103"&gt;#41103&lt;/a&gt; Service Account users now showing in the User List &lt;code&gt;admin/ui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41105"&gt;#41105&lt;/a&gt; Unknown relation when removing realm role with --db-schema configured &lt;code&gt;storage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41152"&gt;#41152&lt;/a&gt; Docs use em-dashes instead of double dashes for SPI options in regular text &lt;code&gt;docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41204"&gt;#41204&lt;/a&gt; UpdateTest CI failures &lt;code&gt;ci&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keycloak/keycloak/issues/41370"&gt;#41370&lt;/a&gt; [26.3] MariaDB connector dependency is not properly overriden &lt;code&gt;dist/quarkus&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</content>
     <link href="https://github.com/keycloak/keycloak/releases/tag/26.3.2" rel="alternate"/>
   </entry>
 </feed>
