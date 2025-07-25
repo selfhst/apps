@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>LocalAI Releases</title>
-  <updated>2025-07-25T12:37:34.191144-04:00</updated>
+  <updated>2025-07-25T13:36:45.365519-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -805,16 +805,19 @@ These packages automatically install the most suitable backend depending on the 
     <author>
       <name>mudler/LocalAI</name>
     </author>
-    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at master --&gt;
+    <content>&lt;!-- Release notes generated using configuration in .github/release.yml at v3.2.1 --&gt;
 
 &lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;Bug fixes :bug:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(install.sh): update to use the new binary naming by @mudler in https://github.com/mudler/LocalAI/pull/5903&lt;/li&gt;
+&lt;li&gt;fix(backends gallery): pass-by backend galleries to the model service by @mudler in https://github.com/mudler/LocalAI/pull/5906&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Other Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;chore: :arrow_up: Update ggml-org/llama.cpp to &lt;code&gt;3f4fc97f1d745f1d5d3c853949503136d419e6de&lt;/code&gt; by @localai-bot in https://github.com/mudler/LocalAI/pull/5900&lt;/li&gt;
 &lt;li&gt;chore: :arrow_up: Update leejet/stable-diffusion.cpp to &lt;code&gt;eed97a5e1d054f9c1e7ac01982ae480411d4157e&lt;/code&gt; by @localai-bot in https://github.com/mudler/LocalAI/pull/5901&lt;/li&gt;
 &lt;li&gt;chore: :arrow_up: Update ggml-org/whisper.cpp to &lt;code&gt;7de8dd783f7b2eab56bff6bbc5d3369e34f0e77f&lt;/code&gt; by @localai-bot in https://github.com/mudler/LocalAI/pull/5902&lt;/li&gt;
-&lt;li&gt;fix(install.sh): update to use the new binary naming by @mudler in https://github.com/mudler/LocalAI/pull/5903&lt;/li&gt;
-&lt;li&gt;fix(backends gallery): pass-by backend galleries to the model service by @mudler in https://github.com/mudler/LocalAI/pull/5906&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/mudler/LocalAI/compare/v3.2.0...v3.2.1&lt;/p&gt;</content>
     <link href="https://github.com/mudler/LocalAI/releases/tag/v3.2.1" rel="alternate"/>
