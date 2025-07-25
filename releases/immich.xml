@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Releases</title>
-  <updated>2025-07-25T14:31:02.942154-04:00</updated>
+  <updated>2025-07-25T15:31:03.693765-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -363,6 +363,7 @@ Your server must be accessible through the server URL from the cast receiver. Th
 &lt;p&gt;[!CAUTION]&lt;/p&gt;
 &lt;h1&gt;BREAKING CHANGES&lt;/h1&gt;
 &lt;h2&gt;IMMICH_MEDIA_LOCATION (#19995)&lt;/h2&gt;
+&lt;p&gt;Note: This is a &lt;strong&gt;different&lt;/strong&gt; variable than &lt;code&gt;UPLOAD_LOCATION&lt;/code&gt;, which requires no change.&lt;/p&gt;
 &lt;p&gt;Note: if you &lt;strong&gt;DO NOT&lt;/strong&gt; have &lt;code&gt;IMMICH_MEDIA_LOCATION&lt;/code&gt; in your &lt;code&gt;.env&lt;/code&gt; file, or if it is set to a path that starts with a &lt;code&gt;/&lt;/code&gt; (absolute path), &lt;strong&gt;THIS BREAKING CHANGE DOES NOT APPLY TO YOU.&lt;/strong&gt; Users of the all-in-one image (e.g., the unraid app) for instance are not affected.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;If you have a custom &lt;code&gt;IMMICH_MEDIA_LOCATION&lt;/code&gt; environment variable set to a &lt;strong&gt;relative path&lt;/strong&gt;, you will have to do the following process:&lt;/p&gt;
