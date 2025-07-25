@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>FeedMe Releases</title>
-  <updated>2025-07-24T21:34:08.254190-04:00</updated>
+  <updated>2025-07-24T22:33:56.244859-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -166,5 +166,216 @@
 &lt;li&gt;Fix XMLTV items not grouping properly (guide mode: &lt;code&gt;Filler&lt;/code&gt;) due to post-roll filler&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.3.0</id>
+    <title>New release for ErsatzTV: v25.3.0</title>
+    <updated>2025-07-24T21:45:58-04:00</updated>
+    <author>
+      <name>ErsatzTV/ErsatzTV</name>
+    </author>
+    <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add new channel stream (audio and subtitle) selector system&lt;/li&gt;
+&lt;li&gt;Channel editor has a new field &lt;code&gt;Stream Selector Mode&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Default&lt;/code&gt; maintains existing behavior&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Custom&lt;/code&gt; uses a YAML config file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The YAML config contains a prioritized list of stream selector "items" (audio and subtitle criteria pairs)&lt;/li&gt;
+&lt;li&gt;The items are tested against the media from top to bottom, and when (at least) a matching audio track is found, stream selection occurs&lt;/li&gt;
+&lt;li&gt;As an example, the custom stream selector config can specify (in priority order):&lt;ul&gt;
+&lt;li&gt;english audio (and disable subtitles)&lt;/li&gt;
+&lt;li&gt;any other audio (and english subtitles, if they exist)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Criteria can include&lt;ul&gt;
+&lt;li&gt;Stream language&lt;/li&gt;
+&lt;li&gt;Stream title (allowed title and/or blocked title)&lt;/li&gt;
+&lt;li&gt;Stream condition, which is an expression that can use&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;id&lt;/code&gt; (index)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lang&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;default&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forced&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sdh&lt;/code&gt; (subtitle only)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;external&lt;/code&gt; (subtitle only)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;codec&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;channels&lt;/code&gt; (audio only)&lt;/li&gt;
+&lt;li&gt;An example subtitle condition: &lt;code&gt;lang like 'en%' and external&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;An example audio condition: &lt;code&gt;title like '%movie%' and channels &amp;gt; 2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add new channel setting &lt;code&gt;Active Mode&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Active&lt;/code&gt; - default value, channel streams as normal and has normal visibility&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hidden&lt;/code&gt; - channel streams as normal and is hidden from M3U/XMLTV/HDHR&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Inactive&lt;/code&gt; - channel cannot stream (will 404) and is hidden from M3U/XMLTV/HDHR&lt;/li&gt;
+&lt;li&gt;Synchronize Plex "network" metadata for Plex show libraries&lt;/li&gt;
+&lt;li&gt;Shows will have new &lt;code&gt;network&lt;/code&gt; search field&lt;/li&gt;
+&lt;li&gt;Episodes will have new &lt;code&gt;show_network&lt;/code&gt; search field&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;stop_before_end&lt;/code&gt; setting to &lt;code&gt;pad_until&lt;/code&gt; and &lt;code&gt;duration&lt;/code&gt; instructions&lt;/li&gt;
+&lt;li&gt;When &lt;code&gt;stop_before_end: false&lt;/code&gt;, content can run over the desired time before executing the next instruction&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;offline_tail&lt;/code&gt; setting to &lt;code&gt;pad_until&lt;/code&gt; instruction&lt;/li&gt;
+&lt;li&gt;This can be used to stop primary content before the desired time (&lt;code&gt;stop_before_end: true&lt;/code&gt; and &lt;code&gt;offline_tail: false&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;You can then have a second &lt;code&gt;pad_until&lt;/code&gt; with the same target time and different content&lt;/li&gt;
+&lt;li&gt;YAML playout: make &lt;code&gt;tomorrow&lt;/code&gt; an expression on &lt;code&gt;pad_until&lt;/code&gt; instruction&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; still work as normal&lt;/li&gt;
+&lt;li&gt;The current time (as a decimal) can also be used in the expression, e.g. &lt;code&gt;now &amp;gt; 23&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;now = hours + minutes / 60.0 + seconds / 3600.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;So &lt;code&gt;10:30 AM&lt;/code&gt; would be &lt;code&gt;10.5&lt;/code&gt;, &lt;code&gt;10:45 PM&lt;/code&gt; would be &lt;code&gt;22.75&lt;/code&gt;, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;YAML playout: make &lt;code&gt;skip_items&lt;/code&gt; an expression&lt;/li&gt;
+&lt;li&gt;The following parameters can be used:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;count&lt;/code&gt;: the total number of items in the content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;random&lt;/code&gt;: a random number between zero and (count - 1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For example:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;count / 2&lt;/code&gt; will start in the middle of the content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;random&lt;/code&gt; will start at a random point in the content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2&lt;/code&gt; (similar to before this change) will skip the first two items in the content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;YAML playout: make &lt;code&gt;count&lt;/code&gt; an expression&lt;ul&gt;
+&lt;li&gt;The following parameters can be used:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;count&lt;/code&gt;: the total number of items in the content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;random&lt;/code&gt;: a random number between zero and (count - 1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;For example:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;count / 2&lt;/code&gt; will play half of the items in the content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;random % 4 + 1&lt;/code&gt; will play between 1 and 4 items&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2&lt;/code&gt; (similar to before this change) will play exactly two items&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;disable_watermarks&lt;/code&gt; property to all content instructions&lt;/li&gt;
+&lt;li&gt;This property defaults to &lt;code&gt;false&lt;/code&gt; (meaning watermarks are allowed by default)&lt;/li&gt;
+&lt;li&gt;Setting to &lt;code&gt;true&lt;/code&gt; will prevent watermarks from ever appearing over the content&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;watermark&lt;/code&gt; instruction&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;name&lt;/code&gt; property, will override the watermark in the playout to the watermark with the provided name&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;false&lt;/code&gt;, will restore default watermark value (channel watermark, global watermark)&lt;/li&gt;
+&lt;li&gt;Show health check warning and error badges in nav menu&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Expression&lt;/code&gt; for mid-roll filler to allow custom logic for using or skipping chapter markers&lt;/li&gt;
+&lt;li&gt;The following parameters can be used:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;total_points&lt;/code&gt;: total number of potential mid-roll points&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;matched_points&lt;/code&gt;: number of mid-roll points that have already matched the expression&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;total_duration&lt;/code&gt;: total duration of the content, in seconds&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;total_progress&lt;/code&gt;: normalized position from 0 to 1&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;last_mid_filler&lt;/code&gt;: seconds since last mid-roll filler&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;remaining_duration&lt;/code&gt;: duration of the content after this mid-roll point, in seconds&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;point&lt;/code&gt;: the position of the mid-roll point, in seconds&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;num&lt;/code&gt;: the mid-roll point number, starting with 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Disable Watermarks&lt;/code&gt; checkbox to block items&lt;/li&gt;
+&lt;li&gt;Block items that have this checked will never display a watermark, even with Deco set to override watermark&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;ETV_MAXIMUM_UPLOAD_MB&lt;/code&gt; environment variable to allow uploading large watermarks&lt;/li&gt;
+&lt;li&gt;Default value is 10&lt;/li&gt;
+&lt;li&gt;Update ffmpeg health check to link to ErsatzTV-FFmpeg release that contains binaries for win64, linux64, linuxarm64&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Playback Troubleshooting&lt;/code&gt; page&lt;/li&gt;
+&lt;li&gt;This tool lets you play specific content without needing a test channel or schedule&lt;/li&gt;
+&lt;li&gt;You can specify&lt;ul&gt;
+&lt;li&gt;The media item id (found in ETV media info, and ETV movie URLs)&lt;/li&gt;
+&lt;li&gt;The ffmpeg profile to use&lt;/li&gt;
+&lt;li&gt;The watermark to use (if any)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clicking &lt;code&gt;Play&lt;/code&gt; will play up to 30 seconds of the specified content using the desired settings&lt;/li&gt;
+&lt;li&gt;Clicking &lt;code&gt;Download Results&lt;/code&gt; will generate a zip archive containing:&lt;ul&gt;
+&lt;li&gt;The FFmpeg report of the playback attempt&lt;/li&gt;
+&lt;li&gt;The media info for the content&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Troubleshooting&lt;/code&gt; &amp;gt; &lt;code&gt;General&lt;/code&gt; output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Support &lt;code&gt;(Part [english number])&lt;/code&gt; name suffixes for multi-part episode grouping, for example:&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Awesome Episode (Part One)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Better Episode (Part Two)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Not So Great (Part Three)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add Trakt List option &lt;code&gt;Auto Refresh&lt;/code&gt; to automatically update list from trakt.tv once each day&lt;/li&gt;
+&lt;li&gt;Add Trakt List option &lt;code&gt;Generate Playlist&lt;/code&gt; to automatically generate ETV Playlist from matched Trakt List items&lt;/li&gt;
+&lt;li&gt;Read &lt;code&gt;country&lt;/code&gt; field from movie NFO files and include in search index as &lt;code&gt;country&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;em&gt;experimental&lt;/em&gt; and &lt;em&gt;incomplete&lt;/em&gt; &lt;code&gt;Remote Stream&lt;/code&gt; library kind&lt;ul&gt;
+&lt;li&gt;Remote Stream libraries have fallback metadata added like Other Video libraries (every folder is a tag)&lt;/li&gt;
+&lt;li&gt;Remote Stream library items consist of YAML (&lt;code&gt;.yml&lt;/code&gt;) files with the following fields&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt;: the URL of the content that can be played directly by ffmpeg&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;script&lt;/code&gt;: the process name and arguments for a command that will output content to stdout&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;is_live&lt;/code&gt;: &lt;em&gt;required&lt;/em&gt; property that indicates whether the remote stream contains live content&lt;ul&gt;
+&lt;li&gt;When this is set to &lt;code&gt;true&lt;/code&gt;, ETV cannot work ahead on transcoding this item, which is a necessary tradeoff for supporting live content&lt;/li&gt;
+&lt;li&gt;When this is set to &lt;code&gt;false&lt;/code&gt;, ETV will treat the stream as VOD and attempt to work ahead on transcoding like any other local item&lt;ul&gt;
+&lt;li&gt;This &lt;em&gt;will&lt;/em&gt; cause errors when the content is actually live, so it's important to configure this correctly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;duration&lt;/code&gt;: when the content is live and does not have duration metadata, this must be provided to allow scheduling&lt;/li&gt;
+&lt;li&gt;The remote stream definition (YAML file) may provide either a &lt;code&gt;url&lt;/code&gt; or a &lt;code&gt;script&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If both are provided, &lt;code&gt;url&lt;/code&gt; will be used&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Include number of chapters in search index as &lt;code&gt;chapters&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow &lt;code&gt;Other Video&lt;/code&gt; libraries and &lt;code&gt;Image&lt;/code&gt; libraries to use the same folders&lt;/li&gt;
+&lt;li&gt;Try to mitigate inotify limit error by disabling automatic reloading of &lt;code&gt;appsettings.json&lt;/code&gt; config files&lt;/li&gt;
+&lt;li&gt;Support &lt;code&gt;movie&lt;/code&gt;, &lt;code&gt;musicvideo&lt;/code&gt; and &lt;code&gt;episodedetails&lt;/code&gt; top-level tags in other video NFO files&lt;/li&gt;
+&lt;li&gt;Note that no change has been made to the metadata tags that are actually parsed, but this should help with various types of content&lt;/li&gt;
+&lt;li&gt;Remove some limits on multithreading that are no longer needed with latest ffmpeg&lt;/li&gt;
+&lt;li&gt;Mixed transcoding (software decode, hardware filters/encode) can now use multiple decode threads&lt;/li&gt;
+&lt;li&gt;Split main &lt;code&gt;Settings&lt;/code&gt; page into multiple pages&lt;/li&gt;
+&lt;li&gt;Update UI layout on all pages to be less cramped and to work better on mobile&lt;/li&gt;
+&lt;li&gt;Add CPU and Video Controller info to &lt;code&gt;Troubleshooting&lt;/code&gt; &amp;gt; &lt;code&gt;General&lt;/code&gt; output&lt;/li&gt;
+&lt;li&gt;Enable write-ahead logging (WAL) mode on SQLite databases&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Multiple Mode&lt;/code&gt; option to schedule items editor and remove support for count values of zero&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Count&lt;/code&gt;: same behavior as before, requires a number of media items to play and will always schedule the same number&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Collection Size&lt;/code&gt;: similar to count of zero before, will play all media items from the collection before continuing to the next schedule item&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Playlist Item Size&lt;/code&gt;: will play all media items from the current playlist item before continuing to the next schedule item&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Multi-Episode Group Size&lt;/code&gt;: will play all media items from the current multi-part episode group, or one ungrouped media item&lt;/li&gt;
+&lt;li&gt;Change watermark width and margins to allow decimals&lt;/li&gt;
+&lt;li&gt;Move &lt;code&gt;Add To Collection&lt;/code&gt; button to overflow menu on all media cards, and add &lt;code&gt;Show Media Info&lt;/code&gt; to overflow menu&lt;/li&gt;
+&lt;li&gt;This allows showing media info for all media kinds&lt;/li&gt;
+&lt;li&gt;Unify on a multi-platform base docker tag (&lt;code&gt;latest&lt;/code&gt; and &lt;code&gt;develop&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;amd64&lt;/code&gt;, &lt;code&gt;arm64&lt;/code&gt;, &lt;code&gt;arm/v7&lt;/code&gt; platforms are now all supported in the base docker tag&lt;/li&gt;
+&lt;li&gt;Other docker platform tags are deprecated and will receive no new updates after the next release&lt;/li&gt;
+&lt;li&gt;A health check has been added to notify users (on &lt;code&gt;-arm&lt;/code&gt; or &lt;code&gt;-arm64&lt;/code&gt; tags) of this change&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix QSV acceleration in docker with older Intel devices&lt;/li&gt;
+&lt;li&gt;Fix HDR transcoding with NVIDIA accel for:&lt;ul&gt;
+&lt;li&gt;All NVIDIA docker users&lt;/li&gt;
+&lt;li&gt;Windows NVIDIA users who have set the &lt;code&gt;ETV_DISABLE_VULKAN&lt;/code&gt; env var&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fix audio sync issue with QSV acceleration&lt;/li&gt;
+&lt;li&gt;YAML playout: fix history for marathon and playlist content&lt;/li&gt;
+&lt;li&gt;This allows playouts to be extended correctly, instead of always resetting to the earliest item in each group&lt;/li&gt;
+&lt;li&gt;Fix using channel External Logo URL as watermark&lt;/li&gt;
+&lt;li&gt;Fix display of SVG channel logo and watermark in admin UI&lt;/li&gt;
+&lt;li&gt;Existing SVG logos and watermarks will have to be re-uploaded to display properly in the admin UI&lt;/li&gt;
+&lt;li&gt;This does not affect streaming at all; existing artwork still works fine for streaming&lt;/li&gt;
+&lt;li&gt;Classify HDHR endpoints as streaming endpoints&lt;/li&gt;
+&lt;li&gt;This allows these endpoints to be accessed through port &lt;code&gt;ETV_STREAMING_PORT&lt;/code&gt; (default &lt;code&gt;8409&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;This only matters if you configured &lt;code&gt;ETV_UI_PORT&lt;/code&gt; to be a different value, which makes UI endpoints inaccessible on the streaming port&lt;/li&gt;
+&lt;li&gt;Update Plex movie/other video plot ("summary") during library deep scan&lt;/li&gt;
+&lt;li&gt;Fix compatibility with ffmpeg 7.2+ when using NVIDIA accel and 10-bit source content&lt;/li&gt;
+&lt;li&gt;Fix some NVIDIA edge cases when media servers don't provide video bit depth information&lt;/li&gt;
+&lt;li&gt;Fix VAAPI tonemap failure&lt;/li&gt;
+&lt;li&gt;Fix green bars after VAAPI tonemap&lt;/li&gt;
+&lt;li&gt;Fix bug where playout mode &lt;code&gt;Multiple&lt;/code&gt; would ignore fixed start time&lt;/li&gt;
+&lt;li&gt;Fix block playout EPG generation to use &lt;code&gt;XMLTV Time Zone&lt;/code&gt; setting&lt;/li&gt;
+&lt;li&gt;Fix adding "official" Trakt lists&lt;/li&gt;
+&lt;li&gt;Fix searching for &lt;code&gt;collection&lt;/code&gt; names with spaces or other special characters, e.g. &lt;code&gt;collection:"Movies - Action"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fix QSV transcoding errors when scaling&lt;/li&gt;
+&lt;li&gt;Fix QSV frame freezing in browser&lt;/li&gt;
+&lt;li&gt;Fix some stream continuity issues, and some cases where audio sync is lost at transition&lt;/li&gt;
+&lt;li&gt;Fix HDR transcoding with AMD VAAPI accel&lt;/li&gt;
+&lt;li&gt;Allow paths longer than 255 characters in MySql databases&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.3.0" rel="alternate"/>
   </entry>
 </feed>
