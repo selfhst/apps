@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DbGate Releases</title>
-  <updated>2025-07-25T03:34:58.557965-04:00</updated>
+  <updated>2025-07-25T04:34:57.456846-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -82,7 +82,12 @@
     <author>
       <name>dbgate/dbgate</name>
     </author>
-    <content/>
+    <content>&lt;ul&gt;
+&lt;li&gt;ADDED: Database chat - AI powered chatbot, which knows your database (Premium)&lt;/li&gt;
+&lt;li&gt;ADDED: Firestore support (Premium)&lt;/li&gt;
+&lt;li&gt;REMOVED: Query AI assistant (replaced by Database Chat)  (Premium)&lt;/li&gt;
+&lt;li&gt;FIXED: Chart permissions were ignored  (Premium)&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/dbgate/dbgate/releases/tag/v6.6.0" rel="alternate"/>
   </entry>
 </feed>
