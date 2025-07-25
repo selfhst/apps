@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fireshare Releases</title>
-  <updated>2025-07-25T16:30:50.932170-04:00</updated>
+  <updated>2025-07-25T17:30:51.617994-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -87,7 +87,7 @@
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Feature/chunked uploading by @sa20001 in https://github.com/ShaneIsrael/fireshare/pull/308&lt;/li&gt;
-&lt;li&gt;Sql Injection Fix by @ShaneIsrael in https://github.com/ShaneIsrael/fireshare/pull/312&lt;/li&gt;
+&lt;li&gt;Sql Injection Fix by @ShaneIsrael first reported by @cyberducky0o0 in https://github.com/ShaneIsrael/fireshare/pull/312&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
 &lt;ul&gt;
