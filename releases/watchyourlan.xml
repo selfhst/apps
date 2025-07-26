@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchYourLAN Releases</title>
-  <updated>2025-07-26T12:32:02.829573-04:00</updated>
+  <updated>2025-07-26T13:32:03.861634-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -100,7 +100,7 @@
 &lt;li&gt;&lt;strong&gt;DEPRECATED:&lt;/strong&gt; &lt;code&gt;HIST_IN_DB&lt;/code&gt; config option. Now history is always stored in &lt;code&gt;DB&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Upd to &lt;code&gt;go 1.24.5&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Moved &lt;code&gt;DB&lt;/code&gt; handling to &lt;code&gt;GORM&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Moved to maintained &lt;code&gt;Shoutrrr&lt;/code&gt;: &lt;a href="github.com/nicholas-fedor/shoutrrr"&gt;github.com/nicholas-fedor/shoutrrr&lt;/a&gt; (&lt;a href="https://github.com/aceberg/WatchYourLAN/issues/197"&gt;#197&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Moved to maintained &lt;code&gt;Shoutrrr&lt;/code&gt;: &lt;a href="https://github.com/nicholas-fedor/shoutrrr"&gt;github.com/nicholas-fedor/shoutrrr&lt;/a&gt; (&lt;a href="https://github.com/aceberg/WatchYourLAN/issues/197"&gt;#197&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/aceberg/WatchYourLAN/releases/tag/2.1.3" rel="alternate"/>
   </entry>
