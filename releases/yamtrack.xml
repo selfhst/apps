@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Yamtrack Releases</title>
-  <updated>2025-07-27T15:32:03.643125-04:00</updated>
+  <updated>2025-07-27T16:32:00.076371-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -115,7 +115,7 @@
 &lt;li&gt;Added periodic import for SIMKL #738 (https://github.com/FuzzyGrim/Yamtrack/commit/e5249146244fa8cd778e1c7b92adc7bf45463741)&lt;/li&gt;
 &lt;li&gt;Added list view for search results by @CrazyTim71 in https://github.com/FuzzyGrim/Yamtrack/pull/657&lt;/li&gt;
 &lt;li&gt;Updated the Yamtrack CSV import to allow searching for media ids with title by @psyciknz in https://github.com/FuzzyGrim/Yamtrack/pull/668&lt;/li&gt;
-&lt;li&gt;Make logout redirect URL configurable through environment variable by @p7996619 in https://github.com/FuzzyGrim/Yamtrack/pull/708&lt;/li&gt;
+&lt;li&gt;Make logout redirect URL configurable through the &lt;code&gt;ACCOUNT_LOGOUT_REDIRECT_URL&lt;/code&gt; environment variable by @p7996619 in https://github.com/FuzzyGrim/Yamtrack/pull/708&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Fixes&lt;/h2&gt;
 &lt;ul&gt;
