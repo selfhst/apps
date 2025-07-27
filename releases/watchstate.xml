@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>WatchState Releases</title>
-  <updated>2025-07-27T10:35:31.163769-04:00</updated>
+  <updated>2025-07-27T11:35:27.427617-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,7 +85,9 @@
     <author>
       <name>arabcoders/watchstate</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;p&gt;As the code-base has been stabilized, we are preparing to hopefully tag &lt;code&gt;v1.0.0&lt;/code&gt; final release in this quarter. We are no longer seeing any bugs that would require us to make major changes which might be breaking change. There are some backwards compatibility settings implemented, and those will be removed in the final release.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
 &lt;li&gt;aec20b8 Added Path to handle pathing logic. by arabcoders&lt;/li&gt;
 &lt;li&gt;8cb2d9f Fixes some expectations by arabcoders&lt;/li&gt;
 &lt;li&gt;283f78b Fixed incorrect normalizing path in windows by arabcoders&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-07-27T10:37:28.524903-04:00</updated>
+  <updated>2025-07-27T11:37:22.083790-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,7 @@
     <author>
       <name>arabcoders/ytptube</name>
     </author>
-    <content>&lt;p&gt;Hopefully this release fixes the remaining bugs and should be the template for v1.0.0, there are so backwards compatibility things left in the code base, those will be removed for the final release.&lt;/p&gt;
+    <content>&lt;p&gt;Hopefully this release fixes the remaining bugs and should be the template for v1.0.0, there are some backwards compatibility things left in the code base, those will be removed for the final release.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;438254c Added task to kill debugpy, sometimes vscode leave it behind causing problems  during development by @arabcoders&lt;/li&gt;
