@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Convoy Releases</title>
-  <updated>2025-07-28T10:36:22.779103-04:00</updated>
+  <updated>2025-07-28T11:36:03.765103-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,9 +30,9 @@
     <author>
       <name>frain-dev/convoy</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;14f4fd0730ef632cec041afb17d59614c78e1bc3 Bump version to v25.6.6&lt;/li&gt;
+&lt;li&gt;Fixed race condition in the compare package&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/frain-dev/convoy/releases/tag/v25.6.6" rel="alternate"/>
   </entry>
@@ -43,9 +43,9 @@
     <author>
       <name>frain-dev/convoy</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;0452c4515158612b9f48655229305ee0b695e3b0 Bump version to v25.6.7&lt;/li&gt;
+&lt;li&gt;Make Sentry tracer sample rate configurable&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/frain-dev/convoy/releases/tag/v25.6.7" rel="alternate"/>
   </entry>
@@ -56,9 +56,9 @@
     <author>
       <name>frain-dev/convoy</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Enhancements&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;5a52882d4e0752dd1220425aa2066e668976252e Bump version to v25.6.8&lt;/li&gt;
+&lt;li&gt;Increase the default API and ingest rate limits&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/frain-dev/convoy/releases/tag/v25.6.8" rel="alternate"/>
   </entry>
@@ -69,9 +69,9 @@
     <author>
       <name>frain-dev/convoy</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;4ca9fb638a9605e0028a2f5fcc3b097320d9b847 Bump version to v25.7.1&lt;/li&gt;
+&lt;li&gt;Add owner ID filtering in the event log&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/frain-dev/convoy/releases/tag/v25.7.1" rel="alternate"/>
   </entry>
