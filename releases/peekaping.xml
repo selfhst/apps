@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Peekaping Releases</title>
-  <updated>2025-07-28T16:37:31.490605-04:00</updated>
+  <updated>2025-07-28T17:38:07.403117-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -208,32 +208,7 @@ Thanks to: @0xfurai @sergeykobylchenko&lt;/p&gt;</content>
 - &lt;strong&gt;2&lt;/strong&gt; commits since 0.0.35
 - &lt;strong&gt;1&lt;/strong&gt; contributors&lt;/p&gt;
 &lt;p&gt;Contributors
-Thanks to: @0xfurai &lt;/p&gt;
-&lt;h2&gt;Docker Images&lt;/h2&gt;
-&lt;h3&gt;GitHub Container Registry (GHCR)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;UI: &lt;code&gt;ghcr.io/0xfurai/peekaping-web:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-web:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Server: &lt;code&gt;ghcr.io/0xfurai/peekaping-server:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-server:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Migrate: &lt;code&gt;ghcr.io/0xfurai/peekaping-migrate:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-migrate:latest&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Bundle Containers (GHCR)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;SQLite Bundle: &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-sqlite:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-sqlite:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;MongoDB Bundle: &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-mongo:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-mongo:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;PostgreSQL Bundle: &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-postgres:0.0.36&lt;/code&gt; / &lt;code&gt;ghcr.io/0xfurai/peekaping-bundle-postgres:latest&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Docker Hub&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;UI: &lt;code&gt;0xfurai/peekaping-web:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-web:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Server: &lt;code&gt;0xfurai/peekaping-server:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-server:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Migrate: &lt;code&gt;0xfurai/peekaping-migrate:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-migrate:latest&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Bundle Containers (Docker Hub)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;SQLite Bundle: &lt;code&gt;0xfurai/peekaping-bundle-sqlite:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-bundle-sqlite:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;MongoDB Bundle: &lt;code&gt;0xfurai/peekaping-bundle-mongo:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-bundle-mongo:latest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;PostgreSQL Bundle: &lt;code&gt;0xfurai/peekaping-bundle-postgres:0.0.36&lt;/code&gt; / &lt;code&gt;0xfurai/peekaping-bundle-postgres:latest&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+Thanks to: @0xfurai &lt;/p&gt;</content>
     <link href="https://github.com/0xfurai/peekaping/releases/tag/0.0.36" rel="alternate"/>
   </entry>
 </feed>
