@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stirling PDF Releases</title>
-  <updated>2025-07-28T04:31:52.678039-04:00</updated>
+  <updated>2025-07-28T05:31:58.186879-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -403,7 +403,8 @@ Previously, users not using &lt;code&gt;DISABLE_ADDITIONAL_FEATURES=false&lt;/co
 - Bug fixes with UI scaling, Navbar and others , 
 - Auth.log not generating correctly 
 - HTML sanitisation now further sanitises the &lt;img&gt; tag for security to avoid external GET calls, This is enabled by default but can be disabled (via settings.yml) should you need this HTML functionality 
-- Various extra security changes and patches&lt;/p&gt;
+- Various extra security changes and patches
+- Bug fix for cookie banner showing even when cookies are disabled&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;🚀 Major Enhancements&lt;/h3&gt;
 &lt;ul&gt;
