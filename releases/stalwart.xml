@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Stalwart Releases</title>
-  <updated>2025-07-28T07:31:56.659845-04:00</updated>
+  <updated>2025-07-28T08:31:58.302630-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -172,7 +172,10 @@
 &lt;li&gt;LDAP: Only set account name if not returned in LDAP query (#1471).&lt;/li&gt;
 &lt;li&gt;Enterprise: Invalidate logo cache when changes are made (#1856).&lt;/li&gt;
 &lt;li&gt;Enterprise: Fix tenant quota update API.&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;Check binary attestation at &lt;a href="https://github.com/stalwartlabs/stalwart/attestations/9104312"&gt;here&lt;/a&gt;&lt;/h3&gt;</content>
     <link href="https://github.com/stalwartlabs/stalwart/releases/tag/v0.13.2" rel="alternate"/>
   </entry>
 </feed>
