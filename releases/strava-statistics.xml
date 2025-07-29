@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Statistics for Strava Releases</title>
-  <updated>2025-07-29T02:37:19.145704-04:00</updated>
+  <updated>2025-07-29T03:37:29.265466-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -105,8 +105,8 @@
     <author>
       <name>robiningelbrecht/statistics-for-strava</name>
     </author>
-    <content>&lt;p&gt;🔥 This release allows you to configure dashboard widgets. You can now choose which widgets you want to see on your dashboard and in which order they are displayed.
-Check https://statistics-for-strava-docs.robiningelbrecht.be/#/configuration/main-configuration?id=dashboard-layout for more information.&lt;/p&gt;
+    <content>&lt;p&gt;🔥 This release allows you to configure dashboard widgets. You can now choose which widgets you want to see on your dashboard and in which order they are displayed.&lt;/p&gt;
+&lt;p&gt;Check https://statistics-for-strava-docs.robiningelbrecht.be/#/configuration/main-configuration?id=dashboard-layout for more information.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ISSUE #902: Fix weekly streaks in rewind by @robiningelbrecht in https://github.com/robiningelbrecht/statistics-for-strava/pull/907&lt;/li&gt;
