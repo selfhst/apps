@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetBird Releases</title>
-  <updated>2025-07-29T07:31:28.500202-04:00</updated>
+  <updated>2025-07-29T08:31:29.674219-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,6 +93,7 @@
       <name>netbirdio/netbird</name>
     </author>
     <content>&lt;p&gt;This release adds the profile feature, please refer to the &lt;a href="https://docs.netbird.io/how-to/profiles"&gt;documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="profiles (1)" src="https://github.com/user-attachments/assets/af9ef06b-03b9-4fd3-8fe0-ebb7f371815f" /&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[misc] Docker compose improvements by @Silex in https://github.com/netbirdio/netbird/pull/4037&lt;/li&gt;
