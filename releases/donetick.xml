@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Donetick Releases</title>
-  <updated>2025-07-29T00:35:08.148405-04:00</updated>
+  <updated>2025-07-29T01:35:18.915053-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -152,9 +152,21 @@ Added Keyboard Shortcut to make creating tasks much faster on desktop( shortcut 
     <author>
       <name>donetick/donetick</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h1&gt;Donetick v0.1.53&lt;/h1&gt;
+&lt;h2&gt;What changed&lt;/h2&gt;
+&lt;p&gt;This release primarily addresses bug fixes and introduces support for new version of &lt;a href="https://github.com/donetick/donetick-hass-integration"&gt;Donetick integration for Home Assistant&lt;/a&gt; . The integration now fully supports controlling Things and managing Tasks (add, edit, delete) directly from Home Assistant. Additionally, individual to-do lists have been implemented for each user, alongside a master list for the entire circle.&lt;/p&gt;
+&lt;h2&gt;Change logs&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;28d918b9440cd3d2867fdceb10f40d20c47606b3 Merge branch 'dev'&lt;/li&gt;
+&lt;li&gt;Refactored chore creation and update logic for the eapi&lt;/li&gt;
+&lt;li&gt;Added delete endpoint for chores in the eapi&lt;/li&gt;
+&lt;li&gt;Enhanced request validation for chores&lt;/li&gt;
+&lt;li&gt;Implemented GetThingByID and GetAllThings endpoints in Thing API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixes:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/273&lt;/li&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/272&lt;/li&gt;
+&lt;li&gt;https://github.com/donetick/donetick/issues/267&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/donetick/donetick/releases/tag/v0.1.53" rel="alternate"/>
   </entry>
