@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Teleport Releases</title>
-  <updated>2025-07-29T12:33:09.046996-04:00</updated>
+  <updated>2025-07-29T13:33:09.711892-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -145,6 +145,13 @@
       <name>gravitational/teleport</name>
     </author>
     <content>&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;⚠️ &lt;em&gt;Warning:&lt;/em&gt; This release introduces an issue publishing certificate revocation lists for Windows desktop access. We recommend skipping straight to 18.1.1 for your &lt;code&gt;windows_desktop_service&lt;/code&gt; instances.&lt;/p&gt;
+&lt;p&gt;If you have already upgraded your &lt;code&gt;windows_desktop_service&lt;/code&gt; to 18.1.0 and aren't able to upgrade to 18.1.1, you can restore connectivity by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Export cluster CRLs with &lt;code&gt;tctl auth crl --type=user --out=&amp;lt;prefix&amp;gt;&lt;/code&gt;. This will create at least one file named &lt;code&gt;&amp;lt;prefix&amp;gt;-user-&amp;lt;suffix&amp;gt;.crl&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Copy all exported files to your Windows environment.&lt;/li&gt;
+&lt;li&gt;For each file, run &lt;code&gt;certutil.exe -dspublish -f &amp;lt;prefix&amp;gt;-user-&amp;lt;suffix&amp;gt;.crl Teleport &amp;lt;suffix&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;MCP server access&lt;/h3&gt;
 &lt;p&gt;Teleport now provides the ability to connect to stdio-based MCP servers with
 connection proxying and audit logging support.&lt;/p&gt;
