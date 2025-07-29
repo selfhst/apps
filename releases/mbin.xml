@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mbin Releases</title>
-  <updated>2025-07-29T06:33:47.025996-04:00</updated>
+  <updated>2025-07-29T07:33:48.138513-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -472,7 +472,7 @@
     <author>
       <name>MbinOrg/mbin</name>
     </author>
-    <content>&lt;p&gt;This is our release v1.8.3. We did a lot of changes to our activity pub code and started to add testing of it. We did a lot of improvements on the UI and added more options for the user. We also improved the search and added an emoji picker. We also did a lot more which you can check out down below.&lt;/p&gt;
+    <content>&lt;p&gt;This is our release v1.8.3. We did a lot of changes to our activity pub code and started to add testing of it. We did a lot of improvements on the UI and added more options for the user. Finally, we also improved the search and added an emoji picker. But we did even more, which you can check out down below.&lt;/p&gt;
 &lt;p&gt;Comparison to previous stable version v1.8.2:&lt;/p&gt;
 &lt;p&gt;| DB migrations            | New ENV vars            | Admin guide changes      | Suggest cache clearing  | New dependencies        |
 | :----------------------: | :---------------------: | :----------------------: | :---------------------: | :---------------------: |
