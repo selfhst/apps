@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockman Releases</title>
-  <updated>2025-07-28T19:37:18.309654-04:00</updated>
+  <updated>2025-07-28T20:37:06.557513-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -158,6 +158,7 @@ restart: always
       <name>RA341/dockman</name>
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/RA341/dockman/compare/v2.0.0...v2.0.1"&gt;2.0.1&lt;/a&gt; (2025-07-28)&lt;/h2&gt;
+&lt;p&gt;Ensure you have read the breaking changes in &lt;a href="https://github.com/RA341/dockman/releases/tag/v2.0.0"&gt;2.0.0&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/RA341/dockman/issues/40"&gt;#40&lt;/a&gt; git commit hangs for large compose roots (&lt;a href="https://github.com/RA341/dockman/commit/1610f6155f9a561e5c89d61f7d4df0659886ec0b"&gt;1610f61&lt;/a&gt;)&lt;/li&gt;
