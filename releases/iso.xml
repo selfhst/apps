@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Iso Releases</title>
-  <updated>2025-07-29T16:37:31.225753-04:00</updated>
+  <updated>2025-07-29T17:37:37.027887-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -56,5 +56,15 @@ Tim&lt;/p&gt;</content>
     </author>
     <content>&lt;p&gt;This release adds a &lt;code&gt;slim&lt;/code&gt; version of the Docker image. This image includes only a handful of icons, rather than the entire pack, which greatly reduces its size.&lt;/p&gt;</content>
     <link href="https://github.com/Coyenn/iso/releases/tag/v1.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Coyenn/iso/releases/tag/v1.2.1</id>
+    <title>New release for Iso: v1.2.1</title>
+    <updated>2025-07-29T17:27:21-04:00</updated>
+    <author>
+      <name>Coyenn/iso</name>
+    </author>
+    <content>&lt;p&gt;This release changes the max upload file size from 10 to 25mb.&lt;/p&gt;</content>
+    <link href="https://github.com/Coyenn/iso/releases/tag/v1.2.1" rel="alternate"/>
   </entry>
 </feed>
