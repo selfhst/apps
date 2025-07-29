@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SigNoz Releases</title>
-  <updated>2025-07-29T08:37:24.150239-04:00</updated>
+  <updated>2025-07-29T09:37:28.365739-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -163,7 +163,11 @@ Metrics names and labels normalization has been removed in this release. Going f
     <author>
       <name>SigNoz/signoz</name>
     </author>
-    <content>&lt;h2&gt;🚀 Features&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+If you are using docker and upgrading via this repository, run &lt;code&gt;VERSION=v0.91.0 ./deploy/install.sh&lt;/code&gt; to upgrade.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;🚀 Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;feat: update app loading screen and add system theme option (#8567) @YounixM&lt;/li&gt;
 &lt;li&gt;feat: add support for single step funnels while creating from span details (#8492) @ahmadshaheer&lt;/li&gt;
