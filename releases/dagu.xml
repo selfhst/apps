@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-07-29T03:34:57.655804-04:00</updated>
+  <updated>2025-07-29T04:34:58.711323-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -147,10 +147,28 @@ Docker image  – fixes for asset paths &amp;amp; storage volumes | 🐳 @jhuang
     <author>
       <name>dagu-org/dagu</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;0a751c200ec9166983d99eb3c6c3e2ee728482be [#1146] feat: implement step-level environment variables (#1148)&lt;/li&gt;
-&lt;/ul&gt;</content>
+    <content>&lt;p&gt;This release includes the following updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Features&lt;/strong&gt;
+- &lt;strong&gt;RepeatPolicy enhancements&lt;/strong&gt;: added support for &lt;code&gt;until&lt;/code&gt; and &lt;code&gt;while&lt;/code&gt; modes — thanks &lt;strong&gt;@thefishhat&lt;/strong&gt;&lt;br /&gt;
+- &lt;strong&gt;Live log loading&lt;/strong&gt; in the Web UI&lt;br /&gt;
+- &lt;strong&gt;RetryPolicy enhancements&lt;/strong&gt;: added &lt;code&gt;exponentialBackoff&lt;/code&gt; support — thanks &lt;strong&gt;@Sarvesh-11&lt;/strong&gt;&lt;br /&gt;
+- &lt;strong&gt;OpenID Connect (OIDC) authentication&lt;/strong&gt; for the Web UI — thanks &lt;strong&gt;@Arvintian&lt;/strong&gt;&lt;br /&gt;
+- &lt;strong&gt;Partial Success&lt;/strong&gt; status at the step level (feedback from &lt;strong&gt;@ghansham&lt;/strong&gt;)&lt;br /&gt;
+- &lt;strong&gt;Distributed workflow execution&lt;/strong&gt; via worker processes&lt;br /&gt;
+- Ability to specify &lt;strong&gt;multiple e‑mail recipients&lt;/strong&gt; for notifications&lt;br /&gt;
+- &lt;strong&gt;Redundant scheduler&lt;/strong&gt; support (multiple scheduler instances)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;
+- Fixed maximum‑size setting for &lt;strong&gt;output capture&lt;/strong&gt;&lt;br /&gt;
+- Refined the &lt;strong&gt;Web UI sidebar&lt;/strong&gt; (feedback from &lt;strong&gt;@ghansham&lt;/strong&gt;)&lt;br /&gt;
+- &lt;strong&gt;Dependency upgrades&lt;/strong&gt; — thanks &lt;strong&gt;@reneleonhardt&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;
+- Installation script corrections — thanks &lt;strong&gt;@Sarvesh-11&lt;/strong&gt;&lt;br /&gt;
+- Fixed DAG list sorting issue in the Web UI (feedback from &lt;strong&gt;@ghansham&lt;/strong&gt;)&lt;br /&gt;
+- Various minor fixes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New Contributors&lt;/strong&gt;
+- &lt;strong&gt;@Sarvesh-11&lt;/strong&gt; — first contribution: &lt;a href="https://github.com/dagu-org/dagu/pull/1091"&gt;https://github.com/dagu-org/dagu/pull/1091&lt;/a&gt;&lt;br /&gt;
+- &lt;strong&gt;@reneleonhardt&lt;/strong&gt; — first contribution: &lt;a href="https://github.com/dagu-org/dagu/pull/1127"&gt;https://github.com/dagu-org/dagu/pull/1127&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog:&lt;/strong&gt; &lt;a href="https://github.com/dagu-org/dagu/compare/v1.17.4...v1.18.0"&gt;https://github.com/dagu-org/dagu/compare/v1.17.4...v1.18.0&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.18.0" rel="alternate"/>
   </entry>
 </feed>
