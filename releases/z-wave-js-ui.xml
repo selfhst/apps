@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Z-Wave JS UI Releases</title>
-  <updated>2025-07-30T10:32:12.618388-04:00</updated>
+  <updated>2025-07-30T11:32:10.037843-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -93,6 +93,10 @@
       <name>zwave-js/zwave-js-ui</name>
     </author>
     <content>&lt;h1&gt;&lt;a href="https://github.com/zwave-js/zwave-js-ui/compare/v10.11.0...v11.0.0"&gt;11.0.0&lt;/a&gt; (2025-07-30)&lt;/h1&gt;
+&lt;p&gt;🚀 Major UI Overhaul! 🎉&lt;/p&gt;
+&lt;p&gt;This release brings a complete redesign of the user interface, now built with the shiny new Vue 3 + Vuetify 3 stack! ✨&lt;/p&gt;
+&lt;p&gt;While I worked hard to ensure a smooth upgrade with no breaking changes on your side, the sheer number of improvements and changes made this the perfect moment for a major version bump 🔧📦&lt;/p&gt;
+&lt;p&gt;Get ready for a faster, cleaner, and more modern experience — you’ll love it! 🔥&lt;/p&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ui:&lt;/strong&gt; nodes manager name/location step disabled next (&lt;a href="https://github.com/zwave-js/zwave-js-ui/commit/ac7dc4d445ae18c41be1d89ee517ea2041a80249"&gt;ac7dc4d&lt;/a&gt;)&lt;/li&gt;
