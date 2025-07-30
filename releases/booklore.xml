@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BookLore Releases</title>
-  <updated>2025-07-30T02:36:28.342634-04:00</updated>
+  <updated>2025-07-30T03:36:46.501020-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -15,7 +15,7 @@
     <title>New release for BookLore: Release v0.32.3</title>
     <updated>2025-07-10T12:32:28-04:00</updated>
     <author>
-      <name>adityachandelgit/BookLore</name>
+      <name>booklore-app/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -39,7 +39,7 @@
     <title>New release for BookLore: Release v0.33.0</title>
     <updated>2025-07-14T15:26:49-04:00</updated>
     <author>
-      <name>adityachandelgit/BookLore</name>
+      <name>booklore-app/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;p&gt;This release brings a major upgrade to the metadata editing workflow in Booklore. Previously, bulk metadata refresh was a blind operation, you’d hit refresh and hope for the best. Now, you’re in control.&lt;/p&gt;
@@ -82,7 +82,7 @@
     <title>New release for BookLore: Release v0.34.0</title>
     <updated>2025-07-19T18:17:45-04:00</updated>
     <author>
-      <name>adityachandelgit/BookLore</name>
+      <name>booklore-app/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Introducing Bookdrop: Effortless, Automated Book Imports&lt;/strong&gt;&lt;/p&gt;
@@ -124,7 +124,7 @@
     <title>New release for BookLore: Release v0.34.1</title>
     <updated>2025-07-22T01:57:50-04:00</updated>
     <author>
-      <name>adityachandelgit/BookLore</name>
+      <name>booklore-app/BookLore</name>
     </author>
     <content>&lt;h2&gt;&lt;strong&gt;📘 Official Documentation Now Live!&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -161,7 +161,7 @@
     <title>New release for BookLore: Release v0.35.0</title>
     <updated>2025-07-28T10:20:30-04:00</updated>
     <author>
-      <name>adityachandelgit/BookLore</name>
+      <name>booklore-app/BookLore</name>
     </author>
     <content>&lt;h2&gt;🌟 Changes in this release:&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;✨ Introducing Magic Shelves: Dynamic, Rule-Based Smart Collections ✨&lt;/strong&gt;&lt;/p&gt;
