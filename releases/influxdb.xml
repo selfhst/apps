@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InfluxDB Releases</title>
-  <updated>2025-07-29T20:32:27.139876-04:00</updated>
+  <updated>2025-07-29T21:32:26.657643-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -70,7 +70,7 @@ Ensured consistent sorting of iox table schema for SHOW TABLES command. [#26302]
     <author>
       <name>influxdata/influxdb</name>
     </author>
-    <content>&lt;p&gt;In addition to the list of changes below, please also see the [official release notes] (https://docs.influxdata.com/influxdb/v2.7/reference/release-notes/influxdb/) for other important information about this release.&lt;/p&gt;
+    <content>&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href="https://docs.influxdata.com/influxdb/v2.7/reference/release-notes/influxdb/"&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;
 &lt;h2&gt;v2.7.12 [2025/05/15]&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;h3&gt;Bug Fixes&lt;/h3&gt;
