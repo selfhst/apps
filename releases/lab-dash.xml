@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Lab Dash Releases</title>
-  <updated>2025-07-30T12:36:54.626067-04:00</updated>
+  <updated>2025-07-30T13:37:04.597364-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -31,7 +31,9 @@
     <author>
       <name>AnthonyGress/lab-dash</name>
     </author>
-    <content>&lt;ul&gt;
+    <content>&lt;h2&gt;What's changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;allow spaces in page names&lt;/li&gt;
 &lt;li&gt;add Sonarr queue management widget&lt;/li&gt;
 &lt;li&gt;add Radarr queue management widget&lt;/li&gt;
 &lt;li&gt;add SABnzbd support&lt;/li&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Plane Releases</title>
-  <updated>2025-07-30T12:33:22.389292-04:00</updated>
+  <updated>2025-07-30T13:33:26.437114-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -159,7 +159,7 @@ Starting with version &lt;code&gt;v0.26.0&lt;/code&gt;, you must set either &lt;
 &lt;p&gt;When upgrading to Community Edition v0.28.0:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For Kubernetes deployments, use Helm chart v1.2.0&lt;/li&gt;
-&lt;li&gt;For Docker deployments, ensure you're using the latest version of Docker Compose.&lt;/li&gt;
+&lt;li&gt;For Docker deployments, ensure you're using the latest version of &lt;strong&gt;Docker Compose File&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;🔗 &lt;strong&gt;Copy comment URLs&lt;/strong&gt;&lt;/h3&gt;
