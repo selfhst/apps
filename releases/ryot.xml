@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-07-30T13:31:48.944673-04:00</updated>
+  <updated>2025-07-30T14:31:49.823809-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -197,7 +197,8 @@
     <author>
       <name>IgnisDa/ryot</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+    <content>&lt;p&gt;This is the final v8 release. The changelog will be present in the release notes of the v9 release.&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/2441996a33cf67c6412a0853cf149cfa2bed2afc"&gt;2441996a&lt;/a&gt; - Final V8 release (#1498)&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/b57db8d3e4f62ce65cb1809e4dbd7d9207d99a99"&gt;b57db8d3&lt;/a&gt; - Customer purchases and cancelling (#1497)&lt;/li&gt;
