@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Grist Releases</title>
-  <updated>2025-07-31T13:32:07.096084-04:00</updated>
+  <updated>2025-07-31T14:32:07.272678-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -106,7 +106,7 @@
 &lt;ul&gt;
 &lt;li&gt;Widgets can now be duplicated, making it much easier to create page layouts that have similar underlying elements.&lt;/li&gt;
 &lt;li&gt;New formula functions: NETWORKDAYS function and string support fpr DATEDIF (thanks @scytacki)&lt;/li&gt;
-&lt;li&gt;There is now a "new record" button at the bottom of grid and detail views (thanks @manuhabitela)&lt;/li&gt;
+&lt;li&gt;There is now a "new record" button at the bottom of grid and detail views, gated behind an &lt;code&gt;?experiment=newRecordButton&lt;/code&gt; feature flag in the browser URL (thanks @manuhabitela)&lt;/li&gt;
 &lt;li&gt;Keyboard navigation has been improved (thanks @manuhabitela)&lt;/li&gt;
 &lt;li&gt;Sort ACL and code view tables and wrap ACL rules by (submitted by @davidmh72, shepherded by @georgegevoian)&lt;/li&gt;
 &lt;li&gt;Uploading attachments now shows a spinner (thanks @manuhabitela)&lt;/li&gt;
