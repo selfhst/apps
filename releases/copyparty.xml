@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-07-31T07:36:12.583660-04:00</updated>
+  <updated>2025-07-31T08:35:58.376937-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -254,7 +254,7 @@
 &lt;p&gt;there is a &lt;a href="https://discord.gg/25J8CdTT6G"&gt;discord server&lt;/a&gt; with an &lt;code&gt;@everyone&lt;/code&gt; in case of future important updates, such as &lt;a href="https://github.com/9001/copyparty/security"&gt;vulnerabilities&lt;/a&gt; (most recently 2025-07-28)&lt;/p&gt;
 &lt;h2&gt;recent important news&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/9001/copyparty/releases/tag/v1.18.7"&gt;v1.18.7 (2025-07-30)&lt;/a&gt; &lt;strong&gt;(PREVIOUS RELEASE)&lt;/strong&gt; fixed XSS in display of media tags&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/9001/copyparty/releases/tag/v1.18.7"&gt;v1.18.7 (2025-07-30)&lt;/a&gt; &lt;strong&gt;(PREVIOUS RELEASE)&lt;/strong&gt; fixed XSS in the recent-uploads page&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/9001/copyparty/releases/tag/v1.15.0"&gt;v1.15.0 (2024-09-08)&lt;/a&gt; changed upload deduplication to be default-disabled&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/9001/copyparty/releases/tag/v1.14.3"&gt;v1.14.3 (2024-08-30)&lt;/a&gt; fixed a bug that was introduced in v1.13.8 (2024-08-13); this bug could lead to &lt;strong&gt;data loss&lt;/strong&gt; -- see the v1.14.3 release-notes for details&lt;/li&gt;
 &lt;/ul&gt;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-07-31T07:30:30.075120-04:00</updated>
+  <updated>2025-07-31T08:30:30.071194-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -692,15 +692,21 @@
     <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.0" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/nocodb/nocodb/releases/tag/0.264.1</id>
-    <title>New release for NocoDB: 0.264.1: Bug Fix Release</title>
-    <updated>2025-07-30T07:56:09-04:00</updated>
+    <id>https://github.com/nocodb/nocodb/releases/tag/0.264.2</id>
+    <title>New release for NocoDB: 0.264.2: Bug Fix Release</title>
+    <updated>2025-07-31T07:47:06-04:00</updated>
     <author>
       <name>nocodb/nocodb</name>
     </author>
     <content>&lt;h2&gt;🐛 Closed Issues&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Nuxt loading indicator progress bar stuck in loading state if we expand record or close it &lt;a href="https://github.com/nocodb/nocodb/issues/11997"&gt;#11997&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: File Attachments Disappeared | Backblaze B2 Integration &lt;a href="https://github.com/nocodb/nocodb/issues/11995"&gt;#11995&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: API Endpoint for creating bases &lt;a href="https://github.com/nocodb/nocodb/issues/11990"&gt;#11990&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Missing array functions in formula field &lt;a href="https://github.com/nocodb/nocodb/issues/11953"&gt;#11953&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: linux binary "Error sending email. Cannot find package 'react-dom'" &lt;a href="https://github.com/nocodb/nocodb/issues/11947"&gt;#11947&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: Colouring records function is not apply to normal grid view &lt;a href="https://github.com/nocodb/nocodb/issues/11933"&gt;#11933&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;closed&lt;/strong&gt;] 🐛 Bug: The audit log is only available to super admins. &lt;a href="https://github.com/nocodb/nocodb/issues/11886"&gt;#11886&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
@@ -716,8 +722,15 @@
 &lt;li&gt;chore(nc-gui): add missing docs links by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/11999&lt;/li&gt;
 &lt;li&gt;do not filter undefined id attachments by @pranavxc in https://github.com/nocodb/nocodb/pull/12001&lt;/li&gt;
 &lt;li&gt;chore: Revert Dockerfile changes since it's breaking arm/v7 build by @pranavxc in https://github.com/nocodb/nocodb/pull/12002&lt;/li&gt;
+&lt;li&gt;fix(nc-gui): decimal cell data loss issue on keydown enter by @dstala in https://github.com/nocodb/nocodb/pull/12006&lt;/li&gt;
+&lt;li&gt;chore: post-release sync by @github-actions[bot] in https://github.com/nocodb/nocodb/pull/12005&lt;/li&gt;
+&lt;li&gt;fix: layout order randomizes by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/11996&lt;/li&gt;
+&lt;li&gt;Nc fix(nc-gui): percent progress bar issue in expanded form by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/12000&lt;/li&gt;
+&lt;li&gt;fix: Correct alias column handling in meta-sync by @pranavxc in https://github.com/nocodb/nocodb/pull/11987&lt;/li&gt;
+&lt;li&gt;Nc feat/on prem plan by @pranavxc in https://github.com/nocodb/nocodb/pull/12011&lt;/li&gt;
+&lt;li&gt;fix: attachment for oss add more strict condition for processing by @fendy3002 in https://github.com/nocodb/nocodb/pull/12010&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.264.0...0.264.1&lt;/p&gt;</content>
-    <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.1" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.264.0...0.264.2&lt;/p&gt;</content>
+    <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.2" rel="alternate"/>
   </entry>
 </feed>
