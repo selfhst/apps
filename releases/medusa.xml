@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Medusa Releases</title>
-  <updated>2025-07-31T02:31:20.050824-04:00</updated>
+  <updated>2025-07-31T03:31:23.368227-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -394,7 +394,7 @@ CMS_BREAK --&gt;
       <name>medusajs/medusa</name>
     </author>
     <content>&lt;!-- 
-![2-8-8](https://gh-release-images.s3.eu-north-1.amazonaws.com/install-medusa+(1).png)
+![2-8-8](https://gh-release-images.s3.eu-north-1.amazonaws.com/v2-8-8.png)
 
 # v2.8.8: Improved error logging and overall robustness of core
 
