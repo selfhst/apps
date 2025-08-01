@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Jelu Releases</title>
-  <updated>2025-08-01T16:36:42.754239-04:00</updated>
+  <updated>2025-08-01T17:36:39.133204-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -79,7 +79,15 @@
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;add custom lists &lt;a href="https://github.com/bayang/jelu/issues/170"&gt;#170&lt;/a&gt; (&lt;a href="https://github.com/bayang/jelu/commit/af9d37576a614646b5ead3b7253114bdccf83146"&gt;af9d375&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+&lt;h3&gt;remarks&lt;/h3&gt;
+&lt;p&gt;to create a custom list you need a name, a list of tags, an actionable flag and a public flag.&lt;/p&gt;
+&lt;p&gt;A public list is visible by anyone, even people without jelu accounts. 
+On an actionable list a checkbox is present and people can remove items from the list (useful in a shopping list or a wishlist for example, so that members of the family can remove what they bought for example).
+Books displayed in a list are the books that have all the tags you chose when you create the list.
+For example you can create a list with tags &lt;code&gt;science-fiction&lt;/code&gt; and &lt;code&gt;wishlist&lt;/code&gt;, all books with those tags will be displayed.
+Beware ! On an actionable list, when a user removes an item from the list the tags are removed from the book, so with the example above both the &lt;code&gt;science-fiction&lt;/code&gt; and the &lt;code&gt;wishlist&lt;/code&gt; tags will be removed.
+So maybe sometimes you will want to create a custom tag for one wishlist, eg &lt;code&gt;christmas-bob-2025&lt;/code&gt; and be done with it.&lt;/p&gt;</content>
     <link href="https://github.com/bayang/jelu/releases/tag/v0.72.0" rel="alternate"/>
   </entry>
 </feed>
