@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-08-01T13:31:46.231921-04:00</updated>
+  <updated>2025-08-01T14:31:46.172841-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -239,6 +239,7 @@
 &lt;li&gt;You can associate multiple watch providers with a seen history item.&lt;/li&gt;
 &lt;li&gt;Add support for tags in Sonarr and Radarr integrations. Please visit the docs for more information.&lt;/li&gt;
 &lt;li&gt;Update seen history items to accept exact timestamps (instead of just dates).&lt;/li&gt;
+&lt;li&gt;New pagination component for faster navigation, eg: collections with many items.&lt;/li&gt;
 &lt;li&gt;A lot of bug fixes, UI/UX updates and performance improvements...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
