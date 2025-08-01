@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Grist Releases</title>
-  <updated>2025-07-31T23:32:04.073925-04:00</updated>
+  <updated>2025-08-01T00:32:07.722416-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -84,6 +84,10 @@
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;You can now add Attachments fields to forms (thanks @mrdev023)&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; there is a known issue with uploading attachments from forms in some multi-server environments. This is fixed in &lt;a href="https://github.com/gristlabs/grist-core/releases/tag/v1.7.1"&gt;v1.7.1&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Widgets can now be duplicated, making it much easier to create page layouts that have similar underlying elements.&lt;/li&gt;
 &lt;li&gt;New formula functions: NETWORKDAYS function and string support fpr DATEDIF (thanks @scytacki)&lt;/li&gt;
 &lt;li&gt;There is now a "new record" button at the bottom of grid and detail views, gated behind an &lt;code&gt;?experiment=newRecordButton&lt;/code&gt; feature flag in the browser URL (thanks @manuhabitela)&lt;/li&gt;

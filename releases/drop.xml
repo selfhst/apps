@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Drop Releases</title>
-  <updated>2025-07-31T23:36:47.516519-04:00</updated>
+  <updated>2025-08-01T00:36:41.908181-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -98,5 +98,23 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drop-OSS/drop/compare/v0.2.0-beta...v0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/Drop-OSS/drop/releases/tag/v0.3.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Drop-OSS/drop/releases/tag/v0.3.1</id>
+    <title>New release for Drop: Hotfix v0.3.1</title>
+    <updated>2025-08-01T00:05:01-04:00</updated>
+    <author>
+      <name>Drop-OSS/drop</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Translations update from Weblate by @DecDuck in https://github.com/Drop-OSS/drop/pull/107&lt;/li&gt;
+&lt;li&gt;Code-based authorization for Drop clients by @DecDuck in https://github.com/Drop-OSS/drop/pull/145&lt;/li&gt;
+&lt;li&gt;Fix for undeleted games from library sources by @DecDuck in https://github.com/Drop-OSS/drop/pull/148&lt;/li&gt;
+&lt;li&gt;Bump version to v0.3.1 by @DecDuck in https://github.com/Drop-OSS/drop/pull/150&lt;/li&gt;
+&lt;li&gt;Hotfix v0.3.1 by @DecDuck in https://github.com/Drop-OSS/drop/pull/149&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drop-OSS/drop/compare/v0.3.0...v0.3.1&lt;/p&gt;</content>
+    <link href="https://github.com/Drop-OSS/drop/releases/tag/v0.3.1" rel="alternate"/>
   </entry>
 </feed>
