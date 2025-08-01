@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>MeTube Releases</title>
-  <updated>2025-08-01T10:33:22.744982-04:00</updated>
+  <updated>2025-08-01T11:33:16.688193-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -22,5 +22,18 @@
 &lt;li&gt;Support for &lt;code&gt;curl-cffi&lt;/code&gt; was added, to allow impersonating browser fingerprints.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/alexta69/metube/releases/tag/2025-07-27" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/alexta69/metube/releases/tag/2025.07.31</id>
+    <title>New release for MeTube: 2025.07.31</title>
+    <updated>2025-08-01T10:44:48-04:00</updated>
+    <author>
+      <name>alexta69/metube</name>
+    </author>
+    <content>&lt;ul&gt;
+&lt;li&gt;Change versions to be dot-separated (2025.07.31) instead of dash-separated (2025-07-27) for better compatibility with semver.&lt;/li&gt;
+&lt;li&gt;Fix the footer to the bottom of the page.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/alexta69/metube/releases/tag/2025.07.31" rel="alternate"/>
   </entry>
 </feed>
