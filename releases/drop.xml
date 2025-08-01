@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Drop Releases</title>
-  <updated>2025-07-31T22:36:56.074325-04:00</updated>
+  <updated>2025-07-31T23:36:47.516519-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -96,7 +96,7 @@
 &lt;li&gt;@Pacodastre made their first contribution in https://github.com/Drop-OSS/drop/pull/46&lt;/li&gt;
 &lt;li&gt;@dependabot[bot] made their first contribution in https://github.com/Drop-OSS/drop/pull/140&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drop-OSS/drop/compare/v0.1.0-beta...v0.3.0&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/Drop-OSS/drop/compare/v0.2.0-beta...v0.3.0&lt;/p&gt;</content>
     <link href="https://github.com/Drop-OSS/drop/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
