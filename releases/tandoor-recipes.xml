@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Tandoor Recipes Releases</title>
-  <updated>2025-08-01T11:31:55.411428-04:00</updated>
+  <updated>2025-08-01T12:31:57.432996-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -65,7 +65,7 @@
 - a very &lt;strong&gt;strong foundation&lt;/strong&gt; for future development by creating the framework needed to add new features faster and easier
 - fixes lots of smaller and larger bugs from Tandoor 1&lt;/p&gt;
 &lt;p&gt;Some of the highlights are
-- &lt;strong&gt;AI Recipe import&lt;/strong&gt; to import text, images and PDF recipes (see &lt;a href="https://github.com/TandoorRecipes/recipes/blob/feature/vue3/docs/system/configuration.md#ai-integration"&gt;temporary docs&lt;/a&gt;)
+- &lt;strong&gt;AI Recipe import&lt;/strong&gt; to import text, images and PDF recipes (see &lt;a href="https://docs.tandoor.dev/system/configuration/#ai-integration"&gt;docs&lt;/a&gt;)
 - A &lt;strong&gt;global search&lt;/strong&gt; to search for and open recipes on every page
 - A new &lt;strong&gt;start page&lt;/strong&gt; to discover recipes and quickly manage meal plans
 - The ability to manually add entries to the shopping list linked with meal plans for better organization/context 

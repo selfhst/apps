@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>YTPTube Releases</title>
-  <updated>2025-08-01T11:37:11.406880-04:00</updated>
+  <updated>2025-08-01T12:37:14.403459-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,12 +86,12 @@
     <author>
       <name>arabcoders/ytptube</name>
     </author>
-    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Update the pyinstaller build to include version number. by @arabcoders in https://github.com/arabcoders/ytptube/pull/358&lt;/li&gt;
-&lt;li&gt;fix windows build by @arabcoders in https://github.com/arabcoders/ytptube/pull/359&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/arabcoders/ytptube/compare/v0.6.2...v0.6.4&lt;/p&gt;</content>
+    <content>&lt;ul&gt;
+&lt;li&gt;c6535f0 Update the pyinstaller build to include version number. by @arabcoders&lt;/li&gt;
+&lt;li&gt;92a6101 Add exception catch for sub download task by @arabcoders&lt;/li&gt;
+&lt;li&gt;bac1a51 Do not register signals in non posix OS by @arabcoders&lt;/li&gt;
+&lt;li&gt;7e4fd51 fix windows build by @arabcoders&lt;/li&gt;
+&lt;/ul&gt;</content>
     <link href="https://github.com/arabcoders/ytptube/releases/tag/v0.6.4" rel="alternate"/>
   </entry>
 </feed>
