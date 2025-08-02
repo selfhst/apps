@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Wiki-Go Releases</title>
-  <updated>2025-08-02T15:36:56.816405-04:00</updated>
+  <updated>2025-08-02T16:36:49.473643-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -83,6 +83,68 @@
 &lt;li&gt;Fixes hamburger and breadcrumbs alignment on mobile (1b14843 by Amin Persia)&lt;/li&gt;
 &lt;li&gt;top navigation improvement on desktop (a5615db by Amin Persia)&lt;/li&gt;
 &lt;li&gt;Improves release binaries dev workflow (89b1271 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;bugfix - mac hoktkey support #85 (23b59cf by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Removes drag handle icon and minor css changes (e12a8c0 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Changes task and column save status to only show errors #84 (5dc4b5e by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Improves column "saved" notification #84 (624c798 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Improves task item's "saved" notification #84 (f4e990a by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds dynamic tooltip keyboard shortcuts #85 (f4db4fe by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds mac hotkey support #85 (b5eb673 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Moves all hotkeys to one place (65cd928 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Updates mermaid to 11.8.1 (f610ea6 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes dragging tasks with images displaying very large (190708d by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes double slashes in local file paths for images (f14e905 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes renaming task with image not displaying correctly (4286183 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds strikethrough text support to kanban tasks (66ae7dd by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes task acion icons visibility #78 (b77f89c by Amin Persia)&lt;/li&gt;
+&lt;li&gt;More consistent naming for workflows (33ccda5 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Removes github release from release-docker-dev.yml (62e9ef9 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Moves back kanban examples to get started (322984f by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Minor changes to the demo site (cc583cc by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Merge pull request #75 from leomoon-studios/dev (832aa98 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds dockerhub dev release workflow (739fc10 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Minor css fix for highlight in edit mode (7747036 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes kanban pages not having docPath in the markdown preprocessor This is need to render the images/attachments correctly (c4c0113 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes file view button renaming instead (ae9499a by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Refactors editor.js to use modular architecture (b117461 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes some translations not working becuase they were hardcoded (650df15 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fix - corrects Kanban terminology - columns are not boards (8a1f23d by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Seperates add board dialog from base template (f8353bb by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Updates documentation (e2e0975 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds support for multiple columns with same name in one kanban (477cb28 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds document type selection to new document dialog Markdown and Kanban for now Translations done by ChatGPT (73bc4f9 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds missing translations for kanban column deletion using ChatGPT (d5b39c0 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds support for kanban column deletion (e062d15 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Minor style bugfix with kanban column rename (8798a65 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Bugfix: adds support for markdown between kanban boards (41abde6 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds kanban translations using ChatGPT (03a6a51 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds multiple kanban support (3607b74 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Hide task action buttons when editing (6022372 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Two fixes for kanban tasks - Adds highlight support - Fixes renaming a task with markdown content (f7bd40b by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds frontmatter highlighting to the editor (e61b655 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds highlight overlay mode to the editor (f48a1e6 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes task id mismatch (aeeec62 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Separates tasklist permissions into a shared file (a5e3da0 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Refactors kanban-live.js into multiple files (6d01908 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fix - stops task dragging when task is being renamed (44ead6e by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes content after kanban not rendering and getting deleted (2e259e5 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds advanced markdown support to kanban (ffe1abd by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Bugfix to save toggle state of newly added tasks This rewrites many parts of the kanban-live.js file to ensure that the toggle state of newly added tasks is saved correctly. (aa869d4 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds add/rename board functionality 2 (78d1d13 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds add/rename board functionality (1560135 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Bugfix to preserve markdown formatting when adding or renaming tasks (2f254c0 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Improves kanban styles (65ce6ab by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds logic to only include kanban css and js for kanban documents (01fa080 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds kanban task edit/delete buttons (6f98720 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds initial kanban live editing (d20b743 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Basic frontmatter with kanban support (66303d0 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fixes sitemap.xml generation to use correct http/https #74 (241b546 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds indicator for referenced files in files tab #56 (669715f by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Fix editor not showing in mobile landscape view #72 (6c2be94 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Adds development release workflow (c6b608b by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Updates config file for demo site (ec1ff4f by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Updates README and documentation for the demo site (922e819 by Amin Persia)&lt;/li&gt;
+&lt;li&gt;Rewrite of details plugin (9364cc4 by Amin Persia)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/leomoon-studios/wiki-go/releases/tag/v1.6.0" rel="alternate"/>
   </entry>

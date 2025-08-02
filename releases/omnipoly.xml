@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OmniPoly Releases</title>
-  <updated>2025-08-02T15:36:02.481455-04:00</updated>
+  <updated>2025-08-02T16:35:52.693553-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -30,5 +30,15 @@
     </author>
     <content>&lt;h3&gt;Changelog&lt;/h3&gt;</content>
     <link href="https://github.com/kWeglinski/OmniPoly/releases/tag/v0.12.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/kWeglinski/OmniPoly/releases/tag/v0.13.0</id>
+    <title>New release for OmniPoly: Release v0.13.0</title>
+    <updated>2025-08-02T16:27:25-04:00</updated>
+    <author>
+      <name>kWeglinski/OmniPoly</name>
+    </author>
+    <content>&lt;h3&gt;Changelog&lt;/h3&gt;</content>
+    <link href="https://github.com/kWeglinski/OmniPoly/releases/tag/v0.13.0" rel="alternate"/>
   </entry>
 </feed>
