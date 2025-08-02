@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-08-02T05:34:49.658881-04:00</updated>
+  <updated>2025-08-02T06:34:48.066550-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,7 +177,9 @@
     <author>
       <name>evcc-io/evcc</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;Breaking Change 🚨&lt;/h2&gt;
+&lt;p&gt;The REST API response format has changed. You might need to adjust external integrations. &lt;a href="https://docs.evcc.io/en/blog/2025/07/30/highlights-config-ui-feedin-ai#breaking-change-rest-api"&gt;Read more.&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;31d01bccd366a9d0a6e875c3afbe548f3000c8a3 Add Home Assistant Vehicle (#22594)&lt;/li&gt;
 &lt;li&gt;a8c16f28539ddc361c0ea95fe2e7561742741ed6 Add dedicated db cache table (#22650)&lt;/li&gt;
