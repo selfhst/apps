@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ryot Releases</title>
-  <updated>2025-08-02T09:31:43.617189-04:00</updated>
+  <updated>2025-08-02T10:31:45.404655-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -242,6 +242,7 @@
 &lt;li&gt;New pagination component for faster navigation, eg: collections with many items.&lt;/li&gt;
 &lt;li&gt;A lot of bug fixes, UI/UX updates and performance improvements...&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Note: This also includes release notes for &lt;code&gt;v9.0.1&lt;/code&gt; and &lt;code&gt;v9.0.2&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://github.com/IgnisDa/ryot/commit/95fb1c04f08ef5ae08d264c1fe52f253f2c9b789"&gt;95fb1c04&lt;/a&gt; - Ryot v9 (#1499)&lt;/li&gt;
