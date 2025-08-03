@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Trilium Notes Releases</title>
-  <updated>2025-08-03T03:33:43.011363-04:00</updated>
+  <updated>2025-08-03T04:33:38.677302-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -348,14 +348,13 @@ If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&
     <author>
       <name>TriliumNext/Trilium</name>
     </author>
-    <content>&lt;h1&gt;v0.97.2&lt;/h1&gt;
-&lt;blockquote&gt;
+    <content>&lt;blockquote&gt;
 &lt;p&gt;[!NOTE]
 Translations are now easily editable online via Weblate. If you wish to contribute to Trilium by translating to your native language, head on over to &lt;a href="https://hosted.weblate.org/engage/trilium/"&gt;our Weblate page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[!IMPORTANT]
 If you enjoyed this release, consider showing a token of appreciation by:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Pressing the “Star” button on &lt;a href="https://github.com/TriliumNext/Notes"&gt;GitHub&lt;/a&gt; (top-right).&lt;/li&gt;
+&lt;li&gt;Pressing the “Star” button on &lt;a href="https://github.com/TriliumNext/Trilium"&gt;GitHub&lt;/a&gt; (top-right).&lt;/li&gt;
 &lt;li&gt;Considering a one-time or recurrent donation to the &lt;a href="https://github.com/eliandoran"&gt;lead developer&lt;/a&gt; via &lt;a href="https://github.com/sponsors/eliandoran"&gt;GitHub Sponsors&lt;/a&gt; or &lt;a href="https://paypal.me/eliandoran"&gt;PayPal&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
