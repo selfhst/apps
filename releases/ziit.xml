@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Ziit Releases</title>
-  <updated>2025-08-03T15:37:12.671580-04:00</updated>
+  <updated>2025-08-03T16:37:08.070332-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -50,5 +50,34 @@
 &lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/481008ec48b8db613de8cb00f4e1ae3da73c7094"&gt;&lt;code&gt;481008e&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;NumberInput&lt;/strong&gt;: optimize increment/decrement logic and clean up SVG attributes by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/0PandaDEV/Ziit/releases/tag/v1.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/0PandaDEV/Ziit/releases/tag/v1.0.2</id>
+    <title>New release for Ziit: v1.0.2</title>
+    <updated>2025-08-03T16:31:51-04:00</updated>
+    <author>
+      <name>0PandaDEV/Ziit</name>
+    </author>
+    <content>&lt;h2&gt;[main] - 2025-08-03&lt;/h2&gt;
+&lt;h3&gt;:sparkles: New Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/8822ba679ca97762fccd6457951085cc45d355ab"&gt;&lt;code&gt;8822ba6&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;logout&lt;/strong&gt;: add logout functionality with keyboard shortcut to main page by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/7848a28c27be4c714a87a29a5b72437383391849"&gt;&lt;code&gt;7848a28&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;api&lt;/strong&gt;: add public API endpoints for stats and badge generation by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/5d892f549319061a7f0bd8069805652fb407118d"&gt;&lt;code&gt;5d892f5&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;pwa&lt;/strong&gt;: integrate PWA support with manifest and icons by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;:bug: Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/a6d5933248e66054037f69243ec0390462dc3bbf"&gt;&lt;code&gt;a6d5933&lt;/code&gt;&lt;/a&gt; - dev loading times due to lucide loading all icons by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;:recycle: Refactors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/cda52cb1fce9c34aee831266a765a4f2c4929c87"&gt;&lt;code&gt;cda52cb&lt;/code&gt;&lt;/a&gt; - migrate @waradu/keyboard to use nuxt composables by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/dc4edb11eeb28afd85cc790945fb5c091bd8444c"&gt;&lt;code&gt;dc4edb1&lt;/code&gt;&lt;/a&gt; - migration to nuxt 4 by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/874d7a2476a5195cfa47c66630e8664d963843d6"&gt;&lt;code&gt;874d7a2&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;api&lt;/strong&gt;: improve badge API path handling and query parameter extraction by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/90d2807e7ce36a5553989fec1a8ec80cbee4a633"&gt;&lt;code&gt;90d2807&lt;/code&gt;&lt;/a&gt; - change profile page to settings by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/0912c9381f7dbc050559de36a0616a4840a0740b"&gt;&lt;code&gt;0912c93&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;nuxt.config&lt;/strong&gt;: remove description from manifest by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0PandaDEV/Ziit/commit/23e40e047757b4c1a3fca87252c5070143550f05"&gt;&lt;code&gt;23e40e0&lt;/code&gt;&lt;/a&gt; - &lt;strong&gt;logging&lt;/strong&gt;: replace console.error with handleLog for consistent logging by &lt;a href="https://github.com/0PandaDEV"&gt;@0PandaDEV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/0PandaDEV/Ziit/releases/tag/v1.0.2" rel="alternate"/>
   </entry>
 </feed>
