@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Pulse Releases</title>
-  <updated>2025-08-04T16:37:47.614344-04:00</updated>
+  <updated>2025-08-04T17:37:35.281949-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -167,150 +167,91 @@
       <name>rcourtman/Pulse</name>
     </author>
     <content>&lt;h1&gt;⚠️ CRITICAL: DO NOT AUTO-UPDATE FROM v3.x ⚠️&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Pulse v4 is a COMPLETE REWRITE in Go. Auto-updating from v3.x will break your installation!&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;🛑 For v3.x Users - READ THIS FIRST&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; click the update button in your v3.x installation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DO NOT&lt;/strong&gt; use auto-update to upgrade to v4&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Manual migration is REQUIRED&lt;/strong&gt; - see instructions below&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr /&gt;
-&lt;h2&gt;🚀 Why v4 is Worth the Migration&lt;/h2&gt;
-&lt;h3&gt;Performance That Changes Everything&lt;/h3&gt;
-&lt;p&gt;| Metric | v3.x (Node.js) | v4.0.0 (Go) | Improvement |
-|--------|----------------|-------------|-------------|
-| Memory Usage | 90-150MB | 10-12MB | &lt;strong&gt;87% less&lt;/strong&gt; |
-| Startup Time | 8-12 seconds | 2-3 seconds | &lt;strong&gt;3x faster&lt;/strong&gt; |
-| CPU Usage (idle) | 3-5% | 0.1-0.3% | &lt;strong&gt;60% less&lt;/strong&gt; |
-| Container Size | 450MB+ | 45MB | &lt;strong&gt;10x smaller&lt;/strong&gt; |&lt;/p&gt;
-&lt;h3&gt;Enterprise-Grade Security&lt;/h3&gt;
-&lt;p&gt;🔒 &lt;strong&gt;NEW: Encrypted Credential Storage&lt;/strong&gt;
-- All Proxmox passwords and API tokens are now &lt;strong&gt;encrypted at rest&lt;/strong&gt;
-- Uses industry-standard AES-256-GCM encryption
-- Encryption keys are automatically generated and securely stored
-- No more plaintext passwords in config files!&lt;/p&gt;
-&lt;h3&gt;From Potato Hardware to Enterprise Reliability&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;This is a complete rewrite of Pulse from Python to Go. v3.x users MUST NOT auto-update to v4.x as it will break your installation.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;🚀 v4.0.0 - Complete Go Rewrite&lt;/h2&gt;
+&lt;p&gt;This is a complete rewrite of Pulse from Python to Go, bringing significant performance improvements, reduced resource usage, and a modern web interface.&lt;/p&gt;
+&lt;h3&gt;Migration Guide for v3 Users&lt;/h3&gt;
+&lt;p&gt;Please visit https://github.com/rcourtman/Pulse/wiki/v3-to-v4-Migration-Guide for detailed migration instructions.&lt;/p&gt;
+&lt;h3&gt;🐳 Docker Support&lt;/h3&gt;
+&lt;p&gt;Docker images are available for multiple architectures:
+- &lt;strong&gt;AMD64&lt;/strong&gt; (Intel/AMD servers)
+- &lt;strong&gt;ARM64&lt;/strong&gt; (64-bit ARM systems)
+- &lt;strong&gt;ARMv7&lt;/strong&gt; (32-bit ARM, including Raspberry Pi)&lt;/p&gt;
+&lt;h4&gt;Docker Tags&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Runs on anything&lt;/strong&gt;: Raspberry Pi Zero? Old NUC? No problem.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Rock-solid stability&lt;/strong&gt;: No more Node.js memory leaks or random crashes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Instant response&lt;/strong&gt;: WebSocket updates feel instantaneous&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lower power bills&lt;/strong&gt;: Measurable reduction in CPU usage = less watts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rcourtman/pulse:latest&lt;/code&gt; - Latest stable release (v4.0.0)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rcourtman/pulse:4&lt;/code&gt;, &lt;code&gt;rcourtman/pulse:4.0&lt;/code&gt;, &lt;code&gt;rcourtman/pulse:4.0.0&lt;/code&gt; - Version-specific tags&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rcourtman/pulse:v4.0.0&lt;/code&gt; - Full version tag&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Built for the Future&lt;/h3&gt;
+&lt;h4&gt;Docker Installation&lt;/h4&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Create data directory&lt;/h1&gt;
+&lt;p&gt;mkdir -p ~/pulse-data&lt;/p&gt;
+&lt;h1&gt;Run Pulse with Docker&lt;/h1&gt;
+&lt;p&gt;docker run -d \
+  --name pulse \
+  -p 7655:7655 \
+  -v ~/pulse-data:/data \
+  --restart unless-stopped \
+  rcourtman/pulse:latest
+```&lt;/p&gt;
+&lt;h3&gt;✨ What's New in v4&lt;/h3&gt;
+&lt;h4&gt;Complete Architecture Overhaul&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Single binary deployment&lt;/strong&gt;: No npm, no node_modules, just works&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Native performance&lt;/strong&gt;: Compiled Go vs interpreted JavaScript&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Modern architecture&lt;/strong&gt;: Clean separation of frontend/backend&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community-friendly&lt;/strong&gt;: Easier to contribute, understand, and extend&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: Rewritten from Python to Go&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: 10x faster startup, 5x lower memory usage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Binary&lt;/strong&gt;: Single static binary, no Python dependencies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: Switched from MySQL to embedded SQLite&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;🎯 Key Improvements&lt;/h2&gt;
-&lt;h3&gt;Security First&lt;/h3&gt;
+&lt;h4&gt;Modern Web Interface&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;✅ &lt;strong&gt;Encrypted storage&lt;/strong&gt; for all sensitive credentials&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;No plaintext passwords&lt;/strong&gt; anywhere in the system&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Secure by default&lt;/strong&gt; configuration&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Automatic key management&lt;/strong&gt; - no manual setup required&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React-based UI&lt;/strong&gt;: Fast, responsive, and mobile-friendly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time updates&lt;/strong&gt;: WebSocket-based live data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark mode&lt;/strong&gt;: Built-in theme support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile optimized&lt;/strong&gt;: Touch-friendly interface&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;For Home Labs&lt;/h3&gt;
+&lt;h4&gt;Enhanced Features&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Run Pulse on your weakest hardware without worry&lt;/li&gt;
-&lt;li&gt;Monitor 50+ nodes without breaking a sweat&lt;/li&gt;
-&lt;li&gt;Actual savings on electricity (yes, really)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better agent management&lt;/strong&gt;: Improved connection handling and status monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Faster alerting&lt;/strong&gt;: Sub-second alert detection and notification&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved storage monitoring&lt;/strong&gt;: More accurate disk usage tracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced process monitoring&lt;/strong&gt;: Better CPU and memory tracking&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;For Production&lt;/h3&gt;
+&lt;h4&gt;Installation Improvements&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Deploy with confidence - no runtime dependencies&lt;/li&gt;
-&lt;li&gt;Enterprise-grade credential security&lt;/li&gt;
-&lt;li&gt;Predictable resource usage under load&lt;/li&gt;
-&lt;li&gt;Better error handling and recovery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single binary&lt;/strong&gt;: Just download and run&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No dependencies&lt;/strong&gt;: No Python, pip, or MySQL required&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-update&lt;/strong&gt;: Built-in update mechanism (within v4.x versions)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-platform&lt;/strong&gt;: Linux (amd64, arm64, armv7), Docker support&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;For Everyone&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Faster UI&lt;/strong&gt;: React-based frontend with instant updates&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Better mobile&lt;/strong&gt;: Responsive design that actually works&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cleaner codebase&lt;/strong&gt;: Easier to customize and extend&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Active development&lt;/strong&gt;: Built on modern tech stack&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;📋 Migration Instructions&lt;/h2&gt;
-&lt;h3&gt;Step 1: Backup Your v3 Configuration&lt;/h3&gt;
+&lt;h3&gt;📦 Installation Methods&lt;/h3&gt;
+&lt;h4&gt;Direct Download&lt;/h4&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Download for your architecture&lt;/h1&gt;
+&lt;p&gt;wget https://github.com/rcourtman/Pulse/releases/download/v4.0.0/pulse-linux-amd64
+chmod +x pulse-linux-amd64
+./pulse-linux-amd64
+```&lt;/p&gt;
+&lt;h4&gt;Docker&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;bash
-cp /opt/pulse/.env /root/pulse-v3-backup.env&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Step 2: Stop v3&lt;/h3&gt;
+docker run -d -p 7655:7655 -v ~/pulse-data:/data rcourtman/pulse:latest&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;From Source&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;bash
-systemctl stop pulse.service&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Step 3: Install v4&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Option A - LXC (Recommended)&lt;/strong&gt;
-&lt;code&gt;bash
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/pulse.sh)"&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Option B - Manual Install&lt;/strong&gt;
-&lt;code&gt;bash
-cd /opt/pulse
-./install.sh&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Step 4: Configure v4&lt;/h3&gt;
-&lt;p&gt;The installer will guide you through setup. Your old config is preserved at &lt;code&gt;/opt/pulse/.env&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Step 5: Start v4&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;bash
-systemctl start pulse.service&lt;/code&gt;&lt;/p&gt;
-&lt;h3&gt;Step 6: Verify&lt;/h3&gt;
-&lt;p&gt;Visit &lt;code&gt;http://your-server:7655&lt;/code&gt; - you should see the new v4 interface!&lt;/p&gt;
-&lt;h3&gt;Step 7: Clean Up (Optional)&lt;/h3&gt;
-&lt;p&gt;Once v4 is working, you can remove old v3 files to save space.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;🔧 Technical Details&lt;/h2&gt;
-&lt;h3&gt;Architecture Comparison&lt;/h3&gt;
-&lt;p&gt;| Component | v3.x | v4.0.0 |
-|-----------|------|--------|
-| Backend Language | Node.js (JavaScript) | Go |
-| Frontend Framework | Vue.js 2 | React 18 |
-| Process Model | Single-threaded + Workers | Native concurrency |
-| Memory Management | Garbage collected (V8) | Garbage collected (Go) |
-| Deployment | npm packages + dependencies | Single binary |
-| Configuration | JSON files | UI-first, zero-config |
-| Credential Storage | Plaintext in .env | &lt;strong&gt;AES-256-GCM encrypted&lt;/strong&gt; |&lt;/p&gt;
-&lt;h3&gt;Zero-Configuration Philosophy&lt;/h3&gt;
-&lt;p&gt;v4 introduces a "zero-config" approach - everything is configurable through the UI:
-- No more editing JSON files
-- No more restarting for config changes
-- Settings persist across updates
-- Import/export for easy backup&lt;/p&gt;
-&lt;h3&gt;Security Architecture&lt;/h3&gt;
+git clone https://github.com/rcourtman/Pulse.git
+cd Pulse
+go build -o pulse cmd/server/main.go
+./pulse&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;🔄 Breaking Changes&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Encryption at Rest&lt;/strong&gt;: All credentials encrypted with AES-256-GCM&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Key Management&lt;/strong&gt;: Automatic key generation and secure storage&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Zero Trust&lt;/strong&gt;: No plaintext passwords in memory or disk&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Future Proof&lt;/strong&gt;: Ready for additional security features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Port change&lt;/strong&gt;: Default port changed from 5000 to 7655&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: MySQL replaced with SQLite (automatic migration not available)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API&lt;/strong&gt;: New RESTful API (v3 API endpoints deprecated)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configuration&lt;/strong&gt;: New JSON-based configuration format&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;📦 Downloads&lt;/h2&gt;
-&lt;h3&gt;Universal Package (Auto-detects architecture)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/rcourtman/Pulse/releases/download/v4.0.0/pulse-v4.0.0.tar.gz"&gt;pulse-v4.0.0.tar.gz&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Architecture-Specific&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/rcourtman/Pulse/releases/download/v4.0.0/pulse-v4.0.0-linux-amd64.tar.gz"&gt;pulse-v4.0.0-linux-amd64.tar.gz&lt;/a&gt; (Intel/AMD 64-bit)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/rcourtman/Pulse/releases/download/v4.0.0/pulse-v4.0.0-linux-arm64.tar.gz"&gt;pulse-v4.0.0-linux-arm64.tar.gz&lt;/a&gt; (ARM 64-bit)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/rcourtman/Pulse/releases/download/v4.0.0/pulse-v4.0.0-linux-armv7.tar.gz"&gt;pulse-v4.0.0-linux-armv7.tar.gz&lt;/a&gt; (ARM 32-bit)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;🤝 Support&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Issues&lt;/strong&gt;: &lt;a href="https://github.com/rcourtman/Pulse/issues"&gt;GitHub Issues&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Discord&lt;/strong&gt;: Join our community for migration help&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Coming soon&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;⚡ Quick Performance Test&lt;/h2&gt;
-&lt;p&gt;Want to see the difference? After installing v4:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Check memory: &lt;code&gt;ps aux | grep pulse&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;v3: ~100MB, v4: ~10MB&lt;/li&gt;
-&lt;li&gt;That's a 90% reduction! 🎉&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Remember&lt;/strong&gt;: This is a complete rewrite. Take your time with migration. Test in a non-critical environment first. Your v3 continues to work - there's no rush!&lt;/p&gt;</content>
+&lt;h3&gt;📝 Full Changelog&lt;/h3&gt;
+&lt;p&gt;For a detailed list of all changes, see &lt;a href="https://github.com/rcourtman/Pulse/blob/main/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;🙏 Thank You&lt;/h3&gt;
+&lt;p&gt;Thank you to all Pulse users for your patience during this major rewrite. Your feedback and support have been invaluable in making Pulse better.&lt;/p&gt;</content>
     <link href="https://github.com/rcourtman/Pulse/releases/tag/v4.0.0" rel="alternate"/>
   </entry>
 </feed>
