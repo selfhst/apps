@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Warpgate Releases</title>
-  <updated>2025-08-04T13:36:12.861128-04:00</updated>
+  <updated>2025-08-04T14:36:08.480544-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -123,7 +123,7 @@
     </author>
     <content>&lt;h2&gt;Security fixes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;3c003fc - fixed &lt;a href="https://github.com/Eugeny/russh/security/advisories/GHSA-h5rc-j5f5-3gcm"&gt;GHSA-h5rc-j5f5-3gcm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3c003fc - fixed &lt;a href="https://github.com/Eugeny/russh/security/advisories/GHSA-h5rc-j5f5-3gcm"&gt;CVE-2025-54804&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;This vulnerability has allowed a malicious &lt;em&gt;authenticated&lt;/em&gt; client or target server to trigger a Rust panic in Warpgate and potentially cause a service restart&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Major changes&lt;/h2&gt;
