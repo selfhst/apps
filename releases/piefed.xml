@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>PieFed Releases</title>
-  <updated>2025-08-04T03:37:11.285951-04:00</updated>
+  <updated>2025-08-04T04:37:05.566804-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -19,5 +19,15 @@
     </author>
     <content/>
     <link href="https://codeberg.org/rimu/pyfedi/releases/tag/v1.0.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://codeberg.org/rimu/pyfedi/releases/tag/v1.1.0</id>
+    <title>New release for PieFed: v1.1.0</title>
+    <updated>2025-08-04T10:00:12+02:00</updated>
+    <author>
+      <name>rimu/pyfedi</name>
+    </author>
+    <content/>
+    <link href="https://codeberg.org/rimu/pyfedi/releases/tag/v1.1.0" rel="alternate"/>
   </entry>
 </feed>
