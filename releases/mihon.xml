@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mihon Releases</title>
-  <updated>2025-08-04T08:34:36.495990-04:00</updated>
+  <updated>2025-08-04T09:34:30.866307-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -365,7 +365,7 @@
     <author>
       <name>mihonapp/mihon</name>
     </author>
-    <content>&lt;p&gt;Check out the &lt;a href="https://github.com/mihonapp/mihon/releases"&gt;past release notes&lt;/a&gt; if you’re upgrading from an earlier version. Consider supporting us on &lt;a href="https://opencollective.com/mihon/contribute"&gt;Open Collective&lt;/a&gt; to help keep Mihon improving!&lt;/p&gt;
+    <content>&lt;p&gt;Check out the &lt;a href="https://github.com/mihonapp/mihon/releases"&gt;past release notes&lt;/a&gt; if you’re upgrading from an earlier version. Consider &lt;a href="https://opencollective.com/mihon/contribute"&gt;donating via Open Collective&lt;/a&gt; to help keep Mihon improving!&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;✨ New Features&lt;/h3&gt;
 &lt;ul&gt;
