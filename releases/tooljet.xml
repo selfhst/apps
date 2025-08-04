@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ToolJet Releases</title>
-  <updated>2025-08-04T12:32:36.886011-04:00</updated>
+  <updated>2025-08-04T13:32:41.369077-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1049,5 +1049,36 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.0.31-ce-lts...v3.16.0-lts&lt;/p&gt;</content>
     <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.16.0-lts" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ToolJet/ToolJet/releases/tag/v3.16.1-lts</id>
+    <title>New release for ToolJet: v3.16.1-lts</title>
+    <updated>2025-08-04T13:08:31-04:00</updated>
+    <author>
+      <name>ToolJet/ToolJet</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix: Postgresql dependence issue in try tooljet dockerfile by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13624&lt;/li&gt;
+&lt;li&gt;fix: postgresql issue in try tooljet by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13626&lt;/li&gt;
+&lt;li&gt;fix: AMI packer workflow and branch name correction in the ec2 setup file by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13627&lt;/li&gt;
+&lt;li&gt;[dependency PR] Workflow TJDB-Styling fixes by @shah21 in https://github.com/ToolJet/ToolJet/pull/13638&lt;/li&gt;
+&lt;li&gt;fix: workflow query-run and preview isn't working by @shah21 in https://github.com/ToolJet/ToolJet/pull/13637&lt;/li&gt;
+&lt;li&gt;Bugfixes/branch 13 platform by @rohanlahori in https://github.com/ToolJet/ToolJet/pull/13633&lt;/li&gt;
+&lt;li&gt;CSS Fixes by @rudeUltra in https://github.com/ToolJet/ToolJet/pull/13646&lt;/li&gt;
+&lt;li&gt;Fix for email secure port logics by @gsmithun4 in https://github.com/ToolJet/ToolJet/pull/13651&lt;/li&gt;
+&lt;li&gt;Fix module on drag disappearing by @nakulnagargade in https://github.com/ToolJet/ToolJet/pull/13634&lt;/li&gt;
+&lt;li&gt;fix: prevent crash when allowedDecimalPlaces is 0 by @johnsoncherian in https://github.com/ToolJet/ToolJet/pull/13629&lt;/li&gt;
+&lt;li&gt;Bug fixes by @shaurya-sharma064 in https://github.com/ToolJet/ToolJet/pull/13636&lt;/li&gt;
+&lt;li&gt;fix: Ensure onRowClicked event is fired even when row selection is disabled by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13640&lt;/li&gt;
+&lt;li&gt;fix: Improve action column width calculation by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13648&lt;/li&gt;
+&lt;li&gt;fix: Update accessor key for cell value retrieval in generateColumnData function by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13652&lt;/li&gt;
+&lt;li&gt;Release/lts 3.16.1 by @johnsoncherian in https://github.com/ToolJet/ToolJet/pull/13631&lt;/li&gt;
+&lt;li&gt;Revert "chore: version bump" by @johnsoncherian in https://github.com/ToolJet/ToolJet/pull/13658&lt;/li&gt;
+&lt;li&gt;Fix: Pages navigation and canvas overflow issues by @vjaris42 in https://github.com/ToolJet/ToolJet/pull/13657&lt;/li&gt;
+&lt;li&gt;Adds comprehensive overflow management and box-sizing constraints to prevent content spillover and layout issues across both rendering modes. by @vjaris42 in https://github.com/ToolJet/ToolJet/pull/13656&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.16.0-lts...v3.16.1-lts&lt;/p&gt;</content>
+    <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.16.1-lts" rel="alternate"/>
   </entry>
 </feed>
