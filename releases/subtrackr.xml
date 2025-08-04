@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Subtrackr Releases</title>
-  <updated>2025-08-03T19:37:15.198941-04:00</updated>
+  <updated>2025-08-03T20:37:15.966948-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -131,5 +131,113 @@ Speaking of which, were now listed in &lt;a href="https://selfh.st/apps/?search=
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/bscott/subtrackr/compare/v0.1.0...v0.2.0&lt;/p&gt;</content>
     <link href="https://github.com/bscott/subtrackr/releases/tag/v0.2.0" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/bscott/subtrackr/releases/tag/v0.3.0</id>
+    <title>New release for Subtrackr: v0.3.0 - Dynamic Categories System</title>
+    <updated>2025-08-03T19:42:17-04:00</updated>
+    <author>
+      <name>bscott/subtrackr</name>
+    </author>
+    <content>&lt;p&gt;Migration Required; Please read the full release notes before upgrading!&lt;/p&gt;
+&lt;h2&gt;🎉 Highlights&lt;/h2&gt;
+&lt;p&gt;This release introduces a powerful &lt;strong&gt;Dynamic Categories System&lt;/strong&gt; that allows users to create, edit, and manage their own subscription categories. A huge thank you to &lt;a href="https://github.com/Klick3R-1"&gt;@Klick3R-1&lt;/a&gt; for the excellent PR (#22) that made this feature possible! 🙏&lt;/p&gt;
+&lt;h2&gt;✨ New Features&lt;/h2&gt;
+&lt;h3&gt;Dynamic Categories System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom Categories&lt;/strong&gt;: Create, edit, and delete your own categories through the Settings page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category Management UI&lt;/strong&gt;: Intuitive interface for managing categories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smart Validation&lt;/strong&gt;: Categories with active subscriptions cannot be deleted&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-Migration&lt;/strong&gt;: Existing subscriptions automatically migrate to the new system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Extended Schedule Options&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for &lt;strong&gt;Weekly&lt;/strong&gt; subscriptions (billed every 7 days)&lt;/li&gt;
+&lt;li&gt;Added support for &lt;strong&gt;Daily&lt;/strong&gt; subscriptions (billed every day)&lt;/li&gt;
+&lt;li&gt;Improved cost calculations for all schedule types&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Database Migration System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New extensible migration framework for smooth upgrades&lt;/li&gt;
+&lt;li&gt;Automatic schema updates without data loss&lt;/li&gt;
+&lt;li&gt;Future-proof architecture for upcoming features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔄 Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;API Changes&lt;/h3&gt;
+&lt;p&gt;The API now uses `category_id` instead of `category` string:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Before (v0.2.x):&lt;/strong&gt;
+```json
+{
+  "name": "Netflix",
+  "category": "Entertainment"
+}
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;After (v0.3.0):&lt;/strong&gt;
+```json
+{
+  "name": "Netflix",
+  "category_id": 1
+}
+```&lt;/p&gt;
+&lt;p&gt;To get available categories:
+```bash
+curl http://localhost:8080/api/categories
+```&lt;/p&gt;
+&lt;h2&gt;🛠️ Technical Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Proper foreign key relationships between subscriptions and categories&lt;/li&gt;
+&lt;li&gt;Enhanced data integrity with referential constraints&lt;/li&gt;
+&lt;li&gt;Improved repository pattern with category preloading&lt;/li&gt;
+&lt;li&gt;Better error handling for category operations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📋 Default Categories&lt;/h2&gt;
+&lt;p&gt;On first run after upgrade, these categories are automatically created:
+- Entertainment
+- Productivity
+- Storage
+- Software
+- Fitness
+- Education
+- Food
+- Travel
+- Business
+- Other&lt;/p&gt;
+&lt;h2&gt;🚀 Upgrading&lt;/h2&gt;
+&lt;p&gt;Please see &lt;a href="https://github.com/bscott/subtrackr/blob/v0.3.0/MIGRATION_v0.3.0.md"&gt;MIGRATION_v0.3.0.md&lt;/a&gt; for detailed upgrade instructions.&lt;/p&gt;
+&lt;h3&gt;Quick Upgrade Steps:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Backup your data (Settings → Create Backup)&lt;/li&gt;
+&lt;li&gt;Pull the v0.3.0 release&lt;/li&gt;
+&lt;li&gt;Restart SubTrackr&lt;/li&gt;
+&lt;li&gt;Verify your subscriptions and categories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;🙏 Contributors&lt;/h2&gt;
+&lt;p&gt;Special thanks to:
+- &lt;a href="https://github.com/Klick3R-1"&gt;@Klick3R-1&lt;/a&gt; - Dynamic categories system implementation (#22)&lt;/p&gt;
+&lt;h2&gt;📝 Full Changelog&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic categories with CRUD operations&lt;/li&gt;
+&lt;li&gt;Category management UI in settings&lt;/li&gt;
+&lt;li&gt;Weekly and Daily schedule options&lt;/li&gt;
+&lt;li&gt;Database migration system&lt;/li&gt;
+&lt;li&gt;Category deletion validation&lt;/li&gt;
+&lt;li&gt;Migration documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;API now uses category_id instead of category string&lt;/li&gt;
+&lt;li&gt;Improved cost calculations for all schedule types&lt;/li&gt;
+&lt;li&gt;Enhanced subscription forms with dynamic category selection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule validation now includes all schedule types&lt;/li&gt;
+&lt;li&gt;Proper handling of category relationships&lt;/li&gt;
+&lt;li&gt;Migration of existing data to new schema&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/bscott/subtrackr/compare/v0.2.0...v0.3.0"&gt;v0.2.0...v0.3.0&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bscott/subtrackr/releases/tag/v0.3.0" rel="alternate"/>
   </entry>
 </feed>
