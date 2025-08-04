@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-08-04T05:36:32.550389-04:00</updated>
+  <updated>2025-08-04T06:37:02.939470-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -244,7 +244,59 @@ rm migrate_docker_28.2.0.sh&lt;/code&gt;&lt;/p&gt;
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release introduces new machine management commands (&lt;code&gt;rm&lt;/code&gt;, &lt;code&gt;rename&lt;/code&gt;, &lt;code&gt;update&lt;/code&gt;) and extends Docker Compose support.
+Also, includes important bug fixes for machines using UFW firewall and race conditions during cluster initialisation.&lt;/p&gt;
+&lt;p&gt;✨ We also launched a new blog and published our first post: &lt;a href="https://uncloud.run/blog/connect-docker-containers-across-hosts-wireguard"&gt;How to connect Docker containers across multiple hosts with WireGuard&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Upgrade to 0.10.0&lt;/h2&gt;
+&lt;h3&gt;Uncloud CLI locally&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud CLI (&lt;code&gt;uc&lt;/code&gt;) locally:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Homebrew (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;brew upgrade uncloud&lt;/p&gt;
+&lt;h1&gt;Install script (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;curl -fsS https://get.uncloud.run/install.sh | sh
+```&lt;/p&gt;
+&lt;h3&gt;Machine daemon&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud daemon on your machines, run the following commands on each machine:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;AMD64&lt;/h1&gt;
+&lt;p&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.10.0/uncloudd_linux_amd64.tar.gz&lt;/p&gt;
+&lt;h1&gt;ARM64&lt;/h1&gt;
+&lt;h1&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.10.0/uncloudd_linux_arm64.tar.gz&lt;/h1&gt;
+&lt;p&gt;tar -xf uncloudd.tar.gz
+sudo install uncloudd /usr/local/bin/uncloudd
+rm uncloudd uncloudd.tar.gz
+sudo systemctl restart uncloud
+```&lt;/p&gt;
+&lt;h2&gt;New features&lt;/h2&gt;
+&lt;h3&gt;Machine management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;uc machine rm&lt;/code&gt; command to remove machines from the cluster and reset them to a clean state.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;uc machine rename&lt;/code&gt; command to rename machines.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;uc machine update&lt;/code&gt; command to update a public IP address of a machine used for registering machines in Uncloud DNS service (&lt;code&gt;uc dns&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Docker Compose enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for &lt;code&gt;x-machines&lt;/code&gt; placement constraints in Compose files, allowing you to control which machines services are deployed to (#90).&lt;/li&gt;
+&lt;li&gt;Containers with &lt;code&gt;pull_policy: always&lt;/code&gt; are now properly recreated on deployment to ensure the latest image is used (#100).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bug fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed machine initialisation when UFW firewall is active by properly allowing IPv6 management traffic (#65).&lt;/li&gt;
+&lt;li&gt;Resolved race condition during cluster initialisation by waiting for the corrosion service to be ready with schema applied (#89).&lt;/li&gt;
+&lt;li&gt;Fixed race condition that could occur during Docker network creation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Disabled masquerading for container IPs when communicating via WireGuard overlay network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;Special thanks to our contributors for this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;@OrlovEvgeny - Multiple features including machine management and placement constraints&lt;/li&gt;
+&lt;li&gt;@tonyo - Linting configuration and Docker Compose enhancements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;da3634b690eb4917bae03d4cc0b763152fed729d E2E tests use repeated strings for test data where constants add no value (#97)&lt;/li&gt;
 &lt;li&gt;2d73b541c52da6808af6d6c6caf64dd26a510008 blog: proof read WireGuard overlay post, update blog description tag&lt;/li&gt;
