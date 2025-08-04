@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ZTNET Releases</title>
-  <updated>2025-08-04T07:33:30.193308-04:00</updated>
+  <updated>2025-08-04T08:33:38.254168-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -155,7 +155,11 @@
     <author>
       <name>sinamics/ztnet</name>
     </author>
-    <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
+    <content>&lt;h2&gt;⚠️ Warning – Potential Loss of Node Names After Update&lt;/h2&gt;
+&lt;p&gt;Some users have experienced loss of node names after updating from an earlier version of ZTNet.&lt;br /&gt;
+It is &lt;strong&gt;recommended to wait&lt;/strong&gt; for the next version release before updating to avoid this issue.&lt;/p&gt;
+&lt;p&gt;More details: https://github.com/sinamics/ztnet/issues/719&lt;/p&gt;
+&lt;h2&gt;Release Notes&lt;/h2&gt;
 &lt;h2&gt;🛡️ Ztnet&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix: Handle orphaned network members gracefully (#670)&lt;/li&gt;
