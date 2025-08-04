@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Gitea Releases</title>
-  <updated>2025-08-04T18:30:56.195936-04:00</updated>
+  <updated>2025-08-04T19:30:54.266868-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -547,8 +547,17 @@
       <name>go-gitea/gitea</name>
     </author>
     <content>&lt;ul&gt;
-&lt;li&gt;BUGFIXES   * Fix various bugs (1.24) (#35186)   * Fix migrate input box bug (#35166) (#35171)   * Only hide dropzone when no files have been uploaded (#35156) (#35167)   * Fix review comment/dimiss comment x reference can be refereced back (#35094) (#35099)   * Fix submodule nil check (#35096) (#35098) * MISC   * Don't use full-file highlight when there is a git diff textconv (#35114) (#35119)   * Increase gap on latest commit (#35104) (#35113)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;BUGFIXES&lt;/li&gt;
+&lt;li&gt;Fix various bugs (1.24) (#35186)&lt;/li&gt;
+&lt;li&gt;Fix migrate input box bug (#35166) (#35171)&lt;/li&gt;
+&lt;li&gt;Only hide dropzone when no files have been uploaded (#35156) (#35167)&lt;/li&gt;
+&lt;li&gt;Fix review comment/dimiss comment x reference can be refereced back (#35094) (#35099)&lt;/li&gt;
+&lt;li&gt;Fix submodule nil check (#35096) (#35098)&lt;/li&gt;
+&lt;li&gt;MISC&lt;/li&gt;
+&lt;li&gt;Don't use full-file highlight when there is a git diff textconv (#35114) (#35119)&lt;/li&gt;
+&lt;li&gt;Increase gap on latest commit (#35104) (#35113)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instances on &lt;strong&gt;&lt;a href="https://cloud.gitea.com"&gt;Gitea Cloud&lt;/a&gt;&lt;/strong&gt; will be automatically upgraded to this version during the specified maintenance window.&lt;/p&gt;</content>
     <link href="https://github.com/go-gitea/gitea/releases/tag/v1.24.4" rel="alternate"/>
   </entry>
 </feed>
