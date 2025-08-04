@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Backrest Releases</title>
-  <updated>2025-08-03T20:33:04.878739-04:00</updated>
+  <updated>2025-08-03T21:33:06.870002-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -104,7 +104,6 @@
     </author>
     <content>&lt;h2&gt;&lt;a href="https://github.com/garethgeorge/backrest/compare/v1.8.1...v1.9.0"&gt;1.9.0&lt;/a&gt; (2025-08-04)&lt;/h2&gt;
 &lt;p&gt;Backrest 1.9.0 comes with a number of bug fixes and some minor quality of life improvements (improved resiliance to retry warnings printed by restic during long running operations, tweaked layout for snapshot details and backup details panel, improved reliability loading the dashboard view). &lt;/p&gt;
-&lt;p&gt;Backrest now uses a wrapper script&lt;/p&gt;
 &lt;p&gt;Under the hood support for a sync API ui is added but flagged off for this release, aiming to enable this in 1.10.0.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
