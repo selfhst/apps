@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>evcc Releases</title>
-  <updated>2025-08-04T11:35:08.078476-04:00</updated>
+  <updated>2025-08-04T12:35:06.521441-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -160,7 +160,6 @@
 &lt;li&gt;97189dc7891353dcaca92f7560f2acacce131dc6 Config UI: allow repairing broken loadpoints and site (#22671)&lt;/li&gt;
 &lt;li&gt;dc4f80b055bcda2969f127b709518abff769e8fe Config UI: improve sponsor communication (#22683)&lt;/li&gt;
 &lt;li&gt;3a80e9b3eef6df488ef299350684c6fa1bbf3a7c Daheimladen: add enable/disable delay (#22695)&lt;/li&gt;
-&lt;li&gt;7d3869ace6e7190f5bc17060f04180a580619cf4 Docs: document watchdog (#22715)&lt;/li&gt;
 &lt;li&gt;fa718be38d7ba51cc374e05ea2883e8a28b62b0e Home Assistant Vehicle: include common vehicle parameters (#22727)&lt;/li&gt;
 &lt;li&gt;c73c1d9204806e0f8b87ed63a50382ee97360247 Kia/Hyundai: fix login api (#22709)&lt;/li&gt;
 &lt;li&gt;6f65584e8748950525801841ae25fd9c7c0bedae Ocpp: fix connector not de-registered (#22113)&lt;/li&gt;
