@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DocuSeal Releases</title>
-  <updated>2025-08-05T03:30:47.668530-04:00</updated>
+  <updated>2025-08-05T04:30:46.688618-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -52,7 +52,7 @@
     <author>
       <name>docusealco/docuseal</name>
     </author>
-    <content>&lt;p&gt;🛠 Make it possible to choose fields via the template preferences that can be prefilled in the signature request form&lt;/p&gt;</content>
+    <content>&lt;p&gt;🆕 Make it possible to choose fields via the template preferences that can be prefilled in the signature request form&lt;/p&gt;</content>
     <link href="https://github.com/docusealco/docuseal/releases/tag/2.0.9" rel="alternate"/>
   </entry>
   <entry>
@@ -62,7 +62,7 @@
     <author>
       <name>docusealco/docuseal</name>
     </author>
-    <content>&lt;p&gt;🛠 Allow to configure signing order and signing groups per template recipient preferences.&lt;/p&gt;</content>
+    <content>&lt;p&gt;🆕 Allow to configure signing order and signing groups via template recipient preferences.&lt;/p&gt;</content>
     <link href="https://github.com/docusealco/docuseal/releases/tag/2.1.0" rel="alternate"/>
   </entry>
 </feed>
