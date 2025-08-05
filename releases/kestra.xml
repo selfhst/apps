@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Kestra Releases</title>
-  <updated>2025-08-05T09:33:53.806245-04:00</updated>
+  <updated>2025-08-05T10:33:55.254151-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -925,6 +925,147 @@ BREAKING CHANGE: preventing whitespace in key&lt;/p&gt;
 &lt;li&gt;62e718f &lt;strong&gt;e2e&lt;/strong&gt;: add workflow dispatch to launch manually&lt;/li&gt;
 &lt;li&gt;762b0ec &lt;strong&gt;core&lt;/strong&gt;: add storybook on executions filters (#9354), closes #9354&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;⚠️ Breaking Changes&lt;/h2&gt;
+&lt;h3&gt;All Editions: Executions Endpoint Now Requires &lt;code&gt;filename&lt;/code&gt; for &lt;code&gt;FILE&lt;/code&gt;type Inputs&lt;/h3&gt;
+&lt;p&gt;Starting with 0.24, uploading a file to an input of type &lt;code&gt;FILE&lt;/code&gt; requires using: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The part &lt;strong&gt;name&lt;/strong&gt; for the input ID → the key must be set to the  &lt;code&gt;id&lt;/code&gt; of your &lt;code&gt;FILE&lt;/code&gt;-type input and the value to &lt;code&gt;@path&lt;/code&gt; e.g. &lt;code&gt;myfile=@/path/to/test.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The part &lt;strong&gt;filename&lt;/strong&gt; attribute for the file's name → this must include the &lt;code&gt;filename&lt;/code&gt; keyword as a key, and filename and its extension as value, e.g. &lt;code&gt;filename=test.txt&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let’s take the following flow as an example:&lt;/p&gt;
+&lt;p&gt;```yaml
+id: demo
+namespace: company.team&lt;/p&gt;
+&lt;p&gt;inputs:
+  - id: myfile
+    type: FILE&lt;/p&gt;
+&lt;p&gt;tasks:
+  - id: print_file_content
+    type: io.kestra.plugin.core.log.Log
+    message: "{{ read(inputs.myfile) }}"
+```&lt;/p&gt;
+&lt;p&gt;To execute that flow via &lt;code&gt;curl&lt;/code&gt;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Before 0.24&lt;/strong&gt; (now deprecated):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;bash
+curl -v "http://localhost:8080/api/v1/executions/company.team/demo" \
+    -H "Content-Type:multipart/form-data" \
+    -F "files=@/tmp/test.txt;filename=myfile"&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Since 0.24:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;bash
+curl -v "http://localhost:8080/api/v1/executions/company.team/demo" \
+    -H "Content-Type:multipart/form-data" \
+    -F "myfile=@/tmp/test.txt;filename=test.txt"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In short, you must use the input ID as the part name and provide the real file name as the filename attribute. Refer to &lt;a href="https://github.com/kestra-io/kestra/issues/5987"&gt;issue #5987&lt;/a&gt; for details.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;OSS: Basic Authentication Now Required&lt;/h3&gt;
+&lt;p&gt;Basic authentication is now mandatory for all open-source Kestra deployments, including local and development environments. The &lt;code&gt;enabled&lt;/code&gt; flag is ignored; users must set both a username and password to access the UI and API.&lt;/p&gt;
+&lt;p&gt;Credentials can be configured via the Setup Page in the UI or directly in configuration:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yaml
+kestra:
+  server:
+    basicAuth:
+      username: admin@kestra.io
+      password: Admin1234&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For new installations, use the Setup Page.&lt;/li&gt;
+&lt;li&gt;For upgrades, review the &lt;a href="https://kestra.io/docs/administrator-guide/basic-auth-troubleshooting"&gt;Basic Authentication Troubleshooting guide&lt;/a&gt; for migration scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For production, set a valid email address and a strong password in your configuration.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3&gt;Enterprise Edition: IAM and API Endpoint Changes&lt;/h3&gt;
+&lt;p&gt;To streamline API usage, reduce ambiguity, and improve security and manageability for large organizations, the IAM and related API endpoints have been significantly revised in 0.24. These changes consolidate user, group, and role management around explicit, well-defined routes and permissions, and remove redundant or confusing API paths.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Global API Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/v1/api/{tenant}/me&lt;/code&gt; moved to &lt;code&gt;/v1/api/me&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/v1/api/cluster&lt;/code&gt; moved to &lt;code&gt;/v1/api/instance&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;All &lt;code&gt;/v1/api/{tenant}/users&lt;/code&gt; endpoints are removed:&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;/v1/api/users&lt;/code&gt; (instance-level, Superadmin only)&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;/v1/api/{tenant}/tenant-access&lt;/code&gt; for tenant access management&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;/v1/api/{tenant}/service-accounts&lt;/code&gt; for service account management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All Superadmin endpoints under &lt;code&gt;/v1/api/tenants/{tenant}/groups&lt;/code&gt;, &lt;code&gt;/bindings&lt;/code&gt;, &lt;code&gt;/roles&lt;/code&gt;, &lt;code&gt;/invitations&lt;/code&gt;, and &lt;code&gt;/namespaces&lt;/code&gt; are removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Role APIs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GET /v1/api/tenants/{tenant}/roles/[search|autocomplete]&lt;/code&gt; now only returns operation-relevant fields; &lt;code&gt;tenantId&lt;/code&gt;, &lt;code&gt;deleted&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt;, and &lt;code&gt;permissions&lt;/code&gt; have been removed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GET /v1/api/tenants/{tenant}/roles/{id}&lt;/code&gt; now only returns relevant fields; &lt;code&gt;tenantId&lt;/code&gt; and &lt;code&gt;deleted&lt;/code&gt; are removed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;POST/PUT /v1/api/tenants/{tenant}/roles&lt;/code&gt;: the request body now excludes &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;tenantId&lt;/code&gt;, and &lt;code&gt;deleted&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Group APIs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GET /v1/api/tenants/{tenant}/groups/[search|autocomplete]&lt;/code&gt; now only returns &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;name&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GET /v1/api/tenants/{tenant}/groups/{id}&lt;/code&gt; now only returns &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, and &lt;code&gt;description&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;POST/PUT /v1/api/tenants/{tenant}/groups&lt;/code&gt; the request body now excludes &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;tenantId&lt;/code&gt;, and &lt;code&gt;deleted&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GET /v1/api/tenants/{tenant}/groups/{groupId}/members&lt;/code&gt; and &lt;code&gt;/members/{userId}&lt;/code&gt; now return only &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;displayName&lt;/code&gt;, and &lt;code&gt;groups&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;RBAC Updates:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Permissions &lt;code&gt;API_TOKEN&lt;/code&gt; and &lt;code&gt;ME&lt;/code&gt; are removed.&lt;/li&gt;
+&lt;li&gt;New permissions:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SERVICE_ACCOUNT&lt;/code&gt; for managing service accounts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;INVITATION&lt;/code&gt; for managing invitations&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TENANT_ACCESS&lt;/code&gt; for managing users in a tenant&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GROUP_MEMBERSHIP&lt;/code&gt; for group membership management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;USER&lt;/code&gt; permission is now only required for SCIM integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Action Required for applications built on top of Kestra API:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Update any API clients or scripts that interact with affected endpoints.&lt;/li&gt;
+&lt;li&gt;Review permission assignments and RBAC configurations to use the updated permissions.&lt;/li&gt;
+&lt;li&gt;For file uploads, ensure the request format matches the new requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;All Editions: LangChain4j Plugin Renamed to Plugin AI&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;langchain4j&lt;/code&gt; plugin, which remains in Beta, has been renamed to &lt;code&gt;plugin-ai&lt;/code&gt; to reflect the framework-agnostic, declarative nature of that plugin. The plugin is now accessible from (kestra-io/plugin-ai)[https://github.com/kestra-io/plugin-ai] repository. All flow definitions and references to the previous &lt;code&gt;io.kestra.plugin.langchain4j.*&lt;/code&gt; package must be updated to the new &lt;code&gt;io.kestra.plugin.ai.*&lt;/code&gt; namespace.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example (0.23):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```yaml
+id: chat_completion
+namespace: company.team&lt;/p&gt;
+&lt;p&gt;inputs:
+  - id: prompt
+    type: STRING&lt;/p&gt;
+&lt;p&gt;tasks:
+  - id: chat_completion
+    type: io.kestra.core.plugin.langchain4j.completion.ChatCompletion
+    provider:
+        type: io.kestra.plugin.langchain4j.provider.GoogleGemini
+        apiKey: "{{secret('GOOGLE_API_KEY')}}"
+        modelName: gemini-2.5-flash
+    messages:
+      - type: SYSTEM
+        content: You are a helpful assistant, answer concisely, avoid overly casual language or unnecessary verbosity.
+      - type: USER
+        content: "{{inputs.prompt}}"
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example (0.24):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```yaml
+id: chat_completion
+namespace: company.team&lt;/p&gt;
+&lt;p&gt;inputs:
+  - id: prompt
+    type: STRING&lt;/p&gt;
+&lt;p&gt;tasks:
+  - id: chat_completion
+    type: io.kestra.plugin.ai.completion.ChatCompletion
+    provider:
+      type: io.kestra.plugin.ai.provider.GoogleGemini
+      apiKey: "{{ secret('GOOGLE_API_KEY') }}"
+      modelName: gemini-2.5-flash
+    messages:
+      - type: SYSTEM
+        content: You are a helpful assistant, answer concisely, avoid overly casual language or unnecessary verbosity.
+      - type: USER
+        content: "{{inputs.prompt}}"&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;Make sure to update all flow definitions and provider types to use the new package and repository. For more information, refer to the &lt;a href="https://github.com/kestra-io/plugin-ai"&gt;plugin-ai repository&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Contributors&lt;/h2&gt;
 &lt;p&gt;We'd like to thank the following people for their contributions:
 AJ Emerich, Abhilash T, Aditya, Anna Geller, Anusha G H, Bart Ledoux, Barthélémy Ledoux, Biplab Bera, Daniel Rivas, Devesh Kumar, Emil Shakirov, Florian Hussonnois, François Delbrayelle, GitHub, GitHub Action, JAGADEESH E, Karthik D, Karuna Tata, Kelvin Yim, Loïc Mathieu, Ludovic DEHON, Malay Dewangan, Malaydewangan09, MilosPaunovic, Miloš Paunović, Nicolas K., Piyush Bhaskar, Piyush-r-bhaskar, Prayag, Rishi Jat, Roman Acevedo, Sarthak Ladhwe, Satvik Kushwaha, Sjoerd Smink, Tanvir Ahmed, Tijn Koppert, YannC, YannC., ben8t, bishalbera, brian-mulier-p, brian.mulier, dependabot[bot], enumura, github-actions[bot], nKwiatkowski, rajatsingh23, rkitamu, skayliu, weibo1, yashmurthy98, yuri, yuri1969&lt;/p&gt;</content>
