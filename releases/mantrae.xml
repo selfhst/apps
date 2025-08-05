@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Mantrae Releases</title>
-  <updated>2025-08-05T05:36:49.188421-04:00</updated>
+  <updated>2025-08-05T06:36:45.774283-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -90,6 +90,10 @@
 &lt;h3&gt;🐛 Bug fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;too many :D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Breaking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pretty much everything for now, please reimport your data via a dynamic config yaml backup.&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/MizuchiLabs/mantrae/releases/tag/v0.7.0" rel="alternate"/>
   </entry>
