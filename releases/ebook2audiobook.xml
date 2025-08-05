@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ebook2audiobook Releases</title>
-  <updated>2025-08-05T10:36:30.978882-04:00</updated>
+  <updated>2025-08-05T11:36:16.992236-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -81,18 +81,25 @@
     <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.7.22" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/25.8.4</id>
-    <title>New release for ebook2audiobook: 25.8.4</title>
-    <updated>2025-08-03T22:10:18-04:00</updated>
+    <id>https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.8.5</id>
+    <title>New release for ebook2audiobook: v25.8.5</title>
+    <updated>2025-08-05T11:33:43-04:00</updated>
     <author>
       <name>DrewThomasson/ebook2audiobook</name>
     </author>
     <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;v25.8.4 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1013&lt;/li&gt;
-&lt;li&gt;V25.8.4 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1014&lt;/li&gt;
+&lt;li&gt;sync by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1018&lt;/li&gt;
+&lt;li&gt;v25.8.5 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1019&lt;/li&gt;
+&lt;li&gt;use shortened wav names E2A-Test.yml by @DrewThomasson in https://github.com/DrewThomasson/ebook2audiobook/pull/1015&lt;/li&gt;
+&lt;li&gt;fixed tacotron2 custom voice workflow by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1021&lt;/li&gt;
+&lt;li&gt;second tacotron2 fix by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1022&lt;/li&gt;
+&lt;li&gt;fixed tacotron2 workflow by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1025&lt;/li&gt;
+&lt;li&gt;fxies definitely tacotron2 workflow by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1026&lt;/li&gt;
+&lt;li&gt;... by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1027&lt;/li&gt;
+&lt;li&gt;V25.8.5 by @ROBERT-MCDOWELL in https://github.com/DrewThomasson/ebook2audiobook/pull/1020&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/v25.8.3...25.8.4&lt;/p&gt;</content>
-    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/25.8.4" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/DrewThomasson/ebook2audiobook/compare/25.8.4...v25.8.5&lt;/p&gt;</content>
+    <link href="https://github.com/DrewThomasson/ebook2audiobook/releases/tag/v25.8.5" rel="alternate"/>
   </entry>
 </feed>
