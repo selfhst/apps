@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ntfy Releases</title>
-  <updated>2025-08-05T04:31:59.671109-04:00</updated>
+  <updated>2025-08-05T05:31:31.405503-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -136,9 +136,15 @@ ntfy will always remain open source.&lt;/p&gt;
     <author>
       <name>binwiederhier/ntfy</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;p&gt;This release adds support for &lt;a href="https://docs.ntfy.sh/config/#users-via-the-config"&gt;declarative users&lt;/a&gt;, &lt;a href="https://docs.ntfy.sh/config/#acl-entries-via-the-config"&gt;declarative ACL entries&lt;/a&gt; and &lt;a href="https://docs.ntfy.sh/config/#tokens-via-the-config"&gt;declarative tokens&lt;/a&gt;. This allows you to define users, ACL entries and tokens in the config file, which is useful for static deployments or deployments that use a configuration management system.&lt;/p&gt;
+&lt;p&gt;It also adds support for &lt;a href="https://docs.ntfy.sh/publish/#pre-defined-templates"&gt;pre-defined templates&lt;/a&gt; and &lt;a href="https://docs.ntfy.sh/publish/#custom-templates"&gt;custom templates&lt;/a&gt; for enhanced JSON webhook support, as well as advanced &lt;a href="https://docs.ntfy.sh/publish/#template-functions"&gt;template functions&lt;/a&gt; based on the &lt;a href="https://github.com/Masterminds/sprig"&gt;Sprig&lt;/a&gt; functions.&lt;/p&gt;
+&lt;p&gt;❤️ If you like ntfy, &lt;strong&gt;please consider sponsoring me&lt;/strong&gt; via &lt;a href="https://github.com/sponsors/binwiederhier"&gt;GitHub Sponsors&lt;/a&gt;, &lt;a href="https://en.liberapay.com/ntfy/"&gt;Liberapay&lt;/a&gt;, Bitcoin (&lt;code&gt;1626wjrw3uWk9adyjCfYwafw4sQWujyjn8&lt;/code&gt;), or by buying a &lt;a href="https://ntfy.sh/app"&gt;paid plan via the web app&lt;/a&gt;. ntfy
+will always remain open source.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;eac523dcf99e78f71828b198c8e85b934e463daa Merge pull request #1413 from wunter8/change-password-provisioned-user&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.ntfy.sh/config/#users-via-the-config"&gt;Declarative users&lt;/a&gt;, &lt;a href="https://docs.ntfy.sh/config/#acl-entries-via-the-config"&gt;declarative ACL entries&lt;/a&gt; and &lt;a href="https://docs.ntfy.sh/config/#tokens-via-the-config"&gt;declarative tokens&lt;/a&gt; (#464, #1384, #1413, thanks to pinpox for reporting, to @wunter8 for reviewing and implementing parts of it)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.ntfy.sh/publish/#pre-defined-templates"&gt;Pre-defined templates&lt;/a&gt; and &lt;a href="https://docs.ntfy.sh/publish/#custom-templates"&gt;custom templates&lt;/a&gt; for enhanced JSON webhook support (#1390)&lt;/li&gt;
+&lt;li&gt;Support of advanced &lt;a href="https://docs.ntfy.sh/publish/#template-functions"&gt;template functions&lt;/a&gt; based on the &lt;a href="https://github.com/Masterminds/sprig"&gt;Sprig&lt;/a&gt; library (#1121, thanks to @davidatkinsondoyle for reporting, to @wunter8 for implementing, and to the Sprig team for their work)&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/binwiederhier/ntfy/releases/tag/v2.14.0" rel="alternate"/>
   </entry>
