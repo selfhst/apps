@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>AliasVault Releases</title>
-  <updated>2025-08-05T06:35:51.296554-04:00</updated>
+  <updated>2025-08-05T07:36:04.405485-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -177,7 +177,6 @@
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;Bugfix release, addressing an issue where the browser extension could crash on startup in certain browsers on Windows. Primarily issues with Firefox have been reported. This issue was caused by the new translation system introduced in 0.21.0.&lt;/p&gt;
 &lt;p&gt;Note: this update only affects the browser extension. No functional changes to AliasVault itself.&lt;/p&gt;
-&lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;h3&gt;🐞 Bug Fixes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Browser extension in Firefox on Windows can crash because of translations by @lanedirt in https://github.com/lanedirt/AliasVault/pull/1068&lt;/li&gt;
