@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InvoicePlane Releases</title>
-  <updated>2025-08-05T08:37:56.232988-04:00</updated>
+  <updated>2025-08-05T09:38:12.242435-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -235,8 +235,8 @@
     <content>&lt;p&gt;&lt;strong&gt;v1.6.3.zip&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;|Hash Format|Hash|
 |:------------|:-----|
-| MD5 |297e7ff2620512c129de8fc244fffe3a|
-| SHA-256 |4f3110de0fa8537e998bd1b99c4f8653bf8cb44284e4b327414bca79895c4e71|&lt;/p&gt;
+| MD5 |8130c1f7885788df91e8fa398c66deb0|
+| SHA-256 |4a3d7b9d10a785ccd5add44a230d95aad588848e10eed47969f0008f371b9f24|&lt;/p&gt;
 &lt;h2&gt;Thank you&lt;/h2&gt;
 &lt;p&gt;Huge thanks to @sudwebdesign, @pumpi, @mheiduk, @onny, @xeruf and @xam-ps for helping. Without you guys this release wouldn't have been possible&lt;/p&gt;
 &lt;h2&gt;New Contributors&lt;/h2&gt;
