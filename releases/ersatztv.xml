@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ErsatzTV Releases</title>
-  <updated>2025-08-05T12:34:15.930684-04:00</updated>
+  <updated>2025-08-05T13:34:16.604564-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -589,5 +589,100 @@
 &lt;li&gt;Allow paths longer than 255 characters in MySql databases&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.3.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.4.0</id>
+    <title>New release for ErsatzTV: v25.4.0</title>
+    <updated>2025-08-05T13:10:01-04:00</updated>
+    <author>
+      <name>ErsatzTV/ErsatzTV</name>
+    </author>
+    <content>&lt;h2&gt;Release Notes&lt;/h2&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add &lt;code&gt;Troubleshoot Playback&lt;/code&gt; to overflow menu on all media cards&lt;/li&gt;
+&lt;li&gt;This should eliminate the need to lookup media ids for content&lt;/li&gt;
+&lt;li&gt;Add subtitle selection to playback troubleshooting. This is limited to:&lt;/li&gt;
+&lt;li&gt;Sidecar text subtitles (e.g. &lt;code&gt;srt&lt;/code&gt; files)&lt;/li&gt;
+&lt;li&gt;Embedded image subtitles&lt;/li&gt;
+&lt;li&gt;Embedded text subtitles that have already been extracted by ETV&lt;/li&gt;
+&lt;li&gt;Add light mode and light/dark mode toggle to app bar&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;pre_roll&lt;/code&gt; instruction to enable and disable a pre-roll sequence&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;sequence&lt;/code&gt; property, will enable automatic pre-roll for all content in the playout to the sequence with the provided key&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;false&lt;/code&gt;, will disable automatic pre-roll in the playout&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;post_roll&lt;/code&gt; instruction to enable and disable a post-roll sequence&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;sequence&lt;/code&gt; property, will enable automatic post-roll for all content in the playout to the sequence with the provided key&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;false&lt;/code&gt;, will disable automatic post-roll in the playout&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;mid_roll&lt;/code&gt; instruction to enable and disable a mid-roll sequence&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;sequence&lt;/code&gt; property, will enable automatic mid-roll for (&lt;code&gt;count&lt;/code&gt; and &lt;code&gt;all&lt;/code&gt;) content in the playout to the sequence with the provided key&lt;/li&gt;
+&lt;li&gt;With value of &lt;code&gt;false&lt;/code&gt;, will disable automatic post-roll in the playout&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;expression&lt;/code&gt; can be used to influence which chapters are selected for mid roll (same as in filler preset)&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;rewind&lt;/code&gt; instruction to set start of playout relative to the current time&lt;/li&gt;
+&lt;li&gt;Value should be formatted as &lt;code&gt;HH:MM:SS&lt;/code&gt; e.g. &lt;code&gt;00:05:30&lt;/code&gt; for 5 minutes 30 seconds (before now)&lt;/li&gt;
+&lt;li&gt;This is instruction is mostly useful for debugging transitions, and can only be used as a reset instruction&lt;/li&gt;
+&lt;li&gt;YAML playout: add &lt;code&gt;import&lt;/code&gt; section to allow importing partial YAML definitions that include &lt;code&gt;content&lt;/code&gt; and &lt;code&gt;sequence&lt;/code&gt; entries&lt;/li&gt;
+&lt;li&gt;Add YAML playout validation (using JSON Schema)&lt;/li&gt;
+&lt;li&gt;Invalid YAML playout definitions will fail to build and will log validation failures as warnings&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content&lt;/code&gt; is fully validated&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sequence&lt;/code&gt; is fully validated&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reset&lt;/code&gt; is fully validated&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;playout&lt;/code&gt; is fully validated&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Playlist&lt;/code&gt; collection type to filler presets&lt;/li&gt;
+&lt;li&gt;This will force filler mode &lt;code&gt;Count&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Whenever the filler is used, it will schedule &lt;code&gt;Count&lt;/code&gt; times full time through the playlist&lt;ul&gt;
+&lt;li&gt;If the playlist has 3 items and none set to play all, it will schedule 3 items when &lt;code&gt;Count = 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If the playlist has 3 items and none set to play all, it will schedule 6 items when &lt;code&gt;Count = 2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Using the same playlist in the same schedule for anything other than filler may cause undesired behavior&lt;/li&gt;
+&lt;li&gt;Detect supported VideoToolbox hardware decoders and encoders&lt;/li&gt;
+&lt;li&gt;Software decoders/encoders will automatically be used when hardware versions are unavailable&lt;/li&gt;
+&lt;li&gt;Add VideoToolbox Capabilities to Troubleshooting page&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;Use Chapters As Media Items&lt;/code&gt; option to filler preset&lt;/li&gt;
+&lt;li&gt;This option allows scheduling individual chapters as filler&lt;/li&gt;
+&lt;li&gt;The chapters are shuffled or otherwise sorted together just like normal filler would be&lt;/li&gt;
+&lt;li&gt;Add smart collection edit page to allow renaming smart collections&lt;/li&gt;
+&lt;li&gt;Previous edit link behavior (performing search using smart collection query) now uses magnifying glass icon&lt;/li&gt;
+&lt;li&gt;Add channel &lt;code&gt;Transcode Mode&lt;/code&gt; setting&lt;/li&gt;
+&lt;li&gt;This setting is currently disabled and only has the value &lt;code&gt;On Demand&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add channel &lt;code&gt;Idle Behavior&lt;/code&gt; setting to control the transcoding behavior after all clients have disconnected&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Stop On Disconnect&lt;/code&gt; - stops the transcoder after all clients have disconnected + the global idle timeout&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Keep Running&lt;/code&gt; - transcoder will run until manually stopped&lt;/li&gt;
+&lt;li&gt;Add support for music video thumbnails that end in &lt;code&gt;-thumb&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For example &lt;code&gt;Music Video.mkv&lt;/code&gt; could have a corresponding thumbnail &lt;code&gt;Music Video-thumb.jpg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Reorganize troubleshooting page&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;YAML Validation&lt;/code&gt; tool in &lt;code&gt;Troubleshooting&lt;/code&gt; &amp;gt; &lt;code&gt;Tools&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix app startup with MySql/MariaDB&lt;/li&gt;
+&lt;li&gt;YAML playout: fix &lt;code&gt;pad_to_next&lt;/code&gt; always running over time&lt;/li&gt;
+&lt;li&gt;Fix playback with text subtitles when seeking into content, i.e. when first joining a channel&lt;/li&gt;
+&lt;li&gt;Fix playback with &lt;code&gt;.ass&lt;/code&gt; and &lt;code&gt;.ssa&lt;/code&gt; text subtitles&lt;/li&gt;
+&lt;li&gt;Fix green padding with 10-bit source content and i965 VAAPI driver&lt;/li&gt;
+&lt;li&gt;Fix building playouts with empty schedules&lt;/li&gt;
+&lt;li&gt;Fix schedule start time calculation when daily playout build goes beyond midnight and into a different alternate schedule&lt;/li&gt;
+&lt;li&gt;Fix compatibility with older NVIDIA devices (compute capability 3.0+) in unified docker image&lt;/li&gt;
+&lt;li&gt;Fix transitions when using NVIDIA, QSV and VAAPI acceleration&lt;/li&gt;
+&lt;li&gt;Fix playback of remote streams on channels where framerate normalization is enabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Always tell ffmpeg to stop encoding with a specific duration&lt;/li&gt;
+&lt;li&gt;This was removed to try to improve transitions with ffmpeg 7.x, but has been causing issues with other content&lt;/li&gt;
+&lt;li&gt;Move search debug logging to its own log category; add &lt;code&gt;Searching Minimum Log Level&lt;/code&gt; to &lt;code&gt;Settings&lt;/code&gt; &amp;gt; &lt;code&gt;Logging&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Classic schedules: always schedule the full &lt;code&gt;Duration&lt;/code&gt; amount instead of stopping mid-duration&lt;/li&gt;
+&lt;li&gt;This allows duration items to be scheduled beyond midnight&lt;/li&gt;
+&lt;li&gt;e.g. fixed start time 22:00 with 4 hour duration will schedule until 02:00 instead of stopping at midnight&lt;/li&gt;
+&lt;li&gt;Rename channel setting &lt;code&gt;Progress Mode&lt;/code&gt; to &lt;code&gt;Playout Mode&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;This controls the progression of the channel's playout, and has nothing to do with transcoding&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Always&lt;/code&gt; is now called &lt;code&gt;Continuous&lt;/code&gt; (playout progresses with wall clock)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;On Demand&lt;/code&gt; is unchanged (playout only progresses while a client is watching the channel)&lt;/li&gt;
+&lt;li&gt;Replace channel &lt;code&gt;Active Mode&lt;/code&gt; setting with new &lt;code&gt;Is Enabled&lt;/code&gt; and &lt;code&gt;Show In EPG&lt;/code&gt; settings&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Active&lt;/code&gt; channels will be converted to &lt;code&gt;Is Enabled&lt;/code&gt; = true and &lt;code&gt;Show In EPG&lt;/code&gt; = true&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hidden&lt;/code&gt; channels will be converted to &lt;code&gt;Is Enabled&lt;/code&gt; = true and &lt;code&gt;Show In EPG&lt;/code&gt; = false&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Inactive&lt;/code&gt; channels will be converted to &lt;code&gt;Is Enabled&lt;/code&gt; = false and &lt;code&gt;Show In EPG&lt;/code&gt; = false&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/ErsatzTV/ErsatzTV/releases/tag/v25.4.0" rel="alternate"/>
   </entry>
 </feed>
