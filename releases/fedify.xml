@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Fedify Releases</title>
-  <updated>2025-08-06T07:34:36.947040-04:00</updated>
+  <updated>2025-08-06T08:34:42.281687-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -231,7 +231,7 @@
   <entry>
     <id>https://github.com/fedify-dev/fedify/releases/tag/1.8.3</id>
     <title>New release for Fedify: Fedify 1.8.3</title>
-    <updated>2025-08-06T07:25:51-04:00</updated>
+    <updated>2025-08-06T07:45:13-04:00</updated>
     <author>
       <name>fedify-dev/fedify</name>
     </author>
