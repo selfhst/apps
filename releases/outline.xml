@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-08-06T08:31:37.966669-04:00</updated>
+  <updated>2025-08-06T09:31:44.737477-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -292,7 +292,11 @@ Migrations in this release will enable the &lt;code&gt;pg_trgm&lt;/code&gt; data
     <author>
       <name>outline/outline</name>
     </author>
-    <content>&lt;p&gt;&lt;img width="1680" height="740" alt="collection-sharing" src="https://github.com/user-attachments/assets/19b1a9a2-3fbc-4f15-aff5-63c30d949461" /&gt;&lt;/p&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]&lt;br /&gt;
+If you run the collaboration service separately it &lt;strong&gt;&lt;em&gt;must&lt;/em&gt;&lt;/strong&gt; be updated and restarted before the client and API to avoid errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img width="1680" height="740" alt="collection-sharing" src="https://github.com/user-attachments/assets/19b1a9a2-3fbc-4f15-aff5-63c30d949461" /&gt;&lt;/p&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;p&gt;This release we've finally closed out one of the most requested features of the last year – public sharing of collections. You can now share an entire collection on the internet in the same way as a document. We also included the same options to optionally include a "last modified" timestamp, sitemap, and search engine indexing (disabled by default).&lt;/p&gt;
 &lt;p&gt;Additionally document history now supports multiple collaborators – if you are in a multiplayer editing session on a document the history panel will properly reflect both users as being contributors to a version.&lt;/p&gt;
