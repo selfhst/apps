@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Outline Releases</title>
-  <updated>2025-08-06T10:31:33.763020-04:00</updated>
+  <updated>2025-08-06T11:31:35.806626-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -328,7 +328,6 @@ If you run the collaboration service separately it &lt;strong&gt;&lt;em&gt;must&
 &lt;/ul&gt;
 &lt;h4&gt;Other&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix OIDC well-known discovery now works for subdirectories in https://github.com/outline/outline/pull/9540&lt;/li&gt;
 &lt;li&gt;fix: Importer truncates newlines in captions in https://github.com/outline/outline/pull/9544&lt;/li&gt;
 &lt;li&gt;fix: Incorrect parsing of hard breaks from Markdown in https://github.com/outline/outline/pull/9548&lt;/li&gt;
 &lt;li&gt;fix: Make shared document content available to screenreaders in https://github.com/outline/outline/pull/9549&lt;/li&gt;
