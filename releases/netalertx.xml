@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NetAlertX Releases</title>
-  <updated>2025-08-05T20:31:35.214746-04:00</updated>
+  <updated>2025-08-05T22:31:45.357272-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -236,7 +236,7 @@ However, if you're on an older version, please &lt;strong&gt;upgrade to &lt;code
       <name>jokob-sk/NetAlertX</name>
     </author>
     <content>&lt;p&gt;Hi selfhosters! ☁️ &lt;/p&gt;
-&lt;p&gt;A small release to fix a couple of outstanding issues and a nice addition by @kllngtme contributing a &lt;a href="https://jokob-sk.github.io/NetAlertX/API/?h=promet#api-endpoint-prometheus-exporter"&gt;Prometheus metrics endpoint&lt;/a&gt; and NetaALertX-like looking &lt;a href="https://jokob-sk.github.io/NetAlertX/samples/API/Grafana_Dashboard.json"&gt;Grafana template&lt;/a&gt; 📊&lt;/p&gt;
+&lt;p&gt;A small release to fix a couple of outstanding issues and a nice addition by @kllngtme contributing a &lt;a href="https://jokob-sk.github.io/NetAlertX/API/?h=promet#api-endpoint-prometheus-exporter"&gt;Prometheus metrics endpoint&lt;/a&gt; and NetAlertX-like looking &lt;a href="https://jokob-sk.github.io/NetAlertX/samples/API/Grafana_Dashboard.json"&gt;Grafana template&lt;/a&gt; 📊&lt;/p&gt;
 &lt;p&gt;I also managed to sneak in a better icon and type guessing mechanism, with an easy to maintain (and contribute to 😉 ) &lt;a href="https://jokob-sk.github.io/NetAlertX/DEVICE_HEURISTICS"&gt;heuristics json&lt;/a&gt; file. &lt;/p&gt;
 &lt;p&gt;As always, see all the stuff that has changed below. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="img" src="https://imgur.com/48e3f0l.png" /&gt;&lt;/p&gt;
