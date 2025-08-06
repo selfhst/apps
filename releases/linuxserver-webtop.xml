@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Webtop Releases</title>
-  <updated>2025-08-06T13:32:36.739893-04:00</updated>
+  <updated>2025-08-06T14:32:37.260360-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -39,5 +39,20 @@
 &lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updating base packages to 27efafd9&lt;/p&gt;</content>
     <link href="https://github.com/linuxserver/docker-webtop/releases/tag/27efafd9-ls241" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/linuxserver/docker-webtop/releases/tag/27efafd9-ls242</id>
+    <title>New release for Webtop: 27efafd9-ls242</title>
+    <updated>2025-08-06T14:03:08-04:00</updated>
+    <author>
+      <name>linuxserver/docker-webtop</name>
+    </author>
+    <content>&lt;p&gt;&lt;strong&gt;CI Report:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;https://ci-tests.linuxserver.io/linuxserver/webtop/27efafd9-ls242/index.html&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LinuxServer Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rebase Debian images to Trixie.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remote Changes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Updating base packages to 27efafd9&lt;/p&gt;</content>
+    <link href="https://github.com/linuxserver/docker-webtop/releases/tag/27efafd9-ls242" rel="alternate"/>
   </entry>
 </feed>
