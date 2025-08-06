@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>NocoDB Releases</title>
-  <updated>2025-08-06T04:30:30.614422-04:00</updated>
+  <updated>2025-08-06T06:30:29.964635-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -659,9 +659,9 @@
     <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.2" rel="alternate"/>
   </entry>
   <entry>
-    <id>https://github.com/nocodb/nocodb/releases/tag/0.264.3</id>
-    <title>New release for NocoDB: 0.264.3: Bug Fix Release</title>
-    <updated>2025-08-04T15:06:17-04:00</updated>
+    <id>https://github.com/nocodb/nocodb/releases/tag/0.264.4</id>
+    <title>New release for NocoDB: 0.264.4: Bug Fix Release</title>
+    <updated>2025-08-06T04:38:33-04:00</updated>
     <author>
       <name>nocodb/nocodb</name>
     </author>
@@ -678,17 +678,17 @@
 &lt;/ul&gt;
 &lt;h2&gt;What's Changed&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Release 0.264.2 by @github-actions[bot] in https://github.com/nocodb/nocodb/pull/12013&lt;/li&gt;
-&lt;li&gt;chore: post-release sync by @github-actions[bot] in https://github.com/nocodb/nocodb/pull/12014&lt;/li&gt;
 &lt;li&gt;chore: nc sync by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/12018&lt;/li&gt;
 &lt;li&gt;Nc Fix: Integration page UI issues by @rameshmane7218 in https://github.com/nocodb/nocodb/pull/11992&lt;/li&gt;
 &lt;li&gt;on pg, wipe attachment value from text type by @fendy3002 in https://github.com/nocodb/nocodb/pull/12022&lt;/li&gt;
 &lt;li&gt;Nc fix/6365 mm rename bug by @pranavxc in https://github.com/nocodb/nocodb/pull/12024&lt;/li&gt;
 &lt;li&gt;feat: nc list helper components by @DarkPhoenix2704 in https://github.com/nocodb/nocodb/pull/12009&lt;/li&gt;
 &lt;li&gt;fix: Composite key condition extraction correction by @pranavxc in https://github.com/nocodb/nocodb/pull/12032&lt;/li&gt;
-&lt;li&gt;0.264.3 Pre-release by @github-actions[bot] in https://github.com/nocodb/nocodb/pull/12034&lt;/li&gt;
+&lt;li&gt;fix: define proper scope by @pranavxc in https://github.com/nocodb/nocodb/pull/12027&lt;/li&gt;
+&lt;li&gt;show attachment without id by @fendy3002 in https://github.com/nocodb/nocodb/pull/12038&lt;/li&gt;
+&lt;li&gt;fix: Test connection improvement by @pranavxc in https://github.com/nocodb/nocodb/pull/12035&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.264.2...0.264.3&lt;/p&gt;</content>
-    <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.3" rel="alternate"/>
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/nocodb/nocodb/compare/0.264.2...0.264.4&lt;/p&gt;</content>
+    <link href="https://github.com/nocodb/nocodb/releases/tag/0.264.4" rel="alternate"/>
   </entry>
 </feed>
