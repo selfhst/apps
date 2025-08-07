@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InvoicePlane Releases</title>
-  <updated>2025-08-06T21:37:31.356244-04:00</updated>
+  <updated>2025-08-06T22:37:29.021009-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -287,7 +287,7 @@
 &lt;li&gt;[&lt;a href="#1204"&gt;IP-1204&lt;/a&gt;] Update template_helper.php to fix email template with custom single choice field by @LOK-Soft&lt;/li&gt;
 &lt;li&gt;[&lt;a href="#1251"&gt;IP-1251&lt;/a&gt;] fix: amount of the credit transfer cannot be smaller than 0.01 Euro by @mheiduk&lt;/li&gt;
 &lt;li&gt;[&lt;a href="#1278"&gt;IP-1278&lt;/a&gt;] Fix: Styling issues by @pumpi&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1283"&gt;IP-1283&lt;/a&gt;] fix: Client detail view exception by &lt;/li&gt;
+&lt;li&gt;[&lt;a href="#1283"&gt;IP-1283&lt;/a&gt;] fix: Client detail view exception by @pumpi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/InvoicePlane/InvoicePlane/compare/v1.6.2...v1.6.3&lt;/p&gt;</content>
     <link href="https://github.com/InvoicePlane/InvoicePlane/releases/tag/v1.6.3" rel="alternate"/>
