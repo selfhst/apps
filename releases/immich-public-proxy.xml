@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Immich Public Proxy Releases</title>
-  <updated>2025-08-07T16:35:09.065013-04:00</updated>
+  <updated>2025-08-07T17:35:35.272551-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,7 +86,7 @@
       <name>alangrainger/immich-public-proxy</name>
     </author>
     <content>&lt;p&gt;This release adds partial support for the new Immich &lt;a href="https://github.com/immich-app/immich/pull/19999"&gt;custom shared link URLs&lt;/a&gt;. #116&lt;/p&gt;
-&lt;p&gt;Normal albums work fine, but password-protected albums do not work yet.&lt;/p&gt;</content>
+&lt;p&gt;Sharing a selection of images with a custom name will work, but albums and password-protected albums &lt;strong&gt;do not&lt;/strong&gt; work yet.&lt;/p&gt;</content>
     <link href="https://github.com/alangrainger/immich-public-proxy/releases/tag/v1.13.0" rel="alternate"/>
   </entry>
 </feed>
