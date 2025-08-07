@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>InvoicePlane Releases</title>
-  <updated>2025-08-06T22:37:29.021009-04:00</updated>
+  <updated>2025-08-06T23:37:32.704847-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -255,39 +255,39 @@
 &lt;h2&gt;What's Changed (since v1.6.2)&lt;/h2&gt;
 &lt;h3&gt;Major Features &amp;amp; E-Invoicing&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href="#1268"&gt;IP-1268&lt;/a&gt;] &lt;strong&gt;E-invoicing infrastructure update&lt;/strong&gt; by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1272"&gt;IP-1272&lt;/a&gt;] &lt;strong&gt;E-invoicing enhancements&lt;/strong&gt; by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1247"&gt;IP-1247&lt;/a&gt;] Processing e-invoices flow (and some bugfixes) for version 1.6.3 by @nielsdrost7&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1282"&gt;IP-1282&lt;/a&gt;] feat: Legacy calculation setup step by @pumpi&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1281"&gt;IP-1281&lt;/a&gt;] fix: Client overview shows wrong e-Invoicing state by @pumpi&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1268"&gt;IP-1268&lt;/a&gt;] &lt;strong&gt;E-invoicing infrastructure update&lt;/strong&gt; by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1272"&gt;IP-1272&lt;/a&gt;] &lt;strong&gt;E-invoicing enhancements&lt;/strong&gt; by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1247"&gt;IP-1247&lt;/a&gt;] Processing e-invoices flow (and some bugfixes) for version 1.6.3 by @nielsdrost7&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1282"&gt;IP-1282&lt;/a&gt;] feat: Legacy calculation setup step by @pumpi&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1281"&gt;IP-1281&lt;/a&gt;] fix: Client overview shows wrong e-Invoicing state by @pumpi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Changed / Improvements&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href="#1277"&gt;IP-1277&lt;/a&gt;] Replace node-sass with sass by @onny&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1261"&gt;IP-1261&lt;/a&gt;] Guest Payment stripe flow &amp;amp; online_payment lang improved by @nielsdrost7&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1178"&gt;IP-1178&lt;/a&gt;] Add custom_fields in controllers/Settings by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1206"&gt;IP-1206&lt;/a&gt;] Add report: Invoices per client by @mheiduk&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1228"&gt;IP-1228&lt;/a&gt;] Improve number_helper &amp;amp; standardize_amount (fix european format) by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1229"&gt;IP-1229&lt;/a&gt;] Remove unattended standardize_amount in payments view form by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1241"&gt;IP-1241&lt;/a&gt;] Add pagination to invoice and quote templates by @onny&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1219"&gt;IP-1219&lt;/a&gt;] Sort invoices by date instead of id by @MrKrisKrisu&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1222"&gt;IP-1222&lt;/a&gt;] Sort quotes by date instead of id by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1277"&gt;IP-1277&lt;/a&gt;] Replace node-sass with sass by @onny&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1261"&gt;IP-1261&lt;/a&gt;] Guest Payment stripe flow &amp;amp; online_payment lang improved by @nielsdrost7&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1178"&gt;IP-1178&lt;/a&gt;] Add custom_fields in controllers/Settings by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1206"&gt;IP-1206&lt;/a&gt;] Add report: Invoices per client by @mheiduk&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1228"&gt;IP-1228&lt;/a&gt;] Improve number_helper &amp;amp; standardize_amount (fix european format) by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1229"&gt;IP-1229&lt;/a&gt;] Remove unattended standardize_amount in payments view form by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1241"&gt;IP-1241&lt;/a&gt;] Add pagination to invoice and quote templates by @onny&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1219"&gt;IP-1219&lt;/a&gt;] Sort invoices by date instead of id by @MrKrisKrisu&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1222"&gt;IP-1222&lt;/a&gt;] Sort quotes by date instead of id by @sudwebdesign&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Fixed&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href="#1179"&gt;IP-1179&lt;/a&gt;] Fix #fullpage-loader (Spinner) never showed after save by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1174"&gt;IP-1174&lt;/a&gt;] Removed '.pdf' from Invoices.php downloads to fix issue by @HeapReaper&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1175"&gt;IP-1175&lt;/a&gt;] Check invoice balance before rendering QR code in web view by @idressos&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1183"&gt;IP-1183&lt;/a&gt;] Fix summary client delete button go to 404 (link2form) by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1185"&gt;IP-1185&lt;/a&gt;] Fix styling in clients table header by @tstoeter&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1186"&gt;IP-1186&lt;/a&gt;] Style2class for amounts &amp;amp; balances (th &amp;amp; tr) by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1197"&gt;IP-1197&lt;/a&gt;] Send email show blank page (php&amp;gt;=8.2) by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1199"&gt;IP-1199&lt;/a&gt;] Add invoice_status case in template_helper by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1201"&gt;IP-1201&lt;/a&gt;] Fix SMTP password wrong after saving settings by @sudwebdesign&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1204"&gt;IP-1204&lt;/a&gt;] Update template_helper.php to fix email template with custom single choice field by @LOK-Soft&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1251"&gt;IP-1251&lt;/a&gt;] fix: amount of the credit transfer cannot be smaller than 0.01 Euro by @mheiduk&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1278"&gt;IP-1278&lt;/a&gt;] Fix: Styling issues by @pumpi&lt;/li&gt;
-&lt;li&gt;[&lt;a href="#1283"&gt;IP-1283&lt;/a&gt;] fix: Client detail view exception by @pumpi&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1179"&gt;IP-1179&lt;/a&gt;] Fix #fullpage-loader (Spinner) never showed after save by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1174"&gt;IP-1174&lt;/a&gt;] Removed '.pdf' from Invoices.php downloads to fix issue by @HeapReaper&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1175"&gt;IP-1175&lt;/a&gt;] Check invoice balance before rendering QR code in web view by @idressos&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1183"&gt;IP-1183&lt;/a&gt;] Fix summary client delete button go to 404 (link2form) by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1185"&gt;IP-1185&lt;/a&gt;] Fix styling in clients table header by @tstoeter&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1186"&gt;IP-1186&lt;/a&gt;] Style2class for amounts &amp;amp; balances (th &amp;amp; tr) by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1197"&gt;IP-1197&lt;/a&gt;] Send email show blank page (php&amp;gt;=8.2) by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1199"&gt;IP-1199&lt;/a&gt;] Add invoice_status case in template_helper by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1201"&gt;IP-1201&lt;/a&gt;] Fix SMTP password wrong after saving settings by @sudwebdesign&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1204"&gt;IP-1204&lt;/a&gt;] Update template_helper.php to fix email template with custom single choice field by @LOK-Soft&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1251"&gt;IP-1251&lt;/a&gt;] fix: amount of the credit transfer cannot be smaller than 0.01 Euro by @mheiduk&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1278"&gt;IP-1278&lt;/a&gt;] Fix: Styling issues by @pumpi&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://github.com/InvoicePlane/InvoicePlane/issues/1283"&gt;IP-1283&lt;/a&gt;] fix: Client detail view exception by @pumpi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/InvoicePlane/InvoicePlane/compare/v1.6.2...v1.6.3&lt;/p&gt;</content>
     <link href="https://github.com/InvoicePlane/InvoicePlane/releases/tag/v1.6.3" rel="alternate"/>
