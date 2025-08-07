@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Termix Releases</title>
-  <updated>2025-08-07T00:36:59.133511-04:00</updated>
+  <updated>2025-08-07T01:36:48.432406-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -54,7 +54,8 @@
     <author>
       <name>LukeGus/Termix</name>
     </author>
-    <content>&lt;p&gt;Change Log:
+    <content>&lt;p&gt;Added organizational features to hosts (folders, pinned connections, etc.), added nerd fonts and SSH timeouts.&lt;/p&gt;
+&lt;p&gt;Change Log:
 - Added tags for host organization (also allows filtering by tags)
 - Ability to pin connections
 - Better folder system
@@ -81,8 +82,7 @@
     <author>
       <name>LukeGus/Termix</name>
     </author>
-    <content>&lt;p&gt;&lt;strong&gt;Release 1.0&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This version includes a complete Typescript + Shadcn rewrite while also combining my projects Confix and Tunnelix into one simple solution for managing servers!&lt;/p&gt;</content>
+    <content>&lt;p&gt;This version includes a complete Typescript + Shadcn rewrite while also combining my projects Confix and Tunnelix into one simple solution for managing servers!&lt;/p&gt;</content>
     <link href="https://github.com/LukeGus/Termix/releases/tag/release-1.0-tag" rel="alternate"/>
   </entry>
   <entry>
