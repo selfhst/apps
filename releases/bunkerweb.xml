@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>BunkerWeb Releases</title>
-  <updated>2025-08-07T11:33:21.978469-04:00</updated>
+  <updated>2025-08-07T12:33:20.566998-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -124,7 +124,7 @@
   <entry>
     <id>https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.3</id>
     <title>New release for BunkerWeb: v1.6.3</title>
-    <updated>2025-08-07T11:21:18-04:00</updated>
+    <updated>2025-08-07T12:17:27-04:00</updated>
     <author>
       <name>bunkerity/bunkerweb</name>
     </author>

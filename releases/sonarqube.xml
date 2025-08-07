@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>SonarQube Releases</title>
-  <updated>2025-08-07T11:33:18.955418-04:00</updated>
+  <updated>2025-08-07T12:33:17.251720-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -57,7 +57,7 @@
     <author>
       <name>SonarSource/sonarqube</name>
     </author>
-    <content>&lt;p&gt;To be done later.&lt;/p&gt;</content>
+    <content>&lt;p&gt;See details in the &lt;a href="https://community.sonarsource.com/t/sonarqube-community-build-25-8-0-112029-released/146251"&gt;community announcement&lt;/a&gt;, and more in the &lt;a href="https://sonarsource.atlassian.net/issues/?jql=project%20%3D%2010139%20AND%20fixVersion%3D19334%20AND%20issuetype%20%21%3D%20Task"&gt;release notes&lt;/a&gt;.&lt;/p&gt;</content>
     <link href="https://github.com/SonarSource/sonarqube/releases/tag/25.8.0.112029" rel="alternate"/>
   </entry>
 </feed>
