@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dagu Releases</title>
-  <updated>2025-08-06T20:34:58.479009-04:00</updated>
+  <updated>2025-08-06T21:34:50.950184-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -86,19 +86,15 @@
     </author>
     <content>&lt;p&gt;This release includes bug fixes to improve Dagu’s robustness.&lt;/p&gt;
 &lt;p&gt;As a new feature, you can now specify a container at the DAG level to run all steps in a single container with a shared volume. Private registries are also supported. This makes it easier to create reproducible workflows using container images. Please visit the &lt;a href="https://docs.dagu.cloud/writing-workflows/container"&gt;container config doc&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;New Features
-- &lt;strong&gt;DAG-level Container Field&lt;/strong&gt;: Added support for running all steps in a single container with DAG-level container configuration (#1154)
-- &lt;strong&gt;Zombie DAG Detection&lt;/strong&gt;: Added automatic detection and cleanup of zombie DAG runs with configurable detection interval (#1163) - Thanks to &lt;a href="https://github.com/jonasban"&gt;@jonasban&lt;/a&gt; for feedback
-- &lt;strong&gt;Container Registry Authentication&lt;/strong&gt;: Added support for pulling images from private registries with username/password and token-based authentication (#1165) - Thanks to &lt;a href="https://github.com/vnghia"&gt;@vnghia&lt;/a&gt; for the feature request&lt;/p&gt;
-&lt;p&gt;Improvements
-- &lt;strong&gt;Scheduler Health Check&lt;/strong&gt;: Fixed health check server startup to work correctly with multiple scheduler instances (#1157) - Thanks to &lt;a href="https://github.com/jonasban"&gt;@jonasban&lt;/a&gt; for reporting
-- &lt;strong&gt;Stop Operation&lt;/strong&gt;: Fixed stop operation to properly handle multiple running instances of the same DAG (#1167) - Thanks to &lt;a href="https://github.com/jeremydelattre59"&gt;@jeremydelattre59&lt;/a&gt; for reporting
-- &lt;strong&gt;Scheduler Queue Processing&lt;/strong&gt;: Fixed scheduler to use heartbeat monitoring instead of status files for more reliable process detection (#1166) - Thanks to &lt;a href="https://github.com/jrisch"&gt;@jrisch&lt;/a&gt; for feedback
-- &lt;strong&gt;Environment Variables&lt;/strong&gt;: Corrected environment variable mapping for coordinator host and port configuration (#1162)
-- &lt;strong&gt;Docker Permissions&lt;/strong&gt;: Ensured DAGU_HOME directory has proper permissions in Docker containers (#1161)&lt;/p&gt;
-&lt;p&gt;Bug Fixes
-- &lt;strong&gt;Continue On Skipped&lt;/strong&gt;: Fixed exit code 0 incorrectly triggering continuation for skipped steps with repeat policies (#1158) - Thanks to &lt;a href="https://github.com/jeremydelattre59"&gt;@jeremydelattre59&lt;/a&gt; for reporting and &lt;a href="https://github.com/thefishhat"&gt;@thefishhat&lt;/a&gt; for the fix
-- &lt;strong&gt;Queue Processing&lt;/strong&gt;: Fixed process store to correctly use queue name when specified (#1155) - Thanks to &lt;a href="https://github.com/jonasban"&gt;@jonasban&lt;/a&gt; and &lt;a href="https://github.com/ghansham"&gt;@ghansham&lt;/a&gt; for reporting&lt;/p&gt;
+&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: prevent exit code 0 from incorrectly triggering continuation for skipped steps by @thefishhat in https://github.com/dagu-org/dagu/pull/1158&lt;/li&gt;
+&lt;li&gt;feat: DAG level &lt;code&gt;container&lt;/code&gt; field to run steps in a single container by @yottahmd in https://github.com/dagu-org/dagu/pull/1154&lt;/li&gt;
+&lt;li&gt;feat: add zombie DAG run detection to scheduler by @yottahmd in https://github.com/dagu-org/dagu/pull/1163&lt;/li&gt;
+&lt;li&gt;feat: add container registry authentication support by @yottahmd in https://github.com/dagu-org/dagu/pull/1165&lt;/li&gt;
+&lt;li&gt;Fix scheduler to check if DAG is running by heartbeat instead of status file by @yottahmd in https://github.com/dagu-org/dagu/pull/1166&lt;/li&gt;
+&lt;li&gt;Fix stop operation to handle case where RunID is not specified by @yottahmd in https://github.com/dagu-org/dagu/pull/1167&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/dagu-org/dagu/compare/v1.18.4...v1.19.0&lt;/p&gt;</content>
     <link href="https://github.com/dagu-org/dagu/releases/tag/v1.19.0" rel="alternate"/>
   </entry>
