@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Syncthing-Fork Releases</title>
-  <updated>2025-08-07T08:36:11.338541-04:00</updated>
+  <updated>2025-08-07T09:36:10.251336-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -35,5 +35,18 @@
 &lt;li&gt;Update SyncthingNative to v1.30.0 by @Catfriend1 in https://github.com/Catfriend1/syncthing-android/pull/1517&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.30.0.1" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Catfriend1/syncthing-android/releases/tag/v1.30.0.3</id>
+    <title>New release for Syncthing-Fork: Syncthing-Fork v1.30.0.3</title>
+    <updated>2025-08-07T08:52:10-04:00</updated>
+    <author>
+      <name>Catfriend1/syncthing-android</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed UI crash if index sequence number for a folder exceeds a limit. This affected a minority of users, especially Syncthing-Lite users. But if it happened, users were unable to export config and could no longer open the app.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://github.com/Catfriend1/syncthing-android/releases/tag/v1.30.0.3" rel="alternate"/>
   </entry>
 </feed>
