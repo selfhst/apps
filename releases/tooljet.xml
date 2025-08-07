@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ToolJet Releases</title>
-  <updated>2025-08-07T09:32:35.515219-04:00</updated>
+  <updated>2025-08-07T10:32:45.786258-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -1080,5 +1080,47 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.16.0-lts...v3.16.1-lts&lt;/p&gt;</content>
     <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.16.1-lts" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/ToolJet/ToolJet/releases/tag/v3.16.2-lts</id>
+    <title>New release for ToolJet: v3.16.2-lts</title>
+    <updated>2025-08-07T09:35:28-04:00</updated>
+    <author>
+      <name>ToolJet/ToolJet</name>
+    </author>
+    <content>&lt;h2&gt;What's Changed&lt;/h2&gt;
+&lt;h3&gt;🚀 Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Show "Fill with AI" button in SQL Mode for Multiline Editor by @NishidhJain11 in https://github.com/ToolJet/ToolJet/pull/13708&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🌟 Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved proxy error handling for component access by @vjaris42 in https://github.com/ToolJet/ToolJet/pull/13693&lt;/li&gt;
+&lt;li&gt;Improved role retrieval for super admins for authorize API by @gsmithun4 in https://github.com/ToolJet/ToolJet/pull/13690&lt;/li&gt;
+&lt;li&gt;Optimized element guidelines calculations by @nakulnagargade in https://github.com/ToolJet/ToolJet/pull/13709&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🛠️ Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed pagination to render all data when disabled in Table by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13664&lt;/li&gt;
+&lt;li&gt;Ensured ssl_enabled value is string in SampleDataSourceService by @gsmithun4 in https://github.com/ToolJet/ToolJet/pull/13679&lt;/li&gt;
+&lt;li&gt;Fixed action button placement on table dynamic columns by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13674&lt;/li&gt;
+&lt;li&gt;Fixed Dropdown/Multiselect breaking in Listview by @shaurya-sharma064 in https://github.com/ToolJet/ToolJet/pull/13675&lt;/li&gt;
+&lt;li&gt;Fixed getters returning promises by @shaurya-sharma064 in https://github.com/ToolJet/ToolJet/pull/13680&lt;/li&gt;
+&lt;li&gt;Included role name in user groups array by @johnsoncherian in https://github.com/ToolJet/ToolJet/pull/13687&lt;/li&gt;
+&lt;li&gt;Fixed ModalV2 not appearing as option to close modal in event manager by @nakulnagargade in https://github.com/ToolJet/ToolJet/pull/13691&lt;/li&gt;
+&lt;li&gt;Fixed shrinking subcontainer issue on dragging by @nakulnagargade in https://github.com/ToolJet/ToolJet/pull/13688&lt;/li&gt;
+&lt;li&gt;Fixed drag delay event registration on different OS by @vjaris42 in https://github.com/ToolJet/ToolJet/pull/13686&lt;/li&gt;
+&lt;li&gt;Fixed pagination state update in useTable hook for server-side handling by @kavinvenkatachalam in https://github.com/ToolJet/ToolJet/pull/13716&lt;/li&gt;
+&lt;li&gt;Fixed config handle not appearing on Modal and Modalv2 by @nakulnagargade in https://github.com/ToolJet/ToolJet/pull/13713&lt;/li&gt;
+&lt;li&gt;Other minor fixes by @shaurya-sharma064 in https://github.com/ToolJet/ToolJet/pull/13689&lt;/li&gt;
+&lt;li&gt;Additional UI bug fixes by @shaurya-sharma064 in https://github.com/ToolJet/ToolJet/pull/13703&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🧪 Specs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed folder structure for LTS and pre-release by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13666&lt;/li&gt;
+&lt;li&gt;post release automation corrections by @adishM98 in https://github.com/ToolJet/ToolJet/pull/13662&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/ToolJet/ToolJet/compare/v3.16.1-lts...v3.16.2-lts&lt;/p&gt;</content>
+    <link href="https://github.com/ToolJet/ToolJet/releases/tag/v3.16.2-lts" rel="alternate"/>
   </entry>
 </feed>
