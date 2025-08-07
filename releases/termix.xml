@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Termix Releases</title>
-  <updated>2025-08-06T23:36:53.186326-04:00</updated>
+  <updated>2025-08-07T00:36:59.133511-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -17,7 +17,8 @@
     <author>
       <name>LukeGus/Termix</name>
     </author>
-    <content>&lt;p&gt;Change Log:
+    <content>&lt;p&gt;Added the ability to create users and save hosts, and also fixed miscellaneous authentication issues.&lt;/p&gt;
+&lt;p&gt;Change Log:
 - User System (create user, log in, guest user, all completely encrypted)
 - Save Hosts (also encrypted)
 - Improved Logging&lt;/p&gt;
@@ -33,7 +34,8 @@
     <author>
       <name>LukeGus/Termix</name>
     </author>
-    <content>&lt;p&gt;Change Log:
+    <content>&lt;p&gt;Better SSH key and low-end devices support, fixed timeout and pasting terminal issues.&lt;/p&gt;
+&lt;p&gt;Change Log:
 - Renamed all release versions for consistency
 - Show the version number in the profile menu
 - Support for low-end devices (switched MongoDB to version 4)
