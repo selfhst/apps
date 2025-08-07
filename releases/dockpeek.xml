@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Dockpeek Releases</title>
-  <updated>2025-08-07T07:37:57.052126-04:00</updated>
+  <updated>2025-08-07T08:37:56.429661-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -85,5 +85,15 @@ DOCKER_HOST_PUBLIC_HOSTNAME=192.168.1.100&lt;/code&gt;&lt;/p&gt;
     </author>
     <content/>
     <link href="https://github.com/dockpeek/dockpeek/releases/tag/v1.4.6" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/dockpeek/dockpeek/releases/tag/v1.5.2</id>
+    <title>New release for Dockpeek: </title>
+    <updated>2025-08-07T07:38:03-04:00</updated>
+    <author>
+      <name>dockpeek/dockpeek</name>
+    </author>
+    <content/>
+    <link href="https://github.com/dockpeek/dockpeek/releases/tag/v1.5.2" rel="alternate"/>
   </entry>
 </feed>

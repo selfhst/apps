@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>DockFlare Releases</title>
-  <updated>2025-08-07T07:37:18.561712-04:00</updated>
+  <updated>2025-08-07T08:37:17.293130-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -299,11 +299,6 @@ volumes:
 &lt;p&gt;&lt;code&gt;bash
 docker compose down &amp;amp;&amp;amp; docker compose up -d&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Your DockFlare instance is now password-protected. Thank you for your continued support and for taking these steps to secure your instance.&lt;/p&gt;
-&lt;h3&gt;Step 4: Restart DockFlare&lt;/h3&gt;
-&lt;p&gt;Finally, restart your DockFlare container to apply the new security settings.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;bash
-docker compose down &amp;amp;&amp;amp; docker compose up -d&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Thank you for your continued support and for helping to improve DockFlare's security. Please update your instances at your earliest convenience.&lt;/p&gt;
 &lt;p&gt;Cherrs,
 Chris&lt;/p&gt;</content>
     <link href="https://github.com/ChrispyBacon-dev/DockFlare/releases/tag/v2.0.5" rel="alternate"/>
