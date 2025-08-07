@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>Uncloud Releases</title>
-  <updated>2025-08-07T04:36:38.513750-04:00</updated>
+  <updated>2025-08-07T05:36:41.260998-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -311,7 +311,40 @@ sudo systemctl restart uncloud
     <author>
       <name>psviderski/uncloud</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;What's new&lt;/h2&gt;
+&lt;h3&gt;Force service redeployment&lt;/h3&gt;
+&lt;p&gt;Added &lt;code&gt;--recreate&lt;/code&gt; flag to the &lt;code&gt;deploy&lt;/code&gt; command to force container recreation even if their configuration and image haven't changed. This is particularly useful when you've pushed updated images directly to machines using tools like &lt;a href="https://github.com/psviderski/unregistry"&gt;unregistry&lt;/a&gt;, and need to redeploy services to use the updated images without changing their tags. Or just want to test the redeployment process without changing the service configuration.&lt;/p&gt;
+&lt;p&gt;&lt;img width="872" height="583" alt="Screenshot 2025-08-07 at 6 23 01 pm" src="https://github.com/user-attachments/assets/17df29f8-facc-43e4-bebe-b2b252fe2101" /&gt;&lt;/p&gt;
+&lt;h3&gt;Reset machine on initialisation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;machine init&lt;/code&gt; and &lt;code&gt;machine add&lt;/code&gt; commands now ask you whether to reset the machine if they detect that the machine is already a cluster member. This helps when:
+- Repurposing a machine that was previously part of a different Uncloud cluster
+- Recovering from a failed or incomplete previous installation
+- Starting fresh after testing or experimentation with Uncloud&lt;/p&gt;
+&lt;p&gt;&lt;img width="870" height="591" alt="Screenshot 2025-08-07 at 6 25 49 pm" src="https://github.com/user-attachments/assets/1b98cc59-1440-4715-bc70-1b3b8fb0591b" /&gt;&lt;/p&gt;
+&lt;h3&gt;Default restart policy&lt;/h3&gt;
+&lt;p&gt;Changed the default restart policy for service containers from &lt;code&gt;always&lt;/code&gt; to &lt;code&gt;unless-stopped&lt;/code&gt;. This allows you to stop containers manually and have them remain stopped even after a system reboot or Docker restart.&lt;/p&gt;
+&lt;h2&gt;Upgrade to 0.11.0&lt;/h2&gt;
+&lt;h3&gt;Uncloud CLI locally&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud CLI (&lt;code&gt;uc&lt;/code&gt;) locally:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;Homebrew (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;brew upgrade uncloud&lt;/p&gt;
+&lt;h1&gt;Install script (macOS, Linux)&lt;/h1&gt;
+&lt;p&gt;curl -fsS https://get.uncloud.run/install.sh | sh
+```&lt;/p&gt;
+&lt;h3&gt;Machine daemon&lt;/h3&gt;
+&lt;p&gt;To upgrade the Uncloud daemon on your machines, run the following commands on each machine:&lt;/p&gt;
+&lt;p&gt;```bash&lt;/p&gt;
+&lt;h1&gt;AMD64&lt;/h1&gt;
+&lt;p&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.11.0/uncloudd_linux_amd64.tar.gz&lt;/p&gt;
+&lt;h1&gt;ARM64&lt;/h1&gt;
+&lt;h1&gt;curl -fsSL -o uncloudd.tar.gz https://github.com/psviderski/uncloud/releases/download/v0.11.0/uncloudd_linux_arm64.tar.gz&lt;/h1&gt;
+&lt;p&gt;tar -xf uncloudd.tar.gz
+sudo install uncloudd /usr/local/bin/uncloudd
+rm uncloudd uncloudd.tar.gz
+sudo systemctl restart uncloud
+```&lt;/p&gt;
+&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ae9f943404d3a27116835e304384b339e66a5138 chore: change default restart policy for service containers &lt;code&gt;always&lt;/code&gt; -&amp;gt; &lt;code&gt;unless-stopped&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;8805178a58632c8b55e16d7ec9bc3915a88d0369 doc: Add Sentry to sponsors&lt;/li&gt;
