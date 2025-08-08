@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>copyparty Releases</title>
-  <updated>2025-08-08T02:35:57.556379-04:00</updated>
+  <updated>2025-08-08T04:36:01.411154-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -337,6 +337,7 @@
 &lt;li&gt;
 &lt;h1&gt;511 login with username and password (not just password) can now optionally be enabled with &lt;code&gt;--usernames&lt;/code&gt; 346515cc&lt;/h1&gt;
 &lt;/li&gt;
+&lt;li&gt;if you have enabled password hashing (&lt;code&gt;ah-alg: argon2&lt;/code&gt; or similar) then you will need to hash your passwords again after enabling usernames, hashing them as &lt;code&gt;username:password:&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;468 add Greek translation (thx @chamdim!) 50f46187 392abd06&lt;/h1&gt;
 &lt;/li&gt;
@@ -373,6 +374,8 @@
 &lt;li&gt;a bit inconvenient, but helps prevent potentially-dangerous misconfiguration&lt;/li&gt;
 &lt;li&gt;the necessary configuration changes are explained in the serverlog (you can't miss it)&lt;/li&gt;
 &lt;li&gt;thanks to @person4268 for pointing out that there was room for improvements!&lt;/li&gt;
+&lt;li&gt;failed login attempts now only log a sha512 hash of the provided password&lt;/li&gt;
+&lt;li&gt;to see login-attempts with incorrect passwords as plaintext like before, &lt;code&gt;log-badpwd: 1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;h1&gt;502 add systemd user services and templated services (thx @icxes!) 34d98e99&lt;/h1&gt;
 &lt;/li&gt;
