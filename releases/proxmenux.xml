@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>ProxMenux Releases</title>
-  <updated>2025-08-07T17:37:58.368297-04:00</updated>
+  <updated>2025-08-07T20:37:15.752206-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -119,5 +119,76 @@ Feel free to report issues or suggest improvements — all contributions are wel
 &lt;p&gt;Thank you for using &lt;strong&gt;ProxMenux&lt;/strong&gt;!&lt;br /&gt;
 Please report any bugs or suggestions — your feedback helps improve the project for everyone 🙌&lt;/p&gt;</content>
     <link href="https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.3" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.4</id>
+    <title>New release for ProxMenux: </title>
+    <updated>2025-08-07T17:43:04-04:00</updated>
+    <author>
+      <name>MacRimi/ProxMenux</name>
+    </author>
+    <content>&lt;h1&gt;&lt;img src="https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo.png" alt="ProxMenux logo" width="40"/&gt;  ProxMenux v1.1.4&lt;/h1&gt;
+&lt;p&gt;This version focuses on full &lt;strong&gt;compatibility with Proxmox VE 9&lt;/strong&gt;, ensuring that key functionalities like repository setup, remain functional in the new system.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🔧 Main changes in v1.1.4&lt;/h2&gt;
+&lt;h3&gt;🆕 Proxmox 9 compatibility&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Repository Setup Updated&lt;/strong&gt;&lt;br /&gt;
+  ProxMenux now detects whether the system uses traditional &lt;code&gt;sources.list&lt;/code&gt; or the new &lt;code&gt;.sources&lt;/code&gt; format introduced in Proxmox 9 — and configures the repositories accordingly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optional Banner Removal for Proxmox 9&lt;/strong&gt;&lt;br /&gt;
+  The subscription banner patch is now available for Proxmox 9 if the user chooses to apply it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;⚙️ Behavior Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Improved Disk Passthrough for LXC&lt;/strong&gt;&lt;br /&gt;
+  Now uses &lt;strong&gt;persistent UUID paths&lt;/strong&gt; to ensure correct disk assignment even if device order (&lt;code&gt;/dev/sdX&lt;/code&gt;) changes after hardware modifications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;bash
+  PERSISTENT_DISK=$(get_persistent_path "$DISK")
+  if [[ "$PERSISTENT_DISK" != "$DISK" ]] ...&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;More Robust Utility Installer&lt;/strong&gt;&lt;br /&gt;
+  Now validates APT sources before trying to install selected tools.&lt;br /&gt;
+  If none exist (e.g., after fresh install), the default repository entries will be automatically added.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Better IOMMU Handling with ZFS&lt;/strong&gt;&lt;br /&gt;
+  Detects existing kernel parameters in &lt;code&gt;/etc/kernel/cmdline&lt;/code&gt; to avoid duplicating values when enabling IOMMU on ZFS-based systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conflict Detection with xshok-proxmox&lt;/strong&gt;&lt;br /&gt;
+  Now detects if the xshok-proxmox post-install script was previously executed and alerts the user to avoid potential conflicts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3&gt;🧹 Minor Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Minor performance optimizations  &lt;/li&gt;
+&lt;li&gt;Code cleanup across multiple modules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;📦 Current project structure&lt;/h2&gt;
+&lt;p&gt;The project is organized into modular, interactive menus designed for managing and customizing a Proxmox VE system:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Post-Install Settings for Proxmox&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Help and Info Commands&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware: GPU and Coral TPU Tools&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create VMs from Templates or Scripts&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disk and Storage Manager&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Essential Proxmox VE Helper Scripts&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Tools and Tweaks&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System Settings and Optimization&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The project is based on interactive menus, with multilingual support and a modular architecture.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Thank you for using &lt;strong&gt;ProxMenux&lt;/strong&gt;!&lt;br /&gt;
+Feel free to report issues or suggest improvements — all contributions are welcome 🙌&lt;/p&gt;</content>
+    <link href="https://github.com/MacRimi/ProxMenux/releases/tag/v1.1.4" rel="alternate"/>
   </entry>
 </feed>
