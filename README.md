@@ -1,3 +1,3 @@
-# selfh.st/apps
+# Notice
 
-This repository is a data store for the directory of self-hosted applications and companions found at [selfh.st/apps](https://selfh.st/apps). For more information, please see the project's [About](https://selfh.st/apps-about/) page.
+This repository has been deprecated and will be deleted on September 30, 2025.
