@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-08-08T06:36:42.979280-04:00</updated>
+  <updated>2025-08-08T07:36:38.383983-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -223,7 +223,22 @@ This is unlikely to have caused many real-world issues so far. [&lt;a href="http
     <author>
       <name>openbao/openbao</name>
     </author>
-    <content>&lt;h2&gt;SECURITY&lt;/h2&gt;
+    <content>&lt;blockquote&gt;
+&lt;p&gt;[!WARNING]
+Due to security vulnerabilities, there are three breaking changes in this
+security release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;audit&lt;/code&gt; subsystem will no longer allow creation of new devices via the
+ API except by setting &lt;code&gt;unsafe_allow_api_audit_creation&lt;/code&gt;. In the v2.4.0
+ release, support for configuration-based audit device definition will be
+ added.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;auth/ldap&lt;/code&gt; has changed entity formats to normalize against whitespace and
+ case-sensitivity when the unsafe &lt;code&gt;username_as_alias=true&lt;/code&gt; parameter is set.&lt;/li&gt;
+&lt;li&gt;TOTP codes now must be exactly N numeric digits and cannot contain leading
+ or trailing whitespace and will be rejected by the API if they do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;SECURITY&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;audit: Add server configuration options to disable audit mount creation via the API and to disable audit log prefixing. HCSEC-2025-14 / CVE-2025-6000 / CVE-2025-54997. [&lt;a href="https://github.com/openbao/openbao/pull/1634"&gt;GH-1634&lt;/a&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;unsafe_allow_api_audit_creation (default: false)&lt;/code&gt; controls the ability to create audit mounts via the API&lt;/li&gt;
@@ -272,7 +287,8 @@ auth/ldap: Attempt consistent entity aliasing w.r.t. spacing and casing. HCSEC-2
 
 &lt;/details&gt;
 
-&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/openbao/openbao/compare/v2.3.1...v2.3.2&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;Release notes&lt;/strong&gt;: https://openbao.org/docs/release-notes/2-3-0/#v232
+&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/openbao/openbao/compare/v2.3.1...v2.3.2&lt;/p&gt;</content>
     <link href="https://github.com/openbao/openbao/releases/tag/v2.3.2" rel="alternate"/>
   </entry>
 </feed>
