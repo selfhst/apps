@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://selfh.st/apps</id>
   <title>OpenBao Releases</title>
-  <updated>2025-08-08T05:37:14.631543-04:00</updated>
+  <updated>2025-08-08T06:36:42.979280-04:00</updated>
   <author>
     <name>selfh.st</name>
     <email>contact@selfh.st</email>
@@ -223,26 +223,56 @@ This is unlikely to have caused many real-world issues so far. [&lt;a href="http
     <author>
       <name>openbao/openbao</name>
     </author>
-    <content>&lt;h2&gt;Changelog&lt;/h2&gt;
+    <content>&lt;h2&gt;SECURITY&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;053879abbe2aead7521642ab8730bd4b89cfee26: Add backoff for templating server (#1448) (#1639) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;c9f4b16dd9dda89c383ce5980b6345b86034a91b: Add release of distribution source tarball (#1607) (#1643) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;0bb71de3fd6bd3ad1a615791d4b68e241d13c32c: Address login MFA TOTP reuse vulnerability (#1629) (#1654) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;b6b4e2dba22d052e8dacc2b35ed1611a97d2a135: Bump to Go 1.24.6 (#1637) (#1655) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;064e6268f742983d66abb232ebf70691276ded2e: Copy file from main and update CODEOWNERS for release/2.3.x (#1509) (@driif)&lt;/li&gt;
-&lt;li&gt;3d1c232a689bb0546d29482583bdfcbbee179200: Disable audit mount creation via API + disable audit log prefixing (#… (#1649) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;b49fa88cad93987ced4ae52db76b7b4f49bd56f0: Ensure lowercase policy in entities to forbid root policy (#1627) (#1646) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;1d1cbc5f9f16ca2aced665a11c081864cb842eba: Fix TOTP engine verification reuse bypass (#1625) (#1645) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;a2eaaadc9f90015c1f1eb2d8f4f795547fd83819: Fix race condition while sealing in namespace deletion operation (#1525) (#1640) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;5965d44e4761de348b4754a395257c132410a7a9: Fix timing leak in userpass auth method (#1628) (#1647) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;aa7032cbd915f3580272ac08ac4f7a425859532e: Ignore missing mount during namespace deletion (#1594) (#1642) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;04192d22dd665f539823b95cd00e851478294184: Namespace Store: Reuse locks across calls &amp;amp; fix missing locks (#1538) (#1653) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;b1a68f558c89d18d38fbb8675bb6fc1d90b71e98: Prepare for release 2.3.2 (#1659) (@DrDaveD)&lt;/li&gt;
-&lt;li&gt;eca4a71ce12114a37786a3d280ec5e1d172a7204: Remove policyTypeMap from Policy Store (#1613) (#1644) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;30d914f57116d1cc445e1219d331e4b9dc7a4ace: Update critical dependencies (#1631) (#1648) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;d5b8330b79793fe40fd2f79bb408a3b3daf6abab: fix license dependencies generation to work with project go version (#1657) (#1658) (@cipherboy)&lt;/li&gt;
-&lt;li&gt;92601906752f37d10c262e8d2d56c23e9b0c2382: fix(oidc-provider): correctly lowercase identity IDs (#1539) (#1641) (@cipherboy)&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;audit: Add server configuration options to disable audit mount creation via the API and to disable audit log prefixing. HCSEC-2025-14 / CVE-2025-6000 / CVE-2025-54997. [&lt;a href="https://github.com/openbao/openbao/pull/1634"&gt;GH-1634&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;unsafe_allow_api_audit_creation (default: false)&lt;/code&gt; controls the ability to create audit mounts via the API&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;allow_audit_log_prefixing (default: false)&lt;/code&gt; controls the availability of the &lt;code&gt;prefix&lt;/code&gt; audit mount option&lt;/li&gt;
+&lt;li&gt;auth/mfa: correctly limit reuse of TOTP codes during login MFA enforcement. HCSEC-2025-19 / CVE-2025-6015 / CVE-2025-55003. [&lt;a href="https://github.com/openbao/openbao/pull/1629"&gt;GH-1629&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;auth/userpass: Prevent timing-based leak in userpass auth method. HCSEC-2025-15 / CVE-2025-6011 / CVE-2025-54999.  Assumed to also apply to HCSEC-2025-21 / CVE-2025-6010. [&lt;a href="https://github.com/openbao/openbao/pull/1628"&gt;GH-1628&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/auth: Correctly handle alias lookahead for user lockout consistency. HCSEC-2025-16 / CVE-2025-6004 / CVE-2025-54998.
+auth/userpass: Consistently handle alias lookahead as case insensitive. HCSEC-2025-16 / CVE-2025-6004 / CVE-2025-54998.
+auth/ldap: Attempt consistent entity aliasing w.r.t. spacing and casing. HCSEC-2025-16 / CVE-2025-6004 / CVE-2025-54998 and HCSEC-2025-20 / CVE-2025-6013 / CVE-2025-55001. [&lt;a href="https://github.com/openbao/openbao/pull/1632"&gt;GH-1632&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/identity: Correctly lowercase policy names to prevent root policy assignment. HCSEC-2025-13 / CVE-2025-5999 / CVE-2025-54996. [&lt;a href="https://github.com/openbao/openbao/pull/1627"&gt;GH-1627&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;secrets/totp: Fix TOTP verification reuse bypass when the TOTP code contains spaces. HCSEC-2025-17 / CVE-2025-6014 / CVE-2025-55000. [&lt;a href="https://github.com/openbao/openbao/pull/1625"&gt;GH-1625&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;IMPROVEMENTS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;core: Update to Go 1.24.6. [&lt;a href="https://github.com/openbao/openbao/pull/1637"&gt;GH-1637&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;BUG FIXES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ignore missing mounts when deleting a namespace. This can happen when a mount is unmounted in parallel. [&lt;a href="https://github.com/openbao/openbao/pull/1594"&gt;GH-1594&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;agent/template: add missing backoff mechanism for the templating server [&lt;a href="https://github.com/openbao/openbao/pull/1448"&gt;GH-1448&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/namespaces: fixed race condition in namespace deletion operation during instance sealing [&lt;a href="https://github.com/openbao/openbao/pull/1525"&gt;GH-1525&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;core/policies: fix bug with missing existing policies in namespaces during failover, startup [&lt;a href="https://github.com/openbao/openbao/pull/1613"&gt;GH-1613&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;identity/oidc: Fix unintentional lowercasing of namespace accessor in assignments. [&lt;a href="https://github.com/openbao/openbao/pull/1539"&gt;GH-1539&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+
+&lt;summary&gt;&lt;h2&gt; What's Changed&lt;/h2&gt;&lt;/summary&gt;
+
+* Add backoff for templating server (#1448 by @Huy-Dinh-Reply) backported by @cipherboy in #1639
+* Add release of distribution source tarball (#1607 by @DrDaveD) backported by @cipherboy in #1643
+* Address login MFA TOTP reuse vulnerability (#1629 by @cipherboy) backported by @cipherboy in #1654
+* Bump to Go 1.24.6 (#1637 by @cipherboy) backported by @cipherboy in #1655
+* Copy file from main and update CODEOWNERS for release/2.3.x by @driif in #1509
+* Disable audit mount creation via API + disable audit log prefixing (#1634 by @satoqz) backported by @cipherboy in #1649
+* Ensure lowercase policy in entities to forbid root policy (#1627 by @cipherboy) backported by @cipherboy in #1646
+* Fix TOTP engine verification reuse bypass (#1625 by @cipherboy) backported by @cipherboy in #1645
+* Fix race condition while sealing in namespace deletion operation (#1525 by @wslabosz-reply) backported by @cipherboy in #1640
+* Fix timing leak in userpass auth method (#1628 by @wslabosz-reply) backported by @cipherboy in #1647
+* Ignore missing mount during namespace deletion (#1594 by @phil9909) backported by @cipherboy in #1642
+* Namespace Store: Reuse locks across calls &amp; fix missing locks (#1538 by @satoqz) backported by @cipherboy in #1653
+* Prepare for release 2.3.2 by @DrDaveD in #1659
+* Remove policyTypeMap from Policy Store (#1613 by @cipherboy) backported by @cipherboy in #1644
+* Update critical dependencies (#1631 by @cipherboy) backported by @cipherboy in #1648
+* fix license dependencies generation to work with project go version (#1657 by @DrDaveD) backported by @cipherboy in #1658
+* fix(oidc-provider): correctly lowercase identity IDs (#1539 by @SapphicCode) backported by @cipherboy in #1641
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: https://github.com/openbao/openbao/compare/v2.3.1...v2.3.2&lt;/p&gt;</content>
     <link href="https://github.com/openbao/openbao/releases/tag/v2.3.2" rel="alternate"/>
   </entry>
 </feed>
